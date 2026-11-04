@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0E3B33">
+<title>Révision INFAS · Éditeur</title>
+<!--
+  PAGE DE LANCEMENT de l'éditeur (GitHub Pages). Elle reconstitue le fichier maître dans le navigateur à partir de
+  source/master (manifest.json + morceaux), exactement comme tools/assembler_maitre.py : chaque morceau est vérifié
+  (taille + SHA-256) puis le fichier complet (taille + SHA-256 du manifeste). Rien n'est ouvert en cas d'écart.
+  Le fichier reconstitué est gardé dans IndexedDB (« ri_editeur_lanceur ») : les ouvertures suivantes sont immédiates,
+  et un nouveau téléchargement n'a lieu que si le manifeste a changé (nouvelle version poussée sur le dépôt).
+-->
+<style>
+:root{--bg:#F4F7F5;--carte:#FFFFFF;--texte:#14231F;--doux:#5B6B66;--prim:#0E3B33;--acc:#1F8A70;--ko:#B3261E;--bord:#D5DFDA}
+@media (prefers-color-scheme: dark){:root{--bg:#0F1614;--carte:#18221F;--texte:#E6EEEA;--doux:#9AAAA4;--prim:#2BA88A;--acc:#4CC3A3;--ko:#FF8A80;--bord:#2E3C37}}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--texte);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{min-height:100%;display:flex;align-items:center;justify-content:center;padding:16px}
+.carte{width:100%;max-width:440px;background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:22px}
+h1{font-size:20px;margin:0 0 4px}
+.sous{color:var(--doux);font-size:14px;margin:0 0 18px}
+.barre{height:10px;background:var(--bord);border-radius:99px;overflow:hidden}
+.barre>div{height:100%;width:0;background:var(--acc);transition:width .2s}
+#msg{font-size:14px;color:var(--doux);margin-top:10px;min-height:42px}
+#msg.ko{color:var(--ko)}
+button{margin-top:12px;border:0;border-radius:10px;padding:9px 14px;font:inherit;font-weight:600;background:var(--prim);color:#fff;cursor:pointer}
+button.sec{background:transparent;color:var(--doux);border:1px solid var(--bord)}
+</style>
+</head>
+<body>
+<main><div class="carte">
+  <h1>Révision INFAS · Éditeur</h1>
+  <p class="sous">Créé par Daniel Noufe · INFAS</p>
+  <div class="barre" role="progressbar" aria-label="Préparation de l'éditeur" aria-valuemin="0" aria-valuemax="100"><div id="prog"></div></div>
+  <div id="msg" aria-live="polite">Préparation…</div>
+  <div id="actions"></div>
+</div></main>
+<script>
+/* Tout le lanceur est dans une fonction isolée : document.write() garde le même contexte JavaScript, et le
+   portail déclare lui-même des noms globaux ($, APPID…) qui entreraient en conflit avec ceux du lanceur. */
+(function(){
+"use strict";
+const MANIFESTE = 'source/master/manifest.json', DOSSIER = 'source/master/';
+const BASE_IDB = 'ri_editeur_lanceur', PARALLELE = 8;
+const $ = s => document.querySelector(s);
+const msg = (t, ko) => { const m = $('#msg'); m.textContent = t; m.className = ko ? 'ko' : '' };
+const prog = p => { $('#prog').style.width = Math.round(p) + '%'; document.querySelector('.barre').setAttribute('aria-valuenow', Math.round(p)) };
+const hex = b => [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, '0')).join('');
+const sha = async b => (window.crypto && crypto.subtle) ? hex(await crypto.subtle.digest('SHA-256', b)) : null;
+
+/* ---------- cache local du fichier reconstitué (IndexedDB) ---------- */
+function idb(){ return new Promise((ok, ko) => { if (!window.indexedDB) return ko(new Error('IndexedDB indisponible'));
+  const r = indexedDB.open(BASE_IDB, 1); r.onupgradeneeded = () => r.result.createObjectStore('fichier'); r.onsuccess = () => ok(r.result); r.onerror = () => ko(r.error) }) }
+async function lireCache(){ try { const db = await idb(); return await new Promise(ok => { const q = db.transaction('fichier').objectStore('fichier').get('maitre');
+  q.onsuccess = () => { db.close(); ok(q.result || null) }; q.onerror = () => { db.close(); ok(null) } }) } catch(e){ return null } }
+async function ecrireCache(v){ try { const db = await idb(); await new Promise(ok => { const t = db.transaction('fichier', 'readwrite'); t.objectStore('fichier').put(v, 'maitre');
+  t.oncomplete = () => { db.close(); ok() }; t.onerror = t.onabort = () => { db.close(); ok() } }) } catch(e){} }
+
+/* ---------- base64 d'un ArrayBuffer (par tranches, sans dépasser la pile) ---------- */
+function base64(buf){
+  const u = new Uint8Array(buf); let s = '';
+  for (let i = 0; i < u.length; i += 0x8000) s += String.fromCharCode.apply(null, u.subarray(i, i + 0x8000));
+  return btoa(s);
+}
+
+/* ---------- reconstitution, identique à tools/assembler_maitre.py ---------- */
+async function assembler(man){
+  const segs = man.segments, parts = new Array(segs.length), enc = new TextEncoder();
+  const blocs = segs.map((s, i) => [s, i]).filter(([s]) => s.type === 'bloc');
+  let faits = 0, octets = 0;
+  for (let i = 0; i < segs.length; i++) if (segs[i].type === 'html') parts[i] = enc.encode(segs[i].texte);
+  async function un([s, i]){
+    let r;
+    for (let essai = 0; essai < 3; essai++) {        // jusqu'à 3 essais par morceau (réseau mobile instable)
+      try { r = await fetch(DOSSIER + s.fichier, {cache:'no-cache'}); if (r.ok) break } catch(e) { r = null }
+      await new Promise(ok => setTimeout(ok, 800 * (essai + 1)));
+    }
+    if (!r || !r.ok) throw new Error('Morceau introuvable : ' + s.fichier + (r ? ' (' + r.status + ')' : ''));
+    let d = new Uint8Array(await r.arrayBuffer());
+    if (s.codage === 'base64') d = enc.encode(s.prefixe + base64(d));
+    else if (s.codage !== 'brut') throw new Error('Codage inconnu : ' + s.codage);
+    if (d.length !== s.octets) throw new Error('Taille différente pour ' + s.id + ' (' + d.length + ' au lieu de ' + s.octets + ')');
+    const h = await sha(d); if (h && h !== s.sha256) throw new Error('Empreinte différente pour ' + s.id);
+    parts[i] = d; faits++; octets += d.length;
+    prog(5 + 85 * faits / blocs.length);
+    msg('Téléchargement : ' + faits + ' / ' + blocs.length + ' morceaux (' + (octets / 1e6).toFixed(1) + ' Mo)');
+  }
+  let k = 0;
+  await Promise.all(Array.from({length:PARALLELE}, async () => { while (k < blocs.length) await un(blocs[k++]) }));
+  msg('Vérification du fichier complet…'); prog(92);
+  const total = parts.reduce((n, p) => n + p.length, 0);
+  if (total !== man.taille) throw new Error('Fichier final : ' + total + ' octets au lieu de ' + man.taille);
+  const tout = new Uint8Array(total); let o = 0; for (const p of parts) { tout.set(p, o); o += p.length }
+  const h = await sha(tout); if (h && h !== man.sha256) throw new Error('Empreinte du fichier complet différente');
+  return new TextDecoder('utf-8').decode(tout);
+}
+
+/* ---------- ouverture : le fichier remplace cette page, à la même adresse ---------- */
+function ouvrir(html){
+  msg('Ouverture de l\'éditeur…'); prog(100);
+  setTimeout(() => { document.open(); document.write(html); document.close() }, 50);
+}
+
+async function demarrer(forcer){
+  $('#actions').innerHTML = '';
+  try {
+    msg('Lecture du plan d\'assemblage…'); prog(2);
+    const r = await fetch(MANIFESTE, {cache:'no-cache'});
+    if (!r.ok) throw new Error('manifest.json introuvable (' + r.status + ')');
+    const man = await r.json();
+    if (man.format !== 1) throw new Error('Format de manifeste inconnu');
+    const c = forcer ? null : await lireCache();
+    if (c && c.sha256 === man.sha256 && c.html && c.html.length) {
+      msg('Version déjà présente sur cet appareil (' + man.sha256.slice(0, 8) + ')…'); prog(95);
+      return ouvrir(c.html);
+    }
+    const html = await assembler(man);
+    msg('Enregistrement sur cet appareil pour les prochaines ouvertures…'); prog(96);
+    await ecrireCache({sha256:man.sha256, html, t:Date.now()});
+    ouvrir(html);
+  } catch(e) {
+    msg('❌ ' + e.message, true);
+    $('#actions').innerHTML = '<button id="reessayer">Réessayer</button> <button class="sec" id="vider">Tout retélécharger</button>';
+    $('#reessayer').onclick = () => demarrer(false);
+    $('#vider').onclick = () => demarrer(true);
+  }
+}
+demarrer(false);
+})();
+</script>
+</body>
+</html>
