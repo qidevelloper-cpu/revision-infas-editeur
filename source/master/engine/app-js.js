@@ -1885,4 +1885,9 @@ B('home.sujets','Sujets (accueil)',()=>{const L=myMats().filter(m=>m.accueil&&(Q
 (function(){const H=SCREENS.home.blocks;if(!H.includes('home.sujets')){const i=H.indexOf('home.mat');H.splice(i<0?H.length:i,0,'home.sujets')}})();
 /* une mise en page de l'accueil enregistrée avant cette version reçoit la rubrique, sans modifier la configuration */
 const _layoutOfSuj=layoutOf;layoutOf=function(sc){const L=_layoutOfSuj(sc);if(sc!=='home'||!Array.isArray(L)||L.some(b=>b.id==='home.sujets'))return L;const C=L.slice(),i=C.findIndex(b=>b.id==='home.mat');C.splice(i<0?C.length:i,0,{id:'home.sujets',inst:'home.sujets'});return C};
+/* volets de l'accueil : « 📝 Liste des sujets d'une matière » (type 'sujets') et bouton vers un sujet précis (go 'suj:<matière>:<n°>') */
+const _custHTMLSuj=custHTML;custHTML=function(c,k){if(!c||c.type!=='sujets')return _custHTMLSuj.apply(this,arguments);const m=MATI[c.mat];
+ if(!m||!(QBM[m.id]||[]).length)return EDITMODE?`<div class="card sf"><div class="empty">${esc('Volet « Sujets » : choisis une matière qui a des questions (✏️ Modifier le volet).')}</div></div>`:'';
+ return `<div class="card sf">${`<h3>${esc((c.emo?c.emo+' ':'')+(c.title||m.title))}</h3>`}${sujListeHTML(m)}</div>`};
+const _custGoSuj=custGo;custGo=function(k){const c=(E.custom||{})[k],g=String(c&&c.go||'');if(g.startsWith('suj:')){const p=g.split(':'),mid=p[1],n=+p[2];if(MATI[mid]&&sujets(mid)[n])startSujet(mid,n);else toast(Tx('toast.noq','Aucune question ici'));return}return _custGoSuj.apply(this,arguments)};
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
