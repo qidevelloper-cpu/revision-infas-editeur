@@ -1841,13 +1841,23 @@ sujets=function(mid){const m=MATI[mid],Q=QBM[mid]||[];
  blocsEnonce(qs).forEach(b=>{let cur=out[out.length-1];if(cur.length&&cur.length+b.length>cible&&out.length<n){cur=[];out.push(cur)}b.forEach(q=>cur.push(q.id))});return out};
 function sujTitre(mid,k){const L=sujets(mid)[k]||[];return vueSuj(MATI[mid])?chName(mid,L.c):Tx('quiz.lbl.suj','Sujet {k}',{k:k+1})}
 let FILS=null;
-function startFil(mid,ids,label,mode,k){ids=ids.filter(id=>QI[id]);if(!ids.length){toast(Tx('toast.noq','Aucune question ici'));return}
- FILS={mid,ids,label,mode:mode||'suj',k,ans:{},ms:{},ok:0,fin:false};S.lastMat=mid;go('fil',{id:mid})}
+function startFil(mid,ids,label,mode,k,o){ids=ids.filter(id=>QI[id]);if(!ids.length){toast(Tx('toast.noq','Aucune question ici'));return}o=o||{};
+ FILS={mid,ids,label,mode:mode||'suj',k,ans:{},ms:{},ok:0,fin:false,week:o.week,min:o.min||0,end:o.min?Date.now()+o.min*60000:0,expire:false};if(mid)S.lastMat=mid;go('fil',{id:mid});filChrono()}
+/* toutes les façons de faire des questions passent par l'affichage en entier : quiz (chapitre, notions à revoir, semaine,
+   formules…), examen chronométré et examen blanc ; l'ordre reçu est gardé (un tirage au hasard reste fait par l'appelant) */
+startQuiz=function(mid,ids,label,mode,k,week){startFil(mid,ids,label,mode,k,{week})};
+startTimed=function(mid,ids,label,k){ids=ids.filter(id=>QI[id]&&QI[id].t!=='open');if(!ids.length){toast(Tx('toast.noq','Aucune question ici'));return}startFil(mid,ids,label||Tx('result.exam','Sujet chronométré'),k!=null?'suj':'exam',k,{min:ids.length})};
+startExam=function(mid){const c=S.examCfg||{n:40,min:40};const pool=(QBM[mid]||[]).filter(q=>q.t!=='open');const by={};pool.forEach(q=>(by[q.c]=by[q.c]||[]).push(q.id));
+ const keys=shuffle(Object.keys(by));Object.keys(by).forEach(k=>by[k]=shuffle(by[k]));const ids=[];let guard=0;while(ids.length<Math.min(c.n,pool.length)&&guard<9999){keys.forEach(k=>{if(ids.length<c.n&&by[k].length)ids.push(by[k].pop())});guard++}
+ if(!ids.length){toast(Tx('toast.noq','Aucune question ici'));return}startFil(mid,ids,Tx('result.exam','Sujet chronométré'),'exam',null,{min:c.min})};
+let FILT=null;
+function filChrono(){clearInterval(FILT);if(!FILS||!FILS.end)return;FILT=setInterval(()=>{if(!FILS||!FILS.end||VIEW!=='fil'||FILS.fin){clearInterval(FILT);return}const r=Math.max(0,FILS.end-Date.now()),e=document.getElementById('filTmr');
+ if(e)e.textContent='⏱ '+Math.floor(r/60000)+':'+String(Math.floor(r/1000)%60).padStart(2,'0');if(r<=0){clearInterval(FILT);FILS.expire=true;toast(Tx('toast.time','⏰ Temps écoulé'));render()}},500)}
 startSujet=function(mid,k){const L=sujets(mid)[k];if(!L)return;const lab=sujTitre(mid,k);if(S.timed&&!vueSuj(MATI[mid])){startTimed(mid,L,lab,k);return}startFil(mid,L,lab,'suj',k)};
 startChap=function(mid,i){startFil(mid,(QBM[mid]||[]).filter(q=>q.c===i).map(q=>q.id),Tx('quiz.lbl.ch','Chapitre {k}',{k:i+1})+' · '+chName(mid,i),'ch')};
-function quitFil(){if(VSTACK.length)back();else go('matiere',{id:FILS?FILS.mid:''},false)}
+function quitFil(){clearInterval(FILT);if(VSTACK.length)back();else if(FILS&&FILS.mid)go('matiere',{id:FILS.mid},false);else tab('home')}
 function filCorrect(q){const L='ABCDEFGH';if(q.t==='qcm'){if(isM(q))return q.am.map(i=>L[i]+'. '+(q.o||[])[i]).join(' ; ');return L[q.a]+'. '+((q.o||[])[q.a]||'')}return correctText(q)}
-function filCarte(q,i){const a=FILS.ans[q.id],L='ABCDEFGH',jid=jsq(q.id),prev=QI[FILS.ids[i-1]],meme=!!(prev&&q.s&&prev.s===q.s);let body='';
+function filCarte(q,i){const a=FILS.ans[q.id]||(FILS.expire?{ok:false,sel:-9,expire:1}:null),L='ABCDEFGH',jid=jsq(q.id),prev=QI[FILS.ids[i-1]],meme=!!(prev&&q.s&&prev.s===q.s);let body='';
  if(q.t==='qcm'){const multi=isM(q),s=FILS.ms[q.id]||[];
   body=(multi&&!a?`<div class="qmhint">${T('qm.hint','☑️ Plusieurs bonnes réponses : coche-les toutes.')}</div>`:'')+(q.o||[]).map((o,oi)=>{let c=multi?'mopt':'';
    if(a){const bon=multi?q.am.includes(oi):oi===q.a,pris=multi?(a.ms||[]).includes(oi):oi===a.sel;if(bon)c+=' ok';else if(pris)c+=' ko'}else if(multi&&s.includes(oi))c+=' sel';
@@ -1855,22 +1865,24 @@ function filCarte(q,i){const a=FILS.ans[q.id],L='ABCDEFGH',jid=jsq(q.id),prev=QI
    (multi&&!a?`<button class="btn" onclick="filValider('${jid}')">${T('qm.go','✔ Valider ma réponse ({n} cochée(s))',{n:s.length})}</button>`:'')}
  else if(q.t==='vf')body=`<div class="vfrow">${[[1,Tx('quiz.true','Vrai')],[0,Tx('quiz.false','Faux')]].map(([v,l])=>{let c='';if(a){if(v===q.v)c='ok';else if(v===a.sel)c='ko'}return `<button class="opt ${c}" ${a?'disabled':''} onclick="filQ('${jid}',${v})">${esc(l)}</button>`}).join('')}</div>`;
  else body=a?`<div class="fb neu"><b>${T('quiz.yours','Ta réponse :')}</b> ${esc(a.txt||'—')}</div>`:`<textarea class="tin" id="fo-${esc(q.id)}" rows="3" placeholder="${esc(Tx('quiz.open.ph','Écris ta réponse…'))}"></textarea><button class="btn" style="margin-top:10px" onclick="filOpen('${jid}')">${T('quiz.open.show','Voir la réponse')}</button>`;
- let fb='';if(a){fb=`<div class="fb ${a.pending?'neu':a.ok?'good':'bad'}"><div class="h">${a.pending?T('quiz.selfq','Avais-tu la bonne réponse ?'):a.ok?T('quiz.good','Bonne réponse ✅'):T('quiz.bad','Réponse incorrecte ❌')}</div><div><b>${T('quiz.answer','Réponse :')}</b> ${esc(filCorrect(q))}</div>${q.x?`<div class="ex">💡 ${esc(q.x)}</div>`:''}</div>${extrasHTML(q)}`;
+ let fb='';if(a){fb=`<div class="fb ${a.pending?'neu':a.ok?'good':'bad'}"><div class="h">${a.expire?T('fil.exp','⏰ Pas répondu à temps'):a.pending?T('quiz.selfq','Avais-tu la bonne réponse ?'):a.ok?T('quiz.good','Bonne réponse ✅'):T('quiz.bad','Réponse incorrecte ❌')}</div><div><b>${T('quiz.answer','Réponse :')}</b> ${esc(filCorrect(q))}</div>${q.x?`<div class="ex">💡 ${esc(q.x)}</div>`:''}</div>${extrasHTML(q)}`;
   if(a.pending)fb+=`<div class="row2"><button class="btn" style="background:var(--green)" onclick="filSelf('${jid}',1)">${T('quiz.knew','✅ Je savais')}</button><button class="btn" style="background:var(--red)" onclick="filSelf('${jid}',0)">${T('quiz.didnt','❌ À revoir')}</button></div>`}
  const qc=meme?Object.assign({},q,{s:''}):q;
  return `<div class="filq" id="fq-${esc(q.id)}" style="margin-bottom:18px">${edOn()?`<div class="riedq">${qEdBtn(q.id)}</div>`:''}${qCard(qc,`${meme?`<div class="muted small">${T('fil.meme','↑ Même énoncé que la question précédente')}</div>`:''}<div class="muted small" style="margin:2px 0 6px">${T('fil.num','Question {i}/{n}',{i:i+1,n:FILS.ids.length})}</div>`+body)}${fb}</div>`}
-function filTopHTML(){const n=FILS.ids.length,r=Object.keys(FILS.ans).filter(id=>!FILS.ans[id].pending).length;return `<span>${T('fil.prog','{r}/{n} répondues · ✅ {ok}',{r,n,ok:FILS.ok})}</span><span>${esc(FILS.label||'')}</span>`}
-function filBilanHTML(){const n=FILS.ids.length,r=Object.keys(FILS.ans).filter(id=>!FILS.ans[id].pending).length;if(r<n)return `<div class="muted small center">${T('fil.reste','Encore {k} question(s) à faire dans ce sujet.',{k:n-r})}</div>`;
+function filTopHTML(){const n=FILS.ids.length,r=Object.keys(FILS.ans).filter(id=>!FILS.ans[id].pending).length;return `<span>${T('fil.prog','{r}/{n} répondues · ✅ {ok}',{r,n,ok:FILS.ok})}</span>${FILS.end?`<span id="filTmr" class="timer">${FILS.expire?'⏰ 0:00':'⏱'}</span>`:''}<span>${esc(FILS.label||'')}</span>`}
+function filTermine(){const n=FILS.ids.length,r=Object.keys(FILS.ans).filter(id=>!FILS.ans[id].pending).length;return FILS.expire||r>=n}
+function filBilanHTML(){const n=FILS.ids.length,r=Object.keys(FILS.ans).filter(id=>!FILS.ans[id].pending).length;filFin();if(!filTermine())return `<div class="muted small center">${T('fil.reste','Encore {k} question(s) à faire dans ce sujet.',{k:n-r})}</div>`;
  const sc=Math.round(FILS.ok/n*200)/10;return `<div class="card sf center"><h3>${T('fil.fini','🏁 Sujet terminé')}</h3><div style="font-size:28px;font-weight:800">${sc}/20</div><div class="muted">${T('fil.score','{ok} bonne(s) réponse(s) sur {n}',{ok:FILS.ok,n})}</div><div class="row2" style="margin-top:10px"><button class="btn light" onclick="filRecommencer()">${T('fil.again','🔁 Recommencer')}</button><button class="btn coral" onclick="quitFil()">${T('fil.retour','← Retour')}</button></div></div>`}
-function filFin(){const n=FILS.ids.length,r=Object.keys(FILS.ans).filter(id=>!FILS.ans[id].pending).length;if(FILS.fin||r<n)return;FILS.fin=true;const sc=Math.round(FILS.ok/n*200)/10;if(FILS.mode==='suj')logDone(FILS.mid,FILS.k,sc);S.xp+=20;save()}
+function filFin(){const n=FILS.ids.length;if(FILS.fin||!filTermine())return;FILS.fin=true;clearInterval(FILT);const sc=Math.round(FILS.ok/n*200)/10;if(FILS.mode==='suj')logDone(FILS.mid,FILS.k,sc);
+ if(FILS.end){S.exams=S.exams||[];S.exams.push({mid:FILS.mid,sc,n,ok:FILS.ok,d:today()});S.xp+=30}else S.xp+=20;if(FILS.week){S.wq=S.wq||{};S.wq[FILS.week]=Math.max(S.wq[FILS.week]||0,sc)}save()}
 function filMaj(id){const q=QI[id],i=FILS.ids.indexOf(id),el=document.getElementById('fq-'+id);if(el&&q)el.outerHTML=filCarte(q,i);filFin();const t=document.getElementById('filTop');if(t)t.innerHTML=filTopHTML();const b=document.getElementById('filBilan');if(b)b.innerHTML=filBilanHTML()}
-function filRep(q,ok,x){FILS.ans[q.id]=Object.assign({ok:!!ok},x||{});if(ok)FILS.ok++;rec(q,!!ok);filMaj(q.id)}
-function filQ(id,v){const q=QI[id];if(!FILS||!q||FILS.ans[id])return;if(isM(q)){const s=FILS.ms[id]=FILS.ms[id]||[],i=s.indexOf(v);if(i>=0)s.splice(i,1);else s.push(v);filMaj(id);return}filRep(q,q.t==='vf'?v===q.v:v===q.a,{sel:v})}
+function filRep(q,ok,x){FILS.ans[q.id]=Object.assign({ok:!!ok},x||{});if(ok)FILS.ok++;rec(q,!!ok);if(ok&&FILS.mode==='diff'){delete S.diff[q.id];save()}filMaj(q.id)}
+function filQ(id,v){const q=QI[id];if(!FILS||!q||FILS.ans[id]||FILS.expire)return;if(isM(q)){const s=FILS.ms[id]=FILS.ms[id]||[],i=s.indexOf(v);if(i>=0)s.splice(i,1);else s.push(v);filMaj(id);return}filRep(q,q.t==='vf'?v===q.v:v===q.a,{sel:v})}
 function filValider(id){const q=QI[id],s=FILS.ms[id]||[];if(!s.length){toast(Tx('qm.none','Coche au moins une réponse'));return}filRep(q,sameSet(s,q.am),{sel:-1,ms:s.slice()})}
-function filOpen(id){const q=QI[id];if(!FILS||!q||FILS.ans[id])return;const t=(document.getElementById('fo-'+id)||{}).value||'';const acc=(q.acc||[q.r]).map(nrm).filter(x=>x&&x.length>1),n=nrm(t);
+function filOpen(id){const q=QI[id];if(!FILS||!q||FILS.ans[id]||FILS.expire)return;const t=(document.getElementById('fo-'+id)||{}).value||'';const acc=(q.acc||[q.r]).map(nrm).filter(x=>x&&x.length>1),n=nrm(t);
  const auto=n&&acc.some(x=>n.includes(x)||(x.includes(n)&&n.length>=Math.max(4,x.length*.6)));if(auto)filRep(q,true,{txt:t});else{FILS.ans[id]={txt:t,pending:1};filMaj(id)}}
-function filSelf(id,ok){const q=QI[id],a=FILS&&FILS.ans[id];if(!a||!a.pending)return;a.pending=0;a.ok=!!ok;if(ok)FILS.ok++;rec(q,!!ok);filMaj(id)}
-function filRecommencer(){FILS.ans={};FILS.ms={};FILS.ok=0;FILS.fin=false;render();window.scrollTo(0,0)}
+function filSelf(id,ok){const q=QI[id],a=FILS&&FILS.ans[id];if(!a||!a.pending)return;a.pending=0;a.ok=!!ok;if(ok)FILS.ok++;rec(q,!!ok);if(ok&&FILS.mode==='diff'){delete S.diff[q.id];save()}filMaj(id)}
+function filRecommencer(){FILS.ans={};FILS.ms={};FILS.ok=0;FILS.fin=false;FILS.expire=false;if(FILS.min)FILS.end=Date.now()+FILS.min*60000;render();window.scrollTo(0,0);filChrono()}
 SCREENS.fil={n:'Sujet (toutes les questions)',ctx:1,nonav:1,hdr:()=>{const m=matOf(FILS?FILS.mid:ctx.id);return miniHeader(esc(m.emo+' '+m.short),esc(FILS?FILS.label:''),`<button class="back" onclick="quitFil()">${Tx('quiz.quit','✕ Quitter')}</button>`)},blocks:['fil.main']};
 B('fil.main','Sujet : toutes les questions',()=>{if(!FILS)return'';return `<div class="qtop" id="filTop">${filTopHTML()}</div>`+FILS.ids.map((id,i)=>QI[id]?filCarte(QI[id],i):'').join('')+`<div id="filBilan">${filBilanHTML()}</div>`});
 /* liste des sujets d'une matière (fiche matière « Sujets d'examen » et rubrique de l'accueil) */
@@ -1890,4 +1902,11 @@ const _custHTMLSuj=custHTML;custHTML=function(c,k){if(!c||c.type!=='sujets')retu
  if(!m||!(QBM[m.id]||[]).length)return EDITMODE?`<div class="card sf"><div class="empty">${esc('Volet « Sujets » : choisis une matière qui a des questions (✏️ Modifier le volet).')}</div></div>`:'';
  return `<div class="card sf">${`<h3>${esc((c.emo?c.emo+' ':'')+(c.title||m.title))}</h3>`}${sujListeHTML(m)}</div>`};
 const _custGoSuj=custGo;custGo=function(k){const c=(E.custom||{})[k],g=String(c&&c.go||'');if(g.startsWith('suj:')){const p=g.split(':'),mid=p[1],n=+p[2];if(MATI[mid]&&sujets(mid)[n])startSujet(mid,n);else toast(Tx('toast.noq','Aucune question ici'));return}return _custGoSuj.apply(this,arguments)};
+/* filières par sujet / chapitre : m.chFil = {n° de chapitre: ['IDE','SF']} ; sans réglage, un chapitre suit les filières de sa matière.
+   Une matière devient visible pour une filière dès qu'un de ses sujets lui est attribué (ex. sujet de santé publique pour Sage-femme). */
+function chFilOf(m,i){const L=(m&&m.chFil||{})[i];return Array.isArray(L)&&L.length?L:(m&&m.fil||[])}
+const _isBaseFil=isBase;isBase=function(m){if(_isBaseFil(m))return true;if(!S||!S.fil||!S.niv||!m||!m.chFil)return false;const f=filBase(S.fil);
+ return Object.keys(m.chFil).some(i=>Array.isArray(m.chFil[i])&&m.chFil[i].includes(f))&&nivMin(m)<=nivIdx(S.niv)};
+const _visChFil=visCh;visCh=function(m){const v=_visChFil(m);if(!m||!m.chFil||!Object.keys(m.chFil).length||!S||!S.fil)return v;const f=filBase(S.fil);
+ const out=v?new Set(v):new Set((m.ch||[]).map((c,i)=>i));(m.ch||[]).forEach((c,i)=>{if(!chFilOf(m,i).includes(f))out.delete(i)});return out.size===(m.ch||[]).length?null:out};
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
