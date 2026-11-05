@@ -417,7 +417,7 @@ B('matiere.diff','Notions à revoir (matière)',()=>{const n=diffIds(ctx.id).len
 
 /* ======================= SUJETS DE 50 ======================= */
 B('sujets.list','Sujets / chapitres',()=>{const m=matOf(ctx.id),mode=S.sujMode||'suj';let h=`<div class="seg"><button class="${mode==='suj'?'on':''}" onclick="S.sujMode='suj';save();render()">${T('sujets.bysuj','Par sujet')}</button><button class="${mode==='ch'?'on':''}" onclick="S.sujMode='ch';save();render()">${T('sujets.bych','Par chapitre')}</button></div>`;
- if(mode==='suj'){const L=sujets(m.id);h+=`<div class="muted small" style="margin-bottom:8px">${T('sujets.help','Chaque sujet mélange tous les chapitres du cours, comme un vrai devoir.')}</div><label class="timed"><input type="checkbox" ${S.timed?'checked':''} onchange="S.timed=this.checked;save()"> ${T('sujets.timed','⏱️ Mode chronométré (1 min par question, correction à la fin)')}</label>`+L.map((ids,k)=>{let seen=0,ok=0;ids.forEach(id=>{const s=S.qs[id];if(s){seen++;if(s.l)ok++}});const done=seen===ids.length;
+ if(mode==='suj'){const L=sujets(m.id);h+=`<div class="muted small" style="margin-bottom:8px">${T('sujets.help','Chaque sujet suit l’ordre du cours : toutes ses questions s’affichent, avec la correction dès que tu réponds.')}</div><label class="timed"><input type="checkbox" ${S.timed?'checked':''} onchange="S.timed=this.checked;save()"> ${T('sujets.timed','⏱️ Mode chronométré (1 min par question, correction à la fin)')}</label>`+L.map((ids,k)=>{let seen=0,ok=0;ids.forEach(id=>{const s=S.qs[id];if(s){seen++;if(s.l)ok++}});const done=seen===ids.length;
   return `<div class="suj sf ${done?'done':''}" onclick="startSujet('${jsq(m.id)}',${k})"><div class="no"><small>${esc(Tx('sujets.no','SUJET'))}</small>${k+1}</div><div class="tx"><b>${T('sujets.t','Sujet {k} · {n} questions',{k:k+1,n:ids.length})}</b><small>${T('sujets.s','{seen}/{n} faites · {ok} justes',{seen,n:ids.length,ok})}</small><div class="bar"><i style="width:${Math.round(seen/ids.length*100)}%"></i></div></div><span class="go" style="font-weight:900;color:var(--coral);font-size:20px">▶</span></div>`}).join('')}
  else{h+=(m.ch||[]).map((c,i)=>{const ids=(QBM[m.id]||[]).filter(q=>q.c===i).map(q=>q.id);if(!ids.length)return'';let ok=0;ids.forEach(id=>{if((S.qs[id]||{}).l)ok++});return `<div class="suj sf" onclick="startChap('${jsq(m.id)}',${i})"><div class="no" style="background:${esc(m.col)}">${i+1}</div><div class="tx"><b>${esc(c)}</b><small>${T('sujets.ch.s','{n} questions · {ok} justes',{n:ids.length,ok})}</small></div><span class="go" style="font-weight:900;color:var(--coral);font-size:20px">▶</span></div>`}).join('')}
  return h});
@@ -1823,4 +1823,66 @@ function boot(){RO=!window.PORTAIL_EDITOR;S=load();E=normE(EMB);loadXDom();
  try{const _f=E.studio&&+E.studio.format;if(_f>FORMAT_MAX)console.warn('Révision INFAS : configuration au format '+_f+', ce moteur (version '+MOTEUR_VERSION+') lit jusqu’au format '+FORMAT_MAX+' : réglages inconnus ignorés')}catch(e){}applyContent();document.body.insertAdjacentHTML('afterbegin',SHELL());iconSprite();buildNav();bindStatic();applyLook();touchStreak();VIEW=S.onb?'home':'welcome';render();
  if(!RO)window.PORTAIL_EDITOR.init();window.PORTAIL_READY=true;loadXIdb()}
 async function loadXIdb(){const miss=((E.content||{}).newMat||[]).filter(m=>!XD[m.id]);if(!miss.length)return;let n=0;for(const m of miss){try{const x=await idbGet(m.src+':x');if(x){const im=await idbGet(m.src+':img');if(im)Object.assign(IMGR,im);regX(m.id,x);n++}}catch(e){}}if(n){Object.keys(CARDC).forEach(k=>delete CARDC[k]);PLANC=null;applyContent();render()}}
+/* ---------- Sujets en entier, dans l'ordre d'origine ; matières « Sujets d'examen » ; sujets sur l'accueil ; cours sur plusieurs années ----------
+   · un sujet s'affiche EN ENTIER (toutes ses questions, on défile) ; la correction apparaît sous la question dès la réponse ;
+   · ordre d'origine : les sujets suivent les chapitres, les questions d'un même énoncé restent ensemble et dans l'ordre ;
+   · matière m.vue==='sujets' : ses chapitres SONT ses sujets (ex. Correction nationale 2025) ; la fiche matière les liste ;
+   · m.accueil : ses sujets apparaissent dans la rubrique « 📝 Sujets » de l'accueil ;
+   · m.nivs : années du cours (ex. L1, L2, L3) ; m.niv reste la première, pour la compatibilité. */
+const vueSuj=m=>!!(m&&m.vue==='sujets');
+function nivsOf(m){const L=(Array.isArray(m&&m.nivs)&&m.nivs.length?m.nivs:[m&&m.niv]).filter(n=>nivIdx(n)>=0);return L.length?L:[m&&m.niv]}
+function nivLbl(m){return nivsOf(m).join(' · ')}
+const _nivMinSuj=nivMin;nivMin=function(m){let b=_nivMinSuj(m);nivsOf(m).forEach(n=>{const k=nivIdx(n);if(k>=0&&k<b)b=k});return b};
+SCREENS.matiere.hdr=()=>{const m=matOf(ctx.id);return miniHeader(esc((m.fil||[]).join(' · '))+' · '+esc(nivLbl(m)),esc(m.emo+' '+m.short))};
+function blocsEnonce(qs){const L=[];qs.forEach(q=>{const d=L[L.length-1];if(d&&q.s&&d[0].s===q.s)d.push(q);else L.push([q])});return L}
+sujets=function(mid){const m=MATI[mid],Q=QBM[mid]||[];
+ if(vueSuj(m)){const by={};Q.forEach(q=>(by[q.c]=by[q.c]||[]).push(q.id));return Object.keys(by).map(Number).sort((a,b)=>a-b).map(c=>{const L=by[c];L.c=c;return L})}
+ const qs=Q.slice().sort((a,b)=>a.c-b.c),n=Math.max(1,Math.ceil(qs.length/sujSize())),cible=Math.ceil(qs.length/n),out=[[]];
+ blocsEnonce(qs).forEach(b=>{let cur=out[out.length-1];if(cur.length&&cur.length+b.length>cible&&out.length<n){cur=[];out.push(cur)}b.forEach(q=>cur.push(q.id))});return out};
+function sujTitre(mid,k){const L=sujets(mid)[k]||[];return vueSuj(MATI[mid])?chName(mid,L.c):Tx('quiz.lbl.suj','Sujet {k}',{k:k+1})}
+let FILS=null;
+function startFil(mid,ids,label,mode,k){ids=ids.filter(id=>QI[id]);if(!ids.length){toast(Tx('toast.noq','Aucune question ici'));return}
+ FILS={mid,ids,label,mode:mode||'suj',k,ans:{},ms:{},ok:0,fin:false};S.lastMat=mid;go('fil',{id:mid})}
+startSujet=function(mid,k){const L=sujets(mid)[k];if(!L)return;const lab=sujTitre(mid,k);if(S.timed&&!vueSuj(MATI[mid])){startTimed(mid,L,lab,k);return}startFil(mid,L,lab,'suj',k)};
+startChap=function(mid,i){startFil(mid,(QBM[mid]||[]).filter(q=>q.c===i).map(q=>q.id),Tx('quiz.lbl.ch','Chapitre {k}',{k:i+1})+' · '+chName(mid,i),'ch')};
+function quitFil(){if(VSTACK.length)back();else go('matiere',{id:FILS?FILS.mid:''},false)}
+function filCorrect(q){const L='ABCDEFGH';if(q.t==='qcm'){if(isM(q))return q.am.map(i=>L[i]+'. '+(q.o||[])[i]).join(' ; ');return L[q.a]+'. '+((q.o||[])[q.a]||'')}return correctText(q)}
+function filCarte(q,i){const a=FILS.ans[q.id],L='ABCDEFGH',jid=jsq(q.id),prev=QI[FILS.ids[i-1]],meme=!!(prev&&q.s&&prev.s===q.s);let body='';
+ if(q.t==='qcm'){const multi=isM(q),s=FILS.ms[q.id]||[];
+  body=(multi&&!a?`<div class="qmhint">${T('qm.hint','☑️ Plusieurs bonnes réponses : coche-les toutes.')}</div>`:'')+(q.o||[]).map((o,oi)=>{let c=multi?'mopt':'';
+   if(a){const bon=multi?q.am.includes(oi):oi===q.a,pris=multi?(a.ms||[]).includes(oi):oi===a.sel;if(bon)c+=' ok';else if(pris)c+=' ko'}else if(multi&&s.includes(oi))c+=' sel';
+   return `<button class="opt ${c}" ${a?'disabled':''} onclick="filQ('${jid}',${oi})"><span class="k">${L[oi]}</span><span>${esc(o)}</span></button>`}).join('')+
+   (multi&&!a?`<button class="btn" onclick="filValider('${jid}')">${T('qm.go','✔ Valider ma réponse ({n} cochée(s))',{n:s.length})}</button>`:'')}
+ else if(q.t==='vf')body=`<div class="vfrow">${[[1,Tx('quiz.true','Vrai')],[0,Tx('quiz.false','Faux')]].map(([v,l])=>{let c='';if(a){if(v===q.v)c='ok';else if(v===a.sel)c='ko'}return `<button class="opt ${c}" ${a?'disabled':''} onclick="filQ('${jid}',${v})">${esc(l)}</button>`}).join('')}</div>`;
+ else body=a?`<div class="fb neu"><b>${T('quiz.yours','Ta réponse :')}</b> ${esc(a.txt||'—')}</div>`:`<textarea class="tin" id="fo-${esc(q.id)}" rows="3" placeholder="${esc(Tx('quiz.open.ph','Écris ta réponse…'))}"></textarea><button class="btn" style="margin-top:10px" onclick="filOpen('${jid}')">${T('quiz.open.show','Voir la réponse')}</button>`;
+ let fb='';if(a){fb=`<div class="fb ${a.pending?'neu':a.ok?'good':'bad'}"><div class="h">${a.pending?T('quiz.selfq','Avais-tu la bonne réponse ?'):a.ok?T('quiz.good','Bonne réponse ✅'):T('quiz.bad','Réponse incorrecte ❌')}</div><div><b>${T('quiz.answer','Réponse :')}</b> ${esc(filCorrect(q))}</div>${q.x?`<div class="ex">💡 ${esc(q.x)}</div>`:''}</div>${extrasHTML(q)}`;
+  if(a.pending)fb+=`<div class="row2"><button class="btn" style="background:var(--green)" onclick="filSelf('${jid}',1)">${T('quiz.knew','✅ Je savais')}</button><button class="btn" style="background:var(--red)" onclick="filSelf('${jid}',0)">${T('quiz.didnt','❌ À revoir')}</button></div>`}
+ const qc=meme?Object.assign({},q,{s:''}):q;
+ return `<div class="filq" id="fq-${esc(q.id)}" style="margin-bottom:18px">${edOn()?`<div class="riedq">${qEdBtn(q.id)}</div>`:''}${qCard(qc,`${meme?`<div class="muted small">${T('fil.meme','↑ Même énoncé que la question précédente')}</div>`:''}<div class="muted small" style="margin:2px 0 6px">${T('fil.num','Question {i}/{n}',{i:i+1,n:FILS.ids.length})}</div>`+body)}${fb}</div>`}
+function filTopHTML(){const n=FILS.ids.length,r=Object.keys(FILS.ans).filter(id=>!FILS.ans[id].pending).length;return `<span>${T('fil.prog','{r}/{n} répondues · ✅ {ok}',{r,n,ok:FILS.ok})}</span><span>${esc(FILS.label||'')}</span>`}
+function filBilanHTML(){const n=FILS.ids.length,r=Object.keys(FILS.ans).filter(id=>!FILS.ans[id].pending).length;if(r<n)return `<div class="muted small center">${T('fil.reste','Encore {k} question(s) à faire dans ce sujet.',{k:n-r})}</div>`;
+ const sc=Math.round(FILS.ok/n*200)/10;return `<div class="card sf center"><h3>${T('fil.fini','🏁 Sujet terminé')}</h3><div style="font-size:28px;font-weight:800">${sc}/20</div><div class="muted">${T('fil.score','{ok} bonne(s) réponse(s) sur {n}',{ok:FILS.ok,n})}</div><div class="row2" style="margin-top:10px"><button class="btn light" onclick="filRecommencer()">${T('fil.again','🔁 Recommencer')}</button><button class="btn coral" onclick="quitFil()">${T('fil.retour','← Retour')}</button></div></div>`}
+function filFin(){const n=FILS.ids.length,r=Object.keys(FILS.ans).filter(id=>!FILS.ans[id].pending).length;if(FILS.fin||r<n)return;FILS.fin=true;const sc=Math.round(FILS.ok/n*200)/10;if(FILS.mode==='suj')logDone(FILS.mid,FILS.k,sc);S.xp+=20;save()}
+function filMaj(id){const q=QI[id],i=FILS.ids.indexOf(id),el=document.getElementById('fq-'+id);if(el&&q)el.outerHTML=filCarte(q,i);filFin();const t=document.getElementById('filTop');if(t)t.innerHTML=filTopHTML();const b=document.getElementById('filBilan');if(b)b.innerHTML=filBilanHTML()}
+function filRep(q,ok,x){FILS.ans[q.id]=Object.assign({ok:!!ok},x||{});if(ok)FILS.ok++;rec(q,!!ok);filMaj(q.id)}
+function filQ(id,v){const q=QI[id];if(!FILS||!q||FILS.ans[id])return;if(isM(q)){const s=FILS.ms[id]=FILS.ms[id]||[],i=s.indexOf(v);if(i>=0)s.splice(i,1);else s.push(v);filMaj(id);return}filRep(q,q.t==='vf'?v===q.v:v===q.a,{sel:v})}
+function filValider(id){const q=QI[id],s=FILS.ms[id]||[];if(!s.length){toast(Tx('qm.none','Coche au moins une réponse'));return}filRep(q,sameSet(s,q.am),{sel:-1,ms:s.slice()})}
+function filOpen(id){const q=QI[id];if(!FILS||!q||FILS.ans[id])return;const t=(document.getElementById('fo-'+id)||{}).value||'';const acc=(q.acc||[q.r]).map(nrm).filter(x=>x&&x.length>1),n=nrm(t);
+ const auto=n&&acc.some(x=>n.includes(x)||(x.includes(n)&&n.length>=Math.max(4,x.length*.6)));if(auto)filRep(q,true,{txt:t});else{FILS.ans[id]={txt:t,pending:1};filMaj(id)}}
+function filSelf(id,ok){const q=QI[id],a=FILS&&FILS.ans[id];if(!a||!a.pending)return;a.pending=0;a.ok=!!ok;if(ok)FILS.ok++;rec(q,!!ok);filMaj(id)}
+function filRecommencer(){FILS.ans={};FILS.ms={};FILS.ok=0;FILS.fin=false;render();window.scrollTo(0,0)}
+SCREENS.fil={n:'Sujet (toutes les questions)',ctx:1,nonav:1,hdr:()=>{const m=matOf(FILS?FILS.mid:ctx.id);return miniHeader(esc(m.emo+' '+m.short),esc(FILS?FILS.label:''),`<button class="back" onclick="quitFil()">${Tx('quiz.quit','✕ Quitter')}</button>`)},blocks:['fil.main']};
+B('fil.main','Sujet : toutes les questions',()=>{if(!FILS)return'';return `<div class="qtop" id="filTop">${filTopHTML()}</div>`+FILS.ids.map((id,i)=>QI[id]?filCarte(QI[id],i):'').join('')+`<div id="filBilan">${filBilanHTML()}</div>`});
+/* liste des sujets d'une matière (fiche matière « Sujets d'examen » et rubrique de l'accueil) */
+function sujListeHTML(m){const L=sujets(m.id);if(!L.length)return `<div class="empty">${T('toast.noq','Aucune question ici')}</div>`;
+ return L.map((ids,k)=>{let seen=0,ok=0;ids.forEach(id=>{const s=S.qs[id];if(s){seen++;if(s.l)ok++}});const done=(S.done||[]).some(x=>x.mid===m.id&&x.k===k);
+  return `<div class="suj sf ${done?'done':''}" onclick="startSujet('${jsq(m.id)}',${k})"><div class="no"><small>${esc(Tx('sujets.no','SUJET'))}</small>${k+1}</div><div class="tx"><b>${esc(sujTitre(m.id,k))}</b><small>${T('hsuj.s','{n} questions · {seen} faites · ✅ {ok}',{n:ids.length,seen,ok})}</small></div></div>`}).join('')}
+const _matActSuj=BLK['matiere.actions'].html;BLK['matiere.actions'].html=function(){const m=matOf(ctx.id);if(!vueSuj(m))return _matActSuj.apply(this,arguments);
+ return `<div class="secT">${T('msuj.h','📝 Sujets')}<span class="ln"></span></div><div class="muted small" style="margin-bottom:8px">${T('msuj.help','Touche un sujet : toutes ses questions s’affichent, dans l’ordre, avec la correction dès que tu réponds.')}</div>`+sujListeHTML(m)};
+B('home.sujets','Sujets (accueil)',()=>{const L=myMats().filter(m=>m.accueil&&(QBM[m.id]||[]).length);
+ if(!L.length)return EDITMODE?`<div class="card sf"><h3>${T('hsuj.h','📝 Sujets')}</h3><div class="empty">${esc('Coche « 📝 Sujets sur l’accueil » sur une matière (Éditeur → 📚 Contenu → Matières) : ses sujets apparaîtront ici.')}</div></div>`:'';
+ return `<div class="secT">${T('hsuj.h','📝 Sujets')}<span class="ln"></span></div>`+L.map((m,i)=>`<details class="card sf hsuj" ${i===0?'open':''}><summary style="cursor:pointer"><b>${esc(m.emo+' '+m.title)}</b> <small class="muted">· ${sujets(m.id).length} ${esc(Tx('hsuj.n','sujets'))}</small></summary><div style="margin-top:8px">${sujListeHTML(m)}</div></details>`).join('')});
+(function(){const H=SCREENS.home.blocks;if(!H.includes('home.sujets')){const i=H.indexOf('home.mat');H.splice(i<0?H.length:i,0,'home.sujets')}})();
+/* une mise en page de l'accueil enregistrée avant cette version reçoit la rubrique, sans modifier la configuration */
+const _layoutOfSuj=layoutOf;layoutOf=function(sc){const L=_layoutOfSuj(sc);if(sc!=='home'||!Array.isArray(L)||L.some(b=>b.id==='home.sujets'))return L;const C=L.slice(),i=C.findIndex(b=>b.id==='home.mat');C.splice(i<0?C.length:i,0,{id:'home.sujets',inst:'home.sujets'});return C};
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
