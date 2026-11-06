@@ -17,6 +17,7 @@ Source : dépôt `qidevelloper-cpu/revision-infas-sources`, branche `lot-2b-edit
 | `source/master/data/` | Données pédagogiques : matières, questions, cartes, cours, configuration intégrée |
 | `source/master/apps/` | Les 20 applications de révision intégrées (HTML) |
 | `source/master/images/` | Les 1 118 images (JPEG) |
+| `source/master/plus/` | Contenus rapatriés des applis d'origine (cours, prépa D.E, galeries, corrections…), dans des fichiers séparés |
 | `source/master/manifest.json` | Plan d'assemblage : ordre des morceaux, tailles et empreintes SHA-256 |
 | `tools/` | Outils : assemblage, découpage, mise à jour du manifeste, empreinte pédagogique |
 
@@ -29,8 +30,8 @@ python3 tools/assembler_maitre.py source/master RI-editeur.html
 ```
 
 L'outil vérifie l'empreinte de chaque morceau puis celle du fichier complet ; il n'écrit rien en cas d'écart et
-n'écrase jamais un fichier existant. Résultat attendu : **105 789 532 octets**, SHA-256
-`a7f4eb0d6444f2857e143afca08228688de76f090fb823e4db266f9f4258b053`. Ouvrir `RI-editeur.html` dans le navigateur.
+n'écrase jamais un fichier existant. Résultat attendu : **111 065 798 octets**, SHA-256
+`0585eaf985e7cd6a2f017a7e70a90d102b28807e6d99ce2d1cd9849446caed12`. Ouvrir `RI-editeur.html` dans le navigateur.
 
 ## À savoir
 
