@@ -820,7 +820,7 @@ CBIND.commu=box=>{const c=E.content.commu||{};const F=[['admin','✉️ Écrire 
      (moins de 1,5 s) forment une seule étape.
    - Aperçu étudiant : lecture seule, palette de l'auteur, AUCUNE écriture de stockage (localStorage, sessionStorage,
      IndexedDB) ni dans le portail ni dans les applis ouvertes ; le stockage est en plus remis à l'identique en sortant. */
-const DKEY=APPID+'_edits_draft_v1',ST_MAX=50,ST_OCTETS=25e6;
+const DKEY=APPID+'_edits_draft_v1',ST_MAX=2000,ST_OCTETS=25e6;   // annulations : jusqu'à 2000 (et 25 Mo au plus en mémoire)
 let APPLIED=null,APPLIED_SER='';const UNDO=[],REDO=[];let ST_CUR=null,ST_T=0,ST_L='',APERCU=null;
 function stSer(e){const c=Object.assign({},e);delete c.base;delete c.rev;c.fontFiles=(e.fontFiles||[]).map(f=>f.name+':'+String(f.data||'').length);return JSON.stringify(c)}
 function stAppliquee(){return APPLIED||E}
@@ -1018,14 +1018,14 @@ function stApercuTel(){const u=location.href.split('#')[0]+'#ri-apercu-tel';cons
 /* ---------- STUDIO RI · lot 2B étape 1 : journal d'historique, numéros, compatibilité ----------
    - Journal IndexedDB « revInfas_studio_journal », en plus de l'ancien historique de 5 états (conservé tel quel,
      toujours lu par les anciens éditeurs). États importants (appliqué, publié, avant import, migré) jamais supprimés.
-     États ordinaires : bandeau dès 45 ; à 50, arrêt et choix (exporter puis continuer / continuer / annuler) avant
+     États ordinaires : bandeau dès 1950 ; à 2000, arrêt et choix (exporter puis continuer / continuer / annuler) avant
      toute suppression. Rappel d'export tous les 5 ✅ Appliquer. Alerte de stockage, jamais de réduction silencieuse.
    - Import (journal ou configuration) : export du journal + entrée « avant import » d'abord ; journal importé ajouté
      en une seule transaction, sans rien modifier ni supprimer ; refus d'un fichier corrompu ou d'un format plus récent.
    - Migration des 5 anciens états : copie vérifiée, rejouable, ancienne clé jamais modifiée par la migration.
    - Numéros : E.studio {format, moteurMin} ajouté au brouillon à l'enregistrement (jamais à l'import seul) ;
      configuration d'un format plus récent refusée ; contrôles N1 à N6 avant toute publication. */
-const SJ_DB='revInfas_studio_journal',SJ_MAX=50,SJ_ALERTE=45,SJ_RAPPEL=5,SJ_FORMAT=1,STUDIO_FORMAT=2;
+const SJ_DB='revInfas_studio_journal';let SJ_MAX=2000,SJ_ALERTE=1950;const SJ_RAPPEL=5,SJ_FORMAT=1,STUDIO_FORMAT=2;
 const SJ_IMPORTANTS={applique:'Appliqué',publie:'Publié','avant-import':'Avant import',migre:'Migré'};
 let SJ=null,SJ_LISTE=[],SJ_SEQ=0,SJ_FILE=Promise.resolve(),SJ_ATTENTE=[],SJ_MODAL=false,ST_SANS_STUDIO=false,SJ_ERREUR='';
 function stSha256(str){const K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];
@@ -1153,7 +1153,7 @@ BINDS.saves=b=>{_sjBS(b);if(!SJ)return;
  const e1=edq('#sjExp');if(e1)e1.onclick=async()=>toast('Historique exporté ('+await sjExporter()+' états)');
  const i1=edq('#sjImp'),f1=edq('#sjImpF');if(i1&&f1){i1.onclick=()=>f1.click();f1.onchange=ev=>{const f=ev.target.files[0];if(!f)return;const r=new FileReader();r.onload=async()=>{let o=null;try{o=JSON.parse(r.result)}catch(x){toast('⛔ Fichier illisible : rien n’a changé',4000);return}
   const res=await sjImporter(o);if(res.refus)toast('⛔ '+res.refus+' ; rien n’a changé',5000);else toast('📥 '+res.ajoutees+' état(s) ajouté(s), '+res.ignorees+' déjà présent(s)'+(res.renommees.length?', '+res.renommees.length+' en double gardé(s) à part':''),5000);panel('saves')};r.readAsText(f);ev.target.value=''}}};
-const SJ_API={lister:()=>sjRelire(),exporter:()=>(sjRelire().then(sjDonnees)),importer:o=>sjImporter(o),migrer:()=>sjMigrer(),attendre:()=>SJ_FILE,actif:()=>!!SJ,sha256:stSha256,
+const SJ_API={limites:(m,a)=>{if(m>0)SJ_MAX=m;if(a>0)SJ_ALERTE=a;return{max:SJ_MAX,alerte:SJ_ALERTE}},lister:()=>sjRelire(),exporter:()=>(sjRelire().then(sjDonnees)),importer:o=>sjImporter(o),migrer:()=>sjMigrer(),attendre:()=>SJ_FILE,actif:()=>!!SJ,sha256:stSha256,
  etat:()=>({ordinaires:sjOrd(SJ_LISTE).length,total:SJ_LISTE.length,attente:SJ_ATTENTE.length,fenetre:SJ_MODAL,bandeau:(edq('#sjBan')||{dataset:{}}).dataset.k||null}),importerConfig:t=>stImporterConfig(t)};
 window.PORTAIL_EDITOR={init:function(){const r=init.apply(this,arguments);studioInit();sjDemarrer();return r},decorate:function(sc){const r=decorate.apply(this,arguments);try{stDecorer(sc)}catch(e){console.error(e)}return r},setEdit,panel,commit,buildHTML,resBtn,appEdit,linkModal,textModal,
  apply:stAppliquer,discard:stAbandonner,undo:stAnnuler,redo:stRetablir,preview:stApercu,studio:studioEtat,inspect:stInspecteur,path:stPath,
