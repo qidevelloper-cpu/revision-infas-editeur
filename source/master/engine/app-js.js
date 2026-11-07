@@ -2178,7 +2178,7 @@ const RIC={
  RIC.post=post;
 
  /* ---------- règles d'accès ---------- */
- async function refresh(force){
+ async function refresh(force,quiet){
   if(RIC.busy)return;if(!force&&Date.now()-(RIC.cfg.t||0)<5*60e3&&RIC.ready)return;
   if(!navigator.onLine)return;RIC.busy=true;
   try{
@@ -2193,7 +2193,7 @@ const RIC={
    let google=false;try{const r=await fetch(RIC.url+'/auth/v1/settings',{headers:H(),cache:'no-store'});if(r.ok){const j=await r.json();google=!!(j.external&&j.external.google)}}catch(e){}
    RIC.cfg={regles,defaut:pa.defaut==='premium'?'premium':'gratuit',version:pa.version||0,plans,annonces:ann,google,paiement:pay,t:Date.now()};
    LS.set(RIC.CK,RIC.cfg);RIC.ready=true;
-   if(old!==JSON.stringify(regles)+RIC.cfg.defaut+JSON.stringify(ann)&&typeof render==='function'&&!EDITMODE)render();
+   if(old!==JSON.stringify(regles)+RIC.cfg.defaut+JSON.stringify(ann)&&typeof render==='function'&&!EDITMODE&&!quiet)render();
   }catch(e){console.warn('RI cloud : règles non mises à jour',e)}
   RIC.busy=false;flush()}
  RIC.refresh=refresh;
@@ -2237,6 +2237,8 @@ const RIC={
   flushing=false}
  RIC.flush=flush;
  window.addEventListener('online',()=>{if(!RIC.off())refresh(true)});
+ /* retour dans l'appli (téléphone rallumé, onglet revenu) : relire les réglages Gratuit / Premium du tableau de bord, sans redessiner l'écran en cours */
+ document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&!RIC.off())refresh(false,true)});
 
  /* ---------- écran « contenu Premium » ---------- */
  function fcfa(n){return new Intl.NumberFormat('fr-FR').format(n)+' FCFA'}
@@ -2247,15 +2249,47 @@ const RIC={
   o.innerHTML=`<div class="pbox"><h3>🔒 ${esc(what||'Contenu Premium')}</h3><div class="muted small">Ce contenu fait partie de la version Premium de Révision INFAS : tous les sujets, les explications complètes et les applications complètes.</div>${P?`<div style="margin:12px 0">${P}</div>`:''}${payOk?`<div class="muted small">${RIC.session?'Touche un pass pour le payer par Mobile Money (Wave, Orange Money…).':'Pour payer, connecte-toi d’abord à ton compte : ton Premium y sera activé.'}</div>${RIC.session?`<button class="btn coral" style="width:100%;margin-top:10px" onclick="document.getElementById('ripay').remove();RIC.payer()">💳 Payer par Mobile Money</button>`:''}`:`<div class="muted small">Le paiement Mobile Money dans l’appli arrive bientôt. En attendant, écris à l’administrateur pour obtenir ton accès.${RIC.session?'':' Il l’activera sur ton compte : crée-le ou connecte-toi d’abord.'}</div>`}${RIC.session?'':'<button class="btn coral" style="width:100%;margin-top:10px" onclick="document.getElementById(\'ripay\').remove();RIC.compte()">👤 Me connecter à mon compte</button>'}<div class="row2" style="margin-top:12px">${adm?`<a class="btn coral" href="${esc(adm)}" target="_blank" rel="noopener" style="text-align:center;text-decoration:none">✉️ Écrire à l’administrateur</a>`:''}<button class="btn light" id="ripayX">Fermer</button></div></div>`;
   document.body.appendChild(o);$('#ripayX',o).onclick=()=>o.remove();o.onclick=e=>{if(e.target===o)o.remove()}};
 
- /* ---------- signalement d'erreur ---------- */
- RIC.report=function(qid){const q=QI[qid];if(!q)return;let o=$('#rirep');if(o)o.remove();o=document.createElement('div');o.id='rirep';o.className='pmod';
-  o.innerHTML=`<div class="pbox"><h3>⚑ Signaler une erreur</h3><div class="muted small" style="margin-bottom:8px">${esc(q.q).slice(0,240)}</div><textarea class="tin" id="rirepT" rows="4" maxlength="1000" placeholder="Explique l’erreur : mauvaise réponse, faute, image manquante…"></textarea><div class="row2" style="margin-top:10px"><button class="btn coral" id="rirepOk">Envoyer le signalement</button><button class="btn light" id="rirepX">Annuler</button></div></div>`;
+ /* ---------- signalement d'erreur (texte + photo facultative) ----------
+    La photo est réduite sur le téléphone (1280 px, JPEG), déposée dans le stockage privé « signalements » de Supabase,
+    puis le signalement est enregistré : le tableau de bord le reçoit, et l'administrateur est prévenu sur WhatsApp. */
+ function rirPhoto(file){return new Promise((ok,ko)=>{const u=URL.createObjectURL(file),im=new Image();im.onload=()=>{try{const M=1280,k=Math.min(1,M/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=Math.round(im.width*k);c.height=Math.round(im.height*k);c.getContext('2d').drawImage(im,0,0,c.width,c.height);URL.revokeObjectURL(u);c.toBlob(b=>b?ok(b):ko(new Error('photo')),'image/jpeg',.78)}catch(e){ko(e)}};im.onerror=()=>{URL.revokeObjectURL(u);ko(new Error('photo illisible'))};im.src=u})}
+ function rirB64(b){return new Promise((ok,ko)=>{const r=new FileReader();r.onload=()=>ok(String(r.result).split(',')[1]||'');r.onerror=ko;r.readAsDataURL(b)})}
+ async function rirDepot(b64){const bin=atob(b64),u=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);
+  const d=new Date(),path=d.toISOString().slice(0,7)+'/'+(window.crypto&&crypto.randomUUID?crypto.randomUUID():Date.now().toString(36)+Math.random().toString(36).slice(2))+'.jpg';
+  const h={apikey:RIC.key,'Content-Type':'image/jpeg','x-upsert':'false'};try{const t=await token();if(t)h.Authorization='Bearer '+t}catch(e){}
+  const r=await fetch(RIC.url+'/storage/v1/object/signalements/'+path,{method:'POST',headers:h,body:u});if(!r.ok)throw new Error(r.status+' '+(await r.text()).slice(0,160));return path}
+ function rirEleve(){const st=RIC.statut||{},n=[st.prenom,st.nom].filter(Boolean).join(' ')||(S&&S.name)||'';const f=(S&&[S.fil,S.niv].filter(Boolean).join(' '))||'';return(n||f)?(n||'Élève')+(f?' · '+f:'')+(RIC.session?'':' (sans compte)'):''}
+ /* envoi : la photo d'abord (si besoin), puis la ligne ; si la base n'a pas encore les colonnes photo / eleve, on renvoie sans elles */
+ async function rirEnvoyer(it){const row=Object.assign({},it.row);
+  if(it.b64&&!row.photo){try{row.photo=await rirDepot(it.b64);it.row.photo=row.photo}catch(e){if(!/^4\d\d /.test(e.message))throw e;row.message=(row.message+' [📷 photo non reçue par le serveur]').slice(0,1100);it.row.message=row.message}delete it.b64}
+  if(!row.photo)delete row.photo;if(!row.eleve)delete row.eleve;
+  try{await post('reports',[row])}
+  catch(e){if(!/^4\d\d /.test(e.message)||!/photo|eleve|column/i.test(e.message))throw e;
+   const r2=Object.assign({},row);if(r2.photo)r2.message=(r2.message+'\n[📷 photo : '+r2.photo+']').slice(0,1100);if(r2.eleve)r2.message=(r2.message+'\n['+r2.eleve+']').slice(0,1200);delete r2.photo;delete r2.eleve;await post('reports',[r2])}}
+ RIC.report=function(qid){const q=QI[qid];if(!q)return;let o=$('#rirep');if(o)o.remove();o=document.createElement('div');o.id='rirep';o.className='pmod';let photo=null,b64=null;
+  const m=(typeof matOf==='function'&&matOf(q.m))||{};
+  o.innerHTML=`<div class="pbox"><h3>⚑ Signaler une erreur</h3><div class="muted small" style="margin-bottom:8px"><b>${esc(m.short||m.title||q.m)}</b> · ${esc(q.q).slice(0,240)}</div>
+   <textarea class="tin" id="rirepT" rows="4" maxlength="1000" placeholder="Explique l’erreur : mauvaise réponse, faute, image manquante… Tu peux proposer la bonne réponse."></textarea>
+   <div class="small" style="font-weight:700;margin:10px 0 6px">📷 Photo (facultatif) : ton cours, ton livre, la bonne réponse…</div>
+   <div id="rirepPh"></div>
+   <div class="row2" id="rirepPhB"><button class="btn light" id="rirepCam">📷 Prendre une photo</button><button class="btn light" id="rirepGal">🖼️ Joindre une image</button></div>
+   <input type="file" id="rirepFc" accept="image/*" capture="environment" style="display:none"><input type="file" id="rirepFg" accept="image/*" style="display:none">
+   <div id="rirepM" class="small" style="margin-top:8px;color:#c0392b"></div>
+   <div class="row2" style="margin-top:10px"><button class="btn coral" id="rirepOk">Envoyer le signalement</button><button class="btn light" id="rirepX">Annuler</button></div></div>`;
   document.body.appendChild(o);$('#rirepX',o).onclick=()=>o.remove();o.onclick=e=>{if(e.target===o)o.remove()};setTimeout(()=>$('#rirepT',o).focus(),50);
-  $('#rirepOk',o).onclick=async()=>{const msg=$('#rirepT',o).value.trim();if(msg.length<3){toast('Décris l’erreur en quelques mots.');return}
-   const row={user_id:null,mat:String(q.m).slice(0,80),qid:String(qid).slice(0,120),question:String((q.s?q.s+' — ':'')+q.q).slice(0,2000),message:msg.slice(0,1000),statut:'nouveau',note:'',appareil:device()};
-   try{await post('reports',[row]);o.remove();toast('Merci ! Ton signalement a été envoyé ✅')}
-   catch(e){const L=LS.get('ri_cloud_rq',[]);L.push(row);LS.set('ri_cloud_rq',L.slice(-50));o.remove();toast('Hors ligne : le signalement partira dès le retour de la connexion')}}};
- async function flushReports(){const L=LS.get('ri_cloud_rq',[]);if(!L.length||!navigator.onLine)return;try{await post('reports',L);LS.set('ri_cloud_rq',[])}catch(e){}}
+  const montrer=()=>{const ph=$('#rirepPh',o);$('#rirepPhB',o).style.display=photo?'none':'';ph.innerHTML=photo?`<div style="position:relative;display:inline-block"><img src="${photo}" alt="Photo jointe" style="max-width:100%;max-height:220px;border-radius:12px;display:block"><button class="btn light" id="rirepDel" style="position:absolute;top:6px;right:6px;padding:4px 10px;width:auto">✕ Retirer</button></div>`:'';if(photo)$('#rirepDel',o).onclick=()=>{try{URL.revokeObjectURL(photo)}catch(e){}photo=null;b64=null;montrer()}};
+  const choisir=inp=>{inp.onchange=async()=>{const f=inp.files&&inp.files[0];inp.value='';if(!f)return;$('#rirepM',o).textContent='Préparation de la photo…';
+   try{const b=await rirPhoto(f);b64=await rirB64(b);photo=URL.createObjectURL(b);$('#rirepM',o).textContent='';montrer()}catch(e){$('#rirepM',o).textContent='Cette image ne peut pas être lue : essaie une autre photo.'}};inp.click()};
+  $('#rirepCam',o).onclick=()=>choisir($('#rirepFc',o));$('#rirepGal',o).onclick=()=>choisir($('#rirepFg',o));
+  $('#rirepOk',o).onclick=async()=>{const msg=$('#rirepT',o).value.trim();if(msg.length<3&&!b64){toast('Décris l’erreur en quelques mots.');return}
+   const b=$('#rirepOk',o);b.disabled=true;b.textContent='Envoi…';
+   const row={user_id:null,mat:String(q.m).slice(0,80),qid:String(qid).slice(0,120),question:String((q.s?q.s+' — ':'')+q.q).slice(0,2000),message:(msg||'(voir la photo)').slice(0,1000),statut:'nouveau',note:'',appareil:device(),eleve:rirEleve().slice(0,120)};
+   const it={row,b64};track('signalement',{photo:!!b64});
+   try{if(!navigator.onLine)throw new Error('hors ligne');await rirEnvoyer(it);o.remove();toast('Merci ! Ton signalement a été envoyé ✅')}
+   catch(e){const L=LS.get('ri_cloud_rq',[]);L.push(it);try{LS.set('ri_cloud_rq',L.slice(-20))}catch(x){it.b64=null;LS.set('ri_cloud_rq',L.slice(-20))}o.remove();toast('Hors ligne : le signalement partira dès le retour de la connexion')}}};
+ async function flushReports(){const L=LS.get('ri_cloud_rq',[]);if(!L.length||!navigator.onLine)return;const reste=[];
+  for(const x of L){const it=x&&x.row?x:{row:x};try{await rirEnvoyer(it)}catch(e){if(!/^4\d\d /.test(e.message))reste.push(it)}}
+  LS.set('ri_cloud_rq',reste)}
 
  /* ---------- branchements dans le moteur (sans modifier les fonctions d'origine) ---------- */
  if(typeof myMats==='function'){const _myMats=myMats;myMats=function(){const L=_myMats.apply(this,arguments);return RIC.off()?L:L.filter(m=>!RIC.hidden('matiere:'+m.id))};}
@@ -2317,7 +2351,7 @@ const RIC={
  function finPremium(){const s=RIC.statut;return s&&s.premium_fin?new Date(s.premium_fin).toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'}):''}
  RIC.compte=function(mode){let o=$('#ricpt');if(o)o.remove();o=document.createElement('div');o.id='ricpt';o.className='pmod';mode=mode||'creer';
   if(RIC.session){const s=RIC.statut||{};const prem=RIC.isPremium();
-   const PA=(RIC.paiements||LS.get('ri_cloud_pay',[])).slice(0,3).map(p=>`<div class="muted small" style="margin:4px 0">${p.statut==='a_verifier'?'⏳ En vérification':p.statut==='valide'?'✅ Validé':'❌ Refusé'} · ${esc(p.plan_nom)} · ${fcfa(p.montant_xof)} · ${esc((OPS[p.operateur]||[p.operateur])[0])}${p.statut==='refuse'&&p.motif?' — '+esc(p.motif):''}</div>`).join('');
+   const PA=(RIC.paiements||LS.get('ri_cloud_pay',[])).slice(0,3).map(p=>`<div class="muted small" style="margin:4px 0">${p.statut==='a_verifier'?(p.operateur==='wave'&&/^cos-/.test(p.reference||'')?'⏳ Paiement Wave en attente':'⏳ En vérification'):p.statut==='valide'?'✅ Validé':'❌ Refusé'} · ${esc(p.plan_nom)} · ${fcfa(p.montant_xof)} · ${esc((OPS[p.operateur]||[p.operateur])[0])}${p.statut==='refuse'&&p.motif?' — '+esc(p.motif):''}</div>`).join('');
    o.innerHTML=`<div class="pbox"><h3>👤 Mon compte</h3><div class="li" style="cursor:default"><span class="em">✉️</span><span class="tx"><b>${esc(RIC.session.email||'Compte connecté')}</b><small>${s.statut==='bloque'?'Compte bloqué : contacte l’administrateur':prem?'⭐ Premium jusqu’au '+esc(finPremium()):'Version gratuite'}</small></span></div>${PA?`<div style="margin:8px 0"><b class="small">Mes paiements</b>${PA}</div>`:''}${!prem&&RIC.payOuvert()?`<button class="btn coral" style="width:100%;margin:6px 0" onclick="document.getElementById('ricpt').remove();RIC.payer()">💳 Passer Premium</button>`:''}<div class="muted small" style="margin:8px 0">Ton compte garde ton accès Premium. Il fonctionne sur 2 téléphones au maximum.</div><div class="row2"><button class="btn light" id="ricRef">🔄 Actualiser</button><button class="btn light" id="ricOut">Se déconnecter</button></div><button class="btn light" style="width:100%;margin-top:8px" id="ricX">Fermer</button></div>`;
    document.body.appendChild(o);$('#ricX',o).onclick=()=>o.remove();$('#ricRef',o).onclick=async()=>{await RIC.syncCompte();o.remove();toast(RIC.isPremium()?'⭐ Premium actif':'Compte à jour')};
    $('#ricOut',o).onclick=async()=>{try{const t=await token();if(t)await fetch(RIC.url+'/auth/v1/logout',{method:'POST',headers:Object.assign(H(),{Authorization:'Bearer '+t})})}catch(e){}logoutLocal();o.remove();render();toast('Déconnecté')};return}
@@ -2349,28 +2383,47 @@ const RIC={
 
  /* ---------- paiement manuel Mobile Money ---------- */
  const OPS={wave:['Wave','#1DC3F0'],orange:['Orange Money','#FF7900'],mtn:['MTN MoMo','#FFCB05'],moov:['Moov Money','#0066B3']};
- RIC.payOuvert=()=>{const c=RIC.cfg.paiement||{};return!!c.actif&&Object.keys(OPS).some(k=>c.numeros&&c.numeros[k])&&(RIC.cfg.plans||[]).length>0};
+ /* Wave automatique (API Wave + fonctions Supabase « wave-checkout » / « wave-webhook ») : réglage public.paiement.wave_auto */
+ const waveOn=c=>c.wave_auto===true||(c.wave_auto==='test'&&!!(RIC.statut&&RIC.statut.role==='admin'));const opOk=(c,k)=>!!(c.numeros&&c.numeros[k])||(k==='wave'&&waveOn(c));
+ RIC.payOuvert=()=>{const c=RIC.cfg.paiement||{};return!!c.actif&&Object.keys(OPS).some(k=>opOk(c,k))&&(RIC.cfg.plans||[]).length>0};
  const RAISON={ferme:'Le paiement est fermé pour le moment.',operateur:'Ce moyen de paiement n’est pas disponible.',pass:'Ce pass n’est plus proposé.',reference:'Identifiant de transaction invalide : recopie-le depuis le SMS, ou laisse la case vide.',telephone:'Numéro de téléphone invalide.',trop:'Tu as déjà 3 paiements en attente de vérification : attends la réponse de l’administrateur.',deja:'Cet identifiant de transaction a déjà été déclaré.',compte:'Ton compte est bloqué : contacte l’administrateur.',connexion:'Connecte-toi d’abord à ton compte.'};
+ /* retour depuis Wave : on nettoie l'adresse et on suit l'activation quelques minutes */
+ RIC.retourWave=function(){const m=location.search.match(/[?&]wave=(ok|erreur)/);if(!m)return;try{history.replaceState(null,'',location.pathname+location.hash)}catch(e){}
+  if(m[1]==='erreur'){RIC.info('Paiement non abouti','Le paiement Wave n’a pas été finalisé. Aucun montant n’a été validé : tu peux réessayer depuis « Passer Premium ».');return}
+  RIC.info('Paiement Wave reçu ✅','Ton accès Premium s’active dans quelques secondes, dès que Wave confirme le paiement.');let n=0;
+  const t=setInterval(async()=>{n++;try{await RIC.syncCompte();await RIC.verifPaiement()}catch(e){}if(RIC.isPremium()||n>40){clearInterval(t);if(RIC.isPremium()){try{render()}catch(e){}toast('⭐ Premium activé')}}},3000)};
+ setTimeout(()=>RIC.retourWave(),1500);
  RIC.payer=function(planId){if(!RIC.session){RIC.compte('creer');return}if(!RIC.payOuvert()){toast('Le paiement n’est pas encore ouvert.');return}
-  const c=RIC.cfg.paiement,ops=Object.keys(OPS).filter(k=>c.numeros[k]),plans=RIC.cfg.plans;let plan=planId&&plans.find(p=>p.id===planId)?planId:plans[0].id,op=ops[0];
+  const c=RIC.cfg.paiement,ops=Object.keys(OPS).filter(k=>opOk(c,k)),plans=RIC.cfg.plans;let plan=planId&&plans.find(p=>p.id===planId)?planId:plans[0].id,op=ops[0];
   let o=$('#ripayer');if(o)o.remove();o=document.createElement('div');o.id='ripayer';o.className='pmod';document.body.appendChild(o);
-  const draw=()=>{const P=plans.find(p=>p.id===plan),num=c.numeros[op];
+  const draw=()=>{const P=plans.find(p=>p.id===plan),num=(c.numeros||{})[op]||'',auto=op==='wave'&&waveOn(c),lien=op==='wave'&&P.prix_xof>0?(c.wave_lien||'https://pay.wave.com/m/M_ci_kAcBVdk53ehz/c/ci/')+'?amount='+P.prix_xof:'';
    o.innerHTML=`<div class="pbox"><h3>💳 Payer mon accès Premium</h3>
     <div class="small" style="font-weight:700;margin:6px 0">1. Choisis ton pass</div>
     ${plans.map(p=>`<div class="li ri-opt ${p.id===plan?'on':''}" data-plan="${esc(p.id)}"><span class="em">${p.id===plan?'🔘':'⚪'}</span><span class="tx"><b>${esc(p.nom)}</b><small>${p.jours} jours</small></span><b style="white-space:nowrap">${fcfa(p.prix_xof)}</b></div>`).join('')}
     <div class="small" style="font-weight:700;margin:12px 0 6px">2. Choisis ton moyen de paiement</div>
     <div style="display:flex;gap:6px;flex-wrap:wrap">${ops.map(k=>`<button class="ri-op ${k===op?'on':''}" data-op="${k}" style="--c:${OPS[k][1]}">${OPS[k][0]}</button>`).join('')}</div>
-    <div class="ri-envoi"><div>Envoie <b>${fcfa(P.prix_xof)}</b> par <b>${OPS[op][0]}</b> au</div><div class="ri-num">${esc(num)} <button class="ri-copy" id="riCopy">Copier</button></div>${c.nom?`<div class="muted small">Au nom de ${esc(c.nom)}</div>`:''}${c.consigne?`<div class="muted small" style="margin-top:4px">${esc(c.consigne)}</div>`:''}</div>
+${auto?`    <div class="ri-envoi"><div>Tu paies <b>${fcfa(P.prix_xof)}</b> directement dans l’appli <b>Wave</b>.</div><div class="muted small" style="margin-top:4px">Ton accès Premium s’active tout seul dès que Wave confirme le paiement : rien d’autre à envoyer.</div></div>
+    <div id="riPM" class="small" style="margin-top:8px;color:#c0392b"></div>
+    <button class="btn" style="width:100%;margin-top:10px;background:#1DC3F0;color:#fff" id="riWave">🌊 Payer ${fcfa(P.prix_xof)} avec Wave</button>
+`:`${lien?`    <a class="btn" id="riWLien" href="${esc(lien)}" target="_blank" rel="noopener" style="display:block;text-align:center;text-decoration:none;width:100%;box-sizing:border-box;margin-top:10px;background:#1DC3F0;color:#fff">🌊 Ouvrir Wave et payer ${fcfa(P.prix_xof)}</a>
+    <div class="muted small" style="margin-top:6px">Le montant est déjà rempli : valide simplement dans Wave, puis reviens ici.</div>
+`:''}    <div class="ri-envoi"><div>${lien?'Ou envoie':'Envoie'} <b>${fcfa(P.prix_xof)}</b> par <b>${OPS[op][0]}</b> au</div><div class="ri-num">${esc(num)} <button class="ri-copy" id="riCopy">Copier</button></div>${c.nom?`<div class="muted small">Au nom de ${esc(c.nom)}</div>`:''}${c.consigne?`<div class="muted small" style="margin-top:4px">${esc(c.consigne)}</div>`:''}</div>
     <div class="small" style="font-weight:700;margin:12px 0 6px">3. Après l’envoi, écris le numéro qui a payé</div>
     <input class="tin" id="riTel" type="tel" inputmode="tel" placeholder="Ex. 07 01 02 03 04" value="${esc(o.tel!=null?o.tel:LS.get('ri_pay_tel',''))}">
     ${o.refOn||o.ref?`<input class="tin" id="riRef" placeholder="Identifiant de la transaction (facultatif)" autocapitalize="characters" style="margin-top:8px" value="${esc(o.ref||'')}">`:`<button class="ri-lien" id="riRefOn">+ Ajouter l’identifiant du SMS (facultatif)</button>`}
     <div id="riPM" class="small" style="margin-top:8px;color:#c0392b"></div>
     <button class="btn coral" style="width:100%;margin-top:10px" id="riPOk">J’ai payé : envoyer pour vérification</button>
-    <button class="btn light" style="width:100%;margin-top:8px" id="riPX">Annuler</button></div>`;
-   const keep=()=>{o.tel=$('#riTel',o).value;o.ref=$('#riRef',o)?$('#riRef',o).value:o.ref};if($('#riRefOn',o))$('#riRefOn',o).onclick=()=>{keep();o.refOn=1;draw();const r=$('#riRef',o);if(r)r.focus()};
+`}    <button class="btn light" style="width:100%;margin-top:8px" id="riPX">Annuler</button></div>`;
+   const keep=()=>{const t=$('#riTel',o);if(!t)return;o.tel=t.value;o.ref=$('#riRef',o)?$('#riRef',o).value:o.ref};if($('#riRefOn',o))$('#riRefOn',o).onclick=()=>{keep();o.refOn=1;draw();const r=$('#riRef',o);if(r)r.focus()};
    $$('[data-plan]',o).forEach(e=>e.onclick=()=>{keep();plan=e.dataset.plan;draw()});
    $$('[data-op]',o).forEach(e=>e.onclick=()=>{keep();op=e.dataset.op;draw()});
-   $('#riCopy',o).onclick=()=>{try{navigator.clipboard.writeText(String(num).replace(/\s/g,''));toast('Numéro copié')}catch(e){toast(num)}};
+   if(auto){$('#riPX',o).onclick=()=>o.remove();$('#riWave',o).onclick=async()=>{const m=t=>{$('#riPM',o).textContent=t},b=$('#riWave',o);b.disabled=true;m('');
+     try{const t=await token();if(!t){m('Connecte-toi d’abord à ton compte.');b.disabled=false;return}
+      const r=await fetch(RIC.url+'/functions/v1/wave-checkout',{method:'POST',headers:Object.assign(H(),{Authorization:'Bearer '+t}),body:JSON.stringify({plan})});const j=await r.json().catch(()=>({}));
+      if(!j.ok||!j.url){m(RAISON[j.raison]||(j.raison==='wave'?'Wave ne répond pas pour le moment, réessaie dans un instant.':'Paiement impossible pour le moment, réessaie.'));b.disabled=false;return}
+      track('paiement_wave',{plan});LS.set('ri_wave_attente',Date.now());location.href=j.url}
+     catch(e){m(/fetch|network|Load failed/i.test(e.message)?'Pas de connexion internet.':'Paiement impossible pour le moment, réessaie.');b.disabled=false}};return}
+   if($('#riWLien',o))$('#riWLien',o).onclick=()=>{keep();track('paiement_wave_lien',{plan});setTimeout(()=>{const t=$('#riTel',o);if(t&&!t.value)t.focus()},800)};$('#riCopy',o).onclick=()=>{try{navigator.clipboard.writeText(String(num).replace(/\s/g,''));toast('Numéro copié')}catch(e){toast(num)}};
    $('#riPX',o).onclick=()=>o.remove();
    $('#riPOk',o).onclick=async()=>{const tel=$('#riTel',o).value.trim(),ref=($('#riRef',o)?$('#riRef',o).value:'').trim(),m=t=>{$('#riPM',o).textContent=t};
     if(tel.replace(/[^0-9]/g,'').length<8){m('Écris le numéro qui a envoyé l’argent.');return}if(ref&&ref.replace(/\s/g,'').length<4){m('Identifiant trop court : recopie-le depuis le SMS, ou laisse la case vide.');return}

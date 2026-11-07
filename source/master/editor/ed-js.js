@@ -92,6 +92,13 @@ function refresh(full){if(full){applyContent();buildNav()}applyLook();render();i
 
 /* ---------- mode édition ---------- */
 function setEdit(on){EDITMODE=on;document.body.classList.toggle('edit',on);if(!on)closePanel();render();status()}
+/* ---------- lien direct depuis un signalement (WhatsApp, tableau de bord) : …/?q=<identifiant> ouvre la question à corriger ---------- */
+(function(){let qid='';try{qid=new URLSearchParams(location.search).get('q')||'';if(!qid&&/^#q=/.test(location.hash))qid=decodeURIComponent(location.hash.slice(3))}catch(e){}if(!qid)return;
+ let n=0;const t=setInterval(()=>{n++;if(!window.PORTAIL_READY||typeof QI==='undefined'||!edq('#edFab')){if(n>1200)clearInterval(t);return}clearInterval(t);
+  try{history.replaceState(null,'',location.pathname)}catch(e){/* adresse gardée */}
+  const q=QI[qid];if(!q){toast('Question « '+qid+' » introuvable : elle a peut-être été supprimée ou renommée.',6000);return}
+  setEdit(true);try{if(typeof openMat==='function')openMat(q.m)}catch(e){}
+  setTimeout(()=>{qForm(q);toast('⚑ Question signalée par un élève : corrige-la puis enregistre.',6000)},500)},250)})();
 function init(){loadHist();lastSave=HIST[0]?HIST[0].t:0;
  document.body.insertAdjacentHTML('beforeend',`<button class="ed-fab" id="edFab" title="Modifier l’application">✏️</button>
  <div class="ed-bar" id="edBar"><span class="st" id="edSt"></span><button class="pri" id="edPanelBtn">⚙️ Panneau</button><button id="edSave">💾</button><button id="edPub" title="Publier sur GitHub">🚀</button><button id="edQuit">✕ Terminer</button></div>
@@ -561,7 +568,7 @@ async function edImgOut(o,save){const walk=async(v)=>{if(typeof v==='string'){co
  if(Array.isArray(v)){for(let i=0;i<v.length;i++)v[i]=await walk(v[i]);return v}if(v&&typeof v==='object'){for(const k of Object.keys(v))v[k]=await walk(v[k]);return v}return v};return walk(o)}
 const PMANAGED=p=>/^(img|apps|data|icons)\//.test(p)||['index.html','data.js','sw.js','manifest.json','.nojekyll','version.json','catalogue.json'].includes(p);
 /* liste des cours publiée pour le tableau de bord admin (rubriques, matières, nombre de questions et de sujets) */
-function riCatalogue(){const M={};(typeof MAT!=='undefined'?MAT:[]).filter(m=>!m.off).forEach(m=>{M[m.id]={id:m.id,nom:m.title||m.short||m.id,court:m.short||'',niv:[m.niv].filter(Boolean),fil:m.fil||'',q:((typeof QBM!=='undefined'&&QBM[m.id])||[]).length,nsuj:(typeof sujets==='function'?sujets(m.id).length:0)}});
+function riCatalogue(){const M={};(typeof MAT!=='undefined'?MAT:[]).filter(m=>!m.off).forEach(m=>{M[m.id]={id:m.id,nom:m.title||m.short||m.id,court:m.short||'',niv:(typeof nivsOf==='function'?nivsOf(m):[m.niv]).filter(Boolean),fil:m.fil||'',q:((typeof QBM!=='undefined'&&QBM[m.id])||[]).length,nsuj:(typeof sujets==='function'?sujets(m.id).length:0)}});
  const used=new Set(),rub=[];(typeof groups==='function'?groups():[]).forEach(g=>{const ids=[];(g.subs||[]).forEach(sb=>(sb.mats||[]).forEach(i=>{if(M[i]&&!used.has(i)){used.add(i);ids.push(i)}}));if(ids.length)rub.push({id:g.id,nom:g.n,matieres:ids.map(i=>M[i])})});
  const rest=Object.keys(M).filter(i=>!used.has(i));if(rest.length)rub.push({id:'autres',nom:'Autres cours',matieres:rest.map(i=>M[i])});
  return{version:1,genere:new Date().toISOString(),rubriques:rub}}

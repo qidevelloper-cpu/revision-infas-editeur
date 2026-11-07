@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 111108364,
- "sha256": "5796e548d3366148da75f024e804c9f6200921a90c96d588a2a5f60cc6c395df",
+ "taille": 111118027,
+ "sha256": "3b3a813f4f01ebcf72390b40d9c0fd75255420f36ea6ece5e778d3a659318236",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -70,8 +70,8 @@
   {
    "type": "bloc",
    "id": "app-js",
-   "octets": 588379,
-   "sha256": "22fbf928d7fe7c47c842d34ea31b7666b3ee73ab4433a739f02543db468b5cf2",
+   "octets": 597093,
+   "sha256": "f07502f48947bbfcc5fe1c0f0136c012b8668657c651045a79a6e8b6cd5e40b4",
    "fichier": "engine/app-js.js",
    "codage": "brut"
   },
@@ -83,8 +83,8 @@
   {
    "type": "bloc",
    "id": "ed-js",
-   "octets": 262944,
-   "sha256": "484dca5905ac0fe4293f5aa976265d7e6e558fd97a532cd041bf50dd8b1e828e",
+   "octets": 263893,
+   "sha256": "cc427e044d3f0ece56c6923b4c1f82d3f2c830b8bf4392df498ec4672a44dd33",
    "fichier": "editor/ed-js.js",
    "codage": "brut"
   },
