@@ -568,8 +568,8 @@ async function edImgOut(o,save){const walk=async(v)=>{if(typeof v==='string'){co
  if(Array.isArray(v)){for(let i=0;i<v.length;i++)v[i]=await walk(v[i]);return v}if(v&&typeof v==='object'){for(const k of Object.keys(v))v[k]=await walk(v[k]);return v}return v};return walk(o)}
 const PMANAGED=p=>/^(img|apps|data|icons)\//.test(p)||['index.html','data.js','sw.js','manifest.json','.nojekyll','version.json','catalogue.json'].includes(p);
 /* liste des cours publiée pour le tableau de bord admin (rubriques, matières, nombre de questions et de sujets) */
-function riCatalogue(){const M={};(typeof MAT!=='undefined'?MAT:[]).filter(m=>!m.off).forEach(m=>{M[m.id]={id:m.id,nom:m.title||m.short||m.id,court:m.short||'',niv:(typeof nivsOf==='function'?nivsOf(m):[m.niv]).filter(Boolean),fil:m.fil||'',q:((typeof QBM!=='undefined'&&QBM[m.id])||[]).length,nsuj:(typeof sujets==='function'?sujets(m.id).length:0)}});
- const used=new Set(),rub=[];(typeof groups==='function'?groups():[]).forEach(g=>{const ids=[];(g.subs||[]).forEach(sb=>(sb.mats||[]).forEach(i=>{if(M[i]&&!used.has(i)){used.add(i);ids.push(i)}}));if(ids.length)rub.push({id:g.id,nom:g.n,matieres:ids.map(i=>M[i])})});
+function riCatalogue(){const M={};(typeof MAT!=='undefined'?MAT:[]).filter(m=>!m.off).forEach(m=>{M[m.id]={id:m.id,nom:m.title||m.short||m.id,court:m.short||'',niv:(typeof nivsOf==='function'?nivsOf(m):[m.niv]).filter(Boolean),fil:m.fil||'',q:((typeof QBM!=='undefined'&&QBM[m.id])||[]).length,nsuj:(typeof sujets==='function'?sujets(m.id).length:0)};const su=typeof ajSuit==='function'&&ajSuit(m.id);if(su)M[m.id].suit=su});
+ const used=new Set(),rub=[];(typeof groups==='function'?groups():[]).forEach(g=>{const ids=[];(g.subs||[]).forEach(sb=>(sb.mats||[]).forEach(i=>{const mm=typeof MATI!=='undefined'&&MATI[i];if(mm&&mm.aj&&mm.ajG&&mm.ajG!==g.id)return;if(M[i]&&!used.has(i)){used.add(i);ids.push(i)}}));if(ids.length)rub.push({id:g.id,nom:g.n,matieres:ids.map(i=>M[i])})});
  const rest=Object.keys(M).filter(i=>!used.has(i));if(rest.length)rub.push({id:'autres',nom:'Autres cours',matieres:rest.map(i=>M[i])});
  return{version:1,genere:new Date().toISOString(),rubriques:rub}}
 

@@ -1236,7 +1236,9 @@ function appBridge(m,src,ri){let css='',js='';const sc=(E.gts||1)*((S&&S.fz)||1)
   const R={bg:t.bg,card:v('--card')||'#fff',ink:v('--ink')||'#16231F',soft:v('--soft')||'#5E6E68',line:v('--line')||'#E1DDD2',h1:t.h1,h2:t.h2,acc:t.acc};
   R.tint=mixc(t.h1,/^#/.test(R.card)?R.card:'#ffffff',.9);
   const V=rootVars(src),tpl='--plum1' in V&&'--turq' in V,out=[];
+  const PX=(m&&m.pont)||{};
   Object.keys(V).forEach(k=>{const val=V[k];if(!/^#[0-9a-f]{3,8}$/i.test(val))return;
+   if(PX[k]&&R[PX[k]]){out.push(k+':'+R[PX[k]]);return}
    if(tpl&&BR_TPL.includes(k)){const r=v(k);if(r){out.push(k+':'+r);return}}
    if(k==='--soft'){out.push(k+':'+(lumOf(val)<.35?R.soft:R.tint));return}
    for(const role in BR_ROLE)if(BR_ROLE[role].test(k)){if(role==='card'&&lumOf(val)<.5&&!t.d)return;out.push(k+':'+R[role]);return}});
@@ -2153,6 +2155,41 @@ function cvRowPass(){const ed=edOn(),liste=['prepmat','prepplus','sujets','sujex
 
 
 
+/* ---------- CONTENUS AJOUTÉS (skill « ajouter-contenu-revision-infas ») : source/master/ajouts/<id>.json → bloc app-xdata-ajout-<id>
+   Chaque contenu ajouté se déclare lui-même, sans toucher à la configuration de l'auteur ni aux données d'origine :
+   mat (fiche de la matière : titre, emoji, couleur, src = appli complète app-src-<id>, de, pont = couleurs du pont),
+   suit (matière dont il reprend filière, années et accès Gratuit / Premium tant qu'il n'a pas de règle propre),
+   groupes ([{g:groupe, apres:matière | pos:'debut'}]), accueil (carte sur l'accueil), cours (bouton sur la page de ce cours),
+   ouvrir:'appli' (la tuile ouvre directement l'appli), corriges ({identifiant de question: corrigé officiel d'origine}). */
+function ajouts(){return Object.keys(XD).filter(k=>k.startsWith('ajout-')).map(k=>XD[k]).filter(a=>a&&a.mat&&a.mat.id)}
+function ajOf(mid){const a=XD['ajout-'+mid];return a&&a.mat?a:null}
+function ajSuit(mid){const a=ajOf(mid);return a&&a.suit&&a.suit!==mid?a.suit:null}
+const _applyContentAj=applyContent;applyContent=function(){const add=[];ajouts().forEach(a=>{const c=E.content=E.content||{};c.newMat=c.newMat||[];if(c.newMat.some(m=>m.id===a.mat.id)||(DATA0.mat||[]).some(m=>m.id===a.mat.id))return;add.push(a.mat.id);c.newMat.push(Object.assign({niv:'L1',fil:[],ch:[]},clone(a.mat),{aj:1,ajG:((a.groupes||[])[0]||{}).g||''}))});
+ try{_applyContentAj.apply(this,arguments)}finally{if(add.length&&E.content&&E.content.newMat)E.content.newMat=E.content.newMat.filter(m=>!(m.aj&&add.includes(m.id)))}
+ ajouts().forEach(a=>{const m=MATI[a.mat.id],su=a.suit&&MATI[a.suit];if(!m||!su)return;if(!a.mat.fil)m.fil=clone(su.fil||[]);if(!a.mat.niv&&!a.mat.nivs){m.niv=su.niv;if(su.nivs)m.nivs=clone(su.nivs)}})};
+const _groupsAj=groups;groups=function(){const G=_groupsAj.apply(this,arguments);ajouts().forEach(a=>{const id=a.mat.id;if(!MATI[id])return;
+  G.forEach(g=>{if(g.id==='_autres')g.subs.forEach(s=>s.mats=s.mats.filter(x=>x!==id))});
+  (a.groupes||[]).forEach(p=>{const g=G.find(x=>x.id===p.g);if(!g||g.subs.some(s=>s.mats.includes(id)))return;const sub={id:'aj-'+id,n:p.n||'',mats:[id]};let i=g.subs.length;
+   if(p.apres){const j=g.subs.findIndex(s=>s.mats.includes(p.apres));if(j>=0)i=j+1}else if(p.pos==='debut')i=0;g.subs.splice(i,0,sub)})});
+ return G.filter(g=>g.id!=='_autres'||g.subs.some(s=>s.mats.length))};
+/* la tuile d'un contenu « appli » ouvre directement l'appli */
+const _openMatAj=openMat;openMat=function(id){const a=ajOf(id);if(a&&a.ouvrir==='appli'&&MATI[id]&&MATI[id].src){if(typeof RIC!=='undefined'&&RIC.hidden&&RIC.hidden('matiere:'+id)){toast(Tx('aj.off','Ce contenu n’est pas disponible.'));return}return openDE(id)}return _openMatAj.apply(this,arguments)};
+/* bouton sur la page du cours choisi */
+const _ficheAj=ficheLinks;ficheLinks=function(mid){const out=_ficheAj.apply(this,arguments);ajouts().forEach(a=>{const m=MATI[a.mat.id];if(a.cours!==mid||!m)return;if(typeof RIC!=='undefined'&&RIC.hidden&&RIC.hidden('matiere:'+m.id))return;
+  out.push(actBtn(`openMat('${jsq(m.id)}')`,'star',m.emo||'✍️',esc(a.bouton||m.title),esc(a.boutonSous||m.sub||'')))});return out};
+/* carte sur l'accueil */
+B('home.ajouts','Contenus ajoutés (accueil)',()=>{const mine=new Set(myMats().map(m=>m.id));const L=ajouts().filter(a=>a.accueil&&MATI[a.mat.id]&&mine.has(a.mat.id)&&!(typeof RIC!=='undefined'&&RIC.hidden&&RIC.hidden('matiere:'+a.mat.id)));if(!L.length)return'';
+  return `<div class="card sf"><h3>${T('aj.h','✨ À découvrir')}</h3>${L.map(a=>{const m=MATI[a.mat.id];return `<div class="li" onclick="openMat('${jsq(m.id)}')"><span class="em">${esc(m.emo||'✍️')}</span><span class="tx"><b>${esc(m.title)}</b><small>${esc(a.boutonSous||m.sub||'')}</small></span><span class="go">›</span></div>`}).join('')}</div>`});
+(function(){const H=SCREENS.home.blocks;if(!H.includes('home.ajouts')){const i=H.indexOf('home.mat');H.splice(i<0?H.length:i,0,'home.ajouts')}})();
+const _layoutOfAj=layoutOf;layoutOf=function(sc){const L=_layoutOfAj(sc);if(sc!=='home'||!Array.isArray(L)||L.some(b=>b.id==='home.ajouts'))return L;const C=L.slice(),i=C.findIndex(b=>b.id==='home.mat');C.splice(i<0?C.length:i,0,{id:'home.ajouts',inst:'home.ajouts'});return C};
+/* liste « Mes matières » : une appli ajoutée n'a pas de questions natives ; on affiche son résumé au lieu de « 0 questions » */
+const _matListAj=BLK['matieres.list'].html;BLK['matieres.list'].html=function(){let h=_matListAj.apply(this,arguments);ajouts().forEach(a=>{const m=MATI[a.mat.id];if(!m||!a.resume)return;
+  const re=new RegExp("(openMat\\('"+a.mat.id.replace(/[^\w-]/g,'')+"'\\)\"[\\s\\S]*?<small>)[\\s\\S]*?(</small>)",'g');h=h.replace(re,(x,p1,p2)=>p1+esc((m.fil||[]).join(' · ')+' · '+(typeof nivLbl==='function'?nivLbl(m):m.niv)+' · '+a.resume)+p2)});return h};
+/* corrigé officiel d'origine, affiché sous l'explication de la question correspondante */
+function ajCorrige(qid){if(!qid)return'';for(const a of ajouts()){const t=a.corriges&&a.corriges[qid];if(t)return t}return''}
+const _extrasAj=extrasHTML;extrasHTML=function(q){const h=_extrasAj.apply(this,arguments),t=ajCorrige(q&&q.id);if(!t)return h;
+ const row=`<div class="xrow x-co"><div class="xh">📄 ${esc(Tx('aj.co','Corrigé officiel (texte de l’examen)'))}</div><div style="white-space:pre-line">${esc(t)}</div></div>`;return h?h.replace(/<\/div>$/,row+'</div>'):`<div class="xbox">${row}</div>`};
+
 /* ======================= RI CLOUD · liaison avec le tableau de bord (Supabase) =======================
    Créé par Daniel Noufe · INFAS
    - lit les règles Gratuit / Premium / Masqué, les offres et les annonces publiées par le tableau de bord ;
@@ -2208,8 +2245,8 @@ const RIC={
 
  function grpOf(mid){try{for(const g of groups())for(const s of g.subs)if(s.mats.includes(mid))return g.id}catch(e){}return null}
  function baseRule(){const R=RIC.cfg.regles;if(S&&S.fil&&S.niv){const k='niveau:'+filBase(S.fil)+'-'+S.niv;if(R[k])return R[k].acces}return RIC.cfg.defaut}
- function matRule(mid){const R=RIC.cfg.regles;if(R['matiere:'+mid])return R['matiere:'+mid].acces;const g=grpOf(mid);if(g&&R['rubrique:'+g])return R['rubrique:'+g].acces;return baseRule()}
- function quota(mid){const R=RIC.cfg.regles,r=R['matiere:'+mid];if(r&&r.quotaGratuit!=null)return r.quotaGratuit;const g=grpOf(mid),rg=g&&R['rubrique:'+g];if(rg&&rg.quotaGratuit!=null)return rg.quotaGratuit;return 0}
+ function matRule(mid){const R=RIC.cfg.regles;if(R['matiere:'+mid])return R['matiere:'+mid].acces;const su=typeof ajSuit==='function'&&ajSuit(mid);if(su)return matRule(su);const g=grpOf(mid);if(g&&R['rubrique:'+g])return R['rubrique:'+g].acces;return baseRule()}
+ function quota(mid){const R=RIC.cfg.regles,r=R['matiere:'+mid];if(r&&r.quotaGratuit!=null)return r.quotaGratuit;const su=!r&&typeof ajSuit==='function'&&ajSuit(mid);if(su)return quota(su);const g=grpOf(mid),rg=g&&R['rubrique:'+g];if(rg&&rg.quotaGratuit!=null)return rg.quotaGratuit;return 0}
  /* effective('matiere:vih/sujet:3') → 'gratuit' | 'premium' | 'masque' (la règle la plus précise l'emporte) */
  function effective(key){const R=RIC.cfg.regles;
   if(R[key])return R[key].acces;
