@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 112232021,
- "sha256": "6088066f5f3e440b714c951a62464176ca1f1281076db0fd7064470a208165c7",
+ "taille": 112232221,
+ "sha256": "6015990ef86e477b751dacbae987433afb1ddcce4dc032804fb5f90c92a03fc4",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -18,8 +18,8 @@
   {
    "type": "bloc",
    "id": "app-css",
-   "octets": 68020,
-   "sha256": "9158d4818f444ffd61a44ab65ec8cc3efe1c12f9dc3fcaf287a4cda0d44543e0",
+   "octets": 68185,
+   "sha256": "8f231a18e6a2a0b45be9192d9982f04584f68f1eafdcc559fecafd70edac2113",
    "fichier": "styles/app-css.css",
    "codage": "brut"
   },
@@ -70,8 +70,8 @@
   {
    "type": "bloc",
    "id": "app-js",
-   "octets": 634404,
-   "sha256": "49aa0a8b2435903d192fd6a75957d9cd0cb0614b91f12ff00c6d49b35014a867",
+   "octets": 634439,
+   "sha256": "a125ffa3061007da1d88e76daf140acb1f8ddc146053f8d5947d5d618e5e0d4e",
    "fichier": "engine/app-js.js",
    "codage": "brut"
   },

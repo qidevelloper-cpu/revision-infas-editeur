@@ -982,14 +982,12 @@ try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_ca
   const st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
 
   let expr = '', ans = 0, deg = true, last = null, hist = [];
-  const KEYS = [
-    ['sin', 'sin(', 'fn'], ['cos', 'cos(', 'fn'], ['tan', 'tan(', 'fn'], ['ln', 'ln(', 'fn'], ['log', 'log(', 'fn'],
-    ['√', '√(', 'fn'], ['x²', '^2', 'fn'], ['xʸ', '^', 'fn'], ['(', '(', 'fn'], [')', ')', 'fn'],
-    ['π', 'π', 'fn'], ['e', 'e', 'fn'], ['n!', '!', 'fn'], ['%', '%', 'fn'], ['Ans', 'Ans', 'fn'],
-    ['7', '7'], ['8', '8'], ['9', '9'], ['DEL', 'DEL', 'ac'], ['AC', 'AC', 'ac'],
-    ['4', '4'], ['5', '5'], ['6', '6'], ['×', '×', 'op'], ['÷', '÷', 'op'],
-    ['1', '1'], ['2', '2'], ['3', '3'], ['+', '+', 'op'], ['−', '−', 'op'],
-    ['0', '0'], [',', ','], ['×10ˣ', 'E', 'fn'], ['1/x', '^(−1)', 'fn'], ['=', '=', 'eq']
+  const KEYS = [   /* modèle « calculatrice de poche » : 4 colonnes, = sur deux rangées */
+    ['AC', 'AC', 'ac'], ['%', '%', 'op'], ['×', '×', 'op'], ['÷', '÷', 'op'],
+    ['7', '7'], ['8', '8'], ['9', '9'], ['−', '−', 'op'],
+    ['4', '4'], ['5', '5'], ['6', '6'], ['+', '+', 'op'],
+    ['1', '1'], ['2', '2'], ['3', '3'], ['=', '=', 'eq'],
+    ['0', '0'], [',', ','], ['+/-', 'NEG', 'op']
   ];
 
   // évaluateur sûr (descente récursive, sans eval)
@@ -1074,7 +1072,7 @@ try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_ca
     ov = document.createElement('div'); ov.className = 'calc-ov hidden'; ov.id = 'calc-ov';
     ov.innerHTML = `<div class="calc-sheet" role="dialog" aria-label="Calculatrice scientifique">
       <div class="calc-drag" id="calc-drag"><span class="calc-grip"></span>
-      <div class="calc-top"><span class="calc-title">🧮 Calculatrice</span><span class="calc-tools"><button class="calc-tool" id="calc-smaller" aria-label="Réduire la calculatrice" title="Réduire"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/><path d="M7.5 10.5h6"/></svg></button><button class="calc-tool" id="calc-bigger" aria-label="Agrandir la calculatrice" title="Agrandir"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/><path d="M7.5 10.5h6M10.5 7.5v6"/></svg></button><button class="calc-mode" id="calc-mode">DEG</button><button class="calc-x" id="calc-x" aria-label="Fermer">✕</button></span></div></div>
+      <div class="calc-top"><span class="calc-title">🧮 Calculatrice</span><span class="calc-tools"><button class="calc-tool" id="calc-smaller" aria-label="Réduire la calculatrice" title="Réduire"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/><path d="M7.5 10.5h6"/></svg></button><button class="calc-tool" id="calc-bigger" aria-label="Agrandir la calculatrice" title="Agrandir"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/><path d="M7.5 10.5h6M10.5 7.5v6"/></svg></button><button class="calc-x" id="calc-x" aria-label="Fermer">✕</button></span></div></div>
       <div class="calc-screen"><div class="calc-hist" id="calc-hist"></div><div class="calc-expr" id="calc-expr"></div><div class="calc-res" id="calc-res">0</div></div>
       <div class="calc-grid">${KEYS.map(k => `<button data-k="${k[1]}" class="${k[2] || ''}">${k[0]}</button>`).join('')}</div></div>`;
     document.body.appendChild(ov);
@@ -1111,16 +1109,23 @@ try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_ca
     const end = e => { if (st && e.pointerId === st.id) { st = null; save(); } };
     drag.addEventListener('pointerup', end); drag.addEventListener('pointercancel', end);
     window.addEventListener('resize', () => { if (!ov.classList.contains('hidden')) applyP(); });
-    modeEl.onclick = () => { deg = !deg; modeEl.textContent = deg ? 'DEG' : 'RAD'; preview(); };
+    if (modeEl) modeEl.onclick = () => { deg = !deg; modeEl.textContent = deg ? 'DEG' : 'RAD'; preview(); };
     ov.querySelector('.calc-grid').addEventListener('click', e => { const b = e.target.closest('button'); if (b) press(b.dataset.k); });
   }
-  function preview() {
-    exEl.textContent = expr;
-    if (!expr) { resEl.textContent = last != null ? fmt(last) : '0'; resEl.classList.remove('err'); return; }
-    try { const v = evaluate(balance(expr)); resEl.textContent = '= ' + fmt(v); resEl.classList.remove('err'); } catch (e) { resEl.textContent = ''; }
+  function preview() {   /* un seul affichage, comme une calculatrice de poche : la saisie, puis le résultat */
+    exEl.textContent = '';
+    resEl.classList.remove('err');
+    resEl.textContent = expr ? expr.replace(/^Ans/, last != null ? fmt(last) : (ans != null ? fmt(ans) : '0')) : (last != null ? fmt(last) : '0');
   }
   function press(k) {
     if (k === 'AC') { expr = ''; last = null; }
+    else if (k === 'NEG') {   /* +/- : change le signe du nombre en cours */
+      if (!expr && last != null) expr = fmt(last);
+      const m = expr.match(/(^|[×÷+−(])(−?)([0-9,]+%?)$/);
+      if (!m) return;
+      expr = expr.slice(0, expr.length - m[2].length - m[3].length) + (m[2] ? '' : '−') + m[3];
+      last = null;
+    }
     else if (k === 'DEL') { expr = expr.endsWith('Ans') ? expr.slice(0, -3) : expr.slice(0, -1); }
     else if (k === '=') {
       if (!expr) return;
