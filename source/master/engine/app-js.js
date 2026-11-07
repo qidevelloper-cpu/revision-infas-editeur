@@ -935,7 +935,7 @@ function nfAuto(){try{if(!S.onb||EDITMODE||!/^https?:$/.test(location.protocol)|
  document.body.appendChild(d);$('#nfaY',d).onclick=()=>{d.remove();notifEnable()};$('#nfaN',d).onclick=()=>d.remove()}catch(e){}}
 
 /* ---------- 11. CALCULATRICE scientifique (quiz et examens) ---------- */
-window.CALC_CONFIG={quizSelector:'[data-bid="quiz.main"],[data-bid="exam.main"]'};
+window.CALC_CONFIG={quizSelector:'[data-bid="quiz.main"],[data-bid="exam.main"],[data-bid="fil.main"],.calc-mark'};
 try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_calc_fab_v1',JSON.stringify({x:Math.max(6,innerWidth-190),y:Math.max(120,innerHeight-160)}))}catch(e){}
 
 /* === Calculatrice scientifique flottante — Créé par Daniel Noufe · INFAS ===
@@ -2166,7 +2166,7 @@ function ajOf(mid){const a=XD['ajout-'+mid];return a&&a.mat?a:null}
 function ajSuit(mid){const a=ajOf(mid);return a&&a.suit&&a.suit!==mid?a.suit:null}
 const _applyContentAj=applyContent;applyContent=function(){const add=[];ajouts().forEach(a=>{const c=E.content=E.content||{};c.newMat=c.newMat||[];if(c.newMat.some(m=>m.id===a.mat.id)||(DATA0.mat||[]).some(m=>m.id===a.mat.id))return;add.push(a.mat.id);c.newMat.push(Object.assign({niv:'L1',fil:[],ch:[]},clone(a.mat),{aj:1,ajG:((a.groupes||[])[0]||{}).g||''}))});
  try{_applyContentAj.apply(this,arguments)}finally{if(add.length&&E.content&&E.content.newMat)E.content.newMat=E.content.newMat.filter(m=>!(m.aj&&add.includes(m.id)))}
- ajouts().forEach(a=>{const m=MATI[a.mat.id],su=a.suit&&MATI[a.suit];if(!m||!su)return;if(!a.mat.fil)m.fil=clone(su.fil||[]);if(!a.mat.niv&&!a.mat.nivs){m.niv=su.niv;if(su.nivs)m.nivs=clone(su.nivs)}})};
+ ajouts().forEach(a=>{const m=MATI[a.mat.id],su=a.suit&&MATI[a.suit];if(!m||!su)return;const ov=((E.content||{}).mat||{})[m.id]||{};if(!a.mat.fil&&!ov.fil)m.fil=clone(su.fil||[]);if(!a.mat.niv&&!a.mat.nivs&&!ov.nivs&&!ov.niv){m.niv=su.niv;if(su.nivs)m.nivs=clone(su.nivs)}})};
 const _groupsAj=groups;groups=function(){const G=_groupsAj.apply(this,arguments);ajouts().forEach(a=>{const id=a.mat.id;if(!MATI[id])return;
   G.forEach(g=>{if(g.id==='_autres')g.subs.forEach(s=>s.mats=s.mats.filter(x=>x!==id))});
   (a.groupes||[]).forEach(p=>{const g=G.find(x=>x.id===p.g);if(!g||g.subs.some(s=>s.mats.includes(id)))return;const sub={id:'aj-'+id,n:p.n||'',mats:[id]};let i=g.subs.length;
@@ -2231,11 +2231,11 @@ const RIC={
     get('announcements?select=id,titre,texte,cible,couleur,du,au')]);
    const regles={};rules.forEach(r=>{regles[r.cle]=r.quota_gratuit==null?{acces:r.acces}:{acces:r.acces,quotaGratuit:r.quota_gratuit}});
    const sv=k=>{const x=sets.find(r=>r.cle===k);return(x&&x.valeur)||{}};const pa=sv('public.access'),pay=sv('public.paiement');
-   const old=JSON.stringify(RIC.cfg.regles)+RIC.cfg.defaut+JSON.stringify(RIC.cfg.annonces);
+   const old=JSON.stringify(RIC.cfg.regles)+RIC.cfg.defaut+JSON.stringify(RIC.cfg.annonces)+JSON.stringify(RIC.cfg.questions||{});
    let google=false;try{const r=await fetch(RIC.url+'/auth/v1/settings',{headers:H(),cache:'no-store'});if(r.ok){const j=await r.json();google=!!(j.external&&j.external.google)}}catch(e){}
-   RIC.cfg={regles,defaut:pa.defaut==='premium'?'premium':'gratuit',version:pa.version||0,plans,annonces:ann,google,paiement:pay,t:Date.now()};
+   RIC.cfg={regles,defaut:pa.defaut==='premium'?'premium':'gratuit',version:pa.version||0,questions:(pa.questions&&typeof pa.questions==='object')?pa.questions:{},plans,annonces:ann,google,paiement:pay,t:Date.now()};
    LS.set(RIC.CK,RIC.cfg);RIC.ready=true;
-   if(old!==JSON.stringify(regles)+RIC.cfg.defaut+JSON.stringify(ann)&&typeof render==='function'&&!EDITMODE&&!quiet)render();
+   if(old!==JSON.stringify(regles)+RIC.cfg.defaut+JSON.stringify(ann)+JSON.stringify(RIC.cfg.questions)&&typeof render==='function'&&!EDITMODE&&!quiet)render();
   }catch(e){console.warn('RI cloud : règles non mises à jour',e)}
   RIC.busy=false;flush()}
  RIC.refresh=refresh;
@@ -2394,7 +2394,7 @@ const RIC={
  RIC.compte=function(mode){let o=$('#ricpt');if(o)o.remove();o=document.createElement('div');o.id='ricpt';o.className='pmod';mode=mode||'creer';
   if(RIC.session){const s=RIC.statut||{};const prem=RIC.isPremium();
    const PA=(RIC.paiements||LS.get('ri_cloud_pay',[])).slice(0,3).map(p=>`<div class="muted small" style="margin:4px 0">${p.statut==='a_verifier'?(p.operateur==='wave'&&/^cos-/.test(p.reference||'')?'⏳ Paiement Wave en attente':'⏳ En vérification'):p.statut==='valide'?'✅ Validé':'❌ Refusé'} · ${esc(p.plan_nom)} · ${fcfa(p.montant_xof)} · ${esc((OPS[p.operateur]||[p.operateur])[0])}${p.statut==='refuse'&&p.motif?' — '+esc(p.motif):''}</div>`).join('');
-   o.innerHTML=`<div class="pbox"><h3>👤 Mon compte</h3><div class="li" style="cursor:default"><span class="em">✉️</span><span class="tx"><b>${esc(RIC.session.email||'Compte connecté')}</b><small>${s.statut==='bloque'?'Compte bloqué : contacte l’administrateur':prem?'⭐ Premium jusqu’au '+esc(finPremium()):'Version gratuite'}</small></span></div>${PA?`<div style="margin:8px 0"><b class="small">Mes paiements</b>${PA}</div>`:''}${!prem&&RIC.payOuvert()?`<button class="btn coral" style="width:100%;margin:6px 0" onclick="document.getElementById('ricpt').remove();RIC.payer()">💳 Passer Premium</button>`:''}<div class="muted small" style="margin:8px 0">Ton compte garde ton accès Premium. Il fonctionne sur 2 téléphones au maximum.</div><div class="row2"><button class="btn light" id="ricRef">🔄 Actualiser</button><button class="btn light" id="ricOut">Se déconnecter</button></div><button class="btn light" style="width:100%;margin-top:8px" id="ricX">Fermer</button></div>`;
+   o.innerHTML=`<div class="pbox"><h3>👤 Mon compte</h3><div class="li" style="cursor:default"><span class="em">✉️</span><span class="tx"><b>${esc(RIC.session.email||'Compte connecté')}</b><small>${s.statut==='bloque'?'Compte bloqué : contacte l’administrateur':prem?'⭐ Premium jusqu’au '+esc(finPremium()):'Version gratuite'}</small></span></div>${PA?`<div style="margin:8px 0"><b class="small">Mes paiements</b>${PA}</div>`:''}${!prem&&RIC.payOuvert()?`<button class="btn coral" style="width:100%;margin:6px 0" onclick="document.getElementById('ricpt').remove();RIC.payer()">💳 Passer Premium</button>`:''}<button class="btn light" style="width:100%;margin:6px 0" onclick="document.getElementById('ricpt').remove();RIC.code()">🎟️ J’ai un code d’activation</button><div class="muted small" style="margin:8px 0">Ton compte garde ton accès Premium. Il fonctionne sur 2 téléphones au maximum.</div><div class="row2"><button class="btn light" id="ricRef">🔄 Actualiser</button><button class="btn light" id="ricOut">Se déconnecter</button></div><button class="btn light" style="width:100%;margin-top:8px" id="ricX">Fermer</button></div>`;
    document.body.appendChild(o);$('#ricX',o).onclick=()=>o.remove();$('#ricRef',o).onclick=async()=>{await RIC.syncCompte();o.remove();toast(RIC.isPremium()?'⭐ Premium actif':'Compte à jour')};
    $('#ricOut',o).onclick=async()=>{try{const t=await token();if(t)await fetch(RIC.url+'/auth/v1/logout',{method:'POST',headers:Object.assign(H(),{Authorization:'Bearer '+t})})}catch(e){}logoutLocal();o.remove();render();toast('Déconnecté')};return}
   const cr=mode==='creer',G=!!RIC.cfg.google,mail=mode==='email'||mode==='connexion'||!G,crm=mode!=='connexion';
@@ -2435,11 +2435,38 @@ const RIC={
   RIC.info('Paiement Wave reçu ✅','Ton accès Premium s’active dans quelques secondes, dès que Wave confirme le paiement.');let n=0;
   const t=setInterval(async()=>{n++;try{await RIC.syncCompte();await RIC.verifPaiement()}catch(e){}if(RIC.isPremium()||n>40){clearInterval(t);if(RIC.isPremium()){try{render()}catch(e){}toast('⭐ Premium activé')}}},3000)};
  setTimeout(()=>RIC.retourWave(),1500);
- RIC.payer=function(planId){if(!RIC.session){RIC.compte('creer');return}if(!RIC.payOuvert()){toast('Le paiement n’est pas encore ouvert.');return}
+ /* ---------- code d'activation à usage unique (créé par l'administrateur dans le tableau de bord) ---------- */
+ RIC.contact=function(){const c=RIC.cfg.paiement||{};return String(c.contact||(c.numeros&&(c.numeros.wave||c.numeros.orange||c.numeros.mtn||c.numeros.moov))||'').replace(/[^0-9+]/g,'')};
+ RIC.waAdmin=function(texte){let n=RIC.contact().replace(/^\+/,'');if(!n)return'';if(/^0\d{9}$/.test(n))n='225'+n;else if(/^\d{8,10}$/.test(n)&&!/^225/.test(n))n='225'+n;return 'https://wa.me/'+n+'?text='+encodeURIComponent(texte)};
+ RIC.code=function(planId){if(!RIC.session){RIC.compte('creer');return}let o=$('#ricode');if(o)o.remove();o=document.createElement('div');o.id='ricode';o.className='pmod';document.body.appendChild(o);
+  const st=RIC.statut||{},nom=[st.prenom,st.nom].filter(Boolean).join(' ')||(S&&S.name)||'',P=(RIC.cfg.plans||[]).find(p=>p.id===planId);
+  const msg=`Bonjour, je suis ${nom||'un élève'}${S&&S.fil?' ('+[S.fil,S.niv].filter(Boolean).join(' ')+')':''} sur Révision INFAS. J’ai payé ${P?'le '+P.nom+' ('+fcfa(P.prix_xof)+')':'mon accès Premium'}. Pouvez-vous m’envoyer mon code d’activation ? Numéro qui a payé : `;
+  const wa=RIC.waAdmin(msg);
+  o.innerHTML=`<div class="pbox"><h3>🎟️ Activer mon accès Premium</h3>
+   <div class="small" style="margin-bottom:8px">Tape le code reçu de l’administrateur (ex. <b>RI-7K4P-2M9X</b>).</div>
+   <input class="tin" id="ricodeT" autocapitalize="characters" autocomplete="one-time-code" placeholder="RI-XXXX-XXXX" maxlength="20" style="text-transform:uppercase;letter-spacing:1px;font-weight:700">
+   <div id="ricodeM" class="small" style="margin-top:8px;color:#c0392b"></div>
+   <button class="btn coral" style="width:100%;margin-top:10px" id="ricodeOk">Activer mon code</button>
+   <div class="ri-envoi" style="margin-top:14px"><div><b>Tu as déjà payé ?</b></div><div class="muted small" style="margin-top:4px">Écris à l’administrateur pour recevoir ton code d’activation Premium.</div>
+    ${wa?`<a class="btn" href="${esc(wa)}" target="_blank" rel="noopener" id="ricodeWa" style="display:block;text-align:center;text-decoration:none;margin-top:8px;background:#25D366;color:#fff">💬 Écrire à l’administrateur sur WhatsApp</a>`:`<div class="muted small" style="margin-top:6px">Le contact de l’administrateur n’est pas encore renseigné.</div>`}</div>
+   ${RIC.payOuvert()?`<button class="ri-lien" id="ricodePay" style="display:block;margin-top:10px">💳 Je n’ai pas encore payé : payer maintenant</button>`:''}
+   <button class="btn light" style="width:100%;margin-top:8px" id="ricodeX">Fermer</button></div>`;
+  const M=$('#ricodeM',o),T=$('#ricodeT',o);setTimeout(()=>T.focus(),50);
+  $('#ricodeX',o).onclick=()=>o.remove();o.onclick=e=>{if(e.target===o)o.remove()};if($('#ricodePay',o))$('#ricodePay',o).onclick=()=>{o.remove();RIC.payer(planId)};
+  if($('#ricodeWa',o))$('#ricodeWa',o).onclick=()=>track('contact_admin',{motif:'code'});
+  T.onkeydown=e=>{if(e.key==='Enter')$('#ricodeOk',o).click()};
+  const RAISON={format:'Ce code n’a pas la bonne forme : il ressemble à RI-XXXX-XXXX.',inconnu:'Ce code n’existe pas ou a été annulé. Vérifie chaque caractère.',deja:'Ce code a déjà été utilisé par un autre compte.',deja_toi:'Tu as déjà utilisé ce code : ton accès Premium est actif.',trop:'Trop d’essais : réessaie dans une heure.',connexion:'Connecte-toi d’abord à ton compte.',compte:'Ton compte ne permet pas d’activer un code. Écris à l’administrateur.'};
+  $('#ricodeOk',o).onclick=async()=>{const v=T.value.trim();if(v.replace(/[^0-9a-z]/gi,'').length<8){M.textContent=RAISON.format;return}const b=$('#ricodeOk',o);b.disabled=true;b.textContent='Vérification…';M.textContent='';
+   try{const r=await RIC.rpc('utiliser_code',{p_code:v});if(r&&r.ok){track('code_active',{plan:r.plan});o.remove();try{await RIC.syncCompte()}catch(e){}if(typeof render==='function')render();
+     toast(`⭐ Premium activé : ${r.plan||'pass'} jusqu’au ${new Date(r.fin).toLocaleDateString('fr-FR')}`)}
+    else{M.textContent=RAISON[r&&r.raison]||'Code refusé.';b.disabled=false;b.textContent='Activer mon code'}}
+   catch(e){M.textContent=/function|404|PGRST/.test(String(e&&e.message))?'L’activation par code n’est pas encore ouverte.':'Pas de connexion : réessaie dans un instant.';b.disabled=false;b.textContent='Activer mon code'}}};
+ RIC.payer=function(planId){if(!RIC.session){RIC.compte('creer');return}if(!RIC.payOuvert()){RIC.code();return}
   const c=RIC.cfg.paiement,ops=Object.keys(OPS).filter(k=>opOk(c,k)),plans=RIC.cfg.plans;let plan=planId&&plans.find(p=>p.id===planId)?planId:plans[0].id,op=ops[0];
   let o=$('#ripayer');if(o)o.remove();o=document.createElement('div');o.id='ripayer';o.className='pmod';document.body.appendChild(o);
   const draw=()=>{const P=plans.find(p=>p.id===plan),num=(c.numeros||{})[op]||'',auto=op==='wave'&&waveOn(c),lien=op==='wave'&&P.prix_xof>0?(c.wave_lien||'https://pay.wave.com/m/M_ci_kAcBVdk53ehz/c/ci/')+'?amount='+P.prix_xof:'';
    o.innerHTML=`<div class="pbox"><h3>💳 Payer mon accès Premium</h3>
+    <button class="ri-lien" id="riCodeOn" style="display:block;margin:0 0 8px">🎟️ J’ai déjà un code d’activation</button>
     <div class="small" style="font-weight:700;margin:6px 0">1. Choisis ton pass</div>
     ${plans.map(p=>`<div class="li ri-opt ${p.id===plan?'on':''}" data-plan="${esc(p.id)}"><span class="em">${p.id===plan?'🔘':'⚪'}</span><span class="tx"><b>${esc(p.nom)}</b><small>${p.jours} jours</small></span><b style="white-space:nowrap">${fcfa(p.prix_xof)}</b></div>`).join('')}
     <div class="small" style="font-weight:700;margin:12px 0 6px">2. Choisis ton moyen de paiement</div>
@@ -2457,7 +2484,7 @@ ${auto?`    <div class="ri-envoi"><div>Tu paies <b>${fcfa(P.prix_xof)}</b> direc
     <button class="btn coral" style="width:100%;margin-top:10px" id="riPOk">J’ai payé : envoyer pour vérification</button>
 `}    <button class="btn light" style="width:100%;margin-top:8px" id="riPX">Annuler</button></div>`;
    const keep=()=>{const t=$('#riTel',o);if(!t)return;o.tel=t.value;o.ref=$('#riRef',o)?$('#riRef',o).value:o.ref};if($('#riRefOn',o))$('#riRefOn',o).onclick=()=>{keep();o.refOn=1;draw();const r=$('#riRef',o);if(r)r.focus()};
-   $$('[data-plan]',o).forEach(e=>e.onclick=()=>{keep();plan=e.dataset.plan;draw()});
+   if($('#riCodeOn',o))$('#riCodeOn',o).onclick=()=>{o.remove();RIC.code(plan)};$$('[data-plan]',o).forEach(e=>e.onclick=()=>{keep();plan=e.dataset.plan;draw()});
    $$('[data-op]',o).forEach(e=>e.onclick=()=>{keep();op=e.dataset.op;draw()});
    if(auto){$('#riPX',o).onclick=()=>o.remove();$('#riWave',o).onclick=async()=>{const m=t=>{$('#riPM',o).textContent=t},b=$('#riWave',o);b.disabled=true;m('');
      try{const t=await token();if(!t){m('Connecte-toi d’abord à ton compte.');b.disabled=false;return}
@@ -2535,4 +2562,183 @@ ${auto?`    <div class="ri-envoi"><div>Tu paies <b>${fcfa(P.prix_xof)}</b> direc
  document.addEventListener('visibilitychange',()=>{if(!document.hidden)RIC.presence()});
  document.addEventListener('visibilitychange',()=>{if(!document.hidden)RIC.verifPaiement()});window.addEventListener('focus',()=>RIC.verifPaiement());
 })();
+/* ======================= COUVERTURE COMMUNE À PLUSIEURS SUJETS (éditeur) =======================
+   Une seule image est gardée (clé « grp:<matière>:<n> ») ; chaque sujet choisi y renvoie par « @cv:<clé> ». */
+(function(){
+ const _cov=coverOf;coverOf=function(k){let v=_cov(k),n=0;while(v&&v.startsWith('@cv:')&&n++<3)v=_cov(v.slice(4));return v||''};
+ function lireImage(f){return new Promise(ok=>{const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{const W=Math.min(900,im.width),c=document.createElement('canvas');c.width=W;c.height=Math.round(im.height*W/im.width);c.getContext('2d').drawImage(im,0,0,c.width,c.height);let u=c.toDataURL('image/webp',.72);if(!/^data:image\/webp/.test(u))u=c.toDataURL('image/jpeg',.72);ok(u)};im.onerror=()=>ok('');im.src=r.result};r.readAsDataURL(f)})}
+ window.coverMulti=function(mid){const L=sujets(mid);if(!L.length)return;let o=$('#cvmulti');if(o)o.remove();o=document.createElement('div');o.id='cvmulti';o.className='pmod';document.body.appendChild(o);const sel=new Set();
+  const draw=()=>{o.innerHTML=`<div class="pbox" style="max-width:520px"><h3>🖼️ ${esc(Tx('cvm.h','Une couverture pour plusieurs sujets'))}</h3>
+   <div class="row2" style="align-items:center;gap:6px;flex-wrap:wrap"><button class="btn light" id="cvmAll">${sel.size===L.length?'☐ Tout décocher':'☑ Tout cocher'}</button>
+    <span class="small">Du sujet <input class="tin" id="cvmA" type="number" min="1" max="${L.length}" value="1" style="width:64px;display:inline-block"> au <input class="tin" id="cvmB" type="number" min="1" max="${L.length}" value="${Math.min(10,L.length)}" style="width:64px;display:inline-block"></span><button class="btn light" id="cvmRange">Cocher</button></div>
+   <div style="max-height:46vh;overflow:auto;margin:10px 0;border:1px solid var(--line);border-radius:12px;padding:6px 10px">${L.map((ids,k)=>`<label style="display:flex;gap:10px;align-items:center;padding:6px 0;border-bottom:1px solid var(--line)"><input type="checkbox" data-cvk="${k}" ${sel.has(k)?'checked':''}>${coverOf(sujCvKey(mid,k))?`<img src="${coverOf(sujCvKey(mid,k))}" alt="" style="width:46px;height:30px;object-fit:cover;border-radius:6px">`:'<span style="width:46px;text-align:center">—</span>'}<span>${esc(sujTitre(mid,k))} <small class="muted">· ${ids.length} q.</small></span></label>`).join('')}</div>
+   <div class="small muted">${sel.size} sujet${sel.size>1?'s':''} coché${sel.size>1?'s':''}</div>
+   <button class="btn coral" style="width:100%;margin-top:8px" id="cvmPick" ${sel.size?'':'disabled'}>🖼️ Choisir l’image pour ces sujets</button>
+   <button class="btn light" style="width:100%;margin-top:8px" id="cvmDel" ${sel.size?'':'disabled'}>✕ Retirer la couverture de ces sujets</button>
+   <button class="btn light" style="width:100%;margin-top:8px" id="cvmX">Fermer</button></div>`;
+   $$('[data-cvk]',o).forEach(c=>c.onchange=()=>{const k=+c.dataset.cvk;c.checked?sel.add(k):sel.delete(k);draw()});
+   $('#cvmAll',o).onclick=()=>{if(sel.size===L.length)sel.clear();else L.forEach((x,k)=>sel.add(k));draw()};
+   $('#cvmRange',o).onclick=()=>{let a=Math.max(1,+$('#cvmA',o).value||1),b=Math.min(L.length,+$('#cvmB',o).value||1);if(a>b)[a,b]=[b,a];for(let k=a-1;k<b;k++)sel.add(k);draw()};
+   $('#cvmX',o).onclick=()=>o.remove();
+   $('#cvmDel',o).onclick=()=>{E.covers=E.covers||{};sel.forEach(k=>{const key=sujCvKey(mid,k);delete E.covers[key];if(E.coverOpt)delete E.coverOpt[key]});try{window.PORTAIL_EDITOR.commit('Couvertures retirées')}catch(e){}toast(sel.size+' couverture(s) retirée(s)');o.remove();render()};
+   $('#cvmPick',o).onclick=()=>{const i=document.createElement('input');i.type='file';i.accept='image/*';i.onchange=async()=>{const f=i.files[0];if(!f)return;const u=await lireImage(f);if(!u){toast('Image illisible');return}
+    E.covers=E.covers||{};const gk='grp:'+mid+':'+Date.now().toString(36);E.covers[gk]=u;sel.forEach(k=>{E.covers[sujCvKey(mid,k)]='@cv:'+gk});
+    try{window.PORTAIL_EDITOR.commit('Couverture commune à '+sel.size+' sujets')}catch(e){}toast(`🖼️ Couverture ajoutée à ${sel.size} sujet${sel.size>1?'s':''} (${Math.round(u.length*.75/1024)} Ko, gardée une seule fois)`);o.remove();render()};i.click()}};
+  draw()};
+ const _liste=BLK['sujets.list'].html;BLK['sujets.list'].html=function(){const h=_liste.apply(this,arguments);if(RO||!EDITMODE||(S.sujMode||'suj')!=='suj'||!ctx||!ctx.id)return h;
+  return `<div class="cved" style="margin-bottom:8px"><button onclick="coverMulti('${jsq(ctx.id)}')">🖼️ ${esc(Tx('cvm.btn','Une couverture pour plusieurs sujets'))}</button></div>`+h};
+})();
+
+/* ======================= ACTIVER / DÉSACTIVER CHAQUE ACTION D'UN COURS (éditeur) =======================
+   E.content.matOff = { <matière>: ['sujets','resumes','flashcfg','appview','heures',…] } : boutons masqués et écrans fermés
+   pour les élèves. Dans l'éditeur, un panneau « Ce que voient les élèves » liste les actions du cours avec une case chacune. */
+const ACT_NOMS={sujets:'✍️ Faire les quiz',resumes:'📋 Résumés de cours',flashcfg:'🃏 Flashcards',appview:'📖 Cours / application complète',heures:'🕒 Heures de cours',formules:'🧮 Formules',dech:'📝 Exercices corrigés',prepplus:'🎓 Prépa examen D.E',prepmat:'🎓 Prépa examen D.E',lien:'🔗 Contenu lié'};
+function actOff(mid){const o=E.content&&E.content.matOff;return(o&&o[mid])||[]}
+function actKind(btn){const oc=btn.match(/onclick="([^"]*)"/);const c=oc?oc[1]:'';const g=c.match(/go\('([a-z]+)'/);if(g)return g[1];if(/openMat\(/.test(c))return'lien';return''}
+(function(){
+ const _acts=BLK['matiere.actions'].html;BLK['matiere.actions'].html=function(){const h=_acts.apply(this,arguments),mid=ctx&&ctx.id;if(!mid)return h;
+  const parts=h.split(/(?=<button class="act)/),off=actOff(mid),kinds=[];
+  const keep=parts.filter(p=>{if(!/^<button class="act/.test(p))return true;const k=actKind(p);if(k&&!kinds.includes(k))kinds.push(k);return!k||!off.includes(k)});
+  let out=keep.join('');
+  if(!RO&&EDITMODE&&kinds.length)out+=`<div class="card sf actoff"><h3>👁️ ${esc(Tx('ao.h','Ce que voient les élèves dans ce cours'))}</h3>${kinds.map(k=>`<label style="display:flex;gap:10px;align-items:center;padding:6px 0"><input type="checkbox" ${off.includes(k)?'':'checked'} onchange="actBascule('${jsq(mid)}','${k}',this.checked)"> <span>${esc(ACT_NOMS[k]||k)}</span></label>`).join('')}<div class="muted small">${esc(Tx('ao.s','Décoché : le bouton disparaît pour les élèves (le contenu reste dans l’appli).'))}</div></div>`;
+  return out};
+ window.actBascule=function(mid,k,on){const c=E.content=E.content||{};c.matOff=c.matOff||{};const L=new Set(c.matOff[mid]||[]);on?L.delete(k):L.add(k);if(L.size)c.matOff[mid]=[...L];else delete c.matOff[mid];
+  try{window.PORTAIL_EDITOR.commit((on?'Affiché : ':'Masqué : ')+(ACT_NOMS[k]||k)+' · '+((MATI[mid]||{}).short||mid))}catch(e){}render()};
+ /* écran fermé : un lien direct ou un ancien raccourci ne l'ouvre pas non plus (sauf dans l'éditeur) */
+ const _go=go;go=function(v,c){const mid=c&&c.id;if(mid&&!EDITMODE&&actOff(mid).includes(v)){toast(Tx('ao.off','Cette partie n’est pas disponible pour ce cours.'));return}return _go.apply(this,arguments)};
+})();
+
+/* ======================= FILIÈRES ET ANNÉES DEPUIS LA FICHE DU COURS ET PAR GROUPE (éditeur) =======================
+   Même réglage que Studio → 📚 Contenu → « Cours par licence » (E.content.mat[id].fil / nivs), accessible là où on en a besoin. */
+(function(){
+ const FB=()=>DATA.filieres.filter(f=>!f.like);
+ window.matPut=function(id,patch,label){const c=E.content=E.content||{};c.mat=c.mat||{};c.mat[id]=Object.assign(c.mat[id]||{},patch);try{window.PORTAIL_EDITOR.commit(label)}catch(e){}applyContent();render()};
+ window.matFilBascule=function(id,f,on){const m=MATI[id];if(!m)return;let L=(m.fil||[]).slice();on?L.includes(f)||L.push(f):L=L.filter(x=>x!==f);if(!L.length){toast('Garde au moins une filière');render();return}
+  matPut(id,{fil:FB().map(x=>x.id).filter(x=>L.includes(x))},'Filières de « '+m.short+' » : '+L.join(' + '))};
+ window.matNivBascule=function(id,n,on){const m=MATI[id];if(!m)return;let L=nivsOf(m).slice();on?L.includes(n)||L.push(n):L=L.filter(x=>x!==n);L=DATA.niveaux.filter(x=>L.includes(x));if(!L.length){toast('Garde au moins une année');render();return}
+  matPut(id,{nivs:L,niv:L[0]},'Années de « '+m.short+' » : '+L.join(' · '))};
+ window.grpFil=function(gid,L){const g=groups().find(x=>x.id===gid);if(!g)return;const ids=[...new Set(g.subs.flatMap(s=>s.mats))].filter(id=>MATI[id]);const c=E.content=E.content||{};c.mat=c.mat||{};
+  ids.forEach(id=>{c.mat[id]=Object.assign(c.mat[id]||{},{fil:L.slice()})});try{window.PORTAIL_EDITOR.commit('Groupe « '+(g.n||gid)+' » : '+L.join(' + ')+' ('+ids.length+' cours)')}catch(e){}applyContent();render();toast(ids.length+' cours : '+L.join(' + '))};
+ const _badge=BLK['matiere.badge'].html;BLK['matiere.badge'].html=function(){const h=_badge.apply(this,arguments);if(RO||!EDITMODE||!ctx||!ctx.id||!MATI[ctx.id])return h;const m=MATI[ctx.id],jm=jsq(m.id);
+  return h+`<div class="card sf filniv"><h3>🎓 ${esc(Tx('fn.h','Filières et années de ce cours'))}</h3>
+   <div class="small" style="font-weight:700;margin:6px 0">${esc(Tx('fn.f','Filières'))}</div><div style="display:flex;gap:14px;flex-wrap:wrap">${FB().map(f=>`<label><input type="checkbox" ${(m.fil||[]).includes(f.id)?'checked':''} onchange="matFilBascule('${jm}','${jsq(f.id)}',this.checked)"> ${esc((f.e||'')+' '+f.id)}</label>`).join('')}</div>
+   <div class="small" style="font-weight:700;margin:10px 0 6px">${esc(Tx('fn.n','Années (une ou plusieurs)'))}</div><div style="display:flex;gap:14px;flex-wrap:wrap">${DATA.niveaux.map(n=>`<label><input type="checkbox" ${nivsOf(m).includes(n)?'checked':''} onchange="matNivBascule('${jm}','${jsq(n)}',this.checked)"> ${esc(n)}</label>`).join('')}</div>
+   <div class="muted small" style="margin-top:8px">${esc(Tx('fn.s','Les élèves ne voient ce cours que dans les filières et années cochées.'))}</div></div>`};
+ const _more=BLK['matieres.more'].html;BLK['matieres.more'].html=function(){const h=_more.apply(this,arguments);if(RO||!EDITMODE)return h;const F=FB().map(f=>f.id),G=groups().filter(g=>g.id!=='_autres');
+  return h+`<div class="card sf"><h3>🎓 ${esc(Tx('fg.h','Filière par groupe de cours'))}</h3><div class="muted small" style="margin-bottom:8px">${esc(Tx('fg.s','Applique la filière à tous les cours d’un groupe (ex. Médecine, Chirurgie : infirmiers seulement). Les années se règlent sur la fiche de chaque cours.'))}</div>
+   ${G.map(g=>{const ids=[...new Set(g.subs.flatMap(s=>s.mats))].filter(id=>MATI[id]);const cur=[...new Set(ids.flatMap(id=>MATI[id].fil||[]))];return `<div style="padding:8px 0;border-top:1px solid var(--line)"><b>${esc(g.n||g.id)}</b> <small class="muted">· ${ids.length} cours · ${esc(cur.join(' + ')||'—')}</small><div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px">${F.map(f=>`<button class="btn light" style="padding:6px 10px" onclick="grpFil('${jsq(g.id)}',['${jsq(f)}'])">${esc(f)} seulement</button>`).join('')}<button class="btn light" style="padding:6px 10px" onclick="grpFil('${jsq(g.id)}',${esc(JSON.stringify(F))})">${esc(F.join(' + '))}</button></div></div>`}).join('')}</div>`};
+})();
+
+/* ======================= IMAGES DES CHAPITRES DANS « LIRE LE COURS » =======================
+   Le texte du cours complet ne contient pas les figures : elles n'étaient que dans les résumés.
+   On ajoute à la fin de chaque chapitre ses images et schémas (mêmes images que les résumés). */
+(function(){if(typeof courseHTML!=='function')return;const _c=courseHTML;
+ courseHTML=function(mid,c){let h=_c(mid,c);try{if(/<img\b/i.test(h))return h;const R=(DATA.res||{})[mid],ch=R&&R.ch&&R.ch[c],L=(ch&&ch.imgs||[]).filter(x=>imgSrc(x[0]));
+  if(L.length)h+=`<h4>${esc(Tx('resumes.imgs','🖼️ Images & schémas'))}</h4><div class="rgal">${L.map(x=>`<figure onclick="zoomImg('${x[0]}','${jsq(x[1]||'')}')"><img src="${imgSrc(x[0])}" alt="" loading="lazy"><figcaption>${esc(x[1]||'')}</figcaption></figure>`).join('')}</div>`}catch(e){}return h}})();
+
+/* ======================= QUESTIONS GRATUITES DANS LES SUJETS PREMIUM =======================
+   Réglé dans le tableau de bord (public.access → questions) par cours ou par groupe :
+   {n, mode:'sujet'} = les n premières questions de CHAQUE sujet sont gratuites ;
+   {n, mode:'cours'} = n questions au total pour tout le cours (celles déjà faites restent ouvertes). */
+(function(){if(typeof RIC==='undefined'||!RIC.can)return;
+ const canFull=RIC.can;RIC.canFull=canFull;
+ function regleQ(mid,d){const Q=(RIC.cfg&&RIC.cfg.questions)||{};const r=Q['matiere:'+mid];if(r&&r.n!=null)return r;
+  const su=(d||0)<4&&typeof ajSuit==='function'&&ajSuit(mid);if(su)return regleQ(su,(d||0)+1);const g=typeof grpOf==='function'&&grpOf(mid),rg=g&&Q['rubrique:'+g];return rg&&rg.n!=null?rg:null}
+ function libres(mid,k){if(RIC.off()||RIC.isPremium())return null;const r=regleQ(mid);const n=r?Math.max(0,parseInt(r.n,10)||0):0;if(!n)return null;
+  const SU=sujets(mid),L=SU[k];if(!L)return null;const key=s=>'matiere:'+mid+'/sujet:'+(s+1);
+  if(canFull(key(k))||RIC.effective(key(k))==='masque')return null;
+  if(r.mode==='cours'){const vus=new Set();SU.forEach((X,s)=>{if(!canFull(key(s)))X.forEach(id=>{if(S.qs&&S.qs[id])vus.add(id)})});
+   let reste=Math.max(0,n-vus.size);return L.filter(id=>vus.has(id)||(reste>0&&reste--))}
+  return L.slice(0,n)}
+ RIC.libres=libres;RIC.regleQ=regleQ;
+ const SIX={};function noSuj(qid){const q=QI[qid];if(!q)return -1;if(!SIX[q.m]){SIX[q.m]={};sujets(q.m).forEach((L,k)=>L.forEach(id=>SIX[q.m][id]=k))}const k=SIX[q.m][qid];return k==null?-1:k}
+ /* un sujet avec des questions gratuites s'ouvre (seules ces questions passent le filtre) */
+ RIC.can=function(key){if(canFull(key))return true;const m=String(key).match(/^matiere:([^/]+)\/sujet:(\d+)$/);if(m){const L=libres(m[1],+m[2]-1);if(L&&L.length)return true}return false};
+ const _qOk=RIC.qOk;RIC.qOk=function(qid){const q=QI[qid];if(!q)return true;const k=noSuj(qid);if(k<0)return _qOk(qid);
+  if(canFull('matiere:'+q.m+'/sujet:'+(k+1)))return true;const L=libres(q.m,k);return !!(L&&L.includes(qid))};
+ if(typeof startSujet==='function'){const _s=startSujet;startSujet=function(mid,k){const L=libres(mid,k);
+  if(L&&L.length){const tot=(sujets(mid)[k]||[]).length;setTimeout(()=>toast(Tx('qg.toast','🎁 {n} question(s) gratuite(s) sur {t} · Premium pour la suite',{n:L.length,t:tot})),60)}return _s.apply(this,arguments)};}
+ /* étiquette sur la liste des sujets */
+ if(typeof render==='function'){const _r=render;render=function(){const x=_r.apply(this,arguments);try{if(!RIC.off())$$('.suj[onclick^="startSujet"]').forEach(el=>{if(el.dataset.rq)return;el.dataset.rq=1;
+  const m=String(el.getAttribute('onclick')).match(/startSujet\('(.*?)',(\d+)\)/);if(!m)return;const mid=m[1].replace(/\\'/g,"'"),k=+m[2];const L=libres(mid,k);if(!L||!L.length)return;
+  const tx=$('.tx b',el)||el;tx.insertAdjacentHTML('beforeend',' <span class="ri-b f">'+esc(Tx('qg.badge','🎁 {n} gratuites',{n:L.length}))+'</span>')})}catch(e){}return x}}
+})();
+
+/* ======================= SUJETS : TITRES « SUJET PREPA D.E n », ORDRE OU ALÉATOIRE AVANT DE COMPOSER =======================
+   Placé après le module RI CLOUD : le contrôle Premium passe avant le choix de l'ordre. */
+const SUJ_PREFIXE={xprepade:'SUJET PREPA D.E'};
+function sujPrefixe(mid){const m=MATI[mid];return(m&&m.sujPrefixe)||SUJ_PREFIXE[mid]||''}
+(function(){
+ const _titre=sujTitre;sujTitre=function(mid,k){const p=sujPrefixe(mid);if(p&&!vueSuj(MATI[mid]))return p+' '+(k+1);return _titre.apply(this,arguments)};
+ const _liste=BLK['sujets.list'].html;BLK['sujets.list'].html=function(){let h=_liste.apply(this,arguments);const p=ctx&&ctx.id&&sujPrefixe(ctx.id);if(p&&(S.sujMode||'suj')==='suj')h=h.replace(/Sujet (\d+) · /g,(x,n)=>esc(p)+' '+n+' · ');return h};
+ const _st=startSujet;startSujet=function(mid,k){const a=arguments,L=sujets(mid)[k];if(!L)return;
+  if(!sujPrefixe(mid))return _st.apply(this,a);   /* choix ordre / aléatoire : sujets de la Prépa D.E seulement */
+  if(typeof RIC!=='undefined'&&RIC.can&&!RIC.off()&&!RIC.can('matiere:'+mid+'/sujet:'+(k+1)))return _st.apply(this,a);
+  let o=$('#riordre');if(o)o.remove();o=document.createElement('div');o.id='riordre';o.className='pmod';const pref=S.ordre==='alea'?'alea':'ordre';
+  o.innerHTML=`<div class="pbox"><h3>📝 ${esc(sujTitre(mid,k))}</h3><div class="muted small">${((typeof RIC!=='undefined'&&RIC.libres&&RIC.libres(mid,k))||L).length} ${esc(Tx('or.q','questions'))}${S.timed?' · '+esc(Tx('or.timed','mode chronométré')):''}</div>
+   <div class="small" style="font-weight:700;margin:12px 0 6px">${T('or.h','Comment veux-tu composer ?')}</div>
+   <button class="btn ${pref==='ordre'?'coral':'light'}" data-or="ordre" style="width:100%">${T('or.ordre','🔢 Dans l’ordre')}</button>
+   <button class="btn ${pref==='alea'?'coral':'light'}" data-or="alea" style="width:100%;margin-top:8px">${T('or.alea','🔀 Ordre aléatoire')}</button>
+   <button class="btn light" style="width:100%;margin-top:8px" id="riordreX">${T('ui.cancel','Annuler')}</button></div>`;
+  document.body.appendChild(o);$('#riordreX',o).onclick=()=>o.remove();o.onclick=e=>{if(e.target===o)o.remove()};
+  $$('[data-or]',o).forEach(b=>b.onclick=()=>{const v=b.dataset.or;S.ordre=v;save();o.remove();_st.apply(this,a);
+   if(v==='alea'&&typeof FILS!=='undefined'&&FILS&&FILS.mid===mid&&FILS.k===k&&!FILS.alea){FILS.ids=shuffle(FILS.ids.slice());FILS.alea=1;render()}
+   if(v==='ordre'&&typeof EX!=='undefined'&&EX&&EX.mid===mid&&EX.k===k&&!EX.ordre){const ord=L.filter(id=>EX.ids.includes(id));EX.ids=ord;EX.ordre=1;render()}})};
+})();
+
+/* icône du bouton flottant : petite calculatrice blanche (écran, touches, AC rouge, = orange) */
+(function(){const ci=document.querySelector('.calc-fab .ci');if(ci)ci.innerHTML='<svg viewBox="0 0 24 30" width="19" height="24" aria-hidden="true"><rect x=".75" y=".75" width="22.5" height="28.5" rx="4" fill="#fff" stroke="#2A2F38" stroke-width="1.5"/><rect x="3.5" y="3.5" width="17" height="6" rx="1.5" fill="#E3EADF" stroke="#9FAE98" stroke-width=".8"/><g fill="#D9DEE5"><rect x="3.5" y="12" width="4" height="3.4" rx="1"/><rect x="8.6" y="12" width="4" height="3.4" rx="1"/><rect x="3.5" y="17" width="4" height="3.4" rx="1"/><rect x="8.6" y="17" width="4" height="3.4" rx="1"/><rect x="13.7" y="17" width="4" height="3.4" rx="1"/><rect x="3.5" y="22" width="4" height="3.4" rx="1"/><rect x="8.6" y="22" width="4" height="3.4" rx="1"/><rect x="13.7" y="22" width="4" height="3.4" rx="1"/></g><rect x="13.7" y="12" width="4" height="3.4" rx="1" fill="#EF4444"/><rect x="18.8" y="12" width="2" height="13.4" rx="1" fill="#F7931E"/></svg>'})();
+/* ======================= CALCULATRICE DANS LES APPLIS COMPLÈTES QUI N'EN ONT PAS =======================
+   Les sujets (écran « toutes les questions ») l'ont via CALC_CONFIG ; ici : une appli complète ouverte
+   sans sa propre calculatrice affiche le bouton 🧮 du portail. */
+(function(){let mk=null;const marque=on=>{if(on&&!mk){mk=document.createElement('div');mk.className='calc-mark';mk.setAttribute('aria-hidden','true');mk.style.cssText='position:fixed;left:0;top:0;width:1px;height:1px;opacity:0;pointer-events:none';document.body.appendChild(mk)}else if(!on&&mk){mk.remove();mk=null}};
+ setInterval(()=>{let on=false;try{if(typeof VIEW!=='undefined'&&VIEW==='appview'){const f=document.querySelector('#appKeep.on')||document.querySelector('#appFrame:not(.hide)');const d=f&&f.contentDocument;on=!!(d&&d.body&&!d.querySelector('.calc-fab,#calc-ov'))}}catch(e){on=false}marque(on)},700)})();
+
+/* ======================= ARRÊTER DE COMPOSER ET REPRENDRE LÀ OÙ ON S'EST ARRÊTÉ =======================
+   Chaque sujet commencé (au moins une réponse) est gardé dans S.encours : questions dans l'ordre tiré,
+   réponses, score et temps restant. « ✕ Quitter » le met de côté ; il se reprend depuis la liste des sujets
+   ou l'accueil. Terminé ou recommencé : il est effacé. */
+(function(){if(typeof startFil!=='function')return;
+ const cle=F=>F.mid+'|'+(F.mode||'suj')+'|'+(F.mode==='suj'&&F.k!=null?F.k:F.label);
+ const nRep=F=>Object.keys(F.ans||{}).filter(id=>F.ans[id]&&!F.ans[id].pending).length;
+ function garder(){try{if(!FILS||!FILS.mid||FILS.mode==='diff')return;const E2=S.encours=S.encours||{},k=cle(FILS);
+  if(FILS.fin||!nRep(FILS)){if(E2[k]){delete E2[k];save()}return}
+  E2[k]={mid:FILS.mid,ids:FILS.ids.slice(),label:FILS.label,mode:FILS.mode,k:FILS.k,ans:FILS.ans,ms:FILS.ms,ok:FILS.ok,week:FILS.week,min:FILS.min||0,reste:FILS.end?Math.max(0,FILS.end-Date.now()):0,expire:!!FILS.expire,t:Date.now()};
+  const L=Object.keys(E2).sort((a,b)=>E2[b].t-E2[a].t);L.slice(12).forEach(x=>delete E2[x]);save()}catch(e){}}
+ window.filGarder=garder;
+ const vraie=id=>QI[id]&&!(typeof isNC==='function'&&isNC(QI[id]));
+ const compte=x=>{const L=(x.ids||[]).filter(vraie);return{i:L.filter(id=>x.ans&&x.ans[id]&&!x.ans[id].pending).length,n:L.length}};
+ window.encoursDe=(mid,k)=>{const x=(S.encours||{})[mid+'|suj|'+k];return x&&!x.fin&&x.ids&&x.ids.length?x:null};
+ window.reprendreFil=function(key){const x=(S.encours||{})[key];if(!x||!x.ids||!MATI[x.mid]){toast(Tx('rp.none','Rien à reprendre.'));return}
+  if(x.mode==='suj'&&typeof RIC!=='undefined'&&RIC.can&&!RIC.off()&&!RIC.can('matiere:'+x.mid+'/sujet:'+(x.k+1))){RIC.paywall('matiere:'+x.mid+'/sujet:'+(x.k+1),sujTitre(x.mid,x.k)+' · Premium');return}
+  const ids=x.ids.filter(id=>QI[id]);if(!ids.length){delete S.encours[key];save();return}
+  FILS={mid:x.mid,ids,label:x.label,mode:x.mode,k:x.k,ans:x.ans||{},ms:x.ms||{},ok:x.ok||0,fin:false,week:x.week,min:x.min||0,end:x.min?Date.now()+(x.reste||0):0,expire:!!x.expire};
+  S.lastMat=x.mid;go('fil',{id:x.mid});filChrono();
+  setTimeout(()=>{const id=FILS&&FILS.ids.find(i=>!FILS.ans[i]||FILS.ans[i].pending);const el=id&&document.getElementById('fq-'+id);if(el)el.scrollIntoView({block:'start'});toast(Tx('rp.ok','▶ Reprise : {i}/{n} déjà répondues',compte(FILS)))},80)};
+ if(typeof filMaj==='function'){const _m=filMaj;filMaj=function(){const r=_m.apply(this,arguments);garder();return r};}
+ if(typeof filRecommencer==='function'){const _r=filRecommencer;filRecommencer=function(){const r=_r.apply(this,arguments);garder();return r};}
+ if(typeof quitFil==='function'){const _q=quitFil;quitFil=function(){if(FILS&&!FILS.fin&&nRep(FILS)&&FILS.mode!=='diff'){garder();toast(Tx('rp.pause','⏸ Mis de côté : tu reprendras à la question {i}',{i:Math.min(compte(FILS).n,compte(FILS).i+1)}))}return _q.apply(this,arguments)};}
+ addEventListener('pagehide',garder);document.addEventListener('visibilitychange',()=>{if(document.hidden)garder()});
+ /* liste des sujets : « Reprendre » avant le choix ordre / aléatoire */
+ if(typeof startSujet==='function'){const _s=startSujet;startSujet=function(mid,k){const a=arguments,x=encoursDe(mid,k);if(!x)return _s.apply(this,a);
+  let o=$('#rireprise');if(o)o.remove();o=document.createElement('div');o.id='rireprise';o.className='pmod';const C=compte(x);
+  o.innerHTML=`<div class="pbox"><h3>📝 ${esc(sujTitre(mid,k))}</h3><div class="muted small">${T('rp.etat','Commencé : {i}/{n} questions répondues',{i:C.i,n:C.n})}${x.min?' · ⏱ '+Math.ceil((x.reste||0)/60000)+' min':''}</div>
+   <button class="btn coral" data-rp="go" style="width:100%;margin-top:12px">${T('rp.go','▶ Reprendre là où je me suis arrêté')}</button>
+   <button class="btn light" data-rp="new" style="width:100%;margin-top:8px">${T('rp.new','🔄 Recommencer à zéro')}</button>
+   <button class="btn light" data-rp="x" style="width:100%;margin-top:8px">${T('ui.cancel','Annuler')}</button></div>`;
+  document.body.appendChild(o);o.onclick=e=>{if(e.target===o)o.remove()};
+  $$('[data-rp]',o).forEach(b=>b.onclick=()=>{const v=b.dataset.rp;o.remove();if(v==='go')reprendreFil(mid+'|suj|'+k);else if(v==='new'){delete S.encours[mid+'|suj|'+k];save();_s.apply(this,a)}})};}
+ /* étiquette « En cours » sur la liste des sujets */
+ if(typeof render==='function'){const _r=render;render=function(){const x=_r.apply(this,arguments);try{$$('.suj[onclick^="startSujet"]').forEach(el=>{if(el.dataset.rp)return;el.dataset.rp=1;
+  const m=String(el.getAttribute('onclick')).match(/startSujet\('(.*?)',(\d+)\)/);if(!m)return;const e=encoursDe(m[1].replace(/\\'/g,"'"),+m[2]);if(!e)return;
+  const tx=$('.tx b',el)||el;tx.insertAdjacentHTML('beforeend',' <span class="ri-b f">'+esc(Tx('rp.badge','⏸ En cours {i}/{n}',compte(e)))+'</span>')})}catch(e){}return x}}
+ /* accueil : carte « Reprendre » */
+ function dernier(){const E2=S.encours||{};const k=Object.keys(E2).filter(k=>E2[k]&&E2[k].ids&&MATI[E2[k].mid]).sort((a,b)=>E2[b].t-E2[a].t)[0];return k?{k,x:E2[k]}:null}
+ const curOk=()=>{const c=S.cur;return !!(c&&c.ids&&c.idx<c.ids.length)};
+ const B0=BLK['home.resume'];if(B0){const _h=B0.html;B0.html=function(){const h=_h.apply(this,arguments);if(h||curOk())return h;const d=dernier();if(!d)return h;const x=d.x;
+  return `<div class="card sf resume" onclick="reprendreFil('${jsq(d.k)}')"><div class="ic">▶</div><div style="flex:1"><b>${T('rp.home','Reprendre : {label} · {i}/{n}',{label:esc(matOf(x.mid).short+' · '+x.label),i:compte(x).i,n:compte(x).n})}</b></div></div>`};
+  if(B0.oneui){const _o=B0.oneui;B0.oneui=function(){const d=!curOk()&&dernier();if(!d||typeof ouPill!=='function')return _o.apply(this,arguments);const x=d.x,n=typeof dueAll==='function'?dueAll():0;
+   return `<div class="ou-pills">${ouPill('▶',T('oui.resume','Reprendre'),esc(matOf(x.mid).short)+' · '+compte(x).i+'/'+compte(x).n,`reprendreFil('${jsq(d.k)}')`,1)}${ouPill('🗂️',T('oui.flash','Flashcards'),T('oui.flash.s','{n} à revoir',{n}),ouFlashAct(),n>0)}</div>`}}}
+})();
+
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
