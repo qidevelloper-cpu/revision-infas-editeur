@@ -2172,6 +2172,11 @@ const _groupsAj=groups;groups=function(){const G=_groupsAj.apply(this,arguments)
   (a.groupes||[]).forEach(p=>{const g=G.find(x=>x.id===p.g);if(!g||g.subs.some(s=>s.mats.includes(id)))return;const sub={id:'aj-'+id,n:p.n||'',mats:[id]};let i=g.subs.length;
    if(p.apres){const j=g.subs.findIndex(s=>s.mats.includes(p.apres));if(j>=0)i=j+1}else if(p.pos==='debut')i=0;g.subs.splice(i,0,sub)})});
  return G.filter(g=>g.id!=='_autres'||g.subs.some(s=>s.mats.length))};
+/* filet de sécurité : si la fiche d'un contenu ajouté arrive après le calcul des matières (mise à jour de l'appli,
+   cache hors ligne, chargement tardif), on recalcule une fois pour qu'il apparaisse sans attendre un nouveau démarrage */
+function ajVerifier(){try{if(!MAT||!E)return;if(ajouts().some(a=>!MATI[a.mat.id])){recalc();if(typeof render==='function'&&typeof VIEW!=='undefined')render()}}catch(e){}}
+const _regXAj=regX;regX=function(id,x){_regXAj.apply(this,arguments);if(String(id).startsWith('ajout-')&&typeof MAT!=='undefined'&&MAT)setTimeout(ajVerifier,0)};
+window.addEventListener('load',()=>setTimeout(ajVerifier,50));document.addEventListener('visibilitychange',()=>{if(!document.hidden)ajVerifier()});
 /* la tuile d'un contenu « appli » ouvre directement l'appli */
 const _openMatAj=openMat;openMat=function(id){const a=ajOf(id);if(a&&a.ouvrir==='appli'&&MATI[id]&&MATI[id].src){if(typeof RIC!=='undefined'&&RIC.hidden&&RIC.hidden('matiere:'+id)){toast(Tx('aj.off','Ce contenu n’est pas disponible.'));return}return openDE(id)}return _openMatAj.apply(this,arguments)};
 /* bouton sur la page du cours choisi */

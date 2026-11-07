@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 111562509,
- "sha256": "9e8ed46c8559edceb87ac771a09683806f01c75576cf1c201cda2429f253e7e7",
+ "taille": 112198488,
+ "sha256": "98d6172485ea46bce4fb2a1b97b3d758c36d41ff0e12b114a7b725661d6c7989",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -70,8 +70,8 @@
   {
    "type": "bloc",
    "id": "app-js",
-   "octets": 602766,
-   "sha256": "aabf1dfeaa158345a2f1cfae82d1e375c81592af4ad3707c3f7ee61adcb4bca5",
+   "octets": 603493,
+   "sha256": "038b3390025ead93ed19fd3a7196791208dc70f328a6bdf17c331a66e7699ce3",
    "fichier": "engine/app-js.js",
    "codage": "brut"
   },
@@ -16489,9 +16489,22 @@
   {
    "type": "bloc",
    "id": "app-xdata-ajout-xpedexo",
-   "octets": 20568,
-   "sha256": "4b959fd5362cdbd141aad188520ee1e80eff18f0df44081b7b08dcbc026117f9",
+   "octets": 39744,
+   "sha256": "e2063481572ff26b1cdddcf7358cf0e0e440858ccf9a496882523571f1557c3f",
    "fichier": "ajouts/xpedexo.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xpedexo\">",
+   "sha256": "efb408d1cb9542fd0f18832131a72e3aae370af74e1d7503c7847c10168f60ce"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-xpedexo",
+   "octets": 616017,
+   "sha256": "2709dffbd61d531a42817a26e611f224e892c91544030aecd7818d92f12f0def",
+   "fichier": "ajouts/xpedexo-questions.json",
    "codage": "brut"
   },
   {
