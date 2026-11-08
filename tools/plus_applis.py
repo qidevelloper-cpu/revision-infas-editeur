@@ -24,12 +24,41 @@ def sha(b):
     return hashlib.sha256(b).hexdigest()
 
 
+def natif(q):
+    """question au format de l'appli complète → format natif du portail (écran « toutes les questions », on coche en descendant)"""
+    o = [x['text'] for x in q.get('options') or []]
+    lettres = [x['letter'] for x in q.get('options') or []]
+    L = [lettres.index(x) for x in q.get('answerLetters') or [] if x in lettres]
+    n = {'q': q['text']}
+    cas = '\n'.join(x for x in (q.get('caseTitle'), q.get('caseData')) if x)
+    if cas: n['s'] = cas
+    if q.get('mode') == 'mcq' and L and len(o) == 2 and {x.lower().rstrip('.') for x in o} == {'vrai', 'faux'}:
+        n.update(t='vf', v=1 if o[L[0]].lower().startswith('vrai') else 0)
+    elif q.get('mode') == 'mcq' and L and o:
+        n.update(t='qcm', o=o, a=L[0])
+        if len(L) > 1: n['am'] = L
+    else:
+        rep = q.get('answer') or ''
+        if o: n['q'] = q['text'] + '\n' + '\n'.join('%s. %s' % (a, b) for a, b in zip(lettres, o))
+        n.update(t='open', r=rep, acc=[])
+    if q.get('explanation'): n['x'] = q['explanation']
+    return n
+
+
+def noms_appli(app):
+    """noms d'antennes de l'appli d'origine (ex. « MAN (Session 2) ») lus dans QUIZ_DATA"""
+    h = open(os.path.join(SRC, 'apps', app + '.html'), encoding='utf-8').read()
+    i = h.find('QUIZ_DATA'); j = h.find('=', i) + 1
+    d, _ = json.JSONDecoder().raw_decode(h[j:].lstrip())
+    return {a['slug']: a['name'] for a in d['antennes']}
+
+
 def main():
     mp = os.path.join(SRC, 'manifest.json')
     man = json.load(open(mp, encoding='utf-8'))
     propre = []
     for s in man['segments']:
-        if s['type'] == 'bloc' and (str(s.get('fichier', '')).startswith('plus-applis/') or s.get('id') == 'app-xdata-plusapp'):
+        if s['type'] == 'bloc' and str(s.get('fichier', '')).startswith('plus-applis/'):
             propre.pop()          # retire aussi la balise HTML qui ouvre le bloc
             continue
         propre.append(s)
@@ -37,7 +66,7 @@ def main():
     if fin['type'] != 'html' or '</body>' not in fin['texte']:
         sys.exit('ARRÊT : fin du fichier maître inattendue')
     ids = {s['id'] for s in propre if s['type'] == 'bloc'}
-    index, blocs = {}, []
+    index, blocs, NAT, NOMS = {}, [], {}, {}
     for app in sorted(x for x in os.listdir(PA) if os.path.isdir(os.path.join(PA, x))) if os.path.isdir(PA) else []:
         if 'app-src-' + app not in ids:
             sys.exit('ARRÊT : appli « %s » introuvable dans le fichier maître' % app)
@@ -62,17 +91,28 @@ def main():
                 sys.exit('ARRÊT : %s existe déjà' % bid)
             data = raw.replace(b'</script', b'<%/script').replace(b'<!--', b'<%!--')
             blocs.append((bid, 'plus-applis/%s/%s' % (app, f), data))
+            noms = NOMS.setdefault(app, noms_appli(app))
+            N = NAT.setdefault(app, {'ch': [], 'k': [], 'p': [], 'q': []})
+            for a in P['antennes']:
+                for s in a['sujets']:
+                    c = len(N['ch'])
+                    N['ch'].append('%s · %s' % (noms.get(a['slug'], a['name']), s['name'].upper()))
+                    N['k'].append(a['slug'] + '/' + s['slug']); N['p'].append(pid)
+                    N['q'].extend(dict(natif(q), c=c) for q in s['questions'])
             index.setdefault(app, []).append({k: P.get(k) for k in ('id', 'titre', 'session', 'annee', 'nq', 'nsuj')} | {
                 'antennes': [{'slug': a['slug'], 'name': a['name'], 'existe': a.get('existe', False),
                               'sujets': [[s['slug'], s['name'], len(s['questions'])] for s in a['sujets']]} for a in P['antennes']]})
+    for app, N in sorted(NAT.items(), reverse=True):   # questions natives : sujets comme les autres (écran « toutes les questions »)
+        blocs.insert(0, ('app-xdata-plusnat-' + app, 'plus-applis/%s-natif.json' % app,
+                         json.dumps(N, ensure_ascii=False, separators=(',', ':')).replace('</script', '<%/script').encode('utf-8')))
     if index:
         blocs.insert(0, ('app-xdata-plusapp', 'plus-applis/index.json', json.dumps(index, ensure_ascii=False, separators=(',', ':')).encode('utf-8')))
     for bid, fic, data in blocs:
         ouv = '</script>\n<script type="text/plain" id="%s">' % bid
         propre.append({'type': 'html', 'texte': ouv, 'sha256': sha(ouv.encode('utf-8'))})
         propre.append({'type': 'bloc', 'id': bid, 'octets': len(data), 'sha256': sha(data), 'fichier': fic, 'codage': 'brut'})
-        if fic == 'plus-applis/index.json':
-            open(os.path.join(PA, 'index.json'), 'wb').write(data)
+        if fic == 'plus-applis/index.json' or fic.endswith('-natif.json'):
+            open(os.path.join(SRC, fic), 'wb').write(data)
         elif data != open(os.path.join(SRC, fic), 'rb').read():
             open(os.path.join(SRC, fic), 'wb').write(data)
     propre.append(fin)
@@ -80,7 +120,7 @@ def main():
     with open(mp, 'w', encoding='utf-8') as fo:
         json.dump(man, fo, ensure_ascii=False, indent=1); fo.write('\n')
     subprocess.run([sys.executable, os.path.join(RACINE, 'tools', 'mettre_a_jour_manifeste.py'), SRC], check=True)
-    print('%d paquet(s) de sujets ajouté(s)' % (len(blocs) - (1 if index else 0)))
+    print('%d paquet(s) de sujets ajouté(s) · questions natives : %s' % (sum(len(v) for v in index.values()), {a: len(n['q']) for a, n in NAT.items()}))
 
 
 if __name__ == '__main__':

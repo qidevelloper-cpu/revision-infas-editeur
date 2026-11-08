@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 115232114,
- "sha256": "6218fddd02a6770fe4d26e85181a286b8adcf9e733e671c8682815a1dd178b73",
+ "taille": 117016326,
+ "sha256": "5d197718ca357d596eda2a8bf584544a756c31cd7c0a2752cfd9d55b74bf819a",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -70,8 +70,8 @@
   {
    "type": "bloc",
    "id": "app-js",
-   "octets": 641257,
-   "sha256": "d09c2d9695766398077d22db13d830a46fe8dfadb57660a064c55af1b8425154",
+   "octets": 647893,
+   "sha256": "493baf0c10e73e57482ace3c428d30014bd01a1d8fc5a8f69825dbfd3add6dc7",
    "fichier": "engine/app-js.js",
    "codage": "brut"
   },
@@ -16531,6 +16531,19 @@
    "octets": 3284,
    "sha256": "6fbe0df430ed277bb23da2b1377732c9ba58d70831efa98803245cce54c8094d",
    "fichier": "plus-applis/index.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-plusnat-xmvkq4zed\">",
+   "sha256": "da15984b1a8411cc0c1665b38e3f43bc8a2b4b962a487ac8a73216778ddbfa70"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-plusnat-xmvkq4zed",
+   "octets": 1777507,
+   "sha256": "a5ac11f31d9c82c242bf2b1c0206d41d1e12798b6e27118fd46b54cbbf25ad97",
+   "fichier": "plus-applis/xmvkq4zed-natif.json",
    "codage": "brut"
   },
   {

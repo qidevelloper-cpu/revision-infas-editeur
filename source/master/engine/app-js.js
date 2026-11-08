@@ -2373,6 +2373,12 @@ const RIC={
   return m}
  async function authCall(path,body,tok){const h=H();if(tok)h.Authorization='Bearer '+tok;const r=await fetch(RIC.url+'/auth/v1/'+path,{method:body?'POST':'GET',headers:h,body:body?JSON.stringify(body):undefined});const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.msg||j.error_description||j.message||j.error||('erreur '+r.status));return j}
  function keepSession(j,email){if(!j||!j.access_token)return false;RIC.session={access_token:j.access_token,refresh_token:j.refresh_token,expires_at:j.expires_at||Math.floor(Date.now()/1000)+(j.expires_in||3600),email:(j.user&&j.user.email)||email||(RIC.session&&RIC.session.email)||''};LS.set(SK,RIC.session);return true}
+ /* compte invité : créé en coulisse avec le nom de l'élève (connexion anonyme Supabase), sans Google ni e-mail */
+ RIC.estAnon=function(){try{const t=RIC.session&&RIC.session.access_token;if(!t)return false;return!!JSON.parse(decodeURIComponent(escape(atob(t.split('.')[1].replace(/-/g,'+').replace(/_/g,'/'))))).is_anonymous}catch(e){return false}};
+ RIC.anonyme=async function(nom){if(RIC.session)return true;if(!navigator.onLine)throw new Error('Failed to fetch');const j=await authCall('signup',{data:{nom:nom||''}});if(!keepSession(j,''))throw new Error('anonyme');RIC.statut=null;
+  try{const nm=String(nom||'').trim().split(/\s+/);await RIC.rpc('maj_mon_profil',{p_prenom:nm[0]||'',p_nom:nm.slice(1).join(' '),p_filiere:S&&S.fil?filBase(S.fil):'',p_annee:(S&&S.niv)||'',p_programme:null})}catch(e){}return true};
+ RIC.sauverAcces=async function(){try{const t=await token();const r=await fetch(RIC.url+'/auth/v1/user/identities/authorize?provider=google&skip_http_redirect=true&redirect_to='+encodeURIComponent(location.origin+location.pathname),{headers:Object.assign(H(),{Authorization:'Bearer '+t})});const j=await r.json().catch(()=>({}));
+  if(j&&j.url){location.href=j.url;return}toast('La sauvegarde avec Google n’est pas encore ouverte. Garde ton code : l’administrateur peut le réactiver.')}catch(e){toast('Pas de connexion internet.')}};
  function logoutLocal(){RIC.session=null;RIC.statut=null;try{localStorage.removeItem(SK);localStorage.removeItem(STK)}catch(e){}}
  async function token(){const s=RIC.session;if(!s)return null;if(s.expires_at*1000-Date.now()>60e3)return s.access_token;if(!navigator.onLine)return null;
   try{const j=await authCall('token?grant_type=refresh_token',{refresh_token:s.refresh_token});keepSession(j,s.email);return RIC.session.access_token}
@@ -2399,9 +2405,9 @@ const RIC={
  RIC.compte=function(mode){let o=$('#ricpt');if(o)o.remove();o=document.createElement('div');o.id='ricpt';o.className='pmod';mode=mode||'creer';
   if(RIC.session){const s=RIC.statut||{};const prem=RIC.isPremium();
    const PA=(RIC.paiements||LS.get('ri_cloud_pay',[])).slice(0,3).map(p=>`<div class="muted small" style="margin:4px 0">${p.statut==='a_verifier'?(p.operateur==='wave'&&/^cos-/.test(p.reference||'')?'⏳ Paiement Wave en attente':'⏳ En vérification'):p.statut==='valide'?'✅ Validé':'❌ Refusé'} · ${esc(p.plan_nom)} · ${fcfa(p.montant_xof)} · ${esc((OPS[p.operateur]||[p.operateur])[0])}${p.statut==='refuse'&&p.motif?' — '+esc(p.motif):''}</div>`).join('');
-   o.innerHTML=`<div class="pbox"><h3>👤 Mon compte</h3><div class="li" style="cursor:default"><span class="em">✉️</span><span class="tx"><b>${esc(RIC.session.email||'Compte connecté')}</b><small>${s.statut==='bloque'?'Compte bloqué : contacte l’administrateur':prem?'⭐ Premium jusqu’au '+esc(finPremium()):'Version gratuite'}</small></span></div>${PA?`<div style="margin:8px 0"><b class="small">Mes paiements</b>${PA}</div>`:''}${!prem&&RIC.payOuvert()?`<button class="btn coral" style="width:100%;margin:6px 0" onclick="document.getElementById('ricpt').remove();RIC.payer()">💳 Passer Premium</button>`:''}<button class="btn light" style="width:100%;margin:6px 0" onclick="document.getElementById('ricpt').remove();RIC.code()">🎟️ J’ai un code d’activation</button><div class="muted small" style="margin:8px 0">Ton compte garde ton accès Premium. Il fonctionne sur 2 téléphones au maximum.</div><div class="row2"><button class="btn light" id="ricRef">🔄 Actualiser</button><button class="btn light" id="ricOut">Se déconnecter</button></div><button class="btn light" style="width:100%;margin-top:8px" id="ricX">Fermer</button></div>`;
+   o.innerHTML=`<div class="pbox"><h3>👤 Mon compte</h3><div class="li" style="cursor:default"><span class="em">${RIC.estAnon()?'📱':'✉️'}</span><span class="tx"><b>${RIC.estAnon()?esc([s.prenom,s.nom].filter(Boolean).join(' ')||(S&&S.name)||'Élève')+' · accès sur ce téléphone':esc(RIC.session.email||'Compte connecté')}</b><small>${s.statut==='bloque'?'Compte bloqué : contacte l’administrateur':prem?'⭐ Premium jusqu’au '+esc(finPremium()):'Version gratuite'}</small></span></div>${PA?`<div style="margin:8px 0"><b class="small">Mes paiements</b>${PA}</div>`:''}${!prem&&RIC.payOuvert()?`<button class="btn coral" style="width:100%;margin:6px 0" onclick="document.getElementById('ricpt').remove();RIC.payer()">💳 Passer Premium</button>`:''}<button class="btn light" style="width:100%;margin:6px 0" onclick="document.getElementById('ricpt').remove();RIC.code()">🎟️ J’ai un code d’activation</button>${RIC.estAnon()?`<div class="ri-envoi" style="margin:8px 0"><b class="small">⚠️ Ton accès est enregistré sur ce téléphone seulement.</b><div class="muted small" style="margin-top:4px">Si tu changes de téléphone ou effaces le navigateur, écris à l’administrateur avec ton code : il le réactivera. Pour ne rien perdre, tu peux aussi le relier à Google.</div><button class="btn light" style="width:100%;margin-top:8px" onclick="RIC.sauverAcces()">🔒 Sauvegarder mon accès avec Google</button></div>`:'<div class="muted small" style="margin:8px 0">Ton compte garde ton accès Premium. Il fonctionne sur 2 téléphones au maximum.</div>'}<div class="row2"><button class="btn light" id="ricRef">🔄 Actualiser</button><button class="btn light" id="ricOut">Se déconnecter</button></div><button class="btn light" style="width:100%;margin-top:8px" id="ricX">Fermer</button></div>`;
    document.body.appendChild(o);$('#ricX',o).onclick=()=>o.remove();$('#ricRef',o).onclick=async()=>{await RIC.syncCompte();o.remove();toast(RIC.isPremium()?'⭐ Premium actif':'Compte à jour')};
-   $('#ricOut',o).onclick=async()=>{try{const t=await token();if(t)await fetch(RIC.url+'/auth/v1/logout',{method:'POST',headers:Object.assign(H(),{Authorization:'Bearer '+t})})}catch(e){}logoutLocal();o.remove();render();toast('Déconnecté')};return}
+   $('#ricOut',o).onclick=async()=>{const bo=$('#ricOut',o);if(RIC.estAnon()&&!bo.dataset.ok){bo.dataset.ok=1;bo.textContent='⚠️ Ton Premium sera perdu sur ce téléphone · toucher encore';return}try{const t=await token();if(t)await fetch(RIC.url+'/auth/v1/logout',{method:'POST',headers:Object.assign(H(),{Authorization:'Bearer '+t})})}catch(e){}logoutLocal();o.remove();render();toast('Déconnecté')};return}
   const cr=mode==='creer',G=!!RIC.cfg.google,mail=mode==='email'||mode==='connexion'||!G,crm=mode!=='connexion';
   o.innerHTML=`<div class="pbox"><h3>👤 ${G&&!mail?'Mon compte Révision INFAS':crm?'Créer mon compte':'Me connecter'}</h3>
    ${G?`<div class="muted small" style="margin-bottom:10px">Un seul geste avec ton compte Google : pas de mot de passe à créer. Ton compte permet à l’administrateur d’activer ton accès Premium.</div>
@@ -2443,12 +2449,13 @@ const RIC={
  /* ---------- code d'activation à usage unique (créé par l'administrateur dans le tableau de bord) ---------- */
  RIC.contact=function(){const c=RIC.cfg.paiement||{};return String(c.contact||(c.numeros&&(c.numeros.wave||c.numeros.orange||c.numeros.mtn||c.numeros.moov))||'').replace(/[^0-9+]/g,'')};
  RIC.waAdmin=function(texte){let n=RIC.contact().replace(/^\+/,'');if(!n)return'';if(/^0\d{9}$/.test(n))n='225'+n;else if(/^\d{8,10}$/.test(n)&&!/^225/.test(n))n='225'+n;return 'https://wa.me/'+n+'?text='+encodeURIComponent(texte)};
- RIC.code=function(planId){if(!RIC.session){RIC.compte('creer');return}let o=$('#ricode');if(o)o.remove();o=document.createElement('div');o.id='ricode';o.className='pmod';document.body.appendChild(o);
+ RIC.code=function(planId){let o=$('#ricode');if(o)o.remove();o=document.createElement('div');o.id='ricode';o.className='pmod';document.body.appendChild(o);
   const st=RIC.statut||{},nom=[st.prenom,st.nom].filter(Boolean).join(' ')||(S&&S.name)||'',P=(RIC.cfg.plans||[]).find(p=>p.id===planId);
   const msg=`Bonjour, je suis ${nom||'un élève'}${S&&S.fil?' ('+[S.fil,S.niv].filter(Boolean).join(' ')+')':''} sur Révision INFAS. J’ai payé ${P?'le '+P.nom+' ('+fcfa(P.prix_xof)+')':'mon accès Premium'}. Pouvez-vous m’envoyer mon code d’activation ? Numéro qui a payé : `;
   const wa=RIC.waAdmin(msg);
   o.innerHTML=`<div class="pbox"><h3>🎟️ Activer mon accès Premium</h3>
    <div class="small" style="margin-bottom:8px">Tape le code reçu de l’administrateur (ex. <b>RI-7K4P-2M9X</b>).</div>
+   ${RIC.session?'':`<label class="small" for="ricodeN" style="display:block;margin-bottom:4px"><b>Ton nom et prénom</b></label><input class="tin" id="ricodeN" autocomplete="name" maxlength="80" placeholder="Ex. Kouassi Awa" value="${esc(nom)}" style="margin-bottom:10px"><label class="small" for="ricodeT" style="display:block;margin-bottom:4px"><b>Ton code</b></label>`}
    <input class="tin" id="ricodeT" autocapitalize="characters" autocomplete="one-time-code" placeholder="RI-XXXX-XXXX" maxlength="20" style="text-transform:uppercase;letter-spacing:1px;font-weight:700">
    <div id="ricodeM" class="small" style="margin-top:8px;color:#c0392b"></div>
    <button class="btn coral" style="width:100%;margin-top:10px" id="ricodeOk">Activer mon code</button>
@@ -2456,17 +2463,22 @@ const RIC={
     ${wa?`<a class="btn" href="${esc(wa)}" target="_blank" rel="noopener" id="ricodeWa" style="display:block;text-align:center;text-decoration:none;margin-top:8px;background:#25D366;color:#fff">💬 Écrire à l’administrateur sur WhatsApp</a>`:`<div class="muted small" style="margin-top:6px">Le contact de l’administrateur n’est pas encore renseigné.</div>`}</div>
    ${RIC.payOuvert()?`<button class="ri-lien" id="ricodePay" style="display:block;margin-top:10px">💳 Je n’ai pas encore payé : payer maintenant</button>`:''}
    <button class="btn light" style="width:100%;margin-top:8px" id="ricodeX">Fermer</button></div>`;
-  const M=$('#ricodeM',o),T=$('#ricodeT',o);setTimeout(()=>T.focus(),50);
-  $('#ricodeX',o).onclick=()=>o.remove();o.onclick=e=>{if(e.target===o)o.remove()};if($('#ricodePay',o))$('#ricodePay',o).onclick=()=>{o.remove();RIC.payer(planId)};
+  const M=$('#ricodeM',o),T=$('#ricodeT',o),N=$('#ricodeN',o);setTimeout(()=>(N&&!N.value?N:T).focus(),50);
+  const anonErr=e=>/anonymous|disabled|not allowed|Signups/i.test(String(e&&e.message))?'L’activation sans compte n’est pas encore ouverte : connecte-toi avec Google pour l’instant.':/Failed to fetch|NetworkError|Load failed/i.test(String(e&&e.message))?'Pas de connexion : réessaie dans un instant.':'Impossible de créer ton accès : écris à l’administrateur.';
+  const invite=async()=>{if(RIC.session)return true;const n=(N&&N.value||'').trim().replace(/\s+/g,' ');if(n.length<2){M.textContent='Écris ton nom et prénom.';N&&N.focus();return false}
+   try{await RIC.anonyme(n);if(S&&!S.name){S.name=n;try{save()}catch(e){}}return true}catch(e){M.textContent=anonErr(e);return false}};
+  $('#ricodeX',o).onclick=()=>o.remove();o.onclick=e=>{if(e.target===o)o.remove()};if($('#ricodePay',o))$('#ricodePay',o).onclick=async()=>{if(!(await invite()))return;o.remove();RIC.payer(planId)};
   if($('#ricodeWa',o))$('#ricodeWa',o).onclick=()=>track('contact_admin',{motif:'code'});
   T.onkeydown=e=>{if(e.key==='Enter')$('#ricodeOk',o).click()};
   const RAISON={format:'Ce code n’a pas la bonne forme : il ressemble à RI-XXXX-XXXX.',inconnu:'Ce code n’existe pas ou a été annulé. Vérifie chaque caractère.',deja:'Ce code a déjà été utilisé par un autre compte.',deja_toi:'Tu as déjà utilisé ce code : ton accès Premium est actif.',trop:'Trop d’essais : réessaie dans une heure.',connexion:'Connecte-toi d’abord à ton compte.',compte:'Ton compte ne permet pas d’activer un code. Écris à l’administrateur.'};
   $('#ricodeOk',o).onclick=async()=>{const v=T.value.trim();if(v.replace(/[^0-9a-z]/gi,'').length<8){M.textContent=RAISON.format;return}const b=$('#ricodeOk',o);b.disabled=true;b.textContent='Vérification…';M.textContent='';
-   try{const r=await RIC.rpc('utiliser_code',{p_code:v});if(r&&r.ok){track('code_active',{plan:r.plan});o.remove();try{await RIC.syncCompte()}catch(e){}if(typeof render==='function')render();
+   if(!(await invite())){b.disabled=false;b.textContent='Activer mon code';return}
+   const nomE=(N&&N.value.trim())||[(RIC.statut||{}).prenom,(RIC.statut||{}).nom].filter(Boolean).join(' ')||(S&&S.name)||'';
+   try{let r;try{r=await RIC.rpc('utiliser_code',{p_code:v,p_nom:nomE})}catch(e){if(!/function|PGRST202|404/.test(String(e&&e.message)))throw e;r=await RIC.rpc('utiliser_code',{p_code:v})}if(r&&r.ok){track('code_active',{plan:r.plan});o.remove();try{await RIC.syncCompte()}catch(e){}if(typeof render==='function')render();
      toast(`⭐ Premium activé : ${r.plan||'pass'} jusqu’au ${new Date(r.fin).toLocaleDateString('fr-FR')}`)}
     else{M.textContent=RAISON[r&&r.raison]||'Code refusé.';b.disabled=false;b.textContent='Activer mon code'}}
    catch(e){M.textContent=/function|404|PGRST/.test(String(e&&e.message))?'L’activation par code n’est pas encore ouverte.':'Pas de connexion : réessaie dans un instant.';b.disabled=false;b.textContent='Activer mon code'}}};
- RIC.payer=function(planId){if(!RIC.session){RIC.compte('creer');return}if(!RIC.payOuvert()){RIC.code();return}
+ RIC.payer=function(planId){if(!RIC.session){RIC.code(planId);return}if(!RIC.payOuvert()){RIC.code();return}
   const c=RIC.cfg.paiement,ops=Object.keys(OPS).filter(k=>opOk(c,k)),plans=RIC.cfg.plans;let plan=planId&&plans.find(p=>p.id===planId)?planId:plans[0].id,op=ops[0];
   let o=$('#ripayer');if(o)o.remove();o=document.createElement('div');o.id='ripayer';o.className='pmod';document.body.appendChild(o);
   const draw=()=>{const P=plans.find(p=>p.id===plan),num=(c.numeros||{})[op]||'',auto=op==='wave'&&waveOn(c),lien=op==='wave'&&P.prix_xof>0?(c.wave_lien||'https://pay.wave.com/m/M_ci_kAcBVdk53ehz/c/ci/')+'?amount='+P.prix_xof:'';
@@ -2722,6 +2734,28 @@ function sujPrefixe(mid){const m=MATI[mid];return(m&&m.sujPrefixe)||SUJ_PREFIXE[
    const t=await _src({src:m.src+'--'+p.id});if(t)try{P.push(JSON.parse(t))}catch(e){}}
   if(bloques.length)setTimeout(()=>toast('🔒 '+bloques.join(' · ')+' · '+Tx('pa.prem','réservé aux abonnés Premium')),900);
   return h.slice(0,k)+'('+fusion.toString()+')(QUIZ_DATA,'+JSON.stringify(P).replace(/</g,'\\u003c')+','+JSON.stringify(off)+');\n'+h.slice(k)}catch(e){return h}};
+ /* ---- les mêmes sujets en questions natives : liste des sujets du cours, écran « toutes les questions » (on coche en descendant) ----
+    XD['plusnat-<cours>'] = {ch, k (antenne/sujet), p (paquet), q} ajoutés APRÈS les questions d'origine : identifiants stables. */
+ const NATB={};
+ function natCache(mid){const X=XD[mid],P=XD['plusnat-'+mid];if(!X||!P)return null;if(!NATB[mid])NATB[mid]={ch:(X.ch||[]).slice(),q:(X.q||[]).slice()};const B=NATB[mid];
+  if(X.__pn!==P){X.ch=B.ch.concat(P.ch);X.q=B.q.concat(P.q.map(q=>Object.assign({},q,{c:q.c+B.ch.length})));X.__pn=P}return{X,P,n0:B.ch.length}}
+ function natCaches(mid){const N=natCache(mid);if(!N)return new Set();const m=MATI[mid]||{},off=new Set(offDe(m.src||mid)),H=new Set();
+  N.P.k.forEach((k,i)=>{const e=etat(mid,N.P.p[i]);if(off.has(k)||off.has(k.split('/')[0])||(!EDITMODE&&e==='masque'))H.add(N.n0+i)});return H}
+ window.natPaquet=function(mid,c){const N=natCache(mid);if(!N||c<N.n0)return null;return N.P.p[c-N.n0]||null};
+ const _ac=applyContent;applyContent=function(){try{Object.keys(XD).forEach(k=>{if(k.startsWith('plusnat-'))natCache(k.slice(8))})}catch(e){}
+  const r=_ac.apply(this,arguments);
+  try{Object.keys(XD).forEach(k=>{if(!k.startsWith('plusnat-'))return;const mid=k.slice(8),m=MATI[mid],N=natCache(mid);if(!m||!N)return;
+   if((m.ch||[]).length===N.n0)m.ch=m.ch.concat(N.P.ch);const H=natCaches(mid);if(H.size&&QBM[mid])QBM[mid]=QBM[mid].filter(q=>!H.has(q.c))})}catch(e){}return r};
+ /* chapitres ajoutés connus AVANT le filtrage par filière / année (visCh), qui lit m.ch */
+ if(typeof visCh==='function'){const _vc=visCh;visCh=function(m){try{const N=m&&XD['plusnat-'+m.id]&&natCache(m.id);if(N&&(m.ch||[]).length===N.n0)m.ch=m.ch.concat(N.P.ch)}catch(e){}return _vc.apply(this,arguments)}}
+ /* regroupement par antenne (contenus « plus » : groupes {t, ch}) : les sujets ajoutés rejoignent leur antenne, ou un nouveau groupe */
+ if(typeof plusOf==='function'){const _po=plusOf,PC={};plusOf=function(mid){const X=_po.apply(this,arguments);try{const N=X&&Array.isArray(X.groupes)&&XD['plusnat-'+mid]&&natCache(mid);if(!N)return X;
+  if(PC[mid]&&PC[mid].src===X&&PC[mid].p===N.P)return PC[mid].out;const G=X.groupes.map(g=>Object.assign({},g,{ch:(g.ch||[]).slice()}));
+  N.P.ch.forEach((t,i)=>{const ant=String(t).split(' · ')[0];let g=G.find(x=>x.t===ant);if(!g){g={t:ant,ch:[]};G.push(g)}g.ch.push(N.n0+i)});
+  const out=Object.assign({},X,{groupes:G});PC[mid]={src:X,p:N.P,out};return out}catch(e){return X}}}
+ /* paquet réglé « Premium » au tableau de bord : ses sujets natifs sont verrouillés pour les élèves non Premium */
+ if(typeof RIC!=='undefined'&&RIC.can){const _can=RIC.can;RIC.can=function(key){const m=String(key).match(/^matiere:([^/]+)\/sujet:(\d+)$/);
+  if(m&&!RIC.off()&&!RIC.isPremium()&&!EDITMODE){try{const L=sujets(m[1])[+m[2]-1],pid=L&&natPaquet(m[1],L.c);if(pid&&etat(m[1],pid)==='premium')return false}catch(e){}}return _can.apply(this,arguments)}}
  /* ---- éditeur : supprimer / remettre des sujets de l'appli ---- */
  const sessionDe=slug=>/-3$/.test(slug)?'S3 : 2026':/-2$/.test(slug)?'S2 : 2025':slug==='j-preparation-de'?'Préparation D.E (J)':'S1 : 2024';
  async function liste(m){const h=await _src(m);if(!h)return[];const i=h.indexOf('QUIZ_DATA'),j=h.indexOf('=',i)+1,e=h.indexOf('\n',j);const line=h.slice(j,e);
@@ -2729,7 +2763,7 @@ function sujPrefixe(mid){const m=MATI[mid];return(m&&m.sujPrefixe)||SUJ_PREFIXE[
   const A=Q.antennes.map(a=>({slug:a.slug,name:a.name,sujets:a.sujets.map(s=>[s.slug,s.name,(s.questions||[]).length,''])}));
   plusApp(m.src).forEach(p=>p.antennes.forEach(a=>{let X=A.find(x=>x.slug===a.slug);if(!X){X={slug:a.slug,name:a.name,sujets:[]};A.push(X)}a.sujets.forEach(s=>{if(!X.sujets.some(x=>x[0]===s[0]))X.sujets.push([s[0],s[1],s[2],p.titre])})}));return A}
  window.plusBascule=function(src,key,on){const c=E.content=E.content||{};c.plusOff=c.plusOff||{};const L=new Set(c.plusOff[src]||[]);on?L.delete(key):L.add(key);
-  if(L.size)c.plusOff[src]=[...L];else delete c.plusOff[src];try{window.PORTAIL_EDITOR.commit((on?'Sujet remis : ':'Sujet supprimé : ')+key)}catch(e){}plusGerer(window.__plusMid,1)};
+  if(L.size)c.plusOff[src]=[...L];else delete c.plusOff[src];try{window.PORTAIL_EDITOR.commit((on?'Sujet remis : ':'Sujet supprimé : ')+key)}catch(e){}try{applyContent()}catch(e){}plusGerer(window.__plusMid,1)};
  window.plusGerer=async function(mid,garder){const m=MATI[mid];if(!m||!m.src)return;window.__plusMid=mid;let o=$('#riplus');
   if(!o){o=document.createElement('div');o.id='riplus';o.className='pmod';o.onclick=e=>{if(e.target===o)o.remove()};document.body.appendChild(o)}
   const sc=garder&&$('#riplus .pbox')?$('#riplus .pbox').scrollTop:0;
