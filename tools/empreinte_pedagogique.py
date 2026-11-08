@@ -63,8 +63,9 @@ def empreinte(b):
         'cles_moteur': sorted(set(re.findall(r"APPID\+'(_[\w]+)'", js))),
         'matieres': [], 'questions': {}, 'flashcards': {},
         'corrections_auteur': {k: court(C.get(k)) for k in ('q', 'qAdd', 'qDel', 'cardEd', 'cardAdd', 'cardDel', 'mat', 'groups', 'newMat')},
+        # les paquets de sujets ajoutés (app-src-<appli>--<paquet>, source/master/plus-applis) ne sont pas des applis
         # les applis des contenus ajoutés (blocs app-xdata-ajout-<id>, skill « ajouter-contenu ») sont suivies à part, dans source/master/ajouts
-        'applications': sorted(k[len('app-src-'):] for k in B if k.startswith('app-src-') and k[len('app-src-'):] not in AJ),
+        'applications': sorted(k[len('app-src-'):] for k in B if k.startswith('app-src-') and k[len('app-src-'):] not in AJ and '--' not in k),
         'images': sorted(k[len('img-'):] for k in B if k.startswith('img-')),
     }
     mats = [dict(m, origine='base') for m in D['mat']] + [dict(m, origine='ajout') for m in (C.get('newMat') or [])]

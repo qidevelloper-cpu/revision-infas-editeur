@@ -2238,7 +2238,7 @@ const RIC={
    const sv=k=>{const x=sets.find(r=>r.cle===k);return(x&&x.valeur)||{}};const pa=sv('public.access'),pay=sv('public.paiement');
    const old=JSON.stringify(RIC.cfg.regles)+RIC.cfg.defaut+JSON.stringify(RIC.cfg.annonces)+JSON.stringify(RIC.cfg.questions||{});
    let google=false;try{const r=await fetch(RIC.url+'/auth/v1/settings',{headers:H(),cache:'no-store'});if(r.ok){const j=await r.json();google=!!(j.external&&j.external.google)}}catch(e){}
-   RIC.cfg={regles,defaut:pa.defaut==='premium'?'premium':'gratuit',version:pa.version||0,questions:(pa.questions&&typeof pa.questions==='object')?pa.questions:{},plans,annonces:ann,google,paiement:pay,t:Date.now()};
+   RIC.cfg={regles,defaut:pa.defaut==='premium'?'premium':'gratuit',version:pa.version||0,questions:(pa.questions&&typeof pa.questions==='object')?pa.questions:{},plusapp:(pa.plusapp&&typeof pa.plusapp==='object')?pa.plusapp:{},plans,annonces:ann,google,paiement:pay,t:Date.now()};
    LS.set(RIC.CK,RIC.cfg);RIC.ready=true;
    if(old!==JSON.stringify(regles)+RIC.cfg.defaut+JSON.stringify(ann)+JSON.stringify(RIC.cfg.questions)&&typeof render==='function'&&!EDITMODE&&!quiet)render();
   }catch(e){console.warn('RI cloud : règles non mises à jour',e)}
@@ -2698,6 +2698,52 @@ function sujPrefixe(mid){const m=MATI[mid];return(m&&m.sujPrefixe)||SUJ_PREFIXE[
    sans sa propre calculatrice affiche le bouton 🧮 du portail. */
 (function(){let mk=null;const marque=on=>{if(on&&!mk){mk=document.createElement('div');mk.className='calc-mark';mk.setAttribute('aria-hidden','true');mk.style.cssText='position:fixed;left:0;top:0;width:1px;height:1px;opacity:0;pointer-events:none';document.body.appendChild(mk)}else if(!on&&mk){mk.remove();mk=null}};
  setInterval(()=>{let on=false;try{if(typeof VIEW!=='undefined'&&VIEW==='appview'){const f=document.querySelector('#appKeep.on')||document.querySelector('#appFrame:not(.hide)');const d=f&&f.contentDocument;on=!!(d&&d.body&&!d.querySelector('.calc-fab,#calc-ov'))}}catch(e){on=false}marque(on)},700)})();
+
+/* ======================= SUJETS AJOUTÉS AUX APPLIS COMPLÈTES (Correction nationale…) =======================
+   Paquets source/master/plus-applis/<appli>/<paquet>.json (blocs app-src-<appli>--<paquet>, index XD.plusapp) :
+   fusionnés dans QUIZ_DATA de l'appli à son ouverture (l'original dans apps/ reste intact).
+   Tableau de bord : public.access → plusapp[appli][paquet] = '' (comme le cours) | 'premium' | 'masque'.
+   Éditeur : E.content.plusOff[appli] = ['antenne', 'antenne/sujet'] = sujets supprimés de l'appli. */
+(function(){if(typeof appSource!=='function')return;
+ const IDX=()=>(typeof XD!=='undefined'&&XD.plusapp)||{};
+ window.plusApp=src=>IDX()[src]||[];
+ const etat=(mid,pid)=>{try{return((RIC.cfg&&RIC.cfg.plusapp||{})[mid]||{})[pid]||''}catch(e){return''}};
+ const offDe=src=>((E.content&&E.content.plusOff)||{})[src]||[];
+ function fusion(Q,P,OFF){(P||[]).forEach(p=>(p.antennes||[]).forEach(a=>{let A=Q.antennes.find(x=>x.slug===a.slug);
+   if(!A){A={name:a.name,slug:a.slug,count:0,sujets:[]};Q.antennes.push(A)}
+   a.sujets.forEach(s=>{if(A.sujets.some(x=>x.slug===s.slug))return;A.sujets.push(s);A.count=(A.count||0)+s.questions.length})}));
+  const off=new Set(OFF||[]);Q.antennes=Q.antennes.filter(a=>!off.has(a.slug)).map(a=>{a.sujets=a.sujets.filter(s=>!off.has(a.slug+'/'+s.slug));return a}).filter(a=>a.sujets.length);
+  Q.total=Q.antennes.reduce((t,a)=>t+a.sujets.reduce((u,s)=>u+(s.questions||[]).length,0),0)}
+ const _src=appSource;window.appSourceBrut=_src;
+ appSource=async function(m){const h=await _src.apply(this,arguments);try{if(!h||!m||!m.src||String(m.src).includes('--'))return h;
+  const L=plusApp(m.src),off=offDe(m.src);if(!L.length&&!off.length)return h;const k=h.indexOf('const BASE_ANTENNES');if(k<0)return h;
+  const P=[],bloques=[];for(const p of L){const e=etat(m.id||m.src,p.id);if(!EDITMODE&&e==='masque')continue;
+   if(!EDITMODE&&e==='premium'&&typeof RIC!=='undefined'&&!RIC.off()&&!RIC.isPremium()){bloques.push(p.titre);continue}
+   const t=await _src({src:m.src+'--'+p.id});if(t)try{P.push(JSON.parse(t))}catch(e){}}
+  if(bloques.length)setTimeout(()=>toast('🔒 '+bloques.join(' · ')+' · '+Tx('pa.prem','réservé aux abonnés Premium')),900);
+  return h.slice(0,k)+'('+fusion.toString()+')(QUIZ_DATA,'+JSON.stringify(P).replace(/</g,'\\u003c')+','+JSON.stringify(off)+');\n'+h.slice(k)}catch(e){return h}};
+ /* ---- éditeur : supprimer / remettre des sujets de l'appli ---- */
+ const sessionDe=slug=>/-3$/.test(slug)?'S3 : 2026':/-2$/.test(slug)?'S2 : 2025':slug==='j-preparation-de'?'Préparation D.E (J)':'S1 : 2024';
+ async function liste(m){const h=await _src(m);if(!h)return[];const i=h.indexOf('QUIZ_DATA'),j=h.indexOf('=',i)+1,e=h.indexOf('\n',j);const line=h.slice(j,e);
+  let Q={antennes:[]};try{Q=JSON.parse(line.slice(0,line.lastIndexOf('};')+1))}catch(x){}
+  const A=Q.antennes.map(a=>({slug:a.slug,name:a.name,sujets:a.sujets.map(s=>[s.slug,s.name,(s.questions||[]).length,''])}));
+  plusApp(m.src).forEach(p=>p.antennes.forEach(a=>{let X=A.find(x=>x.slug===a.slug);if(!X){X={slug:a.slug,name:a.name,sujets:[]};A.push(X)}a.sujets.forEach(s=>{if(!X.sujets.some(x=>x[0]===s[0]))X.sujets.push([s[0],s[1],s[2],p.titre])})}));return A}
+ window.plusBascule=function(src,key,on){const c=E.content=E.content||{};c.plusOff=c.plusOff||{};const L=new Set(c.plusOff[src]||[]);on?L.delete(key):L.add(key);
+  if(L.size)c.plusOff[src]=[...L];else delete c.plusOff[src];try{window.PORTAIL_EDITOR.commit((on?'Sujet remis : ':'Sujet supprimé : ')+key)}catch(e){}plusGerer(window.__plusMid,1)};
+ window.plusGerer=async function(mid,garder){const m=MATI[mid];if(!m||!m.src)return;window.__plusMid=mid;let o=$('#riplus');
+  if(!o){o=document.createElement('div');o.id='riplus';o.className='pmod';o.onclick=e=>{if(e.target===o)o.remove()};document.body.appendChild(o)}
+  const sc=garder&&$('#riplus .pbox')?$('#riplus .pbox').scrollTop:0;
+  if(!garder)o.innerHTML='<div class="pbox"><p class="muted">'+esc(Tx('pa.load','Chargement des sujets…'))+'</p></div>';
+  const A=await liste(m),off=new Set(offDe(m.src)),G={};A.forEach(a=>(G[sessionDe(a.slug)]=G[sessionDe(a.slug)]||[]).push(a));
+  const row=(key,lab,n,orig,on)=>`<div style="display:flex;align-items:center;gap:8px;padding:5px 0;border-top:1px solid var(--line,#eee)${on?'':';opacity:.55'}"><span style="flex:1;min-width:0">${lab}${orig?' <span class="ri-b f">'+esc(orig)+'</span>':''} <span class="muted small">· ${n} q.</span></span><button class="btn light" style="width:auto;min-width:0;margin:0;padding:4px 9px;white-space:nowrap;flex:none" title="${on?esc(Tx('pa.del','Supprimer')):esc(Tx('pa.back','Remettre'))}" onclick="plusBascule('${jsq(m.src)}','${jsq(key)}',${on?'false':'true'})">${on?'🗑️':'↩︎'}</button></div>`;
+  o.innerHTML=`<div class="pbox" style="max-height:86vh;overflow:auto;max-width:560px"><h3>🗂️ ${esc(Tx('pa.h','Sujets de l’appli'))} · ${esc(m.short||m.title)}</h3><p class="muted small">${esc(Tx('pa.s','Un sujet supprimé disparaît de l’appli des élèves après publication. Rien n’est effacé : « Remettre » le fait revenir.'))}</p>`+
+   Object.keys(G).sort((x,y)=>(x[0]==='S'?x:'Z'+x).localeCompare(y[0]==='S'?y:'Z'+y)).map(g=>`<h4 style="margin:14px 0 4px">${esc(g)}</h4>`+G[g].map(a=>{const aon=!off.has(a.slug);return `<div class="card sf" style="padding:10px 12px;margin:6px 0"><div style="display:flex;align-items:center;gap:8px"><b style="flex:1">${esc(a.name)}</b><button class="btn light" style="width:auto;min-width:0;margin:0;padding:4px 9px;white-space:nowrap;flex:none;font-size:13px" onclick="plusBascule('${jsq(m.src)}','${jsq(a.slug)}',${aon?'false':'true'})">${aon?'🗑️ '+esc(Tx('pa.delA','Antenne')):'↩︎ '+esc(Tx('pa.backA','Remettre'))}</button></div>${aon?a.sujets.map(s=>row(a.slug+'/'+s[0],esc(s[1]),s[2],s[3],!off.has(a.slug+'/'+s[0]))).join(''):''}</div>`}).join('')).join('')+
+   `<button class="btn coral" style="width:100%;margin-top:12px" onclick="document.getElementById('riplus').remove()">${esc(Tx('ui.close','Fermer'))}</button></div>`;
+  if(sc)$('#riplus .pbox').scrollTop=sc};
+ const B0=BLK['matiere.actions'];if(B0){const _h=B0.html;B0.html=function(){const h=_h.apply(this,arguments),mid=ctx&&ctx.id,m=mid&&MATI[mid];
+  if(RO||!EDITMODE||!m||!m.src||!(plusApp(m.src).length||(E.content.plusOff||{})[m.src]))return h;const n=plusApp(m.src).reduce((t,p)=>t+p.nq,0);
+  return h+`<div class="card sf"><h3>🗂️ ${esc(Tx('pa.h','Sujets de l’appli'))}</h3><div class="muted small">${plusApp(m.src).map(p=>esc(p.titre)+' · '+p.nsuj+' sujets').join('<br>')}</div><button class="btn light" style="margin-top:10px" onclick="plusGerer('${jsq(mid)}')">${esc(Tx('pa.btn','Gérer / supprimer des sujets'))}</button></div>`}}
+})();
 
 /* ======================= ARRÊTER DE COMPOSER ET REPRENDRE LÀ OÙ ON S'EST ARRÊTÉ =======================
    Chaque sujet commencé (au moins une réponse) est gardé dans S.encours : questions dans l'ordre tiré,

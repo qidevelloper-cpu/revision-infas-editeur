@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 112232221,
- "sha256": "6015990ef86e477b751dacbae987433afb1ddcce4dc032804fb5f90c92a03fc4",
+ "taille": 115232114,
+ "sha256": "6218fddd02a6770fe4d26e85181a286b8adcf9e733e671c8682815a1dd178b73",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -70,8 +70,8 @@
   {
    "type": "bloc",
    "id": "app-js",
-   "octets": 634439,
-   "sha256": "a125ffa3061007da1d88e76daf140acb1f8ddc146053f8d5947d5d618e5e0d4e",
+   "octets": 641257,
+   "sha256": "d09c2d9695766398077d22db13d830a46fe8dfadb57660a064c55af1b8425154",
    "fichier": "engine/app-js.js",
    "codage": "brut"
   },
@@ -83,8 +83,8 @@
   {
    "type": "bloc",
    "id": "ed-js",
-   "octets": 264052,
-   "sha256": "62f045f718f535dccf266c5ace46d7cab787de695d0b28311dde82684c2fce56",
+   "octets": 264238,
+   "sha256": "08856cd0b27c6d903a6b436e0624528a931d7ad650f9ed0a35dca941c099e7b9",
    "fichier": "editor/ed-js.js",
    "codage": "brut"
   },
@@ -16518,6 +16518,45 @@
    "octets": 417960,
    "sha256": "05ee2352cdc577c250301dc3afa284ca55247e228a78e73108693b61bd4c464a",
    "fichier": "ajouts/xpedexo.html",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-plusapp\">",
+   "sha256": "20ebafba12117a4425763ce7ccec7b3173528f4830c4a922ae931b080795a7ff"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-plusapp",
+   "octets": 3284,
+   "sha256": "6fbe0df430ed277bb23da2b1377732c9ba58d70831efa98803245cce54c8094d",
+   "fichier": "plus-applis/index.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--s2-2025\">",
+   "sha256": "af9c925ad0a0994eff2d8f2f288eea468ff48a627f5591470914737d2ab5179c"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--s2-2025",
+   "octets": 861056,
+   "sha256": "8ec392e7af9c20d1de89368e7a788fd26bde66913d7e9f7e6f4a0196a2494937",
+   "fichier": "plus-applis/xmvkq4zed/s2-2025.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--s3-2026\">",
+   "sha256": "2debad37344bda01891b055d01115874e6633aaa781c06d667c6534bc8773732"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--s3-2026",
+   "octets": 2128354,
+   "sha256": "5c78a4cde4573bd122a452e747ba01d89f76a327a2ff52a5e31f33bf9515b66a",
+   "fichier": "plus-applis/xmvkq4zed/s3-2026.json",
    "codage": "brut"
   },
   {
