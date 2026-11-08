@@ -2742,9 +2742,7 @@ function sujPrefixe(mid){const m=MATI[mid];return(m&&m.sujPrefixe)||SUJ_PREFIXE[
  function natCaches(mid){const N=natCache(mid);if(!N)return new Set();const m=MATI[mid]||{},off=new Set(offDe(m.src||mid)),H=new Set();
   N.P.k.forEach((k,i)=>{const e=etat(mid,N.P.p[i]);if(off.has(k)||off.has(k.split('/')[0])||(!EDITMODE&&e==='masque'))H.add(N.n0+i)});return H}
  window.natPaquet=function(mid,c){const N=natCache(mid);if(!N||c<N.n0)return null;return N.P.p[c-N.n0]||null};
- const _ac=applyContent;applyContent=function(){try{Object.keys(XD).forEach(k=>{if(!k.startsWith('plusnat-'))return;const mid=k.slice(8);natCache(mid);
-   /* cours avec sujets ajoutés : liste des sujets par épreuve (titres d'origine, groupés par antenne) si l'éditeur n'a rien choisi */
-   if(typeof VUE_DEF!=='undefined'&&VUE_DEF[mid]==null)VUE_DEF[mid]='sujets'})}catch(e){}
+ const _ac=applyContent;applyContent=function(){try{Object.keys(XD).forEach(k=>{if(k.startsWith('plusnat-'))natCache(k.slice(8))})}catch(e){}
   const r=_ac.apply(this,arguments);
   try{Object.keys(XD).forEach(k=>{if(!k.startsWith('plusnat-'))return;const mid=k.slice(8),m=MATI[mid],N=natCache(mid);if(!m||!N)return;
    if((m.ch||[]).length===N.n0)m.ch=m.ch.concat(N.P.ch);const H=natCaches(mid);if(H.size&&QBM[mid])QBM[mid]=QBM[mid].filter(q=>!H.has(q.c))})}catch(e){}return r};
@@ -2755,9 +2753,6 @@ function sujPrefixe(mid){const m=MATI[mid];return(m&&m.sujPrefixe)||SUJ_PREFIXE[
   if(PC[mid]&&PC[mid].src===X&&PC[mid].p===N.P)return PC[mid].out;const G=X.groupes.map(g=>Object.assign({},g,{ch:(g.ch||[]).slice()}));
   N.P.ch.forEach((t,i)=>{const ant=String(t).split(' · ')[0];let g=G.find(x=>x.t===ant);if(!g){g={t:ant,ch:[]};G.push(g)}g.ch.push(N.n0+i)});
   const out=Object.assign({},X,{groupes:G});PC[mid]={src:X,p:N.P,out};return out}catch(e){return X}}}
- /* écran « Sujets » (FAIRE les quiz) : pour un cours en sujets par épreuve groupés par antenne, mêmes titres et groupes que la page du cours */
- const BS=BLK['sujets.list'];if(BS&&typeof sujListeHTML==='function'){const _bs=BS.html;BS.html=function(){const h=_bs.apply(this,arguments);try{const m=matOf(ctx.id),P=m&&plusOf(m.id);
-  if(!m||(S.sujMode||'suj')!=='suj'||!vueSuj(m)||!P||!(P.groupes||[]).length)return h;const i=h.indexOf('<div class="suj');return i<0?h:h.slice(0,i)+sujListeHTML(m)}catch(e){return h}}}
  /* paquet réglé « Premium » au tableau de bord : ses sujets natifs sont verrouillés pour les élèves non Premium */
  if(typeof RIC!=='undefined'&&RIC.can){const _can=RIC.can;RIC.can=function(key){const m=String(key).match(/^matiere:([^/]+)\/sujet:(\d+)$/);
   if(m&&!RIC.off()&&!RIC.isPremium()&&!EDITMODE){try{const L=sujets(m[1])[+m[2]-1],pid=L&&natPaquet(m[1],L.c);if(pid&&etat(m[1],pid)==='premium')return false}catch(e){}}return _can.apply(this,arguments)}}
