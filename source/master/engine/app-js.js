@@ -1502,22 +1502,22 @@ function coverAfter(){$$('#app [onclick]').forEach(el=>{if(el.dataset.cv||el.clo
  if(el.classList.contains('suj')){el.insertAdjacentHTML('afterbegin',`<img class="cvsuj" src="${cv}" alt="" loading="lazy">`);return}const em=el.querySelector('.em,.e,.ou-ic,.sxe');if(em){em.classList.add('cvth');em.innerHTML=`<img src="${cv}" alt="" loading="lazy">`}else el.insertAdjacentHTML('afterbegin',`<img class="cvth2" src="${cv}" alt="" loading="lazy">`)})}
 
 /* ---------- 29. CORRECTION NATIONALE : même apparence que Révision INFAS, antennes regroupées, J par matière, sans profil ---------- */
-function corrPatch(){var J='j-preparation-de';function city(n){return String(n).replace(/\s*\([^)]*\)\s*/,'').trim()}function sess(n){var m=String(n).match(/session\s*(\d+)/i);return m?+m[1]:1}
+function corrPatch(){var J='j-preparation-de';function city(n){return String(n).replace(/\s*\([^)]*\)\s*/,'').trim()}function sess(n){var m=String(n).match(/session\s*(\d+)/i)||String(n).match(/\bS(\d+)\s*:/);return m?+m[1]:1}function yr(n){var m=String(n).match(/\bS\d+\s*:\s*(20\d\d)\b/);return m?+m[1]:2023+sess(n)}
  function sortA(){var A=QUIZ_DATA.antennes,first={};A.forEach(function(a,i){var c=city(a.name);if(!(c in first))first[c]=i});A.sort(function(x,y){if(x.slug===J)return -1;if(y.slug===J)return 1;var cx=city(x.name),cy=city(y.name);return cx===cy?sess(x.name)-sess(y.name):first[cx]-first[cy]})}
  try{var _rb=rebuildData;rebuildData=function(){_rb.apply(this,arguments);sortA();buildIndex()};sortA();buildIndex()}catch(e){}
  /* liste des antennes : sessions 1 et 2 d'une même antenne dans la même carte ; J classé par matière */
  function fixList(){var L=document.getElementById('antennes-list');if(!L||L.dataset.ri===String(L.childElementCount))return;var cards=[].slice.call(L.querySelectorAll('.antenne-card'));var byIdx=QUIZ_DATA.antennes;var prev=null,prevA=null;
   cards.forEach(function(card,i){var a=byIdx[i];if(!a)return;var body=card.querySelector('.antenne-body');
    if(a.slug===J){var rows=[].slice.call(body.querySelectorAll('.sujet-row'));var mats=[];a.sujets.forEach(function(s,k){var m=s.matiere||'Autres';if(mats.indexOf(m)<0)mats.push(m)});body.innerHTML='';mats.forEach(function(m){var h=document.createElement('div');h.className='ri-subh';h.textContent='J · '+m;body.appendChild(h);a.sujets.forEach(function(s,k){if((s.matiere||'Autres')===m&&rows[k])body.appendChild(rows[k])})});prev=null;return}
-   if(prev&&city(prevA.name)===city(a.name)){var pb=prev.querySelector('.antenne-body');if(!pb.querySelector('.ri-subh')){var h1=document.createElement('div');h1.className='ri-subh';h1.textContent='Session '+sess(prevA.name);pb.insertBefore(h1,pb.firstChild)}
-    var h2=document.createElement('div');h2.className='ri-subh';h2.textContent='Session '+sess(a.name);pb.appendChild(h2);[].slice.call(body.children).forEach(function(r){pb.appendChild(r)});
-    var nS=prev.__ns=(prev.__ns||prevA.sujets.length)+a.sujets.length,nQ=prev.__nq=(prev.__nq||prevA.count)+a.count;var mt=prev.querySelector('.ant-meta');if(mt)mt.textContent='Sessions 1 et 2 · '+nS+' sujets · '+nQ+' questions';var nm=prev.querySelector('.ant-name');if(nm)nm.textContent=city(prevA.name);card.remove();return}
+   if(prev&&city(prevA.name)===city(a.name)){var pb=prev.querySelector('.antenne-body');if(!pb.querySelector('.ri-subh')){var h1=document.createElement('div');h1.className='ri-subh';h1.textContent='Sujets '+yr(prevA.name);pb.insertBefore(h1,pb.firstChild)}
+    var h2=document.createElement('div');h2.className='ri-subh';h2.textContent='Sujets '+yr(a.name);pb.appendChild(h2);[].slice.call(body.children).forEach(function(r){pb.appendChild(r)});
+    var nS=prev.__ns=(prev.__ns||prevA.sujets.length)+a.sujets.length,nQ=prev.__nq=(prev.__nq||prevA.count)+a.count;var ys=prev.__ys=(prev.__ys||[yr(prevA.name)]).concat(yr(a.name));var mt=prev.querySelector('.ant-meta');if(mt)mt.textContent='Sujets '+ys.join(', ')+' · '+nS+' sujets · '+nQ+' questions';var nm=prev.querySelector('.ant-name');if(nm)nm.textContent=city(prevA.name);card.remove();return}
    prev=card;prevA=a});L.dataset.ri=String(L.childElementCount)}
  /* configuration : une session choisie → toutes ses questions (pas de choix du nombre) ; filtre « non traitées » */
  try{var _gf=getFilteredPool;getFilteredPool=function(){var p=_gf.apply(this,arguments);if(cfgState&&cfgState.unseen)p=p.filter(function(q){return statusOf(q.id)==='unseen'});return p}}catch(e){}
  try{var _rc=renderConfig;renderConfig=function(){if(cfgState)cfgState.allAnt=true;_rc.apply(this,arguments);var $=function(i){return document.getElementById(i)};
-  var aw=$('cfg-antennes');if(aw){[].slice.call(aw.querySelectorAll('.chip.more')).forEach(function(c){c.remove()});[].slice.call(aw.children).forEach(function(c){var tn=null;for(var k=0;k<c.childNodes.length;k++)if(c.childNodes[k].nodeType===3&&c.childNodes[k].nodeValue.trim()){tn=c.childNodes[k];break}if(!tn)return;var t=tn.nodeValue.trim();if(t==='Toutes')return;var cty=city(t),ss=sess(t);var nmc=cty.charAt(0)+cty.slice(1).toLowerCase();tn.nodeValue=(/session/i.test(t)?'S'+ss:'S1');c.dataset.city=nmc;c.dataset.s=/session/i.test(t)?ss:1});
-   var rows={},order=[];[].slice.call(aw.children).forEach(function(c){if(!c.dataset.city)return;var k=c.dataset.city;if(!rows[k]){rows[k]=document.createElement('div');rows[k].className='ri-antrow';rows[k].innerHTML='<span class="ri-antc">'+k+'</span><span class="ri-ants"></span><span class="ri-ants"></span>';order.push(k)}var slot=rows[k].querySelectorAll('.ri-ants')[(+c.dataset.s===2)?1:0];slot.appendChild(c)});order.forEach(function(k){aw.appendChild(rows[k])})}
+  var aw=$('cfg-antennes');if(aw){[].slice.call(aw.querySelectorAll('.chip.more')).forEach(function(c){c.remove()});[].slice.call(aw.children).forEach(function(c){var tn=null;for(var k=0;k<c.childNodes.length;k++)if(c.childNodes[k].nodeType===3&&c.childNodes[k].nodeValue.trim()){tn=c.childNodes[k];break}if(!tn)return;var t=tn.nodeValue.trim();if(t==='Toutes')return;var cty=city(t),ss=sess(t);var nmc=cty.charAt(0)+cty.slice(1).toLowerCase();tn.nodeValue=String(yr(t));c.dataset.city=nmc;c.dataset.s=ss});var SS=[].slice.call(aw.children).map(function(c){return +c.dataset.s||0}).filter(function(x,i,a){return x&&a.indexOf(x)===i}).sort(function(x,y){return x-y});if(!SS.length)SS=[1];
+   var rows={},order=[];[].slice.call(aw.children).forEach(function(c){if(!c.dataset.city)return;var k=c.dataset.city;if(!rows[k]){rows[k]=document.createElement('div');rows[k].className='ri-antrow';rows[k].style.gridTemplateColumns='minmax(0,1.1fr)'+' minmax(0,1fr)'.repeat(SS.length);if(SS.length>2)rows[k].classList.add('ri-3');rows[k].innerHTML='<span class="ri-antc">'+k+'</span>'+SS.map(function(){return '<span class="ri-ants"></span>'}).join('');order.push(k)}var slot=rows[k].querySelectorAll('.ri-ants')[Math.max(0,SS.indexOf(+c.dataset.s))];slot.appendChild(c)});order.forEach(function(k){aw.appendChild(rows[k])})}
   var one=(cfgState.antenneSlug&&cfgState.antenneSlug!=='all'&&cfgState.antenneSlug!==J)||(cfgState.mode==='j'&&cfgState.sujetSlug&&cfgState.sujetSlug!=='all');
   var cc=$('cfg-count-presets');var card=cc&&cc.closest('.config-card');var pool=getFilteredPool();
   if(card)card.style.display=one?'none':'';if(one){cfgState.count=pool.length;cfgState.countAll=true;var s=$('sum-session');if(s)s.textContent=pool.length;var av=$('sum-available');if(av)av.textContent=pool.length}
@@ -1527,7 +1527,7 @@ function corrPatch(){var J='j-preparation-de';function city(n){return String(n).
  document.querySelectorAll('[id="btn-start-unseen"]').forEach(function(x){if(x!==document.getElementById('btn-start-unseen')){var c=x.cloneNode(true);x.parentNode.replaceChild(c,x);c.addEventListener('click',function(){openConfigWith({});cfgState.unseen=true;renderConfig()})}});
  /* plus de profil dans cette appli (le grade et les couleurs sont ceux de Révision INFAS) */
  function noProfile(){var b=document.querySelector('#bnav button[data-go="profile"]');if(b)b.remove()}
- var st=document.createElement('style');st.textContent='#cfg-antennes{display:flex!important;flex-direction:column!important;gap:5px!important}#cfg-antennes>.chip{align-self:flex-start}.ri-antrow{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) minmax(0,1fr);gap:6px;align-items:center}.ri-ants{min-width:0}.ri-antc{font-weight:800;font-size:13.5px}.ri-ants .chip{width:100%!important;box-sizing:border-box!important;overflow:hidden;display:flex!important;justify-content:space-between!important;gap:4px;padding:6px 8px!important;font-size:12.5px!important;min-height:0!important;margin:0!important;white-space:nowrap}#cfg-antennes .chip-count{font-size:10.5px!important;padding:1px 5px!important}.ri-subh{font-weight:900;font-size:13px;text-transform:uppercase;letter-spacing:.4px;margin:12px 4px 4px;opacity:.85}';document.head.appendChild(st);
+ var st=document.createElement('style');st.textContent='#cfg-antennes{display:flex!important;flex-direction:column!important;gap:5px!important}#cfg-antennes>.chip{align-self:flex-start}.ri-antrow{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) minmax(0,1fr);gap:6px;align-items:center}.ri-ants{min-width:0}.ri-antc{font-weight:800;font-size:13.5px}.ri-ants .chip{width:100%!important;box-sizing:border-box!important;overflow:hidden;display:flex!important;justify-content:space-between!important;gap:4px;padding:6px 8px!important;font-size:12.5px!important;min-height:0!important;margin:0!important;white-space:nowrap}#cfg-antennes .chip-count{font-size:10.5px!important;padding:1px 5px!important}.ri-3 .ri-ants .chip{flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:2px!important;padding:5px 3px!important;white-space:normal!important;text-align:center}.ri-3 .ri-antc{font-size:12.5px}.ri-subh{font-weight:900;font-size:13px;text-transform:uppercase;letter-spacing:.4px;margin:12px 4px 4px;opacity:.85}';document.head.appendChild(st);
  noProfile();fixList();setInterval(function(){noProfile();fixList()},500);try{renderHome()}catch(e){}}
 function corrCss(){const t=palette(),cs=getComputedStyle(document.documentElement),v=n=>cs.getPropertyValue(n).trim();const card=v('--card')||'#fff',ink=v('--ink')||'#16231F',soft=v('--soft')||'#5E6E68',line=v('--line')||'#E1DDD2';
  return `.sig.top,.wrap>.sig,body>.sig,.sig-divider{display:none!important}
@@ -1911,8 +1911,8 @@ function sujListeHTML(m){const L=sujets(m.id);if(!L.length)return `<div class="e
 const _matActSuj=BLK['matiere.actions'].html;BLK['matiere.actions'].html=function(){const m=matOf(ctx.id);if(!vueSuj(m)||garderOrig(m))return _matActSuj.apply(this,arguments);
  return `<div class="secT">${T('msuj.h','📝 Sujets')}<span class="ln"></span></div><div class="muted small" style="margin-bottom:8px">${T('msuj.help','Touche un sujet : toutes ses questions s’affichent, dans l’ordre, avec la correction dès que tu réponds.')}</div>`+sujListeHTML(m)};
 B('home.sujets','Sujets (accueil)',()=>{const L=myMats().filter(m=>m.accueil&&(QBM[m.id]||[]).length);
- if(!L.length)return EDITMODE?`<div class="card sf"><h3>${T('hsuj.h','📝 Sujets')}</h3><div class="empty">${esc('Coche « 📝 Sujets sur l’accueil » sur une matière (Éditeur → 📚 Contenu → Matières) : ses sujets apparaîtront ici.')}</div></div>`:'';
- return `<div class="secT">${T('hsuj.h','📝 Sujets')}<span class="ln"></span></div>`+L.map((m,i)=>`<details class="card sf hsuj" ${i===0?'open':''}><summary style="cursor:pointer"><b>${esc(m.emo+' '+m.title)}</b> <small class="muted">· ${sujets(m.id).length} ${esc(Tx('hsuj.n','sujets'))}</small></summary><div style="margin-top:8px">${sujListeHTML(m)}</div></details>`).join('')});
+ if(!L.length)return EDITMODE?`<div class="card sf"><h3>${T('hsuj.h','📝 DOCUMENT DE REVISION INFAS')}</h3><div class="empty">${esc('Coche « 📝 Sujets sur l’accueil » sur une matière (Éditeur → 📚 Contenu → Matières) : ses sujets apparaîtront ici.')}</div></div>`:'';
+ return `<div class="secT">${T('hsuj.h','📝 DOCUMENT DE REVISION INFAS')}<span class="ln"></span></div>`+L.map((m,i)=>`<details class="card sf hsuj" ${i===0?'open':''}><summary style="cursor:pointer"><b>${esc(m.emo+' '+revTitre(m))}</b> <small class="muted">· ${sujets(m.id).length} ${esc(Tx('hsuj.n','sujets'))}</small></summary><div style="margin-top:8px">${sujListeHTML(m)}</div></details>`).join('')});
 (function(){const H=SCREENS.home.blocks;if(!H.includes('home.sujets')){const i=H.indexOf('home.mat');H.splice(i<0?H.length:i,0,'home.sujets')}})();
 /* une mise en page de l'accueil enregistrée avant cette version reçoit la rubrique, sans modifier la configuration */
 const _layoutOfSuj=layoutOf;layoutOf=function(sc){const L=_layoutOfSuj(sc);if(sc!=='home'||!Array.isArray(L)||L.some(b=>b.id==='home.sujets'))return L;const C=L.slice(),i=C.findIndex(b=>b.id==='home.mat');C.splice(i<0?C.length:i,0,{id:'home.sujets',inst:'home.sujets'});return C};
@@ -2255,7 +2255,7 @@ const RIC={
 
  function grpOf(mid){try{for(const g of groups())for(const s of g.subs)if(s.mats.includes(mid))return g.id}catch(e){}return null}
  function baseRule(){const R=RIC.cfg.regles;if(S&&S.fil&&S.niv){const k='niveau:'+filBase(S.fil)+'-'+S.niv;if(R[k])return R[k].acces}return RIC.cfg.defaut}
- function matRule(mid){const R=RIC.cfg.regles;if(R['matiere:'+mid])return R['matiere:'+mid].acces;const su=typeof ajSuit==='function'&&ajSuit(mid);if(su)return matRule(su);const g=grpOf(mid);if(g&&R['rubrique:'+g])return R['rubrique:'+g].acces;return baseRule()}
+ function matRule(mid){const R=RIC.cfg.regles;if(R['matiere:'+mid])return R['matiere:'+mid].acces;const aj=typeof ajOf==='function'&&ajOf(mid);if(aj&&aj.acces)return aj.acces;const su=typeof ajSuit==='function'&&ajSuit(mid);if(su)return matRule(su);const g=grpOf(mid);if(g&&R['rubrique:'+g])return R['rubrique:'+g].acces;return baseRule()}
  function quota(mid){const R=RIC.cfg.regles,r=R['matiere:'+mid];if(r&&r.quotaGratuit!=null)return r.quotaGratuit;const su=!r&&typeof ajSuit==='function'&&ajSuit(mid);if(su)return quota(su);const g=grpOf(mid),rg=g&&R['rubrique:'+g];if(rg&&rg.quotaGratuit!=null)return rg.quotaGratuit;return 0}
  /* effective('matiere:vih/sujet:3') → 'gratuit' | 'premium' | 'masque' (la règle la plus précise l'emporte) */
  function effective(key){const R=RIC.cfg.regles;
@@ -2689,7 +2689,7 @@ function sujPrefixe(mid){const m=MATI[mid];return(m&&m.sujPrefixe)||SUJ_PREFIXE[
  const _titre=sujTitre;sujTitre=function(mid,k){const p=sujPrefixe(mid);if(p&&!vueSuj(MATI[mid]))return p+' '+(k+1);return _titre.apply(this,arguments)};
  const _liste=BLK['sujets.list'].html;BLK['sujets.list'].html=function(){let h=_liste.apply(this,arguments);const p=ctx&&ctx.id&&sujPrefixe(ctx.id);if(p&&(S.sujMode||'suj')==='suj')h=h.replace(/Sujet (\d+) · /g,(x,n)=>esc(p)+' '+n+' · ');return h};
  const _st=startSujet;startSujet=function(mid,k){const a=arguments,L=sujets(mid)[k];if(!L)return;
-  if(!sujPrefixe(mid))return _st.apply(this,a);   /* choix ordre / aléatoire : sujets de la Prépa D.E seulement */
+  if(!sujPrefixe(mid)&&!(MATI[mid]&&MATI[mid].accueil))return _st.apply(this,a);   /* choix ordre / aléatoire : Prépa D.E et cours de la rubrique « DOCUMENT DE REVISION INFAS » */
   if(typeof RIC!=='undefined'&&RIC.can&&!RIC.off()&&!RIC.can('matiere:'+mid+'/sujet:'+(k+1)))return _st.apply(this,a);
   let o=$('#riordre');if(o)o.remove();o=document.createElement('div');o.id='riordre';o.className='pmod';const pref=S.ordre==='alea'?'alea':'ordre';
   o.innerHTML=`<div class="pbox"><h3>📝 ${esc(sujTitre(mid,k))}</h3><div class="muted small">${((typeof RIC!=='undefined'&&RIC.libres&&RIC.libres(mid,k))||L).length} ${esc(Tx('or.q','questions'))}${S.timed?' · '+esc(Tx('or.timed','mode chronométré')):''}</div>
@@ -2786,7 +2786,7 @@ function sujPrefixe(mid){const m=MATI[mid];return(m&&m.sujPrefixe)||SUJ_PREFIXE[
 (function(){if(typeof startFil!=='function')return;
  const cle=F=>F.mid+'|'+(F.mode||'suj')+'|'+(F.mode==='suj'&&F.k!=null?F.k:F.label);
  const nRep=F=>Object.keys(F.ans||{}).filter(id=>F.ans[id]&&!F.ans[id].pending).length;
- function garder(){try{if(!FILS||!FILS.mid||FILS.mode==='diff')return;const E2=S.encours=S.encours||{},k=cle(FILS);
+ function garder(){try{if(!FILS||!FILS.mid||FILS.mode==='diff'||FILS.mode==='compo')return;   /* compo par lien : jamais mise de côté */const E2=S.encours=S.encours||{},k=cle(FILS);
   if(FILS.fin||!nRep(FILS)){if(E2[k]){delete E2[k];save()}return}
   E2[k]={mid:FILS.mid,ids:FILS.ids.slice(),label:FILS.label,mode:FILS.mode,k:FILS.k,ans:FILS.ans,ms:FILS.ms,ok:FILS.ok,week:FILS.week,min:FILS.min||0,reste:FILS.end?Math.max(0,FILS.end-Date.now()):0,expire:!!FILS.expire,t:Date.now()};
   const L=Object.keys(E2).sort((a,b)=>E2[b].t-E2[a].t);L.slice(12).forEach(x=>delete E2[x]);save()}catch(e){}}
@@ -2824,6 +2824,280 @@ function sujPrefixe(mid){const m=MATI[mid];return(m&&m.sujPrefixe)||SUJ_PREFIXE[
   return `<div class="card sf resume" onclick="reprendreFil('${jsq(d.k)}')"><div class="ic">▶</div><div style="flex:1"><b>${T('rp.home','Reprendre : {label} · {i}/{n}',{label:esc(matOf(x.mid).short+' · '+x.label),i:compte(x).i,n:compte(x).n})}</b></div></div>`};
   if(B0.oneui){const _o=B0.oneui;B0.oneui=function(){const d=!curOk()&&dernier();if(!d||typeof ouPill!=='function')return _o.apply(this,arguments);const x=d.x,n=typeof dueAll==='function'?dueAll():0;
    return `<div class="ou-pills">${ouPill('▶',T('oui.resume','Reprendre'),esc(matOf(x.mid).short)+' · '+compte(x).i+'/'+compte(x).n,`reprendreFil('${jsq(d.k)}')`,1)}${ouPill('🗂️',T('oui.flash','Flashcards'),T('oui.flash.s','{n} à revoir',{n}),ouFlashAct(),n>0)}</div>`}}}
+})();
+
+/* ======================= SUJETS AJOUTÉS AUX APPLIS COMPLÈTES : LEURS SÉANCES S'OUVRENT AUSSI DANS LE PORTAIL =======================
+   Les questions des paquets (identifiant « antenne__sujet__n ») retrouvent leur question native (XD['plusnat-<cours>'], même ordre que
+   tools/plus_applis.py) : comme pour les sujets d'origine, la séance lancée par l'appli s'ouvre en liste (toutes les questions, on
+   coche en descendant), y compris une séance qui mélange sujets d'origine et sujets ajoutés. Aucune correspondance sûre → rien ne change. */
+(function(){if(typeof cleQuestion!=='function')return;const C={};
+ function table(mid){const X=typeof XD!=='undefined'&&XD[mid],P=X&&XD['plusnat-'+mid];if(!P||X.__pn!==P||!Array.isArray(X.q))return null;
+  if(C[mid]&&C[mid].P===P&&C[mid].n===X.q.length)return C[mid].t;const n0=X.q.length-P.q.length,first={},t={};if(n0<0)return null;
+  P.q.forEach((q,j)=>{if(first[q.c]==null)first[q.c]=j});P.k.forEach((k,i)=>{if(first[i]!=null)t[k]={j:first[i],i}});C[mid]={P,n:X.q.length,t,n0};return t}
+ const _cq=cleQuestion;cleQuestion=function(a,k){const r=_cq.apply(this,arguments);if(r!=null||!a||!a.m)return r;
+  try{const m=String(k).match(/^(.+?)__(.+)__(\d+)$/);if(!m)return null;const t=table(a.m),e=t&&t[m[1]+'/'+m[2]];if(!e)return null;
+   const j=e.j+(+m[3]),P=XD['plusnat-'+a.m];return P.q[j]&&P.q[j].c===e.i?C[a.m].n0+j:null}catch(x){return null}}})();
+
+/* ======================= APPLIS « EXERCICES & CORRIGÉS » (Pédiatrie xpedexo et toute appli du même modèle : QCM_DATA / QCD_DATA / QROC_DATA) =======================
+   1. la séance réglée dans l'appli (« Commencer la session ») s'ouvre dans le portail, en liste à faire défiler, avec les questions natives
+      du cours (même ordre : QCM, puis QCD, puis QROC ; texte vérifié — au moindre écart, l'appli garde son propre quiz) ;
+      chaque réponse tient aussi à jour la progression de l'appli (ses compteurs « Jamais traitées » / « Non maîtrisées »).
+   2. interface « Révision INFAS » : décor du portail (fond, bandeau, cartes, boutons) à la place du décor violet d'origine. */
+(function(){if(typeof appExtra!=='function'||typeof startFil!=='function')return;
+ const estExo=src=>/const QCM_DATA\s*=/.test(src)&&/const QCD_DATA\s*=/.test(src)&&/const QROC_DATA\s*=/.test(src)&&/function poolFor\(/.test(src)&&/function startSession\(/.test(src);
+ function exoPont(){var P=window.parent;function pose(){var o=window.startSession;if(typeof o!=='function'||o.__ri)return;
+   var f=function(){var r=o.apply(this,arguments);try{if(state&&(state.screen==='quiz'||state.screen==='flash')&&state.queue&&state.queue.length){
+     var n1=QCM_DATA.length,n2=n1+QCD_DATA.length;
+     var L=state.queue.map(function(it){var k=it._k||state.sessionKind,A=k==='qcm'?QCM_DATA:k==='qcd'?QCD_DATA:QROC_DATA,j=-1;for(var i=0;i<A.length;i++)if(A[i].id===it.id){j=i;break}
+      return{k:k,id:it.id,i:j<0?-1:(k==='qcm'?0:k==='qcd'?n1:n2)+j,t:it.stem||it.question_clean||''}});
+     var lab={qcm:'QCM',qcd:'QCD — Vrai / Faux',mixed:'QCM + QCD',qroc:'QROC'}[state.sessionKind]||'';
+     if(P&&P.riFilExo&&P.riFilExo(window,L,lab,typeof STORAGE_KEY==='string'?STORAGE_KEY:'')){state.screen='config';render()}}}catch(e){}return r};
+   f.__ri=1;window.startSession=f}
+  document.addEventListener('DOMContentLoaded',pose);setTimeout(pose,0);setInterval(pose,1500)}
+ const nrm=s=>String(s||'').replace(/\s+/g,' ').trim().slice(0,40);
+ window.riFilExo=function(win,L,lab,cle){const mid=VIEW==='appview'&&ctx&&ctx.id,m=mid&&MATI[mid];if(!m||!Array.isArray(L)||!L.length)return false;
+  const X=(typeof XD!=='undefined'&&XD[m.id])||null,ids=[],map={};
+  for(const x of L){if(!(x.i>=0))return false;const id=m.id+'.'+x.i,o=X&&X.q&&X.q[x.i]?X.q[x.i]:QI[id];if(!o||nrm(o.q)!==nrm(x.t))return false;if(QI[id]&&!map[id]){ids.push(id);map[id]={k:x.k,id:x.id}}}
+  if(!ids.length)return false;startFil(m.id,ids,(m.short||m.title)+(lab?' · '+lab:''),'app',null);if(FILS)FILS.exo={win,map,cle};return true};
+ /* progression de l'appli : par l'appli si son cadre est encore là, sinon directement dans sa clé (même calcul que son markResult) */
+ function exoRec(cle,x,ok){if(!cle)return;let P={};try{P=JSON.parse(localStorage.getItem(cle)||'{}')||{}}catch(e){}['qcm','qcd','qroc'].forEach(k=>{if(!P[k]||typeof P[k]!=='object')P[k]={}});const T=P[x.k]=P[x.k]||{},c=T[x.id]||{streak:0,seen:0,correct:0};
+  c.seen=(c.seen||0)+1;if(ok){c.streak=(c.streak||0)+1;c.correct=(c.correct||0)+1}else c.streak=0;c.status=c.streak>=2?'maitrise':(!ok?'difficile':'en_cours');T[x.id]=c;
+  try{localStorage.setItem(cle,JSON.stringify(P))}catch(e){}}
+ const _recExo=rec;rec=function(q,ok){const r=_recExo.apply(this,arguments);try{const A=FILS&&FILS.exo,x=A&&q&&A.map[q.id];if(x){const w=A.win,fe=w&&!w.closed&&w.frameElement;
+  if(fe&&document.contains(fe)&&typeof w.markResult==='function'){w.markResult(x.k,x.id,!!ok);try{if(w.state&&w.state.screen!=='quiz')w.render()}catch(e){}}else exoRec(A.cle,x,!!ok)}}catch(e){}return r};
+ function exoCss(){const t=palette(),cs=getComputedStyle(document.documentElement),v=n=>cs.getPropertyValue(n).trim();const card=v('--card')||'#fff',ink=v('--ink')||'#16231F',soft=v('--soft')||'#5E6E68',line=v('--line')||'#E1DDD2';
+  return `body{background:${t.bg}!important;background-image:none!important;color:${ink}!important}.signature-bar{display:none!important}
+  h1,h2,h3,.display,.config-title,.mode-card .body h3,.stat-card .num,.quiz-counter,.q-tag{font-family:"Outfit",system-ui,sans-serif!important}
+  .hero{background:linear-gradient(135deg,${t.h1},${t.h2})!important;border-radius:24px!important;box-shadow:0 10px 26px rgba(0,0,0,.16)!important;text-align:left!important;padding:22px 20px 80px!important}
+  .hero-blob{display:none!important}.hero h1{color:#fff!important;font-weight:900!important;letter-spacing:-.4px!important;text-align:left!important}.hero p{color:rgba(255,255,255,.9)!important;margin:0!important;text-align:left!important;max-width:none!important}
+  .hero .eyebrow{background:rgba(255,255,255,.16)!important;color:#fff!important;box-shadow:none!important}
+  .stat-card,.mode-card,.config-panel,.q-card,.search-bar,.search-result,.case-card,.flash-card,.results-card,.res-card{background:${card}!important;border:1px solid ${line}!important;border-radius:22px!important;box-shadow:0 6px 22px rgba(0,0,0,.06)!important}
+  .mode-card:hover{transform:none!important}.mode-card .body h3,.config-title,.q-stem{color:${ink}!important;font-weight:800!important}.mode-card .body p,.config-sub,.field-group>label,.stat-card .lbl{color:${soft}!important}.mode-card .chev{color:${soft}!important}
+  .mode-card .icon{background:${t.acc}!important;border-radius:16px!important;box-shadow:none!important}
+  .stat-card .num{color:${t.h2}!important}.mode-card .progress-mini>div,.progress-bar>div{background:${t.acc}!important}
+  .chip{border-color:${line}!important;color:${ink}!important;background:${card}!important}.chip.active{background:${t.h1}!important;border-color:${t.h1}!important;color:#fff!important;box-shadow:none!important}
+  .btn-primary{background:${t.h1}!important;color:#fff!important;box-shadow:none!important;border-radius:18px!important;font-weight:800!important}.btn-primary:hover{transform:none!important}
+  input:checked+.slider-tog{background:${t.h1}!important}
+  .back-link,.quiz-counter{color:${ink}!important}.back-link:hover{color:${t.h1}!important}`}
+ const _ax=appExtra;appExtra=function(m,src){const r=_ax.apply(this,arguments);try{if(m&&src&&estExo(src)){r.js+='<script>('+exoPont.toString()+')()<'+'/script>';if(appUiOf(m.id)==='ri')r.css+=exoCss()}}catch(e){}return r};
+})();
+
+/* ======================= RECUEILS DE SUJETS (Correction nationale) : organisés par MATIÈRE → ANTENNE → ANNÉE =======================
+   Ce cours n'est pas une matière : c'est un ensemble de sujets d'examen. Chaque sujet d'origine (« ANTENNE (session) · MATIÈRE ») reste
+   un sujet entier (pas de découpage en paquets de ~50) ; « FAIRE les quiz » les range comme l'appli : une carte par matière, une ligne par
+   antenne, une colonne par année (2024 = S1, 2025 = S2, 2026 = S3, ou l'année écrite dans le nom). Les sujets J de préparation au D.E
+   forment leur propre carte. Accès Premium, sujets offerts, reprise d'un sujet commencé : inchangés (mêmes sujets, startSujet). */
+const RECUEIL={xmvkq4zed:1};
+(function(){if(typeof VUE_DEF==='undefined'||typeof sujets!=='function')return;Object.keys(RECUEIL).forEach(id=>{if(VUE_DEF[id]==null)VUE_DEF[id]='sujets'});
+ const estRec=m=>!!(m&&(RECUEIL[m.id]||m.recueil)&&vueSuj(m));
+ const MATN={'CHIRURGIE':'Chirurgie','PÉDIATRIE':'Pédiatrie','MÉDECINE':'Médecine','SANTÉ PUBLIQUE':'Santé publique','GYNÉCO-OBSTÉTRIQUE':'Gynéco-obstétrique','SSR / PF':'SSR / PF'};
+ const ORD=['Médecine','Chirurgie','Pédiatrie','Santé publique','Gynéco-obstétrique','SSR / PF'];
+ const joli=s=>{s=String(s||'').trim();const u=s.toUpperCase();if(MATN[u])return MATN[u];return s===u?s.charAt(0)+s.slice(1).toLowerCase():s};
+ const libJ=r=>{if(r!==r.toUpperCase())return r;let x=r.toLowerCase();x=x.charAt(0).toUpperCase()+x.slice(1);return x.replace(/\bd\.e\b/g,'D.E').replace(/\b(gynéco|pédiatrie|médecine|chirurgie)\b/g,m=>m.charAt(0).toUpperCase()+m.slice(1))};
+ const ville=a=>{const c=String(a).replace(/\s*\([^)]*\)\s*/g,' ').trim();return c.split(/([\s-])/).map(w=>w.length>1?w.charAt(0)+w.slice(1).toLowerCase():w).join('')};
+ const annee=a=>{a=String(a);let x=a.match(/\bS\d+\s*:\s*(20\d\d)\b/);if(x)return +x[1];x=a.match(/\b(20\d\d)\b/);if(x)return +x[1];x=a.match(/session\s*(\d+)/i)||a.match(/\bS(\d+)\b/);return 2023+(x?+x[1]:1)};
+ /* un sujet → {j (préparation D.E), mat, ville, an} d'après son titre (chName : renommages de l'éditeur compris) */
+ function lire(mid,c){const t=String(chName(mid,c)||''),p=t.split(' · ');if(/^J\b|PRÉPARATION AU D\.?E/i.test(p[0])){const sm=p[1]||'',jm=joli(sm.replace(/^J\d*\s+/i,'')),r=p.slice(2).join(' · ');return{j:1,t:p.slice(1).join(' · ')||t,sm,jm,lib:r?libJ(r):(p.slice(1).join(' · ')||t)}}
+  if(p.length<2)return{autre:1,t};return{mat:joli(p.slice(1).join(' · ')),ville:ville(p[0]),an:annee(p[0])}}
+ const _titre=sujTitre;sujTitre=function(mid,k){const m=MATI[mid];if(!estRec(m))return _titre.apply(this,arguments);const L=sujets(mid)[k];if(!L||L.c==null)return _titre.apply(this,arguments);
+  const x=lire(mid,L.c);return x.mat?x.mat+' · '+x.ville+' · '+x.an:x.j?'J · '+x.jm+' · '+x.lib:x.t||_titre.apply(this,arguments)};
+ const stat=ids=>{let seen=0,ok=0;ids.forEach(id=>{const s=S.qs[id];if(s){seen++;if(s.l)ok++}});return{seen,ok}};
+ function arbreHTML(m){const L=sujets(m.id);if(!L.length)return `<div class="empty">${T('toast.noq','Aucune question ici')}</div>`;const jm=jsq(m.id);
+  const M={},J=[],A=[];L.forEach((ids,k)=>{if(ids.c==null){A.push(k);return}const x=lire(m.id,ids.c);if(x.j){J.push([k,x]);return}if(x.autre){A.push(k);return}
+   const G=M[x.mat]=M[x.mat]||{v:[],by:{},ans:new Set(),n:0,q:0};if(!G.by[x.ville]){G.by[x.ville]={};G.v.push(x.ville)}(G.by[x.ville][x.an]=G.by[x.ville][x.an]||[]).push(k);G.ans.add(x.an);G.n++;G.q+=ids.length});
+  const done=k=>(S.done||[]).some(x=>x.mid===m.id&&x.k===k);
+  const puce=k=>{const ids=L[k],s=stat(ids);return `<div class="suj sf rc-y ${done(k)?'done':''}" onclick="startSujet('${jm}',${k})"><div class="tx"><b></b><small>${s.seen?s.seen+'/':''}${ids.length} q${s.ok?' · ✅'+s.ok:''}</small><div class="bar"><i style="width:${Math.round(s.seen/ids.length*100)}%"></i></div></div></div>`};
+  const mats=Object.keys(M).sort((a,b)=>{const i=ORD.indexOf(a),j=ORD.indexOf(b);return(i<0?99:i)-(j<0?99:j)});
+  let h=mats.map((nm,mi)=>{const G=M[nm],Y=[...G.ans].sort((a,b)=>a-b),col=`minmax(0,1.05fr) repeat(${Y.length},minmax(0,1fr))`;
+   return `<details class="card sf rc-mat" ${mi===0?'open':''}><summary><b>${esc(nm)}</b><small class="muted"> · ${G.n} ${esc(Tx('hsuj.n','sujets'))} · ${G.q} q</small></summary>`+
+    G.v.map(v=>`<div class="rc-row" style="grid-template-columns:${col}"><span class="rc-v">${esc(v)}</span>${Y.map(y=>`<span class="rc-c">${(G.by[v][y]||[]).map(k=>puce(k).replace('<b></b>',`<b>${y}</b>`)).join('')}</span>`).join('')}</div>`).join('')+`</details>`}).join('');
+  if(J.length){const sm=[];J.forEach(([k,x])=>{if(!sm.includes(x.jm))sm.push(x.jm)});sm.sort((a,b)=>{const i=ORD.indexOf(a),j=ORD.indexOf(b);return(i<0?99:i)-(j<0?99:j)});
+   h+=`<details class="card sf rc-mat"><summary><b>${esc(Tx('rc.j','🎓 Préparation au D.E (J)'))}</b><small class="muted"> · ${J.length} ${esc(Tx('hsuj.n','sujets'))}</small></summary>`+
+    sm.map(s=>`<div class="rc-sub">${esc('J · '+s)}</div>`+J.filter(([k,x])=>x.jm===s).map(([k,x])=>{const ids=L[k],st=stat(ids);
+     return `<div class="suj sf ${done(k)?'done':''}" onclick="startSujet('${jm}',${k})"><div class="tx"><b>${esc(x.lib)}</b><small>${T('hsuj.s','{n} questions · {seen} faites · ✅ {ok}',{n:ids.length,seen:st.seen,ok:st.ok})}</small></div></div>`}).join('')).join('')+`</details>`}
+  if(A.length)h+=A.map(k=>{const ids=L[k],st=stat(ids);return `<div class="suj sf ${done(k)?'done':''}" onclick="startSujet('${jm}',${k})"><div class="tx"><b>${esc(sujTitre(m.id,k))}</b><small>${T('hsuj.s','{n} questions · {seen} faites · ✅ {ok}',{n:ids.length,seen:st.seen,ok:st.ok})}</small></div></div>`}).join('');
+  return h}
+ window.recueilHTML=arbreHTML;
+ /* page du cours : un recueil de sujets n'a ni résumés, ni flashcards, ni appli à ouvrir → seulement ses sujets ;
+    en mode édition, les boutons d'origine restent accessibles dans un volet replié (masqués aux élèves) */
+ const BA=BLK['matiere.actions'];if(BA){const _a=BA.html;BA.html=function(){const m=ctx&&ctx.id&&matOf(ctx.id);if(!estRec(m))return _a.apply(this,arguments);
+  const t=`<div class="secT">${T('msuj.h','📝 Sujets')}<span class="ln"></span></div><div class="muted small" style="margin-bottom:10px">${T('rc.help','Choisis la matière, puis l’antenne et l’année : le sujet s’affiche en entier, avec la correction dès que tu réponds.')}</div>`+arbreHTML(m);
+  if(!EDITMODE)return t;if(!garderOrig(m))return _a.apply(this,arguments);return t+`<details class="card sf" style="margin-top:12px"><summary style="cursor:pointer"><b>✏️ ${esc(Tx('rc.ed','Mode édition : boutons du cours (masqués aux élèves)'))}</b></summary><div style="margin-top:8px">${_a.apply(this,arguments)}</div></details>`}}
+ const _sl=sujListeHTML;sujListeHTML=function(m){return estRec(m)?arbreHTML(m):_sl.apply(this,arguments)};
+ const B0=BLK['sujets.list'];if(B0){const _h=B0.html;B0.html=function(){const m=ctx&&ctx.id&&matOf(ctx.id);if(!estRec(m))return _h.apply(this,arguments);
+  return `<div class="muted small" style="margin-bottom:10px">${T('rc.help','Choisis la matière, puis l’antenne et l’année : le sujet s’affiche en entier, avec la correction dès que tu réponds.')}</div>`+arbreHTML(m)}}
+ const st=document.createElement('style');st.textContent=`.rc-mat{padding:12px 12px 10px!important}.rc-mat>summary{cursor:pointer;font-size:16px;padding:2px 2px 6px;list-style-position:inside}
+ .rc-row{display:grid;gap:6px;align-items:center;margin:5px 0}.rc-head span{font-size:12px;font-weight:800;color:var(--soft,#5E6E68);text-align:center}.rc-v{font-weight:800;font-size:13px;min-width:0;overflow-wrap:anywhere;hyphens:auto;line-height:1.15}
+ .rc-c{min-width:0;display:flex;flex-direction:column;gap:4px}.rc-y{margin:0!important;padding:7px 6px!important;min-height:0!important;text-align:center;display:block!important;border-radius:14px!important}
+ .rc-y .tx{display:block}.rc-y .tx b{display:block;font-size:13.5px}.rc-y .tx small{display:block;font-size:10.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rc-y .bar{margin-top:4px}
+ .rc-y .ri-b,.rc-y .rib{display:block;margin:3px auto 0;font-size:9.5px}.rc-sub{font-weight:900;font-size:12.5px;text-transform:uppercase;letter-spacing:.4px;opacity:.8;margin:12px 4px 4px}`;
+ document.head.appendChild(st)})();
+
+/* ======================= DOCUMENTS DE RÉVISION AJOUTÉS À UN COURS (tools/revisions.py → XD['revisions-<cours>']) =======================
+   Les questions s'ajoutent APRÈS celles du cours (identifiants <cours>.<n> stables), un chapitre par sujet de révision.
+   Les sujets d'origine du cours sont calculés comme avant sur les seules questions d'origine (inchangés) ; chaque sujet de
+   révision (~50 questions) vient ensuite, avec son titre (« Révision de gynécologie sujet 1 »…).
+   Rubrique de l'accueil : « DOCUMENT DE REVISION INFAS », et « DOCUMENT DE REVISION <MATIÈRE> » pour chaque cours. */
+function revTitre(m){if(!m)return'';if(m.revTitre)return m.revTitre;const b=String(m.title||m.short||'').split(/\s+[—–]\s+/)[0].trim();
+ return 'DOCUMENT DE REVISION '+b.normalize('NFD').replace(/[̀-ͯ]/g,'').toUpperCase()}
+const DOCREV={};
+(function(){if(typeof applyContent!=='function'||typeof DATA0==='undefined')return;
+ function injecter(){Object.keys(XD).forEach(k=>{if(!k.startsWith('revisions-'))return;const mid=k.slice(10),R=XD[k];if(DOCREV[mid]||!R||!Array.isArray(R.sujets))return;
+   const m=(DATA0.mat||[]).find(x=>x.id===mid);if(!m||!DATA0.q||!Array.isArray(DATA0.q[mid])||!Array.isArray(m.ch))return;
+   const n0q=DATA0.q[mid].length,n0ch=m.ch.length,tit=R.sujets.map(x=>x.t);
+   DATA0.q[mid]=DATA0.q[mid].concat(...R.sujets.map((x,j)=>x.q.map(q=>Object.assign({},q,{c:n0ch+j}))));m.ch=m.ch.concat(tit);
+   DOCREV[mid]={n0q,n0ch,tit}})}
+ const _ac=applyContent;applyContent=function(){try{injecter()}catch(e){}const r=_ac.apply(this,arguments);
+  /* titres des chapitres ajoutés gardés même si l'éditeur a renommé les chapitres d'origine */
+  try{Object.keys(DOCREV).forEach(mid=>{const m=MATI[mid],R=DOCREV[mid];if(m&&Array.isArray(m.ch)&&m.ch.length<R.n0ch+R.tit.length)m.ch=m.ch.slice(0,R.n0ch).concat(R.tit)})}catch(e){}return r};
+ const _sj=sujets;sujets=function(mid){const R=DOCREV[mid],m=MATI[mid];if(!R||vueSuj(m))return _sj.apply(this,arguments);
+  const Q=QBM[mid]||[],plus=Q.filter(q=>q.c>=R.n0ch);let L;QBM[mid]=Q.filter(q=>q.c<R.n0ch);try{L=_sj.apply(this,arguments)}finally{QBM[mid]=Q}
+  R.tit.forEach((t,j)=>{const ids=plus.filter(q=>q.c===R.n0ch+j).map(q=>q.id);if(ids.length){ids.c=R.n0ch+j;ids.rev=1;L.push(ids)}});return L};
+ const _ti=sujTitre;sujTitre=function(mid,k){const R=DOCREV[mid];if(R){const L=sujets(mid)[k];if(L&&L.rev)return chName(mid,L.c)}return _ti.apply(this,arguments)};
+ /* « Faire les quiz » : titre du sujet de révision à la place de « Sujet 19 » */
+ const B0=BLK['sujets.list'];if(B0){const _h=B0.html;B0.html=function(){let h=_h.apply(this,arguments);const mid=ctx&&ctx.id;if(!mid||!DOCREV[mid]||(S.sujMode||'suj')!=='suj')return h;
+  sujets(mid).forEach((L,k)=>{if(L.rev)h=h.replace(new RegExp('Sujet '+(k+1)+' · '),esc(sujTitre(mid,k))+' · ')});return h}}
+})();
+
+/* ======================= RUBRIQUE « RÉSUMÉS POUR LE D.E » (accueil) =======================
+   Contenus ajoutés (ajouts/<id>.json) avec rubrique:'resumes-de' : résumés natifs (fiches par chapitre) ouverts directement
+   (ouvrir:'resumes'). Accès : règle du tableau de bord sur le cours, sinon champ « acces » de la fiche (ex. 'premium'). */
+function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+id+'/resumes';
+ if(typeof RIC!=='undefined'&&RIC.hidden&&RIC.hidden('matiere:'+id)){toast(Tx('aj.off','Ce contenu n’est pas disponible.'));return}
+ if(typeof RIC!=='undefined'&&RIC.can&&!RIC.can(key)){if(RIC.paywall)RIC.paywall(key,m.title+' · Premium');return}
+ S.lastMat=id;save();go('resumes',{id})}
+(function(){if(typeof ajouts!=='function'||typeof B!=='function')return;
+ const liste=()=>{const mine=new Set(myMats().map(m=>m.id));return ajouts().filter(a=>a.rubrique==='resumes-de'&&MATI[a.mat.id]&&mine.has(a.mat.id)&&!(typeof RIC!=='undefined'&&RIC.hidden&&RIC.hidden('matiere:'+a.mat.id)))};
+ B('home.resumes','Résumés pour le D.E (accueil)',()=>{const L=liste();if(!L.length)return'';
+  return `<div class="secT">${T('hres.h','📋 RÉSUMÉS POUR LE D.E')}<span class="ln"></span></div>`+L.map(a=>{const m=MATI[a.mat.id],n=(m.ch||[]).length,
+   lock=typeof RIC!=='undefined'&&RIC.can&&!RIC.can('matiere:'+m.id+'/resumes');
+   return `<div class="card sf li hres" onclick="riOuvrirResume('${jsq(m.id)}')" style="cursor:pointer;display:flex;align-items:center;gap:12px"><span class="em" style="font-size:26px">${esc(m.emo||'📋')}</span><span class="tx" style="flex:1;min-width:0"><b>${esc(m.title)}</b>${lock?' <span class="ri-b p">🔒 Premium</span>':''}<small style="display:block">${esc(m.sub||Tx('hres.n','{n} fiches',{n}))}</small></span><span class="go">›</span></div>`}).join('')});
+ const placer=L=>{if(L.includes('home.resumes'))return L;const i=L.indexOf('home.sujets'),j=L.indexOf('home.mat');L.splice(i>=0?i+1:(j<0?L.length:j),0,'home.resumes');return L};
+ placer(SCREENS.home.blocks);
+ const _lo=layoutOf;layoutOf=function(sc){const L=_lo(sc);if(sc!=='home'||!Array.isArray(L)||L.some(b=>b.id==='home.resumes'))return L;const C=L.slice(),i=C.findIndex(b=>b.id==='home.sujets'),j=C.findIndex(b=>b.id==='home.mat');
+  C.splice(i>=0?i+1:(j<0?C.length:j),0,{id:'home.resumes',inst:'home.resumes'});return C};
+ const _om=openMat;openMat=function(id){const a=typeof ajOf==='function'&&ajOf(id);if(a&&a.ouvrir==='resumes'){riOuvrirResume(id);return}return _om.apply(this,arguments)};
+})();
+
+/* ======================= COMPOSITIONS PAR LIEN (…/?compo=CODE) =======================
+   Le tableau de bord crée une compo (un sujet + un mode + chrono / date limite) dans Supabase (supabase/compos).
+   L'élève ouvre le lien : l'appli ouvre directement le sujet (même à la première visite, sans passer par l'accueil),
+   il tape son nom (sans compte) et compose ; à la fin sa note part dans le tableau de bord (un envoi par appareil).
+   Modes : « gratuit » (tout ouvert, explications comprises), « reponses » (réponses ouvertes, explications Premium),
+   « normal » (règles Gratuit / Premium habituelles). La gratuité ne vaut que pour le sujet du lien.
+   Chrono écoulé → copie remise ; après la date limite (ou compo close) → « Composition terminée ». */
+(function(){
+ if(typeof RIC==='undefined'||typeof startFil!=='function')return;
+ const LS=RIC.LS,PK='ri_compo_lien',QK='ri_compo_envois',NK='ri_compo_nom';
+ let C=null;                       // compo en cours : {code,titre,mid,k,mode,chrono_min,date_limite,nom,ids,t0,etat}
+ const enFil=()=>!!(C&&C.lance&&FILS&&FILS.mode==='compo'&&FILS.compo===C.code);
+ window.riCompo=()=>C;
+ async function rpc(fn,args){const r=await fetch(RIC.url+'/rest/v1/rpc/'+fn,{method:'POST',headers:{apikey:RIC.key,'Content-Type':'application/json'},body:JSON.stringify(args)});
+  if(!r.ok)throw new Error(r.status+' '+(await r.text()).slice(0,160));return r.json()}
+ const fmtDate=d=>{try{return new Date(d).toLocaleString('fr-FR',{weekday:'long',day:'numeric',month:'long',hour:'2-digit',minute:'2-digit'})}catch(e){return String(d)}};
+
+ /* ---------- accès : la gratuité ne vaut que pour le sujet du lien, pendant la compo ---------- */
+ const _can=RIC.can;RIC.can=function(key){if(C&&C.lance&&C.mode!=='normal'){
+   if(key==='fonction:explications'&&enFil())return C.mode==='gratuit'||RIC.off()||RIC.isPremium();
+   if(key==='matiere:'+C.mid+'/sujet:'+(C.k+1))return true}return _can.apply(this,arguments)};
+ const _qOk=RIC.qOk;RIC.qOk=function(qid){if(C&&C.lance&&C.mode!=='normal'&&C.ids&&C.ids.includes(qid))return true;return _qOk.apply(this,arguments)};
+
+ /* ---------- fenêtre (chargement, présentation, messages) ---------- */
+ function boite(html){let o=$('#ricompo');if(!o){o=document.createElement('div');o.id='ricompo';o.className='pmod';document.body.appendChild(o)}
+  o.innerHTML=`<div class="pbox" style="max-width:440px">${html}</div>`;return o}
+ function fermer(){const o=$('#ricompo');if(o)o.remove()}
+ /* fenêtre « Nouveautés » de l'appli : mise de côté pendant la compo, montrée ensuite (« Voir d'autres sujets ») */
+ let NOTE=null;function cacherNote(){const n=document.getElementById('relNote');if(n&&C){NOTE=n;n.remove()}}
+ const autresBtn=(cls)=>`<button class="btn ${cls||'light'}" data-cp="autres" style="width:100%;margin-top:8px">${T('cp.autres','📚 Voir d’autres sujets')}</button>`;
+ function lier(o){$$('[data-cp="autres"]',o).forEach(b=>b.onclick=voirAutres)}
+ function message(titre,texte,reessayer){const o=boite(`<h3>${titre}</h3><div class="muted" style="margin:6px 0 10px">${texte}</div>${reessayer?`<button class="btn coral" data-cp="re" style="width:100%">${T('cp.re','🔄 Réessayer')}</button>`:''}${autresBtn(reessayer?'light':'coral')}`);
+  lier(o);const r=$('[data-cp="re"]',o);if(r)r.onclick=()=>ouvrir(reessayer)}
+
+ /* ---------- « Voir d'autres sujets » : fin de la compo, accueil de l'appli (ou premier accueil si première visite) ---------- */
+ function voirAutres(){const nom=C&&C.nom;C=null;fermer();if(NOTE){document.body.appendChild(NOTE);NOTE=null}clearInterval(FILT);FILS=null;
+  LS.set(PK,'');if(!S.onb&&nom&&!S.name)S.name=nom;tab('home');window.scrollTo(0,0)}
+ window.riCompoAutres=voirAutres;
+
+ /* ---------- ouvrir un lien ---------- */
+ async function ouvrir(code){C=C||{code};[0,800,1600,3000,5000].forEach(t=>setTimeout(cacherNote,t));boite(`<h3>${T('cp.load','⏳ Ouverture de la composition…')}</h3>`);let d;
+  try{d=await rpc('compo_lire',{p_code:code,p_appareil:RIC.device()})}
+  catch(e){message(T('cp.err.h','📶 Composition indisponible'),T('cp.err','Impossible d’ouvrir la composition. Vérifie ta connexion Internet puis réessaie.'),code);return}
+  if(!d||!d.ok){LS.set(PK,'');
+   if(d&&d.raison==='terminee')message(T('cp.fin.h','⏰ Composition terminée'),(d.titre?'<b>'+esc(d.titre)+'</b><br>':'')+T('cp.fin','Cette composition est close : il n’est plus possible de composer.'));
+   else message(T('cp.inv.h','🔗 Lien invalide'),T('cp.inv','Cette composition n’existe pas. Vérifie le lien reçu.'));return}
+  if(d.deja){LS.set(PK,'');message(T('cp.deja.h','✅ Copie déjà remise'),(d.titre?'<b>'+esc(d.titre)+'</b><br>':'')+T('cp.deja','Tu as déjà remis ta copie pour cette composition sur ce téléphone.'));return}
+  const m=MATI[d.mid];if(!m){message(T('cp.nos.h','📝 Sujet introuvable'),T('cp.nos','Le sujet de cette composition n’est plus dans l’appli. Préviens ton enseignant.'));return}
+  try{const p=typeof plusPret==='function'&&plusPret(d.mid);if(p)await p}catch(e){}
+  const L=sujets(d.mid);let k=-1;
+  if(d.sujet_titre){if(L[d.k]&&sujTitre(d.mid,d.k)===d.sujet_titre)k=d.k;else k=L.findIndex((x,i)=>sujTitre(d.mid,i)===d.sujet_titre)}else if(L[d.k])k=d.k;
+  if(k<0){message(T('cp.nos.h','📝 Sujet introuvable'),T('cp.nos','Le sujet de cette composition n’est plus dans l’appli. Préviens ton enseignant.'));return}
+  const ids=L[k].filter(id=>QI[id]&&!(typeof isNC==='function'&&isNC(QI[id])));
+  const dec=Date.parse(d.maintenant)?Date.parse(d.maintenant)-Date.now():0;
+  C={code:d.code,titre:d.titre||'',mid:d.mid,k,mode:d.mode||'gratuit',chrono_min:d.chrono_min||0,fin:d.date_limite?Date.parse(d.date_limite)-dec:0,ids,sujet:sujTitre(d.mid,k)};
+  presenter()}
+ function presenter(){const m=MATI[C.mid],nom=String(LS.get(NK,'')||S.name||'').trim();
+  const mode=C.mode==='gratuit'?T('cp.m.g','🎁 Composition gratuite : réponses et explications ouvertes'):C.mode==='reponses'?T('cp.m.r','🎁 Réponses gratuites · explications réservées aux élèves Premium'):'';
+  const o=boite(`<div class="muted small" style="font-weight:700;letter-spacing:.04em">${T('cp.lbl','📝 COMPOSITION')}</div><h3 style="margin-top:4px">${esc(C.titre||C.sujet)}</h3>
+   <div class="muted small">${esc(m.emo+' '+(m.short||m.title))}${C.titre?' · '+esc(C.sujet):''}</div>
+   <div class="small" style="margin:10px 0;line-height:1.6">📋 ${T('cp.nq','{n} questions',{n:C.ids.length})}${C.chrono_min?'<br>⏱ '+T('cp.chr','{n} minutes : la copie est remise automatiquement à la fin du temps',{n:C.chrono_min}):''}${C.fin?'<br>📅 '+T('cp.dl','DATE LIMITE de la composition : {d}',{d:esc(fmtDate(C.fin))}):''}${mode?'<br>'+mode:''}</div>
+   <label class="small" style="font-weight:700" for="cpNom">${T('cp.nom','Ton nom et prénom')}</label>
+   <input class="tin" id="cpNom" maxlength="80" autocomplete="name" value="${esc(nom)}" placeholder="${esc(Tx('cp.nom.ph','Ex. Koné Awa'))}" style="width:100%;margin:6px 0 4px">
+   <div class="muted small" style="margin-bottom:10px">${T('cp.info','Ta note sera envoyée à ton enseignant avec ce nom. Une seule copie par téléphone.')}</div>
+   <button class="btn coral" data-cp="go" style="width:100%">${T('cp.go','▶ Commencer la composition')}</button>${autresBtn()}`);
+  lier(o);const inp=$('#cpNom',o);$('[data-cp="go"]',o).onclick=()=>{const v=String(inp.value||'').replace(/\s+/g,' ').trim();if(v.length<2){toast(Tx('cp.nom.vide','Écris ton nom pour commencer'));inp.focus();return}lancer(v)}}
+ function lancer(nom){C.nom=nom;LS.set(NK,nom);LS.set(PK,'');if(C.fin&&C.fin<Date.now()){message(T('cp.fin.h','⏰ Composition terminée'),T('cp.fin','Cette composition est close : il n’est plus possible de composer.'));C=null;return}
+  fermer();C.lance=true;C.t0=Date.now();
+  startFil(C.mid,C.ids.slice(),(C.titre?C.titre+' · ':'')+C.sujet,'compo',C.k,{min:C.chrono_min||0});
+  if(!FILS||FILS.mode!=='compo'){C=null;return}          /* mode « normal » sans accès : l'offre Premium s'est affichée */
+  FILS.compo=C.code;if(C.fin&&(!FILS.end||C.fin<FILS.end))FILS.end=C.fin;
+  if(!FILS.min&&FILS.end)FILS.min=Math.max(1,Math.round((FILS.end-Date.now())/60000));
+  filChrono();render();window.scrollTo(0,0)}
+
+ /* ---------- première visite : le sujet s'ouvre sans passer par l'écran d'accueil ---------- */
+ const _render=render;render=function(){if(C&&C.lance&&VIEW==='fil'&&FILS&&FILS.mode==='compo'&&!S.onb&&SCREENS.fil){const o=SCREENS.fil.onb;SCREENS.fil.onb=1;try{return _render.apply(this,arguments)}finally{SCREENS.fil.onb=o}}return _render.apply(this,arguments)};
+
+ /* ---------- fin : note envoyée, « Voir d'autres sujets » ---------- */
+ function nb(){const ids=FILS.ids.filter(id=>QI[id]&&!(typeof isNC==='function'&&isNC(QI[id])));return{n:ids.length,ok:ids.filter(id=>FILS.ans[id]&&FILS.ans[id].ok&&!FILS.ans[id].pending).length}}
+ function file(){return LS.get(QK,[])}
+ let occupe=0,encore=0;
+ async function vider(){if(occupe){encore=1;return}if(!file().length)return;occupe=1;try{do{encore=0;const L=file(),faits=new Set();
+   for(const x of L){const moi=C&&C.envoi&&C.envoi.p_code===x.p_code;
+    try{const r=await rpc('compo_envoyer',x);faits.add(x.p_code+'|'+x.p_appareil);if(moi)C.etat=r&&r.ok?(r.deja?'deja':'ok'):(r&&r.raison==='terminee'?'terminee':'refus')}
+    catch(e){if(moi)C.etat='err'}}
+   if(faits.size)LS.set(QK,file().filter(x=>!faits.has(x.p_code+'|'+x.p_appareil)))}while(encore&&file().length)}finally{occupe=0}maj()}
+ function envoyer(){const s=nb();const x={p_code:C.code,p_appareil:RIC.device(),p_nom:C.nom,p_bonnes:s.ok,p_total:Math.max(1,s.n),p_duree_s:Math.round((Date.now()-C.t0)/1000)};
+  C.envoi=x;C.etat='envoi';C.note=Math.round(s.ok/Math.max(1,s.n)*200)/10;LS.set(QK,file().filter(y=>y.p_code!==x.p_code).concat([x]));vider()}
+ function maj(){const b=document.getElementById('filBilan');if(b&&enFil())b.innerHTML=filBilanHTML()}
+ window.riCompoRenvoyer=()=>{if(C)C.etat='envoi';maj();vider()};
+ window.riCompoRemettre=()=>{if(!enFil()||FILS.fin)return;const o=$('#riremise');if(o)o.remove();FILS.expire=true;clearInterval(FILT);render()};
+ const _fin=filFin;filFin=function(){const avant=FILS&&FILS.fin;const r=_fin.apply(this,arguments);if(enFil()&&FILS.fin&&!avant&&!C.envoi)envoyer();return r};
+ const _bil=filBilanHTML;filBilanHTML=function(){if(!enFil())return _bil.apply(this,arguments);const h=_bil.apply(this,arguments);
+  if(!FILS.fin)return h+`<div class="center" style="margin-top:10px"><button class="btn light" onclick="riCompoDemanderRemise()">${T('cp.remettre','📤 Remettre ma copie maintenant')}</button></div>`;
+  const s=nb(),sc=Math.round(s.ok/Math.max(1,s.n)*200)/10,e=C.etat;
+  const st=e==='ok'||e==='deja'?`<div class="fb good" style="margin-top:10px"><div class="h">${T('cp.ok','✅ Copie remise : ta note a été envoyée à ton enseignant')}</div></div>`
+   :e==='err'?`<div class="fb bad" style="margin-top:10px"><div class="h">${T('cp.ko','📶 Pas de connexion : ta note sera envoyée dès le retour du réseau')}</div><button class="btn light" style="margin-top:8px" onclick="riCompoRenvoyer()">${T('cp.re','🔄 Réessayer')}</button></div>`
+   :e==='terminee'?`<div class="fb bad" style="margin-top:10px"><div class="h">${T('cp.tard','⏰ Copie remise après la clôture : elle n’a pas été enregistrée')}</div></div>`
+   :e==='refus'?`<div class="fb bad" style="margin-top:10px"><div class="h">${T('cp.refus','⚠️ La copie n’a pas pu être enregistrée')}</div></div>`
+   :`<div class="muted small" style="margin-top:10px">${T('cp.envoi','⏳ Envoi de ta note…')}</div>`;
+  return `<div class="card sf center"><h3>${T('cp.fini','🏁 Composition terminée')}</h3><div class="muted small">${esc(C.nom)}</div><div style="font-size:28px;font-weight:800">${sc}/20</div><div class="muted">${T('fil.score','{ok} bonne(s) réponse(s) sur {n}',{ok:s.ok,n:s.n})}</div>${st}
+   <button class="btn coral" style="margin-top:12px;width:100%" onclick="riCompoAutres()">${T('cp.autres','📚 Voir d’autres sujets')}</button></div>`};
+ window.riCompoDemanderRemise=function(){let o=$('#riremise');if(o)o.remove();o=document.createElement('div');o.id='riremise';o.className='pmod';const s=FILS?nb():{n:0};
+  const r=FILS?Object.keys(FILS.ans).filter(id=>!FILS.ans[id].pending).length:0;
+  o.innerHTML=`<div class="pbox"><h3>${T('cp.rq.h','📤 Remettre ta copie ?')}</h3><div class="muted small">${T('cp.rq','Tu as répondu à {r} question(s) sur {n}. Après la remise, tu ne pourras plus répondre.',{r,n:s.n})}</div>
+   <button class="btn coral" data-rm="ok" style="width:100%;margin-top:12px">${T('cp.rq.ok','📤 Remettre ma copie')}</button><button class="btn light" data-rm="x" style="width:100%;margin-top:8px">${T('cp.rq.x','✍️ Continuer à composer')}</button></div>`;
+  document.body.appendChild(o);$('[data-rm="ok"]',o).onclick=()=>riCompoRemettre();$('[data-rm="x"]',o).onclick=()=>o.remove();o.onclick=e=>{if(e.target===o)o.remove()}};
+ /* « ✕ Quitter » pendant la compo : proposer de remettre la copie ; après la remise : « Voir d'autres sujets » */
+ const _quit=quitFil;quitFil=function(){if(enFil()){if(FILS.fin){voirAutres();return}riCompoDemanderRemise();return}return _quit.apply(this,arguments)};
+ const _rec=filRecommencer;filRecommencer=function(){if(enFil())return;return _rec.apply(this,arguments)};
+
+ /* ---------- au démarrage : lien ?compo=CODE (gardé si la page se recharge avant de commencer) ---------- */
+ let code='';try{code=String(new URLSearchParams(location.search).get('compo')||'').trim().toUpperCase()}catch(e){}
+ if(code&&/^[A-Z0-9]{4,12}$/.test(code)){LS.set(PK,code);try{const u=new URLSearchParams(location.search);u.delete('compo');history.replaceState(null,'',location.pathname+(u.toString()?'?'+u:'')+location.hash)}catch(e){}}
+ else code=String(LS.get(PK,'')||'');
+ (function w(){if(!window.PORTAIL_READY){setTimeout(w,60);return}
+  if((typeof EDITMODE!=='undefined'&&EDITMODE)||window.PORTAIL_EDITOR)return;   /* Studio : pas de compo */
+  setTimeout(vider,1500);addEventListener('online',vider);
+  if(code&&/^[A-Z0-9]{4,12}$/.test(code))ouvrir(code)})();
 })();
 
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();

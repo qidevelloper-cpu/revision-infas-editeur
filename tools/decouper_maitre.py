@@ -77,6 +77,8 @@ def chemin_bloc(bid, tag):
         return 'styles/%s.css' % bid
     if bid in ('app-data', 'app-edits'):
         return 'data/%s.json' % bid
+    if bid.startswith('app-xdata-revisions-'):     # documents de révision ajoutés à un cours (tools/revisions.py)
+        return 'revisions/%s.json' % bid[len('app-xdata-revisions-'):]
     if bid.startswith('app-xdata-plus-'):          # contenus rapatriés des applis d'origine (tools/contenus_plus.py)
         return 'plus/%s.json' % bid[len('app-xdata-plus-'):]
     if bid.startswith('app-xdata-'):

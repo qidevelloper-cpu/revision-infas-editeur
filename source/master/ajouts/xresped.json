@@ -1,0 +1,56 @@
+{
+ "version": 1,
+ "ajoute": "2026-11-08",
+ "mat": {
+  "id": "xresped",
+  "title": "Résumé de Pédiatrie pour le D.E",
+  "short": "Résumé Pédiatrie D.E",
+  "emo": "📋",
+  "col": "#C2410C",
+  "sub": "17 fiches : nouveau-né, allaitement, croissance, diarrhée, fièvre, paludisme, anémie, malnutrition, IRA, convulsions",
+  "de": "non",
+  "fil": [
+   "IDE",
+   "SF"
+  ],
+  "niv": "L1",
+  "nivs": [
+   "L1",
+   "L2",
+   "L3"
+  ],
+  "ch": [
+   "Nouveau-né normal",
+   "Nouveau-né prématuré",
+   "Nouveau-né hypotrophe",
+   "Réanimation du nouveau-né en salle de naissance",
+   "Déroulement de la grossesse",
+   "Détresse respiratoire du nouveau-né",
+   "Infection bactérienne du nouveau-né",
+   "Maladie hémorragique du nouveau-né",
+   "Allaitement maternel",
+   "Croissance de l’enfant",
+   "Diarrhée aiguë et déshydratation",
+   "Fièvre de l’enfant",
+   "Paludisme de l’enfant",
+   "Anémie de l’enfant",
+   "Malnutrition de l’enfant",
+   "Infections respiratoires aiguës (IRA)",
+   "Convulsions de l’enfant"
+  ]
+ },
+ "groupes": [
+  {
+   "g": "ped",
+   "apres": "xpedexo"
+  }
+ ],
+ "rubrique": "resumes-de",
+ "ouvrir": "resumes",
+ "acces": "premium",
+ "resume": "17 fiches de résumé",
+ "origine": {
+  "fichier": "RESUME_PEDIATRIE_POUR_LE_DE.pdf",
+  "sha256": "731a5bccc165546df693b4f2e3146c91077e30fa91859265c4722871700315d7"
+ }
+}
