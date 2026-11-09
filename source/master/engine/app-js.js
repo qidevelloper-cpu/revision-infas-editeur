@@ -804,10 +804,13 @@ const isIOS=()=>/iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platfo
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();BIP=e;setTimeout(()=>instAsk(),2500)});
 window.addEventListener('appinstalled',()=>{try{S.installed=1;save()}catch(e){}const d=$('#instAsk');if(d)d.remove();toast(Tx('in.ok','📲 Application installée : retrouve-la sur ton écran d’accueil'),4000)});
 function instDo(){if(BIP){const p=BIP;BIP=null;p.prompt();p.userChoice.then(c=>{if(c&&c.outcome!=='accepted'){S.instAsk=Date.now();save()}}).catch(()=>{})}else if(isIOS())instAsk(true)}
-function instAsk(force){try{if(isStandalone()||!/^https?:$/.test(location.protocol)||EDITMODE)return;if(!BIP&&!isIOS())return;if(!force&&S.instAsk&&Date.now()-S.instAsk<2*864e5)return;
+function instAsk(force){try{if(isStandalone()||!/^https?:$/.test(location.protocol)||EDITMODE)return;const RI2=window.riInstallee?riInstallee():{};const man=!BIP&&!isIOS()&&RI2.related===false&&/android/i.test(navigator.userAgent);   /* Android : pas d'installation proposée par Chrome mais appli non installée → mode d'emploi */
+ if(!BIP&&!isIOS()&&!man)return;if(!force&&(RI2.related===true||(S.installed&&!BIP)))return;   /* déjà installée sur ce téléphone */
+ if(!force&&window.riCompo&&riCompo()&&riCompo().lance)return;   /* jamais pendant une compo */
+ if(!force&&S.instAsk&&Date.now()-S.instAsk<6e5)return;   /* « Plus tard » : nouveau rappel 10 minutes après */
  if($('#instAsk'))return;if(!force&&($('#relNote')||$('#rkup')||$('#updBar')||$('#nfAsk'))){setTimeout(()=>instAsk(),4000);return}
- const d=document.createElement('div');d.id='instAsk';d.className='nfask instask';const ios=!BIP&&isIOS();
- d.innerHTML=`<div class="nfab"><img src="icons/icon-192.png" alt="" class="instic" onerror="this.style.display='none'"><div><b>${esc(Tx('in.t','📲 Installe l’application Révision INFAS'))}</b><div class="muted small">${esc(Tx('in.s','Ouvre-la d’un seul appui depuis ton écran d’accueil, même sans internet, et reçois tes rappels de révision. C’est gratuit et léger.'))}</div></div></div>${ios?`<div class="insios">${esc(Tx('in.ios','Sur iPhone : touche le bouton Partager (carré avec une flèche vers le haut) en bas de Safari, puis « Sur l’écran d’accueil ».'))}</div><div class="nfab2"><button class="btn light" id="inN" style="width:100%">${esc(Tx('in.okios','J’ai compris'))}</button></div>`:`<div class="nfab2"><button class="btn coral" id="inY">${esc(Tx('in.y','Installer'))}</button><button class="btn light" id="inN">${esc(Tx('in.n','Plus tard'))}</button></div>`}`;
+ const d=document.createElement('div');d.id='instAsk';d.className='nfask instask';const ios=!BIP&&(isIOS()||man);
+ d.innerHTML=`<div class="nfab"><img src="icons/icon-192.png" alt="" class="instic" onerror="this.style.display='none'"><div><b>${esc(Tx('in.t','📲 Installe l’application Révision INFAS'))}</b><div class="muted small">${esc(Tx('in.s','Installe-la pour y avoir accès en permanence : un seul appui depuis ton écran d’accueil, même sans internet, avec tes rappels de révision. C’est gratuit et léger.'))}</div></div></div>${ios?`<div class="insios">${man?esc(Tx('in.and','Dans Chrome : touche les trois points ⋮ en haut à droite, puis « Installer l’application » ou « Ajouter à l’écran d’accueil ».')):esc(Tx('in.ios','Sur iPhone : touche le bouton Partager (carré avec une flèche vers le haut) en bas de Safari, puis « Sur l’écran d’accueil ».'))}</div><div class="nfab2"><button class="btn light" id="inN" style="width:100%">${esc(Tx('in.okios','J’ai compris'))}</button></div>`:`<div class="nfab2"><button class="btn coral" id="inY">${esc(Tx('in.y','Installer'))}</button><button class="btn light" id="inN">${esc(Tx('in.n','Plus tard'))}</button></div>`}`;
  document.body.appendChild(d);const y=$('#inY',d);if(y)y.onclick=()=>{d.remove();instDo()};$('#inN',d).onclick=()=>{S.instAsk=Date.now();save();d.remove()}}catch(e){}}
 
 /* ---------- 5. TAILLE DU TEXTE (choix de l'étudiant) + type de recherche ---------- */
@@ -3013,6 +3016,13 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
  function message(titre,texte,reessayer){const o=boite(`<h3>${titre}</h3><div class="muted" style="margin:6px 0 10px">${texte}</div>${reessayer?`<button class="btn coral" data-cp="re" style="width:100%">${T('cp.re','🔄 Réessayer')}</button>`:''}${autresBtn(reessayer?'light':'coral')}`);
   lier(o);const r=$('[data-cp="re"]',o);if(r)r.onclick=()=>ouvrir(reessayer)}
 
+ /* ---------- « Tu peux retrouver ce sujet dans : … » (après l'envoi de la note) ---------- */
+ function ouChemin(mid,k){const m=MATI[mid];if(!m)return'';const t=String(sujTitre(mid,k)||''),p=t.split(' · ');let parts;
+  if(p[0]==='J'&&p.length>2)parts=[Tx('rc.j','🎓 Préparation au D.E (J)'),'J · '+p[1],p.slice(2).join(' · ')];
+  else if(vueSuj(m)&&p.length>1)parts=p;else parts=[Tx('cp.ou.suj','Sujets'),t];
+  return [Tx('cp.ou.acc','Accueil'),(m.emo?m.emo+' ':'')+(m.title||m.short)].concat(parts).join(' › ')}
+ function ouHTML(mid,k){const c=ouChemin(mid,k);if(!c)return'';return `<div class="small" style="margin-top:10px;text-align:left;line-height:1.5">📍 ${T('cp.ou','Tu peux retrouver ce sujet dans l’appli :')} <b>${esc(c)}</b>${S.onb?`<br><button class="btn light" style="margin-top:6px" onclick="riCompoCours()">${T('cp.ou.go','📂 Aller à ce sujet')}</button>`:''}</div>`}
+ window.riCompoCours=function(){const mid=C&&C.mid;voirAutres();if(mid&&MATI[mid]&&S.onb){try{openMat(mid)}catch(e){}}};
  /* ---------- « Voir d'autres sujets » : fin de la compo, accueil de l'appli (ou premier accueil si première visite) ---------- */
  function voirAutres(){const nom=C&&C.nom;C=null;fermer();if(NOTE){document.body.appendChild(NOTE);NOTE=null}clearInterval(FILT);FILS=null;
   LS.set(PK,'');if(!S.onb&&nom&&!S.name)S.name=nom;tab('home');window.scrollTo(0,0)}
@@ -3025,12 +3035,12 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
   if(!d||!d.ok){LS.set(PK,'');
    if(d&&d.raison==='terminee')message(T('cp.fin.h','⏰ Composition terminée'),(d.titre?'<b>'+esc(d.titre)+'</b><br>':'')+T('cp.fin','Cette composition est close : il n’est plus possible de composer.'));
    else message(T('cp.inv.h','🔗 Lien invalide'),T('cp.inv','Cette composition n’existe pas. Vérifie le lien reçu.'));return}
-  if(d.deja){LS.set(PK,'');message(T('cp.deja.h','✅ Copie déjà remise'),(d.titre?'<b>'+esc(d.titre)+'</b><br>':'')+T('cp.deja','Tu as déjà remis ta copie pour cette composition sur ce téléphone.'));return}
-  const m=MATI[d.mid];if(!m){message(T('cp.nos.h','📝 Sujet introuvable'),T('cp.nos','Le sujet de cette composition n’est plus dans l’appli. Préviens ton enseignant.'));return}
+  const m=MATI[d.mid];if(!m){message(T('cp.nos.h','📝 Sujet introuvable'),T('cp.nos','Le sujet de cette composition n’est plus dans l’appli.'));return}
   try{const p=typeof plusPret==='function'&&plusPret(d.mid);if(p)await p}catch(e){}
   const L=sujets(d.mid);let k=-1;
   if(d.sujet_titre){if(L[d.k]&&sujTitre(d.mid,d.k)===d.sujet_titre)k=d.k;else k=L.findIndex((x,i)=>sujTitre(d.mid,i)===d.sujet_titre)}else if(L[d.k])k=d.k;
-  if(k<0){message(T('cp.nos.h','📝 Sujet introuvable'),T('cp.nos','Le sujet de cette composition n’est plus dans l’appli. Préviens ton enseignant.'));return}
+  if(k<0){message(T('cp.nos.h','📝 Sujet introuvable'),T('cp.nos','Le sujet de cette composition n’est plus dans l’appli.'));return}
+  if(d.deja){LS.set(PK,'');C={code:d.code,mid:d.mid,k};message(T('cp.deja.h','✅ Compo déjà effectuée'),(d.titre?'<b>'+esc(d.titre)+'</b><br>':'')+T('cp.deja','Tu as déjà effectué cette composition sur ce téléphone.')+ouHTML(d.mid,k));return}
   const ids=L[k].filter(id=>QI[id]&&!(typeof isNC==='function'&&isNC(QI[id])));
   const dec=Date.parse(d.maintenant)?Date.parse(d.maintenant)-Date.now():0;
   C={code:d.code,titre:d.titre||'',mid:d.mid,k,mode:d.mode||'gratuit',chrono_min:d.chrono_min||0,fin:d.date_limite?Date.parse(d.date_limite)-dec:0,ids,sujet:sujTitre(d.mid,k)};
@@ -3039,10 +3049,10 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
   const mode=C.mode==='gratuit'?T('cp.m.g','🎁 Composition gratuite : réponses et explications ouvertes'):C.mode==='reponses'?T('cp.m.r','🎁 Réponses gratuites · explications réservées aux élèves Premium'):'';
   const o=boite(`<div class="muted small" style="font-weight:700;letter-spacing:.04em">${T('cp.lbl','📝 COMPOSITION')}</div><h3 style="margin-top:4px">${esc(C.titre||C.sujet)}</h3>
    <div class="muted small">${esc(m.emo+' '+(m.short||m.title))}${C.titre?' · '+esc(C.sujet):''}</div>
-   <div class="small" style="margin:10px 0;line-height:1.6">📋 ${T('cp.nq','{n} questions',{n:C.ids.length})}${C.chrono_min?'<br>⏱ '+T('cp.chr','{n} minutes : la copie est remise automatiquement à la fin du temps',{n:C.chrono_min}):''}${C.fin?'<br>📅 '+T('cp.dl','DATE LIMITE de la composition : {d}',{d:esc(fmtDate(C.fin))}):''}${mode?'<br>'+mode:''}</div>
+   <div class="small" style="margin:10px 0;line-height:1.6">📋 ${T('cp.nq','{n} questions',{n:C.ids.length})}${C.chrono_min?'<br>⏱ '+T('cp.chr','{n} minutes : la compo se termine automatiquement à la fin du temps',{n:C.chrono_min}):''}${C.fin?'<br>📅 '+T('cp.dl','DATE LIMITE de la composition : {d}',{d:esc(fmtDate(C.fin))}):''}${mode?'<br>'+mode:''}</div>
    <label class="small" style="font-weight:700" for="cpNom">${T('cp.nom','Ton nom et prénom')}</label>
    <input class="tin" id="cpNom" maxlength="80" autocomplete="name" value="${esc(nom)}" placeholder="${esc(Tx('cp.nom.ph','Ex. Koné Awa'))}" style="width:100%;margin:6px 0 4px">
-   <div class="muted small" style="margin-bottom:10px">${T('cp.info','Ta note sera envoyée à ton enseignant avec ce nom. Une seule copie par téléphone.')}</div>
+   <div class="muted small" style="margin-bottom:10px">${T('cp.info','Ta note sera enregistrée avec ce nom. Une seule compo par téléphone.')}</div>
    <button class="btn coral" data-cp="go" style="width:100%">${T('cp.go','▶ Commencer la composition')}</button>${autresBtn()}`);
   lier(o);const inp=$('#cpNom',o);$('[data-cp="go"]',o).onclick=()=>{const v=String(inp.value||'').replace(/\s+/g,' ').trim();if(v.length<2){toast(Tx('cp.nom.vide','Écris ton nom pour commencer'));inp.focus();return}lancer(v)}}
  function lancer(nom){C.nom=nom;LS.set(NK,nom);LS.set(PK,'');if(C.fin&&C.fin<Date.now()){message(T('cp.fin.h','⏰ Composition terminée'),T('cp.fin','Cette composition est close : il n’est plus possible de composer.'));C=null;return}
@@ -3072,19 +3082,19 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
  window.riCompoRemettre=()=>{if(!enFil()||FILS.fin)return;const o=$('#riremise');if(o)o.remove();FILS.expire=true;clearInterval(FILT);render()};
  const _fin=filFin;filFin=function(){const avant=FILS&&FILS.fin;const r=_fin.apply(this,arguments);if(enFil()&&FILS.fin&&!avant&&!C.envoi)envoyer();return r};
  const _bil=filBilanHTML;filBilanHTML=function(){if(!enFil())return _bil.apply(this,arguments);const h=_bil.apply(this,arguments);
-  if(!FILS.fin)return h+`<div class="center" style="margin-top:10px"><button class="btn light" onclick="riCompoDemanderRemise()">${T('cp.remettre','📤 Remettre ma copie maintenant')}</button></div>`;
+  if(!FILS.fin)return h+`<div class="center" style="margin-top:10px"><button class="btn light" onclick="riCompoDemanderRemise()">${T('cp.remettre','🏁 Terminer la compo maintenant')}</button></div>`;
   const s=nb(),sc=Math.round(s.ok/Math.max(1,s.n)*200)/10,e=C.etat;
-  const st=e==='ok'||e==='deja'?`<div class="fb good" style="margin-top:10px"><div class="h">${T('cp.ok','✅ Copie remise : ta note a été envoyée à ton enseignant')}</div></div>`
-   :e==='err'?`<div class="fb bad" style="margin-top:10px"><div class="h">${T('cp.ko','📶 Pas de connexion : ta note sera envoyée dès le retour du réseau')}</div><button class="btn light" style="margin-top:8px" onclick="riCompoRenvoyer()">${T('cp.re','🔄 Réessayer')}</button></div>`
-   :e==='terminee'?`<div class="fb bad" style="margin-top:10px"><div class="h">${T('cp.tard','⏰ Copie remise après la clôture : elle n’a pas été enregistrée')}</div></div>`
-   :e==='refus'?`<div class="fb bad" style="margin-top:10px"><div class="h">${T('cp.refus','⚠️ La copie n’a pas pu être enregistrée')}</div></div>`
-   :`<div class="muted small" style="margin-top:10px">${T('cp.envoi','⏳ Envoi de ta note…')}</div>`;
+  const st=e==='ok'||e==='deja'?`<div class="fb good" style="margin-top:10px"><div class="h">${T('cp.ok','✅ Compo effectuée avec succès avec la note de {n}/20',{n:String(sc).replace('.',',')})}</div>${ouHTML(C.mid,C.k)}</div>`
+   :e==='err'?`<div class="fb bad" style="margin-top:10px"><div class="h">${T('cp.ko','📶 Compo effectuée avec la note de {n}/20 · pas de connexion : la note sera enregistrée dès le retour du réseau',{n:String(sc).replace('.',',')})}</div><button class="btn light" style="margin-top:8px" onclick="riCompoRenvoyer()">${T('cp.re','🔄 Réessayer')}</button></div>`
+   :e==='terminee'?`<div class="fb bad" style="margin-top:10px"><div class="h">${T('cp.tard','⏰ Compo terminée après la clôture : la note n’a pas été enregistrée')}</div></div>`
+   :e==='refus'?`<div class="fb bad" style="margin-top:10px"><div class="h">${T('cp.refus','⚠️ La note n’a pas pu être enregistrée')}</div></div>`
+   :`<div class="muted small" style="margin-top:10px">${T('cp.envoi','⏳ Enregistrement de ta note…')}</div>`;
   return `<div class="card sf center"><h3>${T('cp.fini','🏁 Composition terminée')}</h3><div class="muted small">${esc(C.nom)}</div><div style="font-size:28px;font-weight:800">${sc}/20</div><div class="muted">${T('fil.score','{ok} bonne(s) réponse(s) sur {n}',{ok:s.ok,n:s.n})}</div>${st}
    <button class="btn coral" style="margin-top:12px;width:100%" onclick="riCompoAutres()">${T('cp.autres','📚 Voir d’autres sujets')}</button></div>`};
  window.riCompoDemanderRemise=function(){let o=$('#riremise');if(o)o.remove();o=document.createElement('div');o.id='riremise';o.className='pmod';const s=FILS?nb():{n:0};
   const r=FILS?Object.keys(FILS.ans).filter(id=>!FILS.ans[id].pending).length:0;
-  o.innerHTML=`<div class="pbox"><h3>${T('cp.rq.h','📤 Remettre ta copie ?')}</h3><div class="muted small">${T('cp.rq','Tu as répondu à {r} question(s) sur {n}. Après la remise, tu ne pourras plus répondre.',{r,n:s.n})}</div>
-   <button class="btn coral" data-rm="ok" style="width:100%;margin-top:12px">${T('cp.rq.ok','📤 Remettre ma copie')}</button><button class="btn light" data-rm="x" style="width:100%;margin-top:8px">${T('cp.rq.x','✍️ Continuer à composer')}</button></div>`;
+  o.innerHTML=`<div class="pbox"><h3>${T('cp.rq.h','🏁 Terminer la compo ?')}</h3><div class="muted small">${T('cp.rq','Tu as répondu à {r} question(s) sur {n}. Ensuite, tu ne pourras plus répondre.',{r,n:s.n})}</div>
+   <button class="btn coral" data-rm="ok" style="width:100%;margin-top:12px">${T('cp.rq.ok','🏁 Terminer la compo')}</button><button class="btn light" data-rm="x" style="width:100%;margin-top:8px">${T('cp.rq.x','✍️ Continuer à composer')}</button></div>`;
   document.body.appendChild(o);$('[data-rm="ok"]',o).onclick=()=>riCompoRemettre();$('[data-rm="x"]',o).onclick=()=>o.remove();o.onclick=e=>{if(e.target===o)o.remove()}};
  /* « ✕ Quitter » pendant la compo : proposer de remettre la copie ; après la remise : « Voir d'autres sujets » */
  const _quit=quitFil;quitFil=function(){if(enFil()){if(FILS.fin){voirAutres();return}riCompoDemanderRemise();return}return _quit.apply(this,arguments)};
@@ -3099,5 +3109,59 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
   setTimeout(vider,1500);addEventListener('online',vider);
   if(code&&/^[A-Z0-9]{4,12}$/.test(code))ouvrir(code)})();
 })();
+
+/* ======================= APPLI INSTALLÉE OU NON (supabase/installations) =======================
+   À l'ouverture, l'appli signale si elle est ouverte depuis l'icône de l'écran d'accueil ou dans le navigateur, et si
+   elle sait qu'elle est installée (Android / Chrome : navigator.getInstalledRelatedApps + related_applications du
+   manifeste). Le tableau de bord en tire le nombre de téléphones équipés. Tant que l'appli n'est pas installée, la
+   proposition d'installation revient toutes les 10 minutes (jamais pendant une compo). */
+(function(){
+ if(typeof RIC==='undefined'||typeof isStandalone!=='function')return;
+ let RELATED=null;                              // true : installée · false : pas installée · null : on ne sait pas
+ window.riInstallee=()=>({icone:isStandalone(),related:RELATED,installed:!!S.installed,bip:!!BIP});
+ async function verifier(){try{if(isStandalone()){RELATED=true;return}
+  if(navigator.getInstalledRelatedApps){const L=await navigator.getInstalledRelatedApps();RELATED=!!(L&&L.some(a=>a.platform==='webapp'));
+   if(RELATED){if(!S.installed){S.installed=1;save()}const d=$('#instAsk');if(d)d.remove()}}}catch(e){}}
+ const etat=()=>isStandalone()?true:RELATED!==null?RELATED:BIP?false:(S.installed?true:null);
+ async function signaler(force){if(RIC.off()||!navigator.onLine)return;const mode=isStandalone()?'icone':'navigateur',inst=etat(),k=mode+'|'+inst,L=RIC.LS.get('ri_inst_sig',{})||{};
+  if(!force&&L.k===k&&Date.now()-(L.t||0)<6*36e5)return;
+  const args={p_appareil:RIC.device(),p_mode:mode,p_installe:inst,p_plateforme:isIOS()?'ios':/android/i.test(navigator.userAgent)?'android':'autre'};
+  try{let ok=false;if(RIC.session&&RIC.rpc){try{await RIC.rpc('app_installee',args);ok=true}catch(e){}}
+   if(!ok){const r=await fetch(RIC.url+'/rest/v1/rpc/app_installee',{method:'POST',headers:{apikey:RIC.key,'Content-Type':'application/json'},body:JSON.stringify(args)});ok=r.ok}
+   if(ok)RIC.LS.set('ri_inst_sig',{k,t:Date.now()})}catch(e){}}
+ addEventListener('beforeinstallprompt',()=>{RELATED=false;if(S.installed){S.installed=0;save()}setTimeout(()=>signaler(),3000)});   /* Chrome propose l'installation : l'appli n'est pas (plus) installée */
+ addEventListener('appinstalled',()=>{RELATED=true;setTimeout(()=>signaler(true),500)});
+ setInterval(()=>{if(!document.hidden)instAsk()},6e5);
+ (function w(){if(!window.PORTAIL_READY){setTimeout(w,200);return}if(window.PORTAIL_EDITOR||(typeof EDITMODE!=='undefined'&&EDITMODE))return;
+  verifier().then(()=>{setTimeout(()=>signaler(),4000);if(RELATED===false&&!BIP&&!isIOS()&&/android/i.test(navigator.userAgent))setTimeout(()=>instAsk(),3000)})})();
+})();
+
+/* ======================= DOCUMENT DE RÉVISION : séries de la Prépa examen D.E par chapitre =======================
+   Dans la rubrique d'accueil « DOCUMENT DE REVISION INFAS », chaque matière qui a une Prépa examen D.E
+   (Santé publique, Santé infantile) montre aussi ses séries par chapitre, sous ses sujets. */
+(function(){const b=BLK['home.sujets'];if(!b||typeof prepChs!=='function')return;
+ function prepDe(mid){const l=FICHE_LINKS.find(x=>x.mid===mid&&x.k==='prep');return l?{l,L:prepChs(l.pre)}:{L:[]}}
+ window.riPrepDocHTML=function(mid){const P=prepDe(mid);if(!P.L.length)return'';const Q=QBM.xprepade||[];
+  return `<div class="rc-sub" style="margin-top:12px">${T('hsuj.prep','🎓 Prépa examen D.E · par chapitre')}</div><div class="sf">${P.L.map(x=>{const n=Q.filter(q=>q.c===x.i),d=n.filter(q=>S.qs[q.id]).length;
+   return `<div class="li" onclick="go('dech',{id:'xprepade',c:${x.i}})"><span class="em">🎓</span><span class="tx"><b>${esc(x.c.slice(P.l.pre.length))}</b><small>${T('sx.n','{n} questions · {d} déjà faites',{n:n.length,d})}</small></span><span class="go">›</span></div>`}).join('')}</div>`};
+ const _h=b.html;b.html=function(){let h=_h.apply(this,arguments);if(!h)return h;
+  myMats().filter(m=>m.accueil&&(QBM[m.id]||[]).length).forEach(m=>{const add=riPrepDocHTML(m.id);if(!add)return;const key=`<b>${esc(m.emo+' '+revTitre(m))}</b>`,i=h.indexOf(key);if(i<0)return;
+   const n=prepDe(m.id).L.length,sm=h.indexOf('</small>',i);if(sm>0)h=h.slice(0,sm)+' · '+n+' '+esc(Tx('hsuj.ch','chapitres Prépa D.E'))+h.slice(sm);
+   const j=h.indexOf('</details>',i);if(j>0)h=h.slice(0,j-6)+add+h.slice(j-6)});   /* avant « </div></details> » */
+  return h}})();
+
+/* ======================= RÉSUMÉ DE PÉDIATRIE POUR LE D.E : la fiche du PDF à l'identique =======================
+   Pour les fiches tirées d'un PDF (ajout « xresped »), chaque chapitre montre d'abord la ou les pages du PDF
+   (découpées à l'identique, surlignages compris), puis le texte de la fiche. */
+(function(){const PDF={xresped:1};if(typeof resChapHTML0!=='function')return;const _r=resChapHTML0;
+ /* images en data: (fichier de données chargé à la demande) : enregistrées une fois comme les autres images */
+ const VU=new WeakSet();
+ function reg(mid){const R=resOf(mid).R;if(!R||VU.has(R))return;VU.add(R);R.ch.forEach((c,i)=>{c.imgs=(c.imgs||[]).map((x,j)=>{if(String(x[0]).startsWith('data:')){const k='xr'+mid+'_'+i+'_'+j;IMGR[k]=x[0];return[k,x[1]]}return x})})}
+ const B0=BLK['resumes.main'];if(B0){const _m=B0.html;B0.html=function(){try{if(ctx&&PDF[ctx.id])reg(ctx.id)}catch(e){}return _m.apply(this,arguments)}}
+ resChapHTML0=function(mid,i){if(!PDF[mid])return _r.apply(this,arguments);reg(mid);const ov=((E.content.res||{})[mid]||{})[i];if(ov!=null)return ov;
+  const c=(resOf(mid).R.ch[i])||{pts:[],tabs:[],imgs:[]};let h='';
+  if(c.imgs.length)h+=`<h4>${esc(Tx('resumes.pdf','📄 La fiche du PDF'))}</h4>`+c.imgs.map(x=>`<figure class="rpdf" style="margin:0 0 10px"><img src="${imgSrc(x[0])}" alt="${esc(x[1])}" loading="lazy" style="width:100%;height:auto;border:1px solid var(--line,#ddd);border-radius:10px;background:#fff" onclick="zoomImg('${x[0]}','${jsq(x[1])}')"><figcaption class="muted small">${esc(x[1])} · ${esc(Tx('resumes.zoom','touche pour agrandir'))}</figcaption></figure>`).join('');
+  if(c.pts.length)h+=`<details style="margin-top:6px"><summary><b>${esc(Tx('resumes.txt','📝 Texte de la fiche'))}</b></summary><ul class="rpts">${c.pts.map(p=>`<li>${p[0]?`<b>${esc(p[0])}</b><br>`:''}${esc(p[1])}</li>`).join('')}</ul>${c.tabs.map(t=>tableHTML(t)).join('')}</details>`;
+  return h||_r.apply(this,arguments)}})();
 
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
