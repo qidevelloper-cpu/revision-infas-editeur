@@ -2239,11 +2239,11 @@ const RIC={
     get('announcements?select=id,titre,texte,cible,couleur,du,au')]);
    const regles={};rules.forEach(r=>{regles[r.cle]=r.quota_gratuit==null?{acces:r.acces}:{acces:r.acces,quotaGratuit:r.quota_gratuit}});
    const sv=k=>{const x=sets.find(r=>r.cle===k);return(x&&x.valeur)||{}};const pa=sv('public.access'),pay=sv('public.paiement');
-   const old=JSON.stringify(RIC.cfg.regles)+RIC.cfg.defaut+JSON.stringify(RIC.cfg.annonces)+JSON.stringify(RIC.cfg.questions||{});
+   const old=JSON.stringify(RIC.cfg.regles)+RIC.cfg.defaut+JSON.stringify(RIC.cfg.annonces)+JSON.stringify(RIC.cfg.questions||{})+JSON.stringify(RIC.cfg.promo||null);
    let google=false;try{const r=await fetch(RIC.url+'/auth/v1/settings',{headers:H(),cache:'no-store'});if(r.ok){const j=await r.json();google=!!(j.external&&j.external.google)}}catch(e){}
-   RIC.cfg={regles,defaut:pa.defaut==='premium'?'premium':'gratuit',version:pa.version||0,questions:(pa.questions&&typeof pa.questions==='object')?pa.questions:{},plusapp:(pa.plusapp&&typeof pa.plusapp==='object')?pa.plusapp:{},plans,annonces:ann,google,paiement:pay,t:Date.now()};
+   RIC.cfg={regles,defaut:pa.defaut==='premium'?'premium':'gratuit',version:pa.version||0,questions:(pa.questions&&typeof pa.questions==='object')?pa.questions:{},plusapp:(pa.plusapp&&typeof pa.plusapp==='object')?pa.plusapp:{},plans,annonces:ann,google,paiement:pay,promo:(pa.promo&&typeof pa.promo==='object')?pa.promo:null,fincorr:(pa.fincorr&&typeof pa.fincorr==='object')?pa.fincorr:{},t:Date.now()};
    LS.set(RIC.CK,RIC.cfg);RIC.ready=true;
-   if(old!==JSON.stringify(regles)+RIC.cfg.defaut+JSON.stringify(ann)+JSON.stringify(RIC.cfg.questions)&&typeof render==='function'&&!EDITMODE&&!quiet)render();
+   if(old!==JSON.stringify(regles)+RIC.cfg.defaut+JSON.stringify(ann)+JSON.stringify(RIC.cfg.questions)+JSON.stringify(RIC.cfg.promo||null)&&typeof render==='function'&&!EDITMODE&&!quiet)render();
   }catch(e){console.warn('RI cloud : règles non mises à jour',e)}
   RIC.busy=false;flush()}
  RIC.refresh=refresh;
@@ -2463,7 +2463,7 @@ const RIC={
   o.innerHTML=`<div class="pbox"><h3>🎟️ Activer mon accès Premium</h3>
    <div class="small" style="margin-bottom:8px">Tape le code reçu de l’administrateur (ex. <b>RI-7K4P-2M9X</b>).</div>
    ${RIC.session?'':`<label class="small" for="ricodeN" style="display:block;margin-bottom:4px"><b>Ton nom et prénom</b></label><input class="tin" id="ricodeN" autocomplete="name" maxlength="80" placeholder="Ex. Kouassi Awa" value="${esc(nom)}" style="margin-bottom:10px"><label class="small" for="ricodeT" style="display:block;margin-bottom:4px"><b>Ton code</b></label>`}
-   <input class="tin" id="ricodeT" autocapitalize="characters" autocomplete="one-time-code" placeholder="RI-XXXX-XXXX" maxlength="20" style="text-transform:uppercase;letter-spacing:1px;font-weight:700">
+   <input class="tin" id="ricodeT" autocapitalize="characters" autocomplete="one-time-code" placeholder="Ex. RI-7K4P-2M9X" maxlength="24" style="text-transform:uppercase;letter-spacing:1px;font-weight:700">
    <div id="ricodeM" class="small" style="margin-top:8px;color:#c0392b"></div>
    <button class="btn coral" style="width:100%;margin-top:10px" id="ricodeOk">Activer mon code</button>
    <div class="ri-envoi" style="margin-top:14px"><div><b>Tu as déjà payé ?</b></div><div class="muted small" style="margin-top:4px">Écris à l’administrateur pour recevoir ton code d’activation Premium.</div>
@@ -2477,8 +2477,8 @@ const RIC={
   $('#ricodeX',o).onclick=()=>o.remove();o.onclick=e=>{if(e.target===o)o.remove()};if($('#ricodePay',o))$('#ricodePay',o).onclick=async()=>{if(!(await invite()))return;o.remove();RIC.payer(planId)};
   if($('#ricodeWa',o))$('#ricodeWa',o).onclick=()=>track('contact_admin',{motif:'code'});
   T.onkeydown=e=>{if(e.key==='Enter')$('#ricodeOk',o).click()};
-  const RAISON={format:'Ce code n’a pas la bonne forme : il ressemble à RI-XXXX-XXXX.',inconnu:'Ce code n’existe pas ou a été annulé. Vérifie chaque caractère.',deja:'Ce code a déjà été utilisé par un autre compte.',deja_toi:'Tu as déjà utilisé ce code : ton accès Premium est actif.',trop:'Trop d’essais : réessaie dans une heure.',connexion:'Connecte-toi d’abord à ton compte.',compte:'Ton compte ne permet pas d’activer un code. Écris à l’administrateur.'};
-  $('#ricodeOk',o).onclick=async()=>{const v=T.value.trim();if(v.replace(/[^0-9a-z]/gi,'').length<8){M.textContent=RAISON.format;return}const b=$('#ricodeOk',o);b.disabled=true;b.textContent='Vérification…';M.textContent='';
+  const RAISON={format:'Ce code n’a pas la bonne forme. Vérifie chaque caractère.',expire:'Ce code n’est plus valable : sa date limite est passée.',complet:'Ce code a déjà été activé par le nombre maximal de personnes.',inconnu:'Ce code n’existe pas ou a été annulé. Vérifie chaque caractère.',deja:'Ce code a déjà été utilisé par un autre compte.',deja_toi:'Tu as déjà utilisé ce code : ton accès Premium est actif.',trop:'Trop d’essais : réessaie dans une heure.',connexion:'Connecte-toi d’abord à ton compte.',compte:'Ton compte ne permet pas d’activer un code. Écris à l’administrateur.'};
+  $('#ricodeOk',o).onclick=async()=>{const v=T.value.trim();if(v.replace(/[^0-9a-z]/gi,'').length<4){M.textContent=RAISON.format;return}const b=$('#ricodeOk',o);b.disabled=true;b.textContent='Vérification…';M.textContent='';
    if(!(await invite())){b.disabled=false;b.textContent='Activer mon code';return}
    const nomE=(N&&N.value.trim())||[(RIC.statut||{}).prenom,(RIC.statut||{}).nom].filter(Boolean).join(' ')||(S&&S.name)||'';
    try{let r;try{r=await RIC.rpc('utiliser_code',{p_code:v,p_nom:nomE})}catch(e){if(!/function|PGRST202|404/.test(String(e&&e.message)))throw e;r=await RIC.rpc('utiliser_code',{p_code:v})}if(r&&r.ok){track('code_active',{plan:r.plan});o.remove();try{await RIC.syncCompte()}catch(e){}if(typeof render==='function')render();
@@ -2564,7 +2564,7 @@ ${auto?`    <div class="ri-envoi"><div>Tu paies <b>${fcfa(P.prix_xof)}</b> direc
  .ri-opt.on{outline:2px solid #6C3BF5;border-radius:12px}.ri-op{border:2px solid var(--c);background:transparent;color:inherit;border-radius:12px;padding:8px 12px;font:inherit;font-weight:700;cursor:pointer}.ri-op.on{background:var(--c);color:#fff}
  .ri-envoi{margin-top:12px;border-radius:14px;padding:12px;background:rgba(108,59,245,.08);font-size:15px}.ri-num{font-size:22px;font-weight:800;letter-spacing:.5px;margin:4px 0;display:flex;align-items:center;gap:10px;flex-wrap:wrap}.ri-copy{border:0;border-radius:9px;padding:4px 10px;background:#6C3BF5;color:#fff;font:inherit;font-size:13px;cursor:pointer}
  .ri-lien{display:block;border:0;background:none;padding:8px 0 0;color:#6C3BF5;font:inherit;font-size:14px;font-weight:600;cursor:pointer;text-align:left}
- .ri-rep{display:block;margin:10px 0 0;background:none;border:0;color:inherit;opacity:.7;font-size:13px;text-decoration:underline;cursor:pointer;padding:0}`;
+ .ri-rep{display:inline-flex;align-items:center;gap:6px;margin:12px 0 0;background:#fff1f1;border:1.5px solid #dc2626;color:#dc2626;border-radius:10px;font:inherit;font-size:15px;font-weight:700;cursor:pointer;padding:8px 14px}.ri-rep:active{background:#fee2e2}`;
  document.head.appendChild(st);
 
  /* ---------- démarrage ---------- */
@@ -2668,7 +2668,8 @@ function actKind(btn){const oc=btn.match(/onclick="([^"]*)"/);const c=oc?oc[1]:'
  const canFull=RIC.can;RIC.canFull=canFull;
  function regleQ(mid,d){const Q=(RIC.cfg&&RIC.cfg.questions)||{};const r=Q['matiere:'+mid];if(r&&r.n!=null)return r;
   const su=(d||0)<4&&typeof ajSuit==='function'&&ajSuit(mid);if(su)return regleQ(su,(d||0)+1);const g=typeof grpOf==='function'&&grpOf(mid),rg=g&&Q['rubrique:'+g];return rg&&rg.n!=null?rg:null}
- function libres(mid,k){if(RIC.off()||RIC.isPremium())return null;const r=regleQ(mid);const n=r?Math.max(0,parseInt(r.n,10)||0):0;if(!n)return null;
+ function libres(mid,k){if(RIC.off()||RIC.isPremium())return null;const QS=(RIC.cfg&&RIC.cfg.questions)||{},rs=QS['matiere:'+mid+'/sujet:'+(k+1)];   /* réglage propre au sujet (tableau de bord) d'abord */
+  const r=rs&&rs.n!=null?{n:rs.n,mode:'sujet'}:regleQ(mid);const n=r?Math.max(0,parseInt(r.n,10)||0):0;if(!n)return null;
   const SU=sujets(mid),L=SU[k];if(!L)return null;const key=s=>'matiere:'+mid+'/sujet:'+(s+1);
   if(canFull(key(k))||RIC.effective(key(k))==='masque')return null;
   if(r.mode==='cours'){const vus=new Set();SU.forEach((X,s)=>{if(!canFull(key(s)))X.forEach(id=>{if(S.qs&&S.qs[id])vus.add(id)})});
@@ -3052,7 +3053,7 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
 
  /* ---------- ouvrir un lien ---------- */
  async function ouvrir(code){C=C||{code};[0,800,1600,3000,5000].forEach(t=>setTimeout(cacherNote,t));boite(`<h3>${T('cp.load','⏳ Ouverture de la composition…')}</h3>`);let d;
-  try{d=await rpc('compo_lire',{p_code:code,p_appareil:RIC.device()})}
+  try{const P=PRE&&PRE.code===code?PRE.p:null;PRE=null;d=await (P||rpc('compo_lire',{p_code:code,p_appareil:RIC.device()}))}
   catch(e){message(T('cp.err.h','📶 Composition indisponible'),T('cp.err','Impossible d’ouvrir la composition. Vérifie ta connexion Internet puis réessaie.'),code);return}
   if(!d||!d.ok){LS.set(PK,'');
    if(d&&d.raison==='terminee')message(T('cp.fin.h','⏰ Composition terminée'),(d.titre?'<b>'+esc(d.titre)+'</b><br>':'')+T('cp.fin','Cette composition est close : il n’est plus possible de composer.'));
@@ -3126,6 +3127,12 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
  let code='';try{code=String(new URLSearchParams(location.search).get('compo')||'').trim().toUpperCase()}catch(e){}
  if(code&&/^[A-Z0-9]{4,12}$/.test(code)){LS.set(PK,code);try{const u=new URLSearchParams(location.search);u.delete('compo');history.replaceState(null,'',location.pathname+(u.toString()?'?'+u:'')+location.hash)}catch(e){}}
  else code=String(LS.get(PK,'')||'');
+ /* lien de compo : la fiche est demandée tout de suite (pendant que l'appli se charge), le sujet est préchargé,
+    et une fenêtre « Ouverture… » s'affiche dès que la page existe */
+ let PRE=null;
+ if(code&&/^[A-Z0-9]{4,12}$/.test(code)&&!window.PORTAIL_EDITOR){try{PRE={code,p:rpc('compo_lire',{p_code:code,p_appareil:RIC.device()})};
+   PRE.p.then(d=>{try{if(d&&d.ok&&d.mid&&typeof plusPret==='function')plusPret(d.mid)}catch(e){}}).catch(()=>{})}catch(e){PRE=null}
+  const tot=()=>{if(!document.body){setTimeout(tot,30);return}if(!window.PORTAIL_READY&&!$('#ricompo'))boite(`<h3>${T('cp.load','⏳ Ouverture de la composition…')}</h3>`)};tot()}
  (function w(){if(!window.PORTAIL_READY){setTimeout(w,60);return}
   if((typeof EDITMODE!=='undefined'&&EDITMODE)||window.PORTAIL_EDITOR)return;   /* Studio : pas de compo */
   setTimeout(vider,1500);addEventListener('online',vider);
@@ -3221,6 +3228,117 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
    if(v==='alea'){F.ids=riMelangeCas(nat);F.alea=1}else F.ids=nat;render();window.scrollTo(0,0)})}
  const _st=startSujet;startSujet=function(mid,k){const r=_st.apply(this,arguments);if(CN[mid]&&VIEW==='fil'&&FILS&&FILS.mid===mid)choisir();return r};
  if(typeof window.riFilAppli==='function'){const _fa=window.riFilAppli;window.riFilAppli=function(){const cn=!!(ctx&&CN[ctx.id]);const r=_fa.apply(this,arguments);try{if(r&&cn&&FILS&&FILS.mode==='app')setTimeout(choisir,50)}catch(e){}return r}}
+})();
+
+/* ======================= SEMAINE GRATUITE (tableau de bord › Cours gratuits / Premium) =======================
+   Pendant la période choisie par l'administrateur, tout est ouvert à tous : sujets, questions, réponses et
+   explications. Un bandeau l'annonce sur l'accueil. Réglage : app_settings « public.access » → promo {actif, du, au, titre}. */
+(function(){if(typeof RIC==='undefined')return;
+ RIC.promo=function(){const p=RIC.cfg&&RIC.cfg.promo;if(!p||!p.actif)return null;const t=Date.now(),du=p.du?Date.parse(p.du):0,au=p.au?Date.parse(p.au):0;if((du&&t<du)||!au||t>au)return null;return p};
+ const _can=RIC.can;RIC.can=function(key){if(RIC.promo()&&!/^fonction:(?:admin|studio)/.test(String(key||'')))return true;return _can.apply(this,arguments)};
+ const _qOk=RIC.qOk;RIC.qOk=function(){if(RIC.promo())return true;return _qOk.apply(this,arguments)};
+ const _prem=RIC.isPremium;RIC.isPremium=function(){if(RIC.promo())return true;return _prem.apply(this,arguments)};
+ const fmt=d=>{try{return new Date(d).toLocaleString('fr-FR',{weekday:'long',day:'numeric',month:'long',hour:'2-digit',minute:'2-digit'})}catch(e){return''}};
+ B('home.promo','Semaine gratuite (accueil)',()=>{const p=RIC.promo();if(!p)return'';return `<div class="card sf" style="background:linear-gradient(135deg,#16a34a,#0d9488);color:#fff;border:0"><div style="font-size:18px;font-weight:800">${esc(p.titre||Tx('promo.t','🎁 Semaine gratuite'))}</div>
+   <div style="margin-top:4px;opacity:.95">${T('promo.s','Tous les sujets, toutes les questions, les réponses et les corrections sont gratuits jusqu’au {d}. Profites-en !',{d:esc(fmt(p.au))})}</div></div>`});
+ const H=SCREENS.home&&SCREENS.home.blocks;if(H&&!H.includes('home.promo')){H.splice(Math.min(1,H.length),0,'home.promo')}
+ const _lo=layoutOf;layoutOf=function(sc){const L=_lo.apply(this,arguments);if(sc!=='home'||!Array.isArray(L)||L.some(b=>b.id==='home.promo'))return L;const C=L.slice();C.splice(Math.min(1,C.length),0,{id:'home.promo',inst:'home.promo'});return C};
+ setInterval(()=>{const on=!!RIC.promo();if(on!==RIC.__promo){RIC.__promo=on;if(typeof render==='function'&&!EDITMODE)render()}},6e4);RIC.__promo=!!RIC.promo();
+})();
+
+/* ======================= FIN DE MA COMPOSITION · CORRECTION À LA FIN · MES NOTES =======================
+   Tous les sujets (sauf les compos par lien, qui ont leur propre fin) : le résultat ne s'affiche plus tout seul ;
+   l'élève touche « 🏁 Fin de ma composition » et voit sa note finale, avec « Reprendre le sujet » et
+   « Refaire mes questions ratées ». Sujets réglés « correction à la fin » dans le tableau de bord (public.access →
+   fincorr) : pendant la composition, ni bonne réponse ni explication ; tout apparaît à la fin.
+   Chaque fin de sujet est gardée dans S.notes : écran « 📊 Mes notes » (accueil, statistiques) avec l'évolution. */
+(function(){
+ const actif=()=>typeof FILS!=='undefined'&&FILS&&FILS.mode!=='compo';
+ function fcOn(){if(!FILS)return false;if(FILS.fc===undefined){const F=(typeof RIC!=='undefined'&&RIC.cfg&&RIC.cfg.fincorr)||{};FILS.fc=!!(FILS.k!=null&&(F['matiere:'+FILS.mid+'/sujet:'+(FILS.k+1)]||F['matiere:'+FILS.mid]))}return FILS.fc}
+ window.riFinCorr=()=>!!(FILS&&fcOn());
+ /* le sujet ne se termine que par « Fin de ma composition » (ou la fin du temps) */
+ const _ft=filTermine;filTermine=function(){if(actif()&&!FILS.fin)return !!FILS.expire;return _ft.apply(this,arguments)};
+ const vr=()=>FILS.ids.filter(id=>!(typeof isNC==='function'&&isNC(QI[id])));
+ window.riFinCompo=function(force){if(!FILS||FILS.fin)return;const V=vr(),n=V.length,r=V.filter(id=>FILS.ans[id]&&!FILS.ans[id].pending).length;
+  const go=()=>{const o=$('#rifin');if(o)o.remove();FILS.expire=true;FILS.finM=1;clearInterval(FILT);filFin();render();setTimeout(()=>{const b=document.getElementById('filBilan');if(b)b.scrollIntoView({behavior:'smooth',block:'start'})},80)};
+  if(force||r>=n){go();return}
+  let o=$('#rifin');if(o)o.remove();o=document.createElement('div');o.id='rifin';o.className='pmod';
+  o.innerHTML=`<div class="pbox"><h3>${T('fc.q.h','🏁 Terminer la composition ?')}</h3><div class="muted small">${T('fc.q','Tu as répondu à {r} question(s) sur {n}. Les questions sans réponse compteront comme fausses.',{r,n})}</div>
+   <button class="btn coral" data-f="ok" style="width:100%;margin-top:12px">${T('fc.q.ok','🏁 Fin de ma composition')}</button><button class="btn light" data-f="x" style="width:100%;margin-top:8px">${T('fc.q.x','✍️ Continuer')}</button></div>`;
+  document.body.appendChild(o);$('[data-f="ok"]',o).onclick=go;$('[data-f="x"]',o).onclick=()=>o.remove();o.onclick=e=>{if(e.target===o)o.remove()}};
+ /* correction à la fin : la réponse est enregistrée, sans dire si elle est juste */
+ const _fc=filCarte;filCarte=function(q,i){let h=_fc.apply(this,arguments);if(!FILS)return h;
+  if(FILS.fin&&FILS.finM&&!FILS.end)h=h.split(Tx('fil.exp','⏰ Pas répondu à temps')).join(Tx('fc.none','⚪ Pas de réponse'));
+  if(!FILS.fin&&FILS.expire){filFin();if(FILS.fin)return _fc.apply(this,arguments)}   /* fin du temps : corrections tout de suite */
+  if(FILS.fin||!fcOn())return h;const a=FILS.ans[q.id];if(!a)return h;
+  const W=document.createElement('div');W.innerHTML=h;const card=W.firstElementChild;if(!card)return h;
+  [...card.querySelectorAll('button.opt')].forEach((b,oi)=>{b.classList.remove('ok','ko');let pris;if(q.t==='vf')pris=(oi===0?1:0)===a.sel;else pris=isM(q)?(a.ms||[]).includes(oi):oi===a.sel;if(pris)b.classList.add('sel')});
+  const kids=[...card.children],j=kids.findIndex(e=>e.classList&&e.classList.contains('fb'));if(j>=0)kids.slice(j).forEach(e=>{if(!e.classList.contains('ri-rep'))e.remove()});
+  card.insertAdjacentHTML('beforeend',`<div class="fb neu"><div class="h">${T('fc.saved','📝 Réponse enregistrée · la correction s’affichera à la fin')}</div></div>`);return W.innerHTML};
+ const _top=filTopHTML;filTopHTML=function(){const h=_top.apply(this,arguments);if(!FILS||FILS.fin||!fcOn())return h;return h.replace(/ · ✅ \d+/,'')};
+ /* note de fin gardée dans « Mes notes » */
+ function noter(){try{const n=vr().length;if(!n)return;const sc=Math.round(FILS.ok/n*200)/10,m=matOf(FILS.mid)||{};S.notes=S.notes||[];
+  const e={t:Date.now(),mid:FILS.mid,k:FILS.k,lab:String(FILS.label||'').slice(0,120),mat:String(m.short||m.title||'').slice(0,60),ok:FILS.ok,n,sc,mode:FILS.mode};FILS.__note=e;S.notes.push(e);if(S.notes.length>400)S.notes=S.notes.slice(-400);save()}catch(e){}}
+ const _fin=filFin;filFin=function(){const avant=FILS&&FILS.fin;const r=_fin.apply(this,arguments);if(FILS&&FILS.fin&&!avant)noter();return r};
+ /* résultat final */
+ const _bil=filBilanHTML;filBilanHTML=function(){if(!actif())return _bil.apply(this,arguments);return typeof sansNC==='function'?sansNC(bilan,this,arguments):bilan()};
+ function bilan(){const n=FILS.ids.length;filFin();
+  if(!FILS.fin){const r=FILS.ids.filter(id=>FILS.ans[id]&&!FILS.ans[id].pending).length;
+   return `<div class="card sf center"><div class="muted small">${r<n?T('fil.reste','Encore {k} question(s) à faire dans ce sujet.',{k:n-r}):T('fc.all','✅ Tu as répondu à toutes les questions.')}</div>
+    <button class="btn coral" style="width:100%;margin-top:10px;font-size:16px" onclick="riFinCompo()">${T('fc.btn','🏁 Fin de ma composition')}</button></div>`}
+  if(FILS.__note){FILS.__note.ok=FILS.ok;FILS.__note.sc=Math.round(FILS.ok/n*200)/10;save()}
+  const sc=Math.round(FILS.ok/n*200)/10,rep=FILS.ids.filter(id=>FILS.ans[id]&&!FILS.ans[id].pending).length,faux=FILS.ids.filter(id=>!(FILS.ans[id]&&FILS.ans[id].ok&&!FILS.ans[id].pending)),col=sc>=14?'#16a34a':sc>=10?'#d97706':'#dc2626';
+  return `<div class="card sf center"><h3>${T('fc.res','🏁 Résultat final')}</h3><div style="font-size:40px;font-weight:800;color:${col}">${String(sc).replace('.',',')}/20</div>
+   <div class="muted">${T('fil.score','{ok} bonne(s) réponse(s) sur {n}',{ok:FILS.ok,n})}${n-rep?' · '+T('fc.sans','{k} sans réponse',{k:n-rep}):''}</div>
+   <div style="display:grid;gap:8px;margin-top:14px">
+    ${faux.length?`<button class="btn coral" onclick="riRefaireRates()">${T('fc.rates','❌ Refaire mes questions ratées ({n})',{n:faux.length})}</button>`:''}
+    <button class="btn light" onclick="riReprendre()">${T('fc.again','🔁 Reprendre le sujet')}</button>
+    <button class="btn light" onclick="go('notes')">${T('fc.notes','📊 Mes notes')}</button>
+    <button class="btn light" onclick="quitFil()">${T('fil.retour','← Retour')}</button></div></div>`};
+ window.riReprendre=function(){if(!FILS)return;const k=FILS.k,mid=FILS.mid;if(FILS.mode==='suj'&&k!=null&&typeof startSujet==='function'){startSujet(mid,k);return}FILS.finM=0;filRecommencer()};
+ window.riRefaireRates=function(){if(!FILS)return;const ids=vr().filter(id=>!(FILS.ans[id]&&FILS.ans[id].ok&&!FILS.ans[id].pending));if(!ids.length)return;
+  startFil(FILS.mid,ids,(FILS.label||'')+' · '+Tx('fc.rates.l','questions ratées'),'diff',null)};
+ const _rec=filRecommencer;filRecommencer=function(){if(FILS){FILS.finM=0;delete FILS.__note}return _rec.apply(this,arguments)};
+
+ /* ---------- 📊 Mes notes ---------- */
+ function notes(){const N=(S.notes||[]).slice(),t0=N.length?N[0].t:Infinity;
+  (S.done||[]).forEach(d=>{if(d.t&&d.t<t0&&d.k!=null){const m=matOf(d.mid)||{};let lab='';try{lab=sujTitre(d.mid,d.k)}catch(e){}N.push({t:d.t,mid:d.mid,k:d.k,lab,mat:m.short||m.title||'',sc:d.sc,mode:'suj'})}});
+  return N.filter(x=>x.sc!=null&&isFinite(x.sc)).sort((a,b)=>a.t-b.t)}
+ window.riNotes=notes;
+ function courbe(L){if(L.length<2)return'';const W=320,H=130,P=22,n=L.length,x=i=>P+i*(W-2*P)/(n-1),y=v=>H-P-(v/20)*(H-2*P);
+  const pts=L.map((e,i)=>x(i).toFixed(1)+','+y(e.sc).toFixed(1)).join(' ');
+  return `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto" role="img" aria-label="${esc(Tx('nt.evo','Évolution de mes notes'))}">
+   ${[0,10,20].map(v=>`<line x1="${P}" x2="${W-P}" y1="${y(v)}" y2="${y(v)}" stroke="currentColor" stroke-opacity=".15"/><text x="2" y="${y(v)+4}" font-size="10" fill="currentColor" fill-opacity=".6">${v}</text>`).join('')}
+   <polyline points="${pts}" fill="none" stroke="#6C3BF5" stroke-width="2.5" stroke-linejoin="round"/>${L.map((e,i)=>`<circle cx="${x(i)}" cy="${y(e.sc)}" r="3.5" fill="${e.sc>=10?'#16a34a':'#dc2626'}"/>`).join('')}</svg>`}
+ SCREENS.notes={n:'Mes notes',hdr:()=>miniHeader(T('nt.small','📊 Mes notes'),T('nt.title','Mes compos et mes sujets terminés')),blocks:['notes.main']};
+ B('notes.main','Mes notes',()=>{const L=notes();if(!L.length)return `<div class="card sf center"><div class="muted">${T('nt.vide','Pas encore de note : termine un sujet avec « 🏁 Fin de ma composition » et ta note apparaîtra ici.')}</div></div>`;
+  const moy=Math.round(L.reduce((a,e)=>a+e.sc,0)/L.length*10)/10,best=Math.max(...L.map(e=>e.sc)),der=L.slice(-20),R=L.slice().reverse(),f=v=>String(v).replace('.',',');
+  const c=L.filter(e=>e.mode==='compo').length;
+  return `<div class="card sf"><div class="row2" style="text-align:center"><div><div style="font-size:26px;font-weight:800">${f(moy)}/20</div><div class="muted small">${T('nt.moy','moyenne')}</div></div><div><div style="font-size:26px;font-weight:800">${f(best)}/20</div><div class="muted small">${T('nt.best','meilleure note')}</div></div></div>
+    <div class="muted small center" style="margin-top:6px">${T('nt.nb','{n} note(s) · dont {c} compo(s)',{n:L.length,c})}</div></div>
+   ${der.length>1?`<div class="card sf"><h3>${T('nt.evo','📈 Mon évolution')}</h3>${courbe(der)}<div class="muted small">${T('nt.evo.s','Mes {n} dernières notes, de la plus ancienne à la plus récente',{n:der.length})}</div></div>`:''}
+   <div class="card sf"><h3>${T('nt.hist','🗂️ Toutes mes notes')}</h3>${R.slice(0,150).map(e=>`<div class="li" style="cursor:default"><span class="em">${e.mode==='compo'?'📝':'🎯'}</span><span class="tx"><b>${esc(e.lab||e.mat||'')}</b><small>${esc(e.mat||'')} · ${new Date(e.t).toLocaleDateString('fr-FR',{day:'numeric',month:'short',year:'numeric'})}${e.n?' · '+e.ok+'/'+e.n:''}${e.mode==='compo'?' · '+esc(Tx('nt.compo','Compo')):''}</small></span><span style="font-weight:800;color:${e.sc>=10?'#16a34a':'#dc2626'}">${f(e.sc)}/20</span></div>`).join('')}</div>`});
+ /* accès : accueil (carte « Bonjour ») et statistiques */
+ /* sous le nom, sur la carte « Bonjour » de l'accueil (nouvelle et ancienne interface) */
+ const _rn=render;render=function(){const r=_rn.apply(this,arguments);try{if(VIEW==='home'){const z=$('#app .ou-hi')||$('#app .hello .lv');if(z&&!$('.ri-notes',z.parentElement)){
+   z.insertAdjacentHTML('beforeend',`<button class="ri-notes" onclick="go('notes')" style="display:inline-flex;align-items:center;gap:6px;margin-top:8px;border:1.5px solid #6C3BF5;background:#f3efff;color:#5B21B6;border-radius:999px;padding:6px 14px;font:inherit;font-weight:700;font-size:14px;cursor:pointer">${T('nt.btn','📊 Mes notes et mon évolution')}</button>`)}}}catch(e){}return r};
+ B('stats.notes','Mes notes (statistiques)',()=>{const L=notes(),f=v=>String(v).replace('.',',');const moy=L.length?Math.round(L.reduce((a,e)=>a+e.sc,0)/L.length*10)/10:null;
+  return `<div class="card sf"><h3>${T('nt.small','📊 Mes notes')}</h3><div class="muted small">${L.length?T('nt.st','{n} note(s) · moyenne {m}/20 · dernière {d}/20',{n:L.length,m:f(moy),d:f(L[L.length-1].sc)}):T('nt.vide2','Tes notes de compos et de sujets apparaîtront ici.')}</div>
+   <button class="btn coral" style="margin-top:10px;width:100%" onclick="go('notes')">${T('nt.open','Voir mes notes et mon évolution')}</button></div>`});
+ if(SCREENS.stats&&!SCREENS.stats.blocks.includes('stats.notes'))SCREENS.stats.blocks.unshift('stats.notes');
+ const _lo=layoutOf;layoutOf=function(sc){const L=_lo.apply(this,arguments);if(sc!=='stats'||!Array.isArray(L)||L.some(b=>b.id==='stats.notes'))return L;return [{id:'stats.notes',inst:'stats.notes'}].concat(L)};
+})();
+
+/* =========================================================
+   HEURES DE CONNEXION · une trace « connexion » à l'ouverture de l'appli et au retour après 30 min (pour le tableau de bord)
+   ========================================================= */
+(function(){
+ function cpt(){try{const t=RIC.session&&RIC.session.access_token;if(!t)return '';const b=t.split('.')[1].replace(/-/g,'+').replace(/_/g,'/');return String(JSON.parse(atob(b)).sub||'').slice(0,64)}catch(e){return ''}}
+ function cx(){try{if(typeof RIC==='undefined'||!RIC.track||(RIC.off&&RIC.off()))return;const t=Date.now(),l=+(localStorage.getItem('ri_cx')||0);if(t-l<30*60000)return;localStorage.setItem('ri_cx',String(t));
+  const c=cpt(),p={};if(c)p.cpt=c;RIC.track('connexion',p)}catch(e){}}
+ window.riConnexion=cx;
+ setTimeout(cx,5000);
+ document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')setTimeout(cx,1500)});
 })();
 
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
