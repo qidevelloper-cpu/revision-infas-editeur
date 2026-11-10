@@ -3330,15 +3330,19 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
 })();
 
 /* =========================================================
-   HEURES DE CONNEXION · une trace « connexion » à l'ouverture de l'appli et au retour après 30 min (pour le tableau de bord)
+   HEURES DE CONNEXION · une trace « connexion » (avec le nom tapé à l'accueil) à l'ouverture, au retour après 30 min et quand le nom, la filière ou la licence changent
    ========================================================= */
 (function(){
  function cpt(){try{const t=RIC.session&&RIC.session.access_token;if(!t)return '';const b=t.split('.')[1].replace(/-/g,'+').replace(/_/g,'/');return String(JSON.parse(atob(b)).sub||'').slice(0,64)}catch(e){return ''}}
- function cx(){try{if(typeof RIC==='undefined'||!RIC.track||(RIC.off&&RIC.off()))return;const t=Date.now(),l=+(localStorage.getItem('ri_cx')||0);if(t-l<30*60000)return;localStorage.setItem('ri_cx',String(t));
-  const c=cpt(),p={};if(c)p.cpt=c;RIC.track('connexion',p)}catch(e){}}
+ function nomTape(){try{return String(S&&S.name||'').trim().slice(0,60)}catch(e){return ''}}
+ function cx(){try{if(typeof RIC==='undefined'||!RIC.track||(RIC.off&&RIC.off()))return;const t=Date.now(),l=+(localStorage.getItem('ri_cx')||0),nm=nomTape(),dj=localStorage.getItem('ri_cxnom')||'';
+  if(t-l<30*60000&&nm===dj)return;localStorage.setItem('ri_cx',String(t));localStorage.setItem('ri_cxnom',nm);
+  const c=cpt(),p={};if(c)p.cpt=c;if(nm)p.nom=nm;RIC.track('connexion',p)}catch(e){}}
  window.riConnexion=cx;
  setTimeout(cx,5000);
  document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')setTimeout(cx,1500)});
+ /* nom, filière ou licence changés à l'accueil : envoyés tout de suite au tableau de bord */
+ let vu=null;setInterval(()=>{try{const k=nomTape()+'|'+(S.fil||'')+'|'+(S.niv||'');if(vu===null){vu=k;return}if(k!==vu){vu=k;localStorage.removeItem('ri_cx');cx()}}catch(e){}},4000);
 })();
 
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
