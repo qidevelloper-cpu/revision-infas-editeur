@@ -3345,4 +3345,66 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
  let vu=null;setInterval(()=>{try{const k=nomTape()+'|'+(S.fil||'')+'|'+(S.niv||'');if(vu===null){vu=k;return}if(k!==vu){vu=k;localStorage.removeItem('ri_cx');cx()}}catch(e){}},4000);
 })();
 
+/* =========================================================
+   NOM OBLIGATOIRE · un élève qui a fini l'accueil sans nom doit le taper (il est envoyé au tableau de bord)
+   ========================================================= */
+(function(){
+ let AUCOMPO=false;try{const n=(performance.getEntriesByType('navigation')[0]||{}).name||location.href;AUCOMPO=/[?&]compo=/.test(n)}catch(e){}
+ function besoin(){try{return !!(window.PORTAIL_READY&&S&&S.onb&&!String(S.name||'').trim()&&!(typeof EDITMODE!=='undefined'&&EDITMODE)&&!AUCOMPO&&!/[?&]compo=/.test(location.search)&&!document.getElementById('rinom'))}catch(e){return false}}
+ function demander(){if(!besoin())return;const o=document.createElement('div');o.id='rinom';o.setAttribute('role','dialog');o.setAttribute('aria-modal','true');
+  o.style.cssText='position:fixed;inset:0;z-index:9990;background:rgba(10,20,18,.6);display:flex;align-items:center;justify-content:center;padding:18px';
+  o.innerHTML=`<div style="background:var(--card,#fff);color:var(--ink,#16231F);width:100%;max-width:420px;border-radius:24px;box-shadow:0 18px 50px rgba(0,0,0,.3);padding:24px 20px 18px">
+   <div style="font-size:40px;text-align:center;line-height:1">👋</div><div style="font-size:21px;font-weight:900;text-align:center;margin-top:8px">${esc(Tx('nomob.t','Comment t’appelles-tu ?'))}</div>
+   <div style="font-size:14.5px;opacity:.8;text-align:center;margin-top:4px">${esc(Tx('nomob.s','Écris ton prénom et ton nom pour continuer.'))}</div>
+   <input id="rinomI" type="text" autocomplete="name" maxlength="60" placeholder="${esc(Tx('nomob.ph','Prénom et nom'))}" style="width:100%;margin-top:16px;min-height:50px;border-radius:14px;border:2px solid var(--line,#d9dfe7);padding:0 14px;font:inherit;font-size:17px;background:var(--card,#fff);color:inherit">
+   <button id="rinomOk" style="width:100%;margin-top:12px;min-height:52px;border-radius:16px;background:var(--coral,#E8772E);color:#fff;font-weight:800;font-size:17px">${esc(Tx('nomob.ok','Continuer'))}</button></div>`;
+  document.body.appendChild(o);const i=document.getElementById('rinomI');setTimeout(()=>{try{i.focus()}catch(e){}},200);
+  const ok=()=>{const v=i.value.replace(/\s+/g,' ').trim();if(v.length<2){toast(Tx('toast.name','Écris ton nom pour continuer'));i.focus();return}
+   S.name=v.slice(0,60);save();o.remove();try{render()}catch(e){}try{localStorage.removeItem('ri_cx');window.riConnexion&&window.riConnexion()}catch(e){}toast(Tx('toast.welcome','Bienvenue {name} 🎉',{name:S.name}))};
+  document.getElementById('rinomOk').onclick=ok;i.onkeydown=e=>{if(e.key==='Enter')ok()}}
+ window.riNomObligatoire=demander;
+ setInterval(demander,3000);
+})();
+
+/* =========================================================
+   TEMPS PASSÉ · trace « temps » (secondes passées appli ouverte et visible), envoyée par paquets pour le tableau de bord
+   RÉPONSES AUX SIGNALEMENTS · l'administrateur répond depuis le tableau de bord ; l'élève qui a signalé la voit à l'accueil
+   ========================================================= */
+(function(){
+ const LK='ri_tps';let vu=Date.now();
+ const lire=()=>{try{return +(localStorage.getItem(LK)||0)||0}catch(e){return 0}},ecrire=v=>{try{localStorage.setItem(LK,String(Math.max(0,Math.round(v))))}catch(e){}};
+ function compter(){if(document.hidden){vu=Date.now();return}const t=Date.now(),d=Math.min(60,(t-vu)/1000);vu=t;if(d>0)ecrire(lire()+d)}
+ function envoyer(min){try{compter();const v=lire();if(v<(min||300)||typeof RIC==='undefined'||!RIC.track||(RIC.off&&RIC.off()))return;ecrire(0);RIC.track('temps',{s:Math.min(3600,Math.round(v))})}catch(e){}}
+ setInterval(()=>{compter();if(lire()>=300)envoyer(300)},30e3);
+ document.addEventListener('visibilitychange',()=>{if(document.hidden){compter();envoyer(30)}else vu=Date.now()});
+ window.riTemps={compter,envoyer,lire};
+
+ const VK='ri_rep_vus';
+ const vus=()=>{try{return JSON.parse(localStorage.getItem(VK)||'[]')}catch(e){return[]}};
+ let dern=0,enCours=false;
+ async function verifier(force){try{
+  if(enCours||typeof RIC==='undefined'||!RIC.url||!RIC.key||(RIC.off&&RIC.off())||!navigator.onLine)return;const t=Date.now();if(!force&&t-dern<10*60e3)return;dern=t;enCours=true;
+  const r=await fetch(RIC.url+'/rest/v1/rpc/mes_reponses_signalements',{method:'POST',headers:{apikey:RIC.key,'Content-Type':'application/json'},body:JSON.stringify({p_appareil:RIC.device()})});
+  if(!r.ok)return;const L=await r.json();if(!Array.isArray(L))return;const V=vus();window.__riReps=L;const n=L.filter(x=>x&&x.id&&!V.includes(x.id));if(n.length)montrer(n)}catch(e){}finally{enCours=false}}
+ function montrer(L){const x=L[0];if(!x||document.getElementById('rirepo'))return;
+  if(/[?&]compo=/.test(location.search)||document.getElementById('rinom')||!(S&&S.onb)){setTimeout(()=>montrer(L),8000);return}
+  const m=(typeof matOf==='function'&&matOf(x.mat))||{},cor=x.type==='corrigee';
+  const o=document.createElement('div');o.id='rirepo';o.className='pmod';o.setAttribute('role','dialog');o.setAttribute('aria-modal','true');
+  o.innerHTML=`<div class="pbox"><div style="font-size:38px;text-align:center;line-height:1">📩</div>
+   <h3 style="text-align:center;margin:8px 0 4px">${esc(Tx('rep.t','Réponse à ton signalement'))}</h3>
+   <div style="text-align:center;margin-bottom:10px"><span style="display:inline-block;padding:4px 12px;border-radius:999px;font-weight:800;font-size:13.5px;${cor?'background:#e7f8ee;color:#166534':'background:#eef2ff;color:#3730a3'}">${cor?esc(Tx('rep.cor','✅ Réponse corrigée')):esc(Tx('rep.ecl','💡 Éclaircissement sur la réponse'))}</span></div>
+   <div class="muted small" style="margin-bottom:6px"><b>${esc(m.short||m.title||x.mat||'')}</b> · ${esc(String(x.question||'')).slice(0,220)}</div>
+   ${x.message?`<div class="small" style="opacity:.75;margin-bottom:10px">${esc(Tx('rep.toi','Ton message :'))} « ${esc(String(x.message).slice(0,200))} »</div>`:''}
+   <div style="background:var(--tint,#f3f6f5);border-radius:14px;padding:12px 14px;font-size:15.5px;line-height:1.45;white-space:pre-wrap">${esc(x.reponse||'')}</div>
+   <div class="row2" style="margin-top:14px"><button class="btn coral" id="rirepoOk">${esc(Tx('rep.ok','J’ai compris'))}</button>${x.qid&&QI[x.qid]?`<button class="btn light" id="rirepoQ">${esc(Tx('rep.voir','Voir la question'))}</button>`:''}</div></div>`;
+  document.body.appendChild(o);
+  const fini=()=>{const V=vus();if(!V.includes(x.id))V.push(x.id);try{localStorage.setItem(VK,JSON.stringify(V.slice(-200)))}catch(e){}o.remove();try{RIC.track&&RIC.track('reponse_lue',{type:x.type||''})}catch(e){}const reste=L.slice(1);if(reste.length)setTimeout(()=>montrer(reste),600)};
+  document.getElementById('rirepoOk').onclick=fini;
+  const bq=document.getElementById('rirepoQ');if(bq)bq.onclick=()=>{fini();try{const q=QI[x.qid];if(typeof startFil==='function'&&q)startFil(q.m,[x.qid],Tx('rep.q','Question signalée'))}catch(e){}};
+ }
+ window.riReponses=verifier;
+ setTimeout(()=>verifier(true),7000);
+ document.addEventListener('visibilitychange',()=>{if(!document.hidden)setTimeout(()=>verifier(false),2000)});
+})();
+
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
