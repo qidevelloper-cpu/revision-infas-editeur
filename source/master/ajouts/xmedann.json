@@ -1,0 +1,95 @@
+{
+ "version": 1,
+ "ajoute": "2026-11-11",
+ "mat": {
+  "id": "xmedann",
+  "title": "Médecine — Annales corrigées L3 IDE",
+  "short": "Médecine",
+  "emo": "🩺",
+  "col": "#0E7490",
+  "sub": "Annales de soins infirmiers en médecine 2022-2026 · 500 questions corrigées · 9 sujets",
+  "de": "non",
+  "vue": "sujets",
+  "accueil": true,
+  "revTitre": "DOCUMENT DE REVISION MEDECINE",
+  "ch": [
+   "Examen de Certification IDE — Session Unique 2024",
+   "Examen Blanc de Certification IDE 2024 — INFAS Abidjan",
+   "Contrôle de Connaissance L2-IDE — 2025",
+   "Examen 1re Session Diplôme IDE / SFM (2022-2023) + Condensé",
+   "Exercices D.E. Licence 3-IDE-2023 (Nightingale, Kédjébo, Gofa)",
+   "Épreuve de Soins Infirmiers en Médecine L3-IDE (Sujet Version A)",
+   "Recueil de 7 Cas Cliniques (Dimbokro, PTME, Korhogo, Yakro) & QCM",
+   "QCM et QCD : Diabète, MCV, RAA, Cancer, Soins Palliatifs, BPCO",
+   "Sujets INFAS : Cas M. Goualo, M. Thomas, Mme Ble Jeanne & QCM"
+  ],
+  "groupesSujets": [
+   {
+    "t": "Partie 1",
+    "k": [
+     0
+    ]
+   },
+   {
+    "t": "Partie 2",
+    "k": [
+     1
+    ]
+   },
+   {
+    "t": "Partie 3",
+    "k": [
+     2
+    ]
+   },
+   {
+    "t": "Partie 4",
+    "k": [
+     3
+    ]
+   },
+   {
+    "t": "Partie 5",
+    "k": [
+     4
+    ]
+   },
+   {
+    "t": "Partie 6",
+    "k": [
+     5
+    ]
+   },
+   {
+    "t": "Partie 7",
+    "k": [
+     6
+    ]
+   },
+   {
+    "t": "Partie 8",
+    "k": [
+     7
+    ]
+   },
+   {
+    "t": "Partie 9",
+    "k": [
+     8
+    ]
+   }
+  ]
+ },
+ "suit": "xmvkq5l1e",
+ "groupes": [
+  {
+   "g": "med",
+   "apres": "xmvkq5l1e"
+  }
+ ],
+ "origine": {
+  "fichier": "Corrige_Integrale_Annales_Revision_L3_IDE_2026.docx",
+  "sha256": "2d8c6aad64a09b89f2f750409e782ada6d728679efeee690c9f98ae5a230ea9a"
+ },
+ "questions": "ajouts/xmedann-questions.json : les 500 questions de l’annale, un sujet par partie (9 parties)"
+}

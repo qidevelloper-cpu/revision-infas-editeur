@@ -1,0 +1,291 @@
+{
+ "app": "xmvkq4zed",
+ "id": "u-s3-2026-korhogo-gyneco-b",
+ "titre": "S3 : 2026 · KORHOGO Gynéco-obstétrique (Version B)",
+ "session": "S3",
+ "annee": 2026,
+ "nq": 7,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
+   "sha256": "35ebf75f6c922dba1938fae9b90358b0785836a124b060836b221817da0415f6"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "KORHOGO (S3 : 2026)",
+   "slug": "korhogo-3",
+   "session": "S3",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "Gynéco-obstétrique (Version B)",
+     "slug": "gynecologie-obstetrique-b",
+     "dans": "gynecologie-obstetrique",
+     "pages": "",
+     "count": 7,
+     "session": "S3",
+     "annee": 2026,
+     "source": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
+     "questions": [
+      {
+       "id": "korhogo-3__gynecologie-obstetrique-b__0",
+       "num": "27",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Cas clinique",
+       "partieTitle": "Version B",
+       "caseTitle": "Cas de Mme ALLO (Version B)",
+       "caseData": null,
+       "text": "Pensez-vous que Mme ALLO était éligible au DIU ? Choisir la réponse juste.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "OUI"
+        },
+        {
+         "letter": "B",
+         "text": "NON"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. NON",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Mme ALLO avait une rupture prématurée des membranes prolongée de 24 heures à domicile avant l'accouchement (risque élevé de chorioamniotite / sepsis puerpéral) : elle n'était donc PAS éligible à la pose immédiate d'un DIU post-placentaire.\n\nSource : OMS — Critères de recevabilité médicale pour l'adoption et l'utilisation continue de méthodes contraceptives (https://iris.who.int/server/api/core/bitstreams/1d5851c7-89b7-4af0-a0b6-bfb44c752e78/content)",
+       "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
+       "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
+       "sourcePage": null,
+       "apres": "korhogo-3__gynecologie-obstetrique__26"
+      },
+      {
+       "id": "korhogo-3__gynecologie-obstetrique-b__1",
+       "num": "28",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Cas clinique",
+       "partieTitle": "Version B",
+       "caseTitle": "Cas de Mme ALLO (Version B)",
+       "caseData": null,
+       "text": "Dans quelle catégorie d’éligibilité placez-vous Mme ALLO ? Choisir la réponse juste.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Catégorie 1"
+        },
+        {
+         "letter": "B",
+         "text": "Catégorie 2"
+        },
+        {
+         "letter": "C",
+         "text": "Catégorie 3"
+        },
+        {
+         "letter": "D",
+         "text": "Catégorie 4"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Catégorie 3",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Selon les Critères de recevabilité médicale de l'OMS, une rupture prolongée des membranes (≥ 24 heures) avant l'accouchement classe l'insertion post-partum du DIU en Catégorie 3 (ou Catégorie 4 en cas de chorioamniotite/sepsis puerpéral).\n\nRéponse du corrigé : C (Catégorie 3) / D (Catégorie 4)\n\nSource : OMS — Critères de recevabilité médicale pour l'adoption et l'utilisation continue de méthodes contraceptives (https://iris.who.int/server/api/core/bitstreams/1d5851c7-89b7-4af0-a0b6-bfb44c752e78/content)",
+       "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
+       "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
+       "sourcePage": null,
+       "apres": "korhogo-3__gynecologie-obstetrique-b__0"
+      },
+      {
+       "id": "korhogo-3__gynecologie-obstetrique-b__2",
+       "num": "29",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Cas clinique",
+       "partieTitle": "Version B",
+       "caseTitle": "Cas de Mme ALLO (Version B)",
+       "caseData": null,
+       "text": "Selon le texte, quels sont les éléments en faveur de cette catégorie du DIU de Mme ALLO ? Choisir la réponse juste.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Mme Allo est âgée de 33 ans"
+        },
+        {
+         "letter": "B",
+         "text": "Mme Allo ne veut pas d’autres enfants"
+        },
+        {
+         "letter": "C",
+         "text": "Mme Allo a perdu les eaux 24 heures avant son accouchement"
+        },
+        {
+         "letter": "D",
+         "text": "Toutes les réponses sont justes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Mme Allo a perdu les eaux 24 heures avant son accouchement",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "C'est précisément la perte des eaux prolongée (RPM de 24 heures à domicile avant l'accouchement) qui expose au risque infectieux endo-utérin et justifie sa non-éligibilité (Catégorie 3/4).\n\nSource : OMS — Critères de recevabilité médicale pour l'adoption et l'utilisation continue de méthodes contraceptives (https://iris.who.int/server/api/core/bitstreams/1d5851c7-89b7-4af0-a0b6-bfb44c752e78/content)",
+       "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
+       "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
+       "sourcePage": null,
+       "apres": "korhogo-3__gynecologie-obstetrique-b__1"
+      },
+      {
+       "id": "korhogo-3__gynecologie-obstetrique-b__3",
+       "num": "30",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Cas clinique",
+       "partieTitle": "Version B",
+       "caseTitle": "Cas de Mme ALLO (Version B)",
+       "caseData": null,
+       "text": "Comment appelle-t-on l’insertion dont elle a bénéficié ? Choisir la réponse juste.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Insertion post-partum"
+        },
+        {
+         "letter": "B",
+         "text": "Insertion post-placentaire"
+        },
+        {
+         "letter": "C",
+         "text": "Insertion post-partum immédiat"
+        },
+        {
+         "letter": "D",
+         "text": "Insertion d’intervalle"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Insertion post-placentaire",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Un DIU inséré dans les 10 à 30 minutes suivant l'expulsion du placenta (ici 27 minutes après l'accouchement) correspond à une insertion post-placentaire immédiate (faisant partie de l'insertion du post-partum immédiat < 48 h).\n\nRéponse du corrigé : B (Insertion post-placentaire) / C (Insertion post-partum immédiat)\n\nSource : OMS — Critères de recevabilité médicale pour l'adoption et l'utilisation continue de méthodes contraceptives (https://iris.who.int/server/api/core/bitstreams/1d5851c7-89b7-4af0-a0b6-bfb44c752e78/content)",
+       "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
+       "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
+       "sourcePage": null,
+       "apres": "korhogo-3__gynecologie-obstetrique-b__2"
+      },
+      {
+       "id": "korhogo-3__gynecologie-obstetrique-b__4",
+       "num": "31",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Cas clinique",
+       "partieTitle": "Version B",
+       "caseTitle": "Cas de Mme ALLO (Version B)",
+       "caseData": null,
+       "text": "Quel est le type de DIU inséré à Mme ALLO ? Choisir la réponse juste.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "DIU au cuivre"
+        },
+        {
+         "letter": "B",
+         "text": "DIU hormonal"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. DIU au cuivre",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "En Côte d'Ivoire, le DIU utilisé dans les programmes nationaux pour l'insertion du post-partum immédiat est le DIU au cuivre TCu 380A.\n\nSource : OMS — Critères de recevabilité médicale pour l'adoption et l'utilisation continue de méthodes contraceptives (https://iris.who.int/server/api/core/bitstreams/1d5851c7-89b7-4af0-a0b6-bfb44c752e78/content)",
+       "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
+       "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
+       "sourcePage": null,
+       "apres": "korhogo-3__gynecologie-obstetrique-b__3"
+      },
+      {
+       "id": "korhogo-3__gynecologie-obstetrique-b__5",
+       "num": "32",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Cas clinique",
+       "partieTitle": "Version B",
+       "caseTitle": "Cas de Mme ALLO (Version B)",
+       "caseData": null,
+       "text": "Quelle est sa durée d’action ? Choisir la réponse juste.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "6 ans"
+        },
+        {
+         "letter": "B",
+         "text": "5 ans"
+        },
+        {
+         "letter": "C",
+         "text": "12 ans"
+        },
+        {
+         "letter": "D",
+         "text": "15 ans"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 12 ans",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le DIU au cuivre TCu 380A a une durée d'efficacité contraceptive homologuée de 12 ans (10 à 12 ans).\n\nSource : OMS — Critères de recevabilité médicale pour l'adoption et l'utilisation continue de méthodes contraceptives (https://iris.who.int/server/api/core/bitstreams/1d5851c7-89b7-4af0-a0b6-bfb44c752e78/content)",
+       "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
+       "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
+       "sourcePage": null,
+       "apres": "korhogo-3__gynecologie-obstetrique-b__4"
+      },
+      {
+       "id": "korhogo-3__gynecologie-obstetrique-b__6",
+       "num": "33",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Cas clinique",
+       "partieTitle": "Version B",
+       "caseTitle": "Cas de Mme ALLO (Version B)",
+       "caseData": null,
+       "text": "Que craignez-vous pour les fils non perçus par Mme ALLO ? Choisir la réponse juste.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Déchirure du col"
+        },
+        {
+         "letter": "B",
+         "text": "Migration du DIU"
+        },
+        {
+         "letter": "C",
+         "text": "Migration des fils"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Migration du DIU",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Lorsque la cliente ne perçoit plus les fils du DIU, on craint principalement une expulsion inaperçue, une migration/perforation du DIU (B) ou une ascension des fils dans la cavité endocervicale/utérine (C).\n\nRéponse du corrigé : B (Migration du DIU) / C (Migration des fils)\n\nSource : OMS — Critères de recevabilité médicale pour l'adoption et l'utilisation continue de méthodes contraceptives (https://iris.who.int/server/api/core/bitstreams/1d5851c7-89b7-4af0-a0b6-bfb44c752e78/content)",
+       "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
+       "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
+       "sourcePage": null,
+       "apres": "korhogo-3__gynecologie-obstetrique-b__5"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

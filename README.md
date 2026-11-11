@@ -30,8 +30,8 @@ python3 tools/assembler_maitre.py source/master RI-editeur.html
 ```
 
 L'outil vérifie l'empreinte de chaque morceau puis celle du fichier complet ; il n'écrit rien en cas d'écart et
-n'écrase jamais un fichier existant. Résultat attendu : **120 527 248 octets**, SHA-256
-`b38ae66a98d238f1d59d8501ba45b02a8fbfbf5139d14e66cb83309ff43de4ea`. Ouvrir `RI-editeur.html` dans le navigateur.
+n'écrase jamais un fichier existant. Résultat attendu : **124 289 208 octets**, SHA-256
+`c3c896a4911cd6267807748a8a9f22efe46eba711c4925f712611ff6453a0226`. Ouvrir `RI-editeur.html` dans le navigateur.
 
 ## À savoir
 

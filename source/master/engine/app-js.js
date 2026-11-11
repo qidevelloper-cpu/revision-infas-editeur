@@ -804,13 +804,27 @@ const isIOS=()=>/iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platfo
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();BIP=e;setTimeout(()=>instAsk(),2500)});
 window.addEventListener('appinstalled',()=>{try{S.installed=1;save()}catch(e){}const d=$('#instAsk');if(d)d.remove();toast(Tx('in.ok','📲 Application installée : retrouve-la sur ton écran d’accueil'),4000)});
 function instDo(){if(BIP){const p=BIP;BIP=null;p.prompt();p.userChoice.then(c=>{if(c&&c.outcome!=='accepted'){S.instAsk=Date.now();save()}}).catch(()=>{})}else if(isIOS())instAsk(true)}
+/* iPhone : l'installation ne marche que dans Safari. Ailleurs (Chrome, Google, Facebook, Instagram, TikTok… ou page ouverte dans une
+   autre appli) : « Ouvre ce lien dans Safari » + bouton Copier le lien. Dans Safari : les 3 gestes, et un avertissement — dans la liste
+   Partager, seul « Sur l'écran d'accueil » installe l'appli (des raccourcis comme « R↓Download » mènent à des publicités). */
+function iosNavigateur(){const u=navigator.userAgent||'';if(/CriOS|FxiOS|EdgiOS|OPiOS|OPT\/|YaBrowser|DuckDuckGo|GSA\/|FBAN|FBAV|FB_IAB|Instagram|Line\/|Snapchat|TikTok|musical_ly|BytedanceWebview|Twitter|Pinterest|LinkedInApp|MicroMessenger/i.test(u))return 'autre';
+ if(/Mobile\//.test(u)&&!/Safari\//.test(u))return 'autre';return 'safari'}
+function iosCopier(){const l=location.origin+location.pathname.replace(/index\.html$/,'');const ok=()=>toast(Tx('in.copie','Lien copié : ouvre Safari et colle-le dans la barre d’adresse'));
+ try{navigator.clipboard.writeText(l).then(ok).catch(()=>prompt(Tx('in.copie2','Copie ce lien puis colle-le dans Safari :'),l))}catch(e){prompt(Tx('in.copie2','Copie ce lien puis colle-le dans Safari :'),l)}}
+function iosGuideHTML(){const et=(n,t)=>`<div style="display:flex;gap:8px;align-items:flex-start;margin:6px 0"><b style="flex:0 0 22px;height:22px;border-radius:50%;background:var(--h1,#1d4ed8);color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px">${n}</b><span>${t}</span></div>`;
+ if(iosNavigateur()!=='safari')return `<div><b>${esc(Tx('in.sf0','⚠️ Ouvre d’abord ce lien dans Safari'))}</b></div>`+et(1,esc(Tx('in.sf1','Ici, l’installation n’est pas possible : il faut l’appli Safari (la boussole bleue).')))
+  +et(2,esc(Tx('in.sf2','Touche ⋯ ou le menu de cette appli, puis « Ouvrir dans Safari ». Sinon, copie le lien et colle-le dans Safari.')))
+  +`<button class="btn coral" style="width:100%;margin-top:6px" onclick="iosCopier()">${esc(Tx('in.cp','📋 Copier le lien'))}</button>`;
+ return et(1,esc(Tx('in.i1','Touche le bouton Partager ⬆️ (carré avec une flèche vers le haut), en bas de Safari ou à côté de l’adresse.')))
+  +et(2,esc(Tx('in.i2','Fais défiler la liste vers le bas et touche « Sur l’écran d’accueil » ⊞.')))+et(3,esc(Tx('in.i3','Touche « Ajouter » en haut à droite : l’icône Révision INFAS apparaît sur ton écran.')))
+  +`<div class="small" style="margin-top:8px;padding:8px 10px;border-radius:10px;background:#fff7ed;color:#9a3412">${esc(Tx('in.warn','⚠️ Ne touche aucun autre choix de cette liste (par exemple « R↓Download » ou d’autres raccourcis) : ils ne viennent pas de Révision INFAS et ouvrent des publicités. Seul « Sur l’écran d’accueil » installe l’appli.'))}</div>`}
 function instAsk(force){try{if(isStandalone()||!/^https?:$/.test(location.protocol)||EDITMODE)return;const RI2=window.riInstallee?riInstallee():{};const man=!BIP&&!isIOS()&&RI2.related===false&&/android/i.test(navigator.userAgent);   /* Android : pas d'installation proposée par Chrome mais appli non installée → mode d'emploi */
  if(!BIP&&!isIOS()&&!man)return;if(!force&&(RI2.related===true||(S.installed&&!BIP)))return;   /* déjà installée sur ce téléphone */
  if(!force&&window.riCompo&&riCompo()&&riCompo().lance)return;   /* jamais pendant une compo */
  if(!force&&S.instAsk&&Date.now()-S.instAsk<6e5)return;   /* « Plus tard » : nouveau rappel 10 minutes après */
  if($('#instAsk'))return;if(!force&&($('#relNote')||$('#rkup')||$('#updBar')||$('#nfAsk'))){setTimeout(()=>instAsk(),4000);return}
  const d=document.createElement('div');d.id='instAsk';d.className='nfask instask';const ios=!BIP&&(isIOS()||man);
- d.innerHTML=`<div class="nfab"><img src="icons/icon-192.png" alt="" class="instic" onerror="this.style.display='none'"><div><b>${esc(Tx('in.t','📲 Installe l’application Révision INFAS'))}</b><div class="muted small">${esc(Tx('in.s','Installe-la pour y avoir accès en permanence : un seul appui depuis ton écran d’accueil, même sans internet, avec tes rappels de révision. C’est gratuit et léger.'))}</div></div></div>${ios?`<div class="insios">${man?esc(Tx('in.and','Dans Chrome : touche les trois points ⋮ en haut à droite, puis « Installer l’application » ou « Ajouter à l’écran d’accueil ».')):esc(Tx('in.ios','Sur iPhone : touche le bouton Partager (carré avec une flèche vers le haut) en bas de Safari, puis « Sur l’écran d’accueil ».'))}</div><div class="nfab2"><button class="btn light" id="inN" style="width:100%">${esc(Tx('in.okios','J’ai compris'))}</button></div>`:`<div class="nfab2"><button class="btn coral" id="inY">${esc(Tx('in.y','Installer'))}</button><button class="btn light" id="inN">${esc(Tx('in.n','Plus tard'))}</button></div>`}`;
+ d.innerHTML=`<div class="nfab"><img src="icons/icon-192.png" alt="" class="instic" onerror="this.style.display='none'"><div><b>${esc(Tx('in.t','📲 Installe l’application Révision INFAS'))}</b><div class="muted small">${esc(Tx('in.s','Installe-la pour y avoir accès en permanence : un seul appui depuis ton écran d’accueil, même sans internet, avec tes rappels de révision. C’est gratuit et léger.'))}</div></div></div>${ios?`<div class="insios">${man?esc(Tx('in.and','Dans Chrome : touche les trois points ⋮ en haut à droite, puis « Installer l’application » ou « Ajouter à l’écran d’accueil ».')):iosGuideHTML()}</div><div class="nfab2"><button class="btn light" id="inN" style="width:100%">${esc(Tx('in.okios','J’ai compris'))}</button></div>`:`<div class="nfab2"><button class="btn coral" id="inY">${esc(Tx('in.y','Installer'))}</button><button class="btn light" id="inN">${esc(Tx('in.n','Plus tard'))}</button></div>`}`;
  document.body.appendChild(d);const y=$('#inY',d);if(y)y.onclick=()=>{d.remove();instDo()};$('#inN',d).onclick=()=>{S.instAsk=Date.now();save();d.remove()}}catch(e){}}
 
 /* ---------- 5. TAILLE DU TEXTE (choix de l'étudiant) + type de recherche ---------- */
@@ -1146,9 +1160,9 @@ try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_ca
     }
     preview();
   }
-  function open() { if (!ov) build(); ov.classList.remove('hidden'); preview(); requestAnimationFrame(() => ov._applyP && ov._applyP()); }
+  function open(force) { if (force !== true && typeof window.RI_CALC_GUARD === 'function' && !window.RI_CALC_GUARD()) return; if (!ov) build(); ov.classList.remove('hidden'); preview(); requestAnimationFrame(() => ov._applyP && ov._applyP()); }
   function close() { if (ov) ov.classList.add('hidden'); }
-  window.openCalculator = open; window.closeCalculator = close;
+  window.openCalculator = open; window.closeCalculator = close; window.__calcOuvrir = () => open(true);
   // clavier physique
   document.addEventListener('keydown', e => {
     if (!ov || ov.classList.contains('hidden')) return;
@@ -2239,11 +2253,11 @@ const RIC={
     get('announcements?select=id,titre,texte,cible,couleur,du,au')]);
    const regles={};rules.forEach(r=>{regles[r.cle]=r.quota_gratuit==null?{acces:r.acces}:{acces:r.acces,quotaGratuit:r.quota_gratuit}});
    const sv=k=>{const x=sets.find(r=>r.cle===k);return(x&&x.valeur)||{}};const pa=sv('public.access'),pay=sv('public.paiement');
-   const old=JSON.stringify(RIC.cfg.regles)+RIC.cfg.defaut+JSON.stringify(RIC.cfg.annonces)+JSON.stringify(RIC.cfg.questions||{})+JSON.stringify(RIC.cfg.promo||null);
+   const old=JSON.stringify(RIC.cfg.regles)+RIC.cfg.defaut+JSON.stringify(RIC.cfg.annonces)+JSON.stringify(RIC.cfg.questions||{})+JSON.stringify(RIC.cfg.promo||null)+JSON.stringify(RIC.cfg.offres||null);
    let google=false;try{const r=await fetch(RIC.url+'/auth/v1/settings',{headers:H(),cache:'no-store'});if(r.ok){const j=await r.json();google=!!(j.external&&j.external.google)}}catch(e){}
-   RIC.cfg={regles,defaut:pa.defaut==='premium'?'premium':'gratuit',version:pa.version||0,questions:(pa.questions&&typeof pa.questions==='object')?pa.questions:{},plusapp:(pa.plusapp&&typeof pa.plusapp==='object')?pa.plusapp:{},plans,annonces:ann,google,paiement:pay,promo:(pa.promo&&typeof pa.promo==='object')?pa.promo:null,fincorr:(pa.fincorr&&typeof pa.fincorr==='object')?pa.fincorr:{},t:Date.now()};
+   RIC.cfg={regles,defaut:pa.defaut==='premium'?'premium':'gratuit',version:pa.version||0,questions:(pa.questions&&typeof pa.questions==='object')?pa.questions:{},plusapp:(pa.plusapp&&typeof pa.plusapp==='object')?pa.plusapp:{},plans,annonces:ann,google,paiement:pay,promo:(pa.promo&&typeof pa.promo==='object')?pa.promo:null,fincorr:(pa.fincorr&&typeof pa.fincorr==='object')?pa.fincorr:{},nosig:(pa.nosig&&typeof pa.nosig==='object')?pa.nosig:{},offres:(pa.offres&&typeof pa.offres==='object')?pa.offres:null,t:Date.now()};
    LS.set(RIC.CK,RIC.cfg);RIC.ready=true;
-   if(old!==JSON.stringify(regles)+RIC.cfg.defaut+JSON.stringify(ann)+JSON.stringify(RIC.cfg.questions)+JSON.stringify(RIC.cfg.promo||null)&&typeof render==='function'&&!EDITMODE&&!quiet)render();
+   if(old!==JSON.stringify(regles)+RIC.cfg.defaut+JSON.stringify(ann)+JSON.stringify(RIC.cfg.questions)+JSON.stringify(RIC.cfg.promo||null)+JSON.stringify(RIC.cfg.offres||null)&&typeof render==='function'&&!EDITMODE&&!quiet)render();
   }catch(e){console.warn('RI cloud : règles non mises à jour',e)}
   RIC.busy=false;flush()}
  RIC.refresh=refresh;
@@ -2278,12 +2292,15 @@ const RIC={
  RIC.qOk=qid=>{const q=QI[qid];if(!q)return true;return RIC.can('matiere:'+q.m+'/sujet:'+sujetNo(qid))};
 
  /* ---------- statistiques anonymes ---------- */
- function track(nom,props){if(RIC.off())return;try{const q=LS.get(RIC.QK,[]);q.push({nom,appareil:device(),props:Object.assign({fil:S&&S.fil||'',niv:S&&S.niv||''},props||{}),created_at:new Date().toISOString()});LS.set(RIC.QK,q.slice(-300));flush()}catch(e){}}
+ function track(nom,props){if(RIC.off())return;try{const q=LS.get(RIC.QK,[]);q.push({nom,appareil:device(),props:Object.assign({fil:S&&S.fil||'',niv:S&&S.niv||''},S&&String(S.name||'').trim()?{nom:String(S.name).trim().slice(0,60)}:{},props||{}),created_at:new Date().toISOString()});LS.set(RIC.QK,q.slice(-300));flush()}catch(e){}}
  RIC.track=track;
  let flushing=false;
  async function flush(){if(flushing||!navigator.onLine)return;const q=LS.get(RIC.QK,[]);if(!q.length)return;flushing=true;
   try{await post('events',q.slice(0,100).map(e=>Object.assign({user_id:null},e)));LS.set(RIC.QK,LS.get(RIC.QK,[]).slice(Math.min(100,q.length)))}
-  catch(e){/* refus définitif (4xx) : on écarte ce lot pour ne pas bloquer la file ; coupure réseau : on réessaiera */if(/^4\d\d /.test(e.message))LS.set(RIC.QK,LS.get(RIC.QK,[]).slice(Math.min(100,q.length)));console.warn('RI cloud : statistiques en attente',e)}
+  catch(e){/* refus définitif (4xx) : une seule statistique refusée ne doit pas faire perdre tout le lot → on renvoie une par une
+     et on n'écarte que celles qui sont refusées ; coupure réseau : on réessaiera */
+   if(/^4\d\d /.test(e.message)){const lot=q.slice(0,100);let refus=0;for(const x of lot){try{await post('events',[Object.assign({user_id:null},x)])}catch(e2){if(!/^4\d\d /.test(e2.message))break;refus++}}
+    LS.set(RIC.QK,LS.get(RIC.QK,[]).slice(lot.length));if(refus)console.warn('RI cloud : '+refus+' statistique(s) refusée(s)')}else console.warn('RI cloud : statistiques en attente',e)}
   flushing=false}
  RIC.flush=flush;
  window.addEventListener('online',()=>{if(!RIC.off())refresh(true)});
@@ -2295,8 +2312,8 @@ const RIC={
  RIC.paywall=function(key,what){track('offre_vue',{cle:key});let o=$('#ripay');if(o)o.remove();o=document.createElement('div');o.id='ripay';o.className='pmod';
   const c=(E.content&&E.content.commu)||{};const adm=linkOk(c.admin)?c.admin:'';
   const payOk=RIC.payOuvert();
-  const P=(RIC.cfg.plans||[]).map(p=>`<div class="li" style="cursor:${payOk?'pointer':'default'}" ${payOk?`onclick="document.getElementById('ripay').remove();RIC.payer('${jsq(p.id)}')"`:''}><span class="em">⭐</span><span class="tx"><b>${esc(p.nom)}</b><small>${p.jours} jours d’accès complet</small></span><b style="white-space:nowrap">${fcfa(p.prix_xof)}</b></div>`).join('');
-  o.innerHTML=`<div class="pbox"><h3>🔒 ${esc(what||'Contenu Premium')}</h3><div class="muted small">Ce contenu fait partie de la version Premium de Révision INFAS : tous les sujets, les explications complètes et les applications complètes.</div>${P?`<div style="margin:12px 0">${P}</div>`:''}${payOk?`<div class="muted small">${RIC.session?'Touche un pass pour le payer par Mobile Money (Wave, Orange Money…).':'Pour payer, connecte-toi d’abord à ton compte : ton Premium y sera activé.'}</div>${RIC.session?`<button class="btn coral" style="width:100%;margin-top:10px" onclick="document.getElementById('ripay').remove();RIC.payer()">💳 Payer par Mobile Money</button>`:''}`:`<div class="muted small">Le paiement Mobile Money dans l’appli arrive bientôt. En attendant, écris à l’administrateur pour obtenir ton accès.${RIC.session?'':' Il l’activera sur ton compte : crée-le ou connecte-toi d’abord.'}</div>`}${RIC.session?'':'<button class="btn coral" style="width:100%;margin-top:10px" onclick="document.getElementById(\'ripay\').remove();RIC.compte()">👤 Me connecter à mon compte</button>'}<div class="row2" style="margin-top:12px">${adm?`<a class="btn coral" href="${esc(adm)}" target="_blank" rel="noopener" style="text-align:center;text-decoration:none">✉️ Écrire à l’administrateur</a>`:''}<button class="btn light" id="ripayX">Fermer</button></div></div>`;
+  const P=(RIC.paieVisible()?(RIC.cfg.plans||[]):[]).map(p=>`<div class="li" style="cursor:${payOk?'pointer':'default'}" ${payOk?`onclick="document.getElementById('ripay').remove();RIC.payer('${jsq(p.id)}')"`:''}><span class="em">⭐</span><span class="tx"><b>${esc(p.nom)}</b><small>${p.jours} jours d’accès complet</small></span><b style="white-space:nowrap">${fcfa(p.prix_xof)}</b></div>`).join('');
+  o.innerHTML=`<div class="pbox"><h3>🔒 ${esc(what||'Contenu Premium')}</h3><div class="muted small">Ce contenu fait partie de la version Premium de Révision INFAS : tous les sujets, les explications complètes et les applications complètes.</div>${P?`<div style="margin:12px 0">${P}</div>`:''}${payOk?`<div class="muted small">${RIC.session?'Touche un pass pour le payer par Mobile Money (Wave, Orange Money…).':'Pour payer, connecte-toi d’abord à ton compte : ton Premium y sera activé.'}</div>${RIC.session?`<button class="btn coral" style="width:100%;margin-top:10px" onclick="document.getElementById('ripay').remove();RIC.payer()">💳 Payer par Mobile Money</button>`:''}`:!RIC.paieVisible()?`<div class="muted small" style="margin-top:8px">Si tu as reçu un code d’activation, entre-le ici.</div><button class="btn coral" style="width:100%;margin-top:10px" onclick="document.getElementById('ripay').remove();RIC.code()">🎟️ J’ai un code d’activation</button>`:`<div class="muted small">Le paiement Mobile Money dans l’appli arrive bientôt. En attendant, écris à l’administrateur pour obtenir ton accès.${RIC.session?'':' Il l’activera sur ton compte : crée-le ou connecte-toi d’abord.'}</div>`}${RIC.session?'':'<button class="btn coral" style="width:100%;margin-top:10px" onclick="document.getElementById(\'ripay\').remove();RIC.compte()">👤 Me connecter à mon compte</button>'}<div class="row2" style="margin-top:12px">${adm?`<a class="btn coral" href="${esc(adm)}" target="_blank" rel="noopener" style="text-align:center;text-decoration:none">✉️ Écrire à l’administrateur</a>`:''}<button class="btn light" id="ripayX">Fermer</button></div></div>`;
   document.body.appendChild(o);$('#ripayX',o).onclick=()=>o.remove();o.onclick=e=>{if(e.target===o)o.remove()}};
 
  /* ---------- signalement d'erreur (texte + photo facultative) ----------
@@ -2316,7 +2333,7 @@ const RIC={
   try{await post('reports',[row])}
   catch(e){if(!/^4\d\d /.test(e.message)||!/photo|eleve|column/i.test(e.message))throw e;
    const r2=Object.assign({},row);if(r2.photo)r2.message=(r2.message+'\n[📷 photo : '+r2.photo+']').slice(0,1100);if(r2.eleve)r2.message=(r2.message+'\n['+r2.eleve+']').slice(0,1200);delete r2.photo;delete r2.eleve;await post('reports',[r2])}}
- RIC.report=function(qid){const q=QI[qid];if(!q)return;let o=$('#rirep');if(o)o.remove();o=document.createElement('div');o.id='rirep';o.className='pmod';let photo=null,b64=null;
+ RIC.report=function(qid){const q=QI[qid];if(!q)return;if((RIC.cfg.nosig||{})[qid]){toast('Cette question a déjà été vérifiée par l’enseignant ✅');return}let o=$('#rirep');if(o)o.remove();o=document.createElement('div');o.id='rirep';o.className='pmod';let photo=null,b64=null;
   const m=(typeof matOf==='function'&&matOf(q.m))||{};
   o.innerHTML=`<div class="pbox"><h3>⚑ Signaler une erreur</h3><div class="muted small" style="margin-bottom:8px"><b>${esc(m.short||m.title||q.m)}</b> · ${esc(q.q).slice(0,240)}</div>
    <textarea class="tin" id="rirepT" rows="4" maxlength="1000" placeholder="Explique l’erreur : mauvaise réponse, faute, image manquante… Tu peux proposer la bonne réponse."></textarea>
@@ -2412,7 +2429,7 @@ const RIC={
  RIC.compte=function(mode){let o=$('#ricpt');if(o)o.remove();o=document.createElement('div');o.id='ricpt';o.className='pmod';mode=mode||'creer';
   if(RIC.session){const s=RIC.statut||{};const prem=RIC.isPremium();
    const PA=(RIC.paiements||LS.get('ri_cloud_pay',[])).slice(0,3).map(p=>`<div class="muted small" style="margin:4px 0">${p.statut==='a_verifier'?(p.operateur==='wave'&&/^cos-/.test(p.reference||'')?'⏳ Paiement Wave en attente':'⏳ En vérification'):p.statut==='valide'?'✅ Validé':'❌ Refusé'} · ${esc(p.plan_nom)} · ${fcfa(p.montant_xof)} · ${esc((OPS[p.operateur]||[p.operateur])[0])}${p.statut==='refuse'&&p.motif?' — '+esc(p.motif):''}</div>`).join('');
-   o.innerHTML=`<div class="pbox"><h3>👤 Mon compte</h3><div class="li" style="cursor:default"><span class="em">${RIC.estAnon()?'📱':'✉️'}</span><span class="tx"><b>${RIC.estAnon()?esc([s.prenom,s.nom].filter(Boolean).join(' ')||(S&&S.name)||'Élève')+' · accès sur ce téléphone':esc(RIC.session.email||'Compte connecté')}</b><small>${s.statut==='bloque'?'Compte bloqué : contacte l’administrateur':prem?'⭐ Premium jusqu’au '+esc(finPremium()):'Version gratuite'}</small></span></div>${PA?`<div style="margin:8px 0"><b class="small">Mes paiements</b>${PA}</div>`:''}${!prem&&RIC.payOuvert()?`<button class="btn coral" style="width:100%;margin:6px 0" onclick="document.getElementById('ricpt').remove();RIC.payer()">💳 Passer Premium</button>`:''}<button class="btn light" style="width:100%;margin:6px 0" onclick="document.getElementById('ricpt').remove();RIC.code()">🎟️ J’ai un code d’activation</button>${RIC.estAnon()?`<div class="ri-envoi" style="margin:8px 0"><b class="small">⚠️ Ton accès est enregistré sur ce téléphone seulement.</b><div class="muted small" style="margin-top:4px">Si tu changes de téléphone ou effaces le navigateur, écris à l’administrateur avec ton code : il le réactivera. Pour ne rien perdre, tu peux aussi le relier à Google.</div><button class="btn light" style="width:100%;margin-top:8px" onclick="RIC.sauverAcces()">🔒 Sauvegarder mon accès avec Google</button></div>`:'<div class="muted small" style="margin:8px 0">Ton compte garde ton accès Premium. Il fonctionne sur 2 téléphones au maximum.</div>'}<div class="row2"><button class="btn light" id="ricRef">🔄 Actualiser</button><button class="btn light" id="ricOut">Se déconnecter</button></div><button class="btn light" style="width:100%;margin-top:8px" id="ricX">Fermer</button></div>`;
+   o.innerHTML=`<div class="pbox"><h3>👤 Mon compte</h3><div class="li" style="cursor:default"><span class="em">${RIC.estAnon()?'📱':'✉️'}</span><span class="tx"><b>${RIC.estAnon()?esc([s.prenom,s.nom].filter(Boolean).join(' ')||(S&&S.name)||'Élève')+' · accès sur ce téléphone':esc(RIC.session.email||'Compte connecté')}</b><small>${s.statut==='bloque'?'Compte bloqué : contacte l’administrateur':prem?(finPremium()?'⭐ Premium jusqu’au '+esc(finPremium()):'⭐ Premium'):'Version gratuite'}</small></span></div>${PA?`<div style="margin:8px 0"><b class="small">Mes paiements</b>${PA}</div>`:''}${!prem&&RIC.payOuvert()?`<button class="btn coral" style="width:100%;margin:6px 0" onclick="document.getElementById('ricpt').remove();RIC.payer()">💳 Passer Premium</button>`:''}<button class="btn light" style="width:100%;margin:6px 0" onclick="document.getElementById('ricpt').remove();RIC.code()">🎟️ J’ai un code d’activation</button>${RIC.estAnon()?`<div class="ri-envoi" style="margin:8px 0"><b class="small">⚠️ Ton accès est enregistré sur ce téléphone seulement.</b><div class="muted small" style="margin-top:4px">Si tu changes de téléphone ou effaces le navigateur, écris à l’administrateur avec ton code : il le réactivera. Pour ne rien perdre, tu peux aussi le relier à Google.</div><button class="btn light" style="width:100%;margin-top:8px" onclick="RIC.sauverAcces()">🔒 Sauvegarder mon accès avec Google</button></div>`:'<div class="muted small" style="margin:8px 0">Ton compte garde ton accès Premium. Il fonctionne sur 2 téléphones au maximum.</div>'}<div class="row2"><button class="btn light" id="ricRef">🔄 Actualiser</button><button class="btn light" id="ricOut">Se déconnecter</button></div><button class="btn light" style="width:100%;margin-top:8px" id="ricX">Fermer</button></div>`;
    document.body.appendChild(o);$('#ricX',o).onclick=()=>o.remove();$('#ricRef',o).onclick=async()=>{await RIC.syncCompte();o.remove();toast(RIC.isPremium()?'⭐ Premium actif':'Compte à jour')};
    $('#ricOut',o).onclick=async()=>{const bo=$('#ricOut',o);if(RIC.estAnon()&&!bo.dataset.ok){bo.dataset.ok=1;bo.textContent='⚠️ Ton Premium sera perdu sur ce téléphone · toucher encore';return}try{const t=await token();if(t)await fetch(RIC.url+'/auth/v1/logout',{method:'POST',headers:Object.assign(H(),{Authorization:'Bearer '+t})})}catch(e){}logoutLocal();o.remove();render();toast('Déconnecté')};return}
   const cr=mode==='creer',G=!!RIC.cfg.google,mail=mode==='email'||mode==='connexion'||!G,crm=mode!=='connexion';
@@ -2438,14 +2455,17 @@ const RIC={
     else{keepSession(await authCall('token?grant_type=password',{email:e,password:p}),e)}
     o.remove();toast(crm?'Compte créé ✅':'Connecté ✅');await RIC.syncCompte()}
    catch(x){msg(frAuth(x.message))}finally{const b=$('#ricOk',o);if(b)b.disabled=false}}};
- function chipCompte(){if(RIC.session){const prem=RIC.isPremium();return `<button class="ri-acc ${prem?'p':''}" onclick="RIC.compte()">${prem?'⭐ Premium · jusqu’au '+esc(finPremium()):'👤 Mon compte'}</button>`}return `<button class="ri-acc" onclick="RIC.compte('creer')">${RIC.cfg.google?'👤 Me connecter avec Google':'👤 Créer mon compte · se connecter'}</button>`}
+ function chipCompte(){if(RIC.session){const prem=RIC.isPremium();return `<button class="ri-acc ${prem?'p':''}" onclick="RIC.compte()">${prem?(finPremium()?'⭐ Premium · jusqu’au '+esc(finPremium()):'⭐ Premium'):'👤 Mon compte'}</button>`}return `<button class="ri-acc" onclick="RIC.compte('creer')">${RIC.cfg.google?'👤 Me connecter avec Google':'👤 Créer mon compte · se connecter'}</button>`}
 
 
  /* ---------- paiement manuel Mobile Money ---------- */
  const OPS={wave:['Wave','#1DC3F0'],orange:['Orange Money','#FF7900'],mtn:['MTN MoMo','#FFCB05'],moov:['Moov Money','#0066B3']};
  /* Wave automatique (API Wave + fonctions Supabase « wave-checkout » / « wave-webhook ») : réglage public.paiement.wave_auto */
  const waveOn=c=>c.wave_auto===true||(c.wave_auto==='test'&&!!(RIC.statut&&RIC.statut.role==='admin'));const opOk=(c,k)=>!!(c.numeros&&c.numeros[k])||(k==='wave'&&waveOn(c));
- RIC.payOuvert=()=>{const c=RIC.cfg.paiement||{};return!!c.actif&&Object.keys(OPS).some(k=>opOk(c,k))&&(RIC.cfg.plans||[]).length>0};
+ /* tableau de bord › Offres › « Paiement et offres visibles par les élèves » (public.paiement.visible = false) : plus aucun prix,
+    bouton Payer, numéro Mobile Money, offre, promotion ni « Faire payer un parent » dans l'appli ; les codes d'activation restent */
+ RIC.paieVisible=()=>RIC.off()||((RIC.cfg&&RIC.cfg.paiement)||{}).visible===true;   /* masqué tant que Daniel ne l'a pas rendu visible */
+ RIC.payOuvert=()=>{const c=RIC.cfg.paiement||{};return RIC.paieVisible()&&!!c.actif&&Object.keys(OPS).some(k=>opOk(c,k))&&(RIC.cfg.plans||[]).length>0};
  const RAISON={ferme:'Le paiement est fermé pour le moment.',operateur:'Ce moyen de paiement n’est pas disponible.',pass:'Ce pass n’est plus proposé.',reference:'Identifiant de transaction invalide : recopie-le depuis le SMS, ou laisse la case vide.',telephone:'Numéro de téléphone invalide.',trop:'Tu as déjà 3 paiements en attente de vérification : attends la réponse de l’administrateur.',deja:'Cet identifiant de transaction a déjà été déclaré.',compte:'Ton compte est bloqué : contacte l’administrateur.',connexion:'Connecte-toi d’abord à ton compte.'};
  /* retour depuis Wave : on nettoie l'adresse et on suit l'activation quelques minutes */
  RIC.retourWave=function(){const m=location.search.match(/[?&]wave=(ok|erreur)/);if(!m)return;try{history.replaceState(null,'',location.pathname+location.hash)}catch(e){}
@@ -2514,7 +2534,7 @@ ${auto?`    <div class="ri-envoi"><div>Tu paies <b>${fcfa(P.prix_xof)}</b> direc
      try{const t=await token();if(!t){m('Connecte-toi d’abord à ton compte.');b.disabled=false;return}
       const r=await fetch(RIC.url+'/functions/v1/wave-checkout',{method:'POST',headers:Object.assign(H(),{Authorization:'Bearer '+t}),body:JSON.stringify({plan})});const j=await r.json().catch(()=>({}));
       if(!j.ok||!j.url){m(RAISON[j.raison]||(j.raison==='wave'?'Wave ne répond pas pour le moment, réessaie dans un instant.':'Paiement impossible pour le moment, réessaie.'));b.disabled=false;return}
-      track('paiement_wave',{plan});LS.set('ri_wave_attente',Date.now());location.href=j.url}
+      track('paiement_wave',{plan});LS.set('ri_wave_attente',Date.now());if(RIC.__nouvelOnglet&&window.open(j.url,'_blank')){o.remove();RIC.info('Paiement Wave ouvert','Paie dans Wave puis reviens ici : ton accès s’active tout seul, sans perdre ta composition.')}else location.href=j.url}
      catch(e){m(/fetch|network|Load failed/i.test(e.message)?'Pas de connexion internet.':'Paiement impossible pour le moment, réessaie.');b.disabled=false}};return}
    if($('#riWLien',o))$('#riWLien',o).onclick=()=>{keep();track('paiement_wave_lien',{plan});setTimeout(()=>{const t=$('#riTel',o);if(t&&!t.value)t.focus()},800)};$('#riCopy',o).onclick=()=>{try{navigator.clipboard.writeText(String(num).replace(/\s/g,''));toast('Numéro copié')}catch(e){toast(num)}};
    $('#riPX',o).onclick=()=>o.remove();
@@ -2528,7 +2548,9 @@ ${auto?`    <div class="ri-envoi"><div>Tu paies <b>${fcfa(P.prix_xof)}</b> direc
   draw()};
  /* ---------- décorations après chaque affichage ---------- */
  function annonces(){if(!S||!S.onb)return'';const vu=LS.get(RIC.VK,{}),t=today(),prem=RIC.isPremium(),niv=S.fil&&S.niv?filBase(S.fil)+'-'+S.niv:'';
-  return(RIC.cfg.annonces||[]).filter(a=>!vu[a.id]&&a.du<=t&&a.au>=t&&(a.cible==='tous'||(a.cible==='premium'&&prem)||(a.cible==='gratuit'&&!prem)||a.cible===niv))
+  const moi=(()=>{try{const tk=RIC.session&&RIC.session.access_token;return tk?String(JSON.parse(atob(tk.split('.')[1].replace(/-/g,'+').replace(/_/g,'/'))).sub||''):''}catch(e){return''}})(),dev=RIC.device();
+  const vise=c=>String(c||'').split(',').map(x=>x.trim()).some(x=>x==='tous'||(x==='premium'&&prem)||(x==='gratuit'&&!prem)||x===niv||(x.startsWith('fil:')&&S.fil&&filBase(S.fil)===x.slice(4))||(x.startsWith('niv:')&&S.niv===x.slice(4))||(x.startsWith('app:')&&x.slice(4)===dev)||(x.startsWith('uid:')&&moi&&x.slice(4)===moi));
+  return(RIC.cfg.annonces||[]).filter(a=>!vu[a.id]&&a.du<=t&&a.au>=t&&vise(a.cible))
    .map(a=>`<div class="ri-ann" style="background:${esc(/^#[0-9a-f]{3,8}$/i.test(a.couleur)?a.couleur:'#6C3BF5')}"><div><b>${esc(a.titre)}</b> — ${esc(a.texte)}</div><button aria-label="Masquer l’annonce" onclick="RIC.hideAnn('${jsq(a.id)}')">✕</button></div>`).join('')}
  RIC.hideAnn=id=>{const v=LS.get(RIC.VK,{});v[id]=1;LS.set(RIC.VK,v);$$('.ri-ann').forEach(x=>{if(x.innerHTML.includes(id))x.remove()});render()};
  function badge(t,cls){return `<span class="ri-b ${cls}">${t}</span>`}
@@ -2538,7 +2560,7 @@ ${auto?`    <div class="ri-envoi"><div>Tu paies <b>${fcfa(P.prix_xof)}</b> direc
      Premium = badge doré animé + couronne et halo doré autour de l'avatar ; gratuit = badge clair avec « Passer Premium » */
   if(VIEW==='home'){const prem=RIC.isPremium(),fin=finPremium();
    const h=prem?`<span class="ri-plan p" onclick="RIC.compte()" title="${esc(fin?'Premium jusqu’au '+fin:'Premium')}"><i>👑</i><b>MEMBRE PREMIUM</b></span>${fin?`<span class="ri-planf">jusqu’au ${esc(fin)}</span>`:''}`
-    :`<span class="ri-plan g" onclick="RIC.compte()"><i>🌱</i><b>Version gratuite</b></span><span class="ri-up" onclick="RIC.session?RIC.payer():RIC.compte('creer')">Passer Premium ⭐</span>`;
+    :`<span class="ri-plan g" onclick="RIC.compte()"><i>🌱</i><b>Version gratuite</b></span>${RIC.paieVisible()?`<span class="ri-up" onclick="RIC.session?RIC.payer():RIC.compte('creer')">Passer Premium ⭐</span>`:''}`;
    $$('.hello .nm, .ou-hi > b',app).forEach(nm=>{const x=nm.nextElementSibling;if(x&&x.classList.contains('ri-planw')){if(x.dataset.p!==String(prem)+fin){x.innerHTML=h;x.dataset.p=String(prem)+fin}}else{const d=document.createElement('div');d.className='ri-planw';d.dataset.p=String(prem)+fin;d.innerHTML=h;nm.insertAdjacentElement('afterend',d)}});
    $$('.hello',app).forEach(c=>c.classList.toggle('ri-prem',prem));$$('.ou-ava',app).forEach(a=>a.parentElement.classList.toggle('ri-prem',prem))}
   if(VIEW==='home'){const m=$('#main',app);if(m&&!$('.ri-anns',m)){const h=annonces();if(h){const d=document.createElement('div');d.className='ri-anns';d.innerHTML=h;m.insertBefore(d,m.firstChild)}}}
@@ -2548,7 +2570,7 @@ ${auto?`    <div class="ri-envoi"><div>Tu paies <b>${fcfa(P.prix_xof)}</b> direc
   if(VIEW==='fil'&&FILS){const lockEx=!RIC.can('fonction:explications');
    $$('.filq',app).forEach(card=>{const fb=$('.fb',card);if(!fb)return;
     if(lockEx)$$('.ex,.xbox',card).forEach(x=>{if(x.classList.contains('ri-lockx'))return;x.innerHTML='🔒 <b>Explication réservée aux élèves Premium.</b> <a href="#" onclick="RIC.paywall(\'fonction:explications\',\'Explications · Premium\');return false">Voir l’offre</a>';x.classList.add('ri-lockx')});
-    if(!$('.ri-rep',card)){const qid=card.id.replace(/^fq-/,'');card.insertAdjacentHTML('beforeend',`<button class="ri-rep" onclick="RIC.report('${jsq(qid)}')">⚑ Signaler une erreur dans cette question</button>`)}})}}
+    if(!$('.ri-rep',card)){const qid=card.id.replace(/^fq-/,'');if((RIC.cfg.nosig||{})[qid])return;card.insertAdjacentHTML('beforeend',`<button class="ri-rep" onclick="RIC.report('${jsq(qid)}')">⚑ Signaler une erreur dans cette question</button>`)}})}}
  if(typeof render==='function'){const _render=render;render=function(){const r=_render.apply(this,arguments);try{decorate()}catch(e){console.warn('RI cloud',e)}return r};}
 
  /* ---------- styles ---------- */
@@ -2749,7 +2771,11 @@ function sujPrefixe(mid){const m=MATI[mid];return(m&&m.sujPrefixe)||SUJ_PREFIXE[
  const offDe=src=>((E.content&&E.content.plusOff)||{})[src]||[];
  function fusion(Q,P,OFF){(P||[]).forEach(p=>(p.antennes||[]).forEach(a=>{let A=Q.antennes.find(x=>x.slug===a.slug);
    if(!A){A={name:a.name,slug:a.slug,count:0,sujets:[]};Q.antennes.push(A)}
-   a.sujets.forEach(s=>{if(A.sujets.some(x=>x.slug===s.slug))return;A.sujets.push(s);A.count=(A.count||0)+s.questions.length})}));
+   a.sujets.forEach(s=>{if(A.sujets.some(x=>x.slug===s.slug))return;
+    /* sujet « dans » un sujet existant : ses questions s'insèrent après la question « apres » (les anciennes gardent leurs identifiants) */
+    const H=s.dans&&A.sujets.find(x=>x.slug===s.dans);if(H){const L=H.questions=(H.questions||[]).slice();
+     s.questions.forEach(q=>{const i=L.findIndex(x=>x.id===q.apres);if(i<0)L.push(q);else L.splice(i+1,0,q)});H.count=L.length;A.count=(A.count||0)+s.questions.length;return}
+    A.sujets.push(s);A.count=(A.count||0)+s.questions.length})}));
   const off=new Set(OFF||[]);Q.antennes=Q.antennes.filter(a=>!off.has(a.slug)).map(a=>{a.sujets=a.sujets.filter(s=>!off.has(a.slug+'/'+s.slug));return a}).filter(a=>a.sujets.length);
   Q.total=Q.antennes.reduce((t,a)=>t+a.sujets.reduce((u,s)=>u+(s.questions||[]).length,0),0)}
  const _src=appSource;window.appSourceBrut=_src;
@@ -2759,7 +2785,18 @@ function sujPrefixe(mid){const m=MATI[mid];return(m&&m.sujPrefixe)||SUJ_PREFIXE[
    if(!EDITMODE&&e==='premium'&&typeof RIC!=='undefined'&&!RIC.off()&&!RIC.isPremium()){bloques.push(p.titre);continue}
    const t=await _src({src:m.src+'--'+p.id});if(t)try{P.push(JSON.parse(t))}catch(e){}}
   if(bloques.length)setTimeout(()=>toast('🔒 '+bloques.join(' · ')+' · '+Tx('pa.prem','réservé aux abonnés Premium')),900);
-  return h.slice(0,k)+'('+fusion.toString()+')(QUIZ_DATA,'+JSON.stringify(P).replace(/</g,'\\u003c')+','+JSON.stringify(off)+');\n'+h.slice(k)}catch(e){return h}};
+  return h.slice(0,k)+'('+fusion.toString()+')(QUIZ_DATA,'+JSON.stringify(P).replace(/</g,'\\u003c')+','+JSON.stringify(off)+');\n'+'('+corrAppli.toString()+')(QUIZ_DATA,'+JSON.stringify(m.id||'')+');\n'+h.slice(k)}catch(e){return h}};
+ /* corrections publiées depuis le tableau de bord (page Questions) : appliquées AUSSI aux écrans de l'appli elle-même
+    (énoncé, type QCM / QCD / ouverte, propositions, bonnes réponses, explication), par la même correspondance que les listes du portail */
+ function corrAppli(Q,MID){try{const P=window.parent;if(!P||P===window||typeof P.cleQuestion!=='function')return;
+  const QIp=P.eval('typeof QI!=="undefined"?QI:null'),PM=P.eval('typeof PROGMAP!=="undefined"?PROGMAP:null');if(!QIp||!PM)return;
+  const a=Object.values(PM).find(x=>x&&x.m===MID);if(!a)return;const L='ABCDEFGHIJKL';
+  (Q.antennes||[]).forEach(A=>(A.sujets||[]).forEach(s=>(s.questions||[]).forEach(x=>{const i=P.cleQuestion(a,x.id);if(i==null)return;const q=QIp[a.m+'.'+i];if(!q||!q.__corr)return;
+   if(q.q)x.text=q.q;if(q.x!=null)x.explanation=q.x;
+   if(q.t==='qcm'&&Array.isArray(q.o)){x.options=q.o.map((t,j)=>({letter:L[j],text:t}));const ls=(Array.isArray(q.am)&&q.am.length?q.am:[q.a]).map(j=>L[j]);
+    x.mode='mcq';x.multi=ls.length>1;x.answerLetters=ls;x.answer=ls.map(l=>l+'. '+(x.options.find(o=>o.letter===l)||{}).text).join(' ; ');if(x.type==='AUTRE')x.type=x.typeLabel='QCM'}
+   else if(q.t==='vf'){x.options=[{letter:'A',text:'Vrai'},{letter:'B',text:'Faux'}];x.mode='mcq';x.multi=false;x.answerLetters=[q.v?'A':'B'];x.answer=q.v?'A. Vrai':'B. Faux'}
+   else if(q.t==='open'){x.mode='open';x.options=[];x.answerLetters=[];x.answer=q.r||x.answer}})))}catch(e){}}
  /* ---- les mêmes sujets en questions natives : liste des sujets du cours, écran « toutes les questions » (on coche en descendant) ----
     XD['plusnat-<cours>'] = {ch, k (antenne/sujet), p (paquet), q} ajoutés APRÈS les questions d'origine : identifiants stables. */
  const NATB={};
@@ -2969,6 +3006,9 @@ function revTitre(m){if(!m)return'';if(m.revTitre)return m.revTitre;const b=Stri
 const DOCREV={};
 (function(){if(typeof applyContent!=='function'||typeof DATA0==='undefined')return;
  function injecter(){Object.keys(XD).forEach(k=>{if(!k.startsWith('revisions-'))return;const mid=k.slice(10),R=XD[k];if(DOCREV[mid]||!R||!Array.isArray(R.sujets))return;
+   const X=XD[mid];if(X&&Array.isArray(X.q)&&Array.isArray(X.ch)&&!(DATA0.q&&Array.isArray(DATA0.q[mid]))){   /* cours en données à part (ex. Tous les sujets prépa D.E) */
+    if(X.__rev===R)return;const n0q=X.q.length,n0ch=X.ch.length,tit=R.sujets.map(x=>x.t);
+    X.q=X.q.concat(...R.sujets.map((x,j)=>x.q.map(q=>Object.assign({},q,{c:n0ch+j}))));X.ch=X.ch.concat(tit);X.__rev=R;DOCREV[mid]={n0q,n0ch,tit};return}
    const m=(DATA0.mat||[]).find(x=>x.id===mid);if(!m||!DATA0.q||!Array.isArray(DATA0.q[mid])||!Array.isArray(m.ch))return;
    const n0q=DATA0.q[mid].length,n0ch=m.ch.length,tit=R.sujets.map(x=>x.t);
    DATA0.q[mid]=DATA0.q[mid].concat(...R.sujets.map((x,j)=>x.q.map(q=>Object.assign({},q,{c:n0ch+j}))));m.ch=m.ch.concat(tit);
@@ -3407,4 +3447,258 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
  document.addEventListener('visibilitychange',()=>{if(!document.hidden)setTimeout(()=>verifier(false),2000)});
 })();
 
+/* =========================================================
+   « EN CE MOMENT » AVEC LE NOM · toutes les 90 s, appli ouverte et visible : téléphone, nom, filière, licence (et compte s'il y en a un)
+   ========================================================= */
+(function(){
+ let der=0;
+ async function ping(force){try{
+  if(typeof RIC==='undefined'||!RIC.url||!RIC.key||(RIC.off&&RIC.off())||document.hidden||!navigator.onLine)return;const t=Date.now();if(!force&&t-der<80e3)return;der=t;
+  const body=JSON.stringify({p_appareil:RIC.device(),p_nom:String(S&&S.name||'').trim().slice(0,60)||null,p_fil:S&&S.fil||null,p_niv:S&&S.niv||null});
+  const h={apikey:RIC.key,'Content-Type':'application/json'},tk=RIC.session&&RIC.session.access_token;
+  let r=await fetch(RIC.url+'/rest/v1/rpc/je_suis_la_nom',{method:'POST',headers:tk?Object.assign({},h,{Authorization:'Bearer '+tk}):h,body,keepalive:true});
+  if(!r.ok&&tk)await fetch(RIC.url+'/rest/v1/rpc/je_suis_la_nom',{method:'POST',headers:h,body,keepalive:true})}catch(e){}}
+ window.riPresenceNom=ping;
+ setTimeout(()=>ping(true),4000);setInterval(()=>ping(false),90e3);
+ document.addEventListener('visibilitychange',()=>{if(!document.hidden)ping(false)});
+})();
+
+/* =========================================================
+   LECTURE (tableau de bord) · ?lecture=1 : l'appli sert seulement à lire les questions, aucune statistique envoyée
+   CORRECTIONS DU TABLEAU DE BORD · appliquées sur les questions à l'ouverture et toutes les 10 min (sans nouvelle publication)
+   RÉPONSES CHOISIES · 1re réponse de chaque téléphone à chaque question, envoyée par lots (détection des erreurs de corrigé)
+   ========================================================= */
+(function(){
+ const LECTURE=/[?&]lecture=1\b/.test(location.search);window.__RI_LECTURE=LECTURE;
+ if(LECTURE&&typeof RIC!=='undefined'){RIC.off=()=>true;RIC.track=()=>{}}
+ const CK='ri_corr';let CORR=null,derC=0;
+ const lireC=()=>{try{return JSON.parse(localStorage.getItem(CK)||'null')}catch(e){return null}};
+ function integree(c){try{const I=(E&&E.content&&E.content.corrInt)||{};return I[c.id]&&String(I[c.id])===String(c.t)}catch(e){return false}}
+ function appliquer(){const L=CORR||lireC();if(!Array.isArray(L))return 0;let n=0;
+  L.forEach(c=>{if(!c||!c.qid||!c.c||typeof c.c!=='object'||integree(c))return;const q=QI[c.qid];if(!q)return;
+   Object.keys(c.c).forEach(k=>{if(['id','m'].includes(k))return;const v=c.c[k];if(v===null)delete q[k];else q[k]=v});q.__corr=c.id;n++});return n}
+ window.riCorrections={appliquer,liste:()=>CORR||lireC()||[]};
+ const _ac=applyContent;applyContent=function(){const r=_ac.apply(this,arguments);try{appliquer()}catch(e){}return r};
+ async function charger(force){try{
+  if(typeof RIC==='undefined'||!RIC.url||!RIC.key||!navigator.onLine||(typeof EDITMODE!=='undefined'&&EDITMODE)||(!LECTURE&&RIC.off&&RIC.off()))return;const t=Date.now();if(!force&&t-derC<10*60e3)return;derC=t;
+  const r=await fetch(RIC.url+'/rest/v1/rpc/corrections_actives',{method:'POST',headers:{apikey:RIC.key,'Content-Type':'application/json'},body:'{}'});if(!r.ok)return;
+  const L=await r.json();if(!Array.isArray(L))return;const avant=JSON.stringify(lireC()||[]);CORR=L;try{localStorage.setItem(CK,JSON.stringify(L))}catch(e){}
+  if(JSON.stringify(L)!==avant){try{applyContent();render()}catch(e){}}}catch(e){}}
+ window.riChargerCorrections=charger;
+ try{appliquer()}catch(e){}
+ setTimeout(()=>charger(true),1500);document.addEventListener('visibilitychange',()=>{if(!document.hidden)charger(false)});
+
+ const LT='ABCDEFGH',VK='ri_chv',QK='ri_chq';
+ const lire=(k,d)=>{try{return JSON.parse(localStorage.getItem(k)||'null')||d}catch(e){return d}},ecr=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+ function cle(q){if(q.t==='vf')return q.v?'V':'F';if(q.t!=='qcm')return'';const a=Array.isArray(q.am)&&q.am.length?q.am:[q.a];return a.filter(i=>i!=null&&i>=0).map(i=>LT[i]).sort().join('')}
+ function choix(q,x){if(!x)return'';if(q.t==='vf')return x.sel===1||x.sel===true?'V':x.sel===0||x.sel===false?'F':'';if(q.t!=='qcm')return'';
+  if(Array.isArray(x.ms))return x.ms.map(i=>LT[i]).filter(Boolean).sort().join('');return typeof x.sel==='number'&&x.sel>=0?LT[x.sel]||'':''}
+ const _fr=filRep;filRep=function(q,ok,x){try{if(!LECTURE&&q&&q.id&&!(typeof EDITMODE!=='undefined'&&EDITMODE)){const V=lire(VK,{});if(!V[q.id]&&Object.keys(V).length<12000){const c=choix(q,x),k=cle(q);
+   if(c&&k){V[q.id]=1;ecr(VK,V);const L=lire(QK,[]);L.push({q:q.id,c,k});ecr(QK,L.slice(-400));if(L.length>=20)envoyer()}}}}catch(e){}return _fr.apply(this,arguments)};
+ let enC=false;
+ async function envoyer(){try{if(enC||LECTURE||typeof RIC==='undefined'||!RIC.url||!RIC.key||!navigator.onLine||(RIC.off&&RIC.off()))return;const L=lire(QK,[]);if(!L.length)return;enC=true;const lot=L.slice(0,200);
+  const r=await fetch(RIC.url+'/rest/v1/rpc/noter_choix',{method:'POST',headers:{apikey:RIC.key,'Content-Type':'application/json'},body:JSON.stringify({p_lot:lot}),keepalive:true});
+  if(r.ok){const R=lire(QK,[]);ecr(QK,R.slice(lot.length))}}catch(e){}finally{enC=false}}
+ window.riChoix={envoyer,cle,choix};
+ setInterval(envoyer,180e3);document.addEventListener('visibilitychange',()=>{if(document.hidden)envoyer()});
+})();
+
+/* ======================= OFFRES PREMIUM (tableau de bord › Offres) =======================
+   Tout se règle dans le tableau de bord (app_settings « public.access » → offres). Sans réglage, rien ne change.
+   Mode « lancement » : tout est gratuit. Modes « standard », « concours », « perso » : verrous par fonctionnalité
+   (suivi / Mes notes, refaire mes erreurs, examens blancs, calculatrice, explications avec un quota par jour),
+   bouton « Débloquer » au bon moment, essai gratuit unique, formules mises en valeur (prix par jour, prix barré,
+   étiquette, ordre, formule jusqu'au concours), rappel avant la fin, « Faire payer un parent », compte à rebours
+   du concours et promotion limitée (vraie date de fin). Statistiques : debloquer_clic, essai_debut, parent_lien… */
+(function(){if(typeof RIC==='undefined')return;
+ const OF={};RIC.offres=OF;const LS=RIC.LS;
+ const cfg=()=>(RIC.cfg&&RIC.cfg.offres&&typeof RIC.cfg.offres==='object')?RIC.cfg.offres:null;
+ OF.cfg=cfg;
+ OF.mode=()=>{const c=cfg();return c&&['lancement','standard','concours','perso'].includes(c.mode)?c.mode:''};
+ OF.lancement=()=>OF.mode()==='lancement'&&!RIC.off();
+ const actif=()=>!RIC.off()&&RIC.paieVisible()&&['standard','concours','perso'].includes(OF.mode());
+ OF.actif=actif;
+ const F=()=>Object.assign({suivi:'premium',erreurs:'premium',examens:'premium',examens_gratuits:1,calc:'sujet',explications:'quota',expl_jour:2},(cfg()||{}).f||{});
+ const vraiPrem=()=>RIC.isPremium();
+ const fcfa=n=>new Intl.NumberFormat('fr-FR').format(n)+' F';
+ const jour=d=>{try{return new Date(d).toLocaleDateString('fr-FR',{day:'numeric',month:'long'})}catch(e){return''}};
+
+ /* ---------- mode lancement : tout ouvert (comme la semaine gratuite) ---------- */
+ const _can=RIC.can;RIC.can=function(key){const k=String(key||'');if(OF.lancement()&&!/^fonction:(?:admin|studio)/.test(k))return true;
+  if(actif()&&k==='fonction:explications'){const e=F().explications;if(e==='gratuit'||e==='quota')return true;if(e==='premium')return vraiPrem()}
+  return _can.apply(this,arguments)};
+ const _qOk=RIC.qOk;RIC.qOk=function(){if(OF.lancement())return true;return _qOk.apply(this,arguments)};
+
+ /* ---------- promotion limitée (même calcul que le serveur : arrondi à 50 F) ---------- */
+ OF.promo=function(){const c=cfg();const p=c&&c.promo;if(!actif()&&!OF.lancement())return null;if(!p||!p.actif)return null;const t=Date.now(),du=p.du?Date.parse(p.du):0,au=p.au?Date.parse(p.au):0;
+  if(!au||t>=au||(du&&t<du))return null;const pct=Math.max(1,Math.min(90,+p.pct||0));return Object.assign({},p,{pct,au})};
+ const promoSur=(p,id)=>!Array.isArray(p.formules)||!p.formules.length||p.formules.includes(id);
+ OF.prix=function(pl){const base=+pl.__base||+pl.prix_xof||0,p=OF.promo();if(p&&promoSur(p,pl.id))return Math.max(100,Math.round(base*(100-p.pct)/100/50)*50);return base};
+ const FM=id=>(((cfg()||{}).formules)||{})[id]||{};
+ OF.jours=function(pl){const j=FM(pl.id).jusqu;if(j){const n=Math.ceil((Date.parse(j+'T23:59:59')-Date.now())/864e5);if(n>0)return n}return +pl.__jours||+pl.jours||30};
+ OF.plans=function(){const L=(RIC.cfg.plans||[]).slice();L.forEach(p=>{if(p.__base==null){p.__base=p.prix_xof;p.__jours=p.jours}});
+  const o=p=>{const v=FM(p.id).ordre;return v==null||v===''?99:+v};L.sort((a,b)=>o(a)-o(b));return L};
+ /* l'écran de paiement existant affiche le prix promo, la durée réelle et l'ordre choisi */
+ const _payer=RIC.payer;RIC.payer=function(){if(actif()||OF.lancement()){const L=OF.plans();L.forEach(p=>{p.prix_xof=OF.prix(p);p.jours=OF.jours(p)});RIC.cfg.plans.sort((a,b)=>L.indexOf(a)-L.indexOf(b))}return _payer.apply(this,arguments)};
+
+ /* ---------- essai gratuit (une fois, au premier blocage) ---------- */
+ const essaiCfg=()=>Object.assign({actif:false,jours:3},(cfg()||{}).essai||{});
+ OF.essaiPossible=async function(){if(!actif()||!essaiCfg().actif||vraiPrem()||LS.get('ri_essai_fait',0))return false;
+  if(RIC.statut&&RIC.statut.premium_fin)return false;   /* déjà eu un accès : pas d'essai */
+  try{const r=await fetch(RIC.url+'/rest/v1/rpc/essai_possible',{method:'POST',headers:{apikey:RIC.key,Authorization:'Bearer '+RIC.key,'Content-Type':'application/json'},body:JSON.stringify({p_appareil:RIC.device()})});if(!r.ok)return false;return (await r.json())===true}catch(e){return false}};
+ OF.essai=async function(apres){const m=$('#riofE');if(m)m.textContent='Activation…';
+  try{if(!RIC.session)await RIC.anonyme((S&&S.name)||'');const r=await RIC.rpc('essai_demarrer',{p_appareil:RIC.device()});
+   if(!r||!r.ok){LS.set('ri_essai_fait',1);const t={deja:'Tu as déjà utilisé ton essai gratuit.',premium:'Tu as déjà un accès Premium.',ferme:'L’essai gratuit n’est pas disponible pour le moment.'}[r&&r.raison]||'Essai impossible pour le moment, réessaie.';if(m)m.textContent=t;return false}
+   LS.set('ri_essai_fait',1);RIC.track('essai_debut',{jours:r.jours});await RIC.syncCompte();const o=$('#riof');if(o)o.remove();
+   RIC.info('🎁 Essai Premium activé','Tout est ouvert pendant '+r.jours+' jours, jusqu’au '+jour(r.fin)+'. Profites-en !');if(typeof render==='function')render();if(apres)setTimeout(apres,300);return true}
+  catch(e){if(m)m.textContent=/fetch|network|Load failed/i.test(e.message)?'Pas de connexion internet.':'Essai impossible pour le moment, réessaie.';return false}};
+
+ /* ---------- « Faire payer un parent » ---------- */
+ OF.parent=function(pl){const c=RIC.cfg.paiement||{},prix=OF.prix(pl),nom=(S&&S.name)||'',num=((c.numeros||{}).wave||(c.numeros||{}).orange||(c.numeros||{}).mtn||(c.numeros||{}).moov||'');
+  const lien=(c.wave_lien||'https://pay.wave.com/m/M_ci_kAcBVdk53ehz/c/ci/')+'?amount='+prix;
+  const txt=`Bonjour, peux-tu m’aider à payer mon accès Premium Révision INFAS pour bien préparer le concours ?\n\n${pl.nom} : ${fcfa(prix)} (${OF.jours(pl)} jours).\n\nPaiement Wave : ${lien}${num?`\nOu par Mobile Money au ${num}${c.nom?' ('+c.nom+')':''}`:''}\n\nDis-moi quand c’est fait et quel numéro a payé, je l’indiquerai dans l’appli.${nom?'\n\n'+nom:''} Merci !`;
+  RIC.track('parent_lien',{plan:pl.id});window.open('https://wa.me/?text='+encodeURIComponent(txt),'_blank')};
+
+ /* ---------- écran « Débloquer » ---------- */
+ const QUOI={explication:'les explications',erreur:'les explications',calculatrice:'la calculatrice',notes:'le suivi et Mes notes',erreurs:'« Refaire mes erreurs »',examen:'les examens blancs',fin_examen:'tout Premium',contenu:'ce contenu',rappel:'ton Premium'};
+ let attente=null;   /* action à reprendre dès que le Premium est actif (ex. ouvrir la calculatrice sans arrêter le chrono) */
+ OF.debloquer=async function(endroit,titre,apres){RIC.track('debloquer_clic',{endroit});attente=apres?{f:apres,t:Date.now()}:null;
+  if(await OF.essaiPossible()){essaiModal(endroit,titre,apres);return}offreModal(endroit,titre)};
+ function essaiModal(endroit,titre,apres){let o=$('#riof');if(o)o.remove();o=document.createElement('div');o.id='riof';o.className='pmod';const j=Math.max(1,Math.min(14,+essaiCfg().jours||3));
+  o.innerHTML=`<div class="pbox"><h3>🎁 Essaie Premium gratuitement ${j} jours</h3><div class="muted small">${esc(titre||'Débloque '+(QUOI[endroit]||'tout Premium'))} : pendant ${j} jours, tout est ouvert (explications, calculatrice, examens blancs, suivi, refaire mes erreurs). Sans payer, sans engagement : une seule fois par élève.</div>
+   <button class="btn coral" style="width:100%;margin-top:12px" id="riofEo">Commencer mon essai gratuit</button><div id="riofE" class="small" style="margin-top:6px;color:#c0392b"></div>
+   <button class="btn light" style="width:100%;margin-top:8px" id="riofVo">Voir les formules</button><button class="btn light" style="width:100%;margin-top:8px" id="riofX">Plus tard</button></div>`;
+  document.body.appendChild(o);$('#riofX',o).onclick=()=>o.remove();o.onclick=e=>{if(e.target===o)o.remove()};$('#riofVo',o).onclick=()=>offreModal(endroit,titre);
+  $('#riofEo',o).onclick=async()=>{$('#riofEo',o).disabled=true;if(!(await OF.essai(apres)))$('#riofEo',o).disabled=false}}
+ function reste(au){const s=Math.max(0,au-Date.now()),j=Math.floor(s/864e5),h=Math.floor(s%864e5/36e5),m=Math.floor(s%36e5/6e4);return j?j+' j '+h+' h':h?h+' h '+m+' min':m+' min'}
+ function offreModal(endroit,titre){let o=$('#riof');if(o)o.remove();o=document.createElement('div');o.id='riof';o.className='pmod';document.body.appendChild(o);
+  const c=cfg()||{},L=OF.plans(),pr=OF.promo(),payOk=RIC.payOuvert(),par=(c.parent||{}).actif!==false&&payOk,admin=((E.content&&E.content.commu)||{}).admin;
+  let sel=(L.find(p=>FM(p.id).etiquette)||L[0]||{}).id;
+  const draw=()=>{const D=(c.debloquer||{}).texte;
+   o.innerHTML=`<div class="pbox"><h3>⭐ ${esc(titre||'Débloque '+(QUOI[endroit]||'tout Premium'))}</h3>
+    <div class="muted small">${esc(D||'Premium ouvre tous les sujets, les explications complètes, la calculatrice, les examens blancs illimités, ton suivi et « Refaire mes erreurs ».')}</div>
+    ${pr?`<div class="riof-promo">🔥 <b>-${pr.pct} %</b>${pr.titre?' · '+esc(pr.titre):''} · jusqu’au ${esc(jour(pr.au))} <span id="riofR">(encore ${reste(pr.au)})</span></div>`:''}
+    <div style="margin:10px 0">${L.map(p=>{const m=FM(p.id),px=OF.prix(p),j=OF.jours(p),base=+p.__base,barre=px<base?base:(+m.barre>px?+m.barre:0);
+      return `<div class="li ri-opt riof-f ${p.id===sel?'on':''}" data-of="${esc(p.id)}"><span class="em">${p.id===sel?'🔘':'⚪'}</span><span class="tx"><b>${esc(p.nom)}${m.etiquette?` <span class="riof-tag">${esc(m.etiquette)}</span>`:''}</b>
+       <small>${m.jusqu?'Jusqu’au concours ('+esc(jour(m.jusqu+'T12:00:00'))+')':j+' jours'} · soit ${fcfa(Math.max(1,Math.round(px/Math.max(1,j))))} par jour</small></span>
+       <span style="text-align:right;white-space:nowrap">${barre?`<s class="muted small">${fcfa(barre)}</s><br>`:''}<b>${fcfa(px)}</b></span></div>`}).join('')}</div>
+    ${payOk&&L.length?`<button class="btn coral" style="width:100%" id="riofP">💳 Payer ${(()=>{const p=L.find(x=>x.id===sel);return p?fcfa(OF.prix(p)):''})()}</button>`:`<div class="muted small">Pour obtenir ton accès, écris à l’administrateur.</div>`}
+    <div id="riofE" class="small" style="margin-top:6px;color:#c0392b"></div>
+    ${par?`<button class="btn light" style="width:100%;margin-top:8px" id="riofPa">👪 Faire payer un parent (WhatsApp)</button>`:''}
+    <button class="btn light" style="width:100%;margin-top:8px" id="riofC">🎟️ J’ai un code d’activation</button>
+    <div class="row2" style="margin-top:8px">${admin&&linkOk(admin)?`<a class="btn light" href="${esc(admin)}" target="_blank" rel="noopener" style="text-align:center;text-decoration:none">✉️ Administrateur</a>`:''}<button class="btn light" id="riofX">Plus tard</button></div></div>`;
+   $$('[data-of]',o).forEach(e=>e.onclick=()=>{sel=e.dataset.of;draw()});$('#riofX',o).onclick=()=>o.remove();
+   $('#riofC',o).onclick=()=>{o.remove();RIC.code(sel)};
+   if($('#riofPa',o))$('#riofPa',o).onclick=()=>{const p=L.find(x=>x.id===sel);if(p)OF.parent(p)};
+   if($('#riofP',o))$('#riofP',o).onclick=async()=>{const b=$('#riofP',o);b.disabled=true;
+    try{if(!RIC.session)await RIC.anonyme((S&&S.name)||'')}catch(e){$('#riofE',o).textContent=/fetch|network|Load failed/i.test(e.message)?'Pas de connexion internet.':'Réessaie dans un instant.';b.disabled=false;return}
+    o.remove();RIC.__nouvelOnglet=!!(typeof FILS!=='undefined'&&FILS&&!FILS.fin&&VIEW==='fil');try{RIC.payer(sel)}finally{setTimeout(()=>{RIC.__nouvelOnglet=false},60e3)}}};
+  draw();o.onclick=e=>{if(e.target===o)o.remove()};
+  if(pr){const it=setInterval(()=>{const r=$('#riofR',o);if(!document.body.contains(o)){clearInterval(it);return}if(r)r.textContent='(encore '+reste(pr.au)+')'},3e4)}}
+ OF.offre=offreModal;
+ /* l'ancien écran « contenu Premium » passe par le nouvel écran quand les offres sont réglées */
+ const _pw=RIC.paywall;RIC.paywall=function(key,what){if(actif())return OF.debloquer('contenu',what);return _pw.apply(this,arguments)};
+ /* reprise de l'action en attente dès que le Premium est actif (paiement, code ou essai) */
+ let nSync=0;setInterval(()=>{if(!attente)return;if(Date.now()-attente.t>45*60e3){attente=null;return}
+  if(vraiPrem()){const f=attente.f;attente=null;try{f()}catch(e){}return}if(++nSync%3===0&&RIC.session&&RIC.syncCompte)RIC.syncCompte()},5e3);
+
+ /* ---------- verrous ---------- */
+ const libre=k=>!actif()||vraiPrem()||F()[k]==='gratuit';
+ OF.libre=libre;
+ if(typeof startFil==='function'){const _sf=startFil;startFil=function(mid,ids,label,mode,k,o){
+  if(mode==='diff'&&!libre('erreurs')){OF.debloquer('erreurs','Refaire mes erreurs · Premium');return}
+  if(o&&o.min&&mode!=='compo'&&!libre('examens')&&((S.exams||[]).length>=Math.max(0,+F().examens_gratuits||0))){OF.debloquer('examen','Examens blancs illimités · Premium');return}
+  return _sf.apply(this,arguments)}}
+ if(typeof startDiff==='function'){const _sd=startDiff;startDiff=function(){if(!libre('erreurs')){OF.debloquer('erreurs','Refaire mes erreurs · Premium');return}return _sd.apply(this,arguments)}}
+ const flou=(t,endroit,titre)=>`<div class="card sf riof-lock"><div class="riof-flou" aria-hidden="true">${'<div class="sbar"><span class="nmx">Sujet · 12/20</span><span class="tr"><i style="width:60%"></i></span></div>'.repeat(4)}</div>
+   <div class="riof-sur"><b>🔒 ${esc(t)}</b><button class="btn coral" onclick="RIC.offres.debloquer('${endroit}','${jsq(titre)}')">⭐ Débloquer</button></div></div>`;
+ ['notes.main','stats.notes'].forEach(id=>{const b=BLK[id];if(!b)return;const h=b.html;b.html=function(){if(!libre('suivi'))return flou('Ton suivi et tes notes sont réservés à Premium','notes','Mes notes et mon suivi · Premium');return h.apply(this,arguments)}});
+ /* calculatrice : « sujet » = gratuite dans un sujet gratuit, Premium dans un sujet Premium */
+ window.RI_CALC_GUARD=function(){if(!actif()||vraiPrem())return true;const m=F().calc;if(m==='gratuit')return true;let ok=m!=='premium';
+  if(m==='sujet'){let mid='',k=null;if(VIEW==='fil'&&typeof FILS!=='undefined'&&FILS){mid=FILS.mid;k=FILS.k}else if(typeof EX!=='undefined'&&EX&&VIEW==='exam'){mid=EX.mid;k=EX.k}
+   ok=!mid||(k!=null?RIC.can('matiere:'+mid+'/sujet:'+(k+1)):RIC.effective('matiere:'+mid)==='gratuit')}
+  if(ok)return true;RIC.track('calc_bloquee',{});OF.debloquer('calculatrice','Calculatrice · Premium',()=>{if(window.__calcOuvrir)window.__calcOuvrir();toast('🧮 Calculatrice débloquée : ton chrono continue')});return false};
+
+ /* ---------- explications : quota par jour, puis aperçu flouté ---------- */
+ const FAUX='La bonne réponse s’explique par le mécanisme décrit dans le cours : on retient la notion clé, le piège classique et la règle à appliquer le jour du concours.';
+ function quota(){const e=F().explications;if(!actif()||vraiPrem()||e!=='quota')return null;return Math.max(0,+F().expl_jour||0)}
+ function explications(){if(VIEW!=='fil'||typeof FILS==='undefined'||!FILS)return;const q=quota();if(q==null)return;const app=$('#app');if(!app)return;
+  let L=LS.get('ri_of_expl',null);if(!L||L.d!==today())L={d:today(),ids:[]};let ch=false;
+  $$('.filq',app).forEach(card=>{if(!$('.fb',card))return;const qid=card.id.replace(/^fq-/,'');const X=$$('.ex,.xbox',card).filter(x=>!x.classList.contains('ri-lockx'));if(!X.length)return;
+   if(L.ids.includes(qid))return;if(L.ids.length<q){L.ids.push(qid);ch=true;return}
+   const a=FILS.ans&&FILS.ans[qid],end=a&&a.ok===false?'erreur':'explication';
+   X.forEach(x=>{x.classList.add('ri-lockx');x.innerHTML=`<div class="riof-flou" aria-hidden="true">${FAUX}</div><div class="riof-sur"><b>🔒 ${q?'Tes '+q+' explications gratuites du jour sont utilisées.':'Explication réservée à Premium.'}</b><button class="btn coral" onclick="RIC.offres.debloquer('${end}','Toutes les explications · Premium')">⭐ Débloquer</button></div>`})});
+  if(ch)LS.set('ri_of_expl',L)}
+ /* fin d'un examen blanc : proposer Premium au moment où l'élève voit sa note */
+ function finExamen(){if(!actif()||vraiPrem()||VIEW!=='fil'||typeof FILS==='undefined'||!FILS||!FILS.fin||!FILS.end)return;const m=$('#main');if(!m||$('.riof-fin',m))return;
+  const d=document.createElement('div');d.className='card sf riof-fin';d.innerHTML=`<b>🎯 Continue sur ta lancée</b><div class="muted small" style="margin:4px 0 8px">Avec Premium : examens blancs illimités, toutes les explications, « Refaire mes erreurs » et ton suivi.</div><button class="btn coral" style="width:100%" onclick="RIC.offres.debloquer('fin_examen','Passe Premium')">⭐ Débloquer</button>`;m.appendChild(d)}
+ const go1=()=>{try{explications();finExamen()}catch(e){console.warn('RI offres',e)}};let tA=0;
+ const apres=()=>{go1();clearTimeout(tA);tA=setTimeout(go1,60);setTimeout(go1,350)};   /* l'écran peut se dessiner juste après : on repasse */
+ if(typeof render==='function'){const _r=render;render=function(){const r=_r.apply(this,arguments);apres();return r}}
+ if(typeof filMaj==='function'){const _f=filMaj;filMaj=function(){const r=_f.apply(this,arguments);apres();return r}}
+
+ /* ---------- accueil : rappel avant la fin du Premium et compte à rebours du concours ---------- */
+ B('home.offres','Offres : rappel et compte à rebours (accueil)',()=>{if(RIC.off()||!RIC.paieVisible()||!(actif()||OF.lancement()))return'';const c=cfg()||{};let h='';
+  const r=Object.assign({actif:false,jours:3},c.rappel||{}),st=RIC.statut||{};
+  if(r.actif&&st.premium_fin&&RIC.session){const n=Math.ceil((Date.parse(st.premium_fin)-Date.now())/864e5);if(n>=0&&n<=Math.max(1,+r.jours||3)){
+   if(LS.get('ri_rappel_vu','')!==today()){LS.set('ri_rappel_vu',today());RIC.track('rappel_vu',{jours:n})}
+   h+=`<div class="card sf riof-rap"><b>⏳ Ton Premium se termine ${n<=0?'aujourd’hui':n===1?'demain':'dans '+n+' jours'}</b><div class="muted small" style="margin:4px 0 8px">Renouvelle maintenant : la nouvelle durée s’ajoute à la fin de ton accès, tu ne perds aucun jour.</div><button class="btn coral" style="width:100%" onclick="RIC.track('debloquer_clic',{endroit:'rappel'});RIC.payer()">🔄 Renouveler mon Premium</button></div>`}}
+  const k=Object.assign({actif:false,date:'',seuil:60,texte:''},c.concours||{});
+  if(k.actif&&k.date&&(OF.mode()==='concours'||OF.mode()==='perso'||OF.mode()==='lancement')){const n=Math.round((Date.parse(k.date+'T00:00:00')-Date.parse(today()+'T00:00:00'))/864e5);
+   if(n>=0&&(!+k.seuil||n<=+k.seuil))h+=`<div class="card sf riof-cc"><div class="riof-j">${n===0?'Jour J':'J-'+n}</div><div><b>${esc(k.texte||'avant le concours')}</b><div class="small" style="opacity:.9">Concours le ${esc(jour(k.date+'T12:00:00'))}${!vraiPrem()&&actif()?' · chaque jour compte':''}</div></div></div>`}
+  return h});
+ const H=SCREENS.home&&SCREENS.home.blocks;if(H&&!H.includes('home.offres'))H.splice(Math.min(1,H.length),0,'home.offres');
+ const _lo=layoutOf;layoutOf=function(sc){const L=_lo.apply(this,arguments);if(sc!=='home'||!Array.isArray(L)||L.some(b=>b.id==='home.offres'))return L;const C=L.slice();C.splice(Math.min(1,C.length),0,{id:'home.offres',inst:'home.offres'});return C};
+
+ const st=document.createElement('style');st.textContent=`.riof-tag{display:inline-block;background:#f59e0b;color:#fff;border-radius:999px;padding:1px 8px;font-size:11px;font-weight:800;vertical-align:middle}
+ .riof-promo{margin:10px 0 0;padding:8px 10px;border-radius:10px;background:#fff1e6;color:#9a3412;font-size:14px}
+ .riof-lock,.ri-lockx{position:relative}.riof-flou{filter:blur(5px);user-select:none;pointer-events:none;opacity:.8}
+ .riof-sur{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;padding:10px 6px}.riof-lock .riof-sur{position:absolute;inset:0;justify-content:center;background:rgba(255,255,255,.55)}
+ .riof-cc{display:flex;gap:12px;align-items:center;background:linear-gradient(135deg,#6C3BF5,#2563eb);color:#fff;border:0}.riof-j{font-size:26px;font-weight:900;white-space:nowrap}
+ .riof-rap{border:2px solid #f59e0b}`;document.head.appendChild(st);
+})();
+
+/* ======================= SUJETS PAR GROUPES (cours ajouté avec mat.groupesSujets = [{t:'Partie 1', k:[0]}, …]) =======================
+   Annales de médecine : un en-tête par partie de l'annale au-dessus de ses sujets, dans l'ordre du fichier
+   (page du cours et rubrique d'accueil « DOCUMENT DE REVISION INFAS »). Sans ce champ, rien ne change. */
+(function(){if(typeof sujListeHTML!=='function')return;const _sl=sujListeHTML;
+ sujListeHTML=function(m){const h=_sl.apply(this,arguments);const G=m&&MATI[m.id]&&MATI[m.id].groupesSujets;if(!Array.isArray(G)||!G.length)return h;
+  const rows=h.split(/(?=<div class="suj sf)/);if(!rows.length||!/^<div class="suj sf/.test(rows[0]))return h;const avant={};G.forEach(g=>{const k=Math.min(...(g.k||[]));if(isFinite(k))avant[k]=g.t});
+  return rows.map((r,k)=>(avant[k]?`<div class="rc-sub ri-gsuj"${k?' style="margin-top:12px"':''}>📘 ${esc(avant[k])}</div>`:'')+r).join('')}})();
+/* ======================= « TOUS LES SUJETS PRÉPA D.E » : CHOIX DE LA MATIÈRE EN HAUT DE LA PAGE =======================
+   Boutons « Toutes · Santé infantile · Santé publique · Médecine… » (matières = début des titres des séries, « Matière · … ») ;
+   le choix est gardé (S.paMat). Les sections, séries et examens blancs restent ceux de la page. */
+(function(){const b=BLK['prepall.main'];if(!b)return;const _h=b.html;
+ window.riPaMat=function(k){S.paMat=k;save();render();window.scrollTo(0,0);setTimeout(()=>{const c=document.querySelector('.ri-chip.on'),r=c&&c.parentNode;if(r)r.scrollLeft=Math.max(0,c.offsetLeft-r.offsetLeft-16)},30)};
+ b.html=function(){const h=_h.apply(this,arguments);if(!h||h.indexOf('<div class="secT">')<0)return h;
+  const parts=h.split(/(?=<div class="secT">)/),tete=parts[0].indexOf('<div class="secT">')===0?'':parts.shift();
+  const nom=p=>{const m=p.match(/^<div class="secT">🎓 ([^<]*)<span/);return m?m[1].replace(/&amp;/g,'&').replace(/&#39;/g,"'").replace(/&quot;/g,'"'):''};
+  const M=parts.map(nom).filter(Boolean);if(M.length<2)return h;let k=S.paMat&&M.includes(S.paMat)?S.paMat:'';
+  const chip=(v,t)=>`<button class="ri-chip${v===k?' on':''}" onclick="riPaMat('${jsq(v)}')">${esc(t)}</button>`;
+  if(!document.getElementById('ri-chip-css')){const c=document.createElement('style');c.id='ri-chip-css';c.textContent='.ri-pamat{display:flex;gap:8px;overflow-x:auto;padding:2px 0 10px;margin:4px 0 6px;-webkit-overflow-scrolling:touch}.ri-chip{flex:0 0 auto;width:auto;border:1.5px solid var(--line,#d8dee9);background:var(--card,#fff);color:inherit;border-radius:999px;padding:7px 14px;font:inherit;font-size:14px;font-weight:700;cursor:pointer;white-space:nowrap}.ri-chip.on{background:var(--pri,#2563eb);border-color:var(--pri,#2563eb);color:#fff}';document.head.appendChild(c)}
+  return (tete+`<div class="ri-pamat">${chip('',Tx('pa.all','Toutes'))}${M.map(m=>chip(m,m)).join('')}</div>`+parts.filter(p=>!k||nom(p)===k).join(''))
+   .replace(/onclick="go\('dech',\{id:'xprepade',c:(\d+)\}\)"/g,'onclick="riPaLancer($1)"')}
+ /* une série : « Dans l'ordre » ou « Ordre aléatoire » (énoncés de cas gardés ensemble), ou les autres choix (20 au hasard, chronométré…) */
+ window.riPaLancer=function(c){const mid='xprepade',ids=(QBM[mid]||[]).filter(q=>q.c===c).map(q=>q.id),lb=chName(mid,c);if(!ids.length)return;
+  if(typeof RIC!=='undefined'&&RIC.can&&!RIC.off()&&!RIC.can('matiere:'+mid)){go('dech',{id:mid,c});return}
+  let o=$('#riordre');if(o)o.remove();o=document.createElement('div');o.id='riordre';o.className='pmod';const pref=S.ordre==='alea'?'alea':'ordre';
+  o.innerHTML=`<div class="pbox"><h3>📝 ${esc(lb)}</h3><div class="muted small">${ids.length} ${esc(Tx('or.q','questions'))}</div>
+   <div class="small" style="font-weight:700;margin:12px 0 6px">${T('or.h','Comment veux-tu composer ?')}</div>
+   <button class="btn ${pref==='ordre'?'coral':'light'}" data-or="ordre" style="width:100%">${T('or.ordre','🔢 Dans l’ordre')}</button>
+   <button class="btn ${pref==='alea'?'coral':'light'}" data-or="alea" style="width:100%;margin-top:8px">${T('or.alea','🔀 Ordre aléatoire')}</button>
+   <button class="btn light" data-or="autre" style="width:100%;margin-top:8px">${T('or.autre','⚙️ Autres choix (20 au hasard, chronométré…)')}</button>
+   <button class="btn light" style="width:100%;margin-top:8px" id="riordreX">${T('ui.cancel','Annuler')}</button></div>`;
+  document.body.appendChild(o);$('#riordreX',o).onclick=()=>o.remove();o.onclick=e=>{if(e.target===o)o.remove()};
+  $$('[data-or]',o).forEach(x=>x.onclick=()=>{const v=x.dataset.or;o.remove();if(v==='autre'){go('dech',{id:mid,c});return}S.ordre=v;save();
+   const L=v==='alea'?(typeof riMelangeCas==='function'?riMelangeCas(ids.slice()):shuffle(ids.slice())):ids;startQuiz(mid,L,lb,'chap')})}})();
+/* ======================= TOUT LE MONDE PREMIUM TANT QUE LE PAIEMENT EST MASQUÉ =======================
+   Tant que Daniel n'a pas rendu le paiement visible (tableau de bord › Offres), chaque élève a tout l'accès
+   et voit « MEMBRE PREMIUM ». Le contenu « masqué » reste masqué ; admin et studio restent réservés.
+   Quand le paiement redevient visible, les règles normales reviennent. */
+(function(){if(typeof RIC==='undefined'||!RIC.can)return;
+ RIC.tousPremium=()=>{try{return!RIC.off()&&!RIC.paieVisible()}catch(e){return false}};
+ const _prem=RIC.isPremium;RIC.isPremium=function(){if(RIC.tousPremium())return true;return _prem.apply(this,arguments)};
+ const _can=RIC.can;RIC.can=function(key){const k=String(key||'');if(RIC.tousPremium()&&!/^fonction:(?:admin|studio)/.test(k)){let e='';try{e=RIC.effective(k)}catch(x){}if(e!=='masque')return true}return _can.apply(this,arguments)};
+ const _qOk=RIC.qOk;RIC.qOk=function(){if(RIC.tousPremium())return true;return _qOk.apply(this,arguments)};
+ RIC.__tp=RIC.tousPremium();setInterval(()=>{const on=RIC.tousPremium();if(on!==RIC.__tp){RIC.__tp=on;if(typeof render==='function'&&!EDITMODE)render()}},3e3)})();
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();

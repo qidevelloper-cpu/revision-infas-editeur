@@ -738,3 +738,9 @@ html body .calc-fab{background:#FFFFFF;border:1px solid #E2E5EA;color:#1D2430;bo
 html body .calc-fab .grip{color:#9AA3AE}
 html body .calc-fab .ci svg{display:block}
 html body .calc-fab:focus-visible{outline:2px solid #F7931E}
+
+/* ---------- téléphone : rien ne doit déborder à droite (liens de sources très longs dans les explications, propositions longues) ---------- */
+html,body{max-width:100%;overflow-x:clip}
+.ex,.fb,.xbox,.filq,.qcard,.card,.opt,.li .tx,.suj .tx,.pbox,.rc-sub{overflow-wrap:anywhere;word-break:normal;min-width:0}
+.ex a,.fb a,.xbox a{word-break:break-all}
+.filq img,.ex img,.card img{max-width:100%;height:auto}

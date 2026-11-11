@@ -555,14 +555,14 @@ async function buildHTML(ro){const g=id=>{const e=document.getElementById(id);re
 window.PORTAIL_buildHTML=buildHTML;
 VIEWS.export=()=>`<div class="ed-h">📦 Version finale</div><div class="ed-note">Fichier unique avec toutes tes modifications et les 7 applications. Il reste modifiable (bouton ✏️) et peut être ré-exporté.</div><button class="ed-btn" id="edXF">Télécharger la version finale</button>
  <div class="ed-h">🔒 Version lecture seule</div><div class="ed-note">Pour les étudiants : mêmes contenus et réglages, mais <b>aucun élément d’édition</b> (pas de bouton ✏️, pas de panneau, code de l’éditeur retiré). La progression et les palettes du Profil restent disponibles.</div><button class="ed-btn" id="edXR">Télécharger la version lecture seule</button>
- <div class="ed-h">🧾 Modifications seules (JSON)</div><div class="ed-note">Petit fichier contenant uniquement tes modifications, à réimporter dans n’importe quelle version de ce portail. Choisis ce que tu veux exporter :</div>${stModifie()?'<div class="ed-note" style="color:#b45309"><b>⚠️ Des modifications ne sont pas encore appliquées</b> : touche « ✅ Appliquer » en haut pour qu’elles soient dans l’export.</div>':''}${xpChoix()}<div class="ed-row" style="margin-top:6px"><button class="ed-btn l" id="edXI">Importer des modifications</button></div>
+ <div class="ed-h">🧾 Modifications seules (JSON)</div><div class="ed-note">Petit fichier contenant uniquement tes modifications, à réimporter dans n’importe quelle version de ce portail. Choisis ce que tu veux exporter :</div>${stModifie()?'<div class="ed-note" style="color:#b45309"><b>⚠️ Des modifications ne sont pas encore appliquées</b> : touche « ✅ Appliquer » en haut pour qu’elles soient dans l’export.</div>':''}${xpChoix()}<div class="ed-row" style="margin-top:6px"><button class="ed-btn l" id="edXI">Importer des modifications</button><button class="ed-btn l" id="edXC" title="Questions corrigées dans « ✏️ Questions » du tableau de bord">⬇️ Récupérer les corrections du tableau de bord</button></div>
  <div class="ed-h">♻️ Tout annuler</div><div class="ed-note">Revenir à l’état d’origine de ce fichier (l’état actuel reste dans les 5 sauvegardes).</div><button class="ed-btn r" id="edXZ">Revenir à l’original</button>`;
 BINDS.export=b=>{edq('#edXF').onclick=async()=>{toast('Préparation du fichier…');download('Revision_INFAS-finale.html',await buildHTML(false),'text/html');toast('Version finale téléchargée')};
  edq('#edXR').onclick=async()=>{toast('Préparation du fichier…');download('Revision_INFAS-lecture-seule.html',await buildHTML(true),'text/html');toast('Version lecture seule téléchargée')};
  edq('#edXJ').onclick=()=>{const E2=clone(stAppliquee());delete E2.base;download(APPID+'-modifications-'+today()+'.json',JSON.stringify(E2,null,1),'application/json')};
  $$('[data-xp]',b).forEach(x=>x.onclick=()=>{const k=x.dataset.xp,P=xpPartiel(k);if(!P||!P.n){toast('Rien à exporter dans cette catégorie');return}
   download(APPID+'-modifications-'+XP_CAT[k][2]+'-'+today()+'.json',JSON.stringify(P.d,null,1),'application/json');toast(XP_CAT[k][0]+' : '+P.n+' élément(s) exporté(s) ✅')});
- edq('#edXI').onclick=()=>edq('#edImp').click();
+ edq('#edXI').onclick=()=>edq('#edImp').click();const xc=edq('#edXC');if(xc)xc.onclick=()=>edCorrections(true);
  edq('#edXZ').onclick=()=>{if(!confirm('Revenir à l’état d’origine du fichier ?'))return;commit('Avant retour à l’original');E=normE(EMB);commit('Retour à l’original');refresh(true);panel('export')}};
 
 /* ---------- 🚀 PUBLICATION DE LA VERSION LÉGÈRE (lecture seule) SUR GITHUB ----------
@@ -661,7 +661,7 @@ async function buildLight(log,reuse,prev,msg){msg=(msg||'').trim();
  /* version : signature du contenu, notes de mise à jour */
  const files=Object.values(imgmap).concat(Object.values(matf),Object.values(appf),xf,[ver('data.js'),ver('engine.js')]);
  const sig=sha1js(PENC.encode(Object.keys(F).sort().map(p=>p+F[p].s).join('|')+'|'+index));
- const mats={};(typeof MAT!=='undefined'?MAT:[]).filter(m=>!m.off).forEach(m=>{mats[m.id]={t:m.title||m.short||m.id,h:sha1js(PENC.encode(JSON.stringify([(QBM||{})[m.id]||[],(DATA.cards||{})[m.id]||[],matf[m.id]||'',appf[m.src]||'',((E.content||{}).appTxt||{})[m.id]||null])))}});
+ const mats={};(typeof MAT!=='undefined'?MAT:[]).filter(m=>!m.off).forEach(m=>{mats[m.id]={t:(((E.content||{}).riTxt||{})[m.title])||m.title||m.short||m.id,h:sha1js(PENC.encode(JSON.stringify([(QBM||{})[m.id]||[],(DATA.cards||{})[m.id]||[],matf[m.id]||'',appf[m.src]||'',((E.content||{}).appTxt||{})[m.id]||null])))}});
  let rel;
  if(prev&&prev.sig===sig&&!msg)rel=prev;
  else{const notes=[];if(msg)notes.push({t:msg});
@@ -1201,6 +1201,26 @@ async function stImporterPartiel(d){const lab=(XP_CAT[d.partiel]||['Modification
  try{await sjAvantImport()}catch(x){toast('⛔ Sauvegarde « avant import » impossible : import annulé, rien n’a changé',5000);return false}
  const src=clone(d);['partiel','titre','date','studio'].forEach(k=>delete src[k]);const N=clone(E);xpFusion(N,src);E=normE(N);
  ST_SANS_STUDIO=true;try{commit('Import partiel : '+lab)}finally{ST_SANS_STUDIO=false}refresh(true);toast(lab+' importé(e)s ✅ · le reste n’a pas changé',3000);return true}
+/* ---------- corrections publiées depuis le tableau de bord (« ✏️ Questions ») : ajoutées aux modifications de l'éditeur ----------
+   Une correction intégrée est notée dans content.corrInt (id → date) : le site publié la contient déjà, les téléphones ne la réappliquent pas. */
+let ED_CORR_FAIT=false;
+async function edCorrections(manuel){
+ try{if(typeof RIC==='undefined'||!RIC.url||!RIC.key){if(manuel)toast('Supabase n’est pas configuré dans cette appli');return 0}
+  const r=await fetch(RIC.url+'/rest/v1/rpc/corrections_actives',{method:'POST',headers:{'Content-Type':'application/json',apikey:RIC.key},body:JSON.stringify({})});
+  if(!r.ok){if(manuel)toast(r.status===404?'Colle d’abord le fichier SQL des outils dans Supabase':'Corrections indisponibles ('+r.status+')',4000);return 0}
+  const L=await r.json();if(!Array.isArray(L))return 0;const N=clone(E);N.content=N.content||{};const C=N.content,I=C.corrInt=C.corrInt||{};C.q=C.q||{};let n=0;
+  L.forEach(c=>{if(!c||!c.qid||!c.c||String(I[c.id])===String(c.t))return;const k=String(c.qid).lastIndexOf('.'),mid=String(c.qid).slice(0,k),i=String(c.qid).slice(k+1);
+   if(!QI[c.qid])return; // question absente de cette version de l'appli : reste appliquée sur les téléphones
+   const rec=Object.assign({},C.q[c.qid]||{});Object.keys(c.c).forEach(f=>{if(!['id','m'].includes(f))rec[f]=c.c[f]});rec.__tdb=c.t;C.q[c.qid]=rec;I[c.id]=c.t;n++});
+  if(!n){if(manuel)toast('Aucune nouvelle correction du tableau de bord');return 0}
+  const avant=E;E=normE(N);try{applyContent()}catch(e){}
+  /* contrôle : chaque correction doit vraiment se voir dans la question (sujets ajoutés, Correction Nationale, questions hors cours…) ; sinon elle n'est pas notée intégrée et les téléphones continuent de l'appliquer */
+  let nOk=0;L.forEach(c=>{if(!c||!c.qid||!C.q[c.qid]||String(I[c.id])!==String(c.t))return;const q=QI[c.qid],bon=q&&Object.keys(c.c).every(f=>['id','m'].includes(f)||JSON.stringify(q[f]==null?null:q[f])===JSON.stringify(c.c[f]==null?null:c.c[f]));
+   if(bon)nOk++;else{delete E.content.corrInt[c.id];if(!((avant.content||{}).q||{})[c.qid])delete E.content.q[c.qid];else E.content.q[c.qid]=avant.content.q[c.qid]}});
+  if(!nOk){E=avant;try{applyContent()}catch(e){}if(manuel)toast('Ces corrections ne peuvent pas être reprises ici : elles restent appliquées sur les téléphones',4000);return 0}
+  commit('Corrections du tableau de bord ('+nOk+')');refresh(true);toast('⬇️ '+nOk+' correction(s) du tableau de bord ajoutée(s) à tes modifications',4000);return nOk}
+ catch(e){if(manuel)toast('Corrections indisponibles : pas de connexion ?');return 0}}
+setInterval(()=>{try{if(!ED_CORR_FAIT&&typeof EDITMODE!=='undefined'&&EDITMODE&&(/\.github\.io$/.test(location.hostname)||window.__ED_CORR_AUTO)){ED_CORR_FAIT=true;edCorrections(false)}}catch(e){}},4000); // automatique sur l'éditeur en ligne ; bouton partout
 window.PORTAIL_xp={partiel:k=>xpPartiel(k),importer:t=>stImporterConfig(t)};
 async function stImporterConfig(txt){let d;try{d=JSON.parse(txt);if(d&&typeof d==='object'&&d.partiel&&XP_CAT[d.partiel])return stImporterPartiel(d);if(!d||typeof d!=='object'||!('texts' in d||'layout' in d||'content' in d))throw 0}catch(x){toast('Fichier de modifications invalide');return false}
  const f=stFormatDe(d);if(f.format>FORMAT_MAX){toast('⛔ Configuration d’un format plus récent ('+f.format+') : import refusé, rien n’a changé',5000);return false}
