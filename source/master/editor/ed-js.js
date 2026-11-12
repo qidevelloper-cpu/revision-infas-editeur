@@ -1208,19 +1208,51 @@ async function edCorrections(manuel){
  try{if(typeof RIC==='undefined'||!RIC.url||!RIC.key){if(manuel)toast('Supabase n’est pas configuré dans cette appli');return 0}
   const r=await fetch(RIC.url+'/rest/v1/rpc/corrections_actives',{method:'POST',headers:{'Content-Type':'application/json',apikey:RIC.key},body:JSON.stringify({})});
   if(!r.ok){if(manuel)toast(r.status===404?'Colle d’abord le fichier SQL des outils dans Supabase':'Corrections indisponibles ('+r.status+')',4000);return 0}
-  const L=await r.json();if(!Array.isArray(L))return 0;const N=clone(E);N.content=N.content||{};const C=N.content,I=C.corrInt=C.corrInt||{};C.q=C.q||{};let n=0;
+  const L=await r.json();if(!Array.isArray(L))return 0;ED_CORR_L=L;ED_CORR_T=Date.now();const N=clone(E);N.content=N.content||{};const C=N.content,I=C.corrInt=C.corrInt||{};C.q=C.q||{};let n=0;
+  const own={};L.forEach(c=>{if(c&&c.qid)own[c.qid]=1});const DUP=[];
   L.forEach(c=>{if(!c||!c.qid||!c.c||String(I[c.id])===String(c.t))return;const k=String(c.qid).lastIndexOf('.'),mid=String(c.qid).slice(0,k),i=String(c.qid).slice(k+1);
    if(!QI[c.qid])return; // question absente de cette version de l'appli : reste appliquée sur les téléphones
+   /* la même question dans un autre sujet : corrigée aussi dans les modifications */
+   try{if(window.riDoublons)riDoublons(c.qid).filter(id=>!own[id]).forEach(id=>{const o=riPropager(QI[c.qid],QI[id],c.c);if(!o)return;const rd=Object.assign({},C.q[id]||{},o);rd.__tdb=c.t;rd.__tdbDe=c.qid;C.q[id]=rd;DUP.push([id,o])})}catch(e){}
    const rec=Object.assign({},C.q[c.qid]||{});Object.keys(c.c).forEach(f=>{if(!['id','m'].includes(f))rec[f]=c.c[f]});rec.__tdb=c.t;C.q[c.qid]=rec;I[c.id]=c.t;n++});
   if(!n){if(manuel)toast('Aucune nouvelle correction du tableau de bord');return 0}
   const avant=E;E=normE(N);try{applyContent()}catch(e){}
   /* contrôle : chaque correction doit vraiment se voir dans la question (sujets ajoutés, Correction Nationale, questions hors cours…) ; sinon elle n'est pas notée intégrée et les téléphones continuent de l'appliquer */
   let nOk=0;L.forEach(c=>{if(!c||!c.qid||!C.q[c.qid]||String(I[c.id])!==String(c.t))return;const q=QI[c.qid],bon=q&&Object.keys(c.c).every(f=>['id','m'].includes(f)||JSON.stringify(q[f]==null?null:q[f])===JSON.stringify(c.c[f]==null?null:c.c[f]));
    if(bon)nOk++;else{delete E.content.corrInt[c.id];if(!((avant.content||{}).q||{})[c.qid])delete E.content.q[c.qid];else E.content.q[c.qid]=avant.content.q[c.qid]}});
+  let nD=0;DUP.forEach(([id,o])=>{const q=QI[id],bon=q&&Object.keys(o).every(f=>JSON.stringify(q[f]==null?null:q[f])===JSON.stringify(o[f]==null?null:o[f]));if(bon)nD++;else if(E.content.q[id]&&E.content.q[id].__tdbDe){if(!((avant.content||{}).q||{})[id])delete E.content.q[id];else E.content.q[id]=avant.content.q[id]}});
   if(!nOk){E=avant;try{applyContent()}catch(e){}if(manuel)toast('Ces corrections ne peuvent pas être reprises ici : elles restent appliquées sur les téléphones',4000);return 0}
-  commit('Corrections du tableau de bord ('+nOk+')');refresh(true);toast('⬇️ '+nOk+' correction(s) du tableau de bord ajoutée(s) à tes modifications',4000);return nOk}
+  commit('Corrections du tableau de bord ('+nOk+(nD?' + '+nD+' identique(s)':'')+')');refresh(true);toast('⬇️ '+nOk+' correction(s) du tableau de bord ajoutée(s) à tes modifications'+(nD?' · '+nD+' question(s) identique(s) corrigée(s) aussi':''),5000);try{if(edq('#edCorrBox'))edCorrDessin()}catch(e){}return nOk}
  catch(e){if(manuel)toast('Corrections indisponibles : pas de connexion ?');return 0}}
-setInterval(()=>{try{if(!ED_CORR_FAIT&&typeof EDITMODE!=='undefined'&&EDITMODE&&(/\.github\.io$/.test(location.hostname)||window.__ED_CORR_AUTO)){ED_CORR_FAIT=true;edCorrections(false)}}catch(e){}},4000); // automatique sur l'éditeur en ligne ; bouton partout
+let ED_CORR_L=null,ED_CORR_T=0;
+/* automatique sur l'éditeur en ligne : à l'ouverture puis toutes les 5 minutes (bouton partout) */
+setInterval(()=>{try{if(typeof EDITMODE!=='undefined'&&EDITMODE&&(/\.github\.io$/.test(location.hostname)||window.__ED_CORR_AUTO)&&(!ED_CORR_FAIT||Date.now()-ED_CORR_T>5*60e3)&&navigator.onLine!==false){ED_CORR_FAIT=true;ED_CORR_T=Date.now();edCorrections(false)}}catch(e){}},4000);
+/* ---------- Contenu › Questions : carte « ✏️ Corrections du tableau de bord » (identiques corrigées, similaires à vérifier) ---------- */
+const ED_SIM_OUV={};let ED_CONF_OUV=false,ED_CONF=null;
+/* questions identiques (même énoncé, mêmes propositions) dont la bonne réponse n'est pas la même : l'une des deux est fausse */
+function edConflits(){if(!window.riDoublons)return[];const n=x=>String(x==null?'':x).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
+ const cle=y=>y.t==='vf'?'v'+(y.v?1:0):y.t==='qcm'?(Array.isArray(y.am)&&y.am.length?y.am:[y.a]).map(i=>n((y.o||[])[i])).sort().join('|'):n(y.r);
+ const vu={},R=[];for(const id in QI){if(vu[id])continue;const d=riDoublons(id);if(!d.length)continue;d.forEach(x=>vu[x]=1);const G=[id].concat(d);if(new Set(G.map(x=>cle(QI[x]))).size>1)R.push(G)}return R}
+const edRepTxt=q=>{if(!q)return'';if(q.t==='vf')return q.v?'Vrai':'Faux';if(q.t==='qcm')return(Array.isArray(q.am)&&q.am.length?q.am:[q.a]).map(i=>'ABCDEFGH'[i]+'. '+((q.o||[])[i]||'')).join(' ; ');return q.r||''};
+function edCorrDessin(){const z=edq('#edCorrBox');if(!z)return;const L=(ED_CORR_L||[]).filter(c=>c&&c.qid),I=(E.content||{}).corrInt||{};
+ const mat=id=>{const q=QI[id];const m=q&&MATI[q.m];return m?(m.emo||'')+' '+(m.short||m.title||q.m):String(id).split('.')[0]};
+ const ligne=(id,extra)=>{const q=QI[id];return `<div class="ed-item" style="align-items:flex-start;gap:8px"><div class="gr"><small>${esc(mat(id))} · ${esc(id)}${q&&q.__corr?' · ✅ déjà corrigée':''}</small><br>${esc(String(q?q.q:'(question absente)').slice(0,140))}${extra||''}</div>${q?`<button class="ed-btn sm" data-cq="${esc(id)}">✏️ Ouvrir</button>`:''}</div>`};
+ z.innerHTML=`<div class="ed-h" style="margin-top:0">✏️ Corrections du tableau de bord</div>
+ <div class="ed-note">${ED_CORR_L==null?'Pas encore récupérées.':`<b>${L.length}</b> correction(s) en ligne sur le site des élèves · <b>${L.filter(c=>String(I[c.id])===String(c.t)).length}</b> dans tes modifications.`} Elles arrivent ici <b>automatiquement</b> (à l’ouverture puis toutes les 5 minutes) ; la même question dans un autre sujet est corrigée en même temps.${ED_CORR_T?' Dernière vérification : '+new Date(ED_CORR_T).toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'})+'.':''}</div>
+ <div class="ed-row"><button class="ed-btn l" id="edCorrGo">⬇️ Récupérer maintenant</button></div>
+ ${L.slice(0,40).map(c=>{const q=QI[c.qid],D=q&&window.riDoublons?riDoublons(c.qid):[],ok=String(I[c.id])===String(c.t),ouv=ED_SIM_OUV[c.qid];let sim=null;if(ouv&&window.riSimilaires)sim=riSimilaires(c.qid,10,.5);
+  return `<div style="border:1px solid #e5e7eb;border-radius:12px;padding:8px;margin:6px 0">${ligne(c.qid,`<br><small>${ok?'✅ dans tes modifications':'⏳ appliquée sur les téléphones, pas encore dans tes modifications'} · champs : ${esc(Object.keys(c.c||{}).join(', '))}</small>`)}
+   ${D.length?`<div class="ed-note" style="margin:4px 0">🔁 <b>${D.length}</b> question(s) identique(s) dans d’autres sujets, corrigée(s) automatiquement :</div>${D.slice(0,8).map(id=>ligne(id)).join('')}`:''}
+   <div class="ed-row" style="margin-top:4px"><button class="ed-btn sm" data-csim="${esc(c.qid)}">${ouv?'▲ Masquer':'🔎 Questions similaires à vérifier'}</button></div>
+   ${sim?(sim.length?`<div class="ed-note" style="margin:4px 0">Questions qui se ressemblent (pas identiques) : vérifie si la même correction s’applique.</div>`+sim.map(x=>ligne(x.id,` <small>· ressemblance ${x.score} %</small>`)).join(''):'<div class="ed-note">Aucune question similaire trouvée.</div>'):''}</div>`}).join('')}
+ <div class="ed-row" style="margin-top:8px"><button class="ed-btn l" id="edConfGo">${ED_CONF_OUV?'▲ Masquer':'⚠️ Questions identiques avec des réponses différentes'}${ED_CONF?' ('+ED_CONF.length+')':''}</button></div>
+ ${ED_CONF_OUV&&ED_CONF?(ED_CONF.length?`<div class="ed-note">Même énoncé et mêmes propositions, mais pas la même bonne réponse : l’une est sûrement fausse. Corrige la bonne dans le tableau de bord, les autres suivront.</div>`+ED_CONF.slice(0,40).map(G=>`<div style="border:1px solid #fcd34d;background:#fffbeb;border-radius:12px;padding:8px;margin:6px 0">${G.map(id=>ligne(id,`<br><small>✔ ${esc(edRepTxt(QI[id]))}</small>`)).join('')}</div>`).join('')+(ED_CONF.length>40?`<div class="ed-note">… et ${ED_CONF.length-40} autre(s).</div>`:''):'<div class="ed-note">✅ Aucune : toutes les questions identiques ont la même réponse.</div>'):''}`;
+ const g=edq('#edCorrGo');if(g)g.onclick=async()=>{g.disabled=true;g.textContent='⏳ Vérification…';const n=await edCorrections(true);if(!n){ED_CORR_T=ED_CORR_T||Date.now();edCorrDessin()}};
+ $$('[data-cq]',z).forEach(x=>x.onclick=()=>{const q=QI[x.dataset.cq];if(q)qForm(q)});
+ $$('[data-csim]',z).forEach(x=>x.onclick=()=>{const k=x.dataset.csim;ED_SIM_OUV[k]=!ED_SIM_OUV[k];edCorrDessin()});
+ const cg=edq('#edConfGo');if(cg)cg.onclick=()=>{ED_CONF_OUV=!ED_CONF_OUV;if(ED_CONF_OUV)ED_CONF=edConflits();edCorrDessin()}}
+async function edCorrListe(){try{if(typeof RIC==='undefined'||!RIC.url||!RIC.key)return;const r=await fetch(RIC.url+'/rest/v1/rpc/corrections_actives',{method:'POST',headers:{'Content-Type':'application/json',apikey:RIC.key},body:'{}'});if(!r.ok)return;const L=await r.json();if(Array.isArray(L)){ED_CORR_L=L;ED_CORR_T=Date.now()}}catch(e){}}
+{const _cbq=CBIND.questions;CBIND.questions=box=>{_cbq(box);box.insertAdjacentHTML('afterbegin','<div id="edCorrBox" style="margin-bottom:12px"></div>');edCorrDessin();if(ED_CORR_L==null&&(/\.github\.io$/.test(location.hostname)||window.__ED_CORR_AUTO))edCorrListe().then(()=>{try{edCorrDessin()}catch(e){}})}}
 window.PORTAIL_xp={partiel:k=>xpPartiel(k),importer:t=>stImporterConfig(t)};
 async function stImporterConfig(txt){let d;try{d=JSON.parse(txt);if(d&&typeof d==='object'&&d.partiel&&XP_CAT[d.partiel])return stImporterPartiel(d);if(!d||typeof d!=='object'||!('texts' in d||'layout' in d||'content' in d))throw 0}catch(x){toast('Fichier de modifications invalide');return false}
  const f=stFormatDe(d);if(f.format>FORMAT_MAX){toast('⛔ Configuration d’un format plus récent ('+f.format+') : import refusé, rien n’a changé',5000);return false}

@@ -2790,13 +2790,18 @@ function sujPrefixe(mid){const m=MATI[mid];return(m&&m.sujPrefixe)||SUJ_PREFIXE[
     (énoncé, type QCM / QCD / ouverte, propositions, bonnes réponses, explication), par la même correspondance que les listes du portail */
  function corrAppli(Q,MID){try{const P=window.parent;if(!P||P===window||typeof P.cleQuestion!=='function')return;
   const QIp=P.eval('typeof QI!=="undefined"?QI:null'),PM=P.eval('typeof PROGMAP!=="undefined"?PROGMAP:null');if(!QIp||!PM)return;
-  const a=Object.values(PM).find(x=>x&&x.m===MID);if(!a)return;const L='ABCDEFGHIJKL';
+  const a=Object.values(PM).find(x=>x&&x.m===MID);if(!a)return;const L='ABCDEFGHIJKL',XM=[];
   (Q.antennes||[]).forEach(A=>(A.sujets||[]).forEach(s=>(s.questions||[]).forEach(x=>{const i=P.cleQuestion(a,x.id);if(i==null)return;const q=QIp[a.m+'.'+i];if(!q||!q.__corr)return;
    if(q.q)x.text=q.q;if(q.x!=null)x.explanation=q.x;
+   if(Array.isArray(q.xi)){const u=q.xi.filter(v=>typeof v==='string'&&/^https:\/\/[a-z0-9-]+\.supabase\.co\/storage\/v1\/object\/public\/explications\/[A-Za-z0-9._\/-]+$/.test(v));if(u.length){if(!x.explanation)x.explanation='📷 Image ci-dessous';XM.push([String(x.explanation).replace(/\s+/g,' ').trim(),u])}}
    if(q.t==='qcm'&&Array.isArray(q.o)){x.options=q.o.map((t,j)=>({letter:L[j],text:t}));const ls=(Array.isArray(q.am)&&q.am.length?q.am:[q.a]).map(j=>L[j]);
     x.mode='mcq';x.multi=ls.length>1;x.answerLetters=ls;x.answer=ls.map(l=>l+'. '+(x.options.find(o=>o.letter===l)||{}).text).join(' ; ');if(x.type==='AUTRE')x.type=x.typeLabel='QCM'}
    else if(q.t==='vf'){x.options=[{letter:'A',text:'Vrai'},{letter:'B',text:'Faux'}];x.mode='mcq';x.multi=false;x.answerLetters=[q.v?'A':'B'];x.answer=q.v?'A. Vrai':'B. Faux'}
-   else if(q.t==='open'){x.mode='open';x.options=[];x.answerLetters=[];x.answer=q.r||x.answer}})))}catch(e){}}
+   else if(q.t==='open'){x.mode='open';x.options=[];x.answerLetters=[];x.answer=q.r||x.answer}})));
+  /* images ajoutées à l'explication depuis le tableau de bord : placées sous l'explication affichée */
+  if(XM.length){const go=()=>{document.querySelectorAll('.fb-explain:not([data-xi])').forEach(el=>{el.setAttribute('data-xi','1');const t=el.textContent.replace(/\s+/g,' ').trim();const m=XM.find(z=>z[0]&&t.endsWith(z[0]));if(!m)return;
+    el.insertAdjacentHTML('beforeend',m[1].map(u=>'<a class="ri-xi" href="'+u+'" target="_blank" rel="noopener" style="display:block;margin-top:8px"><img src="'+u+'" alt="Image de l’explication" loading="lazy" style="max-width:100%;height:auto;border-radius:10px"></a>').join(''))})};
+   new MutationObserver(go).observe(document.documentElement,{childList:true,subtree:true})}}catch(e){}}
  /* ---- les mêmes sujets en questions natives : liste des sujets du cours, écran « toutes les questions » (on coche en descendant) ----
     XD['plusnat-<cours>'] = {ch, k (antenne/sujet), p (paquet), q} ajoutés APRÈS les questions d'origine : identifiants stables. */
  const NATB={};
@@ -3474,9 +3479,31 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
  const CK='ri_corr';let CORR=null,derC=0;
  const lireC=()=>{try{return JSON.parse(localStorage.getItem(CK)||'null')}catch(e){return null}};
  function integree(c){try{const I=(E&&E.content&&E.content.corrInt)||{};return I[c.id]&&String(I[c.id])===String(c.t)}catch(e){return false}}
- function appliquer(){const L=CORR||lireC();if(!Array.isArray(L))return 0;let n=0;
+ /* ---- la même question ailleurs (autre sujet, autre antenne, appli complète) : corrigée en même temps ----
+    identique = même situation + même énoncé + même type + mêmes propositions (dans n'importe quel ordre), signature prise AVANT correction */
+ const nz=s=>String(s==null?'':s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
+ const sigQ=q=>[nz(q.s),nz(q.q),q.t||'',(q.o||[]).map(nz).filter(Boolean).sort().join('|')].join('#');
+ let SIGI=null,SIGN=-1,SIGT=0,TOK=null,TOKN=0;
+ function indexSig(tout){if(!tout&&SIGI&&Date.now()-SIGT<3000)return SIGI;const ks=Object.keys(QI);SIGT=Date.now();if(!tout&&SIGI&&SIGN===ks.length)return SIGI;let neuf=!SIGI||SIGN!==ks.length;
+  for(const id of ks){const q=QI[id];if(q&&q.__sig0==null){q.__sig0=q.q?sigQ(q):'';neuf=true}}
+  if(neuf){SIGI={};for(const id of ks){const q=QI[id];if(!q||!q.__sig0||nz(q.q).length<12)continue;(SIGI[q.__sig0]=SIGI[q.__sig0]||[]).push(id)}}SIGN=ks.length;return SIGI}
+ window.riDoublons=qid=>{const q=QI[qid];if(!q)return[];const I=indexSig();if(q.__sig0==null)q.__sig0=q.q?sigQ(q):'';return(I[q.__sig0]||[]).filter(x=>x!==qid&&QI[x]&&QI[x].__sig0===q.__sig0)};
+ window.riPropager=(src,dst,c)=>{const o={};Object.keys(c).forEach(k=>{if(!['id','m','c'].includes(k))o[k]=c[k]});
+  if(!('o' in c)&&('a' in c||'am' in c)){if(!Array.isArray(src.o)||!Array.isArray(dst.o))return null;const mp=i=>{if(i==null||i<0)return i;const t=nz(src.o[i]);return dst.o.findIndex(x=>nz(x)===t)};
+   if('a' in c)o.a=mp(c.a);if('am' in c)o.am=Array.isArray(c.am)?c.am.map(mp).sort((x,y)=>x-y):c.am;if((o.a!=null&&o.a<0)||(Array.isArray(o.am)&&o.am.some(i=>i<0)))return null}
+  return o};
+ /* questions qui se ressemblent (pas identiques) : mots en commun, pour les vérifier dans l'éditeur */
+ window.riSimilaires=(qid,max,seuil)=>{max=max||10;seuil=seuil||.5;const q=QI[qid];if(!q)return[];const ks=Object.keys(QI);
+  const tok=x=>new Set(nz((x.s||'')+' '+(x.q||'')+' '+(x.o||[]).join(' ')).split(' ').filter(w=>w.length>2));
+  if(!TOK||TOKN!==ks.length){TOK={};ks.forEach(id=>{const x=QI[id];if(x&&x.q)TOK[id]=tok(x)});TOKN=ks.length}
+  const A=tok(q);if(A.size<3)return[];const D=new Set(riDoublons(qid)),R=[];
+  for(const id in TOK){if(id===qid||D.has(id))continue;const B=TOK[id];if(B.size<3)continue;let i=0;const p=A.size<B.size?A:B,g=p===A?B:A;p.forEach(w=>{if(g.has(w))i++});const j=i/(A.size+B.size-i);if(j>=seuil)R.push([id,j])}
+  return R.sort((x,y)=>y[1]-x[1]).slice(0,max).map(([id,j])=>({id,score:Math.round(j*100)}))};
+ function appliquer(){const L=CORR||lireC();if(!Array.isArray(L))return 0;let n=0;try{indexSig(true)}catch(e){}const own={};L.forEach(c=>{if(c&&c.qid)own[c.qid]=1});
   L.forEach(c=>{if(!c||!c.qid||!c.c||typeof c.c!=='object'||integree(c))return;const q=QI[c.qid];if(!q)return;
-   Object.keys(c.c).forEach(k=>{if(['id','m'].includes(k))return;const v=c.c[k];if(v===null)delete q[k];else q[k]=v});q.__corr=c.id;n++});return n}
+   let P=[];try{P=riDoublons(c.qid).filter(id=>!own[id]).map(id=>[id,riPropager(q,QI[id],c.c)])}catch(e){}
+   Object.keys(c.c).forEach(k=>{if(['id','m'].includes(k))return;const v=c.c[k];if(v===null)delete q[k];else q[k]=v});q.__corr=c.id;n++;
+   P.forEach(([id,o])=>{if(!o)return;const d=QI[id];Object.keys(o).forEach(k=>{const v=o[k];if(v===null)delete d[k];else d[k]=JSON.parse(JSON.stringify(v))});d.__corr=c.id;d.__corrDe=c.qid;n++})});return n}
  window.riCorrections={appliquer,liste:()=>CORR||lireC()||[]};
  const _ac=applyContent;applyContent=function(){const r=_ac.apply(this,arguments);try{appliquer()}catch(e){}return r};
  async function charger(force){try{
@@ -3701,4 +3728,14 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
  const _can=RIC.can;RIC.can=function(key){const k=String(key||'');if(RIC.tousPremium()&&!/^fonction:(?:admin|studio)/.test(k)){let e='';try{e=RIC.effective(k)}catch(x){}if(e!=='masque')return true}return _can.apply(this,arguments)};
  const _qOk=RIC.qOk;RIC.qOk=function(){if(RIC.tousPremium())return true;return _qOk.apply(this,arguments)};
  RIC.__tp=RIC.tousPremium();setInterval(()=>{const on=RIC.tousPremium();if(on!==RIC.__tp){RIC.__tp=on;if(typeof render==='function'&&!EDITMODE)render()}},3e3)})();
+/* ======================= IMAGES DE L'EXPLICATION (ajoutées depuis le tableau de bord) =======================
+   Une correction peut porter « xi » : liste d'images (stockage public « explications » de Supabase).
+   Elles s'affichent sous l'explication, partout où l'explication est montrée (quiz, révision, fil, correction). */
+(function(){const OKX=/^https:\/\/[a-z0-9-]+\.supabase\.co\/storage\/v1\/object\/public\/explications\/[A-Za-z0-9._\/-]+$/;
+ window.riXiOk=u=>typeof u==='string'&&OKX.test(u);
+ window.riZoomXi=function(u){if(!riXiOk(u))return;let o=document.getElementById('lb');if(!o){o=document.createElement('div');o.id='lb';o.className='lb';o.onclick=()=>o.classList.remove('on');document.body.appendChild(o)}
+  o.innerHTML=`<img src="${esc(u)}" alt=""><button class="btn coral" style="width:auto;margin:10px auto 0">${esc(Tx('lb.close','✕ Fermer'))}</button>`;o.classList.add('on')};
+ const _x=extrasHTML;extrasHTML=function(q){const h=_x.apply(this,arguments);const U=q&&Array.isArray(q.xi)?q.xi.filter(riXiOk):[];if(!U.length)return h;
+  const f=U.map(u=>`<figure class="xfig ri-xi"><img src="${esc(u)}" alt="${esc(Tx('x.img','Image de l’explication'))}" loading="lazy" onclick="riZoomXi('${jsq(u)}')"><figcaption>🖼️ ${esc(Tx('x.img','Image de l’explication'))}</figcaption></figure>`).join('');
+  return h?h.replace('<div class="xbox">','<div class="xbox">'+f):`<div class="xbox">${f}</div>`}})();
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
