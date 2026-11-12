@@ -744,3 +744,6 @@ html,body{max-width:100%;overflow-x:clip}
 .ex,.fb,.xbox,.filq,.qcard,.card,.opt,.li .tx,.suj .tx,.pbox,.rc-sub{overflow-wrap:anywhere;word-break:normal;min-width:0}
 .ex a,.fb a,.xbox a{word-break:break-all}
 .filq img,.ex img,.card img{max-width:100%;height:auto}
+
+/* badge « MEMBRE PREMIUM » : tient sur l’écran du téléphone */
+.ri-planw{max-width:100%}.ri-planw .ri-plan{max-width:100%;padding:6px 12px}.ri-planw .ri-plan b{font-size:clamp(12px,3.9vw,15px)!important;letter-spacing:.3px}
