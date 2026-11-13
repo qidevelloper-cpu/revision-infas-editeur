@@ -456,7 +456,7 @@ B('quiz.main','Question',()=>{if(!QZ)return'';if(QZ.idx>=QZ.ids.length)return'';
  if(q.t==='qcm'){const P=permOf(q);body=P.map((oi,k)=>{let c='';if(a){if(oi===q.a)c='ok';else if(oi===a.sel)c='ko'}return `<button class="opt ${c}" ${a?'disabled':''} onclick="ansQ(${oi})"><span class="k">${L[k]}</span><span>${esc(q.o[oi])}</span></button>`}).join('')}
  else if(q.t==='vf'){body=`<div class="vfrow">${[[1,Tx('quiz.true','Vrai')],[0,Tx('quiz.false','Faux')]].map(([v,l])=>{let c='';if(a){if(v===q.v)c='ok';else if(v===a.sel)c='ko'}return `<button class="opt ${c}" ${a?'disabled':''} onclick="ansQ(${v})">${esc(l)}</button>`}).join('')}</div>`}
  else{body=a?`<div class="fb neu"><b>${T('quiz.yours','Ta réponse :')}</b> ${esc(a.txt||'—')}</div>`:`<textarea class="tin" id="openA" rows="3" placeholder="${esc(Tx('quiz.open.ph','Écris ta réponse…'))}"></textarea><button class="btn" style="margin-top:10px" onclick="ansOpen()">${T('quiz.open.show','Voir la réponse')}</button>`}
- let fb='';if(a){const good=a.ok;fb=`<div class="fb ${a.pending?'neu':good?'good':'bad'}"><div class="h">${a.pending?T('quiz.selfq','Avais-tu la bonne réponse ?'):good?T('quiz.good','Bonne réponse ✅'):T('quiz.bad','Réponse incorrecte ❌')}</div>${(!good||q.t==='open')?`<div><b>${T('quiz.answer','Réponse :')}</b> ${esc(correctText(q))}</div>`:''}${q.x?`<div class="ex">💡 ${esc(q.x)}</div>`:''}</div>${a.pending?'':extrasHTML(q)}${a.pending?'':`<button class="btn light readbtn" onclick="readCourse('${jsq(q.m)}',${q.c},'${jsq(q.id)}')">${T('read.btn','📖 Lire le cours de ce chapitre')}</button>`}`;
+ let fb='';if(a){const good=a.ok;fb=`<div class="fb ${a.pending?'neu':good?'good':'bad'}"><div class="h">${a.pending?T('quiz.selfq','Avais-tu la bonne réponse ?'):good?T('quiz.good','Bonne réponse ✅'):T('quiz.bad','Réponse incorrecte ❌')}</div>${(!good||q.t==='open')?`<div><b>${T('quiz.answer','Réponse :')}</b> ${esc(correctText(q))}</div>`:''}${q.x?`<div class="ex">💡 ${riX(q.x)}</div>`:''}</div>${a.pending?'':extrasHTML(q)}${a.pending?'':`<button class="btn light readbtn" onclick="readCourse('${jsq(q.m)}',${q.c},'${jsq(q.id)}')">${T('read.btn','📖 Lire le cours de ce chapitre')}</button>`}`;
   if(a.pending)fb+=`<div class="row2"><button class="btn" style="background:var(--green)" onclick="selfGrade(1)">${T('quiz.knew','✅ Je savais')}</button><button class="btn" style="background:var(--red)" onclick="selfGrade(0)">${T('quiz.didnt','❌ À revoir')}</button></div>`;
   else fb+=`<div class="qbtns"><button class="btn pin ${S.diff[q.id]?'on':''}" title="${esc(Tx('quiz.pin','À revoir'))}" onclick="togglePin('${jsq(q.id)}')">📌</button><button class="btn coral" onclick="nextQ()">${QZ.idx+1<QZ.ids.length?T('quiz.next','Suivant →'):T('quiz.finish','Terminer 🏁')}</button></div>`}
  return `<div class="qtop"><span>${T('quiz.progress','{i}/{n} · ✅ {ok}',{i:QZ.idx+1,n:QZ.ids.length,ok:QZ.ok})}</span><span>${esc(QZ.label)}</span></div><div class="pbar"><i style="width:${QZ.idx/QZ.ids.length*100}%"></i></div>${qCard(q,body)}${fb}`});
@@ -501,7 +501,7 @@ function finishExam(abort){clearInterval(EXT);if(!EX)return;if(abort){const m=EX
 B('result.score','Note',()=>{if(!RES)return'';const r=RES,men=r.sc>=16?Tx('result.m1','Excellent ! 🏆'):r.sc>=14?Tx('result.m2','Très bien 🎉'):r.sc>=10?Tx('result.m3','Admis — continue ! 💪'):Tx('result.m4','À retravailler 📚');
  return `<div class="card sf center"><div class="muted">${r.mid?esc(matOf(r.mid).emo+' '+matOf(r.mid).title):esc(r.label)}</div><div class="score">${r.sc}<span style="font-size:.45em">/20</span></div><div style="font-weight:800;font-size:20px;margin-top:6px">${esc(men)}</div><div class="muted">${T('result.line','{ok} bonnes réponses sur {n}',{ok:r.ok,n:r.n})}</div></div>`});
 B('result.review','Correction',()=>{if(!RES)return'';const bad=RES.ids.filter(id=>!(RES.ans[id]||{}).ok);if(!bad.length)return `<div class="card sf center">${T('result.perfect','Aucune erreur 👏')}</div>`;
- return `<div class="secT">${T('result.rev','Correction des erreurs ({n})',{n:bad.length})}<span class="ln"></span></div>`+bad.map(id=>{const q=QI[id];return q?`<div class="rv">${q.s?`<div class="muted small">${esc(q.s)}</div>`:''}<b>${esc(q.q)}</b><div class="ans">✔ ${esc(correctText(q))}</div>${q.x?`<div class="muted small">💡 ${esc(q.x)}</div>`:''}${extrasHTML(q,1)}<button class="btn light readbtn" style="margin:8px 0 0" onclick="readCourse('${jsq(q.m)}',${q.c},'${jsq(q.id)}')">${T('read.btn','📖 Lire le cours de ce chapitre')}</button></div>`:''}).join('')});
+ return `<div class="secT">${T('result.rev','Correction des erreurs ({n})',{n:bad.length})}<span class="ln"></span></div>`+bad.map(id=>{const q=QI[id];return q?`<div class="rv">${q.s?`<div class="muted small">${esc(q.s)}</div>`:''}<b>${esc(q.q)}</b><div class="ans">✔ ${esc(correctText(q))}</div>${q.x?`<div class="muted small">💡 ${riX(q.x)}</div>`:''}${extrasHTML(q,1)}<button class="btn light readbtn" style="margin:8px 0 0" onclick="readCourse('${jsq(q.m)}',${q.c},'${jsq(q.id)}')">${T('read.btn','📖 Lire le cours de ce chapitre')}</button></div>`:''}).join('')});
 B('result.actions','Boutons de fin',()=>RES?`<button class="btn coral" onclick="${RES.kind==='exam'?`startTimed(RES.mid,RES.ids,RES.label,RES.k)`:`startQuiz('${jsq(RES.mid)}',RES.ids,RES.label,RES.mode)`}">${T('result.again','🔁 Recommencer')}</button><button class="btn light" onclick="startDiff('${jsq(RES.mid)}')">${T('result.diff','📌 Revoir mes notions difficiles')}</button><button class="btn ghost" onclick="tab('home')">${T('result.home','🏠 Accueil')}</button>`:'');
 
 /* ======================= RÉSUMÉS DE COURS ======================= */
@@ -525,7 +525,7 @@ B('resumes.main','Résumés, tableaux, images',()=>{const mid=ctx.id,m=matOf(mid
 
 /* ======================= NOTIONS DIFFICILES ======================= */
 B('diff.list','Liste des notions',()=>{const mid=ctx.id||'';const ids=diffIds(mid);if(!ids.length)return `<div class="card sf empty">${T('diff.empty','Rien à revoir pour l’instant 👏')}</div>`;
- return `<button class="btn coral" onclick="startDiff('${jsq(mid)}')">${T('diff.go','🔁 M’entraîner sur ces {n} notions',{n:ids.length})}</button><div class="card sf">${ids.map(id=>{const q=QI[id];return `<details class="dl"><summary>${mid?'':esc(matOf(q.m).emo)+' '}${esc(q.q)}</summary>${q.s?`<div class="ex">${esc(q.s)}</div>`:''}<div class="ra">✔ ${esc(correctText(q))}</div>${q.x?`<div class="ex">💡 ${esc(q.x)}</div>`:''}${extrasHTML(q)}<button class="btn light readbtn" onclick="readCourse('${jsq(q.m)}',${q.c},'${jsq(q.id)}')">${T('read.btn','📖 Lire le cours de ce chapitre')}</button><button class="btn ghost" style="margin-top:8px;padding:9px" onclick="togglePin('${jsq(id)}')">${T('diff.remove','Retirer de la liste')}</button></details>`}).join('')}</div>`});
+ return `<button class="btn coral" onclick="startDiff('${jsq(mid)}')">${T('diff.go','🔁 M’entraîner sur ces {n} notions',{n:ids.length})}</button><div class="card sf">${ids.map(id=>{const q=QI[id];return `<details class="dl"><summary>${mid?'':esc(matOf(q.m).emo)+' '}${esc(q.q)}</summary>${q.s?`<div class="ex">${esc(q.s)}</div>`:''}<div class="ra">✔ ${esc(correctText(q))}</div>${q.x?`<div class="ex">💡 ${riX(q.x)}</div>`:''}${extrasHTML(q)}<button class="btn light readbtn" onclick="readCourse('${jsq(q.m)}',${q.c},'${jsq(q.id)}')">${T('read.btn','📖 Lire le cours de ce chapitre')}</button><button class="btn ghost" style="margin-top:8px;padding:9px" onclick="togglePin('${jsq(id)}')">${T('diff.remove','Retirer de la liste')}</button></details>`}).join('')}</div>`});
 
 /* ======================= HEURES DE COURS ======================= */
 const CARDC={};function cardsOf(mid){if(!CARDC[mid]){const v=visCh(MATI[mid]);CARDC[mid]=((DATA.cards||{})[mid]||[]).map((c,i)=>Object.assign({id:mid+'.f'+i,m:mid},c)).filter(c=>!v||v.has(c.c))}return CARDC[mid]}
@@ -860,7 +860,7 @@ function gsPick(i,el){const x=GSR[i];if(!x)return;
  if(x.k==='mat'){gsClose();openMat(x.mid);return}
  if(x.k==='ch'||x.k==='course'){gsClose();readCourse(x.mid,x.c);return}
  const nx=el.nextElementSibling;if(nx&&nx.classList.contains('gsd')){nx.remove();return}const d=document.createElement('div');d.className='gsd';
- if(x.k==='q'){const q=QI[x.id];d.innerHTML=`<div class="ra">✔ ${esc(correctText(q))}</div>${q.x?`<div class="ex">💡 ${esc(q.x)}</div>`:''}<div class="row2"><button class="btn light" data-a="rc">${esc(Tx('read.btn2','📖 Lire le cours'))}</button><button class="btn light" data-a="pin">${esc(S.diff[q.id]?Tx('gs.unpin','📌 Retirer des notions'):Tx('gs.pin','📌 À revoir'))}</button></div>`;
+ if(x.k==='q'){const q=QI[x.id];d.innerHTML=`<div class="ra">✔ ${esc(correctText(q))}</div>${q.x?`<div class="ex">💡 ${riX(q.x)}</div>`:''}<div class="row2"><button class="btn light" data-a="rc">${esc(Tx('read.btn2','📖 Lire le cours'))}</button><button class="btn light" data-a="pin">${esc(S.diff[q.id]?Tx('gs.unpin','📌 Retirer des notions'):Tx('gs.pin','📌 À revoir'))}</button></div>`;
   d.onclick=e=>{const a=e.target.closest('[data-a]');if(!a)return;if(a.dataset.a==='rc'){gsClose();readCourse(q.m,q.c,q.id)}else{togglePin(q.id);a.textContent=S.diff[q.id]?Tx('gs.unpin','📌 Retirer des notions'):Tx('gs.pin','📌 À revoir')}}}
  else d.innerHTML=`<div class="ra">${esc(x.b||'')}</div><div class="row2"><button class="btn light" onclick="gsClose();readCourse('${jsq(x.mid)}',${+x.c||0})">${esc(Tx('read.btn2','📖 Lire le cours'))}</button></div>`;
  el.after(d)}
@@ -1899,7 +1899,7 @@ function filCarte(q,i){const a=FILS.ans[q.id]||(FILS.expire?{ok:false,sel:-9,exp
    (multi&&!a?`<button class="btn" onclick="filValider('${jid}')">${T('qm.go','✔ Valider ma réponse ({n} cochée(s))',{n:s.length})}</button>`:'')}
  else if(q.t==='vf')body=`<div class="vfrow">${[[1,Tx('quiz.true','Vrai')],[0,Tx('quiz.false','Faux')]].map(([v,l])=>{let c='';if(a){if(v===q.v)c='ok';else if(v===a.sel)c='ko'}return `<button class="opt ${c}" ${a?'disabled':''} onclick="filQ('${jid}',${v})">${esc(l)}</button>`}).join('')}</div>`;
  else body=a?`<div class="fb neu"><b>${T('quiz.yours','Ta réponse :')}</b> ${esc(a.txt||'—')}</div>`:`<textarea class="tin" id="fo-${esc(q.id)}" rows="3" placeholder="${esc(Tx('quiz.open.ph','Écris ta réponse…'))}"></textarea><button class="btn" style="margin-top:10px" onclick="filOpen('${jid}')">${T('quiz.open.show','Voir la réponse')}</button>`;
- let fb='';if(a){fb=`<div class="fb ${a.pending?'neu':a.ok?'good':'bad'}"><div class="h">${a.expire?T('fil.exp','⏰ Pas répondu à temps'):a.pending?T('quiz.selfq','Avais-tu la bonne réponse ?'):a.ok?T('quiz.good','Bonne réponse ✅'):T('quiz.bad','Réponse incorrecte ❌')}</div><div class="pfr"><b>${T('quiz.answer','Réponse :')}</b> ${esc(filCorrect(q))}</div>${q.x?`<div class="ex">💡 ${esc(q.x)}</div>`:''}</div>${extrasHTML(q)}`;
+ let fb='';if(a){fb=`<div class="fb ${a.pending?'neu':a.ok?'good':'bad'}"><div class="h">${a.expire?T('fil.exp','⏰ Pas répondu à temps'):a.pending?T('quiz.selfq','Avais-tu la bonne réponse ?'):a.ok?T('quiz.good','Bonne réponse ✅'):T('quiz.bad','Réponse incorrecte ❌')}</div><div class="pfr"><b>${T('quiz.answer','Réponse :')}</b> ${esc(filCorrect(q))}</div>${q.x?`<div class="ex">💡 ${riX(q.x)}</div>`:''}</div>${extrasHTML(q)}`;
   if(a.pending)fb+=`<div class="row2"><button class="btn" style="background:var(--green)" onclick="filSelf('${jid}',1)">${T('quiz.knew','✅ Je savais')}</button><button class="btn" style="background:var(--red)" onclick="filSelf('${jid}',0)">${T('quiz.didnt','❌ À revoir')}</button></div>`}
  const qc=meme?Object.assign({},q,{s:''}):q,qsrc=q.qi&&q.img!=null?imgSrc(q.img):'';
  if(qsrc)body=`<figure class="xfig qifig"><img src="${qsrc}" alt="" loading="lazy" onclick="zoomImg('${jsq(String(q.img))}','')"></figure>`+body;
@@ -2792,7 +2792,7 @@ function sujPrefixe(mid){const m=MATI[mid];return(m&&m.sujPrefixe)||SUJ_PREFIXE[
   const QIp=P.eval('typeof QI!=="undefined"?QI:null'),PM=P.eval('typeof PROGMAP!=="undefined"?PROGMAP:null');if(!QIp||!PM)return;
   const a=Object.values(PM).find(x=>x&&x.m===MID);if(!a)return;const L='ABCDEFGHIJKL',XM=[];
   (Q.antennes||[]).forEach(A=>(A.sujets||[]).forEach(s=>(s.questions||[]).forEach(x=>{const i=P.cleQuestion(a,x.id);if(i==null)return;const q=QIp[a.m+'.'+i];if(!q||!q.__corr)return;
-   if(q.q)x.text=q.q;if(q.x!=null)x.explanation=q.x;
+   if(q.q)x.text=q.q;if(q.x!=null)x.explanation=String(q.x).replace(/\[\/?(?:b|i|u|g|tg|p)\]/g,'');
    if(Array.isArray(q.xi)){const u=q.xi.filter(v=>typeof v==='string'&&/^https:\/\/[a-z0-9-]+\.supabase\.co\/storage\/v1\/object\/public\/explications\/[A-Za-z0-9._\/-]+$/.test(v));if(u.length){if(!x.explanation)x.explanation='📷 Image ci-dessous';XM.push([String(x.explanation).replace(/\s+/g,' ').trim(),u])}}
    if(q.t==='qcm'&&Array.isArray(q.o)){x.options=q.o.map((t,j)=>({letter:L[j],text:t}));const ls=(Array.isArray(q.am)&&q.am.length?q.am:[q.a]).map(j=>L[j]);
     x.mode='mcq';x.multi=ls.length>1;x.answerLetters=ls;x.answer=ls.map(l=>l+'. '+(x.options.find(o=>o.letter===l)||{}).text).join(' ; ');if(x.type==='AUTRE')x.type=x.typeLabel='QCM'}
@@ -3791,4 +3791,80 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
   if(!q){if(typeof toast==='function')toast(Tx('lienq.x','Cette question n’existe plus dans cette version de l’appli.'));return}
   try{if(RIC.track)RIC.track('lien_question',{qid:P})}catch(e){}
   startFil(q.m,[P],Tx('lienq.t','📌 Question partagée'),'chap')})()})();
+/* ======================= TEXTE MIS EN FORME (explications) · TITRES DES SUJETS (tableau de bord) =======================
+   Le tableau de bord écrit [b]gras[/b] [i]italique[/i] [u]souligné[/u] [p]petit[/p] [g]grand[/g] [tg]très grand[/tg] :
+   riX() échappe tout le texte puis remet seulement ces balises (aucun autre HTML possible).
+   Titre d'un sujet : correction « suj:<1re question du sujet> » avec {titre}, publiée depuis le tableau de bord › Questions › Modifier un sujet. */
+const RIXT={b:['<b>','</b>'],i:['<i>','</i>'],u:['<u>','</u>'],p:['<span class="rix-p">','</span>'],g:['<span class="rix-g">','</span>'],tg:['<span class="rix-tg">','</span>']};
+function riX(s){let h=esc(s==null?'':String(s));for(let n=0;n<8;n++){const h2=h.replace(/\[(b|i|u|g|tg|p)\]([\s\S]*?)\[\/\1\]/g,(m,t,x)=>RIXT[t][0]+x+RIXT[t][1]);if(h2===h)break;h=h2}return h.replace(/\[\/?(?:b|i|u|g|tg|p)\]/g,'')}
+function riXtxt(s){return String(s==null?'':s).replace(/\[\/?(?:b|i|u|g|tg|p)\]/g,'')}
+(function(){let C=null,CT=0;
+ window.riTitres=function(){if(C&&Date.now()-CT<1500)return C;const T={};
+  const add=L=>{(Array.isArray(L)?L:[]).forEach(c=>{if(c&&typeof c.qid==='string'&&c.qid.slice(0,4)==='suj:'&&c.c&&typeof c.c.titre==='string'&&c.c.titre.trim())T[c.qid.slice(4)]=riXtxt(c.c.titre).trim().slice(0,160)})};
+  try{if(window.riCorrections)add(riCorrections.liste())}catch(e){}try{add(window.__riEdCorr)}catch(e){}C=T;CT=Date.now();return T};
+ const _t=sujTitre;sujTitre=function(mid,k){try{const L=sujets(mid)[k];const t=L&&L[0]&&riTitres()[L[0]];if(t)return t}catch(e){}return _t.apply(this,arguments)};
+})();
+/* ======================= CONTRIBUTEURS : accord de l'élève, médailles, « Sources photos fournies par … » =======================
+   Réglé au tableau de bord › Contributeurs (Supabase : supabase/contributeurs/1_contributeurs.sql).
+   Un nom n'est montré aux autres élèves que si l'élève a répondu « Oui » à la demande envoyée par l'administrateur. */
+(function(){if(typeof RIC==='undefined')return;
+ const CK='ri_contrib',RK='ri_contrib_rep';let CR=null,der=0,derM=0;
+ const lire=()=>{try{return JSON.parse(localStorage.getItem(CK)||'null')}catch(e){return null}};
+ const D=()=>CR||(CR=lire())||{};
+ const MED={or:['🥇','Médaille d’or'],argent:['🥈','Médaille d’argent'],bronze:['🥉','Médaille de bronze'],merci:['🎖️','Médaille du mérite']};
+ window.riMedaille=m=>MED[m]||MED.merci;
+ const ok=()=>RIC.url&&RIC.key&&navigator.onLine&&!(typeof EDITMODE!=='undefined'&&EDITMODE)&&!window.__RI_LECTURE;
+ const rpc=(f,b)=>fetch(RIC.url+'/rest/v1/rpc/'+f,{method:'POST',headers:{apikey:RIC.key,'Content-Type':'application/json'},body:JSON.stringify(b||{})});
+ async function charger(force){try{if(!RIC.url||!RIC.key||!navigator.onLine||(RIC.off&&RIC.off()))return;const t=Date.now();if(!force&&t-der<30*60e3)return;der=t;
+  const r=await rpc('contrib_public');if(!r.ok)return;const j=await r.json();if(!j||typeof j!=='object')return;const avant=JSON.stringify(D());CR=j;try{localStorage.setItem(CK,JSON.stringify(j))}catch(e){}
+  if(JSON.stringify(j)!==avant&&typeof render==='function'&&!(typeof EDITMODE!=='undefined'&&EDITMODE))try{render()}catch(e){}}catch(e){}}
+ window.riContrib={charger,donnees:D};
+ const cnt=x=>[[x.nb_questions,'question','questions'],[x.nb_sources,'source','sources'],[x.nb_corrections,'correction','corrections']].filter(a=>+a[0]>0).map(a=>a[0]+' '+(+a[0]>1?a[2]:a[1])).join(' · ');
+ /* « 📷 Sources photos fournies par … » sous l'explication */
+ const _x=extrasHTML;extrasHTML=function(q){const h=_x.apply(this,arguments);try{const C=D().credits||{};const n=q&&(C[q.id]||(q.__corrDe&&C[q.__corrDe]));if(!Array.isArray(n)||!n.length)return h;
+  return h+`<div class="ri-credit">📷 ${esc(Tx('ct.src','Sources photos fournies par'))} <b>${esc(n.join(', '))}</b> 🙏</div>`}catch(e){return h}};
+ /* tableau d'honneur sur l'accueil */
+ B('home.honneur','Tableau d’honneur (accueil)',()=>{const L=Array.isArray(D().tableau)?D().tableau:[];if(!L.length)return '';
+  const ligne=x=>{const m=x.medaille?riMedaille(x.medaille):['🙌',Tx('ct.contrib','Contributeur')],c=cnt(x);return `<div class="ri-hon-l"><span class="ri-hon-m" title="${esc(m[1])}">${m[0]}</span><div style="flex:1;min-width:0"><b>${esc(x.nom||'')}</b> <span class="muted small">${esc(m[1])}</span>${x.medaille_texte?`<div class="small" style="overflow-wrap:anywhere">${esc(x.medaille_texte)}</div>`:''}${c?`<div class="muted small">${esc(Tx('ct.apport','A apporté :'))} ${esc(c)}</div>`:''}</div></div>`};
+  return `<div class="card sf ri-hon"><div style="font-size:17px;font-weight:800">${esc(Tx('ct.h','🏅 Tableau d’honneur'))}</div><div class="muted small" style="margin:2px 0 6px">${esc(Tx('ct.help','Merci à ces étudiants qui améliorent Révision INFAS pour tous.'))}</div>${L.slice(0,5).map(ligne).join('')}${L.length>5?`<details><summary class="small" style="cursor:pointer;font-weight:700;margin-top:6px">${esc(Tx('ct.tout','Voir tous ({n})').replace('{n}',L.length))}</summary>${L.slice(5).map(ligne).join('')}</details>`:''}</div>`});
+ const H=SCREENS.home&&SCREENS.home.blocks;if(H&&!H.includes('home.honneur'))H.splice(Math.min(2,H.length),0,'home.honneur');
+ const _lo=layoutOf;layoutOf=function(sc){const L=_lo.apply(this,arguments);if(sc!=='home'||!Array.isArray(L)||L.some(b=>b.id==='home.honneur'))return L;const X=L.slice();X.splice(Math.min(2,X.length),0,{id:'home.honneur',inst:'home.honneur'});return X};
+ /* demande d'accord et félicitations, envoyées du tableau de bord à CE téléphone */
+ const rep=()=>{try{return JSON.parse(localStorage.getItem(RK)||'{}')}catch(e){return{}}};
+ function boite(html,id){const o=document.createElement('div');o.id=id;o.className='pmod';o.setAttribute('role','dialog');o.setAttribute('aria-modal','true');o.innerHTML=`<div class="pbox">${html}</div>`;document.body.appendChild(o);return o}
+ function attendre(){return /[?&]compo=/.test(location.search)||document.getElementById('rinom')||document.getElementById('rirepo')||document.querySelector('.pmod')||!(S&&S.onb)}
+ async function moi(force){try{if(!ok()||(RIC.off&&RIC.off()))return;const t=Date.now();if(!force&&t-derM<10*60e3)return;derM=t;
+  const r=await rpc('contrib_moi',{p_appareil:RIC.device()});if(!r.ok)return;const x=await r.json();if(!x||typeof x!=='object')return;montrer(x)}catch(e){}}
+ function montrer(x){if(attendre()){setTimeout(()=>montrer(x),8000);return}
+  const R=rep();
+  if(x.statut==='demande'&&R.d!==x.message+'|'+x.nom){
+   const o=boite(`<div style="font-size:40px;text-align:center;line-height:1">🤝</div><h3 style="text-align:center;margin:8px 0 6px">${esc(Tx('ct.dem.t','Un message de l’administrateur'))}</h3>
+    <div style="background:var(--tint,#f3f6f5);border-radius:14px;padding:12px 14px;font-size:15.5px;line-height:1.45;white-space:pre-wrap;overflow-wrap:anywhere">${esc(x.message||Tx('ct.dem.m','Merci pour ton aide ! Acceptes-tu que ton nom apparaisse dans l’appli quand tu apportes une source ou une correction ?'))}</div>
+    <div class="muted small" style="margin:8px 0 0">${esc(Tx('ct.dem.n','Nom affiché :'))} <b>${esc(x.nom||'')}</b></div>
+    <div class="row2" style="margin-top:14px"><button class="btn coral" id="rictOui">${esc(Tx('ct.oui','✅ Oui, j’accepte'))}</button><button class="btn light" id="rictNon">${esc(Tx('ct.non','Non merci'))}</button></div>`,'rict');
+   const fin=async oui=>{const R2=rep();R2.d=x.message+'|'+x.nom;try{localStorage.setItem(RK,JSON.stringify(R2))}catch(e){}o.remove();
+    try{await rpc('contrib_repondre',{p_appareil:RIC.device(),p_oui:!!oui})}catch(e){}try{RIC.track&&RIC.track('contrib_reponse',{oui:!!oui})}catch(e){}
+    toast(oui?Tx('ct.merci','🙏 Merci ! Ton nom apparaîtra avec tes contributions.'):Tx('ct.ok','C’est noté : ton nom ne sera pas affiché.'),3500);charger(true);if(x.felicitation&&!x.felicitation_vue)setTimeout(()=>montrer(Object.assign({},x,{statut:oui?'accepte':'refuse'})),900)};
+   document.getElementById('rictOui').onclick=()=>fin(true);document.getElementById('rictNon').onclick=()=>fin(false);return}
+  if(x.felicitation&&!x.felicitation_vue&&R.f!==x.felicitation){const m=x.medaille?riMedaille(x.medaille):null,c=cnt(x);
+   const o=boite(`<div style="font-size:54px;text-align:center;line-height:1">${m?m[0]:'🎉'}</div><h3 style="text-align:center;margin:8px 0 2px">${esc(Tx('ct.fel.t','Félicitations {n} !').replace('{n}',x.nom||''))}</h3>
+    ${m?`<div style="text-align:center;font-weight:800;margin-bottom:8px">${esc(m[1])}${x.medaille_texte?' · '+esc(x.medaille_texte):''}</div>`:''}
+    <div style="background:var(--tint,#f3f6f5);border-radius:14px;padding:12px 14px;font-size:15.5px;line-height:1.45;white-space:pre-wrap;overflow-wrap:anywhere">${esc(x.felicitation)}</div>
+    ${c?`<div class="muted small" style="text-align:center;margin-top:8px">${esc(Tx('ct.apport','A apporté :'))} ${esc(c)}</div>`:''}
+    <button class="btn coral" id="rictF" style="width:100%;margin-top:14px">${esc(Tx('ct.fel.ok','Merci !'))}</button>`,'rict');
+   document.getElementById('rictF').onclick=async()=>{const R2=rep();R2.f=x.felicitation;try{localStorage.setItem(RK,JSON.stringify(R2))}catch(e){}o.remove();try{await rpc('contrib_felicitation_vue',{p_appareil:RIC.device()})}catch(e){}}}}
+ window.riContribMoi=moi;
+ setTimeout(()=>charger(true),2500);setTimeout(()=>moi(true),9000);
+ document.addEventListener('visibilitychange',()=>{if(!document.hidden){charger(false);setTimeout(()=>moi(false),2500)}});
+})();
+/* ======================= QUESTION DÉSACTIVÉE (tableau de bord) =======================
+   Une correction peut porter « off: 1 » : la question disparaît des listes, sujets et quiz des élèves (site élèves et test),
+   sans nouvelle publication. Elle reste visible dans l'éditeur et dans le tableau de bord (?lecture=1) pour être réactivée.
+   La désactivation ne passe pas aux questions identiques des autres sujets. */
+(function(){
+ if(typeof window.riPropager==='function'){const _p=window.riPropager;window.riPropager=function(){const o=_p.apply(this,arguments);if(o&&typeof o==='object')delete o.off;return o}}
+ const cache=()=>!(typeof EDITMODE!=='undefined'&&EDITMODE)&&!window.__RI_LECTURE;
+ const _ac=applyContent;applyContent=function(){const r=_ac.apply(this,arguments);try{if(cache())Object.keys(QBM).forEach(m=>{const L=QBM[m];if(L&&L.some(q=>q&&q.off))QBM[m]=L.filter(q=>!(q&&q.off))})}catch(e){}return r};
+ window.riQuestionOff=id=>!!(QI[id]&&QI[id].off);
+})();
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();

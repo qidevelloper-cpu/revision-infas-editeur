@@ -1210,7 +1210,7 @@ async function edCorrections(manuel){
  try{if(typeof RIC==='undefined'||!RIC.url||!RIC.key){if(manuel)toast('Supabase n’est pas configuré dans cette appli');return 0}
   const r=await fetch(RIC.url+'/rest/v1/rpc/corrections_actives',{method:'POST',headers:{'Content-Type':'application/json',apikey:RIC.key},body:JSON.stringify({})});
   if(!r.ok){if(manuel)toast(r.status===404?'Colle d’abord le fichier SQL des outils dans Supabase':'Corrections indisponibles ('+r.status+')',4000);return 0}
-  const L=await r.json();if(!Array.isArray(L))return 0;ED_CORR_L=L;ED_CORR_T=Date.now();const N=clone(E);N.content=N.content||{};const C=N.content,I=C.corrInt=C.corrInt||{};C.q=C.q||{};let n=0;
+  const L=await r.json();if(!Array.isArray(L))return 0;ED_CORR_L=L;ED_CORR_T=Date.now();window.__riEdCorr=L;/* titres des sujets (suj:…) lus par le moteur */const N=clone(E);N.content=N.content||{};const C=N.content,I=C.corrInt=C.corrInt||{};C.q=C.q||{};let n=0;
   const own={};L.forEach(c=>{if(c&&c.qid)own[c.qid]=1});const DUP=[];
   L.forEach(c=>{if(!c||!c.qid||!c.c||String(I[c.id])===String(c.t))return;const k=String(c.qid).lastIndexOf('.'),mid=String(c.qid).slice(0,k),i=String(c.qid).slice(k+1);
    if(!QI[c.qid])return; // question absente de cette version de l'appli : reste appliquée sur les téléphones
