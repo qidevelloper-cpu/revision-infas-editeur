@@ -1089,12 +1089,21 @@ try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_ca
     ov = document.createElement('div'); ov.className = 'calc-ov hidden'; ov.id = 'calc-ov';
     ov.innerHTML = `<div class="calc-sheet" role="dialog" aria-label="Calculatrice scientifique">
       <div class="calc-drag" id="calc-drag"><span class="calc-grip"></span>
-      <div class="calc-top"><span class="calc-title">🧮 Calculatrice</span><span class="calc-tools"><button class="calc-tool" id="calc-smaller" aria-label="Réduire la calculatrice" title="Réduire"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/><path d="M7.5 10.5h6"/></svg></button><button class="calc-tool" id="calc-bigger" aria-label="Agrandir la calculatrice" title="Agrandir"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/><path d="M7.5 10.5h6M10.5 7.5v6"/></svg></button><button class="calc-x" id="calc-x" aria-label="Fermer">✕</button></span></div></div>
+      <div class="calc-top"><span class="calc-title">🧮 Calculatrice</span><span class="calc-tools"><button class="calc-tool" id="calc-copy" aria-label="Copier le nombre affiché" title="Copier"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg></button><button class="calc-tool" id="calc-paste" aria-label="Coller une valeur" title="Coller"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="12" height="17" rx="2"/><path d="M9 4h6v3H9z"/></svg></button><button class="calc-tool" id="calc-smaller" aria-label="Réduire la calculatrice" title="Réduire"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/><path d="M7.5 10.5h6"/></svg></button><button class="calc-tool" id="calc-bigger" aria-label="Agrandir la calculatrice" title="Agrandir"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/><path d="M7.5 10.5h6M10.5 7.5v6"/></svg></button><button class="calc-x" id="calc-x" aria-label="Fermer">✕</button></span></div></div>
       <div class="calc-screen"><div class="calc-hist" id="calc-hist"></div><div class="calc-expr" id="calc-expr"></div><div class="calc-res" id="calc-res">0</div></div>
       <div class="calc-grid">${KEYS.map(k => `<button data-k="${k[1]}" class="${k[2] || ''}">${k[0]}</button>`).join('')}</div></div>`;
     document.body.appendChild(ov);
     exEl = ov.querySelector('#calc-expr'); resEl = ov.querySelector('#calc-res'); hiEl = ov.querySelector('#calc-hist'); modeEl = ov.querySelector('#calc-mode');
     ov.querySelector('#calc-x').onclick = close;
+    /* copier le nombre affiché · coller une valeur (presse-papiers, sinon une petite fenêtre où la coller) */
+    ov.querySelector('#calc-copy').onclick = async () => { const t = resEl.classList.contains('err') ? '' : String(resEl.textContent || '').trim(); if (!t) return;
+      let ok = false; try { await navigator.clipboard.writeText(t); ok = true; } catch (e) {}
+      if (!ok) { try { const a = document.createElement('textarea'); a.value = t; a.setAttribute('readonly', ''); a.style.cssText = 'position:fixed;left:-9999px'; document.body.appendChild(a); a.select(); ok = document.execCommand('copy'); a.remove(); } catch (e) {} }
+      if (typeof toast === 'function') toast(ok ? '📋 Copié : ' + t : 'Copie impossible : appuie longuement sur le nombre pour le sélectionner'); };
+    ov.querySelector('#calc-paste').onclick = async () => { let t = null; try { t = await navigator.clipboard.readText(); } catch (e) {}
+      if (t == null) t = window.prompt('Colle ici la valeur à mettre dans la calculatrice :', '');
+      if (t != null) coller(t); };
+    resEl.addEventListener('scroll', () => { resEl.dataset.vu = resEl.scrollLeft + resEl.clientWidth >= resEl.scrollWidth - 2 ? '' : '1'; }, {passive: true});
     // déplacer (glisser la barre du haut) et taille (loupes) — mémorisés sur l'appareil
     const sh = ov.querySelector('.calc-sheet'), PK = 'infas_calc_pos_v1';
     let P = {}; try { P = JSON.parse(localStorage.getItem(PK) || '{}'); } catch (e) {}
@@ -1108,9 +1117,9 @@ try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_ca
       x = Math.max(4, Math.min(W - r.width - 4, x)); y = Math.max(4, Math.min(H - Math.min(r.height, 60) - 4, y));
       sh.style.left = x + 'px'; sh.style.top = y + 'px';
     };
-    ov._applyP = applyP;
-    ov.querySelector('#calc-smaller').onclick = () => { const i = SIZES.indexOf(SIZES.includes(P.cs) ? P.cs : 1); P.cs = SIZES[Math.max(0, i - 1)]; save(); applyP(); };
-    ov.querySelector('#calc-bigger').onclick = () => { const i = SIZES.indexOf(SIZES.includes(P.cs) ? P.cs : 1); P.cs = SIZES[Math.min(SIZES.length - 1, i + 1)]; save(); applyP(); };
+    ov._applyP = () => { applyP(); ajuster(); };
+    ov.querySelector('#calc-smaller').onclick = () => { const i = SIZES.indexOf(SIZES.includes(P.cs) ? P.cs : 1); P.cs = SIZES[Math.max(0, i - 1)]; save(); applyP(); ajuster(); };
+    ov.querySelector('#calc-bigger').onclick = () => { const i = SIZES.indexOf(SIZES.includes(P.cs) ? P.cs : 1); P.cs = SIZES[Math.min(SIZES.length - 1, i + 1)]; save(); applyP(); ajuster(); };
     const drag = ov.querySelector('#calc-drag');
     let st = null;
     drag.addEventListener('pointerdown', e => {
@@ -1129,10 +1138,22 @@ try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_ca
     if (modeEl) modeEl.onclick = () => { deg = !deg; modeEl.textContent = deg ? 'DEG' : 'RAD'; preview(); };
     ov.querySelector('.calc-grid').addEventListener('click', e => { const b = e.target.closest('button'); if (b) press(b.dataset.k); });
   }
+  /* nombre long : le texte rapetisse (jusqu'à la moitié), puis l'écran défile au doigt ; on montre toujours la fin */
+  function ajuster() { if (!resEl) return; resEl.style.fontSize = ''; const b = parseFloat(getComputedStyle(resEl).fontSize) || 30; let f = b;
+    while (resEl.scrollWidth > resEl.clientWidth + 1 && f > b * 0.5) { f -= 1; resEl.style.fontSize = f + 'px'; }
+    resEl.scrollLeft = resEl.scrollWidth; resEl.dataset.vu = ''; resEl.classList.toggle('long', resEl.scrollWidth > resEl.clientWidth + 1); }
+  /* valeur collée : « 1 234,5 », « 1234.5 », « 12*3 »… → saisie de la calculatrice */
+  function coller(t) { let x = String(t || '').trim().replace(/[\s\u00a0\u202f]/g, '');
+    if (/^-?\d{1,3}(\.\d{3})+(,\d+)?$/.test(x)) x = x.replace(/\./g, ''); else x = x.replace(/\./g, ',');
+    x = x.replace(/\*/g, '×').replace(/[xX]/g, '×').replace(/\//g, '÷').replace(/[-–]/g, '−').replace(/[eE](?=[+−]?\d)/g, 'E').replace(/[^0-9,+×÷−()^!%E]/g, '');
+    if (!x) { if (typeof toast === 'function') toast('Rien à coller : copie d’abord un nombre'); return; }
+    if (!expr && last != null && /^[0-9(]/.test(x)) last = null;
+    expr += x; last = null; preview(); }
   function preview() {   /* un seul affichage, comme une calculatrice de poche : la saisie, puis le résultat */
     exEl.textContent = '';
     resEl.classList.remove('err');
     resEl.textContent = expr ? expr.replace(/^Ans/, last != null ? fmt(last) : (ans != null ? fmt(ans) : '0')) : (last != null ? fmt(last) : '0');
+    ajuster();
   }
   function press(k) {
     if (k === 'AC') { expr = ''; last = null; }
@@ -1150,8 +1171,8 @@ try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_ca
         const v = evaluate(balance(expr)); hist.unshift(expr + ' = ' + fmt(v)); hist = hist.slice(0, 2);
         hiEl.innerHTML = hist.map(h => String(h).replace(/</g, '&lt;')).join('<br>');
         ans = v; last = v; expr = '';
-        exEl.textContent = ''; resEl.textContent = fmt(v); resEl.classList.remove('err'); return;
-      } catch (e) { resEl.textContent = e.message === 'Syntaxe' ? 'Erreur de saisie' : (e.message === 'Math' ? 'Erreur mathématique' : e.message); resEl.classList.add('err'); return; }
+        exEl.textContent = ''; resEl.textContent = fmt(v); resEl.classList.remove('err'); ajuster(); return;
+      } catch (e) { resEl.textContent = e.message === 'Syntaxe' ? 'Erreur de saisie' : (e.message === 'Math' ? 'Erreur mathématique' : e.message); resEl.classList.add('err'); ajuster(); return; }
     } else {
       if (!expr && last != null && /^[×÷+−^!%]/.test(k)) expr = 'Ans';
       if (k === 'E' && !/[0-9]$/.test(expr)) return;
@@ -1163,9 +1184,13 @@ try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_ca
   function open(force) { if (force !== true && typeof window.RI_CALC_GUARD === 'function' && !window.RI_CALC_GUARD()) return; if (!ov) build(); ov.classList.remove('hidden'); preview(); requestAnimationFrame(() => ov._applyP && ov._applyP()); }
   function close() { if (ov) ov.classList.add('hidden'); }
   window.openCalculator = open; window.closeCalculator = close; window.__calcOuvrir = () => open(true);
+  // coller au clavier (Ctrl+V) quand la calculatrice est ouverte
+  document.addEventListener('paste', e => { if (!ov || ov.classList.contains('hidden')) return; const a = document.activeElement; if (a && /^(INPUT|TEXTAREA)$/.test(a.tagName) && !ov.contains(a)) return;
+    const t = e.clipboardData && e.clipboardData.getData('text'); if (t) { e.preventDefault(); coller(t); } });
   // clavier physique
   document.addEventListener('keydown', e => {
     if (!ov || ov.classList.contains('hidden')) return;
+    if ((e.ctrlKey || e.metaKey) && /^[cvx]$/i.test(e.key)) return;   /* copier / coller du navigateur */
     const m = { '*': '×', '/': '÷', '-': '−', '.': ',', 'Enter': '=', '=': '=', 'Backspace': 'DEL', 'Escape': 'X' };
     let k = m[e.key] || e.key;
     if (k === 'X') { close(); return; }
@@ -3866,5 +3891,77 @@ function riXtxt(s){return String(s==null?'':s).replace(/\[\/?(?:b|i|u|g|tg|p)\]/
  const cache=()=>!(typeof EDITMODE!=='undefined'&&EDITMODE)&&!window.__RI_LECTURE;
  const _ac=applyContent;applyContent=function(){const r=_ac.apply(this,arguments);try{if(cache())Object.keys(QBM).forEach(m=>{const L=QBM[m];if(L&&L.some(q=>q&&q.off))QBM[m]=L.filter(q=>!(q&&q.off))})}catch(e){}return r};
  window.riQuestionOff=id=>!!(QI[id]&&QI[id].off);
+})();
+/* ======================= SUIVI DE L'ACTIVITÉ (tableau de bord › Élèves) =======================
+   Temps passé par rubrique (« vue|matière » : cours, sujets, flashcards, applis…) et questions répondues par matière,
+   même quand l'élève ne termine pas un sujet. Envoyé en une statistique « activite » toutes les 3 minutes et quand
+   l'appli passe en arrière-plan (supabase/suivi/1_activite_suggestions.sql). Rien dans l'éditeur ni le tableau de bord. */
+(function(){if(typeof RIC==='undefined')return;
+ const AK='ri_activite',off=()=>(typeof EDITMODE!=='undefined'&&EDITMODE)||!!window.__RI_LECTURE||!!(RIC.off&&RIC.off());
+ let A=null;try{A=JSON.parse(localStorage.getItem(AK)||'null')}catch(e){}if(!A||typeof A!=='object'||!A.d||!A.r)A={d:{},r:{}};
+ const sv=()=>{try{localStorage.setItem(AK,JSON.stringify(A))}catch(e){}};
+ function midNow(){try{if(ctx&&ctx.id&&MATI[ctx.id])return ctx.id;if(VIEW==='fil'&&typeof FILS!=='undefined'&&FILS&&FILS.mid)return FILS.mid;if(VIEW==='quiz'&&typeof QZ!=='undefined'&&QZ&&QZ.mid)return QZ.mid;if(VIEW==='exam'&&typeof EX!=='undefined'&&EX&&EX.mid)return EX.mid;if(VIEW==='flash'&&typeof FL!=='undefined'&&FL&&FL.mid)return FL.mid}catch(e){}return''}
+ let cur=null,deb=Date.now();
+ function tick(){if(off())return;const n=Date.now();if(cur){const s=Math.min(300,(n-deb)/1000);if(s>=0.5)A.d[cur]=Math.round(((A.d[cur]||0)+s)*10)/10}deb=n;
+  cur=document.hidden?null:(String(VIEW||'home').slice(0,20)+'|'+String(midNow()).slice(0,40));sv()}
+ function envoyer(){try{tick();if(off()||!RIC.track)return;const D=Object.entries(A.d).filter(x=>x[1]>=1).sort((a,b)=>b[1]-a[1]).slice(0,40),tot=D.reduce((n,x)=>n+x[1],0),R=A.r;
+  if(tot<15&&!Object.keys(R).length)return;const d={};D.forEach(([k,s])=>d[k]=Math.round(s));RIC.track('activite',{d,r:R});A={d:{},r:{}};sv()}catch(e){}}
+ const _r=render;render=function(){try{tick()}catch(e){}return _r.apply(this,arguments)};
+ const _rec=rec;rec=function(q,ok){try{if(!off()&&q&&q.m){const r=A.r[q.m]||[0,0];r[0]++;if(ok)r[1]++;A.r[q.m]=r;sv()}}catch(e){}return _rec.apply(this,arguments)};
+ document.addEventListener('visibilitychange',()=>{if(document.hidden)envoyer();else{deb=Date.now();tick()}});
+ window.addEventListener('pagehide',envoyer);
+ setInterval(tick,30e3);setInterval(envoyer,3*60e3);
+ window.riActivite={tick,envoyer,donnees:()=>A};
+})();
+/* ======================= SUJETS PROPOSÉS PAR L'ADMINISTRATEUR (tableau de bord › Sujets proposés) =======================
+   Le téléphone demande ses sujets (filière, licence, ou choisi nommément) : carte sur l'accueil, fenêtre à la première
+   vue, notification si l'élève a autorisé les notifications (et dans les rappels de l'appli installée). « Commencer »
+   ouvre directement le sujet (ou la liste des sujets du cours). Lien direct : …/?sug=<numéro>. */
+(function(){if(typeof RIC==='undefined')return;
+ const CK='ri_sug',VK='ri_sug_etat',off=()=>(typeof EDITMODE!=='undefined'&&EDITMODE)||!!window.__RI_LECTURE||!!(RIC.off&&RIC.off());
+ const lire=(k,d)=>{try{return JSON.parse(localStorage.getItem(k)||'null')||d}catch(e){return d}};const ecr=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+ let L=lire(CK,[]),der=0;const E=()=>lire(VK,{});  /* {id:{v:vue, f:fermée, o:ouverte, n:notifiée}} */
+ const marque=(id,c)=>{const X=E();X[id]=Object.assign(X[id]||{},{[c]:Date.now()});ecr(VK,X)};
+ const actives=()=>(Array.isArray(L)?L:[]).filter(s=>s&&s.id!=null&&!((E()[s.id]||{}).f)&&!((E()[s.id]||{}).o));
+ const nomSujet=s=>{try{if(s.mat&&s.k!=null&&MATI[s.mat]&&typeof sujTitre==='function'){const t=sujTitre(s.mat,+s.k);if(t)return t}}catch(e){}return s.sujet||''};
+ const nomCours=s=>{try{return s.mat&&MATI[s.mat]?MATI[s.mat].title||MATI[s.mat].name||'':''}catch(e){return''}};
+ async function lancer(s){if(!s)return;marque(s.id,'o');try{RIC.track&&RIC.track('suggestion_ouverte',{id:String(s.id)})}catch(e){}
+  const mid=s.mat;if(!mid||!MATI[mid]){toast(Tx('sug.x','Ce cours n’est pas dans ta version de l’appli : mets-la à jour.'),4000);render();return}
+  try{const P=[mid,'plus-'+mid,'plusnat-'+mid].filter(k=>typeof needX==='function'&&needX(k)).map(k=>ensureX(k));if(P.length)await Promise.all(P)}catch(e){}
+  S.lastMat=mid;try{save()}catch(e){}
+  const k=s.k==null||s.k===''?null:+s.k,L2=k!=null&&typeof sujets==='function'?sujets(mid):[];
+  if(k!=null&&L2[k]&&(!RIC.can||RIC.can('matiere:'+mid+'/sujet:'+(k+1)))){go('sujets',{id:mid});setTimeout(()=>startSujet(mid,k),60)}else go('sujets',{id:mid})}
+ window.riSuggestionLancer=id=>lancer((L||[]).find(s=>String(s.id)===String(id)));
+ window.riSuggestionFermer=id=>{marque(id,'f');render()};
+ B('home.sugg','Sujets proposés par l’administrateur (accueil)',()=>{const A=actives();if(!A.length)return'';
+  return A.slice(0,3).map(s=>{const t=nomSujet(s),c=nomCours(s);return`<div class="card sf ri-sug"><div class="row" style="gap:10px;align-items:flex-start"><div style="font-size:30px;line-height:1">📣</div><div style="flex:1;min-width:0">
+   <div class="muted small" style="font-weight:800;text-transform:uppercase;letter-spacing:.3px">${esc(Tx('sug.k','Sujet proposé pour toi'))}</div><div style="font-size:17px;font-weight:800;margin-top:2px;overflow-wrap:anywhere">${esc(s.titre||t)}</div>
+   ${c||t?`<div class="muted small" style="margin-top:2px">${esc([c,t&&t!==s.titre?t:''].filter(Boolean).join(' · '))}</div>`:''}${s.message?`<div style="margin-top:6px;white-space:pre-wrap;overflow-wrap:anywhere">${esc(s.message)}</div>`:''}</div></div>
+   <div class="row2" style="margin-top:10px"><button class="btn coral" onclick="riSuggestionLancer('${jsq(String(s.id))}')">${esc(Tx('sug.go','▶️ Commencer'))}</button><button class="btn light" onclick="riSuggestionFermer('${jsq(String(s.id))}')">${esc(Tx('sug.no','Plus tard'))}</button></div></div>`}).join('')});
+ const H=SCREENS.home&&SCREENS.home.blocks;if(H&&!H.includes('home.sugg'))H.splice(Math.min(1,H.length),0,'home.sugg');
+ const _lo=layoutOf;layoutOf=function(sc){const X=_lo.apply(this,arguments);if(sc!=='home'||!Array.isArray(X)||X.some(b=>b.id==='home.sugg'))return X;const Y=X.slice();Y.splice(Math.min(1,Y.length),0,{id:'home.sugg',inst:'home.sugg'});return Y};
+ /* notification : tout de suite si l'appli est ouverte, et dans les rappels programmés (appli installée) */
+ async function notifier(s){try{if(!s.notif||(E()[s.id]||{}).n||!('Notification' in window)||Notification.permission!=='granted'||!('serviceWorker' in navigator))return;
+  const reg=await navigator.serviceWorker.ready;await reg.showNotification('📣 '+(s.titre||Tx('sug.k','Sujet proposé pour toi')),{body:s.message||[nomCours(s),nomSujet(s)].filter(Boolean).join(' · ')||Tx('sug.b','Touche pour commencer.'),icon:'icons/icon-192.png',badge:'icons/icon-192.png',tag:'ri-sug-'+s.id,data:{url:'./?sug='+encodeURIComponent(s.id)}});marque(s.id,'n')}catch(e){}}
+ if(typeof notifPlan==='function'){const _np=notifPlan;notifPlan=function(){const I=_np.apply(this,arguments);try{actives().filter(s=>s.notif&&!(E()[s.id]||{}).n).slice(0,2).forEach((s,i)=>I.push({t:Date.now()+(2+i)*36e5,tag:'ri-sug-'+s.id,title:'📣 '+(s.titre||Tx('sug.k','Sujet proposé pour toi')),body:s.message||nomCours(s)||Tx('sug.b','Touche pour commencer.'),url:'./?sug='+encodeURIComponent(s.id)}))}catch(e){}return I}}
+ function attendre(){return!window.PORTAIL_READY||typeof S==='undefined'||!S.onb||/[?&]compo=/.test(location.search)||document.getElementById('rinom')||document.getElementById('rirepo')||document.getElementById('relNote')||document.getElementById('updBar')||document.querySelector('.pmod')||document.getElementById('nfAsk')||(VIEW!=='home')}
+ function fenetre(){const s=actives().find(x=>!(E()[x.id]||{}).v);if(!s)return;if(attendre()){setTimeout(fenetre,6000);return}
+  marque(s.id,'v');try{RIC.track&&RIC.track('suggestion_vue',{id:String(s.id)})}catch(e){}
+  const t=nomSujet(s),c=nomCours(s),o=document.createElement('div');o.className='pmod';o.id='risug';o.setAttribute('role','dialog');o.setAttribute('aria-modal','true');
+  o.innerHTML=`<div class="pbox"><div style="font-size:42px;text-align:center;line-height:1">📣</div><h3 style="text-align:center;margin:8px 0 4px">${esc(s.titre||Tx('sug.k','Sujet proposé pour toi'))}</h3>${c||t?`<div class="muted small" style="text-align:center">${esc([c,t&&t!==s.titre?t:''].filter(Boolean).join(' · '))}</div>`:''}
+   ${s.message?`<div style="background:var(--tint,#f3f6f5);border-radius:14px;padding:12px 14px;margin-top:10px;white-space:pre-wrap;overflow-wrap:anywhere">${esc(s.message)}</div>`:''}
+   <div class="row2" style="margin-top:14px"><button class="btn coral" id="risugGo">${esc(Tx('sug.go','▶️ Commencer'))}</button><button class="btn light" id="risugNo">${esc(Tx('sug.no','Plus tard'))}</button></div></div>`;
+  document.body.appendChild(o);document.getElementById('risugGo').onclick=()=>{o.remove();lancer(s)};document.getElementById('risugNo').onclick=()=>{o.remove();render()}}
+ async function charger(force){try{if(off()||!RIC.url||!RIC.key||!navigator.onLine||typeof S==='undefined'||!S.onb)return;const t=Date.now();if(!force&&t-der<10*60e3)return;der=t;
+  const r=await fetch(RIC.url+'/rest/v1/rpc/mes_suggestions',{method:'POST',headers:{apikey:RIC.key,'Content-Type':'application/json'},body:JSON.stringify({p_appareil:RIC.device(),p_fil:S.fil||'',p_niv:S.niv||''})});
+  if(!r.ok)return;const j=await r.json();if(!Array.isArray(j))return;const avant=JSON.stringify(L);L=j;ecr(CK,j);
+  if(JSON.stringify(j)!==avant&&VIEW==='home')render();actives().forEach(notifier);fenetre()}catch(e){}}
+ window.riSuggestions={charger,actives,lancer};
+ /* lien …/?sug=<numéro> (notification touchée) */
+ let P=null;try{const u=new URL(location.href);P=u.searchParams.get('sug');if(P){u.searchParams.delete('sug');history.replaceState(null,'',u.pathname+u.search+location.hash)}}catch(e){}
+ if(P&&!off()){let n=0;(function w(){if(++n>120)return;if(!window.PORTAIL_READY||typeof S==='undefined'||!S.onb||document.getElementById('relNote')||document.getElementById('updBar')){setTimeout(w,500);return}
+  const s=(L||[]).find(x=>String(x.id)===String(P));if(s)lancer(s);else if(n<4)charger(true).then(()=>setTimeout(w,800));})()}
+ setTimeout(()=>charger(true),5000);
+ document.addEventListener('visibilitychange',()=>{if(!document.hidden)setTimeout(()=>charger(false),1500)});
 })();
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
