@@ -10,6 +10,10 @@
   {
    "fichier": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
    "sha256": "657568675090dd4e5903fab291288790d72226820c220dc893f53332bef20e82"
+  },
+  {
+   "fichier": "Corrige_Sante_Publique_DE_Blancs_2026.docx",
+   "sha256": "f6772b69c1bb8a090946d0b7b680ef96a81b9e0dc9db8e429aafe4b92caf0957"
   }
  ],
  "antennes": [
@@ -3654,7 +3658,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le manque d'accès à l'eau potable et à l'assainissement est un déterminant socio-économique et environnemental majeur des maladies hydriques et infectieuses.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "À vérifier — L'existence d'eau courante favorise la santé ; son absence favorise la maladie (environnement physique et socio-économique).\n\nSource : Cours SP 2025-2026, L1, Étude du milieu, p. 57-58",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -3684,7 +3688,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La santé communautaire comprend l'identification participative des problèmes et des facteurs de risque de santé au sein de la collectivité.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Hors cours — La démarche communautaire inclut l'identification des problèmes, besoins et risques.\n\nSource : Cours SP 2025-2026, L1, Démarche de santé communautaire",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -3714,7 +3718,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "La supervision est exercée par un supérieur hiérarchique ou un membre de l'équipe cadre du district/région ayant une compétence technique supérieure (et non un simple pair de même rang sans mandat de supervision).\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Le superviseur est le supérieur hiérarchique.\n\nSource : Cours SP 2025-2026, L3, Supervision, p. 49",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -3744,7 +3748,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Question identique à Daloa SP Q14 : les CAT appartiennent au versant offre de soins (prestataire) de niveau secondaire/intermédiaire.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Les CAT sont au niveau intermédiaire.\n\nSource : Cours SP 2025-2026, L1, PNLT, p. 46",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -3774,7 +3778,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L'incidence et la prévalence sont les deux indicateurs épidémiologiques de morbidité qui mesurent l'ampleur (fréquence) d'une maladie.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Incidence et prévalence évaluent l'ampleur.\n\nSource : Cours SP 2025-2026, L2, Indicateurs, p. 52",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -3804,7 +3808,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La budgétisation semestrielle des ressources propres de l'ESPC s'effectue immédiatement à la suite du monitorage semestriel.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Le budget se fait dans la même période que le monitorage.\n\nSource : Cours SP 2025-2026, L3, Budgétisation, p. 16",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -3834,7 +3838,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "La prématurité simple (chez un nouveau-né cliniquement stable, ou dès qu'il atteint 2 000 g selon les directives nationales) n'est pas une contre-indication définitive au BCG ; la seule contre-indication absolue spécifique est l'immunodépression sévère (SIDA avéré).\n\nSource : Ministère de la Santé de Côte d'Ivoire - Programme Élargi de Vaccination (PEV) et Calendrier Vaccinal — https://www.sante.gouv.ci/index.php/actualite/1770",
+       "explanation": "Hors cours — Le cours ne cite pas la prématurité ; contre-indication définitive du BCG : signes avérés de SIDA.\n\nSource : Cours SP 2025-2026, L1, PEV, p. 40",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -3864,7 +3868,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le vaccin induit une immunité ACTIVE à mémoire immunologique d'installation différée mais durable (plusieurs années ou à vie), tandis que le sérum (sérothérapie) apporte une immunité PASSIVE immédiate mais brève (2 à 3 semaines).\n\nSource : Ministère de la Santé de Côte d'Ivoire - Programme Élargi de Vaccination (PEV) et Calendrier Vaccinal — https://www.sante.gouv.ci/index.php/actualite/1770",
+       "explanation": "Avantage du vaccin : effet plus durable que celui du sérum.\n\nSource : Cours SP 2025-2026, L1, PEV, p. 29",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -3894,7 +3898,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Dans l'organisation spatiale en circuit unidirectionnel d'un poste de vaccination, le premier espace d'accueil et d'IEC est la zone d'attente (zone d'entrée).\n\nSource : OMS / Ministère de la Santé CI - Plan Pluri-Annuel Complet du PEV et Gestion des Vaccins — https://extranet.who.int/countryplanningcycles/sites/default/files/planning_cycle_repository/cote_divoire/ppac_2016-2020_final_07-09-2016.pdf",
+       "explanation": "Zone d'entrée/attente.\n\nSource : Cours SP 2025-2026, L3, Séance de vaccination, p. 66",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -3924,7 +3928,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le goût est une qualité organoleptique de l'eau potable, mais les critères techniques de CHOIX d'une source d'approvisionnement sont la salubrité, le débit, la profondeur/pérennité et le coût.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Critères : salubrité, régularité (débit), coût.\n\nSource : Cours SP 2025-2026, L1, Hygiène (eau), p. 67",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -3954,7 +3958,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "La politique des SSP comprend 8 composantes essentielles (dont plusieurs ont une dimension promotionnelle : éducation pour la santé/IEC, nutrition, eau et assainissement, santé maternelle et infantile).\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Trois composantes promotionnelles.\n\nSource : Cours SP 2025-2026, L1, SSP, p. 95",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -3984,7 +3988,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L'Information, Éducation et Communication (IEC) / Communication pour le Changement de Comportement (CCC) vise à promouvoir des comportements favorables à la santé et au bien-être.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "But IEC/CCSC : améliorer le bien-être de l'individu, de la communauté et de la société.\n\nSource : Cours SP 2025-2026, L1, CCSC, p. 99",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4010,11 +4014,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. Faux",
+       "answer": "A. Vrai",
        "answerLetters": [
-        "B"
+        "A"
        ],
-       "explanation": "Bien que les rapports mensuels soient établis en deux exemplaires, UN SEUL exemplaire est transmis au district sanitaire et le second exemplaire est conservé (archivé) au sein même du CSU !\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "À vérifier — Les rapports sont remplis en double exemplaire (une copie est gardée au centre).\n\nSource : Cours SP 2025-2026, L3, Information sanitaire, p. 33",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4044,7 +4048,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L'épidémie (comme les blessures, les décès et la malnutrition) est une conséquence SANITAIRE / épidémiologique des catastrophes, et non une conséquence sociale (les conséquences sociales étant les déplacements de populations, les orphelins, la désorganisation familiale).\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "L'épidémie est une conséquence sanitaire.\n\nSource : Cours SP 2025-2026, L3, Catastrophes, p. 44",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4074,7 +4078,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L'épidémiologie analytique (ou étiologique) recherche les causes et les facteurs de risque des maladies et répond aux questions « Pourquoi ? » et « Comment ? ».\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Axe analytique : « Pourquoi ? ».\n\nSource : Cours SP 2025-2026, L1, Épidémiologie, p. 83",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4104,7 +4108,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L'évaluation initiale (analyse situationnelle) décrit l'état de santé et les facteurs de risque de la population.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "L'évaluation initiale décrit les besoins et les facteurs de risque.\n\nSource : Cours SP 2025-2026, L3, Suivi et évaluation, p. 59",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4134,7 +4138,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Un système peut être efficace (atteindre ses objectifs sanitaires) tout en étant INEFFICIENT s'il gaspille des ressources financières et humaines excessives pour y parvenir.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Efficace = résultats atteints ; efficient = au moindre coût : l'un n'implique pas l'autre.\n\nSource : Cours SP 2025-2026, L1, Système de santé, p. 19",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4164,7 +4168,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La couverture adéquate mesure le respect quantitatif du nombre de doses/contacts requis par le calendrier, tandis que la couverture EFFECTIVE intègre le respect des normes de QUALITÉ.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "CA : critère quantité (fréquence et intensité) ; la qualité relève de la CE.\n\nSource : Cours SP 2025-2026, L2, Monitorage, p. 74-75",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4190,11 +4194,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. Vrai",
+       "answer": "B. Faux",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "L'Établissement Sanitaire de Premier Contact (ESPC : CSU, CSR, dispensaire) constitue l'échelon de premier recours (porte d'entrée) des populations dans le système de santé.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "L'établissement de premier recours est la structure de référence, pas l'ESPC.\n\nSource : Cours SP 2025-2026, L3, Référence, p. 20",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4220,11 +4224,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. Vrai",
+       "answer": "B. Faux",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "Le mandat des membres élus du COGES est de 2 ans renouvelables.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Trois ans renouvelables.\n\nSource : Cours SP 2025-2026, L3, COGES, p. 23",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4254,7 +4258,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La gravité d'un problème de santé s'apprécie par sa mortalité, sa létalité ainsi que par la fréquence et la sévérité des incapacités, handicaps et séquelles qu'il engendre.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Gravité : nombre de décès ou de séquelles.\n\nSource : Cours SP 2025-2026, L2, Diagnostic communautaire, p. 31",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4284,7 +4288,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le marasme est une malnutrition aiguë sévère résultant d'une carence globale énergétique et protéino-calorique (déficit d'apport de tous les macronutriments).\n\nSource : Organisation Mondiale de la Santé (OMS) - Manuel du Facilitateur PCIMNE (Prise en Charge Intégrée des Maladies du Nouveau-né et de l'Enfant) — https://platform.who.int/docs/default-source/mca-documents/policy-documents/operational-guidance/COG-CH-20-01-OPERATIONALGUIDANCE-2017-fra-IMCI-Training-Facilitator-Manual.pdf",
+       "explanation": "Le marasme est une maladie par carence.\n\nSource : Cours SP L1 (doc. de base), Nutrition, p. 40-41",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4314,7 +4318,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L'alcoolisme (éthylisme) est provoqué par la consommation excessive et répétée de boissons ALCOOLISÉES (contenant de l'éthanol), et non de boissons sucrées.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Abus de boissons alcoolisées, pas sucrées.\n\nSource : Cours SP 2025-2026, L2, Fléaux sociaux, p. 43-44",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4344,7 +4348,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Entre J0 et J14 d'une PFA, on réalise le PRÉLÈVEMENT de deux échantillons de selles pour analyse virologique au laboratoire, suivi d'un examen neurologique de suivi à J60 pour rechercher des séquelles.\n\nSource : Ministère de la Santé de Côte d'Ivoire - Programme Élargi de Vaccination (PEV) et Calendrier Vaccinal — https://www.sante.gouv.ci/index.php/actualite/1770",
+       "explanation": "À vérifier — L'analyse et les actions correctrices ne figurent pas dans la colonne J0-J14 du tableau.\n\nSource : Cours SP 2025-2026, L2, SIMR, p. 59",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4374,7 +4378,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Un enfant qui a reçu toutes les doses est dit « COMPLÈTEMENT vacciné ». Pour être dit « CORRECTEMENT (ou validement) vacciné », il faut en plus qu'il ait reçu ces doses au bon âge, en respectant les intervalles minimums, la bonne voie/dose et avec des vaccins bien conservés (qualité/PCV valide) !\n\nSource : OMS / Ministère de la Santé CI - Plan Pluri-Annuel Complet du PEV et Gestion des Vaccins — https://extranet.who.int/countryplanningcycles/sites/default/files/planning_cycle_repository/cote_divoire/ppac_2016-2020_final_07-09-2016.pdf",
+       "explanation": "C'est la définition de l'enfant complètement vacciné.\n\nSource : Cours SP 2025-2026, L2, Gestion des vaccins, p. 6",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4408,11 +4412,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. Deux ans renouvelables",
+       "answer": "B. Trois ans renouvelables",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "Conformément à la question Q20 de cette même épreuve, le mandat est de deux ans renouvelables.\n\nRéponse du corrigé : A- Deux ans renouvelables (ou B- Trois ans renouvelables selon l'arrêté actualisé ; au Q20 du même sujet il est écrit : « deux ans renouvelables »)\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Trois ans renouvelables.\n\nSource : Cours SP 2025-2026, L3, COGES, p. 23",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4446,14 +4450,12 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "A. de déceler chez l'agent supervisé des insuffisances ; B. de mesurer les résultats obtenus par l'agent supervisé ; C. d'améliorer la qualité du travail accompli par l'agent supervisé ; D. d'apprécier la conscience professionnelle de l'agent supervisé",
+       "answer": "A. de déceler chez l'agent supervisé des insuffisances ; C. d'améliorer la qualité du travail accompli par l'agent supervisé",
        "answerLetters": [
         "A",
-        "B",
-        "C",
-        "D"
+        "C"
        ],
-       "explanation": "La supervision formative permet d'identifier les lacunes techniques (A), d'évaluer les performances (B) et surtout d'améliorer la qualité du travail de l'agent (C).\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "La supervision permet de déceler les insuffisances et d'améliorer la qualité du travail.\n\nSource : Cours SP 2025-2026, L3, Supervision, p. 48",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4502,7 +4504,7 @@
         "D",
         "E"
        ],
-       "explanation": "L'épidémiologie descriptive étudie la fréquence (Combien ? E) et la distribution des maladies selon les caractéristiques de personnes (Qui ? D), de temps (Quand ? B) et de lieu (Où ? C). Les questions « Quelle est la cause ? » (A) et « Pourquoi ? » (F) relèvent de l'épidémiologie analytique.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Épidémiologie descriptive : Quand ? Où ? Qui ? Combien ?\n\nSource : Cours SP 2025-2026, L1, Épidémiologie, p. 83",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4540,7 +4542,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Déroulement pratique au poste de vaccination : 3. Tri des cibles (vérification de l'âge et du statut vaccinal sur le carnet) → 2. Enregistrement sur le registre et le carnet → 4. Administration de l'antigène → 1. Conseils individuels IEC/CCC sur les MAPI éventuelles et le prochain rendez-vous.\n\nSource : OMS / Ministère de la Santé CI - Plan Pluri-Annuel Complet du PEV et Gestion des Vaccins — https://extranet.who.int/countryplanningcycles/sites/default/files/planning_cycle_repository/cote_divoire/ppac_2016-2020_final_07-09-2016.pdf",
+       "explanation": "Tri → enregistrement → administration → communication (MAPI).\n\nSource : Cours SP 2025-2026, L3, Séance de vaccination, p. 67-69",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4573,12 +4575,13 @@
         }
        ],
        "mode": "mcq",
-       "multi": false,
-       "answer": "A. Agent de santé",
+       "multi": true,
+       "answer": "A. Agent de santé ; B. ONG de santé",
        "answerLetters": [
-        "A"
+        "A",
+        "B"
        ],
-       "explanation": "L'agent de santé est le responsable technique de la planification et de la conduite des séances d'IEC/CCC au centre de santé et dans son aire sanitaire.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Responsables IEC/CCSC : agent de santé et ONG de santé.\n\nSource : Cours SP 2025-2026, L1, CCSC, p. 99",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4621,7 +4624,7 @@
         "A",
         "C"
        ],
-       "explanation": "Le vaccin Td est un vaccin bivalent combinant l'anatoxine tétanique (T = Tétanos, C) et l'anatoxine diphtérique à dose réduite (d = diphtérie, A).\n\nSource : Ministère de la Santé de Côte d'Ivoire - Programme Élargi de Vaccination (PEV) et Calendrier Vaccinal — https://www.sante.gouv.ci/index.php/actualite/1770",
+       "explanation": "Td : tétanos et diphtérie.\n\nSource : Cours SP 2025-2026, L1, PEV, p. 35",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4659,7 +4662,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "SIMR est l'acronyme officiel de l'OMS pour « Surveillance Intégrée de la Maladie et la Riposte » (IDSR en anglais).\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Surveillance intégrée de la maladie et riposte.\n\nSource : Cours SP 2025-2026, L2, SIMR, p. 56",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4698,7 +4701,7 @@
         "B",
         "C"
        ],
-       "explanation": "Les facteurs psychologiques tels que l'angoisse/anxiété (C) et la timidité/recherche de désinhibition sociale (B) favorisent la consommation d'alcool (alors que le coût exorbitant de l'alcool freine au contraire son achat).\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Facteurs liés à la personne : timidité, angoisse.\n\nSource : Cours SP 2025-2026, L2, Fléaux sociaux, p. 43-44",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4736,7 +4739,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "Selon la politique de l'OMS visant à réduire les occasions manquées de vaccination (et sachant de plus que le Td est un vaccin liquide conservable 28 jours après ouverture selon la politique du flacon entamé), on ouvre un flacon dès qu'UN SEUL bénéficiaire éligible (1 femme ou 1 enfant) se présente !\n\nSource : OMS / Ministère de la Santé CI - Plan Pluri-Annuel Complet du PEV et Gestion des Vaccins — https://extranet.who.int/countryplanningcycles/sites/default/files/planning_cycle_repository/cote_divoire/ppac_2016-2020_final_07-09-2016.pdf",
+       "explanation": "Hors cours — Pour un vaccin liquide (politique du flacon entamé), on ouvre le flacon même pour une seule cible.\n\nSource : Hors cours",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4778,7 +4781,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La première dose de Td1 au premier contact n'induit qu'une réponse primaire d'amorçage immunitaire et confère 0 % de protection (aucune protection) en l'absence de la 2e dose Td2 administrée 4 semaines plus tard.\n\nSource : Ministère de la Santé de Côte d'Ivoire - Programme Élargi de Vaccination (PEV) et Calendrier Vaccinal — https://www.sante.gouv.ci/index.php/actualite/1770",
+       "explanation": "Td1 : pas de protection.\n\nSource : Cours SP 2025-2026, L1, PEV, calendrier, p. 39",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4826,7 +4829,7 @@
         "C",
         "D"
        ],
-       "explanation": "Question identique à Daloa SP Q20 : cyclones, tremblements de terre et tsunamis.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Cyclones, tremblements de terre, tsunami.\n\nSource : Cours SP 2025-2026, L3, Catastrophes, p. 43",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4860,7 +4863,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Les étapes de la planification/démarche en santé publique sont : 1. Identifier les problèmes et besoins de santé (analyse situationnelle) → 2. Définir les priorités (sélection du problème prioritaire) → 3. Fixer les objectifs → 4. Déterminer les stratégies/actions et ressources → 5. Mettre en œuvre → 6. Évaluer.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Étape 2 : définition des priorités.\n\nSource : Cours SP 2025-2026, L1, Démarche de santé publique, p. 12",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4902,12 +4905,12 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "C. la commande des contraceptifs ; D. le nombre de femmes sensibilisées",
+       "answer": "B. le dénombrement des populations cible ; C. la commande des contraceptifs",
        "answerLetters": [
-        "C",
-        "D"
+        "B",
+        "C"
        ],
-       "explanation": "Dans l'évaluation d'un programme : les ressources/intrants sont les sages-femmes et les stocks (E, F) ; les activités/PROCESSUS sont la commande, le dénombrement et les séances de sensibilisation menées (B, C, D) ; et le résultat est le taux d'utilisation des contraceptifs (A).\n\nRéponse du corrigé : C- la commande des contraceptifs ; D- le nombre de femmes sensibilisées (ou B et C)\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "À vérifier — Indicateurs de processus : liés aux activités menées (dénombrement des cibles, commande).\n\nSource : Cours SP 2025-2026, L3, Indicateurs, p. 63",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -4949,13 +4952,13 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "A. L'élimination ; B. Le stockage ; D. Le ramassage",
+       "answer": "B. Le stockage ; D. Le ramassage ; F. Le traitement",
        "answerLetters": [
-        "A",
         "B",
-        "D"
+        "D",
+        "F"
        ],
-       "explanation": "Les trois phases classiques de la gestion des ordures ménagères sont : 1. Le stockage à domicile (pré-collecte, B), 2. Le ramassage (collecte et transport, D), et 3. Le traitement ou élimination finale (A/F, dont l'incinération et le compostage sont des modalités techniques).\n\nRéponse du corrigé : A- L'élimination (ou F- Le traitement) ; B- Le stockage ; D- Le ramassage\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "À vérifier — Stockage, ramassage, puis traitement (incinération ou compostage).\n\nSource : Cours SP 2025-2026, L1, Ordures ménagères, p. 73-74",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -5003,7 +5006,7 @@
         "C",
         "E"
        ],
-       "explanation": "La proposition E (« sur l'ensemble du territoire national ») ainsi que les objectifs stratégiques nationaux du Programme National de Lutte contre la Tuberculose (A, C, E) relèvent du niveau central.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Hors cours — Objectifs nationaux (augmenter/améliorer). Le cours 2025-2026 donne des objectifs identiques à tous les niveaux.\n\nSource : Cours SP 2025-2026, L1, PNLT, p. 48",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -5042,7 +5045,7 @@
         "A",
         "D"
        ],
-       "explanation": "La stratégie fixe (populations se déplaçant directement au CSR) concerne les localités situées dans un rayon de 0 à 5 km du centre de santé : il s'agit de Boya (0 km, D) et du village de Djo (situé à 2 km < 5 km, A).\n\nSource : OMS / Ministère de la Santé CI - Plan Pluri-Annuel Complet du PEV et Gestion des Vaccins — https://extranet.who.int/countryplanningcycles/sites/default/files/planning_cycle_repository/cote_divoire/ppac_2016-2020_final_07-09-2016.pdf",
+       "explanation": "Stratégie fixe (< 5 km) : Boya et Djo.\n\nSource : Cours SP 2025-2026, L1, Étude du milieu, p. 56",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -5080,7 +5083,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Population en stratégie fixe (0 à 5 km) = Population de Boya (10 000) + Population de Djo (6 000) = 16 000 habitants. Les femmes enceintes représentant 5 % de la population totale : 16 000 × 5 % = 800 femmes enceintes !\n\nSource : OMS / Ministère de la Santé CI - Plan Pluri-Annuel Complet du PEV et Gestion des Vaccins — https://extranet.who.int/countryplanningcycles/sites/default/files/planning_cycle_repository/cote_divoire/ppac_2016-2020_final_07-09-2016.pdf",
+       "explanation": "(10 000 + 6 000) × 5 % = 800.\n\nSource : Cours SP 2025-2026, L1, Étude du milieu, p. 60",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -5118,7 +5121,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La stratégie avancée concerne les villages situés entre 5 et 15 km du centre de santé : il s'agit de Kafonon (9 km, 5 000 hab.) et Yatcho (14 km, 1 500 hab.), soit une population de 5 000 + 1 500 = 6 500 habitants (Kakoli à 18 km et Lafo à 16 km étant > 15 km, en stratégie mobile). Enfants de 0 à 23 mois (6,82 %) = 6 500 × 6,82 % = 443,3 → arrondi au supérieur = 444 enfants !\n\nSource : OMS / Ministère de la Santé CI - Plan Pluri-Annuel Complet du PEV et Gestion des Vaccins — https://extranet.who.int/countryplanningcycles/sites/default/files/planning_cycle_repository/cote_divoire/ppac_2016-2020_final_07-09-2016.pdf",
+       "explanation": "Stratégie avancée (5-15 km) : Kafonon + Yatcho = 6 500 × 6,82 % = 443,3 → 444.\n\nSource : Cours SP 2025-2026, L2, Gestion des vaccins, p. 7",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -5152,10 +5155,11 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Selon les normes d'organisation du PEV, avec 1 à 2 séances hebdomadaires sur 4 semaines par mois, on réalise 4 à 8 séances mensuelles.\n\nRéponse du corrigé : B. 8 (ou A. 4 à raison d'une séance fixe par semaine)\n\nSource : OMS / Ministère de la Santé CI - Plan Pluri-Annuel Complet du PEV et Gestion des Vaccins — https://extranet.who.int/countryplanningcycles/sites/default/files/planning_cycle_repository/cote_divoire/ppac_2016-2020_final_07-09-2016.pdf",
+       "explanation": "Aucune proposition exacte. Hors cours — Non traité dans les cours fournis.",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "bouake-3__sante-publique__44",
@@ -5186,7 +5190,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Au 08 novembre 2026, les 10 premiers mois de l'année 2026 (janvier à octobre 2026) sont écoulés, soit 10 rapports mensuels attendus (le rapport d'octobre devant être déposé au plus tard le 5 novembre). Avec un taux de promptitude de 80 % : 10 × 80 % = 8 rapports transmis dans le délai requis !\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "À vérifier — Rapports attendus de janvier à octobre 2026 = 10 ; 80 % × 10 = 8.\n\nSource : Cours SP 2025-2026, L3, Information sanitaire, p. 31",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -5220,7 +5224,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le premier monitorage semestriel de l'année 2026 (évaluant le premier semestre de l'année) a lieu au mois de juin 2026.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "Monitorage décembre-mai réalisé en juin.\n\nSource : Cours SP 2025-2026, L2, Monitorage, p. 72",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -5254,7 +5258,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "La localité de Boya compte 10 000 habitants. Sa cible annuelle d'enfants de 0 à 23 mois (6,82 %) est de : 10 000 × 6,82 % = 682 enfants. Pour le premier monitorage (semestriel, soit 6 mois), l'effectif attendu est la moitié : 682 / 2 = 341 enfants !\n\nSource : OMS / Ministère de la Santé CI - Plan Pluri-Annuel Complet du PEV et Gestion des Vaccins — https://extranet.who.int/countryplanningcycles/sites/default/files/planning_cycle_repository/cote_divoire/ppac_2016-2020_final_07-09-2016.pdf",
+       "explanation": "6,82 % × 10 000 = 682 ; semestre : 341.\n\nSource : Cours SP 2025-2026, L2, Monitorage, p. 72",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -5288,7 +5292,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L'intéressement du personnel (IP = 300 000 FCFA) représente 15 % des recettes brutes du semestre : Recettes brutes = 300 000 / 0,15 = 2 000 000 FCFA !\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "IP = 15 % : 300 000 / 0,15 = 2 000 000 F.\n\nSource : Cours SP 2025-2026, L3, Budgétisation, p. 16",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -5318,11 +5322,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. 200 000",
+       "answer": "C. 400 000",
        "answerLetters": [
-        "A"
+        "C"
        ],
-       "explanation": "Dans la répartition des recettes des actes de santé, le prélèvement de 10 % à 15 % couvre les charges fixes/personnel d'appui (2 000 000 × 10 % = 200 000 FCFA).\n\nRéponse du corrigé : A. 200 000 (ou B. 300 000 selon le barème)\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "SPS = 20 % × 2 000 000 = 400 000 F.\n\nSource : Cours SP 2025-2026, L3, Budgétisation, p. 16",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -5356,7 +5360,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le Fonds d'Action Sociale (FAS) représente 10 % des recettes brutes : 2 000 000 × 10 % = 200 000 FCFA !\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
+       "explanation": "FAS = 10 % × 2 000 000 = 200 000 F.\n\nSource : Cours SP 2025-2026, L3, Budgétisation, p. 16",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null

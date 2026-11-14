@@ -42,6 +42,7 @@ def natif(q):
         if o: n['q'] = q['text'] + '\n' + '\n'.join('%s. %s' % (a, b) for a, b in zip(lettres, o))
         n.update(t='open', r=rep, acc=[])
     if q.get('explanation'): n['x'] = q['explanation']
+    if q.get('off'): n['off'] = 1      # question désactivée (réactivable au tableau de bord : correction off = null)
     return n
 
 
