@@ -1,0 +1,1673 @@
+{
+ "app": "xmvkq4zed",
+ "id": "v-sj-prepa-2026-11-14-sp",
+ "titre": "Préparation D.E (J) · Santé publique du 14 novembre 2026",
+ "session": "J",
+ "annee": 2026,
+ "nq": 44,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+   "sha256": "02d64487ec2f522e60d4f6853d401cccb077a780c213ab47f4509ac5d4516a98"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Santé publique · Prépa D.E du 14 novembre 2026",
+     "slug": "prepa-sp-2026-11-14",
+     "pages": "",
+     "count": 44,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Santé publique",
+     "source": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__0",
+       "num": "1",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 1",
+       "caseData": "Soulougoutogo est un village de la sous-préfecture de Kong. Il compte 16 000 habitants au 31/12/2020 et 16 640 habitants au 1er/01/2022. Une enquête épidémiologique et socio-démographique effectuée dans le village par l'infirmier a donné les informations suivantes :\n➤ Total de cas de morbidités toutes causes confondues : 6 500 cas\n➤ 5 200 cas de paludisme notifiés au cours de l'année dont 1/3 de nouveaux cas\n➤ Naissances dans la localité : 583 dont 25 mort-nés\n➤ Nombre total de décès : 46\n➤ 5 décès maternels dont 02 survenus deux mois après l'accouchement\n➤ 9 décès dans la tranche d'âge de 0 à 7 jours dont 4 liés au tétanos néonatal\n➤ 5 décès dans la tranche d'âge de 8 à 27 jours\n➤ 11 décès dans la tranche d'âge de 1 à 11 mois\n➤ 12 à 48 mois : 16 décès dont 7 liés au paludisme, 4 aux IRA et 5 à la rougeole\nEn outre, une étude menée dans la localité révèle le diagnostic communautaire suivant :\n➤ 20 % des enfants malnutris de 0 à 5 ans n'ont pas leur calendrier vaccinal à jour\n➤ L'eau consommée par cette communauté provient des puits traditionnels non aménagés\n➤ La lèpre sévit dans la région sanitaire de Korhogo de façon endémique",
+       "text": "Parmi les critères suivants, indiquez ceux qui permettent de sélectionner un problème prioritaire de santé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La population totale de la localité"
+        },
+        {
+         "letter": "B",
+         "text": "L'ampleur du problème"
+        },
+        {
+         "letter": "C",
+         "text": "La gravité du problème"
+        },
+        {
+         "letter": "D",
+         "text": "Le niveau d'instruction des populations"
+        },
+        {
+         "letter": "E",
+         "text": "La vulnérabilité du problème"
+        },
+        {
+         "letter": "F",
+         "text": "La durée des interventions"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. L'ampleur du problème ; C. La gravité du problème ; E. La vulnérabilité du problème",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "Le cours retient 6 critères de sélection d'un problème prioritaire : la population cible touchée, l'ampleur (nombre de cas), la gravité (décès ou séquelles), la vulnérabilité (existence de mesures de contrôle efficaces), la perception du problème par la population et le coût des interventions.\n« Population totale de la localité » (A) n'est pas un critère : c'est la population cible touchée qui compte. Le niveau d'instruction (D) et la durée des interventions (F) ne figurent pas dans la liste.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 et Document révisé L2 2023-2024 – Diagnostic communautaire, VII « Critères de sélection de problème prioritaire »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__1",
+       "num": "2",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 1",
+       "caseData": "Soulougoutogo est un village de la sous-préfecture de Kong. Il compte 16 000 habitants au 31/12/2020 et 16 640 habitants au 1er/01/2022. Une enquête épidémiologique et socio-démographique effectuée dans le village par l'infirmier a donné les informations suivantes :\n➤ Total de cas de morbidités toutes causes confondues : 6 500 cas\n➤ 5 200 cas de paludisme notifiés au cours de l'année dont 1/3 de nouveaux cas\n➤ Naissances dans la localité : 583 dont 25 mort-nés\n➤ Nombre total de décès : 46\n➤ 5 décès maternels dont 02 survenus deux mois après l'accouchement\n➤ 9 décès dans la tranche d'âge de 0 à 7 jours dont 4 liés au tétanos néonatal\n➤ 5 décès dans la tranche d'âge de 8 à 27 jours\n➤ 11 décès dans la tranche d'âge de 1 à 11 mois\n➤ 12 à 48 mois : 16 décès dont 7 liés au paludisme, 4 aux IRA et 5 à la rougeole\nEn outre, une étude menée dans la localité révèle le diagnostic communautaire suivant :\n➤ 20 % des enfants malnutris de 0 à 5 ans n'ont pas leur calendrier vaccinal à jour\n➤ L'eau consommée par cette communauté provient des puits traditionnels non aménagés\n➤ La lèpre sévit dans la région sanitaire de Korhogo de façon endémique",
+       "text": "Quel est le taux d'accroissement annuel de la population de Soulougoutogo ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "0,38 %"
+        },
+        {
+         "letter": "B",
+         "text": "0,40 %"
+        },
+        {
+         "letter": "C",
+         "text": "3,84 %"
+        },
+        {
+         "letter": "D",
+         "text": "4,00 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 4,00 %",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "TAA = [(population de fin – population de début) / population de début] × 100.\nTAA = [(16 640 – 16 000) / 16 000] × 100 = (640 / 16 000) × 100 = 4,00 %.\nSource : Formules santé publique harmonisées – Taux d'accroissement annuel (TAA)",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__2",
+       "num": "3",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 1",
+       "caseData": "Soulougoutogo est un village de la sous-préfecture de Kong. Il compte 16 000 habitants au 31/12/2020 et 16 640 habitants au 1er/01/2022. Une enquête épidémiologique et socio-démographique effectuée dans le village par l'infirmier a donné les informations suivantes :\n➤ Total de cas de morbidités toutes causes confondues : 6 500 cas\n➤ 5 200 cas de paludisme notifiés au cours de l'année dont 1/3 de nouveaux cas\n➤ Naissances dans la localité : 583 dont 25 mort-nés\n➤ Nombre total de décès : 46\n➤ 5 décès maternels dont 02 survenus deux mois après l'accouchement\n➤ 9 décès dans la tranche d'âge de 0 à 7 jours dont 4 liés au tétanos néonatal\n➤ 5 décès dans la tranche d'âge de 8 à 27 jours\n➤ 11 décès dans la tranche d'âge de 1 à 11 mois\n➤ 12 à 48 mois : 16 décès dont 7 liés au paludisme, 4 aux IRA et 5 à la rougeole\nEn outre, une étude menée dans la localité révèle le diagnostic communautaire suivant :\n➤ 20 % des enfants malnutris de 0 à 5 ans n'ont pas leur calendrier vaccinal à jour\n➤ L'eau consommée par cette communauté provient des puits traditionnels non aménagés\n➤ La lèpre sévit dans la région sanitaire de Korhogo de façon endémique",
+       "text": "Quelle est la population totale en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "17 280 habitants"
+        },
+        {
+         "letter": "B",
+         "text": "17 306 habitants"
+        },
+        {
+         "letter": "C",
+         "text": "17 278 habitants"
+        },
+        {
+         "letter": "D",
+         "text": "16 703 habitants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 17 306 habitants",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Projection : Pt = P0 × (1 + r)^t, avec P0 = 16 640 (au 1er/01/2022), r = 0,04 et t = 1 an.\nP2022 = 16 640 × 1,04 = 17 305,6 ≈ 17 306 habitants.\nSource : Formules santé publique harmonisées – Projection démographique Pt = P0 (1 + r)^t",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__3",
+       "num": "4",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 1",
+       "caseData": "Soulougoutogo est un village de la sous-préfecture de Kong. Il compte 16 000 habitants au 31/12/2020 et 16 640 habitants au 1er/01/2022. Une enquête épidémiologique et socio-démographique effectuée dans le village par l'infirmier a donné les informations suivantes :\n➤ Total de cas de morbidités toutes causes confondues : 6 500 cas\n➤ 5 200 cas de paludisme notifiés au cours de l'année dont 1/3 de nouveaux cas\n➤ Naissances dans la localité : 583 dont 25 mort-nés\n➤ Nombre total de décès : 46\n➤ 5 décès maternels dont 02 survenus deux mois après l'accouchement\n➤ 9 décès dans la tranche d'âge de 0 à 7 jours dont 4 liés au tétanos néonatal\n➤ 5 décès dans la tranche d'âge de 8 à 27 jours\n➤ 11 décès dans la tranche d'âge de 1 à 11 mois\n➤ 12 à 48 mois : 16 décès dont 7 liés au paludisme, 4 aux IRA et 5 à la rougeole\nEn outre, une étude menée dans la localité révèle le diagnostic communautaire suivant :\n➤ 20 % des enfants malnutris de 0 à 5 ans n'ont pas leur calendrier vaccinal à jour\n➤ L'eau consommée par cette communauté provient des puits traditionnels non aménagés\n➤ La lèpre sévit dans la région sanitaire de Korhogo de façon endémique",
+       "text": "Quelle est la population moyenne en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "16 973 habitants"
+        },
+        {
+         "letter": "B",
+         "text": "16 960 habitants"
+        },
+        {
+         "letter": "C",
+         "text": "16 672 habitants"
+        },
+        {
+         "letter": "D",
+         "text": "16 459 habitants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 16 973 habitants",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Population moyenne = (population de départ + population d'arrivée) / 2.\nPop M = (16 640 + 17 306) / 2 = 33 946 / 2 = 16 973 habitants.\nSource : Cahier d'exercices – formules de santé publique – Formule 9, Population moyenne",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__4",
+       "num": "5",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 1",
+       "caseData": "Soulougoutogo est un village de la sous-préfecture de Kong. Il compte 16 000 habitants au 31/12/2020 et 16 640 habitants au 1er/01/2022. Une enquête épidémiologique et socio-démographique effectuée dans le village par l'infirmier a donné les informations suivantes :\n➤ Total de cas de morbidités toutes causes confondues : 6 500 cas\n➤ 5 200 cas de paludisme notifiés au cours de l'année dont 1/3 de nouveaux cas\n➤ Naissances dans la localité : 583 dont 25 mort-nés\n➤ Nombre total de décès : 46\n➤ 5 décès maternels dont 02 survenus deux mois après l'accouchement\n➤ 9 décès dans la tranche d'âge de 0 à 7 jours dont 4 liés au tétanos néonatal\n➤ 5 décès dans la tranche d'âge de 8 à 27 jours\n➤ 11 décès dans la tranche d'âge de 1 à 11 mois\n➤ 12 à 48 mois : 16 décès dont 7 liés au paludisme, 4 aux IRA et 5 à la rougeole\nEn outre, une étude menée dans la localité révèle le diagnostic communautaire suivant :\n➤ 20 % des enfants malnutris de 0 à 5 ans n'ont pas leur calendrier vaccinal à jour\n➤ L'eau consommée par cette communauté provient des puits traditionnels non aménagés\n➤ La lèpre sévit dans la région sanitaire de Korhogo de façon endémique",
+       "text": "Quel est le taux brut de natalité de Soulougoutogo en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "3,22 %"
+        },
+        {
+         "letter": "B",
+         "text": "3,28 %"
+        },
+        {
+         "letter": "C",
+         "text": "3,43 %"
+        },
+        {
+         "letter": "D",
+         "text": "3,58 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 3,28 %",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "TBN = (naissances vivantes / population totale ou moyenne) × 100. Les mort-nés ne sont pas des naissances vivantes : 583 – 25 = 558 naissances vivantes.\nTBN = (558 / 16 973) × 100 = 3,287… ≈ 3,28 % (valeur tronquée retenue par le corrigé ; l'arrondi donnerait 3,29 %).\n⚠ NB : La réponse cochée ci-dessus est celle qui vient cochée dans la correction de la Nationale.\nSource : Formules santé publique harmonisées – Natalité ; Cours Santé publique L1-L3 révisé 2025-2026",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__5",
+       "num": "6",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 1",
+       "caseData": "Soulougoutogo est un village de la sous-préfecture de Kong. Il compte 16 000 habitants au 31/12/2020 et 16 640 habitants au 1er/01/2022. Une enquête épidémiologique et socio-démographique effectuée dans le village par l'infirmier a donné les informations suivantes :\n➤ Total de cas de morbidités toutes causes confondues : 6 500 cas\n➤ 5 200 cas de paludisme notifiés au cours de l'année dont 1/3 de nouveaux cas\n➤ Naissances dans la localité : 583 dont 25 mort-nés\n➤ Nombre total de décès : 46\n➤ 5 décès maternels dont 02 survenus deux mois après l'accouchement\n➤ 9 décès dans la tranche d'âge de 0 à 7 jours dont 4 liés au tétanos néonatal\n➤ 5 décès dans la tranche d'âge de 8 à 27 jours\n➤ 11 décès dans la tranche d'âge de 1 à 11 mois\n➤ 12 à 48 mois : 16 décès dont 7 liés au paludisme, 4 aux IRA et 5 à la rougeole\nEn outre, une étude menée dans la localité révèle le diagnostic communautaire suivant :\n➤ 20 % des enfants malnutris de 0 à 5 ans n'ont pas leur calendrier vaccinal à jour\n➤ L'eau consommée par cette communauté provient des puits traditionnels non aménagés\n➤ La lèpre sévit dans la région sanitaire de Korhogo de façon endémique",
+       "text": "Quel est le taux brut de mortalité de Soulougoutogo en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "0,23 %"
+        },
+        {
+         "letter": "B",
+         "text": "0,26 %"
+        },
+        {
+         "letter": "C",
+         "text": "0,27 %"
+        },
+        {
+         "letter": "D",
+         "text": "0,29 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 0,27 %",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "TBM = (nombre de décès toutes causes / population totale ou moyenne) × 100.\nTBM = (46 / 16 973) × 100 = 0,271 ≈ 0,27 %.\nSource : Formules santé publique harmonisées – Taux brut de mortalité ; Document révisé L2 2023-2024 3.2.4",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__6",
+       "num": "7",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 1",
+       "caseData": "Soulougoutogo est un village de la sous-préfecture de Kong. Il compte 16 000 habitants au 31/12/2020 et 16 640 habitants au 1er/01/2022. Une enquête épidémiologique et socio-démographique effectuée dans le village par l'infirmier a donné les informations suivantes :\n➤ Total de cas de morbidités toutes causes confondues : 6 500 cas\n➤ 5 200 cas de paludisme notifiés au cours de l'année dont 1/3 de nouveaux cas\n➤ Naissances dans la localité : 583 dont 25 mort-nés\n➤ Nombre total de décès : 46\n➤ 5 décès maternels dont 02 survenus deux mois après l'accouchement\n➤ 9 décès dans la tranche d'âge de 0 à 7 jours dont 4 liés au tétanos néonatal\n➤ 5 décès dans la tranche d'âge de 8 à 27 jours\n➤ 11 décès dans la tranche d'âge de 1 à 11 mois\n➤ 12 à 48 mois : 16 décès dont 7 liés au paludisme, 4 aux IRA et 5 à la rougeole\nEn outre, une étude menée dans la localité révèle le diagnostic communautaire suivant :\n➤ 20 % des enfants malnutris de 0 à 5 ans n'ont pas leur calendrier vaccinal à jour\n➤ L'eau consommée par cette communauté provient des puits traditionnels non aménagés\n➤ La lèpre sévit dans la région sanitaire de Korhogo de façon endémique",
+       "text": "Quel est le taux de mortalité néonatale précoce de Soulougoutogo en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1,54 %"
+        },
+        {
+         "letter": "B",
+         "text": "1,61 %"
+        },
+        {
+         "letter": "C",
+         "text": "2,22 %"
+        },
+        {
+         "letter": "D",
+         "text": "2,32 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 1,61 %",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Mortalité néonatale précoce = décès de 0 à moins de 8 jours / naissances vivantes × 100.\nTMNNP = (9 / 558) × 100 = 1,61 %.\nSource : Formules santé publique harmonisées – Mortalité néonatale précoce ; Document révisé L2 2023-2024 3.2.11",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__7",
+       "num": "8",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 1",
+       "caseData": "Soulougoutogo est un village de la sous-préfecture de Kong. Il compte 16 000 habitants au 31/12/2020 et 16 640 habitants au 1er/01/2022. Une enquête épidémiologique et socio-démographique effectuée dans le village par l'infirmier a donné les informations suivantes :\n➤ Total de cas de morbidités toutes causes confondues : 6 500 cas\n➤ 5 200 cas de paludisme notifiés au cours de l'année dont 1/3 de nouveaux cas\n➤ Naissances dans la localité : 583 dont 25 mort-nés\n➤ Nombre total de décès : 46\n➤ 5 décès maternels dont 02 survenus deux mois après l'accouchement\n➤ 9 décès dans la tranche d'âge de 0 à 7 jours dont 4 liés au tétanos néonatal\n➤ 5 décès dans la tranche d'âge de 8 à 27 jours\n➤ 11 décès dans la tranche d'âge de 1 à 11 mois\n➤ 12 à 48 mois : 16 décès dont 7 liés au paludisme, 4 aux IRA et 5 à la rougeole\nEn outre, une étude menée dans la localité révèle le diagnostic communautaire suivant :\n➤ 20 % des enfants malnutris de 0 à 5 ans n'ont pas leur calendrier vaccinal à jour\n➤ L'eau consommée par cette communauté provient des puits traditionnels non aménagés\n➤ La lèpre sévit dans la région sanitaire de Korhogo de façon endémique",
+       "text": "Quel est le taux de mortalité néonatale tardive de Soulougoutogo en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "0,82 %"
+        },
+        {
+         "letter": "B",
+         "text": "0,85 %"
+        },
+        {
+         "letter": "C",
+         "text": "0,89 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 0,89 %",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Mortalité néonatale tardive = décès de 8 à moins de 28 jours / naissances vivantes × 100.\nTMNNT = (5 / 558) × 100 = 0,896… ≈ 0,89 % (valeur tronquée retenue par le corrigé).\n⚠ NB : La réponse cochée ci-dessus est celle qui vient cochée dans la correction de la Nationale.\nSource : Formules santé publique harmonisées – Mortalité néonatale tardive ; Document révisé L2 2023-2024 3.2.12",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__8",
+       "num": "9",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 1",
+       "caseData": "Soulougoutogo est un village de la sous-préfecture de Kong. Il compte 16 000 habitants au 31/12/2020 et 16 640 habitants au 1er/01/2022. Une enquête épidémiologique et socio-démographique effectuée dans le village par l'infirmier a donné les informations suivantes :\n➤ Total de cas de morbidités toutes causes confondues : 6 500 cas\n➤ 5 200 cas de paludisme notifiés au cours de l'année dont 1/3 de nouveaux cas\n➤ Naissances dans la localité : 583 dont 25 mort-nés\n➤ Nombre total de décès : 46\n➤ 5 décès maternels dont 02 survenus deux mois après l'accouchement\n➤ 9 décès dans la tranche d'âge de 0 à 7 jours dont 4 liés au tétanos néonatal\n➤ 5 décès dans la tranche d'âge de 8 à 27 jours\n➤ 11 décès dans la tranche d'âge de 1 à 11 mois\n➤ 12 à 48 mois : 16 décès dont 7 liés au paludisme, 4 aux IRA et 5 à la rougeole\nEn outre, une étude menée dans la localité révèle le diagnostic communautaire suivant :\n➤ 20 % des enfants malnutris de 0 à 5 ans n'ont pas leur calendrier vaccinal à jour\n➤ L'eau consommée par cette communauté provient des puits traditionnels non aménagés\n➤ La lèpre sévit dans la région sanitaire de Korhogo de façon endémique",
+       "text": "Quel est le taux de mortalité post-néonatale de Soulougoutogo en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1,97 %"
+        },
+        {
+         "letter": "B",
+         "text": "1,88 %"
+        },
+        {
+         "letter": "C",
+         "text": "1,80 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 1,97 %",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Mortalité post-néonatale = décès de 28 jours à 11 mois / naissances vivantes × 100.\nIci ce sont les 11 décès de 1 à 11 mois : TMPNN = (11 / 558) × 100 = 1,97 %.\nSource : Formules santé publique harmonisées – Mortalité post-néonatale (TMPNN)",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__9",
+       "num": "10",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 1",
+       "caseData": "Soulougoutogo est un village de la sous-préfecture de Kong. Il compte 16 000 habitants au 31/12/2020 et 16 640 habitants au 1er/01/2022. Une enquête épidémiologique et socio-démographique effectuée dans le village par l'infirmier a donné les informations suivantes :\n➤ Total de cas de morbidités toutes causes confondues : 6 500 cas\n➤ 5 200 cas de paludisme notifiés au cours de l'année dont 1/3 de nouveaux cas\n➤ Naissances dans la localité : 583 dont 25 mort-nés\n➤ Nombre total de décès : 46\n➤ 5 décès maternels dont 02 survenus deux mois après l'accouchement\n➤ 9 décès dans la tranche d'âge de 0 à 7 jours dont 4 liés au tétanos néonatal\n➤ 5 décès dans la tranche d'âge de 8 à 27 jours\n➤ 11 décès dans la tranche d'âge de 1 à 11 mois\n➤ 12 à 48 mois : 16 décès dont 7 liés au paludisme, 4 aux IRA et 5 à la rougeole\nEn outre, une étude menée dans la localité révèle le diagnostic communautaire suivant :\n➤ 20 % des enfants malnutris de 0 à 5 ans n'ont pas leur calendrier vaccinal à jour\n➤ L'eau consommée par cette communauté provient des puits traditionnels non aménagés\n➤ La lèpre sévit dans la région sanitaire de Korhogo de façon endémique",
+       "text": "Quel est le taux de mortalité infantile de Soulougoutogo en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "2,50 %"
+        },
+        {
+         "letter": "B",
+         "text": "2,86 %"
+        },
+        {
+         "letter": "C",
+         "text": "3,58 %"
+        },
+        {
+         "letter": "D",
+         "text": "4,48 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 4,48 %",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Mortalité infantile = décès d'enfants de moins d'1 an (0 à 11 mois) / naissances vivantes.\nDécès de 0 à 11 mois = 9 (0-7 j) + 5 (8-27 j) + 11 (1-11 mois) = 25. TMI = (25 / 558) × 100 = 4,48 % (soit 44,8 ‰ avec le multiplicateur × 1 000 du cours).\nSource : Cours Santé publique L1-L3 révisé 2025-2026 3.2.7 ; Formules santé publique harmonisées – TMI",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__10",
+       "num": "11",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 1",
+       "caseData": "Soulougoutogo est un village de la sous-préfecture de Kong. Il compte 16 000 habitants au 31/12/2020 et 16 640 habitants au 1er/01/2022. Une enquête épidémiologique et socio-démographique effectuée dans le village par l'infirmier a donné les informations suivantes :\n➤ Total de cas de morbidités toutes causes confondues : 6 500 cas\n➤ 5 200 cas de paludisme notifiés au cours de l'année dont 1/3 de nouveaux cas\n➤ Naissances dans la localité : 583 dont 25 mort-nés\n➤ Nombre total de décès : 46\n➤ 5 décès maternels dont 02 survenus deux mois après l'accouchement\n➤ 9 décès dans la tranche d'âge de 0 à 7 jours dont 4 liés au tétanos néonatal\n➤ 5 décès dans la tranche d'âge de 8 à 27 jours\n➤ 11 décès dans la tranche d'âge de 1 à 11 mois\n➤ 12 à 48 mois : 16 décès dont 7 liés au paludisme, 4 aux IRA et 5 à la rougeole\nEn outre, une étude menée dans la localité révèle le diagnostic communautaire suivant :\n➤ 20 % des enfants malnutris de 0 à 5 ans n'ont pas leur calendrier vaccinal à jour\n➤ L'eau consommée par cette communauté provient des puits traditionnels non aménagés\n➤ La lèpre sévit dans la région sanitaire de Korhogo de façon endémique",
+       "text": "Quel est le taux de mortalité juvénile de Soulougoutogo en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "4,62 ‰"
+        },
+        {
+         "letter": "B",
+         "text": "5,33 ‰"
+        },
+        {
+         "letter": "C",
+         "text": "9,24 ‰"
+        },
+        {
+         "letter": "D",
+         "text": "10,67 ‰"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 5,33 ‰",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "TMJ = décès d'enfants de 1 à 4 ans / total des enfants de 1 à 4 ans × 1 000. Rappel du cours : les enfants de 1 à 4 ans = 17,32 % de la population totale.\nEnfants de 1-4 ans = 17 306 × 17,32 % ≈ 2 997. Décès de 12 à 48 mois = 16. TMJ = (16 / 2 997) × 1 000 = 5,33 ‰.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 3.2.8 « Mortalité juvénile » et rappel 17,32 %",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__11",
+       "num": "12",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 1",
+       "caseData": "Soulougoutogo est un village de la sous-préfecture de Kong. Il compte 16 000 habitants au 31/12/2020 et 16 640 habitants au 1er/01/2022. Une enquête épidémiologique et socio-démographique effectuée dans le village par l'infirmier a donné les informations suivantes :\n➤ Total de cas de morbidités toutes causes confondues : 6 500 cas\n➤ 5 200 cas de paludisme notifiés au cours de l'année dont 1/3 de nouveaux cas\n➤ Naissances dans la localité : 583 dont 25 mort-nés\n➤ Nombre total de décès : 46\n➤ 5 décès maternels dont 02 survenus deux mois après l'accouchement\n➤ 9 décès dans la tranche d'âge de 0 à 7 jours dont 4 liés au tétanos néonatal\n➤ 5 décès dans la tranche d'âge de 8 à 27 jours\n➤ 11 décès dans la tranche d'âge de 1 à 11 mois\n➤ 12 à 48 mois : 16 décès dont 7 liés au paludisme, 4 aux IRA et 5 à la rougeole\nEn outre, une étude menée dans la localité révèle le diagnostic communautaire suivant :\n➤ 20 % des enfants malnutris de 0 à 5 ans n'ont pas leur calendrier vaccinal à jour\n➤ L'eau consommée par cette communauté provient des puits traditionnels non aménagés\n➤ La lèpre sévit dans la région sanitaire de Korhogo de façon endémique",
+       "text": "Quel est le taux de mortalité maternelle de Soulougoutogo en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "896,05 décès maternels pour 100 000 naissances vivantes"
+        },
+        {
+         "letter": "B",
+         "text": "857,63 décès maternels pour 100 000 naissances vivantes"
+        },
+        {
+         "letter": "C",
+         "text": "537,63 décès maternels pour 100 000 naissances vivantes"
+        },
+        {
+         "letter": "D",
+         "text": "514,57 décès maternels pour 100 000 naissances vivantes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 537,63 décès maternels pour 100 000 naissances vivantes",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "TMM = décès maternels (grossesse, accouchement et 42 jours après) / naissances vivantes × 100 000.\nLes 2 décès survenus deux mois après l'accouchement (> 42 jours) sont exclus : 5 – 2 = 3. TMM = (3 / 558) × 100 000 = 537,63 décès maternels pour 100 000 naissances vivantes.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 et Document révisé L2 2023-2024 3.2.9 « Mortalité maternelle »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__12",
+       "num": "13",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 1",
+       "caseData": "Soulougoutogo est un village de la sous-préfecture de Kong. Il compte 16 000 habitants au 31/12/2020 et 16 640 habitants au 1er/01/2022. Une enquête épidémiologique et socio-démographique effectuée dans le village par l'infirmier a donné les informations suivantes :\n➤ Total de cas de morbidités toutes causes confondues : 6 500 cas\n➤ 5 200 cas de paludisme notifiés au cours de l'année dont 1/3 de nouveaux cas\n➤ Naissances dans la localité : 583 dont 25 mort-nés\n➤ Nombre total de décès : 46\n➤ 5 décès maternels dont 02 survenus deux mois après l'accouchement\n➤ 9 décès dans la tranche d'âge de 0 à 7 jours dont 4 liés au tétanos néonatal\n➤ 5 décès dans la tranche d'âge de 8 à 27 jours\n➤ 11 décès dans la tranche d'âge de 1 à 11 mois\n➤ 12 à 48 mois : 16 décès dont 7 liés au paludisme, 4 aux IRA et 5 à la rougeole\nEn outre, une étude menée dans la localité révèle le diagnostic communautaire suivant :\n➤ 20 % des enfants malnutris de 0 à 5 ans n'ont pas leur calendrier vaccinal à jour\n➤ L'eau consommée par cette communauté provient des puits traditionnels non aménagés\n➤ La lèpre sévit dans la région sanitaire de Korhogo de façon endémique",
+       "text": "Quel est le taux d'incidence du paludisme de Soulougoutogo en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "10,01 %"
+        },
+        {
+         "letter": "B",
+         "text": "10,21 %"
+        },
+        {
+         "letter": "C",
+         "text": "10,81 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 10,21 %",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Taux d'incidence = nouveaux cas / population totale ou moyenne × 100.\nNouveaux cas = 5 200 × 1/3 = 1 733,3. TI = (1 733,3 / 16 973) × 100 = 10,21 %.\nSource : Formules santé publique harmonisées – Taux d'incidence (TI)",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__13",
+       "num": "14",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 2",
+       "caseData": "Vous êtes infirmier(ère)/sage-femme/maïeuticien nouvellement affecté pour ouvrir le nouveau centre de santé rural de Nangakaha. L'étude effectuée a donné les résultats suivants :\n➤ Population totale du bassin de desserte : 15 500 habitants dont 4 550 habitants pour Nangakaha\n➤ Le CSR est à 45 km de la Direction Départementale de la Santé et à 150 km de la Direction Régionale de la Santé\n➤ Villages desservis (en dehors de Nangakaha) par le centre : 15 dont 5 à moins de 5 km et 10 à entre 5 et 15 km\n➤ Durant le mois de janvier de votre première année de service vous avez vacciné 15 femmes enceintes en Td1, 10 femmes enceintes en Td2, 92 enfants de 0 à 23 mois dont 46 en Penta1, 19 en Penta2, 10 en Penta3 et 11 en RR1, 06 en RR2 et 18 jeunes filles de 9 ans.\nNB : Au début du mois il n'y avait pas de flacons entamés et il y avait 30 doses de Td, 100 doses de vaccins Penta, 30 doses de vaccin antirougeoleux et 20 doses de vaccins contre le HPV. Et à la fin du mois de janvier aucun antigène n'est resté.",
+       "text": "D'après les résultats de cette étude, quel est le nombre de femmes enceintes attendues du CSR de Nangakaha dans le mois de janvier ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "65"
+        },
+        {
+         "letter": "B",
+         "text": "66"
+        },
+        {
+         "letter": "C",
+         "text": "64"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 65",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Femmes enceintes = 5 % de la population totale (par an). Pour un mois : on divise par 12.\n15 500 × 5 % = 775 par an ; 775 / 12 = 64,6 ≈ 65 femmes enceintes attendues en janvier.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 – Tableau n°1 « Populations cibles du PEV »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__14",
+       "num": "15",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 2",
+       "caseData": "Vous êtes infirmier(ère)/sage-femme/maïeuticien nouvellement affecté pour ouvrir le nouveau centre de santé rural de Nangakaha. L'étude effectuée a donné les résultats suivants :\n➤ Population totale du bassin de desserte : 15 500 habitants dont 4 550 habitants pour Nangakaha\n➤ Le CSR est à 45 km de la Direction Départementale de la Santé et à 150 km de la Direction Régionale de la Santé\n➤ Villages desservis (en dehors de Nangakaha) par le centre : 15 dont 5 à moins de 5 km et 10 à entre 5 et 15 km\n➤ Durant le mois de janvier de votre première année de service vous avez vacciné 15 femmes enceintes en Td1, 10 femmes enceintes en Td2, 92 enfants de 0 à 23 mois dont 46 en Penta1, 19 en Penta2, 10 en Penta3 et 11 en RR1, 06 en RR2 et 18 jeunes filles de 9 ans.\nNB : Au début du mois il n'y avait pas de flacons entamés et il y avait 30 doses de Td, 100 doses de vaccins Penta, 30 doses de vaccin antirougeoleux et 20 doses de vaccins contre le HPV. Et à la fin du mois de janvier aucun antigène n'est resté.",
+       "text": "D'après les résultats de cette étude, quel est le nombre d'enfants de 0 à 23 mois attendus du CSR de Nangakaha dans le mois de janvier ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "88"
+        },
+        {
+         "letter": "B",
+         "text": "89"
+        },
+        {
+         "letter": "C",
+         "text": "90"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 89",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Enfants de 0 à 23 mois = 6,82 % de la population totale (par an), divisé par 12 pour un mois.\n15 500 × 6,82 % = 1 057,1 par an ; 1 057,1 / 12 = 88,09, arrondi à l'unité supérieure (on ne compte pas une fraction d'enfant) = 89.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 – Tableau n°1 « Populations cibles du PEV » (0-23 mois = 6,82 %)",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__15",
+       "num": "16",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 2",
+       "caseData": "Vous êtes infirmier(ère)/sage-femme/maïeuticien nouvellement affecté pour ouvrir le nouveau centre de santé rural de Nangakaha. L'étude effectuée a donné les résultats suivants :\n➤ Population totale du bassin de desserte : 15 500 habitants dont 4 550 habitants pour Nangakaha\n➤ Le CSR est à 45 km de la Direction Départementale de la Santé et à 150 km de la Direction Régionale de la Santé\n➤ Villages desservis (en dehors de Nangakaha) par le centre : 15 dont 5 à moins de 5 km et 10 à entre 5 et 15 km\n➤ Durant le mois de janvier de votre première année de service vous avez vacciné 15 femmes enceintes en Td1, 10 femmes enceintes en Td2, 92 enfants de 0 à 23 mois dont 46 en Penta1, 19 en Penta2, 10 en Penta3 et 11 en RR1, 06 en RR2 et 18 jeunes filles de 9 ans.\nNB : Au début du mois il n'y avait pas de flacons entamés et il y avait 30 doses de Td, 100 doses de vaccins Penta, 30 doses de vaccin antirougeoleux et 20 doses de vaccins contre le HPV. Et à la fin du mois de janvier aucun antigène n'est resté.",
+       "text": "D'après les résultats de cette étude, quel est le nombre de jeunes filles de 9 ans attendues du CSR de Nangakaha dans le mois de janvier ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "25"
+        },
+        {
+         "letter": "B",
+         "text": "26"
+        },
+        {
+         "letter": "C",
+         "text": "22"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 25",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Jeunes filles de 9 ans = 1,86 % de la population totale (par an), divisé par 12 pour un mois.\n15 500 × 1,86 % = 288,3 par an ; 288,3 / 12 = 24,03, arrondi à l'unité supérieure = 25.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 – Tableau n°1 « Populations cibles du PEV » (jeune fille de 9 ans = 1,86 %)",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__16",
+       "num": "17",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 2",
+       "caseData": "Vous êtes infirmier(ère)/sage-femme/maïeuticien nouvellement affecté pour ouvrir le nouveau centre de santé rural de Nangakaha. L'étude effectuée a donné les résultats suivants :\n➤ Population totale du bassin de desserte : 15 500 habitants dont 4 550 habitants pour Nangakaha\n➤ Le CSR est à 45 km de la Direction Départementale de la Santé et à 150 km de la Direction Régionale de la Santé\n➤ Villages desservis (en dehors de Nangakaha) par le centre : 15 dont 5 à moins de 5 km et 10 à entre 5 et 15 km\n➤ Durant le mois de janvier de votre première année de service vous avez vacciné 15 femmes enceintes en Td1, 10 femmes enceintes en Td2, 92 enfants de 0 à 23 mois dont 46 en Penta1, 19 en Penta2, 10 en Penta3 et 11 en RR1, 06 en RR2 et 18 jeunes filles de 9 ans.\nNB : Au début du mois il n'y avait pas de flacons entamés et il y avait 30 doses de Td, 100 doses de vaccins Penta, 30 doses de vaccin antirougeoleux et 20 doses de vaccins contre le HPV. Et à la fin du mois de janvier aucun antigène n'est resté.",
+       "text": "Quel est le taux d'abandon spécifique ? Cochez la bonne réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "77,26 %"
+        },
+        {
+         "letter": "B",
+         "text": "78,26 %"
+        },
+        {
+         "letter": "C",
+         "text": "78,36 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 78,26 %",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Taux d'abandon spécifique Penta = [(Penta 1 – Penta 3) / Penta 1] × 100.\nTAS = [(46 – 10) / 46] × 100 = (36 / 46) × 100 = 78,26 %.\nSource : Formules santé publique harmonisées – Taux d'abandon spécifique Penta",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__17",
+       "num": "18",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 2",
+       "caseData": "Vous êtes infirmier(ère)/sage-femme/maïeuticien nouvellement affecté pour ouvrir le nouveau centre de santé rural de Nangakaha. L'étude effectuée a donné les résultats suivants :\n➤ Population totale du bassin de desserte : 15 500 habitants dont 4 550 habitants pour Nangakaha\n➤ Le CSR est à 45 km de la Direction Départementale de la Santé et à 150 km de la Direction Régionale de la Santé\n➤ Villages desservis (en dehors de Nangakaha) par le centre : 15 dont 5 à moins de 5 km et 10 à entre 5 et 15 km\n➤ Durant le mois de janvier de votre première année de service vous avez vacciné 15 femmes enceintes en Td1, 10 femmes enceintes en Td2, 92 enfants de 0 à 23 mois dont 46 en Penta1, 19 en Penta2, 10 en Penta3 et 11 en RR1, 06 en RR2 et 18 jeunes filles de 9 ans.\nNB : Au début du mois il n'y avait pas de flacons entamés et il y avait 30 doses de Td, 100 doses de vaccins Penta, 30 doses de vaccin antirougeoleux et 20 doses de vaccins contre le HPV. Et à la fin du mois de janvier aucun antigène n'est resté.",
+       "text": "Quel est le taux d'abandon global ? Cochez la bonne réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "76,10 %"
+        },
+        {
+         "letter": "B",
+         "text": "76,09 %"
+        },
+        {
+         "letter": "C",
+         "text": "76,11 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 76,09 %",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Taux d'abandon global = [(Penta 1 – RR) / Penta 1] × 100 (RR 1 = première dose de vaccin contre la rougeole et la rubéole).\nTAG = [(46 – 11) / 46] × 100 = (35 / 46) × 100 = 76,09 %.\nSource : Formules santé publique harmonisées – Taux d'abandon global (TAG)",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__18",
+       "num": "19",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 2",
+       "caseData": "Vous êtes infirmier(ère)/sage-femme/maïeuticien nouvellement affecté pour ouvrir le nouveau centre de santé rural de Nangakaha. L'étude effectuée a donné les résultats suivants :\n➤ Population totale du bassin de desserte : 15 500 habitants dont 4 550 habitants pour Nangakaha\n➤ Le CSR est à 45 km de la Direction Départementale de la Santé et à 150 km de la Direction Régionale de la Santé\n➤ Villages desservis (en dehors de Nangakaha) par le centre : 15 dont 5 à moins de 5 km et 10 à entre 5 et 15 km\n➤ Durant le mois de janvier de votre première année de service vous avez vacciné 15 femmes enceintes en Td1, 10 femmes enceintes en Td2, 92 enfants de 0 à 23 mois dont 46 en Penta1, 19 en Penta2, 10 en Penta3 et 11 en RR1, 06 en RR2 et 18 jeunes filles de 9 ans.\nNB : Au début du mois il n'y avait pas de flacons entamés et il y avait 30 doses de Td, 100 doses de vaccins Penta, 30 doses de vaccin antirougeoleux et 20 doses de vaccins contre le HPV. Et à la fin du mois de janvier aucun antigène n'est resté.",
+       "text": "Quel est le nombre de boîtes de sécurité utilisées ? Cochez la bonne réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "2"
+        },
+        {
+         "letter": "B",
+         "text": "3"
+        },
+        {
+         "letter": "C",
+         "text": "4"
+        },
+        {
+         "letter": "D",
+         "text": "1"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 2",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Boîtes de sécurité = (seringues d'injection + seringues de dilution) / 100 ; une boîte contient en moyenne 100 seringues. Une seringue d'injection par dose administrée.\nDoses administrées : Td 25 + Penta 75 + RR 17 + HPV 18 = 135 seringues d'injection, plus les quelques seringues de dilution du RR (vaccin à reconstituer). Le total dépasse 100 mais reste sous 200 → 2 boîtes.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 3.2.3 « Commande des boîtes de sécurité » ; Formules santé publique harmonisées",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__19",
+       "num": "20",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 2",
+       "caseData": "Vous êtes infirmier(ère)/sage-femme/maïeuticien nouvellement affecté pour ouvrir le nouveau centre de santé rural de Nangakaha. L'étude effectuée a donné les résultats suivants :\n➤ Population totale du bassin de desserte : 15 500 habitants dont 4 550 habitants pour Nangakaha\n➤ Le CSR est à 45 km de la Direction Départementale de la Santé et à 150 km de la Direction Régionale de la Santé\n➤ Villages desservis (en dehors de Nangakaha) par le centre : 15 dont 5 à moins de 5 km et 10 à entre 5 et 15 km\n➤ Durant le mois de janvier de votre première année de service vous avez vacciné 15 femmes enceintes en Td1, 10 femmes enceintes en Td2, 92 enfants de 0 à 23 mois dont 46 en Penta1, 19 en Penta2, 10 en Penta3 et 11 en RR1, 06 en RR2 et 18 jeunes filles de 9 ans.\nNB : Au début du mois il n'y avait pas de flacons entamés et il y avait 30 doses de Td, 100 doses de vaccins Penta, 30 doses de vaccin antirougeoleux et 20 doses de vaccins contre le HPV. Et à la fin du mois de janvier aucun antigène n'est resté.",
+       "text": "Quelle est la fréquence de séances de vaccination devez-vous faire par semaine ? Cochez la bonne réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "2"
+        },
+        {
+         "letter": "B",
+         "text": "3"
+        },
+        {
+         "letter": "C",
+         "text": "4"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 3",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les cours fournis ne donnent pas de règle chiffrée sur le nombre de séances par semaine : la réponse « 3 » est celle retenue par le corrigé du formulaire.\nLe cours recommande d'organiser régulièrement les séances de vaccination et de rapprocher les services des populations (stratégie fixe < 5 km, stratégie avancée de 5 à 15 km) pour réduire les abandons.\n⚠ NB : La réponse cochée ci-dessus est celle qui vient cochée dans la correction de la Nationale.\nSource : Document révisé L2 2023-2024 8.4 et 10.4 ; Cours Santé publique L1-L3 révisé 2025-2026 – Stratégies fixe / avancée",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__20",
+       "num": "21",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 2",
+       "caseData": "Vous êtes infirmier(ère)/sage-femme/maïeuticien nouvellement affecté pour ouvrir le nouveau centre de santé rural de Nangakaha. L'étude effectuée a donné les résultats suivants :\n➤ Population totale du bassin de desserte : 15 500 habitants dont 4 550 habitants pour Nangakaha\n➤ Le CSR est à 45 km de la Direction Départementale de la Santé et à 150 km de la Direction Régionale de la Santé\n➤ Villages desservis (en dehors de Nangakaha) par le centre : 15 dont 5 à moins de 5 km et 10 à entre 5 et 15 km\n➤ Durant le mois de janvier de votre première année de service vous avez vacciné 15 femmes enceintes en Td1, 10 femmes enceintes en Td2, 92 enfants de 0 à 23 mois dont 46 en Penta1, 19 en Penta2, 10 en Penta3 et 11 en RR1, 06 en RR2 et 18 jeunes filles de 9 ans.\nNB : Au début du mois il n'y avait pas de flacons entamés et il y avait 30 doses de Td, 100 doses de vaccins Penta, 30 doses de vaccin antirougeoleux et 20 doses de vaccins contre le HPV. Et à la fin du mois de janvier aucun antigène n'est resté.",
+       "text": "Le taux de perte du vaccin Td. Cochez la bonne réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "16,66 %"
+        },
+        {
+         "letter": "B",
+         "text": "17,24 %"
+        },
+        {
+         "letter": "C",
+         "text": "16,75 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 16,66 %",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Taux de perte = [(doses sorties – doses administrées) / doses sorties] × 100.\nDoses de Td sorties = 30 (aucune restante) ; doses administrées = 15 (Td1) + 10 (Td2) = 25. TP = [(30 – 25) / 30] × 100 = 16,66 %.\nSource : Formules santé publique harmonisées – Taux de perte (TP) ; Document révisé L2 2023-2024 « Formule du calcul du taux de perte »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__21",
+       "num": "22",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 2",
+       "caseData": "Vous êtes infirmier(ère)/sage-femme/maïeuticien nouvellement affecté pour ouvrir le nouveau centre de santé rural de Nangakaha. L'étude effectuée a donné les résultats suivants :\n➤ Population totale du bassin de desserte : 15 500 habitants dont 4 550 habitants pour Nangakaha\n➤ Le CSR est à 45 km de la Direction Départementale de la Santé et à 150 km de la Direction Régionale de la Santé\n➤ Villages desservis (en dehors de Nangakaha) par le centre : 15 dont 5 à moins de 5 km et 10 à entre 5 et 15 km\n➤ Durant le mois de janvier de votre première année de service vous avez vacciné 15 femmes enceintes en Td1, 10 femmes enceintes en Td2, 92 enfants de 0 à 23 mois dont 46 en Penta1, 19 en Penta2, 10 en Penta3 et 11 en RR1, 06 en RR2 et 18 jeunes filles de 9 ans.\nNB : Au début du mois il n'y avait pas de flacons entamés et il y avait 30 doses de Td, 100 doses de vaccins Penta, 30 doses de vaccin antirougeoleux et 20 doses de vaccins contre le HPV. Et à la fin du mois de janvier aucun antigène n'est resté.",
+       "text": "Le besoin théorique en vaccin Td. Cochez la bonne réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "12 doses"
+        },
+        {
+         "letter": "B",
+         "text": "18 doses"
+        },
+        {
+         "letter": "C",
+         "text": "138 doses"
+        },
+        {
+         "letter": "D",
+         "text": "206 doses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 138 doses",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Besoin théorique mensuel = (Pop. cible × objectif vaccinal × nombre de contacts × facteur de perte × période) / 12. Td : objectif 95 %, facteur de perte 1,11.\nAvec 2 contacts (Td1 et Td2 de la grossesse, comme dans l'étude) : 65 femmes/mois × 95 % × 2 × 1,11 = 137,1 ≈ 138 doses.\nAttention : le tableau du cours indique 3 contacts pour le Td, ce qui donnerait environ 206 doses (option D). Le corrigé a retenu 2 contacts.\n⚠ NB : La réponse cochée ci-dessus est celle qui vient cochée dans la correction de la Nationale.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 3.1.1.2 « Besoin théorique mensuel » ; tableaux des objectifs, contacts et facteurs de perte",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__22",
+       "num": "23",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": null,
+       "caseTitle": "Étude de cas 2",
+       "caseData": "Vous êtes infirmier(ère)/sage-femme/maïeuticien nouvellement affecté pour ouvrir le nouveau centre de santé rural de Nangakaha. L'étude effectuée a donné les résultats suivants :\n➤ Population totale du bassin de desserte : 15 500 habitants dont 4 550 habitants pour Nangakaha\n➤ Le CSR est à 45 km de la Direction Départementale de la Santé et à 150 km de la Direction Régionale de la Santé\n➤ Villages desservis (en dehors de Nangakaha) par le centre : 15 dont 5 à moins de 5 km et 10 à entre 5 et 15 km\n➤ Durant le mois de janvier de votre première année de service vous avez vacciné 15 femmes enceintes en Td1, 10 femmes enceintes en Td2, 92 enfants de 0 à 23 mois dont 46 en Penta1, 19 en Penta2, 10 en Penta3 et 11 en RR1, 06 en RR2 et 18 jeunes filles de 9 ans.\nNB : Au début du mois il n'y avait pas de flacons entamés et il y avait 30 doses de Td, 100 doses de vaccins Penta, 30 doses de vaccin antirougeoleux et 20 doses de vaccins contre le HPV. Et à la fin du mois de janvier aucun antigène n'est resté.",
+       "text": "Le besoin réel en vaccin Td. Cochez la bonne réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "255 doses"
+        },
+        {
+         "letter": "B",
+         "text": "173 doses"
+        },
+        {
+         "letter": "C",
+         "text": "257 doses"
+        },
+        {
+         "letter": "D",
+         "text": "178 doses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 173 doses",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Besoin réel = besoin théorique + stock de sécurité ; pour les vaccins, le stock de sécurité = 25 % du besoin théorique.\nBR = 138 + (138 × 25 %) = 138 + 34,5 = 172,5 ≈ 173 doses.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 3.1.2 et 3.1.3 « Stock de sécurité » et « Besoin réel »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__23",
+       "num": "24",
+       "type": "QCD",
+       "typeLabel": "QCD (Vrai/Faux)",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le site de vaccination est un lieu choisi pour installer l'équipe de vaccination.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le « poste de vaccination » est le lieu choisi pour installer l'équipe de vaccination. Le « site de vaccination », lui, est un espace géographique bien délimité, avec une population déterminée, couvert par une équipe de vaccination. L'affirmation confond les deux → Faux.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 et Cours L3 (DOC-20260911) 1.5.2 « Aménagement d'un poste en stratégie avancée »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__24",
+       "num": "25",
+       "type": "QCD",
+       "typeLabel": "QCD (Vrai/Faux)",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Promouvoir l'amélioration continue de la performance du personnel de santé est un but de la supervision.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le premier but de la supervision cité dans le cours est justement de « promouvoir l'amélioration continue de la performance du personnel de santé » → Vrai.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 et Cours L3 (DOC-20260911) – Supervision, II « Buts de la supervision »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__25",
+       "num": "26",
+       "type": "QCD",
+       "typeLabel": "QCD (Vrai/Faux)",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le style démocratique s'applique à toutes les situations, les situations moins urgentes, les situations d'urgence et de blocage.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le style démocratique s'applique à toutes les situations, excepté les situations d'urgence et de blocage (ces dernières relèvent du style autocratique) → Faux.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 et Cours L3 (DOC-20260911) – Supervision, 4.2.3 « Circonstances d'application »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__26",
+       "num": "27",
+       "type": "QCD",
+       "typeLabel": "QCD (Vrai/Faux)",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les membres du COGES sont désignés pour une durée de deux ans renouvelable.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le décret n° 93-218 du 3 février 1993 (article 3) prévoit que les membres du COGES sont désignés pour une durée de trois ans renouvelable, et non deux → Faux.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 et Cours L3 (DOC-20260911) – COGES, IV « Durée du mandat »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__27",
+       "num": "28",
+       "type": "QCD",
+       "typeLabel": "QCD (Vrai/Faux)",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les piliers d'un système de santé sont au nombre de cinq (5).",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours décrit six (6) piliers du système de santé : prestation de services, personnels de santé, information sanitaire, produits médicaux et technologies essentiels, financement de la santé, leadership et gouvernance → Faux.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 – Système national de santé, IV « Piliers d'un système de santé (6 piliers) »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__28",
+       "num": "29",
+       "type": "QCD",
+       "typeLabel": "QCD (Vrai/Faux)",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La lutte contre les insectes, les rongeurs et autres animaux nuisibles est un critère de salubrité de l'habitat relatif aux besoins psychologiques.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La lutte contre les insectes, les rongeurs et autres animaux nuisibles fait partie des critères relatifs à la protection contre la contagion, et non aux besoins psychologiques (intimité, confort, hygiène du logement, esthétique) → Faux.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 – Hygiène du milieu, 2.3 « Critères relatifs à la protection contre la contagion »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__29",
+       "num": "30",
+       "type": "QCD",
+       "typeLabel": "QCD (Vrai/Faux)",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le début effectif de la mise en œuvre des activités des soins de santé en Côte d'Ivoire a eu lieu en 1991 au district sanitaire de Bouaflé.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "En 1991, c'est le lancement officiel des SSP en Côte d'Ivoire. Le début effectif des activités a eu lieu en 1993, dans le district (secteur) sanitaire de Bouaflé, choisi comme pilote → Faux.\nSource : Cours de santé publique (5) et Cours Santé publique L1-L3 révisé 2025-2026 1.3.2–1.3.3",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__30",
+       "num": "31",
+       "type": "QCD",
+       "typeLabel": "QCD (Vrai/Faux)",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'ONG de santé est le responsable de l'action de mobilisation sociale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans le tableau des concepts de communication, la mobilisation sociale a pour responsables l'agent de santé, la communauté et la société. Les ONG sont des acteurs (partenaires de mise en œuvre), mais pas « le » responsable → Faux.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 – Communication, IV « Différence entre les concepts » ; Document révisé L2 2023-2024 – Mobilisation sociale, V « Acteurs »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__31",
+       "num": "32",
+       "type": "QCD",
+       "typeLabel": "QCD (Vrai/Faux)",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Faire la vaccination en stratégie avancée est une solution pour réduire les populations hors de portée.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les populations « hors de portée » ont accès aux services mais ne les utilisent pas pour des raisons informationnelles, culturelles, sociales ou financières. Elles se gagnent par la communication et la sensibilisation.\nLa stratégie avancée sert surtout les populations « hors d'accès », qui vivent loin des centres (de 5 à 15 km) → Faux.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 et Document révisé L2 2023-2024 – Gestion des vaccins, 1.2 et 1.3 « Populations hors de portée / hors d'accès »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les expressions suivantes, indiquez celles qui sont justes",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Retirer les accumulateurs congelés du compartiment du réfrigérateur au moins 30 minutes avant le début de la séance"
+        },
+        {
+         "letter": "B",
+         "text": "Laisser les accumulateurs à la température ambiante jusqu'à ce que la glace commence à fondre et que de l'eau commence à se former à l'intérieur"
+        },
+        {
+         "letter": "C",
+         "text": "Vérifier si l'accumulateur contient de l'eau en le secouant et en écoutant le bruit de clapotis."
+        },
+        {
+         "letter": "D",
+         "text": "Retirer les accumulateurs congelés du compartiment congélateur au plus 30 minutes avant le début de la séance."
+        },
+        {
+         "letter": "E",
+         "text": "Laisser les accumulateurs à une forte température ambiante jusqu'à ce que la glace commence à fondre et que de l'eau commence à se former à l'intérieur"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Laisser les accumulateurs à la température ambiante jusqu'à ce que la glace commence à fondre et que de l'eau commence à se former à l'intérieur ; C. Vérifier si l'accumulateur contient de l'eau en le secouant et en écoutant le bruit de clapotis.",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Conditionnement des accumulateurs, au moins 30 minutes avant la séance : retirer les accumulateurs du compartiment congélateur au moins 30 min avant la séance, les laisser à température ambiante jusqu'à ce que la glace commence à fondre, puis vérifier le bruit de clapotis.\nA est faux (« réfrigérateur » au lieu de congélateur), D est faux (« au plus » au lieu de « au moins ») et E est faux (« forte » température ambiante).\nSource : Cours Santé publique L1-L3 révisé 2025-2026 et Cours L3 (DOC-20260911) – Organisation d'une séance de vaccination, 1.1",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les éléments suivants, identifiez ceux qui constituent des buts de la supervision",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La vérification de la ponctualité du personnel de santé au service"
+        },
+        {
+         "letter": "B",
+         "text": "La promotion de l'amélioration continue de la performance du personnel de santé"
+        },
+        {
+         "letter": "C",
+         "text": "L'assiduité du personnel de santé au service"
+        },
+        {
+         "letter": "D",
+         "text": "Promouvoir un esprit de stimulation de l'agent de santé"
+        },
+        {
+         "letter": "E",
+         "text": "Vérification de la possibilité de l'atteinte des objectifs définis par un programme."
+        },
+        {
+         "letter": "F",
+         "text": "Vérification de la compétence du personnel de santé."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. La promotion de l'amélioration continue de la performance du personnel de santé ; D. Promouvoir un esprit de stimulation de l'agent de santé ; E. Vérification de la possibilité de l'atteinte des objectifs définis par un programme.",
+       "answerLetters": [
+        "B",
+        "D",
+        "E"
+       ],
+       "explanation": "Buts de la supervision : promouvoir l'amélioration continue de la performance du personnel de santé, promouvoir un esprit de stimulation, et vérifier si l'objectif défini par un programme peut être atteint.\nPonctualité, assiduité et vérification de la compétence relèvent plutôt du contrôle ou de l'inspection.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 et Cours L3 (DOC-20260911) – Supervision, II « Buts de la supervision »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans le style démocratique de la supervision, le superviseur",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Fait participer ses collaborateurs à la planification des activités et des projets"
+        },
+        {
+         "letter": "B",
+         "text": "Aide à prendre des décisions"
+        },
+        {
+         "letter": "C",
+         "text": "Fait confiance à ses collaborateurs"
+        },
+        {
+         "letter": "D",
+         "text": "Reconnaît et encourage certaines initiatives prises par le supervisé"
+        },
+        {
+         "letter": "E",
+         "text": "Cherche à tout savoir"
+        },
+        {
+         "letter": "F",
+         "text": "Surveille de près l'exécution des tâches"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Fait participer ses collaborateurs à la planification des activités et des projets ; B. Aide à prendre des décisions ; D. Reconnaît et encourage certaines initiatives prises par le supervisé",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "Style démocratique : le superviseur fait participer ses collaborateurs à la planification, les aide à prendre des décisions, reconnaît et encourage certaines initiatives.\n« Fait confiance » (C) caractérise le style laisser-faire. « Cherche à tout savoir » (E) et « surveille de près » (F) caractérisent le style autocratique.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 et Cours L3 (DOC-20260911) – Supervision, IV « Styles de supervision »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les outils de gestion suivants, indiquez trois utilisés par le responsable de la gestion administrative et technique",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les registres du système d'informations et de gestion"
+        },
+        {
+         "letter": "B",
+         "text": "Le cahier de versement journalier du centre"
+        },
+        {
+         "letter": "C",
+         "text": "Les reçus des sommes confiées au président du COGES."
+        },
+        {
+         "letter": "D",
+         "text": "Le plan des bâtiments du centre de santé"
+        },
+        {
+         "letter": "E",
+         "text": "Le cahier des comptes rendus des différentes réunions du COGES."
+        },
+        {
+         "letter": "F",
+         "text": "L'inventaire de tous les produits."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Les registres du système d'informations et de gestion ; B. Le cahier de versement journalier du centre ; E. Le cahier des comptes rendus des différentes réunions du COGES.",
+       "answerLetters": [
+        "A",
+        "B",
+        "E"
+       ],
+       "explanation": "Outils du responsable de la gestion administrative et technique : registres du système d'information et de gestion, cahier de versement journalier des recettes, reçus des sommes confiées au responsable de la gestion financière, plan d'action du centre, cahier des comptes rendus des réunions du COGES.\nC est faux : les sommes sont confiées au responsable de la gestion financière, pas au président.\nSource : Cours L3 (DOC-20260911) et Cours Santé publique L1-L3 révisé 2025-2026 – COGES, VII « Outils de gestion »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En dehors du centre, indiquez deux rôles du comité de gestion",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Faire connaître aux populations les activités menées au centre de santé"
+        },
+        {
+         "letter": "B",
+         "text": "Faire le contrôle de présence du personnel de santé et de soutien"
+        },
+        {
+         "letter": "C",
+         "text": "Rendre disponibles des médicaments essentiels et des vaccins"
+        },
+        {
+         "letter": "D",
+         "text": "Encourager les changements de comportements observés au niveau des différents acteurs et utilisateurs"
+        },
+        {
+         "letter": "E",
+         "text": "Confier les reçus des sommes au responsable de la gestion financière"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Faire connaître aux populations les activités menées au centre de santé ; D. Encourager les changements de comportements observés au niveau des différents acteurs et utilisateurs",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "En dehors du centre, le COGES doit faire connaître aux populations les activités du centre, promouvoir la participation financière, promouvoir l'acceptabilité des services et encourager les changements de comportements.\nB et C sont des rôles dans le centre (présence du personnel, disponibilité des médicaments).\nSource : Cours L3 (DOC-20260911) et Cours Santé publique L1-L3 révisé 2025-2026 – COGES, 6.1 et 6.2 « Rôles du comité de gestion »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le concept de santé publique a été défini par WILSON en",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1920"
+        },
+        {
+         "letter": "B",
+         "text": "1945"
+        },
+        {
+         "letter": "C",
+         "text": "1946"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 1920",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La première définition de la santé publique date de 1920. Dans les cours, elle est attribuée à Winslow (« Wilson » dans l'énoncé). 1946 est la définition de la santé par l'OMS.\n⚠ NB : La réponse cochée ci-dessus est celle qui vient cochée dans la correction de la Nationale.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 – Concept de santé publique, I ; Cours de santé publique (5) 3.3",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les éléments suivants, indiquez ceux qui ne constituent pas des niveaux de perception des besoins de santé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le niveau des besoins non satisfaits"
+        },
+        {
+         "letter": "B",
+         "text": "Le niveau des besoins latents"
+        },
+        {
+         "letter": "C",
+         "text": "Le niveau des besoins ressentis"
+        },
+        {
+         "letter": "D",
+         "text": "Le niveau des besoins satisfaits"
+        },
+        {
+         "letter": "E",
+         "text": "Le niveau des besoins fondamentaux"
+        },
+        {
+         "letter": "F",
+         "text": "Le niveau des besoins exprimés"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Le niveau des besoins non satisfaits ; D. Le niveau des besoins satisfaits ; E. Le niveau des besoins fondamentaux",
+       "answerLetters": [
+        "A",
+        "D",
+        "E"
+       ],
+       "explanation": "Il existe trois niveaux de perception des besoins de santé : les besoins latents, les besoins ressentis et les besoins exprimés (demande).\nLes besoins « non satisfaits », « satisfaits » et « fondamentaux » ne sont donc pas des niveaux de perception.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 VIII et Cours de santé publique (5) VII « Niveaux de perception des besoins de santé »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les facteurs suivants favorisant la santé, indiquez ceux qui sont socio-économiques",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Absence de troubles psychiques"
+        },
+        {
+         "letter": "B",
+         "text": "Absence de troubles métaboliques"
+        },
+        {
+         "letter": "C",
+         "text": "L'existence d'un habitat salubre"
+        },
+        {
+         "letter": "D",
+         "text": "Environnement affectif satisfaisant"
+        },
+        {
+         "letter": "E",
+         "text": "L'existence d'eau courante"
+        },
+        {
+         "letter": "F",
+         "text": "L'absence de promiscuité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. L'existence d'un habitat salubre ; E. L'existence d'eau courante ; F. L'absence de promiscuité",
+       "answerLetters": [
+        "C",
+        "E",
+        "F"
+       ],
+       "explanation": "Le cours classe parmi les facteurs de l'environnement physique ou socio-économique favorisant la santé : l'existence d'un habitat salubre, l'existence d'eau courante, l'absence de promiscuité et de pollution.\nA et D sont des facteurs psychologiques, B un facteur physiologique (facteurs biologiques).\nSource : Cours de santé publique (5) 3.1.4 ; Cours Santé publique L1-L3 révisé 2025-2026 – Étude du milieu, 2.1",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__40",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les actions suivantes, une seule permet d'améliorer la saveur et l'odeur de l'eau. Laquelle ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'ébullition"
+        },
+        {
+         "letter": "B",
+         "text": "Usage du charbon de bois"
+        },
+        {
+         "letter": "C",
+         "text": "La filtration"
+        },
+        {
+         "letter": "D",
+         "text": "La sédimentation"
+        },
+        {
+         "letter": "E",
+         "text": "L'ionisation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Usage du charbon de bois",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La saveur et l'odeur de l'eau peuvent être améliorées en utilisant du charbon activé en poudre (vendu en pharmacie) ou du charbon de bois au village.\nL'ébullition et l'ionisation corrigent les défauts bactériologiques ; la filtration et la sédimentation corrigent la turbidité.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 10.1 et Cours de santé publique (5) 1.6.1 « Correction des défauts physiques de l'eau »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__41",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le contenu de l'initiative de Bamako préconise entre autres",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Un accès prioritaire des femmes et des enfants aux soins de santé"
+        },
+        {
+         "letter": "B",
+         "text": "Une autonomie de gestion au niveau local à travers les comités de gestion"
+        },
+        {
+         "letter": "C",
+         "text": "Une interdiction des médicaments génériques dans les structures de santé"
+        },
+        {
+         "letter": "D",
+         "text": "Une définition des niveaux d'application des soins de santé primaires"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Une autonomie de gestion au niveau local à travers les comités de gestion",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'initiative de Bamako (1987) a adopté un système de recouvrement des coûts avec décentralisation et autonomie de gestion au niveau local à travers les comités de gestion (COGES).\nElle encourage les médicaments génériques (C est faux). Les niveaux d'application des SSP ont été définis à Lusaka en 1985 (D).\nSource : Cours Santé publique L1-L3 révisé 2025-2026 1.2.2 « Initiative de Bamako » ; Cours de santé publique (5)",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__42",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les éléments suivants, indiquez ceux qui relèvent de l'approche clinique de résolution des problèmes de santé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Analyse de l'impact des interventions"
+        },
+        {
+         "letter": "B",
+         "text": "Recherche des causes d'apparition de la maladie chez le sujet"
+        },
+        {
+         "letter": "C",
+         "text": "A pour diagnostic l'identification d'un phénomène de groupe important"
+        },
+        {
+         "letter": "D",
+         "text": "A pour sujet d'intérêt, le malade"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Recherche des causes d'apparition de la maladie chez le sujet",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans l'approche clinique, la recherche étiologique porte sur les causes d'apparition de la maladie chez le sujet.\n« Analyse de l'impact des interventions » et « identification d'un phénomène de groupe » relèvent de l'approche épidémiologique. Remarque : selon le même tableau du cours, le sujet d'intérêt de l'approche clinique est bien le malade. L'option D devrait donc aussi être juste, mais le corrigé du formulaire ne retient que B.\n⚠ NB : La réponse cochée ci-dessus est celle qui vient cochée dans la correction de la Nationale.\nSource : Cours Santé publique L1-L3 révisé 2025-2026 et Cours de santé publique (5) – « Approche épidémiologique et approche clinique »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-2026-11-14__43",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les éléments suivants, identifiez ceux qui sont des intrants",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le personnel soignant"
+        },
+        {
+         "letter": "B",
+         "text": "Le nombre de séances de vaccination organisées"
+        },
+        {
+         "letter": "C",
+         "text": "Le nombre de kits d'IST distribués"
+        },
+        {
+         "letter": "D",
+         "text": "Le budget de réalisation du projet / programme"
+        },
+        {
+         "letter": "E",
+         "text": "Le nombre de femmes utilisant les méthodes contraceptives"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Le personnel soignant ; D. Le budget de réalisation du projet / programme",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "Les intrants sont les ressources humaines, financières, techniques, matérielles et informationnelles à apporter pour réaliser les activités (ex. : budget alloué, personnel).\nLe nombre de séances organisées et de kits distribués sont des indicateurs de processus ; le nombre de femmes utilisant la contraception est un indicateur de résultat.\nSource : Cours L3 (DOC-20260911) et Cours Santé publique L1-L3 révisé 2025-2026 – Indicateurs, V « Différents types d'indicateurs »",
+       "sourceDoc": "Prépa D.E 2026 — Santé publique du 14 novembre 2026 (corrigé)",
+       "sourceFile": "Sante_Publique_PrepaDE_14nov2026_Corrige_1.docx",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

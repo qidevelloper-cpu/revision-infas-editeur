@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 124046579,
- "sha256": "6de474802dd7ba6519b11b7770a8332bbb433db41c9150a843c18892b1222951",
+ "taille": 124207396,
+ "sha256": "ffdbb7336ad003a29f8bebc9a46c22bd87b1381496f9c6821c9e4eced0ee9fbe",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -18,8 +18,8 @@
   {
    "type": "bloc",
    "id": "app-css",
-   "octets": 70047,
-   "sha256": "205ea7dcce648053400c5785cb274134abb8e74ee8ed25d09c99278152da3a10",
+   "octets": 70346,
+   "sha256": "5b87110ab7b971ae1da1485d15dfe9be1f33c81f82004b160482942ad1eaae59",
    "fichier": "styles/app-css.css",
    "codage": "brut"
   },
@@ -70,8 +70,8 @@
   {
    "type": "bloc",
    "id": "app-js",
-   "octets": 801624,
-   "sha256": "17d3fd149eafd7e9d5880d51b0080849082f874afbd848ed44f73ec30da500b6",
+   "octets": 813459,
+   "sha256": "9a7d2ab5b4b517a5564044d3e7a083f9e63d17b698fe477668ecf40cee4e72d3",
    "fichier": "engine/app-js.js",
    "codage": "brut"
   },
@@ -16606,8 +16606,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusapp",
-   "octets": 4820,
-   "sha256": "4977889fed0bab5d5c82c5f410a5c67e05e91d7723dc8f47256a5bd66889a4de",
+   "octets": 5149,
+   "sha256": "9ab3a267007281b99dec134fad0357e1633d64c75f83b1e41322fbfa1f6c9488",
    "fichier": "plus-applis/index.json",
    "codage": "brut"
   },
@@ -16619,8 +16619,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusnat-xmvkq4zed",
-   "octets": 2139475,
-   "sha256": "2924994cd36e4bd032b396caea51a8a6622cf7e44d7249ce78f6c648c27bcef2",
+   "octets": 2194620,
+   "sha256": "8c74066c61bb3d85bd5e3c92a08196052325eb81648b97986b3c989d99cfa158",
    "fichier": "plus-applis/xmvkq4zed-natif.json",
    "codage": "brut"
   },
@@ -16687,6 +16687,19 @@
    "octets": 11467,
    "sha256": "cf51bcc3924eae279d4f990fc9e75c6bd7c77ffd2043df0bdf93f71cb8075c0a",
    "fichier": "plus-applis/xmvkq4zed/u-s3-2026-korhogo-gyneco-b.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--v-sj-prepa-2026-11-14-sp\">",
+   "sha256": "888434bd822ba0b5693ff963ec3fef8c0fbe52a70eddb8592441a00d8ed39511"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--v-sj-prepa-2026-11-14-sp",
+   "octets": 93124,
+   "sha256": "2d72a2cc0fa2224b6f077985234f44043d8f024ca2ac3468be6d9c3340d7b563",
+   "fichier": "plus-applis/xmvkq4zed/v-sj-prepa-2026-11-14-sp.json",
    "codage": "brut"
   },
   {
