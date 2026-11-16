@@ -4042,4 +4042,25 @@ function riXtxt(s){return String(s==null?'':s).replace(/\[\/?(?:b|i|u|g|tg|p)\]/
    const b=document.createElement('span');b.className='ri-sujoff-b';b.textContent=Tx('suj.offb','🛠️ En correction');el.appendChild(b)})}
  const _r=render;render=function(){const x=_r.apply(this,arguments);try{marquer()}catch(e){}return x};
 })();
+/* ---------- TÉLÉCHARGER ET PARTAGER L'APPLICATION (bas de l'accueil, juste avant « Rejoins la communauté ») ----------
+   « Télécharger » : Android/ordinateur avec Chrome → fenêtre d'installation du navigateur ; iPhone → mode d'emploi Safari
+   (« Sur l'écran d'accueil ») ; sinon → mode d'emploi. « Partager » : message WhatsApp avec le lien de l'appli. */
+(function(){
+ const lienApp=()=>location.origin+location.pathname.replace(/index\.html$/,'');
+ function guide(){if($('#instAsk'))$('#instAsk').remove();const and=/android/i.test(navigator.userAgent);const d=document.createElement('div');d.id='instAsk';d.className='nfask instask';
+  d.innerHTML=`<div class="nfab"><img src="icons/icon-192.png" alt="" class="instic" onerror="this.style.display='none'"><div><b>${esc(Tx('tl.gt','📲 Installer Révision INFAS'))}</b></div></div><div class="insios">${and
+   ?esc(Tx('tl.and','Dans Chrome : touche les trois points ⋮ en haut à droite, puis « Installer l’application » ou « Ajouter à l’écran d’accueil ». Si ce choix n’apparaît pas, l’application est déjà installée : cherche l’icône Révision INFAS sur ton écran d’accueil.'))
+   :esc(Tx('tl.pc','Sur ordinateur : dans Chrome ou Edge, clique sur l’icône d’installation à droite de la barre d’adresse. Sur téléphone : ouvre ce lien dans Chrome (Android) ou Safari (iPhone), puis touche « Télécharger l’application ».'))}</div><div class="nfab2"><button class="btn light" id="inN" style="width:100%">${esc(Tx('in.okios','J’ai compris'))}</button></div>`;
+  document.body.appendChild(d);$('#inN',d).onclick=()=>d.remove()}
+ window.riTelecharger=function(){if(isStandalone())return toast(Tx('tl.deja','✅ L’application est déjà installée : tu l’utilises en ce moment'),3500);
+  if(BIP)return instDo();if(isIOS()){if($('#instAsk'))$('#instAsk').remove();return instAsk(true)}guide()};
+ window.riPartagerApp=function(){const t=Tx('tl.msg','📚 Révision INFAS : cours, quiz, flashcards et sujets corrigés du D.E pour les étudiants infirmiers et sages-femmes. L’application est gratuite, installe-la ici 👉');
+  window.open('https://wa.me/?text='+encodeURIComponent(t+' '+lienApp()),'_blank','noopener')};
+ window.riTelechHTML=function(ou){const H=Tx('tl.h','📲 TÉLÉCHARGE L’APPLICATION');const inst=isStandalone();
+  const b=(e,n,s,col,fn)=>`<button class="cmb" style="--cc:${col};width:100%;text-align:left;font:inherit;cursor:pointer" onclick="${fn}()"><span class="ce">${e}</span><span class="ct"><b>${esc(n)}</b><small>${esc(s)}</small></span><span class="go">›</span></button>`;
+  const btns=(inst?'':b('📲',Tx('tl.b1','Télécharger l’application'),isIOS()?Tx('tl.s1i','Sur ton iPhone : on te montre comment faire'):Tx('tl.s1','Gratuite, sur ton écran d’accueil, même sans internet'),'#6C3BF5','riTelecharger'))
+   +b('📤',Tx('tl.b2','Partager l’application'),Tx('tl.s2','Envoie-la à tes amis sur WhatsApp'),'#25D366','riPartagerApp');
+  return ou?`<div class="ou-card cmcard rital">${ouHead(H)}${btns}</div>`:`<div class="card sf cmcard cmbig rital"><h3>${H}</h3>${btns}</div>`};
+ const C=BLK['home.commu'];if(C){const h=C.html,o=C.oneui;C.html=function(){return riTelechHTML(0)+h.apply(this,arguments)};if(o)C.oneui=function(){return riTelechHTML(1)+o.apply(this,arguments)}}
+})();
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
