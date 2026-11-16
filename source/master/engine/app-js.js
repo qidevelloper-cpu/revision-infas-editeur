@@ -4058,9 +4058,19 @@ function riXtxt(s){return String(s==null?'':s).replace(/\[\/?(?:b|i|u|g|tg|p)\]/
   window.open('https://wa.me/?text='+encodeURIComponent(t+' '+lienApp()),'_blank','noopener')};
  window.riTelechHTML=function(ou){const H=Tx('tl.h','📲 TÉLÉCHARGE L’APPLICATION');const inst=isStandalone();
   const b=(e,n,s,col,fn)=>`<button class="cmb" style="--cc:${col};width:100%;text-align:left;font:inherit;cursor:pointer" onclick="${fn}()"><span class="ce">${e}</span><span class="ct"><b>${esc(n)}</b><small>${esc(s)}</small></span><span class="go">›</span></button>`;
-  const btns=(inst?'':b('📲',Tx('tl.b1','Télécharger l’application'),isIOS()?Tx('tl.s1i','Sur ton iPhone : on te montre comment faire'):Tx('tl.s1','Gratuite, sur ton écran d’accueil, même sans internet'),'#6C3BF5','riTelecharger'))
+  const btns=(inst?b('✅',Tx('tl.b1d','Application déjà installée'),Tx('tl.s1d','Tu l’utilises en ce moment sur ce téléphone'),'#16A34A','riTelecharger'):b('📲',Tx('tl.b1','Télécharger l’application'),isIOS()?Tx('tl.s1i','Sur ton iPhone : on te montre comment faire'):Tx('tl.s1','Gratuite, sur ton écran d’accueil, même sans internet'),'#6C3BF5','riTelecharger'))
    +b('📤',Tx('tl.b2','Partager l’application'),Tx('tl.s2','Envoie-la à tes amis sur WhatsApp'),'#25D366','riPartagerApp');
   return ou?`<div class="ou-card cmcard rital">${ouHead(H)}${btns}</div>`:`<div class="card sf cmcard cmbig rital"><h3>${H}</h3>${btns}</div>`};
+/* raccourci en haut de l'accueil, juste sous « Contacter l'administrateur » : descend jusqu'à la carte « Télécharge l'application » */
+ window.riVersTelech=function(){const c=document.querySelector('.rital');if(!c)return;c.scrollIntoView({behavior:'smooth',block:'center'});
+  c.classList.remove('ri-flash');void c.offsetWidth;c.classList.add('ri-flash')};
+ const raccourci=()=>{const inst=isStandalone();return `<button class="card sf ri-telraccourci" onclick="riVersTelech()"><span class="ce">${inst?'📤':'📲'}</span><span class="ct"><b>${esc(inst?Tx('tl.r2','Tu veux partager l’appli à tes amis ?'):Tx('tl.r1','Tu veux télécharger l’appli ou la partager ?'))}</b><small>${esc(Tx('tl.r3','Touche ici'))}</small></span><span class="go">›</span></button>`};
+ const K=BLK['home.contact'];if(K){const h=K.html;K.html=function(){return h.apply(this,arguments)+raccourci()}}
+ if(!document.getElementById('ri-telcss')){const st=document.createElement('style');st.id='ri-telcss';st.textContent=`.ri-telraccourci{display:flex;align-items:center;gap:12px;width:100%;text-align:left;font:inherit;color:inherit;cursor:pointer;border:2px solid #6C3BF5;background:linear-gradient(135deg,#f3efff,#fff)}
+ .ri-telraccourci .ce{font-size:26px;width:46px;height:46px;border-radius:50%;background:#6C3BF5;display:grid;place-items:center;flex:none}
+ .ri-telraccourci .ct{flex:1;display:flex;flex-direction:column}.ri-telraccourci .ct small{color:var(--muted,#6b7280);font-weight:600}.ri-telraccourci .go{font-size:22px;color:#6C3BF5;font-weight:800}
+ @keyframes riFlash{0%,100%{box-shadow:0 0 0 0 rgba(108,59,245,0)}30%{box-shadow:0 0 0 8px rgba(108,59,245,.45)}60%{box-shadow:0 0 0 3px rgba(108,59,245,.25)}}
+ .ri-flash{animation:riFlash 1.6s ease 2}`;document.head.appendChild(st)}
  const C=BLK['home.commu'];if(C){const h=C.html,o=C.oneui;C.html=function(){return riTelechHTML(0)+h.apply(this,arguments)};if(o)C.oneui=function(){return riTelechHTML(1)+o.apply(this,arguments)}}
 })();
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
