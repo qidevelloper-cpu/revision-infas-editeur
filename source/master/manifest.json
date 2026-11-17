@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 124342416,
- "sha256": "e76e38e547da3290b867fb948fcfb39b7155cdeffa6b9456b9e610a449806e0d",
+ "taille": 124459231,
+ "sha256": "aaebf1a6102dc24c686c090ffff6123ef34119bd64e113e7045cd2583740bb1a",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -16606,8 +16606,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusapp",
-   "octets": 5440,
-   "sha256": "b557824c37e74a3cc566de3432de9284fd60f727f027b6d3f8258c8a69a4d70e",
+   "octets": 5755,
+   "sha256": "350e9f1f5d40f4685d7f9da3565fd7978868a3212045c680141798f04a85ce9a",
    "fichier": "plus-applis/index.json",
    "codage": "brut"
   },
@@ -16619,8 +16619,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusnat-xmvkq4zed",
-   "octets": 2236533,
-   "sha256": "fe3f50119869550267c233f5134b5f6c914c11e73bad05af7778edd057e383f0",
+   "octets": 2271986,
+   "sha256": "38308d57f0255de73eaf3ee5184abcb9346a7f33b166988b876d8b40db939d9d",
    "fichier": "plus-applis/xmvkq4zed-natif.json",
    "codage": "brut"
   },
@@ -16713,6 +16713,19 @@
    "octets": 86606,
    "sha256": "bf5a31c0f956640038e4cdaac4a2dc6cd71c788171aea6ea640f88da19d0bca4",
    "fichier": "plus-applis/xmvkq4zed/w-sj-prepa-med-j2-ide3.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--x-sj-prepa-gyneco-j2-sf3\">",
+   "sha256": "30e727bb9d208d70a73690b4c74e2ee79c0a24ceb15dc58b9dd50a2f92278b27"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--x-sj-prepa-gyneco-j2-sf3",
+   "octets": 80962,
+   "sha256": "6c550ac20a6a261ed6cfdc17a526011da59bed5cdfc4c8a127d42ab3d4fd4adf",
+   "fichier": "plus-applis/xmvkq4zed/x-sj-prepa-gyneco-j2-sf3.json",
    "codage": "brut"
   },
   {

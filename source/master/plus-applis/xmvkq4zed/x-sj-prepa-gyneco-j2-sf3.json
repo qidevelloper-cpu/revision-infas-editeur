@@ -1,0 +1,2061 @@
+{
+ "app": "xmvkq4zed",
+ "id": "x-sj-prepa-gyneco-j2-sf3",
+ "titre": "Préparation D.E (J) · J2 Gynéco-obstétrique SF3",
+ "session": "J",
+ "annee": 2026,
+ "nq": 56,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J2_GYNECO_SF3_J2_corrige_explique.pdf",
+   "sha256": "3550add9cf11e4b110725f4453a7ee215d2a92e3248ed3e81db1dc69fc1c1590"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Gynéco-obstétrique · Prépa D.E J2 (SF3)",
+     "slug": "prepa-gyneco-j2-sf3",
+     "pages": "",
+     "count": 56,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Gynéco-obstétrique",
+     "source": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__0",
+       "num": "1",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Mme Ko Y., 18 ans, G2P1, groupe A négatif, porteuse d'une grossesse de 27 semaines, est admise aux urgences gynécologiques pour altération de l'état général avec fièvre depuis deux jours. L'examen à l'admission par la sage-femme conclut à un tableau de mort fœtale avec chorioamniotite sévère, suite à une RPM depuis une semaine. Une antibiothérapie est immédiatement entreprise avec un bilan infectieux.",
+       "text": "L'audit du décès fœtal conclut à :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Un premier retard"
+        },
+        {
+         "letter": "B",
+         "text": "Un 2e retard"
+        },
+        {
+         "letter": "C",
+         "text": "Un 3e retard"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Un premier retard",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le 1er retard est le retard dans la décision d'aller consulter (méconnaissance des signes de danger, lenteur de la décision). Ici, RPM depuis une semaine et fièvre depuis deux jours avant de venir : le retard est survenu à domicile. Le 2e retard concerne le transport/la référence, le 3e la qualité des soins dans la structure.\n\nSource : Cours Gynéco-Obstétrique (1re année commune INFAS), Les trois retards (p. 75-76) ; SONU L1 2021",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__1",
+       "num": "2",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Mme Ko Y., 18 ans, G2P1, groupe A négatif, porteuse d'une grossesse de 27 semaines, est admise aux urgences gynécologiques pour altération de l'état général avec fièvre depuis deux jours. L'examen à l'admission par la sage-femme conclut à un tableau de mort fœtale avec chorioamniotite sévère, suite à une RPM depuis une semaine. Une antibiothérapie est immédiatement entreprise avec un bilan infectieux.",
+       "text": "Parmi les propositions suivantes, laquelle serait pertinente pour évacuer la cavité utérine :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Abstention"
+        },
+        {
+         "letter": "B",
+         "text": "Aspiration par AMIU"
+        },
+        {
+         "letter": "C",
+         "text": "Césarienne"
+        },
+        {
+         "letter": "D",
+         "text": "Déclenchement du travail d'accouchement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Déclenchement du travail d'accouchement",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Devant une mort fœtale à 27 SA, l'évacuation se fait par déclenchement artificiel du travail (voie basse), après bilan de coagulation. L'abstention n'est pas indiquée ici (chorioamniotite sévère). L'AMIU est réservée aux grossesses précoces ; la césarienne n'est pas indiquée pour un fœtus mort.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Mort in utero – CAT (déclenchement du travail)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__2",
+       "num": "3",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Mme Ko Y., 18 ans, G2P1, groupe A négatif, porteuse d'une grossesse de 27 semaines, est admise aux urgences gynécologiques pour altération de l'état général avec fièvre depuis deux jours. L'examen à l'admission par la sage-femme conclut à un tableau de mort fœtale avec chorioamniotite sévère, suite à une RPM depuis une semaine. Une antibiothérapie est immédiatement entreprise avec un bilan infectieux.",
+       "text": "Dans le cas décrit ci-dessus, deux éléments sont des facteurs de risque d'hémorragie du post-partum. Lesquels :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Fièvre"
+        },
+        {
+         "letter": "B",
+         "text": "Infection amniotique"
+        },
+        {
+         "letter": "C",
+         "text": "L'âge"
+        },
+        {
+         "letter": "D",
+         "text": "La mort in utero"
+        },
+        {
+         "letter": "E",
+         "text": "Le Rhésus négatif"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Infection amniotique ; D. La mort in utero",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Les facteurs de risque d'hémorragie du post-partum retenus ici sont l'infection amniotique (chorioamniotite → atonie utérine) et la mort in utero (risque de troubles de la coagulation par afibrinogénémie). La fièvre est un signe, l'âge (18 ans) et le Rhésus négatif ne sont pas des facteurs d'HPP.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), HPP (causes des 4T) et Mort in utero – complications",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__3",
+       "num": "4",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Mme Ko Y., 18 ans, G2P1, groupe A négatif, porteuse d'une grossesse de 27 semaines, est admise aux urgences gynécologiques pour altération de l'état général avec fièvre depuis deux jours. L'examen à l'admission par la sage-femme conclut à un tableau de mort fœtale avec chorioamniotite sévère, suite à une RPM depuis une semaine. Une antibiothérapie est immédiatement entreprise avec un bilan infectieux.",
+       "text": "Dans la prise en charge de cette patiente, différentes molécules peuvent être utilisées : Lesquelles.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Syntocinon"
+        },
+        {
+         "letter": "B",
+         "text": "Lasilix (diurétique)"
+        },
+        {
+         "letter": "C",
+         "text": "Misoprostol"
+        },
+        {
+         "letter": "D",
+         "text": "Amoxicilline acide clavulanique"
+        },
+        {
+         "letter": "E",
+         "text": "Antispamodique"
+        },
+        {
+         "letter": "F",
+         "text": "Celestène"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Syntocinon ; B. Lasilix (diurétique) ; C. Misoprostol ; D. Amoxicilline acide clavulanique",
+       "answerLetters": [
+        "A",
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "Syntocinon et misoprostol servent au déclenchement et à la prévention de l'HPP ; l'amoxicilline-acide clavulanique traite la chorioamniotite. Le Célestène (maturation pulmonaire) n'a pas d'intérêt quand le fœtus est mort ; un antispasmodique n'est pas indiqué.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan) ; MAP – Menace d'accouchement prématuré (PDF) (Célestène = maturation pulmonaire)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__4",
+       "num": "5",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Mme Ko Y., 18 ans, G2P1, groupe A négatif, porteuse d'une grossesse de 27 semaines, est admise aux urgences gynécologiques pour altération de l'état général avec fièvre depuis deux jours. L'examen à l'admission par la sage-femme conclut à un tableau de mort fœtale avec chorioamniotite sévère, suite à une RPM depuis une semaine. Une antibiothérapie est immédiatement entreprise avec un bilan infectieux.",
+       "text": "Après l'expulsion fœtale, la patiente a choisi de bénéficier d'une méthode contraceptive du post-partum immédiat. Parmi les propositions suivantes, lesquelles sont justifiées :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "MAMA"
+        },
+        {
+         "letter": "B",
+         "text": "DIU"
+        },
+        {
+         "letter": "C",
+         "text": "Progestatif injectable"
+        },
+        {
+         "letter": "D",
+         "text": "Implant"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. MAMA ; B. DIU",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "Le cours SSR cite la MAMA et le DIU au cuivre parmi les méthodes du post-partum ; le DIU peut être posé dans les 48 heures après l'accouchement (post-partum immédiat).\n\nSource : Document SSR L2 SF 2021, Contraception du post-partum et DIUPP",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__5",
+       "num": "6",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Mme Ko Y., 18 ans, G2P1, groupe A négatif, porteuse d'une grossesse de 27 semaines, est admise aux urgences gynécologiques pour altération de l'état général avec fièvre depuis deux jours. L'examen à l'admission par la sage-femme conclut à un tableau de mort fœtale avec chorioamniotite sévère, suite à une RPM depuis une semaine. Une antibiothérapie est immédiatement entreprise avec un bilan infectieux.",
+       "text": "Parmi les affections suivantes pouvant survenir au cours de la grossesse, la ou lesquelles sont d'origine parasitaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rubéole"
+        },
+        {
+         "letter": "B",
+         "text": "Syphilis"
+        },
+        {
+         "letter": "C",
+         "text": "Toxoplasmose"
+        },
+        {
+         "letter": "D",
+         "text": "Paludisme"
+        },
+        {
+         "letter": "E",
+         "text": "Hépatite B"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Toxoplasmose ; D. Paludisme",
+       "answerLetters": [
+        "C",
+        "D"
+       ],
+       "explanation": "La toxoplasmose (Toxoplasma gondii) et le paludisme (Plasmodium) sont des infections parasitaires. La rubéole et l'hépatite B sont virales, la syphilis est bactérienne.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Mort in utero – causes : « infections parasitaires : toxoplasmose ; paludisme »",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__6",
+       "num": "7",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Mme Ko Y., 18 ans, G2P1, groupe A négatif, porteuse d'une grossesse de 27 semaines, est admise aux urgences gynécologiques pour altération de l'état général avec fièvre depuis deux jours. L'examen à l'admission par la sage-femme conclut à un tableau de mort fœtale avec chorioamniotite sévère, suite à une RPM depuis une semaine. Une antibiothérapie est immédiatement entreprise avec un bilan infectieux.",
+       "text": "Les affections suivantes peuvent être immunisantes : Lesquelles.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rubéole"
+        },
+        {
+         "letter": "B",
+         "text": "Syphilis"
+        },
+        {
+         "letter": "C",
+         "text": "Toxoplasmose"
+        },
+        {
+         "letter": "D",
+         "text": "Paludisme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Rubéole ; C. Toxoplasmose",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Une primo-infection par la rubéole ou la toxoplasmose laisse une immunité durable (IgG). La syphilis et le paludisme n'immunisent pas : réinfection possible.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Toxoplasmose et grossesse (le kyste persiste chez l'hôte immunisé) ; Rubéole et grossesse",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__7",
+       "num": "8",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Mme Ko Y., 18 ans, G2P1, groupe A négatif, porteuse d'une grossesse de 27 semaines, est admise aux urgences gynécologiques pour altération de l'état général avec fièvre depuis deux jours. L'examen à l'admission par la sage-femme conclut à un tableau de mort fœtale avec chorioamniotite sévère, suite à une RPM depuis une semaine. Une antibiothérapie est immédiatement entreprise avec un bilan infectieux.",
+       "text": "Devant le résultat de la sérologie toxoplasmique suivant, demandé lors du BPN : IgM négatif, IgG positif. Quelle interprétation donnez-vous ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Absence d'infection"
+        },
+        {
+         "letter": "B",
+         "text": "Infection récente débutante"
+        },
+        {
+         "letter": "C",
+         "text": "Infection ancienne"
+        },
+        {
+         "letter": "D",
+         "text": "Infection évolutive"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Infection ancienne",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "IgM négatives + IgG positives = la personne a déjà fait la maladie et est guérie (immunisée) : infection ancienne. Les IgM signent une infection récente ou évolutive.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Toxoplasmose – interprétation des sérologies",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__8",
+       "num": "9",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Mme Ko Y., 18 ans, G2P1, groupe A négatif, porteuse d'une grossesse de 27 semaines, est admise aux urgences gynécologiques pour altération de l'état général avec fièvre depuis deux jours. L'examen à l'admission par la sage-femme conclut à un tableau de mort fœtale avec chorioamniotite sévère, suite à une RPM depuis une semaine. Une antibiothérapie est immédiatement entreprise avec un bilan infectieux.",
+       "text": "Parmi les différents types de virus de l'hépatite, lequel est le plus transmis au cours de la grossesse en Côte d'Ivoire :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hépatite A"
+        },
+        {
+         "letter": "B",
+         "text": "Hépatite B"
+        },
+        {
+         "letter": "C",
+         "text": "Hépatite C"
+        },
+        {
+         "letter": "D",
+         "text": "Hépatite E"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Hépatite B",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les hépatites virales de la grossesse sont dominées par l'hépatite B ; sa PTME est une exigence majeure dans les pays à forte endémicité comme la Côte d'Ivoire.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Hépatites virales et grossesse – Conclusion",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__9",
+       "num": "10",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Mme Ko Y., 18 ans, G2P1, groupe A négatif, porteuse d'une grossesse de 27 semaines, est admise aux urgences gynécologiques pour altération de l'état général avec fièvre depuis deux jours. L'examen à l'admission par la sage-femme conclut à un tableau de mort fœtale avec chorioamniotite sévère, suite à une RPM depuis une semaine. Une antibiothérapie est immédiatement entreprise avec un bilan infectieux.",
+       "text": "Lors du bilan prénatal, les résultats des marqueurs du virus de l'hépatite B sont les suivants : AgHBs négatif, Ac anti-HBs positif, Ac anti-HBc négatif. Cette situation correspond à : (choisir la bonne affirmation)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Femme non vaccinée"
+        },
+        {
+         "letter": "B",
+         "text": "Femme vaccinée"
+        },
+        {
+         "letter": "C",
+         "text": "Femme avec hépatite chronique"
+        },
+        {
+         "letter": "D",
+         "text": "Femme avec hépatite B guérie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Femme vaccinée",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "AgHBs négatif + Ac anti-HBc négatif = pas de contact avec le virus. L'Ac anti-HBs positif isolé témoigne donc d'une immunité par vaccination. Une hépatite guérie aurait des anti-HBc positifs.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Prévention de l'HVB (1er et 2e cas, contrôle des anti-HBs après vaccination)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__10",
+       "num": "11",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Mme Ko Y., 18 ans, G2P1, groupe A négatif, porteuse d'une grossesse de 27 semaines, est admise aux urgences gynécologiques pour altération de l'état général avec fièvre depuis deux jours. L'examen à l'admission par la sage-femme conclut à un tableau de mort fœtale avec chorioamniotite sévère, suite à une RPM depuis une semaine. Une antibiothérapie est immédiatement entreprise avec un bilan infectieux.",
+       "text": "La vaccination de la gestante est-elle nécessaire :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "OUI"
+        },
+        {
+         "letter": "B",
+         "text": "Non"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Non",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La femme est déjà protégée (anti-HBs positif) : la vaccination n'est plus indiquée. Le cours propose la vaccination seulement quand AgHBs et anti-HBc sont négatifs sans anticorps protecteurs.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Prévention de l'HVB – CAT au cours de la grossesse",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__11",
+       "num": "12",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Mme Ko Y., 18 ans, G2P1, groupe A négatif, porteuse d'une grossesse de 27 semaines, est admise aux urgences gynécologiques pour altération de l'état général avec fièvre depuis deux jours. L'examen à l'admission par la sage-femme conclut à un tableau de mort fœtale avec chorioamniotite sévère, suite à une RPM depuis une semaine. Une antibiothérapie est immédiatement entreprise avec un bilan infectieux.",
+       "text": "À l'accouchement de cette patiente, les actions suivantes sont-elles nécessaires chez le nouveau-né :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Immunoprophylaxie"
+        },
+        {
+         "letter": "B",
+         "text": "Sérovaccination"
+        },
+        {
+         "letter": "C",
+         "text": "Arrêt allaitement"
+        },
+        {
+         "letter": "D",
+         "text": "Continuer allaitement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Sérovaccination ; D. Continuer allaitement",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Pour un nouveau-né de mère porteuse de l'AgHBs, le cours prévoit dès la naissance une dose de sérum anti-hépatite B et une dose de vaccin en IM sur deux sites différents (sérovaccination). L'allaitement n'est pas contre-indiqué.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Prévention de l'HVB – 3e cas : après l'accouchement",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__12",
+       "num": "13",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'écosystème vaginal normal est composé des micro-organismes suivants : Lesquelles.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Lactobacilles"
+        },
+        {
+         "letter": "B",
+         "text": "Staphylocoques"
+        },
+        {
+         "letter": "C",
+         "text": "Chlamydiae trachomatis"
+        },
+        {
+         "letter": "D",
+         "text": "Candida albicans"
+        },
+        {
+         "letter": "E",
+         "text": "Gardnerella vaginalis"
+        },
+        {
+         "letter": "F",
+         "text": "Trichomonas"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Lactobacilles ; B. Staphylocoques ; D. Candida albicans ; E. Gardnerella vaginalis",
+       "answerLetters": [
+        "A",
+        "B",
+        "D",
+        "E"
+       ],
+       "explanation": "La flore vaginale normale est dominée par les lactobacilles (bacilles de Döderlein), avec des germes d'origine cutanée et digestive en faible proportion. Staphylocoques, Candida et Gardnerella peuvent y vivre sans maladie (commensaux). Chlamydia et Trichomonas sont toujours pathogènes (IST).\n\nSource : Gynéco L2 IDE version 2025, Leucorrhées – Microbiologie : flore vaginale (p. 133)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__13",
+       "num": "14",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une vulvo-vaginite présentant les caractères suivants : leucorrhées blanchâtres, abondantes, grumeleuses, inodores, adhérentes à la paroi vaginale et associées à des prurits intenses est en faveur : (cocher la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vaginose"
+        },
+        {
+         "letter": "B",
+         "text": "Chlamydiose"
+        },
+        {
+         "letter": "C",
+         "text": "Mycose"
+        },
+        {
+         "letter": "D",
+         "text": "Infection à Trichomonas"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Mycose",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Leucorrhées blanches, épaisses, grumeleuses (lait caillé), inodores, adhérentes à la muqueuse avec prurit vulvo-vaginal très intense : c'est la mycose (Candida albicans dans 85 % des cas). La vaginose donne des pertes grises malodorantes, la trichomonase des pertes verdâtres mousseuses.\n\nSource : Gynéco L2 IDE version 2025, Leucorrhées – Mycoses vaginales (p. 138-139)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__14",
+       "num": "15",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La réanimation du nouveau-né en salle d'accouchement (Maternité) fait appel le plus souvent à 4 techniques, laquelle est la première à mettre en place ? (Cocher la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Injection de solutés"
+        },
+        {
+         "letter": "B",
+         "text": "Ventilation manuelle au ballon"
+        },
+        {
+         "letter": "C",
+         "text": "Désobstruction des voies aériennes"
+        },
+        {
+         "letter": "D",
+         "text": "Massage cardiaque"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Désobstruction des voies aériennes",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La première étape de la réanimation du nouveau-né est la désobstruction des voies aériennes (avec la stimulation). Si le bébé ne respire toujours pas bien, on passe à la ventilation au ballon et au masque, puis on évalue le rythme cardiaque.\n\nSource : SONU – PNSME, Réanimation du nouveau-né (p. 71)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__15",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les germes suivants, lequel est le plus fréquemment responsable d'une infection urinaire au cours de la grossesse :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Serratia enterobacter"
+        },
+        {
+         "letter": "B",
+         "text": "Proteus mirabilis"
+        },
+        {
+         "letter": "C",
+         "text": "Escherichia coli"
+        },
+        {
+         "letter": "D",
+         "text": "Klebsiella pneumoniae"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Escherichia coli",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Au cours des infections urinaires, le germe le plus souvent isolé est Escherichia coli (90 %).\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Infections urinaires et grossesse – Germes en cause",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les infections urinaires suivantes, pouvant survenir au cours de la grossesse, laquelle est la plus fréquente :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Cystite"
+        },
+        {
+         "letter": "B",
+         "text": "Bactériurie asymptomatique"
+        },
+        {
+         "letter": "C",
+         "text": "Pyélonéphrite"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Bactériurie asymptomatique",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours distingue 3 formes : pyélonéphrite (fébrile), cystite (sans fièvre) et bactériurie asymptomatique (découverte par l'ECBU seul). La bactériurie asymptomatique est la plus fréquente, d'où l'intérêt du dépistage systématique (nitrites, ECBU).\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Infections urinaires et grossesse – Généralités (fréquence : hors cours)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__17",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les affirmations suivantes concernant le diabète gestationnel : Laquelle est exacte ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Est préexistant à la grossesse"
+        },
+        {
+         "letter": "B",
+         "text": "Persiste toujours après l'accouchement"
+        },
+        {
+         "letter": "C",
+         "text": "Apparaît le plus souvent à 15 semaines"
+        },
+        {
+         "letter": "D",
+         "text": "Apparaît le plus souvent à partir de 24 S"
+        },
+        {
+         "letter": "E",
+         "text": "Est dépisté par la glycémie à jeun au 1er trimestre de la grossesse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Apparaît le plus souvent à partir de 24 S",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le diabète gestationnel est découvert pour la première fois pendant la grossesse (il n'est pas préexistant). Il apparaît surtout au 2e-3e trimestre, quand l'insulinorésistance augmente, d'où un dépistage après 24 SA. Il régresse le plus souvent après l'accouchement, et la glycosurie est un mauvais test de dépistage.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Diabète et grossesse – Diabète gestationnel",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ménopause précoce est celle survenant avant : (cocher la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "40 ans"
+        },
+        {
+         "letter": "B",
+         "text": "45 ans"
+        },
+        {
+         "letter": "C",
+         "text": "50 ans"
+        },
+        {
+         "letter": "D",
+         "text": "55 ans"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 40 ans",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La ménopause précoce (insuffisance ovarienne prématurée) est celle qui survient avant 40 ans. L'âge habituel se situe entre 45 et 55 ans.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La phase de préménopause est dominée par :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Absence de sécrétion d'œstrogènes"
+        },
+        {
+         "letter": "B",
+         "text": "Hyperœstrogénie relative"
+        },
+        {
+         "letter": "C",
+         "text": "Augmentation de la progestérone"
+        },
+        {
+         "letter": "D",
+         "text": "Chute de la progestérone"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Hyperœstrogénie relative ; D. Chute de la progestérone",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "En préménopause, les cycles deviennent anovulatoires : le corps jaune ne se forme plus, d'où une chute de la progestérone (insuffisance lutéale). Les œstrogènes persistent sans opposition progestative : c'est l'hyperœstrogénie relative.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Ménopause – Physiopathologie (« insuffisance lutéale… avec une hyperœstrogénie relative »)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les bouffées de chaleur de la ménopause présentent les caractères suivants : Lesquels (une réponse fausse annule une réponse vraie)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Sensation de chaleur débute au thorax"
+        },
+        {
+         "letter": "B",
+         "text": "Sensation de chaleur débute au visage"
+        },
+        {
+         "letter": "C",
+         "text": "Souvent diurne"
+        },
+        {
+         "letter": "D",
+         "text": "Souvent nocturne"
+        },
+        {
+         "letter": "E",
+         "text": "Associées à des troubles de l'humeur"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Sensation de chaleur débute au visage ; D. Souvent nocturne ; E. Associées à des troubles de l'humeur",
+       "answerLetters": [
+        "B",
+        "D",
+        "E"
+       ],
+       "explanation": "La bouffée de chaleur typique débute au visage et au cou, survient surtout la nuit (sueurs nocturnes) et s'accompagne volontiers de troubles de l'humeur (irritabilité, anxiété). Le cours précise qu'elle n'existe que chez certaines femmes.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Ménopause confirmée (bouffées chez certaines femmes) ; caractères : hors cours du projet",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les germes suivants, lequel est le plus souvent responsable d'infection génitale haute :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Escherichia coli"
+        },
+        {
+         "letter": "B",
+         "text": "Staphylocoque"
+        },
+        {
+         "letter": "C",
+         "text": "Chlamydiae trachomatis"
+        },
+        {
+         "letter": "D",
+         "text": "Gonocoque"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Chlamydiae trachomatis",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Chlamydia trachomatis est cité en premier parmi les principaux germes des infections génitales hautes (salpingites), devant les entérobactéries, les streptocoques, les staphylocoques et le gonocoque.\n\nSource : Gynéco L2 IDE version 2025, Salpingites aiguës – Principaux germes en cause",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La détermination génétique commence à : (cocher la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "à la fécondation"
+        },
+        {
+         "letter": "B",
+         "text": "à la période embryonnaire"
+        },
+        {
+         "letter": "C",
+         "text": "la période fœtale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. à la fécondation",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le sexe génétique (XX ou XY) est déterminé dès la fécondation, selon le chromosome X ou Y du spermatozoïde qui pénètre l'ovocyte II.\n\nSource : Cours Gynéco-Obstétrique (1re année commune INFAS), Fécondation – Déterminisme du sexe génétique (p. 40)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les malformations utéro-génitales suivantes, la ou lesquelles sont compatibles avec la survenue d'une grossesse :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Agénésie complète bilatérale de l'utérus"
+        },
+        {
+         "letter": "B",
+         "text": "Agénésie bilatérale partielle de l'utérus"
+        },
+        {
+         "letter": "C",
+         "text": "Diaphragme vaginal"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Diaphragme vaginal",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'agénésie complète bilatérale correspond à l'absence totale d'utérus, et l'agénésie bilatérale partielle (syndrome de Rokitansky) laisse des cornes rudimentaires sans cavité : la grossesse est impossible dans les deux cas. Le diaphragme (cloison) vaginal n'empêche pas la grossesse.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Malformations génitales – Aplasies utérines",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les situations suivantes au cours de la gravido-puerpéralité, la ou lesquelles correspond ou correspondent à la mort fœtale in utero :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Mort fœtale à 36 semaines de grossesse"
+        },
+        {
+         "letter": "B",
+         "text": "Mort fœtale lors de l'expulsion fœtale"
+        },
+        {
+         "letter": "C",
+         "text": "Mort fœtale à 7 cm du travail d'accouchement"
+        },
+        {
+         "letter": "D",
+         "text": "Mort fœtale à 22 S de grossesse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Mort fœtale à 36 semaines de grossesse ; D. Mort fœtale à 22 S de grossesse",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "La mort fœtale in utero est le décès du fœtus pendant la grossesse, avant l'entrée en travail (22 SA et 36 SA conviennent). Un décès pendant le travail ou l'expulsion est une mort per-partum (intra-partum).\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Mort in utero – Définition",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les situations suivantes, laquelle est la plus responsable de mort fœtale in utero :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hépatite virale"
+        },
+        {
+         "letter": "B",
+         "text": "Paludisme et grossesse"
+        },
+        {
+         "letter": "C",
+         "text": "Toxoplasmose"
+        },
+        {
+         "letter": "D",
+         "text": "Prééclampsie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Prééclampsie",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La pré-éclampsie (insuffisance placentaire, HRP) est la cause la plus responsable parmi les propositions : elle entraîne souffrance fœtale, RCIU et mort in utero.\n\nSource : SONU L2 SFM 2026 – HTA / pré-éclampsie, Complications fœtales ; Gynécologie-Obstétrique L3 (Pr Djanhan), Causes de la mort in utero",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les situations suivantes peuvent être à l'origine d'une mort fœtale in utero : Lesquelles ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Grossesse prolongée"
+        },
+        {
+         "letter": "B",
+         "text": "Dépassement de terme"
+        },
+        {
+         "letter": "C",
+         "text": "Accouchement à terme"
+        },
+        {
+         "letter": "D",
+         "text": "Accouchement prématuré"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Grossesse prolongée ; B. Dépassement de terme",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "La grossesse prolongée et le dépassement de terme exposent à une souffrance fœtale chronique puis aiguë, pouvant aller jusqu'à la mort du fœtus (vieillissement placentaire). L'accouchement à terme ou prématuré n'est pas une cause de MFIU.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Grossesse prolongée (complications) et Mort in utero (« grossesse dépassée »)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lequel des éléments ci-dessous permettent de confirmer le diagnostic de mort fœtale in utero :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Disparition des mouvements fœtaux"
+        },
+        {
+         "letter": "B",
+         "text": "Absence de bruit du cœur fœtal à l'auscultation"
+        },
+        {
+         "letter": "C",
+         "text": "Montée laiteuse"
+        },
+        {
+         "letter": "D",
+         "text": "Échographie obstétricale"
+        },
+        {
+         "letter": "E",
+         "text": "Diminution du volume utérin"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Échographie obstétricale",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La disparition des mouvements actifs, l'absence de BDC, la montée laiteuse et la diminution du volume utérin orientent le diagnostic. Seule l'échographie obstétricale le confirme (absence d'activité cardiaque).\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Mort in utero – Examens complémentaires : « l'échographie confirme la mort fœtale »",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les complications suivantes, laquelle est liée au maintien de la mort fœtale in utéro pendant plus de deux semaines (rétention d'œuf mort):",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Infection amniotique"
+        },
+        {
+         "letter": "B",
+         "text": "Coagulopathie (trouble hémostase)"
+        },
+        {
+         "letter": "C",
+         "text": "Trouble psychologique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Coagulopathie (trouble hémostase)",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La rétention prolongée du fœtus mort expose surtout aux troubles de la coagulation (afibrinogénémie, fibrinogène < 1,5 g/l), au-delà de quelques semaines selon Merger. L'infection survient surtout si les membranes sont rompues.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Mort in utero – Complications",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Selon l'EDS (Enquête Démographique de Santé) de 2021 en Côte d'Ivoire, le taux de décès maternel pour 100 000 naissances vivantes est de : (cocher la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "385"
+        },
+        {
+         "letter": "B",
+         "text": "614"
+        },
+        {
+         "letter": "C",
+         "text": "215"
+        },
+        {
+         "letter": "D",
+         "text": "512"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 385",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "D'après l'EDS 2021, le ratio de mortalité maternelle en Côte d'Ivoire est de 385 décès pour 100 000 naissances vivantes. Le chiffre de 614 correspond à l'EDS 2012, celui cité dans les cours.\n\nSource : (explication hors cours du projet — les cours citent 614 / EDS 2012 : SONU – PNSME)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le décès maternel est tout décès d'une femme survenu au cours de la grossesse ou dans un délai de : ……… jours après sa terminaison, mais ni accidentelle, ni fortuite. (Cocher la bonne réponse).",
+       "options": [
+        {
+         "letter": "A",
+         "text": "62 j"
+        },
+        {
+         "letter": "B",
+         "text": "32 j"
+        },
+        {
+         "letter": "C",
+         "text": "52 j"
+        },
+        {
+         "letter": "D",
+         "text": "42 j"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 42 j",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le décès maternel est tout décès survenu pendant la grossesse ou dans les 42 jours suivant sa terminaison, pour une cause liée à la grossesse ou aggravée par elle, mais ni accidentelle ni fortuite.\n\nSource : SONU – PNSME, Définition de la mortalité maternelle ; Document SSR L2 SF 2021",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La mortalité maternelle est un indicateur : Cocher les bonnes réponses.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "de l'état de santé de la population"
+        },
+        {
+         "letter": "B",
+         "text": "du taux d'alphabétisation des femmes"
+        },
+        {
+         "letter": "C",
+         "text": "de la qualité des soins obstétricaux"
+        },
+        {
+         "letter": "D",
+         "text": "du niveau de développement économique du pays"
+        },
+        {
+         "letter": "E",
+         "text": "de l'âge moyen de survie de la population"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. de l'état de santé de la population ; C. de la qualité des soins obstétricaux ; D. du niveau de développement économique du pays",
+       "answerLetters": [
+        "A",
+        "C",
+        "D"
+       ],
+       "explanation": "La mortalité maternelle reflète l'état de santé de la population, la qualité des soins obstétricaux (accès aux SONU, personnel qualifié) et le niveau de développement économique du pays.\n\nSource : (explication hors cours du projet ; Document SSR L2 SF 2021 : indicateur sanitaire)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les causes des décès maternels suivantes sont des causes directes : Lesquelles ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hémoglobinopathie"
+        },
+        {
+         "letter": "B",
+         "text": "Perforation utérine suite à un avortement provoqué"
+        },
+        {
+         "letter": "C",
+         "text": "Hématomes péri génitaux"
+        },
+        {
+         "letter": "D",
+         "text": "Neuropaludisme"
+        },
+        {
+         "letter": "E",
+         "text": "Placenta prævia hémorragique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Perforation utérine suite à un avortement provoqué ; C. Hématomes péri génitaux ; E. Placenta prævia hémorragique",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "Les causes obstétricales directes résultent des complications de la grossesse, du travail ou des suites de couches : hémorragies (placenta prævia, hématomes péri-génitaux) et avortements à risque (perforation utérine). L'hémoglobinopathie et le neuropaludisme sont des causes indirectes.\n\nSource : Cours Gynéco-Obstétrique (1re année commune INFAS), Principales causes de décès maternels – causes directes / indirectes (p. 75)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions ci-dessous, lesquelles font partie des stratégies nationales de lutte contre les décès maternels :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Audit et revue des décès maternels"
+        },
+        {
+         "letter": "B",
+         "text": "Bonne application des SONU"
+        },
+        {
+         "letter": "C",
+         "text": "La CPN de qualité"
+        },
+        {
+         "letter": "D",
+         "text": "La planification familiale"
+        },
+        {
+         "letter": "E",
+         "text": "Accouchements non assistés par un personnel qualifié"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Audit et revue des décès maternels ; B. Bonne application des SONU ; C. La CPN de qualité ; D. La planification familiale",
+       "answerLetters": [
+        "A",
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "Les stratégies nationales contre la mortalité maternelle comprennent l'audit et la revue des décès, les SONU, la CPN de qualité et la planification familiale. Les accouchements non assistés sont au contraire un facteur de mortalité.\n\nSource : Cours Gynéco-Obstétrique (1re année commune INFAS) (facteurs de mortalité) ; SONU – PNSME (stratégie partielle, hors cours)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'audit des décès maternels permet de : Cocher les bonnes réponses.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Faire des recommandations"
+        },
+        {
+         "letter": "B",
+         "text": "Sanctionner les auteurs des dysfonctionnements"
+        },
+        {
+         "letter": "C",
+         "text": "Identifier les dysfonctionnements"
+        },
+        {
+         "letter": "D",
+         "text": "Améliorer la qualité des soins"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Faire des recommandations ; C. Identifier les dysfonctionnements ; D. Améliorer la qualité des soins",
+       "answerLetters": [
+        "A",
+        "C",
+        "D"
+       ],
+       "explanation": "L'audit des décès maternels sert à identifier les dysfonctionnements, faire des recommandations et améliorer la qualité des soins. Il est anonyme et non punitif : il ne vise pas à sanctionner.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les facteurs suivants de décès maternels, lesquels font partie du deuxième retard :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Coût du transport"
+        },
+        {
+         "letter": "B",
+         "text": "Mauvais état des routes"
+        },
+        {
+         "letter": "C",
+         "text": "Croyances socioculturelles"
+        },
+        {
+         "letter": "D",
+         "text": "Manque de médicaments"
+        },
+        {
+         "letter": "E",
+         "text": "Sous-estimation des symptômes"
+        },
+        {
+         "letter": "F",
+         "text": "Absence de personnel qualifié"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Coût du transport ; B. Mauvais état des routes",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "Le 2e retard (retard dans l'accès / la référence) est lié à la longue distance, au mauvais état des routes, à l'insuffisance des moyens de référence et au faible revenu des ménages (coût du transport). Les croyances relèvent du 1er retard, le manque de médicaments ou de personnel du 3e.\n\nSource : Cours Gynéco-Obstétrique (1re année commune INFAS), Les trois retards (p. 76) ; SONU L1 2021",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__36",
+       "num": "37",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les ébauches de l'appareil génital ne sont pas identiques chez l'embryon féminin et masculin.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Au début du développement, les ébauches génitales sont identiques chez l'embryon féminin et masculin (stade indifférencié). Elles se différencient ensuite selon le sexe génétique. L'affirmation est donc fausse.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__37",
+       "num": "38",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'agénésie complète bilatérale est souvent associée à une agénésie rénale bilatérale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'agénésie complète bilatérale (absence totale d'utérus) est une malformation rare, souvent associée à d'autres malformations comme l'agénésie rénale bilatérale.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Malformations génitales – Aplasie utérine",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__38",
+       "num": "39",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ménopause peut être muette (aucun signe).",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Seule l'aménorrhée secondaire est constante. Les bouffées de chaleur et les autres signes n'existent que chez certaines femmes : la ménopause peut donc être muette.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Ménopause – Examen clinique",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__39",
+       "num": "40",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le traitement antiviral chez une gestante porteuse du virus de l'hépatite B est toujours obligatoire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le traitement antiviral n'est pas systématique pour toute porteuse de l'AgHBs : il dépend de la réplication virale, et la prévention repose aussi sur la sérovaccination du nouveau-né.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__40",
+       "num": "41",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'hydramnios est un facteur de risque de procidence du cordon.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'hydramnios (excès de liquide amniotique) favorise la procidence du cordon, surtout lors de la rupture des membranes, car la présentation reste haute et mal appliquée.\n\nSource : Gynéco L2 IDE version 2025, Rupture artificielle des membranes (risque de procidence) ; facteurs : hors cours",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__41",
+       "num": "42",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans l'accouchement de siège, en cas de rétention des épaules, l'attitude de Lovset est préconisée.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "En cas de rétention de la tête dernière, on utilise la manœuvre de Mauriceau (ou Bracht si la tête est bien fléchie).\n\nSource : SONU L3, Accouchement du siège (p. 72-78)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__42",
+       "num": "43",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'infertilité se définit comme l'absence de survenue d'une grossesse après 1 an de rapports sexuels réguliers sous contraception.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'infertilité est l'absence de grossesse après plus de 12 mois de rapports sexuels réguliers sans contraception. L'affirmation dit « sous contraception » : elle est fausse.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Infertilité – Définition OMS",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__43",
+       "num": "44",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'avortement spontané est le plus souvent hémorragique.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'avortement spontané associe douleurs et métrorragies plus ou moins abondantes, mais l'hémorragie grave y est rare. C'est l'avortement provoqué (clandestin) qui est le plus souvent hémorragique.\n\nSource : Cours Gynéco-Obstétrique (1re année commune INFAS), Avortement (CAT : « infection et hémorragie sont rares en cas d'avortement spontané » ; avortement provoqué « le plus souvent hémorragique »)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__44",
+       "num": "45",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ménarche précoce est un facteur de risque de cancer du sein.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Une longue durée d'activité ovarienne (puberté précoce avant 13 ans, ménopause tardive après 55 ans) est un facteur de risque hormonal du cancer du sein.\n\nSource : Gynéco L2 IDE version 2025, Cancer du sein – Facteurs de risque (p. 120-121)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__45",
+       "num": "46",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les gamètes femelles sont appelés les ovocytes II",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le gamète femelle libéré à l'ovulation et fécondé par le spermatozoïde est l'ovocyte II (ovocyte de 2e ordre).\n\nSource : Cours Gynéco-Obstétrique (1re année commune INFAS), Fécondation – Déterminisme du sexe (« pénètre dans l'ovocyte II »)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__46",
+       "num": "47",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La maturation pulmonaire fœtale se fait avec des corticoïdes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La corticothérapie anténatale (bétaméthasone – Célestène® 12 mg IM, répétée 24 h plus tard) réduit le risque de détresse respiratoire du prématuré.\n\nSource : MAP – Menace d'accouchement prématuré (PDF), Traitement – Corticothérapie anténatale",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__47",
+       "num": "48",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la rupture utérine, le toucher vaginal doit être réalisé avec prudence pour ne pas déclencher une hémorragie cataclysmique.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le TV prudent pour éviter une hémorragie cataclysmique concerne le placenta prævia (TV intracervical interdit). Dans la rupture utérine, la présentation n'est plus perçue au TV et le diagnostic repose sur la clinique et la révision utérine.\n\nSource : Gynéco L2 IDE version 2025, Placenta prævia (TV) et Rupture utérine (signes physiques)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__48",
+       "num": "49",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'enfant né de mère infectée par le VIH doit bénéficier de tous les vaccins du programme élargi de vaccination.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'enfant né de mère VIH+ suit le calendrier du PEV comme les autres enfants (BCG + VPO0 à la naissance, puis PEV à partir de 6 semaines), sauf contre-indication liée à une infection symptomatique.\n\nSource : SONU – PNSME, Soins du nouveau-né (vaccination) ; VIH : hors cours",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__49",
+       "num": "50",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les fibromes sous séreux sont le plus souvent responsables de ménorragies.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les ménorragies sont surtout dues aux fibromes sous-muqueux (et interstitiels), qui déforment la cavité utérine. Les fibromes sous-séreux donnent plutôt des signes de compression ou une torsion s'ils sont pédiculés.\n\nSource : Gynéco L2 IDE version 2025, Fibrome utérin – Complications (sous-séreux pédiculé : torsion)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__50",
+       "num": "51",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la cystite isolée l'infection est localisée au niveau du bas appareil urinaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La cystite est l'infection urinaire basse (vessie), sans fièvre. La pyélonéphrite est l'infection haute.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Infections urinaires et grossesse – Généralités",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__51",
+       "num": "52",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les grossesses gémellaires bizygotes ; plus la division de l'œuf est tardive, plus elle pourra aboutir à des siamois.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les siamois proviennent d'une division tardive d'un œuf unique, donc de jumeaux monozygotes (vrais jumeaux). Les jumeaux bizygotes proviennent de deux ovules distincts et ne peuvent pas être siamois.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__52",
+       "num": "53",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La révision utérine ne peut pas être réalisée après une césarienne par risque de couper les fils de hystérorraphie.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La révision utérine est même indiquée après un accouchement par voie basse sur utérus cicatriciel, pour rechercher une rupture. Lors d'une césarienne, l'utérus est exploré directement à ciel ouvert : il n'y a pas de « fils à couper ».\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Révision utérine – Indications",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__53",
+       "num": "54",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La rupture utérine est la principale cause des métrorragies du 3è trimestre de grossesse.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les principales causes de métrorragies du 3e trimestre sont le placenta prævia et l'HRP. La rupture utérine survient surtout pendant le travail et ne donne qu'une petite quantité de sang.\n\nSource : Gynéco L2 IDE version 2025, Placenta prævia ; Rupture utérine (« métrorragies : petite quantité de sang »)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__54",
+       "num": "55",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un couple de groupe sanguin 0 ne peut donner naissance qu'à des enfants de groupe O.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Des parents de groupe O ont tous deux le génotype OO (gène récessif) : ils ne peuvent transmettre que l'allèle O, et leurs enfants sont tous de groupe O.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j2-sf3__55",
+       "num": "56",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le port du préservatif est un moyen de prévention de la rubéole au cours de la grossesse.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La rubéole se prévient par la vaccination avant la grossesse et l'éviction des contacts avec les malades.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Rubéole et grossesse",
+       "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
+       "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
