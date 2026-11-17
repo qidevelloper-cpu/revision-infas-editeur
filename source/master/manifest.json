@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 124213523,
- "sha256": "586f5b4c966533ec41378492d072113875502d047b549997b28a006252f6366e",
+ "taille": 124342416,
+ "sha256": "e76e38e547da3290b867fb948fcfb39b7155cdeffa6b9456b9e610a449806e0d",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -16606,8 +16606,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusapp",
-   "octets": 5149,
-   "sha256": "9ab3a267007281b99dec134fad0357e1633d64c75f83b1e41322fbfa1f6c9488",
+   "octets": 5440,
+   "sha256": "b557824c37e74a3cc566de3432de9284fd60f727f027b6d3f8258c8a69a4d70e",
    "fichier": "plus-applis/index.json",
    "codage": "brut"
   },
@@ -16619,8 +16619,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusnat-xmvkq4zed",
-   "octets": 2194620,
-   "sha256": "8c74066c61bb3d85bd5e3c92a08196052325eb81648b97986b3c989d99cfa158",
+   "octets": 2236533,
+   "sha256": "fe3f50119869550267c233f5134b5f6c914c11e73bad05af7778edd057e383f0",
    "fichier": "plus-applis/xmvkq4zed-natif.json",
    "codage": "brut"
   },
@@ -16700,6 +16700,19 @@
    "octets": 93124,
    "sha256": "2d72a2cc0fa2224b6f077985234f44043d8f024ca2ac3468be6d9c3340d7b563",
    "fichier": "plus-applis/xmvkq4zed/v-sj-prepa-2026-11-14-sp.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--w-sj-prepa-med-j2-ide3\">",
+   "sha256": "41ab9318b50cdf91e44f0040f251d855bd49f89034f23fd1fe1210b649727409"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--w-sj-prepa-med-j2-ide3",
+   "octets": 86606,
+   "sha256": "bf5a31c0f956640038e4cdaac4a2dc6cd71c788171aea6ea640f88da19d0bca4",
+   "fichier": "plus-applis/xmvkq4zed/w-sj-prepa-med-j2-ide3.json",
    "codage": "brut"
   },
   {

@@ -1,0 +1,2008 @@
+{
+ "app": "xmvkq4zed",
+ "id": "w-sj-prepa-med-j2-ide3",
+ "titre": "Préparation D.E (J) · J2 Médecine IDE3",
+ "session": "J",
+ "annee": 2026,
+ "nq": 55,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+   "sha256": "68b60e793e4abc25f93775e01d5e5f49c7e6a0a7361de8eb9b09143d2acbccc2"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Médecine · Prépa D.E J2 (IDE3)",
+     "slug": "prepa-med-j2-ide3",
+     "pages": "",
+     "count": 55,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Médecine",
+     "source": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__0",
+       "num": "1",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE — Vous assurez la permanence de nuit aux urgences médicales de l'EPHR de Korhogo avec le major. Vous recevez FFF 54 ans marié, père de 4 enfants scolarisés, dans une école privée dont les inscriptions n'ont pas été faites à ce jour ; il est amaigri, présente un état d'hébétude avec quelques fois un délire. Son tableau est fait aussi de diarrhée faite de selles fétides d'aspect jus de papaye. La mesure des paramètres vitaux donne une Température de 40°C depuis plus de trois jours, ce qui a obligé l'infirmier de lui poser des vessies de glace. On note un pouls de 86 pulsations par minutes. À l'ouverture de la bouche vous constatez une langue saburrale (sale, pâteuses). Son épouse signale que FFF a été licencié de la SURCAF 2 où il occupait un poste de cadre supérieur. La maladie a débuté par des céphalées, des vertiges, l'insomnie avec un saignement ando-nasal. Le major vous pose les questions suivantes, auxquelles vous répondez :",
+       "text": "Quelle affection retenez-vous après la collecte des données de FFF ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hépatite"
+        },
+        {
+         "letter": "B",
+         "text": "Méningite"
+        },
+        {
+         "letter": "C",
+         "text": "Fièvre typhoïde"
+        },
+        {
+         "letter": "D",
+         "text": "Choléra"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Fièvre typhoïde",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le tableau de FFF réunit les signes du cours : début par céphalées, insomnie, vertiges, épistaxis (moyen mnémotechnique C-I-V-E-T), fièvre en plateau, langue saburrale, tuphos (hébétude, délire) et diarrhée fétide « jus de papaye ». C'est la fièvre typhoïde. Le choléra donne une diarrhée « eau de riz » sans fièvre ; la méningite et l'hépatite n'ont pas ce tableau digestif.\n\nSource : Cours de maladies infectieuses et parasitaires, chapitre Fièvre typhoïde (phase d'invasion et phase d'état) ; Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__1",
+       "num": "2",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE — Vous assurez la permanence de nuit aux urgences médicales de l'EPHR de Korhogo avec le major. Vous recevez FFF 54 ans marié, père de 4 enfants scolarisés, dans une école privée dont les inscriptions n'ont pas été faites à ce jour ; il est amaigri, présente un état d'hébétude avec quelques fois un délire. Son tableau est fait aussi de diarrhée faite de selles fétides d'aspect jus de papaye. La mesure des paramètres vitaux donne une Température de 40°C depuis plus de trois jours, ce qui a obligé l'infirmier de lui poser des vessies de glace. On note un pouls de 86 pulsations par minutes. À l'ouverture de la bouche vous constatez une langue saburrale (sale, pâteuses). Son épouse signale que FFF a été licencié de la SURCAF 2 où il occupait un poste de cadre supérieur. La maladie a débuté par des céphalées, des vertiges, l'insomnie avec un saignement ando-nasal. Le major vous pose les questions suivantes, auxquelles vous répondez :",
+       "text": "Quelle description principale justifie l'affection que vous avez retenue ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Céphalées, vertige, insomnie, saignement endo-nasal"
+        },
+        {
+         "letter": "B",
+         "text": "Température de 40°C depuis 3 jours et 86 pulsations par minute"
+        },
+        {
+         "letter": "C",
+         "text": "Diarrhée de selles fétides d'aspect jus de papaye"
+        },
+        {
+         "letter": "D",
+         "text": "Diarrhée de selles fétides, céphalées, insomnie, température de 40°C"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Température de 40°C depuis 3 jours et 86 pulsations par minute",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le signe le plus caractéristique est la dissociation pouls-température : 40 °C avec un pouls à seulement 86/min. Le cours précise qu'à la phase d'état, l'élévation de la température n'est pas suivie d'une élévation du pouls. Les autres propositions sont des signes présents mais moins spécifiques.\n\nSource : Cours de maladies infectieuses et parasitaires, Fièvre typhoïde, 2.3 Phase d'état (fièvre en plateau avec dissociation du pouls et de la température)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__2",
+       "num": "3",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE — Vous assurez la permanence de nuit aux urgences médicales de l'EPHR de Korhogo avec le major. Vous recevez FFF 54 ans marié, père de 4 enfants scolarisés, dans une école privée dont les inscriptions n'ont pas été faites à ce jour ; il est amaigri, présente un état d'hébétude avec quelques fois un délire. Son tableau est fait aussi de diarrhée faite de selles fétides d'aspect jus de papaye. La mesure des paramètres vitaux donne une Température de 40°C depuis plus de trois jours, ce qui a obligé l'infirmier de lui poser des vessies de glace. On note un pouls de 86 pulsations par minutes. À l'ouverture de la bouche vous constatez une langue saburrale (sale, pâteuses). Son épouse signale que FFF a été licencié de la SURCAF 2 où il occupait un poste de cadre supérieur. La maladie a débuté par des céphalées, des vertiges, l'insomnie avec un saignement ando-nasal. Le major vous pose les questions suivantes, auxquelles vous répondez :",
+       "text": "Comment nommez-vous ce saignement ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Épistaxis"
+        },
+        {
+         "letter": "B",
+         "text": "Hémosialorrhée"
+        },
+        {
+         "letter": "C",
+         "text": "Hématémèse"
+        },
+        {
+         "letter": "D",
+         "text": "Hémoptysie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Épistaxis",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un saignement par le nez (endo-nasal) s'appelle une épistaxis ; c'est le « E » de C-I-V-E-T dans la phase d'invasion de la typhoïde. L'hématémèse vient du tube digestif (bouche lors d'un vomissement), l'hémoptysie des voies respiratoires après un effort de toux.\n\nSource : Cours de maladies infectieuses et parasitaires, Fièvre typhoïde, 2.2 Phase d'invasion",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__3",
+       "num": "4",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE — Vous assurez la permanence de nuit aux urgences médicales de l'EPHR de Korhogo avec le major. Vous recevez FFF 54 ans marié, père de 4 enfants scolarisés, dans une école privée dont les inscriptions n'ont pas été faites à ce jour ; il est amaigri, présente un état d'hébétude avec quelques fois un délire. Son tableau est fait aussi de diarrhée faite de selles fétides d'aspect jus de papaye. La mesure des paramètres vitaux donne une Température de 40°C depuis plus de trois jours, ce qui a obligé l'infirmier de lui poser des vessies de glace. On note un pouls de 86 pulsations par minutes. À l'ouverture de la bouche vous constatez une langue saburrale (sale, pâteuses). Son épouse signale que FFF a été licencié de la SURCAF 2 où il occupait un poste de cadre supérieur. La maladie a débuté par des céphalées, des vertiges, l'insomnie avec un saignement ando-nasal. Le major vous pose les questions suivantes, auxquelles vous répondez :",
+       "text": "Rappelez la propriété de la vessie de glace chez FFF.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Anti-œdémateux"
+        },
+        {
+         "letter": "B",
+         "text": "Antipyrétique"
+        },
+        {
+         "letter": "C",
+         "text": "Antalgique"
+        },
+        {
+         "letter": "D",
+         "text": "Hémostatique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Antipyrétique",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La vessie (sac) de glace est un moyen physique de refroidissement : elle sert à faire baisser la température, d'où sa propriété antipyrétique. Le cours la cite parmi les soins devant une fièvre (« mettre un sac de glace sur la tête selon la prescription »).\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, plan de soins de la cirrhose, problème « Fièvre »",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__4",
+       "num": "5",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE — Vous assurez la permanence de nuit aux urgences médicales de l'EPHR de Korhogo avec le major. Vous recevez FFF 54 ans marié, père de 4 enfants scolarisés, dans une école privée dont les inscriptions n'ont pas été faites à ce jour ; il est amaigri, présente un état d'hébétude avec quelques fois un délire. Son tableau est fait aussi de diarrhée faite de selles fétides d'aspect jus de papaye. La mesure des paramètres vitaux donne une Température de 40°C depuis plus de trois jours, ce qui a obligé l'infirmier de lui poser des vessies de glace. On note un pouls de 86 pulsations par minutes. À l'ouverture de la bouche vous constatez une langue saburrale (sale, pâteuses). Son épouse signale que FFF a été licencié de la SURCAF 2 où il occupait un poste de cadre supérieur. La maladie a débuté par des céphalées, des vertiges, l'insomnie avec un saignement ando-nasal. Le major vous pose les questions suivantes, auxquelles vous répondez :",
+       "text": "Identifiez l'agent pathogène de la maladie de FFF parmi les suivants :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Haemophilus influenzae"
+        },
+        {
+         "letter": "B",
+         "text": "Bacille de Klebs-Loeffler"
+        },
+        {
+         "letter": "C",
+         "text": "Bacille d'Eberth"
+        },
+        {
+         "letter": "D",
+         "text": "Salmonella typhi"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Salmonella typhi",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "L'agent de la fièvre typhoïde est Salmonella typhi (et S. paratyphi A, B, C pour les fièvres paratyphoïdes). Haemophilus influenzae et le bacille de Klebs-Loeffler (diphtérie) causent d'autres maladies.\n\nSource : Cours de maladies infectieuses et parasitaires, Fièvre typhoïde, 2a. Agent pathogène",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__5",
+       "num": "6",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE — Vous assurez la permanence de nuit aux urgences médicales de l'EPHR de Korhogo avec le major. Vous recevez FFF 54 ans marié, père de 4 enfants scolarisés, dans une école privée dont les inscriptions n'ont pas été faites à ce jour ; il est amaigri, présente un état d'hébétude avec quelques fois un délire. Son tableau est fait aussi de diarrhée faite de selles fétides d'aspect jus de papaye. La mesure des paramètres vitaux donne une Température de 40°C depuis plus de trois jours, ce qui a obligé l'infirmier de lui poser des vessies de glace. On note un pouls de 86 pulsations par minutes. À l'ouverture de la bouche vous constatez une langue saburrale (sale, pâteuses). Son épouse signale que FFF a été licencié de la SURCAF 2 où il occupait un poste de cadre supérieur. La maladie a débuté par des céphalées, des vertiges, l'insomnie avec un saignement ando-nasal. Le major vous pose les questions suivantes, auxquelles vous répondez :",
+       "text": "Indiquez les deux principales composantes de votre diagnostic infirmier selon le modèle conceptuel de Virginia Henderson (choisissez une seule réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Problème d'indépendance et mots ou groupe de mots de liaison"
+        },
+        {
+         "letter": "B",
+         "text": "Source de difficultés et Problème d'indépendance"
+        },
+        {
+         "letter": "C",
+         "text": "Problème de dépendance et Source de difficultés"
+        },
+        {
+         "letter": "D",
+         "text": "Objectif de soins et intervention infirmière"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Problème de dépendance et Source de difficultés",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Selon le modèle de Virginia Henderson, le diagnostic infirmier relie un problème de dépendance (le besoin perturbé, ex. hyperthermie) à sa source de difficulté (la cause : manque de force, de volonté ou de connaissances…), unis par « relié à ». Les « mots de liaison » ne sont qu'un lien, et l'objectif ou l'intervention viennent après le diagnostic.\n\nSource : Documents de révision L3 Médecine, Partie VI Soins infirmiers (sources de difficultés selon V. Henderson, énoncé du diagnostic infirmier)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__6",
+       "num": "7",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE — Vous assurez la permanence de nuit aux urgences médicales de l'EPHR de Korhogo avec le major. Vous recevez FFF 54 ans marié, père de 4 enfants scolarisés, dans une école privée dont les inscriptions n'ont pas été faites à ce jour ; il est amaigri, présente un état d'hébétude avec quelques fois un délire. Son tableau est fait aussi de diarrhée faite de selles fétides d'aspect jus de papaye. La mesure des paramètres vitaux donne une Température de 40°C depuis plus de trois jours, ce qui a obligé l'infirmier de lui poser des vessies de glace. On note un pouls de 86 pulsations par minutes. À l'ouverture de la bouche vous constatez une langue saburrale (sale, pâteuses). Son épouse signale que FFF a été licencié de la SURCAF 2 où il occupait un poste de cadre supérieur. La maladie a débuté par des céphalées, des vertiges, l'insomnie avec un saignement ando-nasal. Le major vous pose les questions suivantes, auxquelles vous répondez :",
+       "text": "Lequel des éléments suivants est un mode de collecte de données dans la démarche scientifique en soins infirmiers ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'analyse des données"
+        },
+        {
+         "letter": "B",
+         "text": "Le plan de soin"
+        },
+        {
+         "letter": "C",
+         "text": "L'observation"
+        },
+        {
+         "letter": "D",
+         "text": "L'objectif de soins"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. L'observation",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La collecte des données se fait par l'entrevue, l'examen physique et l'observation. L'analyse des données, le plan de soins et l'objectif de soins sont des étapes ultérieures de la démarche de soins, pas des modes de collecte.\n\nSource : Documents de révision L3 Médecine, Partie VI Soins infirmiers (étapes nécessaires à la collecte de données)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__7",
+       "num": "8",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE — Vous assurez la permanence de nuit aux urgences médicales de l'EPHR de Korhogo avec le major. Vous recevez FFF 54 ans marié, père de 4 enfants scolarisés, dans une école privée dont les inscriptions n'ont pas été faites à ce jour ; il est amaigri, présente un état d'hébétude avec quelques fois un délire. Son tableau est fait aussi de diarrhée faite de selles fétides d'aspect jus de papaye. La mesure des paramètres vitaux donne une Température de 40°C depuis plus de trois jours, ce qui a obligé l'infirmier de lui poser des vessies de glace. On note un pouls de 86 pulsations par minutes. À l'ouverture de la bouche vous constatez une langue saburrale (sale, pâteuses). Son épouse signale que FFF a été licencié de la SURCAF 2 où il occupait un poste de cadre supérieur. La maladie a débuté par des céphalées, des vertiges, l'insomnie avec un saignement ando-nasal. Le major vous pose les questions suivantes, auxquelles vous répondez :",
+       "text": "Relevez le diagnostic infirmier qui est en rapport avec la personne de FFF ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Détresse psychologique reliée au licenciement et aux difficultés familiales"
+        },
+        {
+         "letter": "B",
+         "text": "Altération de l'état nutritionnel liée à la maladie"
+        },
+        {
+         "letter": "C",
+         "text": "Hyperthermie reliée à une infection sévère"
+        },
+        {
+         "letter": "D",
+         "text": "Diarrhée liée à une infection digestive"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Détresse psychologique reliée au licenciement et aux difficultés familiales",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La question demande le diagnostic « en rapport avec la personne » de FFF, c'est-à-dire avec sa situation propre et non avec la maladie : son licenciement et les inscriptions scolaires non faites de ses 4 enfants traduisent une détresse psychologique. Les autres propositions (hyperthermie, diarrhée, état nutritionnel) sont en rapport avec la maladie.\n\nSource : Documents de révision L3 Médecine, Partie VI Soins infirmiers (diagnostic infirmier « en rapport avec la personne d'un malade »)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__8",
+       "num": "9",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE — Vous assurez la permanence de nuit aux urgences médicales de l'EPHR de Korhogo avec le major. Vous recevez FFF 54 ans marié, père de 4 enfants scolarisés, dans une école privée dont les inscriptions n'ont pas été faites à ce jour ; il est amaigri, présente un état d'hébétude avec quelques fois un délire. Son tableau est fait aussi de diarrhée faite de selles fétides d'aspect jus de papaye. La mesure des paramètres vitaux donne une Température de 40°C depuis plus de trois jours, ce qui a obligé l'infirmier de lui poser des vessies de glace. On note un pouls de 86 pulsations par minutes. À l'ouverture de la bouche vous constatez une langue saburrale (sale, pâteuses). Son épouse signale que FFF a été licencié de la SURCAF 2 où il occupait un poste de cadre supérieur. La maladie a débuté par des céphalées, des vertiges, l'insomnie avec un saignement ando-nasal. Le major vous pose les questions suivantes, auxquelles vous répondez :",
+       "text": "Choisissez entre ceux-ci, l'objectif de soins prioritaire de FFF",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Assurer une surveillance rapprochée de l'état de conscience et des paramètres vitaux"
+        },
+        {
+         "letter": "B",
+         "text": "Assurer une alimentation équilibrée"
+        },
+        {
+         "letter": "C",
+         "text": "Prévenir les complications neurologiques et circulatoires de l'hyperthermie"
+        },
+        {
+         "letter": "D",
+         "text": "Ramener la température corporelle de FFF entre 36,5°C et 37,5°C"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Ramener la température corporelle de FFF entre 36,5°C et 37,5°C",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "L'objectif doit répondre au problème prioritaire, l'hyperthermie à 40 °C, et être mesurable : ramener la température entre 36,5 °C et 37,5 °C. Les autres propositions sont des actions de surveillance ou de prévention, ou ne répondent pas au problème prioritaire.\n\nSource : Cours de sémiologie médicale et pathologies respiratoires, plan de soins d'un patient atteint de pneumonie (hyperthermie → retrouver la température normale)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__9",
+       "num": "10",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE — Vous assurez la permanence de nuit aux urgences médicales de l'EPHR de Korhogo avec le major. Vous recevez FFF 54 ans marié, père de 4 enfants scolarisés, dans une école privée dont les inscriptions n'ont pas été faites à ce jour ; il est amaigri, présente un état d'hébétude avec quelques fois un délire. Son tableau est fait aussi de diarrhée faite de selles fétides d'aspect jus de papaye. La mesure des paramètres vitaux donne une Température de 40°C depuis plus de trois jours, ce qui a obligé l'infirmier de lui poser des vessies de glace. On note un pouls de 86 pulsations par minutes. À l'ouverture de la bouche vous constatez une langue saburrale (sale, pâteuses). Son épouse signale que FFF a été licencié de la SURCAF 2 où il occupait un poste de cadre supérieur. La maladie a débuté par des céphalées, des vertiges, l'insomnie avec un saignement ando-nasal. Le major vous pose les questions suivantes, auxquelles vous répondez :",
+       "text": "Identifiez le besoin prioritaire de FFF parmi ceux-ci selon le modèle conceptuel de Virginia Henderson",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Dormir et se reposer"
+        },
+        {
+         "letter": "B",
+         "text": "Éliminer les déchets biologiques"
+        },
+        {
+         "letter": "C",
+         "text": "Maintenir la température dans les limites de la normale"
+        },
+        {
+         "letter": "D",
+         "text": "Éviter les dangers"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Maintenir la température dans les limites de la normale",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Avec 40 °C depuis plus de 3 jours, le besoin le plus perturbé est « maintenir la température du corps dans les limites de la normale ». Le cours relie l'hyperthermie d'origine infectieuse à ce besoin.\n\nSource : Cours de sémiologie médicale et pathologies respiratoires, plan de soins d'un patient atteint de pneumonie (besoin : maintenir la température du corps dans les limites de la normale)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__10",
+       "num": "11",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les éléments suivants, indiquez la complication de la cirrhose du foie liée à l'hypertension portale :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Ascite"
+        },
+        {
+         "letter": "B",
+         "text": "Hépatite virale"
+        },
+        {
+         "letter": "C",
+         "text": "Ictère grave"
+        },
+        {
+         "letter": "D",
+         "text": "Abcès du foie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Ascite",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'ascite est le plus souvent la conséquence de l'hypertension portale associée à la rétention hydro-sodée de l'insuffisance hépatique ; le syndrome œdémato-ascitique est l'accident évolutif le plus fréquent de la cirrhose. L'ictère grave relève de l'insuffisance hépatocellulaire ; l'hépatite virale est une cause, non une complication.\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Sémiologie hépatique (5.3 Hypertension portale, 5.4 Ascite) et Cirrhose décompensée",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__11",
+       "num": "12",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Vous recevez SSS pour une sensation de faim douloureuse épigastrique évoluant par poussées, rythmée par les repas. SSS souffre de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Reflux gastro-œsophagien"
+        },
+        {
+         "letter": "B",
+         "text": "Ulcère gastrique"
+        },
+        {
+         "letter": "C",
+         "text": "Pancréatite aiguë"
+        },
+        {
+         "letter": "D",
+         "text": "Gastrite"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Ulcère gastrique",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le syndrome ulcéreux typique est une douleur épigastrique à type de crampe ou de faim douloureuse, calmée par les aliments, rythmée par les repas et évoluant par poussées : c'est l'ulcère gastroduodénal. Le RGO donne surtout un pyrosis, la pancréatite une douleur en barre transfixiante.\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Ulcère gastro-duodénal et gastrite, III. Diagnostic positif (syndrome ulcéreux typique)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__12",
+       "num": "13",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'un des signes cliniques suivants se rencontre dans l'insuffisance cardiaque gauche, identifiez-le",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Œdème des membres inférieurs"
+        },
+        {
+         "letter": "B",
+         "text": "Asthénie intense"
+        },
+        {
+         "letter": "C",
+         "text": "Turgescence des jugulaires"
+        },
+        {
+         "letter": "D",
+         "text": "Orthopnée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Orthopnée",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Dans l'insuffisance ventriculaire gauche, le sang stagne en amont, dans les poumons : la dyspnée domine (dyspnée d'effort, puis de décubitus = orthopnée), avec toux et expectorations. Les œdèmes des membres inférieurs et la turgescence des jugulaires sont des signes d'insuffisance cardiaque droite.\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Affections du myocarde, A. Insuffisance ventriculaire gauche (physiopathologie et signes cliniques) ; Cours de sémiologie médicale et pathologies respiratoires, dyspnée de décubitus",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__13",
+       "num": "14",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La rage est une maladie infectieuse d'origine :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Bactérienne"
+        },
+        {
+         "letter": "B",
+         "text": "Parasitaire"
+        },
+        {
+         "letter": "C",
+         "text": "Mycosique"
+        },
+        {
+         "letter": "D",
+         "text": "Virale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Virale",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La rage est une maladie virale grave des mammifères dont l'homme, due à un virus qui provoque une encéphalite ; c'est une zoonose transmise surtout par morsure.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), La rage, I. Définition",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__14",
+       "num": "15",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle des affections suivantes est une étiologie du reflux gastro-œsophagien ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La sclérodermie"
+        },
+        {
+         "letter": "B",
+         "text": "Pancréatite aiguë"
+        },
+        {
+         "letter": "C",
+         "text": "La régurgitation"
+        },
+        {
+         "letter": "D",
+         "text": "La gastrite"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La sclérodermie",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours cite parmi les étiologies particulières du RGO les maladies de système altérant le muscle lisse, dont la sclérodermie (qui diminue la pression du sphincter inférieur de l'œsophage). La régurgitation est un symptôme du RGO, non une cause.\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Le reflux gastro-œsophagien, 3.2 Étiologies particulières",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__15",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La période d'incubation lors de l'infestation par le virus de l'hépatite B est en moyenne de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "50 à 150 jours"
+        },
+        {
+         "letter": "B",
+         "text": "15 à 90 jours"
+        },
+        {
+         "letter": "C",
+         "text": "30 à 100 jours"
+        },
+        {
+         "letter": "D",
+         "text": "15 à 45 jours"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 50 à 150 jours",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'incubation de l'hépatite B est longue : en moyenne de 50 à 150 jours (environ 2 à 3 mois), plus longue que celle de l'hépatite A (15 à 45 jours). (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La contamination par le virus de l'hépatite B (choisissez la bonne réponse) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Peut être faite par l'eau polluée par le virus"
+        },
+        {
+         "letter": "B",
+         "text": "Fait partie des infections non transmissibles"
+        },
+        {
+         "letter": "C",
+         "text": "Peut être faite par la voie digestive"
+        },
+        {
+         "letter": "D",
+         "text": "Doit faire rechercher systématiquement une infection par le virus VIH et la syphilis"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Doit faire rechercher systématiquement une infection par le virus VIH et la syphilis",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "L'hépatite B fait partie des infections sexuellement transmissibles et doit faire rechercher systématiquement une infection par le VIH et les autres IST (syphilis). La transmission par l'eau ou la voie digestive concerne les hépatites A et E.\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Hépatites virales, IV. Virus de l'hépatite B",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__17",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les maladies virales pouvant être transmises par voie sexuelle on trouve principalement :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hépatite à virus B"
+        },
+        {
+         "letter": "B",
+         "text": "Hépatite à virus A"
+        },
+        {
+         "letter": "C",
+         "text": "Hépatite à virus C"
+        },
+        {
+         "letter": "D",
+         "text": "Hépatite médicamenteuse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Hépatite à virus B",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Parmi les hépatites, c'est le VHB qui se transmet principalement par voie sexuelle (avec la voie périnatale et le sang). Le VHA se transmet par voie féco-orale et le VHC principalement par voie parentérale (sang).\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Hépatites virales (II. VHA, IV. VHB, V. VHC)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle est la proposition juste parmi les suivantes concernant l'asthme ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'asthme se manifeste par une dyspnée expiratoire"
+        },
+        {
+         "letter": "B",
+         "text": "Cette dyspnée est à recrudescence diurne"
+        },
+        {
+         "letter": "C",
+         "text": "Une toux est souvent associée à la dyspnée"
+        },
+        {
+         "letter": "D",
+         "text": "L'asthme se manifeste par une dyspnée inspiratoire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. L'asthme se manifeste par une dyspnée expiratoire",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'asthme se traduit par une bradypnée expiratoire sifflante : l'expiration est lente, pénible et longue. La crise survient généralement la nuit (et non le jour) ; la dyspnée n'est pas inspiratoire.\n\nSource : Cours de sémiologie médicale et pathologies respiratoires, L'asthme (3.1 Définition, 3.3 Tableau clinique)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La voie de contamination prédominante du sida est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La voie sexuelle"
+        },
+        {
+         "letter": "B",
+         "text": "La voie transplacentaire"
+        },
+        {
+         "letter": "C",
+         "text": "La voie sanguine"
+        },
+        {
+         "letter": "D",
+         "text": "L'allaitement maternel"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La voie sexuelle",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La voie sexuelle est la voie de contamination la plus fréquente du VIH dans le monde ; les voies sanguine et mère-enfant (transplacentaire, allaitement) existent mais sont moins fréquentes. (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La mise au point d'un vaccin contre le sida s'avère difficile car",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le VIH est un rétrovirus"
+        },
+        {
+         "letter": "B",
+         "text": "Le VIH est différent d'un individu à l'autre"
+        },
+        {
+         "letter": "C",
+         "text": "Le VIH s'attaque au système immunitaire de l'individu"
+        },
+        {
+         "letter": "D",
+         "text": "Le VIH effectue des mutations fréquentes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Le VIH effectue des mutations fréquentes",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le VIH est un rétrovirus dont la transcriptase inverse fait beaucoup d'erreurs : le virus mute très souvent et change ses protéines d'enveloppe, ce qui empêche le vaccin de produire une immunité durable contre toutes les variantes. Être un rétrovirus ou attaquer le système immunitaire n'est pas en soi la raison principale. (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le sida est une (cochez la bonne réponse) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Pandémie"
+        },
+        {
+         "letter": "B",
+         "text": "Épidémie"
+        },
+        {
+         "letter": "C",
+         "text": "Épizootie"
+        },
+        {
+         "letter": "D",
+         "text": "Endémie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Pandémie",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le sida touche tous les continents à la fois : c'est une pandémie (le cours de tuberculose parle de « pandémie du VIH »). L'épidémie est limitée dans le temps et l'espace, l'endémie est permanente dans une région, l'épizootie concerne les animaux.\n\nSource : Tuberculose, Intérêts (intérêt épidémiologique : pandémie du VIH)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquez le signe clinique habituel de la dysenterie à shigella (dysenterie bacillaire)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Ulcérations de la muqueuse colique"
+        },
+        {
+         "letter": "B",
+         "text": "Fièvre"
+        },
+        {
+         "letter": "C",
+         "text": "Diarrhée glaireuse, sanglante"
+        },
+        {
+         "letter": "D",
+         "text": "Éruption cutanée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Diarrhée glaireuse, sanglante",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le signe habituel de la shigellose est une diarrhée glairo-muco-sanglante, afécale, avec épreintes et ténesme. La fièvre est présente dès l'invasion mais n'est pas spécifique ; les ulcérations coliques sont une lésion vue à l'endoscopie, pas un signe clinique.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Les syndromes dysentériques, II. Shigellose (2-2-2 Période d'état)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'ensemble de signes qui caractérise le mieux le syndrome dysentérique est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Diarrhée de selles pâteuses intermittentes avec douleurs abdominales diffuses"
+        },
+        {
+         "letter": "B",
+         "text": "Diarrhée graisseuse avec amaigrissement progressif"
+        },
+        {
+         "letter": "C",
+         "text": "Diarrhée aqueuse abondante accompagnée de vomissements et de déshydratation"
+        },
+        {
+         "letter": "D",
+         "text": "Diarrhée glairo-sanglante avec épreintes et ténesme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Diarrhée glairo-sanglante avec épreintes et ténesme",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le syndrome dysentérique associe une diarrhée glaireuse, parfois sanglante, avec douleurs abdominales, épreintes, ténesme et faux besoins. La diarrhée aqueuse abondante avec vomissements est le syndrome cholériforme ; la diarrhée graisseuse oriente vers une insuffisance pancréatique.\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Sémiologie digestive (« Syndrome cholériforme ou dysentérique ? »)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'origine d'une hématémèse peut être :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le gastre (l'estomac)"
+        },
+        {
+         "letter": "B",
+         "text": "Le côlon transverse"
+        },
+        {
+         "letter": "C",
+         "text": "La bouche"
+        },
+        {
+         "letter": "D",
+         "text": "Le sigmoïde"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Le gastre (l'estomac)",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'hématémèse est le rejet de sang par la bouche lors d'un effort de vomissement ; elle traduit une hémorragie digestive haute (ulcère gastroduodénal, varices œsophagiennes…), donc l'estomac (« gastre ») peut en être l'origine. Le côlon et le sigmoïde saignent par l'anus ; la bouche n'est pas une origine d'hématémèse.\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Sémiologie digestive, 3.3 Vomissements (Hématémèse)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le méléna est une émission par l'anus de sang digéré",
+       "options": [
+        {
+         "letter": "A",
+         "text": "spumeux et fétide"
+        },
+        {
+         "letter": "B",
+         "text": "noir et fétide"
+        },
+        {
+         "letter": "C",
+         "text": "rouge et fétide"
+        },
+        {
+         "letter": "D",
+         "text": "ocre et fétide"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. noir et fétide",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le méléna est l'émission par l'anus de sang digéré, noir et fétide ; il témoigne d'un saignement situé en amont du côlon droit (« vieux sang »).\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Sémiologie digestive, 3.3 Vomissements (Hématémèse et méléna)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'expectoration est le produit des sécrétions",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Pharyngées"
+        },
+        {
+         "letter": "B",
+         "text": "Rhinopharyngées"
+        },
+        {
+         "letter": "C",
+         "text": "Œsophagiennes"
+        },
+        {
+         "letter": "D",
+         "text": "Pulmonaires"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Pulmonaires",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "L'expectoration est le rejet par la bouche, lors de la toux, des sécrétions provenant des voies respiratoires inférieures (bronches et poumons). Les sécrétions pharyngées, rhinopharyngées ou œsophagiennes ne constituent pas une expectoration. (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La colique désigne :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "l'inflammation d'un organe creux"
+        },
+        {
+         "letter": "B",
+         "text": "les contractures répétées d'un organe creux"
+        },
+        {
+         "letter": "C",
+         "text": "les contractures répétées d'un organe"
+        },
+        {
+         "letter": "D",
+         "text": "l'inflammation d'un organe plein"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. les contractures répétées d'un organe creux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Une colique est une douleur due à des contractions répétées d'un organe creux (tube digestif, voies urinaires, voies biliaires…). Il ne faut pas la confondre avec la colite, qui est une inflammation du côlon.\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Sémiologie digestive, 4.3 Douleur colique (« Colique ou colite ? »)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'un des signes suivants peut être associé à un syndrome dyspepsique :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La diarrhée"
+        },
+        {
+         "letter": "B",
+         "text": "Le ballonnement"
+        },
+        {
+         "letter": "C",
+         "text": "Le vomissement"
+        },
+        {
+         "letter": "D",
+         "text": "La constipation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Le ballonnement",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le syndrome dyspepsique associe des symptômes vagues : inconfort, pesanteur, ballonnement, plénitude gastrique, digestion prolongée.\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Sémiologie digestive, 3.5 Le syndrome dyspepsique",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'épreinte est une",
+       "options": [
+        {
+         "letter": "A",
+         "text": "colique qui apparaît après l'évacuation du rectum"
+        },
+        {
+         "letter": "B",
+         "text": "envie impérieuse d'aller à la selle avec douleur abdominale"
+        },
+        {
+         "letter": "C",
+         "text": "douleur intense de l'anus avec selles glaireuses"
+        },
+        {
+         "letter": "D",
+         "text": "dyspepsie accompagnée de fausses selles"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. envie impérieuse d'aller à la selle avec douleur abdominale",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'épreinte est une douleur abdominale à type de colique (contraction douloureuse et répétitive du côlon) qui s'achève par une envie pressante et impérieuse d'aller à la selle. Le ténesme, lui, est une contraction douloureuse de l'anus, avant ou après l'évacuation du rectum.\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Sémiologie digestive (Épreinte, Ténesme)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La colique néphrétique est une",
+       "options": [
+        {
+         "letter": "A",
+         "text": "douleur de distension aiguë de la voie excrétrice"
+        },
+        {
+         "letter": "B",
+         "text": "douleur atroce vésicale et hépatique"
+        },
+        {
+         "letter": "C",
+         "text": "douleur pénible de l'angle costo-vertébral et lombaire"
+        },
+        {
+         "letter": "D",
+         "text": "douleur intense et paroxystique sus-pubienne"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. douleur de distension aiguë de la voie excrétrice",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La colique néphrétique est un syndrome douloureux traduisant la mise en tension aiguë de la voie excrétrice au-dessus d'un obstacle (le plus souvent un calcul). La douleur est lombaire, unilatérale, irradiant vers les organes génitaux, et non vésicale ou sus-pubienne.\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Lithiase urinaire, IV. Manifestations cliniques",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La pollakiurie est une augmentation de la fréquence des mictions avec diurèse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "perturbée"
+        },
+        {
+         "letter": "B",
+         "text": "augmentée"
+        },
+        {
+         "letter": "C",
+         "text": "conservée"
+        },
+        {
+         "letter": "D",
+         "text": "diminuée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. conservée",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La pollakiurie est l'augmentation de la fréquence des mictions avec une diurèse (volume total d'urines sur 24 h) conservée : le patient urine souvent, mais peu à chaque fois. Si la diurèse augmente, on parle de polyurie. (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans l'oligurie chez l'adulte, la diurèse est comprise entre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "100 ml et 700 ml par 24 heures"
+        },
+        {
+         "letter": "B",
+         "text": "100 ml et 300 ml par 24 heures"
+        },
+        {
+         "letter": "C",
+         "text": "100 ml et 500 ml par 24 heures"
+        },
+        {
+         "letter": "D",
+         "text": "100 ml et 900 ml par 24 heures"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 100 ml et 500 ml par 24 heures",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Chez l'adulte, l'oligurie correspond à une diurèse inférieure à 500 ml par 24 heures ; en dessous de 100 ml, on parle d'anurie.\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Insuffisance rénale aiguë, III. Physiopathologie (oligurie : volume quotidien < 500 ml)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'hématurie est la présence de",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hémoglobines dans les urines"
+        },
+        {
+         "letter": "B",
+         "text": "Leucocytes dans les urines"
+        },
+        {
+         "letter": "C",
+         "text": "Bilirubines dans les urines"
+        },
+        {
+         "letter": "D",
+         "text": "Hématies dans les urines"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Hématies dans les urines",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "L'hématurie est la présence de sang, c'est-à-dire d'hématies (globules rouges), dans les urines. L'hémoglobinurie est la présence d'hémoglobine libre, la leucocyturie celle de leucocytes. (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La présence d'albumine dans les urines est la",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Acétonurie"
+        },
+        {
+         "letter": "B",
+         "text": "Protéinurie"
+        },
+        {
+         "letter": "C",
+         "text": "Myoglobinurie"
+        },
+        {
+         "letter": "D",
+         "text": "Pneumaturie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Protéinurie",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'albumine est une protéine : sa présence dans les urines est une protéinurie (dans le syndrome néphrotique, la fuite de protéines porte notamment sur l'albumine). L'acétonurie concerne les corps cétoniques, la myoglobinurie la myoglobine, la pneumaturie l'émission de gaz dans les urines.\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Syndrome néphrotique, II. Physiopathologie",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle des affirmations suivantes est exacte ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'origine de la lésion, dans l'hématurie initiale, est urétérale"
+        },
+        {
+         "letter": "B",
+         "text": "L'origine de la lésion, dans l'hématurie initiale, est urétrale"
+        },
+        {
+         "letter": "C",
+         "text": "L'origine de la lésion, dans l'hématurie totale, est prostatique"
+        },
+        {
+         "letter": "D",
+         "text": "L'origine de la lésion, dans l'hématurie terminale, est rénale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. L'origine de la lésion, dans l'hématurie initiale, est urétrale",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans l'épreuve des trois verres, l'hématurie initiale (1er verre) traduit une lésion de l'urètre (ou de la prostate), l'hématurie terminale (3e verre) une lésion vésicale (col de la vessie), l'hématurie totale une origine rénale ou haute. Les autres propositions inversent ces origines. (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une douleur thoracique déclarée par le client est un signe",
+       "options": [
+        {
+         "letter": "A",
+         "text": "subjectif d'une pathologie respiratoire ou cardiaque"
+        },
+        {
+         "letter": "B",
+         "text": "physique d'une pathologie respiratoire ou cardiaque"
+        },
+        {
+         "letter": "C",
+         "text": "paraclinique d'une pathologie respiratoire ou cardiaque"
+        },
+        {
+         "letter": "D",
+         "text": "objectif d'une pathologie respiratoire ou cardiaque"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. subjectif d'une pathologie respiratoire ou cardiaque",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Une douleur rapportée par le patient est un signe subjectif (un symptôme fonctionnel) : on ne peut ni la voir ni la mesurer directement. Le cours classe la douleur thoracique parmi les symptômes fonctionnels de la pathologie respiratoire. Les signes physiques et objectifs sont constatés par l'examinateur ; les signes paracliniques viennent des examens.\n\nSource : Cours de sémiologie médicale et pathologies respiratoires, Les principaux symptômes, I. Les symptômes fonctionnels (1-2-6 Douleur thoracique)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'hémoptysie est du sang rouge qui survient après un effort de toux et qui provient de l'étage moyen",
+       "options": [
+        {
+         "letter": "A",
+         "text": "du pharynx"
+        },
+        {
+         "letter": "B",
+         "text": "de la trachée"
+        },
+        {
+         "letter": "C",
+         "text": "du larynx"
+        },
+        {
+         "letter": "D",
+         "text": "de la glotte"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. de la trachée",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'hémoptysie est le rejet par la bouche de sang rouge provenant des voies aériennes sous-glottiques, après un effort de toux. La trachée fait partie de ces voies sous-glottiques.\n\nSource : Cours de sémiologie médicale et pathologies respiratoires, 1-2-3 Hémoptysie ; Sémiologie respiratoire, IV. L'hémoptysie",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La dyspnée avec rythme respiratoire sans pause",
+       "options": [
+        {
+         "letter": "A",
+         "text": "inférieure à 16 cycles est une orthopnée"
+        },
+        {
+         "letter": "B",
+         "text": "inférieure à 10 cycles est une bradypnée"
+        },
+        {
+         "letter": "C",
+         "text": "inférieure à 16 cycles est une apnée"
+        },
+        {
+         "letter": "D",
+         "text": "supérieure à 10 cycles est une tachypnée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. inférieure à 10 cycles est une bradypnée",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La bradypnée est un ralentissement du rythme respiratoire (fréquence très basse, ici moins de 10 cycles/min), alors que la polypnée ou tachypnée est une accélération. L'apnée est l'arrêt complet de la respiration (donc avec pause), et l'orthopnée est une dyspnée en position couchée, sans lien avec la fréquence.\n\nSource : Cours de sémiologie médicale et pathologies respiratoires, 1-2-5 La dyspnée et 1-2-7 L'apnée",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les précordialgies cardiaques sont d'origine :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Neurologique"
+        },
+        {
+         "letter": "B",
+         "text": "Psychosomatique"
+        },
+        {
+         "letter": "C",
+         "text": "Ischémique"
+        },
+        {
+         "letter": "D",
+         "text": "Pleuropulmonaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Ischémique",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les précordialgies d'origine cardiaque sont surtout ischémiques : l'angine de poitrine et l'infarctus du myocarde sont dus à une baisse de l'apport en oxygène au myocarde par atteinte des coronaires (cardiopathies ischémiques).\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Les maladies cardiovasculaires, I. Les maladies des coronaires (angine de poitrine)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__40",
+       "num": "41",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Schistosoma mansoni est responsable d'une bilharziose intestinale et parfois hépatosplénique",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "À la phase d'état, la bilharziose à Schistosoma mansoni est dominée par les manifestations intestinales (selles molles, glaireuses, parfois sanglantes) et hépatospléniques (gros foie, grosse rate).\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Les bilharzioses, 2-3-2 Bilharziose à Schistosoma mansoni",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__41",
+       "num": "42",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Devant un seul cas de choléra, l'IDE n'est pas obligé d'informer son supérieur hiérarchique",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "C'est FAUX : le choléra est une maladie à déclaration obligatoire. Même un seul cas doit être signalé sans délai à la hiérarchie (et aux autorités sanitaires) pour déclencher les mesures de lutte contre l'épidémie.\n\nSource : Cours de maladies infectieuses et parasitaires, Choléra, 1. Définition (maladie à déclaration obligatoire)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__42",
+       "num": "43",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Schistosoma haematobium est l'agent pathogène de la bilharziose uro-génitale",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "S. haematobium est l'agent de la bilharziose uro-génitale : son signe évocateur est l'hématurie terminale, capricieuse, douloureuse, avec des signes de cystite.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Les bilharzioses, 2-3-1 Bilharziose à Schistosoma haematobium",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__43",
+       "num": "44",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les serpents sont tous zoophages",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours le dit textuellement : les serpents sont tous zoophages (ils se nourrissent d'animaux).\n\nSource : Cours de venimologie générale, II.1 Biologie des ophidiens",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__44",
+       "num": "45",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La plupart des serpents sont ovipares mais certains sont ovovivipares",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours le dit textuellement : la plupart des serpents sont ovipares, mais certains sont ovovivipares, surtout dans les régions froides.\n\nSource : Cours de venimologie générale, II.1 Biologie des ophidiens",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__45",
+       "num": "46",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les diabètes types 1 et 2, l'installation de la gangrène au pied est l'une des complications invalidantes et redoutables de ces affections",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "C'est VRAI : le diabète (types 1 et 2) favorise l'artériopathie des membres inférieurs, dont le stade ultime comporte des troubles trophiques et la gangrène ; l'amputation des membres inférieurs fait partie des conséquences majeures du diabète.\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Artériopathie oblitérante des membres inférieurs (stade IV, complications) ; Documents de révision L3 Médecine, Partie II, chapitre 1 Le diabète",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__46",
+       "num": "47",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'une des complications de l'HTA est l'AVC ischémique",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction retient FAUX. Pourtant, le cours range l'AVC dû à une ischémie cérébrale parmi les complications cérébrales de l'HTA (avec l'accident ischémique transitoire).\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Hypertension artérielle, 6.2 Complications sur le cerveau",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__47",
+       "num": "48",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La maturation des éruptions varicelleuses se fait comme suit : macules rosées, puis vésicules, puis croûtes en trois jours",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans la varicelle, l'éruption commence par des macules rosées, puis des papules surmontées en 24 h d'une vésicule « en goutte de rosée » qui se dessèche en 48 h ; une croûte apparaît vers le 3e-4e jour. L'éruption évolue donc de la macule à la croûte en quelques jours.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Varicelle-Zona, phase d'état de la varicelle",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__48",
+       "num": "49",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "On parle de déshydratation moyenne lorsque la perte hydrique est inférieure à 5% du poids corporel",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction retient VRAI. Le cours, lui, classe la déshydratation selon la perte de poids : légère si < 5 %, moyenne (modérée) entre 5 et 10 %, sévère si > 10 %.\n\nSource : Cours de maladies infectieuses et parasitaires, Choléra, 2.3 Phase d'état (stades de la déshydratation)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__49",
+       "num": "50",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'euthanasie est un droit du soignant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "C'est FAUX : le soignant n'a pas le droit de provoquer délibérément la mort. Les soins palliatifs ne cherchent ni à accélérer ni à repousser la mort, mais à soulager et à préserver la meilleure qualité de vie jusqu'au décès.\n\nSource : Gériatrie PP L2, chapitre II Soins palliatifs (généralités)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__50",
+       "num": "51",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'OMS recommande avant tout traitement de paludisme de faire un TDR ou la recherche des plasmodiums par microscopie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "C'est VRAI : avant de traiter, le paludisme doit être confirmé par un test de diagnostic rapide (TDR) ou par la microscopie (goutte épaisse et frottis sanguin), qui est l'examen de référence.\n\nSource : Cours de maladies infectieuses et parasitaires, Paludisme, V. Diagnostic (TDR, microscopie)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__51",
+       "num": "52",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le terme néphropathie gravidique « ajoutée » désigne les accidents gravidiques survenant chez les femmes atteintes d'hypertension ou de néphropathie préexistante",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours le définit ainsi : la néphropathie gravidique « ajoutée » désigne les accidents gravidiques survenant chez les femmes atteintes d'hypertension ou de néphropathie préexistante. Elle apparaît dès les premiers mois, peut survenir à n'importe quelle grossesse et récidive.\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, La néphropathie gravidique (néphropathie gravidique « ajoutée »)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__52",
+       "num": "53",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans l'épreuve des trois verres, s'il y a du sang dans le troisième verre, l'hématurie est d'origine vésicale",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction retient FAUX. En sémiologie, le sang dans le 3e verre correspond à une hématurie terminale, classiquement d'origine vésicale (col de la vessie) ; c'est d'ailleurs le type d'hématurie de la bilharziose uro-génitale, qui atteint la vessie.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Bilharziose à S. haematobium (hématurie terminale) ; Cours de venimologie générale, exercices de néphro-urologie (hématurie)",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__53",
+       "num": "54",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le RAA est une maladie qui « mord le cœur et lèche les articulations »",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Cet adage décrit bien le RAA : les manifestations articulaires sont bruyantes mais sans gravité ni séquelles (il « lèche les articulations »), tandis que l'atteinte cardiaque est discrète mais grave et seule à laisser des séquelles (il « mord le cœur »).\n\nSource : Cours de maladies infectieuses et parasitaires, Rhumatisme articulaire aigu, I. Définition et II. Étude clinique",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j2-ide3__54",
+       "num": "55",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une morsure de serpent n'entraîne pas toujours d'envenimation et celle-ci n'évolue pas inéluctablement vers la mort, même en l'absence de traitement.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours le dit textuellement : une morsure de serpent n'entraîne pas toujours d'envenimation (morsure « sèche »), et celle-ci n'évolue pas inéluctablement vers la mort, même sans traitement.\n\nSource : Cours de venimologie générale, II.4 Signes cliniques et prise en charge des morsures de serpents",
+       "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
