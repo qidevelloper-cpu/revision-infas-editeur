@@ -218,7 +218,8 @@
        "explanation": "L'agent de la fièvre typhoïde est Salmonella typhi (et S. paratyphi A, B, C pour les fièvres paratyphoïdes). Haemophilus influenzae et le bacille de Klebs-Loeffler (diphtérie) causent d'autres maladies.\n\nSource : Cours de maladies infectieuses et parasitaires, Fièvre typhoïde, 2a. Agent pathogène",
        "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
        "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": true
       },
       {
        "id": "j-preparation-de__prepa-med-j2-ide3__5",
@@ -1472,7 +1473,8 @@
        "explanation": "L'hémoptysie est le rejet par la bouche de sang rouge provenant des voies aériennes sous-glottiques, après un effort de toux. La trachée fait partie de ces voies sous-glottiques.\n\nSource : Cours de sémiologie médicale et pathologies respiratoires, 1-2-3 Hémoptysie ; Sémiologie respiratoire, IV. L'hémoptysie",
        "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
        "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": true
       },
       {
        "id": "j-preparation-de__prepa-med-j2-ide3__38",
@@ -1758,7 +1760,8 @@
        "explanation": "La correction retient FAUX. Pourtant, le cours range l'AVC dû à une ischémie cérébrale parmi les complications cérébrales de l'HTA (avec l'accident ischémique transitoire).\n\nSource : Cours Médecine IDE 2 INFAS actualisé 2020, Hypertension artérielle, 6.2 Complications sur le cerveau",
        "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
        "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": true
       },
       {
        "id": "j-preparation-de__prepa-med-j2-ide3__47",
@@ -1818,7 +1821,8 @@
        "explanation": "La correction retient VRAI. Le cours, lui, classe la déshydratation selon la perte de poids : légère si < 5 %, moyenne (modérée) entre 5 et 10 %, sévère si > 10 %.\n\nSource : Cours de maladies infectieuses et parasitaires, Choléra, 2.3 Phase d'état (stades de la déshydratation)",
        "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
        "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": true
       },
       {
        "id": "j-preparation-de__prepa-med-j2-ide3__49",
@@ -1938,7 +1942,8 @@
        "explanation": "La correction retient FAUX. En sémiologie, le sang dans le 3e verre correspond à une hématurie terminale, classiquement d'origine vésicale (col de la vessie) ; c'est d'ailleurs le type d'hématurie de la bilharziose uro-génitale, qui atteint la vessie.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Bilharziose à S. haematobium (hématurie terminale) ; Cours de venimologie générale, exercices de néphro-urologie (hématurie)",
        "sourceDoc": "Prépa D.E — J2 Médecine IDE3 (corrigé expliqué)",
        "sourceFile": "J2_MEDECINE_IDE3_J2_corrige_explique.pdf",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": true
       },
       {
        "id": "j-preparation-de__prepa-med-j2-ide3__53",

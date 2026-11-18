@@ -192,7 +192,8 @@
        "explanation": "Syntocinon et misoprostol servent au déclenchement et à la prévention de l'HPP ; l'amoxicilline-acide clavulanique traite la chorioamniotite. Le Célestène (maturation pulmonaire) n'a pas d'intérêt quand le fœtus est mort ; un antispasmodique n'est pas indiqué.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan) ; MAP – Menace d'accouchement prématuré (PDF) (Célestène = maturation pulmonaire)",
        "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
        "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": true
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j2-sf3__4",
@@ -231,7 +232,8 @@
        "explanation": "Le cours SSR cite la MAMA et le DIU au cuivre parmi les méthodes du post-partum ; le DIU peut être posé dans les 48 heures après l'accouchement (post-partum immédiat).\n\nSource : Document SSR L2 SF 2021, Contraception du post-partum et DIUPP",
        "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
        "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": true
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j2-sf3__5",
@@ -496,7 +498,8 @@
        "explanation": "Pour un nouveau-né de mère porteuse de l'AgHBs, le cours prévoit dès la naissance une dose de sérum anti-hépatite B et une dose de vaccin en IM sur deux sites différents (sérovaccination). L'allaitement n'est pas contre-indiqué.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Prévention de l'HVB – 3e cas : après l'accouchement",
        "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
        "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": true
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j2-sf3__12",
@@ -1571,7 +1574,8 @@
        "explanation": "Le traitement antiviral n'est pas systématique pour toute porteuse de l'AgHBs : il dépend de la réplication virale, et la prévention repose aussi sur la sérovaccination du nouveau-né.\n\nSource : (explication hors cours du projet)",
        "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
        "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": true
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j2-sf3__40",
@@ -1631,7 +1635,8 @@
        "explanation": "En cas de rétention de la tête dernière, on utilise la manœuvre de Mauriceau (ou Bracht si la tête est bien fléchie).\n\nSource : SONU L3, Accouchement du siège (p. 72-78)",
        "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
        "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": true
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j2-sf3__42",
@@ -2051,7 +2056,8 @@
        "explanation": "La rubéole se prévient par la vaccination avant la grossesse et l'éviction des contacts avec les malades.\n\nSource : Gynécologie-Obstétrique L3 (Pr Djanhan), Rubéole et grossesse",
        "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
        "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": true
       }
      ]
     }
