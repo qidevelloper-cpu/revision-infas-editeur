@@ -1,0 +1,2205 @@
+{
+ "app": "xmvkq4zed",
+ "id": "z-sj-prepa-ssrpf-j2-sf3",
+ "titre": "Préparation D.E (J) · J2 SSR/PF MAN SF3",
+ "session": "J",
+ "annee": 2026,
+ "nq": 60,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+   "sha256": "18a54b7581f49f32832e182be818003dc7927d39e06d86feb463185cacb04aa9"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J SSR / PF · Prépa D.E J2 (MAN SF3)",
+     "slug": "prepa-ssrpf-j2-sf3",
+     "pages": "",
+     "count": 60,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "SSR / PF",
+     "source": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__0",
+       "num": "1",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "Quel est le premier objectif de l'entretien de counseling ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Éviter de discuter des effets secondaires"
+        },
+        {
+         "letter": "B",
+         "text": "Imposer immédiatement le Depo-Provera"
+        },
+        {
+         "letter": "C",
+         "text": "Comprendre les besoins et préférences de Mme BOA"
+        },
+        {
+         "letter": "D",
+         "text": "Obtenir son consentement sans lui donner d'information"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Comprendre les besoins et préférences de Mme BOA",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le counseling est un entretien conseil centré sur les besoins individuels de chaque cliente : il l'aide à arriver à un choix éclairé et à choisir une méthode qui lui convient. Imposer une méthode, éviter les effets secondaires ou obtenir un consentement sans information vont à l'encontre de ses principes (liberté de choix, consentement éclairé).\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 6 Counseling en PF, p. 21-22",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__1",
+       "num": "2",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "Parmi les éléments suivants, lesquels contribuent au choix éclairé d'une méthode ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Sécurité et critères d'éligibilité"
+        },
+        {
+         "letter": "B",
+         "text": "Toutes les propositions de réponse"
+        },
+        {
+         "letter": "C",
+         "text": "Tolérance et effets secondaires possibles"
+        },
+        {
+         "letter": "D",
+         "text": "Préférence et possibilité de continuité"
+        },
+        {
+         "letter": "E",
+         "text": "Efficacité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Toutes les propositions de réponse",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le choix éclairé repose sur les qualités d'une méthode : efficacité, sécurité, tolérance (rareté des effets secondaires), coût, continuité, réversibilité, ainsi que sur les critères médicaux d'éligibilité et la préférence de la cliente. Chaque proposition est juste, d'où « Toutes les propositions de réponse ».\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 3 Généralités sur la contraception (qualités d'une méthode), p. 14 ; chap. 4 Critères médicaux d'éligibilité, p. 16",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__2",
+       "num": "3",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "Le Depo-Provera appartient à quelle catégorie de contraceptifs ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Méthode de barrière"
+        },
+        {
+         "letter": "B",
+         "text": "Contraceptif hormonal combiné oral"
+        },
+        {
+         "letter": "C",
+         "text": "Dispositif intra-utérin"
+        },
+        {
+         "letter": "D",
+         "text": "Contraceptif hormonal progestatif injectable"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Contraceptif hormonal progestatif injectable",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le Depo-Provera est un contraceptif injectable progestatif (CIP) : il contient uniquement un progestatif analogue à la progestérone, administré par voie parentérale. Ce n'est ni une méthode de barrière, ni une pilule combinée, ni un DIU.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 13 Contraceptifs hormonaux progestatifs (CHP), p. 68-69",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__3",
+       "num": "4",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "Quelle est la substance active généralement associée au Depo-Provera injectable ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Étonogestrel"
+        },
+        {
+         "letter": "B",
+         "text": "Éthinylestradiol seul"
+        },
+        {
+         "letter": "C",
+         "text": "Lévonorgestrel seul sous forme d'implant"
+        },
+        {
+         "letter": "D",
+         "text": "Acétate de médroxyprogestérone retard"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Acétate de médroxyprogestérone retard",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Dans le tableau des injectables progestatifs, la DCI du Depo-Provera est l'acétate de médroxyprogestérone retard (AMPR). L'étonogestrel est l'hormone de l'Implanon NXT, le lévonorgestrel celle de Jadelle ; l'éthinylestradiol est un œstrogène.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 13 CHP, tableau comparatif des injectables, p. 69",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__4",
+       "num": "5",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "Quelle dose correspond classiquement à l'injection intramusculaire de Depo-Provera ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "150 mg"
+        },
+        {
+         "letter": "B",
+         "text": "30 mg"
+        },
+        {
+         "letter": "C",
+         "text": "68 mg"
+        },
+        {
+         "letter": "D",
+         "text": "200 µg"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 150 mg",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le Depo-Provera est dosé à 150 mg par dose, en injection intramusculaire (bras ou fesse). 68 mg correspond à l'Implanon NXT et 200 mg au Noristérat (en mg, pas en µg).\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 13 CHP, tableaux comparatifs injectables et implants, p. 69-70",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__5",
+       "num": "6",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "Quel intervalle d'administration est habituellement associé au Depo-Provera injectable intramusculaire ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Toutes les quatre semaines"
+        },
+        {
+         "letter": "B",
+         "text": "Une fois par an"
+        },
+        {
+         "letter": "C",
+         "text": "Tous les six mois"
+        },
+        {
+         "letter": "D",
+         "text": "Environ 12 à 13 semaines"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Environ 12 à 13 semaines",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La durée d'action du Depo-Provera est de 3 mois : la cliente revient toutes les 12 semaines pour l'injection suivante (Noristérat : toutes les 8 semaines ; injectable combiné : tous les mois).\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 13 CHP, tableau des injectables p. 69 et instructions aux utilisatrices de CIP p. 83",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__6",
+       "num": "7",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "Quel élément doit être vérifié avant de décider du démarrage de la méthode ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les antécédents et la situation clinique pertinents"
+        },
+        {
+         "letter": "B",
+         "text": "Aucun élément clinique ni contraceptif"
+        },
+        {
+         "letter": "C",
+         "text": "Le choix du partenaire à la place de la cliente"
+        },
+        {
+         "letter": "D",
+         "text": "Uniquement la couleur des yeux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Les antécédents et la situation clinique pertinents",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Avant de démarrer une méthode, la consultation en PF recherche les antécédents médicaux, chirurgicaux, gynécologiques et obstétricaux, afin d'identifier les contre-indications et de s'assurer que la cliente n'est pas enceinte. C'est la cliente, et non le partenaire, qui choisit.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 7 Consultation en PF (buts et interrogatoire), p. 25-26",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__7",
+       "num": "8",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "À quatre semaines du post-partum, l'allaitement doit être pris en compte car :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le counseling n'est plus nécessaire"
+        },
+        {
+         "letter": "B",
+         "text": "Le choix de la méthode dépend notamment du délai post-partum et des critères médicaux"
+        },
+        {
+         "letter": "C",
+         "text": "Toutes les méthodes sont automatiquement interdites"
+        },
+        {
+         "letter": "D",
+         "text": "L'allaitement rend toute contraception inutile"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Le choix de la méthode dépend notamment du délai post-partum et des critères médicaux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le post-partum et l'allaitement font partie des situations classées par les critères médicaux d'éligibilité : le choix de la méthode et le moment de son démarrage en dépendent. L'allaitement ne rend pas la contraception inutile (la MAMA a des conditions strictes) et n'interdit pas toutes les méthodes.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 4 Critères médicaux d'éligibilité, p. 16 ; chap. 13 CHP, critères d'éligibilité, p. 73 Remarque : le cours classe « allaitement au sein avant 6 semaines du post-partum » en catégorie 3 pour les progestatifs (dont les injectables). Mme BOA, à 4 semaines et allaitante, est donc dans cette situation.",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__8",
+       "num": "9",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "La catégorie 1 des critères d'éligibilité médicale signifie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les risques l'emportent généralement sur les avantages"
+        },
+        {
+         "letter": "B",
+         "text": "Risques inacceptables pour la santé"
+        },
+        {
+         "letter": "C",
+         "text": "Méthode utilisable uniquement en milieu hospitalier"
+        },
+        {
+         "letter": "D",
+         "text": "Aucune restriction à l'utilisation de la méthode"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Aucune restriction à l'utilisation de la méthode",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Catégorie 1 = aucune restriction d'utilisation : la méthode peut être utilisée dans n'importe quelles circonstances.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 4 Critères médicaux d'éligibilité, système de classification, p. 16",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__9",
+       "num": "10",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "La catégorie 2 signifie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La méthode est définitive"
+        },
+        {
+         "letter": "B",
+         "text": "Aucune méthode ne peut être utilisée"
+        },
+        {
+         "letter": "C",
+         "text": "Les avantages l'emportent généralement sur les risques"
+        },
+        {
+         "letter": "D",
+         "text": "Les risques sont toujours inacceptables"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Les avantages l'emportent généralement sur les risques",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Catégorie 2 = les avantages l'emportent généralement sur les risques : on utilise généralement la méthode.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 4 Critères médicaux d'éligibilité, p. 16",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__10",
+       "num": "11",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "La catégorie 3 signifie généralement :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La méthode est obligatoire"
+        },
+        {
+         "letter": "B",
+         "text": "Aucune restriction d'utilisation"
+        },
+        {
+         "letter": "C",
+         "text": "Les risques l'emportent généralement sur les avantages ; une autre méthode est à privilégier si possible"
+        },
+        {
+         "letter": "D",
+         "text": "La méthode protège contre toutes les IST"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Les risques l'emportent généralement sur les avantages ; une autre méthode est à privilégier si possible",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Catégorie 3 = les risques l'emportent généralement sur les avantages : l'utilisation n'est généralement pas recommandée, à moins qu'aucune autre méthode ne soit disponible ou acceptable.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 4 Critères médicaux d'éligibilité, p. 16",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__11",
+       "num": "12",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "La catégorie 4 signifie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Risques inacceptables pour la santé ; la méthode ne doit pas être utilisée"
+        },
+        {
+         "letter": "B",
+         "text": "Aucune restriction d'utilisation"
+        },
+        {
+         "letter": "C",
+         "text": "Méthode toujours recommandée"
+        },
+        {
+         "letter": "D",
+         "text": "Méthode définitive uniquement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Risques inacceptables pour la santé ; la méthode ne doit pas être utilisée",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Catégorie 4 = risques inacceptables pour la santé : la méthode ne doit pas être utilisée.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 4 Critères médicaux d'éligibilité, p. 16",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__12",
+       "num": "13",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "Quelles informations sont pertinentes à communiquer à Mme BOA avant l'injection ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Mode d'action et efficacité"
+        },
+        {
+         "letter": "B",
+         "text": "Délai de la prochaine injection et conduite à tenir en cas de retard"
+        },
+        {
+         "letter": "C",
+         "text": "Effets secondaires possibles, notamment les changements de saignement"
+        },
+        {
+         "letter": "D",
+         "text": "Aucune information si elle a déjà choisi"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Mode d'action et efficacité ; B. Délai de la prochaine injection et conduite à tenir en cas de retard ; C. Effets secondaires possibles, notamment les changements de saignement",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "Avant l'injection, on explique le mode d'action et l'efficacité, la date exacte de la prochaine injection (notée sur la carte de rendez-vous) et la conduite en cas de retard, ainsi que les effets secondaires possibles (troubles des saignements, aménorrhée) qui ne sont pas graves. Même si la cliente a déjà choisi, l'information reste obligatoire (étape « Explications » du BERCER).\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 13 CHP, instructions aux utilisatrices de CIP, p. 83 ; chap. 6 Counseling (BERCER), p. 23",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__13",
+       "num": "14",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "Quel effet secondaire peut être observé avec un injectable progestatif ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Augmentation certaine de la fertilité pendant l'utilisation"
+        },
+        {
+         "letter": "B",
+         "text": "Modifications des saignements menstruels"
+        },
+        {
+         "letter": "C",
+         "text": "Stérilité définitive systématique"
+        },
+        {
+         "letter": "D",
+         "text": "Protection garantie contre les IST"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Modifications des saignements menstruels",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les troubles du cycle (spotting, aménorrhée, saignements irréguliers) sont les effets secondaires les plus fréquents des progestatifs, en particulier du Depo-Provera. Ils ne protègent pas contre les IST et ne rendent pas stérile : le retour de la fécondité est seulement retardé.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 13 CHP, limites, p. 72 ; Cours SR L2 2023, exercices (« Les troubles du cycle menstruel sont les effets secondaires les plus fréquents du DEPO-PROVERA »)",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__14",
+       "num": "15",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "Le Depo-Provera protège-t-il contre les IST/VIH ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Oui, complètement"
+        },
+        {
+         "letter": "B",
+         "text": "Oui, mais uniquement contre le VIH"
+        },
+        {
+         "letter": "C",
+         "text": "Oui, pendant trois mois"
+        },
+        {
+         "letter": "D",
+         "text": "Non, le préservatif reste indiqué pour la prévention des IST"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Non, le préservatif reste indiqué pour la prévention des IST",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le Depo-Provera ne protège pas contre les IST/VIH. Parmi toutes les méthodes contraceptives, seuls les préservatifs protègent des IST, y compris le VIH et le VHB.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 3 Généralités sur la contraception, p. 13 ; chap. 13 CHP, limites, p. 72",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__15",
+       "num": "16",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "Si Mme BOA souhaite aussi réduire le risque d'IST, quelle recommandation est pertinente ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Utiliser un préservatif en complément de la méthode choisie"
+        },
+        {
+         "letter": "B",
+         "text": "Éviter toute discussion sur les IST"
+        },
+        {
+         "letter": "C",
+         "text": "Remplacer le counseling par une injection"
+        },
+        {
+         "letter": "D",
+         "text": "Choisir obligatoirement un DIU"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Utiliser un préservatif en complément de la méthode choisie",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours recommande d'utiliser des préservatifs en plus des injectables si l'un des partenaires est à risque : c'est la double protection, discutée lors du counseling.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 13 CHP, instructions aux utilisatrices de CIP, p. 83 ; chap. 6 Counseling (REDI), p. 23-24",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__16",
+       "num": "17",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "La MAMA est une option contraceptive si :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'allaitement est mixte avec compléments réguliers et les règles sont revenues"
+        },
+        {
+         "letter": "B",
+         "text": "Le bébé a plus d'un an"
+        },
+        {
+         "letter": "C",
+         "text": "Le bébé a moins de six mois, la mère est aménorrhéique et l'allaitement est exclusif ou quasi exclusif"
+        },
+        {
+         "letter": "D",
+         "text": "Les règles ont repris"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Le bébé a moins de six mois, la mère est aménorrhéique et l'allaitement est exclusif ou quasi exclusif",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La MAMA n'est efficace que si les 3 conditions sont réunies : bébé de moins de 6 mois, femme aménorrhéique et allaitement exclusif (pas d'apport complémentaire, tétées fréquentes).\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 10 MAMA, conditions d'efficacité, p. 38",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__17",
+       "num": "18",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "Mme BOA peut-elle se fier à la MAMA si l'un des trois critères n'est plus rempli ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Oui, si elle allaite au moins une fois par jour"
+        },
+        {
+         "letter": "B",
+         "text": "Oui, sans réévaluation"
+        },
+        {
+         "letter": "C",
+         "text": "Oui, jusqu'au deuxième anniversaire du bébé"
+        },
+        {
+         "letter": "D",
+         "text": "Non, il faut proposer rapidement une autre méthode contraceptive"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Non, il faut proposer rapidement une autre méthode contraceptive",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Dès qu'une condition n'est plus remplie (retour des règles, apport alimentaire complémentaire ou espacement des tétées, bébé de 6 mois ou plus), la possibilité de grossesse augmente : il faut aider la cliente à choisir une autre méthode, tout en encourageant la poursuite de l'allaitement.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 10 MAMA, critères d'éligibilité et suivi, p. 38-39",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__18",
+       "num": "19",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "Quel élément témoigne d'un counseling respectueux des droits de la cliente ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Refuser de répondre aux questions"
+        },
+        {
+         "letter": "B",
+         "text": "Respecter sa confidentialité, ses questions et son choix éclairé"
+        },
+        {
+         "letter": "C",
+         "text": "Décider sans son accord"
+        },
+        {
+         "letter": "D",
+         "text": "Partager son dossier avec des personnes non concernées"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Respecter sa confidentialité, ses questions et son choix éclairé",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les principes du counseling garantissent le droit au caractère privé et confidentiel, la liberté de s'exprimer, la liberté de choisir la méthode et le consentement éclairé. Refuser de répondre, décider à sa place ou divulguer son dossier les violent.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 6 Counseling, principes de base, p. 21-22",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__19",
+       "num": "20",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez Mme BOA Irène, âgée de 19 ans, GII PII, quatre semaines après son accouchement. Elle allaite son bébé et souhaite débuter une contraception injectable. Après un counseling, elle exprime une préférence pour le Depo-Provera. Vous devez vérifier son éligibilité, lui donner une information adaptée et assurer une prise en charge respectueuse de son choix.",
+       "text": "[À l'issue de] la prestation, quelle action contribue à la continuité des soins ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Ne pas donner de consignes de suivi"
+        },
+        {
+         "letter": "B",
+         "text": "Ne rien documenter"
+        },
+        {
+         "letter": "C",
+         "text": "Noter la méthode et la date, expliquer le rendez-vous suivant et les signes nécessitant une consultation"
+        },
+        {
+         "letter": "D",
+         "text": "Lui demander de revenir uniquement si elle tombe enceinte"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Noter la méthode et la date, expliquer le rendez-vous suivant et les signes nécessitant une consultation",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La continuité des soins passe par l'étape « Rendez-vous / Référence » du BERCER : noter la méthode et la date sur la carte, indiquer la date exacte du prochain rendez-vous et expliquer les signes d'alarme qui doivent faire consulter.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 6 Counseling (BERCER), p. 23 ; chap. 13 CHP, instructions CIP et signes d'alarme, p. 83",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les méthodes contraceptives basées sur la connaissance de la fécondité comprennent :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Méthode du calendrier"
+        },
+        {
+         "letter": "B",
+         "text": "Méthode de Billings"
+        },
+        {
+         "letter": "C",
+         "text": "Observation des signes de fertilité"
+        },
+        {
+         "letter": "D",
+         "text": "Implant sous-cutané"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Méthode du calendrier ; B. Méthode de Billings ; C. Observation des signes de fertilité",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "Les méthodes d'auto-observation (connaissance de la fécondité) comprennent la méthode du calendrier (Ogino-Knaus), la température basale, la glaire cervicale (Billings), la méthode sympto-thermique et les jours fixes : elles reposent toutes sur l'observation des signes de fertilité. L'implant est une méthode hormonale.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 3 Généralités (classification), p. 13 ; chap. 8 Méthodes d'auto-observation, p. 28-30",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les méthodes de barrière figurent :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Diaphragme"
+        },
+        {
+         "letter": "B",
+         "text": "Préservatif masculin"
+        },
+        {
+         "letter": "C",
+         "text": "DIU au cuivre"
+        },
+        {
+         "letter": "D",
+         "text": "Préservatif féminin"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Diaphragme ; B. Préservatif masculin ; D. Préservatif féminin",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "Les méthodes de barrière empêchent les spermatozoïdes d'atteindre le canal cervical : préservatifs masculin et féminin, cape cervicale et diaphragme (plus les spermicides, barrière chimique). Le DIU au cuivre agit dans la cavité utérine (il altère les spermatozoïdes et modifie l'endomètre).\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 11 Méthodes de barrière, p. 40 et 46 ; chap. 14 DIU, p. 86 Remarque : dans le tableau de classification du chap. 3 (p. 13), le DIU TCu 380A figure sous « méthode de barrière mécanique », alors que le chap. 11 ne le compte pas parmi les barrières.",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "[À] propos du préservatif :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Il contribue à prévenir les IST/VIH"
+        },
+        {
+         "letter": "B",
+         "text": "Il doit être utilisé correctement à chaque rapport"
+        },
+        {
+         "letter": "C",
+         "text": "Il contribue à prévenir la grossesse"
+        },
+        {
+         "letter": "D",
+         "text": "Il protège à 100 % contre toutes les IST dans toutes les circonstances"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Il contribue à prévenir les IST/VIH ; B. Il doit être utilisé correctement à chaque rapport ; C. Il contribue à prévenir la grossesse",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "Le préservatif empêche le sperme d'atteindre les voies génitales (contraception) et empêche le passage des micro-organismes (IST, VIH, VHB). Son efficacité dépend d'une utilisation correcte à chaque rapport : il n'est pas efficace à 100 % (2 à 12 grossesses pour 100 femmes la première année en utilisation courante).\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 11 Méthodes de barrière (préservatif masculin), p. 40-41",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Après une rupture de préservatif lors d'un rapport non protégé, il faut envisager :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une évaluation du risque d'exposition au VIH et des mesures indiquées selon le protocole"
+        },
+        {
+         "letter": "B",
+         "text": "L'absence de toute action"
+        },
+        {
+         "letter": "C",
+         "text": "Une évaluation rapide du besoin de contraception d'urgence"
+        },
+        {
+         "letter": "D",
+         "text": "Un conseil sur la prévention des IST"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Une évaluation du risque d'exposition au VIH et des mesures indiquées selon le protocole ; C. Une évaluation rapide du besoin de contraception d'urgence ; D. Un conseil sur la prévention des IST",
+       "answerLetters": [
+        "A",
+        "C",
+        "D"
+       ],
+       "explanation": "En cas de rupture pendant ou après l'éjaculation, le cours prévoit une contraception d'urgence (pilule dans les 72 h ou DIU dans les 5 jours) et l'application du protocole de prise en charge des accidents d'exposition au sang (AES) dans les 48 h pour la prévention du VIH ; le conseil sur la prévention des IST en fait partie. Ne rien faire est une erreur.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 11 Méthodes de barrière, CAT en cas de rupture du préservatif, p. 45",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les contraceptifs hormonaux combinés :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Associent un œstrogène et un progestatif"
+        },
+        {
+         "letter": "B",
+         "text": "Peuvent contribuer à régulariser les saignements chez certaines utilisatrices"
+        },
+        {
+         "letter": "C",
+         "text": "Peuvent inhiber l'ovulation"
+        },
+        {
+         "letter": "D",
+         "text": "Protègent contre toutes les IST"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Associent un œstrogène et un progestatif ; B. Peuvent contribuer à régulariser les saignements chez certaines utilisatrices ; C. Peuvent inhiber l'ovulation",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "Les CHC associent un œstrogène et un progestatif. Ils bloquent l'ovulation par l'inhibition de la sécrétion de LH et de FSH et ont, parmi leurs avantages, la régularisation du cycle menstruel. Ils ne protègent pas contre les IST.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 12 Contraceptifs hormonaux combinés (CHC), définition, mode d'action et avantages, p. 47-49",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les contraceptifs hormonaux progestatifs comprennent :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Certains injectables"
+        },
+        {
+         "letter": "B",
+         "text": "Le DIU au cuivre"
+        },
+        {
+         "letter": "C",
+         "text": "Les implants sous-cutanés"
+        },
+        {
+         "letter": "D",
+         "text": "Certaines pilules progestatives"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Certains injectables ; C. Les implants sous-cutanés ; D. Certaines pilules progestatives",
+       "answerLetters": [
+        "A",
+        "C",
+        "D"
+       ],
+       "explanation": "Les CHP diffusent uniquement un progestatif : pilules progestatives (COP), injectables progestatifs (Depo-Provera, Sayana Press, Noristérat) et implants sous-cutanés. Le DIU au cuivre ne contient pas d'hormone.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 13 CHP, définitions, p. 68 ; chap. 14 DIU, p. 86",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "[Au cours du] counseling sur les contraceptifs injectables, il convient d'aborder :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les changements possibles des saignements"
+        },
+        {
+         "letter": "B",
+         "text": "La possibilité d'un délai de retour de la fertilité après l'arrêt selon la méthode"
+        },
+        {
+         "letter": "C",
+         "text": "Le calendrier des injections"
+        },
+        {
+         "letter": "D",
+         "text": "La protection contre les IST comme effet de l'injection"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Les changements possibles des saignements ; B. La possibilité d'un délai de retour de la fertilité après l'arrêt selon la méthode ; C. Le calendrier des injections",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "Le counseling sur les injectables aborde les troubles possibles des saignements (spotting, aménorrhée), le calendrier des injections (12 semaines pour Depo-Provera) et le retard temporaire du retour de la fécondité (4 à 7 mois au plus après la dernière injection). Les injectables ne protègent pas contre les IST.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 13 CHP, instructions aux utilisatrices de CIP, p. 83",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Concernant les implants contraceptifs :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Ils sont placés sous la peau du bras selon la technique recommandée"
+        },
+        {
+         "letter": "B",
+         "text": "Ils libèrent un progestatif"
+        },
+        {
+         "letter": "C",
+         "text": "Le retrait doit être accessible à la demande de l'utilisatrice"
+        },
+        {
+         "letter": "D",
+         "text": "Ils protègent contre les IST"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Ils sont placés sous la peau du bras selon la technique recommandée ; B. Ils libèrent un progestatif ; C. Le retrait doit être accessible à la demande de l'utilisatrice",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "Les implants sont des capsules souples contenant un progestatif (lévonorgestrel ou étonogestrel), placées sous la peau à la face interne du bras, à 6-8 cm du pli du coude. La cliente revient voir un prestataire pour le retrait quand elle le souhaite. Ils ne protègent pas contre les IST/VIH.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 13 CHP, implants (définition, tableau, instructions), p. 68, 70, 72 et 84",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Concernant le DIU au cuivre :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Il s'agit d'une méthode de longue durée d'action"
+        },
+        {
+         "letter": "B",
+         "text": "Il peut modifier les saignements menstruels"
+        },
+        {
+         "letter": "C",
+         "text": "Il est placé dans la cavité utérine par un prestataire formé"
+        },
+        {
+         "letter": "D",
+         "text": "Il protège contre le VIH"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Il s'agit d'une méthode de longue durée d'action ; B. Il peut modifier les saignements menstruels ; C. Il est placé dans la cavité utérine par un prestataire formé",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "Le DIU au cuivre (TCu 380A) a une durée d'action de 12 ans (longue durée). Il est inséré dans la cavité utérine par un personnel formé et peut entraîner des saignements et des crampes plus prononcés les premiers mois. Comme toutes les méthodes autres que le préservatif, il ne protège pas contre le VIH.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 14 DIU, définition, types et limites, p. 85-87",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Avant la pose d'un DIU, le prestataire doit notamment :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Garantir l'absence totale d'effets secondaires"
+        },
+        {
+         "letter": "B",
+         "text": "Expliquer les bénéfices, risques et signes d'alerte"
+        },
+        {
+         "letter": "C",
+         "text": "Obtenir le consentement éclairé"
+        },
+        {
+         "letter": "D",
+         "text": "Évaluer l'éligibilité médicale et les situations cliniques pertinentes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Expliquer les bénéfices, risques et signes d'alerte ; C. Obtenir le consentement éclairé ; D. Évaluer l'éligibilité médicale et les situations cliniques pertinentes",
+       "answerLetters": [
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "Avant la pose, le prestataire évalue l'éligibilité (critères médicaux, dépistage des infections génitales recommandé), informe des effets secondaires et des signes d'alerte, puis obtient le consentement éclairé. Aucune méthode ne garantit l'absence totale d'effets secondaires.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 14 DIU, limites et critères, p. 87-88 ; chap. 15 DIUPP (confirmation du choix et évaluations), p. 101 Remarque : dans le sujet, l'énoncé commence par « 50. », un reste de numérotation sans effet sur la réponse.",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le DIU du post-partum (DIUPP) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Nécessite un prestataire formé et le respect des règles de prévention des infections"
+        },
+        {
+         "letter": "B",
+         "text": "Peut être inséré immédiatement après l'expulsion du placenta dans les conditions prévues"
+        },
+        {
+         "letter": "C",
+         "text": "N'exige jamais d'information préalable"
+        },
+        {
+         "letter": "D",
+         "text": "Est indiqué en cas de septicémie puerpérale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Nécessite un prestataire formé et le respect des règles de prévention des infections ; B. Peut être inséré immédiatement après l'expulsion du placenta dans les conditions prévues",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "Le DIUPP peut être inséré en post-placentaire (dans les 10 minutes après l'expulsion du placenta), en per-césarienne ou dans les 48 h. La femme doit avoir été informée et son choix confirmé ; la pose exige un prestataire formé et les pratiques de prévention des infections. La septicémie puerpérale est une catégorie 4 : contre-indication.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 15 DIU du post-partum (DIUPP), p. 101-102",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "[La] contraception chirurgicale volontaire (CCV) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Peut comprendre l'occlusion des trompes chez la femme"
+        },
+        {
+         "letter": "B",
+         "text": "Est considérée comme une méthode définitive"
+        },
+        {
+         "letter": "C",
+         "text": "N'exige pas de consentement éclairé"
+        },
+        {
+         "letter": "D",
+         "text": "Peut comprendre la vasectomie chez l'homme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Peut comprendre l'occlusion des trompes chez la femme ; B. Est considérée comme une méthode définitive ; D. Peut comprendre la vasectomie chez l'homme",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "La CCV met fin de façon définitive et irréversible à la possibilité de reproduction : ligature (section ou occlusion) des trompes chez la femme, vasectomie chez l'homme. Elle est pratiquée sur présentation d'une fiche de consentement signée.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 16 Contraception chirurgicale volontaire (CCV), p. 121",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Avant une CCV, les principes essentiels comprennent :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Décision prise par le prestataire à la place du client"
+        },
+        {
+         "letter": "B",
+         "text": "Information complète et compréhensible"
+        },
+        {
+         "letter": "C",
+         "text": "Absence de pression ou de contrainte"
+        },
+        {
+         "letter": "D",
+         "text": "Consentement volontaire et éclairé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Information complète et compréhensible ; C. Absence de pression ou de contrainte ; D. Consentement volontaire et éclairé",
+       "answerLetters": [
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "Le principe du consentement écrit et volontaire exige une information claire (autres méthodes temporaires, intervention chirurgicale, résultats permanents, libre choix), une décision ferme prise sans se sentir forcé, et la possibilité de retirer son consentement avant l'intervention. Le prestataire ne décide jamais à la place du client.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 16 CCV, principe du consentement écrit et volontaire, p. 122",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les critères de recevabilité médicale de l'OMS :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Doivent être appliqués à la situation individuelle"
+        },
+        {
+         "letter": "B",
+         "text": "Aident à déterminer si une méthode peut être utilisée dans une situation donnée"
+        },
+        {
+         "letter": "C",
+         "text": "Remplacent entièrement le jugement clinique et les préférences du client"
+        },
+        {
+         "letter": "D",
+         "text": "Comportent quatre catégories"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Doivent être appliqués à la situation individuelle ; B. Aident à déterminer si une méthode peut être utilisée dans une situation donnée ; D. Comportent quatre catégories",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "Les critères de recevabilité médicale de l'OMS classent en 4 catégories les situations (caractéristiques individuelles ou pathologies) pour dire si une méthode peut être utilisée chez une cliente donnée. Ils s'appliquent « avec jugement clinique » et ne remplacent ni ce jugement ni le libre choix de la cliente.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 4 Critères médicaux d'éligibilité, définition et classification, p. 16-17",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les qualités d'un bon conseiller comprennent :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Écoute active"
+        },
+        {
+         "letter": "B",
+         "text": "Jugement moral du client"
+        },
+        {
+         "letter": "C",
+         "text": "Respect de la confidentialité"
+        },
+        {
+         "letter": "D",
+         "text": "Langage clair et adapté"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Écoute active ; C. Respect de la confidentialité ; D. Langage clair et adapté",
+       "answerLetters": [
+        "A",
+        "C",
+        "D"
+       ],
+       "explanation": "Parmi les qualités d'un bon conseiller : écouter activement, présenter l'information sans parti-pris avec une approche sans jugement, comprendre et respecter les droits du client (dont la confidentialité), comprendre l'effet de la communication et utiliser un langage adapté.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 6 Counseling, qualités morales d'un bon conseiller, p. 22",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "[Une] causerie éducative efficace repose notamment sur :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'emploi obligatoire d'un vocabulaire technique complexe"
+        },
+        {
+         "letter": "B",
+         "text": "Une préparation adaptée au thème et au public"
+        },
+        {
+         "letter": "C",
+         "text": "Un langage simple"
+        },
+        {
+         "letter": "D",
+         "text": "La possibilité pour les participants de poser des questions"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Une préparation adaptée au thème et au public ; C. Un langage simple ; D. La possibilité pour les participants de poser des questions",
+       "answerLetters": [
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "Une causerie efficace se prépare (choix du sujet, du groupe cible, des messages et des supports adaptés), utilise un langage clair et simple et une méthode participative : on recueille les expériences, on dissipe les rumeurs et on laisse les participants poser des questions.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 5 Causerie éducative, étapes et éléments d'une bonne causerie, p. 19-20",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La MAMA repose sur les critères suivants :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Aménorrhée"
+        },
+        {
+         "letter": "B",
+         "text": "Enfant âgé de moins de six mois"
+        },
+        {
+         "letter": "C",
+         "text": "Retour des règles"
+        },
+        {
+         "letter": "D",
+         "text": "Allaitement exclusif ou quasi exclusif"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Aménorrhée ; B. Enfant âgé de moins de six mois ; D. Allaitement exclusif ou quasi exclusif",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "Selon le cours, la MAMA repose sur 3 critères : aménorrhée, enfant de moins de 6 mois, allaitement exclusif ou quasi exclusif. Le retour des règles est au contraire un signe que la méthode n'est plus fiable.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 10 MAMA, conditions d'efficacité, p. 38",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les éléments à aborder lors du choix contraceptif incluent :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Efficacité"
+        },
+        {
+         "letter": "B",
+         "text": "Tolérance et préférences"
+        },
+        {
+         "letter": "C",
+         "text": "Sécurité et éligibilité médicale"
+        },
+        {
+         "letter": "D",
+         "text": "Coût, disponibilité et continuité d'utilisation selon le contexte"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Efficacité ; B. Tolérance et préférences ; C. Sécurité et éligibilité médicale ; D. Coût, disponibilité et continuité d'utilisation selon le contexte",
+       "answerLetters": [
+        "A",
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "Le choix contraceptif tient compte des qualités d'une méthode : efficacité, sécurité, tolérance, coût, continuité d'utilisation (et réversibilité), ainsi que de l'éligibilité médicale et des préférences de la cliente.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 3 Généralités, qualités d'une méthode contraceptive, p. 14",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En planification familiale, le suivi doit permettre :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "De réévaluer la méthode si les besoins changent"
+        },
+        {
+         "letter": "B",
+         "text": "D'évaluer la satisfaction et les éventuels effets secondaires"
+        },
+        {
+         "letter": "C",
+         "text": "D'interdire le changement de méthode"
+        },
+        {
+         "letter": "D",
+         "text": "De répondre aux questions de l'utilisatrice"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. De réévaluer la méthode si les besoins changent ; B. D'évaluer la satisfaction et les éventuels effets secondaires ; D. De répondre aux questions de l'utilisatrice",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "Lors du counseling de suivi, on discute de l'utilisation de la méthode, on vérifie si elle est satisfaisante et si des problèmes (effets secondaires) sont survenus, on répond aux questions et on aide à changer ou arrêter la méthode si besoin. Interdire le changement est contraire au libre choix.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 6 Counseling, counseling de suivi et étape « Rendez-vous » du BERCER, p. 22-23",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les informations à donner à toute personne choisissant une méthode contraceptive, on retrouve :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Mode d'utilisation correct"
+        },
+        {
+         "letter": "B",
+         "text": "Effets secondaires possibles et conduite à tenir"
+        },
+        {
+         "letter": "C",
+         "text": "Affirmation que la méthode ne présente aucun risque"
+        },
+        {
+         "letter": "D",
+         "text": "Signes d'alerte et recours aux soins si nécessaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Mode d'utilisation correct ; B. Effets secondaires possibles et conduite à tenir ; D. Signes d'alerte et recours aux soins si nécessaire",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "L'étape « Explications » du BERCER comprend le mode d'utilisation de la méthode, les effets secondaires normaux et les signes d'alarme (avec le recours aux soins). Affirmer qu'une méthode est sans aucun risque est faux : la sécurité fait partie des qualités à évaluer.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 6 Counseling (BERCER), p. 23 ; chap. 3 Généralités (sécurité), p. 14",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__40",
+       "num": "41",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les critères de recevabilité médicale de l'OMS classent les situations en quatre catégories.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les critères de recevabilité médicale de l'OMS sont une classification en 4 catégories des états qui ont une incidence sur l'acceptabilité des méthodes contraceptives.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 4 Critères médicaux d'éligibilité, p. 16",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__41",
+       "num": "42",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La catégorie 1 signifie qu'il n'existe aucune restriction à l'utilisation de la méthode contraceptive.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Catégorie 1 = aucune restriction d'utilisation.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 4 Critères médicaux d'éligibilité, p. 16",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__42",
+       "num": "43",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La catégorie 4 signifie que les risques liés à l'utilisation de la méthode sont inacceptables pour la santé.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Catégorie 4 = risques inacceptables pour la santé : la méthode ne doit pas être utilisée.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 4 Critères médicaux d'éligibilité, p. 16",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__43",
+       "num": "44",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le counseling vise à imposer au client la méthode jugée la plus adaptée par le prestataire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : le counseling aide le client à trouver et choisir lui-même la solution ; dans le BERCER, le prestataire aide à choisir la méthode qui répond aux besoins de la cliente mais ne choisit pas à sa place.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 6 Counseling, définition et BERCER (« Ne pas choisir à sa place »), p. 21-23",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__44",
+       "num": "45",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "[Le counseling] doit favoriser une décision libre et éclairée de la personne.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : le counseling aide les clients à arriver à un choix éclairé, dans le respect de la liberté de choisir la méthode et du consentement éclairé.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 6 Counseling, buts et principes, p. 21 Remarque : dans le sujet, l'énoncé commence par « doit favoriser… » ; il manque « Le counseling ».",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__45",
+       "num": "46",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le BERCER est un moyen mnémotechnique utilisé pour structurer les étapes du counseling en planification familiale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : BERCER (Bienvenue, Entretien, Renseignements, Choix, Explications, Rendez-vous/Référence) est l'une des deux approches qui structurent les étapes du counseling, avec le REDI.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 6 Counseling, étapes du BERCER, p. 23",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__46",
+       "num": "47",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'efficacité contraceptive correspond à la capacité d'une méthode à favoriser la survenue d'une grossesse.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : l'efficacité est la mesure dans laquelle une méthode est capable d'empêcher la survenue d'une grossesse, et non de la favoriser.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 3 Généralités, qualités d'une méthode, p. 14",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__47",
+       "num": "48",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'ovulation survient généralement environ 14 jours avant le début des prochaines règles.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : les méthodes d'auto-observation reposent sur le principe qu'il n'y a en principe qu'une ovulation par cycle, en général 14 jours avant les prochaines règles.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 8 Méthodes d'auto-observation, principes de base, p. 28-29",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__48",
+       "num": "49",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La méthode de Billings repose notamment sur l'observation des modifications de la glaire cervicale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : la méthode de Billings repose sur l'auto-observation par la femme des changements cycliques de sa glaire cervicale ; la glaire abondante, transparente et filante marque la période fertile.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 8 Méthodes d'auto-observation, méthode de la glaire cervicale (Billings), p. 30",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__49",
+       "num": "50",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le coït interrompu protège efficacement contre les IST et le VIH.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : le coït interrompu (méthode du retrait) n'offre aucune protection contre les IST, y compris le VIH et le VHB.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 9 Coït interrompu, inconvénients, p. 36",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__50",
+       "num": "51",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La MAMA peut être utilisée comme méthode contraceptive si les trois critères sont réunis : aménorrhée, allaitement exclusif ou quasi exclusif, et bébé âgé de moins de six mois.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : ce sont les 3 conditions d'efficacité de la MAMA (efficacité de 98 % si elles sont réunies).\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 10 MAMA, conditions d'efficacité, p. 38",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__51",
+       "num": "52",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La MAMA reste efficace jusqu'à deux ans après l'accouchement si l'allaitement se poursuit.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : la MAMA n'est utilisable que pendant les six premiers mois du post-partum (et avant le retour des règles). Au-delà, il faut une autre méthode, même si l'allaitement continue.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 10 MAMA, définition et limites, p. 37-38",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__52",
+       "num": "53",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le préservatif masculin ou féminin contribue à la prévention des IST, notamment du VIH, en plus de prévenir une grossesse.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : le préservatif recueille le sperme (contraception) et empêche le passage des micro-organismes d'un partenaire à l'autre ; seuls les préservatifs protègent des IST, y compris le VIH et le VHB.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 3 Généralités, p. 13 ; chap. 11 Méthodes de barrière, p. 40",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__53",
+       "num": "54",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les contraceptifs hormonaux combinés contiennent un œstrogène associé à un progestatif.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : les CHC désignent des produits contenant un œstrogène associé à un progestatif (pilules combinées, injectables combinés, patch, anneau).\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 12 CHC, définitions, p. 47",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__54",
+       "num": "55",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les contraceptifs hormonaux combinés favorisent l'ovulation en stimulant la sécrétion de LH et de FSH.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : les CHC bloquent l'ovulation par l'inhibition de la sécrétion de LH et de FSH ; ils ne la favorisent pas.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 12 CHC, mode d'action, p. 49",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__55",
+       "num": "56",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les contraceptifs hormonaux progestatifs contiennent uniquement un progestatif.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : les CHP désignent des produits qui diffusent uniquement une hormone progestative (COP, injectables progestatifs, implants).\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 13 CHP, définitions, p. 68",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__56",
+       "num": "57",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le DIU au cuivre est une méthode contraceptive de longue durée d'action.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : le DIU au cuivre TCu 380A a une durée d'action de 12 ans ; le cours le classe en « longue durée d'action ».\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 14 DIU, types et avantages, p. 86-87",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__57",
+       "num": "58",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le DIU au cuivre protège contre les IST et le VIH.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : le DIU ne protège pas contre les IST/VIH ; il peut même aggraver les infections génitales hautes chez les femmes exposées. Seuls les préservatifs protègent des IST.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 3 Généralités, p. 13 ; chap. 14 DIU, limites, p. 87",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__58",
+       "num": "59",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La contraception chirurgicale volontaire est une méthode temporaire et facilement réversible",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : la CCV met fin de façon définitive et irréversible à toute possibilité de reproduction.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 16 CCV, définition, p. 121",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j2-sf3__59",
+       "num": "60",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Avant une contraception chirurgicale volontaire, le consentement éclairé, volontaire et documenté de la personne est indispensable.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : la CCV est pratiquée sur présentation d'une fiche de consentement signée, après un counseling garantissant une décision libre et volontaire.\n\nSource : Cours SR/PF 2023 L2 INFAS, chap. 16 CCV, bénéficiaires et principe du consentement écrit et volontaire, p. 121-122",
+       "sourceDoc": "Prépa D.E — J2 SSR/PF MAN SF3 (corrigé expliqué)",
+       "sourceFile": "J2_SSR_PF_MAN_SF3_J2_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
