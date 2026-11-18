@@ -1,0 +1,1787 @@
+{
+ "app": "xmvkq4zed",
+ "id": "ze-sj-prepa-sp-j1-idesfm",
+ "titre": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+ "session": "J",
+ "annee": 2026,
+ "nq": 50,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+   "sha256": "93fa9bef7cf4d39771263e2b4ecb3c21f3b1325dcee70c31c0d3d1b8c4f147be"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Santé publique · Prépa D.E J1 (IDE/SFM)",
+     "slug": "prepa-sp-j1-idesfm",
+     "pages": "",
+     "count": 50,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Santé publique",
+     "source": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Disposer d'une margelle de 0,70 m de hauteur est une précaution à prendre pour l'aménagement d'un puits traditionnel.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le puits traditionnel doit avoir une margelle de 0,70 mètre de hauteur pour éviter les chutes des enfants et des animaux. Remarque : Le sujet écrit « 0,70 cm » : coquille probable pour 0,70 m.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, VIII. Précautions pour l'aménagement d'un puits traditionnel (p. 68)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'évaluation initiale permet de décrire les facteurs de risque de la population.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'évaluation initiale (analyse situationnelle) collecte les données nécessaires pour planifier ; elles décrivent les besoins de la population, les facteurs de risque, le contexte et les ressources disponibles.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Suivi-évaluation, 3.2.1 Évaluation initiale (p. 59)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La contre-référence est le retour du patient dans l'établissement sanitaire de premier contact d'origine pour la poursuite de son traitement.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La contre-référence est le retour du patient dans l'établissement sanitaire de premier contact d'origine pour la poursuite de son traitement.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Référence/contre-référence, 1.2 (p. 20)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La population cible primaire dans une action de santé est la personne ou le groupe qui doit agir.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La population cible primaire est la personne ou le groupe de personnes qui doivent changer de comportement (donc agir) pour que le programme atteigne son objectif. La cible secondaire influence ses décisions ; la cible tertiaire regroupe les décideurs et financiers. Remarque : Le cours dit « qui doivent changer de comportement » ; le sujet dit « qui doit agir ».\n\nSource : Document révisé L2 2023-2024 validé, Populations cibles de la CCSC (p. 7)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Faire la vaccination en stratégie avancée est une solution pour réduire les populations hors de portée.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La stratégie avancée rapproche la vaccination des populations éloignées du centre de santé.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Gestion des vaccins, 1.2-1.3 (p. 6) ; monitorage, tableau des goulots (p. 77)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Tous les membres du COGES sont issus de la communauté.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Outre l'infirmier, la sage-femme ou le travailleur social, les autres membres sont issus de la communauté : tous ne sont donc pas des membres communautaires.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Coges, III. Composition (p. 23)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le VAP fait partie des vaccins concernés par la politique du flacon entamé.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La politique du flacon entamé permet de réutiliser un flacon multidose liquide ouvert jusqu'à 4 semaines, sous conditions (non périmé, non contaminé, PCV non virée…).\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Gestion des vaccins, 6.7 La politique du flacon entamé (p. 17)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'évaluation initiale dans l'exécution d'un projet est aussi appelée analyse situationnelle.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours nomme explicitement l'évaluation initiale « analyse situationnelle ».\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Suivi-évaluation, 3.2.1 Évaluation initiale (Analyse situationnelle) (p. 59)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La surveillance passive nécessite des équipes qui recherchent activement les cas.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La surveillance passive repose sur la déclaration spontanée des cas par les professionnels ou les citoyens. C'est la surveillance active qui mobilise des équipes allant rechercher les cas sur le terrain.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Surveillance épidémiologique, 3.1-3.2 (p. 86-87)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le plaidoyer peut contribuer à réduire les inégalités en santé.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Parmi les buts du plaidoyer figurent l'amélioration de l'accès aux soins et la réduction des inégalités en matière de santé.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Plaidoyer, II. Buts (p. 104)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La santé communautaire vise la promotion de la santé.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La santé communautaire, fondée sur la participation et la mobilisation des communautés, est l'un des piliers de la promotion de la santé.\n\nSource : Document Santé publique L1 2021, 1.4 Santé communautaire (p. 7)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le superviseur ayant le style autocratique délègue les responsabilités.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le superviseur autocratique cherche à tout voir et tout contrôler : il ne délègue pas de responsabilité et surveille de près l'exécution des tâches.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Supervision, 4.1 Le style autocratique (p. 49)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les déchets biomédicaux doivent être éliminés dans des boîtes de sécurité.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La boîte de sécurité sert à recueillir les seringues, aiguilles et autres objets piquants ou tranchants souillés, pas l'ensemble des déchets biomédicaux.\n\nSource : Cours de santé publique, 5.6 Matériel de sécurité des injections (p. 66)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le budget aide à prioriser les dépenses sanitaires.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La budgétisation permet de suivre recettes et dépenses et d'accroître l'efficacité du centre par la priorisation dans le financement des activités.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Budgétisation, Conclusion (p. 19)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La PCV (pastille de contrôle du vaccin) est placée sur l'étiquette des vaccins liquides.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La PCV est placée sur l'étiquette des flacons de vaccin liquide, et sur la fermeture en plastique des flacons de vaccin en poudre (à reconstituer).\n\nSource : Document révisé L2 2023-2024 validé, X. La pastille de contrôle des vaccins (p. 39)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__15",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les maladies suivantes, indiquez les trois qui sont sous surveillance en Côte d'Ivoire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Choléra"
+        },
+        {
+         "letter": "B",
+         "text": "B. Paludisme"
+        },
+        {
+         "letter": "C",
+         "text": "C. Fièvre hémorragique virale"
+        },
+        {
+         "letter": "D",
+         "text": "D. Dracunculose"
+        },
+        {
+         "letter": "E",
+         "text": "E. Infections respiratoires aiguës"
+        },
+        {
+         "letter": "F",
+         "text": "F. Infections urinaires"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. A. Choléra ; C. C. Fièvre hémorragique virale ; D. D. Dracunculose",
+       "answerLetters": [
+        "A",
+        "C",
+        "D"
+       ],
+       "explanation": "Les maladies prioritaires sous surveillance comprennent les maladies à potentiel épidémique (choléra, fièvre hémorragique virale…) et les maladies visées par l'élimination ou l'éradication (ver de Guinée = dracunculose).\n\nSource : Document révisé L2 2023-2024 validé, SIMR, III. Maladies prioritaires sous surveillance (p. 71)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, identifiez les deux catastrophes naturelles.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. La guerre"
+        },
+        {
+         "letter": "B",
+         "text": "B. Le cyclone"
+        },
+        {
+         "letter": "C",
+         "text": "C. Le tsunami"
+        },
+        {
+         "letter": "D",
+         "text": "D. L'accident de circulation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. B. Le cyclone ; C. C. Le tsunami",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Le cours cite les cyclones, les tremblements de terre et les tsunamis parmi les catastrophes naturelles. La guerre et l'accident de circulation sont causés par l'homme.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Gestion des catastrophes, IV. Types de catastrophes naturelles (p. 43)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__17",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, donnez les indicateurs permettant de mesurer l'ampleur d'un problème de santé.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Taux de létalité"
+        },
+        {
+         "letter": "B",
+         "text": "B. Taux d'incidence"
+        },
+        {
+         "letter": "C",
+         "text": "C. Taux de mortalité"
+        },
+        {
+         "letter": "D",
+         "text": "D. Taux de prévalence"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. B. Taux d'incidence ; D. D. Taux de prévalence",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Les taux d'incidence et de prévalence permettent d'évaluer l'ampleur d'une maladie dans une population. Le taux de létalité, lui, mesure la gravité.\n\nSource : Document révisé L2 2023-2024 validé, Épidémiologie, 3.2.2-3.2.3 et 3.2.6 (p. 32-33)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, indiquez les deux supports d'information individuelle.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Carnet de santé"
+        },
+        {
+         "letter": "B",
+         "text": "B. Fiches de rapport de morbidité quotidienne, hebdomadaire"
+        },
+        {
+         "letter": "C",
+         "text": "C. Fiche de référence et de contre-référence"
+        },
+        {
+         "letter": "D",
+         "text": "D. Fiche de rapport mensuel et annuel"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. A. Carnet de santé ; C. C. Fiche de référence et de contre-référence",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Les supports d'information individuelle sont le carnet de santé, la fiche de référence et de contre-référence, la fiche de PF, la fiche de CPN… Les fiches de morbidité et les rapports mensuels/annuels sont des outils collectifs.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Information sanitaire, 5.1 Supports d'information individuelle (p. 39)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La promptitude des rapports signifie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. L'exactitude des données"
+        },
+        {
+         "letter": "B",
+         "text": "B. L'envoi des rapports dans les délais requis"
+        },
+        {
+         "letter": "C",
+         "text": "C. La destruction des rapports"
+        },
+        {
+         "letter": "D",
+         "text": "D. Le nombre de registres disponibles"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. L'envoi des rapports dans les délais requis",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La promptitude est le fait que les rapports soient reçus au plus tard à la date limite fixée, c'est-à-dire dans le délai requis.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, 2.3.1 Promptitude des rapports (p. 30)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__20",
+       "num": "21",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Parmi les activités suivantes à mener au CSU de Zaranou, indiquez les deux qui concernent la prévention.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. La vaccination"
+        },
+        {
+         "letter": "B",
+         "text": "B. Le fait de dormir sous moustiquaire imprégnée"
+        },
+        {
+         "letter": "C",
+         "text": "C. La sensibilisation de la population"
+        },
+        {
+         "letter": "D",
+         "text": "D. Les pansements de plaies"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. A. La vaccination ; B. B. Le fait de dormir sous moustiquaire imprégnée",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "La vaccination est l'exemple type de prévention primaire, comme le fait de dormir sous moustiquaire imprégnée (lutte contre le risque avant la maladie). Les pansements relèvent du curatif. Remarque : La sensibilisation relève plutôt de la promotion de la santé.\n\nSource : Cours de santé publique, 1.10 Prévention (p. 9)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__21",
+       "num": "22",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Parmi les fiches de rapport suivantes, indiquez celles qui vous serviront à gérer l'information sanitaire au CSU de Zaranou.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Fiche A1"
+        },
+        {
+         "letter": "B",
+         "text": "B. Fiche B1"
+        },
+        {
+         "letter": "C",
+         "text": "C. Fiche A3"
+        },
+        {
+         "letter": "D",
+         "text": "D. Fiche B2"
+        },
+        {
+         "letter": "E",
+         "text": "E. Fiche D1"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. A. Fiche A1 ; C. C. Fiche A3",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Un centre de santé (ESPC) transmet un rapport mensuel de type A et un rapport annuel A3. Les fiches B1/B2 concernent l'hôpital général, la D1 le district. la correction nationale de la Prépa DE (les J) retient A1 et A3. Remarque : Le cours nomme le rapport mensuel de l'ESPC « A » ; le sujet écrit « A1 ».\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Information sanitaire, tableau des types de rapports (p. 30)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__22",
+       "num": "23",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Donnez le nombre de fiches de rapport mensuel à commander pour vos activités de 2022 au CSU de Zaranou.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 24"
+        },
+        {
+         "letter": "B",
+         "text": "B. 20"
+        },
+        {
+         "letter": "C",
+         "text": "C. 12"
+        },
+        {
+         "letter": "D",
+         "text": "D. 10"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. 20",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Prise de service le 04/03/2022 : 10 mois d'activité (mars à décembre). Les rapports mensuels se remplissent en double exemplaire (un envoyé, un archivé) : 10 × 2 = 20 fiches.\n\nSource : DOC-20260911-WA0542, 3.1.1 Au niveau des structures de prestations (p. 33)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__23",
+       "num": "24",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Combien de fiches de rapport d'activités mensuelles devrez-vous archiver au CSU de Zaranou en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 24"
+        },
+        {
+         "letter": "B",
+         "text": "B. 20"
+        },
+        {
+         "letter": "C",
+         "text": "C. 12"
+        },
+        {
+         "letter": "D",
+         "text": "D. 10"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. D. 10",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Une copie de chaque rapport mensuel transmis reste dans les archives du centre : 10 mois = 10 fiches.\n\nSource : DOC-20260911-WA0542, 3.1.1 (p. 33) ; Cours Santé publique L1, L2, L3 révisé 2025-2026, archivage des rapports (p. 41)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__24",
+       "num": "25",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Quel est le rythme des activités de monitorage en Côte d'Ivoire ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Mensuel"
+        },
+        {
+         "letter": "B",
+         "text": "B. Trimestriel"
+        },
+        {
+         "letter": "C",
+         "text": "C. Semestriel"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. Semestriel",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le monitorage porte sur une période de 6 mois : il est semestriel (la population cible annuelle est divisée par 2).\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Monitorage, 4.1 La population cible (p. 72)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__25",
+       "num": "26",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Quelle est la période qui correspond au monitorage réalisé en décembre 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 01/07/2022 au 31/12/2022"
+        },
+        {
+         "letter": "B",
+         "text": "B. 01/06/2022 au 30/11/2022"
+        },
+        {
+         "letter": "C",
+         "text": "C. 01/12/2022 au 31/05/2023"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. 01/06/2022 au 30/11/2022",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Un monitorage réalisé en décembre porte sur les six mois écoulés : du 1er juin au 30 novembre (exemple du cours : monitorage du 1er juin au 30 novembre 2024).\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Monitorage, 4.1 (p. 72)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__26",
+       "num": "27",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Quelle est la durée de la période monitorée en décembre 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 181 jours"
+        },
+        {
+         "letter": "B",
+         "text": "B. 182 jours"
+        },
+        {
+         "letter": "C",
+         "text": "C. 183 jours"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. 183 jours",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Juin 30 + juillet 31 + août 31 + septembre 30 + octobre 31 + novembre 30 = 183 jours.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Monitorage, 4.1 (p. 72) ; calcul de calendrier",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__27",
+       "num": "28",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Quel est le taux d'accroissement annuel de la population de l'aire sanitaire du CSU de Zaranou ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 0,025 %"
+        },
+        {
+         "letter": "B",
+         "text": "B. 2,50 %"
+        },
+        {
+         "letter": "C",
+         "text": "C. 2,49 %"
+        },
+        {
+         "letter": "D",
+         "text": "D. 0,024"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. 2,49 %",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "TAA = (population d'arrivée – population de départ) / population de départ × 100 = (60 142 – 58 676) / 58 676 × 100 = 2,498 %. Remarque : Le calcul exact donne 2,498 % ; la correction nationale de la Prépa DE (les J) retient 2,49 % (valeur tronquée).\n\nSource : Document révisé L2 2023-2024 validé, 3.1.6 Taux d'accroissement annuel (p. 30)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__28",
+       "num": "29",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Quelle est la population totale de l'aire sanitaire du CSU de Zaranou en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 61 638 habitants"
+        },
+        {
+         "letter": "B",
+         "text": "B. 60 142 habitants"
+        },
+        {
+         "letter": "C",
+         "text": "C. 61 640 habitants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. 61 640 habitants",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Pt = P0 × (1 + r)^t = 60 142 × (1 + 0,0249) ≈ 61 640 habitants : la population du 01/01/2022 est projetée sur l'année 2022.\n\nSource : Document révisé L2 2023-2024 validé, Équation de projection démographique (p. 30)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__29",
+       "num": "30",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Quel est le taux brut de morbidité pour l'année 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 9,02 ‰"
+        },
+        {
+         "letter": "B",
+         "text": "B. 9,13 ‰"
+        },
+        {
+         "letter": "C",
+         "text": "C. 9,24 ‰"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. 9,13 ‰",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Taux brut de morbidité = nombre de cas de maladie de l'année / population de la même année × 1 000, soit 9,13 ‰ avec les données du tableau de l'étude de cas. Remarque : Le tableau de données de l'étude de cas n'est pas reproduit dans le document : le calcul ne peut pas être refait ici.\n\nSource : Document révisé L2 2023-2024 validé, Épidémiologie, indicateurs de morbidité (p. 31-32)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__30",
+       "num": "31",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Quel est l'effectif des enfants à vacciner en routine en 2022 dans l'aire sanitaire du CSU de Zaranou ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 4204 enfants"
+        },
+        {
+         "letter": "B",
+         "text": "B. 4202 enfants"
+        },
+        {
+         "letter": "C",
+         "text": "C. 4102 enfants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. 4204 enfants",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "En routine, la cible du PEV est l'enfant de 0 à 23 mois : 6,82 % de la population totale. 61 640 × 6,82 % ≈ 4 204 enfants.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Gestion des vaccins, tableau n°1 Populations cibles du PEV (p. 7)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__31",
+       "num": "32",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Quel est l'effectif de la population cible de l'activité de monitorage de la vaccination de décembre 2022 au CSU de Zaranou ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 2051 enfants"
+        },
+        {
+         "letter": "B",
+         "text": "B. 2102 enfants"
+        },
+        {
+         "letter": "C",
+         "text": "C. 2101 enfants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. 2102 enfants",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La population cible du monitorage (6 mois) est la cible annuelle divisée par 2 : 4 204 / 2 = 2 102 enfants.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Monitorage, 4.1 La population cible (p. 72)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__32",
+       "num": "33",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Quelle est la période qui correspond à la budgétisation du monitorage réalisé en décembre 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 01/07/2022 au 31/12/2022"
+        },
+        {
+         "letter": "B",
+         "text": "B. 01/06/2022 au 30/11/2022"
+        },
+        {
+         "letter": "C",
+         "text": "C. 01/12/2022 au 31/05/2023"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. 01/12/2022 au 31/05/2023",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le budget établi lors du monitorage de décembre 2022 porte sur le semestre suivant : du 01/12/2022 au 31/05/2023. Remarque : Le découpage exact de la période budgétisée n'est pas écrit dans le cours (explication partiellement hors cours du projet).\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Budgétisation des ressources propres (p. 16-19)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__33",
+       "num": "34",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Quel est le montant des recettes annuelles du CSU de Zaranou ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 3 240 000 F"
+        },
+        {
+         "letter": "B",
+         "text": "B. 1 440 000 F"
+        },
+        {
+         "letter": "C",
+         "text": "C. 1 500 000 F"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. 1 440 000 F",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les recettes annuelles du CSU sont de 1 440 000 F d'après le tableau de l'étude de cas. Remarque : Le tableau de données de l'étude de cas n'est pas reproduit dans le document.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, IV. Ressource propre d'un ESPC (p. 16)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__34",
+       "num": "35",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Quel est le montant des ressources propres enregistrées par le CSU de Zaranou ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 825 000 F"
+        },
+        {
+         "letter": "B",
+         "text": "B. 1 782 000 F"
+        },
+        {
+         "letter": "C",
+         "text": "C. 792 000 F"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. 792 000 F",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Ressources propres = recettes brutes – (FAS 10 % + IP 15 % + SPS 20 %) = 1 440 000 – 648 000 = 792 000 F (soit 55 % des recettes).\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, IV. Ressource propre d'un ESPC (p. 16) ; Formules santé publique harmonisées, §7 (p. 6)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__35",
+       "num": "36",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Quel est le montant des dépenses du CSU de Zaranou ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 648 000 F"
+        },
+        {
+         "letter": "B",
+         "text": "B. 1 458 000 F"
+        },
+        {
+         "letter": "C",
+         "text": "C. 675 000 F"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. 648 000 F",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Total des dépenses du centre = FAS (10 %) + IP (15 %) + SPS (20 %) = 45 % des recettes brutes : 45 % × 1 440 000 = 648 000 F.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, IV. Ressource propre d'un ESPC (p. 16)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__36",
+       "num": "37",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Quel est l'écart entre l'objectif vaccinal en VPO et celui réellement atteint par l'aire sanitaire du CSU de Zaranou en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 5 %"
+        },
+        {
+         "letter": "B",
+         "text": "B. 10 %"
+        },
+        {
+         "letter": "C",
+         "text": "C. 25 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. 25 %",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Écart = objectif vaccinal – couverture réellement atteinte (objectif de 95 % en VPO), soit 25 % avec les données du tableau de l'étude de cas. Remarque : Le tableau de données de l'étude de cas n'est pas reproduit dans le document.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Gestion des vaccins, tableau n°2 Objectifs vaccinaux (p. 8)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__37",
+       "num": "38",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Quel est le taux de perte en Penta enregistré par le personnel de l'aire sanitaire du CSU de Zaranou en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 10 %"
+        },
+        {
+         "letter": "B",
+         "text": "B. 20 %"
+        },
+        {
+         "letter": "C",
+         "text": "C. 30 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. 20 %",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Taux de perte = (doses sorties – doses administrées) / doses sorties × 100, soit 20 % avec les données du tableau de l'étude de cas. Remarque : Le tableau de données de l'étude de cas n'est pas reproduit dans le document.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Gestion des vaccins, formule du taux de perte (p. 10)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__38",
+       "num": "39",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 — Après l'inauguration du Centre de Santé Urbain (CSU) de Zaranou le 28 janvier 2022, vous avez pris service le 04 mars 2022 pour mener les activités de soins de santé. La population de l'aire sanitaire a été estimée à 58 676 habitants au 31/12/2020 et à 60 142 habitants au 01/01/2022. En décembre 2022, le Directeur départemental entreprend une activité de monitorage ayant pour principale difficulté le fonctionnement de votre structure, couplée à une évaluation des activités de l'année 2022. Les principales données collectées figurent dans un tableau (non reproduit dans le document source).",
+       "text": "Calculez le facteur de perte en Penta de l'aire sanitaire du CSU de Zaranou en 2022.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 1,05"
+        },
+        {
+         "letter": "B",
+         "text": "B. 1,11"
+        },
+        {
+         "letter": "C",
+         "text": "C. 1,25"
+        },
+        {
+         "letter": "D",
+         "text": "D. 1,42"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. 1,25",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "FP = 100 / (100 – taux de perte) = 100 / (100 – 20) = 1,25.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Gestion des vaccins, formule du facteur de perte (p. 10)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__39",
+       "num": "40",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 — Vous avez été nouvellement affecté(e) au CSU de Zaranou (district sanitaire d'Abengourou) le 03 janvier 2023. Le médecin-chef vous nomme responsable du service de vaccination en remplacement de l'infirmier admis à son concours professionnel. Il vous demande d'estimer les besoins en vaccin RR et en seringues, sachant que la population totale de l'aire sanitaire est estimée à 60 142 habitants pour 2023.",
+       "text": "Le nombre d'enfants de 0 à 23 mois de l'aire sanitaire du CSU de Zaranou est de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 2000 enfants"
+        },
+        {
+         "letter": "B",
+         "text": "B. 20 105 enfants"
+        },
+        {
+         "letter": "C",
+         "text": "C. 2405 enfants"
+        },
+        {
+         "letter": "D",
+         "text": "D. 4102 enfants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. D. 4102 enfants",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Enfants de 0 à 23 mois = 6,82 % de la population totale : 60 142 × 6,82 % ≈ 4 102 enfants.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Gestion des vaccins, tableau n°1 (p. 7)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__40",
+       "num": "41",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 — Vous avez été nouvellement affecté(e) au CSU de Zaranou (district sanitaire d'Abengourou) le 03 janvier 2023. Le médecin-chef vous nomme responsable du service de vaccination en remplacement de l'infirmier admis à son concours professionnel. Il vous demande d'estimer les besoins en vaccin RR et en seringues, sachant que la population totale de l'aire sanitaire est estimée à 60 142 habitants pour 2023.",
+       "text": "Quel est le besoin théorique annuel en vaccin RR, exprimé en doses ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 4326 doses"
+        },
+        {
+         "letter": "B",
+         "text": "B. 4560 doses"
+        },
+        {
+         "letter": "C",
+         "text": "C. 8652 doses"
+        },
+        {
+         "letter": "D",
+         "text": "D. 9119 doses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. D. 9119 doses",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "BT annuel = cible × objectif vaccinal × nombre de contacts × FP = 4 102 × 95 % × 2 (RR1, RR2) × 1,17 ≈ 9 119 doses.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, Gestion des vaccins, tableaux n°2 et n°3, FP RR = 1,17, 3.1.1.1 Besoin annuel (p. 8-11)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__41",
+       "num": "42",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 — Vous avez été nouvellement affecté(e) au CSU de Zaranou (district sanitaire d'Abengourou) le 03 janvier 2023. Le médecin-chef vous nomme responsable du service de vaccination en remplacement de l'infirmier admis à son concours professionnel. Il vous demande d'estimer les besoins en vaccin RR et en seringues, sachant que la population totale de l'aire sanitaire est estimée à 60 142 habitants pour 2023.",
+       "text": "Quel est le besoin théorique annuel en seringues injectables ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 4326 seringues"
+        },
+        {
+         "letter": "B",
+         "text": "B. 4560 seringues"
+        },
+        {
+         "letter": "C",
+         "text": "C. 8652 seringues"
+        },
+        {
+         "letter": "D",
+         "text": "D. 9119 seringues"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. 8652 seringues",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Seringues : même calcul avec le facteur de perte des seringues (1,11) : 4 102 × 95 % × 2 × 1,11 ≈ 8 652 seringues.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, 3.2.1 Commande des seringues autobloquantes (p. 12)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__42",
+       "num": "43",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 — Vous avez été nouvellement affecté(e) au CSU de Zaranou (district sanitaire d'Abengourou) le 03 janvier 2023. Le médecin-chef vous nomme responsable du service de vaccination en remplacement de l'infirmier admis à son concours professionnel. Il vous demande d'estimer les besoins en vaccin RR et en seringues, sachant que la population totale de l'aire sanitaire est estimée à 60 142 habitants pour 2023.",
+       "text": "Quel est le stock de sécurité (SS) du vaccin RR, exprimé en doses ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 2280 doses"
+        },
+        {
+         "letter": "B",
+         "text": "B. 1082 doses"
+        },
+        {
+         "letter": "C",
+         "text": "C. 1140 doses"
+        },
+        {
+         "letter": "D",
+         "text": "D. 2163 doses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. 2280 doses",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Stock de sécurité des vaccins = 25 % du BT : 9 119 × 25 % ≈ 2 280 doses.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, 3.1.2 Le stock de sécurité en vaccin (p. 11)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__43",
+       "num": "44",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 — Vous avez été nouvellement affecté(e) au CSU de Zaranou (district sanitaire d'Abengourou) le 03 janvier 2023. Le médecin-chef vous nomme responsable du service de vaccination en remplacement de l'infirmier admis à son concours professionnel. Il vous demande d'estimer les besoins en vaccin RR et en seringues, sachant que la population totale de l'aire sanitaire est estimée à 60 142 habitants pour 2023.",
+       "text": "Quel est le stock de sécurité (SS) des seringues injectables ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 456 seringues"
+        },
+        {
+         "letter": "B",
+         "text": "B. 433 seringues"
+        },
+        {
+         "letter": "C",
+         "text": "C. 912 seringues"
+        },
+        {
+         "letter": "D",
+         "text": "D. 866 seringues"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. D. 866 seringues",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Stock de sécurité des consommables = 10 % du BT : 8 652 × 10 % ≈ 866 seringues (arrondi supérieur).\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, 3.2.1 (p. 12)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__44",
+       "num": "45",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 — Vous avez été nouvellement affecté(e) au CSU de Zaranou (district sanitaire d'Abengourou) le 03 janvier 2023. Le médecin-chef vous nomme responsable du service de vaccination en remplacement de l'infirmier admis à son concours professionnel. Il vous demande d'estimer les besoins en vaccin RR et en seringues, sachant que la population totale de l'aire sanitaire est estimée à 60 142 habitants pour 2023.",
+       "text": "Quel est le besoin réel (BR) du vaccin RR, exprimé en doses ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 9792 doses"
+        },
+        {
+         "letter": "B",
+         "text": "B. 11 399 doses"
+        },
+        {
+         "letter": "C",
+         "text": "C. 6606 doses"
+        },
+        {
+         "letter": "D",
+         "text": "D. 5642 doses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. 11 399 doses",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "BR = BT + SS = 9 119 + 2 280 = 11 399 doses.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, 3.1.3 Le besoin réel (p. 11)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__45",
+       "num": "46",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 — Vous avez été nouvellement affecté(e) au CSU de Zaranou (district sanitaire d'Abengourou) le 03 janvier 2023. Le médecin-chef vous nomme responsable du service de vaccination en remplacement de l'infirmier admis à son concours professionnel. Il vous demande d'estimer les besoins en vaccin RR et en seringues, sachant que la population totale de l'aire sanitaire est estimée à 60 142 habitants pour 2023.",
+       "text": "Quel est le besoin réel (BR) en seringues injectables ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 9518 seringues"
+        },
+        {
+         "letter": "B",
+         "text": "B. 5016 seringues"
+        },
+        {
+         "letter": "C",
+         "text": "C. 4782 seringues"
+        },
+        {
+         "letter": "D",
+         "text": "D. 4759 seringues"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. 9518 seringues",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "BR = BT + SS = 8 652 + 866 = 9 518 seringues.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, 3.1.3 et 3.2.1 (p. 11-12)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__46",
+       "num": "47",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 — Vous avez été nouvellement affecté(e) au CSU de Zaranou (district sanitaire d'Abengourou) le 03 janvier 2023. Le médecin-chef vous nomme responsable du service de vaccination en remplacement de l'infirmier admis à son concours professionnel. Il vous demande d'estimer les besoins en vaccin RR et en seringues, sachant que la population totale de l'aire sanitaire est estimée à 60 142 habitants pour 2023.",
+       "text": "Avant la commande, le stock était de 180 doses de vaccin RR (flacons de 10 doses), 300 seringues injectables et 140 seringues de dilution. Quelle est la prévision en vaccin RR, exprimée en doses, pour l'année 2023 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 11 219 doses"
+        },
+        {
+         "letter": "B",
+         "text": "B. 9612 doses"
+        },
+        {
+         "letter": "C",
+         "text": "C. 6426 doses"
+        },
+        {
+         "letter": "D",
+         "text": "D. 5462 doses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. 11 219 doses",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Prévision (quantité à commander) = BR – quantité en stock = 11 399 – 180 = 11 219 doses.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, 3.1.4 La quantité à commander (p. 11)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__47",
+       "num": "48",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 — Vous avez été nouvellement affecté(e) au CSU de Zaranou (district sanitaire d'Abengourou) le 03 janvier 2023. Le médecin-chef vous nomme responsable du service de vaccination en remplacement de l'infirmier admis à son concours professionnel. Il vous demande d'estimer les besoins en vaccin RR et en seringues, sachant que la population totale de l'aire sanitaire est estimée à 60 142 habitants pour 2023.",
+       "text": "Quelle est la quantité à commander (QC) de seringues injectables pour l'année 2023 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 4459 seringues"
+        },
+        {
+         "letter": "B",
+         "text": "B. 4482 seringues"
+        },
+        {
+         "letter": "C",
+         "text": "C. 4716 seringues"
+        },
+        {
+         "letter": "D",
+         "text": "D. 9218 seringues"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. D. 9218 seringues",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "QC = BR – QS = 9 518 – 300 = 9 218 seringues injectables.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, 3.1.4 (p. 11)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__48",
+       "num": "49",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 — Vous avez été nouvellement affecté(e) au CSU de Zaranou (district sanitaire d'Abengourou) le 03 janvier 2023. Le médecin-chef vous nomme responsable du service de vaccination en remplacement de l'infirmier admis à son concours professionnel. Il vous demande d'estimer les besoins en vaccin RR et en seringues, sachant que la population totale de l'aire sanitaire est estimée à 60 142 habitants pour 2023.",
+       "text": "Quelle est la quantité à commander (QC) de seringues de dilution pour l'année 2023 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 643 seringues de dilution"
+        },
+        {
+         "letter": "B",
+         "text": "B. 1122 seringues de dilution"
+        },
+        {
+         "letter": "C",
+         "text": "C. 1000 seringues de dilution"
+        },
+        {
+         "letter": "D",
+         "text": "D. 547 seringues de dilution"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. 1000 seringues de dilution",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Il faut une seringue de dilution par flacon : 11 399 doses / 10 ≈ 1 140 flacons, moins les 140 seringues de dilution en stock = 1 000. Remarque : L'option B (1 122) correspond à 11 219 / 10 sans déduire le stock de seringues de dilution.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, 3.2.2 Commande des seringues à dilution (p. 12)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j1-idesfm__49",
+       "num": "50",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 — Vous avez été nouvellement affecté(e) au CSU de Zaranou (district sanitaire d'Abengourou) le 03 janvier 2023. Le médecin-chef vous nomme responsable du service de vaccination en remplacement de l'infirmier admis à son concours professionnel. Il vous demande d'estimer les besoins en vaccin RR et en seringues, sachant que la population totale de l'aire sanitaire est estimée à 60 142 habitants pour 2023.",
+       "text": "Quelle est la quantité de boîtes de sécurité à commander pour l'année 2023 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 104 boîtes de sécurité"
+        },
+        {
+         "letter": "B",
+         "text": "B. 103 boîtes de sécurité"
+        },
+        {
+         "letter": "C",
+         "text": "C. 57 boîtes de sécurité"
+        },
+        {
+         "letter": "D",
+         "text": "D. 98 boîtes de sécurité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. 103 boîtes de sécurité",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Une boîte de sécurité contient environ 100 seringues : (9 218 seringues injectables + 1 000 seringues de dilution) / 100 = 102,2, arrondi à 103 boîtes.\n\nSource : Cours Santé publique L1, L2, L3 révisé 2025-2026, 3.2.3 Commande des boîtes de sécurité (p. 12)",
+       "sourceDoc": "Préparation D.E (J) · J1 Santé publique IDE/SFM",
+       "sourceFile": "J1_SANTE_PUBLIQUE_IDE_SFM_corrige_explique.docx",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

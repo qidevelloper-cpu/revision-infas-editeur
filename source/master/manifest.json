@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 125139734,
- "sha256": "f2cec85c3f015b68ef2ac1a70a77e506bbc9901ed01a2563a5740b6a283c6729",
+ "taille": 125260628,
+ "sha256": "fb6070c9794aab44be7c99b641e0118d3a50e3dcf1502d1612d3bf2fbfc92bbd",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -16606,8 +16606,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusapp",
-   "octets": 7550,
-   "sha256": "d069159e7730c1f82ccd2a29e9cb8f43390c850974ce6ccb5311c7379bf7ba22",
+   "octets": 7862,
+   "sha256": "431dc93b6209fb55ccbfab8dcb5c7e8ce1f9242ac83d7610dba2c1570ee68f5a",
    "fichier": "plus-applis/index.json",
    "codage": "brut"
   },
@@ -16619,8 +16619,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusnat-xmvkq4zed",
-   "octets": 2480835,
-   "sha256": "19162ee4ca9eeea44d49ea4066d968a98fb5271d2dc56ef1fdfe262a98c9d93b",
+   "octets": 2521215,
+   "sha256": "e0d9cd993e1a9b79e498b5d9912c0e163f9034ddc40f12ebf60b510f30ffb36d",
    "fichier": "plus-applis/xmvkq4zed-natif.json",
    "codage": "brut"
   },
@@ -16804,6 +16804,19 @@
    "octets": 61553,
    "sha256": "1352a64346791107fc397b7ff9020d661c4c3a3ce78f93f34fb3bc8f0feadd71",
    "fichier": "plus-applis/xmvkq4zed/zd-sj-prepa-ssrpf-j1-sfm.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--ze-sj-prepa-sp-j1-idesfm\">",
+   "sha256": "99cd367c971b2c8eb4d12a1c8fef3cede84508699b361013ff2e072e8d2f01ff"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--ze-sj-prepa-sp-j1-idesfm",
+   "octets": 80117,
+   "sha256": "670296d16f47c9a9fa92dbb03bdfa858a1bc42b901576828aa4a1894c6e639ed",
+   "fichier": "plus-applis/xmvkq4zed/ze-sj-prepa-sp-j1-idesfm.json",
    "codage": "brut"
   },
   {
