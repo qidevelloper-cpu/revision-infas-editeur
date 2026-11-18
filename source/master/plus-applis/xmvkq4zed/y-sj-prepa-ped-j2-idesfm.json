@@ -1,0 +1,2170 @@
+{
+ "app": "xmvkq4zed",
+ "id": "y-sj-prepa-ped-j2-idesfm",
+ "titre": "Préparation D.E (J) · J2 Pédiatrie IDE-SFM",
+ "session": "J",
+ "annee": 2026,
+ "nq": 60,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+   "sha256": "cf394cd6c30447ff59b946acd980dbf17bde1c0bb1ecbd246898dc7665837c37"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Pédiatrie · Prépa D.E J2 (IDE-SFM)",
+     "slug": "prepa-ped-j2-idesfm",
+     "pages": "",
+     "count": 60,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Pédiatrie",
+     "source": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le but des pesées est de réajuster le régime alimentaire de l'enfant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Selon la correction nationale de la Prépa DE (les J), l'affirmation est fausse. Le cours, lui, cite justement comme but de la pesée : « traduit l'état nutritionnel de l'enfant : réajuster un régime », en plus de suivre la courbe pondérale et de dépister une anomalie.\n\nSource : Licence – Soins aux enfants + Diététique (pptx 2022), diapo 156 « Pesée » ; Cours de Santé infantile L1 IDE-SFM, exercices de soins (item 9)",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les fonctions de l'incubateur néonatal, le contrôle de l'humidité a peu d'intérêt par rapport à l'isolement",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : l'humidité fait partie des fonctions principales de l'incubateur, au même titre que l'isolement. L'incubateur maintient le nouveau-né dans une atmosphère adaptée en température, humidité et oxygène, et assure la respiration d'un air filtré et humidifié.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Incubateur néonatal » – définition et fonctions principales",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La maîtrise de la pratique de la technique des soins ombilicaux met l'enfant à l'abri des infections comme son isolement en couveuse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : des soins ombilicaux faits avec méthode et asepsie évitent les infections du cordon (omphalite, tétanos ombilical), tout comme l'incubateur assure un isolement sur le plan infectieux.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Soins ombilicaux » (conclusion) et « Incubateur » (fonctions)",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la préparation des bols de lait du nouveau-né ou du nourrisson, seules les assiettes creuses jouent un rôle",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : le matériel de préparation du bol de lait comprend notamment deux assiettes plates, un bol, un gobelet, des cuillères, un couteau et des biberons stériles. Les assiettes creuses ne sont pas citées, et ce ne sont pas les seules à jouer un rôle.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Liste de matériel » (préparation du bol de lait)",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En salle de naissance, les soins essentiels qui durent 90 mn font partie des soins respectueux",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : les soins essentiels du nouveau-né, dans le cadre du cours, sont limités aux 90 premières minutes de vie (0-1 min, 1-60 min, 60-90 min). Ils font partie des soins à donner dans le respect du couple mère-enfant (peau à peau, mise au sein précoce).\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Soins essentiels aux nouveau-nés » ; Licence – Soins aux enfants + Diététique (pptx 2022), diapos 21-27",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La préparation des laits secs en poudre maternisés respecte la proportionnalité d'une mesurette rase pour 30 ml d'eau",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : les laits secs en poudre maternisés se reconstituent à raison d'une mesurette rase (5 g) pour 30 ml d'eau bouillie tiédie.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Laits secs en poudre maternisés » et exercices de diététique",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le mot PECIMNE est un acronyme plutôt qu'un sigle",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ». Attention : le cours parle de « Définition du sigle PCIMNE » (Prise en Charge Intégrée des Maladies du Nouveau-né et de l'Enfant).\n\nSource : Cours PCIMNE 2026, diapos 8-9",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La PECIMNE veut dire Prise en charge immédiate des maladies de la mère, du nouveau-né et de l'enfant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : PCIMNE signifie Prise en Charge INTÉGRÉE des Maladies du Nouveau-né et de l'Enfant, et non « immédiate » ; la mère n'y figure pas.\n\nSource : Cours PCIMNE 2026, diapo 9 ; Livret de tableaux PCIMNE 0-5 ans (2021), introduction",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la pratique de la PECIMNE, les trois bandes qui permettent de classer et traiter l'enfant sont de couleur rouge, jaune et verte",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : les 3 rangées des tableaux de classification sont ROSE (grave, transfert urgent), JAUNE (traitement au centre de santé) et VERTE (soins à domicile). Il n'y a pas de rangée rouge.\n\nSource : Livret de tableaux PCIMNE 0-5 ans (2021), « Décider à quel groupe d'âge… » ; Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Classer l'enfant »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les enfants de 2 ans à 5 ans complets ne sont pas concernés par la PECIMNE",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ». Or la PCIMNE cible les enfants de 0 à 5 ans : le groupe « 2 mois à 5 ans » existe dans le livret (un enfant de 4 ans 11 mois est concerné ; seul l'enfant qui a déjà fêté ses 5 ans n'y est plus).\n\nSource : Livret de tableaux PCIMNE 0-5 ans (2021), choix du tableau selon l'âge ; Cours PCIMNE 2026, diapo 11",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour les soins des orifices, il faut toujours nettoyer les oreilles de l'intérieur vers l'extérieur",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : pour les oreilles, on nettoie la face interne du pavillon puis la face externe, en changeant de compresse d'une oreille à l'autre. On ne nettoie que ce que l'on voit, et jamais avec un coton-tige.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Soins des orifices – soins des oreilles »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lorsque la mère tient l'enfant sous son bras pour le faire téter, elle adopte la position du football américain, propre aux césariennes ou aux jumeaux",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : dans la position « football américain », la mère est assise et tient le nourrisson sous son bras, la tête face au sein. Elle est recommandée après une césarienne, en cas de mamelons douloureux et pour allaiter des jumeaux.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Différentes positions pour allaiter » ; Licence – Soins aux enfants + Diététique (pptx 2022), diapo 281",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour le bon positionnement au sein et la bonne prise du sein, le ventre de l'enfant doit être contre celui de la mère",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : pour une bonne position, le ventre du nourrisson repose contre celui de la mère, le corps bien droit (tête, cou et dos alignés) et serré contre elle.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Technique de la bonne position » ; Pédiatrie Licence 2.pdf, « Critères d'un bon positionnement »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le premier lait de mère, le colostrum, est un véritable laxatif pour l'enfant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : parmi les caractéristiques du colostrum, le cours cite « excellent laxatif » (il aide à éliminer le méconium).\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Caractéristiques du colostrum » ; Licence – Soins aux enfants + Diététique (pptx 2022), diapo 267",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Comme avantage du fait de donner à téter le lait de mère à l'enfant est la prévention de l'allergie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Faux ». Pourtant le cours indique que le colostrum « prévient l'allergie et l'intolérance » et que l'allaitement aide à prévenir les maladies.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Caractéristiques du colostrum » ; Licence – Soins aux enfants + Diététique (pptx 2022), diapo 266",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__15",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le pré-lait provient de la nourrice d'un enfant né prématuré",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : le lait pré-terme est le lait des femmes ayant accouché avant 32 SA (voire 28 SA), donc la mère (« nourrice ») d'un enfant né prématuré.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Le lait pré-terme » ; Licence – Soins aux enfants + Diététique (pptx 2022), diapo 265",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__16",
+       "num": "17",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour faciliter l'expulsion du placenta, il faut une mise au sein précoce",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : la succion du mamelon provoque la libération d'ocytocine par la post-hypophyse ; cette hormone fait aussi contracter l'utérus, ce qui aide au décollement et à l'expulsion du placenta.\n\nSource : Licence – Soins aux enfants + Diététique (pptx 2022), diapo 260 (physiologie de la lactation) — partie utérine : (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__17",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "À partir de 6 mois, il faut ajouter des carreaux de sucre dans le bol de lait de l'enfant du 2e âge",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : les laits maternisés (1er, 2e et 3e âge) sont déjà tous sucrés. On n'ajoute pas de carreaux de sucre au lait du 2e âge.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Laits secs en poudre maternisés »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__18",
+       "num": "19",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La perte physiologique du poids chez l'enfant après la naissance intervient durant les 4 premiers jours",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : le nouveau-né perd environ 1/10 de son poids initial pendant les 4 premiers jours (méconium, urines, perte d'eau par la peau, montée laiteuse tardive). Il récupère ce poids vers le 10e-15e jour.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Repères de gain de poids » ; Licence – Soins aux enfants + Diététique (pptx 2022), diapo 157",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__19",
+       "num": "20",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le carnet de santé mère et enfant compte en réalité cinq à six parties",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ». Le cours décrit QUATRE parties : 1) identité et conditions de vie des parents, 2) suivi de la grossesse, 3) accouchement, 4) suivi de l'enfant.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Carnet de santé mère-enfant » ; Licence – Soins aux enfants + Diététique (pptx 2022), diapo 132",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__20",
+       "num": "21",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Né normalement à 31 semaines d'aménorrhée, 1re heure, APGAR 4 puis 6 en 5 mn ; respiration plus de 60/mn avec geignement ; poids 1200 g, taille 44 cm et PC 30 cm ; plante des pieds peu striée. L'oreille garde le pli cutané.",
+       "text": "Parmi les signes suivants, une seule marque réellement la notion de prématurité",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'APGAR en 1 mn"
+        },
+        {
+         "letter": "B",
+         "text": "La respiration rapide"
+        },
+        {
+         "letter": "C",
+         "text": "La taille de l'enfant"
+        },
+        {
+         "letter": "D",
+         "text": "Poids à 1200 g"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Poids à 1200 g",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient le poids de 1200 g. L'APGAR et la respiration rapide traduisent une souffrance ou une détresse, pas l'âge gestationnel. Le petit poids (< 2500 g) est l'élément le plus évocateur parmi les choix proposés.\n\nSource : Pediatrie.pdf, « Signes cliniques du prématuré – aspect clinique à la naissance »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__21",
+       "num": "22",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Né normalement à 31 semaines d'aménorrhée, 1re heure, APGAR 4 puis 6 en 5 mn ; respiration plus de 60/mn avec geignement ; poids 1200 g, taille 44 cm et PC 30 cm ; plante des pieds peu striée. L'oreille garde le pli cutané.",
+       "text": "De quel type de prématuré s'agit-il ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Petit prématuré"
+        },
+        {
+         "letter": "B",
+         "text": "Moyen prématuré"
+        },
+        {
+         "letter": "C",
+         "text": "Grand prématuré"
+        },
+        {
+         "letter": "D",
+         "text": "Très grand prématuré"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Grand prématuré",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Grand prématuré : né à 31 SA, donc entre 28 SA et 32 SA + 6 jours (28 ≤ AG < 33 SA). Le moyen prématuré correspond à 33-35 SA, le petit à 35-37 SA, le très grand à moins de 28 SA.\n\nSource : Pediatrie.pdf, « Le prématuré – définition et groupes » ; Cours de Pédiatrie 2 / pédiatrie cours.pdf",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__22",
+       "num": "23",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Né normalement à 31 semaines d'aménorrhée, 1re heure, APGAR 4 puis 6 en 5 mn ; respiration plus de 60/mn avec geignement ; poids 1200 g, taille 44 cm et PC 30 cm ; plante des pieds peu striée. L'oreille garde le pli cutané.",
+       "text": "En plus de sa prématurité, le nouveau-né pose un problème de",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Maladie des membranes hyalines"
+        },
+        {
+         "letter": "B",
+         "text": "Détresse respiratoire transitoire"
+        },
+        {
+         "letter": "C",
+         "text": "Infection respiratoire néonatale"
+        },
+        {
+         "letter": "D",
+         "text": "Syndrome d'inhalation de liquide"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Maladie des membranes hyalines",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Maladie des membranes hyalines : c'est la détresse respiratoire du prématuré. Elle est immédiate, avec geignement expiratoire, tachypnée > 60/min et cyanose, comme dans le cas. La détresse transitoire concerne plutôt les enfants à terme.\n\nSource : Néonatalogie.pdf, « V.5.1 Maladie des membranes hyalines » et « Tachypnée transitoire »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__23",
+       "num": "24",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Né normalement à 31 semaines d'aménorrhée, 1re heure, APGAR 4 puis 6 en 5 mn ; respiration plus de 60/mn avec geignement ; poids 1200 g, taille 44 cm et PC 30 cm ; plante des pieds peu striée. L'oreille garde le pli cutané.",
+       "text": "Par quels moyens peut-on évaluer la gravité d'une détresse respiratoire chez un enfant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Indice de Houenou"
+        },
+        {
+         "letter": "B",
+         "text": "Indice de Silverman"
+        },
+        {
+         "letter": "C",
+         "text": "Indice de Kanawati"
+        },
+        {
+         "letter": "D",
+         "text": "Indice d'APGAR"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Indice de Silverman",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le score de Silverman cote les signes de lutte respiratoire (battement des ailes du nez, tirage, geignement, entonnoir xiphoïdien, balancement thoraco-abdominal), chacun de 0 à 2. L'APGAR évalue la vitalité à la naissance, pas la gravité de la détresse.\n\nSource : Néonatalogie.pdf, tableau 5 « Score de Silverman » ; Pédiatrie Licence 2.pdf, détresse respiratoire",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__24",
+       "num": "25",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Né normalement à 31 semaines d'aménorrhée, 1re heure, APGAR 4 puis 6 en 5 mn ; respiration plus de 60/mn avec geignement ; poids 1200 g, taille 44 cm et PC 30 cm ; plante des pieds peu striée. L'oreille garde le pli cutané.",
+       "text": "Un indice de gravité de la détresse respiratoire chiffré à 7 est dit :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Légère"
+        },
+        {
+         "letter": "B",
+         "text": "Sévère"
+        },
+        {
+         "letter": "C",
+         "text": "Intense"
+        },
+        {
+         "letter": "D",
+         "text": "Modérée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Sévère",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Sévère : dans le cas clinique du cours, un score de Silverman de 7 correspond à une détresse respiratoire sévère. Le signe de gravité retenu est un Silverman supérieur à 3.\n\nSource : Pédiatrie Licence 2.pdf, cas « Nin-Ninkri » ; Néonatalogie.pdf, « Signes de gravité »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__25",
+       "num": "26",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Né normalement à 31 semaines d'aménorrhée, 1re heure, APGAR 4 puis 6 en 5 mn ; respiration plus de 60/mn avec geignement ; poids 1200 g, taille 44 cm et PC 30 cm ; plante des pieds peu striée. L'oreille garde le pli cutané.",
+       "text": "Pour un indice d'APGAR coté à 7, on dira que le nouveau-né a",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Un état modéré"
+        },
+        {
+         "letter": "B",
+         "text": "Un bon état"
+        },
+        {
+         "letter": "C",
+         "text": "Un mauvais état"
+        },
+        {
+         "letter": "D",
+         "text": "Un état moyen"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Un bon état",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Un bon état : un APGAR de 7 à 10 correspond à un nouveau-né normal (état neurologique satisfaisant). De 4 à 6, il y a une souffrance cérébrale modérée ; à 3 ou moins, une souffrance sévère.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Interprétation du score d'APGAR » Remarque : Pediatrie.pdf classe « 4 à 7 » en souffrance modérée : la valeur 7 est à la limite selon les cours.",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__26",
+       "num": "27",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Né normalement à 31 semaines d'aménorrhée, 1re heure, APGAR 4 puis 6 en 5 mn ; respiration plus de 60/mn avec geignement ; poids 1200 g, taille 44 cm et PC 30 cm ; plante des pieds peu striée. L'oreille garde le pli cutané.",
+       "text": "La cotation de l'APGAR est nécessaire pour la prise de décision de faire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Ou ne pas faire la réanimation"
+        },
+        {
+         "letter": "B",
+         "text": "De poser une sonde nasale"
+        },
+        {
+         "letter": "C",
+         "text": "Un massage cardiaque"
+        },
+        {
+         "letter": "D",
+         "text": "Une réanimation néonatale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Ou ne pas faire la réanimation",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La cotation d'APGAR, faite à la 1re, 5e et 10e minute, sert à décider s'il faut faire ou non une réanimation : gestes simples si 4-6, réanimation systématique si ≤ 3.\n\nSource : Néonatalogie.pdf, « Score d'APGAR » ; Cours de Santé infantile L1 IDE-SFM, interprétation",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle de ces mesures du poids de naissance est appropriée pour désigner un gros fœtus",
+       "options": [
+        {
+         "letter": "A",
+         "text": "2320 g, Taille 51 cm, PC 32 cm"
+        },
+        {
+         "letter": "B",
+         "text": "1320 g, Taille 35 cm, PC 27 cm"
+        },
+        {
+         "letter": "C",
+         "text": "4320 g, Taille 53 cm, PC 37 cm"
+        },
+        {
+         "letter": "D",
+         "text": "3320 g, Taille 50 cm, PC 35 cm"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 4320 g, Taille 53 cm, PC 37 cm",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Gros fœtus (macrosome) : poids ≥ 4000 g, avec une taille et un PC normaux ou augmentés, donc 4320 g / 53 cm / PC 37 cm. Les valeurs normales sont de 3,3 kg ± 0,5, 50 cm et 35 cm.\n\nSource : Pédiatrie Licence 2.pdf, « Nouveau-né de mère diabétique » ; Cours de Santé infantile L1 IDE-SFM, « Mensurations »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Il est dit d'un nouveau-né qu'il est à risque s'il pèse à la naissance",
+       "options": [
+        {
+         "letter": "A",
+         "text": "4000 g"
+        },
+        {
+         "letter": "B",
+         "text": "3320 g"
+        },
+        {
+         "letter": "C",
+         "text": "1320 g"
+        },
+        {
+         "letter": "D",
+         "text": "2520 g"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 1320 g",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "1320 g : c'est un très petit poids de naissance (< 2500 g, et même < 1500 g), un facteur de risque majeur (hypothermie, hypoglycémie, détresse respiratoire). 2520 g, 3320 g et 4000 g ne sont pas des petits poids.\n\nSource : Pediatrie.pdf, « Le prématuré » ; Néonatalogie.pdf, « Prématurité »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En salle de naissance, devant un nouveau-né en pleurs avec un bras le long du corps entravant la position « W », il peut s'agir :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hématome sous-cutané gauche"
+        },
+        {
+         "letter": "B",
+         "text": "Élongation du plexus brachial"
+        },
+        {
+         "letter": "C",
+         "text": "Luxation congénitale de la hanche"
+        },
+        {
+         "letter": "D",
+         "text": "Fracture de l'humérus gauche"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Élongation du plexus brachial",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Élongation (paralysie) du plexus brachial : le membre supérieur est allongé le long du corps, en adduction, ne bouge pas, la main en pronation. Elle survient après une traction forte sur l'épaule, souvent chez un macrosome.\n\nSource : Pédiatrie Licence 2.pdf, « Traumatisme obstétrical – cas Betchuinssa »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La durée de la prise de la température d'un enfant avec le thermomètre électronique est de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "10 secondes à 1 minute"
+        },
+        {
+         "letter": "B",
+         "text": "3 secondes à 5 minutes"
+        },
+        {
+         "letter": "C",
+         "text": "5 secondes à 10 secondes"
+        },
+        {
+         "letter": "D",
+         "text": "1 seconde à 2 minutes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 10 secondes à 1 minute",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le thermomètre électronique donne la mesure en quelques secondes à environ une minute (bip de fin de mesure). Le cours conseille le thermomètre électronique plutôt que celui à mercure.\n\nSource : Pédiatrie Licence 2.pdf, « Fièvre de l'enfant – affirmer la fièvre » ; durée : (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Devant un nourrisson de 3 mois à 38,7 °C de fièvre, on parle de fièvre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hyperthermie majeure"
+        },
+        {
+         "letter": "B",
+         "text": "Fièvre modérée"
+        },
+        {
+         "letter": "C",
+         "text": "Fièvre légère"
+        },
+        {
+         "letter": "D",
+         "text": "Fièvre élevée grave"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Fièvre modérée",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « fièvre modérée ». Selon le degré, le cours classe : fièvre modérée 37,5-38,5 °C, fièvre élevée 38,5-40 °C, hyperthermie > 40 °C.\n\nSource : Pédiatrie Licence 2.pdf, « Classification de la fièvre » (Prof. Assé)",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Comme signe de mauvaise tolérance de la fièvre chez le nourrisson, on note",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les extrémités froides"
+        },
+        {
+         "letter": "B",
+         "text": "Des troubles conjonctivaux"
+        },
+        {
+         "letter": "C",
+         "text": "Un cri de cœur fort"
+        },
+        {
+         "letter": "D",
+         "text": "Une conscience normale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Les extrémités froides",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les extrémités froides (avec marbrures, TRC > 3 s, cri plaintif, conscience altérée) sont des signes de mauvaise tolérance. Un cri vigoureux et une conscience normale traduisent au contraire une bonne tolérance.\n\nSource : Pédiatrie Licence 2.pdf, « Apprécier la tolérance de la fièvre »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'apparition des sons syllabiques doublés « pa-pa », « ma-ma », « ta-ta » apparaissent vers l'âge de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "6 mois"
+        },
+        {
+         "letter": "B",
+         "text": "9 mois"
+        },
+        {
+         "letter": "C",
+         "text": "8 mois"
+        },
+        {
+         "letter": "D",
+         "text": "7 mois"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 9 mois",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Vers 9 mois, les phonèmes sont doublés (« pa-pa », « ma-ma », « ta-ta ») : ce sont les « premiers mots » pour l'entourage. Vers 6 mois, les sons syllabiques sont simplement répétés.\n\nSource : Pediatrie.pdf, « Développement du langage – apparition des sons syllabiques »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Face à un enfant qui présente une méningite avant 3 mois, l'agent de santé doit administrer des antibiotiques :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Amoxicilline 200 mg/kg/jour en 3 IVD, selon la stricte prescription"
+        },
+        {
+         "letter": "B",
+         "text": "Ampicilline 100/kg/jour en 3 IVD + Nétilmicine 5-7 mg/kg/j 1"
+        },
+        {
+         "letter": "C",
+         "text": "Amoxicilline 200/kg/jour en 3 IVD + Nétilmicine 5-7 mg/kg/j 1 IM"
+        },
+        {
+         "letter": "D",
+         "text": "Ampicilline 200 mg/kg/jour en 3 IVD selon le protocole indiqué seul"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Amoxicilline 200/kg/jour en 3 IVD + Nétilmicine 5-7 mg/kg/j 1 IM",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Avant 3 mois : ampicilline ou amoxicilline 200 mg/kg/j en 3 IVD, associée à un aminoside en 1 IM par jour. Les options sans aminoside ou avec 100 mg/kg/j sont incomplètes.\n\nSource : Pédiatrie Licence 2.pdf, « Méningite – modalités de l'antibiothérapie avant 3 mois » Remarque : Le cours donne l'aminoside à 3-5 mg/kg/j (et non 5-7 mg/kg/j) ; la logique de l'association est la même.",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les vomissements chroniques du nourrisson ont pour causes :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Invagination de l'intestin de l'enfant"
+        },
+        {
+         "letter": "B",
+         "text": "Sténose hypertrophique du pylore"
+        },
+        {
+         "letter": "C",
+         "text": "Torsion d'un testicule chez le mâle"
+        },
+        {
+         "letter": "D",
+         "text": "Étranglement herniaire commun"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Sténose hypertrophique du pylore",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Sténose hypertrophique du pylore : c'est une cause mécanique de vomissements CHRONIQUES (garçon premier-né, vomissements en jet 3 à 6 semaines après la naissance). L'invagination, la torsion du testicule et l'étranglement herniaire sont des causes chirurgicales de vomissements AIGUS.\n\nSource : Pediatrie.pdf, « Vomissements du nourrisson – causes »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la maladie hémorragique du nouveau-né, on note :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les hémorragies de causes thrombopéniques"
+        },
+        {
+         "letter": "B",
+         "text": "Les hémorragies dues à la manipulation du cordon"
+        },
+        {
+         "letter": "C",
+         "text": "Des troubles gastro-entérites chroniques"
+        },
+        {
+         "letter": "D",
+         "text": "Le temps de Quick est allongé chez l'enfant"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Le temps de Quick est allongé chez l'enfant",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La maladie hémorragique est due à un déficit en vitamine K1 (facteurs II, VII, IX, X), d'où un temps de Quick allongé (TP bas). Elle n'est pas d'origine thrombopénique.\n\nSource : Pédiatrie Licence 2.pdf, « Maladie hémorragique du nouveau-né – bilan »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'apparition du son « je » s'observe chez le nourrisson vers :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'âge de 2 ans"
+        },
+        {
+         "letter": "B",
+         "text": "L'âge de 3 ans"
+        },
+        {
+         "letter": "C",
+         "text": "L'âge de 3 ans"
+        },
+        {
+         "letter": "D",
+         "text": "L'âge de 4 ans"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. L'âge de 3 ans",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Vers 3 ans, c'est « l'explosion grammaticale » : l'enfant construit des phrases (sujet, verbe, complément) et le « je » apparaît.\n\nSource : Pediatrie.pdf, « Accroissement du vocabulaire » Remarque : Les options 2 et 3 sont identiques (« 3 ans ») dans le sujet ; seule l'option 2 est cochée.",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La puberté débute chez la petite fille entre l'âge de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "14 et 15 ans"
+        },
+        {
+         "letter": "B",
+         "text": "12 et 13 ans"
+        },
+        {
+         "letter": "C",
+         "text": "13 et 14 ans"
+        },
+        {
+         "letter": "D",
+         "text": "10 et 11 ans"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 10 et 11 ans",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La puberté débute chez la fille entre 10 et 11 ans, chez le garçon entre 12 et 13 ans.\n\nSource : Pediatrie.pdf, « Période pubertaire »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les causes infectieuses des dermatoses sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Irritation : érythème fessier"
+        },
+        {
+         "letter": "B",
+         "text": "Virales : herpès, varicelle"
+        },
+        {
+         "letter": "C",
+         "text": "Immunologiques : eczéma"
+        },
+        {
+         "letter": "D",
+         "text": "Toxiques : des pratiques diverses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Virales : herpès, varicelle",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Causes infectieuses des dermatoses : bactériennes (staphylocoque, streptocoque), VIRALES (herpès, varicelle), mycosiques (candida) et parasitaires (gale, poux). L'irritation (érythème fessier), l'eczéma et les causes toxiques sont non infectieuses.\n\nSource : Pédiatrie Licence 2.pdf, « Dermatoses du nouveau-né – étiologies »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__40",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les facteurs favorisants des dermatoses liés à la mère et à l'environnement sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'enfant de faible poids de naissance"
+        },
+        {
+         "letter": "B",
+         "text": "Les soins septiques chez l'enfant"
+        },
+        {
+         "letter": "C",
+         "text": "La prématurité et l'hypotrophie"
+        },
+        {
+         "letter": "D",
+         "text": "Des moyens de défense faibles"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Les soins septiques chez l'enfant",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Facteurs liés à la mère et à l'environnement : infections, maladie familiale, défaut d'hygiène, donc soins septiques. La prématurité, l'hypotrophie et la faiblesse des défenses sont des facteurs liés au nouveau-né.\n\nSource : Pédiatrie Licence 2.pdf, « Dermatoses – facteurs favorisants »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__41",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les facteurs favorisant l'intoxication de l'enfant sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une pneumopathie infectieuse grave du nourrisson"
+        },
+        {
+         "letter": "B",
+         "text": "Le bas niveau socio-économique de la famille"
+        },
+        {
+         "letter": "C",
+         "text": "Un paludisme grave ou une méningite bactérienne"
+        },
+        {
+         "letter": "D",
+         "text": "La sécurisation des produits pharmaceutiques"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Le bas niveau socio-économique de la famille",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Facteurs favorisants liés aux parents et à l'environnement : faible niveau d'instruction et socio-économique, maison mal rangée, conditionnements non sécurisés, toxiques à portée de main.\n\nSource : Pédiatrie Licence 2.pdf, « Intoxication de l'enfant – facteurs favorisants »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__42",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La croissance du massif crânio-facial : le bregma, de forme losangique, se ferme entre :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "14 et 15 mois"
+        },
+        {
+         "letter": "B",
+         "text": "12 et 18 mois"
+        },
+        {
+         "letter": "C",
+         "text": "13 et 14 mois"
+        },
+        {
+         "letter": "D",
+         "text": "18 et 20 ans"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 12 et 18 mois",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La fontanelle antérieure (bregma), de forme losangique, se ferme entre 12 et 18 mois. La fontanelle postérieure (lambda) ne reste palpable que les premières semaines.\n\nSource : Pediatrie.pdf, « Croissance des os du crâne » ; Cours de Pédiatrie 2 / pédiatrie cours.pdf",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__43",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les facteurs étiologiques de la maladie hémorragique sont constitués par :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'injection de la vitamine K1"
+        },
+        {
+         "letter": "B",
+         "text": "L'accouchement eutocique"
+        },
+        {
+         "letter": "C",
+         "text": "La malformation rénale"
+        },
+        {
+         "letter": "D",
+         "text": "La race noire surtout"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. La race noire surtout",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Facteurs favorisants de la maladie hémorragique : race noire, prématurité, J2-J3 de vie, allaitement exclusif, absence d'injection de vitamine K1, prise d'anti-vitamine K pendant la grossesse. L'injection de vitamine K1 est au contraire la prévention.\n\nSource : Pédiatrie Licence 2.pdf, « Maladie hémorragique – facteurs favorisants »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__44",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les propositions suivantes désignent le niveau de développement psychomoteur de l'enfant à la naissance",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Il maintient bien sa tête dans le plan du corps"
+        },
+        {
+         "letter": "B",
+         "text": "Il parvient à tirer sur ses bras et peu sur ses pieds"
+        },
+        {
+         "letter": "C",
+         "text": "Attitude des membres fléchis, poings fermés"
+        },
+        {
+         "letter": "D",
+         "text": "Présente une attitude en flexion généralisée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Attitude des membres fléchis, poings fermés",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "À la naissance (0-1 mois), l'enfant est en quadri-flexion (membres supérieurs en « W », inférieurs en « M »), poings fermés, avec un réflexe de grasping. Il ne tient pas encore sa tête dans l'axe (vers 3 mois).\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Étapes du DPM » ; Pediatrie.pdf, « Tonus » Remarque : L'option 4 (« attitude en flexion généralisée ») décrit aussi la quadri-flexion ; seule l'option 3 est cochée.",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__45",
+       "num": "46",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La malnutrition est un état pathologique résultant d'une inadéquation par",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La mise au sein précoce dès la naissance avec le peau à peau"
+        },
+        {
+         "letter": "B",
+         "text": "Manque de faire suivre le nourrisson à la PMI comme indiqué"
+        },
+        {
+         "letter": "C",
+         "text": "Excès en apports alimentaires par rapport aux besoins de l'organisme"
+        },
+        {
+         "letter": "D",
+         "text": "Manifestation des maladies infectieuses chez le nouveau-né"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Excès en apports alimentaires par rapport aux besoins de l'organisme",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La malnutrition résulte d'une inadéquation entre les apports et les besoins de l'organisme. Elle peut être par carence (kwashiorkor, marasme) ou par EXCÈS d'apports (surpoids, obésité).\n\nSource : Pédiatrie Licence 2.pdf, « Malnutrition – pathogénie » ; Licence – Soins aux enfants + Diététique (pptx 2022), courbe P/T (surpoids, obésité) ; (explication hors cours du projet) pour la définition",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__46",
+       "num": "47",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les ingrédients du mélange I énumérés ci-dessous, se trouve un intrus, lequel :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Farine de céréale = 2 volumes"
+        },
+        {
+         "letter": "B",
+         "text": "Lait en poudre entier = 6 volumes"
+        },
+        {
+         "letter": "C",
+         "text": "Sucre en poudre = 2 volumes"
+        },
+        {
+         "letter": "D",
+         "text": "Huile végétale = 1 volume"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Farine de céréale = 2 volumes",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'intrus retenu par la correction nationale de la Prépa DE (les J) est « farine de céréale = 2 volumes ».\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__47",
+       "num": "48",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le plan de traitement des signes sévères de déshydratation est le :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Plan A"
+        },
+        {
+         "letter": "B",
+         "text": "Plan D"
+        },
+        {
+         "letter": "C",
+         "text": "Plan B"
+        },
+        {
+         "letter": "D",
+         "text": "Plan C"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Plan C",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Plan C : traitement de la déshydratation sévère, à l'hôpital, par perfusion (Ringer lactate…) ou SRO par sonde. Plan A : pas de déshydratation, à domicile ; plan B : signes évidents, SRO 75 ml/kg en 4 h. Il n'y a pas de plan D.\n\nSource : Pediatrie.pdf, « Plans de traitement A, B, C » ; Cours de Pédiatrie 2 / pédiatrie cours.pdf, tableau I",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__48",
+       "num": "49",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La principale cause de détresse respiratoire chez le nouveau-né prématuré né par voie basse est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Inhalation du liquide du lait maternel lors des tétées"
+        },
+        {
+         "letter": "B",
+         "text": "Infection et les tétées peu fréquentes encore"
+        },
+        {
+         "letter": "C",
+         "text": "Trouble du langage et trouble de déglutition"
+        },
+        {
+         "letter": "D",
+         "text": "Maladie des membranes hyalines néonatales"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Maladie des membranes hyalines néonatales",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Maladie des membranes hyalines : c'est « la maladie du prématuré essentiellement », due à une immaturité pulmonaire (déficit en surfactant). La prématurité est son premier facteur de risque.\n\nSource : Néonatalogie.pdf, « Causes médicales de détresse respiratoire – V.5.1 »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__49",
+       "num": "50",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les situations à risque de détresse respiratoire du nouveau-né qui sont liées au fœtus sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Nouveau-né de mère droguée"
+        },
+        {
+         "letter": "B",
+         "text": "Accouchement eutocique"
+        },
+        {
+         "letter": "C",
+         "text": "Nouveau-né post-mature"
+        },
+        {
+         "letter": "D",
+         "text": "Déficit congénital ou acquis"
+        },
+        {
+         "letter": "E",
+         "text": "Dystocie dynamique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Nouveau-né post-mature",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Facteurs de risque liés à l'enfant (fœtus) : prématuré, hypotrophe, POST-TERME, malformation, souffrance cérébrale. La mère droguée, l'accouchement et la dystocie relèvent de la mère ou de l'accouchement.\n\nSource : Pédiatrie Licence 2.pdf, « Détresse respiratoire – facteurs de risque »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__50",
+       "num": "51",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nourrisson est classé malnutri sévère quand son Z-score est compris entre :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "> à -3"
+        },
+        {
+         "letter": "B",
+         "text": "2 et -1"
+        },
+        {
+         "letter": "C",
+         "text": "3 et -2"
+        },
+        {
+         "letter": "D",
+         "text": "< à -1"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. > à -3",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « > à -3 ». Dans le cours, la malnutrition aiguë sévère correspond à un Z-score poids/taille INFÉRIEUR à -3 (sous la courbe -3) ; entre -3 et -2, il s'agit d'une malnutrition modérée.\n\nSource : Livret de tableaux PCIMNE 0-5 ans (2021), « Classer l'état nutritionnel » ; Licence – Soins aux enfants + Diététique (pptx 2022), diapo 189",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__51",
+       "num": "52",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les critères d'admission au centre des soins mère-kangourou sont",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Avoir des extrémités chaudes"
+        },
+        {
+         "letter": "B",
+         "text": "Être un très gros fœtus de naissance"
+        },
+        {
+         "letter": "C",
+         "text": "Un prématuré stable"
+        },
+        {
+         "letter": "D",
+         "text": "Un nouveau-né en détresse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Un prématuré stable",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les soins mère kangourou commencent quand le prématuré ou le nouveau-né de petit poids est STABLE : pas de signes de danger, succion et déglutition présentes. Un nouveau-né en détresse n'est pas éligible.\n\nSource : Néonatalogie.pdf, « Méthode des soins mère kangourou – critères d'éligibilité »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__52",
+       "num": "53",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les facteurs de gravité des maladies diarrhéiques sont les suivants sauf un, lequel :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Allaitement exclusif que certaines mères ont bien choisi de faire"
+        },
+        {
+         "letter": "B",
+         "text": "Faible niveau d'instruction des parents et le retard de décision"
+        },
+        {
+         "letter": "C",
+         "text": "Déficit immunitaire congénital ou acquis chez le nourrisson"
+        },
+        {
+         "letter": "D",
+         "text": "Ignorance des parents pour voir les signes de déshydratation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Allaitement exclusif que certaines mères ont bien choisi de faire",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'allaitement exclusif est un facteur PROTECTEUR : le non-respect de l'allaitement exclusif jusqu'à 6 mois favorise la diarrhée. Le faible niveau d'instruction, le retard de décision, le déficit immunitaire et l'ignorance des signes de déshydratation aggravent la maladie.\n\nSource : Les 12 pratiques familiales essentielles (PFE), « Diarrhée – facteurs favorisants »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__53",
+       "num": "54",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La photothérapie est indiquée chez le nouveau-né ictérique pour le réchauffer car la bilirubine libre est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hydrosoluble"
+        },
+        {
+         "letter": "B",
+         "text": "Les deux à la fois"
+        },
+        {
+         "letter": "C",
+         "text": "Ni l'un ni l'autre"
+        },
+        {
+         "letter": "D",
+         "text": "Liposoluble"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Liposoluble",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La bilirubine libre (non conjuguée) est liposoluble. La photothérapie, en lumière bleue, la transforme en dérivés hydrosolubles éliminés dans les urines. Le but n'est pas de réchauffer : l'hyperthermie est même un risque.\n\nSource : Néonatalogie.pdf, « Ictère – conduite de la photothérapie »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__54",
+       "num": "55",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Cocher seulement les bonnes réponses parmi les facteurs de déclin de l'allaitement",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La montée laiteuse précoce, puis la mise au sein"
+        },
+        {
+         "letter": "B",
+         "text": "Le soutien psychologique de la mère allaitante par le père"
+        },
+        {
+         "letter": "C",
+         "text": "Le congé de maternité avec présence de la mère à la maison"
+        },
+        {
+         "letter": "D",
+         "text": "La promotion et la vulgarisation des laits infantiles"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. La promotion et la vulgarisation des laits infantiles",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Facteurs de déclin de l'allaitement : fabrication et promotion des formules infantiles, activité professionnelle de la mère, manque de soutien psychologique, préoccupation esthétique, RETARD de la montée laiteuse. Le soutien du père et le congé de maternité favorisent au contraire l'allaitement.\n\nSource : Pédiatrie Licence 2.pdf, « Politiques de l'allaitement – facteurs de déclin »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__55",
+       "num": "56",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les critères d'une bonne succion sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'enfant fait le rot au cours de la tétée"
+        },
+        {
+         "letter": "B",
+         "text": "Une succion lente, profonde et continue"
+        },
+        {
+         "letter": "C",
+         "text": "On entend le nouveau-né déglutir le lait maternel"
+        },
+        {
+         "letter": "D",
+         "text": "La bouche est grandement ouverte et prend largement l'aréole"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. On entend le nouveau-né déglutir le lait maternel",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Critères d'une tétée (succion) efficace : succion lente et profonde entrecoupée de pauses, et on entend le bébé déglutir. « Bouche grande ouverte qui prend l'aréole » est un critère de bonne PRISE du sein.\n\nSource : Pédiatrie Licence 2.pdf, « Critères d'une tétée efficace » ; Licence – Soins aux enfants + Diététique (pptx 2022), diapo 291",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__56",
+       "num": "57",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Selon les recommandations pour l'allaitement de l'enfant malade et de l'enfant en bonne santé âgé de 0 à six (6) mois, l'enfant a droit à :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Deux (2) repas familiaux par jour"
+        },
+        {
+         "letter": "B",
+         "text": "Deux goûters : yaourt, œuf dur"
+        },
+        {
+         "letter": "C",
+         "text": "Au moins 8 tétées en 24 heures"
+        },
+        {
+         "letter": "D",
+         "text": "Deux (2) tétées en 24 heures"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Au moins 8 tétées en 24 heures",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "De 0 à 6 mois : allaiter aussi souvent que l'enfant réclame, jour et nuit, au moins 8 fois en 24 heures, sans rien donner d'autre. Les goûters et repas familiaux ne viennent qu'après 6 mois.\n\nSource : Livret de tableaux PCIMNE 0-5 ans (2021), « Recommandations pour l'alimentation – de la naissance à 6 mois »",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__57",
+       "num": "58",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le but de la mesure du périmètre crânien est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "De dépister un spina bifida"
+        },
+        {
+         "letter": "B",
+         "text": "De dépister une microcéphalie"
+        },
+        {
+         "letter": "C",
+         "text": "D'apprécier le nombre des selles"
+        },
+        {
+         "letter": "D",
+         "text": "D'augmenter le nombre de repas"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. De dépister une microcéphalie",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le périmètre crânien apprécie le volume du cerveau jusqu'à 2-3 ans et permet de dépister une microcéphalie ou une hydrocéphalie. Le spina-bifida se recherche à l'examen du dos.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Matériel pour la mesure du PC » ; Licence – Soins aux enfants + Diététique (pptx 2022), diapo 217",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__58",
+       "num": "59",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le gavage est indiqué chez :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le nouveau-né ayant une fente labio-palatine"
+        },
+        {
+         "letter": "B",
+         "text": "Le nouveau-né eutrophique de mère césarisée"
+        },
+        {
+         "letter": "C",
+         "text": "Le nouveau-né coloré avec les extrémités cyanosées"
+        },
+        {
+         "letter": "D",
+         "text": "Le nouveau-né ayant un bon réflexe de succion"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Le nouveau-né ayant une fente labio-palatine",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le gavage (sonde naso- ou oro-gastrique) est indiqué quand l'enfant ne peut pas téter efficacement : fente labio-palatine, prématuré sans réflexe de succion, etc. Un nouveau-né avec un bon réflexe de succion doit être mis au sein.\n\nSource : Néonatalogie.pdf, « Gavage – technique » ; indication fente labio-palatine : (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j2-idesfm__59",
+       "num": "60",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les fonctions principales de l'incubateur sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Isolement de l'enfant de tous ses parents"
+        },
+        {
+         "letter": "B",
+         "text": "Assurer la surveillance paraclinique"
+        },
+        {
+         "letter": "C",
+         "text": "Assurer la ventilation assistée"
+        },
+        {
+         "letter": "D",
+         "text": "Assurer la respiration de l'air ambiant"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Assurer la ventilation assistée",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Fonctions de l'incubateur : neutralité thermique, respiration d'un air filtré et humidifié, isolement infectieux, surveillance CLINIQUE, et réanimation, en particulier la ventilation assistée. Isoler l'enfant de ses parents ne fait pas partie de ces fonctions.\n\nSource : Licence – Soins aux enfants + Diététique (pptx 2022), diapo 84 « Fonctions principales de l'incubateur » ; Cours de Santé infantile L1 IDE-SFM",
+       "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
+       "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
