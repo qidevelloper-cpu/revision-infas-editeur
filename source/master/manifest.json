@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 124943940,
- "sha256": "466a812fa3c0e36527208310dc02b06f6ae092991617089ab47f8d66641eb1f7",
+ "taille": 125139734,
+ "sha256": "f2cec85c3f015b68ef2ac1a70a77e506bbc9901ed01a2563a5740b6a283c6729",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -16606,8 +16606,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusapp",
-   "octets": 6955,
-   "sha256": "bf30e69609af28843f88850d365882055c5a6d9aa73bae9d7edef3e975d23dfd",
+   "octets": 7550,
+   "sha256": "d069159e7730c1f82ccd2a29e9cb8f43390c850974ce6ccb5311c7379bf7ba22",
    "fichier": "plus-applis/index.json",
    "codage": "brut"
   },
@@ -16619,8 +16619,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusnat-xmvkq4zed",
-   "octets": 2421802,
-   "sha256": "ace638bb7c28f10e81a1729eed5140ab100b0dcf364807faaaa8e3c398d8f66a",
+   "octets": 2480835,
+   "sha256": "19162ee4ca9eeea44d49ea4066d968a98fb5271d2dc56ef1fdfe262a98c9d93b",
    "fichier": "plus-applis/xmvkq4zed-natif.json",
    "codage": "brut"
   },
@@ -16778,6 +16778,32 @@
    "octets": 71144,
    "sha256": "8eed048686bb6cd05f1ea2a190020bcdd2701b9f87335e784f72e026d52f3a85",
    "fichier": "plus-applis/xmvkq4zed/zb-sj-prepa-chir-j1-ide.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zc-sj-prepa-gyneco-j1-sfm\">",
+   "sha256": "d3c1c7175f2d74c8c50d348af5b36691ac029c297d15347a63c139014306cdfe"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zc-sj-prepa-gyneco-j1-sfm",
+   "octets": 74442,
+   "sha256": "c9fc064c46bdd1e02688607d7cff3b45f6bee4fbd9456e70badf88613934ad8b",
+   "fichier": "plus-applis/xmvkq4zed/zc-sj-prepa-gyneco-j1-sfm.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zd-sj-prepa-ssrpf-j1-sfm\">",
+   "sha256": "a9da43f7ac15401f8b0516611930301383214a9a3cfac9fb3e1455eb0a26537c"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zd-sj-prepa-ssrpf-j1-sfm",
+   "octets": 61553,
+   "sha256": "1352a64346791107fc397b7ff9020d661c4c3a3ce78f93f34fb3bc8f0feadd71",
+   "fichier": "plus-applis/xmvkq4zed/zd-sj-prepa-ssrpf-j1-sfm.json",
    "codage": "brut"
   },
   {

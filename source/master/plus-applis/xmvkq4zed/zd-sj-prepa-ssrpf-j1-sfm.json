@@ -1,0 +1,1850 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zd-sj-prepa-ssrpf-j1-sfm",
+ "titre": "Préparation D.E (J) · J1 SR-PF SFM",
+ "session": "J",
+ "annee": 2026,
+ "nq": 55,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+   "sha256": "303f77b78935286982a44da88e2f3c5a35ea26f03a43ef4f9c43fd28d90fa86a"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J SSR / PF · Prépa D.E J1 (SFM)",
+     "slug": "prepa-ssrpf-j1-sfm",
+     "pages": "",
+     "count": 55,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "SSR / PF",
+     "source": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’orientation sexuelle désigne l’attirance physique, romantique ou émotionnelle",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'orientation sexuelle désigne le sexe par lequel on est attiré, d'un point de vue romantique ou sexuel.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), SSRAJ – Identité sexuelle, p. 32",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les IST font partie des principaux problèmes liés à la sexualité des adolescents",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les premiers rapports non protégés exposent les adolescents aux IST/VIH et aux grossesses précoces, problèmes de santé prioritaires de l'adolescence.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Problèmes de santé prioritaires des adolescents, p. 29",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les rapports sexuels précoces sont sans conséquences pour les adolescents",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les rapports précoces non protégés ont des conséquences : IST (salpingite, GEU, stérilité), grossesse précoce (dystocies, fistules, avortement à risque, prématurité) et coûts sociaux (rejet, arrêt de la scolarité).\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Conséquences des relations sexuelles non protégées, p. 34",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le mariage précoce peut favoriser l’abandon scolaire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les mariages et grossesses précoces font partie des obstacles qui poussent les filles à l'échec et à l'abandon scolaire.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Inégalités de genre en matière d'éducation, p. 9",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le genre est un concept socialement construit",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le genre est un rapport social : les caractéristiques des hommes et des femmes sont produites par la société, acquises par l'éducation et variables dans le temps et l'espace.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Concepts généraux de l'approche genre, p. 7",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les préjugés peuvent conduire à des discriminations",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un préjugé (jugement formé à l'avance) peut conduire à traiter quelqu'un différemment, donc à le discriminer.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La famille est une source de socialisation liée au genre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les disparités de genre résultent d'abord d'un conditionnement familial (préférence pour le garçon, partage inégal des tâches, de l'éducation, des décisions) : la famille transmet les normes de genre.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Disparités de genre dans les ménages, p. 8",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’accès aux ressources et leur contrôle sont des outils d’analyse du genre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'accès aux ressources et leur contrôle font partie des principes de base du genre ; leur inégalité est l'un des éléments qu'on analyse.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Sept principes de base du genre, p. 16 ; Disparités de genre, p. 8",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’adolescence s’étend de 10 à 19 ans selon l’OMS",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Selon l'OMS, est adolescent tout individu âgé de 10 à 19 ans.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), L'adolescence, p. 22",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les garçons ont généralement moins de liberté que les filles dans l’espace public",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "En général, ce sont les filles qui ont moins de liberté dans l'espace public (contrôle, sécurité, tâches domestiques), et non les garçons.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Disparités de genre (partiellement hors cours), p. 8-9",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les rites de passage des filles peuvent inclure des pratiques nuisibles",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Certains rites de passage des filles comportent des pratiques nuisibles (par exemple mutilations génitales, mariage précoce) ; la CCC contre les pratiques traditionnelles néfastes fait partie de la SR.\n\nSource : DOCUMENT SSR L2 SF 2021 REVU, Concept de la santé de la reproduction (CCC sur les pratiques traditionnelles néfastes) (partiellement hors cours)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La pauvreté est un obstacle à la promotion des droits des jeunes",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La pauvreté limite l'accès à l'éducation et aux services de santé (coût des services) : c'est un obstacle à la réalisation des droits des jeunes.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Obstacles à l'utilisation des services (coût élevé), p. 36",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les adolescents n’ont pas besoin d’informations fiables sur la SSR",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Au contraire, les adolescents reçoivent beaucoup d'informations incorrectes ou incomplètes ; le prestataire doit leur fournir des informations fiables sur la sexualité et la SR.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Améliorer l'accès des adolescents aux services de SSR, p. 35",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les compétences psychosociales font partie des besoins des jeunes",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le prestataire accompagne l'adolescent pour développer ses compétences psychosociales (CPS) ; la santé mentale/CPS fait partie des composantes de la santé des adolescents et jeunes.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Composantes SAJ, p. 21 ; Rôle du prestataire, p. 35",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La sexualité est un aspect fondamental de la vie humaine",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La sexualité recouvre l'ensemble des phénomènes liés au sexe ; elle est une composante de la santé globale et du bien-être.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Définitions liées à la sexualité, p. 31 ; Exercice 2, p. 101",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__15",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le droit est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Une sanction"
+        },
+        {
+         "letter": "B",
+         "text": "B. Une prérogative reconnue à un individu"
+        },
+        {
+         "letter": "C",
+         "text": "C. Une punition"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Une prérogative reconnue à un individu",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le droit est aussi « l'ensemble des avantages reconnus à un individu pour lui permettre de bien vivre » : une prérogative reconnue, et non une sanction ou une punition.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Santé, genre et droits humains, p. 11",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’équité vise :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. L’exclusion"
+        },
+        {
+         "letter": "B",
+         "text": "B. La justice entre femmes et hommes"
+        },
+        {
+         "letter": "C",
+         "text": "C. La domination"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. La justice entre femmes et hommes",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'équité du genre consiste à être juste à l'égard des hommes et des femmes ; elle conduit à l'égalité.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Définitions (équité du genre), p. 31",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__17",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un pilier du GED est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Ségrégation"
+        },
+        {
+         "letter": "B",
+         "text": "B. Participation"
+        },
+        {
+         "letter": "C",
+         "text": "C. Exclusion"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Participation",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La participation fait partie des sept principes de base du GED (avec l'égalité, l'équité, le pouvoir, l'accès et le contrôle des ressources…).\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Sept principes de base du genre, p. 16",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le genre influence",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Seulement l’éducation"
+        },
+        {
+         "letter": "B",
+         "text": "B. La santé et le bien-être"
+        },
+        {
+         "letter": "C",
+         "text": "C. Seulement la politique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. La santé et le bien-être",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les inégalités de genre touchent la santé (accès aux soins, nutrition, grossesses précoces) et pas seulement l'éducation ou la politique.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Inégalités de genre en matière de santé, p. 9",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les déterminants liés au genre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. N’existent pas"
+        },
+        {
+         "letter": "B",
+         "text": "B. Concernent uniquement les hommes"
+        },
+        {
+         "letter": "C",
+         "text": "C. Influencent l’exposition aux risques de santé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. Influencent l’exposition aux risques de santé",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les déterminants liés au genre influencent l'exposition aux risques : par exemple, le rôle passif attribué aux filles les empêche de se protéger contre les grossesses non désirées et les IST.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Facteurs de risque du comportement sexuel, p. 33-34",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une forme de violence est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Violence physique"
+        },
+        {
+         "letter": "B",
+         "text": "B. Amitié"
+        },
+        {
+         "letter": "C",
+         "text": "C. Coopération"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. Violence physique",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La violence physique est une forme de violence (avec les violences psychologiques, sexuelles, économiques).\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Disparités de genre dans les ménages (violences faites aux femmes), p. 8",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La violence sexuelle est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Consentie"
+        },
+        {
+         "letter": "B",
+         "text": "B. Sans consentement"
+        },
+        {
+         "letter": "C",
+         "text": "C. Thérapeutique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Sans consentement",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La violence sexuelle est un acte sexuel imposé sans le consentement de la personne.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le harcèlement sexuel correspond à",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Une récompense"
+        },
+        {
+         "letter": "B",
+         "text": "B. Des propos ou avances ou actes sexuels imposés à une personne sans son consentement."
+        },
+        {
+         "letter": "C",
+         "text": "C. Une consultation médicale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Des propos ou avances ou actes sexuels imposés à une personne sans son consentement.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le harcèlement sexuel correspond à des propos, avances ou actes à caractère sexuel imposés à une personne sans son consentement.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le viol est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Un rapport sexuel consenti"
+        },
+        {
+         "letter": "B",
+         "text": "B. Un rapport sexuel forcé"
+        },
+        {
+         "letter": "C",
+         "text": "C. Un rapport sexuel désiré"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Un rapport sexuel forcé",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le viol est un rapport sexuel forcé, sans consentement ; il impose une contraception d'urgence et une assistance psychosociale.\n\nSource : DOCUMENT SSR L2 SF 2021 REVU, Groupes particuliers (contraception d'urgence en cas de viol) (partiellement hors cours)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une conséquence de la VBG est la",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Croissance économique"
+        },
+        {
+         "letter": "B",
+         "text": "B. Dépression"
+        },
+        {
+         "letter": "C",
+         "text": "C. Promotion scolaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Dépression",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les VBG ont des conséquences psychologiques, dont la dépression.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les violences hospitalières peuvent être",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Agricoles"
+        },
+        {
+         "letter": "B",
+         "text": "B. Psycho-morales"
+        },
+        {
+         "letter": "C",
+         "text": "C. Climatiques"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Psycho-morales",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les violences hospitalières peuvent être physiques, verbales ou psycho-morales (humiliation, jugement, menaces). Remarque : Dans le sujet, cette question n'était pas notée automatiquement.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, Admission de la parturiente (« éviter les violences hospitalières ») (partiellement hors cours)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La GHM signifie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Gestion Hospitalière Moderne"
+        },
+        {
+         "letter": "B",
+         "text": "B. Gestion de l’Hygiène Menstruelle"
+        },
+        {
+         "letter": "C",
+         "text": "C. Groupe d’Hygiène Médicale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Gestion de l’Hygiène Menstruelle",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "GHM = Gestion de l'Hygiène Menstruelle.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une composante de la GHM est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Matériels de protection"
+        },
+        {
+         "letter": "B",
+         "text": "B. Vaccination obligatoire"
+        },
+        {
+         "letter": "C",
+         "text": "C. Isolement social"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. Matériels de protection",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le matériel de protection (serviettes, tissus propres, culottes) est une composante de la GHM, avec l'eau, les installations, l'élimination des déchets et l'éducation.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une bonne pratique menstruelle est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Utiliser une serviette sale"
+        },
+        {
+         "letter": "B",
+         "text": "B. Se laver les mains à l’eau et au savon"
+        },
+        {
+         "letter": "C",
+         "text": "C. Réutiliser des tissus sales"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Se laver les mains à l’eau et au savon",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Une bonne pratique : se laver les mains à l'eau et au savon avant et après le changement de protection.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une pratique à proscrire est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Changer régulièrement la protection"
+        },
+        {
+         "letter": "B",
+         "text": "B. Ne pas se laver les mains après le changement"
+        },
+        {
+         "letter": "C",
+         "text": "C. Utiliser de l’eau propre"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Ne pas se laver les mains après le changement",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Ne pas se laver les mains après le changement de protection est une pratique à proscrire (risque infectieux).\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une installation nécessaire est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Salle sans eau"
+        },
+        {
+         "letter": "B",
+         "text": "B. Toilettes privées et sécurisées"
+        },
+        {
+         "letter": "C",
+         "text": "C. Dépotoir ouvert"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Toilettes privées et sécurisées",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Il faut des toilettes privées, sécurisées, avec de l'eau ; l'absence de sanitaires dans les écoles est d'ailleurs un obstacle à la scolarité des filles.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Inégalités de genre en matière d'éducation, p. 9 (partiellement hors cours)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une stratégie d’élimination des déchets menstruels est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Rejet dans la rue"
+        },
+        {
+         "letter": "B",
+         "text": "B. Incinération à haute température"
+        },
+        {
+         "letter": "C",
+         "text": "C. Déversement dans un cours d’eau"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Incinération à haute température",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'incinération à haute température est une méthode sûre d'élimination des déchets menstruels ; le rejet dans la rue ou dans un cours d'eau pollue l'environnement.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le terme \"survivant(e)\" désigne",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. L’auteur de la violence"
+        },
+        {
+         "letter": "B",
+         "text": "B. Une personne ayant subi une VBG"
+        },
+        {
+         "letter": "C",
+         "text": "C. Un témoin de violence"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Une personne ayant subi une VBG",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le terme « survivant(e) » désigne la personne qui a subi une VBG (et non l'auteur ni le témoin).\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’exclusion sociale est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. L’intégration complète"
+        },
+        {
+         "letter": "B",
+         "text": "B. L’empêchement de participer pleinement à la vie sociale"
+        },
+        {
+         "letter": "C",
+         "text": "C. L’autonomisation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. L’empêchement de participer pleinement à la vie sociale",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'exclusion sociale consiste à empêcher une personne de participer pleinement à la vie sociale.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les hommes peuvent agir dans la GHM comme",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Spectateurs passifs uniquement"
+        },
+        {
+         "letter": "B",
+         "text": "B. Leaders communautaires et alliés"
+        },
+        {
+         "letter": "C",
+         "text": "C. Opposants permanents"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Leaders communautaires et alliés",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les hommes peuvent agir comme leaders communautaires et alliés ; l'approche GED se concentre sur les femmes comme sur les hommes pour rendre leurs relations plus égalitaires.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Interventions stratégiques (approche GED), p. 10 (partiellement hors cours)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les tabous sur les règles peuvent provoquer",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. L’absentéisme scolaire"
+        },
+        {
+         "letter": "B",
+         "text": "B. La participation tout au long du processus de développement."
+        },
+        {
+         "letter": "C",
+         "text": "C. Le respect et l’égalité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. L’absentéisme scolaire",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les tabous sur les règles (honte, manque de sanitaires) entraînent l'absentéisme scolaire des filles.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Inégalités de genre en matière d'éducation, p. 9 (partiellement hors cours)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La composante « connaissances et éducation » de la GHM vise à",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Eliminer les menstruations"
+        },
+        {
+         "letter": "B",
+         "text": "B. Comprendre les menstruations"
+        },
+        {
+         "letter": "C",
+         "text": "C. Limiter les activités scolaires"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Comprendre les menstruations",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La composante « connaissances et éducation » de la GHM vise à comprendre les menstruations (physiologie du cycle, hygiène), pas à les supprimer.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Cycle menstruel normal, p. 26 (partiellement hors cours)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le devoir est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Un privilège"
+        },
+        {
+         "letter": "B",
+         "text": "B. Une récompense"
+        },
+        {
+         "letter": "C",
+         "text": "C. Une obligation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. Une obligation",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le devoir est une obligation (à côté des droits) ; le cours parle du « respect des droits et devoirs » dans les enjeux de citoyenneté.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Enjeux de l'intégration d'une dimension genre, p. 17 (partiellement hors cours)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lequel est un droit en SSR ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Droit à l’exclusion"
+        },
+        {
+         "letter": "B",
+         "text": "B. Droit à l’information"
+        },
+        {
+         "letter": "C",
+         "text": "C. Droit à la discrimination"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Droit à l’information",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La SR repose sur le droit des hommes et des femmes à être informés et à accéder à des méthodes de PF de leur choix.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Définition de la santé de la reproduction, p. 32 ; DOCUMENT SSR L2 SF 2021 REVU, Avant-propos",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un besoin des adolescents est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Le décrochage scolaire"
+        },
+        {
+         "letter": "B",
+         "text": "B. Des informations fiables"
+        },
+        {
+         "letter": "C",
+         "text": "C. L’isolement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Des informations fiables",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les adolescents ont besoin d'informations fiables (ils manquent d'informations sur les changements de l'adolescence et reçoivent des informations souvent incorrectes).\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Accès des adolescents aux services de SSR, p. 35",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__40",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La sexualité comprend",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Uniquement les rapports sexuels"
+        },
+        {
+         "letter": "B",
+         "text": "B. L’identité de genre, l’intimité et la reproduction"
+        },
+        {
+         "letter": "C",
+         "text": "C. Seulement la reproduction"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. L’identité de genre, l’intimité et la reproduction",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours définit l'identité sexuelle par 5 éléments : sexe biologique, identité de genre, rôle de genre, orientation sexuelle et comportement sexuel ; la SR inclut la capacité de se reproduire. La sexualité ne se limite donc pas aux rapports ni à la reproduction.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Définitions liées à la sexualité, p. 31-32",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__41",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les problèmes liés à la sexualité figurent",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Vaccination"
+        },
+        {
+         "letter": "B",
+         "text": "B. Nutrition"
+        },
+        {
+         "letter": "C",
+         "text": "C. IST et VIH/SIDA"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. IST et VIH/SIDA",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les IST et le VIH/SIDA sont des problèmes liés à la sexualité (premiers rapports non protégés, comportement sexuel à risque).\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Problèmes de santé prioritaires, p. 29",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__42",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une conséquence des grossesses précoces est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Promotion scolaire"
+        },
+        {
+         "letter": "B",
+         "text": "B. Déperdition scolaire"
+        },
+        {
+         "letter": "C",
+         "text": "C. Augmentation des loisirs"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Déperdition scolaire",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La grossesse précoce entraîne l'interruption de la scolarité (déperdition scolaire), le rejet et la pauvreté.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Coûts sociaux de la grossesse pour la mère adolescente, p. 34",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__43",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le sexe est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Biologique"
+        },
+        {
+         "letter": "B",
+         "text": "B. Culturel uniquement"
+        },
+        {
+         "letter": "C",
+         "text": "C. Politique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. Biologique",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le sexe est l'ensemble des attributs biologiques, physiologiques et héréditaires ; il est déterminé à la naissance.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Définitions (sexe), p. 7",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__44",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le genre est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Chromosomique"
+        },
+        {
+         "letter": "B",
+         "text": "B. Socialement construit"
+        },
+        {
+         "letter": "C",
+         "text": "C. Génétique uniquement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Socialement construit",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le genre est un rapport social construit par la société, et non une donnée chromosomique ou génétique.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Définitions (genre), p. 7",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__45",
+       "num": "46",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les rapports de genre concernent",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Les maladies infectieuses"
+        },
+        {
+         "letter": "B",
+         "text": "B. Les relations de pouvoir hommes-femmes"
+        },
+        {
+         "letter": "C",
+         "text": "C. Les revenus uniquement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Les relations de pouvoir hommes-femmes",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les rapports de genre désignent les relations de pouvoir entre hommes et femmes ; le principe « pouvoir de / avec / intérieur… et non contre ou sur » fait partie des principes du GED.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Sept principes de base du genre, p. 16",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__46",
+       "num": "47",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un stéréotype est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Une idée ou un cliché"
+        },
+        {
+         "letter": "B",
+         "text": "B. Une loi"
+        },
+        {
+         "letter": "C",
+         "text": "C. Un règlement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. Une idée ou un cliché",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un stéréotype est une idée toute faite, un cliché, sur un groupe (exemple dans le cours : les proverbes sur la valeur d'une fille et d'un garçon).\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Principes de GED et santé des femmes (proverbes), p. 17 (partiellement hors cours)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__47",
+       "num": "48",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un préjugé est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Un fait scientifique"
+        },
+        {
+         "letter": "B",
+         "text": "B. Un jugement formé à l’avance"
+        },
+        {
+         "letter": "C",
+         "text": "C. Une statistique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Un jugement formé à l’avance",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Un préjugé est un jugement formé à l'avance, sans connaissance réelle.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__48",
+       "num": "49",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La discrimination consiste à",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Favoriser l’égalité"
+        },
+        {
+         "letter": "B",
+         "text": "B. Respecter les droits"
+        },
+        {
+         "letter": "C",
+         "text": "C. Refuser l’égalité de traitement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. Refuser l’égalité de traitement",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La discrimination consiste à refuser l'égalité de traitement à une personne ou à un groupe.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Origine et conséquences des disparités de genre, p. 7-8 (partiellement hors cours)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__49",
+       "num": "50",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une source des normes de genre est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Les vaccins"
+        },
+        {
+         "letter": "B",
+         "text": "B. La famille"
+        },
+        {
+         "letter": "C",
+         "text": "C. Le climat"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. La famille",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La famille est une source des normes de genre : les disparités naissent d'un conditionnement familial.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Disparités de genre dans les ménages, p. 8",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__50",
+       "num": "51",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le rôle de production est généralement",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Non rémunéré"
+        },
+        {
+         "letter": "B",
+         "text": "B. Visible et rémunéré"
+        },
+        {
+         "letter": "C",
+         "text": "C. Domestique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Visible et rémunéré",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le rôle de production concerne les activités qui produisent des biens ou des revenus, visibles et rémunérées (exemple : cultures de rente des hommes).\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Disparités de genre dans les communautés, p. 8 (partiellement hors cours)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__51",
+       "num": "52",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le rôle reproductif concerne",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Le commerce"
+        },
+        {
+         "letter": "B",
+         "text": "B. Grossesse et éducation des enfants"
+        },
+        {
+         "letter": "C",
+         "text": "C. La politique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Grossesse et éducation des enfants",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le rôle reproductif concerne la grossesse, l'accouchement, l'éducation des enfants et les tâches domestiques.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__52",
+       "num": "53",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’empowerment signifie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Soumission"
+        },
+        {
+         "letter": "B",
+         "text": "B. Autonomisation"
+        },
+        {
+         "letter": "C",
+         "text": "C. Marginalisation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Autonomisation",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'empowerment signifie l'autonomisation : donner aux femmes du pouvoir sur leur vie (le GED cherche à « donner des pouvoirs aux femmes »).\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Exercice 2 (genre et développement), p. 100 (partiellement hors cours)",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__53",
+       "num": "54",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "GED signifie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Genre et Décision"
+        },
+        {
+         "letter": "B",
+         "text": "B. Genre et Développement"
+        },
+        {
+         "letter": "C",
+         "text": "C. Gouvernance et Développement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Genre et Développement",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "GED = Genre et Développement.\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Sigles ; Genre et développement appliqué au système de santé, p. 5 et 15",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j1-sfm__54",
+       "num": "55",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’égalité concerne",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Les privilèges"
+        },
+        {
+         "letter": "B",
+         "text": "B. Les droits et les chances"
+        },
+        {
+         "letter": "C",
+         "text": "C. Les traditions"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Les droits et les chances",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'égalité du genre signifie que les hommes et les femmes jouissent du même statut et des mêmes opportunités (droits et chances).\n\nSource : COURS SR L2 2023 (SSRAJ / approche genre), Définitions (égalité du genre), p. 31",
+       "sourceDoc": "Préparation D.E (J) · J1 SR-PF SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

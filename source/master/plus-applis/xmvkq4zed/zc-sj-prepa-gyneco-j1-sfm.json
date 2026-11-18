@@ -1,0 +1,1662 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zc-sj-prepa-gyneco-j1-sfm",
+ "titre": "Préparation D.E (J) · J1 Gynécologie SFM",
+ "session": "J",
+ "annee": 2026,
+ "nq": 40,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+   "sha256": "303f77b78935286982a44da88e2f3c5a35ea26f03a43ef4f9c43fd28d90fa86a"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Gynéco-obstétrique · Prépa D.E J1 (SFM)",
+     "slug": "prepa-gyneco-j1-sfm",
+     "pages": "",
+     "count": 40,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Gynéco-obstétrique",
+     "source": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le petit bassin osseux maternel comprend 3 parties qui sont : le détroit supérieur, le détroit moyen et le détroit inférieur.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le petit bassin osseux comprend 2 détroits et une excavation : le détroit supérieur (plan d'engagement), l'excavation (descente et rotation) et le détroit inférieur (plan de dégagement). Le détroit moyen n'est qu'un léger rétrécissement situé à l'intérieur de l'excavation, au niveau des épines sciatiques : ce n'est pas une partie à part entière. Remarque : Note du sujet : les 3 parties sont le détroit supérieur, l'excavation pelvienne et le détroit inférieur.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Le bassin obstétrical, p. 22-25",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'ovogonie est un gamète femelle qui a 2 × 22 chromosomes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'ovogonie est une cellule germinale souche, diploïde (2n chromosomes), qui donne ensuite l'ovocyte I. Ce n'est pas un gamète : le gamète femelle est l'ovocyte II / ovule, haploïde (n chromosomes).\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Gamétogenèse, p. 35-36",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le repère de la présentation de la face est le menton.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans la présentation de la face (déflexion maximale de la tête), le repère est le menton.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Présentations fœtales, p. 59 ; COURS DE SOINS OBSTETRICAUX 2e année SF, Les différentes présentations",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Après la naissance, les premières règles permettent de dater la puberté.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Faux ». Le cours décrit le développement mammaire comme le premier signe pubertaire, vers 11 ans (8 à 13 ans), avant les premières règles (13 ans en moyenne) : les premières règles arrivent donc après le début de la puberté.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Puberté féminine, p. 13-14",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au cours de la grossesse normale, le poids de la gestante peut augmenter.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Faux ».\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Modifications de l'organisme maternel, p. 47",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les modifications physiologiques de l'organisme maternel au cours de la grossesse débutent avant la fécondation.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les modifications de l'organisme maternel sont dues à la grossesse : elles commencent après la fécondation (corps jaune gestatif, puis hormones placentaires), pas avant.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Cycle menstruel (corps jaune gestatif), p. 28 ; Modifications de l'organisme maternel, p. 44",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les premières règles s'appellent les ménarches.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Faux ».\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Puberté féminine, p. 13 ; DOCUMENT SSR L2 SF 2021 REVU, Consultation en PF (interrogatoire)",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La prescription de fer est interdite au 1er trimestre de grossesse.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le fer n'est pas interdit au 1er trimestre : la supplémentation fer + acide folique débute dès la CPN 1 (entre la 6e et la 12e semaine) et se poursuit jusqu'à l'accouchement. Remarque : Le cours L2 IDE (CPN du 2e trimestre) parle de « continuer l'acide folique et ajouter le fer » au 2e trimestre ; les deux cours s'accordent pour dire que le fer n'est pas interdit.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, Anémie et grossesse (supplémentation en fer et acide folique)",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La sérologie de la toxoplasmose positive à IgM témoigne d'une atteinte toxoplasmique.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les IgM apparaissent dès le début de l'infestation (« M comme Maladie ») et disparaissent en 4 mois environ ; leur présence témoigne d'une infection toxoplasmique récente ou en cours.\n\nSource : Gynécologie-Obstétrique L3 SF, Sérologie : toxoplasmose et grossesse, p. 22",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au premier trimestre de grossesse, la présence d'IgG à la sérologie de la rubéole signe une primo-infection rubéolique très grave.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Des IgG seules (sans IgM) traduisent une immunité ancienne contre la rubéole : la gestante est protégée. La primo-infection se signe par l'apparition d'IgM ; les réinfections ne sont pas tératogènes. Remarque : Note du sujet : les IgG seules témoignent d'une immunité ancienne.\n\nSource : Gynécologie-Obstétrique L3 SF, Primo-infection de la rubéole et grossesse, p. 24-26",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au cours de la grossesse, l'association d'une TA égale à 15/10 cmHg, d'une protéinurie à 3 croix et d'une crise convulsive signe une pré-éclampsie très sévère.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dès qu'une crise convulsive s'ajoute à l'HTA et à la protéinurie, il s'agit d'une éclampsie, et non plus d'une pré-éclampsie, même sévère. Remarque : Note du sujet : la crise convulsive signe une éclampsie.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, HTA / éclampsie et grossesse",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "On parle d'hydramnios quand la quantité de liquide amniotique dépasse 2 litres dans les derniers mois de grossesse.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'hydramnios est une quantité excessive de liquide amniotique, supérieure à 2 litres à terme.\n\nSource : Gynécologie-Obstétrique L3 SF, Hauteur utérine (causes des hauteurs utérines élevées), p. 52",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La survenue d'agitation, de confusion ou de délire durant un paludisme à Plasmodium falciparum au cours de la grossesse traduit automatiquement un paludisme grave.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les troubles de la conscience (agitation, confusion, délire, obnubilation, somnolence, coma réactif) font partie des critères cliniques OMS du paludisme grave à Plasmodium falciparum.\n\nSource : GYNECO L2 IDE VERSION 2025, Paludisme et grossesse, p. 28 ; SONU L3 SF, Fièvre pendant la grossesse (neuropaludisme)",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au cours de la grossesse, un taux d'hémoglobine de 10,2 g/100 ml avec une CCMH = 26 et un VGM = 70 µ³ évoque une anémie hypochrome microcytaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Anémie car Hb < 11 g/100 ml ; hypochrome car CCMH < 27 ; microcytaire car VGM < 80 µ³. Ce tableau évoque une anémie ferriprive. Remarque : Le seuil du VGM (< 80 µ³) n'est pas écrit dans l'extrait du cours (connaissance générale).\n\nSource : GYNECO L2 IDE VERSION 2025, Anémie et grossesse, p. 38",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Il est recommandé de donner une supplémentation en fer à une gestante ayant une hémoglobinose AS à partir du 2e trimestre de grossesse pour éviter une anémie ferriprive.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Une gestante AS (trait drépanocytaire, forme hétérozygote) n'a pas de drépanocytose majeure : elle reçoit la prévention habituelle de l'anémie (fer + acide folique), comme toute gestante. Remarque : La correction nationale cite le 2e trimestre ; le cours SO commence la supplémentation dès la CPN 1.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, Anémie et grossesse ; Gynécologie-Obstétrique L3 SF, Drépanocytose et grossesse, p. 17",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__15",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les signes suivants, relevez celui ou ceux qui caractérise(nt) le placenta prævia marginal hémorragique dans sa forme typique.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Ménorragies indolores faites de sang rouge au 3e trimestre de grossesse"
+        },
+        {
+         "letter": "B",
+         "text": "B. Métrorragies faites de sang rouge au 3e trimestre de grossesse avec des contractions utérines"
+        },
+        {
+         "letter": "C",
+         "text": "C. Métrorragies indolores faites de sang noir au 3e trimestre de grossesse"
+        },
+        {
+         "letter": "D",
+         "text": "D. Petit côté des membranes mesurant moins de 10 cm"
+        },
+        {
+         "letter": "E",
+         "text": "E. Petit côté des membranes mesurant moins de 9 cm"
+        },
+        {
+         "letter": "F",
+         "text": "F. Métrorragies faites de sang rouge vif au 3e trimestre de grossesse avec des contractions utérines"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "D. D. Petit côté des membranes mesurant moins de 10 cm ; E. E. Petit côté des membranes mesurant moins de 9 cm",
+       "answerLetters": [
+        "D",
+        "E"
+       ],
+       "explanation": "Le signe qui confirme le placenta prævia après la délivrance est un petit côté des membranes de moins de 10 cm (s'il mesure moins de 9 cm, il mesure aussi moins de 10 cm). Le saignement typique est une métrorragie (et non une ménorragie) indolore, de sang rouge vif, sans contractions : A, B, C et F ne correspondent donc pas à la forme typique. Remarque : E est retenue parce qu'un petit côté de moins de 9 cm mesure forcément moins de 10 cm.\n\nSource : GYNECO L2 IDE VERSION 2025, Placenta prævia, p. 59-60",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Relevez la ou les manœuvre(s) à exécuter pour extraire la tête dernière retenue dans l'excavation pelvienne lors de l'accouchement du siège.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Attitude de VERMELIN"
+        },
+        {
+         "letter": "B",
+         "text": "B. Petite extraction du siège"
+        },
+        {
+         "letter": "C",
+         "text": "C. Grande extraction du siège"
+        },
+        {
+         "letter": "D",
+         "text": "D. Manœuvre de BRACHT"
+        },
+        {
+         "letter": "E",
+         "text": "E. Manœuvre de LOVSET"
+        },
+        {
+         "letter": "F",
+         "text": "F. Manœuvre de MAURICEAU"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "F. F. Manœuvre de MAURICEAU",
+       "answerLetters": [
+        "F"
+       ],
+       "explanation": "La rétention de la tête dernière dans l'excavation est l'indication de la manœuvre de Mauriceau. Bracht sert quand la tête est descendue en partie basse ; Lovset sert au relèvement des bras ; l'attitude de Vermelin est l'abstention.\n\nSource : SONU L3 SF, Accouchement du siège, p. 72-74",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__17",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le cycle menstruel commence toujours :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Au 1er jour de survenue des règles"
+        },
+        {
+         "letter": "B",
+         "text": "B. Au début des règles"
+        },
+        {
+         "letter": "C",
+         "text": "C. À la fin des règles"
+        },
+        {
+         "letter": "D",
+         "text": "D. À l'ovulation"
+        },
+        {
+         "letter": "E",
+         "text": "E. Au dernier jour précédant les règles"
+        },
+        {
+         "letter": "F",
+         "text": "F. Au 1er jour des ménarches"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. A. Au 1er jour de survenue des règles ; B. B. Au début des règles",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "Le cycle menstruel commence au 1er jour des règles (début des règles) et va jusqu'au dernier jour précédant les règles suivantes.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Cycle menstruel normal, p. 26 ; DOCUMENT SSR L2 SF 2021 REVU, Méthode du calendrier",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la présentation de la face, on sent toujours au toucher vaginal :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. La grande fontanelle du fœtus"
+        },
+        {
+         "letter": "B",
+         "text": "B. La petite fontanelle du fœtus"
+        },
+        {
+         "letter": "C",
+         "text": "C. Le front du fœtus"
+        },
+        {
+         "letter": "D",
+         "text": "D. Le menton du fœtus"
+        },
+        {
+         "letter": "E",
+         "text": "E. Les yeux du fœtus"
+        },
+        {
+         "letter": "F",
+         "text": "F. La bouche du fœtus"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. C. Le front du fœtus ; D. D. Le menton du fœtus ; E. E. Les yeux du fœtus ; F. F. La bouche du fœtus",
+       "answerLetters": [
+        "C",
+        "D",
+        "E",
+        "F"
+       ],
+       "explanation": "Dans la présentation de la face, on ne sent pas de fontanelle : on perçoit les éléments de la face (yeux, nez, bouche, menton). Le menton est le repère. Remarque : Le cours cite « les yeux, le nez, la bouche et le menton » ; il ne cite pas le front, que la correction nationale retient aussi.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, Les différentes présentations (face)",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Après la réfection de l'épisiotomie, le ou les soins ci-dessous ne doivent pas être prodigués :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Faire un bain de siège à l'eau froide"
+        },
+        {
+         "letter": "B",
+         "text": "B. Appliquer en permanence un linge mouillé sur la suture"
+        },
+        {
+         "letter": "C",
+         "text": "C. Assécher la suture"
+        },
+        {
+         "letter": "D",
+         "text": "D. Faire un pansement occlusif sur la suture"
+        },
+        {
+         "letter": "E",
+         "text": "E. Faire un pansement non occlusif sur la suture"
+        },
+        {
+         "letter": "F",
+         "text": "F. Faire un bain de siège à l'eau tiède ou chaude sur la suture"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. A. Faire un bain de siège à l'eau froide ; B. B. Appliquer en permanence un linge mouillé sur la suture ; D. D. Faire un pansement occlusif sur la suture ; F. F. Faire un bain de siège à l'eau tiède ou chaude sur la suture",
+       "answerLetters": [
+        "A",
+        "B",
+        "D",
+        "F"
+       ],
+       "explanation": "Après la réfection, le périnée doit rester sec : toilette vulvaire biquotidienne puis séchage, compresse stérile et garniture propre, pas de bain de siège. Sont donc à éviter : bain de siège (froid ou chaud), linge mouillé en permanence, pansement occlusif. Assécher la suture et faire un pansement non occlusif sont recommandés.\n\nSource : GYNECO L2 IDE VERSION 2025, Suites de couches (soins en cas d'épisiotomie), p. 84 ; COURS DE SOINS OBSTETRICAUX 2e année SF, Suites de couches normales",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, relevez celle ou celles qui sont fausses.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Le cordon ombilical contient 3 vaisseaux"
+        },
+        {
+         "letter": "B",
+         "text": "B. Le fibrome utérin involue à la ménopause"
+        },
+        {
+         "letter": "C",
+         "text": "C. Le fibrome utérin est une cause de stérilité"
+        },
+        {
+         "letter": "D",
+         "text": "D. Le liquide amniotique est produit principalement par le fœtus"
+        },
+        {
+         "letter": "E",
+         "text": "E. À terme, le poids du placenta est égal au 1/6 du poids du fœtus"
+        },
+        {
+         "letter": "F",
+         "text": "F. Le cordon ombilical s'insère sur la face maternelle du placenta"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. C. Le fibrome utérin est une cause de stérilité ; F. F. Le cordon ombilical s'insère sur la face maternelle du placenta",
+       "answerLetters": [
+        "C",
+        "F"
+       ],
+       "explanation": "Propositions fausses : C et F. Le cordon s'insère sur la face fœtale du placenta (pas sur la face maternelle). Vraies : 3 vaisseaux (2 artères, 1 veine), poids du placenta = 1/6 du poids de l'enfant, régression du fibrome après la ménopause. Remarque : Le cours L2 IDE cite comme signes du fibrome les ménorragies et les avortements à répétition, sans parler de stérilité ; dire que le fibrome « est une cause de stérilité » est une généralisation que la correction nationale juge fausse.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, Examen du placenta ; GYNECO L2 IDE VERSION 2025, Le fibrome utérin, p. 125",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les facteurs suivants, relevez celui ou ceux qui sont classiquement des facteurs de risque du cancer du col utérin.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Cervicite virale"
+        },
+        {
+         "letter": "B",
+         "text": "B. Réalisation régulière des examens de dépistage"
+        },
+        {
+         "letter": "C",
+         "text": "C. Partenaires sexuels multiples"
+        },
+        {
+         "letter": "D",
+         "text": "D. Nulliparité"
+        },
+        {
+         "letter": "E",
+         "text": "E. Premier accouchement après 30 ans"
+        },
+        {
+         "letter": "F",
+         "text": "F. Antécédents de cancer du col chez la mère"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. A. Cervicite virale ; C. C. Partenaires sexuels multiples",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Le cancer du col est viro-induit (HPV 16 et 18, HSV2) et lié au comportement sexuel : cervicite virale et multiplicité des partenaires sont des facteurs de risque. Le dépistage régulier protège ; la nulliparité et le 1er accouchement tardif n'en font pas partie (c'est la grande multiparité avec 1er enfant avant 20 ans qui est citée).\n\nSource : GYNECO L2 IDE VERSION 2025, Cancer du col de l'utérus, p. 49",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les signes suivants évoquent une grossesse molaire :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Métrorragies spontanées de sang rouge au cours du 1er trimestre"
+        },
+        {
+         "letter": "B",
+         "text": "B. Métrorragies spontanées de sang noir au cours du 1er trimestre"
+        },
+        {
+         "letter": "C",
+         "text": "C. Métrorragies provoquées de sang rouge au cours du 1er trimestre"
+        },
+        {
+         "letter": "D",
+         "text": "D. Sialorrhée et vomissements au 1er trimestre associés à un placenta ressemblant à des œufs de grenouille"
+        },
+        {
+         "letter": "E",
+         "text": "E. Aménorrhée"
+        },
+        {
+         "letter": "F",
+         "text": "F. Ménorragie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. A. Métrorragies spontanées de sang rouge au cours du 1er trimestre ; D. D. Sialorrhée et vomissements au 1er trimestre associés à un placenta ressemblant à des œufs de grenouille",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "La môle hydatiforme donne des métrorragies du 1er trimestre spontanées, répétées, de sang rouge, avec hypersialorrhée, nausées et vomissements, et un produit d'aspect vésiculaire « en frai de grenouille » ou en grappe de raisin. Remarque : L'aménorrhée (E) existe aussi dans la môle, mais elle n'est pas spécifique.\n\nSource : GYNECO L2 IDE VERSION 2025, Grossesse molaire (môle hydatiforme), p. 99-100",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__23",
+       "num": "24",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Ce jour à 5 h, Mme B.B.B., 30 ans, G6 P5, non obèse, se présente à la maternité pour des contractions utérines sur grossesse à terme. Le travail a commencé à 4 h. Hauteur utérine = 36 cm. Température = 36,9 °C. Le col est dilaté à 5 cm. Taux d'hémoglobine = 10 g/100 ml. Grâce à vos soins appropriés, Mme B.B.B. donne naissance à 5 h 20 min à une fille pesant 4000 g ; à la naissance, celle-ci ne crie pas et ne respire pas. La délivrance est faite à 5 h 30 min sans GATPA, par traction contrôlée du cordon. Mme B.B.B. risque de saigner abondamment et de mourir.",
+       "text": "Parmi les propositions suivantes, relevez le ou les gestes à exécuter vis-à-vis de ce nouveau-né.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Massage cardiaque externe"
+        },
+        {
+         "letter": "B",
+         "text": "B. Demander de l'aide et expliquer doucement à la mère les gestes à faire"
+        },
+        {
+         "letter": "C",
+         "text": "C. Couper aussitôt le cordon ombilical avant 1 min de vie"
+        },
+        {
+         "letter": "D",
+         "text": "D. Bien placer le nouveau-né en décubitus dorsal, le cou en extension modérée"
+        },
+        {
+         "letter": "E",
+         "text": "E. Libérer les voies aériennes"
+        },
+        {
+         "letter": "F",
+         "text": "F. Administrer des médicaments pour faire respirer ce nouveau-né"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. B. Demander de l'aide et expliquer doucement à la mère les gestes à faire ; D. D. Bien placer le nouveau-né en décubitus dorsal, le cou en extension modérée ; E. E. Libérer les voies aériennes",
+       "answerLetters": [
+        "B",
+        "D",
+        "E"
+       ],
+       "explanation": "Le nouveau-né ne crie pas et ne respire pas : on appelle à l'aide en expliquant à la mère, on l'installe en décubitus dorsal tête en légère extension et on libère les voies aériennes (désobstruction de la bouche puis du nez), avant la ventilation. Pas de massage cardiaque ni de médicaments d'emblée. Remarque : Le cours ne détaille pas le moment de la section du cordon dans la réanimation.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Soins au nouveau-né en salle de naissance (désobstruction), p. 100 (partiellement hors cours)",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__24",
+       "num": "25",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Ce jour à 5 h, Mme B.B.B., 30 ans, G6 P5, non obèse, se présente à la maternité pour des contractions utérines sur grossesse à terme. Le travail a commencé à 4 h. Hauteur utérine = 36 cm. Température = 36,9 °C. Le col est dilaté à 5 cm. Taux d'hémoglobine = 10 g/100 ml. Grâce à vos soins appropriés, Mme B.B.B. donne naissance à 5 h 20 min à une fille pesant 4000 g ; à la naissance, celle-ci ne crie pas et ne respire pas. La délivrance est faite à 5 h 30 min sans GATPA, par traction contrôlée du cordon. Mme B.B.B. risque de saigner abondamment et de mourir.",
+       "text": "Grâce à ces gestes correctement exécutés, le nouveau-né a une ventilation spontanée efficace et durable. Vous décidez néanmoins de surveiller l'accouchée et son nouveau-né. Entre 5 h 30 et 7 h 30, chez la mère, vous allez surveiller :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Les lochies pour rechercher une endométrite du post-partum"
+        },
+        {
+         "letter": "B",
+         "text": "B. La TA"
+        },
+        {
+         "letter": "C",
+         "text": "C. Le pouls"
+        },
+        {
+         "letter": "D",
+         "text": "D. L'écoulement vulvaire pour rechercher un saignement anormal"
+        },
+        {
+         "letter": "E",
+         "text": "E. Le globe de sécurité"
+        },
+        {
+         "letter": "F",
+         "text": "F. Les conjonctives pour rechercher un ictère"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. B. La TA ; C. C. Le pouls ; D. D. L'écoulement vulvaire pour rechercher un saignement anormal ; E. E. Le globe de sécurité",
+       "answerLetters": [
+        "B",
+        "C",
+        "D",
+        "E"
+       ],
+       "explanation": "Dans les 2 heures qui suivent la délivrance, on surveille l'hémorragie : état général (TA, pouls), globe de sécurité et écoulement vulvaire. Les lochies d'endométrite et l'ictère se surveillent plus tard, dans les suites de couches.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Suites de couches normales, p. 84 ; Soins à l'accouchée, p. 98-99",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__25",
+       "num": "26",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Ce jour à 5 h, Mme B.B.B., 30 ans, G6 P5, non obèse, se présente à la maternité pour des contractions utérines sur grossesse à terme. Le travail a commencé à 4 h. Hauteur utérine = 36 cm. Température = 36,9 °C. Le col est dilaté à 5 cm. Taux d'hémoglobine = 10 g/100 ml. Grâce à vos soins appropriés, Mme B.B.B. donne naissance à 5 h 20 min à une fille pesant 4000 g ; à la naissance, celle-ci ne crie pas et ne respire pas. La délivrance est faite à 5 h 30 min sans GATPA, par traction contrôlée du cordon. Mme B.B.B. risque de saigner abondamment et de mourir.",
+       "text": "En dehors de tout élément anormal, la fréquence normale de cette surveillance entre 6 h 30 et 7 h 30 est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Toutes les 10 min"
+        },
+        {
+         "letter": "B",
+         "text": "B. Toutes les 15 min"
+        },
+        {
+         "letter": "C",
+         "text": "C. Toutes les 30 min"
+        },
+        {
+         "letter": "D",
+         "text": "D. Toutes les 40 min"
+        },
+        {
+         "letter": "E",
+         "text": "E. Toutes les 60 min"
+        },
+        {
+         "letter": "F",
+         "text": "F. Toutes les 20 min"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. Toutes les 30 min",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « toutes les 30 min » pour la 2e heure après la délivrance. Remarque : Note du sujet : 15 min la 1re heure, 30 min la 2e heure. Les cours ne disent pas tous la même chose : le cours L1 (p. 84) écrit « toutes les 30 mn pendant 2 heures », alors que le cours L1 (p. 99) et le cours SO écrivent « toutes les 15 min pendant les 2 premières heures ».\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Suites de couches normales, p. 84 ; COURS DE SOINS OBSTETRICAUX 2e année SF, Le suivi post-natal",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__26",
+       "num": "27",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Ce jour à 5 h, Mme B.B.B., 30 ans, G6 P5, non obèse, se présente à la maternité pour des contractions utérines sur grossesse à terme. Le travail a commencé à 4 h. Hauteur utérine = 36 cm. Température = 36,9 °C. Le col est dilaté à 5 cm. Taux d'hémoglobine = 10 g/100 ml. Grâce à vos soins appropriés, Mme B.B.B. donne naissance à 5 h 20 min à une fille pesant 4000 g ; à la naissance, celle-ci ne crie pas et ne respire pas. La délivrance est faite à 5 h 30 min sans GATPA, par traction contrôlée du cordon. Mme B.B.B. risque de saigner abondamment et de mourir.",
+       "text": "À 6 h, Mme B.B.B. a saigné 100 ml par voie vaginale ; elle transpire abondamment, sa TA = 6/4 cmHg, son pouls = 120/min, ses conjonctives sont blanches, sans ictère, et le périnée est intact. Selon vous, de quoi souffre Mme B.B.B. ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Hémorragie du post-partum"
+        },
+        {
+         "letter": "B",
+         "text": "B. Hémorragie du post-partum immédiat"
+        },
+        {
+         "letter": "C",
+         "text": "C. Hémorragie du post-partum tardif"
+        },
+        {
+         "letter": "D",
+         "text": "D. Hémorragie du post-partum immédiat par atonie utérine"
+        },
+        {
+         "letter": "E",
+         "text": "E. Hémorragie du post-partum immédiat par trouble de la coagulation"
+        },
+        {
+         "letter": "F",
+         "text": "F. Hémorragie du post-partum immédiat par déchirure périnéale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. A. Hémorragie du post-partum ; B. B. Hémorragie du post-partum immédiat ; D. D. Hémorragie du post-partum immédiat par atonie utérine",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "Une perte sanguine qui retentit sur l'état de la mère (sueurs, TA 6/4, pouls 120, conjonctives pâles) est une HPP quelle que soit la quantité. Elle survient dans les 24 h : HPP immédiat. Sans GATPA, chez une grande multipare avec gros enfant et travail rapide, et avec un périnée intact, la cause la plus probable est l'atonie utérine (70 % des cas).\n\nSource : GYNECO L2 IDE VERSION 2025, Hémorragie du post-partum, p. 73-74",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__27",
+       "num": "28",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Ce jour à 5 h, Mme B.B.B., 30 ans, G6 P5, non obèse, se présente à la maternité pour des contractions utérines sur grossesse à terme. Le travail a commencé à 4 h. Hauteur utérine = 36 cm. Température = 36,9 °C. Le col est dilaté à 5 cm. Taux d'hémoglobine = 10 g/100 ml. Grâce à vos soins appropriés, Mme B.B.B. donne naissance à 5 h 20 min à une fille pesant 4000 g ; à la naissance, celle-ci ne crie pas et ne respire pas. La délivrance est faite à 5 h 30 min sans GATPA, par traction contrôlée du cordon. Mme B.B.B. risque de saigner abondamment et de mourir.",
+       "text": "Parmi les propositions suivantes, relevez chez Mme B.B.B. le ou les facteurs de risque de survenue de cette pathologie.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Mme B.B.B. admise à 5 h avec un col dilaté à 5 cm"
+        },
+        {
+         "letter": "B",
+         "text": "B. Taux d'hémoglobine = 10 g/100 ml"
+        },
+        {
+         "letter": "C",
+         "text": "C. Accouchement d'un garçon pesant 4000 g"
+        },
+        {
+         "letter": "D",
+         "text": "D. Hauteur utérine = 36 cm"
+        },
+        {
+         "letter": "E",
+         "text": "E. Début du travail à 4 h et naissance à 5 h 20 min"
+        },
+        {
+         "letter": "F",
+         "text": "F. Hauteur utérine = 37 cm"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "D. D. Hauteur utérine = 36 cm ; E. E. Début du travail à 4 h et naissance à 5 h 20 min",
+       "answerLetters": [
+        "D",
+        "E"
+       ],
+       "explanation": "Facteurs de risque d'atonie utérine présents : surdistension utérine (HU 36 cm, gros enfant) et travail trop rapide (1 h 20). C est fausse (l'enfant est une fille) et F aussi (la HU est de 36 cm, pas 37). Remarque : La grande multiparité (G6 P5) est aussi un facteur de risque, mais elle n'est pas proposée.\n\nSource : GYNECO L2 IDE VERSION 2025, Hémorragie du post-partum (facteurs de risque de l'atonie), p. 74",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__28",
+       "num": "29",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Ce jour à 5 h, Mme B.B.B., 30 ans, G6 P5, non obèse, se présente à la maternité pour des contractions utérines sur grossesse à terme. Le travail a commencé à 4 h. Hauteur utérine = 36 cm. Température = 36,9 °C. Le col est dilaté à 5 cm. Taux d'hémoglobine = 10 g/100 ml. Grâce à vos soins appropriés, Mme B.B.B. donne naissance à 5 h 20 min à une fille pesant 4000 g ; à la naissance, celle-ci ne crie pas et ne respire pas. La délivrance est faite à 5 h 30 min sans GATPA, par traction contrôlée du cordon. Mme B.B.B. risque de saigner abondamment et de mourir.",
+       "text": "Parmi les propositions suivantes, relevez chez Mme B.B.B. le ou les facteurs de risque d'aggravation de cette pathologie.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Mme B.B.B. admise à 5 h avec un col dilaté à 5 cm"
+        },
+        {
+         "letter": "B",
+         "text": "B. Mme B.B.B. non obèse, paroi abdominale mince"
+        },
+        {
+         "letter": "C",
+         "text": "C. Accouchement d'un garçon pesant 4000 g"
+        },
+        {
+         "letter": "D",
+         "text": "D. Hauteur utérine à 36 cm"
+        },
+        {
+         "letter": "E",
+         "text": "E. Début du travail à 4 h et naissance à 5 h 20 min"
+        },
+        {
+         "letter": "F",
+         "text": "F. Taux d'hémoglobine = 10 g/100 ml"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "F. F. Taux d'hémoglobine = 10 g/100 ml",
+       "answerLetters": [
+        "F"
+       ],
+       "explanation": "L'anémie antérieure non compensée (Hb 10 g/100 ml) est l'un des « 2 ennemis » de l'HPPI : elle aggrave le retentissement du saignement et le risque de décès.\n\nSource : GYNECO L2 IDE VERSION 2025, Hémorragie du post-partum, p. 74",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__29",
+       "num": "30",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 — Ce jour à 5 h, Mme B.B.B., 30 ans, G6 P5, non obèse, se présente à la maternité pour des contractions utérines sur grossesse à terme. Le travail a commencé à 4 h. Hauteur utérine = 36 cm. Température = 36,9 °C. Le col est dilaté à 5 cm. Taux d'hémoglobine = 10 g/100 ml. Grâce à vos soins appropriés, Mme B.B.B. donne naissance à 5 h 20 min à une fille pesant 4000 g ; à la naissance, celle-ci ne crie pas et ne respire pas. La délivrance est faite à 5 h 30 min sans GATPA, par traction contrôlée du cordon. Mme B.B.B. risque de saigner abondamment et de mourir.",
+       "text": "Le premier geste à exécuter pour arrêter ce saignement par voie vaginale chez Mme B.B.B. est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Révision utérine suivie de délivrance artificielle"
+        },
+        {
+         "letter": "B",
+         "text": "B. Perfusion intraveineuse de 5 unités de Syntocinon (ocytocine)"
+        },
+        {
+         "letter": "C",
+         "text": "C. Révision utérine"
+        },
+        {
+         "letter": "D",
+         "text": "D. Perfusion intraveineuse d'antibiotiques et de 5 unités de Syntocinon (ocytocine)"
+        },
+        {
+         "letter": "E",
+         "text": "E. Délivrance artificielle suivie de révision utérine"
+        },
+        {
+         "letter": "F",
+         "text": "F. Délivrance artificielle"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. Révision utérine",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le placenta est déjà délivré (5 h 30) : il faut d'abord vérifier que l'utérus est vide et le faire se rétracter, donc faire une révision utérine (puis massage et ocytocine). La délivrance artificielle n'a pas lieu d'être. Remarque : Dans le cours SO, la prise d'une voie veineuse précède la révision utérine.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, CAT devant les HPP (atonie utérine) ; GYNECO L2 IDE VERSION 2025, HPP, p. 74",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__30",
+       "num": "31",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 — Vous recevez ce jour à 6 h, dans la maternité rurale où vous exercez, Mme C.C.C., 27 ans, 4e geste, 3e pare, sans antécédent particulier, pour des contractions utérines sur grossesse à terme. Elle a 3 contractions utérines en 10 minutes, chacune dure 40 secondes ; le col est dilaté à 5 cm, les 2 pieds sont perçus dans l'aire de dilatation cervicale, la variété de présentation est S.I.D.A. et le bassin est normal.",
+       "text": "Ici, il s'agit d'une :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Présentation du sommet"
+        },
+        {
+         "letter": "B",
+         "text": "B. Présentation du siège"
+        },
+        {
+         "letter": "C",
+         "text": "C. Présentation du siège décomplété"
+        },
+        {
+         "letter": "D",
+         "text": "D. Présentation de la face tournée vers le sacrum"
+        },
+        {
+         "letter": "E",
+         "text": "E. Présentation du siège complet"
+        },
+        {
+         "letter": "F",
+         "text": "F. Présentation céphalique avec procidence des 2 pieds"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "E. E. Présentation du siège complet",
+       "answerLetters": [
+        "E"
+       ],
+       "explanation": "Les 2 pieds sont perçus dans l'aire de dilatation : c'est un siège complet (mode des pieds, fœtus assis en tailleur). Remarque : B (siège) est aussi juste, mais la correction nationale retient la réponse la plus précise.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Présentations fœtales, p. 57 ; SONU L3 SF, Accouchement du siège, p. 68",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__31",
+       "num": "32",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 — Vous recevez ce jour à 6 h, dans la maternité rurale où vous exercez, Mme C.C.C., 27 ans, 4e geste, 3e pare, sans antécédent particulier, pour des contractions utérines sur grossesse à terme. Elle a 3 contractions utérines en 10 minutes, chacune dure 40 secondes ; le col est dilaté à 5 cm, les 2 pieds sont perçus dans l'aire de dilatation cervicale, la variété de présentation est S.I.D.A. et le bassin est normal.",
+       "text": "Ici, le repère de cette présentation est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. L'occiput du fœtus"
+        },
+        {
+         "letter": "B",
+         "text": "B. La racine du nez fœtal"
+        },
+        {
+         "letter": "C",
+         "text": "C. Le sacrum du fœtus"
+        },
+        {
+         "letter": "D",
+         "text": "D. La petite fontanelle du fœtus"
+        },
+        {
+         "letter": "E",
+         "text": "E. Le menton du fœtus"
+        },
+        {
+         "letter": "F",
+         "text": "F. Le sacrum de la parturiente"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. Le sacrum du fœtus",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le repère de la présentation du siège est le sacrum du fœtus (S.I.D.A. = sacro-iliaque droite antérieure).\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Présentations fœtales, p. 60",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__32",
+       "num": "33",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 — Vous recevez ce jour à 6 h, dans la maternité rurale où vous exercez, Mme C.C.C., 27 ans, 4e geste, 3e pare, sans antécédent particulier, pour des contractions utérines sur grossesse à terme. Elle a 3 contractions utérines en 10 minutes, chacune dure 40 secondes ; le col est dilaté à 5 cm, les 2 pieds sont perçus dans l'aire de dilatation cervicale, la variété de présentation est S.I.D.A. et le bassin est normal.",
+       "text": "Relevez la ou les phrases vraies concernant le cas de Mme C.C.C.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Dès la fin de mon examen, je commence à remplir le partographe modifié de l'OMS"
+        },
+        {
+         "letter": "B",
+         "text": "B. Dès la fin de mon examen, je ne remplis pas le partographe modifié de l'OMS, car l'état de la poche des eaux n'est pas précisé"
+        },
+        {
+         "letter": "C",
+         "text": "C. Dès la fin de mon examen, je ne commence pas à remplir le partographe modifié de l'OMS, car il ne s'agit pas d'une présentation eutocique"
+        },
+        {
+         "letter": "D",
+         "text": "D. Dès la fin de mon examen, je ne remplis pas le partographe modifié de l'OMS"
+        },
+        {
+         "letter": "E",
+         "text": "E. Dès la fin de mon examen, je ne remplis pas le partographe modifié de l'OMS, car il s'agit d'une présentation en S.I.D.A."
+        },
+        {
+         "letter": "F",
+         "text": "F. Dès la fin de mon examen, je ne remplis pas le partographe modifié de l'OMS, car je suis en périphérie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. Dès la fin de mon examen, je commence à remplir le partographe modifié de l'OMS",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Col à 5 cm avec 3 CU/10 min : la patiente est en phase active ; le partographe se démarre dès le début de la phase active, y compris pour un siège.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, Partographe ; SONU L3 SF, Accouchement du siège (« remplir le partographe »), p. 69",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__33",
+       "num": "34",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 — Vous recevez ce jour à 6 h, dans la maternité rurale où vous exercez, Mme C.C.C., 27 ans, 4e geste, 3e pare, sans antécédent particulier, pour des contractions utérines sur grossesse à terme. Elle a 3 contractions utérines en 10 minutes, chacune dure 40 secondes ; le col est dilaté à 5 cm, les 2 pieds sont perçus dans l'aire de dilatation cervicale, la variété de présentation est S.I.D.A. et le bassin est normal.",
+       "text": "Concernant Mme C.C.C., relevez la ou les phrases synonymes d'organisation de son transfert depuis son admission à la maternité.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Poche des eaux intacte"
+        },
+        {
+         "letter": "B",
+         "text": "B. Rupture intempestive des membranes"
+        },
+        {
+         "letter": "C",
+         "text": "C. Rupture précoce des membranes à 5 cm"
+        },
+        {
+         "letter": "D",
+         "text": "D. Bruits du cœur fœtal = 140/min, réguliers, et liquide amniotique méconial"
+        },
+        {
+         "letter": "E",
+         "text": "E. Rupture prématurée des membranes"
+        },
+        {
+         "letter": "F",
+         "text": "F. Rupture des membranes à 10 cm de dilatation cervicale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. C. Rupture précoce des membranes à 5 cm ; E. E. Rupture prématurée des membranes",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient C et E : une rupture des membranes avant dilatation complète, dans un siège complet, expose à la procidence du cordon et impose l'organisation du transfert.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Mécanisme de l'accouchement (rupture prématurée, précoce, tempestive), p. 68",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__34",
+       "num": "35",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 — Vous recevez ce jour à 6 h, dans la maternité rurale où vous exercez, Mme C.C.C., 27 ans, 4e geste, 3e pare, sans antécédent particulier, pour des contractions utérines sur grossesse à terme. Elle a 3 contractions utérines en 10 minutes, chacune dure 40 secondes ; le col est dilaté à 5 cm, les 2 pieds sont perçus dans l'aire de dilatation cervicale, la variété de présentation est S.I.D.A. et le bassin est normal.",
+       "text": "Indiquez le ou les gestes à exécuter chez Mme C.C.C. dès que le col utérin est dilaté à 10 cm.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Pratiquer une large épisiotomie"
+        },
+        {
+         "letter": "B",
+         "text": "B. Perfusion intraveineuse de 5 unités de Syntocinon (ocytocine) pour renforcer les contractions utérines et empêcher le relèvement des bras du fœtus"
+        },
+        {
+         "letter": "C",
+         "text": "C. Perfusion intraveineuse de 5 unités de Syntocinon (ocytocine) pour dilater le col utérin"
+        },
+        {
+         "letter": "D",
+         "text": "D. Faire une grande extraction du siège en l'absence de souffrance fœtale aiguë"
+        },
+        {
+         "letter": "E",
+         "text": "E. Surtout ne pas rompre la poche des eaux"
+        },
+        {
+         "letter": "F",
+         "text": "F. Injection intramusculaire de 10 unités de Syntocinon (ocytocine)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Perfusion intraveineuse de 5 unités de Syntocinon (ocytocine) pour renforcer les contractions utérines et empêcher le relèvement des bras du fœtus",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "À dilatation complète dans le siège, on met 5 UI d'ocytocine dans la perfusion pour renforcer les contractions et éviter le relèvement des bras. L'épisiotomie se fait plus tard (quand le siège appuie sur le périnée) et on rompt la poche si elle est encore intacte.\n\nSource : SONU L3 SF, Accouchement du siège (dispositions pendant le travail), p. 69",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__35",
+       "num": "36",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 — Vous recevez ce jour à 6 h, dans la maternité rurale où vous exercez, Mme C.C.C., 27 ans, 4e geste, 3e pare, sans antécédent particulier, pour des contractions utérines sur grossesse à terme. Elle a 3 contractions utérines en 10 minutes, chacune dure 40 secondes ; le col est dilaté à 5 cm, les 2 pieds sont perçus dans l'aire de dilatation cervicale, la variété de présentation est S.I.D.A. et le bassin est normal.",
+       "text": "À un moment donné, vous décidez de pratiquer une large épisiotomie. Indiquez le moment idéal pour réaliser ce geste.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Quand la tête fœtale est visible durant une contraction utérine"
+        },
+        {
+         "letter": "B",
+         "text": "B. Quand la tête fœtale est visible en dehors d'une contraction utérine"
+        },
+        {
+         "letter": "C",
+         "text": "C. Quand l'anus fœtal est dilaté à 2-3 cm durant une contraction utérine"
+        },
+        {
+         "letter": "D",
+         "text": "D. Quand l'anus maternel est dilaté à 2-3 cm durant une contraction utérine"
+        },
+        {
+         "letter": "E",
+         "text": "E. Dès que le siège prend contact avec le périnée maternel, ou quand il fait bomber le périnée et que la hanche antérieure commence à se dégager, ou quand on voit l'anus fœtal durant une contraction utérine"
+        },
+        {
+         "letter": "F",
+         "text": "F. Quand le col utérin est dilaté à 10 cm durant une contraction utérine"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "E. E. Dès que le siège prend contact avec le périnée maternel, ou quand il fait bomber le périnée et que la hanche antérieure commence à se dégager, ou quand on voit l'anus fœtal durant une contraction utérine",
+       "answerLetters": [
+        "E"
+       ],
+       "explanation": "L'épisiotomie large et systématique du siège se fait dès que la présentation appuie sur le périnée (siège qui fait bomber le périnée, hanche antérieure qui se dégage, anus fœtal visible pendant la contraction).\n\nSource : SONU L3 SF, Accouchement du siège, p. 69",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__36",
+       "num": "37",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 — Vous recevez ce jour à 6 h, dans la maternité rurale où vous exercez, Mme C.C.C., 27 ans, 4e geste, 3e pare, sans antécédent particulier, pour des contractions utérines sur grossesse à terme. Elle a 3 contractions utérines en 10 minutes, chacune dure 40 secondes ; le col est dilaté à 5 cm, les 2 pieds sont perçus dans l'aire de dilatation cervicale, la variété de présentation est S.I.D.A. et le bassin est normal.",
+       "text": "Parmi les gestes suivants, relevez celui qui doit être exécuté durant la réparation d'une épisiotomie.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Suturer les 3 plans avec du nylon n°1"
+        },
+        {
+         "letter": "B",
+         "text": "B. Suturer les 3 plans avec du nylon n°2"
+        },
+        {
+         "letter": "C",
+         "text": "C. Suturer les 3 plans avec du fil non résorbable non serti n°1"
+        },
+        {
+         "letter": "D",
+         "text": "D. Commencer toujours la suture par la profondeur du vagin pour venir vers la vulve"
+        },
+        {
+         "letter": "E",
+         "text": "E. Ne pas suturer l'angle supérieur de l'incision vaginale"
+        },
+        {
+         "letter": "F",
+         "text": "F. Réaliser la suture en un seul plan"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. D. Commencer toujours la suture par la profondeur du vagin pour venir vers la vulve",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La suture du vagin commence à l'angle supérieur (au fond du vagin) et descend vers la vulve. La réparation se fait en 3 plans avec du fil résorbable (pas de nylon).\n\nSource : SONU L3 SF, Épisiotomie et sa réfection, p. 63-64",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__37",
+       "num": "38",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 — Vous recevez ce jour à 6 h, dans la maternité rurale où vous exercez, Mme C.C.C., 27 ans, 4e geste, 3e pare, sans antécédent particulier, pour des contractions utérines sur grossesse à terme. Elle a 3 contractions utérines en 10 minutes, chacune dure 40 secondes ; le col est dilaté à 5 cm, les 2 pieds sont perçus dans l'aire de dilatation cervicale, la variété de présentation est S.I.D.A. et le bassin est normal.",
+       "text": "Au cours de l'expulsion de ce fœtus en présentation du siège, vous décidez de terminer rapidement l'expulsion par une manœuvre, malgré l'absence de toute dystocie. Relevez la phrase exacte.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Je pratique la manœuvre de Mauriceau dès que je vois la pointe des omoplates du fœtus"
+        },
+        {
+         "letter": "B",
+         "text": "B. Je pratique la manœuvre de Bracht dès que je vois la pointe des omoplates du fœtus"
+        },
+        {
+         "letter": "C",
+         "text": "C. Je pratique systématiquement la manœuvre de Lovset"
+        },
+        {
+         "letter": "D",
+         "text": "D. Je pratique la manœuvre de Mauriceau dès que je vois les oreilles du fœtus"
+        },
+        {
+         "letter": "E",
+         "text": "E. Je pratique la petite extraction du siège"
+        },
+        {
+         "letter": "F",
+         "text": "F. Je pratique la manœuvre de Bracht dès que je vois les oreilles du fœtus"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Je pratique la manœuvre de Bracht dès que je vois la pointe des omoplates du fœtus",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La manœuvre de Bracht se fait dès l'apparition de la pointe des omoplates à la vulve : on relève le fœtus sans traction vers le ventre maternel. Mauriceau est réservée à la tête retenue, Lovset au relèvement des bras.\n\nSource : SONU L3 SF, Accouchement du siège (manœuvre de Bracht), p. 71-72",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__38",
+       "num": "39",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 — Vous recevez ce jour à 6 h, dans la maternité rurale où vous exercez, Mme C.C.C., 27 ans, 4e geste, 3e pare, sans antécédent particulier, pour des contractions utérines sur grossesse à terme. Elle a 3 contractions utérines en 10 minutes, chacune dure 40 secondes ; le col est dilaté à 5 cm, les 2 pieds sont perçus dans l'aire de dilatation cervicale, la variété de présentation est S.I.D.A. et le bassin est normal.",
+       "text": "Pour le score d'Apgar à 1 minute du nouveau-né, vous avez coté 2 pour la fréquence cardiaque et 1 pour chacun des autres paramètres. Le total du score d'Apgar à 1 minute est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. 7"
+        },
+        {
+         "letter": "B",
+         "text": "B. 5"
+        },
+        {
+         "letter": "C",
+         "text": "C. 3"
+        },
+        {
+         "letter": "D",
+         "text": "D. 4"
+        },
+        {
+         "letter": "E",
+         "text": "E. 9"
+        },
+        {
+         "letter": "F",
+         "text": "F. 6"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "F. F. 6",
+       "answerLetters": [
+        "F"
+       ],
+       "explanation": "Le score d'Apgar additionne 5 paramètres notés de 0 à 2 : 2 (fréquence cardiaque) + 4 × 1 = 6. Remarque : Note du sujet : 2 + (4 × 1) = 6.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, Soins au nouveau-né (indice d'Apgar)",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j1-sfm__39",
+       "num": "40",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 — Vous recevez ce jour à 6 h, dans la maternité rurale où vous exercez, Mme C.C.C., 27 ans, 4e geste, 3e pare, sans antécédent particulier, pour des contractions utérines sur grossesse à terme. Elle a 3 contractions utérines en 10 minutes, chacune dure 40 secondes ; le col est dilaté à 5 cm, les 2 pieds sont perçus dans l'aire de dilatation cervicale, la variété de présentation est S.I.D.A. et le bassin est normal.",
+       "text": "Après la fin de l'accouchement de Mme C.C.C., vous suspectez une rupture utérine ; pour lever ce doute, vous réalisez :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Perfusion intraveineuse de 5 unités de Syntocinon (ocytocine)"
+        },
+        {
+         "letter": "B",
+         "text": "B. Délivrance artificielle"
+        },
+        {
+         "letter": "C",
+         "text": "C. Perfusion intraveineuse d'antibiotiques et de 5 unités de Syntocinon (ocytocine)"
+        },
+        {
+         "letter": "D",
+         "text": "D. Délivrance artificielle suivie de révision utérine"
+        },
+        {
+         "letter": "E",
+         "text": "E. Révision utérine"
+        },
+        {
+         "letter": "F",
+         "text": "F. Révision utérine suivie de délivrance artificielle"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "E. E. Révision utérine",
+       "answerLetters": [
+        "E"
+       ],
+       "explanation": "La révision utérine (main dans l'utérus) explore le fond, les faces et les bords et contrôle la vacuité et l'intégrité de l'utérus : c'est elle qui confirme ou écarte une rupture utérine.\n\nSource : SONU L3 SF, Délivrance artificielle et révision utérine, p. 49 ; GYNECO L2 IDE VERSION 2025, HPP (« voir avec la main »), p. 74",
+       "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
+       "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
