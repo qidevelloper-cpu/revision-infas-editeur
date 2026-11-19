@@ -1113,11 +1113,12 @@ try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_ca
       const cs = SIZES.includes(P.cs) ? P.cs : 1; sh.style.setProperty('--cs', cs);
       const r = sh.getBoundingClientRect(), W = innerWidth, H = innerHeight;
       let x = P.x, y = P.y;
-      if (x == null || y == null) { x = (W - r.width) / 2; y = H - r.height - 10; }
+      if (x == null || y == null) { x = (W - r.width) / 2; y = (H - r.height) / 2; }
       x = Math.max(4, Math.min(W - r.width - 4, x)); y = Math.max(4, Math.min(H - Math.min(r.height, 60) - 4, y));
       sh.style.left = x + 'px'; sh.style.top = y + 'px';
     };
     ov._applyP = () => { applyP(); ajuster(); };
+    ov._centre = () => { delete P.x; delete P.y; };
     ov.querySelector('#calc-smaller').onclick = () => { const i = SIZES.indexOf(SIZES.includes(P.cs) ? P.cs : 1); P.cs = SIZES[Math.max(0, i - 1)]; save(); applyP(); ajuster(); };
     ov.querySelector('#calc-bigger').onclick = () => { const i = SIZES.indexOf(SIZES.includes(P.cs) ? P.cs : 1); P.cs = SIZES[Math.min(SIZES.length - 1, i + 1)]; save(); applyP(); ajuster(); };
     const drag = ov.querySelector('#calc-drag');
@@ -1205,7 +1206,7 @@ try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_ca
   const placeFab = () => {
     const r = fab.getBoundingClientRect(), W = innerWidth, H = innerHeight;
     let x = FP.x, y = FP.y;
-    if (x == null || y == null) { const sc = document.querySelector('#screen-quiz .quiz-score'); const sr = sc ? sc.getBoundingClientRect() : null; x = W - r.width - 14; y = sr && sr.top > 0 ? sr.top + sr.height / 2 - r.height / 2 : 130; }
+    if (x == null || y == null) { x = (W - r.width) / 2; y = (H - r.height) / 2; }   /* au centre ; l'élève le déplace où il veut */
     x = Math.max(6, Math.min(W - r.width - 6, x)); y = Math.max(6, Math.min(H - r.height - 76, y));
     fab.style.left = x + 'px'; fab.style.top = y + 'px';
   };
@@ -1238,11 +1239,86 @@ try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_ca
     return !!(q && !q.classList.contains('hidden') && q.getClientRects().length);
   };
   let wasOn = null;
-  const sync = () => { const on = quizOn(); if (on !== wasOn) { wasOn = on; fab.classList.toggle('on', on); if (on) requestAnimationFrame(placeFab); else close(); } };
+  const sessionCourante = () => { try { return (VIEW === 'fil' && typeof FILS !== 'undefined' && FILS) || (VIEW === 'exam' && typeof EX !== 'undefined' && EX) || (VIEW === 'quiz' && typeof QZ !== 'undefined' && QZ) || null; } catch (e) { return null; } };
+  let derSess = null;
+  const sync = () => { const on = quizOn(), se = on ? sessionCourante() : null, neuf = on && se && se !== derSess; if (se) derSess = se;
+    if (on !== wasOn || neuf) { wasOn = on; fab.classList.toggle('on', on); if (on) { FP = {}; if (ov && ov._centre) ov._centre(); if (neuf) close(); requestAnimationFrame(placeFab); } else close(); } };   /* chaque nouveau sujet : bouton et calculatrice repartent du centre */
   new MutationObserver(sync).observe(document.body, { attributes: true, subtree: true, attributeFilter: ['class', 'style', 'hidden'] });
   setInterval(sync, 800); sync();
   // bouton retour du téléphone : ferme d'abord la calculatrice
   window.addEventListener('popstate', () => { if (ov && !ov.classList.contains('hidden')) { close(); try { history.pushState({ calc: 1 }, ''); } catch (e) {} } });
+})();
+
+/* ---------- 11 bis. TABLE DE LUND ET BROWDER (brûlures) : bouton flottant déplaçable, seulement dans les sujets de Chirurgie ----------
+   Comme la calculatrice : le bouton se glisse où l'on veut, un appui ouvre le tableau (fenêtre déplaçable par sa barre du haut).
+   Affiché : questions du portail (affichage en entier, quiz, examen) dont au moins une vient de la Chirurgie (cours, sujet ou session
+   d'une appli complète comme la Correction nationale), appli « Chirurgie », quiz interne d'une appli sur un sujet de Chirurgie. */
+(function () {
+  const ROWS = [['Tête', '19', '17', '13', '10', '7'], ['Cou', '2', '2', '2', '2', '2'], ['Tronc antérieur', '13', '13', '13', '13', '13'], ['Tronc postérieur', '13', '13', '13', '13', '13'],
+    ['Une fesse', '2,5', '2,5', '2,5', '2,5', '2,5'], ['Organe gén. ext.', '1', '1', '1', '1', '1'], ['Un bras', '4', '4', '4', '4', '4'], ['Un avant-bras', '3', '3', '3', '3', '3'],
+    ['Une main', '2,5', '2,5', '2,5', '2,5', '2,5'], ['Une cuisse', '5,5', '6,5', '8,5', '8,5', '9,5'], ['Une jambe', '5', '5', '5,5', '6', '7'], ['Un pied', '3,5', '3,5', '3,5', '3,5', '3,5']];
+  const AGES = ['0-1 an', '1-4 ans', '5-9 ans', '10-15 ans', 'Adulte'];
+  const css = `
+.lb-fab{position:fixed;z-index:240;display:none;align-items:center;gap:6px;height:44px;padding:0 10px 0 12px;border-radius:999px;background:var(--card-flat,#fff);color:var(--ink,#16231F);border:1px solid var(--coral,#E8772E);box-shadow:0 8px 24px rgba(0,0,0,.25);cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;font:700 12.5px var(--sans,'Inter',system-ui,sans-serif)}
+.lb-fab.on{display:inline-flex}.lb-fab .grip{font-size:13px;opacity:.55;margin-left:2px}.lb-fab.dragging{cursor:grabbing;transform:scale(1.04)}
+.lb-ov{position:fixed;inset:0;z-index:250;pointer-events:none}.lb-ov.hidden{display:none}
+.lb-sheet{pointer-events:auto;position:fixed;left:0;top:0;width:360px;max-width:calc(100vw - 16px);max-height:calc(100vh - 90px);overflow:auto;background:var(--card-flat,#fff);color:var(--ink,#16231F);border:1px solid var(--card-border,rgba(0,0,0,.14));border-radius:18px;padding:8px 10px 10px;box-shadow:0 18px 50px rgba(0,0,0,.35);font-family:var(--sans,'Inter',system-ui,sans-serif)}
+.lb-drag{cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none}.lb-grip{display:block;width:38px;height:4px;border-radius:4px;background:rgba(0,0,0,.2);margin:0 auto 6px}
+.lb-top{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px}.lb-title{font-weight:800;font-size:14px}
+.lb-x{width:30px;height:30px;border-radius:50%;border:1px solid var(--card-border,rgba(0,0,0,.14));background:transparent;color:inherit;font-size:13px;cursor:pointer}
+.lb-t{width:100%;border-collapse:collapse;font-size:12px}.lb-t th,.lb-t td{border:1px solid var(--card-border,rgba(0,0,0,.18));padding:4px 5px}
+.lb-t th{font-weight:800;text-align:center;background:rgba(232,119,46,.14);color:var(--ink,#16231F)!important;opacity:1}.lb-t td{color:var(--ink,#16231F)}.lb-t td{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}.lb-t td:first-child{text-align:left;white-space:normal;font-weight:600}
+.lb-n{margin-top:6px;font-size:11px;opacity:.7}`;
+  const st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
+  const tab = '<table class="lb-t"><thead><tr><th>Localisation</th>' + AGES.map(a => '<th>' + a + '</th>').join('') + '</tr></thead><tbody>' +
+    ROWS.map(r => '<tr><td>' + r[0] + '</td>' + r.slice(1).map(v => '<td>' + v + ' %</td>').join('') + '</tr>').join('') + '</tbody></table>';
+  const ov = document.createElement('div'); ov.className = 'lb-ov hidden'; ov.id = 'lb-ov';
+  ov.innerHTML = '<div class="lb-sheet" role="dialog" aria-label="Table de Lund et Browder"><div class="lb-drag"><span class="lb-grip"></span><div class="lb-top"><span class="lb-title">🔥 Table de Lund et Browder</span><button class="lb-x" aria-label="Fermer">✕</button></div></div>' + tab +
+    '<div class="lb-n">Pourcentage de la surface corporelle selon l\'âge.</div></div>';
+  document.body.appendChild(ov);
+  const sh = ov.querySelector('.lb-sheet'), PK = 'ri_lb_pos_v1', FK = 'ri_lb_fab_v1';
+  const lire = k => { try { return JSON.parse(localStorage.getItem(k) || '{}') } catch (e) { return {} } }, ecrire = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)) } catch (e) {} };
+  let P = lire(PK), FP = lire(FK);
+  const placer = () => { const r = sh.getBoundingClientRect(), W = innerWidth, H = innerHeight; let x = P.x, y = P.y;
+    if (x == null || y == null) { x = (W - r.width) / 2; y = Math.max(10, (H - r.height) / 2) }   /* au centre ; l'élève la déplace où il veut */
+    x = Math.max(4, Math.min(W - r.width - 4, x)); y = Math.max(4, Math.min(H - 60, y)); sh.style.left = x + 'px'; sh.style.top = y + 'px' };
+  const ouvrir = () => { ov.classList.remove('hidden'); requestAnimationFrame(placer) }, fermer = () => ov.classList.add('hidden');
+  ov.querySelector('.lb-x').onclick = fermer;
+  let sd = null; const dg = ov.querySelector('.lb-drag');
+  dg.addEventListener('pointerdown', e => { if (e.target.closest('.lb-x')) return; const r = sh.getBoundingClientRect(); sd = { dx: e.clientX - r.left, dy: e.clientY - r.top, id: e.pointerId }; try { dg.setPointerCapture(e.pointerId) } catch (_) {} });
+  dg.addEventListener('pointermove', e => { if (!sd || e.pointerId !== sd.id) return; P.x = e.clientX - sd.dx; P.y = e.clientY - sd.dy; placer(); e.preventDefault() });
+  const sfin = e => { if (sd && e.pointerId === sd.id) { sd = null; ecrire(PK, P) } }; dg.addEventListener('pointerup', sfin); dg.addEventListener('pointercancel', sfin);
+  const fab = document.createElement('div'); fab.className = 'lb-fab'; fab.setAttribute('role', 'button'); fab.tabIndex = 0; fab.setAttribute('aria-label', 'Ouvrir la table de Lund et Browder');
+  fab.innerHTML = '<span>🔥</span><span>Lund et Browder</span><span class="grip" aria-hidden="true">⠿</span>'; document.body.appendChild(fab);
+  const placeFab = () => { const r = fab.getBoundingClientRect(), W = innerWidth, H = innerHeight; let x = FP.x, y = FP.y;
+    if (x == null || y == null) { x = (W - r.width) / 2; y = H / 2 - r.height - 32 }   /* au centre, juste au-dessus de la calculatrice */
+    x = Math.max(6, Math.min(W - r.width - 6, x)); y = Math.max(6, Math.min(H - r.height - 76, y)); fab.style.left = x + 'px'; fab.style.top = y + 'px' };
+  let fd = null;
+  fab.addEventListener('pointerdown', e => { const r = fab.getBoundingClientRect(); fd = { sx: e.clientX, sy: e.clientY, dx: e.clientX - r.left, dy: e.clientY - r.top, id: e.pointerId, moved: false }; try { fab.setPointerCapture(e.pointerId) } catch (_) {} });
+  fab.addEventListener('pointermove', e => { if (!fd || e.pointerId !== fd.id) return; if (!fd.moved && Math.hypot(e.clientX - fd.sx, e.clientY - fd.sy) < 8) return;
+    fd.moved = true; fab.classList.add('dragging'); FP.x = e.clientX - fd.dx; FP.y = e.clientY - fd.dy; placeFab(); e.preventDefault() });
+  fab.addEventListener('pointerup', e => { if (!fd || e.pointerId !== fd.id) return; const m = fd.moved; fd = null; fab.classList.remove('dragging'); if (m) ecrire(FK, FP); else (ov.classList.contains('hidden') ? ouvrir() : fermer()) });
+  fab.addEventListener('pointercancel', e => { if (fd && e.pointerId === fd.id) { fd = null; fab.classList.remove('dragging') } });
+  fab.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); ouvrir() } });
+  window.addEventListener('resize', () => { placeFab(); if (!ov.classList.contains('hidden')) placer() });
+  const CH = /\bchirurgie\b/i, vu = el => !!(el && !el.classList.contains('hidden') && el.getClientRects().length);
+  const chirQ = id => { try { const q = QI[id]; if (!q) return false; const m = (MAT || []).find(x => x.id === q.m) || {}; return CH.test((m.title || '') + ' ' + (m.short || '') + ' ' + ((m.ch && q.c >= 0 && m.ch[q.c]) || '')) } catch (e) { return false } };
+  const chirNow = () => { try {
+    if (VIEW === 'appview') { const m = (MAT || []).find(x => x.id === ctx.id) || {}; if (CH.test((m.title || '') + ' ' + (m.short || '')) && !/correction|examens?\s+blancs?/i.test(m.title || '')) return true;
+      const f = document.querySelector('#appKeep.on') || document.querySelector('#appFrame:not(.hide)'); const d = f && f.contentDocument; if (!d) return false;
+      if (!vu(d.getElementById('screen-quiz'))) return false; const e = d.getElementById('q-eyebrow'); return !!(e && CH.test(e.textContent)) }
+    const sc = document.querySelector('[data-bid="quiz.main"],[data-bid="exam.main"],[data-bid="fil.main"]'); if (!sc || !sc.getClientRects().length) return false;
+    if (VIEW === 'fil' && typeof FILS !== 'undefined' && FILS && FILS.ids) return FILS.ids.some(chirQ) || CH.test(FILS.label || '');   /* session affichée en entier : au moins une question de Chirurgie */
+    const S0 = VIEW === 'exam' && typeof EX !== 'undefined' && EX ? EX : (typeof QZ !== 'undefined' ? QZ : null);
+    if (S0 && S0.ids && S0.ids.length && S0.idx != null && QI[S0.ids[S0.idx]]) return chirQ(S0.ids[S0.idx]);
+    return CH.test(String(sc.innerText || '').slice(0, 400)) } catch (e) { return false } };
+  let was = null;
+  let derS = null;
+  const sessionLB = () => { try { return (VIEW === 'fil' && typeof FILS !== 'undefined' && FILS) || (VIEW === 'exam' && typeof EX !== 'undefined' && EX) || (VIEW === 'quiz' && typeof QZ !== 'undefined' && QZ) || null } catch (e) { return null } };
+  const sync = () => { const on = chirNow(), se = on ? sessionLB() : null, neuf = on && se && se !== derS; if (se) derS = se;
+    if (on !== was || neuf) { was = on; fab.classList.toggle('on', on); if (on) { FP = {}; P = {}; if (neuf) fermer(); requestAnimationFrame(placeFab) } else fermer() } };   /* chaque nouveau sujet : bouton et tableau repartent du centre */
+  setInterval(sync, 800); sync();
+  window.lundBrowder = { ouvrir, fermer, chirNow };
 })();
 
 /* ---------- 12. APPLICATIONS COMPLÈTES : choix de l'interface + grade Révision INFAS à la place des badges ---------- */
@@ -1557,7 +1633,8 @@ function corrPatch(){var J='j-preparation-de';function city(n){return String(n).
    prev=card;prevA=a});L.dataset.ri=String(L.childElementCount)}
  /* configuration : une session choisie → toutes ses questions (pas de choix du nombre) ; filtre « non traitées » */
  /* Préparation D.E (J) présentée comme les Examens blancs : matières puis années (année d'un sujet J : s.annee, sinon l'année écrite dans son nom, sinon 2026) */
- function jYear(s){if(s.annee)return +s.annee;var m=String(s.name||'').match(/\b(20\d\d)\b/);return m?+m[1]:2026}
+ /* anciens J (sujets natifs et prépa d'octobre-novembre) : 2025 ; J1 / J2 ajoutés en novembre 2026 : annee 2026 dans leur paquet */
+ function jYear(s){if(s.annee)return +s.annee;return 2025}
  function jMat(s){return s.matiere||'Autres'}
  try{var _gfj=getFilteredPool;getFilteredPool=function(){var p=_gfj.apply(this,arguments);if(cfgState&&cfgState.mode==='j'&&cfgState.jyear){var JA=QUIZ_DATA.antennes.find(function(a){return a.slug===J});var Y={};(JA?JA.sujets:[]).forEach(function(s){Y[s.slug]=jYear(s)});p=p.filter(function(q){return Y[q._sujetSlug]===cfgState.jyear})}return p}}catch(e){}
  function jRender(){var $=function(i){return document.getElementById(i)};var JA=QUIZ_DATA.antennes.find(function(a){return a.slug===J});var lab=$('cfg-ant-card')&&$('cfg-ant-card').querySelector('.config-label');
@@ -1612,7 +1689,7 @@ function corrPatch(){var J='j-preparation-de';function city(n){return String(n).
  document.querySelectorAll('[id="btn-start-unseen"]').forEach(function(x){if(x!==document.getElementById('btn-start-unseen')){var c=x.cloneNode(true);x.parentNode.replaceChild(c,x);c.addEventListener('click',function(){openConfigWith({});cfgState.unseen=true;renderConfig()})}});
  /* plus de profil dans cette appli (le grade et les couleurs sont ceux de Révision INFAS) */
  function noProfile(){var b=document.querySelector('#bnav button[data-go="profile"]');if(b)b.remove()}
- var st=document.createElement('style');st.textContent='#cfg-antennes{display:flex!important;flex-direction:column!important;gap:5px!important}#cfg-antennes>.chip{align-self:flex-start}.ri-antrow{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) minmax(0,1fr);gap:6px;align-items:center}.ri-ants{min-width:0}.ri-antc{font-weight:800;font-size:13.5px}.ri-ants .chip{width:100%!important;box-sizing:border-box!important;overflow:hidden;display:flex!important;justify-content:space-between!important;gap:4px;padding:6px 8px!important;font-size:12.5px!important;min-height:0!important;margin:0!important;white-space:nowrap}#cfg-antennes .chip-count{font-size:10.5px!important;padding:1px 5px!important}.ri-3 .ri-ants .chip{flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:2px!important;padding:5px 3px!important;white-space:normal!important;text-align:center}.ri-3 .ri-antc{font-size:12.5px}.ri-subh{font-weight:900;font-size:13px;text-transform:uppercase;letter-spacing:.4px;margin:12px 4px 4px;opacity:.85}.ri-jyear{display:flex;flex-direction:column;gap:6px;margin-top:4px}.ri-jyh{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:6px 4px 2px;cursor:pointer;border-radius:10px}.ri-jyh.on .ri-antc::after{content:" ✓"}.ri-jgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.ri-jgrid .chip{width:100%!important;box-sizing:border-box!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:2px!important;padding:6px 4px!important;margin:0!important;min-height:0!important;text-align:center;white-space:normal!important;font-size:12.5px!important}.ri-jl{font-weight:800;line-height:1.2}.ri-js{font-size:10.5px;opacity:.75;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.ri-jgrid .chip-count{margin:0!important}@media(max-width:380px){.ri-jgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}';document.head.appendChild(st);
+ var st=document.createElement('style');st.textContent='html,body{-webkit-tap-highlight-color:transparent;touch-action:manipulation}.mat-tile,.chip,.ri-antc,.ri-js,#cfg-mode button,.config-card button{-webkit-tap-highlight-color:transparent;-webkit-user-select:none;user-select:none;transition:transform .12s ease,background-color .15s ease,border-color .15s ease}.mat-tile:active,.chip:active,.ri-antc:active,.ri-js:active,#cfg-mode button:active{transform:scale(.97)}.lq-h .t{font-size:18px!important;letter-spacing:.03em!important}.lq-h .n{font-size:12.5px!important}#cfg-antennes{display:flex!important;flex-direction:column!important;gap:5px!important}#cfg-antennes>.chip{align-self:flex-start}.ri-antrow{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) minmax(0,1fr);gap:6px;align-items:center}.ri-ants{min-width:0}.ri-antc{font-weight:800;font-size:13.5px}.ri-ants .chip{width:100%!important;box-sizing:border-box!important;overflow:hidden;display:flex!important;justify-content:space-between!important;gap:4px;padding:6px 8px!important;font-size:12.5px!important;min-height:0!important;margin:0!important;white-space:nowrap}#cfg-antennes .chip-count{font-size:10.5px!important;padding:1px 5px!important}.ri-3 .ri-ants .chip{flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:2px!important;padding:5px 3px!important;white-space:normal!important;text-align:center}.ri-3 .ri-antc{font-size:12.5px}.ri-subh{font-weight:900;font-size:13px;text-transform:uppercase;letter-spacing:.4px;margin:12px 4px 4px;opacity:.85}.ri-jyear{display:flex;flex-direction:column;gap:6px;margin-top:4px}.ri-jyh{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:6px 4px 2px;cursor:pointer;border-radius:10px}.ri-jyh.on .ri-antc::after{content:" ✓"}.ri-jgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.ri-jgrid .chip{width:100%!important;box-sizing:border-box!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:2px!important;padding:6px 4px!important;margin:0!important;min-height:0!important;text-align:center;white-space:normal!important;font-size:12.5px!important}.ri-jl{font-weight:800;line-height:1.2}.ri-js{font-size:10.5px;opacity:.75;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.ri-jgrid .chip-count{margin:0!important}@media(max-width:380px){.ri-jgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}';document.head.appendChild(st);
  noProfile();fixList();setInterval(function(){noProfile();fixList()},500);try{renderHome()}catch(e){}}
 function corrCss(){const t=palette(),cs=getComputedStyle(document.documentElement),v=n=>cs.getPropertyValue(n).trim();const card=v('--card')||'#fff',ink=v('--ink')||'#16231F',soft=v('--soft')||'#5E6E68',line=v('--line')||'#E1DDD2';
  return `.sig.top,.wrap>.sig,body>.sig,.sig-divider{display:none!important}

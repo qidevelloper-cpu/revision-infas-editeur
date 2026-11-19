@@ -1,0 +1,1887 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zf-sj-prepa-ped-j1-idesfm",
+ "titre": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+ "session": "J",
+ "annee": 2026,
+ "nq": 54,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+   "sha256": "328c3ad1442e2302f057a387b6e54afe8b84430c0f7fc0bc5304efb1c274ab04"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Pédiatrie · Prépa D.E J1 (IDE-SFM)",
+     "slug": "prepa-ped-j1-idesfm",
+     "pages": "",
+     "count": 54,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Pédiatrie",
+     "source": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__0",
+       "num": "1",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "KJ a 5 mois et est orphelin de mère. Pour préparer son bol de lait infantile de 210 ml, j'utilise :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "4 mesurettes rases de lait"
+        },
+        {
+         "letter": "B",
+         "text": "5 mesurettes rases de lait"
+        },
+        {
+         "letter": "C",
+         "text": "6 mesurettes rases de lait"
+        },
+        {
+         "letter": "D",
+         "text": "7 mesurettes rases de lait"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 7 mesurettes rases de lait",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le lait maternisé se reconstitue à 1 mesurette rase pour 30 ml d'eau : 210 / 30 = 7 mesurettes.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Laits secs en poudre maternisés »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__1",
+       "num": "2",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Vous consultez l'enfant JP âgé de 36 mois. Son Z-score poids pour l'âge est en dessous de -3. Cela signifie que JP :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "a un poids normal pour son âge"
+        },
+        {
+         "letter": "B",
+         "text": "est en surpoids pour son âge"
+        },
+        {
+         "letter": "C",
+         "text": "est obèse pour son âge"
+        },
+        {
+         "letter": "D",
+         "text": "a une malnutrition aiguë sévère"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. a une malnutrition aiguë sévère",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « malnutrition aiguë sévère ».\n\nSource : Livret de tableaux PCIMNE 0-5 ans (2021), « Classer l'état nutritionnel » ; Licence – Soins aux enfants + Diététique (pptx 2022), diapo 189",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__2",
+       "num": "3",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "PG, sexe masculin, 6 mois, 7 kg, a une diarrhée aiguë et boit avec avidité. Le pli cutané abdominal s'efface lentement et ses yeux sont enfoncés. Pour traiter PG, je lui administre durant les 4 premières heures de prise en charge :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "450 ml de SRO"
+        },
+        {
+         "letter": "B",
+         "text": "350 ml de SRO"
+        },
+        {
+         "letter": "C",
+         "text": "550 ml de SRO"
+        },
+        {
+         "letter": "D",
+         "text": "525 ml de SRO"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 525 ml de SRO",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "PG a des signes évidents de déshydratation (boit avec avidité, pli qui s'efface lentement, yeux enfoncés) : c'est le plan B, 75 ml/kg de SRO en 4 heures. 75 × 7 kg = 525 ml.\n\nSource : Pediatrie.pdf, « Plan B » ; Cours de Pédiatrie 2 / pédiatrie cours.pdf, tableau I",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__3",
+       "num": "4",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nourrisson CB est âgé de 11 mois et pèse 11 kg. Il présente des signes sévères de déshydratation. J'administre durant les 5 heures suivant la 1re heure de traitement :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "770 ml de soluté"
+        },
+        {
+         "letter": "B",
+         "text": "750 ml de soluté"
+        },
+        {
+         "letter": "C",
+         "text": "700 ml de soluté"
+        },
+        {
+         "letter": "D",
+         "text": "650 ml de soluté"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 770 ml de soluté",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Signes sévères, donc plan C. Avant 12 mois : 30 ml/kg en 1 heure, puis 70 ml/kg en 5 heures. 70 × 11 kg = 770 ml de Ringer lactate.\n\nSource : Livret de tableaux PCIMNE 0-5 ans (2021), « Plan C : traiter rapidement la déshydratation sévère »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__4",
+       "num": "5",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "DF, garçon né à terme eutrophique. La sage-femme vous informe que DF pèse 3420 g au 3e jour de vie et qu'il a perdu 10 % de son poids de naissance. Je déduis que le poids de naissance de DF était de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "3762 g"
+        },
+        {
+         "letter": "B",
+         "text": "3580 g"
+        },
+        {
+         "letter": "C",
+         "text": "3800 g"
+        },
+        {
+         "letter": "D",
+         "text": "3250 g"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 3800 g",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "3420 g correspond à 90 % du poids de naissance : 3420 / 0,9 = 3800 g. La perte d'environ 10 % les premiers jours est physiologique.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Repères de gain de poids » (pour la perte physiologique) ; calcul simple",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__5",
+       "num": "6",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les sources de difficultés du modèle conceptuel de Virginia Henderson listées ci-après se trouve un intrus. Cochez l'intrus.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Manque de connaissance"
+        },
+        {
+         "letter": "B",
+         "text": "Manque de vision"
+        },
+        {
+         "letter": "C",
+         "text": "Manque de volonté"
+        },
+        {
+         "letter": "D",
+         "text": "Manque de force physique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Manque de vision",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Selon Virginia Henderson, les trois sources de difficulté sont le manque de force (physique ou psychique), de volonté et de connaissance. Le « manque de vision » n'en fait pas partie.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__6",
+       "num": "7",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La bronchiolite aiguë du nourrisson, dans sa forme commune non compliquée, est provoquée par :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une bactérie"
+        },
+        {
+         "letter": "B",
+         "text": "Un virus"
+        },
+        {
+         "letter": "C",
+         "text": "Un parasite"
+        },
+        {
+         "letter": "D",
+         "text": "Un champignon"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Un virus",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La bronchiolite est une infection virale des petites bronches du nourrisson (1 mois à 2 ans), due surtout au virus respiratoire syncytial. Avant 3 ans, les infections respiratoires aiguës sont surtout virales.\n\nSource : Pédiatrie Licence 2.pdf, « Infections respiratoires aiguës – bronchiolite »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__7",
+       "num": "8",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour traiter le nouveau-né présentant une infection bactérienne néonatale tardive, le médecin utilise en priorité l'association :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Ampicilline + aminoside"
+        },
+        {
+         "letter": "B",
+         "text": "Chloramphénicol + aminoside"
+        },
+        {
+         "letter": "C",
+         "text": "Azithromycine + aminoside"
+        },
+        {
+         "letter": "D",
+         "text": "Ceftriaxone + aminoside"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Ceftriaxone + aminoside",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient ceftriaxone + aminoside. Le cours de Licence 2 cite l'association ceftriaxone + aminoside avant 3 mois dans les infections bactériennes graves (méningite). Les germes de l'infection tardive (staphylocoque doré, bacilles Gram négatif) justifient une céphalosporine de 3e génération. Remarque : Néonatalogie.pdf propose une trithérapie ampicilline + céfotaxime + gentamicine, sans distinguer précoce et tardive.\n\nSource : Pédiatrie Licence 2.pdf, « Infection néonatale – germes » et « Méningite – antibiothérapie »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__8",
+       "num": "9",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Nourrisson CB, fille, 3 mois, réside à Daloa, présente une toux quinteuse et un geignement. CB est nourrie au sein uniquement. Fréquence respiratoire : 50 cycles/minute. Diagnostic du médecin : bronchiolite. CB présente :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "4 données d'indépendance + 5 données de dépendance"
+        },
+        {
+         "letter": "B",
+         "text": "7 données d'indépendance + 6 données de dépendance"
+        },
+        {
+         "letter": "C",
+         "text": "6 données d'indépendance + 4 données de dépendance"
+        },
+        {
+         "letter": "D",
+         "text": "5 données d'indépendance + 5 données de dépendance"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 4 données d'indépendance + 5 données de dépendance",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le décompte des données d'indépendance et de dépendance selon les 14 besoins de Virginia Henderson dépend de la grille de l'enseignant. Indices de dépendance dans le cas : toux quinteuse et geignement (respirer), FR à 50/min (limite haute à 3 mois). Indices d'indépendance : allaitement exclusif (boire et manger), entre autres.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__9",
+       "num": "10",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Nourrisson CB, fille, 3 mois, réside à Daloa, présente une toux quinteuse et un geignement. CB est nourrie au sein uniquement. Fréquence respiratoire : 50 cycles/minute. Diagnostic du médecin : bronchiolite. Le diagnostic infirmier est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Perturbation des échanges gazeux reliée à un manque de force physique"
+        },
+        {
+         "letter": "B",
+         "text": "Dégagement inefficace des voies respiratoires relié à un manque de force physique"
+        },
+        {
+         "letter": "C",
+         "text": "Infection des poumons reliée à un manque de force physique"
+        },
+        {
+         "letter": "D",
+         "text": "Détresse respiratoire reliée à un manque de force physique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Dégagement inefficace des voies respiratoires relié à un manque de force physique",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le problème principal de la bronchiolite est l'encombrement des petites bronches par des sécrétions que le nourrisson ne peut pas évacuer seul : d'où « dégagement inefficace des voies respiratoires ». Le manque de force physique est lié à l'âge. « Infection des poumons » et « détresse respiratoire » sont des diagnostics médicaux, pas infirmiers.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__10",
+       "num": "11",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Nourrisson CB, fille, 3 mois, réside à Daloa, présente une toux quinteuse et un geignement. CB est nourrie au sein uniquement. Fréquence respiratoire : 50 cycles/minute. Diagnostic du médecin : bronchiolite. L'objectif de soins est de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Maintenir la fréquence respiratoire dans les limites de la normale (18-30 cycles/min) dans un délai de 1 h après les soins"
+        },
+        {
+         "letter": "B",
+         "text": "Maintenir la fréquence respiratoire dans les limites de la normale (40-60 cycles/min) dans un délai de 1 h après les soins"
+        },
+        {
+         "letter": "C",
+         "text": "Maintenir la fréquence respiratoire dans les limites de la normale (30-40 cycles/min) dans un délai de 1 h après les soins"
+        },
+        {
+         "letter": "D",
+         "text": "Maintenir la fréquence respiratoire dans les limites de la normale (60-70 cycles/min) dans un délai de 1 h après les soins"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Maintenir la fréquence respiratoire dans les limites de la normale (30-40 cycles/min) dans un délai de 1 h après les soins",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) fixe comme objectif une FR de 30 à 40 cycles/min. Chez le nourrisson de 2 à 12 mois, la respiration est rapide à partir de 50 cycles/min. Les valeurs 18-30 concernent le grand enfant ou l'adulte, et 40-60 ou 60-70 sont trop élevées. Remarque : Le cours ne donne pas de norme « 30-40 » ; il donne seulement le seuil de respiration rapide (≥ 50/min de 2 à 12 mois).\n\nSource : Les 12 pratiques familiales essentielles (PFE), « Comment reconnaît-on une respiration rapide ? » ; Livret de tableaux PCIMNE 0-5 ans (2021)",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__11",
+       "num": "12",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'enfant qui souffre du kwashiorkor :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "est apathique et grognon"
+        },
+        {
+         "letter": "B",
+         "text": "aime jouer et jeter les objets"
+        },
+        {
+         "letter": "C",
+         "text": "réclame à manger et à boire"
+        },
+        {
+         "letter": "D",
+         "text": "est constipé mais a de l'appétit"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. est apathique et grognon",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Signes du kwashiorkor : anorexie et refus de manger, enfant grognon (apathique), bouffissure du visage, œdèmes, ulcérations et desquamations. Le marasme garde au contraire un appétit conservé.\n\nSource : Pédiatrie Licence 2.pdf, « Malnutrition – diagnostic kwashiorkor / marasme »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__12",
+       "num": "13",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'infection bactérienne précoce du nouveau-né survient entre :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "J0 et J7 de vie"
+        },
+        {
+         "letter": "B",
+         "text": "J7 et J14 de vie"
+        },
+        {
+         "letter": "C",
+         "text": "J14 et J21 de vie"
+        },
+        {
+         "letter": "D",
+         "text": "J21 et J28 de vie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. J0 et J7 de vie",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'infection néonatale bactérienne est dite précoce entre J0 et J7, et tardive entre J8 et J28.\n\nSource : Néonatalogie.pdf, « Infections néonatales bactériennes – définition » ; Pédiatrie Licence 2.pdf",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__13",
+       "num": "14",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "KL, 6 mois, sexe masculin, fièvre à 40 °C. Il tolère sa fièvre s'il a :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "un temps de recoloration cutanée inférieur à 3 secondes"
+        },
+        {
+         "letter": "B",
+         "text": "des extrémités froides"
+        },
+        {
+         "letter": "C",
+         "text": "un teint grisâtre"
+        },
+        {
+         "letter": "D",
+         "text": "un geignement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. un temps de recoloration cutanée inférieur à 3 secondes",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Signes de bonne tolérance de la fièvre : faciès vultueux, cri vigoureux, téguments chauds, TRC immédiat < 3 s, conscience normale. Les extrémités froides, le teint gris ou la pâleur et le geignement traduisent une mauvaise tolérance.\n\nSource : Pédiatrie Licence 2.pdf, « Fièvre de l'enfant – apprécier la tolérance »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__14",
+       "num": "15",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'enfant né à terme eutrophique, allaité et correctement nourri, quadruple son poids de naissance à :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "24 mois"
+        },
+        {
+         "letter": "B",
+         "text": "9 mois"
+        },
+        {
+         "letter": "C",
+         "text": "12 mois"
+        },
+        {
+         "letter": "D",
+         "text": "3 mois"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 24 mois",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le poids de naissance est doublé à 3 mois (au sein), triplé à 12 mois et multiplié par 4 à 2 ans (24 mois).\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Repères de gain de poids » ; Cours de Pédiatrie 2 / pédiatrie cours.pdf, tableau des étapes de la croissance",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__15",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'âge recommandé par l'OMS pour débuter le sevrage du nourrisson est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "24 mois"
+        },
+        {
+         "letter": "B",
+         "text": "18 mois"
+        },
+        {
+         "letter": "C",
+         "text": "16 mois"
+        },
+        {
+         "letter": "D",
+         "text": "6 mois"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 6 mois",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Selon l'OMS : allaitement exclusif de 0 à 6 mois, puis à 6 mois introduction des aliments de complément (début du sevrage), avec poursuite de l'allaitement jusqu'à 24 mois. Remarque : Le cours parle de « sevrage définitif » à 24 mois ; 6 mois correspond au début de la diversification.\n\nSource : Pédiatrie Licence 2.pdf, « Modalités de l'alimentation (OMS) » ; Cours de Santé infantile L1 IDE-SFM, recommandations générales",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'enfant à terme, eutrophique, nourri au sein exclusivement, a comme acquisition à l'âge de 3 mois :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Réflexes archaïques présents"
+        },
+        {
+         "letter": "B",
+         "text": "Dirige son regard dans les deux directions"
+        },
+        {
+         "letter": "C",
+         "text": "A peur de l'étranger"
+        },
+        {
+         "letter": "D",
+         "text": "S'assoit seul"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Dirige son regard dans les deux directions",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Vers 3 mois, l'enfant tient sa tête dans l'axe, ses réflexes archaïques disparaissent, il a un sourire-réponse et suit du regard. La peur de l'étranger apparaît vers 9 mois et la position assise seule vers 6-9 mois.\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Étapes du DPM » ; Pediatrie.pdf, « Évolution du tonus » ; suivi du regard : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__17",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'objectif visé par le pédiatre lorsque la gestante réalise l'échographie du premier trimestre est de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Estimer le risque d'hypoglycémie"
+        },
+        {
+         "letter": "B",
+         "text": "Rechercher une malformation du fœtus"
+        },
+        {
+         "letter": "C",
+         "text": "Vérifier la présence d'une activité cardiaque"
+        },
+        {
+         "letter": "D",
+         "text": "Rechercher un retard de croissance intra-utérin"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Vérifier la présence d'une activité cardiaque",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'échographie du 1er trimestre fait partie du bilan prénatal recommandé. Elle confirme la grossesse évolutive (activité cardiaque) et précise le terme. La recherche des malformations relève surtout de l'échographie du 2e trimestre, et le retard de croissance de celle du 3e.\n\nSource : Pédiatrie Licence 2.pdf, « Bilan prénatal » ; objectifs de chaque échographie : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La fièvre élevée désigne l'élévation de la température corporelle, prise par voie rectale le matin à distance des repas, comprise entre :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "37,5 et 38,5 °C"
+        },
+        {
+         "letter": "B",
+         "text": "38,5 et 40 °C"
+        },
+        {
+         "letter": "C",
+         "text": "40 et 41 °C"
+        },
+        {
+         "letter": "D",
+         "text": "36,5 et 37,5 °C"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 38,5 et 40 °C",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Selon le degré thermique : fièvre modérée de 37,5 à 38,5 °C, fièvre élevée de 38,5 à 40 °C, hyperthermie au-dessus de 40 °C.\n\nSource : Pédiatrie Licence 2.pdf, « Classification de la fièvre »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Cochez, parmi les signes paracliniques suivants, celui qui est un critère de gravité du paludisme grave :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hypocalcémie"
+        },
+        {
+         "letter": "B",
+         "text": "Hypoglycémie"
+        },
+        {
+         "letter": "C",
+         "text": "Thrombopénie sévère"
+        },
+        {
+         "letter": "D",
+         "text": "Hyperleucocytose"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Hypoglycémie",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les critères biologiques du paludisme grave sont : hypoglycémie ≤ 2,2 mmol/l, acidose, anémie sévère (Hb ≤ 5 g/dl), hyperlactatémie, hyperparasitémie et insuffisance rénale.\n\nSource : Pédiatrie Licence 2.pdf, « Paludisme grave – critères biologiques »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La diarrhée aiguë du nourrisson est définie par l'émission, par 24 heures et depuis moins de 14 jours, d'au moins :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "2 selles molles ou liquides"
+        },
+        {
+         "letter": "B",
+         "text": "3 selles molles ou liquides"
+        },
+        {
+         "letter": "C",
+         "text": "4 selles molles ou liquides"
+        },
+        {
+         "letter": "D",
+         "text": "5 selles molles ou liquides"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 3 selles molles ou liquides",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La diarrhée aiguë est l'émission d'au moins 3 selles molles ou liquides par 24 heures, évoluant depuis moins de 14 jours.\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Diarrhée aiguë – définition » ; Les 12 pratiques familiales essentielles (PFE)",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les selles de la diarrhée aiguë provoquée par Shigella sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Pâteuses sans glaires ni sang"
+        },
+        {
+         "letter": "B",
+         "text": "Liquides avec des selles"
+        },
+        {
+         "letter": "C",
+         "text": "Liquides sans selles"
+        },
+        {
+         "letter": "D",
+         "text": "Pâteuses avec des glaires et du sang"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Pâteuses avec des glaires et du sang",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Shigella donne une diarrhée dysentériforme (destruction des villosités) : selles glaireuses, avec du pus et du sang.\n\nSource : Pediatrie.pdf, « Au cours de la diarrhée » (diarrhées dysentériformes : shigellose…)",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le principal germe de la diarrhée aiguë virale du nourrisson est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Coronavirus"
+        },
+        {
+         "letter": "B",
+         "text": "Entérovirus"
+        },
+        {
+         "letter": "C",
+         "text": "Rhinovirus"
+        },
+        {
+         "letter": "D",
+         "text": "Rotavirus"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Rotavirus",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Les causes de la diarrhée aiguë du nourrisson sont variées, mais dominées par le Rotavirus.\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, ED « Diarrhée aiguë et déshydratation – intérêt du cours »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les avantages des soins mère-kangourou listés ci-après se trouve un intrus. Cochez l'intrus.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Favorise la prise de poids du nouveau-né"
+        },
+        {
+         "letter": "B",
+         "text": "Favorise l'équilibre thermique du nouveau-né"
+        },
+        {
+         "letter": "C",
+         "text": "Augmente la charge de travail du personnel"
+        },
+        {
+         "letter": "D",
+         "text": "Renforce la confiance de la mère"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Augmente la charge de travail du personnel",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les soins mère kangourou maintiennent la température, aident à l'allaitement et à la prise de poids, et renforcent le lien et la confiance de la mère. Ils allègent plutôt la charge du personnel (la mère devient la principale dispensatrice de soins).\n\nSource : Néonatalogie.pdf, « Méthode des soins mère kangourou – avantages »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les éléments suivants sont les composantes de la méthode de soins mère-kangourou, sauf un. Cochez l'intrus.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Aider bébé à respirer"
+        },
+        {
+         "letter": "B",
+         "text": "Allaitement"
+        },
+        {
+         "letter": "C",
+         "text": "Suivi"
+        },
+        {
+         "letter": "D",
+         "text": "Contact peau à peau"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Aider bébé à respirer",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Composantes des SMK : contact peau à peau, allaitement exclusif au sein, suivi (sortie et suivi jusqu'à au moins 2500 g). « Aider bébé à respirer » relève de la réanimation néonatale.\n\nSource : Néonatalogie.pdf, « SMK – définition »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le débit d'oxygène du nouveau-né hospitalisé pour détresse respiratoire est compris entre :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1 et 2 L/min"
+        },
+        {
+         "letter": "B",
+         "text": "1 et 3 L/min"
+        },
+        {
+         "letter": "C",
+         "text": "0,5 et 1 L/min"
+        },
+        {
+         "letter": "D",
+         "text": "1 et 1,5 L/min"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 0,5 et 1 L/min",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Pour l'oxygène par masque ou lunettes, le cours indique un débit de 0,5 L/min chez le prématuré et 1 L/min chez le nouveau-né à terme, donc entre 0,5 et 1 L/min.\n\nSource : Néonatalogie.pdf, « Réanimation – oxygénothérapie »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le principal germe responsable de la bronchiolite aiguë du nourrisson est le :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Virus respiratoire syncytial (VRS)"
+        },
+        {
+         "letter": "B",
+         "text": "Rhinovirus"
+        },
+        {
+         "letter": "C",
+         "text": "Coronavirus"
+        },
+        {
+         "letter": "D",
+         "text": "Paramyxovirus"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Virus respiratoire syncytial (VRS)",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La bronchiolite (1 mois-2 ans) a pour étiologie à craindre le virus respiratoire syncytial (VRS).\n\nSource : Pédiatrie Licence 2.pdf, « Principales IRA basses – bronchiolite »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la maladie hémorragique du nouveau-né :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La race blanche est un facteur favorisant"
+        },
+        {
+         "letter": "B",
+         "text": "L'allaitement maternel est un facteur favorisant"
+        },
+        {
+         "letter": "C",
+         "text": "L'accouchement facile est un facteur favorisant"
+        },
+        {
+         "letter": "D",
+         "text": "Le lait artificiel est un facteur favorisant"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. L'allaitement maternel est un facteur favorisant",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Facteurs favorisants de la maladie hémorragique : race NOIRE, prématurité, J2-J3, traumatisme, accouchement DYSTOCIQUE, ALLAITEMENT EXCLUSIF (lait maternel pauvre en vitamine K), absence de vitamine K1.\n\nSource : Pédiatrie Licence 2.pdf, « Maladie hémorragique – facteurs favorisants »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__28",
+       "num": "29",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une femme rhésus positif accouchant d'un enfant rhésus négatif reçoit du sérum anti-D en intramusculaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : le sérum anti-D est injecté à la mère RHÉSUS NÉGATIF qui accouche d'un enfant RHÉSUS POSITIF (dans les 48-72 h), pour éviter l'allo-immunisation.\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Soins du nouveau-né normal – soins délégués » ; Pédiatrie Licence 2.pdf, ictère ; Néonatalogie.pdf",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__29",
+       "num": "30",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nourrisson de 3 mois est capable de tenir sa tête dans l'axe.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : à 3 mois, l'enfant tient la tête dans l'axe.\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Étapes du DPM » ; Pediatrie.pdf",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__30",
+       "num": "31",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "À 9 mois, le nourrisson est capable de faire « bravo » et « au revoir ».",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : à 9 mois, l'enfant marche à 4 pattes, a la pince pouce-index, a peur de l'étranger et fait « bravo » et « au revoir ».\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Étapes du DPM »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__31",
+       "num": "32",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'échographie du premier trimestre permet de savoir si le fœtus sera trisomique ou pas.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : l'échographie du 1er trimestre (clarté nucale) évalue un RISQUE de trisomie, mais ne permet pas d'en être sûr. Seul le caryotype fœtal confirme le diagnostic.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__32",
+       "num": "33",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nouveau-né macrosome de sexe masculin a un poids en dessous de 4000 g.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : le macrosome a un poids de naissance ≥ 4000 g.\n\nSource : Pédiatrie Licence 2.pdf, « Nouveau-né de mère diabétique – mensurations »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__33",
+       "num": "34",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La principale complication respiratoire du prématuré est la maladie des membranes hyalines.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : la maladie des membranes hyalines est « la maladie du prématuré essentiellement » et sa première cause de détresse respiratoire.\n\nSource : Néonatalogie.pdf, « V.5.1 Maladie des membranes hyalines » ; Pédiatrie Licence 2.pdf",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__34",
+       "num": "35",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le prématuré avec signes de danger est pris en charge en unité de néonatologie.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : un nouveau-né avec signes de danger relève d'un transfert d'urgence vers l'hôpital de référence (néonatologie) après les premiers soins.\n\nSource : Livret de tableaux PCIMNE 0-5 ans (2021), bande rose ; Pediatrie.pdf, « Surveillance du prématuré »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__35",
+       "num": "36",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les nouveau-nés à terme eutrophiques présentent dans 30 à 40 % des cas un ictère en période néonatale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : l'ictère touche 30 à 40 % des nouveau-nés à terme et 100 % des prématurés.\n\nSource : Pédiatrie Licence 2.pdf, « Ictère du nouveau-né – fréquence »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__36",
+       "num": "37",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour traiter le paludisme grave, je prescris 9 doses de 2,4 mg/kg d'artésunate injectable en intraveineuse directe.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Faux ».\n\nSource : Pédiatrie Licence 2.pdf, « Paludisme – rôles de soins IDE, hôpital de référence »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__37",
+       "num": "38",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le principal germe de l'infection materno-fœtale est le streptocoque B.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : l'infection materno-fœtale est due principalement au streptocoque B, puis à E. coli et Listeria.\n\nSource : Néonatalogie.pdf, « Germes » ; Pédiatrie Licence 2.pdf",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__38",
+       "num": "39",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nourrisson de 9 mois manifeste de la peur devant un visage non familier.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : vers 9 mois, l'enfant a peur de l'étranger.\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Étapes du DPM »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__39",
+       "num": "40",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La déshydratation est une complication fréquente du marasme sévère.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : la déshydratation fait partie des principaux problèmes de la malnutrition (50 à 80 % de mortalité), avec l'hypoglycémie et l'infection.\n\nSource : Pédiatrie Licence 2.pdf, « Malnutrition – problèmes »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__40",
+       "num": "41",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'association ceftriaxone + aminoside est l'antibiothérapie probabiliste de première intention pour traiter l'infection bactérienne néonatale précoce.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : en première intention, on donne amoxicilline (ou ampicilline) + gentamicine (aminoside) en pré-transfert. Néonatalogie.pdf propose ampicilline + céfotaxime + gentamicine. La ceftriaxone n'est pas le premier choix.\n\nSource : Livret de tableaux PCIMNE 0-5 ans (2021), « Donner la dose d'antibiotiques pré-transfert » ; Néonatalogie.pdf",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__41",
+       "num": "42",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'infection bactérienne néonatale précoce est favorisée par les gestes septiques de l'agent de santé lors de l'accouchement.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : les soins septiques de l'agent de santé font partie des facteurs favorisants de l'infection néonatale. Remarque : Le cours rattache surtout les « gestes septiques » à l'infection TARDIVE (post-natale) ; l'infection précoce passe par voie hématogène ou par voie basse.\n\nSource : Pédiatrie Licence 2.pdf, « Infection néonatale – facteurs favorisants (agent de santé) »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__42",
+       "num": "43",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour reconnaître le paludisme simple au centre de santé urbain, je réalise au lit du client une goutte épaisse et un frottis sanguin.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : la goutte épaisse et le frottis se font AU LABORATOIRE ; au lit du malade, on réalise le test de diagnostic rapide (TDR).\n\nSource : Pédiatrie Licence 2.pdf, « Paludisme – confirmation du diagnostic »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__43",
+       "num": "44",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nouveau-né normal a un temps de recoloration cutanée de 5 secondes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : le TRC normal est inférieur à 3 secondes ; au-delà, c'est un signe de gravité ou de mauvaise tolérance.\n\nSource : Pédiatrie Licence 2.pdf, « Fièvre – tolérance » ; Néonatalogie.pdf, « Signes de gravité »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__44",
+       "num": "45",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nourrisson présentant une déshydratation modérée est capable de boire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : en cas de signes évidents (déshydratation modérée), l'enfant est agité et boit avec avidité. Il devient incapable de boire seulement en cas de déshydratation sévère.\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, tableau I « Signes de déshydratation »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__45",
+       "num": "46",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nouveau-né normal a une coloration rouge brun.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ».\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Examiner le nouveau-né – coloration rose » ; Cours de Santé infantile L1 IDE-SFM, « Appréciation du nouveau-né »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__46",
+       "num": "47",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'urée et la créatinine du sang font partie du bilan prénatal recommandé.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : le bilan prénatal recommandé comprend glycémie, NFS, groupe ABO/Rhésus, électrophorèse de l'hémoglobine, sérologies (toxoplasmose, rubéole, syphilis, VIH) et 3 échographies. L'urée et la créatinine n'y figurent pas.\n\nSource : Pédiatrie Licence 2.pdf, « Bilan prénatal » ; Cours de Pédiatrie 2 / pédiatrie cours.pdf",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__47",
+       "num": "48",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nourrisson de 2 mois allaité au sein émettant 3 à 4 selles molles par 24 heures est atteint de diarrhée.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : les enfants nourris au sein ont souvent des selles molles, ce qui n'est pas une diarrhée.\n\nSource : Les 12 pratiques familiales essentielles (PFE), « La diarrhée – attention » ; Cours de Pédiatrie 2 / pédiatrie cours.pdf",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__48",
+       "num": "49",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le plan A de traitement de la diarrhée est indiqué pour la diarrhée sans signes de déshydratation.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : le plan A, à domicile (SRO après chaque selle, zinc, alimentation), traite la diarrhée sans signes de déshydratation.\n\nSource : Pediatrie.pdf, « Plan A »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__49",
+       "num": "50",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lors de la diarrhée aiguë, le nourrisson de 3 mois reçoit, en plus de la réhydratation et de l'alimentation, un comprimé de zinc dosé à 20 mg par jour pendant 10 jours.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : de 0 à 6 mois, le zinc se donne à ½ comprimé par jour (10 mg) ; 1 comprimé (20 mg) à partir de 6 mois, pendant 10 à 14 jours.\n\nSource : Pediatrie.pdf, « Plan A – 2e règle »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__50",
+       "num": "51",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nourrisson souffrant d'une diarrhée avec signes évidents de déshydratation est traité pendant les 4 premières heures au centre de santé.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : en cas de signes évidents de déshydratation (plan B), on donne 75 ml/kg de SRO pendant les 4 premières heures au centre de santé, puis on réévalue.\n\nSource : Pediatrie.pdf, « Plan B » ; Livret de tableaux PCIMNE 0-5 ans (2021)",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__51",
+       "num": "52",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au cours de la diarrhée aiguë, le tube digestif conserve 50 à 70 % de sa capacité d'absorption et de digestion des nutriments.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : pendant la diarrhée, l'intestin garde une bonne partie de sa capacité d'absorption. C'est la raison de la règle « continuer l'alimentation » des plans A et B.\n\nSource : Règle « continuer l'alimentation » : Pediatrie.pdf, Livret de tableaux PCIMNE 0-5 ans (2021) ; pourcentage : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__52",
+       "num": "53",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nouveau-né prématuré de 36 semaines d'aménorrhée, stable, est pris en charge au centre de santé rural.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ». Un prématuré proche du terme (36 SA), stable et sans signes de danger, peut être suivi au centre de santé, par exemple en soins mère kangourou. Remarque : Néonatalogie.pdf demande de référer tout bébé de moins de 2000 g vers une structure avec SMK.\n\nSource : Néonatalogie.pdf, « Critères d'éligibilité aux SMK » ; Livret de tableaux PCIMNE 0-5 ans (2021)",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j1-idesfm__53",
+       "num": "54",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour confirmer le diagnostic de l'avitaminose K1 chez le nouveau-né qui saigne, je collabore avec le médecin pour réaliser un groupe sanguin ABO/Rhésus.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : le diagnostic de l'avitaminose K repose sur le temps de Quick (TP-TCK) et le dosage des facteurs II, VII, IX, X. Le groupe ABO/Rhésus sert surtout en vue d'une transfusion, pas au diagnostic.\n\nSource : Pédiatrie Licence 2.pdf, « Maladie hémorragique – collaborer à la réalisation du bilan »",
+       "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
+       "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
