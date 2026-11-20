@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 125317265,
- "sha256": "06f7dc72f073cb5642d852f7d1b354171bbd6f3f4fda93b5a0d19573ee303da7",
+ "taille": 125376143,
+ "sha256": "0e6aaf45ea89e671c145ffb7e88bbe2fb97a1d46f22c5d4828ab6e4ab438584f",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -70,8 +70,8 @@
   {
    "type": "bloc",
    "id": "app-js",
-   "octets": 829772,
-   "sha256": "01c227c296cac0739d82fbeb2f970b183e3a5b79dcfa422012c523a35024c4bb",
+   "octets": 844055,
+   "sha256": "b0f1bf6a4a74c85e6fffc77f81cdfcdc97f25f36c7aecfecaf07843f37a5d665",
    "fichier": "engine/app-js.js",
    "codage": "brut"
   },
@@ -16574,6 +16574,32 @@
   },
   {
    "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-revisions-gyneco\">",
+   "sha256": "3edcb0ee8c75cd16966bc647f5bc6524b9d71966c214686036b274874eb2622d"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-revisions-gyneco",
+   "octets": 279739,
+   "sha256": "47fb01235e6085172b706956e01ad0dd5b778e798cbc6d6033cf06ced5e37d1e",
+   "fichier": "revisions/gyneco.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-revisions-xprepade\">",
+   "sha256": "36222af1079d0d6302db463861ffe2a1dc48011c4d3f25e347b92365ef36a6d4"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-revisions-xprepade",
+   "octets": 1832262,
+   "sha256": "c1865a93beaae9afe684def31c28b9ca8096ee25494cda69d67c5c71b822df3b",
+   "fichier": "revisions/xprepade.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
    "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-plusapp\">",
    "sha256": "20ebafba12117a4425763ce7ccec7b3173528f4830c4a922ae931b080795a7ff"
   },
@@ -16593,8 +16619,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusnat-xmvkq4zed",
-   "octets": 2548172,
-   "sha256": "6ae601c904e52838968a4794c413648e82c4c94d42840ed51699f80b9ecb955e",
+   "octets": 2570555,
+   "sha256": "12cb21df24e1cfe57e4e767d26f6bd3841d9d6c46b3049d17ff1371009722315",
    "fichier": "plus-applis/xmvkq4zed-natif.json",
    "codage": "brut"
   },
@@ -16619,8 +16645,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--s3-2026",
-   "octets": 2865026,
-   "sha256": "bae7ec96728355c64f2b3657b96a5519753697d549d02fb4bc05cb08dcee0827",
+   "octets": 2882994,
+   "sha256": "5a2dce30d4a58a4eee8f504610f2561fa29a14d8ad86a8663c837cadb7bec5c1",
    "fichier": "plus-applis/xmvkq4zed/s3-2026.json",
    "codage": "brut"
   },
@@ -16788,8 +16814,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--ze-sj-prepa-sp-j1-idesfm",
-   "octets": 80117,
-   "sha256": "670296d16f47c9a9fa92dbb03bdfa858a1bc42b901576828aa4a1894c6e639ed",
+   "octets": 84361,
+   "sha256": "2712beceb025e90bd7b5b81a6f02aaf4fd7767afdd1c45bd77e7d5ca7d97fa22",
    "fichier": "plus-applis/xmvkq4zed/ze-sj-prepa-sp-j1-idesfm.json",
    "codage": "brut"
   },
@@ -16804,32 +16830,6 @@
    "octets": 68047,
    "sha256": "fefc82ae6eb2f1fe00ae3e4a3119658bb3451dbc7b5245646067ea96d4dbe606",
    "fichier": "plus-applis/xmvkq4zed/zf-sj-prepa-ped-j1-idesfm.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-revisions-gyneco\">",
-   "sha256": "3edcb0ee8c75cd16966bc647f5bc6524b9d71966c214686036b274874eb2622d"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-revisions-gyneco",
-   "octets": 279739,
-   "sha256": "47fb01235e6085172b706956e01ad0dd5b778e798cbc6d6033cf06ced5e37d1e",
-   "fichier": "revisions/gyneco.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-revisions-xprepade\">",
-   "sha256": "36222af1079d0d6302db463861ffe2a1dc48011c4d3f25e347b92365ef36a6d4"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-revisions-xprepade",
-   "octets": 1832262,
-   "sha256": "c1865a93beaae9afe684def31c28b9ca8096ee25494cda69d67c5c71b822df3b",
-   "fichier": "revisions/xprepade.json",
    "codage": "brut"
   },
   {

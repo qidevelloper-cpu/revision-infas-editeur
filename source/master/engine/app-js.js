@@ -2479,7 +2479,7 @@ const RIC={
   try{await post('reports',[row])}
   catch(e){if(!/^4\d\d /.test(e.message)||!/photo|eleve|column/i.test(e.message))throw e;
    const r2=Object.assign({},row);if(r2.photo)r2.message=(r2.message+'\n[📷 photo : '+r2.photo+']').slice(0,1100);if(r2.eleve)r2.message=(r2.message+'\n['+r2.eleve+']').slice(0,1200);delete r2.photo;delete r2.eleve;await post('reports',[r2])}}
- RIC.report=function(qid){const q=QI[qid];if(!q)return;if((RIC.cfg.nosig||{})[qid]){toast('Cette question a déjà été vérifiée par l’enseignant ✅');return}let o=$('#rirep');if(o)o.remove();o=document.createElement('div');o.id='rirep';o.className='pmod';let photo=null,b64=null;
+ RIC.report=function(qid){const q=QI[qid];if(!q)return;if((window.riNosig?riNosig(qid):(RIC.cfg.nosig||{})[qid])){toast('Cette question a déjà été vérifiée par l’enseignant ✅');return}let o=$('#rirep');if(o)o.remove();o=document.createElement('div');o.id='rirep';o.className='pmod';let photo=null,b64=null;
   const m=(typeof matOf==='function'&&matOf(q.m))||{};
   o.innerHTML=`<div class="pbox"><h3>⚑ Signaler une erreur</h3><div class="muted small" style="margin-bottom:8px"><b>${esc(m.short||m.title||q.m)}</b> · ${esc(q.q).slice(0,240)}</div>
    <textarea class="tin" id="rirepT" rows="4" maxlength="1000" placeholder="Explique l’erreur : mauvaise réponse, faute, image manquante… Tu peux proposer la bonne réponse."></textarea>
@@ -2716,7 +2716,7 @@ ${auto?`    <div class="ri-envoi"><div>Tu paies <b>${fcfa(P.prix_xof)}</b> direc
   if(VIEW==='fil'&&FILS){const lockEx=!RIC.can('fonction:explications');
    $$('.filq',app).forEach(card=>{const fb=$('.fb',card);if(!fb)return;
     if(lockEx)$$('.ex,.xbox',card).forEach(x=>{if(x.classList.contains('ri-lockx'))return;x.innerHTML='🔒 <b>Explication réservée aux élèves Premium.</b> <a href="#" onclick="RIC.paywall(\'fonction:explications\',\'Explications · Premium\');return false">Voir l’offre</a>';x.classList.add('ri-lockx')});
-    if(!$('.ri-rep',card)){const qid=card.id.replace(/^fq-/,'');if((RIC.cfg.nosig||{})[qid])return;card.insertAdjacentHTML('beforeend',`<button class="ri-rep" onclick="RIC.report('${jsq(qid)}')">⚑ Signaler une erreur dans cette question</button>`)}})}}
+    if(!$('.ri-rep',card)){const qid=card.id.replace(/^fq-/,'');if((window.riNosig?riNosig(qid):(RIC.cfg.nosig||{})[qid]))return;card.insertAdjacentHTML('beforeend',`<button class="ri-rep" onclick="RIC.report('${jsq(qid)}')">⚑ Signaler une erreur dans cette question</button>`)}})}}
  if(typeof render==='function'){const _render=render;render=function(){const r=_render.apply(this,arguments);try{decorate()}catch(e){console.warn('RI cloud',e)}return r};}
 
  /* ---------- styles ---------- */
@@ -3264,7 +3264,8 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
   if(d.deja){LS.set(PK,'');C={code:d.code,mid:d.mid,k};message(T('cp.deja.h','✅ Compo déjà effectuée'),(d.titre?'<b>'+esc(d.titre)+'</b><br>':'')+T('cp.deja','Tu as déjà effectué cette composition sur ce téléphone.')+ouHTML(d.mid,k));return}
   const ids=L[k].filter(id=>QI[id]&&!(typeof isNC==='function'&&isNC(QI[id])));
   const dec=Date.parse(d.maintenant)?Date.parse(d.maintenant)-Date.now():0;
-  C={code:d.code,titre:d.titre||'',mid:d.mid,k,mode:d.mode||'gratuit',chrono_min:d.chrono_min||0,fin:d.date_limite?Date.parse(d.date_limite)-dec:0,ids,sujet:sujTitre(d.mid,k)};
+  C={code:d.code,titre:d.titre||'',mid:d.mid,k,mode:d.mode||'gratuit',chrono_min:d.chrono_min||0,fin:d.date_limite?Date.parse(d.date_limite)-dec:0,ids,sujet:sujTitre(d.mid,k),
+   v2:'recompo' in d,recompo:!!d.recompo,essais:+d.essais||0,meilleure:d.meilleure!=null?+d.meilleure:null};
   presenter()}
  function presenter(){const m=MATI[C.mid],nom=String(LS.get(NK,'')||S.name||'').trim();
   const mode=C.mode==='gratuit'?T('cp.m.g','🎁 Composition gratuite : réponses et explications ouvertes'):C.mode==='reponses'?T('cp.m.r','🎁 Réponses gratuites · explications réservées aux élèves Premium'):'';
@@ -3273,7 +3274,8 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
    <div class="small" style="margin:10px 0;line-height:1.6">📋 ${T('cp.nq','{n} questions',{n:C.ids.length})}${C.chrono_min?'<br>⏱ '+T('cp.chr','{n} minutes : la compo se termine automatiquement à la fin du temps',{n:C.chrono_min}):''}${C.fin?'<br>📅 '+T('cp.dl','DATE LIMITE de la composition : {d}',{d:esc(fmtDate(C.fin))}):''}${mode?'<br>'+mode:''}</div>
    <label class="small" style="font-weight:700" for="cpNom">${T('cp.nom','Ton nom et prénom')}</label>
    <input class="tin" id="cpNom" maxlength="80" autocomplete="name" value="${esc(nom)}" placeholder="${esc(Tx('cp.nom.ph','Ex. Koné Awa'))}" style="width:100%;margin:6px 0 4px">
-   <div class="muted small" style="margin-bottom:10px">${T('cp.info','Ta note sera enregistrée avec ce nom. Une seule compo par téléphone.')}</div>
+   ${C.recompo&&C.essais?`<div class="fb good" style="margin:0 0 8px;padding:8px 10px"><div class="small">${T('cp.deja.n','🔁 Tu as déjà composé {n} fois{m}.',{n:C.essais,m:C.meilleure!=null?Tx('cp.deja.m',' · meilleure note {x}/20',{x:String(C.meilleure).replace('.',',')}):''})}</div></div>`:''}
+   <div class="muted small" style="margin-bottom:10px">${C.recompo?T('cp.info.re','Ta note sera enregistrée avec ce nom. Tu peux recomposer autant de fois que tu veux : chaque copie est enregistrée.'):T('cp.info','Ta note sera enregistrée avec ce nom. Une seule compo par téléphone.')}</div>
    <button class="btn coral" data-cp="go" style="width:100%">${T('cp.go','▶ Commencer la composition')}</button>${autresBtn()}`);
   lier(o);const inp=$('#cpNom',o);$('[data-cp="go"]',o).onclick=()=>{const v=String(inp.value||'').replace(/\s+/g,' ').trim();if(v.length<2){toast(Tx('cp.nom.vide','Écris ton nom pour commencer'));inp.focus();return}lancer(v)}}
  function lancer(nom){C.nom=nom;LS.set(NK,nom);LS.set(PK,'');if(C.fin&&C.fin<Date.now()){message(T('cp.fin.h','⏰ Composition terminée'),T('cp.fin','Cette composition est close : il n’est plus possible de composer.'));C=null;return}
@@ -3293,11 +3295,12 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
  let occupe=0,encore=0;
  async function vider(){if(occupe){encore=1;return}if(!file().length)return;occupe=1;try{do{encore=0;const L=file(),faits=new Set();
    for(const x of L){const moi=C&&C.envoi&&C.envoi.p_code===x.p_code;
-    try{const r=await rpc('compo_envoyer',x);faits.add(x.p_code+'|'+x.p_appareil);if(moi)C.etat=r&&r.ok?(r.deja?'deja':'ok'):(r&&r.raison==='terminee'?'terminee':'refus')}
+    try{const r=await rpc(x.p_cle?'compo_envoyer_copie':'compo_envoyer',x);faits.add(x.p_code+'|'+x.p_appareil+'|'+(x.p_cle||''));if(moi)C.etat=r&&r.ok?(r.deja?'deja':'ok'):(r&&r.raison==='terminee'?'terminee':'refus')}
     catch(e){if(moi)C.etat='err'}}
-   if(faits.size)LS.set(QK,file().filter(x=>!faits.has(x.p_code+'|'+x.p_appareil)))}while(encore&&file().length)}finally{occupe=0}maj()}
+   if(faits.size)LS.set(QK,file().filter(x=>!faits.has(x.p_code+'|'+x.p_appareil+'|'+(x.p_cle||''))))}while(encore&&file().length)}finally{occupe=0}maj()}
  function envoyer(){const s=nb();const x={p_code:C.code,p_appareil:RIC.device(),p_nom:C.nom,p_bonnes:s.ok,p_total:Math.max(1,s.n),p_duree_s:Math.round((Date.now()-C.t0)/1000)};
-  C.envoi=x;C.etat='envoi';C.note=Math.round(s.ok/Math.max(1,s.n)*200)/10;LS.set(QK,file().filter(y=>y.p_code!==x.p_code).concat([x]));vider()}
+  if(C.v2)x.p_cle=Date.now().toString(36)+Math.random().toString(36).slice(2,8);
+  C.envoi=x;C.etat='envoi';C.note=Math.round(s.ok/Math.max(1,s.n)*200)/10;LS.set(QK,file().filter(y=>C.recompo?y.p_cle!==x.p_cle:y.p_code!==x.p_code).concat([x]));vider()}
  function maj(){const b=document.getElementById('filBilan');if(b&&enFil())b.innerHTML=filBilanHTML()}
  window.riCompoRenvoyer=()=>{if(C)C.etat='envoi';maj();vider()};
  window.riCompoRemettre=()=>{if(!enFil()||FILS.fin)return;const o=$('#riremise');if(o)o.remove();FILS.expire=true;clearInterval(FILT);render()};
@@ -3311,7 +3314,12 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
    :e==='refus'?`<div class="fb bad" style="margin-top:10px"><div class="h">${T('cp.refus','⚠️ La note n’a pas pu être enregistrée')}</div></div>`
    :`<div class="muted small" style="margin-top:10px">${T('cp.envoi','⏳ Enregistrement de ta note…')}</div>`;
   return `<div class="card sf center"><h3>${T('cp.fini','🏁 Composition terminée')}</h3><div class="muted small">${esc(C.nom)}</div><div style="font-size:28px;font-weight:800">${sc}/20</div><div class="muted">${T('fil.score','{ok} bonne(s) réponse(s) sur {n}',{ok:s.ok,n:s.n})}</div>${st}
-   <button class="btn coral" style="margin-top:12px;width:100%" onclick="riCompoAutres()">${T('cp.autres','📚 Voir d’autres sujets')}</button></div>`};
+   ${C.recompo&&!(C.fin&&C.fin<Date.now())?`<button class="btn" style="margin-top:12px;width:100%" onclick="riCompoRecomposer()">${T('cp.recomp','🔄 Recomposer ce sujet')}</button>`:''}
+   <button class="btn coral" style="margin-top:${C.recompo?8:12}px;width:100%" onclick="riCompoAutres()">${T('cp.autres','📚 Voir d’autres sujets')}</button></div>`};
+ /* compo « recomposer plusieurs fois » : nouvelle copie, même nom, même chrono ; la copie précédente reste enregistrée (ou en file d'envoi) */
+ window.riCompoRecomposer=function(){if(!C||!C.recompo||!enFil()||!FILS.fin)return;const nom=C.nom;
+  if(C.envoi&&C.note!=null&&(C.meilleure==null||C.note>C.meilleure))C.meilleure=C.note;C.essais=(C.essais||0)+1;
+  C.envoi=null;C.etat=null;C.lance=false;clearInterval(FILT);FILS=null;lancer(nom)};
  window.riCompoDemanderRemise=function(){let o=$('#riremise');if(o)o.remove();o=document.createElement('div');o.id='riremise';o.className='pmod';const s=FILS?nb():{n:0};
   const r=FILS?Object.keys(FILS.ans).filter(id=>!FILS.ans[id].pending).length:0;
   o.innerHTML=`<div class="pbox"><h3>${T('cp.rq.h','🏁 Terminer la compo ?')}</h3><div class="muted small">${T('cp.rq','Tu as répondu à {r} question(s) sur {n}. Ensuite, tu ne pourras plus répondre.',{r,n:s.n})}</div>
@@ -4149,5 +4157,108 @@ function riXtxt(s){return String(s==null?'':s).replace(/\[\/?(?:b|i|u|g|tg|p)\]/
  @keyframes riFlash{0%,100%{box-shadow:0 0 0 0 rgba(108,59,245,0)}30%{box-shadow:0 0 0 8px rgba(108,59,245,.45)}60%{box-shadow:0 0 0 3px rgba(108,59,245,.25)}}
  .ri-flash{animation:riFlash 1.6s ease 2}`;document.head.appendChild(st)}
  const C=BLK['home.commu'];if(C){const h=C.html,o=C.oneui;C.html=function(){return riTelechHTML(0)+h.apply(this,arguments)};if(o)C.oneui=function(){return riTelechHTML(1)+o.apply(this,arguments)}}
+})();
+/* ---------- NOTES VOCALES SOUS LES QUESTIONS (après la réponse, élèves Premium) ----------
+   Une question peut avoir une note enregistrée : champ « au » de sa correction (adresse publique du stockage Supabase
+   « notes-vocales », publiée depuis le tableau de bord, ou proposée par un correcteur puis validée par l'administrateur).
+   Sinon, la voix du téléphone lit l'explication écrite (speechSynthesis, en français, sans données ni connexion).
+   Gratuit par défaut ; tableau de bord › Contenu et accès › « Écoute des explications » : Premium (les autres voient le
+   bouton avec 🔒, qui ouvre l'offre Premium) ou Masqué (pas de bouton). Studio / éditeur : toujours visible. */
+(function(){
+ const PFX=()=>String(RIC.url||'')+'/storage/v1/object/public/notes-vocales/';
+ const auOk=u=>typeof u==='string'&&!!RIC.url&&u.startsWith(PFX())&&!u.includes('..')&&/^[A-Za-z0-9._\/@%+-]+$/.test(u.slice(PFX().length));
+ const ttsOk=()=>typeof window.speechSynthesis!=='undefined'&&typeof window.SpeechSynthesisUtterance!=='undefined';
+ /* accès : GRATUIT tant que le tableau de bord n'a pas de règle « fonction:notes-vocales » ; Premium ou Masqué si Daniel le choisit */
+ const regle=()=>{const R=(RIC.cfg&&RIC.cfg.regles)||{};return R['fonction:notes-vocales']?RIC.effective('fonction:notes-vocales'):'gratuit'};
+ const droit=()=>{if(RIC.off())return true;const e=regle();if(e==='gratuit')return true;if(e==='masque')return false;return RIC.isPremium()};
+ const cache=()=>!RIC.off()&&regle()==='masque';
+ function texte(q){let x=typeof riXtxt==='function'?riXtxt(q.x||''):String(q.x||'');
+  x=x.split('\n').filter(l=>!/^\s*(Sources?|Source externe[^:]*)\s*:/i.test(l)).join('\n');
+  return x.replace(/‰/g,' pour mille').replace(/\s+/g,' ').trim()}
+ let cur=null,txt='',pos=0;
+ const VIT=[1,1.25,1.5,2];
+ const vit=()=>{let v=1;try{v=+localStorage.getItem('ri_vox_rate')||1}catch(e){}return VIT.includes(v)?v:1};
+ const vitTxt=v=>String(v).replace('.',',')+'×';
+ function parler(qid,depuis){const u=new SpeechSynthesisUtterance(txt.slice(depuis));pos=depuis;u.lang='fr-FR';const v=voix();if(v)u.voice=v;u.rate=.95*vit();
+  u.onboundary=e=>{if(cur===qid&&e.charIndex!=null)pos=depuis+e.charIndex};
+  u.onend=u.onerror=()=>{if(cur===qid&&u.__fin!==1){cur=null;maj()}};cur=qid;maj();speechSynthesis.speak(u);return u}
+ let U=null;
+ function voix(){let V=[];try{V=speechSynthesis.getVoices()||[]}catch(e){}
+  return V.find(v=>/^fr[-_]FR/i.test(v.lang)&&/google|natural|neural|premium|enhanced/i.test(v.name))||V.find(v=>/^fr[-_]FR/i.test(v.lang))||V.find(v=>/^fr/i.test(v.lang))||null}
+ function maj(){const v=vit();document.querySelectorAll('.ri-vox-r').forEach(b=>{const on=+b.dataset.v===v;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});
+  document.querySelectorAll('audio.ri-vox-au').forEach(a=>{try{a.playbackRate=v}catch(e){}});
+  document.querySelectorAll('.ri-vox-tts').forEach(b=>{const on=b.dataset.q===cur;b.classList.toggle('on',on);
+  b.innerHTML=on?'⏹️ '+esc(Tx('vox.stop','Arrêter la lecture')):'🔊 '+esc(Tx('vox.lire','Écouter l’explication'))})}
+ window.riVox={
+  lire(qid){if(!ttsOk()||!droit())return;if(cur===qid){this.stop();return}const q=QI[qid];if(!q)return;const t=texte(q);if(!t)return;
+   try{speechSynthesis.cancel()}catch(e){}document.querySelectorAll('audio.ri-vox-au').forEach(a=>{try{a.pause()}catch(e){}});
+   txt=t;U=parler(qid,0)},
+  stop(){if(U)U.__fin=1;try{if(ttsOk())speechSynthesis.cancel()}catch(e){}cur=null;maj()},
+  /* vitesse 1× 1,25× 1,5× 2× : mémorisée ; la voix du téléphone reprend au mot en cours avec la nouvelle vitesse */
+  vitesse(v){if(!VIT.includes(+v))return;try{localStorage.setItem('ri_vox_rate',String(+v))}catch(e){}
+   if(cur&&ttsOk()){const q=cur;if(U)U.__fin=1;try{speechSynthesis.cancel()}catch(e){}const d=Math.max(0,txt.lastIndexOf(' ',pos)+1);U=parler(q,d>=txt.length?0:d)}maj()},
+  vit,
+  verrou(){RIC.paywall('fonction:notes-vocales',Tx('vox.prem','Notes vocales · Premium'))},
+  bloc,auOk};
+ function bloc(qid){const q=QI[qid];if(!q||cache())return'';const rec=auOk(q.au),tts=ttsOk()&&!!texte(q);if(!rec&&!tts)return'';
+  if(!droit())return`<div class="ri-vox lock"><button type="button" class="ri-vox-b" onclick="riVox.verrou()">🔊 ${esc(Tx('vox.lire','Écouter l’explication'))} <span class="ri-vox-p">🔒 Premium</span></button></div>`;
+  const V=`<div class="ri-vox-v" role="group" aria-label="${esc(Tx('vox.vit','Vitesse'))}"><span>${esc(Tx('vox.vit','Vitesse'))}</span>${VIT.map(v=>`<button type="button" class="ri-vox-r" data-v="${v}" onclick="riVox.vitesse(${v})">${vitTxt(v)}</button>`).join('')}</div>`;
+  if(rec)return`<div class="ri-vox"><div class="ri-vox-h">🎙️ ${esc(Tx('vox.note','Note vocale de l’enseignant'))}</div><audio class="ri-vox-au" controls preload="none" src="${esc(q.au)}" onplay="riVox.stop();this.playbackRate=riVox.vit()" onloadedmetadata="this.playbackRate=riVox.vit()"></audio>${V}</div>`;
+  return`<div class="ri-vox"><button type="button" class="ri-vox-b ri-vox-tts" data-q="${esc(qid)}" onclick="riVox.lire('${jsq(qid)}')">🔊 ${esc(Tx('vox.lire','Écouter l’explication'))}</button>${V}</div>`}
+ function poser(){if(typeof VIEW==='undefined'||VIEW!=='fil'){if(cur)riVox.stop();return}
+  document.querySelectorAll('#app .filq').forEach(card=>{const fb=card.querySelector('.fb');if(!fb)return;const qid=card.id.replace(/^fq-/,'');
+   const h=bloc(qid),sig=h.length+'|'+((QI[qid]||{}).au||''),ex=fb.querySelector('.ri-vox');
+   if(ex){if(ex.dataset.sig===sig)return;ex.remove()}if(!h)return;
+   const d=document.createElement('div');d.innerHTML=h;const el=d.firstElementChild;el.dataset.sig=sig;fb.appendChild(el)});maj()}
+ const _r=render;render=function(){const x=_r.apply(this,arguments);try{poser()}catch(e){console.warn('notes vocales',e)}return x};
+ if(typeof filMaj==='function'){const _fm=filMaj;filMaj=function(){const x=_fm.apply(this,arguments);try{poser()}catch(e){}return x}}
+ if(!document.getElementById('ri-voxcss')){const st=document.createElement('style');st.id='ri-voxcss';st.textContent=`.ri-vox{margin-top:12px;padding:10px 12px;border-radius:14px;background:#EEF6FF;border:1px solid #CFE3FB}
+ .ri-vox-h{font-weight:800;font-size:calc(14px*var(--ts,1));margin-bottom:6px;color:#1D4E89}.ri-vox audio{width:100%;height:40px;display:block}
+ .ri-vox-b{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 16px;border-radius:999px;border:2px solid #2B7BD8;background:#fff;color:#1D4E89;font:inherit;font-weight:800;font-size:calc(15px*var(--ts,1));cursor:pointer}
+ .ri-vox-b.on{background:#2B7BD8;color:#fff}.ri-vox.lock{background:#F7F5FB;border-color:#E4DDF5}.ri-vox.lock .ri-vox-b{border-color:#B9A6EE;color:#5B3FB8}
+ .ri-vox-v{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:8px;font-size:calc(13px*var(--ts,1));font-weight:700;color:#1D4E89}
+ .ri-vox-r{min-width:52px;min-height:36px;padding:4px 10px;border-radius:999px;border:1.5px solid #9DC3EE;background:#fff;color:#1D4E89;font:inherit;font-weight:800;cursor:pointer}
+ .ri-vox-r.on{background:#2B7BD8;border-color:#2B7BD8;color:#fff}
+ [data-theme="dark"] .ri-vox-v{color:#9cc5f5}[data-theme="dark"] .ri-vox-r{background:#0f1b2b;color:#cfe3fb;border-color:#24426a}[data-theme="dark"] .ri-vox-r.on{background:#2B7BD8;color:#fff}
+ .ri-vox-p{font-size:12px;font-weight:800;background:#F3EEFF;border-radius:999px;padding:2px 8px}
+ [data-theme="dark"] .ri-vox{background:#16263c;border-color:#24426a}[data-theme="dark"] .ri-vox-h{color:#9cc5f5}[data-theme="dark"] .ri-vox-b{background:#0f1b2b;color:#cfe3fb}
+ [data-theme="dark"] .ri-vox-b.on{background:#2B7BD8;color:#fff}[data-theme="dark"] .ri-vox.lock{background:#1f1a33;border-color:#3a2f63}`;document.head.appendChild(st)}
+})();
+/* ---------- « SIGNALER UNE ERREUR » DÉSACTIVÉ POUR UN SUJET ENTIER ----------
+   Correction « suj:<1re question du sujet> » avec {nosig:1} (tableau de bord › Signalements par sujet ou Modifier le sujet) :
+   le bouton « ⚑ Signaler une erreur » disparaît pour toutes les questions de ce sujet. Question par question : réglage
+   public.access.nosig (inchangé). riNosig(qid) répond pour les deux. */
+(function(){let C=null,CT=0,CE=null,PM={},PT=0;
+ const drap=()=>{if(C&&Date.now()-CT<1500&&CE===window.__riEdCorr)return C;CE=window.__riEdCorr;const T={};const add=L=>{(Array.isArray(L)?L:[]).forEach(c=>{if(c&&typeof c.qid==='string'&&c.qid.slice(0,4)==='suj:'&&c.c&&c.c.nosig)T[c.qid.slice(4)]=1})};
+  try{if(window.riCorrections)add(riCorrections.liste())}catch(e){}try{add(window.__riEdCorr)}catch(e){}C=T;CT=Date.now();return T};
+ function premiere(mid,qid){if(Date.now()-PT>5000){PM={};PT=Date.now()}let M=PM[mid];
+  if(!M){M=PM[mid]={};try{sujets(mid).forEach(L=>{if(L&&L[0])L.forEach(id=>{if(!(id in M))M[id]=L[0]})})}catch(e){}}return M[qid]}
+ window.riNosig=function(qid){const N=(typeof RIC!=='undefined'&&RIC.cfg&&RIC.cfg.nosig)||{};if(N[qid])return true;const D=drap();if(!Object.keys(D).length)return false;
+  const q=QI[qid];if(!q)return false;const f=premiere(q.m,qid);return !!(f&&D[f])};
+})();
+/* ---------- IMAGES MASQUÉES (demande de Daniel, 20/11/2026) ----------
+   Images retirées de l'appli SANS les effacer des données (blocs protégés intacts) : pour annuler, retirer la clé
+   de RI_IMG_MASQUEES. Portail : galeries « Images & schémas » (resOf) et images des questions. Appli d'origine :
+   avant affichage, les planches correspondantes sont retirées de sa galerie et des listes d'images de ses chapitres
+   (le texte des chapitres reste). SANTE INFANTILE : les 73 pages du livre « L'essentiel en Pédiatrie tropicale »
+   (choisies dans sante_infantile_images_retirees_73.html). */
+const RI_IMG_MASQUEES={xmvkq5cba:["xxmvkq5cba_0", "xxmvkq5cba_1", "xxmvkq5cba_2", "xxmvkq5cba_3", "xxmvkq5cba_4", "xxmvkq5cba_5", "xxmvkq5cba_6", "xxmvkq5cba_7", "xxmvkq5cba_8", "xxmvkq5cba_9", "xxmvkq5cba_10", "xxmvkq5cba_11", "xxmvkq5cba_12", "xxmvkq5cba_13", "xxmvkq5cba_14", "xxmvkq5cba_15", "xxmvkq5cba_16", "xxmvkq5cba_17", "xxmvkq5cba_18", "xxmvkq5cba_19", "xxmvkq5cba_20", "xxmvkq5cba_21", "xxmvkq5cba_22", "xxmvkq5cba_23", "xxmvkq5cba_24", "xxmvkq5cba_25", "xxmvkq5cba_26", "xxmvkq5cba_27", "xxmvkq5cba_28", "xxmvkq5cba_29", "xxmvkq5cba_30", "xxmvkq5cba_31", "xxmvkq5cba_32", "xxmvkq5cba_33", "xxmvkq5cba_34", "xxmvkq5cba_35", "xxmvkq5cba_36", "xxmvkq5cba_37", "xxmvkq5cba_38", "xxmvkq5cba_39", "xxmvkq5cba_40", "xxmvkq5cba_41", "xxmvkq5cba_42", "xxmvkq5cba_43", "xxmvkq5cba_44", "xxmvkq5cba_45", "xxmvkq5cba_46", "xxmvkq5cba_47", "xxmvkq5cba_48", "xxmvkq5cba_49", "xxmvkq5cba_50", "xxmvkq5cba_51", "xxmvkq5cba_52", "xxmvkq5cba_53", "xxmvkq5cba_54", "xxmvkq5cba_55", "xxmvkq5cba_56", "xxmvkq5cba_57", "xxmvkq5cba_58", "xxmvkq5cba_59", "xxmvkq5cba_60", "xxmvkq5cba_61", "xxmvkq5cba_62", "xxmvkq5cba_63", "xxmvkq5cba_64", "xxmvkq5cba_65", "xxmvkq5cba_66", "xxmvkq5cba_67", "xxmvkq5cba_68", "xxmvkq5cba_69", "xxmvkq5cba_70", "xxmvkq5cba_71", "xxmvkq5cba_72"]};
+(function(){const M=new Set([].concat(...Object.values(RI_IMG_MASQUEES)));if(!M.size)return;
+ /* Studio / éditeur : rien n'est masqué (il ne doit jamais enregistrer des données amputées) */
+ const libre=()=>(typeof EDITMODE!=='undefined'&&EDITMODE)||!!window.PORTAIL_EDITOR;
+ /* données du cours chargées dans le téléphone (pas les fichiers sources) : entrées retirées une fois, à chaque rendu si besoin */
+ function masquer(){if(libre())return;Object.keys(RI_IMG_MASQUEES).forEach(mid=>{const R=DATA.res&&DATA.res[mid];
+   if(R&&!R.__riMasq&&Array.isArray(R.ch)&&R.ch.length){R.ch.forEach(c=>{if(c&&Array.isArray(c.imgs))c.imgs=c.imgs.filter(x=>!M.has(String(x&&x[0])))});R.__riMasq=1;try{const k=CAPS&&CAPS[mid];if(k)delete CAPS[mid]}catch(e){}}
+   (QBM[mid]||[]).forEach(q=>{if(q.img!=null&&M.has(String(q.img)))delete q.img})})}
+ const _ac=applyContent;applyContent=function(){const x=_ac.apply(this,arguments);try{masquer()}catch(e){}return x};
+ const _rd=render;render=function(){try{masquer()}catch(e){}return _rd.apply(this,arguments)};
+ /* appli d'origine : le source contient encore « @@XIMG:<clé>@@ » avant unesc() */
+ window.riMasqueApp=function(t){if(typeof t!=='string'||t.indexOf('@@XIMG:')<0)return t;const ids=[];
+  t.replace(/"([A-Za-z0-9_]+)":"@@XIMG:(\w+)@@"/g,(x,id,k)=>{if(M.has(k))ids.push(id);return x});if(!ids.length)return t;
+  const alt=ids.map(s=>s.replace(/[^A-Za-z0-9_]/g,'')).join('|');
+  t=t.replace(new RegExp('(,?)\\{"id":"(?:'+alt+')"[^{}]*\\}(,?)','g'),(x,a,b)=>a&&b?',':'');
+  const S=new Set(ids);t=t.replace(/"imgs":\[([^\]]*)\]/g,(x,L)=>{if(!L)return x;const it=L.split(',');const k=it.filter(s=>!S.has(s.trim().replace(/^"|"$/g,'')));return k.length===it.length?x:'"imgs":['+k.join(',')+']'});
+  return t};
+ const _un=unesc;unesc=function(t){return _un.call(this,libre()?t:riMasqueApp(t))};
 })();
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
