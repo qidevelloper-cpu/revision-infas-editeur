@@ -1,0 +1,2161 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zo-sj-prepa-ped-j4-idesfm",
+ "titre": "Préparation D.E (J) · J4 Pédiatrie IDE/SFM",
+ "session": "J",
+ "annee": 2026,
+ "nq": 60,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+   "sha256": "45110ca169c7b815e8c5983cb6aa915440763cce1306bb015109584afb42df7f"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Pédiatrie · Prépa D.E J4 (IDE/SFM)",
+     "slug": "prepa-ped-j4-idesfm",
+     "pages": "",
+     "count": 60,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Pédiatrie",
+     "source": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La PCIMNE recherche systématiquement les signes généraux de danger chez l'enfant malade",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La première étape de l'évaluation PCIMNE est la recherche des 5 signes généraux de danger : vomit tout, incapable de boire ou de téter, antécédents de convulsions, convulsions actuelles, léthargique ou inconscient.\n\nSource : Cours PCIMNE 2026, Signes généraux de dangers ; Procédure de prise en charge (Évaluer l'enfant malade)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La PCIMNE recommande de classer la maladie de l'enfant avant de choisir le traitement adapté",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La procédure PCIMNE suit l'ordre : évaluer, classer la maladie, choisir le traitement, traiter, conseiller la mère, assurer le suivi.\n\nSource : Cours PCIMNE 2026, Procédure de la prise en charge de l'enfant malade",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une diarrhée aiguë évolue depuis moins de 14 jours",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La diarrhée aiguë dure moins de 14 jours ; au-delà, c'est une diarrhée persistante.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Diarrhée aiguë et déshydratation — Introduction (Définition et limite du thème)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le plan B est indiqué chez un enfant présentant une déshydratation sévère",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le plan B traite les signes évidents de déshydratation (SRO 75 ml/kg en 4 heures). La déshydratation sévère relève du plan C (réhydratation par voie veineuse à l'hôpital).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Diarrhée aiguë et déshydratation — Diagnostic de gravité (Tableau n°1) ; Rôles curatifs (Plans B et C)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pendant une diarrhée, il faut interrompre l'allaitement maternel.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Il faut au contraire allaiter plus souvent et plus longtemps et continuer l'alimentation pour prévenir la malnutrition.\n\nSource : Livret de tableaux PCIMNE 0-5 ans, Plan A : donner davantage de liquides ; L'essentiel en pédiatrie tropicale (Dr Asse), Diarrhée aiguë et déshydratation — Rôles curatifs (Alimentation)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La prise en charge de la malnutrition aiguë sévère avec complications nécessite une hospitalisation dans une structure adaptée",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La malnutrition aiguë sévère avec complications (anorexie, infection, hypothermie, déshydratation…) est orientée vers une unité de nutrition thérapeutique à l'hôpital.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Malnutrition de l'enfant — Diagnostic anthropométrique (Classification de la malnutrition aiguë sévère)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La présence de sang visible dans les selles oriente vers une dysenterie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La dysenterie est l'émission de selles glaireuses et sanglantes.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Diarrhée aiguë et déshydratation — Introduction (Définition et limite du thème)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une malnutrition aiguë sévère peut être diagnostiquée en présence d'œdèmes nutritionnels bilatéraux",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les œdèmes bilatéraux suffisent à classer l'enfant en malnutrition aiguë sévère, même si le périmètre brachial ou le rapport poids/taille sont normaux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Malnutrition de l'enfant — Diagnostic anthropométrique (Classification de la malnutrition aiguë sévère)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La surveillance de la croissance de l'enfant repose notamment sur le suivi régulier du poids et de la taille",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les mensurations (poids, taille, périmètre crânien, périmètre brachial) permettent de suivre la croissance et l'état nutritionnel de l'enfant.\n\nSource : Cours de santé infantile L1 IDE-SFM, Mensurations — Introduction (Définition)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'éruption dentaire est un indicateur de croissance qualitative chez l'enfant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La croissance quantitative (somatique) se mesure par le poids, la taille et les périmètres. L'éruption dentaire est une étape de maturation, donc un indicateur qualitatif. Remarque : Le classement de l'éruption dentaire comme indicateur qualitatif n'est pas écrit mot à mot dans les cours.\n\nSource : Cours de santé infantile L1 IDE-SFM, Mensurations — Introduction (Définition de la croissance quantitative)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la démarche de soins, les données de dépendance permettent d'identifier les besoins perturbés de l'enfant.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'analyse des données d'indépendance et de dépendance permet de poser le diagnostic infirmier et d'identifier les besoins fondamentaux non satisfaits.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Introduction au raisonnement clinique — Diagnostic infirmier (Analyse et interprétation des données)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'allaitement maternel exclusif autorise l'administration quotidienne d'eau potable au nourrisson",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'allaitement exclusif consiste à ne donner que le lait maternel, sans eau, décoction, jus ni autre aliment, à l'exception des médicaments prescrits.\n\nSource : Cours de santé infantile L1 IDE-SFM, Allaitement — Définitions (Allaitement exclusif) ; L'essentiel en pédiatrie tropicale (Dr Asse), Allaitement maternel — Introduction",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La prolactine stimule principalement la production du lait maternel",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La prolactine, sécrétée par l'antéhypophyse sous l'effet de la succion, commande la production du lait.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Allaitement maternel — Physiologie de la lactation (Production du lait)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'administration d'un traitement prescrit constitue systématiquement un soin relevant du rôle propre infirmier.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Un traitement prescrit est exécuté sur instruction du médecin : c'est un soin délégué, pas un soin propre.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Introduction au raisonnement clinique — Plan de soins (Interventions : soins délégués / soins propres)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La vitamine K administrée au nouveau-né contribue à prévenir les saignements liés au déficit en vitamine K",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'injection systématique de vitamine K1 à la naissance prévient la maladie hémorragique du nouveau-né, due à un déficit en vitamine K.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Maladie hémorragique du nouveau-né — Rôles de soins (Après la naissance)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__15",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un enfant né à 35 semaines d'aménorrhée est un nouveau-né à terme",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le nouveau-né à terme naît entre 37 et 41 SA + 6 jours. À 35 SA, c'est un prématuré (22 à 36 SA + 6 jours).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Nouveau-né normal — Introduction (Définition) ; Nouveau-né prématuré — Introduction",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__16",
+       "num": "17",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La respiration et la température font partie de la surveillance initiale du nouveau-né",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dès la naissance, on vérifie la respiration et on prévient l'hypothermie ; la température est mesurée toutes les 15 minutes pendant la première heure.\n\nSource : Cours de santé infantile L1 IDE-SFM, Soins essentiels aux nouveau-nés — Technique de soins (0-60 minutes)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__17",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lors d'une crise convulsive, la priorité est de protéger l'enfant contre les traumatismes et de surveiller sa respiration.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "À l'accueil, il faut installer l'enfant en position de sécurité, assurer la liberté des voies aériennes et l'oxygéner si besoin, puis arrêter la crise.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Convulsions de l'enfant — Diagnostic (Accueil de l'enfant aux urgences)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__18",
+       "num": "19",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pendant une convulsion, il faut introduire un objet entre les dents de l'enfant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Introduire un objet dans la bouche est dangereux (blessures, dents cassées, obstruction des voies aériennes). On protège l'enfant et on libère ses voies aériennes. Remarque : L'interdiction d'introduire un objet n'est pas écrite mot à mot dans le cours.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Convulsions de l'enfant — Diagnostic (Accueil de l'enfant aux urgences)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__19",
+       "num": "20",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un nouveau-né qui ne respire pas normalement après la naissance nécessite une évaluation et une prise en charge immédiates",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un nouveau-né qui ne respire pas ou respire mal doit être réanimé sans délai : désobstruction, séchage, ventilation au masque, oxygène.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Réanimation du nouveau-né en salle de naissance — Conduite de la réanimation",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un nourrisson de 4 mois présente une diarrhée aiguë. Quelle dose quotidienne de zinc faut-il administrer pendant 10 jours, selon le schéma enseigné ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "10 mg par jour"
+        },
+        {
+         "letter": "B",
+         "text": "20 mg par jour"
+        },
+        {
+         "letter": "C",
+         "text": "5 mg par jour"
+        },
+        {
+         "letter": "D",
+         "text": "40 mg par jour"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 10 mg par jour",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Avant 6 mois : ½ comprimé de zinc à 20 mg par jour, soit 10 mg/j ; à partir de 6 mois : 1 comprimé (20 mg) par jour.\n\nSource : Livret de tableaux PCIMNE 0-5 ans, Plan A : donner du zinc ; L'essentiel en pédiatrie tropicale (Dr Asse), Diarrhée aiguë et déshydratation — Rôles curatifs (Médicaments)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un enfant a les yeux enfoncés, boit avidement et présente un pli cutané qui s'efface lentement. Quelle classification est la plus probable ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Pas de déshydratation"
+        },
+        {
+         "letter": "B",
+         "text": "Déshydratation modérée"
+        },
+        {
+         "letter": "C",
+         "text": "Déshydratation sévère"
+        },
+        {
+         "letter": "D",
+         "text": "Diarrhée persistante"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Déshydratation modérée",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Yeux enfoncés, soif (boit avec avidité) et pli cutané qui s'efface lentement : au moins deux signes de la colonne « signes évidents de déshydratation », traités par le plan B.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Diarrhée aiguë et déshydratation — Diagnostic de gravité (Tableau n°1 : classification)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les soins immédiats du nouveau-né, quel geste contribue directement à prévenir l'hypothermie ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Retarder le séchage"
+        },
+        {
+         "letter": "B",
+         "text": "Sécher immédiatement avec un linge propre et chaud"
+        },
+        {
+         "letter": "C",
+         "text": "Donner un bain froid"
+        },
+        {
+         "letter": "D",
+         "text": "Laisser le nouveau-né découvert"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Sécher immédiatement avec un linge propre et chaud",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le séchage immédiat avec un linge propre, sec et chaud limite les pertes de chaleur par évaporation ; on place ensuite le bébé en peau à peau avec un bonnet.\n\nSource : Cours de santé infantile L1 IDE-SFM, Soins essentiels aux nouveau-nés — Technique de soins (0-1 minute) ; Néonatologie (module de formation), Adaptation — Thermorégulation",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel est le rôle principal de la prolactine dans la lactation ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Stimuler la production du lait"
+        },
+        {
+         "letter": "B",
+         "text": "Provoquer l'éjection du lait"
+        },
+        {
+         "letter": "C",
+         "text": "Assurer la digestion du lait"
+        },
+        {
+         "letter": "D",
+         "text": "Empêcher la montée laiteuse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Stimuler la production du lait",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La prolactine commande la production du lait ; l'éjection est due à l'ocytocine.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Allaitement maternel — Physiologie de la lactation (Production du lait)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un enfant présente une diarrhée sans signe de déshydratation. Quel plan convient ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Plan C"
+        },
+        {
+         "letter": "B",
+         "text": "Plan B"
+        },
+        {
+         "letter": "C",
+         "text": "Plan A"
+        },
+        {
+         "letter": "D",
+         "text": "Aucun apport oral"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Plan A",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Sans signe de déshydratation, on applique le plan A à domicile : plus de liquides, zinc, poursuite de l'alimentation, quand revenir.\n\nSource : Livret de tableaux PCIMNE 0-5 ans, Plan A : traiter la diarrhée à domicile",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Chez un nouveau-né à terme, quel intervalle d'âge gestationnel est correct ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "28 à moins de 32 SA"
+        },
+        {
+         "letter": "B",
+         "text": "32 à moins de 37 SA"
+        },
+        {
+         "letter": "C",
+         "text": "37 à moins de 42 SA"
+        },
+        {
+         "letter": "D",
+         "text": "42 à 44 SA"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 37 à moins de 42 SA",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le nouveau-né à terme naît entre 37 et 41 SA + 6 jours, c'est-à-dire de 37 à moins de 42 SA.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Nouveau-né normal — Introduction (Définition)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel signe chez un enfant diarrhéique impose une référence urgente ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Joue et boit normalement"
+        },
+        {
+         "letter": "B",
+         "text": "A trois selles molles sans autre signe"
+        },
+        {
+         "letter": "C",
+         "text": "Est léthargique ou inconscient"
+        },
+        {
+         "letter": "D",
+         "text": "A conservé son appétit"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Est léthargique ou inconscient",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Léthargique ou inconscient est un signe général de danger et un signe de déshydratation sévère : il impose une référence urgente.\n\nSource : Cours PCIMNE 2026, Signes généraux de dangers ; L'essentiel en pédiatrie tropicale (Dr Asse), Diarrhée aiguë et déshydratation — Diagnostic de gravité",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle hormone provoque principalement l'éjection du lait maternel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La prolactine"
+        },
+        {
+         "letter": "B",
+         "text": "L'insuline"
+        },
+        {
+         "letter": "C",
+         "text": "L'ocytocine"
+        },
+        {
+         "letter": "D",
+         "text": "La thyroxine"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. L'ocytocine",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'ocytocine, libérée par la post-hypophyse lors de la succion, fait contracter les cellules autour des alvéoles et éjecte le lait.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Allaitement maternel — Physiologie de la lactation (Excrétion et éjection du lait)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel indicateur anthropométrique évalue principalement l'émaciation chez l'enfant ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Taille pour âge"
+        },
+        {
+         "letter": "B",
+         "text": "Poids pour taille"
+        },
+        {
+         "letter": "C",
+         "text": "Périmètre crânien pour âge"
+        },
+        {
+         "letter": "D",
+         "text": "Âge dentaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Poids pour taille",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le rapport poids/taille mesure la malnutrition aiguë (émaciation) ; le rapport taille/âge mesure la malnutrition chronique (retard de taille).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Malnutrition de l'enfant — Diagnostic anthropométrique de la malnutrition",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les paramètres suivants, lequel mesure la croissance somatique ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le poids"
+        },
+        {
+         "letter": "B",
+         "text": "Le sourire social"
+        },
+        {
+         "letter": "C",
+         "text": "La marche autonome"
+        },
+        {
+         "letter": "D",
+         "text": "Le langage"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Le poids",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le poids est une mesure de la croissance somatique (quantitative). Le sourire, la marche et le langage sont des acquisitions du développement psychomoteur.\n\nSource : Cours de santé infantile L1 IDE-SFM, Mensurations — Introduction (Définition)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle acquisition du développement est habituellement attendue vers 15 mois ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Copier un carré"
+        },
+        {
+         "letter": "B",
+         "text": "Tourner les pages d'un livre"
+        },
+        {
+         "letter": "C",
+         "text": "Lire une phrase"
+        },
+        {
+         "letter": "D",
+         "text": "Nommer les jours de la semaine"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Tourner les pages d'un livre",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Vers 15-18 mois, l'enfant tourne les pages d'un livre (en en sautant plusieurs). Copier un carré, lire et nommer les jours de la semaine viennent bien plus tard.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Annexes — Normes physiologiques de l'enfant (Tableau II : étapes du développement psychomoteur)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel signe est caractéristique d'un kwashiorkor ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Œdèmes bilatéraux prenant le godet"
+        },
+        {
+         "letter": "B",
+         "text": "Raideur de nuque"
+        },
+        {
+         "letter": "C",
+         "text": "Otorrhée purulente"
+        },
+        {
+         "letter": "D",
+         "text": "Cyanose isolée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Œdèmes bilatéraux prenant le godet",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le kwashiorkor associe des œdèmes fermes, indolores, bilatéraux, prenant le godet, à la bouffissure du visage et aux troubles de la peau et des cheveux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Malnutrition de l'enfant — Diagnostic positif (Kwashiorkor : examen physique)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": ". Parmi les manifestations suivantes, laquelle évoque une détresse respiratoire néonatale ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Respiration calme sans effort"
+        },
+        {
+         "letter": "B",
+         "text": "Geignement expiratoire"
+        },
+        {
+         "letter": "C",
+         "text": "Sommeil après la tétée"
+        },
+        {
+         "letter": "D",
+         "text": "Hoquet isolé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Geignement expiratoire",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le geignement expiratoire est un signe de lutte respiratoire coté dans le score de Silverman.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Détresse respiratoire du nouveau-né — Diagnostic positif (Score de Silverman) ; Néonatologie (module de formation), Détresse respiratoire néonatale — Signes cliniques",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un enfant présentant une malnutrition aiguë sévère avec anorexie et complication médicale doit être orienté vers :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une prise en charge ambulatoire sans évaluation"
+        },
+        {
+         "letter": "B",
+         "text": "Un programme de supplémentation simple"
+        },
+        {
+         "letter": "C",
+         "text": "Une unité de stabilisation thérapeutique hospitalière"
+        },
+        {
+         "letter": "D",
+         "text": "Une consultation de routine dans six mois"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Une unité de stabilisation thérapeutique hospitalière",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La malnutrition aiguë sévère avec complications (dont l'anorexie) est prise en charge dans une unité de nutrition thérapeutique hospitalière.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Malnutrition de l'enfant — Diagnostic anthropométrique (Classification de la malnutrition aiguë sévère)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Chez un enfant fébrile, quel examen permet de rechercher un paludisme ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Électrocardiogramme"
+        },
+        {
+         "letter": "B",
+         "text": "Goutte épaisse ou test diagnostique rapide"
+        },
+        {
+         "letter": "C",
+         "text": "Audiométrie"
+        },
+        {
+         "letter": "D",
+         "text": "Test de grossesse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Goutte épaisse ou test diagnostique rapide",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'examen de référence est la goutte épaisse avec frottis sanguin ; à défaut, le test de diagnostic rapide (TDR).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Paludisme de l'enfant — Diagnostic (Examen para clinique)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la démarche de soins, quelle action relève de la surveillance infirmière ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Poser seul un diagnostic médical"
+        },
+        {
+         "letter": "B",
+         "text": "Observer et noter la fréquence respiratoire"
+        },
+        {
+         "letter": "C",
+         "text": "Prescrire une antibiothérapie"
+        },
+        {
+         "letter": "D",
+         "text": "Modifier seul une prescription"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Observer et noter la fréquence respiratoire",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Observer et noter les paramètres vitaux (fréquence respiratoire, température…) sur une fiche de surveillance fait partie du rôle infirmier. Poser un diagnostic médical ou prescrire relève du médecin.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Introduction au raisonnement clinique — Plan de soins (Interventions)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel critère traduit une bonne prise du sein ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Bouche peu ouverte"
+        },
+        {
+         "letter": "B",
+         "text": "Menton éloigné du sein"
+        },
+        {
+         "letter": "C",
+         "text": "Lèvre inférieure retroussée vers l'intérieur"
+        },
+        {
+         "letter": "D",
+         "text": "Bouche largement ouverte et menton au contact du sein"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Bouche largement ouverte et menton au contact du sein",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Bonne prise du sein : bouche grande ouverte qui prend largement l'aréole, menton qui touche le sein, lèvre inférieure éversée (vers l'extérieur).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Allaitement maternel — Aide et conseils à l'allaitement (Aide à l'allaitement)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel est le moment recommandé pour débuter l'allaitement après une naissance sans complication ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Dans la première heure"
+        },
+        {
+         "letter": "B",
+         "text": "Après six heures"
+        },
+        {
+         "letter": "C",
+         "text": "Le lendemain"
+        },
+        {
+         "letter": "D",
+         "text": "Après la sortie de maternité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Dans la première heure",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La mise au sein doit être précoce : dans l'heure qui suit la naissance (entre 30 et 60 minutes de vie).\n\nSource : Cours de santé infantile L1 IDE-SFM, Soins essentiels aux nouveau-nés — Technique de soins (1-60 minutes) ; L'essentiel en pédiatrie tropicale (Dr Asse), Allaitement maternel — Dix règles de l'IHAB",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel aliment est normalement recommandé de la naissance à six mois révolus ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Bouillie légère"
+        },
+        {
+         "letter": "B",
+         "text": "Lait maternel exclusivement"
+        },
+        {
+         "letter": "C",
+         "text": "Eau et lait maternel"
+        },
+        {
+         "letter": "D",
+         "text": "Jus de fruits"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Lait maternel exclusivement",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'OMS et l'UNICEF recommandent l'allaitement maternel exclusif de 0 à 6 mois, sans eau ni autre aliment.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Allaitement maternel — Modalités et avantages (Modalités recommandées)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'orientation d'un enfant présentant une anomalie du développement psychomoteur vers un spécialiste relève principalement :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "D'un soin de collaboration"
+        },
+        {
+         "letter": "B",
+         "text": "D'un acte chirurgical autonome"
+        },
+        {
+         "letter": "C",
+         "text": "D'un soin d'hygiène uniquement"
+        },
+        {
+         "letter": "D",
+         "text": "D'une mesure sans coordination"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. D'un soin de collaboration",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Orienter l'enfant vers un spécialiste se fait en lien avec le médecin et l'équipe : c'est un soin de collaboration.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Introduction au raisonnement clinique — Plan de soins (Interventions : soins en collaboration)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__40",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel élément du développement correspond à une acquisition qualitative plutôt qu'à une mesure somatique ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Poids"
+        },
+        {
+         "letter": "B",
+         "text": "Taille"
+        },
+        {
+         "letter": "C",
+         "text": "Éruption dentaire"
+        },
+        {
+         "letter": "D",
+         "text": "Périmètre brachial"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Éruption dentaire",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Poids, taille et périmètre brachial sont des mesures de croissance somatique. L'éruption dentaire est une étape de maturation (indicateur qualitatif). Remarque : Voir la question 10 : ce classement n'est pas écrit mot à mot dans les cours.\n\nSource : Cours de santé infantile L1 IDE-SFM, Mensurations — Introduction (Définition)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__41",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle acquisition est compatible avec le développement habituel vers trois ans ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "S'habiller partiellement avec aide pour les boutons"
+        },
+        {
+         "letter": "B",
+         "text": "Écrire une rédaction"
+        },
+        {
+         "letter": "C",
+         "text": "Conduire un vélo à deux roues sans aide"
+        },
+        {
+         "letter": "D",
+         "text": "Lire un journal"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. S'habiller partiellement avec aide pour les boutons",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "À 3 ans, l'enfant s'habille seul mais a besoin d'aide pour les boutons et les fermetures éclair.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Annexes — Normes physiologiques de l'enfant (Tableau II : étapes du développement psychomoteur)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__42",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": ". Quel indicateur sert au suivi longitudinal de la croissance pondérale ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La température seule"
+        },
+        {
+         "letter": "B",
+         "text": "La courbe poids-pour-âge"
+        },
+        {
+         "letter": "C",
+         "text": "Le groupe sanguin"
+        },
+        {
+         "letter": "D",
+         "text": "La couleur de l'iris"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. La courbe poids-pour-âge",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La courbe de poids (poids pour l'âge) du carnet de santé permet de suivre dans le temps la croissance pondérale.\n\nSource : Cours de santé infantile L1 IDE-SFM, Carnet de santé mère-enfant — Courbes de croissance ; Mensurations — Mesure du poids",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__43",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel élément peut justifier une évaluation du développement psychomoteur ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Sourire social adapté"
+        },
+        {
+         "letter": "B",
+         "text": "Acquisition progressive de la marche"
+        },
+        {
+         "letter": "C",
+         "text": "Régression d'une compétence déjà acquise"
+        },
+        {
+         "letter": "D",
+         "text": "Jeu adapté à l'âge"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Régression d'une compétence déjà acquise",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La perte d'une compétence déjà acquise (régression psychomotrice) est anormale et doit faire évaluer l'enfant. Les autres propositions sont des acquisitions normales. Remarque : La régression psychomotrice est citée dans le cours comme complication de plusieurs maladies, sans chapitre dédié.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Méningites bactériennes de l'enfant — Devenir (régression psychomotrice) ; Anorexie du nourrisson — Problèmes",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__44",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un nouveau-né né à 39 semaines d'aménorrhée est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Grand prématuré"
+        },
+        {
+         "letter": "B",
+         "text": "Prématuré modéré"
+        },
+        {
+         "letter": "C",
+         "text": "Post-terme"
+        },
+        {
+         "letter": "D",
+         "text": "À terme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. À terme",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "39 SA se situe entre 37 et 41 SA + 6 jours : c'est un nouveau-né à terme.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Nouveau-né normal — Introduction (Définition)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__45",
+       "num": "46",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel âge gestationnel correspond à une grande prématurité ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "28 SA à moins de 32 SA"
+        },
+        {
+         "letter": "B",
+         "text": "34 SA à moins de 37 SA"
+        },
+        {
+         "letter": "C",
+         "text": "37 SA à moins de 42 SA"
+        },
+        {
+         "letter": "D",
+         "text": "42 SA et plus"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 28 SA à moins de 32 SA",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Grande prématurité : 28 à 31 SA + 6 jours ; très grande prématurité : moins de 28 SA ; prématurité modérée : 32 à 36 SA + 6 jours.\n\nSource : Néonatologie (module de formation), Prématurité — Introduction (Classification)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__46",
+       "num": "47",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les premières heures de vie, quel paramètre clinique faut-il surveiller chez le nouveau-né ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La couleur des vêtements"
+        },
+        {
+         "letter": "B",
+         "text": "La respiration"
+        },
+        {
+         "letter": "C",
+         "text": "Le nombre de visiteurs"
+        },
+        {
+         "letter": "D",
+         "text": "La taille des ongles"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. La respiration",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La respiration (fréquence normale 40 à 60 cycles/min) fait partie de la surveillance initiale, avec la température, la coloration et la fréquence cardiaque.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Nouveau-né normal — Diagnostic positif (Informations à rechercher à l'examen physique)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__47",
+       "num": "48",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel geste est prioritaire chez un nouveau-né qui ne respire pas après les gestes initiaux ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le peser"
+        },
+        {
+         "letter": "B",
+         "text": "Lui donner de l'eau"
+        },
+        {
+         "letter": "C",
+         "text": "Débuter une ventilation au masque selon le protocole de réanimation"
+        },
+        {
+         "letter": "D",
+         "text": "Attendre trente minutes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Débuter une ventilation au masque selon le protocole de réanimation",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Si le nouveau-né ne respire pas après séchage, désobstruction et stimulation, il faut débuter sans attendre la ventilation au ballon et au masque.\n\nSource : Néonatologie (module de formation), Réanimation en salle de naissance — Étapes (Ventilation en pression positive) ; L'essentiel en pédiatrie tropicale (Dr Asse), Réanimation du nouveau-né — Conduite de la réanimation",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__48",
+       "num": "49",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel élément fait partie du score d'Apgar ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Fréquence cardiaque"
+        },
+        {
+         "letter": "B",
+         "text": "Glycémie"
+        },
+        {
+         "letter": "C",
+         "text": "Périmètre brachial"
+        },
+        {
+         "letter": "D",
+         "text": "Groupe sanguin"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Fréquence cardiaque",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le score d'Apgar comporte 5 critères : fréquence cardiaque, respiration, tonus, réactivité (grimace/cri) et coloration.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Souffrance cérébrale du nouveau-né — Diagnostic (Tableau 1 : score d'Apgar) ; Cours de santé infantile L1 IDE-SFM, Examen du nouveau-né — Cotation d'Apgar",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__49",
+       "num": "50",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un nouveau-né présente à une minute : fréquence cardiaque 90/min (1 point), respiration irrégulière (1), hypotonie marquée (0), grimace à la stimulation (1) et acrocyanose (1). Quel score d'Apgar obtient-on ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "2"
+        },
+        {
+         "letter": "B",
+         "text": "3"
+        },
+        {
+         "letter": "C",
+         "text": "4"
+        },
+        {
+         "letter": "D",
+         "text": "6"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 4",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "On additionne les cotations : 1 + 1 + 0 + 1 + 1 = 4 (souffrance cérébrale modérée).\n\nSource : Cours de santé infantile L1 IDE-SFM, Examen du nouveau-né — Cotation d'Apgar (Tableau et interprétation)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__50",
+       "num": "51",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel conseil est adapté pour les soins du cordon ombilical du nouveau-né ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Appliquer régulièrement des poudres non prescrites"
+        },
+        {
+         "letter": "B",
+         "text": "Garder le cordon propre et sec selon le protocole"
+        },
+        {
+         "letter": "C",
+         "text": "Recouvrir de terre"
+        },
+        {
+         "letter": "D",
+         "text": "Tirer sur le cordon pour accélérer sa chute"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Garder le cordon propre et sec selon le protocole",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cordon doit rester propre et sec jusqu'à la cicatrisation, avec les produits prescrits (chlorhexidine) ; les produits traditionnels, la terre ou les manipulations exposent à l'omphalite et au tétanos.\n\nSource : Cours de santé infantile L1 IDE-SFM, Soins ombilicaux — Après le soin (conseils à la mère) ; Néonatologie (module de formation), Accueil du nouveau-né — Naissance (les « cinq propres »)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__51",
+       "num": "52",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel signe respiratoire chez un nouveau-né nécessite une évaluation urgente ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Respiration calme"
+        },
+        {
+         "letter": "B",
+         "text": "Coloration rose"
+        },
+        {
+         "letter": "C",
+         "text": "Geignement expiratoire persistant"
+        },
+        {
+         "letter": "D",
+         "text": "Tétée efficace"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Geignement expiratoire persistant",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le geignement expiratoire persistant est un signe de lutte respiratoire (détresse respiratoire) qui impose une évaluation urgente.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Détresse respiratoire du nouveau-né — Diagnostic positif (Score de Silverman)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__52",
+       "num": "53",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle situation est un facteur de risque de prématurité spontanée ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Infection génito-urinaire maternelle"
+        },
+        {
+         "letter": "B",
+         "text": "Allaitement précoce"
+        },
+        {
+         "letter": "C",
+         "text": "Vaccination du nouveau-né"
+        },
+        {
+         "letter": "D",
+         "text": "Peau à peau"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Infection génito-urinaire maternelle",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les infections vagino-utérines (et urinaires) font partie des causes spontanées de prématurité ; leur traitement pendant la grossesse fait partie de la prévention.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Nouveau-né prématuré — Causes de la prématurité (Causes spontanées) ; Rôles de soins préventifs",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__53",
+       "num": "54",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel examen est le plus directement indiqué pour rechercher une infection urinaire chez un enfant fébrile lorsque cette origine est suspectée ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Radiographie du crâne"
+        },
+        {
+         "letter": "B",
+         "text": "ECBU"
+        },
+        {
+         "letter": "C",
+         "text": "Électrocardiogramme"
+        },
+        {
+         "letter": "D",
+         "text": "Test de grossesse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. ECBU",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'examen cytobactériologique des urines (ECBU) est demandé devant une fièvre avec signes urinaires.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Fièvre de l'enfant — Diagnostic étiologique (Prescription d'examens)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__54",
+       "num": "55",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lors d'une convulsion en cours, quelle intervention immédiate est adaptée ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Introduire une cuillère dans la bouche"
+        },
+        {
+         "letter": "B",
+         "text": "Faire boire de l'eau"
+        },
+        {
+         "letter": "C",
+         "text": "Maintenir de force les membres"
+        },
+        {
+         "letter": "D",
+         "text": "Protéger l'enfant des traumatismes et surveiller sa respiration"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Protéger l'enfant des traumatismes et surveiller sa respiration",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "On installe l'enfant en position de sécurité, on assure la liberté des voies aériennes et on surveille la respiration ; on ne met rien dans la bouche, on ne fait pas boire, on ne bloque pas les membres.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Convulsions de l'enfant — Diagnostic (Accueil de l'enfant aux urgences)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__55",
+       "num": "56",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Chez un enfant qui vomit, quel soin de surveillance est adapté ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Noter les épisodes de vomissements et leur aspect"
+        },
+        {
+         "letter": "B",
+         "text": "Interrompre toute surveillance"
+        },
+        {
+         "letter": "C",
+         "text": "Donner systématiquement un antiémétique sans prescription"
+        },
+        {
+         "letter": "D",
+         "text": "Faire boire de force pendant le vomissement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Noter les épisodes de vomissements et leur aspect",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La surveillance porte sur la fréquence, la quantité et l'aspect des vomissements (alimentaire, bilieux, hémorragique) et sur leur retentissement (déshydratation).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Vomissements de l'enfant — Diagnostic étiologique (Anamnèse) ; Problèmes et devenir",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__56",
+       "num": "57",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel examen est particulièrement pertinent chez un enfant fébrile présentant une suspicion de paludisme",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Goutte épaisse ou test diagnostique rapide selon protocole"
+        },
+        {
+         "letter": "B",
+         "text": "Test de grossesse"
+        },
+        {
+         "letter": "C",
+         "text": "Audiométrie"
+        },
+        {
+         "letter": "D",
+         "text": "Radiographie dentaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Goutte épaisse ou test diagnostique rapide selon protocole",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La goutte épaisse et le frottis sanguin, ou à défaut le TDR, confirment le paludisme.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Paludisme de l'enfant — Diagnostic (Examen para clinique)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__57",
+       "num": "58",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Chez un enfant présentant des vomissements, quel soin relève directement de la surveillance infirmière ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Prescrire seul un antiémétique"
+        },
+        {
+         "letter": "B",
+         "text": "Ignorer les pertes hydriques"
+        },
+        {
+         "letter": "C",
+         "text": "Noter la fréquence des vomissements et l'état d'hydratation"
+        },
+        {
+         "letter": "D",
+         "text": "Arrêter systématiquement tout liquide pendant 24 heures"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Noter la fréquence des vomissements et l'état d'hydratation",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Noter la fréquence des vomissements et surveiller l'état d'hydratation permet de dépister la déshydratation, principale complication des vomissements.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Vomissements de l'enfant — Problèmes et devenir (Problèmes : déshydratation)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__58",
+       "num": "59",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un enfant de 15 mois présente une fièvre élevée, refuse de boire et paraît léthargique. Quelle décision est prioritaire ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Revoir dans un mois"
+        },
+        {
+         "letter": "B",
+         "text": "Conseiller seulement un bain"
+        },
+        {
+         "letter": "C",
+         "text": "Laisser repartir sans surveillance"
+        },
+        {
+         "letter": "D",
+         "text": "Évaluer et référer en urgence"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Évaluer et référer en urgence",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Incapacité de boire et léthargie sont des signes généraux de danger : l'enfant doit être évalué et référé en urgence après les premiers soins.\n\nSource : Cours PCIMNE 2026, Signes généraux de dangers ; Différentes bandes de la PCIMNE (rose : référence d'urgence)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j4-idesfm__59",
+       "num": "60",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la démarche de soins, quelle formulation constitue un objectif mesurable de surveillance d'un enfant fébrile ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'enfant ira mieux bientôt"
+        },
+        {
+         "letter": "B",
+         "text": "La température sera réévaluée et documentée dans l'heure suivant les soins prescrits"
+        },
+        {
+         "letter": "C",
+         "text": "L'enfant ne sera plus jamais malade"
+        },
+        {
+         "letter": "D",
+         "text": "La famille sera toujours satisfaite"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. La température sera réévaluée et documentée dans l'heure suivant les soins prescrits",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Un objectif de soins doit être précis, mesurable et daté : la température réévaluée et notée dans l'heure répond à ces critères.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Introduction au raisonnement clinique — Plan de soins (Objectifs de soins)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Pédiatrie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

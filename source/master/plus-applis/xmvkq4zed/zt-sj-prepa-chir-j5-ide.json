@@ -1,0 +1,2177 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zt-sj-prepa-chir-j5-ide",
+ "titre": "Préparation D.E (J) · J5 Chirurgie IDE",
+ "session": "J",
+ "annee": 2026,
+ "nq": 60,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J5_Chirurgie_IDE_corrige_explique.pdf",
+   "sha256": "c1f40b708ea0eef1de134c3e4a909eb347076ccf1e47e65b95e681638ca45148"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Chirurgie · Prépa D.E J5 (IDE)",
+     "slug": "prepa-chir-j5-ide",
+     "pages": "",
+     "count": 60,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Chirurgie",
+     "source": "J5_Chirurgie_IDE_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un patient présentant plusieurs fractures est obligatoirement un polytraumatisé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le polytraumatisé présente plusieurs traumatismes à des endroits différents dont au moins un met en jeu le pronostic vital. Le cours insiste : « il ne faut pas confondre polytraumatisé avec poly-fracturé ». Plusieurs fractures sans menace vitale = polyfracturé, donc l'affirmation est fausse.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), « Le polytraumatisé », p. 86 ; Cours de chirurgie traumatique et digestif (pptx), diapo 144",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une entorse correspond à une lésion ligamentaire sans perte permanente du contact entre les surfaces articulaires",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'entorse est une lésion ligamentaire (élongation, rupture partielle ou totale) sans déplacement permanent des surfaces articulaires ; la perte de contact permanente définit la luxation.\n\nSource : ARTHROLOGIE COMPLET, vocabulaire (entorse) ; Pathologie chirurgicale – Sémiologie L1 IDE-SF, luxation p. 73",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans une hernie étranglée, la tuméfaction est habituellement douloureuse, dure, irréductible et non impulsive à la toux",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Signes physiques de l'étranglement herniaire : tuméfaction devenue dure, tendue, douloureuse (maximum au collet), irréductible, non impulsive et non expansive à la toux.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Hernies – étranglement herniaire, p. 107-108",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La cryptorchidie correspond à l'absence d'un ou des deux testicules dans les bourses par défaut de migration",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La cryptorchidie (« testicule caché ») est une anomalie de la descente du testicule dans la bourse, unique ou bilatérale ; le diagnostic repose sur la vacuité de la bourse.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Anomalies de la descente du testicule, p. 182-183 ; Cours de chirurgie traumatique et digestif (pptx), diapo 318",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'hydrocèle correspond à un épanchement liquidien entre les feuillets de la vaginale testiculaire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'hydrocèle est un épanchement liquidien séreux entre les deux feuillets de la vaginale (signe capital : impossibilité de « pincer » la vaginale, transillumination positive).\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), L'hydrocèle, p. 184-185 ; Cours de chirurgie traumatique et digestif (pptx), diapo 321",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La colostomie est l'abouchement temporaire ou définitif d'un segment du côlon à la peau",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La colostomie est l'abouchement chirurgical du côlon à la peau (anus artificiel), temporaire ou définitif. Le cours cite les « soins de colostomie ou anus artificiel » et la possibilité de « mettre provisoirement l'un des deux segments à la peau » après exérèse colique.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), programme de l'UE et Occlusions (traitement), p. 3 et 127 – définition complétée (explication partiellement hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le ramassage d'un traumatisé du rachis doit se faire en monobloc avec maintien de l'axe tête-cou-tronc",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le blessé du rachis se relève en traction axiale, rachis cervical en rectitude, sur un plan dur ; un déplacement monobloc maintient l'axe cranio-rachidien en rectitude. Il ne faut jamais l'empoigner sous les aisselles et les genoux (risque de section médullaire).\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), CAT auprès d'un traumatisé des voies publiques, p. 82 ; Neurochirurgie (fascicule), p. 43 et 52",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ponction sus-pubienne peut être indiquée lorsque le sondage urétral est impossible ou contre-indiqué",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le drainage vésical d'une rétention est une urgence : sondage urétral, ou ponction sus-pubienne. « Si le sondage vésical est impossible, il faut pratiquer une ponction sus-pubienne » avec asepsie rigoureuse.\n\nSource : Cours de chirurgie traumatique et digestif (pptx), Rétention urinaire et Rétrécissement de l'urètre, diapos 307 et 317",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les vibrations vocales sont appréciées principalement par l'inspection du thorax",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les vibrations vocales s'apprécient à la palpation du thorax, pas à l'inspection. L'inspection apprécie la coloration, le rythme respiratoire, les lésions cutanées et les déformations.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Traumatisme du thorax, p. 8-9 ; Traumatologie complet, examen clinique du thorax",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le pied bot est une malformation pouvant être présente dès la naissance",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le pied bot congénital est un vice de position du pied constaté à la naissance (le varus équin représente 9/10 des cas).\n\nSource : Pathologie chirurgicale – Sémiologie L1 IDE-SF, Pieds bots congénitaux, p. 81",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une agénésie d'un membre est une affection congénitale",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'agénésie est l'absence de formation d'un organe ou d'un membre pendant le développement embryonnaire : c'est donc une malformation congénitale, présente dès la naissance.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La subluxation correspond à une perte incomplète du contact entre deux surfaces articulaires",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La luxation est dite complète lorsqu'il n'y a plus de rapport entre les deux surfaces articulaires ; s'il reste un contact partiel, il s'agit d'une subluxation (luxation incomplète).\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Luxation de l'épaule – généralités, p. 17 ; Traumatologie complet, chap. III",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La tétraplégie correspond à la paralysie des quatre membres",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La tétraplégie est la paralysie des quatre membres (supérieurs et inférieurs), par atteinte médullaire cervicale ; la paraplégie ne touche que les membres inférieurs.\n\nSource : ARTHROLOGIE COMPLET, vocabulaire ; Cours de chirurgie traumatique et digestif (pptx), Fractures du rachis, diapo 152",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le rachis cervical et le rachis lombaire comportent ensemble douze vertèbres",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le rachis compte 7 vertèbres cervicales et 5 lombaires : 7 + 5 = 12. (Il y a aussi 12 dorsales, 5 sacrées et 4 coccygiennes, soit 33 au total.)\n\nSource : Cours de chirurgie traumatique et digestif (pptx), Fractures du rachis, diapo 146 ; Neurochirurgie (fascicule), p. 12",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'échelle de Glasgow évalue l'ouverture des yeux, la réponse verbale et la réponse motrice",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le score de Glasgow cote l'ouverture des yeux (4 points), la réponse verbale (5 points) et la réponse motrice (6 points), soit un total de 3 à 15.\n\nSource : NEUROCHIRURGIE L3 (pptx), diapos 16-21",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__15",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Chez un traumatisé crânien, l'intervalle libre est la période séparant la perte de connaissance initiale de la réapparition secondaire des troubles de conscience",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'intervalle libre est le temps pendant lequel le blessé paraît s'améliorer après le traumatisme, avant une aggravation secondaire de la conscience ; c'est l'élément essentiel du diagnostic de l'hématome extradural. Remarque : le cours décrit l'intervalle libre comme le délai entre le traumatisme et l'apparition (ou la réapparition) des troubles ; il ne parle pas toujours d'une perte de connaissance initiale.\n\nSource : Cours de chirurgie traumatique et digestif (pptx), Traumatismes crâniens, diapos 110 et 112",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__16",
+       "num": "17",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ponction lombaire est contre-indiquée lorsqu'une hypertension intracrânienne avec risque d'engagement est suspectée",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "En cas d'hypertension intracrânienne (masse, hématome, œdème), la ponction lombaire est contre-indiquée : la baisse brutale de pression sous la lésion peut provoquer un engagement cérébral.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__17",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un liquide céphalorachidien hémorragique obtenu à la ponction lombaire confirme à lui seul la nature ischémique d'un accident vasculaire cérébral",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Un LCR hémorragique traduit une hémorragie méningée (ou un hématome intradural) : il ne peut pas confirmer un AVC ischémique, qui est au contraire un accident non hémorragique.\n\nSource : ANATOMIE LIVRE 2023-2024, méninges et LCR, p. 148 ; Cours de chirurgie traumatique et digestif (pptx), diapo 113",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__18",
+       "num": "19",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une colostomie correspond à l'abouchement d'un segment du jéjunum à la peau",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La colostomie aboutit le côlon à la peau. L'abouchement du jéjunum à la peau est une jéjunostomie (celui de l'iléon, une iléostomie).\n\nSource : (explication hors cours du projet) ; voir Q6",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__19",
+       "num": "20",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Après une chirurgie prostatique, une irrigation vésicale peut aider à prévenir l'obstruction de la sonde par des caillots",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Après adénomectomie prostatique, une irrigation (lavage vésical continu) passe dans la sonde ; on surveille le caillotage (douleurs vésicales, arrêt de l'écoulement = sonde bouchée), on accélère le débit si nécessaire et on fait des décaillotages.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Adénome de la prostate – interventions infirmières, p. 166-167",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__20",
+       "num": "21",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le lavement baryté est indiqué lorsqu'une perforation intestinale est suspectée",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Devant une perforation intestinale suspectée, le lavement baryté est contre-indiqué : la baryte pourrait passer dans le péritoine et entraîner une péritonite. Le cours le cite pour situer une occlusion (grêle ou côlon), pas en cas de perforation.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Occlusions – signes radiologiques, p. 125 (contre-indication : explication partiellement hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__21",
+       "num": "22",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une péritonite secondaire est liée à une lésion intra-abdominale responsable de la contamination péritonéale",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les micro-organismes proviennent d'une atteinte du tube digestif (ulcère perforé, appendicite rompue…), des organes génitaux, ou d'une blessure : la péritonite secondaire est liée à une lésion intra-abdominale qui contamine le péritoine.\n\nSource : Cours de chirurgie traumatique et digestif (pptx), Péritonites – définition et étiologies, diapos 234-235",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__22",
+       "num": "23",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La contracture abdominale est le signe physique typique de l'occlusion intestinale simple",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans le syndrome occlusif, la paroi est souple ou à peine tendue : « il n'y a jamais de contracture malgré la distension gazeuse ». La contracture (ventre de bois) évoque une péritonite.\n\nSource : Cours de chirurgie traumatique et digestif (pptx), Occlusions intestinales aiguës, diapo 226",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__23",
+       "num": "24",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une occlusion mécanique par simple obstruction se définit nécessairement par l'écrasement ou la torsion des vaisseaux du mésentère",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'écrasement ou la torsion des vaisseaux du mésentère définissent la strangulation. L'obstruction (obturation) est un obstacle dans la lumière, la paroi ou extrinsèque, sans lésion vasculaire initiale.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Occlusions – étiologies, p. 121-122",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__24",
+       "num": "25",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans une occlusion du grêle, les vomissements apparaissent généralement plus précocement que dans une occlusion colique",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'occlusion du grêle donne des vomissements précoces, abondants, bilieux ; dans l'occlusion colique, les vomissements sont rares et tardifs.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Diagnostic du siège de l'occlusion, p. 125",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel signe physique est particulièrement évocateur d'une péritonite aiguë généralisée ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Contracture abdominale ou ventre de bois"
+        },
+        {
+         "letter": "B",
+         "text": "Toux sèche"
+        },
+        {
+         "letter": "C",
+         "text": "Douleur du mollet"
+        },
+        {
+         "letter": "D",
+         "text": "Myosis"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Contracture abdominale ou ventre de bois",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La péritonite aiguë se traduit surtout par une contracture abdominale extensive réalisant au maximum le « ventre de bois ». La toux, la douleur du mollet et le myosis n'ont pas de lien avec la péritonite.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Contusions abdominales – tableau de péritonite par perforation, p. 91",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, laquelle correspond le mieux à l'appendicite aiguë ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une urgence abdominale fréquente"
+        },
+        {
+         "letter": "B",
+         "text": "Une maladie limitée au nourrisson"
+        },
+        {
+         "letter": "C",
+         "text": "Une affection exclusivement féminine"
+        },
+        {
+         "letter": "D",
+         "text": "Une maladie toujours indolore"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Une urgence abdominale fréquente",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'appendicite aiguë est la plus fréquente des urgences abdominales, rare avant 3 ans, avec un pic entre 10 et 30 ans, et touche les deux sexes. Elle est douloureuse (fosse iliaque droite).\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Appendicite aiguë – intérêt, p. 112",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Concernant la hernie crurale (fémorale), quelle proposition est correcte ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Elle ne s'étrangle jamais"
+        },
+        {
+         "letter": "B",
+         "text": "Son risque d'étranglement est relativement élevé"
+        },
+        {
+         "letter": "C",
+         "text": "Elle siège dans le thorax"
+        },
+        {
+         "letter": "D",
+         "text": "Elle est toujours congénitale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Son risque d'étranglement est relativement élevé",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La hernie crurale, surtout chez la femme adulte, sort sous l'arcade crurale par un anneau étroit : son risque d'étranglement est élevé. Le cours rappelle de palper les orifices herniaires à la recherche d'une hernie étranglée (crurale) devant une occlusion.\n\nSource : Cours de chirurgie traumatique et digestif (pptx), Hernies (diapo 205) et Occlusions (diapo 226) ; risque élevé : explication partiellement hors cours du projet",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel examen simple peut aider à mettre en évidence un globe vésical et à apprécier les reins, la vessie et la prostate ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Échographie uro-vésicale"
+        },
+        {
+         "letter": "B",
+         "text": "Radiographie du crâne"
+        },
+        {
+         "letter": "C",
+         "text": "Électroencéphalogramme"
+        },
+        {
+         "letter": "D",
+         "text": "Fibroscopie bronchique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Échographie uro-vésicale",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'échographie (rein, vessie, prostate) est l'examen simple qui apprécie la rétention et le résidu post-mictionnel, le retentissement sur le haut appareil et le volume de la prostate.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Rétention urinaire, p. 172, et Adénome de la prostate, p. 163",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La fracture de Pouteau-Colles intéresse principalement",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'extrémité inférieure du radius"
+        },
+        {
+         "letter": "B",
+         "text": "L'extrémité supérieure de l'ulna"
+        },
+        {
+         "letter": "C",
+         "text": "Le col du fémur"
+        },
+        {
+         "letter": "D",
+         "text": "La clavicule"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. L'extrémité inférieure du radius",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La fracture de Pouteau-Colles est une fracture sus-articulaire de l'extrémité inférieure du radius, par hyperextension, environ 2 cm au-dessus de l'interligne radio-carpien.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Fractures du poignet, p. 37-38 ; Cours de chirurgie traumatique et digestif (pptx), diapo 57",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Sur les lieux d'un accident, devant une fracture suspectée d'un membre, le geste infirmier prioritaire est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Immobiliser provisoirement le membre"
+        },
+        {
+         "letter": "B",
+         "text": "Faire marcher le patient"
+        },
+        {
+         "letter": "C",
+         "text": "Masser le foyer de fracture"
+        },
+        {
+         "letter": "D",
+         "text": "Réaliser immédiatement une réduction forcée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Immobiliser provisoirement le membre",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Sur les lieux de l'accident, on immobilise les membres fracturés (gouttière ou attelles avec enveloppement ouaté). On ne fait pas marcher le blessé et on ne masse pas le foyer de fracture. La réduction relève du milieu hospitalier.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), CAT auprès d'un traumatisé des voies publiques – gestes salvateurs, p. 83",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans le traitement orthopédique classique d'une fracture simple de la clavicule, on peut utiliser",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Un bandage en huit"
+        },
+        {
+         "letter": "B",
+         "text": "Une sonde urinaire"
+        },
+        {
+         "letter": "C",
+         "text": "Un plâtre pelvi-pédieux"
+        },
+        {
+         "letter": "D",
+         "text": "Une traction crânienne"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Un bandage en huit",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Après réduction orthopédique, la contention se fait par un bandage en huit de chiffre (les branches se croisent dans le dos) ou une immobilisation coude au corps (Dujarrier, Velpeau).\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Fracture de la clavicule, p. 15-16 ; Traumatologie complet",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Selon la règle de Baxter (4 mL × poids × % de surface brûlée), quel volume faut-il perfuser durant les premières 24 h chez un patient de 58 kg brûlé à 27 %?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "3132 mL"
+        },
+        {
+         "letter": "B",
+         "text": "6264 mL"
+        },
+        {
+         "letter": "C",
+         "text": "1566 mL"
+        },
+        {
+         "letter": "D",
+         "text": "1160 mL"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 6264 mL",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Calcul : 4 mL × 58 kg × 27 = 6 264 mL pour les 24 premières heures. Remarque : le cours L1 utilise la règle d'Evans (1 mL × poids × % de grosses molécules + la même quantité + 2000 mL de ration de base), pas la règle de Baxter. (Pathologie chirurgicale – Sémiologie L1 IDE-SF, p. 94)\n\nSource : Calcul à partir de la formule donnée dans l'énoncé",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour ce même patient, quelle quantité correspond approximativement à la moitié du volume calculé, à administrer durant les 8 premières heures ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "3132 mL"
+        },
+        {
+         "letter": "B",
+         "text": "6264 mL"
+        },
+        {
+         "letter": "C",
+         "text": "580 mL"
+        },
+        {
+         "letter": "D",
+         "text": "2700 mL"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 3132 mL",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Moitié du volume : 6 264 ÷ 2 = 3 132 mL, à passer dans les 8 premières heures. Le cours précise aussi que « la moitié de la quantité totale doit être passée dans les 8 premières heures ».\n\nSource : Pathologie chirurgicale – Sémiologie L1 IDE-SF, Brûlures – réanimation du premier jour, p. 94",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Avec une tubulure délivrant 20 gouttes/mL, quel débit faut-il régler pour perfuser 500 mL en 4 heures ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Environ 20 gouttes/min"
+        },
+        {
+         "letter": "B",
+         "text": "Environ 80 gouttes/min"
+        },
+        {
+         "letter": "C",
+         "text": "Environ 42 gouttes/min"
+        },
+        {
+         "letter": "D",
+         "text": "Environ 120 gouttes/min"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Environ 42 gouttes/min",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Débit (gouttes/min) = volume (mL) × 20 ÷ durée (min) = 500 × 20 ÷ 240 = 10 000 ÷ 240 ≈ 41,7, soit environ 42 gouttes/min. Remarque : dans le sujet, les options sont dans l'ordre B, C, A, D.\n\nSource : (calcul ; explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Avec une tubulure délivrant 20 gouttes/mL, quel débit faut-il régler pour perfuser 500 mL en 3 h 15 min ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Environ 51 gouttes/min"
+        },
+        {
+         "letter": "B",
+         "text": "Environ 25 gouttes/min"
+        },
+        {
+         "letter": "C",
+         "text": "Environ 75 gouttes/min"
+        },
+        {
+         "letter": "D",
+         "text": "Environ 100 gouttes/min"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Environ 51 gouttes/min",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "3 h 15 min = 195 min. Débit = 500 × 20 ÷ 195 = 10 000 ÷ 195 ≈ 51,3, soit environ 51 gouttes/min.\n\nSource : (calcul ; explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Avec une tubulure délivrant 20 gouttes/mL, quel débit permet de perfuser 6 litres en 24 heures ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Environ 84 gouttes/min"
+        },
+        {
+         "letter": "B",
+         "text": "Environ 42 gouttes/min"
+        },
+        {
+         "letter": "C",
+         "text": "Environ 25 gouttes/min"
+        },
+        {
+         "letter": "D",
+         "text": "Environ 150 gouttes/min"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Environ 84 gouttes/min",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "6 L = 6 000 mL ; 24 h = 1 440 min. Débit = 6 000 × 20 ÷ 1 440 ≈ 83,3 gouttes/min, soit environ 83-84 gouttes/min. Remarque : le résultat exact est 83,3 ; la réponse retenue (≈ 84) est un arrondi.\n\nSource : (calcul ; explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel est l'ordre physiopathologique le plus logique au cours d'une brûlure étendue ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hypovolémie → exsudation → trouble capillaire → anoxie"
+        },
+        {
+         "letter": "B",
+         "text": "Anoxie → hypovolémie → exsudation → trouble capillaire"
+        },
+        {
+         "letter": "C",
+         "text": "Trouble de la perméabilité capillaire → exsudation plasmatique → hypovolémie → anoxie tissulaire"
+        },
+        {
+         "letter": "D",
+         "text": "Exsudation → anoxie → trouble capillaire → hypovolémie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Trouble de la perméabilité capillaire → exsudation plasmatique → hypovolémie → anoxie tissulaire",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La brûlure étendue altère la perméabilité capillaire, d'où une exsudation plasmatique (pertes et œdème), puis une hypovolémie (choc) et, si elle n'est pas compensée, une anoxie tissulaire (rein : anurie). Remarque : le cours commence par l'exsudation plasmatique et décrit un cercle vicieux (l'anoxie aggrave les troubles de la perméabilité capillaire) ; l'ordre retenu reste cohérent avec ce mécanisme.\n\nSource : Pathologie chirurgicale – Sémiologie L1 IDE-SF, Brûlures – physiopathologie, période initiale, p. 87",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelles localisations rendent une brûlure particulièrement préoccupante ? (3 réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Face"
+        },
+        {
+         "letter": "B",
+         "text": "Mains"
+        },
+        {
+         "letter": "C",
+         "text": "Périnée et organes génitaux"
+        },
+        {
+         "letter": "D",
+         "text": "Cheveux uniquement"
+        },
+        {
+         "letter": "E",
+         "text": "Ongles uniquement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Face ; B. Mains ; C. Périnée et organes génitaux",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "Le cours cite comme critères de gravité par la localisation : mains, visage, articulations, orifices naturels, périnée. La face menace les yeux et les voies respiratoires ; les parties génitales entraînent sténoses et séquelles graves. Les cheveux ou les ongles seuls ne sont pas des localisations graves.\n\nSource : Pathologie chirurgicale – Sémiologie L1 IDE-SF, Brûlures – localisation et critères de gravité, p. 86 et 99",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les organes suivants, lesquels sont des organes creux abdomino-pelviens ? (2 réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vessie"
+        },
+        {
+         "letter": "B",
+         "text": "Côlon"
+        },
+        {
+         "letter": "C",
+         "text": "Foie"
+        },
+        {
+         "letter": "D",
+         "text": "Rate"
+        },
+        {
+         "letter": "E",
+         "text": "Pancréas"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Vessie ; B. Côlon",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "Les organes creux sont la vessie et le côlon (tube digestif). Le foie, la rate et le pancréas sont des organes pleins (viscères pleins, glandes annexes).\n\nSource : Traumatologie complet, examen du traumatisé (viscères pleins / creux) ; PDF APPAREIL DIGESTIF L1",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__40",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'embarrure crânienne correspond le mieux à",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une fracture de la voûte avec enfoncement d'un fragment osseux"
+        },
+        {
+         "letter": "B",
+         "text": "Une simple plaie du cuir chevelu"
+        },
+        {
+         "letter": "C",
+         "text": "Une entorse cervicale"
+        },
+        {
+         "letter": "D",
+         "text": "Une fracture de la clavicule"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Une fracture de la voûte avec enfoncement d'un fragment osseux",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les fractures de la voûte crânienne peuvent être simples ou avec embarrure, c'est-à-dire avec enfoncement d'un fragment osseux vers l'intérieur du crâne.\n\nSource : Cours de chirurgie traumatique et digestif (pptx), Traumatismes crâniens – lésions osseuses, diapo 108",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__41",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Qu'est-ce qui distingue surtout un polytraumatisé d'un patient simplement polyfracturé ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La présence de lésions multiples dont au moins une peut engager le pronostic vital"
+        },
+        {
+         "letter": "B",
+         "text": "La présence obligatoire de trois fractures"
+        },
+        {
+         "letter": "C",
+         "text": "L'absence de toute lésion viscérale"
+        },
+        {
+         "letter": "D",
+         "text": "L'âge supérieur à 60 ans"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La présence de lésions multiples dont au moins une peut engager le pronostic vital",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le polytraumatisé a plusieurs lésions dont au moins une engage le pronostic vital ; à ne pas confondre avec le polyfracturé. Il n'existe pas de nombre minimal de fractures ni de critère d'âge.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Le polytraumatisé, p. 86",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__42",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Avant de démarrer une transfusion sanguine, quelles vérifications sont essentielles ? (3 réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Identité du patient et prescription"
+        },
+        {
+         "letter": "B",
+         "text": "Concordance et compatibilité du produit sanguin"
+        },
+        {
+         "letter": "C",
+         "text": "Date de péremption et intégrité de la poche"
+        },
+        {
+         "letter": "D",
+         "text": "Couleur des chaussures du patient"
+        },
+        {
+         "letter": "E",
+         "text": "Groupe sanguin d'un membre de la famille"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Identité du patient et prescription ; B. Concordance et compatibilité du produit sanguin ; C. Date de péremption et intégrité de la poche",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "Avant toute transfusion, on vérifie l'identité du patient et la prescription, la concordance et la compatibilité du produit avec le groupe du receveur (contrôle ultime au lit), la date de péremption et l'intégrité de la poche. Le groupe d'un membre de la famille ne remplace pas celui du patient.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__43",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nursing d'un patient alité comprend notamment",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La toilette et la prévention des escarres"
+        },
+        {
+         "letter": "B",
+         "text": "La prescription d'antibiotiques"
+        },
+        {
+         "letter": "C",
+         "text": "La réduction d'une fracture"
+        },
+        {
+         "letter": "D",
+         "text": "La réalisation d'une anesthésie générale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La toilette et la prévention des escarres",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le nursing du patient alité comprend notamment la toilette et la prévention des escarres, la surveillance des paramètres et de l'état général. La prescription, la réduction d'une fracture et l'anesthésie ne sont pas des actes de nursing.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Fractures – rôle de l'infirmier (nursing), p. 36 ; Traumatologie complet",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__44",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Chez un malade en décubitus latéral, quels sont deux points d'appui particulièrement exposés aux escarres ? (2 réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Grand trochanter"
+        },
+        {
+         "letter": "B",
+         "text": "Malléole externe"
+        },
+        {
+         "letter": "C",
+         "text": "Paume de la main"
+        },
+        {
+         "letter": "D",
+         "text": "Nombril"
+        },
+        {
+         "letter": "E",
+         "text": "Pavillon de l'oreille uniquement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Grand trochanter ; B. Malléole externe",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "En décubitus latéral, l'appui se fait sur le côté : grand trochanter, malléole externe, mais aussi épaule, oreille et face latérale du genou. La paume de la main et le nombril ne sont pas des points d'appui. Remarque : l'option E dit « pavillon de l'oreille uniquement » ; l'oreille est un point d'appui en décubitus latéral, mais le mot « uniquement » rend la proposition fausse.\n\nSource : (explication hors cours du projet) ; le cours cite la surveillance des points d'appui et le changement de position (Neurochirurgie p. 21 ; TSI p. 67)",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__45",
+       "num": "46",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 : HERNIE INGUINALE ÉTRANGLÉE Un patient de 45 ans se présente pour une douleur vive de l'aine droite. Il explique que, depuis plusieurs mois, une tuméfaction apparaissait à l'effort, disparaissait lorsqu'il se couchait et était habituellement indolore. Depuis quelques heures, la masse est devenue douloureuse, dure, irréductible et non impulsive à la toux. Il présente également des nausées et des vomissements.",
+       "text": "Quelle affection était probablement présente avant l'épisode douloureux actuel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hernie inguinale simple"
+        },
+        {
+         "letter": "B",
+         "text": "Péritonite"
+        },
+        {
+         "letter": "C",
+         "text": "Appendicite aiguë"
+        },
+        {
+         "letter": "D",
+         "text": "Hydrocèle"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Hernie inguinale simple",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Avant l'épisode, la tuméfaction apparaissait à l'effort, disparaissait couché et était indolore : ce sont les caractères d'une hernie inguinale simple, réductible et non compliquée.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Hernies – hernie non compliquée, p. 107",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__46",
+       "num": "47",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 : HERNIE INGUINALE ÉTRANGLÉE Un patient de 45 ans se présente pour une douleur vive de l'aine droite. Il explique que, depuis plusieurs mois, une tuméfaction apparaissait à l'effort, disparaissait lorsqu'il se couchait et était habituellement indolore. Depuis quelques heures, la masse est devenue douloureuse, dure, irréductible et non impulsive à la toux. Il présente également des nausées et des vomissements.",
+       "text": "Quels éléments de l'histoire évoquent une hernie réductible avant la complication ? (2 réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Tuméfaction habituellement indolore"
+        },
+        {
+         "letter": "B",
+         "text": "Disparition de la tuméfaction en position couchée"
+        },
+        {
+         "letter": "C",
+         "text": "Contracture abdominale permanente"
+        },
+        {
+         "letter": "D",
+         "text": "Hématurie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Tuméfaction habituellement indolore ; B. Disparition de la tuméfaction en position couchée",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "Une hernie non compliquée est une tuméfaction indolore qui se réintègre spontanément en position couchée (réductibilité) et est impulsive à la toux.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Hernies, p. 107 ; Cours de chirurgie traumatique et digestif (pptx), diapo 202",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__47",
+       "num": "48",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 : HERNIE INGUINALE ÉTRANGLÉE Un patient de 45 ans se présente pour une douleur vive de l'aine droite. Il explique que, depuis plusieurs mois, une tuméfaction apparaissait à l'effort, disparaissait lorsqu'il se couchait et était habituellement indolore. Depuis quelques heures, la masse est devenue douloureuse, dure, irréductible et non impulsive à la toux. Il présente également des nausées et des vomissements.",
+       "text": "Quel est le diagnostic le plus probable au moment de l'admission ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hernie inguinale étranglée"
+        },
+        {
+         "letter": "B",
+         "text": "Hernie hiatale"
+        },
+        {
+         "letter": "C",
+         "text": "Appendicite chronique"
+        },
+        {
+         "letter": "D",
+         "text": "Cystite"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Hernie inguinale étranglée",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Une douleur vive, une masse devenue dure, irréductible et non impulsive, avec nausées et vomissements : c'est le tableau de l'étranglement herniaire, une urgence chirurgicale.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Étranglement herniaire, p. 107-108",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__48",
+       "num": "49",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 : HERNIE INGUINALE ÉTRANGLÉE Un patient de 45 ans se présente pour une douleur vive de l'aine droite. Il explique que, depuis plusieurs mois, une tuméfaction apparaissait à l'effort, disparaissait lorsqu'il se couchait et était habituellement indolore. Depuis quelques heures, la masse est devenue douloureuse, dure, irréductible et non impulsive à la toux. Il présente également des nausées et des vomissements.",
+       "text": "Quels caractères de la masse sont en faveur de l'étranglement ? (3 réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Dure"
+        },
+        {
+         "letter": "B",
+         "text": "Irréductible"
+        },
+        {
+         "letter": "C",
+         "text": "Non impulsive à la toux"
+        },
+        {
+         "letter": "D",
+         "text": "Toujours indolore"
+        },
+        {
+         "letter": "E",
+         "text": "Disparaît immédiatement au repos"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Dure ; B. Irréductible ; C. Non impulsive à la toux",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "La masse étranglée est dure, tendue, douloureuse, irréductible et non impulsive à la toux. « Toujours indolore » et « disparaît au repos » décrivent au contraire la hernie simple.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), p. 108",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__49",
+       "num": "50",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 : HERNIE INGUINALE ÉTRANGLÉE Un patient de 45 ans se présente pour une douleur vive de l'aine droite. Il explique que, depuis plusieurs mois, une tuméfaction apparaissait à l'effort, disparaissait lorsqu'il se couchait et était habituellement indolore. Depuis quelques heures, la masse est devenue douloureuse, dure, irréductible et non impulsive à la toux. Il présente également des nausées et des vomissements.",
+       "text": "En cas de retard de prise en charge, quelle complication locale grave peut survenir ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Nécrose ischémique de l'anse étranglée"
+        },
+        {
+         "letter": "B",
+         "text": "Otite moyenne"
+        },
+        {
+         "letter": "C",
+         "text": "Fracture du fémur"
+        },
+        {
+         "letter": "D",
+         "text": "Conjonctivite"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Nécrose ischémique de l'anse étranglée",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'étranglement est une striction permanente au collet qui fait souffrir les vaisseaux : ischémie, sphacèle (nécrose) puis perforation du viscère hernié. Si l'anse est nécrosée, on la résèque.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Étranglement herniaire et traitement, p. 107-109",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__50",
+       "num": "51",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2 : PÉRITONITE AIGUË Aux urgences chirurgicales, vous recevez un homme de 26 ans pour douleur abdominale brutale « en coup de poignard », nausées, vomissements et fièvre à 39,5 °C. La pression artérielle est à 90/50 mmHg et le pouls à 110/min. À la palpation, l'abdomen est très douloureux avec une contracture diffuse dite « ventre de bois ».",
+       "text": "Quel diagnostic évoquez-vous en priorité ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Péritonite aiguë généralisée"
+        },
+        {
+         "letter": "B",
+         "text": "Entorse de cheville"
+        },
+        {
+         "letter": "C",
+         "text": "Sinusite"
+        },
+        {
+         "letter": "D",
+         "text": "Hydrocèle"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Péritonite aiguë généralisée",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Une douleur brutale « en coup de poignard », de la fièvre, une hypotension avec tachycardie et une contracture diffuse en « ventre de bois » forment le tableau de la péritonite aiguë généralisée (urgence abdominale).\n\nSource : Cours de chirurgie traumatique et digestif (pptx), Péritonites, diapo 236 ; Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), p. 91",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__51",
+       "num": "52",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2 : PÉRITONITE AIGUË Aux urgences chirurgicales, vous recevez un homme de 26 ans pour douleur abdominale brutale « en coup de poignard », nausées, vomissements et fièvre à 39,5 °C. La pression artérielle est à 90/50 mmHg et le pouls à 110/min. À la palpation, l'abdomen est très douloureux avec une contracture diffuse dite « ventre de bois ».",
+       "text": "Quelles affections peuvent provoquer une péritonite secondaire ? (2 réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Ulcère gastro-duodénal perforé"
+        },
+        {
+         "letter": "B",
+         "text": "Appendicite perforée"
+        },
+        {
+         "letter": "C",
+         "text": "Myopie"
+        },
+        {
+         "letter": "D",
+         "text": "Rhinite allergique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Ulcère gastro-duodénal perforé ; B. Appendicite perforée ; C. Myopie",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "Les causes les plus courantes de la péritonite secondaire sont les ulcères gastro-duodénaux (perforés), l'appendicite rompue, la diverticulite, la cholécystite, la pancréatite aiguë, la salpingite… La myopie et la rhinite allergique n'ont aucun lien avec le péritoine.\n\nSource : Cours de chirurgie traumatique et digestif (pptx), Péritonites – étiologies, diapo 235",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__52",
+       "num": "53",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2 : PÉRITONITE AIGUË Aux urgences chirurgicales, vous recevez un homme de 26 ans pour douleur abdominale brutale « en coup de poignard », nausées, vomissements et fièvre à 39,5 °C. La pression artérielle est à 90/50 mmHg et le pouls à 110/min. À la palpation, l'abdomen est très douloureux avec une contracture diffuse dite « ventre de bois ».",
+       "text": "Quel signe physique renforce le diagnostic de péritonite ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Contracture abdominale"
+        },
+        {
+         "letter": "B",
+         "text": "Pâleur conjonctivale isolée"
+        },
+        {
+         "letter": "C",
+         "text": "Myosis"
+        },
+        {
+         "letter": "D",
+         "text": "Douleur de l'épaule"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Contracture abdominale",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La contracture abdominale (défense généralisée, ventre de bois) est le signe physique majeur de la péritonite. La pâleur conjonctivale isolée, le myosis et la douleur de l'épaule ne sont pas spécifiques.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), p. 91 ; Cours de chirurgie traumatique et digestif (pptx), diapo 236",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__53",
+       "num": "54",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2 : PÉRITONITE AIGUË Aux urgences chirurgicales, vous recevez un homme de 26 ans pour douleur abdominale brutale « en coup de poignard », nausées, vomissements et fièvre à 39,5 °C. La pression artérielle est à 90/50 mmHg et le pouls à 110/min. À la palpation, l'abdomen est très douloureux avec une contracture diffuse dite « ventre de bois ».",
+       "text": "Avant l'arrivée du médecin, quelles actions infirmières immédiates sont appropriées ? (3 réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Accueillir et installer le patient"
+        },
+        {
+         "letter": "B",
+         "text": "Prendre les constantes vitales"
+        },
+        {
+         "letter": "C",
+         "text": "Prévoir un récipient en cas de vomissements"
+        },
+        {
+         "letter": "D",
+         "text": "Faire manger le patient"
+        },
+        {
+         "letter": "E",
+         "text": "Annoncer un diagnostic définitif au patient sans avis médical"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Accueillir et installer le patient ; B. Prendre les constantes vitales ; C. Prévoir un récipient en cas de vomissements",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "Avant l'arrivée du médecin, l'infirmier accueille et installe le patient, prend les constantes (pouls, TA, température) et prévient les vomissements. Le patient doit rester à jeun et l'infirmier n'annonce pas de diagnostic.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Péritonite – interventions infirmières, p. 133",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__54",
+       "num": "55",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2 : PÉRITONITE AIGUË Aux urgences chirurgicales, vous recevez un homme de 26 ans pour douleur abdominale brutale « en coup de poignard », nausées, vomissements et fièvre à 39,5 °C. La pression artérielle est à 90/50 mmHg et le pouls à 110/min. À la palpation, l'abdomen est très douloureux avec une contracture diffuse dite « ventre de bois ».",
+       "text": "Quels éléments peuvent faire partie de la prise en charge initiale prescrite d'une péritonite ? (4 réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Réanimation hydro-électrolytique"
+        },
+        {
+         "letter": "B",
+         "text": "Antibiothérapie"
+        },
+        {
+         "letter": "C",
+         "text": "Aspiration digestive par sonde si indiquée"
+        },
+        {
+         "letter": "D",
+         "text": "Traitement chirurgical de la cause"
+        },
+        {
+         "letter": "E",
+         "text": "Alimentation orale immédiate"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Réanimation hydro-électrolytique ; B. Antibiothérapie ; C. Aspiration digestive par sonde si indiquée ; D. Traitement chirurgical de la cause",
+       "answerLetters": [
+        "A",
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "Le traitement médical prépare rapidement le patient à l'intervention : aspiration gastrique, correction des déséquilibres hydro-électrolytiques et antibiothérapie à large spectre. Ensuite, laparotomie pour traiter la cause. Pas d'alimentation orale (patient à jeun).\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Péritonite – traitement, p. 133",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__55",
+       "num": "56",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°3 : OCCLUSION AIGUË DU GRÊLE Un homme de 68 ans est admis pour douleurs abdominales, vomissements répétés, arrêt des matières et des gaz et distension abdominale. Une radiographie de l'abdomen sans préparation montre plusieurs niveaux hydro-aériques centraux. Le chirurgien retient le diagnostic d'occlusion aiguë du grêle.",
+       "text": "Quel diagnostic est le plus compatible avec ce tableau ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Occlusion aiguë du grêle"
+        },
+        {
+         "letter": "B",
+         "text": "Cystite simple"
+        },
+        {
+         "letter": "C",
+         "text": "Pneumonie"
+        },
+        {
+         "letter": "D",
+         "text": "Fracture du radius"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Occlusion aiguë du grêle",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les douleurs, les vomissements répétés, l'arrêt des matières et des gaz, la distension et les niveaux hydro-aériques centraux à l'ASP orientent vers une occlusion aiguë du grêle.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Occlusions, p. 125",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__56",
+       "num": "57",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°3 : OCCLUSION AIGUË DU GRÊLE Un homme de 68 ans est admis pour douleurs abdominales, vomissements répétés, arrêt des matières et des gaz et distension abdominale. Une radiographie de l'abdomen sans préparation montre plusieurs niveaux hydro-aériques centraux. Le chirurgien retient le diagnostic d'occlusion aiguë du grêle.",
+       "text": "Quels sont les quatre signes essentiels du syndrome occlusif présents ou attendus ? (4 réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Douleurs abdominales"
+        },
+        {
+         "letter": "B",
+         "text": "Vomissements"
+        },
+        {
+         "letter": "C",
+         "text": "Arrêt des matières et des gaz"
+        },
+        {
+         "letter": "D",
+         "text": "Météorisme abdominal"
+        },
+        {
+         "letter": "E",
+         "text": "Hémoptysie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Douleurs abdominales ; B. Vomissements ; C. Arrêt des matières et des gaz ; D. Météorisme abdominal",
+       "answerLetters": [
+        "A",
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "Le syndrome occlusif comporte 4 symptômes essentiels : 3 signes fonctionnels (douleurs abdominales, vomissements, arrêt des matières et des gaz) et 1 signe physique (météorisme abdominal). L'hémoptysie n'en fait pas partie.\n\nSource : Cours de chirurgie traumatique et digestif (pptx), Syndrome occlusif, diapos 225-226",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__57",
+       "num": "58",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°3 : OCCLUSION AIGUË DU GRÊLE Un homme de 68 ans est admis pour douleurs abdominales, vomissements répétés, arrêt des matières et des gaz et distension abdominale. Une radiographie de l'abdomen sans préparation montre plusieurs niveaux hydro-aériques centraux. Le chirurgien retient le diagnostic d'occlusion aiguë du grêle.",
+       "text": "Quels sont les trois signes fonctionnels classiques de l'occlusion ? (3 réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Douleur abdominale"
+        },
+        {
+         "letter": "B",
+         "text": "Vomissements"
+        },
+        {
+         "letter": "C",
+         "text": "Arrêt des matières et des gaz"
+        },
+        {
+         "letter": "D",
+         "text": "Météorisme observé à l'examen"
+        },
+        {
+         "letter": "E",
+         "text": "Hyperleucocytose"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Douleur abdominale ; B. Vomissements ; C. Arrêt des matières et des gaz",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "Les 3 signes fonctionnels sont la douleur, les vomissements et l'arrêt des matières et des gaz. Le météorisme est un signe physique ; l'hyperleucocytose est un signe biologique.\n\nSource : Cours de chirurgie traumatique et digestif (pptx), diapos 225-227",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__58",
+       "num": "59",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°3 : OCCLUSION AIGUË DU GRÊLE Un homme de 68 ans est admis pour douleurs abdominales, vomissements répétés, arrêt des matières et des gaz et distension abdominale. Une radiographie de l'abdomen sans préparation montre plusieurs niveaux hydro-aériques centraux. Le chirurgien retient le diagnostic d'occlusion aiguë du grêle.",
+       "text": "Les niveaux hydro-aériques centraux et multiples orientent vers une occlusion",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Du grêle"
+        },
+        {
+         "letter": "B",
+         "text": "Du côlon distal"
+        },
+        {
+         "letter": "C",
+         "text": "De l'œsophage"
+        },
+        {
+         "letter": "D",
+         "text": "De la vessie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Du grêle",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans l'occlusion du grêle, les images hydro-aériques sont centrales, multiples, plus hautes que larges ; dans l'occlusion colique, elles sont périphériques et dessinent le cadre colique.\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Diagnostic du siège de l'occlusion, p. 125-126",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j5-ide__59",
+       "num": "60",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°3 : OCCLUSION AIGUË DU GRÊLE Un homme de 68 ans est admis pour douleurs abdominales, vomissements répétés, arrêt des matières et des gaz et distension abdominale. Une radiographie de l'abdomen sans préparation montre plusieurs niveaux hydro-aériques centraux. Le chirurgien retient le diagnostic d'occlusion aiguë du grêle.",
+       "text": "Quels sont deux objectifs majeurs de la prise en charge d'une occlusion mécanique ? (2 réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Corriger les désordres hydro-électrolytiques"
+        },
+        {
+         "letter": "B",
+         "text": "Lever l'obstacle"
+        },
+        {
+         "letter": "C",
+         "text": "Donner systématiquement à manger"
+        },
+        {
+         "letter": "D",
+         "text": "Faire marcher le patient pour débloquer l'intestin"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Corriger les désordres hydro-électrolytiques ; B. Lever l'obstacle",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "Le traitement des occlusions comporte une double action : la correction des déséquilibres humoraux (hydro-électrolytiques) et la suppression de l'obstacle. On ne fait pas manger le patient (aspiration digestive, perfusion).\n\nSource : Prise en charge infirmière des pathologies chirurgicales – L2 IDE 2025 (licence 2 ide.pdf), Occlusions – traitement, p. 126",
+       "sourceDoc": "Prépa D.E — J5 Chirurgie IDE (corrigé expliqué)",
+       "sourceFile": "J5_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

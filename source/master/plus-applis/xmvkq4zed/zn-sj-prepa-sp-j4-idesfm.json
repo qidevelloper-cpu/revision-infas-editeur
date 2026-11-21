@@ -1,0 +1,1562 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zn-sj-prepa-sp-j4-idesfm",
+ "titre": "Préparation D.E (J) · J4 Santé publique IDE/SFM",
+ "session": "J",
+ "annee": 2026,
+ "nq": 43,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+   "sha256": "45110ca169c7b815e8c5983cb6aa915440763cce1306bb015109584afb42df7f"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Santé publique · Prépa D.E J4 (IDE/SFM)",
+     "slug": "prepa-sp-j4-idesfm",
+     "pages": "",
+     "count": 43,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Santé publique",
+     "source": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le seuil d'alerte est le niveau à partir duquel la riposte doit être déclenchée face à une menace d'épidémie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le seuil d'alerte déclenche la vigilance : notification, investigation, vérification des stocks et préparation. C'est le seuil épidémique qui déclenche la riposte.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'accessibilité aux soins consiste à mettre les soins de santé à proximité des populations et à un prix non exorbitant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'accessibilité des soins ne se limite pas à la proximité géographique et au prix : elle est aussi culturelle et fonctionnelle (soins acceptables, disponibles, horaires adaptés…). L'énoncé est donc incomplet.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le non-respect de la politique du flacon entamé est un facteur évitable de perte de vaccins.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Faux ». En PEV, les pertes en flacons non ouverts (rupture de la chaîne du froid, péremption, casse, vol) sont dites évitables ; les pertes liées aux flacons entamés sont classées avec les pertes en flacons ouverts. Remarque : L'énoncé prête à discussion : respecter la politique du flacon entamé permet justement de réduire les pertes.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En Côte d'Ivoire la politique des SSP comprend deux composantes préventives et trois composantes curatives",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les soins de santé primaires (Alma-Ata, 1978) comprennent 8 composantes essentielles (éducation pour la santé, alimentation, eau et assainissement, SMI/PF, vaccination, lutte contre les endémies locales, traitement des maladies courantes, médicaments essentiels), et non 2 + 3.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "On peut administrer le VPI à tous les enfants ayant un âge compris entre 0 et 23 mois sans exception.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le VPI est un vaccin inactivé, sans risque de polio vaccinale, qui peut être donné à tous les enfants de la cible (y compris immunodéprimés). Remarque : « Sans exception » est absolu : une réaction allergique grave à une dose précédente reste une contre-indication.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les doses de vaccins perdues pour que la vaccination ait lieu sont considérées comme des doses sacrifiées",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Ouvrir un flacon multidose pour vacciner un petit nombre d'enfants fait perdre les doses restantes : ce sont des doses « sacrifiées » pour ne pas manquer d'occasion de vacciner.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Plus le taux de perte est élévé, moins le facteur de perte est élevé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Facteur de perte = 100 / (100 – taux de perte). Quand le taux de perte augmente, le facteur de perte augmente aussi.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les cas de poliomyélite à virus de type sauvage, l'excrétion virale dans les selles augmente au-delà de deux semaines après le début de la paralysie.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'excrétion du poliovirus dans les selles est maximale au début de la paralysie puis diminue : c'est pourquoi les selles sont prélevées dans les 14 jours suivant le début de la paralysie.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le sujet d'intérêt en épidémiologie est le malade.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'épidémiologie étudie la santé des populations (groupes), et non le malade pris individuellement, qui relève de la clinique.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En matière de vaccination, l'intervalle minimum existe",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Entre deux doses d'un même antigène (par exemple Penta 1, 2, 3), il faut respecter un intervalle minimum de 4 semaines ; il n'y a pas d'intervalle maximum.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les centres antituberculeux sont situés au niveau périphérique du versant administratif du PNLT",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les centres antituberculeux sont des structures de dépistage et de traitement (versant technique/opérationnel du programme), situés au niveau intermédiaire, pas au niveau périphérique du versant administratif.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le superviseur ayant le style autocratique cherche à tout comprendre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le superviseur autocratique centralise : il veut tout savoir, tout contrôler et décider seul, sans déléguer.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'intervention en approche épidémiologique repose sur le contrôle, l'éradication, l'élimination et la maîtrise de la maladie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Ce sont les niveaux d'objectifs de la lutte contre une maladie : maîtrise/contrôle (réduire), élimination (supprimer dans une zone), éradication (supprimer partout).\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le processus d'évacuation des ordures ménagères comprend le stockage et le ramassage.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La gestion des ordures ménagères comprend la pré-collecte et le stockage, la collecte (ramassage), le transport et le traitement ou l'élimination.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le taux de létalité permet d'évaluer la qualité de la prise en charge des malades",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le taux de létalité (décès parmi les malades) reflète la gravité de la maladie et la qualité de la prise en charge des cas.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__15",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La participation communautaire a été prônée en 1985 à Bamako pour garantir la mise en œuvre et la pérennisation d'un système de financement communautaire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'Initiative de Bamako date de 1987 (et non 1985).\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__16",
+       "num": "17",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'absence d'humidité dans le logement est un critère de salubrité de l'habitat relatif aux besoins physiologiques",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un logement sain doit satisfaire les besoins physiologiques de l'occupant : aération, éclairage, température, absence d'humidité.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__17",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "- Le bassin de desserte correspond à une zone située dans un rayon de 15 km autour d'un centre de santé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai » : le bassin de desserte correspond à la population vivant dans un rayon de 15 km autour du centre de santé. Remarque : Ne pas confondre avec l'accessibilité géographique (population à moins de 5 km).\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__18",
+       "num": "19",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le district est l'unité sanitaire décentralisée regroupant tous les services sanitaires publics tant en milieu urbain que rural",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le district sanitaire regroupe l'ensemble des structures de santé de sa zone, publiques mais aussi privées, confessionnelles et communautaires, et pas seulement les services publics.\n\nSource : (explication hors cours du projet) Questions à choix",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nombre de dose et la voie d'administration correcte du vaccin Rotarix est:",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Deux doses de 0.5 ml en IM"
+        },
+        {
+         "letter": "B",
+         "text": "Trois doses de 0.5 ml en IM"
+        },
+        {
+         "letter": "C",
+         "text": "Deux doses de 2 ml par voie orale"
+        },
+        {
+         "letter": "D",
+         "text": "Trois doses de 2 ml par voie orale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Deux doses de 2 ml par voie orale",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le vaccin rotavirus Rotarix se donne par voie orale en 2 doses (à 6 et 10 semaines dans le PEV). Remarque : Le volume habituel d'une dose de Rotarix est de 1,5 ml ; C reste la seule option avec 2 doses par voie orale.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les problèmes suivants causés par l'abus des drogues, indiquez ceux qui sont d'ordre sanitaire :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'absentéisme scolaire"
+        },
+        {
+         "letter": "B",
+         "text": "L'hallucination"
+        },
+        {
+         "letter": "C",
+         "text": "Les accidents de la voie publique"
+        },
+        {
+         "letter": "D",
+         "text": "Le délire"
+        },
+        {
+         "letter": "E",
+         "text": "Le suicide"
+        },
+        {
+         "letter": "F",
+         "text": "L'asthénie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. L'hallucination ; D. Le délire ; F. L'asthénie",
+       "answerLetters": [
+        "B",
+        "D",
+        "F"
+       ],
+       "explanation": "Hallucinations, délire et asthénie sont des atteintes de la santé de la personne. L'absentéisme scolaire et les accidents de la voie publique sont des problèmes sociaux. Remarque : Le suicide n'est pas retenu par la correction nationale de la Prépa DE (les J).\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, cocher celles qui sont les missions assignées à un district sanitaire : Entourer la bonne réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Evaluation des agents de santé"
+        },
+        {
+         "letter": "B",
+         "text": "Promotion des soins de santé primaires"
+        },
+        {
+         "letter": "C",
+         "text": "Suivi et évaluation des activités"
+        },
+        {
+         "letter": "D",
+         "text": "Coordination des activités sanitaires"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Promotion des soins de santé primaires ; C. Suivi et évaluation des activités ; D. Coordination des activités sanitaires",
+       "answerLetters": [
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "Le district met en œuvre les SSP, coordonne les activités de santé de sa zone et en assure le suivi et l'évaluation. L'évaluation individuelle des agents n'est pas une mission du district en tant que tel.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le système d'évacuation des excréta le plus couramment utilisé sans entraînement des matières fécales est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La fosse septique"
+        },
+        {
+         "letter": "B",
+         "text": "La fosse d'aisance"
+        },
+        {
+         "letter": "C",
+         "text": "La latrine à fosse"
+        },
+        {
+         "letter": "D",
+         "text": "Le réseau d'égouts"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. La latrine à fosse",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La latrine à fosse (sèche) n'utilise pas d'eau pour entraîner les matières ; fosse septique et égouts sont des systèmes à chasse d'eau. C'est le système le plus répandu.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle méthode permet de lutter contre les moustiques adultes ?-",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Combler les flaques d'eau"
+        },
+        {
+         "letter": "B",
+         "text": "Curer les caniveaux"
+        },
+        {
+         "letter": "C",
+         "text": "Dormir sous une moustiquaire imprégnée"
+        },
+        {
+         "letter": "D",
+         "text": "Vider les récipients contenant de l'eau"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Dormir sous une moustiquaire imprégnée",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La moustiquaire imprégnée d'insecticide protège et tue les moustiques adultes. Combler les flaques, curer les caniveaux et vider les récipients détruisent les gîtes larvaires (lutte anti-larvaire).\n\nSource : SONU L3, Paludisme et grossesse (prévention) p. 90-91 (partiellement)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les antigènes ci-dessous, cochez ceux qui ont pour site d'administration la cuisse.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "BCG ; Td ; PCV 13"
+        },
+        {
+         "letter": "B",
+         "text": "VPI ; Rota ;"
+        },
+        {
+         "letter": "C",
+         "text": "DN hépatite ; VPI ; Men A ; VAP"
+        },
+        {
+         "letter": "D",
+         "text": "VPO ; HPV ; RR"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. DN hépatite ; VPI ; Men A ; VAP",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Chez le nourrisson, les vaccins injectables du PEV (Penta/DTC-HépB, VPI, PCV, Men A…) se font dans la face antéro-latérale de la cuisse. Les autres groupes contiennent un vaccin oral (Rota, VPO), le BCG (intradermique au bras) ou le Td (bras).\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les facteurs susceptibles d'influencer le changement social de comportement",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La perception"
+        },
+        {
+         "letter": "B",
+         "text": "Le milieu social"
+        },
+        {
+         "letter": "C",
+         "text": "La culture"
+        },
+        {
+         "letter": "D",
+         "text": "Les caractéristiques personnelles et psychologiques"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Le milieu social ; C. La culture",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Pour un changement social de comportement, on retient les facteurs de l'environnement social : le milieu social et la culture. La perception et les caractéristiques personnelles sont des facteurs individuels.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En cas de paralysie flasque aigue un prélèvement des selles se fait :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Entre J10 et J14"
+        },
+        {
+         "letter": "B",
+         "text": "Entre J14 et J60"
+        },
+        {
+         "letter": "C",
+         "text": "Entre J61 et 06 mois"
+        },
+        {
+         "letter": "D",
+         "text": "Après 06 mois"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Entre J10 et J14 ; B. Entre J14 et J60",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient A et B. Remarque : Selon les directives de surveillance des PFA, les 2 échantillons de selles se prélèvent dans les 14 jours suivant le début de la paralysie ; J60 correspond à l'examen de suivi. Le choix B est à confirmer avec le cours de santé publique.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une endémie est un phénomène :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Limité dans le temps et limité dans l'espace"
+        },
+        {
+         "letter": "B",
+         "text": "Illimité dans le temps et illimité dans l'espace"
+        },
+        {
+         "letter": "C",
+         "text": "Limité dans le temps et illimité dans l'espace"
+        },
+        {
+         "letter": "D",
+         "text": "Illimité dans le temps et limité dans l'espace"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Illimité dans le temps et limité dans l'espace",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "L'endémie est la présence habituelle d'une maladie dans une zone donnée : durable (illimitée dans le temps) mais localisée. L'épidémie est limitée dans le temps ; la pandémie s'étend à plusieurs pays ou continents.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces antigènes suivants, lequel est vivant atténué ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Td"
+        },
+        {
+         "letter": "B",
+         "text": "VPO"
+        },
+        {
+         "letter": "C",
+         "text": "VPI"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. VPO",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le VPO (polio oral) contient des virus vivants atténués. Le VPI est un vaccin inactivé ; le Td contient des anatoxines.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La MOBSOC a pour but :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Promouvoir la santé communautaire"
+        },
+        {
+         "letter": "B",
+         "text": "Changer une situation sociale et communautaire en un sens favorable à la société selon ses valeurs et motivations"
+        },
+        {
+         "letter": "C",
+         "text": "Inciter la communauté à se mobiliser et à mobiliser leurs propres moyens pour remédier aux problèmes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Changer une situation sociale et communautaire en un sens favorable à la société selon ses valeurs et motivations",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La mobilisation sociale vise à changer une situation sociale et communautaire dans un sens favorable, en s'appuyant sur les valeurs et motivations de la société. Les options A et C décrivent des moyens ou des effets plus limités.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les actions suivantes, une seule permet d'améliorer la saveur et l'odeur de l'eau :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'ébullition"
+        },
+        {
+         "letter": "B",
+         "text": "Usage de charbon de bois"
+        },
+        {
+         "letter": "C",
+         "text": "La sédimentation"
+        },
+        {
+         "letter": "D",
+         "text": "La filtration"
+        },
+        {
+         "letter": "E",
+         "text": "L'ionisation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Usage de charbon de bois",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le charbon (de bois ou actif) adsorbe les matières qui donnent goût et odeur à l'eau. L'ébullition désinfecte, la sédimentation et la filtration clarifient.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les éléments suivants, identifier ceux qui constituent des différentes catastrophes naturelles :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La guerre"
+        },
+        {
+         "letter": "B",
+         "text": "Les cyclones"
+        },
+        {
+         "letter": "C",
+         "text": "Les tremblements de terre"
+        },
+        {
+         "letter": "D",
+         "text": "Le tsunami"
+        },
+        {
+         "letter": "E",
+         "text": "Les graves accidents de circulation"
+        },
+        {
+         "letter": "F",
+         "text": "Les génocides"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Les cyclones ; C. Les tremblements de terre ; D. Le tsunami",
+       "answerLetters": [
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "Cyclones, tremblements de terre et tsunamis sont d'origine naturelle. Guerre, génocide et accidents graves de circulation sont des catastrophes d'origine humaine.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les vaccins du PEV qui sont sensibles à la lumière sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "BCG"
+        },
+        {
+         "letter": "B",
+         "text": "RR"
+        },
+        {
+         "letter": "C",
+         "text": "VAA"
+        },
+        {
+         "letter": "D",
+         "text": "Penta"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. BCG ; B. RR",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "Les vaccins lyophilisés BCG et RR (rougeole-rubéole) sont sensibles à la lumière : on les protège du soleil et de la lumière vive, surtout après reconstitution. Remarque : Le VAA (fièvre jaune) est aussi souvent cité comme sensible à la lumière ; la correction nationale de la Prépa DE (les J) ne retient que BCG et RR.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Trouvez les bonnes combinaisons entre les dates et les évènements",
+       "options": [
+        {
+         "letter": "A",
+         "text": ": (1, f) ; (2, b) ; (3, c) ; (4, d) ; (5, a) ; (6, e)"
+        },
+        {
+         "letter": "B",
+         "text": ": (1, f) ; (2, c) ; (3, b) ; (4, a) ; (5, d) ; (6, e)"
+        },
+        {
+         "letter": "C",
+         "text": ": (1, e) ; (2, b) ; (3, c) ; (4, d) ; (5, a) ; (6, f)"
+        },
+        {
+         "letter": "D",
+         "text": ": (1, c) ; (2, f) ; (3, a) ; (4, b) ; (5, e) ; (6, d)"
+        },
+        {
+         "letter": "E",
+         "text": ": (1, d) ; (2, e) ; (3, f) ; (4, c) ; (5, b) ; (6, a)"
+        },
+        {
+         "letter": "F",
+         "text": "Option 2"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. : (1, f) ; (2, b) ; (3, c) ; (4, d) ; (5, a) ; (6, e)",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient la combinaison A. Remarque : Dans le sujet, la liste des dates (1 à 6) et des événements (a à f) n'apparaît pas : seules les combinaisons sont visibles. L'explication ne peut donc pas être détaillée. « Option 2 » est un choix vide laissé dans le sujet.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les maladies suivantes, indiquez celles qui sont sous surveillance en Côte d'Ivoire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le cholera"
+        },
+        {
+         "letter": "B",
+         "text": "Le paludisme"
+        },
+        {
+         "letter": "C",
+         "text": "La fièvre hémorragique virale"
+        },
+        {
+         "letter": "D",
+         "text": "La dracunculose"
+        },
+        {
+         "letter": "E",
+         "text": "Les infections respiratoires aiguës"
+        },
+        {
+         "letter": "F",
+         "text": "Les infections urinaires"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Le cholera ; C. La fièvre hémorragique virale ; D. La dracunculose",
+       "answerLetters": [
+        "A",
+        "C",
+        "D"
+       ],
+       "explanation": "Choléra et fièvres hémorragiques virales sont des maladies à potentiel épidémique à déclaration immédiate ; la dracunculose (ver de Guinée) est une maladie en voie d'éradication sous surveillance. La correction nationale de la Prépa DE (les J) ne retient pas le paludisme ni les IRA.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les critères suivants, indiquez ceux qui permettent de sélectionner un problème prioritaire de santé :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'ampleur du problème"
+        },
+        {
+         "letter": "B",
+         "text": "La gravité du problème"
+        },
+        {
+         "letter": "C",
+         "text": "La population totale de la localité"
+        },
+        {
+         "letter": "D",
+         "text": "Le niveau d'instruction des populations"
+        },
+        {
+         "letter": "E",
+         "text": "La vulnérabilité du problème"
+        },
+        {
+         "letter": "F",
+         "text": "La durée des interventions"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. L'ampleur du problème ; B. La gravité du problème ; E. La vulnérabilité du problème",
+       "answerLetters": [
+        "A",
+        "B",
+        "E"
+       ],
+       "explanation": "Un problème de santé prioritaire se choisit selon son ampleur (fréquence), sa gravité et sa vulnérabilité (possibilité d'agir avec les moyens disponibles).\n\nSource : (explication hors cours du projet) ETUDE DE CAS Cas clinique / étude de cas Après votre formation, vous êtes affecté(e) au centre de santé de Sinikosson où travaillent deux infirmiers et une sage-femme diplômé(e)s d'état. La population totale de ce centre de santé a été estimée à 5000 habitants au 31/12/2019 et à 5100 habitants au 1er/01/2021. Pendant l'année 2021, les données sanitaires suivantes ont été relevées dans ce village : - 25 naissances enregistrées dont 04 mort-nés ; - 105 cas de paludisme et 35 cas de diarrhées ; - 03 décès des femmes enceintes dont 01 à la suite d'une chute sur la route du champ ; - 06 femmes décédées dont 04 après 5 semaines de suites de couches et 02 après 7 semaines de suites de couches ; Par ailleurs, le dispensaire et la maternité disposent de 18 lits et le ratio personnel infirmier/lit du dispensaire est de 0,2. À partir du texte ci-dessus répondre aux questions ci-dessous",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__36",
+       "num": "37",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS Cas clinique / étude de cas Après votre formation, vous êtes affecté(e) au centre de santé de Sinikosson où travaillent deux infirmiers et une sage-femme diplômé(e)s d'état. La population totale de ce centre de santé a été estimée à 5000 habitants au 31/12/2019 et à 5100 habitants au 1er/01/2021. Pendant l'année 2021, les données sanitaires suivantes ont été relevées dans ce village : - 25 naissances enregistrées dont 04 mort-nés ; - 105 cas de paludisme et 35 cas de diarrhées ; - 03 décès des femmes enceintes dont 01 à la suite d'une chute sur la route du champ ; - 06 femmes décédées dont 04 après 5 semaines de suites de couches et 02 après 7 semaines de suites de couches ; Par ailleurs, le dispensaire et la maternité disposent de 18 lits et le ratio personnel infirmier/lit du dispensaire est de 0,2. À partir du texte ci-dessus répondre aux questions ci-dessous",
+       "text": "Quel est le taux d'accroissement annuel de la population de Sinikosson ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "0,02%"
+        },
+        {
+         "letter": "B",
+         "text": "2%"
+        },
+        {
+         "letter": "C",
+         "text": "0,2 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 2%",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Accroissement sur un an = (5100 – 5000) / 5000 × 100 = 2 %.\n\nSource : (calcul à partir des données de l'énoncé)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__37",
+       "num": "38",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS Cas clinique / étude de cas Après votre formation, vous êtes affecté(e) au centre de santé de Sinikosson où travaillent deux infirmiers et une sage-femme diplômé(e)s d'état. La population totale de ce centre de santé a été estimée à 5000 habitants au 31/12/2019 et à 5100 habitants au 1er/01/2021. Pendant l'année 2021, les données sanitaires suivantes ont été relevées dans ce village : - 25 naissances enregistrées dont 04 mort-nés ; - 105 cas de paludisme et 35 cas de diarrhées ; - 03 décès des femmes enceintes dont 01 à la suite d'une chute sur la route du champ ; - 06 femmes décédées dont 04 après 5 semaines de suites de couches et 02 après 7 semaines de suites de couches ; Par ailleurs, le dispensaire et la maternité disposent de 18 lits et le ratio personnel infirmier/lit du dispensaire est de 0,2. À partir du texte ci-dessus répondre aux questions ci-dessous",
+       "text": "Quelle est la population totale en 2021 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "5100"
+        },
+        {
+         "letter": "B",
+         "text": "5200"
+        },
+        {
+         "letter": "C",
+         "text": "5202"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 5202",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La population au 1er janvier 2021 (5100) augmente de 2 % pendant l'année : 5100 × 1,02 = 5202 habitants en fin d'année 2021.\n\nSource : (calcul à partir des données de l'énoncé)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__38",
+       "num": "39",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS Cas clinique / étude de cas Après votre formation, vous êtes affecté(e) au centre de santé de Sinikosson où travaillent deux infirmiers et une sage-femme diplômé(e)s d'état. La population totale de ce centre de santé a été estimée à 5000 habitants au 31/12/2019 et à 5100 habitants au 1er/01/2021. Pendant l'année 2021, les données sanitaires suivantes ont été relevées dans ce village : - 25 naissances enregistrées dont 04 mort-nés ; - 105 cas de paludisme et 35 cas de diarrhées ; - 03 décès des femmes enceintes dont 01 à la suite d'une chute sur la route du champ ; - 06 femmes décédées dont 04 après 5 semaines de suites de couches et 02 après 7 semaines de suites de couches ; Par ailleurs, le dispensaire et la maternité disposent de 18 lits et le ratio personnel infirmier/lit du dispensaire est de 0,2. À partir du texte ci-dessus répondre aux questions ci-dessous",
+       "text": "Quelle est la population moyenne en 2021 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "5151"
+        },
+        {
+         "letter": "B",
+         "text": "5150"
+        },
+        {
+         "letter": "C",
+         "text": "5050"
+        },
+        {
+         "letter": "D",
+         "text": "5253"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 5151",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Population moyenne = (population de début d'année + population de fin d'année) / 2 = (5100 + 5202) / 2 = 5151.\n\nSource : (calcul à partir des données de l'énoncé)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__39",
+       "num": "40",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS Cas clinique / étude de cas Après votre formation, vous êtes affecté(e) au centre de santé de Sinikosson où travaillent deux infirmiers et une sage-femme diplômé(e)s d'état. La population totale de ce centre de santé a été estimée à 5000 habitants au 31/12/2019 et à 5100 habitants au 1er/01/2021. Pendant l'année 2021, les données sanitaires suivantes ont été relevées dans ce village : - 25 naissances enregistrées dont 04 mort-nés ; - 105 cas de paludisme et 35 cas de diarrhées ; - 03 décès des femmes enceintes dont 01 à la suite d'une chute sur la route du champ ; - 06 femmes décédées dont 04 après 5 semaines de suites de couches et 02 après 7 semaines de suites de couches ; Par ailleurs, le dispensaire et la maternité disposent de 18 lits et le ratio personnel infirmier/lit du dispensaire est de 0,2. À partir du texte ci-dessus répondre aux questions ci-dessous",
+       "text": "Quel est le nombre de femmes en âge de reproduction en 2021 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1020"
+        },
+        {
+         "letter": "B",
+         "text": "1030"
+        },
+        {
+         "letter": "C",
+         "text": "1041"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 1041",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les femmes en âge de reproduction représentent environ 20 % de la population : 5202 × 0,20 = 1040,4, arrondi à 1041. Remarque : Le taux de 20 % est le taux habituellement utilisé ; l'arrondi se fait à l'unité supérieure.\n\nSource : (calcul ; le pourcentage de 20 % n'est pas dans l'énoncé)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__40",
+       "num": "41",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS Cas clinique / étude de cas Après votre formation, vous êtes affecté(e) au centre de santé de Sinikosson où travaillent deux infirmiers et une sage-femme diplômé(e)s d'état. La population totale de ce centre de santé a été estimée à 5000 habitants au 31/12/2019 et à 5100 habitants au 1er/01/2021. Pendant l'année 2021, les données sanitaires suivantes ont été relevées dans ce village : - 25 naissances enregistrées dont 04 mort-nés ; - 105 cas de paludisme et 35 cas de diarrhées ; - 03 décès des femmes enceintes dont 01 à la suite d'une chute sur la route du champ ; - 06 femmes décédées dont 04 après 5 semaines de suites de couches et 02 après 7 semaines de suites de couches ; Par ailleurs, le dispensaire et la maternité disposent de 18 lits et le ratio personnel infirmier/lit du dispensaire est de 0,2. À partir du texte ci-dessus répondre aux questions ci-dessous",
+       "text": "Quel est le nombre des enfants de 0 à 23 mois en 2021",
+       "options": [
+        {
+         "letter": "A",
+         "text": "352"
+        },
+        {
+         "letter": "B",
+         "text": "256"
+        },
+        {
+         "letter": "C",
+         "text": "355"
+        },
+        {
+         "letter": "D",
+         "text": "445"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 355",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La cible 0-23 mois se calcule en appliquant à la population le pourcentage national de cette tranche d'âge ; la correction nationale de la Prépa DE (les J) retient 355. Remarque : Le pourcentage utilisé n'est pas donné dans le sujet : le calcul ne peut pas être refait avec les seules données de l'énoncé.\n\nSource : (calcul ; le pourcentage n'est pas dans l'énoncé)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__41",
+       "num": "42",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS Cas clinique / étude de cas Après votre formation, vous êtes affecté(e) au centre de santé de Sinikosson où travaillent deux infirmiers et une sage-femme diplômé(e)s d'état. La population totale de ce centre de santé a été estimée à 5000 habitants au 31/12/2019 et à 5100 habitants au 1er/01/2021. Pendant l'année 2021, les données sanitaires suivantes ont été relevées dans ce village : - 25 naissances enregistrées dont 04 mort-nés ; - 105 cas de paludisme et 35 cas de diarrhées ; - 03 décès des femmes enceintes dont 01 à la suite d'une chute sur la route du champ ; - 06 femmes décédées dont 04 après 5 semaines de suites de couches et 02 après 7 semaines de suites de couches ; Par ailleurs, le dispensaire et la maternité disposent de 18 lits et le ratio personnel infirmier/lit du dispensaire est de 0,2. À partir du texte ci-dessus répondre aux questions ci-dessous",
+       "text": "Calculez le Besoin Théorique mensuel de RR pour vacciner ces enfants de 0 à 23 mois",
+       "options": [
+        {
+         "letter": "A",
+         "text": "65 doses"
+        },
+        {
+         "letter": "B",
+         "text": "66 doses"
+        },
+        {
+         "letter": "C",
+         "text": "70 doses"
+        },
+        {
+         "letter": "D",
+         "text": "80 doses"
+        },
+        {
+         "letter": "E",
+         "text": "64 doses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 66 doses",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Besoin théorique mensuel = cible × nombre de doses × facteur de perte / 12. Avec 355 enfants, 2 doses de RR et un facteur de perte de 1,11 (taux de perte de 10 %) : 355 × 2 × 1,11 / 12 ≈ 65,7, soit 66 doses. Remarque : Le facteur de perte de 1,11 n'est pas donné dans l'énoncé ; c'est la valeur qui retrouve 66 doses.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j4-idesfm__42",
+       "num": "43",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS Cas clinique / étude de cas Après votre formation, vous êtes affecté(e) au centre de santé de Sinikosson où travaillent deux infirmiers et une sage-femme diplômé(e)s d'état. La population totale de ce centre de santé a été estimée à 5000 habitants au 31/12/2019 et à 5100 habitants au 1er/01/2021. Pendant l'année 2021, les données sanitaires suivantes ont été relevées dans ce village : - 25 naissances enregistrées dont 04 mort-nés ; - 105 cas de paludisme et 35 cas de diarrhées ; - 03 décès des femmes enceintes dont 01 à la suite d'une chute sur la route du champ ; - 06 femmes décédées dont 04 après 5 semaines de suites de couches et 02 après 7 semaines de suites de couches ; Par ailleurs, le dispensaire et la maternité disposent de 18 lits et le ratio personnel infirmier/lit du dispensaire est de 0,2. À partir du texte ci-dessus répondre aux questions ci-dessous",
+       "text": "Calculez le nombre de lits disponibles à la maternité .",
+       "options": [
+        {
+         "letter": "A",
+         "text": "6 lits"
+        },
+        {
+         "letter": "B",
+         "text": "10 lits"
+        },
+        {
+         "letter": "C",
+         "text": "8 lits"
+        },
+        {
+         "letter": "D",
+         "text": "12 lits"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 8 lits",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Ratio personnel infirmier/lit du dispensaire = 0,2, avec 2 infirmiers : lits du dispensaire = 2 / 0,2 = 10. Lits de la maternité = 18 – 10 = 8.\n\nSource : (calcul à partir des données de l'énoncé)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

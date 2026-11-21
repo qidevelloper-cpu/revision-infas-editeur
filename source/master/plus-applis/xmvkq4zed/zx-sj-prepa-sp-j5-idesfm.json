@@ -1,0 +1,2027 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zx-sj-prepa-sp-j5-idesfm",
+ "titre": "Préparation D.E (J) · J5 Santé publique IDE/SFM",
+ "session": "J",
+ "annee": 2026,
+ "nq": 58,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+   "sha256": "cfef47fa50d1b8029734184173064280cf7273a669584d71619e0dc62d9fb1a8"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Santé publique · Prépa D.E J5 (IDE/SFM)",
+     "slug": "prepa-sp-j5-idesfm",
+     "pages": "",
+     "count": 58,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Santé publique",
+     "source": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__0",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le COGES est composé exclusivement d'agents de santé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le COGES compte 10 à 20 représentants des communautés villageoises de l'aire sanitaire. En dehors de l'infirmier, de la sage-femme ou du travailleur social, les autres membres viennent de la communauté. Il n'est donc pas composé uniquement d'agents de santé.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », III",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__1",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le décret N°93-218 du 03 février 1993 fixe les règles de gestion des formations sanitaires rurales. Le COGES comprend entre 10 et 20 membres",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les règles de gestion des formations sanitaires rurales sont fixées par le décret n° 93-218 du 03 février 1993. Son article 3 prévoit un comité de 10 à 20 personnes.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », I et III",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__2",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les membres du COGES sont nommés pour un mandat de cinq ans non renouvelables",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Selon l'article 3 du décret, les membres sont désignés pour trois ans, renouvelables. « Cinq ans » et « non renouvelables » sont donc tous deux faux.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », IV",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__3",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les ASC et les AT font partie d'office du COGES",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les agents de santé communautaire (ASC) et les accoucheuses traditionnelles (AT) font partie d'office du COGES, à cause de leur rôle de relais communautaire.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », III (Nota Bene)",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__4",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La participation aux activités du COGES est rémunérée",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La participation aux activités du COGES est du bénévolat.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », III (Nota Bene)",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__5",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un membre du COGES doit résider dans un village desservi par le centre de santé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Premier critère pour être membre : résider en permanence dans un village desservi par le centre de santé. Il faut aussi être de bonne moralité et avoir une activité génératrice de revenu.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », V",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__6",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le COGES élabore le budget semestriel du centre de santé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans la gestion financière, le COGES « élabore le budget semestriel ». Ce budget est fait tous les six mois, en même temps que le monitorage.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 6.1.1 ; Cours Santé publique L3 (DOC-20260911-WA0542), « Budgétisation des ressources propres d'un ESPC », III",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__7",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le COGES ne joue aucun rôle dans la gestion des ressources humaines",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le COGES a un rôle dans la gestion des ressources humaines. Il veille à la présence du personnel de santé et de soutien, à la qualité de la communication entre consultants et personnel, et au savoir-être du personnel.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 6.1.2",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__8",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le COGES veille à la disponibilité des médicaments essentiels et des vaccins.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans la gestion du matériel, des médicaments et du local, le COGES veille à la disponibilité des médicaments essentiels et des vaccins.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 6.1.3",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__9",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le COGES peut promouvoir l'acceptabilité des services offerts à la population",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "En dehors du centre, le COGES doit promouvoir l'acceptabilité des services offerts à la population. Il fait aussi connaître les activités du centre et promeut la participation financière.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 6.2",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__10",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le responsable de la gestion financière tient le livret de caisse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le livret de caisse fait partie des outils du responsable de la gestion financière. Il y note les recettes et les dépenses du centre.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 7.2 et 8.2",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__11",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le président du COGES coordonne les activités du comité",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Parmi les fonctions du président : coordonner les activités du COGES. Il ouvre aussi le compte, convoque les réunions et donne son accord pour les retraits.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 8.1",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__12",
+       "num": "17",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les dons et legs constituent une source de revenus du COGES.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le COGES a trois sources de revenus : les actes de santé, la vente de certains documents (carnets, cartes) et les dons et legs.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 9.1",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__13",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les dépenses liées à l'eau et à l'électricité peuvent être prises en charge par le COGES",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Selon l'article 7 du décret 93-218, les dépenses du COGES comprennent la consommation d'eau et d'électricité. Elles comprennent aussi les salaires du personnel non pris en charge par l'État, l'entretien et les fournitures.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 9.2",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__14",
+       "num": "19",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un indicateur est une variable quantitative ou qualitative mesurant un aspect d'une intervention",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours définit l'indicateur comme une variable quantitative ou qualitative simple qui mesure un aspect d'une intervention en santé, d'un programme ou d'un projet.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », I.1.1",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__15",
+       "num": "20",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les données sont déjà des informations interprétées",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La donnée est la matière première (l'input) que l'on transforme. L'information est le résultat de cette transformation : la donnée placée dans un contexte significatif et utile. Une donnée n'est donc pas encore une information interprétée.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », I.1.2 et I.1.3",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__16",
+       "num": "21",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'information sanitaire est le résultat du traitement et de l'analyse des données",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'information est le résultat de la transformation des données en faits utiles pour les décideurs (traitement, analyse et interprétation).\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », I.1.3 et II",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__17",
+       "num": "22",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La collecte des données sanitaires consiste à enregistrer les données dans les registres et rapports",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La collecte consiste à enregistrer toutes les données sanitaires dans les registres d'activités, puis à les reporter dans les fiches de rapport mensuel ou annuel.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », II.2.1",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__18",
+       "num": "23",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le rapport mensuel des ESPC doit être transmis au district sanitaire au plus tard le 5 du mois suivant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le rapport mensuel de l'ESPC (rapport A) est transmis au CSE du district sanitaire au plus tard le 5 du mois suivant. Pour l'hôpital général, c'est le 10, et pour le CHR, le 15.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », II.2.3 (tableau) et IV",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__19",
+       "num": "24",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le taux de complétude mesure la proportion de rapports reçus parmi ceux attendus",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "TC = (rapports d'activités reçus par le responsable du CSE / rapports attendus) × 100. Le délai ne compte pas ; c'est le taux de promptitude qui en tient compte.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », II.2.3.2 ; Formules Santé publique harmonisées, chap. 8",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__20",
+       "num": "25",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La rétro-information correspond au retour des informations produites vers les niveaux inférieurs",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La rétro-information est le retour de l'information produite vers les structures des niveaux primaire et secondaire qui ont produit les données.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », II.2.8",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__21",
+       "num": "26",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une catastrophe est un événement dont les effets dépassent les capacités de réaction de la communauté",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Une catastrophe est un événement naturel ou causé par l'homme, aux effets négatifs importants, qui dépasse la capacité de réaction de la collectivité touchée. Une situation d'urgence, elle, reste gérable par la société.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion des catastrophes naturelles / épidémies », I.1.2 et III",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__22",
+       "num": "27",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le risque est indépendant du danger et de la vulnérabilité",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le risque est la probabilité de pertes après un événement défavorable, « vu le danger et la vulnérabilité ». Il dépend donc des deux.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion des catastrophes naturelles / épidémies », I.1.5",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__23",
+       "num": "28",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les tremblements de terre sont des catastrophes naturelles",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours cite parmi les catastrophes naturelles les cyclones, les tremblements de terre et le tsunami.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion des catastrophes naturelles / épidémies », IV",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__24",
+       "num": "29",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'un des rôles de l'infirmier en cas de catastrophe est de donner l'alerte",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le rôle principal de l'infirmier ou de la sage-femme est de donner l'alerte au directeur départemental de la santé le plus vite possible, pour que les secours soient organisés. Il apporte aussi un soutien psychologique à la communauté.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion des catastrophes naturelles / épidémies », VI",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__25",
+       "num": "30",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La supervision vise l'amélioration des compétences et du rendement du personnel",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La supervision vise l'amélioration de la compétence, de la qualité de service et du rendement du personnel en activité. Son but est d'améliorer en continu la performance du personnel.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « La supervision », II et III (tableau)",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__26",
+       "num": "31",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La supervision est généralement une activité annoncée et périodique",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans le tableau qui compare la supervision aux autres fonctions, son moment est « annoncé et périodique ». L'inspection, elle, peut se faire à l'improviste.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « La supervision », III (tableau)",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__27",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le but principal du COGES est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Sanctionner le personnel"
+        },
+        {
+         "letter": "B",
+         "text": "Associer la communauté à la gestion du centre de santé"
+        },
+        {
+         "letter": "C",
+         "text": "Construire des hôpitaux universitaires"
+        },
+        {
+         "letter": "D",
+         "text": "Remplacer l'État"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Associer la communauté à la gestion du centre de santé",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le COGES est créé pour associer la communauté, comme membres actifs, à la gestion et au fonctionnement du centre de santé. Il ne sanctionne pas le personnel et ne remplace pas l'État.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », II",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__28",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La durée du mandat des membres du COGES est de",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1 an"
+        },
+        {
+         "letter": "B",
+         "text": "2 ans"
+        },
+        {
+         "letter": "C",
+         "text": "3 ans renouvelables"
+        },
+        {
+         "letter": "D",
+         "text": "5 ans"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 3 ans renouvelables",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Article 3 du décret 93-218 : les membres sont désignés pour trois ans, renouvelables.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », IV",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__29",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le bureau du COGES comprend",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Président, secrétaire, trésorier, un commissaire au compte"
+        },
+        {
+         "letter": "B",
+         "text": "Président, responsable financier, responsable administratif et technique"
+        },
+        {
+         "letter": "C",
+         "text": "Président, maire, préfet"
+        },
+        {
+         "letter": "D",
+         "text": "Président et deux infirmiers"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Président, responsable financier, responsable administratif et technique",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le bureau compte trois membres : le président (membre communautaire), le responsable de la gestion financière (membre communautaire) et le responsable de la gestion administrative et technique (infirmier, sage-femme ou travailleur social).\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », III",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__30",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le responsable de la gestion financière est chargé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Des consultations médicales"
+        },
+        {
+         "letter": "B",
+         "text": "De l'enregistrement des recettes"
+        },
+        {
+         "letter": "C",
+         "text": "De la vaccination"
+        },
+        {
+         "letter": "D",
+         "text": "De la surveillance épidémiologique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. De l'enregistrement des recettes",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le responsable de la gestion financière recueille chaque jour les sommes collectées et les enregistre dans le livret de caisse. Il les verse ensuite à la banque. Les consultations et la vaccination relèvent des agents de santé.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 8.2",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__31",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un indicateur est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une donnée brute"
+        },
+        {
+         "letter": "B",
+         "text": "Une opinion"
+        },
+        {
+         "letter": "C",
+         "text": "Une variable permettant de mesurer un aspect d'une intervention"
+        },
+        {
+         "letter": "D",
+         "text": "Un rapport annuel"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Une variable permettant de mesurer un aspect d'une intervention",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'indicateur est une variable, quantitative ou qualitative, qui mesure un aspect d'une intervention, d'un programme ou d'un projet. Une donnée brute n'est que la matière première.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », I.1.1",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__32",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'information sanitaire est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une donnée non traitée"
+        },
+        {
+         "letter": "B",
+         "text": "Une donnée contextualisée et utile"
+        },
+        {
+         "letter": "C",
+         "text": "Un registre"
+        },
+        {
+         "letter": "D",
+         "text": "Une fiche de consultation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Une donnée contextualisée et utile",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'information est la donnée « placée dans un contexte significatif et utile pour l'utilisateur final ». Une donnée non traitée n'est pas encore une information. Le registre et la fiche sont des outils de collecte.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », I.1.3",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__33",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La première étape du processus de génération de l'information sanitaire est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'analyse"
+        },
+        {
+         "letter": "B",
+         "text": "L'interprétation"
+        },
+        {
+         "letter": "C",
+         "text": "La collecte"
+        },
+        {
+         "letter": "D",
+         "text": "La diffusion"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. La collecte",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les étapes sont, dans l'ordre : collecte, compilation, transmission, traitement, analyse et interprétation, utilisation, diffusion, rétro-information. La collecte vient en premier.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », II",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__34",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le taux de promptitude est calculé à partir",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Des consultations"
+        },
+        {
+         "letter": "B",
+         "text": "Des rapports reçus dans le délai requis"
+        },
+        {
+         "letter": "C",
+         "text": "Des supervisions"
+        },
+        {
+         "letter": "D",
+         "text": "Des naissances"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Des rapports reçus dans le délai requis",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "TP = (rapports mensuels reçus dans le délai requis / rapports attendus) × 100.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », II.2.3.1 ; Formules Santé publique harmonisées, chap. 8",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__35",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La rétro-information est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une transmission ascendante"
+        },
+        {
+         "letter": "B",
+         "text": "Une sanction administrative"
+        },
+        {
+         "letter": "C",
+         "text": "Un retour des informations vers les producteurs des données"
+        },
+        {
+         "letter": "D",
+         "text": "Une analyse statistique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Un retour des informations vers les producteurs des données",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La rétro-information est le retour de l'information produite vers les structures productrices des données. C'est un mouvement descendant, pas une transmission ascendante.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », II.2.8",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__36",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Selon l'OMS, le SIS sert à",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Construire des centres de santé"
+        },
+        {
+         "letter": "B",
+         "text": "Fournir des renseignements sanitaires pour la prise de décision"
+        },
+        {
+         "letter": "C",
+         "text": "Recruter du personnel"
+        },
+        {
+         "letter": "D",
+         "text": "Payer les agents"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Fournir des renseignements sanitaires pour la prise de décision",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Selon l'OMS, le SIS fournit des renseignements et informations sanitaires pour surveiller l'état et les services de santé, et pour améliorer les décisions de gestion à tous les niveaux.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », I.1.5",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__37",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le niveau central de gestion des données sanitaires est représenté par",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'EPHR"
+        },
+        {
+         "letter": "B",
+         "text": "Le District sanitaire"
+        },
+        {
+         "letter": "C",
+         "text": "La DIIS"
+        },
+        {
+         "letter": "D",
+         "text": "L'ESPC"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. La DIIS",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Au niveau central, la gestion des données sanitaires est assurée par la Direction de l'Information Sanitaire. L'ESPC et le district relèvent du niveau périphérique. Remarque : Le cours écrit « DIS » (Direction de l'Information Sanitaire) ; le sujet écrit « DIIS ».\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », III.3.4 et IV",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__38",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une catastrophe est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une urgence mineure"
+        },
+        {
+         "letter": "B",
+         "text": "Un événement sans impact"
+        },
+        {
+         "letter": "C",
+         "text": "Un événement dépassant la capacité de réaction de la communauté"
+        },
+        {
+         "letter": "D",
+         "text": "Une simple vulnérabilité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Un événement dépassant la capacité de réaction de la communauté",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Une catastrophe a des effets négatifs importants et dépasse la capacité de réaction de la collectivité touchée. Une situation d'urgence, elle, reste gérable.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion des catastrophes naturelles / épidémies », I.1.2 et III",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__39",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le style de supervision adapté aux situations d'urgence est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Démocratique"
+        },
+        {
+         "letter": "B",
+         "text": "Participatif"
+        },
+        {
+         "letter": "C",
+         "text": "Autocratique"
+        },
+        {
+         "letter": "D",
+         "text": "Laisser-faire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Autocratique",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le style autocratique convient aux urgences, qui exigent une décision sans délai, et aux situations de blocage. Le style démocratique ou participatif s'applique à toutes les situations sauf l'urgence et le blocage.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « La supervision », IV.4.1.3 et 4.2.3",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__40",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La méthode directe de supervision repose sur",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'analyse documentaire uniquement"
+        },
+        {
+         "letter": "B",
+         "text": "L'observation directe du personnel au travail"
+        },
+        {
+         "letter": "C",
+         "text": "Le questionnaire administratif"
+        },
+        {
+         "letter": "D",
+         "text": "Le rapport annuel"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. L'observation directe du personnel au travail",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Méthode directe : observer l'agent pendant qu'il exécute une tâche. La méthode indirecte, elle, passe par l'interrogatoire des usagers ou l'analyse des supports de données.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « La supervision », VI.6.1",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__41",
+       "num": "46",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les outils du superviseur figure",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La fiche d'observation"
+        },
+        {
+         "letter": "B",
+         "text": "Le carnet de vaccination"
+        },
+        {
+         "letter": "C",
+         "text": "Le registre de consultation"
+        },
+        {
+         "letter": "D",
+         "text": "La carte sanitaire nationale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La fiche d'observation",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les outils du superviseur sont : le classeur du superviseur, le classeur de la formation sanitaire, le cahier à problèmes, la fiche de synthèse et la fiche de supervision ou d'observation.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « La supervision », VIII",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__42",
+       "num": "47",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le style démocratique de supervision",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Empêche toute initiative"
+        },
+        {
+         "letter": "B",
+         "text": "Repose sur la participation des collaborateurs"
+        },
+        {
+         "letter": "C",
+         "text": "Est réservé aux urgences"
+        },
+        {
+         "letter": "D",
+         "text": "Exclut le dialogue"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Repose sur la participation des collaborateurs",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans le style démocratique ou participatif, le superviseur fait participer ses collaborateurs à la planification et encourage leurs initiatives. Il ne convient pas aux urgences.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « La supervision », IV.4.2",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__43",
+       "num": "48",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 1 — L'équipe du Centre de Santé Rural de Gnimpleu réalise le monitorage des consultations curatives (CSC) sur un semestre. La population totale annuelle est de 8 000 habitants, dont 6 400 résidents dans le rayon de 10 km. Au cours du semestre, 2 400 personnes distinctes ont eu au moins un contact curatif avec l'ESPC ; parmi ces consultants, 1 800 ont reçu un traitement et payé le prix correct ; parmi ces 1 800, 1 500 ont en outre été traités selon les directives nationales avec des médicaments bien conservés et non périmés. Un dossier individuel révèle un traitement facturé correctement mais délivré avec un médicament périmé. À la veille du monitorage, le solde bancaire est de 1 000 000 F CFA, dont 600 000 F CFA correspondent à des recettes du semestre monitoré déjà déposées ; le solde intègre les intérêts et agios pertinents. Les RVME justifiées par reçus sont de 400 000 F CFA et les RCAS de 600 000 F CFA. Les DO retenues dans le plan d'affectation sont de 700 000 F CFA. Les montants bancaires et les recettes sont fournis selon les conventions du support, sans supposer que la SAB et le FR représentent une même masse financière.",
+       "text": "L'accessibilité géographique (AG) est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "60 %."
+        },
+        {
+         "letter": "B",
+         "text": "10 %."
+        },
+        {
+         "letter": "C",
+         "text": "80 %."
+        },
+        {
+         "letter": "D",
+         "text": "100 %."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 80 %.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "AG = population vivant dans le rayon d'accès / population cible × 100 = 6 400 / 8 000 × 100 = 80 %. Sur le semestre, on obtient le même résultat : 3 200 / 4 000 = 80 %. Remarque : Le cours retient un rayon de 5 km (OMS), mais le tableau des goulots cite 10 km pour les CSC. Le sujet donne directement les résidents à moins de 10 km.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Monitorage et évaluation de la couverture des activités », IV.4.3 ; Formules Santé publique harmonisées, chap. 6",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__44",
+       "num": "49",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 1 — L'équipe du Centre de Santé Rural de Gnimpleu réalise le monitorage des consultations curatives (CSC) sur un semestre. La population totale annuelle est de 8 000 habitants, dont 6 400 résidents dans le rayon de 10 km. Au cours du semestre, 2 400 personnes distinctes ont eu au moins un contact curatif avec l'ESPC ; parmi ces consultants, 1 800 ont reçu un traitement et payé le prix correct ; parmi ces 1 800, 1 500 ont en outre été traités selon les directives nationales avec des médicaments bien conservés et non périmés. Un dossier individuel révèle un traitement facturé correctement mais délivré avec un médicament périmé. À la veille du monitorage, le solde bancaire est de 1 000 000 F CFA, dont 600 000 F CFA correspondent à des recettes du semestre monitoré déjà déposées ; le solde intègre les intérêts et agios pertinents. Les RVME justifiées par reçus sont de 400 000 F CFA et les RCAS de 600 000 F CFA. Les DO retenues dans le plan d'affectation sont de 700 000 F CFA. Les montants bancaires et les recettes sont fournis selon les conventions du support, sans supposer que la SAB et le FR représentent une même masse financière.",
+       "text": "La population cible semestrielle est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "4 000 personnes."
+        },
+        {
+         "letter": "B",
+         "text": "6400 personnes."
+        },
+        {
+         "letter": "C",
+         "text": "2400 personnes."
+        },
+        {
+         "letter": "D",
+         "text": "1800 personnes."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 4 000 personnes.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La population cible du monitorage se calcule sur la période couverte. Pour 6 mois, on divise la population annuelle par 2 : 8 000 / 2 = 4 000 personnes.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Monitorage et évaluation de la couverture des activités », IV.4.1",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__45",
+       "num": "50",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 1 — L'équipe du Centre de Santé Rural de Gnimpleu réalise le monitorage des consultations curatives (CSC) sur un semestre. La population totale annuelle est de 8 000 habitants, dont 6 400 résidents dans le rayon de 10 km. Au cours du semestre, 2 400 personnes distinctes ont eu au moins un contact curatif avec l'ESPC ; parmi ces consultants, 1 800 ont reçu un traitement et payé le prix correct ; parmi ces 1 800, 1 500 ont en outre été traités selon les directives nationales avec des médicaments bien conservés et non périmés. Un dossier individuel révèle un traitement facturé correctement mais délivré avec un médicament périmé. À la veille du monitorage, le solde bancaire est de 1 000 000 F CFA, dont 600 000 F CFA correspondent à des recettes du semestre monitoré déjà déposées ; le solde intègre les intérêts et agios pertinents. Les RVME justifiées par reçus sont de 400 000 F CFA et les RCAS de 600 000 F CFA. Les DO retenues dans le plan d'affectation sont de 700 000 F CFA. Les montants bancaires et les recettes sont fournis selon les conventions du support, sans supposer que la SAB et le FR représentent une même masse financière.",
+       "text": "L'utilisation des services (US) est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "70 %."
+        },
+        {
+         "letter": "B",
+         "text": "100 %."
+        },
+        {
+         "letter": "C",
+         "text": "60 %."
+        },
+        {
+         "letter": "D",
+         "text": "80 %."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 60 %.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "US = personnes ayant utilisé le service au moins une fois / PC du monitorage × 100 = 2 400 / 4 000 × 100 = 60 %.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Monitorage et évaluation de la couverture des activités », IV.4.4 ; Formules Santé publique harmonisées, chap. 6",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__46",
+       "num": "51",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 1 — L'équipe du Centre de Santé Rural de Gnimpleu réalise le monitorage des consultations curatives (CSC) sur un semestre. La population totale annuelle est de 8 000 habitants, dont 6 400 résidents dans le rayon de 10 km. Au cours du semestre, 2 400 personnes distinctes ont eu au moins un contact curatif avec l'ESPC ; parmi ces consultants, 1 800 ont reçu un traitement et payé le prix correct ; parmi ces 1 800, 1 500 ont en outre été traités selon les directives nationales avec des médicaments bien conservés et non périmés. Un dossier individuel révèle un traitement facturé correctement mais délivré avec un médicament périmé. À la veille du monitorage, le solde bancaire est de 1 000 000 F CFA, dont 600 000 F CFA correspondent à des recettes du semestre monitoré déjà déposées ; le solde intègre les intérêts et agios pertinents. Les RVME justifiées par reçus sont de 400 000 F CFA et les RCAS de 600 000 F CFA. Les DO retenues dans le plan d'affectation sont de 700 000 F CFA. Les montants bancaires et les recettes sont fournis selon les conventions du support, sans supposer que la SAB et le FR représentent une même masse financière.",
+       "text": "La couverture adéquate (CA) est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "45 %."
+        },
+        {
+         "letter": "B",
+         "text": "85 %."
+        },
+        {
+         "letter": "C",
+         "text": "65 %."
+        },
+        {
+         "letter": "D",
+         "text": "90 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 45 %.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La CA compte ceux qui ont reçu la prestation en quantité requise (traitement reçu et payé) : 1 800 / 4 000 × 100 = 45 %.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Monitorage et évaluation de la couverture des activités », IV.4.5 ; Formules Santé publique harmonisées, chap. 6",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__47",
+       "num": "52",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 1 — L'équipe du Centre de Santé Rural de Gnimpleu réalise le monitorage des consultations curatives (CSC) sur un semestre. La population totale annuelle est de 8 000 habitants, dont 6 400 résidents dans le rayon de 10 km. Au cours du semestre, 2 400 personnes distinctes ont eu au moins un contact curatif avec l'ESPC ; parmi ces consultants, 1 800 ont reçu un traitement et payé le prix correct ; parmi ces 1 800, 1 500 ont en outre été traités selon les directives nationales avec des médicaments bien conservés et non périmés. Un dossier individuel révèle un traitement facturé correctement mais délivré avec un médicament périmé. À la veille du monitorage, le solde bancaire est de 1 000 000 F CFA, dont 600 000 F CFA correspondent à des recettes du semestre monitoré déjà déposées ; le solde intègre les intérêts et agios pertinents. Les RVME justifiées par reçus sont de 400 000 F CFA et les RCAS de 600 000 F CFA. Les DO retenues dans le plan d'affectation sont de 700 000 F CFA. Les montants bancaires et les recettes sont fournis selon les conventions du support, sans supposer que la SAB et le FR représentent une même masse financière.",
+       "text": "La couverture effective (CE) est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "37%"
+        },
+        {
+         "letter": "B",
+         "text": "3,7%"
+        },
+        {
+         "letter": "C",
+         "text": "5,3 %"
+        },
+        {
+         "letter": "D",
+         "text": "73%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 37%",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La CE compte ceux qui ont reçu la prestation avec la qualité requise (directives nationales, médicaments non périmés) : 1 500 / 4 000 × 100 = 37,5 %. Le cours garde la partie entière sans arrondir, d'où 37 %. Le dossier avec un médicament périmé est exclu de la CE.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Monitorage et évaluation de la couverture des activités », IV.4.2 et 4.6",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__48",
+       "num": "53",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 1 — L'équipe du Centre de Santé Rural de Gnimpleu réalise le monitorage des consultations curatives (CSC) sur un semestre. La population totale annuelle est de 8 000 habitants, dont 6 400 résidents dans le rayon de 10 km. Au cours du semestre, 2 400 personnes distinctes ont eu au moins un contact curatif avec l'ESPC ; parmi ces consultants, 1 800 ont reçu un traitement et payé le prix correct ; parmi ces 1 800, 1 500 ont en outre été traités selon les directives nationales avec des médicaments bien conservés et non périmés. Un dossier individuel révèle un traitement facturé correctement mais délivré avec un médicament périmé. À la veille du monitorage, le solde bancaire est de 1 000 000 F CFA, dont 600 000 F CFA correspondent à des recettes du semestre monitoré déjà déposées ; le solde intègre les intérêts et agios pertinents. Les RVME justifiées par reçus sont de 400 000 F CFA et les RCAS de 600 000 F CFA. Les DO retenues dans le plan d'affectation sont de 700 000 F CFA. Les montants bancaires et les recettes sont fournis selon les conventions du support, sans supposer que la SAB et le FR représentent une même masse financière.",
+       "text": "Quel montant correspondent aux FR ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "100 000 F CFA."
+        },
+        {
+         "letter": "B",
+         "text": "4000 000 F CFA."
+        },
+        {
+         "letter": "C",
+         "text": "400 000 F CFA."
+        },
+        {
+         "letter": "D",
+         "text": "1 400 000 F CFA."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 400 000 F CFA.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "FR = somme à la banque à la veille du monitorage − recettes du semestre déjà déposées = 1 000 000 − 600 000 = 400 000 F CFA. Les intérêts et agios sont déjà compris dans le solde : rien à ajouter.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Budgétisation des ressources propres d'un ESPC », V.5.1 ; Formules Santé publique harmonisées, chap. 7",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__49",
+       "num": "54",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 1 — L'équipe du Centre de Santé Rural de Gnimpleu réalise le monitorage des consultations curatives (CSC) sur un semestre. La population totale annuelle est de 8 000 habitants, dont 6 400 résidents dans le rayon de 10 km. Au cours du semestre, 2 400 personnes distinctes ont eu au moins un contact curatif avec l'ESPC ; parmi ces consultants, 1 800 ont reçu un traitement et payé le prix correct ; parmi ces 1 800, 1 500 ont en outre été traités selon les directives nationales avec des médicaments bien conservés et non périmés. Un dossier individuel révèle un traitement facturé correctement mais délivré avec un médicament périmé. À la veille du monitorage, le solde bancaire est de 1 000 000 F CFA, dont 600 000 F CFA correspondent à des recettes du semestre monitoré déjà déposées ; le solde intègre les intérêts et agios pertinents. Les RVME justifiées par reçus sont de 400 000 F CFA et les RCAS de 600 000 F CFA. Les DO retenues dans le plan d'affectation sont de 700 000 F CFA. Les montants bancaires et les recettes sont fournis selon les conventions du support, sans supposer que la SAB et le FR représentent une même masse financière.",
+       "text": "Quel montant correspond à la SAB",
+       "options": [
+        {
+         "letter": "A",
+         "text": "600 000 F CFA"
+        },
+        {
+         "letter": "B",
+         "text": "400 000 F CFA."
+        },
+        {
+         "letter": "C",
+         "text": "80 000 F CFA"
+        },
+        {
+         "letter": "D",
+         "text": "8 000 000 F CFA"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 600 000 F CFA",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours définit la SAB comme le total des recettes des six mois du monitorage. Le sujet indique 600 000 F CFA de recettes du semestre, ce qui correspond à la valeur retenue.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Budgétisation des ressources propres d'un ESPC », V.5.2 ; Formules Santé publique harmonisées, chap. 7",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__50",
+       "num": "55",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 1 — L'équipe du Centre de Santé Rural de Gnimpleu réalise le monitorage des consultations curatives (CSC) sur un semestre. La population totale annuelle est de 8 000 habitants, dont 6 400 résidents dans le rayon de 10 km. Au cours du semestre, 2 400 personnes distinctes ont eu au moins un contact curatif avec l'ESPC ; parmi ces consultants, 1 800 ont reçu un traitement et payé le prix correct ; parmi ces 1 800, 1 500 ont en outre été traités selon les directives nationales avec des médicaments bien conservés et non périmés. Un dossier individuel révèle un traitement facturé correctement mais délivré avec un médicament périmé. À la veille du monitorage, le solde bancaire est de 1 000 000 F CFA, dont 600 000 F CFA correspondent à des recettes du semestre monitoré déjà déposées ; le solde intègre les intérêts et agios pertinents. Les RVME justifiées par reçus sont de 400 000 F CFA et les RCAS de 600 000 F CFA. Les DO retenues dans le plan d'affectation sont de 700 000 F CFA. Les montants bancaires et les recettes sont fournis selon les conventions du support, sans supposer que la SAB et le FR représentent une même masse financière.",
+       "text": "Quel montant correspond aux dépenses de fonctionnement local ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "100 000 F CFA."
+        },
+        {
+         "letter": "B",
+         "text": "400 000 F CFA."
+        },
+        {
+         "letter": "C",
+         "text": "600 000 F CFA."
+        },
+        {
+         "letter": "D",
+         "text": "300 000 F CFA."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 300 000 F CFA.",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "DFL = SAB − DO. Avec SAB = RVME + RCAS = 1 000 000 F CFA et DO = 700 000 F CFA, on obtient DFL = 300 000 F CFA. Remarque : Ce calcul utilise SAB = 1 000 000 F CFA, et non les 600 000 F CFA retenus à la question 54.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Budgétisation des ressources propres d'un ESPC », V.5.4 ; Formules Santé publique harmonisées, chap. 7",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__51",
+       "num": "56",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 1 — L'équipe du Centre de Santé Rural de Gnimpleu réalise le monitorage des consultations curatives (CSC) sur un semestre. La population totale annuelle est de 8 000 habitants, dont 6 400 résidents dans le rayon de 10 km. Au cours du semestre, 2 400 personnes distinctes ont eu au moins un contact curatif avec l'ESPC ; parmi ces consultants, 1 800 ont reçu un traitement et payé le prix correct ; parmi ces 1 800, 1 500 ont en outre été traités selon les directives nationales avec des médicaments bien conservés et non périmés. Un dossier individuel révèle un traitement facturé correctement mais délivré avec un médicament périmé. À la veille du monitorage, le solde bancaire est de 1 000 000 F CFA, dont 600 000 F CFA correspondent à des recettes du semestre monitoré déjà déposées ; le solde intègre les intérêts et agios pertinents. Les RVME justifiées par reçus sont de 400 000 F CFA et les RCAS de 600 000 F CFA. Les DO retenues dans le plan d'affectation sont de 700 000 F CFA. Les montants bancaires et les recettes sont fournis selon les conventions du support, sans supposer que la SAB et le FR représentent une même masse financière.",
+       "text": "Le plafond de réparation de l'immeuble",
+       "options": [
+        {
+         "letter": "A",
+         "text": "40 000 F CFA."
+        },
+        {
+         "letter": "B",
+         "text": "60 000 F CFA."
+        },
+        {
+         "letter": "C",
+         "text": "30 000 F CFA."
+        },
+        {
+         "letter": "D",
+         "text": "10 000 F CFA."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 30 000 F CFA.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les frais de réparation de l'immeuble ne doivent pas dépasser 10 % des DFL : 10 % × 300 000 = 30 000 F CFA.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Budgétisation des ressources propres d'un ESPC », V.5.4 ; Formules Santé publique harmonisées, chap. 7 (Im = 10 % × DFL)",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__52",
+       "num": "57",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 1 — L'équipe du Centre de Santé Rural de Gnimpleu réalise le monitorage des consultations curatives (CSC) sur un semestre. La population totale annuelle est de 8 000 habitants, dont 6 400 résidents dans le rayon de 10 km. Au cours du semestre, 2 400 personnes distinctes ont eu au moins un contact curatif avec l'ESPC ; parmi ces consultants, 1 800 ont reçu un traitement et payé le prix correct ; parmi ces 1 800, 1 500 ont en outre été traités selon les directives nationales avec des médicaments bien conservés et non périmés. Un dossier individuel révèle un traitement facturé correctement mais délivré avec un médicament périmé. À la veille du monitorage, le solde bancaire est de 1 000 000 F CFA, dont 600 000 F CFA correspondent à des recettes du semestre monitoré déjà déposées ; le solde intègre les intérêts et agios pertinents. Les RVME justifiées par reçus sont de 400 000 F CFA et les RCAS de 600 000 F CFA. Les DO retenues dans le plan d'affectation sont de 700 000 F CFA. Les montants bancaires et les recettes sont fournis selon les conventions du support, sans supposer que la SAB et le FR représentent une même masse financière.",
+       "text": "Le plafond des imprévus",
+       "options": [
+        {
+         "letter": "A",
+         "text": "15 000 F CFA."
+        },
+        {
+         "letter": "B",
+         "text": "150 000 F CFA."
+        },
+        {
+         "letter": "C",
+         "text": "30 000 F CFA."
+        },
+        {
+         "letter": "D",
+         "text": "10 000 F CFA."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 15 000 F CFA.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les imprévus (frais bancaires, carburant d'urgence) ne doivent pas dépasser 5 % des DFL : 5 % × 300 000 = 15 000 F CFA.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Budgétisation des ressources propres d'un ESPC », V.5.4 ; Formules Santé publique harmonisées, chap. 7 (Imp = 5 % × DFL)",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__53",
+       "num": "58",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Dans le Centre de Santé de Zranwopleu, Monsieur KONAN, l'infirmier Chef de poste a fait sortir 200 doses de Penta durant le mois et 180 doses ont été administrées. Pour le mois suivant, le besoin théorique (BT) est de 400 doses ; le stock de sécurité pour les vaccins est de 25 % du BT et le stock utilisable déjà disponible est de 120 doses. Toutes les quantités sont exprimées en doses.",
+       "text": "Quel est le taux d'utilisation du mois écoulé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "10 %."
+        },
+        {
+         "letter": "B",
+         "text": "20 %."
+        },
+        {
+         "letter": "C",
+         "text": "80 %."
+        },
+        {
+         "letter": "D",
+         "text": "90 %."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 90 %.",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "TU = doses administrées / doses sorties × 100 = 180 / 200 × 100 = 90 %.\n\nSource : Document révisé L2 2023-2024, « Gestion des vaccins et consommables » ; Formules Santé publique harmonisées, chap. 5",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__54",
+       "num": "59",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Dans le Centre de Santé de Zranwopleu, Monsieur KONAN, l'infirmier Chef de poste a fait sortir 200 doses de Penta durant le mois et 180 doses ont été administrées. Pour le mois suivant, le besoin théorique (BT) est de 400 doses ; le stock de sécurité pour les vaccins est de 25 % du BT et le stock utilisable déjà disponible est de 120 doses. Toutes les quantités sont exprimées en doses.",
+       "text": "Quel est le taux de perte correspondant ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "5 %."
+        },
+        {
+         "letter": "B",
+         "text": "10 %."
+        },
+        {
+         "letter": "C",
+         "text": "20 %."
+        },
+        {
+         "letter": "D",
+         "text": "90 %."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 10 %.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "TP = (doses sorties − doses administrées) / doses sorties × 100 = (200 − 180) / 200 × 100 = 10 %. On peut aussi faire TP = 100 − TU = 100 − 90 = 10 %.\n\nSource : Document révisé L2 2023-2024, « Gestion des vaccins et consommables » ; Formules Santé publique harmonisées, chap. 5",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__55",
+       "num": "60",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Dans le Centre de Santé de Zranwopleu, Monsieur KONAN, l'infirmier Chef de poste a fait sortir 200 doses de Penta durant le mois et 180 doses ont été administrées. Pour le mois suivant, le besoin théorique (BT) est de 400 doses ; le stock de sécurité pour les vaccins est de 25 % du BT et le stock utilisable déjà disponible est de 120 doses. Toutes les quantités sont exprimées en doses.",
+       "text": "Quel facteur de perte découle de ce taux ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "0,90."
+        },
+        {
+         "letter": "B",
+         "text": "1,00."
+        },
+        {
+         "letter": "C",
+         "text": "Environ 1,11."
+        },
+        {
+         "letter": "D",
+         "text": "2,00."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Environ 1,11.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "FP = 100 / (100 − TP) = 100 / 90 = 1,11. C'est aussi le facteur de perte du DTC-HepB-Hib (Penta) dans le tableau du cours.\n\nSource : Document révisé L2 2023-2024, « Gestion des vaccins et consommables » ; Formules Santé publique harmonisées, chap. 5",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__56",
+       "num": "61",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Dans le Centre de Santé de Zranwopleu, Monsieur KONAN, l'infirmier Chef de poste a fait sortir 200 doses de Penta durant le mois et 180 doses ont été administrées. Pour le mois suivant, le besoin théorique (BT) est de 400 doses ; le stock de sécurité pour les vaccins est de 25 % du BT et le stock utilisable déjà disponible est de 120 doses. Toutes les quantités sont exprimées en doses.",
+       "text": "Quel est le besoin réel pour le mois suivant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "280 doses."
+        },
+        {
+         "letter": "B",
+         "text": "400 doses."
+        },
+        {
+         "letter": "C",
+         "text": "500 doses."
+        },
+        {
+         "letter": "D",
+         "text": "520 doses."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 500 doses.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "SS = 25 % × BT = 0,25 × 400 = 100 doses. BR = BT + SS = 400 + 100 = 500 doses.\n\nSource : Document révisé L2 2023-2024, « Gestion des vaccins et consommables » ; Formules Santé publique harmonisées, chap. 5",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j5-idesfm__57",
+       "num": "62",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Dans le Centre de Santé de Zranwopleu, Monsieur KONAN, l'infirmier Chef de poste a fait sortir 200 doses de Penta durant le mois et 180 doses ont été administrées. Pour le mois suivant, le besoin théorique (BT) est de 400 doses ; le stock de sécurité pour les vaccins est de 25 % du BT et le stock utilisable déjà disponible est de 120 doses. Toutes les quantités sont exprimées en doses.",
+       "text": "Quelle quantité de doses faut-il commander, sous réserve du conditionnement en flacons ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "120."
+        },
+        {
+         "letter": "B",
+         "text": "280."
+        },
+        {
+         "letter": "C",
+         "text": "380."
+        },
+        {
+         "letter": "D",
+         "text": "500."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 380.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "QC = BR − QS = 500 − 120 = 380 doses.\n\nSource : Document révisé L2 2023-2024, « Gestion des vaccins et consommables » ; Formules Santé publique harmonisées, chap. 5",
+       "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

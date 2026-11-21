@@ -1,0 +1,1915 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zw-sj-prepa-ped-j5-idesfm",
+ "titre": "Préparation D.E (J) · J5 Pédiatrie IDE/SFM",
+ "session": "J",
+ "annee": 2026,
+ "nq": 55,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+   "sha256": "5807cbdd1ccce6ba847839fc06174ea75b78716fe6a72829e5038a26f12629e3"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Pédiatrie · Prépa D.E J5 (IDE/SFM)",
+     "slug": "prepa-ped-j5-idesfm",
+     "pages": "",
+     "count": 55,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Pédiatrie",
+     "source": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La section immédiate du cordon ombilical du nouveau-né après la sortie de la filière génitale expose celui-ci à une anémie ferriprive",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours demande de ligaturer et sectionner le cordon entre 1 et 3 minutes de vie, pas immédiatement. Le clampage retardé (2 à 3 min) optimise la transfusion placentaire vers l'enfant et permet d'éviter l'anémie (et l'hypoglycémie) ; une section immédiate prive le nouveau-né de ce sang, d'où le risque d'anémie par manque de fer.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Soins essentiels aux nouveau-nés (1-60 minutes de vie) ; Module de Néonatologie, ch. IV Accueil du nouveau-né – Clampage du cordon ; ch. VIII Prématurité – Anémie du prématuré",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "JR a 15 minutes de vie. Né à terme. Son poids de naissance est de 3000 grammes. Dans le cadre des soins essentiels du nouveau-né, pour lutter contre la maladie hémorragique, je lui administre par voie orale 9 gouttes de vitamine K1.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La posologie orale de la vitamine K1 est de 3 gouttes/kg de poids : 3 kg × 3 = 9 gouttes. La dose est donc juste et la voie orale est prévue par le cours (1 mg en IM si poids ≥ 2500 g, ou 3 gouttes/kg per os). Remarque : Dans le déroulement des soins essentiels, la vitamine K1 est donnée entre 60 et 90 minutes de vie, pas à 15 minutes (voir aussi la question 24). D'autres cours du projet donnent d'autres doses (2 mg per os dans le module de Néonatologie ; 5 mg IM dans L'essentiel en pédiatrie tropicale).\n\nSource : Cours de Santé infantile L1 IDE-SFM, Soins essentiels aux nouveau-nés – 60-90 minutes de vie",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le collyre antiseptique administré au nouveau-né en salle de naissance a pour objectif de traiter une infection active de l'œil du nouveau-né",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le collyre (ou la pommade) est instillé systématiquement à tous les nouveau-nés, une seule fois, pour PRÉVENIR l'infection oculaire (conjonctivite à gonocoque) contractée lors du passage dans la filière génitale. Ce n'est pas un traitement d'une infection déjà présente.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Examen du nouveau-né – Besoin d'éviter le danger ; Module de Néonatologie, ch. IV – Les autres soins à faire au nouveau-né",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Il existe trois types de toilette",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Ce sont les BAINS qui sont de trois types (bain de propreté, bain de détente, bain thérapeutique). La toilette est un seul soin de propreté, destiné au nouveau-né dont le cordon n'est pas tombé ou dont la plaie n'est pas cicatrisée. Remarque : Le cours précise que la toilette peut se faire à trois endroits (berceau, paillasse, incubateur) : ce sont des lieux, pas des types de toilette.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Toilette du nouveau-né – Définition ; Bain de l'enfant – Définition",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Avant la toilette, il faut appliquer du lait de toilette sur tout le corps du nouveau-né",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans le déroulement de la toilette, on lave, on sèche l'enfant, puis on applique le beurre de karité (ou le lait corporel) sur le corps APRÈS la toilette, avant de l'habiller. Rien n'est appliqué avant la toilette.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Toilette du nouveau-né – Déroulement de la toilette",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lorsque la température corporelle de l'enfant dépasse 39 degrés Celsius, il faut lui donner un bain tiède",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours précise que le bain (thérapeutique) en cas de fièvre n'est plus recommandé comme moyen physique pour traiter la fièvre chez l'enfant. Le bain thérapeutique est réservé aux dermatoses (voir question 30). Remarque : L'essentiel en pédiatrie tropicale (Fièvre de l'enfant – Rôles curatifs, moyens physiques) cite encore « proposer un bain d'eau tiède » parmi les moyens physiques ; la correction suit le cours de Santé infantile.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Bain de l'enfant – Définition (NB)",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les soins ombilicaux, la solution ou le gel de Chlorhexidine s'applique sur le cordon frais de la pointe du moignon à la base du cordon",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Sur le cordon frais (3 premiers jours), la chlorhexidine gel s'applique d'abord à la pointe du cordon, puis sur le moignon, puis à la base, en s'assurant que tout le cordon est bien imprégné. Le sens inverse (base → pointe) est réservé au cordon sec.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Soins ombilicaux – Déroulement du soin",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le pansement à la Chlorhexidine se fait une fois par jour jusqu'à la cicatrisation",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La chlorhexidine gel s'applique une fois par jour, et on continue même après la chute du cordon ; les soins ombilicaux se poursuivent jusqu'à la cicatrisation de la plaie ombilicale.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Soins ombilicaux – Définition et Déroulement du soin",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La fonction principale de l'incubateur est d'assurer la respiration d'un air filtré et humidifié",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Parmi les fonctions principales de l'incubateur, le cours cite : maintenir une température normale et stable, ASSURER LA RESPIRATION D'UN AIR FILTRÉ ET HUMIDIFIÉ, assurer un isolement infectieux et permettre la surveillance clinique.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Incubateur néonatal – Fonctions principales de l'incubateur",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le transport médicalisé est une des indications de l'incubateur",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les indications de l'incubateur sont : le nouveau-né de petit poids de naissance, l'hypothermie et le transport médicalisé (il existe des incubateurs de transport).\n\nSource : Cours de Santé infantile L1 IDE-SFM, Incubateur néonatal – Indications de l'incubateur",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans le carnet de santé mère-enfant, la partie réservée à l'accouchement concerne la 3ème partie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le carnet de santé mère-enfant comprend 4 parties : 1) identité et conditions de vie des parents ; 2) suivi de la grossesse ; 3) L'ACCOUCHEMENT ; 4) suivi de l'enfant.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Carnet de santé mère-enfant – Introduction",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une absence de sourire social ou sourire-réponse à 3 mois ne doit pas faire objet de visite clé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le carnet prévoit des examens de l'enfant à des âges clés (3, 6, 9, 12, 24 mois). Le sourire-réponse fait partie des acquisitions attendues dans les premiers mois : son absence à 3 mois est un signe d'alerte du développement psychomoteur qui doit justement être recherché et noté lors de la visite clé de 3 mois (et faire envisager une référence).\n\nSource : Cours de Santé infantile L1 IDE-SFM, Carnet de santé mère-enfant – Suivi de l'enfant (examen de l'enfant à 3 mois) ; L'essentiel en pédiatrie tropicale (Dr Asse), Annexes – Principales étapes du développement psychomoteur ; complément hors cours du projet pour la notion de signe d'alerte",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le respect de la confidentialité fait partie des principes de remplissage du carnet mère-enfant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le carnet est un document médico-légal, sous le sceau du secret médical. Le cours conclut que son remplissage doit observer les principes de confidentialité et de soins.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Carnet de santé mère-enfant – Intérêt et Conclusion",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'enfant né à terme et correctement nourri triple son poids de naissance à 24 mois",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le poids de naissance est doublé à 3 mois (5 mois au lait artificiel), TRIPLÉ À 12 MOIS et multiplié par 4 à 2 ans (24 mois). À 24 mois il n'est donc pas « triplé ».\n\nSource : Cours de Santé infantile L1 IDE-SFM, Mensurations – Repères de gain de poids et tableau récapitulatif",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La croissance des os, la taille et le périmètre crânien sont les éléments qualitatifs de la croissance de l'enfant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours définit la croissance QUANTITATIVE comme l'augmentation en poids, en taille et en volume des tissus et organes. La taille, le périmètre crânien (et la croissance des os) sont des indicateurs mesurables, donc quantitatifs, et non qualitatifs.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Mensurations – Définition",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__15",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le colostrum qui est de couleur jaunâtre ou d'apparence claire et de consistance épaisse, constitue un excellent laxatif pour le bébé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le colostrum est le lait des premiers jours : jaune-orangé ou d'apparence claire, épais, riche en anticorps. Le cours précise que c'est un excellent laxatif : il aide l'évacuation du méconium.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Allaitement – Caractéristiques du colostrum ; L'essentiel en pédiatrie tropicale (Dr Asse), Nourrisson et enfant – Allaitement maternel",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__16",
+       "num": "17",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les soins mère kangourou, la durée minimale du portage de l'enfant en discontinu recommandée est de 60 minutes",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les SMK intermittents se pratiquent seulement à certains moments de la journée. Pour être bénéfiques (chaleur, stabilité, allaitement), les séances de portage ne doivent pas être trop courtes : la correction retient une durée minimale de 60 minutes par séance, car les changements fréquents de position stressent le bébé.\n\nSource : Module de Néonatologie, ch. XVII Méthode des soins mère kangourou – SMK intermittents ; durée minimale : explication hors cours du projet",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__17",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La vérification et la mesure du résidu gastrique sont importantes avant le gavage chez l'enfant dont la sonde est déjà en place",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Avant chaque gavage, on vérifie que la sonde est bien en place puis on aspire et mesure le résidu gastrique : son volume et son aspect décident de la conduite (donner la ration, la réduire, sauter le repas, signaler). La surveillance du résidu gastrique figure dans les rôles de l'agent de santé chez le prématuré et l'hypotrophe.\n\nSource : Module de Néonatologie, ch. XVI Alimentation du nouveau-né – Alimentation par sonde nasogastrique ; L'essentiel en pédiatrie tropicale (Dr Asse), Nouveau-né prématuré – Rôles curatifs ; interprétation du résidu : complément hors cours du projet",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__18",
+       "num": "19",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le résidu gastrique supérieur au 1/3 de la ration administrée et propre signifie que la ration est trop importante pour l'enfant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Un résidu PROPRE supérieur au tiers de la ration traduit surtout une vidange gastrique lente (intolérance digestive) : on le réinjecte, on adapte (réduit ou saute) le repas et on signale au médecin, car il peut annoncer une complication digestive. Ce n'est pas simplement « une ration trop importante ».\n\nSource : (explication hors cours du projet) – le module de Néonatologie cite les résidus abondants parmi les signes d'entérocolite (ch. VIII)",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__19",
+       "num": "20",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Résidu gastrique absent signifie que la quantité de la ration précédente administrée est insuffisante",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un résidu absent signifie que tout le repas précédent a été vidé de l'estomac : l'enfant digère bien et la quantité donnée était insuffisante pour lui ; on peut augmenter progressivement la ration selon la tolérance.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les soins essentiels du nouveau-né sont limités aux",
+       "options": [
+        {
+         "letter": "A",
+         "text": "5 premières minutes de vie"
+        },
+        {
+         "letter": "B",
+         "text": "60 premières minutes de vie"
+        },
+        {
+         "letter": "C",
+         "text": "90 premières minutes de vie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 90 premières minutes de vie",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le cours précise que, dans son cadre, les soins essentiels du nouveau-né sont limités aux 90 premières minutes de vie (0-1 min, 1-60 min, 60-90 min).\n\nSource : Cours de Santé infantile L1 IDE-SFM, Soins essentiels aux nouveau-nés – Définition",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la première heure de vie, il est nécessaire de mesurer la température du nouveau-né toutes les",
+       "options": [
+        {
+         "letter": "A",
+         "text": "10 minutes"
+        },
+        {
+         "letter": "B",
+         "text": "15 minutes"
+        },
+        {
+         "letter": "C",
+         "text": "20 minutes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 15 minutes",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Entre 1 et 60 minutes de vie, on mesure la température du nouveau-né toutes les 15 minutes, soit 4 fois dans l'heure.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Soins essentiels aux nouveau-nés – 1-60 minutes de vie",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La mise du nouveau-né au sein doit se faire précocement entre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "0 et 15 minutes de vie"
+        },
+        {
+         "letter": "B",
+         "text": "15 et 30 minutes de vie"
+        },
+        {
+         "letter": "C",
+         "text": "30 et 60 minutes de vie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 30 et 60 minutes de vie",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Dans le déroulement des soins essentiels, l'agent de santé aide la mère à mettre le nouveau-né au sein entre 30 et 60 minutes de vie. Remarque : Le chapitre Allaitement du même cours indique « 15 à 30 mn après l'accouchement » et l'IHAB « dans la demi-heure » ; la correction suit le déroulement des soins essentiels.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Soins essentiels aux nouveau-nés – 1-60 minutes de vie",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "GG est né à 14H30 minute à terme. Il est en bonne santé apparente. Je mesure son poids et lui administre la vitamine K1 en IM entre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "14h30 min et 14h45 min"
+        },
+        {
+         "letter": "B",
+         "text": "14h 46 min et 15h00 min"
+        },
+        {
+         "letter": "C",
+         "text": "15h31 min et 16h00 min"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 15h31 min et 16h00 min",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La mesure du poids et l'administration de la vitamine K1 se font dans la phase 60-90 minutes de vie. Né à 14 h 30, GG doit donc les recevoir entre 15 h 30 et 16 h 00.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Soins essentiels aux nouveau-nés – 60-90 minutes de vie",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nouveau-né Teha est en bonne santé et nourri au sein. Il présente un écoulement blanchâtre au niveau de la vulve. Cet écoulement est appelé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Leucorrhée blanchâtre"
+        },
+        {
+         "letter": "B",
+         "text": "Crise génitale"
+        },
+        {
+         "letter": "C",
+         "text": "Colostrum"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Crise génitale",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Chez la petite fille, un écoulement de pertes blanches (ou de sang) par la vulve est une crise génitale : passagère, due aux hormones maternelles, elle ne doit pas inquiéter. Ce n'est ni une leucorrhée pathologique ni du colostrum.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Examen du nouveau-né – Organes génitaux externes ; Module de Néonatologie, ch. IV – Appareil génital",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nouveau-né normal a un âge gestationnel compris entre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "37 et 41 semaines + 6 jours"
+        },
+        {
+         "letter": "B",
+         "text": "7 et 42 semaines + 6 jours"
+        },
+        {
+         "letter": "C",
+         "text": "38 et 42 semaines + 6 jours"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 37 et 41 semaines + 6 jours",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le nouveau-né normal (à terme) a un âge gestationnel compris entre 37 et 41 semaines + 6 jours d'aménorrhée ; avant 37 SA il est prématuré, à partir de 42 SA il est post-terme.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Le nouveau-né – Nouveau-né normal, Définition",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Relevez la lettre correspondant aux différentes étapes de l'examen du nouveau-né",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Cotation d'APGAR, appréciation de la respiration du nouveau-né, mensurations, examen somatique par appareil"
+        },
+        {
+         "letter": "B",
+         "text": "Cotation d'APGAR, appréciation du nouveau-né dans son ensemble, mensurations, examen somatique par appareil"
+        },
+        {
+         "letter": "C",
+         "text": "Cotation des réflexes, appréciation du nouveau-né dans son ensemble, mensurations, examen somatique par appareil"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Cotation d'APGAR, appréciation du nouveau-né dans son ensemble, mensurations, examen somatique par appareil",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les étapes de l'examen du nouveau-né sont : la cotation d'APGAR, l'appréciation du nouveau-né dans son ensemble, les mensurations, l'examen somatique par appareil.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Examen du nouveau-né en salle de naissance – Examen physique",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Mienmo vient de naître il y a 1 mn. Elle présente une cyanose des extrémités, une fréquence cardiaque à 120 batt/mn, un cri vigoureux, une attitude de WM, respiration irrégulière. Le score d'APGAR de Mienmo est égal à",
+       "options": [
+        {
+         "letter": "A",
+         "text": "5"
+        },
+        {
+         "letter": "B",
+         "text": "7"
+        },
+        {
+         "letter": "C",
+         "text": "8"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 8",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Cotation : cyanose des extrémités (corps rose) = 1 ; FC 120/min (> 100) = 2 ; cri vigoureux = 2 ; attitude en WM (bon tonus en flexion) = 2 ; respiration irrégulière = 1. Total = 8.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Examen du nouveau-né – Tableau d'APGAR",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi le matériel de toilette cité ci-dessous, il y a un intrus : lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une paire de moufles"
+        },
+        {
+         "letter": "B",
+         "text": "Une brosse à dent"
+        },
+        {
+         "letter": "C",
+         "text": "Du beurre de karité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Une brosse à dent",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La liste du matériel de toilette comprend une paire de moufles, du beurre de karité (ou lait corporel), une brosse à CHEVEUX… mais pas de brosse à dent : c'est l'intrus.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Toilette du nouveau-né – Matériel de soins",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le bain thérapeutique est recommandé en cas de",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Fièvre"
+        },
+        {
+         "letter": "B",
+         "text": "Dermatoses"
+        },
+        {
+         "letter": "C",
+         "text": "Convulsions"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Dermatoses",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le bain thérapeutique est réalisé en cas de dermatose. Il n'est plus recommandé en cas de fièvre, et n'a pas d'indication dans les convulsions.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Bain de l'enfant – Définition",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Mme DKT envoie au centre de santé son nouveau-né présentant un muguet buccal. L'agent de santé décide de faire le soin de la bouche avec",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Du sérum glucosé isotonique"
+        },
+        {
+         "letter": "B",
+         "text": "Du sérum bicarbonaté à 14 ‰"
+        },
+        {
+         "letter": "C",
+         "text": "Du sérum glucosé à 10 %"
+        },
+        {
+         "letter": "D",
+         "text": "De l'éosine aqueuse à 2 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Du sérum glucosé à 10 %",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le muguet est une mycose buccale (candidose). Pour le soin de la bouche, le cours prévoit une compresse imbibée de SÉRUM BICARBONATÉ À 14 ‰ ; le muguet se traite ensuite par un antimycosique (gel après chaque tétée, Nystatine dans la PCIMNE).\n\nSource : Cours de Santé infantile L1 IDE-SFM, Soins des orifices – Matériel et technique des soins de la bouche ; Allaitement – Difficultés liées à l'enfant (muguet) ; Livret de tableaux PCIMNE – Suivi du muguet",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Vous recevez à votre permanence le nouveau-né Tahi au 5ème jour de vie, avec une pâte de médicament traditionnel sur le cordon ombilical. Vous décidez d'effectuer les soins ombilicaux en commençant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "De la base vers la pointe du moignon du cordon ombilical"
+        },
+        {
+         "letter": "B",
+         "text": "De la pointe du moignon du cordon vers la base de l'ombilic"
+        },
+        {
+         "letter": "C",
+         "text": "De la base vers la moitié du moignon du cordon"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. De la base vers la pointe du moignon du cordon ombilical",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Au 5e jour, le cordon est sec (pansement du cordon sec à partir du 4e jour). Le cours précise : lorsque le cordon est sec, l'application de la chlorhexidine commence à la BASE du cordon, puis vers la pointe. On déconseille aussi les produits traditionnels sur le cordon.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Soins ombilicaux – Définition (3 phases) et Déroulement du soin (NB)",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les dispositions suivantes, deux sont à observer par l'agent de santé avant les soins ombilicaux. Lesquelles ? (plusieurs réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Ôter les bijoux"
+        },
+        {
+         "letter": "B",
+         "text": "Habiller le nouveau-né"
+        },
+        {
+         "letter": "C",
+         "text": "Porter un cache-nez"
+        },
+        {
+         "letter": "D",
+         "text": "Remercier la mère"
+        },
+        {
+         "letter": "E",
+         "text": "Noter le soin dans le carnet ou le dossier médical du nouveau-né"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Ôter les bijoux ; C. Porter un cache-nez",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Dans les dispositions de l'agent de santé avant le soin : ôter les bijoux (montre, bague, bracelet…) et porter un cache-nez, avec blouse propre, ongles courts, lavage des mains. Habiller l'enfant, remercier la mère et noter le soin se font APRÈS le soin.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Soins ombilicaux – Disposition de l'agent de santé ; Après le soin",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'antiseptique recommandé pour les soins ombilicaux est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'Hexomidine"
+        },
+        {
+         "letter": "B",
+         "text": "L'Éosine aqueuse"
+        },
+        {
+         "letter": "C",
+         "text": "La Chlorhexidine gel"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. La Chlorhexidine gel",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "En Côte d'Ivoire, l'antiseptique retenu pour le pansement ombilical est la chlorhexidine (gel).\n\nSource : Cours de Santé infantile L1 IDE-SFM, Soins ombilicaux – Définition",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour affirmer qu'une gestante est bien suivie, il faut qu'elle réalise",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Au plus 3 consultations prénatales"
+        },
+        {
+         "letter": "B",
+         "text": "Au moins 4 consultations prénatales"
+        },
+        {
+         "letter": "C",
+         "text": "Au plus 2 consultations prénatales"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Au moins 4 consultations prénatales",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le carnet (CCC page 6) demande à la future maman de se rendre en consultation prénatale au moins quatre (4) fois ; l'agent de santé conseille un minimum de 4 CPN. Remarque : Le même cours rappelle que la législation ivoirienne prévoit 8 CPN ; le seuil de « bien suivie » retenu ici est le minimum de 4.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Carnet de santé mère-enfant – Page 6 ; L'essentiel en pédiatrie tropicale (Dr Asse), Nouveau-né normal – Rôles avant la naissance",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lorsque survient un granulome ombilical (bourgeon) après la chute du cordon, le geste approprié consiste à",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Continuer l'application de la chlorhexidine"
+        },
+        {
+         "letter": "B",
+         "text": "Traiter avec du crayon au Nitrate d'argent"
+        },
+        {
+         "letter": "C",
+         "text": "Appliquer de l'alcool à 90°"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Traiter avec du crayon au Nitrate d'argent",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le granulome ombilical (plaie bourgeonnante) est un incident des soins du cordon ; son traitement est le crayon de nitrate d'argent (à prévoir dans le matériel si la plaie bourgeonne).\n\nSource : Cours de Santé infantile L1 IDE-SFM, Soins ombilicaux – Matériel ; Problèmes de santé associés (incidents)",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les éléments de surveillance du nouveau-né dans l'incubateur sont",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Température ; Coloration ; poids ; Rythme cardiaque"
+        },
+        {
+         "letter": "B",
+         "text": "Température ; Coloration ; Respiration ; Rythme cardiaque"
+        },
+        {
+         "letter": "C",
+         "text": "Température ; périmètre brachial ; Respiration ; Rythme cardiaque"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Température ; Coloration ; Respiration ; Rythme cardiaque",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Chez l'enfant en incubateur, on surveille : la température, la coloration, la respiration et le rythme cardiaque.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Incubateur néonatal – Éléments de surveillance chez l'enfant",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les signes suivants, relever les deux signes d'une prise de sein correcte (plusieurs réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La bouche de l'enfant à moitié ouverte"
+        },
+        {
+         "letter": "B",
+         "text": "La joue de l'enfant touche le sein de sa mère"
+        },
+        {
+         "letter": "C",
+         "text": "Les lèvres du nourrisson sont en éversion"
+        },
+        {
+         "letter": "D",
+         "text": "L'enfant suce les deux tiers du mamelon"
+        },
+        {
+         "letter": "E",
+         "text": "L'aréole de la mère est peu visible au-dessus du mamelon"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Les lèvres du nourrisson sont en éversion ; E. L'aréole de la mère est peu visible au-dessus du mamelon",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "Signes d'une bonne prise de sein : bouche grande ouverte qui couvre l'aréole, menton qui touche le sein, LÈVRES (inférieure) EN ÉVERSION, aréole peu visible (la bouche en prend une large partie). Une bouche à moitié ouverte ou le fait de ne sucer que le mamelon sont des signes de mauvaise prise.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Allaitement – Technique de la bonne prise du sein ; L'essentiel en pédiatrie tropicale (Dr Asse), Allaitement maternel – Aide à l'allaitement",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la physiologie de la lactation, la prolactine réalise les deux actions suivantes (plusieurs réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Augmente le taux d'œstrogène"
+        },
+        {
+         "letter": "B",
+         "text": "Favorise la production du lait"
+        },
+        {
+         "letter": "C",
+         "text": "Provoque la contraction des cellules alvéolaires"
+        },
+        {
+         "letter": "D",
+         "text": "Réalise une action contraceptive chez la mère"
+        },
+        {
+         "letter": "E",
+         "text": "Propulse le lait dans les différents canaux lactifères"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Favorise la production du lait ; D. Réalise une action contraceptive chez la mère",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "La prolactine (antéhypophyse) stimule la production du lait et réalise une action contraceptive en faisant baisser les œstrogènes et la progestérone. C'est l'OCYTOCINE (post-hypophyse) qui contracte les cellules alvéolaires et propulse le lait dans les canaux.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Allaitement – Physiologie de la lactation (après l'accouchement)",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la physiologie de la lactation, la prolactine réalise les deux actions suivantes (plusieurs réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Augmente le taux d'œstrogène"
+        },
+        {
+         "letter": "B",
+         "text": "Favorise la production du lait"
+        },
+        {
+         "letter": "C",
+         "text": "Provoque la contraction des cellules alvéolaires"
+        },
+        {
+         "letter": "D",
+         "text": "Réalise une action contraceptive chez la mère"
+        },
+        {
+         "letter": "E",
+         "text": "Propulse le lait dans les différents canaux lactifères"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Favorise la production du lait ; D. Réalise une action contraceptive chez la mère",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Même réponse que la question 39 : production du lait et action contraceptive pour la prolactine ; contraction des cellules alvéolaires et éjection du lait pour l'ocytocine. Remarque : Question en double dans le sujet (identique à la question 39).\n\nSource : Cours de Santé infantile L1 IDE-SFM, Allaitement – Physiologie de la lactation",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__40",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'âge recommandé par l'OMS pour l'ablactation chez le nourrisson est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "6 mois"
+        },
+        {
+         "letter": "B",
+         "text": "12 mois"
+        },
+        {
+         "letter": "C",
+         "text": "18 mois"
+        },
+        {
+         "letter": "D",
+         "text": "24 mois"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 24 mois",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Les recommandations (OMS/UNICEF) : allaitement exclusif jusqu'à 6 mois, puis aliments de complément, et poursuite de l'allaitement jusqu'à 2 ans (24 mois) ou plus ; le sevrage complet (ablactation) se fait à 2 ans.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Allaitement – Recommandations générales ; L'essentiel en pédiatrie tropicale (Dr Asse), Allaitement maternel – Modalités recommandées",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__41",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un nourrisson de 4 mois est nourri au lait maternel et reçoit du PRIMALAN sirop depuis la naissance pour un problème d'allergie. La modalité d'alimentation de ce nourrisson est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Allaitement exclusif"
+        },
+        {
+         "letter": "B",
+         "text": "Allaitement prépondérant"
+        },
+        {
+         "letter": "C",
+         "text": "Alimentation mixte"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Allaitement exclusif",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'allaitement exclusif consiste à nourrir l'enfant uniquement au lait maternel, sans eau, tisane, jus ni autre aliment, À L'EXCEPTION DES MÉDICAMENTS PRESCRITS. Le Primalan sirop étant un médicament prescrit, l'enfant reste en allaitement exclusif.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Allaitement – Définitions (allaitement exclusif)",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__42",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au nombre des directives établies par l'OMS pour l'alimentation du nourrisson et du jeune enfant dans le contexte du VIH, il y a",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La pratique et la durée de l'allaitement"
+        },
+        {
+         "letter": "B",
+         "text": "La mise au sein tardive"
+        },
+        {
+         "letter": "C",
+         "text": "Le choix systématique de l'alimentation de remplacement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La pratique et la durée de l'allaitement",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La Directive 2 de l'OMS pour l'ANJE dans le contexte du VIH porte sur la pratique et la durée de l'allaitement. La mise au sein doit au contraire être précoce, et l'alimentation de remplacement n'est choisie que si les conditions AFADS sont réunies (pas systématiquement).\n\nSource : Cours de Santé infantile L1 IDE-SFM, ANJE dans le contexte du VIH/SIDA – Directives",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__43",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les critères ci-dessous, relevez 2 critères qui justifient le choix de l'alimentation de remplacement (plusieurs réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Accessible"
+        },
+        {
+         "letter": "B",
+         "text": "Fiable"
+        },
+        {
+         "letter": "C",
+         "text": "Justiciable"
+        },
+        {
+         "letter": "D",
+         "text": "Discutable"
+        },
+        {
+         "letter": "E",
+         "text": "Durable"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Accessible ; E. Durable",
+       "answerLetters": [
+        "A",
+        "E"
+       ],
+       "explanation": "Les conditions AFADS : Acceptable, Faisable, Abordable (le cours précise « Accessible »), Durable et Sûre. Parmi les propositions, seuls « Accessible » et « Durable » en font partie.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Alimentation de remplacement – Conditions AFADS",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__44",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour préparer le bol de lait d'un nourrisson de 5 mois avec du lait infantile, indiquez la lettre correspondant à la bonne réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "5 mesurettes rases de lait + 200 ml d'eau"
+        },
+        {
+         "letter": "B",
+         "text": "6 mesurettes rases de lait + 210 ml d'eau"
+        },
+        {
+         "letter": "C",
+         "text": "7 mesurettes rases de lait + 210 ml d'eau"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 7 mesurettes rases de lait + 210 ml d'eau",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "À 5 mois, la ration est de 200 ml (210 ml dans le tableau récapitulatif) en 4 repas. Le lait maternisé se reconstitue à 1 mesurette rase pour 30 ml d'eau : 200/30 = 6,67 → 7 mesurettes, soit 7 × 30 = 210 ml d'eau.\n\nSource : Cours de Santé infantile L1 IDE-SFM, Alimentation de remplacement – Ration selon l'âge ; Reconstitution des laits maternisés",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__45",
+       "num": "46",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les SMK comportent 3 composantes essentielles. Parmi les propositions suivantes, indiquez celle qui n'est pas une composante des SMK",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Soins thermiques"
+        },
+        {
+         "letter": "B",
+         "text": "Soins essentiels du nouveau-né"
+        },
+        {
+         "letter": "C",
+         "text": "Allaitement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Soins essentiels du nouveau-né",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La méthode kangourou associe le contact peau à peau permanent (qui assure les soins thermiques) et l'allaitement exclusif au sein, complétés par le suivi/sortie de l'enfant. Les soins essentiels du nouveau-né sont une stratégie distincte (90 premières minutes de vie), pas une composante des SMK.\n\nSource : Module de Néonatologie, ch. XVII Méthode des soins mère kangourou – Définition et objectifs ; 3e composante (suivi) : complément hors cours du projet",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__46",
+       "num": "47",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Domi est sous photothérapie, la surveillance de sa température se fait",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Toutes les 15 minutes"
+        },
+        {
+         "letter": "B",
+         "text": "Toutes les 30 minutes"
+        },
+        {
+         "letter": "C",
+         "text": "Toutes les 4 heures"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Toutes les 4 heures",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Sous photothérapie, la température fait partie de la surveillance car la photothérapie expose à l'hyperthermie (et à la déshydratation). La correction nationale retient une prise de température toutes les 4 heures. Remarque : Le rythme « toutes les 4 heures » n'est pas écrit dans le chapitre photothérapie ; le module de Néonatologie le donne pour la surveillance du nouveau-né alimenté (ch. XVI).\n\nSource : Module de Néonatologie, ch. X Ictère néonatal – Conduite de la photothérapie (surveillance, risques) ; L'essentiel en pédiatrie tropicale (Dr Asse), Ictère du nouveau-né – Précautions pour la photothérapie",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__47",
+       "num": "48",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Si la sonde est en place et que le résidu gastrique est supérieur au 1/3 de la ration et sale ; il faut trouver l'intrus dans les gestes à poser",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Faire un lavage gastrique"
+        },
+        {
+         "letter": "B",
+         "text": "Sauter le repas"
+        },
+        {
+         "letter": "C",
+         "text": "Injecter 20 cc de Ringer lactate"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Injecter 20 cc de Ringer lactate",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Un résidu supérieur au tiers et sale (bilieux, sanglant) fait suspecter un problème digestif : on aspire/lave l'estomac, on saute le repas et on alerte le médecin. Le Ringer lactate est un soluté de perfusion INTRAVEINEUSE (remplissage en cas de choc) : il ne s'injecte pas dans la sonde, c'est l'intrus.\n\nSource : Module de Néonatologie, ch. VIII Prématurité – Entérocolite ulcéro-nécrosante (arrêt de l'alimentation orale, sonde en drainage, Ringer lactate en perfusion) ; conduite pratique : complément hors cours du projet",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__48",
+       "num": "49",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelles sont les trois formes principales de malnutrition ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Sous-alimentation, carences alimentaires, suralimentation"
+        },
+        {
+         "letter": "B",
+         "text": "Obésité, diabète, hypertension"
+        },
+        {
+         "letter": "C",
+         "text": "Kwashiorkor, marasme, obésité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Sous-alimentation, carences alimentaires, suralimentation",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours distingue la malnutrition par défaut (sous-nutrition), la malnutrition par excès (suralimentation, obésité) et la malnutrition par déséquilibre (carences). Kwashiorkor et marasme sont deux formes de la sous-nutrition ; obésité, diabète et HTA ne sont pas des formes de malnutrition.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Nourrisson et enfant – Malnutrition de l'enfant, Définition et limite du thème",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__49",
+       "num": "50",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'enfant ayant le marasme présente les signes cliniques suivants",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Peau sèche, craquelée et dépigmentée"
+        },
+        {
+         "letter": "B",
+         "text": "Un visage creusé, vieillot avec un regard vif et intéressé"
+        },
+        {
+         "letter": "C",
+         "text": "Anorexie-diarrhée-triste"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Un visage creusé, vieillot avec un regard vif et intéressé",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le marasme (carence globale chronique) donne un enfant très amaigri, au visage creusé « de vieillard » avec un regard vif, affamé et actif, sans œdème ni troubles de la pigmentation. Peau dépigmentée, anorexie et tristesse évoquent le kwashiorkor.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Malnutrition de l'enfant – Formes cliniques : Marasme",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__50",
+       "num": "51",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le diagnostic de certitude du paludisme repose sur",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La clinique seulement"
+        },
+        {
+         "letter": "B",
+         "text": "La goutte épaisse ou le test de diagnostic rapide positif"
+        },
+        {
+         "letter": "C",
+         "text": "La numération formule sanguine"
+        },
+        {
+         "letter": "D",
+         "text": "La coloration des conjonctives"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. La goutte épaisse ou le test de diagnostic rapide positif",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le diagnostic biologique (de certitude) du paludisme repose sur la goutte épaisse et le frottis sanguin, et à défaut sur le test de diagnostic rapide. La clinique seule ne suffit pas (signes non spécifiques).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Paludisme de l'enfant – Diagnostic positif, Examen para clinique",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__51",
+       "num": "52",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour rechercher les facteurs favorisant de la maladie chez l'enfant je m'appuie sur",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le triangle pédiatrique"
+        },
+        {
+         "letter": "B",
+         "text": "Le losange pédiatrique"
+        },
+        {
+         "letter": "C",
+         "text": "La pyramide pédiatrique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Le triangle pédiatrique",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Pour rechercher les facteurs favorisants d'une maladie chez l'enfant, on s'appuie sur le triangle pédiatrique, qui relie l'enfant, sa famille (la mère) et son environnement : chaque côté peut contenir des facteurs favorisants (âge, état nutritionnel ; pratiques et niveau des parents ; hygiène, conditions de vie).\n\nSource : (explication hors cours du projet) – L'essentiel en pédiatrie tropicale classe d'ailleurs les facteurs favorisants « liés à l'enfant » et « liés à l'environnement »",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__52",
+       "num": "53",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes deux ne sont pas des principes de la PCIMNE. Lesquels ? (plusieurs réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Destinée aux agents de santé des ESPC"
+        },
+        {
+         "letter": "B",
+         "text": "La gratuité"
+        },
+        {
+         "letter": "C",
+         "text": "Approche syndromique"
+        },
+        {
+         "letter": "D",
+         "text": "Approche systématique"
+        },
+        {
+         "letter": "E",
+         "text": "L'efficacité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. La gratuité ; D. Approche systématique",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Le cours liste comme principes : destinée aux agents de santé des ESPC, approche syndromique, approche systématique, utilisation de signes spécifiques pour classer, approche rationnelle du traitement, conseil à la mère, continuité des soins. La gratuité n'en fait pas partie.\n\nSource : Cours PCIMNE 2026 – Généralités sur la PCIMNE, diapositive « Principes »",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__53",
+       "num": "54",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les principaux symptômes, relever deux à rechercher chez l'enfant de 2 mois à 5 ans, dans la PCIMNE (plusieurs réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'incapacité de boire ou de téter"
+        },
+        {
+         "letter": "B",
+         "text": "La convulsion"
+        },
+        {
+         "letter": "C",
+         "text": "La difficulté respiratoire"
+        },
+        {
+         "letter": "D",
+         "text": "La léthargie"
+        },
+        {
+         "letter": "E",
+         "text": "Le problème d'oreille"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. La difficulté respiratoire ; E. Le problème d'oreille",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "Chez l'enfant de 2 mois à 5 ans, on recherche les 4 principaux symptômes : toux ou difficulté respiratoire, diarrhée, fièvre, PROBLÈME D'OREILLE. L'incapacité de boire ou téter, les convulsions et la léthargie sont des signes généraux de danger, pas des « principaux symptômes ».\n\nSource : Cours PCIMNE 2026 – Généralités sur la PCIMNE, diapositives « Signes généraux de danger » et « Évaluer l'enfant malade »",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j5-idesfm__54",
+       "num": "55",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la PCIMNE, deux de ces fiches utilisées correspondent à différentes tranches d'âge qui sont de (plusieurs réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "0 à 1 mois"
+        },
+        {
+         "letter": "B",
+         "text": "1 mois à 2 mois"
+        },
+        {
+         "letter": "C",
+         "text": "0 à 1 semaine"
+        },
+        {
+         "letter": "D",
+         "text": "1 mois à 6 mois"
+        },
+        {
+         "letter": "E",
+         "text": "2 mois à 5 ans"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. 0 à 1 semaine ; E. 2 mois à 5 ans",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "La PCIMNE utilise trois fiches de prise en charge : nouveau-nés de 0 à 1 semaine, enfants de 1 semaine à 2 mois, enfants de 2 mois à 5 ans. Parmi les propositions, seules « 0 à 1 semaine » et « 2 mois à 5 ans » correspondent.\n\nSource : Cours PCIMNE 2026 – Généralités sur la PCIMNE, diapositive « Fiches de prise en charge »",
+       "sourceDoc": "Prépa D.E — J5 Pédiatrie IDE/SFM (corrigé expliqué)",
+       "sourceFile": "J5_Pediatrie_IDE-SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

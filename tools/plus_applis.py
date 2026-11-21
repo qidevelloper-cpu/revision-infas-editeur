@@ -59,7 +59,7 @@ def main():
     man = json.load(open(mp, encoding='utf-8'))
     propre = []
     for s in man['segments']:
-        if s['type'] == 'bloc' and str(s.get('fichier', '')).startswith('plus-applis/'):
+        if s['type'] == 'bloc' and str(s.get('fichier', '')).startswith('plus-applis/'):   # paquets, index, natif et images
             propre.pop()          # retire aussi la balise HTML qui ouvre le bloc
             continue
         propre.append(s)
@@ -103,11 +103,30 @@ def main():
             index.setdefault(app, []).append({k: P.get(k) for k in ('id', 'titre', 'session', 'annee', 'nq', 'nsuj')} | {
                 'antennes': [{'slug': a['slug'], 'name': a['name'], 'existe': a.get('existe', False),
                               'sujets': [[s['slug'], s['name'], len(s['questions'])] for s in a['sujets']]} for a in P['antennes']]})
+    # images des énoncés (cas cliniques, tableaux scannés…) : plus-applis/<appli>/img/<fichier> → bloc img-pa<appli>_<nom>
+    # (dans le texte d'un cas : ligne [[image:<fichier>|légende]] ; la publication en fait img/<clé>.webp comme les autres images)
+    import base64, re
+    MIME = {'.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp', '.gif': 'image/gif'}
+    IMGS = []
+    for app in sorted(NAT):
+        dimg = os.path.join(PA, app, 'img')
+        for f in sorted(os.listdir(dimg)) if os.path.isdir(dimg) else []:
+            ext = os.path.splitext(f)[1].lower()
+            if ext not in MIME: continue
+            cle = 'pa%s_%s' % (app, re.sub(r'[^A-Za-z0-9_]', '_', os.path.splitext(f)[0]))
+            if 'img-' + cle in ids or any(c == cle for c, *_ in IMGS): sys.exit('ARRÊT : image en double : ' + cle)
+            IMGS.append((cle, 'plus-applis/%s/img/%s' % (app, f), MIME[ext]))
     for app, N in sorted(NAT.items(), reverse=True):   # questions natives : sujets comme les autres (écran « toutes les questions »)
         blocs.insert(0, ('app-xdata-plusnat-' + app, 'plus-applis/%s-natif.json' % app,
                          json.dumps(N, ensure_ascii=False, separators=(',', ':')).replace('</script', '<%/script').encode('utf-8')))
     if index:
         blocs.insert(0, ('app-xdata-plusapp', 'plus-applis/index.json', json.dumps(index, ensure_ascii=False, separators=(',', ':')).encode('utf-8')))
+    for cle, fic, mime in IMGS:
+        pre = 'data:%s;base64,' % mime
+        enc = pre.encode('ascii') + base64.b64encode(open(os.path.join(SRC, fic), 'rb').read())
+        ouv = '</script>\n<script type="text/plain" id="img-%s">' % cle
+        propre.append({'type': 'html', 'texte': ouv, 'sha256': sha(ouv.encode('utf-8'))})
+        propre.append({'type': 'bloc', 'id': 'img-' + cle, 'octets': len(enc), 'sha256': sha(enc), 'fichier': fic, 'codage': 'base64', 'prefixe': pre})
     for bid, fic, data in blocs:
         ouv = '</script>\n<script type="text/plain" id="%s">' % bid
         propre.append({'type': 'html', 'texte': ouv, 'sha256': sha(ouv.encode('utf-8'))})

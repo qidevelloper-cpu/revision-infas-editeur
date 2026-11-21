@@ -1,0 +1,2168 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zy-sj-prepa-ssrpf-j5-sfm",
+ "titre": "Préparation D.E (J) · J5 SSR/PF SFM",
+ "session": "J",
+ "annee": 2026,
+ "nq": 60,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J5_SR-PF_SFM_Corrige_explique.pdf",
+   "sha256": "fac82cb699a7c78e2700572925e9d852515a7e388c0fdedc894bdd36c809f297"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J SSR / PF · Prépa D.E J5 (SFM)",
+     "slug": "prepa-ssrpf-j5-sfm",
+     "pages": "",
+     "count": 60,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "SSR / PF",
+     "source": "J5_SR-PF_SFM_Corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le DIU au cuivre TCU 380 A utilisé en Côte d'Ivoire a une durée d'action allant de 5 à 12 ans",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le DIU au cuivre TCU 380 A a une durée d'action pouvant aller jusqu'à 12 ans (TCU 380 A « 12 ans » dans le tableau des types de DIU). La correction nationale de la Prépa DE (les J) retient « Vrai ». Remarque : Le cours donne seulement « 12 ans » ; la borne de 5 ans de l'énoncé n'y figure pas.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 14 DIU, tableau « Types de DIU »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Devant une aménorrhée sous DIU il faut immédiatement penser à une grossesse extra-utérine",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le DIU ne protège pas totalement : en cas de grossesse avec un DIU en place, il faut d'abord s'assurer qu'il ne s'agit pas d'une grossesse ectopique (GEU). Une aménorrhée sous DIU impose donc d'éliminer en priorité une GEU.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 15 DIUPP, « Grossesse avec un DIU en place » ; complications : « Risque de GEU »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une cliente sous DIU peut avoir comme effet secondaire l'augmentation de son flux menstruel",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'augmentation du flux menstruel fait partie des effets secondaires du DIU (avec les saignements prolongés, les crampes, la métrorragie). Elle est surtout marquée pendant les premiers cycles avec le DIU au cuivre.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 14 DIU, tableau « Effets secondaires et complications »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'ancrage, les rapports sexuels douloureux et les infections pelviennes sont des complications qui peuvent survenir chez une cliente sous un dispositif intra-utérin",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours classe parmi les complications du DIU : la perforation pendant la pose, la migration, l'ancrage, le risque de GEU, les infections pelviennes graves et le rapport sexuel douloureux. Les trois éléments cités sont bien des complications.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 14 DIU, tableau « Effets secondaires et complications »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une cliente qui n'a pas assez de lait ne peut pas faire la MAMA",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les 3 conditions de la MAMA sont : allaitement exclusif (6 à 8 tétées/24 h), femme aménorrhéique, post-partum < 6 mois. L'abondance du lait n'en fait pas partie ; le cours range d'ailleurs « la montée laiteuse importante est la principale condition » parmi les affirmations à corriger. Une mère qui allaite exclusivement peut donc utiliser la MAMA même si elle pense avoir « peu de lait ».\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 10 MAMA, « Conditions d'efficacité » + Annexe (questionnaire)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le fort taux de la prolactine dépend du nombre, de la qualité, de la fréquence et de la durée des tétées",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours indique que le taux de prolactine est fonction du nombre, de la qualité, de la fréquence des tétées et de la durée de l'allaitement ; plus il est élevé, plus l'effet contraceptif de la MAMA est fort.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 10 MAMA, « Mécanisme d'action »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Tous les COC contiennent 21 pilules actives",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Il existe des plaquettes de 21 pilules et des plaquettes de 28 pilules (la plaquette de 28 s'enchaîne sans arrêt). Les COC ne se présentent donc pas tous de la même façon, d'où « Faux ». Remarque : Le cours parle de plaquettes de 21 et de 28 pilules sans préciser le nombre de pilules actives dans la plaquette de 28.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 12 CHC, « Instructions pour l'utilisation des COC »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les adolescents et jeunes venant à la consultation ont le droit d'être reçus dans des conditions confortables",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le counseling des adolescents doit créer un climat de confiance, insister sur le caractère privé et confidentiel de l'entretien et éviter tout ce qui pourrait les décourager de consulter : ils ont droit à un accueil dans de bonnes conditions. (explication partiellement hors cours du projet)\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 17 Groupes particuliers, « Counseling chez les adolescents »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les COC sont classés en 4 groupes en fonction du dosage",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ». Dans le cours, les COC sont classés en 3 groupes selon le dosage en éthinylestradiol (minidosés 15-40 µg, normodosés 50 µg, fortement dosés > 50 µg) et en 4 générations selon le type de progestatif.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 12 CHC, « Caractéristiques des COC »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les COC peuvent être administrés à une allaitante de 6 semaines si elle le désire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Allaitement entre 6 semaines et 6 mois : catégorie 3 de l'OMS pour les COC (les risques l'emportent sur les avantages). On ne donne donc pas les COC à une allaitante de 6 semaines simplement parce qu'elle le désire ; on préfère une méthode progestative.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 12 CHC, « Critères médicaux d'éligibilité » (Post-partum)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les contraceptifs oraux combinés diminuent l'effet hypoglycémique",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans le tableau des interférences médicamenteuses, les hypoglycémiants (Diabinèse, Tolbutamide…) associés aux COC : « Diminution possible de l'effet hypoglycémique » ; il faut surveiller la glycémie.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 12 CHC, « Interférence médicamenteuse »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La contraception d'urgence consiste à administrer une méthode contraceptive après un rapport sexuel non protégé, dans une période où le couple ne souhaite absolument pas de grossesse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Définition du cours : la contraception d'urgence est l'administration d'une méthode contraceptive suite à un rapport sexuel non protégé, à une période du cycle où le risque de grossesse non désirée est élevé (contraception post-coïtale).\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 17, « Contraception d'urgence »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le DIU au cuivre peut être utilisé en contraception d'urgence",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le DIU au cuivre peut être utilisé comme contraception d'urgence s'il est posé dans les 5 jours suivant le rapport ; le DIU hormonal, lui, ne l'est pas.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 14 DIU (tableau) et chap. 17 « Contraception d'urgence »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La Contraception Chirurgicale Volontaire est obligatoire chez les femmes ayant des antécédents médico-chirurgicaux ou obstétricaux contre-indiquant la grossesse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les femmes ayant des antécédents contre-indiquant la grossesse font partie des bénéficiaires de la CCV, mais celle-ci reste volontaire : elle n'est pratiquée qu'après consentement écrit et éclairé, que la cliente peut retirer à tout moment. Elle n'est jamais obligatoire.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 16 CCV, « Bénéficiaires » et « Principe du consentement écrit et volontaire »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La planification familiale est bénéfique pour la population car, sur le plan démographique, elle assure un bon équilibre entre population et ressources et contribue ainsi à résoudre les problèmes de développement",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Avantage démographique de la PF : établissement d'un bon équilibre entre population et ressources. Le cours précise que la PF seule ne résout pas les problèmes de développement mais y contribue.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 2 Concept de la PF, « Avantages de la PF »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__15",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Si le centre a plus que le minimum, il est surstocké et risque d'avoir des quantités qui périmeront avant leur utilisation",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai » : un niveau de stock trop élevé expose à la péremption des produits avant utilisation. Le cours reprend cette phrase parmi les affirmations Vrai/Faux du prétest de gestion logistique (« Tout niveau de stock supérieur au minimum est une situation de sur stockage »), sans donner la réponse. (explication partiellement hors cours du projet) Remarque : Dans le système max-min classique, on parle de surstockage au-dessus du stock MAXIMUM (entre le minimum et le maximum, le stock est normal).\n\nSource : Cours SR/PF 2023 L2 INFAS, Annexe 2 « Questionnaire prétest gestion logistique », item 17",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le stock d'alerte = stock minimum + stock de sécurité",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Option 1"
+        },
+        {
+         "letter": "B",
+         "text": "Option 2"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Option 2",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) coche « Option 2 », ce qui correspond à « Faux ». En gestion logistique, le stock d'alerte (seuil de commande) se calcule à partir du stock de sécurité et de la consommation pendant le délai de livraison ; ce n'est pas l'addition « stock minimum + stock de sécurité » (le stock de sécurité fait déjà partie du minimum). (explication hors cours du projet) Remarque : Dans le sujet, les deux réponses sont libellées « Option 1 » et « Option 2 » au lieu de V et F ; « Option 2 » est lue ici comme « Faux ».",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__17",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le soutien social et environnemental est une des composantes de la gestion de l'hygiène menstruelle",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La gestion de l'hygiène menstruelle ne se limite pas aux protections : elle comprend l'accès à l'information, à l'eau et à l'assainissement, aux produits, à l'élimination des déchets, et le soutien social et environnemental (lutte contre les tabous, la stigmatisation). (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__18",
+       "num": "19",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La survenue de saignement tous les 21 à 35 jours s'appelle le cycle menstruel",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cycle menstruel est la période qui va du 1er jour des règles au 1er jour des règles suivantes (ou au dernier jour qui les précède). Le saignement lui-même est la menstruation (les règles), pas le cycle.\n\nSource : Cours Gynéco-Obstétrique 1re année INFAS, « Cycle menstruel normal » ; Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), Annexe",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__19",
+       "num": "20",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'utilisation de tampons à haut pouvoir absorbant en cas de perte légère de sang pendant les menstrues n'est pas un risque pour la santé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Utiliser des tampons très absorbants pour un faible flux augmente le temps de port et le risque d'infection, notamment du syndrome du choc toxique. On choisit la capacité d'absorption la plus faible adaptée au flux et on change régulièrement : ce n'est donc pas sans risque. (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__20",
+       "num": "21",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le sexe est immuable",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Faux ». (explication hors cours du projet) Remarque : La plupart des cours « Approche genre » définissent le sexe comme biologique, universel et immuable (par opposition au genre, social et variable). Le cours Genre n'est pas dans le projet : vérifier la position de l'enseignant.",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__21",
+       "num": "22",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le genre permet d'identifier les différences entre les femmes et les hommes",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le genre permet d'analyser les différences entre femmes et hommes construites par la société (rôles, comportements, accès aux ressources, pouvoir de décision), au-delà des seules différences biologiques. (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__22",
+       "num": "23",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'utilisatrice de la méthode de Billings doit savoir qu'après l'ovulation la couleur de sa glaire cervicale est mélangée",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Faux ». Le tableau de la glaire décrit, après l'ovulation : quantité diminuée, consistance fine, couleur « mélangée », élasticité 4 à 6 cm.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 8 MAO, tableau « Changements de la glaire cervicale »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__23",
+       "num": "24",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le genre désigne les rôles, comportements et responsabilités attribués socialement aux hommes et aux femmes",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "C'est la définition du genre : ensemble des rôles, comportements, activités et responsabilités que la société attribue aux hommes et aux femmes. Contrairement au sexe, il est appris et varie selon les cultures et les époques. (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__24",
+       "num": "25",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le pouvoir décisionnel est un élément des six notions-pivots des fonctions sociales du genre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le pouvoir de décision (qui décide dans le ménage, la communauté) fait partie des notions clés utilisées pour analyser les fonctions sociales du genre, avec les rôles, l'accès et le contrôle des ressources, les besoins, etc. (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__25",
+       "num": "26",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 — Mlle CHIAWA est une adolescente de 16 ans élève, souhaite finir ses études avant de faire des enfants. Elle se rend dans un centre de santé pour rencontrer la sage-femme.",
+       "text": "Que fera la sage-femme ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une Consultation"
+        },
+        {
+         "letter": "B",
+         "text": "Une Causerie éducative"
+        },
+        {
+         "letter": "C",
+         "text": "Un Counseling"
+        },
+        {
+         "letter": "D",
+         "text": "Une Communication"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Un Counseling",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Mlle CHIAWA vient seule avec un besoin personnel (éviter une grossesse pour finir ses études) : c'est un counseling, entretien-conseil en tête-à-tête dans un endroit calme, où le prestataire l'aide à trouver et choisir elle-même une solution (méthode contraceptive). La causerie éducative s'adresse à un groupe.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 6 Counseling (définition) et chap. 5 Causerie éducative",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__26",
+       "num": "27",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 — Mlle CHIAWA est une adolescente de 16 ans élève, souhaite finir ses études avant de faire des enfants. Elle se rend dans un centre de santé pour rencontrer la sage-femme.",
+       "text": "Choisir un de ses Principes de base nécessaires au client",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La liberté de s'exprimer"
+        },
+        {
+         "letter": "B",
+         "text": "La maîtrise du sujet"
+        },
+        {
+         "letter": "C",
+         "text": "Tirer les leçons du passé"
+        },
+        {
+         "letter": "D",
+         "text": "L'éducation par l'exemple"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La liberté de s'exprimer",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les principes de base du counseling « au niveau du client » sont : caractère privé et confidentiel, liberté de choisir la méthode, liberté de s'exprimer, consentement éclairé, droits du client, renforcement de ses capacités. La maîtrise du sujet, tirer les leçons du passé et l'éducation par l'exemple sont des principes « au niveau du prestataire ».\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 6, « Principes de base nécessaires au counseling »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "LA C.C.V. se définit comme une intervention (1) …qui (2) …et irréversible à (3) … sans toutefois (4) … la sexualité et (5) … la fonction hormonale. Chez la femme, la CCV s'appelle ligature des trompes, chez l'homme c'est la vasectomie. a-Perturber b-met fin de façon définitive c-Troubler d-Chirurgicale e-Toute possibilité de reproduction sexuée. Comme vous le constatez cette définition est incomplète, reconstituez-la en choisissant la bonne association",
+       "options": [
+        {
+         "letter": "A",
+         "text": "(1-d), (2-b), (3-e), (4-c), (5-a)"
+        },
+        {
+         "letter": "B",
+         "text": "(1-e), (2-d), (3-c), (4-a), (5-b)"
+        },
+        {
+         "letter": "C",
+         "text": "(1-a), (2-b), (3-c), (4-e), (5-d)"
+        },
+        {
+         "letter": "D",
+         "text": "(1-b), (2-c), (3-a), (4-c), (5-a)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. (1-d), (2-b), (3-e), (4-c), (5-a)",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Définition du cours : « La CCV est une intervention chirurgicale (1-d) qui met fin de façon définitive (2-b) et irréversible à toute possibilité de reproduction sexuée (3-e) sans toutefois troubler (4-c) la sexualité et perturber (5-a) la fonction hormonale ».\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 16 CCV, « Définition »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La MAMA est efficace si les conditions suivantes sont réunies (Choisir 3 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Abondance de lait maternel"
+        },
+        {
+         "letter": "B",
+         "text": "Allaitement exclusif"
+        },
+        {
+         "letter": "C",
+         "text": "Bonne succion du bébé"
+        },
+        {
+         "letter": "D",
+         "text": "Femme aménorrhéiques"
+        },
+        {
+         "letter": "E",
+         "text": "Post partum inférieur à 6 mois"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Allaitement exclusif ; D. Femme aménorrhéiques ; E. Post partum inférieur à 6 mois",
+       "answerLetters": [
+        "B",
+        "D",
+        "E"
+       ],
+       "explanation": "Les 3 conditions d'efficacité de la MAMA (98 %) : allaitement exclusif, femme aménorrhéique, post-partum inférieur à 6 mois (bébé < 6 mois). L'abondance du lait et la bonne succion ne font pas partie des 3 conditions.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 10 MAMA, « Conditions d'efficacité »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Sont énumérés ci-dessous les avantages pour l'enfant de la MAMA sauf un ; lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Alimentation saine"
+        },
+        {
+         "letter": "B",
+         "text": "Bon développement psychomoteur"
+        },
+        {
+         "letter": "C",
+         "text": "Permet à la mère de faire des économies"
+        },
+        {
+         "letter": "D",
+         "text": "Immunise de façon passive"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Permet à la mère de faire des économies",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Avantages pour l'enfant : alimentation la plus saine, protection contre la diarrhée, lien mère-enfant, immunisation passive, bon développement psychomoteur. Le fait de ne rien coûter est un avantage pour la mère, pas pour l'enfant.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 10 MAMA, tableau « Avantages et inconvénients »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le moment favorable pour administrer les COC aux clientes",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Qui ont un bon état de santé"
+        },
+        {
+         "letter": "B",
+         "text": "À tout moment si elles le désirent"
+        },
+        {
+         "letter": "C",
+         "text": "1 à 7 jours du cycle menstruel"
+        },
+        {
+         "letter": "D",
+         "text": "1 à 5 jours du cycle menstruel"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 1 à 7 jours du cycle menstruel",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Pour les CHC, les 7 premiers jours du cycle représentent le moment le plus indiqué pour commencer (après le 7e jour : méthode d'appoint pendant 2 jours). La fenêtre 1 à 5 jours concerne les COP.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 12 CHC, « Moment d'administration » ; chap. 13 CHP",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'un des avantages sanitaires de la Planification Familiale est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Diminution de la délinquance juvénile."
+        },
+        {
+         "letter": "B",
+         "text": "Amélioration de la qualité de la vie."
+        },
+        {
+         "letter": "C",
+         "text": "Réduction de la mortalité et de la morbidité maternelle, périnatale et infantile."
+        },
+        {
+         "letter": "D",
+         "text": "Bonne hygiène de l'environnement."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Réduction de la mortalité et de la morbidité maternelle, périnatale et infantile.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Avantages sanitaires de la PF : réduction de la mortalité et de la morbidité maternelle, périnatale et infantile, des complications de la grossesse et de l'accouchement, prévention des grossesses à risque. La qualité de vie et la baisse de la délinquance sont des avantages socio-économiques ; l'hygiène de l'environnement est un avantage environnemental.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 2, tableau « Avantages de la PF »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'un des modes d'action des COP est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Tue les spermatozoïdes"
+        },
+        {
+         "letter": "B",
+         "text": "Bloque le passage des spermatozoïdes dans les trompes de Fallope"
+        },
+        {
+         "letter": "C",
+         "text": "Diminue le transport des spermatozoïdes dans les trompes de Fallope"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Diminue le transport des spermatozoïdes dans les trompes de Fallope",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Mode d'action des CHP (COP, CIP, implants) : épaississement de la glaire, modification de l'endomètre, diminution du transport des spermatozoïdes dans les trompes, blocage partiel de l'ovulation. Ils ne tuent pas les spermatozoïdes (c'est le rôle des spermicides).\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 13 CHP, « Mode d'action »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La plaquette de MICROLUT contient",
+       "options": [
+        {
+         "letter": "A",
+         "text": "45 comprimés"
+        },
+        {
+         "letter": "B",
+         "text": "35 comprimés"
+        },
+        {
+         "letter": "C",
+         "text": "30 comprimés"
+        },
+        {
+         "letter": "D",
+         "text": "28 comprimés"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 35 comprimés",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Tableau comparatif des COP : Ovrette = 28 comprimés, Microlut (lévonorgestrel) = 35 comprimés.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 13 CHP, « Tableau comparatif des contraceptifs oraux progestatifs »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans quelle classe de l'OMS se trouve une cliente qui a un cancer de l'endomètre pour les COC",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Classe 4"
+        },
+        {
+         "letter": "B",
+         "text": "Classe 3"
+        },
+        {
+         "letter": "C",
+         "text": "Classe 2"
+        },
+        {
+         "letter": "D",
+         "text": "Classe 1"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Classe 1",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Critères médicaux d'éligibilité des CHC : « cancer de l'endomètre ou de l'ovaire » = catégorie 1 pour les COC (aucune restriction). Les COC protègent même contre le cancer de l'endomètre.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 12 CHC, « Critères médicaux d'éligibilité » et « Avantages »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En cas de Vasectomie il faut revoir le client : (choisir 3 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Un mois après l'intervention pour l'examen de l'éjaculat"
+        },
+        {
+         "letter": "B",
+         "text": "Une semaine après l'intervention pour vérifier son consentement"
+        },
+        {
+         "letter": "C",
+         "text": "En cas de fièvre, de saignement au niveau des cicatrices et de douleurs ou inflammation au niveau du scrotum"
+        },
+        {
+         "letter": "D",
+         "text": "Un mois après l'intervention pour vérifier l'érection"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Un mois après l'intervention pour l'examen de l'éjaculat ; C. En cas de fièvre, de saignement au niveau des cicatrices et de douleurs ou inflammation au niveau du scrotum",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Calendrier de suivi de la vasectomie : revoir le client un mois après l'intervention pour l'examen de l'éjaculat, et consulter en cas de fièvre, de saignement des cicatrices, de douleur ou d'inflammation du scrotum. Le consentement se vérifie avant l'intervention ; la vasectomie ne touche pas l'érection. Remarque : La question demande 3 réponses, mais seules 2 options sont cochées dans la correction nationale.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 16 CCV, « Calendrier de suivi »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Concernant les méthodes contraceptives spécifiques pour les adolescents dans l'ordre de préférence il faut recommander",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Abstinence - Préservatifs masculin et féminin - Contraception d'urgence - Contraceptifs oraux combinés (COC)"
+        },
+        {
+         "letter": "B",
+         "text": "Abstinence - Préservatifs masculin et féminin - Contraceptifs oraux combinés (COC) - Contraception d'urgence"
+        },
+        {
+         "letter": "C",
+         "text": "Préservatifs masculin et féminin - Les implants - Les méthodes d'auto-observations - Abstinence"
+        },
+        {
+         "letter": "D",
+         "text": "Abstinence - Les injectables - Préservatifs masculin et féminin - Contraceptifs oraux progestatifs (COP)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Abstinence - Préservatifs masculin et féminin - Contraceptifs oraux combinés (COC) - Contraception d'urgence",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Ordre de préférence chez l'adolescent : abstinence (+++), préservatifs masculin et féminin (+++), COC (++), COP, injectables, implants (++), puis contraception d'urgence (+), DIU et méthodes d'auto-observation (+).\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 17, « Méthodes contraceptives spécifiques pour les adolescents »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les caractéristiques de la contraception en post-partum il est important de savoir que chez la femme non allaitante il faut tenir compte de",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Retour des menstruations dans les 4 semaines"
+        },
+        {
+         "letter": "B",
+         "text": "Première ovulation dans une moyenne de 45 jours après l'accouchement"
+        },
+        {
+         "letter": "C",
+         "text": "2 femmes sur 3 vont ovuler avant de revoir les règles"
+        },
+        {
+         "letter": "D",
+         "text": "Risque de survenue d'une grossesse : le plus tôt est vingt et un (21) jours"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Première ovulation dans une moyenne de 45 jours après l'accouchement ; D. Risque de survenue d'une grossesse : le plus tôt est vingt et un (21) jours",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Femme non allaitante : retour des règles dans les 6 semaines (et non 4), première ovulation en moyenne 45 jours après l'accouchement, risque de grossesse à partir du 21e jour.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 17, « Caractéristiques de la contraception dans le PP »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le DIU au cuivre (TCU 380 A) utilisé en CI agit en",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Réduisant le nombre des spermatozoïdes dans le sperme au niveau du col"
+        },
+        {
+         "letter": "B",
+         "text": "Altérant les spermatozoïdes les empêchant de parvenir jusqu'aux trompes"
+        },
+        {
+         "letter": "C",
+         "text": "Inactivant et diminuant le nombre de spermatozoïde atteignant les trompes"
+        },
+        {
+         "letter": "D",
+         "text": "Atrophiant l'endomètre rendant la nidation impossible"
+        },
+        {
+         "letter": "E",
+         "text": "Modifiant l'endomètre et provoquant un environnement défavorable à la nidation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Altérant les spermatozoïdes les empêchant de parvenir jusqu'aux trompes ; C. Inactivant et diminuant le nombre de spermatozoïde atteignant les trompes ; E. Modifiant l'endomètre et provoquant un environnement défavorable à la nidation",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "Mode d'action du DIU au cuivre : il altère les spermatozoïdes, inactive et diminue le nombre de spermatozoïdes qui atteignent les trompes, et modifie l'endomètre (milieu défavorable à la nidation). L'atrophie de l'endomètre relève plutôt du DIU hormonal.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 14 DIU, tableau « Types de DIU » (mode d'action)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les éléments ci-dessous sont des complications qui surviennent après la pose d'un dispositif intra-utérin : (Choisir les trois bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Migration du DIU"
+        },
+        {
+         "letter": "B",
+         "text": "Augmentation du flux menstruel"
+        },
+        {
+         "letter": "C",
+         "text": "Perforation pendant la pose (arrêter la manœuvre)"
+        },
+        {
+         "letter": "D",
+         "text": "Rapport sexuel douloureux"
+        },
+        {
+         "letter": "E",
+         "text": "Métrorragie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Migration du DIU ; B. Augmentation du flux menstruel ; C. Perforation pendant la pose (arrêter la manœuvre) ; D. Rapport sexuel douloureux",
+       "answerLetters": [
+        "A",
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "Complications listées dans le cours : perforation pendant la pose (arrêter la manœuvre), migration du DIU, ancrage, risque de GEU, infections pelviennes graves, rapport sexuel douloureux.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 14 DIU, tableau « Effets secondaires et complications »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__40",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans le post-abortum, le DIU peut être inséré : (Choisir les deux bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Immédiatement après l'avortement"
+        },
+        {
+         "letter": "B",
+         "text": "Dans les quatorze (14) premiers jours qui suivent l'avortement après avoir évalué et écarté un risque infectieux"
+        },
+        {
+         "letter": "C",
+         "text": "Au-delà de cette période, si on a l'accord de la cliente"
+        },
+        {
+         "letter": "D",
+         "text": "A n'importe quel moment après un bon counseling"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Immédiatement après l'avortement ; B. Dans les quatorze (14) premiers jours qui suivent l'avortement après avoir évalué et écarté un risque infectieux",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "En post-abortum, le DIU est proposé en l'absence absolue d'infection de la filière génitale ; il peut être posé dès la vacuité utérine, donc immédiatement après l'avortement, ou dans les jours qui suivent après avoir écarté un risque infectieux. On ne le pose pas « à n'importe quel moment ». (explication partiellement hors cours du projet) Remarque : Le délai précis de 14 jours ne figure pas dans les cours du projet.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 17 « Planification du post-abortum » ; SONU L3, Soins après avortement (« DIU dès vacuité utérine »)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__41",
+       "num": "42",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2 — Vous recevez Mme BOUM pour des douleurs, l'interrogatoire indique qu'elle porte un DIU depuis un an ; après un examen minutieux vous retenez qu'il s'agit d'une infection de l'endomètre.",
+       "text": "Quel traitement préconisez-vous ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Des antidouleurs"
+        },
+        {
+         "letter": "B",
+         "text": "Des antibiotiques à spectre large"
+        },
+        {
+         "letter": "C",
+         "text": "Des antispasmodiques et du repos"
+        },
+        {
+         "letter": "D",
+         "text": "Des antibiotiques et aspirine"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Des antibiotiques et aspirine",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Devant une endométrite chez une porteuse de DIU, on débute immédiatement une antibiothérapie adaptée, sans retirer d'emblée le DIU. La correction nationale de la Prépa DE (les J) retient l'association antibiotiques + aspirine (anti-inflammatoire et antalgique). (explication partiellement hors cours du projet) Remarque : Le cours parle d'antibiothérapie ; l'aspirine n'y est pas mentionnée.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 15 DIUPP, « Infection »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__42",
+       "num": "43",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2 — Vous recevez Mme BOUM pour des douleurs, l'interrogatoire indique qu'elle porte un DIU depuis un an ; après un examen minutieux vous retenez qu'il s'agit d'une infection de l'endomètre.",
+       "text": "48 heures après le bon traitement, il y'a une amélioration, quelle décision devez-vous prendre ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rassurer la cliente et laissez le DIU en place"
+        },
+        {
+         "letter": "B",
+         "text": "Continuer son traitement pendant une semaine"
+        },
+        {
+         "letter": "C",
+         "text": "Continuer le traitement pendant 10 jours et laisser le DIU en place"
+        },
+        {
+         "letter": "D",
+         "text": "Continuer le traitement et le proposer une autre méthode pour plus de sécurité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Continuer le traitement pendant 10 jours et laisser le DIU en place",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le cours indique de retirer le DIU seulement en cas de septicémie ou si les symptômes ne s'améliorent pas en 72 heures. En cas d'amélioration, on poursuit le traitement complet et on laisse le DIU en place.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 15 DIUPP, « Infection »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__43",
+       "num": "44",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2 — Vous recevez Mme BOUM pour des douleurs, l'interrogatoire indique qu'elle porte un DIU depuis un an ; après un examen minutieux vous retenez qu'il s'agit d'une infection de l'endomètre.",
+       "text": "Qu'auriez-vous fait si le traitement avait échoué ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Retirer le DIU et référer Mme Brou"
+        },
+        {
+         "letter": "B",
+         "text": "Augmenter la dose du traitement et observer la cliente"
+        },
+        {
+         "letter": "C",
+         "text": "Changer le traitement et lui donner un RDV dans 8 jours"
+        },
+        {
+         "letter": "D",
+         "text": "Référer tout simplement Mme Brou"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Référer tout simplement Mme Brou",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "En cas d'échec du traitement, la cliente doit être référée vers un niveau de prise en charge supérieur. (explication partiellement hors cours du projet)\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 15 DIUPP, « Infection » et « Principes généraux de prise en charge »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__44",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'orientation sexuelle désigne",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'attirance physique, romantique ou émotionnelle qu'une personne éprouve envers une autre personne"
+        },
+        {
+         "letter": "B",
+         "text": "Une personne qui ressent une attirance physique et émotionnelle pour autrui, peu importe son identité de genre"
+        },
+        {
+         "letter": "C",
+         "text": "Une personne qui ne ressent pas d'attirance sexuelle pour personne."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Une personne qui ressent une attirance physique et émotionnelle pour autrui, peu importe son identité de genre",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient la formulation B (attirance physique et émotionnelle pour autrui, quelle que soit son identité de genre). (explication hors cours du projet) Remarque : Les options A et B décrivent toutes deux l'orientation sexuelle ; la définition précise attendue dépend du cours Genre (absent du projet).",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__45",
+       "num": "46",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les méthodes contraceptives hormonales agissent sur : (choisir 3 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les spermatozoïdes"
+        },
+        {
+         "letter": "B",
+         "text": "La glaire cervicale"
+        },
+        {
+         "letter": "C",
+         "text": "Les trompes"
+        },
+        {
+         "letter": "D",
+         "text": "L'endomètre"
+        },
+        {
+         "letter": "E",
+         "text": "L'ovulation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. La glaire cervicale ; D. L'endomètre ; E. L'ovulation",
+       "answerLetters": [
+        "B",
+        "D",
+        "E"
+       ],
+       "explanation": "Tableau d'interférence avec les conditions de la grossesse : les méthodes hormonales agissent sur l'ovulation, la glaire cervicale et l'endomètre. Les spermicides et méthodes mécaniques agissent sur les spermatozoïdes ; la chirurgie sur les trompes.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 3, tableau « Interférence avec les conditions de grossesse »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__46",
+       "num": "47",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le genre est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Déterminé par les différences biologiques"
+        },
+        {
+         "letter": "B",
+         "text": "Un concept social"
+        },
+        {
+         "letter": "C",
+         "text": "Déterminé par les différences de sexe"
+        },
+        {
+         "letter": "D",
+         "text": "Concept démographique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Un concept social",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le genre est un concept social : il désigne ce que la société attend des hommes et des femmes. Ce qui est déterminé par les différences biologiques ou de sexe relève du sexe. (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__47",
+       "num": "48",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En planification familiale, l'on peut être confronté à des obstacles d'ordre institutionnel tels que",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le coût des services de PF"
+        },
+        {
+         "letter": "B",
+         "text": "Insuffisance de personnel qualifié"
+        },
+        {
+         "letter": "C",
+         "text": "Manque ou insuffisances de motivation"
+        },
+        {
+         "letter": "D",
+         "text": "Le manque ou insuffisances de moyens financiers."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Insuffisance de personnel qualifié",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Obstacles institutionnels : absence ou insuffisance de centres de PF, insuffisance de personnel qualifié. Le coût des services et le manque de moyens financiers sont des obstacles économiques.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 2, tableau « Obstacles à la PF »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__48",
+       "num": "49",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les objectifs principaux des soins de suivi des clientes du DIU est de",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rechercher une Malaise intense dans la partie inférieure de l'abdomen"
+        },
+        {
+         "letter": "B",
+         "text": "Renforcer les messages clés concernant le retrait et la durée d'action"
+        },
+        {
+         "letter": "C",
+         "text": "Retirer le DIU quand elle le désire ou attendre 12 ANS pour le retrait"
+        },
+        {
+         "letter": "D",
+         "text": "Surveiller le Mois et l'année auxquels le DIU devra être retiré"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Renforcer les messages clés concernant le retrait et la durée d'action",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Objectifs clés des soins de suivi : évaluer la satisfaction, identifier et gérer les problèmes, répondre aux questions et renforcer les messages clés concernant le retrait et la durée d'action.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 15 DIUPP, « Objectifs principaux des soins de suivi »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__49",
+       "num": "50",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'examen de l'éjaculât pour la vasectomie se fait",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Deux mois après l'intervention"
+        },
+        {
+         "letter": "B",
+         "text": "Un mois après l'intervention"
+        },
+        {
+         "letter": "C",
+         "text": "Trois mois après l'éjaculat."
+        },
+        {
+         "letter": "D",
+         "text": "20 éjaculats après intervention"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Un mois après l'intervention",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Revoir le client un mois après l'intervention pour l'examen de l'éjaculat. Pendant 3 mois (ou 20 éjaculations), une méthode complémentaire reste nécessaire.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 16 CCV, « Calendrier de suivi » et « Instructions »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__50",
+       "num": "51",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle est la bonne séquence des étapes dans la chaîne logistique pharmaceutique ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Commande, Réception, Stockage, Distribution"
+        },
+        {
+         "letter": "B",
+         "text": "Réception, Stockage, Commande, Distribution"
+        },
+        {
+         "letter": "C",
+         "text": "Stockage, Commande, Réception, Distribution"
+        },
+        {
+         "letter": "D",
+         "text": "Commande, Distribution, Réception, Stockage"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Commande, Réception, Stockage, Distribution",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les produits sont d'abord commandés, puis réceptionnés, stockés et enfin distribués aux points de prestation et aux clients. (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__51",
+       "num": "52",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel est l'objectif principal de l'estimation des besoins en produits de santé ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Réduire le coût d'achat des produits"
+        },
+        {
+         "letter": "B",
+         "text": "Éviter les ruptures de stock et les surstocks"
+        },
+        {
+         "letter": "C",
+         "text": "Accroître la productivité du personnel"
+        },
+        {
+         "letter": "D",
+         "text": "Augmenter les ventes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Éviter les ruptures de stock et les surstocks",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'estimation des besoins permet de commander les bonnes quantités au bon moment, donc d'éviter à la fois les ruptures de stock et les surstocks (risque de péremption). (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__52",
+       "num": "53",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'implication des hommes dans la gestion de l'hygiène menstruelle permet : (2 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "De réduire les tabous"
+        },
+        {
+         "letter": "B",
+         "text": "De réduire les investissements dans les infrastructures et les produits"
+        },
+        {
+         "letter": "C",
+         "text": "D'augmenter les investissements dans les infrastructures et les produits"
+        },
+        {
+         "letter": "D",
+         "text": "Améliorer des infrastructures accessibles"
+        },
+        {
+         "letter": "E",
+         "text": "D'impliquer les personnes handicapées dans la prise des décisions"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. De réduire les tabous ; C. D'augmenter les investissements dans les infrastructures et les produits",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Impliquer les hommes dans la GHM aide à briser les tabous autour des règles et favorise les décisions d'investissement (toilettes, eau, produits) dans les ménages et les communautés, où ils sont souvent décideurs. (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__53",
+       "num": "54",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour une gestion de l'hygiène menstruelle efficace, notre démarche repose sur quatre piliers. Choisissez la bonne combinaison : 1. Inclusion ; 2. Durabilité ; 3. Transparence ; 4. Équité — a. Promouvoir des solutions locales et pérennes, telles que la confection artisanale de serviettes hygiéniques réutilisables ; b. Garantir un accès universel à une information claire, honnête et adaptée à tous les membres de la communauté ; c. Mobiliser l'ensemble des acteurs (femmes, filles, hommes, leaders d'opinion, enseignants et soignants) pour un changement collectif ; d. Prioriser les besoins spécifiques des groupes les plus vulnérables, notamment les adolescentes, les femmes rurales et les personnes en situation de handicap",
+       "options": [
+        {
+         "letter": "A",
+         "text": "(1 ; d), (2 ; c), (3 ; a), (4 ; b)"
+        },
+        {
+         "letter": "B",
+         "text": "(1 ; c), (2 ; a), (3 ; b), (4 ; d)"
+        },
+        {
+         "letter": "C",
+         "text": "(1 ; a), (2 ; d), (3 ; b), (4 ; c)"
+        },
+        {
+         "letter": "D",
+         "text": "(1 ; b), (2 ; a), (3 ; c), (4 ; d)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. (1 ; c), (2 ; a), (3 ; b), (4 ; d)",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Inclusion = mobiliser tous les acteurs (c) ; Durabilité = solutions locales et pérennes (a) ; Transparence = information claire et honnête pour tous (b) ; Équité = priorité aux groupes vulnérables (d). (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__54",
+       "num": "55",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Ali et Akama sont un couple qui applique la méthode du calendrier ; sachant que le cycle le plus court de Akissi compte 25 jours ; à partir de quel jour du cycle de Akissi, Louis doit-il se protéger en cas de rapport sexuel afin d'éviter que sa compagne soit enceinte ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A partir du 5ème jour du cycle"
+        },
+        {
+         "letter": "B",
+         "text": "A partir du 6ème jour du cycle"
+        },
+        {
+         "letter": "C",
+         "text": "A partir du 7ème jour du cycle"
+        },
+        {
+         "letter": "D",
+         "text": "A partir du 8ème jour du cycle"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. A partir du 7ème jour du cycle",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Méthode du calendrier : le premier jour fertile = cycle le plus court − 18. Ici 25 − 18 = 7 : protection à partir du 7e jour du cycle (exemple identique dans le cours). Remarque : Les prénoms du couple changent dans l'énoncé (Ali/Akama puis Akissi/Louis).\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 8 MAO, « Méthode du calendrier » (exemple 25 − 18 = 7)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__55",
+       "num": "56",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°3 — Dans un lycée d'Abidjan, les garçons sont encouragés à suivre des filières scientifiques tandis que les filles sont orientées vers les filières littéraires et sociales. Aïcha L., brillante élève en mathématiques, souhaite intégrer la série scientifique, mais certains enseignants affirment que « les sciences sont faites pour les garçons ». Elle commence à perdre confiance en elle.",
+       "text": "Identifiez deux stéréotypes présents dans cette situation",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les sciences sont réservées aux garçons."
+        },
+        {
+         "letter": "B",
+         "text": "Les sciences sont réservées aux filles"
+        },
+        {
+         "letter": "C",
+         "text": "Les filles sont patientes et douces"
+        },
+        {
+         "letter": "D",
+         "text": "Les filles réussissent mieux dans les matières littéraires."
+        },
+        {
+         "letter": "E",
+         "text": "Les hommes sont autoritaires"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Les sciences sont réservées aux garçons. ; D. Les filles réussissent mieux dans les matières littéraires.",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "Les deux stéréotypes de la situation sont « les sciences sont réservées aux garçons » et, en miroir, « les filles réussissent mieux dans les matières littéraires » (orientation des filles vers les filières littéraires). (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__56",
+       "num": "57",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les outils ou paramètres d'analyse du genre sont : (choisir 3 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les rôles de genre"
+        },
+        {
+         "letter": "B",
+         "text": "Le pouvoir décisionnel"
+        },
+        {
+         "letter": "C",
+         "text": "Le rôle de production"
+        },
+        {
+         "letter": "D",
+         "text": "Le rôle communautaire"
+        },
+        {
+         "letter": "E",
+         "text": "L'accès et le contrôle des ressources"
+        },
+        {
+         "letter": "F",
+         "text": "Les attentes et l'évaluation sociale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Les rôles de genre ; B. Le pouvoir décisionnel ; E. L'accès et le contrôle des ressources",
+       "answerLetters": [
+        "A",
+        "B",
+        "E"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient comme outils d'analyse du genre : les rôles de genre, le pouvoir décisionnel, l'accès et le contrôle des ressources. (explication hors cours du projet)",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__57",
+       "num": "58",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Comment la glaire cervicale se présente-t-elle à l'approche de l'ovulation",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Abondante, fine, gluante, filante et translucide."
+        },
+        {
+         "letter": "B",
+         "text": "Modérée, épaisse, trouble (jaune)."
+        },
+        {
+         "letter": "C",
+         "text": "Augmentée, un peu épaisse, glissante, opaque, peu abondante et non filante."
+        },
+        {
+         "letter": "D",
+         "text": "Minimale, épaisse (collante), trouble."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Augmentée, un peu épaisse, glissante, opaque, peu abondante et non filante.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "À l'approche de l'ovulation, la glaire est augmentée, un peu épaisse, glissante, opaque, peu abondante et non filante. À l'ovulation elle devient abondante, fine, filante et translucide (blanc d'œuf).\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 8 MAO, « Méthode de Billings » et tableau de la glaire",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__58",
+       "num": "59",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour utiliser la Méthode des Jours Fixes, les femmes doivent avoir des cycles de quelle durée ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Inférieurs à 26 jours."
+        },
+        {
+         "letter": "B",
+         "text": "De 26 à 32 jours."
+        },
+        {
+         "letter": "C",
+         "text": "Supérieurs à 32 jours."
+        },
+        {
+         "letter": "D",
+         "text": "N'importe quelle durée de cycle."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. De 26 à 32 jours.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Critère d'éligibilité de la MJF : cycles de 26 à 32 jours ; la méthode ne peut pas être utilisée si le cycle est inférieur à 26 jours ou supérieur à 32 jours.\n\nSource : Cours SR/PF L2 INFAS (Document SSR L2 SF 2024-2025), chap. 8 MAO, « Méthode des jours fixes »",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j5-sfm__59",
+       "num": "60",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lequel est un bon principe de stockage pour les produits de santé ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Premier sorti, dernier entré"
+        },
+        {
+         "letter": "B",
+         "text": "Dernier entré, premier sorti"
+        },
+        {
+         "letter": "C",
+         "text": "Premier entré, premier sorti (PEPS / FIFO)"
+        },
+        {
+         "letter": "D",
+         "text": "Empiler les produits pour gagner de la place"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Premier entré, premier sorti (PEPS / FIFO)",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le principe « Premier entré, premier sorti » (PEPS/FIFO) consiste à distribuer d'abord les produits reçus en premier, pour éviter la péremption. Le cours le cite parmi les affirmations du prétest de gestion logistique. (explication partiellement hors cours du projet)\n\nSource : Cours SR/PF 2023 L2 INFAS, Annexe 2 « Questionnaire prétest gestion logistique », item 22",
+       "sourceDoc": "Prépa D.E — J5 SSR/PF SFM (corrigé expliqué)",
+       "sourceFile": "J5_SR-PF_SFM_Corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

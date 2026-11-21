@@ -1,0 +1,1585 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zv-sj-prepa-med-j5-ide3",
+ "titre": "Préparation D.E (J) · J5 Médecine IDE3",
+ "session": "J",
+ "annee": 2026,
+ "nq": 44,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J5_Medecine_IDE3_Corrige_explique.pdf",
+   "sha256": "5c04aa53eb4c7ce4c0fa63fd58420b2b3e4eddb440a34b477ead9482699494e9"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Médecine · Prépa D.E J5 (IDE3)",
+     "slug": "prepa-med-j5-ide3",
+     "pages": "",
+     "count": 44,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Médecine",
+     "source": "J5_Medecine_IDE3_Corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le tabagisme est un facteur général de stomatite",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "(explication hors cours du projet) Le tabac agit directement sur la muqueuse buccale : c'est un facteur local (irritation), et non un facteur général (comme le diabète, l'immunodépression ou les carences) de stomatite. La correction nationale de la Prépa DE (les J) retient donc « Faux ».",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le malade est à la diète absolue car souffre de troubles digestifs depuis 2 mois et a du sang dans les selles. Cette phrase est une donnée d'indépendance",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "(explication hors cours du projet) La diète absolue, les troubles digestifs depuis 2 mois et le sang dans les selles sont des manifestations du problème de santé : ce sont des données de dépendance. Une donnée d'indépendance décrit ce que la personne fait encore seule (ex. âge, lieu de vie, mode de vie conservé).",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'angor instable apparait progressivement",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'angor d'effort évolue sur des mois ou des années, mais il peut s'aggraver brutalement : c'est l'angor instable (ou angor de repos). Il ne s'installe donc pas progressivement.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, Angine de poitrine, 5.1 (p. 91-92)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les carcinomes hépatocellulaires sont les cancers primitifs du foie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours définit les cancers primitifs du foie (CPF) comme le carcinome hépatocellulaire, aussi appelé hépatome. Ils représentent la 1re cause de décès par cancer en Afrique noire.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, Cancers primitifs du foie, I-Définition (p. 143-144)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le cas suspect de paludisme est un patient chez qui un agent de santé suspecte un paludisme, habituellement à partir d'une anémie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cas suspect (ou présumé) de paludisme est un patient qui présente une fièvre ou un antécédent de fièvre dans les dernières 24 heures, chez qui un agent de santé suspecte un paludisme. Le point de départ est la fièvre, pas l'anémie.\n\nSource : DOCUMENTS DE REVISION L3 Médecine, Paludisme, Vrai/Faux n° 10 (p. 20)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un patient vu au niveau périphérique et présentant des symptômes graves de paludisme, doit faire l'objet d'un test de diagnostic rapide immédiat puis référé avec un traitement de pré-transfert",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Au niveau périphérique, devant des symptômes graves de paludisme, il faut faire immédiatement un TDR, puis référer le patient avec un traitement de pré-transfert (artésunate rectal ou injectable, artéméther IM).\n\nSource : DOCUMENTS DE REVISION L3 Médecine, Paludisme, QCM n° 3 et n° 16-17 (p. 22-24)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La stomatite érythématopultacée est caractéristique des stomatites virales",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'aspect érythémato-pultacé (rougeur + enduit blanchâtre facilement détachable) n'est pas propre aux virus : on le retrouve aussi dans les atteintes bactériennes (ex. angine érythémato-pultacée à streptocoque). Il n'est donc pas « caractéristique » des stomatites virales, qui donnent plutôt des vésicules et des ulcérations (herpès).\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES, Angines érythémateuses et érythémato-pultacées, 4.1 (p. 44-45) — explication partiellement hors cours du projet",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le diagnostic infirmier contient un problème de soin infirmier",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'énoncé d'un diagnostic infirmier comprend le problème infirmier (réel ou potentiel), son étiologie (cause) et les signes ou manifestations. Le problème de soin infirmier en fait donc partie.\n\nSource : DOCUMENTS DE REVISION L3 Médecine, Démarche de soins, QCM n° 8 (p. 90-91)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'utilisation de préservatif permet d'assurer une prévention secondaire du cancer du col utérin. Cocher la bonne réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La prévention primaire du cancer du col repose sur la vaccination anti-HPV ; la prévention secondaire repose sur le dépistage (frottis, test HPV, IVA) des lésions précancéreuses. Le préservatif limite la transmission des IST (prévention de la contamination), il ne relève pas de la prévention secondaire.\n\nSource : ONCOLOGIE, Cancer du col de l'utérus, 7.5 Prévention (p. 38-39)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le cancer de la prostate est le cancer le plus fréquent au monde",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Selon Globocan 2020 cité dans le cours, les cancers les plus fréquents dans le monde sont, dans l'ordre : sein (2,26 millions), poumon (2,21 millions), côlon-rectum (1,93 million), puis prostate (1,41 million). La prostate n'est donc pas le 1er.\n\nSource : ONCOLOGIE, 1.3 Quelques chiffres du cancer, Localisations (p. 5)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les hépatomes sont des cancers développés au dépend des éléments cellulaires qui constituent le foie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "C'est la définition du cours : les cancers primitifs du foie, ou carcinome hépatocellulaire, ou hépatomes, sont des cancers développés aux dépens des éléments cellulaires qui constituent le foie.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, Cancers primitifs du foie, I-Définition (p. 144)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "KP est âgé de 8 ans et souffre d'une pneumonie. Il a une perturbation des échanges gazeux et respire rapidement. L'objectif de soins de KP est de ramener la fréquence respiratoire entre 40 et 60 cycles par minute",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "(explication hors cours du projet) Une fréquence respiratoire de 40 à 60 cycles/min correspond à la norme du nouveau-né, pas d'un enfant de 8 ans (environ 20 à 30 cycles/min). L'objectif proposé maintiendrait KP en polypnée : il est donc faux.",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La voie ostéopériostée est la plus fréquente lors de la pénétration des germes dans le tissu cellulaire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "(explication hors cours du projet) Dans les cellulites (notamment cervico-faciales d'origine dentaire), la porte d'entrée la plus fréquente est la voie dentaire ostéo-périostée : l'infection part de la dent, traverse l'os et le périoste pour atteindre le tissu cellulaire.",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Chez le cancéreux en phase terminal l'ensemble des besoins de Virginia Henderson ne sont pas satisfaits",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "En phase terminale, le malade cancéreux est en dépendance pour l'ensemble des besoins fondamentaux (manger, se mouvoir, éliminer, respirer, communiquer…) : d'où l'objet des soins palliatifs, qui visent à soulager la souffrance physique, psychologique, sociale et spirituelle et à préserver la meilleure qualité de vie.\n\nSource : GERIATRIE PP L2, Chap. II Soins palliatifs (diapo 19) — explication partiellement hors cours du projet",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Si un patient revient pour un nouvel épisode de fièvre après un traitement antipaludique, il doit être soumis à un test de diagnostic rapide",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Après un traitement antipaludique, le TDR peut rester positif plusieurs semaines (persistance de l'antigène même si le parasite est mort) : il ne sert pas à évaluer le traitement. Le patient qui revient avec une fièvre doit être testé par la goutte épaisse ou le frottis sanguin.\n\nSource : DOCUMENTS DE REVISION L3 Médecine, Paludisme, Vrai/Faux n° 17 et QCM n° 2 et n° 4 (p. 20-22) — explication partiellement hors cours du projet",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__15",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le rôle de l'infirmier dans l'hépatite virale repose sur les activités suivantes sauf une ; laquelle ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "accueil"
+        },
+        {
+         "letter": "B",
+         "text": "prise en charge médicale"
+        },
+        {
+         "letter": "C",
+         "text": "prévention"
+        },
+        {
+         "letter": "D",
+         "text": "prophylaxie"
+        },
+        {
+         "letter": "E",
+         "text": "soins la surveillance du malade"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. prise en charge médicale",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le rôle de l'infirmier dans l'hépatite virale repose sur l'accueil, les soins et la surveillance du malade, la prophylaxie et la prévention. La prise en charge médicale (diagnostic, prescription) relève du médecin : c'est l'intrus.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, Rôle de l'infirmier dans les hépatites virales (p. 122)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La confirmation parasitologique par microscopie du paludisme se fait par",
+       "options": [
+        {
+         "letter": "A",
+         "text": "la goutte épaisse"
+        },
+        {
+         "letter": "B",
+         "text": "le test de diagnostic rapide"
+        },
+        {
+         "letter": "C",
+         "text": "frottis sanguin"
+        },
+        {
+         "letter": "D",
+         "text": "Retenir les deux bonnes réponses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. la goutte épaisse ; C. frottis sanguin",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "La goutte épaisse et le frottis sanguin (frottis mince) mettent en évidence le plasmodium au microscope. Le TDR détecte des antigènes : ce n'est pas une confirmation par microscopie. Remarque : Dans le sujet, la dernière option « Retenir les deux bonnes réponses » est une consigne et non une réponse.\n\nSource : COURS PATHOLOGIES TROPICALES REVISE L1, Paludisme, VI-Diagnostic biologique (p. 51)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__17",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les signes suivants sont des signes physiques du paludisme simple sauf un, lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "l'hépatomégalie"
+        },
+        {
+         "letter": "B",
+         "text": "le sub-ictère"
+        },
+        {
+         "letter": "C",
+         "text": "l'herpès labial"
+        },
+        {
+         "letter": "D",
+         "text": "la pâleur cutanéomuqueuse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. l'hépatomégalie",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "(explication hors cours du projet) Le paludisme simple se manifeste à l'examen par une pâleur cutanéo-muqueuse, un sub-ictère, parfois un herpès labial et une splénomégalie. L'hépatomégalie n'est pas retenue comme signe physique du paludisme simple : c'est l'intrus.",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les signes cliniques suivants, lesquels (03) doivent faire évoquer une thrombose veineuse profonde d'un membre inférieur ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "une augmentation de la chaleur locale"
+        },
+        {
+         "letter": "B",
+         "text": "une abolition du pouls"
+        },
+        {
+         "letter": "C",
+         "text": "un œdème unilatéral du mollet"
+        },
+        {
+         "letter": "D",
+         "text": "une diminution de la sensibilité superficielle"
+        },
+        {
+         "letter": "E",
+         "text": "une dilatation veineuse superficielle"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. une augmentation de la chaleur locale ; C. un œdème unilatéral du mollet ; E. une dilatation veineuse superficielle",
+       "answerLetters": [
+        "A",
+        "C",
+        "E"
+       ],
+       "explanation": "Le cours décrit dans la TVP : un œdème unilatéral du membre atteint (dur, ne prenant pas le godet), une dilatation des veines superficielles et une chaleur locale excessive à la palpation. L'abolition du pouls oriente vers une ischémie artérielle, et la baisse de la sensibilité n'est pas un signe de TVP.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, Thrombose veineuse profonde, 4. Examen clinique (p. 73)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les signes suivants, indiquer le trouble du transit",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1. la mauvaise haleine"
+        },
+        {
+         "letter": "B",
+         "text": "2. le reflux gastro-œsophagien"
+        },
+        {
+         "letter": "C",
+         "text": "3. la constipation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 3. la constipation",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le cours classe dans les troubles du transit la constipation, la diarrhée et leur alternance. La mauvaise haleine et le reflux gastro-œsophagien sont d'autres signes digestifs, pas des troubles du transit.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, Colopathie fonctionnelle, 2.3 Troubles du transit et 3.1 (p. 126)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les signes suivants sont des signes physiques du paludisme simple sauf deux, lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "la splénomégalie"
+        },
+        {
+         "letter": "B",
+         "text": "l'ictère franc"
+        },
+        {
+         "letter": "C",
+         "text": "l'herpès labial"
+        },
+        {
+         "letter": "D",
+         "text": "la pâleur papillaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. l'ictère franc ; D. la pâleur papillaire",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Dans le paludisme simple, on trouve une splénomégalie, un herpès labial, une pâleur et au plus un sub-ictère. Un ictère franc fait partie des signes de gravité, et la « pâleur papillaire » n'est pas un signe du paludisme simple (c'est la pâleur conjonctivale/cutanéo-muqueuse qui est recherchée).\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES, Paludisme grave, 4-2-1 (ictère) (p. 85) — explication partiellement hors cours du projet",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Choisir parmi les propositions suivantes, celle qui correspond à l'assertion « les cellules susceptibles de conduire à la formation d'un cancer présentent plusieurs particularités »",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Elles assurent les fonctions des cellules normales dont elles dérivent"
+        },
+        {
+         "letter": "B",
+         "text": "Elles sont capables de détourner des cellules locales pour s'en nourrir"
+        },
+        {
+         "letter": "C",
+         "text": "Elles n'empêchent pas les défenses immunitaires de l'organisme de les attaquer."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Elles sont capables de détourner des cellules locales pour s'en nourrir",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours cite parmi les particularités des cellules cancéreuses : elles sont capables de détourner les cellules locales pour s'en nourrir (néo-angiogenèse). Les deux autres propositions sont l'inverse du cours : elles n'assurent pas les fonctions des cellules d'origine et elles empêchent les défenses immunitaires de les attaquer.\n\nSource : ONCOLOGIE, 1.2 Caractéristiques d'une cellule cancéreuse (p. 5)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les signes suivants, relever les trois qui constituent des critères de gravité du paludisme",
+       "options": [
+        {
+         "letter": "A",
+         "text": "épistaxis"
+        },
+        {
+         "letter": "B",
+         "text": "raideur de la nuque"
+        },
+        {
+         "letter": "C",
+         "text": "acidose"
+        },
+        {
+         "letter": "D",
+         "text": "trismus"
+        },
+        {
+         "letter": "E",
+         "text": "Prostration"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. épistaxis ; C. acidose ; E. Prostration",
+       "answerLetters": [
+        "A",
+        "C",
+        "E"
+       ],
+       "explanation": "Critères de gravité du paludisme dans le cours : prostration, saignements spontanés (dont l'épistaxis), acidose métabolique, ainsi que coma, convulsions, hypoglycémie, etc. La raideur de la nuque et le trismus orientent vers d'autres diagnostics (méningite, tétanos).\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES, Paludisme grave, 4-2-1 et 4-2-2 (p. 85-86)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Devant une hépatite, établir le régime alimentaire approprié",
+       "options": [
+        {
+         "letter": "A",
+         "text": "riche en glucide, en protides et en graisse"
+        },
+        {
+         "letter": "B",
+         "text": "riche en glucide, protides mais pauvre en graisse"
+        },
+        {
+         "letter": "C",
+         "text": "riche en graisse, protides mais pauvre en glucide"
+        },
+        {
+         "letter": "D",
+         "text": "riche en graisse, glucide mais pauvre en protides"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. riche en glucide, protides mais pauvre en graisse",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours indique d'établir un régime riche en glucides et en protides mais pauvre en graisses, et de supprimer l'alcool.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, Rôle de l'infirmier dans les hépatites virales, B-Les soins (p. 123)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un objectif de soin est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "un sujet unique"
+        },
+        {
+         "letter": "B",
+         "text": "une fin que l'on veut atteindre pour le client"
+        },
+        {
+         "letter": "C",
+         "text": "un idéal pour le malade"
+        },
+        {
+         "letter": "D",
+         "text": "une recommandation de l'institution de soin."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. une fin que l'on veut atteindre pour le client",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Un objectif de soins est le résultat que l'on veut atteindre pour le client (formulé avec un verbe d'action, mesurable et daté). Ce n'est ni un idéal ni une recommandation institutionnelle.\n\nSource : DOCUMENTS DE REVISION L3 Médecine, Démarche de soins, QCM n° 9-11 (p. 91) — explication partiellement hors cours du projet",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les signes suivants, relever les troubles digestifs",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1. la constipation"
+        },
+        {
+         "letter": "B",
+         "text": "2. le reflux gastro-œsophagien"
+        },
+        {
+         "letter": "C",
+         "text": "3. la dyspepsie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. 2. le reflux gastro-œsophagien ; C. 3. la dyspepsie",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Le cours cite parmi les « autres signes digestifs » le reflux gastro-œsophagien et la dyspepsie. La constipation est classée à part, comme trouble du transit (voir la question 20).\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, Colopathie fonctionnelle, 3.1 Éléments d'orientation (p. 126)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Concernant la douleur de péricardite aigue, toutes les propositions suivantes sont justes sauf une. Laquelle ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "la douleur s'accentue volontiers lors des mouvements respiratoires"
+        },
+        {
+         "letter": "B",
+         "text": "la douleur peut s'accompagner de troubles du rythme supra-ventriculaires"
+        },
+        {
+         "letter": "C",
+         "text": "L'ECG peut montrer des troubles diffus de la repolarisation"
+        },
+        {
+         "letter": "D",
+         "text": "La douleur peut s'accompagner d'un frottement péricardique disparaissant en apnée"
+        },
+        {
+         "letter": "E",
+         "text": "Le traitement de première intention est une prescription d'Aspégic"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "E. Le traitement de première intention est une prescription d'Aspégic",
+       "answerLetters": [
+        "E"
+       ],
+       "explanation": "La douleur de péricardite augmente à l'inspiration et à la toux. L'ECG est perturbé dans toutes les dérivations (repolarisation). Le cours prévoit en traitement repos et antalgique (paracétamol), le reste dépendant de l'étiologie : l'Aspégic n'y figure pas comme traitement de première intention. Remarque : Classiquement, le frottement péricardique persiste en apnée (c'est le frottement pleural qui disparaît). La proposition D est donc elle aussi discutable ; le cours ne précise pas ce point.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, Chap. IV La péricardite aiguë (p. 97-99)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les signes suivants, relever les trois qui constituent des critères de gravité du paludisme",
+       "options": [
+        {
+         "letter": "A",
+         "text": "hypoglycémie"
+        },
+        {
+         "letter": "B",
+         "text": "cystite"
+        },
+        {
+         "letter": "C",
+         "text": "hyper-parasitémie"
+        },
+        {
+         "letter": "D",
+         "text": "pollakiurie"
+        },
+        {
+         "letter": "E",
+         "text": "œdème pulmonaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. hypoglycémie ; C. hyper-parasitémie ; E. œdème pulmonaire",
+       "answerLetters": [
+        "A",
+        "C",
+        "E"
+       ],
+       "explanation": "Le cours cite comme critères de gravité : hypoglycémie, hyperparasitémie et œdème pulmonaire (radiologique). La cystite et la pollakiurie ne font pas partie des critères de gravité.\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES, Paludisme grave, 4-2-1 et 4-2-2 (p. 85-86)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les mesures prophylactiques suivantes face à une hépatite, identifier celle qui protège le personnel médical",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1. Isoler le malade en chambre individuelle durant toute l'hospitalisation"
+        },
+        {
+         "letter": "B",
+         "text": "2. Utiliser un matériel à usage unique pour les injections, les prélèvements de sang"
+        },
+        {
+         "letter": "C",
+         "text": "3. désinfecter rigoureusement les mains avant et après chaque soin."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 3. désinfecter rigoureusement les mains avant et après chaque soin.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le cours le dit textuellement : « pour le personnel médical, désinfecter rigoureusement les mains avant et après chaque soin ». L'isolement et le matériel à usage unique protègent surtout les autres malades.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, Hépatites virales, D-Mesures prophylactiques (p. 123)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'œdème aigu du poumon",
+       "options": [
+        {
+         "letter": "A",
+         "text": "est souvent lié à une bronchite chronique"
+        },
+        {
+         "letter": "B",
+         "text": "entraine des douleurs du cœur"
+        },
+        {
+         "letter": "C",
+         "text": "est lié à une défaillance cardiaque"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. est lié à une défaillance cardiaque",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'OAP est une insuffisance cardiaque gauche aiguë : les alvéoles sont inondées car le cœur n'arrive plus à pomper suffisamment. Il est donc lié à une défaillance cardiaque, et non à une bronchite chronique.\n\nSource : COURS DE SEMIOLOGIE MEDICALE ET PATHOLOGIES RESPIRATOIRES, OAP, I-Définition (p. 60)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "un objectif de soins infirmiers relève de",
+       "options": [
+        {
+         "letter": "A",
+         "text": "la fin que l'on veut atteindre pour le client."
+        },
+        {
+         "letter": "B",
+         "text": "l'indépendant du client dans la satisfaction de ses besoins"
+        },
+        {
+         "letter": "C",
+         "text": "la personne soignée et du diagnostic infirmier"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. la personne soignée et du diagnostic infirmier",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'objectif de soins infirmiers se formule à partir du diagnostic infirmier et est centré sur la personne soignée (« le patient doit être capable de… »). Remarque : La même formule « fin que l'on veut atteindre pour le client » est retenue comme bonne réponse à la question 25. Le document de révision pose cette question sans corrigé.\n\nSource : DOCUMENTS DE REVISION L3 Médecine, Démarche de soins, QCM n° 10 (p. 91) — explication partiellement hors cours du projet",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le rétrécissement mitral",
+       "options": [
+        {
+         "letter": "A",
+         "text": "est une complication rare du rhumatisme"
+        },
+        {
+         "letter": "B",
+         "text": "entraine souvent des troubles du rythme cardiaque"
+        },
+        {
+         "letter": "C",
+         "text": "est presque toujours héréditaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. entraine souvent des troubles du rythme cardiaque",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le rétrécissement mitral, séquelle fréquente du rhumatisme articulaire aigu, dilate l'oreillette gauche et entraîne souvent des troubles du rythme (surtout la fibrillation auriculaire). Il n'est ni rare ni héréditaire.\n\nSource : COURS DE MALADIES INFETUEUSES-1, RAA, 2.3 Signes cardiaques (p. 36) — explication partiellement hors cours du projet",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Histologiquement, le processus pathologique de la cirrhose associe les stades suivants sauf un ; lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1- une dégénérescence des cellules hépatiques avec surcharge en graisse"
+        },
+        {
+         "letter": "B",
+         "text": "2- une régénération envahissante par du tissu conjonctif"
+        },
+        {
+         "letter": "C",
+         "text": "3- Un ramollissement hépatique progressif"
+        },
+        {
+         "letter": "D",
+         "text": "4- une sclérose encerclant les formations nodulaires normales."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 3- Un ramollissement hépatique progressif",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le cours décrit trois stades histologiques : dégénérescence des cellules hépatiques avec surcharge graisseuse, régénération envahissante par du tissu conjonctif, sclérose encerclant les nodules. Le foie cirrhotique est dur, pas ramolli.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, Les cirrhoses, II-Anatomie pathologique (p. 128)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les indications suivantes de l'aspiration duodénale continue figure un intru. Démasquez-le",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1- syndrome de sub-occlusion ou d'occlusion"
+        },
+        {
+         "letter": "B",
+         "text": "2- dans les chirurgies intestinales en dehors d'occlusion"
+        },
+        {
+         "letter": "C",
+         "text": "3- lavage d'estomac"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 3- lavage d'estomac",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Indications de l'aspiration duodénale continue dans le cours : syndrome de sub-occlusion ou d'occlusion, chirurgies intestinales en dehors d'occlusion (en pré- ou post-opératoire). Le lavage d'estomac relève de l'aspiration gastrique.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, Soins infirmiers dans les aspirations digestives, B (p. 141-142)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel est l'objectif essentiel d'une démarche de soins",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Permettre la mise en place d'actions de soins adaptées et individualisées à chaque patient."
+        },
+        {
+         "letter": "B",
+         "text": "Assurer les soins et la surveillance des patients placés en isolement"
+        },
+        {
+         "letter": "C",
+         "text": "Observer le malade au plan social, médical et comportemental"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Permettre la mise en place d'actions de soins adaptées et individualisées à chaque patient.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La démarche de soins est un processus de résolution de problème centré sur la personne, qui aboutit à une prestation de soins individualisés : son but est d'adapter les actions de soins à chaque patient.\n\nSource : DOCUMENTS DE REVISION L3 Médecine, Démarche de soins, QCM n° 1 (p. 89-90)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la cirrhose décompensée, le syndrome œdémato-ascitique est marqué par les signes suivants sauf un ; lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1. Prise de poids,"
+        },
+        {
+         "letter": "B",
+         "text": "2. Augmentation du périmètre abdominal,"
+        },
+        {
+         "letter": "C",
+         "text": "3. Pancréatite"
+        },
+        {
+         "letter": "D",
+         "text": "4. Météorisme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 3. Pancréatite",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le syndrome œdémato-ascitique se reconnaît à une prise de poids et à une augmentation du périmètre abdominal, souvent précédées d'un météorisme. La pancréatite n'en fait pas partie.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, Les cirrhoses, Syndrome œdémato-ascitique (p. 130)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nourrisson GG est âgé de 4 mois. Il vit avec sa mère à Abidjan. GG est à l'allaitement prépondérant. La mère est inquiète car GG est amaigri. Le médecin pense à un début de dénutrition. L'analyse des données du nourrisson GG conclue à",
+       "options": [
+        {
+         "letter": "A",
+         "text": "2 données d'indépendance"
+        },
+        {
+         "letter": "B",
+         "text": "3 données d'indépendance"
+        },
+        {
+         "letter": "C",
+         "text": "4 données d'indépendance"
+        },
+        {
+         "letter": "D",
+         "text": "5 données d'indépendance"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 4 données d'indépendance",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "(explication hors cours du projet) Les données d'indépendance de GG sont : l'âge (4 mois), il vit avec sa mère, à Abidjan, et il est à l'allaitement prépondérant, soit 4 données. L'amaigrissement, l'inquiétude de la mère et la suspicion de dénutrition sont des données de dépendance.",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les indications suivantes des aspirations digestives figure une contre-indication ; laquelle ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1- traitement médical de la perforation de l'estomac"
+        },
+        {
+         "letter": "B",
+         "text": "2- préparation à une intervention gastrique ou abdominale"
+        },
+        {
+         "letter": "C",
+         "text": "3- cancers d'estomac"
+        },
+        {
+         "letter": "D",
+         "text": "4- lavage d'estomac"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 3- cancers d'estomac",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le cours cite comme indications : traitement médical de la perforation de l'estomac, préparation à une intervention gastrique ou abdominale, suites d'intervention et lavage d'estomac. La seule contre-indication citée : les cancers de l'estomac.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, Aspirations digestives, III-Indication et contre-indication (p. 140-141)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "On définit l'insuffisance cardiaque gauche comme étant : (cochez les bonne réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une incapacité du ventricule gauche à assurer un débit sanguin suffisant dans les conditions normales"
+        },
+        {
+         "letter": "B",
+         "text": "La non-satisfaction des besoins métaboliques et fonctionnels de l'organisme"
+        },
+        {
+         "letter": "C",
+         "text": "Une insuffisance de remplissage de sang dans les cavités cardiaques gauche"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Une incapacité du ventricule gauche à assurer un débit sanguin suffisant dans les conditions normales ; B. La non-satisfaction des besoins métaboliques et fonctionnels de l'organisme",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "L'IVG est l'incapacité du ventricule gauche à assurer le débit sanguin nécessaire aux besoins métaboliques et fonctionnels de l'organisme (à l'effort puis au repos). Il ne s'agit pas d'un défaut de remplissage des cavités gauches.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, Chap. II, A. Insuffisance ventriculaire gauche, 1. Définition (p. 85)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les signes cliniques dans l'insuffisance cardiaque droite sont les signes de stases et se résument à : sauf un, lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Turgescence des veines jugulaires"
+        },
+        {
+         "letter": "B",
+         "text": "Dyspnée à type de polypnée"
+        },
+        {
+         "letter": "C",
+         "text": "Œdème des membres inférieurs"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Dyspnée à type de polypnée",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans l'IVD, les signes de stase en amont sont la turgescence des jugulaires, l'hépatomégalie et les œdèmes des membres inférieurs. La dyspnée est un signe d'aval (mauvaise perfusion pulmonaire), pas un signe de stase.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020, B. Insuffisance ventriculaire droite, 2. Physiopathologie (p. 88)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__40",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'œdème aigu du poumon aussi appelé Insuffisance cardiaque gauche est définie comme étant : (Cochez les bonnes réponses parmi ces propositions de réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Obstruction des alvéoles pulmonaires par un thrombus"
+        },
+        {
+         "letter": "B",
+         "text": "Inondation des alvéoles pulmonaire C – Fuite du plasma lors de l'hématose"
+        },
+        {
+         "letter": "C",
+         "text": "Excès du liquide présent dans les alvéoles suite à la fuite du plasma se dirige vers le cœur"
+        },
+        {
+         "letter": "D",
+         "text": "Difficulté du poumon à assurer son rôle d'échange gazeux"
+        },
+        {
+         "letter": "E",
+         "text": "Incapacité du cœur à pomper efficacement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Inondation des alvéoles pulmonaire C – Fuite du plasma lors de l'hématose ; C. Excès du liquide présent dans les alvéoles suite à la fuite du plasma se dirige vers le cœur ; E. Incapacité du cœur à pomper efficacement",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "Le cours définit l'OAP comme une insuffisance cardiaque gauche aiguë avec inondation des alvéoles par le plasma en excès, qui ne peut revenir assez vite vers le cœur, car celui-ci n'arrive plus à pomper suffisamment. L'obstruction par un thrombus correspond à l'embolie pulmonaire. Remarque : Dans le sujet, les propositions B et C sont réunies sur une même ligne (« B– Inondation… C – Fuite du plasma… »).\n\nSource : COURS DE SEMIOLOGIE MEDICALE ET PATHOLOGIES RESPIRATOIRES, OAP, I-Définition (p. 60)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__41",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le signe pathognomonique de la rougeole est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La fièvre"
+        },
+        {
+         "letter": "B",
+         "text": "Le catarrhe occulo-nasale"
+        },
+        {
+         "letter": "C",
+         "text": "Le signe de Koplick"
+        },
+        {
+         "letter": "D",
+         "text": "L'éruption cutanée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Le signe de Koplick",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le signe de Köplik (petites taches blanches sur fond rouge à la face interne des joues, en regard des prémolaires) est le signe pathognomonique de la rougeole : il confirme le diagnostic dès la phase d'invasion.\n\nSource : COURS DE MALADIES INFETUEUSES-1, Rougeole, 3.1.2 Phase d'invasion (p. 25)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__42",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'une des complications redoutables du rhumatisme articulaire aigu est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une atteinte articulaire"
+        },
+        {
+         "letter": "B",
+         "text": "Une atteinte cardiaque"
+        },
+        {
+         "letter": "C",
+         "text": "Une atteinte rénale"
+        },
+        {
+         "letter": "D",
+         "text": "Une atteinte cérébrale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Une atteinte cardiaque",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'atteinte cardiaque (péricardite, myocardite, endocardite, valvulopathies mitrale ou aortique) est la manifestation la plus grave du RAA : elle peut tuer et elle seule laisse des séquelles graves. L'atteinte articulaire guérit sans séquelles.\n\nSource : COURS DE MALADIES INFETUEUSES-1, RAA, 2.3 Signes cardiaques (p. 36)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j5-ide3__43",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La phase d'état du tétanos est marquée par 02 signes lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le Trismus"
+        },
+        {
+         "letter": "B",
+         "text": "La fièvre"
+        },
+        {
+         "letter": "C",
+         "text": "La contracture généralisée"
+        },
+        {
+         "letter": "D",
+         "text": "Les vomissements"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Le Trismus ; C. La contracture généralisée",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "La phase d'état du tétanos associe le trismus, la contracture musculaire généralisée et les paroxysmes. Le trismus ne s'accompagne pas de fièvre. Remarque : L'option d n'est pas visible dans la capture (coupure entre deux pages) ; seules a, b, c et e sont reproduites.\n\nSource : COURS PATHOLOGIES TROPICALES REVISE L1, Tétanos, II-Étude clinique (p. 74)",
+       "sourceDoc": "Prépa D.E — J5 Médecine IDE3 (corrigé expliqué)",
+       "sourceFile": "J5_Medecine_IDE3_Corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1778 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zl-sj-prepa-med-j4-ide",
+ "titre": "Préparation D.E (J) · J4 Médecine IDE",
+ "session": "J",
+ "annee": 2026,
+ "nq": 50,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+   "sha256": "45110ca169c7b815e8c5983cb6aa915440763cce1306bb015109584afb42df7f"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Médecine · Prépa D.E J4 (IDE)",
+     "slug": "prepa-med-j4-ide",
+     "pages": "",
+     "count": 50,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Médecine",
+     "source": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__0",
+       "num": "5",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 : M. KOUAME Oi Kouamé, 60 ans, planteur, alcoolique et fumeur connu, souffre d'une tuberculose pulmonaire. Immunocompétent, il est sous votre responsabilité dans le service de médecine au CHR d'Abengourou avec un état d'hygiène lamentable.",
+       "text": "Quels sont parmi les propositions suivantes, les trois facteurs favorisant l'évolution de la maladie ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La puberté"
+        },
+        {
+         "letter": "B",
+         "text": "Le SIDA"
+        },
+        {
+         "letter": "C",
+         "text": "L'IDR négative"
+        },
+        {
+         "letter": "D",
+         "text": "L'obésité"
+        },
+        {
+         "letter": "E",
+         "text": "La sous-alimentation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Le SIDA ; C. L'IDR négative ; E. La sous-alimentation",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "Le SIDA (infection à VIH), la sous-alimentation (malnutrition) et une IDR négative (absence de réponse immunitaire, déficit de l'immunité cellulaire) favorisent l'évolution vers la tuberculose maladie. La puberté et l'obésité ne figurent pas parmi ces facteurs. Remarque : Dans le sujet, le cas présente M. Kouamé comme « immunocompétent », alors que le SIDA est retenu comme facteur.\n\nSource : Tuberculose (diaporama), Facteurs favorisant la maladie ; Cours de sémiologie médicale et pathologies respiratoires, Test tuberculinique (p. 78)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__1",
+       "num": "6",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 : M. KOUAME Oi Kouamé, 60 ans, planteur, alcoolique et fumeur connu, souffre d'une tuberculose pulmonaire. Immunocompétent, il est sous votre responsabilité dans le service de médecine au CHR d'Abengourou avec un état d'hygiène lamentable.",
+       "text": "Parmi les signes cliniques suivants de la tuberculose pulmonaire, cocher les deux qui sont des signes généraux.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Dyspnée"
+        },
+        {
+         "letter": "B",
+         "text": "Amaigrissement"
+        },
+        {
+         "letter": "C",
+         "text": "Toux"
+        },
+        {
+         "letter": "D",
+         "text": "Expectoration"
+        },
+        {
+         "letter": "E",
+         "text": "Asthénie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Amaigrissement ; E. Asthénie",
+       "answerLetters": [
+        "B",
+        "E"
+       ],
+       "explanation": "Les signes généraux (d'imprégnation tuberculeuse) sont l'asthénie, l'anorexie, l'amaigrissement, la fièvre vespérale et les sueurs nocturnes. La toux, l'expectoration et la dyspnée sont des signes respiratoires.\n\nSource : Cours de sémiologie médicale et pathologies respiratoires, Tuberculose pulmonaire – signes évocateurs (p. 74) ; Tuberculose (diaporama), Diagnostic positif",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__2",
+       "num": "7",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 : M. KOUAME Oi Kouamé, 60 ans, planteur, alcoolique et fumeur connu, souffre d'une tuberculose pulmonaire. Immunocompétent, il est sous votre responsabilité dans le service de médecine au CHR d'Abengourou avec un état d'hygiène lamentable.",
+       "text": "Parmi les propositions ci-dessous, une (1) fait partie des rôles de l'IDE dans la prise en charge d'un tuberculeux. Laquelle ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Interpréter les résultats des examens"
+        },
+        {
+         "letter": "B",
+         "text": "Examiner le malade"
+        },
+        {
+         "letter": "C",
+         "text": "Mettre le malade à jeun avant le prélèvement"
+        },
+        {
+         "letter": "D",
+         "text": "Poser le diagnostic"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Mettre le malade à jeun avant le prélèvement",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le rôle propre de l'IDE dans le diagnostic bactériologique est le recueil des crachats : mettre le malade à jeun avant le prélèvement, utiliser un crachoir stérile, s'assurer qu'il s'agit bien de crachats. Interpréter, examiner et poser le diagnostic relèvent du médecin.\n\nSource : Cours de sémiologie médicale et pathologies respiratoires, Rôle de l'infirmier dans le diagnostic bactériologique (p. 75) ; Cours Médecine IDE 2 INFAS (actualisé 2020) (p. 57)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__3",
+       "num": "8",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 : M. KOUAME Oi Kouamé, 60 ans, planteur, alcoolique et fumeur connu, souffre d'une tuberculose pulmonaire. Immunocompétent, il est sous votre responsabilité dans le service de médecine au CHR d'Abengourou avec un état d'hygiène lamentable.",
+       "text": "Quelles sont les consignes à donner au malade avant qu'il ne débute son traitement antituberculeux ? Cocher les trois bonnes réponses.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le traitement impose au moins six (06) repas quotidiens"
+        },
+        {
+         "letter": "B",
+         "text": "Les médicaments seront pris après les repas"
+        },
+        {
+         "letter": "C",
+         "text": "Les médicaments seront pris devant témoin"
+        },
+        {
+         "letter": "D",
+         "text": "Le respect des doses est impérieux"
+        },
+        {
+         "letter": "E",
+         "text": "Le traitement dure au moins six mois"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Les médicaments seront pris devant témoin ; D. Le respect des doses est impérieux ; E. Le traitement dure au moins six mois",
+       "answerLetters": [
+        "C",
+        "D",
+        "E"
+       ],
+       "explanation": "Règles du traitement : prise devant témoin (traitement supervisé), respect strict des doses prescrites, prise régulière, et durée d'au moins six mois. Les médicaments se prennent en prise unique le matin à jeun, pas après les repas.\n\nSource : Tuberculose (diaporama), Règles du traitement antituberculeux ; Cours de sémiologie médicale et pathologies respiratoires, Règle du traitement (p. 75)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__4",
+       "num": "9",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 : M. KOUAME Oi Kouamé, 60 ans, planteur, alcoolique et fumeur connu, souffre d'une tuberculose pulmonaire. Immunocompétent, il est sous votre responsabilité dans le service de médecine au CHR d'Abengourou avec un état d'hygiène lamentable.",
+       "text": "En vous référant au texte, quel est le besoin prioritaire de M. KOULAHI Loué ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Manger et boire"
+        },
+        {
+         "letter": "B",
+         "text": "Eliminer"
+        },
+        {
+         "letter": "C",
+         "text": "S'occuper en vue de se réaliser"
+        },
+        {
+         "letter": "D",
+         "text": "Être propre, soigné et protéger ses téguments"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Être propre, soigné et protéger ses téguments",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le texte insiste sur un « état d'hygiène lamentable » : le besoin d'être propre, soigné et de protéger ses téguments est le besoin prioritaire. Remarque : Dans le sujet, le patient du cas s'appelle M. KOUAME, mais la question parle de « M. KOULAHI Loué ».\n\nSource : Modèle de V. Henderson (explication en partie hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__5",
+       "num": "10",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les soins palliatifs consistent à procurer un mieux-être aux malades dans l'une des situations suivantes, laquelle ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Malade amaigri"
+        },
+        {
+         "letter": "B",
+         "text": "Devant des vomissements en jet"
+        },
+        {
+         "letter": "C",
+         "text": "Phase terminale de la maladie"
+        },
+        {
+         "letter": "D",
+         "text": "Malade refusant de s'alimenter"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Phase terminale de la maladie",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les soins palliatifs s'adressent aux personnes atteintes d'une maladie grave, évolutive, à un stade avancé ou terminal ; ils visent le confort et la meilleure qualité de vie possible jusqu'au décès.\n\nSource : Gériatrie PP L2, chap. II Soins palliatifs ; Soins palliatifs, Module 2, chap. I (p. 19)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__6",
+       "num": "11",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les éléments suivants deux sont des risques et complications de la pose de la sonde urinaire ; lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rétention d'urine"
+        },
+        {
+         "letter": "B",
+         "text": "Infections"
+        },
+        {
+         "letter": "C",
+         "text": "Insuffisance rénale"
+        },
+        {
+         "letter": "D",
+         "text": "Perforation de l'urètre"
+        },
+        {
+         "letter": "E",
+         "text": "Le gonflement du ballonnet dans l'urètre"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Infections ; D. Perforation de l'urètre",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "La pose d'une sonde urinaire expose surtout à l'infection urinaire (le cathétérisme est un facteur favorisant) et au traumatisme de l'urètre (fausse route, perforation), notamment si le ballonnet est gonflé dans l'urètre. Remarque : Le « gonflement du ballonnet dans l'urètre » est une cause de traumatisme plutôt qu'une complication en soi.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Infections des voies urinaires (p. 160) ; complément hors cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__7",
+       "num": "12",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le réservoir de germe de la fièvre typhoïde est : cocher la bonne réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La chauve-souris"
+        },
+        {
+         "letter": "B",
+         "text": "L'anophèle"
+        },
+        {
+         "letter": "C",
+         "text": "La glossine"
+        },
+        {
+         "letter": "D",
+         "text": "Le singe"
+        },
+        {
+         "letter": "E",
+         "text": "L'homme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "E. L'homme",
+       "answerLetters": [
+        "E"
+       ],
+       "explanation": "Les salmonelles responsables de la fièvre typhoïde ont l'homme (malade ou porteur chronique) pour seul réservoir ; la transmission est féco-orale (mains sales, eau, aliments). L'anophèle et la glossine sont des vecteurs d'autres maladies.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde (porteurs chroniques, coproculture) ; réservoir : explication en partie hors cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__8",
+       "num": "13",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les signes cliniques suivants trois sont compatibles avec un accès palustre de primo-invasion non compliqué. Lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Céphalées"
+        },
+        {
+         "letter": "B",
+         "text": "Raideur méningée"
+        },
+        {
+         "letter": "C",
+         "text": "Fièvre"
+        },
+        {
+         "letter": "D",
+         "text": "Photophobie"
+        },
+        {
+         "letter": "E",
+         "text": "Vomissement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Céphalées ; C. Fièvre ; E. Vomissement",
+       "answerLetters": [
+        "A",
+        "C",
+        "E"
+       ],
+       "explanation": "L'accès palustre simple associe fièvre, céphalées et troubles digestifs (vomissements, nausées). La raideur méningée et la photophobie orientent vers une méningite.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Paludisme – 4-1 Paludisme simple (p. 50)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__9",
+       "num": "14",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces facteurs de risque, deux compliquent la maladie à coronavirus :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La furonculose"
+        },
+        {
+         "letter": "B",
+         "text": "La dermatose"
+        },
+        {
+         "letter": "C",
+         "text": "Le diabète sucré"
+        },
+        {
+         "letter": "D",
+         "text": "L'HTA"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Le diabète sucré ; D. L'HTA",
+       "answerLetters": [
+        "C",
+        "D"
+       ],
+       "explanation": "Le diabète et l'HTA (avec cardiopathies, obésité, insuffisance rénale…) sont des facteurs de risque de forme grave de COVID-19.\n\nSource : Cours de maladies infectieuses et parasitaires, COVID-19 – facteurs de risque",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__10",
+       "num": "15",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le mode de transmission le plus fréquent du VIH :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Transmission par le sang et dérivés"
+        },
+        {
+         "letter": "B",
+         "text": "Transmission sexuelle"
+        },
+        {
+         "letter": "C",
+         "text": "Transmission materno-fœtale (mère-enfant)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Transmission sexuelle",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La voie sexuelle est le mode de transmission le plus courant du VIH.\n\nSource : Documents de révision L3 Médecine, VIH, QCD 34 (p. 66)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__11",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les facteurs suivants, lesquels sont à la base de la survenue des maladies chroniques non transmissibles ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Prise de poids"
+        },
+        {
+         "letter": "B",
+         "text": "Cultivateur de profession"
+        },
+        {
+         "letter": "C",
+         "text": "Tabagisme"
+        },
+        {
+         "letter": "D",
+         "text": "Sédentarité"
+        },
+        {
+         "letter": "E",
+         "text": "Repos insuffisant"
+        },
+        {
+         "letter": "F",
+         "text": "Régime végétarien"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Prise de poids ; C. Tabagisme ; D. Sédentarité ; E. Repos insuffisant",
+       "answerLetters": [
+        "A",
+        "C",
+        "D",
+        "E"
+       ],
+       "explanation": "La prise de poids (obésité), le tabagisme et la sédentarité sont des facteurs de risque reconnus des maladies non transmissibles (HTA, diabète…). Remarque : Le « repos insuffisant » est coché par la correction nationale mais n'apparaît pas dans les listes de facteurs de risque des cours.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), HTA – causes ou facteurs de risque (p. 63-64) ; Documents de révision L3 Médecine, MNT, QCM 4",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__12",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi la liste des maladies suivantes, deux sont virales, lesquelles ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Fièvre typhoïde"
+        },
+        {
+         "letter": "B",
+         "text": "Rougeole"
+        },
+        {
+         "letter": "C",
+         "text": "Grippe"
+        },
+        {
+         "letter": "D",
+         "text": "Diphtérie"
+        },
+        {
+         "letter": "E",
+         "text": "Choléra"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Rougeole ; C. Grippe",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "La rougeole et la grippe sont des maladies virales. La fièvre typhoïde, la diphtérie et le choléra sont bactériens.\n\nSource : Documents de révision L3 Médecine, Rougeole, QCD 8 ; Cours de sémiologie médicale et pathologies respiratoires, OAP – causes infectieuses (grippe, rougeole)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__13",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions ci-après, choisissez la position idéale d'un patient au cours d'une crise d'OAP (Œdème Aigu du Poumon).",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Position latérale jambe légèrement repliée"
+        },
+        {
+         "letter": "B",
+         "text": "Position dorsale jambe tendue"
+        },
+        {
+         "letter": "C",
+         "text": "Position assise jambe pendante"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Position assise jambe pendante",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Pendant l'OAP, le patient est installé en position demi-assise, jambes pendantes, ce qui limite le retour veineux et soulage la dyspnée.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Traitement de l'OAP – rôle de l'infirmier (p. 84)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__14",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Choisissez l'installation convenable pour les personnes présentant des difficultés cardio-respiratoires.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Installation Dorsale"
+        },
+        {
+         "letter": "B",
+         "text": "Installation Latérale"
+        },
+        {
+         "letter": "C",
+         "text": "Installation Assise"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Installation Assise",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le patient en difficulté cardio-respiratoire est installé en position assise (ou demi-assise), qui facilite la respiration.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), CAT devant une IVG (p. 88) ; OAP (p. 84)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__15",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Choisissez deux signes d'insuffisance ventriculaire droite dans cette liste.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Oligurie"
+        },
+        {
+         "letter": "B",
+         "text": "Œdèmes des membres inférieurs"
+        },
+        {
+         "letter": "C",
+         "text": "Dyspepsie"
+        },
+        {
+         "letter": "D",
+         "text": "Vomissements"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Oligurie ; B. Œdèmes des membres inférieurs",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "L'insuffisance ventriculaire droite donne des signes d'hypertension veineuse : œdèmes des membres inférieurs, hépatomégalie, turgescence jugulaire, reflux hépato-jugulaire, oligurie. Remarque : Le cours cite aussi la dyspepsie et les vomissements parmi les troubles digestifs accompagnant les hépatalgies de l'IVD.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Insuffisance ventriculaire droite – signes cliniques (p. 88)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__16",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Choisissez deux objectifs des soins palliatifs parmi les propositions suivantes :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Soulager la souffrance des proches du malade liée à la maladie."
+        },
+        {
+         "letter": "B",
+         "text": "Prescrire des thérapies pour guérir le malade."
+        },
+        {
+         "letter": "C",
+         "text": "Soulager la douleur du malade sans agir sur la cause de la maladie."
+        },
+        {
+         "letter": "D",
+         "text": "Administrer des médicaments au malade pour agir sur la cause de la maladie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Soulager la souffrance des proches du malade liée à la maladie. ; C. Soulager la douleur du malade sans agir sur la cause de la maladie.",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Les soins palliatifs visent à soulager la douleur et les symptômes sans chercher à guérir la cause, et à soutenir les proches. Prescrire une thérapie pour guérir ou agir sur la cause ne fait pas partie de leurs objectifs.\n\nSource : Gériatrie PP L2, chap. II Soins palliatifs (diapo 19) ; Documents de révision L3 Médecine, Soins palliatifs, QCD 26",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__17",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquez parmi ces examens biologiques celui qui met en évidence les anticorps anti-plasmodium falciparum.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "NFS"
+        },
+        {
+         "letter": "B",
+         "text": "GOUTTE EPAISSE"
+        },
+        {
+         "letter": "C",
+         "text": "TDR"
+        },
+        {
+         "letter": "D",
+         "text": "Frottis sanguin"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. TDR",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient le TDR.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Paludisme – VI Diagnostic biologique (p. 51)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__18",
+       "num": "23",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique N° 2 : Vous êtes de garde au service de médecine au CHR d'Abengourou en qualité d'Infirmier Diplômé d'Etat. Vous recevez Monsieur KODJO Paulin, cultivateur âgé de 47 ans. Il présente une raideur de la nuque, un trismus, une fièvre. Depuis son entrée à l'hôpital il y a deux jours, il n'a reçu aucun soin d'hygiène et de confort. Monsieur KODJO pèse 60 kilogrammes avec une taille de 1,58 mètres.",
+       "text": "L'étudiant de licence 2 qui est de garde avec vous se référant au modèle conceptuel de Virginia Henderson a relevé les besoins ci-dessous. Indiquer les deux qui sont prioritaires ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Être propre, soigné et protéger ses téguments et phanères"
+        },
+        {
+         "letter": "B",
+         "text": "Se mouvoir et se maintenir en bonne posture"
+        },
+        {
+         "letter": "C",
+         "text": "Eviter les dangers"
+        },
+        {
+         "letter": "D",
+         "text": "S'occuper en vue de se réaliser"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Être propre, soigné et protéger ses téguments et phanères ; B. Se mouvoir et se maintenir en bonne posture",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "M. Kodjo n'a reçu aucun soin d'hygiène depuis deux jours (besoin d'être propre et de protéger ses téguments) et présente des contractures (raideur de la nuque, trismus) qui gênent ses mouvements (besoin de se mouvoir et de garder une bonne posture).\n\nSource : Modèle de V. Henderson (explication en partie hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__19",
+       "num": "24",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique N° 2 : Vous êtes de garde au service de médecine au CHR d'Abengourou en qualité d'Infirmier Diplômé d'Etat. Vous recevez Monsieur KODJO Paulin, cultivateur âgé de 47 ans. Il présente une raideur de la nuque, un trismus, une fièvre. Depuis son entrée à l'hôpital il y a deux jours, il n'a reçu aucun soin d'hygiène et de confort. Monsieur KODJO pèse 60 kilogrammes avec une taille de 1,58 mètres.",
+       "text": "Le diagnostic du médecin révèle que M. KODJO souffre de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Paludisme grave"
+        },
+        {
+         "letter": "B",
+         "text": "Tétanos"
+        },
+        {
+         "letter": "C",
+         "text": "Méningite"
+        },
+        {
+         "letter": "D",
+         "text": "Diphtérie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Tétanos",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le trismus (contracture des muscles masticateurs) est le signe d'invasion du tétanos ; avec la raideur, il oriente vers le tétanos. Remarque : Le cours précise que le trismus ne s'accompagne pas de fièvre ; dans le sujet, la fièvre et la raideur de nuque pouvaient aussi évoquer une méningite.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Tétanos – Étude clinique (invasion, phase d'état)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__20",
+       "num": "25",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique N° 2 : Vous êtes de garde au service de médecine au CHR d'Abengourou en qualité d'Infirmier Diplômé d'Etat. Vous recevez Monsieur KODJO Paulin, cultivateur âgé de 47 ans. Il présente une raideur de la nuque, un trismus, une fièvre. Depuis son entrée à l'hôpital il y a deux jours, il n'a reçu aucun soin d'hygiène et de confort. Monsieur KODJO pèse 60 kilogrammes avec une taille de 1,58 mètres.",
+       "text": "Quel est l'indice de masse corporelle de M. KODJO ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "20"
+        },
+        {
+         "letter": "B",
+         "text": "24"
+        },
+        {
+         "letter": "C",
+         "text": "28"
+        },
+        {
+         "letter": "D",
+         "text": "30"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 24",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "IMC = poids / taille² = 60 / (1,58)² = 60 / 2,496 ≈ 24. (explication hors cours du projet : calcul)\n\nSource : Calcul de l'IMC",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__21",
+       "num": "26",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique N° 2 : Vous êtes de garde au service de médecine au CHR d'Abengourou en qualité d'Infirmier Diplômé d'Etat. Vous recevez Monsieur KODJO Paulin, cultivateur âgé de 47 ans. Il présente une raideur de la nuque, un trismus, une fièvre. Depuis son entrée à l'hôpital il y a deux jours, il n'a reçu aucun soin d'hygiène et de confort. Monsieur KODJO pèse 60 kilogrammes avec une taille de 1,58 mètres.",
+       "text": "En outre, le médecin prescrit du valium injectable à M. KODJO à la posologie de 0.5 mg/kg dans du sérum glucosé 250 cc en perfusion pendant 4 heures. Combien d'ampoules devez-vous mettre dans la perfusion de M. KODJO sachant qu'une ampoule est dosée à 10mg/2ml ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1amp"
+        },
+        {
+         "letter": "B",
+         "text": "1.5amp"
+        },
+        {
+         "letter": "C",
+         "text": "2amp"
+        },
+        {
+         "letter": "D",
+         "text": "3amp"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 3amp",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Dose = 0,5 mg/kg × 60 kg = 30 mg. Une ampoule = 10 mg, donc 30 ÷ 10 = 3 ampoules. (explication hors cours du projet : calcul)\n\nSource : Calcul de dose",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__22",
+       "num": "27",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique N° 2 : Vous êtes de garde au service de médecine au CHR d'Abengourou en qualité d'Infirmier Diplômé d'Etat. Vous recevez Monsieur KODJO Paulin, cultivateur âgé de 47 ans. Il présente une raideur de la nuque, un trismus, une fièvre. Depuis son entrée à l'hôpital il y a deux jours, il n'a reçu aucun soin d'hygiène et de confort. Monsieur KODJO pèse 60 kilogrammes avec une taille de 1,58 mètres.",
+       "text": "Quelle est la DCI du valium ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Prazépam"
+        },
+        {
+         "letter": "B",
+         "text": "Diazépam"
+        },
+        {
+         "letter": "C",
+         "text": "Lorazépam"
+        },
+        {
+         "letter": "D",
+         "text": "Bromazépam"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Diazépam",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La DCI du Valium® est le diazépam. Le lorazépam est le Temesta®, le bromazépam le Lexomil®, le prazépam le Lysanxia®.\n\nSource : Neuro-psychiatrie, « Quelques médicaments » (tableau des benzodiazépines, p. 46)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__23",
+       "num": "28",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique N° 2 : Vous êtes de garde au service de médecine au CHR d'Abengourou en qualité d'Infirmier Diplômé d'Etat. Vous recevez Monsieur KODJO Paulin, cultivateur âgé de 47 ans. Il présente une raideur de la nuque, un trismus, une fièvre. Depuis son entrée à l'hôpital il y a deux jours, il n'a reçu aucun soin d'hygiène et de confort. Monsieur KODJO pèse 60 kilogrammes avec une taille de 1,58 mètres.",
+       "text": "Quel sera le débit de cette perfusion ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "19 gouttes/min"
+        },
+        {
+         "letter": "B",
+         "text": "20 gouttes/min"
+        },
+        {
+         "letter": "C",
+         "text": "21 gouttes/min"
+        },
+        {
+         "letter": "D",
+         "text": "22 gouttes/min"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 21 gouttes/min",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Débit (gouttes/min) = volume (ml) × 20 / durée (min) = 250 × 20 / 240 ≈ 20,8, soit 21 gouttes/min. (explication hors cours du projet : calcul)\n\nSource : Formule du débit de perfusion (1 ml = 20 gouttes)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__24",
+       "num": "29",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La fièvre jaune est une zoonose.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La fièvre jaune est une zoonose : le virus circule naturellement entre les singes et les moustiques (cycle forestier) et l'homme est contaminé accidentellement.\n\nSource : Cours de maladies infectieuses et parasitaires, Fièvre jaune – réservoir et transmission",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__25",
+       "num": "30",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'esprit de groupe est l'un des déterminants de la propagation favorisant l'expansion de l'infection à VIH chez les jeunes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Chez les jeunes, l'effet de groupe (pression des pairs, comportements à risque partagés) est un déterminant de la propagation du VIH.\n\nSource : Documents de révision L3 Médecine, VIH, QCD 24 (déterminants de la propagation) ; complément hors cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__26",
+       "num": "31",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La transmission de la maladie à COVID-19 se fait toujours par voie directe.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La transmission de la COVID-19 est directe (gouttelettes, contact) et indirecte (surfaces et objets contaminés) : elle ne se fait pas « toujours » par voie directe.\n\nSource : Documents de révision L3 Médecine, COVID-19, QCD 2 et 4 (p. 62)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__27",
+       "num": "32",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'incubation de l'infection à COVID-19 dure en moyenne 15 jours.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ».\n\nSource : Cours de maladies infectieuses et parasitaires, COVID-19 – rôle de l'IDE (contage dans les 10 ou 14 jours) ; Documents de révision L3 Médecine, COVID-19, QCD 3",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__28",
+       "num": "33",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La dysosmie et la dysgueusie constituent des signes pathognomoniques de la maladie à COVID-19.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ».\n\nSource : Cours de maladies infectieuses et parasitaires, COVID-19 – rôle de l'IDE (signes)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__29",
+       "num": "34",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La stigmatisation et le refus de l'isolement strict pour quelques jours sont des causes de la propagation de la maladie à COVID-19.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'isolement strict est la règle pour un patient COVID-19 ; le refus de l'isolement et la stigmatisation (qui pousse à cacher la maladie) favorisent la propagation.\n\nSource : Cours de maladies infectieuses et parasitaires, COVID-19 – CAT auprès d'un patient (isolement strict)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__30",
+       "num": "35",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le dépistage de la femme enceinte sans son conjoint permet de réduire le risque de transmission de l'infection à VIH.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le dépistage de la femme enceinte seule ne suffit pas : le dépistage du conjoint (dépistage du couple) est nécessaire pour prévenir la transmission, notamment si le conjoint s'infecte pendant la grossesse ou l'allaitement.\n\nSource : Explication en partie hors cours du projet (PTME, dépistage du couple)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__31",
+       "num": "36",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La rougeole est une maladie immunisante.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La rougeole est une maladie immunisante : une rougeole guérie protège à vie. Le document de révision propose l'affirmation inverse (« non immunisante ») comme fausse.\n\nSource : Documents de révision L3 Médecine, Rougeole, QCD 5 (p. 50)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__32",
+       "num": "37",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La transmission de la maladie à COVID-19 se fait toujours par voie directe.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Même affirmation que la question 31 (doublon dans le sujet) : la transmission de la COVID-19 est directe et indirecte.\n\nSource : Documents de révision L3 Médecine, COVID-19, QCD 2 et 4 (p. 62)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__33",
+       "num": "38",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le diagnostic biologique de certitude de la fièvre typhoïde est basé uniquement sur l'hémoculture et/ou la coproculture.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'examen de certitude de la fièvre typhoïde est l'hémoculture ; la coproculture aide en période de diarrhée et pour dépister le portage. Le sérodiagnostic de Widal ne permet pas un diagnostic de certitude.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde – Examen de certitude (p. 64)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__34",
+       "num": "39",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La diastole correspond au repos du cœur. C'est à cette période que les deux ventricules se remplissent de sang venant des oreillettes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Faux ».\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), HTA – composition de la pression artérielle (p. 64-65)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__35",
+       "num": "40",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La combinaison ABC + 3TC + DTG est l'option préférentielle de traitement ARV chez une personne dépistée VIH positive et insuffisance rénale chronique.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "En cas de trouble de la fonction rénale, on remplace le TDF (néphrotoxique) par l'ABC : le schéma devient ABC + 3TC + DTG.\n\nSource : Cours VIH Licence 2 (diaporama), diapos 81-82 (contre-indications du TDF ; patient avec comorbidité)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__36",
+       "num": "41",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le glomérule est une sorte de chambre de filtration du plasma.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le glomérule est l'unité de filtration du rein : le plasma y est filtré pour former l'urine primitive (débit de filtration glomérulaire).\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Insuffisance rénale chronique (filtration glomérulaire) ; complément hors cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__37",
+       "num": "42",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les douleurs abdominales, les nausées et vomissements peuvent être des signes d'appel d'une insuffisance rénale chronique (IRC).",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'IRC se manifeste notamment par des symptômes gastro-intestinaux (anorexie, nausées, vomissements, diarrhées), avec fatigue, céphalées et confusion.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Insuffisance rénale chronique – III Manifestations cliniques (p. 172)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__38",
+       "num": "43",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En raison de la gravité de la co-infection, tout malade dépisté tuberculeux de nos jours doit faire obligatoirement l'objet d'un counseling en vue du test de dépistage VIH, même sans son consentement.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Tuberculose et VIH sont étroitement liés : la recherche de l'infection à VIH est systématique chez tout tuberculeux, d'où le counseling. Remarque : Le dépistage du VIH reste en principe soumis au consentement ; « même sans son consentement » est discutable, même si le cours insiste sur le caractère systématique.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Tuberculose – conclusion (p. 58) ; Tuberculose (diaporama), classification selon le statut VIH",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__39",
+       "num": "44",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Se laver régulièrement les mains avec de l'eau et du savon contribue efficacement à la prévention de la tuberculose nosocomiale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La tuberculose se transmet par voie aérienne : la prévention en milieu de soins repose sur l'isolement des patients bacillifères, l'aération des chambres et le port de masques. Le lavage des mains n'est pas la mesure efficace contre cette transmission.\n\nSource : Tuberculose (diaporama), Prévention de la transmission en milieu de soins",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__40",
+       "num": "45",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La pollakiurie est l'augmentation du volume des urines pendant la nuit.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La pollakiurie est l'augmentation de la fréquence des mictions (de jour et/ou de nuit) ; l'augmentation du volume des urines la nuit s'appelle la nycturie. (explication hors cours du projet)\n\nSource : Cours sur les adénomes de la prostate (pollakiurie nocturne et/ou diurne) ; définition hors cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__41",
+       "num": "46",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'insuffisance cardiaque se définit par l'état de défaillance circulatoire qui résulte de l'impossibilité pour le cœur d'assurer un débit sanguin suffisant au besoin de l'organisme.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'insuffisance cardiaque est l'incapacité du cœur à assurer un débit sanguin suffisant aux besoins de l'organisme (d'abord à l'effort, puis au repos).\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), IVG – définition (p. 85)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__42",
+       "num": "47",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Il n'y a pas d'ulcère gastro-duodénal sans la bactérie Helicobacter pylori.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ».\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Ulcère gastro-duodénal – UGD non liés à H. pylori, AINS, syndrome de Zollinger-Ellison (p. 115-116)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__43",
+       "num": "48",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le signe de KOPLICK se rencontre dans la rougeole. Il se définit comme une éruption sur la joue de petits points blancs.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le signe de Köplick est spécifique de la rougeole : petites taches blanchâtres sur la face interne des joues, avant l'éruption.\n\nSource : Documents de révision L3 Médecine, Rougeole, QCD 7 (p. 50)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__44",
+       "num": "49",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'anophèle femelle est l'agent pathogène du paludisme.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ».\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Paludisme (cycle du Plasmodium) ; Documents de révision L3 Médecine, paludisme, QCD 3-4",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__45",
+       "num": "50",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La cirrhose est une pathologie de la rate en réponse à des agressions de natures variées, caractérisées par un bouleversement de l'architecture splénique.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La cirrhose est une maladie du foie (et non de la rate), caractérisée par un bouleversement de l'architecture hépatique (fibrose et nodules de régénération).\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Cirrhose – I Définition (p. 127-128)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__46",
+       "num": "51",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La vomique est une forme d'expectoration caractérisée par le rejet brutal et massif d'une grande quantité de pus ou de liquide clair à la faveur d'un effort de toux.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La vomique est le rejet brutal par la bouche d'une collection abondante de pus ou de sérosité provenant d'une cavité thoracique qui s'ouvre dans une bronche.\n\nSource : Cours de sémiologie médicale et pathologies respiratoires, La vomique – définition (p. 6)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__47",
+       "num": "52",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'odynophagie correspond à une douleur ressentie lors de la déglutition.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'odynophagie est une douleur ressentie lors de la déglutition.\n\nSource : Cours d'hépato-gastro-entérologie, Œsophagites – manifestations cliniques (p. 4-5)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__48",
+       "num": "53",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La cholécystite aiguë est le plus souvent liée à l'obstruction du canal cystique par un calcul.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La cholécystite aiguë est une inflammation de la vésicule biliaire, le plus souvent causée par un calcul enclavé dans le canal cystique (90 à 95 % des cas).\n\nSource : Cours d'hépato-gastro-entérologie, Chapitre 5 Cholécystite (p. 26-27)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j4-ide__49",
+       "num": "54",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Après une endoscopie sous sédation, une somnolence excessive, une hypotension ou une dépression respiratoire doivent être recherchées.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Après une endoscopie sous sédation, l'infirmier surveille la conscience, la tension et la respiration : somnolence excessive, hypotension et dépression respiratoire sont des complications de la sédation à rechercher.\n\nSource : Cours d'hépato-gastro-entérologie, Chapitre 13 Préparation et surveillance des examens endoscopiques (p. 62-63) ; complément hors cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

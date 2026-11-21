@@ -1,0 +1,1897 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zs-sj-prepa-ssrpf-j4-sfm",
+ "titre": "Préparation D.E (J) · J4 SSR/PF SFM",
+ "session": "J",
+ "annee": 2026,
+ "nq": 55,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+   "sha256": "9ee0174cae6a310ff499e14b7685289c3bf3a2155e497e3971a6b1d18f45aa2e"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J SSR / PF · Prépa D.E J4 (SFM)",
+     "slug": "prepa-ssrpf-j4-sfm",
+     "pages": "",
+     "count": 55,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "SSR / PF",
+     "source": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une patiente allaite exclusivement son nouveau-né âgé de 18 jours. Elle souhaite débuter une contraception oestro-progestative combinée car elle craint les autres méthodes. A ce stade l'OMS? Préconise la catégorie 3",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Allaitement au sein à moins de 6 semaines du post-partum : les contraceptifs hormonaux combinés sont en catégorie 4 (risque inacceptable), pas 3. La catégorie 3 concerne l'allaitement entre 6 semaines et 6 mois.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (critères d'éligibilité) et « Groupes particuliers – post-partum »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les pilules de quatrième génération contiennent du DIENOGEST",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les pilules de 4e génération contiennent comme progestatif de la drospirénone, de la chlormadinone, du diénogest ou du nomégestrol.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (classification)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "On parle de génération des contraceptifs hormonaux combinés selon le type de progestérone utilisée",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les COC sont classés en générations selon le type de progestatif : noréthistérone (1re), lévonorgestrel/norgestrel (2e), désogestrel/gestodène/norgestimate (3e), drospirénone… (4e).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (classification)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le préservatif, la cape cervicale, le spermicide et le diaphragme sont des méthodes de barrières",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Méthodes de barrière : mécaniques (préservatifs masculin et féminin, cape cervicale, diaphragme) et chimiques (spermicides).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Généralités sur la contraception » et « Méthodes de barrière »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La palpation du sein se fait en position couchée, le bras du sein examiné replié sur la tête",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "C'est la position décrite dans le cours : la cliente est couchée, le bras du côté examiné replié sous ou sur la tête, ce qui étale le sein sur le gril costal.\n\nSource : Cours de SR/PF L2 (INFAS 2023), Consultation en PF (examen des seins)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Mme KY désire avoir des rapports sexuels non protégés avec son conjoint après la pose d'implant. Alors, elle ne doit pas attendre 24 heures pour tout rapport sexuel après la pose",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ». Le cours indique que les contraceptifs progestatifs, dont l'implant, sont efficaces dès les 24 premières heures quand ils sont posés au bon moment du cycle. Remarque : Le cours précise que si l'implant est posé plus de 7 jours après le début des règles, il faut une méthode d'appoint ou l'abstinence pendant 7 jours. L'énoncé est ambigu.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux progestatifs » (avantages et moment d'insertion)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le counseling se définit comme étant un entretien, une tête à tête qui a lieu dans un endroit calme au cours duquel une personne aide une autre personne à trouver et choisir une solution à son problème",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Définition du cours : le counseling est un « entretien conseil », un tête-à-tête… La correction nationale de la Prépa DE (les J) retient « Faux » parce que l'énoncé dit seulement « un entretien ».\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Counseling en PF » (définition)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La consultation en planification familiale est le processus par lequel un prestataire de services de planification familiale interagit avec un client pour choisir et utiliser une méthode contraceptive ou pour trouver une solution à un problème de santé sexuelle",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours dit « …pour trouver une solution à un problème de santé de la reproduction », et non de santé sexuelle.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Consultation en PF » (définition)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Mme RIA Sage-femme réfère une cliente qui présente un avortement provoqué septique avec un désir de contraception le DIU",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Avortement septique = catégorie 4 pour le DIU (contre-indiqué). La sage-femme doit référer pour traiter l'infection et proposer une autre méthode.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « DIU » (critères de recevabilité) et « Groupes particuliers – post-abortum »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'examen des seins se fait méthodiquement quadrant par quadrant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le sein est divisé en 4 quadrants passant par le mamelon ; on palpe méthodiquement d'un quadrant à l'autre, mains à plat, puis le mamelon et les aires ganglionnaires.\n\nSource : Cours de SR/PF L2 (INFAS 2023), Consultation en PF (examen des seins) ; Clinique obstétricale L3 (fiche 3 : examen des seins)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les autres antécédents sont constitués des antécédents gynécologiques, obstétricaux et familiaux",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans le tableau du cours, les antécédents gynécologiques et obstétricaux font partie des antécédents personnels. Les « autres antécédents » sont les antécédents familiaux, collatéraux et les ATCD et options en PF.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Consultation en PF » (tableau des antécédents)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'échographie est indiquée lorsque survient une infection après la pose d'un DIU",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Devant une infection après la pose d'un DIU, on fait une évaluation clinique (signes vitaux, examen abdominal et pelvien) et des examens de laboratoire, puis on traite par antibiotiques. L'échographie est réservée à la recherche du DIU (fils introuvables, perforation, expulsion).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « DIU du post-partum » (gestion de l'infection et des problèmes de fils)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une patiente oublie deux pilules oestro-progestatives consécutives (jours dix huit et dix neuf de sa plaquette de vingt un comprimés). Elle a eu un rapport non protégé au seizième jour du cycle. il faut jeter les comprimés restants de la période d'arrêt et enchaîner sans pause",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Quand les oublis surviennent pendant la dernière semaine de comprimés actifs, on finit les comprimés actifs et on enchaîne directement sur une nouvelle plaquette, sans faire la semaine d'arrêt (on jette les comprimés inactifs d'une plaquette de 28). Remarque : Le cours (COC) indique, en cas d'oubli de 2 pilules ou plus, de prendre 2 pilules par jour jusqu'à rattrapage et d'utiliser une méthode d'appoint pendant 7 jours.\n\nSource : (explication hors cours du projet ; le cours décrit seulement la prise de 2 comprimés par jour et la méthode d'appoint)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le DIU entraine les infections",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le risque d'infection génitale haute chez les utilisatrices du DIU est inférieur à 1 % ; il est surtout lié à l'insertion (20 premiers jours) et à une IST préexistante, puis il devient comparable à celui des non-utilisatrices.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « DIU du post-partum » (complications)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La pose du DIU est indiquée si à l'examen vous constatez un col sain",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Avant la pose, l'examen au spéculum et le toucher vaginal vérifient l'absence de contre-indication (infection, cervicite, cancer du col…). Un col sain permet la pose.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « DIU » (étape 1 de la pose)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__15",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le premier volet de la fiche de référence et contre référence est rempli par le médecin",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le 1er volet est rempli par le prestataire qui réfère ; le 2e volet est rempli par le médecin qui reçoit la cliente.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Organisation et gestion d'un centre de PF » (fiche de référence)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En quoi consiste principalement une approche « transformatrice de genre » appliquée à la GHM en milieu scolaire ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Réserver l'enseignement de l'hygiène menstruelle exclusivement aux enseignants de mathématiques."
+        },
+        {
+         "letter": "B",
+         "text": "Déconstruire les tabous culturels en éduquant l'ensemble de la communauté scolaire."
+        },
+        {
+         "letter": "C",
+         "text": "Interdire strictement aux élèves de prononcer le mot « règles » dans l'enceinte de l'établissement."
+        },
+        {
+         "letter": "D",
+         "text": "Limiter l'accès aux toilettes propres uniquement aux élèves ayant les meilleures notes académiques."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Déconstruire les tabous culturels en éduquant l'ensemble de la communauté scolaire.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Une approche transformatrice de genre cherche à changer les normes et les tabous qui entourent les règles, en impliquant toute la communauté scolaire (filles, garçons, enseignants, parents). Les autres propositions renforcent les tabous ou les inégalités.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__17",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Cocher le principe de base du counseling chez le client",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La liberté de la méthode contraceptive"
+        },
+        {
+         "letter": "B",
+         "text": "La liberté de s'éclairé"
+        },
+        {
+         "letter": "C",
+         "text": "Le consentement exprimé"
+        },
+        {
+         "letter": "D",
+         "text": "Les droits du client"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Les droits du client",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Principes au niveau du client : droit au caractère privé et confidentiel, liberté de choisir la méthode, liberté de s'exprimer, consentement éclairé, droits du client, renforcement de ses capacités. Seule l'option d reprend exactement le cours ; les autres sont déformées.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Counseling en PF » (principes de base)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une patiente de 29 ans fait retirer son implant à l'étonogestrel car elle souhaite planifier une grossesse avec son conjoint. Elle s'inquiète du temps nécessaire pour retrouver une fertilité normale. Que lui indiquez-vous ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "6 à 12 mois"
+        },
+        {
+         "letter": "B",
+         "text": "Immédiat"
+        },
+        {
+         "letter": "C",
+         "text": "2ans"
+        },
+        {
+         "letter": "D",
+         "text": "3 cycles"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Immédiat",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'implant est une méthode réversible : la fécondité revient rapidement après le retrait. C'est l'injectable (DMPA) qui retarde le retour de la fécondité de plusieurs mois.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux progestatifs » (avantages et limites)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Cocher le principe de base du counseling chez le prestataire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La maîtrise du débat"
+        },
+        {
+         "letter": "B",
+         "text": "Le fait de tirer les leçons de l'exemple"
+        },
+        {
+         "letter": "C",
+         "text": "Demeurer positif, constructif"
+        },
+        {
+         "letter": "D",
+         "text": "L'éducation du passé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Demeurer positif, constructif",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Principes au niveau du prestataire : la maîtrise du sujet, le fait de tirer les leçons du passé mais aussi demeurer positif, constructif, optimiste, l'éducation par l'exemple. Les options a, b et d mélangent les mots.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Counseling en PF » (principes de base)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle affirmation concernant la contraception d'urgence hormonale chez l'adolescente est exacte ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Elle peut remplacer une contraception régulière et être utilisée toutes les semaines sans risque."
+        },
+        {
+         "letter": "B",
+         "text": "Elle nécessite obligatoirement une prescription médicale préalable par un spécialiste."
+        },
+        {
+         "letter": "C",
+         "text": "Elle provoque systématiquement une interruption médicale de grossesse en cas d'œuf déjà implanté."
+        },
+        {
+         "letter": "D",
+         "text": "Elle doit être administrée le plus tôt possible après le rapport non protégé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Elle doit être administrée le plus tôt possible après le rapport non protégé",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La contraception d'urgence est d'autant plus efficace qu'elle est prise tôt après le rapport non protégé. Elle ne doit pas être utilisée de façon répétée à la place d'une méthode régulière et n'interrompt pas une grossesse déjà implantée. Remarque : Dans le sujet, l'option c est notée « d} » (coquille).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Groupes particuliers – contraception d'urgence »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Nommer la phase du counseling où toutes les méthodes sont décrites",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Counseling initial"
+        },
+        {
+         "letter": "B",
+         "text": "Counseling spécifique à la méthode"
+        },
+        {
+         "letter": "C",
+         "text": "Counseling de suivi"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Counseling initial",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Counseling initial : fait à la réception du client, on décrit toutes les méthodes et on l'aide à choisir. Le counseling spécifique porte sur la méthode choisie ; le counseling de suivi, sur les visites suivantes.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Counseling en PF » (phases)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Cocher les deux étapes du counseling qui se suivent",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rendez-vous"
+        },
+        {
+         "letter": "B",
+         "text": "Choix de méthode"
+        },
+        {
+         "letter": "C",
+         "text": "Renseignements"
+        },
+        {
+         "letter": "D",
+         "text": "Explication"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Choix de méthode ; D. Explication",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Dans BERCER, « C » (Choix de la méthode) est suivi de « E » (Explications). Les renseignements (R) précèdent le choix ; le rendez-vous (R) suit les explications.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Counseling en PF » (étapes BERCER)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une patiente de 39 ans, en bonne santé par ailleurs, souhaite débuter une pilule oestro-progestative combinée. Elle fume activement 18 cigarettes par jour depuis l'âge de vingt ans. Quelle est la conduite à tenir selon l'OMS ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Prescription possible sous surveillance tensionnelle rapprochée."
+        },
+        {
+         "letter": "B",
+         "text": "Prescription autorisée si la patiente s'engage à réduire sa consommation de moitié."
+        },
+        {
+         "letter": "C",
+         "text": "Contre-indication absolue."
+        },
+        {
+         "letter": "D",
+         "text": "Utilisation sans restriction."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Contre-indication absolue.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Femme de 35 ans ou plus qui fume 15 cigarettes ou plus par jour : risque cardiovasculaire inacceptable avec un œstroprogestatif, la méthode ne doit pas être utilisée. On propose une méthode sans œstrogène.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (critères d'éligibilité, mode de vie)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Cocher le but de la consultation en planification familiale",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Ne pas s'assurer que la cliente est enceinte"
+        },
+        {
+         "letter": "B",
+         "text": "Dépister les infections sexuelles"
+        },
+        {
+         "letter": "C",
+         "text": "Identifier les indications médicales"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Ne pas s'assurer que la cliente est enceinte",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient l'option a. Le but du cours est « s'assurer que la cliente n'est pas enceinte » ; l'option c déforme « identifier les contre-indications médicales ».\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Consultation en PF » (buts)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Il existe combien de groupes de contraceptifs hormonaux combinés",
+       "options": [
+        {
+         "letter": "A",
+         "text": "03"
+        },
+        {
+         "letter": "B",
+         "text": "04"
+        },
+        {
+         "letter": "C",
+         "text": "10"
+        },
+        {
+         "letter": "D",
+         "text": "14"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 04",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours présente 4 CHC : contraceptifs oraux combinés (COC), patch combiné, anneau intravaginal combiné et injectables combinés (CIC).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (définitions)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Mme GRO est sous contraceptif injectable contenant deux types d'hormones. Cocher le prochain rendez-vous",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rendez-vous dans quatre semaines"
+        },
+        {
+         "letter": "B",
+         "text": "Rendez-vous dans huit semaines"
+        },
+        {
+         "letter": "C",
+         "text": "Rendez-vous dans douze semaines"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Rendez-vous dans quatre semaines",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un injectable à deux hormones est un contraceptif injectable combiné (CIC) : réinjection toutes les 4 semaines. Huit semaines = Noristérat ; douze semaines = Depo-Provera/Sayana Press.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (calendrier de suivi des CIC)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Cocher l'élément de l'identité du client dans la consultation en planification familiale",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Age en mois"
+        },
+        {
+         "letter": "B",
+         "text": "Niveau d'éducation"
+        },
+        {
+         "letter": "C",
+         "text": "Fonction"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Niveau d'éducation",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Identité du client : nom et prénoms, âge, niveau d'éducation, profession/occupation, domicile, situation matrimoniale et socio-économique. L'âge se note en années.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Consultation en PF » (interrogatoire)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une patiente de 32 ans, tabagique sevrée, consulte pour une contraception hormonale combinée. Elle présente des migraines avec aura survenant deux fois par mois. Selon les critères d'éligibilité médicale de l'OMS, quelle est la classification de la CHC pour cette patiente ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Catégorie 1"
+        },
+        {
+         "letter": "B",
+         "text": "Catégorie 2"
+        },
+        {
+         "letter": "C",
+         "text": "Catégorie 4"
+        },
+        {
+         "letter": "D",
+         "text": "Catégorie 3"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Catégorie 4",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les migraines avec aura sont en catégorie 4 pour tous les CHC (COC, CIC, patch, anneau), quel que soit l'âge, à cause du risque d'AVC.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (critères d'éligibilité)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La méthode contraceptive spécifique pour l'adolescent est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "MAMA"
+        },
+        {
+         "letter": "B",
+         "text": "Condom"
+        },
+        {
+         "letter": "C",
+         "text": "Méthode chirurgicale volontaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Condom",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Chez les adolescents, le préservatif (masculin ou féminin) est la méthode la plus recommandée (+++) car il protège aussi contre les IST/VIH. La MAMA concerne le post-partum ; la CCV est définitive.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Groupes particuliers – contraception des adolescents »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Cocher l'élément qui figure sur la fiche de référence et contre référence",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La date"
+        },
+        {
+         "letter": "B",
+         "text": "Le nom et la signature"
+        },
+        {
+         "letter": "C",
+         "text": "La conduite à tenir infirmière"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La date",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le 1er volet de la fiche porte notamment la date, le nom de la cliente, le n° de fiche, la méthode utilisée, le problème rencontré, le nom et la signature du prestataire. On n'y note pas de « conduite à tenir infirmière ».\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Organisation et gestion d'un centre de PF » (fiche de référence et contre-référence)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__31",
+       "num": "32",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS : Une utilisatrice d'une pilule oestro-progestative monophasique oublie de prendre sa pilule du troisième jour de sa plaquette. Elle s'en aperçoit trente six heures plus tard (au moment de prendre la pilule suivante). Elle a eu un rapport sexuel non protégé 48 heures avant l'oubli.",
+       "text": "Quelle est la conduite immédiate à tenir ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Prendre immédiatement la pilule oubliée."
+        },
+        {
+         "letter": "B",
+         "text": "Jeter la plaquette en cours et recommencer un nouveau cycle immédiatement"
+        },
+        {
+         "letter": "C",
+         "text": "Ne rien faire de particulier"
+        },
+        {
+         "letter": "D",
+         "text": "Attendre les prochaines règles."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Prendre immédiatement la pilule oubliée.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours : si l'on oublie une pilule active, il faut la prendre dès qu'on s'en rappelle, même si cela fait 2 pilules le même jour, puis continuer la plaquette.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (instructions COC)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__32",
+       "num": "33",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS : Une utilisatrice d'une pilule oestro-progestative monophasique oublie de prendre sa pilule du troisième jour de sa plaquette. Elle s'en aperçoit trente six heures plus tard (au moment de prendre la pilule suivante). Elle a eu un rapport sexuel non protégé 48 heures avant l'oubli.",
+       "text": "Doit-elle continuer la plaquette ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "OUI"
+        },
+        {
+         "letter": "B",
+         "text": "Non"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. OUI",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Oui : après avoir pris la pilule oubliée, elle continue la plaquette à raison d'une pilule par jour.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (instructions COC)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__33",
+       "num": "34",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS : Une utilisatrice d'une pilule oestro-progestative monophasique oublie de prendre sa pilule du troisième jour de sa plaquette. Elle s'en aperçoit trente six heures plus tard (au moment de prendre la pilule suivante). Elle a eu un rapport sexuel non protégé 48 heures avant l'oubli.",
+       "text": "Doit elle utiliser une contraception d'urgence ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "OUI"
+        },
+        {
+         "letter": "B",
+         "text": "Non"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. OUI",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Oui » : l'oubli concerne la 1re semaine de la plaquette (après la semaine d'arrêt) et il y a eu un rapport non protégé peu avant.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__34",
+       "num": "35",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS : Une utilisatrice d'une pilule oestro-progestative monophasique oublie de prendre sa pilule du troisième jour de sa plaquette. Elle s'en aperçoit trente six heures plus tard (au moment de prendre la pilule suivante). Elle a eu un rapport sexuel non protégé 48 heures avant l'oubli.",
+       "text": "En cas de rapports sexuelles doit elle se protégée ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "OUI"
+        },
+        {
+         "letter": "B",
+         "text": "Non"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. OUI",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Oui » : utiliser une méthode d'appoint (préservatif) pendant 7 jours, le temps que la pilule soit de nouveau efficace.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (instructions COC)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une utilisatrice sous COC qui présente des spottings après trois cycles doit être :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rassurer"
+        },
+        {
+         "letter": "B",
+         "text": "Examiner"
+        },
+        {
+         "letter": "C",
+         "text": "Référer"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Examiner",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les spottings sont fréquents et passagers pendant les 3 premiers mois ; s'ils persistent au-delà, il faut examiner la cliente (prise des pilules, autres causes gynécologiques) avant de décider.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (instructions de suivi et calendrier de suivi COC)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'examen gynécologique anormal chez une cliente sous contraception hormonale. Il faut",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rassurer"
+        },
+        {
+         "letter": "B",
+         "text": "Consultation prénatale"
+        },
+        {
+         "letter": "C",
+         "text": "Référer"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Référer",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Une anomalie à l'examen gynécologique dépasse le cadre de la consultation de PF : on réfère la cliente vers le médecin, avec la fiche de référence.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Organisation et gestion d'un centre de PF » (fiche de référence) et arbres décisionnels des effets secondaires",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Devant la présence d'autres signes de grossesse chez une cliente après la troisième plaquette",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rassurer"
+        },
+        {
+         "letter": "B",
+         "text": "Examiner"
+        },
+        {
+         "letter": "C",
+         "text": "Référer"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Examiner",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Des signes de grossesse sous pilule imposent d'abord d'examiner la cliente (examen gynécologique, test de grossesse) pour confirmer ou éliminer une grossesse.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (signes avertisseurs) et arbres décisionnels",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le STEDIRIL contient",
+       "options": [
+        {
+         "letter": "A",
+         "text": "35 microgrammes EE"
+        },
+        {
+         "letter": "B",
+         "text": "50 microgrammes EE"
+        },
+        {
+         "letter": "C",
+         "text": "100 microgrammes EE"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 50 microgrammes EE",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le Stédiril est un COC normo-dosé : 50 µg d'éthinylestradiol (EE).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (classification selon le dosage)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__39",
+       "num": "40",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Une patiente sous pilule oestro-progestative souhaite passer à un implant sous-cutané. Elle a pris sa dernière pilule active hier et souhaite se faire poser l'implant aujourd'hui.",
+       "text": "Le prestataire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La rassure."
+        },
+        {
+         "letter": "B",
+         "text": "Lui dit d'attendre les règles."
+        },
+        {
+         "letter": "C",
+         "text": "Elle doit revenir dans sept jours."
+        },
+        {
+         "letter": "D",
+         "text": "Elle utilise une protection par préservatif."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La rassure.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Elle prenait correctement sa pilule : elle est protégée et l'implant peut être posé tout de suite, sans attendre les règles ni utiliser de méthode d'appoint. On la rassure.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux progestatifs » (moment d'administration) ; partiellement hors cours",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__40",
+       "num": "41",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Une patiente sous pilule oestro-progestative souhaite passer à un implant sous-cutané. Elle a pris sa dernière pilule active hier et souhaite se faire poser l'implant aujourd'hui.",
+       "text": "La patiente est-elle protégée ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "OUI"
+        },
+        {
+         "letter": "B",
+         "text": "Non"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. OUI",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Oui : la dernière pilule active a été prise hier, la protection de la pilule est encore assurée au moment de la pose.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__41",
+       "num": "42",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Une patiente sous pilule oestro-progestative souhaite passer à un implant sous-cutané. Elle a pris sa dernière pilule active hier et souhaite se faire poser l'implant aujourd'hui.",
+       "text": "Le prestataire doit-il insérer l'implant ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "OUI"
+        },
+        {
+         "letter": "B",
+         "text": "Non"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. OUI",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Oui : le changement de méthode peut se faire immédiatement, on est certain qu'elle n'est pas enceinte.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux progestatifs » (« à n'importe quel moment si le prestataire est certain que la cliente n'est pas enceinte »)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__42",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Mme HI a opté le 01 janvier 2025 pour les Comprimés combinés. Elle a oublié la prise du 01 mars et a néanmoins continué sa méthode",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Protégée"
+        },
+        {
+         "letter": "B",
+         "text": "Non protégée"
+        },
+        {
+         "letter": "C",
+         "text": "Référer"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Protégée",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un seul oubli, puis poursuite de la méthode : la protection est maintenue (le cours prévoit de prendre la pilule dès qu'on s'en rappelle et de continuer). Remarque : Dans le sujet, les options b et c portent deux fois leur lettre.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (instructions COC)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__43",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Mme HI exige les préservatifs pendant les rapports sexuels avec son conjoint",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Normal"
+        },
+        {
+         "letter": "B",
+         "text": "Anormal"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Anormal",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Anormal » : Mme HI est déjà protégée par sa pilule, l'exigence du préservatif dans son couple n'a pas de justification contraceptive.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__44",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "29 mars 2025 Mme HI est sous contraceptif injectable progestatif. Car, elle a des migraines",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La décision est normale"
+        },
+        {
+         "letter": "B",
+         "text": "La décision est anormale"
+        },
+        {
+         "letter": "C",
+         "text": "La décision n'est pas rassurante"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La décision est normale",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les migraines contre-indiquent ou déconseillent les œstroprogestatifs (catégorie 3 ou 4), alors qu'elles sont en catégorie 2 pour les contraceptifs progestatifs. Passer à un injectable progestatif est donc normal.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » et « Contraceptifs hormonaux progestatifs » (critères d'éligibilité)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__45",
+       "num": "46",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "07 juin 2025, Mme HI opte pour les Comprimés. Car, elle a manifesté une rougeur au point d'injection. La PI est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Accompli"
+        },
+        {
+         "letter": "B",
+         "text": "Rigoureuse"
+        },
+        {
+         "letter": "C",
+         "text": "Partielle"
+        },
+        {
+         "letter": "D",
+         "text": "Option 2"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Partielle",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Une rougeur au point d'injection traduit un défaut d'asepsie : la prévention des infections (PI) n'a été que partielle. Le cours demande de respecter la PI pour les injectables et les implants. Remarque : « Option 2 » est un choix vide laissé dans le sujet.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux progestatifs » (limites : respecter la PI)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__46",
+       "num": "47",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Mme HI peut utiliser en 2026",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Contraception chirurgical volontaire"
+        },
+        {
+         "letter": "B",
+         "text": "MAMA"
+        },
+        {
+         "letter": "C",
+         "text": "Dispositif intra utérin"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Dispositif intra utérin",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Après la pilule (refusée à cause des migraines) et l'injectable (réaction au point d'injection), le DIU au cuivre est une méthode non hormonale, de longue durée, sans risque lié aux migraines. La MAMA ne concerne que le post-partum ; la CCV est définitive.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « DIU » (avantages)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__47",
+       "num": "48",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans quelle situation exceptionnelle le professionnel de santé est-il éthiquement et légalement amené à lever le secret médical concernant un(e) adolescent(e) ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Chaque fois que l'adolescent a une activité sexuelle avant 18 ans."
+        },
+        {
+         "letter": "B",
+         "text": "En cas de danger immédiat pour la sécurité ou l'intégrité physique ou psychologique du mineur."
+        },
+        {
+         "letter": "C",
+         "text": "Lorsque les parents exigent de connaître le motif exact de la consultation."
+        },
+        {
+         "letter": "D",
+         "text": "Dès que l'adolescent refuse de dire ce qu'il a fait le week-end."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. En cas de danger immédiat pour la sécurité ou l'intégrité physique ou psychologique du mineur.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La confidentialité est la règle avec l'adolescent ; elle ne peut être levée qu'en cas de danger grave et immédiat pour le mineur (sévices, violences, risque vital).\n\nSource : (explication hors cours du projet ; le cours insiste sur la confidentialité avec les adolescents)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__48",
+       "num": "49",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'outils de travail en planification familiale",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le carnet de commande"
+        },
+        {
+         "letter": "B",
+         "text": "Les fiches"
+        },
+        {
+         "letter": "C",
+         "text": "La carte"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Le carnet de commande",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le carnet de commande figure dans la liste des outils de travail en PF ; il sert à commander les contraceptifs et le matériel. Remarque : Le cours cite aussi des fiches (fiche individuelle, fiche de référence, fiche de rapport) et la carte de rendez-vous ; les options b et c sont trop vagues.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Organisation et gestion d'un centre de PF » (outils de travail)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__49",
+       "num": "50",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la méthode de BILLINGS, après l'ovulation la couleur de la glaire cervicale est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Trouble"
+        },
+        {
+         "letter": "B",
+         "text": "Mitigée"
+        },
+        {
+         "letter": "C",
+         "text": "Mélangée"
+        },
+        {
+         "letter": "D",
+         "text": "Claire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Mélangée",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Tableau des changements de la glaire : après l'ovulation, elle est diminuée, fine et de couleur « mélangée ». Elle est claire (blanc d'œuf) à l'ovulation et trouble après les règles et avant les règles.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Méthodes d'auto-observation » (méthode de Billings)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__50",
+       "num": "51",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Cocher deux caractéristiques différenciant le CIC de Sayana Press",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Contraceptif"
+        },
+        {
+         "letter": "B",
+         "text": "Sous cutané"
+        },
+        {
+         "letter": "C",
+         "text": "Progestérone"
+        },
+        {
+         "letter": "D",
+         "text": "intra dermique"
+        },
+        {
+         "letter": "E",
+         "text": "Intra musculaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Sous cutané ; E. Intra musculaire",
+       "answerLetters": [
+        "B",
+        "E"
+       ],
+       "explanation": "Sayana Press s'injecte en sous-cutané ; les CIC s'injectent en intramusculaire. Ce sont deux contraceptifs injectables, la différence porte donc sur la voie d'injection.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux progestatifs » (tableau des injectables) et « CHC »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__51",
+       "num": "52",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'implant est contre indiqué chez",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La pauci pare"
+        },
+        {
+         "letter": "B",
+         "text": "La nullipare"
+        },
+        {
+         "letter": "C",
+         "text": "La ménopausée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. La ménopausée",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les femmes qui ont ou n'ont pas eu d'enfants sont en catégorie 1 pour l'implant. Une femme ménopausée n'a plus besoin de contraception : l'implant n'a pas d'indication chez elle.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux progestatifs » (critères d'éligibilité)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__52",
+       "num": "53",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Une patiente de 26 ans, porteuse d'un dispositif intra-utérin au lévonorgestrel depuis huit mois, consulte car elle n'a plus ses règles du tout depuis 4 mois. Elle s'inquiète d'une possible grossesse ou d'une pathologie.",
+       "text": "Quel est votre premier diagnostic ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Ménopause précoce iatrogène"
+        },
+        {
+         "letter": "B",
+         "text": "Echec de la contraception"
+        },
+        {
+         "letter": "C",
+         "text": "Aménorrhée"
+        },
+        {
+         "letter": "D",
+         "text": "grossesse extra utérine"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Aménorrhée",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le DIU hormonal au lévonorgestrel agit sur l'endomètre : il diminue les règles et peut entraîner une aménorrhée, effet attendu et sans gravité.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « DIU » (DIU hormonal) et « CHP » (aménorrhée)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__53",
+       "num": "54",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Une patiente de 26 ans, porteuse d'un dispositif intra-utérin au lévonorgestrel depuis huit mois, consulte car elle n'a plus ses règles du tout depuis 4 mois. Elle s'inquiète d'une possible grossesse ou d'une pathologie.",
+       "text": "Quelle est l'attitude du prestataire face à la patiente ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rassurer"
+        },
+        {
+         "letter": "B",
+         "text": "Retirer le dispositif intra utérin"
+        },
+        {
+         "letter": "C",
+         "text": "Réaliser un curetage"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Rassurer",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'aménorrhée sous progestatif n'est pas grave et ne nécessite pas de traitement : on rassure la cliente (en s'assurant qu'il n'y a pas de grossesse si un doute existe).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux progestatifs » (instructions : « rassurer la cliente que l'aménorrhée n'est pas grave »)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j4-sfm__54",
+       "num": "55",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Cochez la qualité morale d'un bon conseiller",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Comprend les avantages de toutes les méthodes contraceptives"
+        },
+        {
+         "letter": "B",
+         "text": "Comprend les facteurs qui influencent le choix d'une méthode"
+        },
+        {
+         "letter": "C",
+         "text": "Encourage le client à poser des questions"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Encourage le client à poser des questions",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "« Encourage le client à poser des questions » figure tel quel dans la liste des qualités d'un bon conseiller. Remarque : Les options a et b sont des versions raccourcies d'autres qualités du cours (« comprend les avantages et les limitations… », « comprend les facteurs culturels et émotionnels… »).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Counseling en PF » (qualités d'un bon conseiller)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

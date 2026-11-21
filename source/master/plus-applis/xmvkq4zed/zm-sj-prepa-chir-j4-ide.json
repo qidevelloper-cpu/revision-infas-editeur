@@ -1,0 +1,2314 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zm-sj-prepa-chir-j4-ide",
+ "titre": "Préparation D.E (J) · J4 Chirurgie IDE",
+ "session": "J",
+ "annee": 2026,
+ "nq": 57,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+   "sha256": "45110ca169c7b815e8c5983cb6aa915440763cce1306bb015109584afb42df7f"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Chirurgie · Prépa D.E J4 (IDE)",
+     "slug": "prepa-chir-j4-ide",
+     "pages": "",
+     "count": 57,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Chirurgie",
+     "source": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Devant un traumatisme crânien avec signe neurologique ou plaie pénétrante, un scanner est obligatoire d’emblée.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. Groupe 3 de Master : TC avec Glasgow < 15, signe neurologique, aggravation ou plaie pénétrante → scanner d’emblée et surveillance neurologique.\n\nSource : Neurochirurgie (livret), p. 7 (Groupe 3) ; NEUROCHIRURGIE L3, diapo 30",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__1",
+       "num": "2",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un traumatisé crânien qui ouvre les yeux de façon spontanée, répond aux piqûres du membre par le retrait et répond aux questions de façon appropriée a un Glasgow de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "12"
+        },
+        {
+         "letter": "B",
+         "text": "13"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 13",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Ouverture spontanée des yeux = 4 ; retrait du membre à la douleur = 4 ; réponse verbale appropriée/orientée = 5. Total : 4 + 4 + 5 = 13.\n\nSource : NEUROCHIRURGIE L3, score de Glasgow (diapos 17 à 21)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "On parle de traumatisme crânien grave lorsque le Glasgow est inférieur à 9 après correction des fonctions vitales.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. Phrase du cours : « On parle de traumatisme crânien grave lorsque le Glasgow est inférieur à 9 après correction des fonctions vitales » (Glasgow 3 à 8).\n\nSource : Neurochirurgie (livret), p. 6",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La hernie abdominale étranglée touche exclusivement les personnes de sexe masculin.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux. La hernie crurale s’observe surtout chez la femme adulte, la hernie ombilicale de l’adulte aussi ; toutes peuvent s’étrangler.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Hernies – autres sites (diapo 205)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la hernie discale, le signe de Lasègue consiste à réveiller la douleur empêchant la poursuite du mouvement en soulevant progressivement le membre inférieur avec le genou étendu.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. Le signe de Lasègue est recherché sur le patient couché : l’élévation progressive du membre inférieur, genou tendu, étire les racines comprimées et réveille la douleur sciatique, ce qui arrête le mouvement. Il traduit le conflit disco-radiculaire. (description du signe partiellement hors cours du projet)\n\nSource : Neurochirurgie (livret), Sciatalgies / hernie discale (p. 24 et suivantes)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’abcès chaud est une collection purulente aigüe causée par le bacille de Koch.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux. L’abcès chaud est dû à des germes pyogènes (staphylocoque, streptocoque…). Le bacille de Koch est le germe de l’abcès froid.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Abcès chaud – étiologies ; Abcès froid – étiologies",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’aplatissement du moignon de l’épaule, avec le coup de hache externe au tiers supérieur du bras est le signe de l’épaulette dans les luxations de l’épaule",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. Dans la luxation antéro-interne, l’inspection de face montre l’aplatissement du moignon de l’épaule et la déformation en coup de hache externe au tiers supérieur du bras : c’est le signe de l’épaulette.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Luxation de l’épaule (p. 17-24) ; Traumatologie complet (chirurgie traumatologique et orthopédique), luxation antéro-interne – inspection",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La fracture de Pouteau Colle est une fracture de partie distale du radius ou fracture juxta-articulaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. « La fracture de Pouteau-Colles est la fracture de la partie distale du radius ou fracture classique juxta-articulaire. »\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Fractures de l’avant-bras – 3.5.1.1 Définition",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la prise en charge des fractures, l’ostéosynthèse se pratique sous anesthésie générale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. La réduction chirurgicale se fait sous anesthésie générale à foyer ouvert, puis la fracture est fixée par un implant (broche, vis, plaque, clou) : c’est l’ostéosynthèse.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Fractures de la clavicule – méthode chirurgicale (diapo 24) ; Humérus – méthodes chirurgicales (diapo 44)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La tuméfaction dans la hernie étranglée est dure, irréductible, tendue, expansive et impulsive à la toux.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux. Dans la hernie étranglée, la tuméfaction est dure, tendue, douloureuse, irréductible mais NON impulsive et NON expansive à la toux.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Hernies – 4.2 Hernie compliquée (p. 108)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__10",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une dénivellation en marche d’escalier avec douleur exquise lorsqu’on palpe le membre est le signe d’une fracture de l’humérus.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux. La dénivellation en marche d’escalier avec douleur exquise à la palpation douce est le signe de la fracture de la clavicule.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Fractures de la clavicule – 3.2.2 Palpation",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__11",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une contusion abdominale par choc indirect se produit par percussion ou écrasement d’un organe contre la paroi abdominale postérieure.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux. La percussion/l’écrasement correspond au choc direct. Le choc indirect est dû à la décélération brutale (collision, chute) qui étire, rompt ou arrache les moyens de fixité des viscères.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Contusions abdominales – 1.1 Mécanismes (p. 89-90)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__12",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’épreuve ultime au lit du malade est le dernier verrou de sécurité à respecter avant toute transfusion sanguine.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. Le contrôle ultime pré-transfusionnel au lit du malade (vérification de l’identité et test de compatibilité ABO avec le sang du receveur et de la poche) est la dernière barrière contre l’accident ABO, réalisée juste avant de brancher la poche. (explication hors cours du projet)\n\nSource : aucune source trouvée dans les cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__13",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le signe de Psoas est la palpation douce du flanc gauche qui entraine une douleur controlatérale au cours des appendicites aigües.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux. Le signe du psoas est la douleur à la flexion forcée de la cuisse droite. La douleur en fosse iliaque droite provoquée par la palpation à gauche correspond au signe de Rovsing.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Appendicite – douleur provoquée (diapo 214) ; Prise en charge infirmière des pathologies chirurgicales L2 2025, formes cliniques (Rovsing, p. 115)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__14",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Sur les lieux d’un accident, l’infirmier peut tenter de réduire une fracture ouverte.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux. Devant une fracture ouverte : pas de manœuvres ni de mobilisations intempestives, surtout ne pas chercher à réduire ; nettoyer, faire un pansement stérile, immobiliser et transporter.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Intervention infirmière – 8.1.2 Fractures ouvertes",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__15",
+       "num": "17",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les traumatismes du bassin, lors d’un choc antéro-postérieur, un ou les deux hémi-bassin s’ouvrent en rotation externe.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. Compression antéro-postérieure : lors d’un impact antérieur, un ou deux hémi-bassins s’ouvrent en rotation externe (la compression latérale donne une rotation interne).\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Traumatismes du bassin – 1.2.1 Mécanisme (p. 71)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__16",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La fracture ouverte est une fracture qui communique avec l’extérieur par une plaie même minime.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. Fracture ouverte : le foyer de fracture communique avec l’extérieur par une plaie même minime des parties molles.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Généralités sur les fractures – 5.2",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__17",
+       "num": "19",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La primo-infection tuberculeuse se fait par voie aérienne et peut se disséminer par voie sanguine vers d’autres organes parmi lesquels le rachis.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. Dans le mal de Pott, le bacille de Koch arrive le plus souvent par voie sanguine à partir du complexe ganglio-pulmonaire (foyer de primo-infection), à la faveur d’une bacillémie.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Mal de Pott – II. Étiologie (diapo 170)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__18",
+       "num": "20",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la majorité des cas de sciatalgie ou hernie discale, il s’agit d’un conflit disco-radiculaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. « Dans la majorité des cas il s’agit d’un conflit disco-radiculaire » ; la hernie discale est la cause de 80 % des sciatiques.\n\nSource : Neurochirurgie (livret), Sciatalgies / hernie discale – introduction (p. 24) II. QCM (Questions à choix multiple)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__19",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Reliez chaque processus de survenue des occlusions intestinales à son mécanisme (3 bonnes réponses).\n| Processus | Mécanisme |\n|---|---|\n| 1- Occlusion organique | a- Obstruction |\n| 2- Occlusion dynamique | b- Strangulation |\n| 3- Occlusion mixte | c- Paralysie des muscles intestinaux |\n| | d- Appendicite aigüe |",
+       "options": [
+        {
+         "letter": "A",
+         "text": "(1, c) ;"
+        },
+        {
+         "letter": "B",
+         "text": "(2, a) ;"
+        },
+        {
+         "letter": "C",
+         "text": "(1, b) ;"
+        },
+        {
+         "letter": "D",
+         "text": "(3, b) ;"
+        },
+        {
+         "letter": "E",
+         "text": "(3, d) ;"
+        },
+        {
+         "letter": "F",
+         "text": "(2, c)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. (1, b) ; ; E. (3, d) ; ; F. (2, c)",
+       "answerLetters": [
+        "C",
+        "E",
+        "F"
+       ],
+       "explanation": "L’occlusion organique (mécanique) se fait par obstruction ou strangulation (1-b). L’occlusion dynamique (fonctionnelle) est due au dérèglement nerveux avec paralysie (2-c). L’occlusion mixte (inflammatoire) survient au cours des affections septiques de voisinage, dont l’appendicite (3-d).\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Occlusions – étiologies 1.1 à 1.3 (p. 121-122)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__20",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Reliez chaque mécanisme de survenue des occlusions intestinales à l’agent d’étranglement.\n| Mécanisme | Agent d’étranglement |\n|---|---|\n| 1- Obstruction | a- Fécalome |\n| 2- Strangulation | b- Invagination |\n| 3- Paralysie des muscles intestinaux | c- Volvulus |\n| | d- Tumeur |\n| | e- Hypokaliémie |",
+       "options": [
+        {
+         "letter": "A",
+         "text": "(1, d) ;"
+        },
+        {
+         "letter": "B",
+         "text": "(2, c) ;"
+        },
+        {
+         "letter": "C",
+         "text": "(1, b) ;"
+        },
+        {
+         "letter": "D",
+         "text": "(3, e) ;"
+        },
+        {
+         "letter": "E",
+         "text": "(3, d) ;"
+        },
+        {
+         "letter": "F",
+         "text": "(2, a)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. (1, d) ; ; B. (2, c) ; ; D. (3, e) ;",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "Obstruction : tumeur de la paroi, corps étranger, fécalome (1-d). Strangulation : volvulus, invagination (2-c). Occlusion fonctionnelle par paralysie : troubles métaboliques comme l’hypokaliémie (3-e). L’invagination n’est pas une obstruction (C faux), le fécalome n’est pas une strangulation (F faux).\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Occlusions – étiologies (p. 121-122)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__21",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans cette liste, les complications immédiates d’une fracture sont : (3bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Lésions vasculaires"
+        },
+        {
+         "letter": "B",
+         "text": "Cals vicieux"
+        },
+        {
+         "letter": "C",
+         "text": "Pseudarthrose"
+        },
+        {
+         "letter": "D",
+         "text": "Choc hypovolémique"
+        },
+        {
+         "letter": "E",
+         "text": "Lésions nerveuses"
+        },
+        {
+         "letter": "F",
+         "text": "Ankylose."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Lésions vasculaires ; D. Choc hypovolémique ; E. Lésions nerveuses",
+       "answerLetters": [
+        "A",
+        "D",
+        "E"
+       ],
+       "explanation": "Complications immédiates : état de choc (traumatique/hémorragique), lésions cutanées, des parties molles, vasculaires et nerveuses. Cal vicieux, pseudarthrose et ankylose sont des complications secondaires ou tardives.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Généralités sur les fractures – VIII. Complications",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__22",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le diagnostic positif de l’appendicite aigüe se fonde sur trois (3) de ces éléments, lesquels ? :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Céphalées"
+        },
+        {
+         "letter": "B",
+         "text": "Douleurs fosse iliaque droite"
+        },
+        {
+         "letter": "C",
+         "text": "Hématurie terminale"
+        },
+        {
+         "letter": "D",
+         "text": "Recherche des douleurs provoquées"
+        },
+        {
+         "letter": "E",
+         "text": "Pollakiurie"
+        },
+        {
+         "letter": "F",
+         "text": "Hyperleucocytose à la NFS"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Douleurs fosse iliaque droite ; D. Recherche des douleurs provoquées ; F. Hyperleucocytose à la NFS",
+       "answerLetters": [
+        "B",
+        "D",
+        "F"
+       ],
+       "explanation": "Le diagnostic positif repose sur la douleur de la fosse iliaque droite, la douleur provoquée (Mac Burney…) avec défense, et biologiquement l’hyperleucocytose > 10 000/mm³. Hématurie et pollakiurie orientent vers l’appareil urinaire.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Appendicite – paracliniques et VIII. Diagnostic positif (p. 115-116)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__23",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Associez chaque type de fracture du fémur à son trait. (3 bonnes réponses) Type de fracture Trait de fracture Fracture du col du fémur Trait oblique, bas en dedans Fracture du trochanter Trait transversal, horizontal et vertical Trait transversal, oblique avec un 3ème fragment Fracture de la diaphyse fémorale osseux",
+       "options": [
+        {
+         "letter": "A",
+         "text": "(1, c) ;"
+        },
+        {
+         "letter": "B",
+         "text": "(1, b) ;"
+        },
+        {
+         "letter": "C",
+         "text": "(3, a) ;"
+        },
+        {
+         "letter": "D",
+         "text": "(2, a) ;"
+        },
+        {
+         "letter": "E",
+         "text": "(2, b) ;"
+        },
+        {
+         "letter": "F",
+         "text": "(3, c)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. (1, b) ; ; D. (2, a) ; ; F. (3, c)",
+       "answerLetters": [
+        "B",
+        "D",
+        "F"
+       ],
+       "explanation": "Les fractures trochantériennes ont classiquement un trait oblique en bas et en dedans (2-a). Les fractures de la diaphyse ont des traits transversaux, obliques ou spiroïdes avec ou sans troisième fragment (3-c), ce que confirme le cours. Il reste pour le col le trait transversal/vertical (1-b). (trait des fractures du col et du trochanter : hors cours du projet) Remarque : Les lettres a, b, c du tableau ne sont pas imprimées dans le sujet ; elles correspondent à l’ordre des lignes.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Fractures de la diaphyse du fémur – II. Étiologie (diapo 65)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__24",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans l’examen somatique d’un traumatisé du bassin, quelles sont les associations qui ne sont pas vraies. (2 bonnes réponses) Symptôme Lésion 1.Le malade urine beaucoup et facilement avec des … a. Rupture vésicale",
+       "options": [
+        {
+         "letter": "A",
+         "text": "(1, b) ;"
+        },
+        {
+         "letter": "B",
+         "text": "(2, d) ;"
+        },
+        {
+         "letter": "C",
+         "text": "(4, a) ;"
+        },
+        {
+         "letter": "D",
+         "text": "(2, b) ;"
+        },
+        {
+         "letter": "E",
+         "text": "(3, c) ;"
+        },
+        {
+         "letter": "F",
+         "text": "(3, a)."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "D. (2, b) ; ; F. (3, a).",
+       "answerLetters": [
+        "D",
+        "F"
+       ],
+       "explanation": "Repères du cours : la rupture de l’urètre donne une rétention d’urine avec globe vésical et impossibilité d’uriner ; la rupture de la vessie donne une absence de globe et une hématurie ; une lésion du rectum donne une rectorragie, une lésion du vagin des métrorragies. Les associations (2,b) et (3,a) sont celles qui contredisent ces repères. Remarque : Le tableau est presque illisible dans la capture (chargement en cours) : seule la première ligne est visible. L’explication ne peut pas être vérifiée ligne par ligne.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Traumatismes du bassin – complications immédiates",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__25",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces signes, quels sont ceux qui font suspecter un syndrome de VOLKMANN. (3 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Sueurs froides"
+        },
+        {
+         "letter": "B",
+         "text": "Œdème des extrémités"
+        },
+        {
+         "letter": "C",
+         "text": "Cyanose"
+        },
+        {
+         "letter": "D",
+         "text": "Tachycardie"
+        },
+        {
+         "letter": "E",
+         "text": "Insensibilité du membre atteint"
+        },
+        {
+         "letter": "F",
+         "text": "Pouls rapide, filant et imprenable"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Œdème des extrémités ; C. Cyanose ; E. Insensibilité du membre atteint",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "Le syndrome de Volkmann se signale par la douleur, l’œdème (main gonflée), la cyanose (main violacée), la froideur des extrémités et des troubles sensitifs. Sueurs froides, tachycardie et pouls filant sont des signes de choc.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Syndrome de Wolkmann – 5.2 Étude clinique ; 7.1 Surveillance du plâtre",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__26",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le type de coma selon Glasgow chez un traumatisé du crâne qui n’ouvre pas les yeux, émet des sons incompréhensibles et fait des mouvements en extension à la douleur est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Traumatisme crânien modéré"
+        },
+        {
+         "letter": "B",
+         "text": "Traumatisme crânien dépassé"
+        },
+        {
+         "letter": "C",
+         "text": "Traumatisme crânien grave"
+        },
+        {
+         "letter": "D",
+         "text": "Traumatisme crânien bénin"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Traumatisme crânien grave",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Yeux : aucune ouverture = 1 ; verbal : incompréhensible = 2 ; moteur : extension (décérébration) = 2. Total = 5, donc entre 3 et 8 : traumatisme crânien grave.\n\nSource : NEUROCHIRURGIE L3, diapos 17 à 23",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__27",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les fractures du fémur, le matin de l’intervention, l’intervention infirmière se résument à trois (3) de de ces activités, lesquelles ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Faire la préparation psychologique"
+        },
+        {
+         "letter": "B",
+         "text": "Administrer l’anesthésique"
+        },
+        {
+         "letter": "C",
+         "text": "Réaliser le bilan préopératoire complet"
+        },
+        {
+         "letter": "D",
+         "text": "Sonder le client sur prescription"
+        },
+        {
+         "letter": "E",
+         "text": "Prévenir le chirurgien en cas de fièvre"
+        },
+        {
+         "letter": "F",
+         "text": "Accompagner le client au bloc avec son dossier pour le rassurer."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "D. Sonder le client sur prescription ; E. Prévenir le chirurgien en cas de fièvre ; F. Accompagner le client au bloc avec son dossier pour le rassurer.",
+       "answerLetters": [
+        "D",
+        "E",
+        "F"
+       ],
+       "explanation": "Le matin de l’intervention : sondage vésical, prémédication selon prescription, prévenir le chirurgien en cas de fièvre, accompagner le blessé au bloc avec son dossier complet. La préparation psychologique et le bilan se font avant, l’anesthésique relève de l’anesthésiste.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), 8.2.2.6 Les actes le matin de l’intervention",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__28",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Chez le traumatisé du membre supérieur, l’attitude Desault comprend trois (3) de ces signes, lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Épaule abaissée, projetée en avant ; rapprochée de la ligne médiane"
+        },
+        {
+         "letter": "B",
+         "text": "Abduction du bras et rotation externe"
+        },
+        {
+         "letter": "C",
+         "text": "Tête inclinée du côté atteint et bras collé au corps"
+        },
+        {
+         "letter": "D",
+         "text": "Aplatissement du moignon de l’épaule"
+        },
+        {
+         "letter": "E",
+         "text": "Avant-bras semi-fléchi, soutenu par la main du côté opposé"
+        },
+        {
+         "letter": "F",
+         "text": "Crépitation osseuse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Épaule abaissée, projetée en avant ; rapprochée de la ligne médiane ; C. Tête inclinée du côté atteint et bras collé au corps ; E. Avant-bras semi-fléchi, soutenu par la main du côté opposé",
+       "answerLetters": [
+        "A",
+        "C",
+        "E"
+       ],
+       "explanation": "Attitude de Desault : épaule abaissée, projetée en avant et rapprochée de la ligne médiane ; tête inclinée du côté atteint ; avant-bras demi-fléchi soutenu par la main opposée. L’abduction-rotation externe et l’aplatissement du moignon évoquent la luxation de l’épaule.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Fractures de la clavicule – 3.2.1 Inspection",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__29",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquez trois (3) complications immédiates dans les polytraumatismes dans cette liste.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Complications urinaires"
+        },
+        {
+         "letter": "B",
+         "text": "Hémorragies"
+        },
+        {
+         "letter": "C",
+         "text": "Nécrose ischémique"
+        },
+        {
+         "letter": "D",
+         "text": "Coxarthrose"
+        },
+        {
+         "letter": "E",
+         "text": "Fractures associées"
+        },
+        {
+         "letter": "F",
+         "text": "Ankylose"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Complications urinaires ; B. Hémorragies ; E. Fractures associées",
+       "answerLetters": [
+        "A",
+        "B",
+        "E"
+       ],
+       "explanation": "Chez le polytraumatisé, on redoute d’emblée le choc hémorragique, les lésions urinaires (rupture vésicale ou urétrale, notamment avec les fractures du bassin) et les lésions associées passées inaperçues (fractures, luxations). Nécrose, coxarthrose et ankylose sont des complications tardives.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Polytraumatisé et Traumatismes du bassin – complications immédiates",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__30",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquez trois (3) gestes à réaliser si vous vous retrouviez sur les lieux d’un accident.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Faire la prémédication"
+        },
+        {
+         "letter": "B",
+         "text": "Baliser les lieux en vue de protéger le blessé"
+        },
+        {
+         "letter": "C",
+         "text": "Transporter le blessé sur votre engin ou dans votre véhicule"
+        },
+        {
+         "letter": "D",
+         "text": "Mettre en route une perfusion"
+        },
+        {
+         "letter": "E",
+         "text": "Mettre le blessé en position latérale de sureté ou sécurité"
+        },
+        {
+         "letter": "F",
+         "text": "Faire une immobilisation provisoire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Baliser les lieux en vue de protéger le blessé ; E. Mettre le blessé en position latérale de sureté ou sécurité ; F. Faire une immobilisation provisoire",
+       "answerLetters": [
+        "B",
+        "E",
+        "F"
+       ],
+       "explanation": "Sur les lieux : protéger (baliser), assurer la liberté des voies aériennes en position latérale de sécurité, immobiliser les fractures (attelle, gouttière). Le transport sur un engin personnel est à proscrire ; la prémédication relève du bloc.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Conduite à tenir auprès d’un traumatisé des voies publiques – gestes salvateurs (balisage : hors cours)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__31",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces symptômes, indiquez trois (3) indications du drainage.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Dilatation des bronches"
+        },
+        {
+         "letter": "B",
+         "text": "Appendicite aigüe"
+        },
+        {
+         "letter": "C",
+         "text": "Méningite purulente"
+        },
+        {
+         "letter": "D",
+         "text": "Cancer de la vessie"
+        },
+        {
+         "letter": "E",
+         "text": "Pleurésies purulentes"
+        },
+        {
+         "letter": "F",
+         "text": "Cavités infectées"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Dilatation des bronches ; E. Pleurésies purulentes ; F. Cavités infectées",
+       "answerLetters": [
+        "A",
+        "E",
+        "F"
+       ],
+       "explanation": "Le drainage sert à évacuer une collection : épanchements pleuraux (pleurésie purulente, hémothorax), cavités infectées (abcès), et drainage de posture des sécrétions bronchiques (dilatation des bronches). L’appendicite se traite par appendicectomie. (explication partiellement hors cours du projet)\n\nSource : Cours de chirurgie traumatique et digestif (L2), Traumatisme du thorax – drainage des épanchements pleuraux (diapo 17) ; Prise en charge infirmière des pathologies chirurgicales L2 2025, drainage de posture (p. 50)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__32",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans cette liste, indiquez trois (3) contre-indications de transfusion sanguine.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hypertension artérielle"
+        },
+        {
+         "letter": "B",
+         "text": "Diabète"
+        },
+        {
+         "letter": "C",
+         "text": "Insuffisance rénale"
+        },
+        {
+         "letter": "D",
+         "text": "Anémie chronique"
+        },
+        {
+         "letter": "E",
+         "text": "Insuffisance cardiaque"
+        },
+        {
+         "letter": "F",
+         "text": "Œdème aigu du poumon"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Hypertension artérielle ; E. Insuffisance cardiaque ; F. Œdème aigu du poumon",
+       "answerLetters": [
+        "A",
+        "E",
+        "F"
+       ],
+       "explanation": "L’apport de volume expose à la surcharge volémique, avec œdème aigu du poumon ; il est donc dangereux en cas d’HTA, d’insuffisance cardiaque ou d’OAP. L’anémie est au contraire une indication. (explication partiellement hors cours du projet)\n\nSource : Initiation à la réanimation L2 2025, complications du remplissage vasculaire (p. 42)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__33",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La surveillance d’un appareillage de drainage consiste à trois (3) de ces activités, lesquelles ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vérifier la perméabilité du drain"
+        },
+        {
+         "letter": "B",
+         "text": "Vider le contenu du bocal quotidiennement à heure fixe"
+        },
+        {
+         "letter": "C",
+         "text": "Surveiller l’abondance de l’écoulement"
+        },
+        {
+         "letter": "D",
+         "text": "Surveiller l’abondance et noter la quantité du liquide sur une feuille de température"
+        },
+        {
+         "letter": "E",
+         "text": "Surveiller les paramètres vitaux"
+        },
+        {
+         "letter": "F",
+         "text": "Vérifier la dépression créée par l’aspiration et la régler au besoin."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Vérifier la perméabilité du drain ; C. Surveiller l’abondance de l’écoulement ; F. Vérifier la dépression créée par l’aspiration et la régler au besoin.",
+       "answerLetters": [
+        "A",
+        "C",
+        "F"
+       ],
+       "explanation": "Surveillance des drains : vérifier leur vide/aspiration et leur bonne fixation, l’écoulement (quantité, couleur, aspect), ne jamais laisser un drain bouché ; en drainage aspiratif, maintenir le vide dans les flacons.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, surveillance des redons (p. 49-50) ; Cours de chirurgie traumatique et digestif (L2), Péritonites – soins des drains (diapo 244)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__34",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Trois (3) de ces tâches ci-dessous font référence à la préparation psychologique avant toute intervention chirurgicale. Ce sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Evaluer l’état physique, nutritionnel et biologique du client"
+        },
+        {
+         "letter": "B",
+         "text": "Rassurer le client et le mettre en confiance"
+        },
+        {
+         "letter": "C",
+         "text": "Prévenir et lutter contre l’infection"
+        },
+        {
+         "letter": "D",
+         "text": "Procéder à la prémédication"
+        },
+        {
+         "letter": "E",
+         "text": "Dissiper ses craintes de l’intervention ou même de la mort"
+        },
+        {
+         "letter": "F",
+         "text": "Lui donner tous les détails de l’intervention"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Rassurer le client et le mettre en confiance ; E. Dissiper ses craintes de l’intervention ou même de la mort ; F. Lui donner tous les détails de l’intervention",
+       "answerLetters": [
+        "B",
+        "E",
+        "F"
+       ],
+       "explanation": "La préparation psychologique vise à réduire l’anxiété : rassurer le blessé souvent effrayé, dissiper ses craintes et lui fournir des informations sur la période péri-opératoire. Bilan, prévention de l’infection et prémédication relèvent de la préparation physique. Remarque : Le cours parle d’« informations sur la période péri-opératoire » plutôt que de « tous les détails de l’intervention ».\n\nSource : Cours de chirurgie traumatique et digestif (L2), Fémur – soins préopératoires (diapo 73) ; Appendicite – objectifs des soins (diapo 218)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__35",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Deux (2) complications courantes de la péritonite sont sur cette liste, lesquelles ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hémorragie intra abdominale"
+        },
+        {
+         "letter": "B",
+         "text": "Occlusion abdominale"
+        },
+        {
+         "letter": "C",
+         "text": "Septicémie"
+        },
+        {
+         "letter": "D",
+         "text": "Ulcère gastroduodénal"
+        },
+        {
+         "letter": "E",
+         "text": "Pancréatite aigüe"
+        },
+        {
+         "letter": "F",
+         "text": "Salpingite"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Occlusion abdominale ; D. Ulcère gastroduodénal",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "La péritonite évolue vers l’iléus paralytique : « à la péritonite s’est ajoutée l’occlusion paralytique ». L’infection peut aussi se généraliser (septicémie).\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Péritonites – formes cliniques et physiopathologie (p. 131-132)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__36",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Trois (3) tâches en tant qu’infirmier auprès d’un opéré en salle d’hospitalisation après le bloc opératoire sont dans cette liste, lesquelles ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Surveillance des paramètres"
+        },
+        {
+         "letter": "B",
+         "text": "Evaluer l’état physique, nutritionnel et biologique"
+        },
+        {
+         "letter": "C",
+         "text": "Administrer le traitement prescrit"
+        },
+        {
+         "letter": "D",
+         "text": "Préparer psychologiquement la cliente"
+        },
+        {
+         "letter": "E",
+         "text": "Surveiller la plaie opératoire et les drains"
+        },
+        {
+         "letter": "F",
+         "text": "Préparer le champ opératoire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Surveillance des paramètres ; C. Administrer le traitement prescrit ; E. Surveiller la plaie opératoire et les drains",
+       "answerLetters": [
+        "A",
+        "C",
+        "E"
+       ],
+       "explanation": "En post-opératoire : surveillance des constantes, administration du traitement prescrit, surveillance de la plaie opératoire et des drains. Évaluation, préparation psychologique et préparation du champ sont des soins pré-opératoires.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Cancer de l’œsophage – soins post-opératoires (diapo 254)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__37",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les deux (2) buts du traitement de l’occlusion intestinale sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Lutter contre la fièvre"
+        },
+        {
+         "letter": "B",
+         "text": "Rétablir la continuité du circuit intestinal normal"
+        },
+        {
+         "letter": "C",
+         "text": "Lever l’obstacle"
+        },
+        {
+         "letter": "D",
+         "text": "Alimenter le client"
+        },
+        {
+         "letter": "E",
+         "text": "Corriger les désordres humoraux"
+        },
+        {
+         "letter": "F",
+         "text": "Assurer une couverture antibiotique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Lever l’obstacle ; E. Corriger les désordres humoraux",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "« Le traitement des occlusions intestinales aiguës comporte une double action : la correction des déséquilibres humoraux et la suppression de l’obstacle. »\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Occlusions – VI. Traitement (p. 126)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__38",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Vous auriez à poser trois (3) gestes entant qu’infirmier avant l’entrée d’un client au bloc opératoire. Lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Demande de bilan sanguin"
+        },
+        {
+         "letter": "B",
+         "text": "Procéder à la réanimation médicale"
+        },
+        {
+         "letter": "C",
+         "text": "Pose de sonde nasogastrique"
+        },
+        {
+         "letter": "D",
+         "text": "Faire le pansement"
+        },
+        {
+         "letter": "E",
+         "text": "Pose de sonde urinaire"
+        },
+        {
+         "letter": "F",
+         "text": "Absorption de la cavité abdominale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Demande de bilan sanguin ; C. Pose de sonde nasogastrique ; E. Pose de sonde urinaire",
+       "answerLetters": [
+        "A",
+        "C",
+        "E"
+       ],
+       "explanation": "Gestes d’urgence avant l’intervention : prélever le sang pour bilan et groupage, mettre en place une sonde gastrique (éviter vomissements et syndrome de Mendelson) et une sonde urinaire (diurèse horaire).\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Occlusions – gestes d’urgence (p. 126) ; Contusions abdominales – moyens médicaux (p. 95-96)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__39",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquez deux (2) complications de la hernie étranglée dans cette liste.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Insuffisance rénale"
+        },
+        {
+         "letter": "B",
+         "text": "Insuffisance hépatique"
+        },
+        {
+         "letter": "C",
+         "text": "Occlusion intestinale"
+        },
+        {
+         "letter": "D",
+         "text": "Appendicite aigüe"
+        },
+        {
+         "letter": "E",
+         "text": "Péritonite aigüe"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Occlusion intestinale ; E. Péritonite aigüe",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "L’étranglement provoque arrêt des matières et des gaz et vomissements (occlusion), puis ischémie, sphacèle et perforation du viscère hernié (péritonite).\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Hernies – 4.2 Étranglement herniaire (p. 107-108)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__40",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au cours des contusions abdominales, le choc direct se produit par :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Contre coup produisant des lésions à distance des organes intra abdominaux"
+        },
+        {
+         "letter": "B",
+         "text": "Percussion ou écrasement d’un organe contre les vertèbres"
+        },
+        {
+         "letter": "C",
+         "text": "En cas d’accélération ou décélération"
+        },
+        {
+         "letter": "D",
+         "text": "Par effet explosif causé par augmentation soudaine de la pression intra abdominale responsable de multiples lésions."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Percussion ou écrasement d’un organe contre les vertèbres",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Choc direct : percussion déterminant éclatement, dilacération ou écrasement ; les viscères creux s’écrasent entre la saillie du rachis et la ceinture pelvienne. L’accélération/décélération correspond au choc indirect.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Contusions – mécanismes (p. 89) ; Cours de chirurgie traumatique et digestif (L2), diapo 182",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__41",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les signes fonctionnels des traumatismes crânio-encéphaliques sont : (Choisissez trois (3) bonnes réponses).",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Perte de connaissance initiale ou coma d’emblée"
+        },
+        {
+         "letter": "B",
+         "text": "Plaie"
+        },
+        {
+         "letter": "C",
+         "text": "Douleur"
+        },
+        {
+         "letter": "D",
+         "text": "Ecchymose"
+        },
+        {
+         "letter": "E",
+         "text": "Amnésie"
+        },
+        {
+         "letter": "F",
+         "text": "Hématome"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Perte de connaissance initiale ou coma d’emblée ; C. Douleur ; E. Amnésie",
+       "answerLetters": [
+        "A",
+        "C",
+        "E"
+       ],
+       "explanation": "Le TC entraîne un dysfonctionnement cérébral : perte de connaissance, céphalée (douleur), amnésie post-traumatique, coma. Plaie, ecchymose et hématome sont des signes physiques (examen du crâne).\n\nSource : NEUROCHIRURGIE L3, introduction (diapo 4) et signes physiques (diapo 16) ; Neurochirurgie (livret), p. 54 (amnésie = signe fonctionnel)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__42",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans le traumatisme crânien modéré, le score de Glasgow est de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "9 à 12"
+        },
+        {
+         "letter": "B",
+         "text": "13 à 15"
+        },
+        {
+         "letter": "C",
+         "text": "3 à 8"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 9 à 12",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Glasgow 9 à 12 = traumatisme modéré ; 13 à 15 = bénin ; 3 à 8 = grave.\n\nSource : NEUROCHIRURGIE L3, diapo 23",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__43",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans cette liste, choisissez deux bonnes affirmations",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La monoplégie est la présence de mouvement d’intensité moindre"
+        },
+        {
+         "letter": "B",
+         "text": "La paraplégie est une paralysie des deux membres inférieurs"
+        },
+        {
+         "letter": "C",
+         "text": "La tétraplégie est une paralysie des quatre membres"
+        },
+        {
+         "letter": "D",
+         "text": "La parésie est une présence de mouvement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. La paraplégie est une paralysie des deux membres inférieurs ; C. La tétraplégie est une paralysie des quatre membres",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Paraplégie = paralysie des deux membres inférieurs ; tétraplégie = paralysie des quatre membres (atteinte cervicale). La monoplégie est la paralysie d’un seul membre ; la parésie est une paralysie incomplète (diminution de la force), pas un mouvement normal.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Fractures du rachis – symptômes neurologiques (diapo 152)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__44",
+       "num": "46",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Associez chaque type d’hémorragie cérébrale au type d’intervalle libre. (Choisissez 3 bonnes réponses) Type d’hémorragie cérébrale Type d’intervalle libre 1-Hémorragie Epidurale a- Long intervalle libre. 2-Hémorragie sous durale b- Bref intervalle libre 3-Hémorragie intra crânienne c- Absence d’intervalle libre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "(3,c) ;"
+        },
+        {
+         "letter": "B",
+         "text": "(2,a) ;"
+        },
+        {
+         "letter": "C",
+         "text": "(1,a) ;"
+        },
+        {
+         "letter": "D",
+         "text": "(2,b) ;"
+        },
+        {
+         "letter": "E",
+         "text": "(1,b) ;"
+        },
+        {
+         "letter": "F",
+         "text": "(3,b)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. (3,c) ; ; B. (2,a) ; ; E. (1,b) ;",
+       "answerLetters": [
+        "A",
+        "B",
+        "E"
+       ],
+       "explanation": "L’hématome extradural (épidural) se révèle après un intervalle libre ; l’hématome intradural (sous-dural) se distingue par « la grande durée de l’intervalle libre ». L’hémorragie intracérébrale entraîne des troubles d’emblée, sans intervalle libre.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Traumatismes crâniens – VI. Épanchements sanguins (diapos 112-113)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__45",
+       "num": "47",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Associez chaque type d’hémorragie cérébrale à l’origine du sang. (Choisissez 3 bonnes réponses) Type d’hémorragie cérébrale Origine du sang 1-Hémorragie Epidurale a-sang artériel méningé 2-Hémorragie sous durale b- sang veineux 3-Hémorragie intra crânienne c-pétéchies ou gros hématomes",
+       "options": [
+        {
+         "letter": "A",
+         "text": "(3,c) ;"
+        },
+        {
+         "letter": "B",
+         "text": "(2,a) ;"
+        },
+        {
+         "letter": "C",
+         "text": "(1,a) ;"
+        },
+        {
+         "letter": "D",
+         "text": "(2,b) ;"
+        },
+        {
+         "letter": "E",
+         "text": "(1,b) ;"
+        },
+        {
+         "letter": "F",
+         "text": "(3,b)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. (3,c) ; ; C. (1,a) ; ; D. (2,b) ;",
+       "answerLetters": [
+        "A",
+        "C",
+        "D"
+       ],
+       "explanation": "L’hématome extradural vient le plus souvent d’une artère méningée (artère méningée moyenne) ; l’hématome sous-dural, des veines entre cerveau et dure-mère ; l’hémorragie intracérébrale réalise des pétéchies ou un gros hématome dans le parenchyme. (explication hors cours du projet)\n\nSource : aucune source trouvée dans les cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__46",
+       "num": "48",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Ces signes sont ceux de la meilleure réponse verbale du score de GLASGOW, exceptés deux (2), lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Confuse"
+        },
+        {
+         "letter": "B",
+         "text": "Spontanée"
+        },
+        {
+         "letter": "C",
+         "text": "Appropriée"
+        },
+        {
+         "letter": "D",
+         "text": "Flexion anormale"
+        },
+        {
+         "letter": "E",
+         "text": "Incohérente"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Spontanée ; D. Flexion anormale",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "La réponse verbale se cote : appropriée/orientée, confuse, incohérente, incompréhensible, aucune. « Spontanée » appartient à l’ouverture des yeux, « flexion anormale » à la réponse motrice.\n\nSource : NEUROCHIRURGIE L3, diapos 17 à 21 Étude de cas",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__47",
+       "num": "49",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Étude de cas. Vous êtes infirmier diplômé d’État au service des grands brûlés du CHU de Cocody à Abidjan. A votre garde, vous recevez Monsieur Belem TINTO, 57 ans, domicilié au quartier Mossikro dans la commune d’Attécoubé et propriétaire d’une maison de transfert de devise. Il est aussi suivi pour diabète à l’INSP d’Adjamé. Il est reçu dans votre service pour brûlure par électrocution. L’examen clinique pratiqué par l’interne de service évalue les lésions à 35% de la surface corporelle de M. TINTO selon la table de Lund et Browder. Pendant l’exploration des différents appareils chez M. BELEM, l’interne de service découvre une hypertrophie bénigne de la prostate. En outre, l’examen de laboratoire révèle un taux d’hémoglobine à 5g/dl de sang. En outre, M. BELEM demande avec insistance la présence de sa secrétaire particulière afin de lui donner des directives pour un meilleur fonctionnement de son entreprise. L’interne institue une réanimation médicale basée sur le remplissage vasculaire de solutés avec une quantité estimée à 12 000 ml les deux premiers jours de la prise en charge en fonction de la surface corporelle brûlée.",
+       "text": "La quantité de solutés indispensable à M. TINTO le premier jour selon Baxter est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "4000 ml"
+        },
+        {
+         "letter": "B",
+         "text": "6000 ml"
+        },
+        {
+         "letter": "C",
+         "text": "8000 ml"
+        },
+        {
+         "letter": "D",
+         "text": "12000 ml"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 8000 ml",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Baxter : J1 = poids × 4 × SCB ; J2 = moitié de J1. Total 2 jours = 1,5 × J1 = 12 000 ml, donc J1 = 8 000 ml (vérification : 57 × 4 × 35 = 7 980 ≈ 8 000 ml).\n\nSource : Pathologie chirurgicale – Sémiologie L1, Brûlures 2 – 5.3 Réanimation hydroélectrolytique (règle de Baxter)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__48",
+       "num": "50",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Étude de cas. Vous êtes infirmier diplômé d’État au service des grands brûlés du CHU de Cocody à Abidjan. A votre garde, vous recevez Monsieur Belem TINTO, 57 ans, domicilié au quartier Mossikro dans la commune d’Attécoubé et propriétaire d’une maison de transfert de devise. Il est aussi suivi pour diabète à l’INSP d’Adjamé. Il est reçu dans votre service pour brûlure par électrocution. L’examen clinique pratiqué par l’interne de service évalue les lésions à 35% de la surface corporelle de M. TINTO selon la table de Lund et Browder. Pendant l’exploration des différents appareils chez M. BELEM, l’interne de service découvre une hypertrophie bénigne de la prostate. En outre, l’examen de laboratoire révèle un taux d’hémoglobine à 5g/dl de sang. En outre, M. BELEM demande avec insistance la présence de sa secrétaire particulière afin de lui donner des directives pour un meilleur fonctionnement de son entreprise. L’interne institue une réanimation médicale basée sur le remplissage vasculaire de solutés avec une quantité estimée à 12 000 ml les deux premiers jours de la prise en charge en fonction de la surface corporelle brûlée.",
+       "text": "La quantité de solutés pour la réanimation de M. TINTO le deuxième jour selon Baxter est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "4000 ml"
+        },
+        {
+         "letter": "B",
+         "text": "6000 ml"
+        },
+        {
+         "letter": "C",
+         "text": "8000 ml"
+        },
+        {
+         "letter": "D",
+         "text": "12000 ml"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 4000 ml",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "J2 = ½ de J1 = 8 000 / 2 = 4 000 ml (et 8 000 + 4 000 = 12 000 ml, comme dans l’énoncé).\n\nSource : Pathologie chirurgicale – Sémiologie L1, Brûlures 2 – règle de Baxter",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__49",
+       "num": "51",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Étude de cas. Vous êtes infirmier diplômé d’État au service des grands brûlés du CHU de Cocody à Abidjan. A votre garde, vous recevez Monsieur Belem TINTO, 57 ans, domicilié au quartier Mossikro dans la commune d’Attécoubé et propriétaire d’une maison de transfert de devise. Il est aussi suivi pour diabète à l’INSP d’Adjamé. Il est reçu dans votre service pour brûlure par électrocution. L’examen clinique pratiqué par l’interne de service évalue les lésions à 35% de la surface corporelle de M. TINTO selon la table de Lund et Browder. Pendant l’exploration des différents appareils chez M. BELEM, l’interne de service découvre une hypertrophie bénigne de la prostate. En outre, l’examen de laboratoire révèle un taux d’hémoglobine à 5g/dl de sang. En outre, M. BELEM demande avec insistance la présence de sa secrétaire particulière afin de lui donner des directives pour un meilleur fonctionnement de son entreprise. L’interne institue une réanimation médicale basée sur le remplissage vasculaire de solutés avec une quantité estimée à 12 000 ml les deux premiers jours de la prise en charge en fonction de la surface corporelle brûlée.",
+       "text": "Le poids de M. TINTO est de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "28 Kg"
+        },
+        {
+         "letter": "B",
+         "text": "57 Kg"
+        },
+        {
+         "letter": "C",
+         "text": "85 Kg"
+        },
+        {
+         "letter": "D",
+         "text": "42 Kg"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 57 Kg",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le poids se déduit de Baxter : J1 = 8 000 ml = P × 4 × 35, d’où P = 8 000 / 140 ≈ 57 kg. Remarque : Le poids n’est pas écrit dans l’énoncé (57 y est l’âge) : il se calcule à partir des 12 000 ml prescrits.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Brûlures 2 – règle de Baxter",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__50",
+       "num": "52",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Étude de cas. Vous êtes infirmier diplômé d’État au service des grands brûlés du CHU de Cocody à Abidjan. A votre garde, vous recevez Monsieur Belem TINTO, 57 ans, domicilié au quartier Mossikro dans la commune d’Attécoubé et propriétaire d’une maison de transfert de devise. Il est aussi suivi pour diabète à l’INSP d’Adjamé. Il est reçu dans votre service pour brûlure par électrocution. L’examen clinique pratiqué par l’interne de service évalue les lésions à 35% de la surface corporelle de M. TINTO selon la table de Lund et Browder. Pendant l’exploration des différents appareils chez M. BELEM, l’interne de service découvre une hypertrophie bénigne de la prostate. En outre, l’examen de laboratoire révèle un taux d’hémoglobine à 5g/dl de sang. En outre, M. BELEM demande avec insistance la présence de sa secrétaire particulière afin de lui donner des directives pour un meilleur fonctionnement de son entreprise. L’interne institue une réanimation médicale basée sur le remplissage vasculaire de solutés avec une quantité estimée à 12 000 ml les deux premiers jours de la prise en charge en fonction de la surface corporelle brûlée.",
+       "text": "Au cours de la première journée, les quantités de macromolécules, de glucosé et de bicarbonate à 14p.1000 sont : (Choisissez 3 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "3000 ml"
+        },
+        {
+         "letter": "B",
+         "text": "2000 ml"
+        },
+        {
+         "letter": "C",
+         "text": "6000 ml"
+        },
+        {
+         "letter": "D",
+         "text": "8000 ml"
+        },
+        {
+         "letter": "E",
+         "text": "4000 ml"
+        },
+        {
+         "letter": "F",
+         "text": "1000 ml"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. 3000 ml ; E. 4000 ml ; F. 1000 ml",
+       "answerLetters": [
+        "A",
+        "E",
+        "F"
+       ],
+       "explanation": "Les 8 000 ml du J1 se répartissent en 3 000 ml de macromolécules, 4 000 ml de glucosé et 1 000 ml de bicarbonate (3 000 + 4 000 + 1 000 = 8 000). Le cours (règle d’Evans) prévoit aussi des grosses molécules, et pour les cristalloïdes ¼ de bicarbonate et ¾ de glucosé. (répartition exacte du J1 : hors cours du projet)\n\nSource : Pathologie chirurgicale – Sémiologie L1, Brûlures 1 – réanimation du premier jour (règle d’Evans)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__51",
+       "num": "53",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Étude de cas. Vous êtes infirmier diplômé d’État au service des grands brûlés du CHU de Cocody à Abidjan. A votre garde, vous recevez Monsieur Belem TINTO, 57 ans, domicilié au quartier Mossikro dans la commune d’Attécoubé et propriétaire d’une maison de transfert de devise. Il est aussi suivi pour diabète à l’INSP d’Adjamé. Il est reçu dans votre service pour brûlure par électrocution. L’examen clinique pratiqué par l’interne de service évalue les lésions à 35% de la surface corporelle de M. TINTO selon la table de Lund et Browder. Pendant l’exploration des différents appareils chez M. BELEM, l’interne de service découvre une hypertrophie bénigne de la prostate. En outre, l’examen de laboratoire révèle un taux d’hémoglobine à 5g/dl de sang. En outre, M. BELEM demande avec insistance la présence de sa secrétaire particulière afin de lui donner des directives pour un meilleur fonctionnement de son entreprise. L’interne institue une réanimation médicale basée sur le remplissage vasculaire de solutés avec une quantité estimée à 12 000 ml les deux premiers jours de la prise en charge en fonction de la surface corporelle brûlée.",
+       "text": "Le débit du sérum glucosé isotonique 5%(SGI) au deuxième jour selon sachant que toute la quantité doit passer en 8 heures est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "62 gouttes/mn"
+        },
+        {
+         "letter": "B",
+         "text": "83 gouttes/mn"
+        },
+        {
+         "letter": "C",
+         "text": "160 gouttes/mn"
+        },
+        {
+         "letter": "D",
+         "text": "46 gouttes/mn"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 62 gouttes/mn",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Débit (gouttes/min) = volume (ml) × 20 / durée (min). 62 gouttes/min en 8 h (480 min) correspond à environ 1 500 ml de SGI au J2. (calcul hors cours du projet)\n\nSource : aucune source trouvée dans les cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__52",
+       "num": "54",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Étude de cas. Vous êtes infirmier diplômé d’État au service des grands brûlés du CHU de Cocody à Abidjan. A votre garde, vous recevez Monsieur Belem TINTO, 57 ans, domicilié au quartier Mossikro dans la commune d’Attécoubé et propriétaire d’une maison de transfert de devise. Il est aussi suivi pour diabète à l’INSP d’Adjamé. Il est reçu dans votre service pour brûlure par électrocution. L’examen clinique pratiqué par l’interne de service évalue les lésions à 35% de la surface corporelle de M. TINTO selon la table de Lund et Browder. Pendant l’exploration des différents appareils chez M. BELEM, l’interne de service découvre une hypertrophie bénigne de la prostate. En outre, l’examen de laboratoire révèle un taux d’hémoglobine à 5g/dl de sang. En outre, M. BELEM demande avec insistance la présence de sa secrétaire particulière afin de lui donner des directives pour un meilleur fonctionnement de son entreprise. L’interne institue une réanimation médicale basée sur le remplissage vasculaire de solutés avec une quantité estimée à 12 000 ml les deux premiers jours de la prise en charge en fonction de la surface corporelle brûlée.",
+       "text": "L’interne décide que le taux d’hémoglobine du client soit ramené à 10 g/dl de sang après la transfusion en 2 heures et demie. La quantité de sang envisagée selon le type de sang disponible à la banque de sang est : (Choisissez 2 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "855 ml"
+        },
+        {
+         "letter": "B",
+         "text": "1050 ml"
+        },
+        {
+         "letter": "C",
+         "text": "3000 ml"
+        },
+        {
+         "letter": "D",
+         "text": "1800 ml"
+        },
+        {
+         "letter": "E",
+         "text": "2800 ml"
+        },
+        {
+         "letter": "F",
+         "text": "1710 ml"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. 855 ml ; F. 1710 ml",
+       "answerLetters": [
+        "A",
+        "F"
+       ],
+       "explanation": "Gain voulu : 10 − 5 = 5 g/dl. Formules usuelles : culot globulaire = 3 × poids × ΔHb = 3 × 57 × 5 = 855 ml ; sang total = 6 × poids × ΔHb = 6 × 57 × 5 = 1 710 ml. (explication hors cours du projet)\n\nSource : aucune source trouvée dans les cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__53",
+       "num": "55",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Étude de cas. Vous êtes infirmier diplômé d’État au service des grands brûlés du CHU de Cocody à Abidjan. A votre garde, vous recevez Monsieur Belem TINTO, 57 ans, domicilié au quartier Mossikro dans la commune d’Attécoubé et propriétaire d’une maison de transfert de devise. Il est aussi suivi pour diabète à l’INSP d’Adjamé. Il est reçu dans votre service pour brûlure par électrocution. L’examen clinique pratiqué par l’interne de service évalue les lésions à 35% de la surface corporelle de M. TINTO selon la table de Lund et Browder. Pendant l’exploration des différents appareils chez M. BELEM, l’interne de service découvre une hypertrophie bénigne de la prostate. En outre, l’examen de laboratoire révèle un taux d’hémoglobine à 5g/dl de sang. En outre, M. BELEM demande avec insistance la présence de sa secrétaire particulière afin de lui donner des directives pour un meilleur fonctionnement de son entreprise. L’interne institue une réanimation médicale basée sur le remplissage vasculaire de solutés avec une quantité estimée à 12 000 ml les deux premiers jours de la prise en charge en fonction de la surface corporelle brûlée.",
+       "text": "Les débits de la transfusion selon le sang utilisé seront de : (Choisissez 2 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "171 gouttes/mn"
+        },
+        {
+         "letter": "B",
+         "text": "100 gouttes/mn"
+        },
+        {
+         "letter": "C",
+         "text": "85 gouttes/mn"
+        },
+        {
+         "letter": "D",
+         "text": "70 gouttes/mn"
+        },
+        {
+         "letter": "E",
+         "text": "280 gouttes/mn"
+        },
+        {
+         "letter": "F",
+         "text": "140 gouttes/mn"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. 171 gouttes/mn ; C. 85 gouttes/mn",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Durée : 2 h 30 = 150 min ; transfuseur ≈ 15 gouttes/ml. Sang total : 1 710 × 15 / 150 = 171 gouttes/min ; culot : 855 × 15 / 150 ≈ 85 gouttes/min. (explication hors cours du projet)\n\nSource : aucune source trouvée dans les cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__54",
+       "num": "56",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Étude de cas. Vous êtes infirmier diplômé d’État au service des grands brûlés du CHU de Cocody à Abidjan. A votre garde, vous recevez Monsieur Belem TINTO, 57 ans, domicilié au quartier Mossikro dans la commune d’Attécoubé et propriétaire d’une maison de transfert de devise. Il est aussi suivi pour diabète à l’INSP d’Adjamé. Il est reçu dans votre service pour brûlure par électrocution. L’examen clinique pratiqué par l’interne de service évalue les lésions à 35% de la surface corporelle de M. TINTO selon la table de Lund et Browder. Pendant l’exploration des différents appareils chez M. BELEM, l’interne de service découvre une hypertrophie bénigne de la prostate. En outre, l’examen de laboratoire révèle un taux d’hémoglobine à 5g/dl de sang. En outre, M. BELEM demande avec insistance la présence de sa secrétaire particulière afin de lui donner des directives pour un meilleur fonctionnement de son entreprise. L’interne institue une réanimation médicale basée sur le remplissage vasculaire de solutés avec une quantité estimée à 12 000 ml les deux premiers jours de la prise en charge en fonction de la surface corporelle brûlée.",
+       "text": "Le chiffre qui permet d’évaluer le pronostic vital chez M. TINTO selon la loi de Baux est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "72"
+        },
+        {
+         "letter": "B",
+         "text": "107"
+        },
+        {
+         "letter": "C",
+         "text": "92"
+        },
+        {
+         "letter": "D",
+         "text": "84"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 107",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La loi de Baux additionne l’âge et le pourcentage de surface brûlée pour estimer le pronostic vital.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Brûlures 1 – 5.5 Pronostic",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__55",
+       "num": "57",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Étude de cas. Vous êtes infirmier diplômé d’État au service des grands brûlés du CHU de Cocody à Abidjan. A votre garde, vous recevez Monsieur Belem TINTO, 57 ans, domicilié au quartier Mossikro dans la commune d’Attécoubé et propriétaire d’une maison de transfert de devise. Il est aussi suivi pour diabète à l’INSP d’Adjamé. Il est reçu dans votre service pour brûlure par électrocution. L’examen clinique pratiqué par l’interne de service évalue les lésions à 35% de la surface corporelle de M. TINTO selon la table de Lund et Browder. Pendant l’exploration des différents appareils chez M. BELEM, l’interne de service découvre une hypertrophie bénigne de la prostate. En outre, l’examen de laboratoire révèle un taux d’hémoglobine à 5g/dl de sang. En outre, M. BELEM demande avec insistance la présence de sa secrétaire particulière afin de lui donner des directives pour un meilleur fonctionnement de son entreprise. L’interne institue une réanimation médicale basée sur le remplissage vasculaire de solutés avec une quantité estimée à 12 000 ml les deux premiers jours de la prise en charge en fonction de la surface corporelle brûlée.",
+       "text": "Le pronostic vital selon la loi de Baux de M. TINTO est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Guérison certaine"
+        },
+        {
+         "letter": "B",
+         "text": "Mort quasi-certaine"
+        },
+        {
+         "letter": "C",
+         "text": "50% de chance de guérir ou de mourir"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Mort quasi-certaine",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Selon le cours : somme < 50 → guérison très probable ; > 100 → mort quasi certaine ; entre 50 et 100 → une chance sur deux. Avec 107, le pronostic est une mort quasi certaine.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Brûlures 1 – 5.5 Pronostic",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j4-ide__56",
+       "num": "58",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Étude de cas. Vous êtes infirmier diplômé d’État au service des grands brûlés du CHU de Cocody à Abidjan. A votre garde, vous recevez Monsieur Belem TINTO, 57 ans, domicilié au quartier Mossikro dans la commune d’Attécoubé et propriétaire d’une maison de transfert de devise. Il est aussi suivi pour diabète à l’INSP d’Adjamé. Il est reçu dans votre service pour brûlure par électrocution. L’examen clinique pratiqué par l’interne de service évalue les lésions à 35% de la surface corporelle de M. TINTO selon la table de Lund et Browder. Pendant l’exploration des différents appareils chez M. BELEM, l’interne de service découvre une hypertrophie bénigne de la prostate. En outre, l’examen de laboratoire révèle un taux d’hémoglobine à 5g/dl de sang. En outre, M. BELEM demande avec insistance la présence de sa secrétaire particulière afin de lui donner des directives pour un meilleur fonctionnement de son entreprise. L’interne institue une réanimation médicale basée sur le remplissage vasculaire de solutés avec une quantité estimée à 12 000 ml les deux premiers jours de la prise en charge en fonction de la surface corporelle brûlée.",
+       "text": "Identifier trois (3) signes cardinaux qui ont permis la découverte de l’hypertrophie prostatique de Monsieur TINTO :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Anorexie"
+        },
+        {
+         "letter": "B",
+         "text": "Pollakiurie"
+        },
+        {
+         "letter": "C",
+         "text": "Dysurie"
+        },
+        {
+         "letter": "D",
+         "text": "Céphalées"
+        },
+        {
+         "letter": "E",
+         "text": "Rétention d’urine"
+        },
+        {
+         "letter": "F",
+         "text": "Diarrhées"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Pollakiurie ; C. Dysurie ; E. Rétention d’urine",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "L’adénome de la prostate comprime l’urètre : dysurie (premier symptôme), pollakiurie nocturne/diurne, et rétention d’urine (aiguë ou chronique) ; l’adénome est la première cause de rétention. Remarque : la capture s’arrête au début d’une dernière question (en-tête « Incorrect » visible, énoncé et options absents). Elle n’a pas pu être transcrite.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Adénome de la prostate – clinique (diapo 288) ; Rétention urinaire – étiologies (diapo 306)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

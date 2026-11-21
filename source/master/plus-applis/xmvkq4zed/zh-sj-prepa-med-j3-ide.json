@@ -1,0 +1,1609 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zh-sj-prepa-med-j3-ide",
+ "titre": "Préparation D.E (J) · J3 Médecine IDE",
+ "session": "J",
+ "annee": 2026,
+ "nq": 46,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+   "sha256": "45110ca169c7b815e8c5983cb6aa915440763cce1306bb015109584afb42df7f"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Médecine · Prépa D.E J3 (IDE)",
+     "slug": "prepa-med-j3-ide",
+     "pages": "",
+     "count": 46,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Médecine",
+     "source": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__0",
+       "num": "1",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS : En service au CHU de Treichville, vous avez en charge ce jour M. Sangaré, âgé de 45 ans pour une taille de 1,70 m. Il est très affaibli, a une langue pâteuse, se plaint de céphalées et de douleurs diverses. Il refuse de manger. Sa température est de 40°C, une TA de 11/7 cmHg pour un pouls de 100 puls/mn.",
+       "text": "A quelle affection pensez-vous ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Paludisme"
+        },
+        {
+         "letter": "B",
+         "text": "Méningite"
+        },
+        {
+         "letter": "C",
+         "text": "Fièvre typhoïde"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Paludisme",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Fièvre à 40 °C, céphalées, douleurs diverses (courbatures), grande fatigue et refus de manger : c'est le tableau du paludisme simple décrit dans le cours (fièvre, céphalées, myalgies, troubles digestifs, asthénie). Sans raideur de la nuque ni troubles de conscience, la méningite est peu probable ; la langue pâteuse peut faire penser à la typhoïde, mais le pouls à 100 n'est pas « dissocié ».\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Paludisme – IV Étude clinique 4-1 (p. 50)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__1",
+       "num": "2",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS : En service au CHU de Treichville, vous avez en charge ce jour M. Sangaré, âgé de 45 ans pour une taille de 1,70 m. Il est très affaibli, a une langue pâteuse, se plaint de céphalées et de douleurs diverses. Il refuse de manger. Sa température est de 40°C, une TA de 11/7 cmHg pour un pouls de 100 puls/mn.",
+       "text": "Quels sont les signes qui militent en faveur de votre diagnostic ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Tension artérielle"
+        },
+        {
+         "letter": "B",
+         "text": "Céphalées"
+        },
+        {
+         "letter": "C",
+         "text": "Fièvre"
+        },
+        {
+         "letter": "D",
+         "text": "Myalgie"
+        },
+        {
+         "letter": "E",
+         "text": "Pouls"
+        },
+        {
+         "letter": "F",
+         "text": "Asthénie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Fièvre ; D. Myalgie ; E. Pouls",
+       "answerLetters": [
+        "C",
+        "D",
+        "E"
+       ],
+       "explanation": "La fièvre (40 °C), les myalgies (« douleurs diverses ») et le pouls accéléré (100/mn, en rapport avec la fièvre) font partie du tableau du paludisme. La tension artérielle (11/7) est normale et n'oriente pas.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Paludisme – 4-1 Paludisme simple (p. 50)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__2",
+       "num": "3",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS : En service au CHU de Treichville, vous avez en charge ce jour M. Sangaré, âgé de 45 ans pour une taille de 1,70 m. Il est très affaibli, a une langue pâteuse, se plaint de céphalées et de douleurs diverses. Il refuse de manger. Sa température est de 40°C, une TA de 11/7 cmHg pour un pouls de 100 puls/mn.",
+       "text": "Parmi les examens ci-dessous demandés par le médecin, lequel est à propos ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Goutte épaisse"
+        },
+        {
+         "letter": "B",
+         "text": "NFS"
+        },
+        {
+         "letter": "C",
+         "text": "PL"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Goutte épaisse",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La goutte épaisse (avec le frottis) met en évidence le Plasmodium et permet de préciser l'espèce et la densité parasitaire : c'est l'examen adapté. La NFS n'est qu'un examen d'orientation et la PL servirait à rechercher une méningite.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Paludisme – VI Diagnostic biologique (p. 51) ; Documents de révision L3 Médecine, paludisme (items 15-16)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__3",
+       "num": "4",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS : En service au CHU de Treichville, vous avez en charge ce jour M. Sangaré, âgé de 45 ans pour une taille de 1,70 m. Il est très affaibli, a une langue pâteuse, se plaint de céphalées et de douleurs diverses. Il refuse de manger. Sa température est de 40°C, une TA de 11/7 cmHg pour un pouls de 100 puls/mn.",
+       "text": "Quelles sont les complications qui peuvent être liées à cette affection ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Ictère"
+        },
+        {
+         "letter": "B",
+         "text": "Abcès du foie"
+        },
+        {
+         "letter": "C",
+         "text": "Hémorragie digestive"
+        },
+        {
+         "letter": "D",
+         "text": "Anémie"
+        },
+        {
+         "letter": "E",
+         "text": "Encéphalite"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Ictère ; D. Anémie",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "L'ictère et l'anémie sévère (Hb < 5 g/dl) font partie des critères du paludisme grave, donc des complications du paludisme. L'abcès du foie relève de l'amibiase et l'encéphalite, comme complication classique, de la fièvre typhoïde. Remarque : Le cours cite aussi les « hémorragies diffuses (épistaxis, méléna) » parmi les signes de gravité ; l'option « hémorragie digestive » n'est pas retenue par la correction nationale.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), 4-2 Critères du paludisme grave (p. 50) ; Cours de maladies infectieuses et parasitaires, 4-2 Paludisme grave",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__4",
+       "num": "5",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS : En service au CHU de Treichville, vous avez en charge ce jour M. Sangaré, âgé de 45 ans pour une taille de 1,70 m. Il est très affaibli, a une langue pâteuse, se plaint de céphalées et de douleurs diverses. Il refuse de manger. Sa température est de 40°C, une TA de 11/7 cmHg pour un pouls de 100 puls/mn.",
+       "text": "Sachant que M. Sangaré a un IMC de 17,30, quel est son poids ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "49 Kg"
+        },
+        {
+         "letter": "B",
+         "text": "50 Kg"
+        },
+        {
+         "letter": "C",
+         "text": "51 Kg"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 50 Kg",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Poids = IMC × taille² = 17,30 × (1,70)² = 17,30 × 2,89 ≈ 50 kg. (explication hors cours du projet : calcul)\n\nSource : Calcul de l'IMC (poids / taille²)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__5",
+       "num": "6",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS : En service au CHU de Treichville, vous avez en charge ce jour M. Sangaré, âgé de 45 ans pour une taille de 1,70 m. Il est très affaibli, a une langue pâteuse, se plaint de céphalées et de douleurs diverses. Il refuse de manger. Sa température est de 40°C, une TA de 11/7 cmHg pour un pouls de 100 puls/mn.",
+       "text": "Quels sont les besoins prioritaires de M. Sangaré ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Besoin d'apprendre"
+        },
+        {
+         "letter": "B",
+         "text": "Besoin de maintenir la température du corps dans les limites de la normale"
+        },
+        {
+         "letter": "C",
+         "text": "Besoin de dormir et se reposer"
+        },
+        {
+         "letter": "D",
+         "text": "Besoin d'éviter les dangers"
+        },
+        {
+         "letter": "E",
+         "text": "Besoin de manger et boire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Besoin de maintenir la température du corps dans les limites de la normale ; D. Besoin d'éviter les dangers",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "M. Sangaré a 40 °C de fièvre : le besoin de maintenir la température du corps dans les limites de la normale est perturbé en priorité. Très affaibli, il est exposé aux chutes et aux complications : besoin d'éviter les dangers. Le refus de manger est réel mais secondaire face à ces deux urgences.\n\nSource : Modèle de V. Henderson (explication en partie hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__6",
+       "num": "8",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "M. Zodo âgé de 35 ans souffre d'un paludisme grave, quel traitement lui conseillez-vous en première intention ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Sels de quinine par voie orale"
+        },
+        {
+         "letter": "B",
+         "text": "Artemeter inj"
+        },
+        {
+         "letter": "C",
+         "text": "CTA"
+        },
+        {
+         "letter": "D",
+         "text": "Sels de quinine en perfusion"
+        },
+        {
+         "letter": "E",
+         "text": "Artesunate inj"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "D. Sels de quinine en perfusion ; E. Artesunate inj",
+       "answerLetters": [
+        "D",
+        "E"
+       ],
+       "explanation": "Dans le paludisme grave, l'OMS recommande l'artésunate injectable en option préférentielle, la quinine en perfusion étant utilisée en alternative. La quinine orale et les CTA servent au paludisme simple ou au relais oral, pas au traitement initial du paludisme grave. Remarque : Le protocole du cours cite aussi l'artéméther IM comme traitement parentéral initial possible ; la correction nationale ne le coche pas.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), 7-2 Le paludisme grave (p. 51-52)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__7",
+       "num": "9",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La posologie usuelle des sels de quinine étant de 24 mg/kg/j, combien de comprimé de quinimax dosé à 500mg doit prendre un patient de 60 kg par jour ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1 comprimé"
+        },
+        {
+         "letter": "B",
+         "text": "2 comprimés"
+        },
+        {
+         "letter": "C",
+         "text": "3 comprimés"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 3 comprimés",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "24 mg/kg/j × 60 kg = 1 440 mg par jour ; 1 440 ÷ 500 mg = 2,88, soit 3 comprimés par jour (à répartir en 3 prises). Remarque : Le cours donne pour la quinine orale 25 mg/kg/j en 3 prises ; l'énoncé fixe 24 mg/kg/j, le résultat reste 3 comprimés.\n\nSource : Cours de maladies infectieuses et parasitaires, 5-1 Traitement (quinine) ; calcul de dose",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__8",
+       "num": "10",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La complication la plus fréquente dans l'ulcère gastro duodénal est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rectorragie"
+        },
+        {
+         "letter": "B",
+         "text": "Hémoptysie"
+        },
+        {
+         "letter": "C",
+         "text": "Hémorragie digestive haute"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Hémorragie digestive haute",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'hémorragie digestive est la complication la plus fréquente des ulcères gastro-duodénaux (30 à 40 % des hémorragies digestives hautes), sous forme d'hématémèse et/ou de méléna. La perforation est moins fréquente ; l'hémoptysie est d'origine respiratoire.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Ulcère gastro-duodénal – IV Complications (p. 116)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__9",
+       "num": "11",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En présence d'une forte douleur abdominale, un abdomen tendu et de la fièvre, vous pensez à :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une fièvre typhoïde"
+        },
+        {
+         "letter": "B",
+         "text": "Une péritonite"
+        },
+        {
+         "letter": "C",
+         "text": "Une occlusion"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Une péritonite",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Une douleur abdominale intense avec un abdomen tendu (défense, contracture = « ventre de bois ») et de la fièvre traduit une irritation péritonéale : c'est le tableau de la péritonite. L'occlusion associe plutôt arrêt des matières et des gaz et vomissements.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Examen physique de l'abdomen – recherche d'une irritation péritonéale (p. 102)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__10",
+       "num": "12",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une femme vient d'accoucher dans votre centre de santé, quel est l'algorithme utilisé pour son dépistage VIH ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "determine ensuite statpak"
+        },
+        {
+         "letter": "B",
+         "text": "stat pak ensuite determine"
+        },
+        {
+         "letter": "C",
+         "text": "determine seul ou stat pak seul"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. determine ensuite statpak",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le dépistage suit l'algorithme standard en série : Determine en premier, puis StatPak pour confirmer un résultat réactif. Un seul test ne suffit pas.\n\nSource : VIH L2 part 1, PrEP – dépistage par l'algorithme standard (Determine + StatPak) (p. 53)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__11",
+       "num": "13",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Cette femme est déclarée séropositive au VIH 1 et 2 : cocher la réponse juste",
+       "options": [
+        {
+         "letter": "A",
+         "text": "nous attendons le bilan initial avant de la mettre sous traitement"
+        },
+        {
+         "letter": "B",
+         "text": "nous la mettons sous traitement sans attendre le bilan initial"
+        },
+        {
+         "letter": "C",
+         "text": "Le bilan initial est facultatif dans ce cas"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. nous la mettons sous traitement sans attendre le bilan initial",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Selon l'approche actuelle « tester et traiter », toute personne dépistée positive est mise sous TARV sans attendre le bilan initial, qui est réalisé en parallèle (il n'est pas facultatif). Les cas d'étude du cours montrent une mise sous TARV le jour même du dépistage.\n\nSource : Documents de révision L3 Médecine, étude de cas (mère mise sous TARV le jour du dépistage) ; complément hors cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__12",
+       "num": "14",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel est le traitement adéquat pour la prise en charge de la mère qui refuse les contraceptifs ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "tdf 3tc dtg"
+        },
+        {
+         "letter": "B",
+         "text": "tdf 3tc lpv"
+        },
+        {
+         "letter": "C",
+         "text": "tdf 3tc efv"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. tdf 3tc dtg ; B. tdf 3tc lpv",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "Chez la femme en âge de procréer, la décision de prendre le DTG lui revient, après information (TDF + 3TC + DTG). Pour le VIH 1 et 2, l'alternative prévue est TDF + 3TC + LPV/r. Le TDF + 3TC + EFV n'est une alternative qu'en cas de VIH 1 seul : il ne convient pas à une femme VIH 1 et 2.\n\nSource : Cours VIH Licence 2 (diaporama), diapos 77-79 ; VIH L2 part 1, tableau des schémas de 1re ligne (p. 49)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__13",
+       "num": "15",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La mère n'a pas suivi de traitement ARV tout au long de sa grossesse, quel est le traitement ARV prophylactique pour le nouveau-né pendant 6 semaines ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "nevirapine seul"
+        },
+        {
+         "letter": "B",
+         "text": "azt plus nvp"
+        },
+        {
+         "letter": "C",
+         "text": "azt seul"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. azt plus nvp",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La mère n'a pas reçu de TARV pendant la grossesse : l'enfant est exposé à un haut risque de transmission. Si la mère est VIH 1 ou VIH 1+2, la prophylaxie est AZT + NVP pendant 6 semaines. La NVP seule ou l'AZT seul sont réservés aux enfants à faible risque. Remarque : Le document « VIH L2 part 1 » (p. 52) propose ABC + 3TC + LPV/r quand la mère n'est pas en suppression virale ; les deux cours ne disent pas la même chose.\n\nSource : Cours VIH Licence 2 (diaporama), diapos 89-92 (enfant exposé à haut risque)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__14",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Malheureusement la mère n'a pas donné les médicaments convenablement au nouveau-né et la PCR à 6 semaines est revenue positive, quel traitement ARV faut-il donner au nouveau-né ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "abc 3tc lpvr granulé"
+        },
+        {
+         "letter": "B",
+         "text": "abc 3tc lpvr sirop"
+        },
+        {
+         "letter": "C",
+         "text": "abc 3tc lpvr comprimé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. abc 3tc lpvr sirop",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Une PCR positive confirme l'infection de l'enfant : il faut un traitement ARV complet, ABC + 3TC + LPV/r, sous une forme pédiatrique adaptée au nourrisson qui ne peut pas avaler de comprimé.\n\nSource : Cours VIH Licence 2 (diaporama), diapos 83-86 (protocoles de l'enfant)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__15",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Comment se fait la surveillance biologique de la mère avec la charge virale la première année ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "tous les six mois"
+        },
+        {
+         "letter": "B",
+         "text": "tous les douze mois"
+        },
+        {
+         "letter": "C",
+         "text": "tous les trois mois"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. tous les six mois",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Chez la femme nouvellement mise sous TARV, la charge virale est faite 3 mois après le début du traitement, puis répétée tous les 6 mois pendant la grossesse et jusqu'à la fin de l'allaitement si elle reste ≤ 1000 copies/ml.\n\nSource : VIH L2 part 1, Figure 6 : algorithme de la charge virale chez la femme enceinte/allaitante (p. 50)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__16",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Comment se fait la surveillance biologique du nouveau-né le premier semestre au niveau de la charge virale ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "tous les trois mois"
+        },
+        {
+         "letter": "B",
+         "text": "tous les uns mois"
+        },
+        {
+         "letter": "C",
+         "text": "tous les deux mois"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. tous les trois mois",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Chez le nourrisson infecté mis sous TARV, la charge virale est contrôlée de façon rapprochée, tous les 3 mois au cours du premier semestre, pour vérifier rapidement l'efficacité du traitement. (explication hors cours du projet)\n\nSource : Aucun passage trouvé dans les cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__17",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La sage-femme ayant fait un accident d'exposition au sang avec la même patiente se retrouve chez le médecin, quelle prophylaxie le médecin lui donne-t-il ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "tdf 3tc efv"
+        },
+        {
+         "letter": "B",
+         "text": "tdf 3tc dtg"
+        },
+        {
+         "letter": "C",
+         "text": "tdf 3tc lpvr"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. tdf 3tc dtg ; C. tdf 3tc lpvr",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Pour un adulte (> 10 ans ou > 35 kg) victime d'un AES, la prophylaxie post-exposition associe TDF + 3TC + DTG (TLD), à débuter dans les 72 h et à poursuivre 28 jours. L'EFV n'est pas utilisé en PEP.\n\nSource : Cours VIH Licence 2 (diaporama), diapo 95 (TARV prophylactique en cas d'AES) ; VIH L2 part 1, p. 54",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__18",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les oedèmes des membres inférieurs résultent :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "D'une infiltration du tissu interstitiel par un liquide séreux"
+        },
+        {
+         "letter": "B",
+         "text": "D'une infiltration du tissu interstitiel par les lipides"
+        },
+        {
+         "letter": "C",
+         "text": "D'une infiltration du tissu interstitiel par une thrombose veineuse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. D'une infiltration du tissu interstitiel par un liquide séreux",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les œdèmes correspondent à une accumulation de liquide (de type séreux, pauvre en cellules) dans le tissu interstitiel, liée par exemple à une hausse de la pression veineuse (insuffisance cardiaque droite) ou à une baisse de la pression oncotique (hypoalbuminémie).\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Cirrhose – pression oncotique et liquides interstitiels (p. 128) ; IVD (p. 88)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__19",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Que signifie le terme dyspnée ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Gêne respiratoire"
+        },
+        {
+         "letter": "B",
+         "text": "Difficulté à inspirer par le nez"
+        },
+        {
+         "letter": "C",
+         "text": "Respiration par le nez"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Gêne respiratoire",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La dyspnée est une respiration anormale ressentie comme une gêne ou une difficulté à respirer. Elle ne se limite pas à l'inspiration par le nez.\n\nSource : Cours de sémiologie médicale et pathologies respiratoires, 1-2-5 La dyspnée (p. 6) ; Sémiologie respiratoire, V La dyspnée",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__20",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Que signifie polypnée ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Respiration lente"
+        },
+        {
+         "letter": "B",
+         "text": "Respiration difficile"
+        },
+        {
+         "letter": "C",
+         "text": "Respiration rapide et superficielle"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Respiration rapide et superficielle",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La polypnée est une respiration rapide et superficielle (FR > 20 cycles/mn chez l'adulte). La respiration lente est la bradypnée.\n\nSource : Sémiologie respiratoire, Différents types de dyspnée",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__21",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La dyspnée d'origine cardiaque est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Liée à l'effort et s'accroît avec celui-ci et disparaît quelques mn après l'arrêt de l'effort"
+        },
+        {
+         "letter": "B",
+         "text": "Liée à un effort et s'interrompt au bout de quelques heures après l'arrêt de l'effort"
+        },
+        {
+         "letter": "C",
+         "text": "Liée à un effort et s'interrompt au bout de 3 mn"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Liée à l'effort et s'accroît avec celui-ci et disparaît quelques mn après l'arrêt de l'effort",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La dyspnée d'origine cardiaque (insuffisance ventriculaire gauche) est d'abord une dyspnée d'effort : elle apparaît à l'effort, augmente avec son intensité et cède en quelques minutes au repos. Elle évolue ensuite vers une dyspnée de décubitus, puis permanente.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), IVG – signes cliniques (p. 85) ; Cours de sémiologie médicale et pathologies respiratoires, dyspnée d'effort (p. 6)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__22",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Vous devez injecter 3,5 mg de Gentalline en IM. Sachant qu'une ampoule contient 10 mg pour 2 ml, quelle quantité prélèverez-vous ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "0,5 ml"
+        },
+        {
+         "letter": "B",
+         "text": "0,3 ml"
+        },
+        {
+         "letter": "C",
+         "text": "0,7 ml"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 0,7 ml",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "10 mg dans 2 ml, soit 5 mg/ml. Volume = 3,5 mg ÷ 5 mg/ml = 0,7 ml. (explication hors cours du projet : calcul)\n\nSource : Calcul de dose (règle de trois)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__23",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Combien de types de diabète existe-t-il ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Deux types"
+        },
+        {
+         "letter": "B",
+         "text": "Un type"
+        },
+        {
+         "letter": "C",
+         "text": "Trois types"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Trois types",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "On distingue trois grands types de diabète : le type 1 (insulino-dépendant, juvénile), le type 2 (non insulino-dépendant, de la maturité) et le diabète gestationnel.\n\nSource : Documents de révision L3 Médecine, chapitre Diabète, QCD 13-19 (p. 27)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__24",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les signes suivants, deux relèvent du diabète de type 1, lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Amaigrissement"
+        },
+        {
+         "letter": "B",
+         "text": "Aménorrhée"
+        },
+        {
+         "letter": "C",
+         "text": "Mictions fréquentes"
+        },
+        {
+         "letter": "D",
+         "text": "Hémorragie"
+        },
+        {
+         "letter": "E",
+         "text": "Dyspnée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Amaigrissement ; C. Mictions fréquentes",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Le diabète de type 1 se manifeste par une polyurie (mictions fréquentes et abondantes), une soif intense et un amaigrissement malgré une faim constante. L'aménorrhée, l'hémorragie et la dyspnée ne sont pas des signes du diabète de type 1.\n\nSource : Documents de révision L3 Médecine, Diabète – QCM 1 (symptômes du diabète de type 1) (p. 28)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__25",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour un patient ayant une valeur de l'hémoglobine glyquée HbA1C à 7%, quel sera son taux en glycémie ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1,26 g/l"
+        },
+        {
+         "letter": "B",
+         "text": "3,5% HbA1C"
+        },
+        {
+         "letter": "C",
+         "text": "6,5 mmol/l"
+        },
+        {
+         "letter": "D",
+         "text": "11 mmol/l"
+        },
+        {
+         "letter": "E",
+         "text": "0,8 g/l"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. 1,26 g/l ; D. 11 mmol/l",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient 1,26 g/l et 11 mmol/l. (explication hors cours du projet) Remarque : 1,26 g/l correspond à environ 7 mmol/l, et non à 11 mmol/l : les deux valeurs cochées ne sont pas équivalentes. Dans les tables usuelles, une HbA1c de 7 % correspond à une glycémie moyenne d'environ 1,54 g/l (8,6 mmol/l). Question à revoir.\n\nSource : Aucun tableau de correspondance HbA1c/glycémie dans les cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__26",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'écouvillonnage nasopharyngé se fait :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Par la voie nasale"
+        },
+        {
+         "letter": "B",
+         "text": "Par la voie buccale"
+        },
+        {
+         "letter": "C",
+         "text": "Par les deux voies"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Par la voie nasale",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le prélèvement nasopharyngé (par exemple pour la COVID-19) se fait par la voie nasale : l'écouvillon est introduit par une narine jusqu'au nasopharynx.\n\nSource : Cours de maladies infectieuses et parasitaires, COVID-19 – diagnostic biologique (écouvillonnage nasal ou pharyngé)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__27",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "On peut observer dans un épanchement pleural liquidien :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une hypersonorité"
+        },
+        {
+         "letter": "B",
+         "text": "Une matité d'un hémithorax"
+        },
+        {
+         "letter": "C",
+         "text": "Une abolition des vibrations vocales"
+        },
+        {
+         "letter": "D",
+         "text": "Un souffle tubaire"
+        },
+        {
+         "letter": "E",
+         "text": "Des râles crépitants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Une matité d'un hémithorax ; C. Une abolition des vibrations vocales",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "L'épanchement pleural liquidien donne le trépied de Trousseau : matité, abolition des vibrations vocales et abolition du murmure vésiculaire. L'hypersonorité oriente vers un pneumothorax, le souffle tubaire et les râles crépitants vers une condensation.\n\nSource : Examen physique en pneumologie, 2- Syndrome d'épanchement liquidien pleural",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__28",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les risques suivants liés au sondage urinaire, un est faux, lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Au respect du système clos"
+        },
+        {
+         "letter": "B",
+         "text": "Non respect des règles d'asepsie lors des manipulations"
+        },
+        {
+         "letter": "C",
+         "text": "Non respect des règles d'hygiène"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Au respect du système clos",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le respect du système clos protège justement contre l'infection : ce n'est pas un risque. Le non-respect de l'asepsie et de l'hygiène favorise l'infection urinaire, le cathétérisme étant un facteur favorisant reconnu.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Infections des voies urinaires – généralités (p. 160)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__29",
+       "num": "32",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le but du traitement du diabète est de normaliser le taux de sucre dans le sang.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le diabète est une hyperglycémie chronique ; son traitement (régime, activité physique, médicaments, insuline) vise à ramener la glycémie dans les valeurs normales pour prévenir les complications.\n\nSource : Documents de révision L3 Médecine, Diabète (QCD 4, 18 ; QCM 11)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__30",
+       "num": "33",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le pancréas est une glande qui joue un rôle de régulation du sucre dans l'organisme humain.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le pancréas endocrine sécrète l'insuline, hormone qui régule la concentration de sucre dans le sang.\n\nSource : Documents de révision L3 Médecine, Diabète, QCD 10 et QCM 21 (p. 27-31)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__31",
+       "num": "34",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le diabète de type 2 est causé par un dysfonctionnement du pancréas.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le diabète de type 2 résulte surtout d'une mauvaise utilisation de l'insuline par l'organisme (insulino-résistance), et non d'un simple dysfonctionnement du pancréas comme dans le type 1.\n\nSource : Documents de révision L3 Médecine, Diabète, QCD 16 (p. 27)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__32",
+       "num": "35",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'HTA peut se révéler par des signes fonctionnels ou lors d'une consultation fortuite.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'HTA peut être découverte de façon fortuite lors d'un examen de routine ou à l'occasion de signes fonctionnels (céphalées occipitales, acouphènes, phosphènes…).\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), HTA – 3.1 Circonstances de découverte (p. 64)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__33",
+       "num": "36",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La pollakiurie porte sur la quantité d'urine émise en 24H.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La pollakiurie porte sur la fréquence des mictions (mictions trop nombreuses), et non sur la quantité d'urine. (explication hors cours du projet)\n\nSource : Cours sur les adénomes de la prostate, signes fonctionnels (pollakiurie nocturne et/ou diurne) ; définition hors cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__34",
+       "num": "37",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La polyurie est portée sur la quantité des urines de 24H.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Faux ». (explication hors cours du projet)\n\nSource : Documents de révision L3 Médecine, Diabète, QCM 1 : « Polyurie (excrétion excessive d'urine) »",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__35",
+       "num": "38",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'incontinence urinaire est synonyme d'énurésie.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'incontinence urinaire est une perte involontaire d'urine, à tout âge. L'énurésie est une forme particulière : miction involontaire, surtout nocturne, chez l'enfant après l'âge de la propreté. Les deux termes ne sont pas synonymes. (explication hors cours du projet)\n\nSource : Aucune définition trouvée dans les cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__36",
+       "num": "39",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La hernie hiatale est caractérisée par le reflux gastro-oesophagien.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La hernie hiatale est la remontée (protrusion) d'une partie de l'estomac dans le thorax à travers le hiatus œsophagien ; elle s'accompagne souvent d'un reflux gastro-œsophagien. Remarque : Le cours définit la hernie hiatale par la protrusion de l'estomac ; le reflux en est une manifestation fréquente plus que la définition.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Sémiologie digestive – la hernie hiatale (p. 104)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__37",
+       "num": "40",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La corticothérapie peut être considérée comme un dopage chez un sportif.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les corticoïdes figurent sur la liste des substances interdites en compétition (dopage) lorsqu'ils sont pris par voie générale sans justification médicale. (explication hors cours du projet)\n\nSource : Aucun passage trouvé dans les cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__38",
+       "num": "41",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les personnes vivant avec le VIH doivent être privilégiées dans toute la société.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les personnes vivant avec le VIH ne doivent ni être discriminées ni être « privilégiées » : on recherche l'égalité, la dignité et l'accès équitable aux soins (Santé positive, dignité et prévention).\n\nSource : Cours VIH Licence 2 (diaporama), diapos 157-158 (SPDP : droits humains, accès équitable)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__39",
+       "num": "42",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'hôte intermédiaire de la dracunculose est un crustacé d'eau douce appelé cyclops.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La dracunculose (ver de Guinée) a pour hôte intermédiaire un petit crustacé d'eau douce (cyclops), avalé avec l'eau de boisson non filtrée ; la prévention comprend la destruction des cyclops et la filtration de l'eau. Remarque : Le cours nomme le crustacé « coronatus » dans l'épidémiologie, puis parle de « cyclops » dans la prophylaxie.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Dracunculose – 2-4 Hôte intermédiaire et VII Prophylaxie (p. 10-11)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__40",
+       "num": "43",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'ascaris peut entraîner une occlusion intestinale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'occlusion intestinale (par un paquet de vers) fait la gravité de l'ascaridiose, avec les migrations biliaires et pancréatiques.\n\nSource : Documents de révision L3 Médecine, Ascaridiose, QCD 6 (p. 5)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__41",
+       "num": "44",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les syndromes dysentériques, les germes responsables sont uniquement des bactéries.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les syndromes dysentériques sont dus soit à des bactéries (shigelles), soit à des parasites (Giardia, amibes) : pas uniquement à des bactéries.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Les syndromes dysentériques – I Généralités (p. 27)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__42",
+       "num": "45",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le prélèvement pour une gazométrie se fait dans une artère radiale ou humérale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le prélèvement artériel pour les gaz du sang se fait le plus souvent dans l'artère radiale (que l'IDE peut ponctionner), mais aussi dans l'artère humérale ou fémorale (cette dernière par le médecin).\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Gazométrie sanguine – IV Sites de ponction (p. 29-30)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__43",
+       "num": "46",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La contamination de la tuberculose est strictement interhumaine.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La contamination est surtout interhumaine (voie aérienne), mais l'animal malade est aussi une source : le lait de vache infecté (Mycobacterium bovis) peut transmettre la tuberculose par voie digestive. Elle n'est donc pas strictement interhumaine.\n\nSource : Cours de sémiologie médicale et pathologies respiratoires, Tuberculose – sources et mode de contamination (p. 72)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__44",
+       "num": "47",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'hématémèse est l'émission de sang rouge par la bouche dans un effort de vomissement.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'hématémèse est le rejet par la bouche de sang lors d'un effort de vomissement ; elle traduit une hémorragie digestive haute. Remarque : Le cours précise que le sang peut être rouge ou noir.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Sémiologie digestive – Hématémèse (p. 105)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j3-ide__45",
+       "num": "48",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le venin des vipéridés est neurotoxique et entraîne des paralysies généralisées.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ».\n\nSource : Envenimations – traitement (diaporama), Composition des venins (2) ; Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Envenimations (vipéridés / colubridés)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Médecine)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2038 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zr-sj-prepa-gyneco-j4-sf3",
+ "titre": "Préparation D.E (J) · J4 Gynéco-obstétrique SF3",
+ "session": "J",
+ "annee": 2026,
+ "nq": 56,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+   "sha256": "9ee0174cae6a310ff499e14b7685289c3bf3a2155e497e3971a6b1d18f45aa2e"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Gynéco-obstétrique · Prépa D.E J4 (SF3)",
+     "slug": "prepa-gyneco-j4-sf3",
+     "pages": "",
+     "count": 56,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Gynéco-obstétrique",
+     "source": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La nidation a lieu dans la trompe.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La fécondation a lieu dans le 1/3 externe de la trompe ; l'œuf migre 4 à 5 jours puis se niche normalement dans la cavité utérine vers le 7e jour (stade blastocyste). Une nidation dans la trompe est une grossesse extra-utérine.\n\nSource : Gynéco L2 IDE (INFAS 2025), Grossesse extra-utérine (rappels)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lors de la traction contrôlée du cordon, si le cordon se coupe, la révision utérine s'impose.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Si le cordon est arraché alors que le placenta n'est pas sorti, il faut faire une délivrance artificielle (extraction manuelle du placenta) suivie d'une injection d'ocytocine. La révision utérine, elle, contrôle un utérus déjà vide.\n\nSource : Module SONU – PNSME, GATPA – traction contrôlée du cordon p. 52-53",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Après la délivrance il est impératif de réaliser une révision utérine pour s'assurer que l'utérus est vide",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Après une délivrance normale, on examine le placenta. La révision utérine n'est indiquée que si le placenta ou les membranes sont incomplets, ou devant une hémorragie ; elle n'est pas systématique.\n\nSource : Module SONU – PNSME, GATPA p. 53 ; Cours de soins obstétricaux L2 SF, Hémorragies de la délivrance p. 106",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La CPN recentrée ne concerne que les grossesses à risque.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La CPN recentrée est l'approche des soins prénatals proposée à toutes les gestantes : actions ciblées, évaluation focalisée à chaque visite, dépistage et prise en charge des complications, plan de préparation à l'accouchement.\n\nSource : Cours de soins obstétricaux L2 SF, CPN recentrée (définition, 5 principes) ; SONU L2 SF (2025-2026), CPN recentrée",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La MILDA est instituée pour la prévention de l'anémie chez la femme enceinte.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La MILDA (moustiquaire imprégnée d'insecticide à longue durée d'action) sert à prévenir le paludisme. La prévention de l'anémie repose sur l'acide folique et le fer.\n\nSource : Gynéco L2 IDE (INFAS 2025), CPN – soins préventifs ; Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Paludisme et grossesse p. 6",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Devant un avortement molaire, la sage-femme doit prendre une voie veineuse et réaliser l'AMIU après l'accord de son médecin responsable.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Devant une môle hydatiforme, la sage-femme met la patiente en condition (voie veineuse) et organise la référence. L'évacuation de la môle et le suivi (dosages hCG) relèvent du médecin en milieu spécialisé ; ce n'est pas un geste que la sage-femme réalise sur simple accord.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Métrorragies du 1er trimestre – môle hydatiforme p. 132-133 (en partie hors cours pour l'AMIU)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La procidence du cordon est une chute du cordon en avant de la présentation à membranes intactes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La procidence est la chute du cordon en avant de la présentation après rupture des membranes (c'est le risque immédiat d'une rupture des membranes). À membranes intactes, on parle de procubitus.\n\nSource : Gynéco L2 IDE (INFAS 2025), Rupture artificielle des membranes (risque de procidence) ; définition du procubitus (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La souffrance fœtale chronique survient au cours du travail d'accouchement",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La souffrance fœtale chronique s'installe pendant la grossesse (insuffisance placentaire, grossesse prolongée…) et se traduit par un RCIU. Pendant le travail, il s'agit d'une souffrance fœtale aiguë.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Grossesse prolongée p. 123 ; Anomalies de la hauteur utérine p. 53",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le placenta prævia fait partie des causes de métrorragies du 1er trimestre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Au 1er trimestre, les métrorragies viennent de l'avortement, de la môle, de la GEU ou des lésions du col. Le placenta prævia, comme l'HRP et la rupture utérine, est une cause des 2e et 3e trimestres.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Métrorragies pendant la grossesse p. 11",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Devant un avortement molaire, la sage-femme doit prendre une voie veineuse et réaliser l'AMIU après l'accord de son médecin responsable.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Même énoncé que la question 6 : la sage-femme met en condition et réfère ; l'évacuation de la môle se fait en milieu spécialisé sous la responsabilité du médecin. Remarque : Cette question est en double dans le sujet (identique à la question 6).\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Môle hydatiforme p. 132-133",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La rétention placentaire est la première cause d'Hémorragie du post partum immédiat",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Parmi les « 4T » (Tonus, Traumatisme, Tissu, Thrombus), la première cause d'HPPI est l'atonie utérine (+++), avant les déchirures et la rétention placentaire.\n\nSource : Module SONU – PNSME, Hémorragie du post-partum p. 50",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le premier signe de puberté chez le garçon est l'augmentation du volume testiculaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Chez le garçon, la puberté commence par l'augmentation du volume des testicules (vers 11-12 ans), suivie de la pilosité pubienne puis de la croissance de la verge.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La patiente VIH + sous traitement peut recevoir le TPI dans le même temps",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La gestante VIH+ sous cotrimoxazole ne doit pas recevoir la SP (TPI) : le cotrimoxazole protège déjà contre le paludisme et l'association entraîne un surdosage en sulfamides. Si elle ne prend pas de cotrimoxazole, le TPI est le même que chez la femme séronégative. Remarque : Le cours parle de la patiente « sous cotrimoxazole » ; « sous traitement » est compris ici dans ce sens.\n\nSource : SONU L2 SF (2025-2026), Prévention du paludisme pendant la grossesse",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La grossesse gémellaire est un facteur de risque de grossesse prolongée.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La grossesse gémellaire expose au contraire à l'accouchement prématuré : les grossesses multiples font partie des causes ovulaires de MAP (environ 10 %).\n\nSource : Cours MAP (menace d'accouchement prématuré), Étiologies – causes ovulaires",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La dessiccation est une complication survenant dans la procidence du cordon 1er degré.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Au 1er degré, le cordon reste dans le vagin, au contact de la présentation ; la dessiccation (dessèchement) du cordon survient quand il est extériorisé hors de la vulve (degré le plus avancé). Le danger du 1er degré est la compression du cordon et la souffrance fœtale aiguë.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__15",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'ovulation est presque toujours précédée d'un pic de FSH",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "C'est le pic de LH (hormone lutéinisante) qui déclenche l'ovulation, environ 36 heures avant. Un petit pic de FSH l'accompagne, mais le signal de l'ovulation est le pic de LH.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Ménopause (rôle du pic de LH) p. 161 (en partie hors cours)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__16",
+       "num": "17",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une mère de Rh- ayant accouché d'un bébé de Rh+ doit recevoir une injection d'immunoglobuline anti-D.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Pour prévenir l'allo-immunisation rhésus, la mère Rh– qui accouche d'un enfant Rh+ reçoit des immunoglobulines anti-D (Rhophylac®…) le plus tôt possible, dans les 72 heures ; la dose dépend du passage de sang fœtal.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Allo-immunisation rhésus – prévention p. 20",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__17",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le port du préservatif est un moyen de prévention de la rubéole",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La rubéole est un virus à transmission respiratoire (gouttelettes) ; le préservatif ne la prévient pas. La prévention repose sur la vaccination avant la grossesse ; le vaccin, vivant, ne doit pas être fait pendant la grossesse.\n\nSource : Cours Médicaments et grossesse, Les vaccins ; mode de transmission (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__18",
+       "num": "19",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le régime sans sel n'est pas recommandé pour les patientes présentant une hypertension artérielle au cours de la grossesse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "En cas de toxémie gravidique, la gestante doit manger le sel normalement : pas de régime sans sel. Il n'est indiqué que si une HTA antérieure à la grossesse était déjà traitée par régime sans sel.\n\nSource : Gynéco L2 IDE (INFAS 2025), HTA et grossesse – régime ; CPN (régime normo-salé)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__19",
+       "num": "20",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Devant une MAP sur une grossesse à 35 SA il faut réaliser une corticothérapie maturative anténatale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Après 35 SA, on s'abstient de traitement et on laisse accoucher. La corticothérapie anténatale (bétaméthasone 12 mg IM, à répéter 24 h plus tard) est faite avant 34 SA.\n\nSource : Cours MAP (menace d'accouchement prématuré), Traitement – indications selon l'âge gestationnel",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__20",
+       "num": "21",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans le diabète gestationnel, le dépistage par (HGPO) se fait à la 22ème semaine de la grossesse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le dépistage ne se fait pas à 22 SA. Chez la femme à risque, il se fait vers la 24e SA (test de O'Sullivan puis HGPO si positif) ; chez la femme sans facteur de risque de plus de 25 ans, à la 30e SA. Classiquement, la période de dépistage est 24-28 SA. Remarque : Le terme du dépistage chez la femme à risque est peu lisible dans la copie du cours (p. 45) ; la période 24-28 SA est le repère classique.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Diabète gestationnel – dépistage p. 45",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quels sont les deux types de placentas praevia observés au cours du travail d'accouchement :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le placenta recouvrant"
+        },
+        {
+         "letter": "B",
+         "text": "Le placenta latéral"
+        },
+        {
+         "letter": "C",
+         "text": "Le placenta marginal"
+        },
+        {
+         "letter": "D",
+         "text": "Le placenta non recouvrant"
+        },
+        {
+         "letter": "E",
+         "text": "Le placenta central"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Le placenta recouvrant ; D. Le placenta non recouvrant",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "Pendant le travail, on distingue le placenta prævia recouvrant (le placenta occupe l'aire de dilatation, la poche des eaux n'est pas perçue) et non recouvrant (on perçoit la poche des eaux). Latéral, marginal et central sont la classification pendant la grossesse.\n\nSource : Gynéco L2 IDE (INFAS 2025), Placenta prævia – classification clinique",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans quel cas l'hypertension artérielle est-elle un facteur favorisant :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le placenta praevia"
+        },
+        {
+         "letter": "B",
+         "text": "L'hématome retro placentaire"
+        },
+        {
+         "letter": "C",
+         "text": "La rupture utérine"
+        },
+        {
+         "letter": "D",
+         "text": "La grossesse molaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. L'hématome retro placentaire",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'HRP est une complication classique de l'HTA gravidique et de la pré-éclampsie (douleur en coup de poignard, utérus dur, sang noir). Le placenta prævia et la rupture utérine sont liés à des causes mécaniques (cicatrices, multiparité…).\n\nSource : Cours HTA et pré-éclampsie, Complications IV-1-2 (HRP)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Concernant la grossesse extra-utérine : cocher la réponse inexacte",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une grossesse qui peut évoluer à terme"
+        },
+        {
+         "letter": "B",
+         "text": "Une prolifération anormale du trophoblaste"
+        },
+        {
+         "letter": "C",
+         "text": "De localisation tubaire dans la majorité des cas"
+        },
+        {
+         "letter": "D",
+         "text": "Souvent asymptomatique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Une prolifération anormale du trophoblaste",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La GEU est la nidation et le développement de l'œuf hors de la cavité utérine, le plus souvent dans la trompe. La « prolifération anormale du trophoblaste » définit la môle hydatiforme, pas la GEU. Remarque : Il n'y a pas d'option D dans le sujet. « Peut évoluer à terme » ne vaut que pour les rares GEU abdominales, citées par le cours parmi les localisations rares.\n\nSource : Gynéco L2 IDE (INFAS 2025), Grossesse extra-utérine (définition, localisations)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'utérus non gravide comprend 3 parties sauf un : Laquelle",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le corps de l'utérus"
+        },
+        {
+         "letter": "B",
+         "text": "Le segment inferieur"
+        },
+        {
+         "letter": "C",
+         "text": "L'isthme utérin"
+        },
+        {
+         "letter": "D",
+         "text": "Le col utérin"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Le segment inferieur",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Hors grossesse, l'utérus comprend le corps, l'isthme et le col. Le segment inférieur n'existe que pendant la grossesse : il se forme aux dépens de l'isthme, surtout au 3e trimestre.\n\nSource : Gynéco L2 IDE (INFAS 2025), Métrorragies (col, isthme ou segment inférieur, corps) ; formation du segment inférieur (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les organes génitaux internes comprennent les différents éléments suivant sauf un : lequel",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'utérus"
+        },
+        {
+         "letter": "B",
+         "text": "Le vagin"
+        },
+        {
+         "letter": "C",
+         "text": "Le clitoris"
+        },
+        {
+         "letter": "D",
+         "text": "Les ovaires"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Le clitoris",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les organes génitaux internes sont les ovaires, les trompes, l'utérus et le vagin. Le clitoris fait partie de la vulve, donc des organes génitaux externes.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les réponses suivantes précisez les deux (2) causes obstétricales indirectes de décès maternels :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hémorragie"
+        },
+        {
+         "letter": "B",
+         "text": "Avortement"
+        },
+        {
+         "letter": "C",
+         "text": "Eclampsie"
+        },
+        {
+         "letter": "D",
+         "text": "VIH / SIDA"
+        },
+        {
+         "letter": "E",
+         "text": "Paludisme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "D. VIH / SIDA ; E. Paludisme",
+       "answerLetters": [
+        "D",
+        "E"
+       ],
+       "explanation": "Les causes indirectes viennent d'une maladie préexistante ou apparue pendant la grossesse et aggravée par elle : paludisme, anémie, hépatite, VIH/SIDA. Hémorragie, avortement et éclampsie sont des causes obstétricales directes.\n\nSource : Module SONU – PNSME, Causes de mortalité maternelle p. 13 ; Cours de soins obstétricaux L2 SF p. 5",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle de ces fonctions ne fait pas partis des SONU B :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Administration par voie parentérale d'antibiotiques"
+        },
+        {
+         "letter": "B",
+         "text": "Aspiration manuelle intra utérine de restes d'avortement"
+        },
+        {
+         "letter": "C",
+         "text": "La transfusion sanguine"
+        },
+        {
+         "letter": "D",
+         "text": "Administration utérotonique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. La transfusion sanguine",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les SONU de base ont 7 fonctions (antibiotiques, ocytociques, anticonvulsivants parentéraux, délivrance artificielle, évacuation des restes d'avortement dont l'AMIU, accouchement assisté, réanimation néonatale). La transfusion et la césarienne s'ajoutent dans les SONU complets.\n\nSource : Cours de soins obstétricaux L2 SF, Fonctions des SONUB et SONUC p. 7 ; Module SONU – PNSME p. 15-16",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les affections suivantes, laquelle n'est pas responsables de RPM ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Placenta prævia"
+        },
+        {
+         "letter": "B",
+         "text": "Infection vaginale"
+        },
+        {
+         "letter": "C",
+         "text": "Grossesse Gémellaire"
+        },
+        {
+         "letter": "D",
+         "text": "VIH"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. VIH",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Les infections cervico-vaginales, les grossesses multiples et le placenta prævia font partie des causes de rupture prématurée des membranes et d'accouchement prématuré. Le VIH n'en est pas une cause reconnue. Remarque : Le cours MAP liste ces causes pour la menace d'accouchement prématuré, dont la RPM fait partie.\n\nSource : Cours MAP (menace d'accouchement prématuré), Étiologies (causes maternelles infectieuses et causes ovulaires)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quels sont les dangers encourus par le fœtus en cas d'hypertension pendant la grossesse ? Citez les 2 bonnes réponses",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une naissance prématurée."
+        },
+        {
+         "letter": "B",
+         "text": "Une malformation."
+        },
+        {
+         "letter": "C",
+         "text": "Une mort fœtale."
+        },
+        {
+         "letter": "D",
+         "text": "Un avortement du 1er trimestre."
+        },
+        {
+         "letter": "E",
+         "text": "Aucune de ces réponses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Une naissance prématurée. ; C. Une mort fœtale.",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Les complications fœtales de l'HTA sont le RCIU, la souffrance fœtale aiguë, la mort in utero et la prématurité induite. L'HTA ne cause ni malformation ni avortement du 1er trimestre (elle apparaît après 20 SA).\n\nSource : Cours HTA et pré-éclampsie, Complications fœtales IV.2",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les vaccins ci-dessous, lequel est sans danger pendant la grossesse ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le vaccin contre l'hépatite A"
+        },
+        {
+         "letter": "B",
+         "text": "Le vaccin antirubéoleux."
+        },
+        {
+         "letter": "C",
+         "text": "Le vaccin antipoliomyélitique Sabin per os."
+        },
+        {
+         "letter": "D",
+         "text": "Le vaccin de la Grippe"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Le vaccin de la Grippe",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le vaccin contre la grippe peut être fait pendant la grossesse (comme le tétanos, l'hépatite B, la polio inactivée, la rage, le méningocoque). Hépatite A et rubéole figurent parmi les vaccins à ne pas faire ; le Sabin oral est un vaccin vivant (seule la polio inactivée est autorisée).\n\nSource : Cours Médicaments et grossesse, Les vaccins ; Gynéco L2 IDE (INFAS 2025), CPN – soins préventifs",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelles sont les deux (2) mesures préventives que l'on peut proposer pour prévenir la récidive de la pré-éclampsie chez une femme à haut risque ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le régime sans sel."
+        },
+        {
+         "letter": "B",
+         "text": "La prise de 100 mg d'aspirine par jour jusqu'à 36 semaines."
+        },
+        {
+         "letter": "C",
+         "text": "La prise d'un antihypertenseur depuis le début de la grossesse"
+        },
+        {
+         "letter": "D",
+         "text": "La prise de la tension artérielle à chaque CPN"
+        },
+        {
+         "letter": "E",
+         "text": "L'administration d'acide folique au cours de la grossesse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. La prise de 100 mg d'aspirine par jour jusqu'à 36 semaines. ; D. La prise de la tension artérielle à chaque CPN",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "L'aspirine à faible dose (60-100 mg/j), débutée avant 16 SA et arrêtée vers 36 SA, est indiquée en cas d'antécédent de pré-éclampsie. La prise de la TA à chaque CPN permet de dépister tôt une récidive. Le régime sans sel est déconseillé. Remarque : La prise de TA est une mesure de surveillance et de dépistage plus que de prévention au sens strict.\n\nSource : Gynéco L2 IDE (INFAS 2025), HTA et grossesse – aspirine (V-1.2)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle de ces méthodes de planification familiale est contre-indiquée dans le post partum immédiat ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "DIU à la progestérone"
+        },
+        {
+         "letter": "B",
+         "text": "Ligatures tubaires"
+        },
+        {
+         "letter": "C",
+         "text": "Implants"
+        },
+        {
+         "letter": "D",
+         "text": "Contraceptifs injectables"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Contraceptifs injectables",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Dans le tableau des critères d'éligibilité du post-partum (allaitement, moins de 48 h), les injectables progestatifs (DMPA-NET) sont en catégorie 3, alors que l'implant (2), le DIU au lévonorgestrel (2) et le DIU au cuivre (1) restent utilisables. La ligature tubaire peut aussi se faire après l'accouchement.\n\nSource : Cours de SR/PF L2 (INFAS 2023), Critères d'éligibilité dans le post-partum (3.5) ; Document SSR L2 SF (cours SR/PF, INFAS)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lequel de ces éléments ne fait pas partie des principaux signes cliniques du cancer du col ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une ulcération cervicale saignant au contact."
+        },
+        {
+         "letter": "B",
+         "text": "Des ménorragies."
+        },
+        {
+         "letter": "C",
+         "text": "Des métrorragies provoquées."
+        },
+        {
+         "letter": "D",
+         "text": "Des leucorrhées plus ou moins striées de sang."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Des ménorragies.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cancer du col donne des métrorragies de contact (rapports, toilette), des leucorrhées parfois sanglantes et, au spéculum, un bourgeon ou une ulcération qui saigne au contact. Les ménorragies (règles trop abondantes) évoquent plutôt un fibrome.\n\nSource : Gynéco L2 IDE (INFAS 2025), Cancer du col – signes cliniques ; Fibrome utérin",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lequel de ces éléments ne fait pas partie de la prise en charge des complications thromboembolique dans le post partum ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Bas de contention"
+        },
+        {
+         "letter": "B",
+         "text": "Héparinothérapie"
+        },
+        {
+         "letter": "C",
+         "text": "Antibiothérapie"
+        },
+        {
+         "letter": "D",
+         "text": "Levé précoce"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Antibiothérapie",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La prévention et le traitement de la phlébite reposent sur le lever précoce, la mobilisation, les bas de contention et l'héparine (HBPM). L'antibiothérapie traite l'infection, pas la thrombose.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Complications des suites de couches – phlébite p. 107 ; Cardiopathie et grossesse p. 42",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les cancers ci-dessous, lequel est le premier cancer de femme dans le monde?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Cancer de l'endomètre"
+        },
+        {
+         "letter": "B",
+         "text": "Cancer du col de l'utérus"
+        },
+        {
+         "letter": "C",
+         "text": "Cancer du sein"
+        },
+        {
+         "letter": "D",
+         "text": "Cancer de l'ovaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Cancer du sein",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le cancer du sein est le premier cancer de la femme ; en Côte d'Ivoire, il est suivi du cancer du col de l'utérus. Remarque : Le cours donne ce classement pour la Côte d'Ivoire ; il est le même au niveau mondial (hors cours).\n\nSource : Gynéco L2 IDE (INFAS 2025), Le cancer du sein (pertinence)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les complications suivantes, lequel n'est pas une complication infectieuse des suites de couche?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Endométrite du post partum"
+        },
+        {
+         "letter": "B",
+         "text": "Rétention placentaire"
+        },
+        {
+         "letter": "C",
+         "text": "Pelvi péritonite"
+        },
+        {
+         "letter": "D",
+         "text": "Infection urinaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Rétention placentaire",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Endométrite, pelvipéritonite et infection urinaire sont des infections du post-partum. La rétention placentaire est une cause d'hémorragie (le « T » de Tissu), même si elle peut secondairement favoriser une endométrite.\n\nSource : Module SONU – PNSME, HPP – les 4T p. 50 ; Cours de soins obstétricaux L2 SF, HPP tardif p. 108",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lequel de ces éléments ne fait pas partie des risques néonataux du diabète ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hypocalcémie"
+        },
+        {
+         "letter": "B",
+         "text": "Anémie"
+        },
+        {
+         "letter": "C",
+         "text": "Hypoglycémie"
+        },
+        {
+         "letter": "D",
+         "text": "Détresse respiratoire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Anémie",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le nouveau-né de mère diabétique est exposé à l'hypoglycémie, l'hypocalcémie, la détresse respiratoire, l'ictère et à la polyglobulie (et non à l'anémie).\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Diabète et grossesse – complications néonatales p. 39-40",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Concernant le cancer du col (cocher la réponse fausse) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'agent pathogène est le Human papilloma virus"
+        },
+        {
+         "letter": "B",
+         "text": "Il est de bon pronostic"
+        },
+        {
+         "letter": "C",
+         "text": "1er cancer de la femme"
+        },
+        {
+         "letter": "D",
+         "text": "La multipartenariat sexuel est un facteur de risque"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 1er cancer de la femme",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le cancer du col est lié au papillomavirus (HPV 16 et 18) et au comportement sexuel (multipartenariat, rapports précoces). Ce n'est pas le 1er cancer de la femme : c'est le cancer du sein. Remarque : « Il est de bon pronostic » n'est vrai que pour les formes dépistées tôt ; seule l'option C est retenue comme fausse.\n\nSource : Gynéco L2 IDE (INFAS 2025), Cancer du col (facteurs de risque) ; Cancer du sein",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Mme V. consulte pour examen prénatal du 4e mois. Au spéculum on observe une muqueuse cervico-vaginale inflammatoire et des leucorrhées verdâtres, bulleuses et abondantes. L'aspect décrit permet d'évoquer a priori :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une mycose"
+        },
+        {
+         "letter": "B",
+         "text": "Une endocervicite"
+        },
+        {
+         "letter": "C",
+         "text": "Une chlamydiose"
+        },
+        {
+         "letter": "D",
+         "text": "Une vaginose bactérienne"
+        },
+        {
+         "letter": "E",
+         "text": "Une trichomonose"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "E. Une trichomonose",
+       "answerLetters": [
+        "E"
+       ],
+       "explanation": "Les leucorrhées à Trichomonas vaginalis sont très abondantes, liquides, mousseuses (bulleuses), verdâtres ou jaunâtres, avec un col rouge framboisé. La mycose donne des pertes blanches « lait caillé » ; la vaginose, des pertes grises à odeur de poisson.\n\nSource : Gynéco L2 IDE (INFAS 2025), Leucorrhées à Trichomonas vaginalis – signes cliniques",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__40",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Madame Rokia, âgée de 25 ans, est enceinte pour la 3e fois. Indiquez les 2 antécédents qui doivent faire dépister un diabète gestationnel.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le premier enfant pesait 4000 g."
+        },
+        {
+         "letter": "B",
+         "text": "À sa deuxième grossesse, elle a eu une fausse couche spontanée à 10 SA."
+        },
+        {
+         "letter": "C",
+         "text": "Elle est obèse, son IMC est supérieur à 25 kg/m2."
+        },
+        {
+         "letter": "D",
+         "text": "Le deuxième enfant est drépanocytaire."
+        },
+        {
+         "letter": "E",
+         "text": "À sa troisième grossesse, elle a eu une pyélonéphrite"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Le premier enfant pesait 4000 g. ; C. Elle est obèse, son IMC est supérieur à 25 kg/m2.",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Les critères de O'Sullivan comprennent l'antécédent de gros enfant (macrosomie) et l'obésité. Une fausse couche isolée, un enfant drépanocytaire ou une pyélonéphrite ne sont pas des critères de dépistage. Remarque : Le cours fixe le gros fœtus à plus de 4000 g et l'obésité à un poids supérieur de 20 % au poids idéal ; les seuils de l'énoncé sont proches.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Diabète gestationnel – dépistage (critères de O'Sullivan) p. 45",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__41",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Citez 2 complications de la drépanocytose majeure au cours de la grossesse :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les avortements."
+        },
+        {
+         "letter": "B",
+         "text": "L'hypotrophie fœtale."
+        },
+        {
+         "letter": "C",
+         "text": "Un hydramnios."
+        },
+        {
+         "letter": "D",
+         "text": "Les hématomes rétro placentaires."
+        },
+        {
+         "letter": "E",
+         "text": "Aucune de ces réponses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Les avortements. ; B. L'hypotrophie fœtale.",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "Les complications fœtales de la drépanocytose majeure sont l'avortement spontané, l'accouchement prématuré, l'hypotrophie fœtale et la mort fœtale. L'hydramnios et l'HRP n'en font pas partie.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Hémoglobinopathies et grossesse – complications p. 17",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__42",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quels éléments sont en faveur du diagnostic du placenta prævia ? Citez les 2 bonnes réponses",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hémorragie abondante de sang rouge"
+        },
+        {
+         "letter": "B",
+         "text": "Douleurs utérines brutales"
+        },
+        {
+         "letter": "C",
+         "text": "Fréquente souffrance fœtale"
+        },
+        {
+         "letter": "D",
+         "text": "Notion de curetage, de césarienne"
+        },
+        {
+         "letter": "E",
+         "text": "HTA"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Hémorragie abondante de sang rouge ; D. Notion de curetage, de césarienne",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "Le placenta prævia saigne du sang rouge vif, de façon indolore et répétée, avec un fœtus qui va bien ; ses facteurs favorisants sont les cicatrices utérines (césarienne), les curetages/avortements et les manœuvres endo-utérines. Douleur brutale, souffrance fœtale et HTA orientent vers l'HRP.\n\nSource : Gynéco L2 IDE (INFAS 2025), Placenta prævia (étiologie, étude clinique)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__43",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Durant le cycle menstruel : Cocher la bonne réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La durée de la phase lutéale est constante"
+        },
+        {
+         "letter": "B",
+         "text": "L'ovulation est précédée d'un pic de progestérone"
+        },
+        {
+         "letter": "C",
+         "text": "La phase ovulatoire dure toujours 14 jours"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La durée de la phase lutéale est constante",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La phase lutéale (après l'ovulation) dure de façon assez fixe 12 à 14 jours : c'est la phase folliculaire qui varie et fait varier la longueur du cycle. L'ovulation est précédée d'un pic de LH, pas de progestérone.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Explorations (courbe thermique : phase lutéale 12-14 jours) p. 189",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__44",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'hymen chez la femme vierge : Cocher la bonne réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Recouvre l'intégralité de l'orifice vaginal"
+        },
+        {
+         "letter": "B",
+         "text": "Disparaît après les premières menstrues"
+        },
+        {
+         "letter": "C",
+         "text": "Peut se présenter sous plusieurs formes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Peut se présenter sous plusieurs formes",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'hymen est un repli muqueux à l'entrée du vagin, de forme variable (annulaire, semi-lunaire, cribriforme…). Il laisse normalement passer les règles : s'il recouvre tout l'orifice (imperforation), le sang s'accumule (hématocolpos). Il ne disparaît pas avec les règles.\n\nSource : Gynéco L2 IDE (INFAS 2025), Aménorrhées – imperforation de l'hymen ; formes de l'hymen (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__45",
+       "num": "46",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle est la mesure que l'on peut proposer pour prévenir la récidive de la pré-éclampsie chez une femme à haut risque ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le régime sans sel."
+        },
+        {
+         "letter": "B",
+         "text": "La prise de 100 mg d'aspirine par jour jusqu'à l'accouchement."
+        },
+        {
+         "letter": "C",
+         "text": "La prise d'un traitement hypertenseur depuis le début de la grossesse."
+        },
+        {
+         "letter": "D",
+         "text": "La prise de la tension artérielle à chaque CPN"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. La prise de la tension artérielle à chaque CPN",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La prise de la TA à chaque CPN permet de dépister précocement la récidive. L'option B est fausse par sa durée : l'aspirine doit être arrêtée vers 36 SA (ou 10 jours avant l'accouchement) à cause du risque hémorragique. Le régime sans sel est déconseillé. Remarque : L'aspirine reste la vraie mesure préventive du cours (voir question 32) ; ici, c'est la mention « jusqu'à l'accouchement » qui rend l'option B fausse.\n\nSource : Gynéco L2 IDE (INFAS 2025), HTA et grossesse – aspirine (V-1.2)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__46",
+       "num": "47",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Chez la femme enceinte atteinte de paludisme, on observe : Citez la réponse exacte",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Plus d'anémies que chez la femme non enceinte."
+        },
+        {
+         "letter": "B",
+         "text": "Moins d'anémies que chez la femme non enceinte."
+        },
+        {
+         "letter": "C",
+         "text": "Moins d'accès palustre que chez la femme non enceinte"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Plus d'anémies que chez la femme non enceinte.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La grossesse diminue l'immunité : les accès palustres sont plus fréquents et plus graves, et l'anémie est plus fréquente que chez la femme non enceinte. D'où la triple prévention : MILDA, TPI par SP et assainissement.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Paludisme et grossesse p. 6-7 (en partie hors cours)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__47",
+       "num": "48",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les complications maternelles de la drépanocytose majeure au cours de la grossesse sont : Citez les 2 bonnes réponses",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les infections urinaires."
+        },
+        {
+         "letter": "B",
+         "text": "La prise de poids excessive"
+        },
+        {
+         "letter": "C",
+         "text": "Les thromboses."
+        },
+        {
+         "letter": "D",
+         "text": "Le placenta praevia."
+        },
+        {
+         "letter": "E",
+         "text": "La souffrance fœtale aigue"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Les infections urinaires. ; C. Les thromboses.",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Les complications maternelles citées par le cours sont l'anémie, les infections (surtout urinaires et vaginales), la pré-éclampsie et les crises vaso-occlusives (obstruction des capillaires par les hématies falciformes). La souffrance fœtale aiguë est une complication fœtale. Remarque : Le cours parle de crises vaso-occlusives (micro-infarctus) plutôt que de « thromboses ».\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Hémoglobinopathies et grossesse – complications maternelles p. 17",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__48",
+       "num": "49",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans quelle situation, il n'est pas recommandé, voire proscrit de pratiquer un TV ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hématome rétro-placentaire"
+        },
+        {
+         "letter": "B",
+         "text": "Suspicion de Placenta praevia"
+        },
+        {
+         "letter": "C",
+         "text": "Suspicion de rupture utérine"
+        },
+        {
+         "letter": "D",
+         "text": "Hématome décidual"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Suspicion de Placenta praevia",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Devant un placenta prævia, le TV intracervical est interdit car il peut déclencher une hémorragie abondante ; on évite les touchers fréquents et l'échographie confirme le diagnostic.\n\nSource : Gynéco L2 IDE (INFAS 2025), Placenta prævia – toucher vaginal ; SONU L2 SF (2025-2026), CAT devant un placenta prævia",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__49",
+       "num": "50",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les gestes suivants, lequel ne doit pas être réalisé en cas de procidence du cordon battant :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Recouvrir le cordon avec des compresses humide"
+        },
+        {
+         "letter": "B",
+         "text": "Installer la patiente en position de Trendelenburg"
+        },
+        {
+         "letter": "C",
+         "text": "Faire des TV pour surveiller la descente du fœtus"
+        },
+        {
+         "letter": "D",
+         "text": "Faire une césarienne en urgence"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Faire des TV pour surveiller la descente du fœtus",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Devant un cordon battant, on protège le cordon (compresses humides tièdes), on refoule la présentation et on met la patiente en Trendelenburg, puis on extrait l'enfant en urgence (césarienne si la dilatation n'est pas complète). Des TV répétés manipulent le cordon et retardent l'extraction.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__50",
+       "num": "51",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique (réponse correcte = +1 ; réponse incorrecte = –1). Mme Touré M., sans profession, âgée de 27 ans, G4 P3, est hospitalisée à 37 semaines d'aménorrhée. À 21 h 30, elle est en début de travail, à 3 cm, poche des eaux bombante, sans métrorragies. La présentation est céphalique, fixée. La grossesse a été marquée par des métrorragies au 1er trimestre. L'échographie avait confirmé une insertion antérieure basse du placenta à 34 SA. Le taux d'hémoglobine avant l'accouchement a été trouvé à 10 g/100 ml. Le travail est dirigé (perfusion de Syntocinon®, rupture artificielle des membranes). L'accouchement a lieu après 15 h de travail, avec épisiotomie : naissance d'une fille pesant 4300 g. Le placenta et les annexes sont complets après la délivrance. L'examen de la filière génitale n'a pas révélé de lésions des parties molles. 30 min plus tard, la quantité de sang dans le bassin est mesurée à 300 ml. La patiente est obnubilée. La TA est à 75/60 (120/70 avant l'accouchement), le pouls à 122 (80 avant l'accouchement).",
+       "text": "Quel est votre diagnostic suite à ces résultats ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Suites de couches normales"
+        },
+        {
+         "letter": "B",
+         "text": "Hémorragie du post partum immédiat"
+        },
+        {
+         "letter": "C",
+         "text": "Endométrite du post partum"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Hémorragie du post partum immédiat",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Un saignement dans les 24 heures après l'accouchement, avec chute de la TA, tachycardie et obnubilation, est une hémorragie du post-partum immédiat. L'endométrite est une complication infectieuse plus tardive (fièvre, lochies fétides).\n\nSource : Module SONU – PNSME, Hémorragie du post-partum p. 50 ; SONU L2 SF (2025-2026), HPP – définitions",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__51",
+       "num": "52",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique (réponse correcte = +1 ; réponse incorrecte = –1). Mme Touré M., sans profession, âgée de 27 ans, G4 P3, est hospitalisée à 37 semaines d'aménorrhée. À 21 h 30, elle est en début de travail, à 3 cm, poche des eaux bombante, sans métrorragies. La présentation est céphalique, fixée. La grossesse a été marquée par des métrorragies au 1er trimestre. L'échographie avait confirmé une insertion antérieure basse du placenta à 34 SA. Le taux d'hémoglobine avant l'accouchement a été trouvé à 10 g/100 ml. Le travail est dirigé (perfusion de Syntocinon®, rupture artificielle des membranes). L'accouchement a lieu après 15 h de travail, avec épisiotomie : naissance d'une fille pesant 4300 g. Le placenta et les annexes sont complets après la délivrance. L'examen de la filière génitale n'a pas révélé de lésions des parties molles. 30 min plus tard, la quantité de sang dans le bassin est mesurée à 300 ml. La patiente est obnubilée. La TA est à 75/60 (120/70 avant l'accouchement), le pouls à 122 (80 avant l'accouchement).",
+       "text": "Dans cette situation, on peut dire qu'il s'agit d'une hémorragie du post partum immédiat parce que :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Elle est inférieure à 500 ml"
+        },
+        {
+         "letter": "B",
+         "text": "Le pouls s'accélère"
+        },
+        {
+         "letter": "C",
+         "text": "Il n'y a pas de lésion traumatique"
+        },
+        {
+         "letter": "D",
+         "text": "La tension artérielle s'abaisse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Le pouls s'accélère ; D. La tension artérielle s'abaisse",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "L'HPP se définit par une perte de plus de 500 ml après un accouchement par voie basse ou par une perte qui entraîne une instabilité hémodynamique (chute de la TA, tachycardie). Ici, 300 ml seulement mais TA 75/60 et pouls 122 : c'est une HPP.\n\nSource : SONU L2 SF (2025-2026), Hémorragie du post-partum – définition",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__52",
+       "num": "53",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique (réponse correcte = +1 ; réponse incorrecte = –1). Mme Touré M., sans profession, âgée de 27 ans, G4 P3, est hospitalisée à 37 semaines d'aménorrhée. À 21 h 30, elle est en début de travail, à 3 cm, poche des eaux bombante, sans métrorragies. La présentation est céphalique, fixée. La grossesse a été marquée par des métrorragies au 1er trimestre. L'échographie avait confirmé une insertion antérieure basse du placenta à 34 SA. Le taux d'hémoglobine avant l'accouchement a été trouvé à 10 g/100 ml. Le travail est dirigé (perfusion de Syntocinon®, rupture artificielle des membranes). L'accouchement a lieu après 15 h de travail, avec épisiotomie : naissance d'une fille pesant 4300 g. Le placenta et les annexes sont complets après la délivrance. L'examen de la filière génitale n'a pas révélé de lésions des parties molles. 30 min plus tard, la quantité de sang dans le bassin est mesurée à 300 ml. La patiente est obnubilée. La TA est à 75/60 (120/70 avant l'accouchement), le pouls à 122 (80 avant l'accouchement).",
+       "text": "La cause de cette hémorragie du post partum immédiat peut être ici :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une hypotonie utérine"
+        },
+        {
+         "letter": "B",
+         "text": "Une déchirure du col"
+        },
+        {
+         "letter": "C",
+         "text": "Une déchirure vaginale"
+        },
+        {
+         "letter": "D",
+         "text": "L'anémie antérieure"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Une hypotonie utérine",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le placenta est complet et la filière génitale est sans lésion : il reste l'atonie (hypotonie) utérine, favorisée ici par le travail long (15 h) dirigé au Syntocinon®, le gros enfant (4300 g) et la multiparité. L'anémie aggrave la tolérance mais n'est pas la cause du saignement.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), HPPI par atonie utérine p. 57-59 ; Module SONU – PNSME, les 4T p. 50",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__53",
+       "num": "54",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique (réponse correcte = +1 ; réponse incorrecte = –1). Mme Touré M., sans profession, âgée de 27 ans, G4 P3, est hospitalisée à 37 semaines d'aménorrhée. À 21 h 30, elle est en début de travail, à 3 cm, poche des eaux bombante, sans métrorragies. La présentation est céphalique, fixée. La grossesse a été marquée par des métrorragies au 1er trimestre. L'échographie avait confirmé une insertion antérieure basse du placenta à 34 SA. Le taux d'hémoglobine avant l'accouchement a été trouvé à 10 g/100 ml. Le travail est dirigé (perfusion de Syntocinon®, rupture artificielle des membranes). L'accouchement a lieu après 15 h de travail, avec épisiotomie : naissance d'une fille pesant 4300 g. Le placenta et les annexes sont complets après la délivrance. L'examen de la filière génitale n'a pas révélé de lésions des parties molles. 30 min plus tard, la quantité de sang dans le bassin est mesurée à 300 ml. La patiente est obnubilée. La TA est à 75/60 (120/70 avant l'accouchement), le pouls à 122 (80 avant l'accouchement).",
+       "text": "Dans cette situation, il faut :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Réaliser une révision utérine"
+        },
+        {
+         "letter": "B",
+         "text": "Mettre en place une perfusion d'ocytociques"
+        },
+        {
+         "letter": "C",
+         "text": "Vérifier l'intégrité du col utérin (si déchirure, la suturer)"
+        },
+        {
+         "letter": "D",
+         "text": "Vérifier l'intégrité du vagin (si déchirure, la suturer)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Mettre en place une perfusion d'ocytociques",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Devant une atonie, on prend une bonne voie veineuse avec 10 UI d'ocytocine dans 500 ml de sérum salé et on masse l'utérus. Le col et le vagin ont déjà été examinés (pas de lésion), C et D ne sont donc plus à faire.\n\nSource : Cours de soins obstétricaux L2 SF, CAT devant une atonie utérine p. 107 ; Gynécologie-Obstétrique L3 SF (INFAS 2024-2025) p. 59",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__54",
+       "num": "55",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique (réponse correcte = +1 ; réponse incorrecte = –1). Mme Touré M., sans profession, âgée de 27 ans, G4 P3, est hospitalisée à 37 semaines d'aménorrhée. À 21 h 30, elle est en début de travail, à 3 cm, poche des eaux bombante, sans métrorragies. La présentation est céphalique, fixée. La grossesse a été marquée par des métrorragies au 1er trimestre. L'échographie avait confirmé une insertion antérieure basse du placenta à 34 SA. Le taux d'hémoglobine avant l'accouchement a été trouvé à 10 g/100 ml. Le travail est dirigé (perfusion de Syntocinon®, rupture artificielle des membranes). L'accouchement a lieu après 15 h de travail, avec épisiotomie : naissance d'une fille pesant 4300 g. Le placenta et les annexes sont complets après la délivrance. L'examen de la filière génitale n'a pas révélé de lésions des parties molles. 30 min plus tard, la quantité de sang dans le bassin est mesurée à 300 ml. La patiente est obnubilée. La TA est à 75/60 (120/70 avant l'accouchement), le pouls à 122 (80 avant l'accouchement).",
+       "text": "Si malgré ces mesures, le saignement anormal persiste parce que l'utérus reste hypotonique, vous pouvez avoir recours à ces gestes suivants :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Réaliser un massage de l'utérus"
+        },
+        {
+         "letter": "B",
+         "text": "Réaliser une injection intramusculaire de Syntocinon® ou de prostaglandines"
+        },
+        {
+         "letter": "C",
+         "text": "Réaliser une ligature des artères hypogastriques"
+        },
+        {
+         "letter": "D",
+         "text": "Ralentir la perfusion IV ou de prostaglandines"
+        },
+        {
+         "letter": "E",
+         "text": "Mettre en place un ballonnet intra-utérin"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Réaliser un massage de l'utérus ; E. Mettre en place un ballonnet intra-utérin",
+       "answerLetters": [
+        "A",
+        "E"
+       ],
+       "explanation": "Si l'atonie persiste : massage utérin, compression bimanuelle, misoprostol par voie rectale, puis tamponnement intra-utérin par ballonnet (préservatif sur sonde de Foley). La ligature des artères hypogastriques est un geste chirurgical en centre de référence ; ralentir la perfusion est contraire au but. Remarque : Le cours prévoit l'ocytocine en perfusion et le misoprostol par voie rectale plutôt qu'une injection IM ; c'est pourquoi l'option B n'est pas retenue.\n\nSource : Cours de soins obstétricaux L2 SF, CAT devant une atonie utérine p. 107 ; Module SONU – PNSME, pose du ballonnet intra-utérin p. 62",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j4-sf3__55",
+       "num": "56",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique (réponse correcte = +1 ; réponse incorrecte = –1). Mme Touré M., sans profession, âgée de 27 ans, G4 P3, est hospitalisée à 37 semaines d'aménorrhée. À 21 h 30, elle est en début de travail, à 3 cm, poche des eaux bombante, sans métrorragies. La présentation est céphalique, fixée. La grossesse a été marquée par des métrorragies au 1er trimestre. L'échographie avait confirmé une insertion antérieure basse du placenta à 34 SA. Le taux d'hémoglobine avant l'accouchement a été trouvé à 10 g/100 ml. Le travail est dirigé (perfusion de Syntocinon®, rupture artificielle des membranes). L'accouchement a lieu après 15 h de travail, avec épisiotomie : naissance d'une fille pesant 4300 g. Le placenta et les annexes sont complets après la délivrance. L'examen de la filière génitale n'a pas révélé de lésions des parties molles. 30 min plus tard, la quantité de sang dans le bassin est mesurée à 300 ml. La patiente est obnubilée. La TA est à 75/60 (120/70 avant l'accouchement), le pouls à 122 (80 avant l'accouchement).",
+       "text": "Les mesures misent en place réussissent à arrêter les saignements. La patiente souhaite être mise sous contraception avant sa sortie. Quels sont les 2 méthodes que vous lui proposez ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La contraception orale"
+        },
+        {
+         "letter": "B",
+         "text": "Le dispositif intra-utérin"
+        },
+        {
+         "letter": "C",
+         "text": "L'implant"
+        },
+        {
+         "letter": "D",
+         "text": "Les contraceptifs injectables"
+        },
+        {
+         "letter": "E",
+         "text": "La ligature tubaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Le dispositif intra-utérin ; C. L'implant",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Dans le post-partum immédiat, le DIU peut être posé dans les 48 premières heures (catégorie 1) et l'implant est utilisable (catégorie 2). Les injectables (catégorie 3 avant 48 h chez la femme qui allaite) et les œstroprogestatifs (catégorie 4) sont à éviter. Remarque : La ligature tubaire est aussi possible après l'accouchement, mais c'est une méthode définitive ; la correction nationale de la Prépa DE (les J) retient les deux méthodes de longue durée réversibles.\n\nSource : Cours de SR/PF L2 (INFAS 2023), DIU du post-partum et critères d'éligibilité (3.5) ; Document SSR L2 SF (cours SR/PF, INFAS)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

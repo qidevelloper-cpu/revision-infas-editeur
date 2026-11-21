@@ -1,0 +1,2035 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zq-sj-prepa-ssrpf-j3-sf3",
+ "titre": "Préparation D.E (J) · J3 SSR/PF SF3",
+ "session": "J",
+ "annee": 2026,
+ "nq": 55,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+   "sha256": "9ee0174cae6a310ff499e14b7685289c3bf3a2155e497e3971a6b1d18f45aa2e"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J SSR / PF · Prépa D.E J3 (SF3)",
+     "slug": "prepa-ssrpf-j3-sf3",
+     "pages": "",
+     "count": 55,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "SSR / PF",
+     "source": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__0",
+       "num": "5",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas 1 : Awa, 24 ans, mariée et mère de deux enfants, se présente dans un centre de planification familiale. Elle souhaite éviter une nouvelle grossesse pendant au moins trois ans. Elle n'a jamais utilisé de méthode contraceptive moderne et se dit inquiète des effets secondaires des méthodes hormonales. Elle demande au prestataire de choisir une méthode à sa place.",
+       "text": "Quelle doit être la première attitude du prestataire lorsqu'Awa arrive au centre de planification familiale ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'accueillir chaleureusement, garantir la confidentialité des échanges et écouter sans jugement."
+        },
+        {
+         "letter": "B",
+         "text": "Lui présenter immédiatement la liste de toutes les méthodes contraceptives modernes disponibles sur place."
+        },
+        {
+         "letter": "C",
+         "text": "La questionner d'emblée sur l'accord préalable de son conjoint concernant la régulation des naissances."
+        },
+        {
+         "letter": "D",
+         "text": "Lui programmer en priorité un examen gynécologique complet avant de débuter le moindre entretien direct."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. L'accueillir chaleureusement, garantir la confidentialité des échanges et écouter sans jugement.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La consultation et le counseling commencent par l'accueil : souhaiter la bienvenue, se présenter, garantir la confidentialité (étapes « B » de BERCER et « R » de REDI). Les informations sur les méthodes et l'examen viennent après.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Counseling en PF » et « Consultation en PF »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__1",
+       "num": "6",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas 1 : Awa, 24 ans, mariée et mère de deux enfants, se présente dans un centre de planification familiale. Elle souhaite éviter une nouvelle grossesse pendant au moins trois ans. Elle n'a jamais utilisé de méthode contraceptive moderne et se dit inquiète des effets secondaires des méthodes hormonales. Elle demande au prestataire de choisir une méthode à sa place.",
+       "text": "Awa souhaite éviter une grossesse pendant au moins trois ans. Que doit faire le prestataire pour identifier la méthode appropriée ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Lui administrer sans attendre un injectable hormonal trimestriel pour assurer une protection immédiate absolue."
+        },
+        {
+         "letter": "B",
+         "text": "Consulter le registre de l'établissement afin d'appliquer la méthode la plus souvent prescrite au centre."
+        },
+        {
+         "letter": "C",
+         "text": "Réaliser un examen clinique global, vérifier l'éligibilité médicale et discuter des méthodes à longue durée."
+        },
+        {
+         "letter": "D",
+         "text": "L'orienter vers une méthode barrière temporaire en attendant qu'elle atteigne l'âge requis pour un implant."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Réaliser un examen clinique global, vérifier l'éligibilité médicale et discuter des méthodes à longue durée.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le choix se fait après l'interrogatoire et l'examen (recherche des contre-indications selon les critères médicaux d'éligibilité de l'OMS), puis discussion des méthodes adaptées à son projet de 3 ans (DIU, implant…). Il n'y a pas d'âge minimum pour l'implant.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Consultation en PF » et « Critères médicaux d'éligibilité »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__2",
+       "num": "7",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas 1 : Awa, 24 ans, mariée et mère de deux enfants, se présente dans un centre de planification familiale. Elle souhaite éviter une nouvelle grossesse pendant au moins trois ans. Elle n'a jamais utilisé de méthode contraceptive moderne et se dit inquiète des effets secondaires des méthodes hormonales. Elle demande au prestataire de choisir une méthode à sa place.",
+       "text": "Awa est inquiète des effets secondaires des méthodes hormonales. Comment le prestataire doit-il répondre à cette préoccupation ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Écouter attentivement sa crainte, dissiper les idées fausses et lui présenter le DIU au cuivre."
+        },
+        {
+         "letter": "B",
+         "text": "La rassurer en lui affirmant fermement que les hormones ne provoquent jamais le moindre effet secondaire."
+        },
+        {
+         "letter": "C",
+         "text": "Lui recommander de renoncer à la planification familiale si elle ne supporte aucun risque théorique."
+        },
+        {
+         "letter": "D",
+         "text": "Ignorer son inquiétude passagère et lui imposer la pilule oestroprogestative comme seule alternative viable."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Écouter attentivement sa crainte, dissiper les idées fausses et lui présenter le DIU au cuivre.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le counseling doit enlever la peur, dissiper les doutes et rejeter les conceptions erronées. Le DIU au cuivre est une méthode de longue durée (12 ans) sans effet secondaire hormonal.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Counseling en PF » et « DIU »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__3",
+       "num": "8",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas 1 : Awa, 24 ans, mariée et mère de deux enfants, se présente dans un centre de planification familiale. Elle souhaite éviter une nouvelle grossesse pendant au moins trois ans. Elle n'a jamais utilisé de méthode contraceptive moderne et se dit inquiète des effets secondaires des méthodes hormonales. Elle demande au prestataire de choisir une méthode à sa place.",
+       "text": "Awa demande au prestataire de choisir une méthode à sa place. Quelle attitude le prestataire doit-il adopter selon l'approche BERCER ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Accepter de choisir pour elle afin de lui faire gagner du temps et d'éviter des hésitations inutiles."
+        },
+        {
+         "letter": "B",
+         "text": "Demander à sa famille de trancher à sa place pour garantir le respect des traditions de son foyer."
+        },
+        {
+         "letter": "C",
+         "text": "Sélectionner d'office la méthode la moins chère sans lui demander son avis sur ce choix final."
+        },
+        {
+         "letter": "D",
+         "text": "Refuser de choisir à sa place, lui résumer les options et l'accompagner vers une décision autonome."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Refuser de choisir à sa place, lui résumer les options et l'accompagner vers une décision autonome.",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Étape « C » (Choix) de BERCER : aider la cliente à choisir la méthode qui répond le mieux à ses besoins, « ne pas choisir à sa place ».\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Counseling en PF » (étapes BERCER)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__4",
+       "num": "9",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas 1 : Awa, 24 ans, mariée et mère de deux enfants, se présente dans un centre de planification familiale. Elle souhaite éviter une nouvelle grossesse pendant au moins trois ans. Elle n'a jamais utilisé de méthode contraceptive moderne et se dit inquiète des effets secondaires des méthodes hormonales. Elle demande au prestataire de choisir une méthode à sa place.",
+       "text": "Après avoir choisi une méthode contraceptive avec Awa, quelles consignes le prestataire doit-il lui donner avant son départ ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Lui remettre sa méthode contraceptive sans explication supplémentaire pour ne pas surcharger sa mémoire."
+        },
+        {
+         "letter": "B",
+         "text": "Lui demander de ne plus jamais revenir au centre sauf en cas de complication médicale extrêmement grave."
+        },
+        {
+         "letter": "C",
+         "text": "Expliquer l'utilisation, préciser la gestion des effets secondaires, donner les signes d'alerte et fixer un suivi."
+        },
+        {
+         "letter": "D",
+         "text": "Lui interdire tout rapport sexuel durant le premier mois d'utilisation pour garantir une efficacité totale."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Expliquer l'utilisation, préciser la gestion des effets secondaires, donner les signes d'alerte et fixer un suivi.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Étapes « E » (Explications : mode d'utilisation, effets secondaires normaux, signes d'alarme) et « R » (Rendez-vous/Référence) de BERCER.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Counseling en PF » (étapes BERCER)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__5",
+       "num": "10",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas 2 : Mariam, 19 ans, célibataire, vient au centre de PF pour demander une méthode contraceptive. Elle a un nouveau partenaire et souhaite éviter une grossesse. Elle hésite entre la pilule et l'implant. Elle révèle qu'elle a parfois des rapports sexuels non protégés et qu'elle ne sait pas si son partenaire accepte l'utilisation du préservatif. Elle craint que le prestataire la juge en raison de son âge et de sa situation matrimoniale.",
+       "text": "Face à la crainte de Mariam d'être jugée en raison de son âge et de sa situation matrimoniale, quelle attitude le prestataire doit-il adopter ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Reporter la consultation à plus tard pour exiger la présence obligatoire de l'un de ses deux parents."
+        },
+        {
+         "letter": "B",
+         "text": "Adopter une posture neutre et bienveillante, assurer la confidentialité et instaurer un climat de confiance."
+        },
+        {
+         "letter": "C",
+         "text": "Lui rappeler calmement qu'à son âge, la priorité devrait être l'abstinence plutôt que la contraception."
+        },
+        {
+         "letter": "D",
+         "text": "Lui faire des remarques moralisatrices sur les risques de la sexualité hors mariage chez les jeunes."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Adopter une posture neutre et bienveillante, assurer la confidentialité et instaurer un climat de confiance.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les adolescentes et jeunes filles ne doivent pas être sujettes aux préjugés : le prestataire crée un climat de confiance en insistant sur le caractère privé et confidentiel de l'entretien ; l'accès à la PF ne dépend pas de la situation matrimoniale.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Groupes particuliers – contraception des adolescents »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__6",
+       "num": "11",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas 2 : Mariam, 19 ans, célibataire, vient au centre de PF pour demander une méthode contraceptive. Elle a un nouveau partenaire et souhaite éviter une grossesse. Elle hésite entre la pilule et l'implant. Elle révèle qu'elle a parfois des rapports sexuels non protégés et qu'elle ne sait pas si son partenaire accepte l'utilisation du préservatif. Elle craint que le prestataire la juge en raison de son âge et de sa situation matrimoniale.",
+       "text": "Mariam hésite entre la pilule et l'implant. Comment le prestataire peut-il l'aider à prendre une décision adaptée à ses besoins ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Comparer le mode de vie et l'efficacité des deux méthodes afin qu'elle choisisse la plus adaptée pour elle."
+        },
+        {
+         "letter": "B",
+         "text": "Lui imposer d'emblée la pilule contraceptive qui reste toujours la seule méthode adaptée aux jeunes."
+        },
+        {
+         "letter": "C",
+         "text": "Lui prescrire impérativement l'implant pour lui éviter tout risque d'oubli quotidien de son traitement."
+        },
+        {
+         "letter": "D",
+         "text": "Refuser de lui présenter ces deux options contraceptives tant qu'elle ne vient pas accompagnée au centre."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Comparer le mode de vie et l'efficacité des deux méthodes afin qu'elle choisisse la plus adaptée pour elle.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Étape « D » de REDI : explorer les options, aider la cliente à évaluer avantages, inconvénients et conséquences de chacune, et l'encourager à décider elle-même.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Counseling en PF » (approche REDI)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__7",
+       "num": "12",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas 2 : Mariam, 19 ans, célibataire, vient au centre de PF pour demander une méthode contraceptive. Elle a un nouveau partenaire et souhaite éviter une grossesse. Elle hésite entre la pilule et l'implant. Elle révèle qu'elle a parfois des rapports sexuels non protégés et qu'elle ne sait pas si son partenaire accepte l'utilisation du préservatif. Elle craint que le prestataire la juge en raison de son âge et de sa situation matrimoniale.",
+       "text": "Mariam déclare avoir parfois des rapports sexuels non protégés. Quelle préoccupation supplémentaire le prestataire doit-il prendre en compte ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Suspendre immédiatement le counseling contraceptif tant qu'un bilan sanguin complet n'a pas été réalisé."
+        },
+        {
+         "letter": "B",
+         "text": "Informer les autorités sanitaires de la ville pour assurer le suivi épidémiologique de ses partenaires."
+        },
+        {
+         "letter": "C",
+         "text": "Minimiser la situation déclarée car ces prises de risques restent courantes chez les jeunes de son âge."
+        },
+        {
+         "letter": "D",
+         "text": "Evaluer le besoin d'une contraception d'urgence et proposer un dépistage des infections sexuellement transmissibles."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Evaluer le besoin d'une contraception d'urgence et proposer un dépistage des infections sexuellement transmissibles.",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Un rapport non protégé récent peut nécessiter une contraception d'urgence ; la phase « Exploration » de REDI inclut aussi les antécédents d'IST/VIH et l'aide à percevoir son risque.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Groupes particuliers – contraception d'urgence » et « Counseling (REDI) »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__8",
+       "num": "13",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas 2 : Mariam, 19 ans, célibataire, vient au centre de PF pour demander une méthode contraceptive. Elle a un nouveau partenaire et souhaite éviter une grossesse. Elle hésite entre la pilule et l'implant. Elle révèle qu'elle a parfois des rapports sexuels non protégés et qu'elle ne sait pas si son partenaire accepte l'utilisation du préservatif. Elle craint que le prestataire la juge en raison de son âge et de sa situation matrimoniale.",
+       "text": "Mariam ne sait pas si son partenaire acceptera l'utilisation du préservatif. Comment le prestataire peut-il l'accompagner ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Aborder le concept de double protection, former à la négociation et faire connaître le préservatif féminin."
+        },
+        {
+         "letter": "B",
+         "text": "Lui conseiller de cesser immédiatement toute relation avec ce partenaire s'il refuse le préservatif."
+        },
+        {
+         "letter": "C",
+         "text": "Lui expliquer que le refus du partenaire est inévitable et qu'il ne sert à rien de négocier avec lui."
+        },
+        {
+         "letter": "D",
+         "text": "Exiger qu'elle amène son partenaire au centre avant de lui délivrer la moindre méthode contraceptive."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Aborder le concept de double protection, former à la négociation et faire connaître le préservatif féminin.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "REDI (exploration et mise en application) : expliquer la double protection, aider la cliente à acquérir les aptitudes pour utiliser et négocier le préservatif. Le préservatif féminin est contrôlé par la femme.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Counseling en PF » et « Méthodes de barrière »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__9",
+       "num": "14",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas 2 : Mariam, 19 ans, célibataire, vient au centre de PF pour demander une méthode contraceptive. Elle a un nouveau partenaire et souhaite éviter une grossesse. Elle hésite entre la pilule et l'implant. Elle révèle qu'elle a parfois des rapports sexuels non protégés et qu'elle ne sait pas si son partenaire accepte l'utilisation du préservatif. Elle craint que le prestataire la juge en raison de son âge et de sa situation matrimoniale.",
+       "text": "Pourquoi l'approche REDI est-elle particulièrement importante dans la situation de Mariam ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Elle permet de réduire la durée de consultation à moins de cinq minutes pour chaque patiente reçue."
+        },
+        {
+         "letter": "B",
+         "text": "Elle brise les barrières socio-culturelles, explore son contexte global et renforce son autonomie de décision."
+        },
+        {
+         "letter": "C",
+         "text": "Elle oblige le soignant à imposer la meilleure solution médicale sans tenir compte de l'avis du patient."
+        },
+        {
+         "letter": "D",
+         "text": "Elle remplace avantageusement l'examen clinique par un simple questionnaire automatisé à remplir seule."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Elle brise les barrières socio-culturelles, explore son contexte global et renforce son autonomie de décision.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "REDI explore le contexte social, les relations, la sexualité et le risque d'IST de la cliente, puis l'aide à prendre et appliquer elle-même sa décision.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Counseling en PF » (approche REDI) Questions de cours",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__10",
+       "num": "15",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lors de la prise de décision le prestataire : (choisir la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Aide la cliente à la mise en application de la décision."
+        },
+        {
+         "letter": "B",
+         "text": "Aide la cliente à trouver une solution à son problème de santé de la reproduction"
+        },
+        {
+         "letter": "C",
+         "text": "Donne un diagnostic à la fiche de consultation."
+        },
+        {
+         "letter": "D",
+         "text": "Donne un traitement des problèmes liés à la santé de la reproduction."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Donne un diagnostic à la fiche de consultation.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La prise de décision vient après l'interrogatoire et les examens : le prestataire analyse et interprète les données recueillies, ce qui aboutit à une conclusion (diagnostic) notée sur la fiche, puis discute avec la cliente des méthodes adaptées.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Consultation en PF » (étape « Prise de décision »)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__11",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La population cible dans la causerie éducative est un groupe de (choisir la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "25 personnes au plus."
+        },
+        {
+         "letter": "B",
+         "text": "20 personnes au plus."
+        },
+        {
+         "letter": "C",
+         "text": "25 personnes au moins."
+        },
+        {
+         "letter": "D",
+         "text": "20 personnes au moins."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 20 personnes au plus.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Préparation de la causerie : choisir le groupe cible, au plus 20 personnes, pour garder un échange interactif.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Causerie éducative »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__12",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes deux font parties des avantages du coït interrompu lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une proposition efficace contre les IST."
+        },
+        {
+         "letter": "B",
+         "text": "Gratuité"
+        },
+        {
+         "letter": "C",
+         "text": "Une efficacité immédiate."
+        },
+        {
+         "letter": "D",
+         "text": "Indiqué en cas d'éjaculation précoce."
+        },
+        {
+         "letter": "E",
+         "text": "Efficacité totale."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Gratuité ; C. Une efficacité immédiate.",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Avantages du coït interrompu : efficacité immédiate, gratuit, pas de produit, pas d'effets secondaires, participation masculine. Il ne protège pas contre les IST et ne convient pas en cas d'éjaculation précoce.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Coït interrompu »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__13",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les deux éléments indispensables pour évaluer l'état de stock sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le niveau de stock minimum"
+        },
+        {
+         "letter": "B",
+         "text": "Le niveau de stock maximum"
+        },
+        {
+         "letter": "C",
+         "text": "Le SDU"
+        },
+        {
+         "letter": "D",
+         "text": "La CMM"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Le SDU ; D. La CMM",
+       "answerLetters": [
+        "C",
+        "D"
+       ],
+       "explanation": "L'état de stock s'exprime en mois de stock : stock disponible et utilisable (SDU) divisé par la consommation mensuelle moyenne (CMM). Les niveaux min et max servent ensuite à décider de commander. Remarque : Le cours ne détaille pas la formule ; l'explication est complétée par des connaissances générales de gestion logistique.\n\nSource : Cours de SR/PF L2 (INFAS 2023), annexe 2 « Gestion logistique » (évaluation de l'état de stock) ; Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Organisation et gestion d'un centre de PF »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__14",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes quels sont les conseils pratiques pour réussir la causerie éducative : (choisir les deux bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'animateur doit être convaincu de la pertinence et des bienfaits du thème choisi afin de pouvoir convaincre sa population cible."
+        },
+        {
+         "letter": "B",
+         "text": "L'animateur doit recueillir les expériences de l'auditoire pendant la causerie."
+        },
+        {
+         "letter": "C",
+         "text": "L'animateur doit faire attention aux tics de l'auditoire."
+        },
+        {
+         "letter": "D",
+         "text": "L'animateur doit déterminer la durée de la causerie à l'avance."
+        },
+        {
+         "letter": "E",
+         "text": "L'animateur doit toujours rester dans le sujet."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. L'animateur doit être convaincu de la pertinence et des bienfaits du thème choisi afin de pouvoir convaincre sa population cible. ; C. L'animateur doit faire attention aux tics de l'auditoire.",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Parmi les « conseils pratiques » du cours : être convaincu soi-même avant de convaincre, faire attention aux tics. Recueillir les expériences relève de l'exécution ; « rester dans le sujet » est une qualité de l'animateur. Remarque : Le cours cite aussi parmi les conseils « fixer le temps et la durée en fonction du milieu et du public », proche de l'option 4.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Causerie éducative » (conseils pratiques)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__15",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, deux font partie des ATCD gynécologiques lors de la consultation en PF lesquelles ? :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Gestité parité."
+        },
+        {
+         "letter": "B",
+         "text": "Age aux premières règles."
+        },
+        {
+         "letter": "C",
+         "text": "Durée des règles."
+        },
+        {
+         "letter": "D",
+         "text": "Méthodes antérieures en PF."
+        },
+        {
+         "letter": "E",
+         "text": "Notion de cancer du sein dans la famille."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Age aux premières règles. ; C. Durée des règles.",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Antécédents gynécologiques : âge aux premières règles, DDR, durée du cycle et des règles, dysménorrhées… Gestité-parité = antécédents obstétricaux ; méthodes antérieures = ATCD et options en PF ; cancer du sein familial = antécédents familiaux.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Consultation en PF » (tableau des antécédents)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__16",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La consultation en PF à pour but de (choisir les deux bonnes réponses) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rassurer la cliente."
+        },
+        {
+         "letter": "B",
+         "text": "Recherche des anomalies et des cicatrices au niveau de l'abdomen de la cliente."
+        },
+        {
+         "letter": "C",
+         "text": "S'assurer que la cliente n'est pas enceinte."
+        },
+        {
+         "letter": "D",
+         "text": "Identifier les contre-indications médicales à l'adoption d'une méthode contraceptive."
+        },
+        {
+         "letter": "E",
+         "text": "Inspecte les seins de la cliente à la recherche d'un cancer."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. S'assurer que la cliente n'est pas enceinte. ; D. Identifier les contre-indications médicales à l'adoption d'une méthode contraceptive.",
+       "answerLetters": [
+        "C",
+        "D"
+       ],
+       "explanation": "Buts de la consultation en PF : identifier les contre-indications médicales, les précautions, les problèmes demandant un bilan, dépister les IST et l'infertilité, s'assurer que la cliente n'est pas enceinte. Les autres propositions sont des gestes de l'accueil ou de l'examen.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Consultation en PF » (buts)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__17",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les activités administratives d'un centre de planification familiale (choisir la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Description du poste de travail"
+        },
+        {
+         "letter": "B",
+         "text": "Gestion du matériel, équipements"
+        },
+        {
+         "letter": "C",
+         "text": "Répartition des tâches et permanences"
+        },
+        {
+         "letter": "D",
+         "text": "La sensibilisation, CCC, counseling"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Description du poste de travail",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les activités administratives portent sur la gestion du personnel, qui commence par la description du poste de travail (ce que chacun doit faire). La sensibilisation/CCC/counseling est une activité clinique.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Organisation et gestion d'un centre de PF »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__18",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'un des buts du counseling est de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Arriver à un choix éclairé concernant leurs options en matière de reproduction"
+        },
+        {
+         "letter": "B",
+         "text": "Poser des questions /Réponses Comprend les avantages et les limitations de toutes les méthodes contraceptives"
+        },
+        {
+         "letter": "C",
+         "text": "Comprendre les facteurs culturels et émotionnels qui influencent le choix d'une méthode"
+        },
+        {
+         "letter": "D",
+         "text": "Présenter l'information sans parti-pris, qui indique le respect des sentiments du client"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Arriver à un choix éclairé concernant leurs options en matière de reproduction",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "« Arriver à un choix éclairé concernant leurs options en matière de reproduction » est textuellement un but du counseling. Les autres propositions décrivent les qualités d'un bon conseiller.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Counseling en PF » (buts et qualités du conseiller)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__19",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Cocher le support de transaction:",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le cahier de gestion de stock"
+        },
+        {
+         "letter": "B",
+         "text": "La fiche de réclamation"
+        },
+        {
+         "letter": "C",
+         "text": "L'ordonnance facture"
+        },
+        {
+         "letter": "D",
+         "text": "La fiche d'inventaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. La fiche de réclamation",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les supports de transaction accompagnent le mouvement des produits entre deux niveaux (commande, livraison, réclamation). Le cahier de gestion de stock et la fiche d'inventaire sont des supports de gestion de stock.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__20",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Citer les deux principaux éléments du cycle logistique",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Gestion de stocks"
+        },
+        {
+         "letter": "B",
+         "text": "La supervision/ Contrôle"
+        },
+        {
+         "letter": "C",
+         "text": "Quantification / réquisition"
+        },
+        {
+         "letter": "D",
+         "text": "Contrôle qualité"
+        },
+        {
+         "letter": "E",
+         "text": "Le pipeline"
+        },
+        {
+         "letter": "F",
+         "text": "Allocation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Gestion de stocks ; C. Quantification / réquisition",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Le cycle logistique s'organise autour du service aux clients, de la gestion des stocks, de la quantification/acquisition (réquisition) et de la distribution, reliés par le système d'information (SIGL).\n\nSource : Cours de SR/PF L2 (INFAS 2023), annexe 2 « Gestion logistique » (partiellement hors cours)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__21",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes quels sont les deux inconvénients du coït interrompu :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Ne convient pas aux hommes qui ont une éjaculation précoce."
+        },
+        {
+         "letter": "B",
+         "text": "Nécessite la collaboration des deux partenaires."
+        },
+        {
+         "letter": "C",
+         "text": "Besoins de dispositions particulières."
+        },
+        {
+         "letter": "D",
+         "text": "Participation masculine à la planification familiale."
+        },
+        {
+         "letter": "E",
+         "text": "Effets secondaires sur la santé."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Ne convient pas aux hommes qui ont une éjaculation précoce. ; B. Nécessite la collaboration des deux partenaires.",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "Inconvénients du cours : ne convient pas aux hommes qui ont une éjaculation précoce, collaboration des deux partenaires nécessaire, pas de protection contre les IST… La participation masculine est un avantage ; il n'y a ni dispositions particulières ni effets secondaires.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Coït interrompu »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__22",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les obstacles économiques à la PF sont :(choisir la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le manque de communication, L'analphabétisme"
+        },
+        {
+         "letter": "B",
+         "text": "L'Absence ou insuffisances de centre de PF"
+        },
+        {
+         "letter": "C",
+         "text": "Le manque ou insuffisances de moyens financiers"
+        },
+        {
+         "letter": "D",
+         "text": "Le cout élevé des services de PF"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Le manque ou insuffisances de moyens financiers",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le tableau des obstacles classe le manque ou l'insuffisance de moyens financiers parmi les obstacles économiques ; le manque de communication et l'analphabétisme sont socioculturels ; l'absence de centre de PF est institutionnelle.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Concept de la planification familiale » (obstacles)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__23",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un élément est indispensable pour évaluer un état de stock :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le niveau de stock maximum"
+        },
+        {
+         "letter": "B",
+         "text": "Le SDU (stock disponible et utilisable)"
+        },
+        {
+         "letter": "C",
+         "text": "Le niveau de stock minimum"
+        },
+        {
+         "letter": "D",
+         "text": "Le stock de sécurité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Le SDU (stock disponible et utilisable)",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Sans connaître le stock disponible et utilisable, on ne peut pas calculer le nombre de mois de stock ; les niveaux max, min et le stock de sécurité servent de seuils de comparaison.\n\nSource : Cours de SR/PF L2 (INFAS 2023), annexe 2 « Gestion logistique » (partiellement hors cours)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__24",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'un des éléments suivants constitue un avantage démographique de la planification familiale, il s'agit de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'Etablissement d'un bon équilibre entre population et ressources"
+        },
+        {
+         "letter": "B",
+         "text": "La Libération de la femme pour la réalisation des tâches lucratives"
+        },
+        {
+         "letter": "C",
+         "text": "L'Amélioration de l'état nutritionnel de l'enfant, de la mère, et de la famille"
+        },
+        {
+         "letter": "D",
+         "text": "La Réduction des complications dues à la grossesse et à l'accouchement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. L'Etablissement d'un bon équilibre entre population et ressources",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans le tableau des avantages de la PF, le seul avantage démographique est l'établissement d'un bon équilibre entre population et ressources. Les autres sont socio-économiques ou sanitaires.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Concept de la planification familiale » (avantages)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__25",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans l'évaluation de la causerie éducative l'animateur : (choisir les deux bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Accueille et installe les entités."
+        },
+        {
+         "letter": "B",
+         "text": "Choisi les suspects adaptés."
+        },
+        {
+         "letter": "C",
+         "text": "Elabore le message à faire passer."
+        },
+        {
+         "letter": "D",
+         "text": "Fixe un autre RDV."
+        },
+        {
+         "letter": "E",
+         "text": "Détermine le temps et la durée de la causerie."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Accueille et installe les entités. ; D. Fixe un autre RDV.",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « accueille et installe » et « fixe un autre RDV ». Élaborer le message et déterminer le temps relèvent de la préparation. Remarque : Dans le sujet, les options 1 et 2 contiennent des coquilles (« entités » pour invités, « suspects » pour supports).\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Causerie éducative » (étapes)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__26",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans l'exécution d'une causerie éducative l'animateur :( choisir les deux bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Elabore le message à faire passer."
+        },
+        {
+         "letter": "B",
+         "text": "Accueille et installe les invités."
+        },
+        {
+         "letter": "C",
+         "text": "Fixe un autre RDV."
+        },
+        {
+         "letter": "D",
+         "text": "Détermine le temps et la durée de la causerie."
+        },
+        {
+         "letter": "E",
+         "text": "Choisir les supports adaptés."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Accueille et installe les invités. ; C. Fixe un autre RDV.",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Exécution : accueillir et installer les invités, saluer et se présenter, introduire le thème…, remercier et fixer un autre rendez-vous. Élaborer les messages, choisir les supports et déterminer le temps relèvent de la préparation.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Causerie éducative » (étapes)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__27",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les disparités de genre dans sur le lieu de travail se justifient par les :(choisir la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Inégalités dans la prise de décisions familiales"
+        },
+        {
+         "letter": "B",
+         "text": "Inégalités dans la distribution des rôles et responsabilités"
+        },
+        {
+         "letter": "C",
+         "text": "Inégalités dans l'accès à la formation professionnelle"
+        },
+        {
+         "letter": "D",
+         "text": "Inégalité dans l'accès à l'éducation et plus tard aux emplois"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Inégalités dans l'accès à la formation professionnelle",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Sur le lieu de travail, les disparités de genre viennent surtout de l'inégal accès des femmes à la formation professionnelle (d'où les postes subalternes). Les autres inégalités relèvent de la famille ou de l'éducation.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__28",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En planification familiale, l'on peut être confronté à des obstacles d'ordre institutionnel tels que : (choisir la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le cout des services de PF"
+        },
+        {
+         "letter": "B",
+         "text": "Insuffisance de personnel qualifié"
+        },
+        {
+         "letter": "C",
+         "text": "Manque ou insuffisances de motivation"
+        },
+        {
+         "letter": "D",
+         "text": "Le manque ou insuffisances de moyens financiers."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Insuffisance de personnel qualifié",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Obstacles institutionnels du cours : absence ou insuffisance de centres de PF, insuffisance de personnel qualifié. Le coût et le manque de moyens financiers sont des obstacles économiques.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Concept de la planification familiale » (obstacles)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__29",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans le concept de la planification familiale, le volet santé des personnes âgées (SPA) se compose : (choisir la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Lutte contre l'Infertilité et les cancers génitaux"
+        },
+        {
+         "letter": "B",
+         "text": "Santé mentale, soins palliatifs"
+        },
+        {
+         "letter": "C",
+         "text": "Traitement des pathologies sexuelles et dysfonctionnements sexuels"
+        },
+        {
+         "letter": "D",
+         "text": "Services de Planification Familiale y compris la lutte contre les IST"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Santé mentale, soins palliatifs",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Composantes du volet SPA : prévention des maladies de la sénescence, gériatrie, gérontologie, nutrition, CCC, santé mentale, soins palliatifs. Infertilité, cancers génitaux et dysfonctionnements sexuels relèvent du volet santé des hommes.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Concept de la santé de la reproduction » (composantes des volets)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__30",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Choisir l'élément indispensable pour la passation d'une commande :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le stock de sécurité initial"
+        },
+        {
+         "letter": "B",
+         "text": "Le stock de roule"
+        },
+        {
+         "letter": "C",
+         "text": "Le stock disponible et utilisation"
+        },
+        {
+         "letter": "D",
+         "text": "Le stock initial"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Le stock disponible et utilisation",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Pour commander, on compare le stock disponible et utilisable (SDU) au niveau maximum : quantité à commander = stock maximum – SDU. Remarque : Le sujet écrit « stock disponible et utilisation » pour « stock disponible et utilisable ».\n\nSource : Cours de SR/PF L2 (INFAS 2023), annexe 2 « Gestion logistique » (partiellement hors cours)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__31",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle sera votre conduit à tenir devant DIU chez une patient découverte VIH positif ? (Choisir la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Retirer le DIU et mettre la patiente sous traitement ARV"
+        },
+        {
+         "letter": "B",
+         "text": "Donner une méthode d'appoint et traiter sous ARV"
+        },
+        {
+         "letter": "C",
+         "text": "Maintenir le DIU et mettre la patiente sous traitement ARV"
+        },
+        {
+         "letter": "D",
+         "text": "Faire l'Examen gynécologique nécessaire et Dépister des ITG"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Maintenir le DIU et mettre la patiente sous traitement ARV",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Chez une femme qui porte déjà un DIU et qui est séropositive, il n'est pas indiqué de l'enlever, même au stade 3 ou 4 ; on la met sous ARV et on la surveille (maladie inflammatoire pelvienne). Le préservatif reste conseillé.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Groupes particuliers – contraception et PVVIH »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__32",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans l'exécution d'une causerie éducative, l'animateur (choisir la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Introduit le thème choisi"
+        },
+        {
+         "letter": "B",
+         "text": "Pose des questions"
+        },
+        {
+         "letter": "C",
+         "text": "Élabore les messages"
+        },
+        {
+         "letter": "D",
+         "text": "Choisit les supports adaptés"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Introduit le thème choisi",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Introduire le thème fait partie de l'exécution. Poser des questions relève de l'évaluation ; élaborer les messages et choisir les supports, de la préparation.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Causerie éducative » (étapes)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__33",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle est la dernière étape de la consultation en planification familiale ? (Choisir la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'administration de la méthode"
+        },
+        {
+         "letter": "B",
+         "text": "Le diagnostic final"
+        },
+        {
+         "letter": "C",
+         "text": "La prise de décision"
+        },
+        {
+         "letter": "D",
+         "text": "La décision finale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. La prise de décision",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Étapes de la consultation : accueil, interrogatoire, examen général, examen physique, examen des seins, examen gynécologique, puis prise de décision.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Consultation en PF » (étapes)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__34",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle sera votre conduit à tenir devant DIU chez une patient découverte VIH positif ? (Choisir la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Faire l'Examen gynécologique nécessaire et Dépister des ITG"
+        },
+        {
+         "letter": "B",
+         "text": "Donner une méthode d'appoint et traiter sous ARV"
+        },
+        {
+         "letter": "C",
+         "text": "Retirer le DIU et mettre la patiente sous traitement ARV"
+        },
+        {
+         "letter": "D",
+         "text": "Maintenir le DIU et mettre la patiente sous traitement ARV"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Maintenir le DIU et mettre la patiente sous traitement ARV",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Même question que la n° 36 (options dans un autre ordre) : on maintient le DIU et on met la patiente sous ARV. Remarque : Question en double dans le sujet (identique à la n° 36).\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Groupes particuliers – contraception et PVVIH »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__35",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La tolérance : est la mesure dans laquelle :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'utilisateur est satisfait de la méthode."
+        },
+        {
+         "letter": "B",
+         "text": "Une méthode de contraception n'entraîne pas d'effets secondaires défavorables ou dangereux"
+        },
+        {
+         "letter": "C",
+         "text": "Il y a une rapidité du retour à une fécondité normale après l'arrêt de la méthode."
+        },
+        {
+         "letter": "D",
+         "text": "Une méthode de contraception est capable d'empêcher la survenue d'une grossesse."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. L'utilisateur est satisfait de la méthode.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Qualités d'une méthode : la tolérance mesure la satisfaction de l'utilisatrice ; la 2e proposition définit la sécurité, la 3e la réversibilité, la 4e l'efficacité.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Généralités sur la contraception » (qualités d'une méthode)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__36",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le counseling a pour but :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "de Laisser la cliente prendre sa décision"
+        },
+        {
+         "letter": "B",
+         "text": "d' Accepter les conceptions erronées"
+        },
+        {
+         "letter": "C",
+         "text": "le renforcement des capacités du client"
+        },
+        {
+         "letter": "D",
+         "text": "d'Enlever la peur et la frayeur"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. de Laisser la cliente prendre sa décision",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le counseling aide la cliente à être motivée et à prendre sa décision, sans choisir à sa place. Il vise à rejeter (et non accepter) les conceptions erronées.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Counseling en PF » (buts)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__37",
+       "num": "42",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les micronutriments comme le fer et le zinc sont des produits de SR.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les micronutriments font partie des produits de la santé de la reproduction (le cours cite vitamine A et iode ; le fer et le zinc entrent dans la même catégorie).\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Concept de la santé de la reproduction » (produits de la SR)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__38",
+       "num": "43",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les centres de santé ruraux ne sont pas des champs d'activités de la SR.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les activités de SR/PF sont intégrées au paquet minimum d'activités à tous les niveaux de la pyramide sanitaire ; en zone rurale, elles sont intégrées aux activités courantes de santé.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Concept de la santé de la reproduction » et « Organisation d'un centre de PF »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__39",
+       "num": "44",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les centres de planification familiale sont des champs d'activité de la SR.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les centres de planification familiale figurent dans la liste des six champs d'activités de la SR en Côte d'Ivoire.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Concept de la santé de la reproduction » (champs d'activités)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__40",
+       "num": "45",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les ARV ne sont pas des produits de la SR.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les ARV pour les personnes séropositives sont cités parmi les produits de la santé de la reproduction.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Concept de la santé de la reproduction » (produits de la SR)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__41",
+       "num": "46",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La natalité fait partie des mouvements internes de la population.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Mouvements internes : natalité, accroissement, fécondité, mortalité. Mouvements externes : migration, émigration, immigration.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Concept de la planification familiale » (dynamisme de la population)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__42",
+       "num": "47",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La mortalité est un facteur qui influence la dynamique interne de la population.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La mortalité fait partie des mouvements internes de la population.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Concept de la planification familiale » (dynamisme de la population)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__43",
+       "num": "48",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La fécondité est un indicateur lié aux mouvements externes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La fécondité est un mouvement interne ; les mouvements externes sont les migrations.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Concept de la planification familiale » (dynamisme de la population)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__44",
+       "num": "49",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'accroissement naturel dépend de la natalité et mortalité.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'accroissement naturel est la différence entre les naissances et les décès (natalité moins mortalité), hors migrations.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Concept de la planification familiale » (partiellement hors cours)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__45",
+       "num": "50",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La continuité mesure la fidélité des utilisatrices à une méthode après un temps donné.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La continuité est le pourcentage d'utilisatrices qui restent fidèles à la méthode après un temps donné (1, 2, 3 ou 5 ans).\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Généralités sur la contraception » (qualités d'une méthode)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__46",
+       "num": "51",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La réversibilité est le retour à la fécondité après arrêt de la méthode.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La réversibilité est la rapidité du retour à une fécondité normale après l'arrêt de la méthode.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Généralités sur la contraception » (qualités d'une méthode)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__47",
+       "num": "52",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le coït interrompu est une méthode traditionnelle.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le coït interrompu (méthode du retrait) est classé parmi les méthodes traditionnelles de PF.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Coït interrompu »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__48",
+       "num": "53",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les implants contraceptifs sont des contraceptifs oestroprogestatifs.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les implants (Jadelle, Implanon…) contiennent uniquement un progestatif (lévonorgestrel ou étonogestrel).\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Contraceptifs hormonaux progestatifs »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__49",
+       "num": "54",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le DIU est classé catégorie 4 dans les avortements septiques.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Avortement septique (et infection puerpérale) = catégorie 4 pour le DIU : la méthode ne doit pas être utilisée.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « DIU » (critères de recevabilité)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__50",
+       "num": "55",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les catégories pour la stérilisation féminine, la catégorie « spéciale » signifie que la méthode est non applicable.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ».\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Critères médicaux d'éligibilité de l'OMS » (catégories)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__51",
+       "num": "56",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La catégorie « Prudence » en stérilisation signifie qu'il n'y a aucune précaution particulière à prendre avant l'intervention.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "« Prudence » = offrir la méthode avec beaucoup de précautions. « Aucune raison médicale de refuser » correspond à « Accepter ».\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Critères médicaux d'éligibilité de l'OMS » (catégories)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__52",
+       "num": "57",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'animateur peut ne pas se présenter avant de commencer la causerie.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "« Saluer et se présenter » est une étape de l'exécution de la causerie.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Causerie éducative »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__53",
+       "num": "58",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La causerie éducative se fait uniquement en milieu hospitalier.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La causerie se fait dans un endroit choisi au préalable (communauté, école, centre…), après avoir contacté les autorités locales ; elle n'est pas limitée à l'hôpital.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Causerie éducative »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j3-sf3__54",
+       "num": "59",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au cours de la séance de causerie éducative l'animateur peut recueillir les expériences de l'auditoire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "« Recueillir les expériences de l'auditoire » figure dans l'exécution de la causerie.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « Causerie éducative »",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

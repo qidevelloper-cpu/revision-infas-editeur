@@ -1,0 +1,2318 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zg-sj-prepa-chir-j2-ide",
+ "titre": "Préparation D.E (J) · J2 Chirurgie IDE",
+ "session": "J",
+ "annee": 2026,
+ "nq": 57,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+   "sha256": "45110ca169c7b815e8c5983cb6aa915440763cce1306bb015109584afb42df7f"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Chirurgie · Prépa D.E J2 (IDE)",
+     "slug": "prepa-chir-j2-ide",
+     "pages": "",
+     "count": 57,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Chirurgie",
+     "source": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__0",
+       "num": "1",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 (réponse juste + 1 pt ; réponse fausse et sans réponse 0 pt). Stagiaire au service de chirurgie du CHR de MAN, vous recevez pendant votre permanence l'enfant Kapen, 3 ans, pesant 14 kg, présentant une insuffisance cardiaque pour brûlure. Le bilan des lésions met en évidence : une brûlure de la face ; une brûlure de la cuisse gauche jusqu'à la jambe homolatérale ; une brûlure de la main gauche ; une brûlure de la moitié inférieure du tronc antérieur.",
+       "text": "L'infirmier vous demande de l'aider à évaluer l'étendue de la brûlure selon la table de Lund et Browder. Indiquer la formule générale de Baxter que vous appliquerez à Kapen à J2 parmi ces propositions.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "QJ2 = 4 X Pds (Kg) X SCB"
+        },
+        {
+         "letter": "B",
+         "text": "QJ2 = 40 Kg X SCB"
+        },
+        {
+         "letter": "C",
+         "text": "QJ2 = 80 Kg X SCB"
+        },
+        {
+         "letter": "D",
+         "text": "QJ2 = 2 X Pds (Kg) X SCB"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. QJ2 = 2 X Pds (Kg) X SCB",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Règle de Baxter du cours : J1 = Poids (kg) × 4 × SCB ; J2 = ½ de QJ1. Diviser 4 × Pds × SCB par deux donne bien la formule générale QJ2 = 2 × Pds (kg) × SCB. « 4 × Pds × SCB » est la formule de J1 ; 40 kg et 80 kg ne correspondent pas au poids de Kapen (14 kg).\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (5.3 Réanimation hydroélectrolytique)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__1",
+       "num": "2",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 (réponse juste + 1 pt ; réponse fausse et sans réponse 0 pt). Stagiaire au service de chirurgie du CHR de MAN, vous recevez pendant votre permanence l'enfant Kapen, 3 ans, pesant 14 kg, présentant une insuffisance cardiaque pour brûlure. Le bilan des lésions met en évidence : une brûlure de la face ; une brûlure de la cuisse gauche jusqu'à la jambe homolatérale ; une brûlure de la main gauche ; une brûlure de la moitié inférieure du tronc antérieur.",
+       "text": "Indiquer parmi ces propositions la formule spécifique de Baxter applicable à l'enfant Kapen à J1.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "QJ1 = 4 X Pds X SCB"
+        },
+        {
+         "letter": "B",
+         "text": "QJ1 = 2 X Pds X SCB"
+        },
+        {
+         "letter": "C",
+         "text": "QJ1 = 28 Kg X SCB"
+        },
+        {
+         "letter": "D",
+         "text": "QJ1 = 56 Kg X SCB"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. QJ1 = 56 Kg X SCB",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Formule spécifique = formule générale de J1 appliquée au poids de Kapen : 4 × 14 kg = 56 kg, d'où QJ1 = 56 kg × SCB. « 28 kg × SCB » (2 × 14) correspond à J2.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (5.3)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__2",
+       "num": "3",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 (réponse juste + 1 pt ; réponse fausse et sans réponse 0 pt). Stagiaire au service de chirurgie du CHR de MAN, vous recevez pendant votre permanence l'enfant Kapen, 3 ans, pesant 14 kg, présentant une insuffisance cardiaque pour brûlure. Le bilan des lésions met en évidence : une brûlure de la face ; une brûlure de la cuisse gauche jusqu'à la jambe homolatérale ; une brûlure de la main gauche ; une brûlure de la moitié inférieure du tronc antérieur.",
+       "text": "Indiquer parmi ces propositions la surface corporelle brûlée au niveau du squelette axial de l'enfant Kapen.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "SCB = 44,5 %"
+        },
+        {
+         "letter": "B",
+         "text": "SCB = 14,5 %"
+        },
+        {
+         "letter": "C",
+         "text": "SCB = 29,5 %"
+        },
+        {
+         "letter": "D",
+         "text": "SCB = 15 %"
+        },
+        {
+         "letter": "E",
+         "text": "SCB = 30 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. SCB = 15 %",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Squelette axial = tête et tronc. Enfant de 3 ans → colonne 1-4 ans : tête 17 %, dont la face ≈ la moitié = 8,5 % ; tronc antérieur 13 %, dont la moitié inférieure = 6,5 %. Total : 8,5 + 6,5 = 15 %. Remarque : Le cours ne précise pas la part de la face ; elle est comptée ici comme la moitié de la tête (8,5 %), ce qui donne le résultat de la correction.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (4.2 Table de Lund et Browder, colonne 1-4 ans)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__3",
+       "num": "4",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 (réponse juste + 1 pt ; réponse fausse et sans réponse 0 pt). Stagiaire au service de chirurgie du CHR de MAN, vous recevez pendant votre permanence l'enfant Kapen, 3 ans, pesant 14 kg, présentant une insuffisance cardiaque pour brûlure. Le bilan des lésions met en évidence : une brûlure de la face ; une brûlure de la cuisse gauche jusqu'à la jambe homolatérale ; une brûlure de la main gauche ; une brûlure de la moitié inférieure du tronc antérieur.",
+       "text": "Indiquer parmi ces propositions la surface corporelle brûlée au niveau du squelette appendiculaire de l'enfant Kapen.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "SCB = 15 %"
+        },
+        {
+         "letter": "B",
+         "text": "SCB = 29,5 %"
+        },
+        {
+         "letter": "C",
+         "text": "SCB = 44,5 %"
+        },
+        {
+         "letter": "D",
+         "text": "SCB = 14 %"
+        },
+        {
+         "letter": "E",
+         "text": "SCB = 30 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. SCB = 14 %",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Squelette appendiculaire = membres. Colonne 1-4 ans : une cuisse 6,5 % + une jambe 5 % + une main 2,5 % = 14 %.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (4.2, colonne 1-4 ans)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__4",
+       "num": "5",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 (réponse juste + 1 pt ; réponse fausse et sans réponse 0 pt). Stagiaire au service de chirurgie du CHR de MAN, vous recevez pendant votre permanence l'enfant Kapen, 3 ans, pesant 14 kg, présentant une insuffisance cardiaque pour brûlure. Le bilan des lésions met en évidence : une brûlure de la face ; une brûlure de la cuisse gauche jusqu'à la jambe homolatérale ; une brûlure de la main gauche ; une brûlure de la moitié inférieure du tronc antérieur.",
+       "text": "Calculez la surface corporelle totale brûlée de l'enfant Kapen. Indiquer votre résultat parmi les propositions ci-dessous.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "SCB = 30 %"
+        },
+        {
+         "letter": "B",
+         "text": "SCB = 44,5 %"
+        },
+        {
+         "letter": "C",
+         "text": "SCB = 29 %"
+        },
+        {
+         "letter": "D",
+         "text": "SCB = 15 %"
+        },
+        {
+         "letter": "E",
+         "text": "SCB = 14,5 %"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. SCB = 29 %",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "SCB totale = squelette axial + squelette appendiculaire = 15 % + 14 % = 29 %.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (4.2)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__5",
+       "num": "6",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 (réponse juste + 1 pt ; réponse fausse et sans réponse 0 pt). Stagiaire au service de chirurgie du CHR de MAN, vous recevez pendant votre permanence l'enfant Kapen, 3 ans, pesant 14 kg, présentant une insuffisance cardiaque pour brûlure. Le bilan des lésions met en évidence : une brûlure de la face ; une brûlure de la cuisse gauche jusqu'à la jambe homolatérale ; une brûlure de la main gauche ; une brûlure de la moitié inférieure du tronc antérieur.",
+       "text": "Ces événements se sont succédé lors de la brûlure de l'enfant Kapen. Classez-les par ordre chronologique de survenue : 1. Exsudation plasmatique ; 2. Anoxie tissulaire ; 3. Hypovolémie ; 4. Trouble de la perméabilité capillaire. Indiquer le résultat de votre classification parmi ces propositions.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "4-1-3-2"
+        },
+        {
+         "letter": "B",
+         "text": "1-2-3-4"
+        },
+        {
+         "letter": "C",
+         "text": "4-3-2-1"
+        },
+        {
+         "letter": "D",
+         "text": "1-4-3-2"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 4-1-3-2",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours décrit un cercle vicieux : exsudation plasmatique au niveau des plaies → fuite liquidienne → hypovolémie → anoxie tissulaire avec troubles de la perméabilité capillaire, qui entretiennent la fuite. La correction nationale place le trouble de la perméabilité capillaire en premier (c'est lui qui permet la fuite plasmatique), puis exsudation, hypovolémie et anoxie.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (IV Physiopathologie, 4-1 Période initiale et schéma p. 88)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__6",
+       "num": "7",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 (réponse juste + 1 pt ; réponse fausse et sans réponse 0 pt). Stagiaire au service de chirurgie du CHR de MAN, vous recevez pendant votre permanence l'enfant Kapen, 3 ans, pesant 14 kg, présentant une insuffisance cardiaque pour brûlure. Le bilan des lésions met en évidence : une brûlure de la face ; une brûlure de la cuisse gauche jusqu'à la jambe homolatérale ; une brûlure de la main gauche ; une brûlure de la moitié inférieure du tronc antérieur.",
+       "text": "Sachant que votre condisciple était témoin de l'accident, indiquer parmi ces propositions trois actions à accomplir en sa qualité de premier secouriste.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Refroidissement de la victime à l'eau froide"
+        },
+        {
+         "letter": "B",
+         "text": "Rupture des phlyctènes"
+        },
+        {
+         "letter": "C",
+         "text": "Pansement avec topiques traditionnels"
+        },
+        {
+         "letter": "D",
+         "text": "Prévention du tétanos par injection de SAT"
+        },
+        {
+         "letter": "E",
+         "text": "Isolation thermique de la victime"
+        },
+        {
+         "letter": "F",
+         "text": "Couvrir la victime par un drap propre"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Refroidissement de la victime à l'eau froide ; E. Isolation thermique de la victime ; F. Couvrir la victime par un drap propre",
+       "answerLetters": [
+        "A",
+        "E",
+        "F"
+       ],
+       "explanation": "Premiers secours du cours : refroidissement par l'eau (15 °C pendant environ 15 min), couvrir la victime de champs stériles ou à défaut de draps propres, puis couverture d'isolation thermique. Rompre les phlyctènes, appliquer des topiques traditionnels ou injecter le SAT ne sont pas des gestes de secouriste (le SAT relève de la prise en charge hospitalière).\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (V Conduite à tenir, 5.1 Premiers secours)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__7",
+       "num": "8",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 (réponse juste + 1 pt ; réponse fausse et sans réponse 0 pt). Stagiaire au service de chirurgie du CHR de MAN, vous recevez pendant votre permanence l'enfant Kapen, 3 ans, pesant 14 kg, présentant une insuffisance cardiaque pour brûlure. Le bilan des lésions met en évidence : une brûlure de la face ; une brûlure de la cuisse gauche jusqu'à la jambe homolatérale ; une brûlure de la main gauche ; une brûlure de la moitié inférieure du tronc antérieur.",
+       "text": "Indiquer chez l'enfant Kapen les trois facteurs qui le prédisposent à des complications infectieuses parmi ces suggestions.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les troubles de l'hémostase"
+        },
+        {
+         "letter": "B",
+         "text": "La translocation bactérienne"
+        },
+        {
+         "letter": "C",
+         "text": "La dépression immunitaire marquée"
+        },
+        {
+         "letter": "D",
+         "text": "L'oedème pulmonaire"
+        },
+        {
+         "letter": "E",
+         "text": "L'inhalation de fumées"
+        },
+        {
+         "letter": "F",
+         "text": "La rupture de la barrière cutanée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Les troubles de l'hémostase ; F. La rupture de la barrière cutanée",
+       "answerLetters": [
+        "A",
+        "F"
+       ],
+       "explanation": "La rupture de la barrière cutanée est la porte d'entrée principale des germes. Les troubles de l'hémostase (hypocoagulabilité de consommation, thrombopénie) font partie des perturbations du brûlé.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (III Complications infectieuses, p. 97)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__8",
+       "num": "9",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 (réponse juste + 1 pt ; réponse fausse et sans réponse 0 pt). Stagiaire au service de chirurgie du CHR de MAN, vous recevez pendant votre permanence l'enfant Kapen, 3 ans, pesant 14 kg, présentant une insuffisance cardiaque pour brûlure. Le bilan des lésions met en évidence : une brûlure de la face ; une brûlure de la cuisse gauche jusqu'à la jambe homolatérale ; une brûlure de la main gauche ; une brûlure de la moitié inférieure du tronc antérieur.",
+       "text": "Relever selon le cas clinique les localisations de gravité des brûlures de l'enfant Kapen.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le terrain"
+        },
+        {
+         "letter": "B",
+         "text": "Le genou gauche"
+        },
+        {
+         "letter": "C",
+         "text": "Les parties génitales"
+        },
+        {
+         "letter": "D",
+         "text": "La main gauche"
+        },
+        {
+         "letter": "E",
+         "text": "La surface corporelle brûlée"
+        },
+        {
+         "letter": "F",
+         "text": "Le visage"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Le genou gauche ; D. La main gauche ; F. Le visage",
+       "answerLetters": [
+        "B",
+        "D",
+        "F"
+       ],
+       "explanation": "Localisations de gravité : mains, visage, articulations, orifices naturels, périnée. Chez Kapen : la face (visage), la main gauche, et le genou gauche (articulation atteinte par la brûlure allant de la cuisse à la jambe). Le terrain et la SCB sont des facteurs de gravité, mais pas des localisations ; les parties génitales ne sont pas brûlées ici.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (4.6 Localisation ; 3-3 Les brûlures graves)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__9",
+       "num": "10",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 (réponse juste + 1 pt ; réponse fausse et sans réponse 0 pt). Stagiaire au service de chirurgie du CHR de MAN, vous recevez pendant votre permanence l'enfant Kapen, 3 ans, pesant 14 kg, présentant une insuffisance cardiaque pour brûlure. Le bilan des lésions met en évidence : une brûlure de la face ; une brûlure de la cuisse gauche jusqu'à la jambe homolatérale ; une brûlure de la main gauche ; une brûlure de la moitié inférieure du tronc antérieur.",
+       "text": "Indiquer la valeur numérique de la quantité de liquide à perfuser à l'enfant Kapen à J1.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "QJ1 = 8,26"
+        },
+        {
+         "letter": "B",
+         "text": "QJ1 = 16,24"
+        },
+        {
+         "letter": "C",
+         "text": "QJ1 = 16,52"
+        },
+        {
+         "letter": "D",
+         "text": "QJ1 = 8,4"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. QJ1 = 16,24",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "QJ1 = 4 × 14 × SCB. En prenant la SCB sous forme décimale (0,29) : 56 × 0,29 = 16,24. Avec la SCB en pourcentage (29), on obtient 1 624 mL. Remarque : La valeur 16,24 correspond à la SCB écrite 0,29 ; voir la question 14 pour l'unité.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (5.3)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__10",
+       "num": "11",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 (réponse juste + 1 pt ; réponse fausse et sans réponse 0 pt). Stagiaire au service de chirurgie du CHR de MAN, vous recevez pendant votre permanence l'enfant Kapen, 3 ans, pesant 14 kg, présentant une insuffisance cardiaque pour brûlure. Le bilan des lésions met en évidence : une brûlure de la face ; une brûlure de la cuisse gauche jusqu'à la jambe homolatérale ; une brûlure de la main gauche ; une brûlure de la moitié inférieure du tronc antérieur.",
+       "text": "Indiquer la valeur numérique de la quantité de liquide à perfuser à l'enfant Kapen à J2.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "QJ2 = 16,52"
+        },
+        {
+         "letter": "B",
+         "text": "QJ2 = 8,26"
+        },
+        {
+         "letter": "C",
+         "text": "QJ2 = 8,4"
+        },
+        {
+         "letter": "D",
+         "text": "QJ2 = 8,12"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. QJ2 = 8,12",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "QJ2 = ½ QJ1 = 16,24 / 2 = 8,12 (ou 2 × 14 × 0,29 = 8,12).\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (5.3 : J2 = ½ de QJ1)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__11",
+       "num": "12",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 (réponse juste + 1 pt ; réponse fausse et sans réponse 0 pt). Stagiaire au service de chirurgie du CHR de MAN, vous recevez pendant votre permanence l'enfant Kapen, 3 ans, pesant 14 kg, présentant une insuffisance cardiaque pour brûlure. Le bilan des lésions met en évidence : une brûlure de la face ; une brûlure de la cuisse gauche jusqu'à la jambe homolatérale ; une brûlure de la main gauche ; une brûlure de la moitié inférieure du tronc antérieur.",
+       "text": "Calculer l'indice de Baux de l'enfant Kapen, et indiquez votre réponse parmi ces propositions.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "IB = 32"
+        },
+        {
+         "letter": "B",
+         "text": "IB = 47,5"
+        },
+        {
+         "letter": "C",
+         "text": "IB = 47"
+        },
+        {
+         "letter": "D",
+         "text": "IB = 29,5"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. IB = 47",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'indice de Baux additionne l'âge du brûlé et l'étendue de la brûlure (en %).\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (5-5 Pronostic, p. 92)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__12",
+       "num": "13",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 (réponse juste + 1 pt ; réponse fausse et sans réponse 0 pt). Stagiaire au service de chirurgie du CHR de MAN, vous recevez pendant votre permanence l'enfant Kapen, 3 ans, pesant 14 kg, présentant une insuffisance cardiaque pour brûlure. Le bilan des lésions met en évidence : une brûlure de la face ; une brûlure de la cuisse gauche jusqu'à la jambe homolatérale ; une brûlure de la main gauche ; une brûlure de la moitié inférieure du tronc antérieur.",
+       "text": "Indiquer parmi ces propositions le pronostic vital de l'enfant Kapen.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La guérison est infiniment probable"
+        },
+        {
+         "letter": "B",
+         "text": "La mort est quasi certaine"
+        },
+        {
+         "letter": "C",
+         "text": "Le brûlé a une chance sur deux de guérison"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La guérison est infiniment probable",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Selon le cours : somme âge + étendue < 50 → guérison infiniment probable ; > 100 → mort quasi certaine ; entre 50 et 100 → une chance sur deux. L'indice de Kapen étant inférieur à 50 (32, ou même 47), la guérison est infiniment probable.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (5-5 Pronostic)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__13",
+       "num": "14",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 (réponse juste + 1 pt ; réponse fausse et sans réponse 0 pt). Stagiaire au service de chirurgie du CHR de MAN, vous recevez pendant votre permanence l'enfant Kapen, 3 ans, pesant 14 kg, présentant une insuffisance cardiaque pour brûlure. Le bilan des lésions met en évidence : une brûlure de la face ; une brûlure de la cuisse gauche jusqu'à la jambe homolatérale ; une brûlure de la main gauche ; une brûlure de la moitié inférieure du tronc antérieur.",
+       "text": "En vous appuyant sur les formules, indiquer l'unité de QJ1 et QJ2 parmi ces propositions.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Kilogramme"
+        },
+        {
+         "letter": "B",
+         "text": "Centilitre"
+        },
+        {
+         "letter": "C",
+         "text": "Millilitre"
+        },
+        {
+         "letter": "D",
+         "text": "Litre"
+        },
+        {
+         "letter": "E",
+         "text": "Décilitre"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Litre",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La règle de Baxter s'exprime en millilitres par kg et par % de SCB.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (réanimation du premier jour, règle d'Evans : Q1 = 1 ml × Pkg × % ; 5.3 Baxter)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__14",
+       "num": "15",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°1 (réponse juste + 1 pt ; réponse fausse et sans réponse 0 pt). Stagiaire au service de chirurgie du CHR de MAN, vous recevez pendant votre permanence l'enfant Kapen, 3 ans, pesant 14 kg, présentant une insuffisance cardiaque pour brûlure. Le bilan des lésions met en évidence : une brûlure de la face ; une brûlure de la cuisse gauche jusqu'à la jambe homolatérale ; une brûlure de la main gauche ; une brûlure de la moitié inférieure du tronc antérieur.",
+       "text": "L'enfant Kapen devra bénéficier d'une surveillance infirmière très soutenue. Indiquer parmi ces éléments de surveillance celui qui est en rapport avec la réanimation hydroélectrolytique.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La respiration"
+        },
+        {
+         "letter": "B",
+         "text": "Le pouls"
+        },
+        {
+         "letter": "C",
+         "text": "La température"
+        },
+        {
+         "letter": "D",
+         "text": "L'alimentation"
+        },
+        {
+         "letter": "E",
+         "text": "La diurèse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "E. La diurèse",
+       "answerLetters": [
+        "E"
+       ],
+       "explanation": "La diurèse est le reflet direct de l'efficacité du remplissage : le cours précise que « la diurèse surtout sera suivie d'heure en heure » (sonde urinaire à ballonnet). Pouls, température et respiration se surveillent aussi, mais ne sont pas spécifiques de la réanimation hydroélectrolytique.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (La surveillance, p. 94)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__15",
+       "num": "16",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "Selon les faits rapportés par M. Gbê, indiquer votre première conduite à tenir vis-à-vis de celui-ci parmi les propositions suivantes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Informer l'infirmier"
+        },
+        {
+         "letter": "B",
+         "text": "Examiner le malade"
+        },
+        {
+         "letter": "C",
+         "text": "Prendre les constantes"
+        },
+        {
+         "letter": "D",
+         "text": "Préparation psychologique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Préparation psychologique",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "M. Gbê est en larmes et dit qu'il a peur de mourir : la première conduite est de le préparer psychologiquement (le calmer, diminuer sa peur) avant l'examen et la prise des constantes.\n\nSource : licence 2 ide, Fractures, 9.2.2 Soins préopératoires ; Cours de chirurgie traumatique et digestif, diapo 260 (« préparation psychologique : diminuer la peur »)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__16",
+       "num": "17",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "Indiquer deux contenus de cette première conduite tenue plus haut parmi ces propositions.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Inspecter le patient"
+        },
+        {
+         "letter": "B",
+         "text": "Mettre le malade en confiance"
+        },
+        {
+         "letter": "C",
+         "text": "Inscrire les constantes dans le dossier"
+        },
+        {
+         "letter": "D",
+         "text": "Rassurer le malade"
+        },
+        {
+         "letter": "E",
+         "text": "Appel téléphonique de l'infirmier"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Mettre le malade en confiance ; D. Rassurer le malade",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "La préparation psychologique consiste à mettre le malade en confiance et à le rassurer. Inspecter, inscrire les constantes ou appeler l'infirmier sont d'autres actes.\n\nSource : licence 2 ide, 9.2.2 Soins préopératoires (« le rassurer du mieux que l'on peut, l'assurer de votre présence »)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__17",
+       "num": "18",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "Indiquer parmi ces propositions l'affection dont souffre M. Gbê.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hernie étranglée"
+        },
+        {
+         "letter": "B",
+         "text": "Appendicite aiguë"
+        },
+        {
+         "letter": "C",
+         "text": "Occlusion intestinale"
+        },
+        {
+         "letter": "D",
+         "text": "Péritonite aiguë"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Occlusion intestinale",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'occlusion se définit par l'arrêt complet et persistant du transit des matières et des gaz, associé aux douleurs abdominales : c'est exactement ce que décrit M. Gbê (pas de selle ni de vent depuis 10 jours, douleurs vives). Rien n'évoque une hernie, une douleur de la fosse iliaque droite ou une contracture de péritonite.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__18",
+       "num": "19",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "Indiquer selon le texte les signes fonctionnels de cette affection rapportés par M. Gbê parmi les propositions suivantes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vomissement bilieux fécaloïde"
+        },
+        {
+         "letter": "B",
+         "text": "Douleur abdominale vive"
+        },
+        {
+         "letter": "C",
+         "text": "Météorisme abdominal"
+        },
+        {
+         "letter": "D",
+         "text": "Température élevée"
+        },
+        {
+         "letter": "E",
+         "text": "Douleur à la fosse iliaque droite"
+        },
+        {
+         "letter": "F",
+         "text": "Arrêt des matières et des gaz"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Douleur abdominale vive",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les signes fonctionnels de l'occlusion sont : douleurs abdominales, vomissements, arrêt des matières et des gaz. Dans le texte, M. Gbê rapporte une douleur vive. Il ne parle ni de vomissements ni de fièvre ; le météorisme est un signe physique. Remarque : L'arrêt des matières et des gaz est aussi rapporté par le malade (« pas de selle ni de vent ») et le cours en fait le signe majeur ; la question n'accepte qu'une seule réponse et la correction retient la douleur.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231 (III Syndrome occlusif : 3 signes fonctionnels)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__19",
+       "num": "20",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "Indiquer parmi ces propositions un signe physique de cette affection que vous pouviez rechercher chez M. Gbê.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vomissement bilieux fécaloïde"
+        },
+        {
+         "letter": "B",
+         "text": "Douleur abdominale vive"
+        },
+        {
+         "letter": "C",
+         "text": "Arrêt des matières et des gaz"
+        },
+        {
+         "letter": "D",
+         "text": "Météorisme abdominal"
+        },
+        {
+         "letter": "E",
+         "text": "Température élevée"
+        },
+        {
+         "letter": "F",
+         "text": "Douleur à la fosse iliaque droite"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Météorisme abdominal",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le cours décrit un seul signe physique de l'occlusion : le météorisme abdominal (augmentation du volume de l'abdomen). Vomissements, douleur et arrêt du transit sont des signes fonctionnels.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231 (« Signe physique : c'est le météorisme abdominal »)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__20",
+       "num": "21",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "Indiquer parmi ces propositions deux moyens dont vous disposez pour mettre en évidence ce signe physique.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Auscultation"
+        },
+        {
+         "letter": "B",
+         "text": "L'inspection"
+        },
+        {
+         "letter": "C",
+         "text": "L'ASP"
+        },
+        {
+         "letter": "D",
+         "text": "La palpation"
+        },
+        {
+         "letter": "E",
+         "text": "L'interrogatoire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. L'inspection ; D. La palpation",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Le météorisme se voit à l'inspection (abdomen augmenté de volume, en cadre…) et se confirme à la palpation (paroi souple, tendue, élastique) et à la percussion (tympanisme). L'ASP est un examen complémentaire ; l'interrogatoire recueille des signes fonctionnels.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231 (signe physique)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__21",
+       "num": "22",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "En vous appuyant sur les signes rapportés par le malade, indiquer le siège de cette affection parmi les propositions suivantes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'intestin grêle"
+        },
+        {
+         "letter": "B",
+         "text": "La fosse iliaque droite"
+        },
+        {
+         "letter": "C",
+         "text": "La fosse iliaque gauche"
+        },
+        {
+         "letter": "D",
+         "text": "Le côlon"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Le côlon",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Occlusion colique : début progressif, vomissements rares et tardifs, arrêt des matières et des gaz net, état longtemps conservé. M. Gbê a un arrêt du transit depuis 10 jours sans vomissements rapportés : tableau d'occlusion basse, du côlon.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231 (V Diagnostic du siège : l'occlusion colique)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__22",
+       "num": "23",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "Informé des résultats de vos investigations, l'infirmier vous demande de prescrire des examens complémentaires. Indiquer les examens radiologiques que vous pouvez prescrire à M. Gbê parmi ces propositions.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Numération formule sanguine"
+        },
+        {
+         "letter": "B",
+         "text": "L'échographie abdominale"
+        },
+        {
+         "letter": "C",
+         "text": "L'ASP"
+        },
+        {
+         "letter": "D",
+         "text": "Lavement baryté"
+        },
+        {
+         "letter": "E",
+         "text": "Ionogramme sanguin"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. L'ASP ; D. Lavement baryté",
+       "answerLetters": [
+        "C",
+        "D"
+       ],
+       "explanation": "Examens radiologiques de l'occlusion : l'ASP (niveaux hydroaériques) et le lavement baryté (précise le siège d'un obstacle colique). NFS et ionogramme sont des examens biologiques, pas radiologiques.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231 (1.4 Signes radiologiques)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__23",
+       "num": "24",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "Indiquer parmi ces propositions les résultats éventuels des examens radiologiques.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Désordre hydroélectrolytique"
+        },
+        {
+         "letter": "B",
+         "text": "Côlon partiellement injecté de baryte"
+        },
+        {
+         "letter": "C",
+         "text": "Niveau hydroaérique"
+        },
+        {
+         "letter": "D",
+         "text": "Hématocrite élevé"
+        },
+        {
+         "letter": "E",
+         "text": "Côlon totalement injecté"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Côlon partiellement injecté de baryte ; D. Hématocrite élevé",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Au lavement baryté, en cas d'obstacle colique, la baryte bute sur l'obstacle : le côlon n'est que partiellement injecté. (Le côlon totalement injecté s'observe dans l'occlusion du grêle.)\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231 (1.3 Signes biologiques ; 1.4 Signes radiologiques)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__24",
+       "num": "25",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "Indiquer le résultat de l'ionogramme sanguin parmi ces propositions.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Désordre hydroélectrolytique"
+        },
+        {
+         "letter": "B",
+         "text": "Côlon partiellement injecté de baryte"
+        },
+        {
+         "letter": "C",
+         "text": "Hématocrite élevé"
+        },
+        {
+         "letter": "D",
+         "text": "Côlon totalement injecté"
+        },
+        {
+         "letter": "E",
+         "text": "Niveau hydroaérique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Désordre hydroélectrolytique",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'occlusion s'accompagne « toujours » de désordres hydroélectrolytiques : hypochlorémie, hyponatrémie, hypokaliémie… C'est ce que montre l'ionogramme. Les autres propositions sont des résultats radiologiques ou de la NFS.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231 (1.2 Signes généraux ; 1.3 Signes biologiques)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__25",
+       "num": "26",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "L'infirmier vous demande d'entamer la prise en charge médicale de M. Gbê. Indiquer les actes que vous pouvez poser parmi les propositions suivantes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Prélèvement sanguin"
+        },
+        {
+         "letter": "B",
+         "text": "Pose d'une sonde nasogastrique"
+        },
+        {
+         "letter": "C",
+         "text": "Préparation physique du malade"
+        },
+        {
+         "letter": "D",
+         "text": "Installation du malade"
+        },
+        {
+         "letter": "E",
+         "text": "Prise d'une voie veineuse"
+        },
+        {
+         "letter": "F",
+         "text": "Préparation de la chambre du malade"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Prélèvement sanguin ; E. Prise d'une voie veineuse",
+       "answerLetters": [
+        "A",
+        "E"
+       ],
+       "explanation": "Gestes d'urgence du cours : prélever du sang (bilan électrolytique, groupage, NFS-hématocrite) et mettre en place une perfusion (voie veineuse) pour corriger les désordres hydroélectrolytiques. Préparation physique, installation et préparation de la chambre ne relèvent pas de la prise en charge médicale. Remarque : Le cours cite aussi la sonde gastroduodénale en aspiration parmi les gestes d'urgence.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231 (VI Traitement, gestes d'urgence)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__26",
+       "num": "27",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "Indiquer parmi ces propositions les actes infirmiers que vous pouvez réaliser avant l'arrivée de l'infirmier.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Pose d'une sonde nasogastrique"
+        },
+        {
+         "letter": "B",
+         "text": "Préparation physique du malade"
+        },
+        {
+         "letter": "C",
+         "text": "Installation du malade"
+        },
+        {
+         "letter": "D",
+         "text": "Prise d'une voie veineuse"
+        },
+        {
+         "letter": "E",
+         "text": "Prélèvement sanguin"
+        },
+        {
+         "letter": "F",
+         "text": "Préparation de la chambre du malade"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Préparation physique du malade ; E. Prélèvement sanguin ; F. Préparation de la chambre du malade",
+       "answerLetters": [
+        "B",
+        "E",
+        "F"
+       ],
+       "explanation": "En l'absence de l'infirmier, le stagiaire peut réaliser des actes simples et sans risque : préparation physique du malade, prélèvement sanguin prescrit et préparation de la chambre. La pose de sonde nasogastrique et de voie veineuse demande l'infirmier. Remarque : Le prélèvement sanguin est coché ici et la voie veineuse à la question 26 : les deux questions ne portent pas sur le même moment (avant / après l'arrivée de l'infirmier). (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__27",
+       "num": "28",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "L'infirmier vous demande de préparer le champ opératoire. Indiquer l'ordre chronologique de cette préparation physique parmi ces propositions.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Détersion / Désinfection / Rasage"
+        },
+        {
+         "letter": "B",
+         "text": "Rasage / Détersion / Désinfection"
+        },
+        {
+         "letter": "C",
+         "text": "Détersion / Rasage / Désinfection"
+        },
+        {
+         "letter": "D",
+         "text": "Rasage / Désinfection / Détersion"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Détersion / Rasage / Désinfection",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le cours décrit : préparation minutieuse de la peau (brossage, eau-savon = détersion), puis rasage large, puis grand savonnage et désinfection (alcool, Bétadine). Ordre : Détersion / Rasage / Désinfection. La désinfection se fait toujours en dernier, juste avant les champs stériles.\n\nSource : licence 2 ide, soins pré, per et postopératoires (fractures p. 47-50 ; péritonite p. 133-135) ; COURS PATHOLOGIE CHIRURGICALE (L2 2023), p. 37-39 (Préparer le champ opératoire)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__28",
+       "num": "29",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "Le chirurgien décide de réaliser une laparotomie. Indiquer deux buts visés par le chirurgien en réalisant ce type d'intervention.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "But de poser une sonde d'aspiration"
+        },
+        {
+         "letter": "B",
+         "text": "But de réaliser une hémostase"
+        },
+        {
+         "letter": "C",
+         "text": "But de réaliser une endoscopie"
+        },
+        {
+         "letter": "D",
+         "text": "But diagnostic"
+        },
+        {
+         "letter": "E",
+         "text": "But thérapeutique"
+        },
+        {
+         "letter": "F",
+         "text": "But de réaliser une ponction"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "D. But diagnostic ; E. But thérapeutique",
+       "answerLetters": [
+        "D",
+        "E"
+       ],
+       "explanation": "La laparotomie permet de faire le bilan à ventre ouvert et de reconnaître la lésion (but diagnostique), puis de lever l'obstacle (but thérapeutique : exérèse, dérivation, détorsion). Les autres propositions sont des gestes, pas des buts.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231 (Occlusion du grêle : « laparotomie médiane permettant de faire le bilan à ventre ouvert, de reconnaître la lésion »)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__29",
+       "num": "30",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "Indiquer les actes à accomplir dans la période peropératoire parmi les propositions ci-dessous.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Installer le matériel d'oxygénothérapie"
+        },
+        {
+         "letter": "B",
+         "text": "Surveillance du pansement"
+        },
+        {
+         "letter": "C",
+         "text": "Favoriser le lever précoce"
+        },
+        {
+         "letter": "D",
+         "text": "Réfection du lit du malade"
+        },
+        {
+         "letter": "E",
+         "text": "Surveillance de drains"
+        },
+        {
+         "letter": "F",
+         "text": "Élaborer une fiche de surveillance"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Installer le matériel d'oxygénothérapie ; B. Surveillance du pansement ; D. Réfection du lit du malade",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "Pendant l'intervention, l'infirmier prépare la chambre : réfection du lit, préparation et vérification du matériel d'oxygénothérapie et d'aspiration. Le cours de L2 (ménisque, période peropératoire) cite aussi « pansement et drainage ». Le lever précoce est postopératoire. Remarque : Le cours cite aussi la feuille de surveillance parmi les préparatifs peropératoires (non cochée ici).\n\nSource : licence 2 ide, soins pré, per et postopératoires (fractures p. 47-50 ; péritonite p. 133-135) ; COURS PATHOLOGIE CHIRURGICALE (L2 2023), p. 37-39 (9.2.3 Soins peropératoires)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__30",
+       "num": "31",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "Indiquer les actes à accomplir dans la période postopératoire de M. Gbê parmi les propositions ci-dessous.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Installer le matériel d'oxygénothérapie"
+        },
+        {
+         "letter": "B",
+         "text": "Réfection du lit du malade"
+        },
+        {
+         "letter": "C",
+         "text": "Favoriser le lever précoce"
+        },
+        {
+         "letter": "D",
+         "text": "Élaborer une fiche de surveillance"
+        },
+        {
+         "letter": "E",
+         "text": "Surveillance de drains"
+        },
+        {
+         "letter": "F",
+         "text": "Surveillance du pansement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Réfection du lit du malade ; D. Élaborer une fiche de surveillance ; E. Surveillance de drains",
+       "answerLetters": [
+        "B",
+        "D",
+        "E"
+       ],
+       "explanation": "En postopératoire, le cours prévoit la surveillance des drains (Redon : vide, fixation, écoulement) et la tenue de la surveillance (constantes notées).\n\nSource : licence 2 ide, soins pré, per et postopératoires (fractures p. 47-50 ; péritonite p. 133-135) ; COURS PATHOLOGIE CHIRURGICALE (L2 2023), p. 37-39 (9.2.4 Soins postopératoires)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__31",
+       "num": "32",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "Indiquer parmi ces propositions l'intérêt de surveiller le pansement et les drains.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Déceler une hémorragie"
+        },
+        {
+         "letter": "B",
+         "text": "Prévenir les phlébites"
+        },
+        {
+         "letter": "C",
+         "text": "Prévenir le syndrome de Mendelson"
+        },
+        {
+         "letter": "D",
+         "text": "Prévenir les hémorragies"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Déceler une hémorragie",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Surveiller pansement et drains permet de déceler (dépister) une hémorragie : la surveillance ne prévient pas l'hémorragie, elle la repère. Les phlébites se préviennent par le lever précoce ; le syndrome de Mendelson par l'aspiration gastrique.\n\nSource : licence 2 ide, soins pré, per et postopératoires (fractures p. 47-50 ; péritonite p. 133-135) ; COURS PATHOLOGIE CHIRURGICALE (L2 2023), p. 37-39 (« surveillance locale du pansement → hémorragie par les redons »)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__32",
+       "num": "33",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE N°2. Stagiaire au CHR de MAN, pendant votre permanence, alors que l'infirmier s'est retiré pour sa pause déjeuner, vous recevez monsieur Gbê. Voici les faits rapportés par celui-ci à l'interrogatoire : « Docteur, depuis près de dix jours je ne fais pas de selle ni de vent. En tout cas je sens un inconfort au ventre avec des douleurs vives. Vraiment docteur aidez-moi, ça ne va pas, je ne veux pas mourir ! » s'exclame-t-il tout en larmes.",
+       "text": "Indiquer parmi ces propositions le phénomène qui témoigne de la réussite de l'intervention.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La perméabilité des drains"
+        },
+        {
+         "letter": "B",
+         "text": "Le réveil du malade"
+        },
+        {
+         "letter": "C",
+         "text": "L'absence d'hémorragie"
+        },
+        {
+         "letter": "D",
+         "text": "La reprise du transit intestinal"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. La reprise du transit intestinal",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "L'intervention avait pour but de lever l'obstacle : la reprise du transit (gaz puis selles) prouve qu'il est levé. Le réveil, l'absence d'hémorragie et la perméabilité des drains témoignent seulement du bon déroulement des suites.\n\nSource : licence 2 ide, rôle postopératoire en chirurgie digestive (« la reprise du transit doit être guettée ») et péritonite (« jusqu'au rétablissement du transit »)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__33",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquer parmi ces propositions les deux signes que peut rapporter la victime en cas de fracture.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une déformation"
+        },
+        {
+         "letter": "B",
+         "text": "Une mobilité anormale"
+        },
+        {
+         "letter": "C",
+         "text": "Une crépitation osseuse"
+        },
+        {
+         "letter": "D",
+         "text": "Une douleur vive"
+        },
+        {
+         "letter": "E",
+         "text": "Une impotence fonctionnelle"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Une mobilité anormale ; D. Une douleur vive",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Ce que la victime rapporte (interrogatoire) = signes fonctionnels. La douleur vive en fait partie.\n\nSource : licence 2 ide, Fractures (p. 32-50) ; COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE, Généralités sur les fractures, p. 65-67",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__34",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquer parmi ces propositions trois signes que peut rechercher le praticien en cas de fracture.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une impotence fonctionnelle"
+        },
+        {
+         "letter": "B",
+         "text": "Une mobilité anormale"
+        },
+        {
+         "letter": "C",
+         "text": "Une déformation"
+        },
+        {
+         "letter": "D",
+         "text": "Une douleur vive"
+        },
+        {
+         "letter": "E",
+         "text": "Une crépitation osseuse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Une mobilité anormale ; C. Une déformation",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Signes physiques recherchés à l'examen : déformation (inspection), mobilité anormale et crépitation osseuse (palpation). La douleur et l'impotence fonctionnelle sont des signes rapportés par la victime. Remarque : La question demande trois signes mais la correction n'en coche que deux ; le troisième signe physique du cours est la crépitation osseuse.\n\nSource : licence 2 ide, Fractures (p. 32-50) ; COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE, Généralités sur les fractures, p. 65-67",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__35",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquer la variété de déplacement qui traduit un chevauchement parmi ces propositions.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Déplacement rotatoire"
+        },
+        {
+         "letter": "B",
+         "text": "Déplacement transversal"
+        },
+        {
+         "letter": "C",
+         "text": "Déplacement longitudinal"
+        },
+        {
+         "letter": "D",
+         "text": "Déplacement angulaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Déplacement longitudinal",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Selon le cours : déplacement longitudinal = chevauchement ; transversal = baïonnette ; angulaire = angulation ; rotatoire = décalage.\n\nSource : licence 2 ide, Fractures (p. 32-50) ; COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE, Généralités sur les fractures, p. 65-67 (4.2 Le déplacement des fragments)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__36",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquer la variété de déplacement qui traduit le déplacement en baïonnette parmi ces propositions.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Déplacement longitudinal"
+        },
+        {
+         "letter": "B",
+         "text": "Déplacement rotatoire"
+        },
+        {
+         "letter": "C",
+         "text": "Déplacement transversal"
+        },
+        {
+         "letter": "D",
+         "text": "Déplacement angulaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Déplacement transversal",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le déplacement transversal est le déplacement « en baïonnette » (les fragments glissent latéralement l'un par rapport à l'autre).\n\nSource : licence 2 ide, Fractures (p. 32-50) ; COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE, Généralités sur les fractures, p. 65-67 (4.2)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__37",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquer l'ordre chronologique de la prise en charge orthopédique d'une fracture.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Réduction / Rééducation / Contention"
+        },
+        {
+         "letter": "B",
+         "text": "Contention / Réduction / Rééducation"
+        },
+        {
+         "letter": "C",
+         "text": "Contention / Rééducation / Réduction"
+        },
+        {
+         "letter": "D",
+         "text": "Réduction / Contention / Rééducation"
+        },
+        {
+         "letter": "E",
+         "text": "Rééducation / Réduction / Contention"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Réduction / Contention / Rééducation",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le traitement d'une fracture déplacée comporte la réduction (remettre les fragments en place), puis la contention (immobiliser pour permettre la consolidation) ; la rééducation vient ensuite pour récupérer la fonction.\n\nSource : COURS PATHOLOGIE CHIRURGICALE (L2 2023), V Traitement, principes généraux, p. 22",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__38",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquer parmi ces propositions l'examen de confirmation d'une fracture.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'ECG"
+        },
+        {
+         "letter": "B",
+         "text": "L'échographie"
+        },
+        {
+         "letter": "C",
+         "text": "L'EEG"
+        },
+        {
+         "letter": "D",
+         "text": "La radiographie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. La radiographie",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "« La radiographie seule permet de confirmer le diagnostic » (deux clichés, face et profil). ECG, échographie et EEG ne confirment pas une fracture.\n\nSource : licence 2 ide, Fractures (p. 32-50) ; COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE, Généralités sur les fractures, p. 65-67 (IV Examens complémentaires)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__39",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquer parmi ces propositions trois signes que peut mettre en évidence l'examen de confirmation d'une fracture.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le déplacement des fragments osseux"
+        },
+        {
+         "letter": "B",
+         "text": "Les lésions associées"
+        },
+        {
+         "letter": "C",
+         "text": "Le type de fracture"
+        },
+        {
+         "letter": "D",
+         "text": "La déformation"
+        },
+        {
+         "letter": "E",
+         "text": "La mobilité anormale"
+        },
+        {
+         "letter": "F",
+         "text": "La crépitation osseuse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Les lésions associées ; E. La mobilité anormale ; F. La crépitation osseuse",
+       "answerLetters": [
+        "B",
+        "E",
+        "F"
+       ],
+       "explanation": "La radiographie précise les lésions osseuses associées.\n\nSource : licence 2 ide, Fractures (p. 32-50) ; COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE, Généralités sur les fractures, p. 65-67 (IV Examens complémentaires : 4.1 type, 4.2 déplacement, 4.3 lésions associées)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__40",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquer les types de fractures parmi les propositions ci-dessous.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Fracture ouverte"
+        },
+        {
+         "letter": "B",
+         "text": "Fracture incomplète"
+        },
+        {
+         "letter": "C",
+         "text": "Fracture en bois vert"
+        },
+        {
+         "letter": "D",
+         "text": "Fracture fermée"
+        },
+        {
+         "letter": "E",
+         "text": "Fracture complète"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Fracture incomplète ; D. Fracture fermée",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Le cours classe les fractures en complète / incomplète (selon le trait) et en fermée / ouverte (selon la communication avec l'extérieur). La fracture en bois vert est une variété de fracture incomplète (question 43). Remarque : « Fracture ouverte » et « fracture complète » sont aussi des types de fractures dans le cours ; la correction n'en retient que deux.\n\nSource : licence 2 ide, Fractures (p. 32-50) ; COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE, Généralités sur les fractures, p. 65-67 (4.1 Type de fracture ; V Différentes sortes de fractures)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__41",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquer une variété de fracture incomplète parmi ces propositions.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Fracture en bois vert"
+        },
+        {
+         "letter": "B",
+         "text": "Fracture simple"
+        },
+        {
+         "letter": "C",
+         "text": "Fracture comminutive"
+        },
+        {
+         "letter": "D",
+         "text": "Fracture à étage"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Fracture en bois vert",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les fractures incomplètes avec flexion, fréquentes chez l'enfant, sont dites « en bois vert ». Fractures simple, à étage et comminutive sont des variétés de fractures complètes.\n\nSource : licence 2 ide, Fractures (p. 32-50) ; COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE, Généralités sur les fractures, p. 65-67 (4.1 b. Fracture incomplète)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__42",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Relier chaque local du bloc opératoire à son destinataire. Locaux : A. Salle de réveil ; B. Salle d'eau ; C. Salle de stérilisation ; D. Salle d'hospitalisation. Destinataires : 1. Panseur ; 2. Malade ; 3. Chirurgien.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "(D, 3) / (B, 2) / (C, 1)"
+        },
+        {
+         "letter": "B",
+         "text": "(A, 2) / (B, 3) / (C, 1)"
+        },
+        {
+         "letter": "C",
+         "text": "(D, 1) / (C, 2) / (A, 3)"
+        },
+        {
+         "letter": "D",
+         "text": "(B, 2) / (C, 2) / (A, 3)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. (A, 2) / (B, 3) / (C, 1)",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Salle de réveil → malade (A-2) ; salle d'eau, où se fait le lavage chirurgical des mains → chirurgien (B-3) ; salle de stérilisation, où le panseur prépare le matériel → panseur (C-1). Les autres associations attribuent un même destinataire à deux locaux ou inversent les rôles. (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__43",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquer parmi ces propositions l'ordre chronologique de préparation d'un champ opératoire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Détersion / rasage / désinfection"
+        },
+        {
+         "letter": "B",
+         "text": "Rasage / Détersion / désinfection"
+        },
+        {
+         "letter": "C",
+         "text": "Rasage / désinfection / Détersion"
+        },
+        {
+         "letter": "D",
+         "text": "Désinfection / rasage / Détersion"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Détersion / rasage / désinfection",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Même règle qu'à la question 28 : détersion (brossage eau-savon), rasage, puis désinfection antiseptique en dernier.\n\nSource : licence 2 ide, soins pré, per et postopératoires (fractures p. 47-50 ; péritonite p. 133-135) ; COURS PATHOLOGIE CHIRURGICALE (L2 2023), p. 37-39 (Préparer le champ opératoire)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__44",
+       "num": "46",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquer parmi ces propositions le besoin prioritaire chez l'occlus du côlon.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Besoin d'éliminer"
+        },
+        {
+         "letter": "B",
+         "text": "Besoin de dormir et se reposer"
+        },
+        {
+         "letter": "C",
+         "text": "Besoin de manger et boire"
+        },
+        {
+         "letter": "D",
+         "text": "Besoin d'être propre, soigné et protéger ses téguments"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Besoin d'éliminer",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans l'occlusion du côlon, l'arrêt des matières et des gaz est net, les vomissements sont rares et l'état général longtemps conservé : le besoin perturbé en priorité est le besoin d'éliminer.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231 (occlusion colique)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__45",
+       "num": "47",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquer dans les suites opératoires deux avantages du lever précoce parmi ces propositions.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Accélère la reprise du transit"
+        },
+        {
+         "letter": "B",
+         "text": "Lutte contre l'infection"
+        },
+        {
+         "letter": "C",
+         "text": "Prévient les hémorragies"
+        },
+        {
+         "letter": "D",
+         "text": "Prévient les chocs hémodynamiques"
+        },
+        {
+         "letter": "E",
+         "text": "Prévient la stase et l'obstruction bronchique"
+        },
+        {
+         "letter": "F",
+         "text": "Favorise la cicatrisation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Accélère la reprise du transit ; E. Prévient la stase et l'obstruction bronchique",
+       "answerLetters": [
+        "A",
+        "E"
+       ],
+       "explanation": "Le cours indique de « lutter contre l'atonie intestinale par le lever précoce » (reprise du transit) et d'assurer une bonne ventilation en luttant contre l'encombrement bronchique. Le lever précoce prévient aussi les phlébites et les escarres ; il ne lutte pas directement contre l'infection ou les hémorragies.\n\nSource : licence 2 ide, Péritonite, soins postopératoires (p. 134) ; Fractures, prévention des complications (p. 50)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__46",
+       "num": "48",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces gestes, deux peuvent être accomplis dans un établissement de premier contact par l'infirmier. Indiquez-les.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Pose d'une sonde nasogastrique"
+        },
+        {
+         "letter": "B",
+         "text": "Effectuer la prémédication"
+        },
+        {
+         "letter": "C",
+         "text": "Préparation du champ opératoire"
+        },
+        {
+         "letter": "D",
+         "text": "Établir une feuille d'évacuation"
+        },
+        {
+         "letter": "E",
+         "text": "Pose d'une voie veineuse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Pose d'une sonde nasogastrique ; B. Effectuer la prémédication",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "Dans un établissement de premier contact, avant évacuation, l'infirmier peut poser une sonde nasogastrique (décompression digestive) et effectuer la prémédication prescrite. La préparation du champ opératoire se fait dans le service qui opère. Remarque : La prémédication n'est pas citée dans les cours du projet pour ce contexte (partie hors cours du projet).\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231 (gestes d'urgence : sonde gastroduodénale en aspiration)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__47",
+       "num": "49",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces propositions, indiquer le besoin prioritaire chez l'occlus du grêle.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Besoin d'éliminer"
+        },
+        {
+         "letter": "B",
+         "text": "Besoin de dormir et se reposer"
+        },
+        {
+         "letter": "C",
+         "text": "Besoin de respirer"
+        },
+        {
+         "letter": "D",
+         "text": "Besoin de manger et boire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Besoin de manger et boire",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Dans l'occlusion du grêle (haute), les vomissements sont précoces et abondants, l'intolérance gastrique est totale : le malade ne peut ni manger ni boire, d'où le besoin prioritaire de manger et boire (et le retentissement rapide sur l'état général).\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231 (V Diagnostic du siège)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__48",
+       "num": "50",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans l'occlusion intestinale, le lavement baryté s'effectue en cas de perforation intestinale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux. Le lavement baryté est contre-indiqué en cas de perforation intestinale : la baryte passerait dans le péritoine et provoquerait une péritonite grave. Le cours le présente comme l'examen qui précise le siège d'un obstacle colique, pas comme un examen de la perforation. (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__49",
+       "num": "51",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les occlusions intestinales hautes les vomissements sont tardifs alors qu'ils sont précoces dans les occlusions basses.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : c'est l'inverse. Dans l'occlusion haute (grêle), les vomissements sont précoces et abondants ; dans l'occlusion basse (côlon), ils sont rares et tardifs.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231 (V Diagnostic du siège)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__50",
+       "num": "52",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les occlusions hautes siègent au niveau du côlon et les occlusions basses au niveau du grêle.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : les occlusions hautes siègent sur le grêle, les occlusions basses sur le côlon (le cours parle du cancer du côlon comme « facteur d'occlusion basse »).\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__51",
+       "num": "53",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La péritonite se manifeste par une triade de signes fonctionnels et un signe physique.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai selon la correction nationale : la péritonite associe des signes fonctionnels (douleur abdominale brutale, vomissements, arrêt du transit) et un signe physique majeur, la contracture abdominale. Remarque : Dans les cours, la formule « trois signes fonctionnels et un signe physique » est écrite pour le syndrome occlusif ; pour la péritonite, le cours décrit la douleur et la contracture sans parler de triade.\n\nSource : licence 2 ide, Péritonites, p. 129-135 ; Cours de chirurgie traumatique et digestif, diapos 234-238",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__52",
+       "num": "54",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le signe physique de l'occlusion est la contracture abdominale alors que celui de la péritonite est le météorisme abdominal.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : c'est l'inverse. Le signe physique de l'occlusion est le météorisme (« il n'y a jamais de contracture ») ; celui de la péritonite est la contracture abdominale.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 121-128 ; Cours de chirurgie traumatique et digestif, diapos 223-231 ; licence 2 ide, Péritonites, p. 129-135 ; Cours de chirurgie traumatique et digestif, diapos 234-238",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__53",
+       "num": "55",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La péritonite tuberculeuse est une péritonite secondaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux selon la correction nationale. Le cours classe la péritonite tuberculeuse parmi les péritonites chroniques ; elle est due au bacille de Koch qui atteint le péritoine, souvent par voie sanguine, et non à la perforation ou à l'infection d'un organe voisin, ce qui définit une péritonite secondaire.\n\nSource : licence 2 ide, Péritonites, p. 129-135 ; Cours de chirurgie traumatique et digestif, diapos 234-238 (3. Les péritonites chroniques)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__54",
+       "num": "56",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le ramassage de tous les traumatisés du rachis devra se faire à plusieurs et en monobloc avec maintien de l'axe cranio-rachidien.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. Le cours interdit l'empoigne à deux (sous les aisselles et sous les genoux), qui peut déplacer une fracture du rachis et sectionner la moelle. Il faut maintenir le rachis en rectitude, relever en traction axiale et installer sur un plan dur, ce qui suppose plusieurs sauveteurs et un ramassage en monobloc.\n\nSource : licence 2 ide, Conduite à tenir auprès d'un traumatisé des voies publiques, p. 82-83 ; Cours de chirurgie traumatique et digestif, diapos 135-136",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__55",
+       "num": "57",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la gastrectomie, le besoin de manger et boire peut trouver sa justification dans la modification anatomique de l'estomac.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. Après une gastrectomie, l'estomac est réduit ou absent : la réalimentation est progressive (semi-liquide, puis normale vers le 7e jour en subtotale, le 10e en totale), et il faut fractionner les repas pour éviter malaises postprandiaux et diarrhée. C'est la modification anatomique qui perturbe le besoin de manger et boire.\n\nSource : licence 2 ide, Cancer de l'estomac, soins postopératoires, p. 145-146",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j2-ide__56",
+       "num": "58",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le besoin d'apprendre dans la colostomie peut se justifier par le caractère éducatif du soin pour le patient.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. Le colostomisé doit apprendre à faire lui-même ses soins de stomie (changement de poche, soins de la peau, alimentation) : le soin a un caractère éducatif, ce qui justifie le besoin d'apprendre. (explication hors cours du projet)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J2 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

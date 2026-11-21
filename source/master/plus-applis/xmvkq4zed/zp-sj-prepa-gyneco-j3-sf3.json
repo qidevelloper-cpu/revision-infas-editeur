@@ -1,0 +1,1598 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zp-sj-prepa-gyneco-j3-sf3",
+ "titre": "Préparation D.E (J) · J3 Gynéco-obstétrique SF3",
+ "session": "J",
+ "annee": 2026,
+ "nq": 42,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+   "sha256": "9ee0174cae6a310ff499e14b7685289c3bf3a2155e497e3971a6b1d18f45aa2e"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Gynéco-obstétrique · Prépa D.E J3 (SF3)",
+     "slug": "prepa-gyneco-j3-sf3",
+     "pages": "",
+     "count": 42,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Gynéco-obstétrique",
+     "source": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'une des indications de l'échographie au premier trimestre de la grossesse, est d'apprécier la morphologie fœtale",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'échographie du 1er trimestre sert surtout à confirmer la grossesse, préciser son siège, son âge, le nombre d'embryons et leur vitalité. L'étude de la morphologie fœtale est l'objectif de l'échographie du 2e trimestre. Remarque : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025) p. 195 cite aussi un premier repérage de la morphologie (clarté nucale) à l'échographie de 11-14 SA ; l'examen morphologique proprement dit reste celui du 2e trimestre.\n\nSource : Cours de soins obstétricaux L2 SF, CPN recentrée (3 échographies) ; Cours de Gynéco-Obstétrique 1re année (INFAS), Diagnostic de la grossesse au début",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La fièvre, chez une femme enceinte, se définit par une température rectale à partir de 38°C au repos et dans un environnement normal",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La fièvre est une température centrale (rectale) égale ou supérieure à 38 °C, mesurée au repos. Chez la femme enceinte, toute fièvre doit être considérée comme un paludisme jusqu'à preuve du contraire. Remarque : L'algorithme « infection au cours de la grossesse » du SONU L3 SF (p. 7) utilise le seuil de 37,8 °C.\n\nSource : SONU L3 SF, Fièvre pendant la grossesse p. 86",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "On parle de ménopause précoce lorsque la ménopause survient avant l'âge de 45 ans",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La ménopause précoce est une ménopause survenant avant 40 ans (et non 45 ans).\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Infertilité – causes féminines p. 187",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "le fer ne doit pas être prescrit chez les gestantes qui ont une drépanocytose majeure",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans la drépanocytose majeure, l'anémie est hémolytique et non ferriprive : les réserves en fer sont souvent élevées (transfusions répétées), un apport de fer systématique expose à la surcharge. On donne surtout de l'acide folique. La gestante doit être suivie en centre spécialisé.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Hémoglobinopathies et grossesse p. 17 (partiellement hors cours pour la contre-indication du fer)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au cours de la grossesse, le dépistage de l'allo-immunisation rhésus se fait par le test de Coombs indirect",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le test de Coombs indirect, fait chez la gestante Rhésus négatif, recherche dans son sang des anticorps anti-D ; il est répété à chaque CPN s'il est négatif.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Allo-immunisation Rhésus p. 20 ; SONU L3 SF, Incompatibilité p. 43",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "lors de l'administration de la Sulfadoxine Pyriméthamine chez la femme enceinte sous prophylaxie antianémique avec l'acide folique, il est recommandé dès la prise de la Sulfadoxine- Pyriméthamine de suspendre durant 14 jours le traitement antianémique par l'acide folique si la dose de l'acide folique atteint ou dépasse 5 mg/jour et le reprendre au 15ème jour",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'acide folique à 5 mg/jour ou plus diminue l'efficacité de la SP (antifolique). On suspend donc l'acide folique pendant 14 jours à partir de la prise de SP et on le reprend au 15e jour. Remarque : Le SONU L3 SF (Anémie p. 28) parle d'une semaine d'arrêt ; le cours de Gynéco-Obstétrique L3 donne bien 14 jours.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Paludisme et grossesse p. 8 et Anémie p. 15",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le plasmodium vivax est l'espèce de plasmodium qui tue",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "C'est Plasmodium falciparum qui est responsable du paludisme grave et mortel (fièvre tierce maligne). P. vivax donne une fièvre tierce bénigne.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Paludisme et grossesse p. 3",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Il ya anémie sévère lorsque le taux d'hémoglobine est inférieur à 8 g/dl",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Au cours de la grossesse, l'anémie est dite sévère quand le taux d'hémoglobine est inférieur à 8 g/100 ml. Remarque : Dans le paludisme grave (p. 4), l'« anémie grave » est définie par un taux d'hémoglobine inférieur à 7 g/dl.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Anémie et grossesse p. 9",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La nécrobiose aseptique est une complication fréquente du fibrome utérin au cours de la grossesse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La nécrobiose aseptique est la complication la plus fréquente du myome pendant la grossesse ; non traitée, elle peut entraîner une menace d'accouchement prématuré.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Fibrome et grossesse p. 46-47 ; Gynéco L2 IDE (INFAS 2025), Myome utérin",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les gestantes séropositives au VIH sous cotrimoxazole ne doivent pas bénéficier d'une prophylaxie antipaludique par le traitement préventif intermittent associant sulfadoxine et pyriméthamine",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cotrimoxazole a déjà un effet antipaludique prouvé ; y ajouter la SP expose au surdosage en sulfamides et aux effets indésirables. On ne donne donc pas de TPI à la SP à ces gestantes. Remarque : Le SONU L3 SF (p. 90) propose une autre conduite (donner la SP et arrêter le cotrimoxazole une semaine) ; les autres cours vont dans le sens de la correction.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Paludisme et grossesse p. 7-8 ; Cours de soins obstétricaux L2 SF, Paludisme et grossesse",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les cas de paludisme grave doivent être pris en charge au sein d'une formation sanitaire SONU-C.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le paludisme grave ou compliqué de la gestante se traite en soins intensifs : la sage-femme doit la référer vers un centre SONU C (centre de référence).\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Paludisme et grossesse p. 5 ; SONU L3 SF p. 88",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la lymphangite du sein, l'allaitement doit être poursuivi",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans la lymphangite, le lait reste propre (signe de Budin négatif) : on poursuit l'allaitement. Il est arrêté dans la galactophorite et l'abcès (lait purulent).\n\nSource : SONU L3 SF, Affections mammaires p. 104",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour avoir une allo immunisation dans le système rhésus, il faut que la mère soit de rhésus négatif et le fœtus de rhésus positif",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Conditions de l'incompatibilité : mère Rh négatif, père géniteur Rh positif et fœtus Rh positif. Si le fœtus est Rh négatif, il n'y a pas d'immunisation.\n\nSource : SONU L3 SF, Incompatibilité p. 42 ; Gynécologie-Obstétrique L3 SF (INFAS 2024-2025) p. 19-20",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les traumatismes au cours de la grossesse peuvent induire un accouchement prématuré",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un traumatisme abdominal peut provoquer un décollement placentaire, une rupture des membranes ou des contractions, donc une menace ou un accouchement prématuré.\n\nSource : Traumatismes et grossesse (Pr Guié, INFAS) ; MAP – menace d'accouchement prématuré",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En cas de ménopause confirmée, le taux de FSH est très bas",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "À la ménopause, les ovaires ne répondent plus : la FSH est très augmentée (et la LH augmentée), alors que l'œstradiol est bas.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025) p. 162",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__15",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La stérilité primaire est l'inaptitude à concevoir de nouveau après avoir conçu",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Ceci est la définition de la stérilité secondaire. La stérilité primaire est l'incapacité à concevoir pour la première fois.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Infertilité p. 185",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__16",
+       "num": "17",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La malodeur vaginale encore appelée la vaginose bactérienne est une complication des leucorrhées à Gardnerella vaginalis",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La vaginose bactérienne n'est pas une complication : c'est l'infection elle-même, due à la prolifération de Gardnerella vaginalis (et d'anaérobies) au détriment des bacilles de Döderlein ; la mauvaise odeur en est un signe.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Leucorrhées p. 178",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__17",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le test diagnostique du diabète gestationnel est le test de O'Sullivan",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le test de O'Sullivan est un test de dépistage. Le diagnostic se fait par l'hyperglycémie provoquée par voie orale (HGPO).\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Diabète et grossesse p. 45",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__18",
+       "num": "19",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le paludisme apparait plus grave chez la primipare",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours dit que le paludisme est plus grave chez la primigeste (1re grossesse) et son nouveau-né, pas chez la primipare.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Paludisme et grossesse p. 3",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__19",
+       "num": "20",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'âge moyen de la ménopause est 50 ans.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La vie génitale va de la puberté (12-13 ans) à la ménopause, qui survient en moyenne vers 50 ans.\n\nSource : Cours de Gynéco-Obstétrique 1re année (INFAS), Cycle menstruel normal p. 26",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle ou lesquelles des assertions concernant la césarienne est ou sont juste(s) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Il est recommandé de renoncer à une grossesse ultérieure à partir de 5 césariennes"
+        },
+        {
+         "letter": "B",
+         "text": "Elle peut se pratiquer par la voie vaginale"
+        },
+        {
+         "letter": "C",
+         "text": "Selon les incisions sur l'utérus, la césarienne corporéale est la plus pratiquée"
+        },
+        {
+         "letter": "D",
+         "text": "En périphérie, toutes les indications de césarienne sont synonymes de transfert"
+        },
+        {
+         "letter": "E",
+         "text": "Les dystocies mécaniques sont des causes fréquentes de césarienne"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Elle peut se pratiquer par la voie vaginale ; D. En périphérie, toutes les indications de césarienne sont synonymes de transfert ; E. Les dystocies mécaniques sont des causes fréquentes de césarienne",
+       "answerLetters": [
+        "B",
+        "D",
+        "E"
+       ],
+       "explanation": "Le cours distingue la césarienne abdominale et la césarienne vaginale (B). En périphérie, sans bloc opératoire, toute indication de césarienne impose un transfert (D). Les dystocies mécaniques (bassin rétréci…) sont une indication fréquente (E). C est faux : c'est la césarienne segmentaire qui est la plus pratiquée. A : le seuil de 5 césariennes ne figure pas dans le cours.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Césarienne p. 143 ; SONU L3 SF, Césarienne p. 57",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les indications de la ventouse obstétricale sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La prématurité"
+        },
+        {
+         "letter": "B",
+         "text": "la cardiopathie maternelle"
+        },
+        {
+         "letter": "C",
+         "text": "la souffrance fœtale aigue"
+        },
+        {
+         "letter": "D",
+         "text": "La disproportion céphalo-pelvienne"
+        },
+        {
+         "letter": "E",
+         "text": "la procidence du cordon battant"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. la cardiopathie maternelle ; C. la souffrance fœtale aigue ; E. la procidence du cordon battant",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "La ventouse sert à raccourcir l'expulsion quand les efforts expulsifs sont dangereux (cardiopathie) ou quand il faut extraire vite l'enfant (souffrance fœtale aiguë, procidence du cordon battant à dilatation complète, tête engagée). La prématurité est une contre-indication (fragilité du crâne) et la disproportion céphalo-pelvienne impose la césarienne.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Extractions instrumentales p. 85-87 ; SONU L3 SF, Cardiopathie p. 98",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les principales causes des Hauteurs utérines élevées sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Erreur de terme"
+        },
+        {
+         "letter": "B",
+         "text": "Kyste ovarien et grossesse"
+        },
+        {
+         "letter": "C",
+         "text": "grossesse gémellaire"
+        },
+        {
+         "letter": "D",
+         "text": "oligoamnios"
+        },
+        {
+         "letter": "E",
+         "text": "Gros fœtus"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Erreur de terme ; C. grossesse gémellaire ; E. Gros fœtus",
+       "answerLetters": [
+        "A",
+        "C",
+        "E"
+       ],
+       "explanation": "Une HU supérieure à la normale fait rechercher une grossesse multiple, un gros fœtus (macrosomie), un hydramnios, un fibrome, mais aussi une erreur sur le terme. L'oligoamnios donne au contraire une HU basse. Remarque : Dans le cours de soins obstétricaux, l'erreur de terme est citée parmi les causes d'HU basse ; une erreur de terme peut fausser l'HU dans les deux sens.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), CAT devant les anomalies de la hauteur utérine p. 52 ; Cours de soins obstétricaux L2 SF, Admission de la parturiente",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "l'association syphilis et grossesse peut se compliquer de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "la syphilis congénitale"
+        },
+        {
+         "letter": "B",
+         "text": "rupture prématurée des membranes"
+        },
+        {
+         "letter": "C",
+         "text": "Oligoamnios chronique"
+        },
+        {
+         "letter": "D",
+         "text": "accouchement prématuré"
+        },
+        {
+         "letter": "E",
+         "text": "avortement spontané"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. la syphilis congénitale ; D. accouchement prématuré ; E. avortement spontané",
+       "answerLetters": [
+        "A",
+        "D",
+        "E"
+       ],
+       "explanation": "Après le 4e mois, le tréponème traverse le placenta : avortement spontané (parfois à répétition), accouchement prématuré, mort fœtale, hydramnios et syphilis congénitale. On note un hydramnios et non un oligoamnios. Remarque : Dans le sujet, la 1re option n'a pas de lettre (c'est l'option A).\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Syphilis et grossesse p. 28-29",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans une structure sanitaire avec un bloc opératoire fonctionnel, La sage-femme doit pratiquer des gestes urgents avant la césarienne. Ce sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Mettre en place une sonde nasogastrique"
+        },
+        {
+         "letter": "B",
+         "text": "Faire réaliser une Numération et Formule Sanguine ou un taux de l'hémoglobine"
+        },
+        {
+         "letter": "C",
+         "text": "Faire coucher la parturiente ou la gestante sur le dos"
+        },
+        {
+         "letter": "D",
+         "text": "Prescrire le kit d'intervention chirurgicale"
+        },
+        {
+         "letter": "E",
+         "text": "Informer le médecin de venir réaliser la césarienne"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Faire réaliser une Numération et Formule Sanguine ou un taux de l'hémoglobine ; D. Prescrire le kit d'intervention chirurgicale",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Avant une césarienne en urgence, la sage-femme fait les prélèvements (groupe-Rhésus, TP, TCK, NFS/hémoglobine) et vérifie ou complète le kit de césarienne. On place une sonde urinaire (pas nasogastrique) et la femme est installée en décubitus latéral gauche, pas sur le dos.\n\nSource : SONU L3 SF, Césarienne p. 59 ; Gynécologie-Obstétrique L3 SF (INFAS 2024-2025) p. 140",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les examens complémentaires ci-dessous font partie du bilan de base du couple infertile :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le spermogramme"
+        },
+        {
+         "letter": "B",
+         "text": "Le Test post coïtal de Hühner"
+        },
+        {
+         "letter": "C",
+         "text": "Le dosage plasmatique de l'œstradiol"
+        },
+        {
+         "letter": "D",
+         "text": "La coelioscopie"
+        },
+        {
+         "letter": "E",
+         "text": "L'hystérosalpingographie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Le spermogramme ; B. Le Test post coïtal de Hühner ; E. L'hystérosalpingographie",
+       "answerLetters": [
+        "A",
+        "B",
+        "E"
+       ],
+       "explanation": "Le bilan de première intention associe le spermogramme (homme), le test post-coïtal de Hühner (glaire et spermatozoïdes) et l'hystérosalpingographie (cavité utérine et perméabilité des trompes). Les dosages hormonaux ciblés et la cœlioscopie viennent en 2e intention.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Infertilité – examens complémentaires p. 189",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "le dépistage du diabète gestationnel se fait en cas de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "âge maternel supérieur à 40 ans"
+        },
+        {
+         "letter": "B",
+         "text": "prise de poids supérieur à 1kg par mois au cours de la grossesse"
+        },
+        {
+         "letter": "C",
+         "text": "antécédent de gros fœtus"
+        },
+        {
+         "letter": "D",
+         "text": "antécédent de morts né"
+        },
+        {
+         "letter": "E",
+         "text": "antécédent personnel de diabète insulino-résistant"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. prise de poids supérieur à 1kg par mois au cours de la grossesse ; C. antécédent de gros fœtus ; D. antécédent de morts né",
+       "answerLetters": [
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "Les critères de O'Sullivan font dépister les gestantes avec antécédents obstétricaux pathologiques (gros fœtus, mort-né…) ou une grossesse actuelle anormale (prise de poids > 1 kg/mois, hydramnios, macrosomie, glycosurie…). Une femme déjà diabétique n'a pas besoin de dépistage : son diabète est connu.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Diabète et grossesse p. 45",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "la ou les conditions de réalisation de l'épreuve du travail est ou sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "milieu obstétrico-chirurgical comprenant un bloc opératoire"
+        },
+        {
+         "letter": "B",
+         "text": "Bassin maternel rétréci"
+        },
+        {
+         "letter": "C",
+         "text": "Absence de souffrance fœtale chronique"
+        },
+        {
+         "letter": "D",
+         "text": "Présentation céphalique"
+        },
+        {
+         "letter": "E",
+         "text": "Fœtus à terme de poids normal"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. milieu obstétrico-chirurgical comprenant un bloc opératoire ; E. Fœtus à terme de poids normal",
+       "answerLetters": [
+        "A",
+        "E"
+       ],
+       "explanation": "Les 6 conditions du cours : présentation du sommet, fœtus à terme de poids normal, absence de souffrance fœtale aiguë, bassin limite (et non rétréci : le bassin rétréci est une contre-indication), surveillance très étroite, maternité avec bloc opératoire fonctionnel. Remarque : C et D sont proches du cours mais pas exacts : le cours dit « souffrance fœtale aiguë » et « présentation du sommet » (pas toute présentation céphalique).\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), L'épreuve du travail p. 137",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle ou lesquelles des assertions concernant la covid 19 au cours de la grossesse n'est pas ou ne sont juste(s) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Il faut séparer le couple mère-enfant lorsque le pronostic vital de la mère et de l'enfant sont bien engagés"
+        },
+        {
+         "letter": "B",
+         "text": "Il y a un risque de malformation fœtale"
+        },
+        {
+         "letter": "C",
+         "text": "L'allaitement est contre-indiqué"
+        },
+        {
+         "letter": "D",
+         "text": "Il y a un risque élevé de transmission verticale prénatal"
+        },
+        {
+         "letter": "E",
+         "text": "Elle peut se compliquer de prééclampsie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Il y a un risque de malformation fœtale ; C. L'allaitement est contre-indiqué ; D. Il y a un risque élevé de transmission verticale prénatal",
+       "answerLetters": [
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "La question demande les affirmations fausses. Le COVID-19 n'est pas tératogène, l'allaitement n'est pas contre-indiqué (avec mesures barrières) et la transmission verticale prénatale est rare. Sont exactes : la séparation mère-enfant quand le pronostic vital est engagé, et le risque de pré-éclampsie.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Infection au COVID-19 et grossesse p. 31-32",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les facteurs de risque des leucorrhées pathologiques sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'usage de vêtement trop serré"
+        },
+        {
+         "letter": "B",
+         "text": "L'excès de toilette intime"
+        },
+        {
+         "letter": "C",
+         "text": "La multiplication des partenaires sexuels"
+        },
+        {
+         "letter": "D",
+         "text": "L'usage des tampons protecteurs"
+        },
+        {
+         "letter": "E",
+         "text": "L'usage des sous corps en coton"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. L'usage de vêtement trop serré ; B. L'excès de toilette intime ; C. La multiplication des partenaires sexuels ; D. L'usage des tampons protecteurs",
+       "answerLetters": [
+        "A",
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "Le cours cite : vêtements trop serrés, toilettes et douches vaginales excessives, multiplicité des partenaires, tampons protecteurs, sous-vêtements en tissu synthétique (macération). Le coton, au contraire, est conseillé.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Leucorrhées p. 177",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'hémorragie de la délivrance se manifeste par les signes suivants :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "une hémorragie d'abondance minime"
+        },
+        {
+         "letter": "B",
+         "text": "l'utérus est mou mal rétracté"
+        },
+        {
+         "letter": "C",
+         "text": "Une hémorragie ayant tendance à s'arrêter spontanément."
+        },
+        {
+         "letter": "D",
+         "text": "Une hémorragie externe douloureuse"
+        },
+        {
+         "letter": "E",
+         "text": "Le sang est rouge, liquide ou en caillots"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. l'utérus est mou mal rétracté ; E. Le sang est rouge, liquide ou en caillots",
+       "answerLetters": [
+        "B",
+        "E"
+       ],
+       "explanation": "L'hémorragie de la délivrance est une perte de sang de plus de 500 ml, faite de sang rouge liquide ou en caillots, indolore, qui ne s'arrête pas d'elle-même, souvent avec un utérus mou, mal rétracté (atonie, absence de globe de sécurité).\n\nSource : Cours de soins obstétricaux L2 SF, CAT devant les hémorragies du post-partum ; SONU L3 SF p. 29-30",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les causes fréquentes des ictères tout au long de la grossesse sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "la pré-éclampsie sévère"
+        },
+        {
+         "letter": "B",
+         "text": "les vomissements gravidiques incoercibles"
+        },
+        {
+         "letter": "C",
+         "text": "l'accès palustre grave"
+        },
+        {
+         "letter": "D",
+         "text": "la cholestase intra hépatique gravidique"
+        },
+        {
+         "letter": "E",
+         "text": "les hémoglobinopathies majeures"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. l'accès palustre grave ; E. les hémoglobinopathies majeures",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "« Tout au long de la grossesse » : hépatites virales, accès palustre grave, hémoglobinopathies majeures. Les autres causes dépendent du trimestre : vomissements incoercibles au 1er trimestre, cholestase et pré-éclampsie sévère aux 2e et 3e trimestres.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Ictère au cours de la grossesse p. 30",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les marqueurs du virus de l'hépatite B à demander dans le cadre de la Prévention de la transmission mère-enfant du virus de l'hépatite B sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les anticorps HBs"
+        },
+        {
+         "letter": "B",
+         "text": "Les antigènes HBc totaux"
+        },
+        {
+         "letter": "C",
+         "text": "Les antigènes HBs"
+        },
+        {
+         "letter": "D",
+         "text": "les anticorps anti HBe"
+        },
+        {
+         "letter": "E",
+         "text": "les anticorps anti HBc totaux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Les antigènes HBs ; E. les anticorps anti HBc totaux",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "Pour la PTME de l'hépatite B, on demande dès le 1er trimestre l'antigène HBs et les anticorps anti-HBc totaux ; selon les résultats, on vaccine la mère ou on organise la prise en charge.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Hépatite B et grossesse p. 36-37",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les leucorrhées à candida Albicans :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Elles sont traitées par le métronidazole sous forme d'ovules"
+        },
+        {
+         "letter": "B",
+         "text": "Elles sont blanches, peu abondantes, grumeleuses, caillebottées"
+        },
+        {
+         "letter": "C",
+         "text": "Elles sont favorisées par la grossesse"
+        },
+        {
+         "letter": "D",
+         "text": "Elles s'accompagnent de Prurit vulvo-vaginal très intense"
+        },
+        {
+         "letter": "E",
+         "text": "Elles sont favorisées par les Œstroprogestatifs fortement dosés en progestérone"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Elles sont blanches, peu abondantes, grumeleuses, caillebottées ; C. Elles sont favorisées par la grossesse ; D. Elles s'accompagnent de Prurit vulvo-vaginal très intense",
+       "answerLetters": [
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "La candidose donne des pertes blanches caillebottées (« lait caillé ») avec un prurit intense ; elle est favorisée par la grossesse. Elle se traite par antifongiques ; le métronidazole traite le Trichomonas et la Gardnerella.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Leucorrhées p. 178-180",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "quels sont les facteurs qui ne favorisent pas l'anémie ferriprive au cours de la grossesse :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "les infections urinaires"
+        },
+        {
+         "letter": "B",
+         "text": "les grossesses mono-fœtales"
+        },
+        {
+         "letter": "C",
+         "text": "la multigestité"
+        },
+        {
+         "letter": "D",
+         "text": "les grossesses rapprochées"
+        },
+        {
+         "letter": "E",
+         "text": "les vomissements"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. les grossesses mono-fœtales ; C. la multigestité",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "La question demande ce qui ne favorise pas l'anémie. Le cours cite comme facteurs favorisants : alimentation pauvre en fer, multiparité, grossesses rapprochées, grossesses multiples, infections (surtout urinaires), troubles digestifs (vomissements), parasitoses. Une grossesse mono-fœtale n'est pas un facteur.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Anémie et grossesse p. 10-11",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle ou lesquelles des assertions concernant la toxoplasmose au cours de la grossesse est ou sont juste(s) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "la sage-femme doit évoquer le diagnostic positif de toxoplasmose si IGG est positif"
+        },
+        {
+         "letter": "B",
+         "text": "ce sont les gestantes ayant une sérologie positive qui font l'objet d'une surveillance particulière"
+        },
+        {
+         "letter": "C",
+         "text": "elle peut se compliquer de lésions oculaires et cérébrales du fœtus"
+        },
+        {
+         "letter": "D",
+         "text": "la sage-femme doit initier le traitement avant le transfert de la gestante."
+        },
+        {
+         "letter": "E",
+         "text": "Les anticorps G apparaissent dès le début de l'infestation, disparaissent à 4 mois ½."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. elle peut se compliquer de lésions oculaires et cérébrales du fœtus ; D. la sage-femme doit initier le traitement avant le transfert de la gestante.",
+       "answerLetters": [
+        "C",
+        "D"
+       ],
+       "explanation": "La toxoplasmose congénitale donne des lésions cérébrales (hydrocéphalie, calcifications) et oculaires (choriorétinite…). Devant une séroconversion, la sage-femme commence la spiramycine avant de transférer. IgG positives avec IgM négatives = immunité ancienne, pas une infection ; ce sont les gestantes séronégatives qu'on surveille chaque mois ; les IgG persistent toute la vie. Remarque : Dans le sujet, la 1re option n'a pas de lettre (c'est l'option A).\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Toxoplasmose et grossesse p. 22-26",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "les complications obstétricales du diabète mal équilibré sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "preclampsie"
+        },
+        {
+         "letter": "B",
+         "text": "malformations fœtales"
+        },
+        {
+         "letter": "C",
+         "text": "oligoamnios"
+        },
+        {
+         "letter": "D",
+         "text": "infections urinaires"
+        },
+        {
+         "letter": "E",
+         "text": "rupture prématurée des membranes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. preclampsie ; B. malformations fœtales ; D. infections urinaires",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "Diabète mal équilibré : HTA et pré-éclampsie, infections urinaires et vaginales, hydramnios (et non oligoamnios), malformations fœtales, macrosomie, mort in utero.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Diabète et grossesse p. 43-44",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "au troisième trimestre de grossesse, l'échographie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "permet d'apprécier le comportement fœtal"
+        },
+        {
+         "letter": "B",
+         "text": "se réalise idéalement entre 32 et 34 semaines d'aménorrhées"
+        },
+        {
+         "letter": "C",
+         "text": "permet d'apprécier l'état des annexes"
+        },
+        {
+         "letter": "D",
+         "text": "permet l'étude de la qualité de l'œuf"
+        },
+        {
+         "letter": "E",
+         "text": "permet de préciser la présentation fœtale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. permet d'apprécier le comportement fœtal ; E. permet de préciser la présentation fœtale",
+       "answerLetters": [
+        "A",
+        "E"
+       ],
+       "explanation": "L'échographie du 3e trimestre sert au pronostic de l'accouchement : elle apprécie la croissance et le comportement fœtal (vitalité, mouvements) et précise la présentation. L'étude de la qualité de l'œuf relève du 1er trimestre. Remarque : L'état des annexes (placenta, liquide amniotique) est aussi regardé au 3e trimestre ; la correction nationale de la Prépa DE (les J) ne retient que A et E.\n\nSource : Cours de soins obstétricaux L2 SF, CPN recentrée (3e échographie) ; Gynécologie-Obstétrique L3 SF (INFAS 2024-2025) p. 195 (hors cours pour le détail)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les conditions de réalisation de l'allo immunisation dans le système rhésus sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une mère ayant un Rhésus négatif et un père géniteur de la grossesse ayant un Rhésus négatif."
+        },
+        {
+         "letter": "B",
+         "text": "Un fœtus ayant un rhésus négatif"
+        },
+        {
+         "letter": "C",
+         "text": "Une mère ayant un Rhésus négatif et un père géniteur de la grossesse ayant un Rhésus positif"
+        },
+        {
+         "letter": "D",
+         "text": "Un fœtus ayant un Rhésus positif"
+        },
+        {
+         "letter": "E",
+         "text": "Le passage à travers le placenta des hématies fœtales dans le sang maternel et la formation des anticorps immuns par la mère."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Une mère ayant un Rhésus négatif et un père géniteur de la grossesse ayant un Rhésus positif ; D. Un fœtus ayant un Rhésus positif",
+       "answerLetters": [
+        "C",
+        "D"
+       ],
+       "explanation": "Conditions : mère Rh négatif, père géniteur Rh positif, fœtus Rh positif. Si les deux parents sont Rh négatif, ou si le fœtus est Rh négatif, il n'y a pas d'incompatibilité.\n\nSource : SONU L3 SF, Incompatibilité p. 42-43",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "concernant le traitement du paludisme au cours de la grossesse par la quinine :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "à partir du 2ème jour de quinine injectable, la posologie est de 2 perfusions de 12mg/kg de quinine base par perfusion"
+        },
+        {
+         "letter": "B",
+         "text": "les combinaisons thérapeutiques quinine + artéméther ou artésunate sont conseillées"
+        },
+        {
+         "letter": "C",
+         "text": "La Posologie du 1er jour de Quinine injectable en perfusion est de 24mg/kg de quinine base par jour répartie dans 2 perfusions"
+        },
+        {
+         "letter": "D",
+         "text": "il y a nécessité de faire au minimum 2 jours de perfusion de quinine injectable"
+        },
+        {
+         "letter": "E",
+         "text": "La QUININE par voie orale est recommandée dans le traitement du paludisme simple à la posologie de 25 mg/kg/jour répartie en deux prises pendant 5 à 7 jours consécutifs"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. à partir du 2ème jour de quinine injectable, la posologie est de 2 perfusions de 12mg/kg de quinine base par perfusion ; D. il y a nécessité de faire au minimum 2 jours de perfusion de quinine injectable",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "Quinine injectable : 3 perfusions le 1er jour, puis 2 perfusions par jour à partir du 2e jour, avec relais oral dès que possible. La quinine orale du paludisme simple se donne à 25 mg/kg/jour en trois prises (et non deux). On n'associe pas quinine et dérivés de l'artémisinine. Remarque : Les doses de 12 mg/kg par perfusion (option A) ne sont pas lisibles dans le cours scanné ; le cours confirme 3 perfusions le 1er jour, ce qui exclut C.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Paludisme et grossesse p. 5-6",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__40",
+       "num": "41",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez ce jour à la maternité de Koko, Mme XY, 30 ans G5P1 avec 1 enfant vivant bien portant, 3 antécédents d'avortements provoqués, un antécédent de myomectomie. Elle consulte ce jour pour une fièvre à 40° sur une grossesse de 32 semaines d'aménorrhée.",
+       "text": "citer 3 pathologies fréquentes que vous pouvez évoquer devant cette fièvre chez Mme XY",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Fibrome utérin en nécrobiose"
+        },
+        {
+         "letter": "B",
+         "text": "Hépatite virale B"
+        },
+        {
+         "letter": "C",
+         "text": "Pyélonéphrite aiguë"
+        },
+        {
+         "letter": "D",
+         "text": "Cystite aigue"
+        },
+        {
+         "letter": "E",
+         "text": "Paludisme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Hépatite virale B ; C. Pyélonéphrite aiguë ; E. Paludisme",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "Devant une fièvre élevée pendant la grossesse : d'abord le paludisme, puis la pyélonéphrite aiguë (infection urinaire haute, fébrile) et l'hépatite virale. La cystite (infection basse) ne donne habituellement pas de fièvre à 40 °C ; le fibrome a été enlevé (myomectomie).\n\nSource : SONU L3 SF, Fièvre pendant la grossesse p. 86-91 (diagnostic différentiel)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j3-sf3__41",
+       "num": "42",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Vous recevez ce jour à la maternité de Koko, Mme XY, 30 ans G5P1 avec 1 enfant vivant bien portant, 3 antécédents d'avortements provoqués, un antécédent de myomectomie. Elle consulte ce jour pour une fièvre à 40° sur une grossesse de 32 semaines d'aménorrhée.",
+       "text": "quels sont les examens paracliniques de première intention que vous allez demander devant cette fièvre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Echographie obstétricale"
+        },
+        {
+         "letter": "B",
+         "text": "Dosage des transaminases"
+        },
+        {
+         "letter": "C",
+         "text": "Examen cytobactériologique des urines"
+        },
+        {
+         "letter": "D",
+         "text": "Goutte épaisse"
+        },
+        {
+         "letter": "E",
+         "text": "Hémogramme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Examen cytobactériologique des urines ; D. Goutte épaisse",
+       "answerLetters": [
+        "C",
+        "D"
+       ],
+       "explanation": "En première intention : la goutte épaisse (ou TDR/frottis) pour le paludisme et l'ECBU avec antibiogramme pour l'infection urinaire. Les autres examens viennent selon l'orientation.\n\nSource : SONU L3 SF, Paludisme (examens paracliniques p. 87) et Infection urinaire (ECBU obligatoire p. 92)",
+       "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
+       "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

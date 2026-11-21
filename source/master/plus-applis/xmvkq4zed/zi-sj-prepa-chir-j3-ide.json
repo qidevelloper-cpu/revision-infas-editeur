@@ -1,0 +1,2123 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zi-sj-prepa-chir-j3-ide",
+ "titre": "Préparation D.E (J) · J3 Chirurgie IDE",
+ "session": "J",
+ "annee": 2026,
+ "nq": 60,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+   "sha256": "45110ca169c7b815e8c5983cb6aa915440763cce1306bb015109584afb42df7f"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Chirurgie · Prépa D.E J3 (IDE)",
+     "slug": "prepa-chir-j3-ide",
+     "pages": "",
+     "count": 60,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Chirurgie",
+     "source": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__0",
+       "num": "5",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Lors d’un AVP (accident de la voie publique), M. Zada, commerçant, est transféré à l’hôpital le plus proche ; le médecin traitant fait le constat suivant : des scalps et un hématome au niveau frontal, M. Zada est inconscient. Après une radio, le cliché montre une embarrure.",
+       "text": "Pour apprécier l’état de conscience de M. Zada le médecin traitant a utilisé le : donner la bonne réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Score de Silverman"
+        },
+        {
+         "letter": "B",
+         "text": "Score d’Apgar"
+        },
+        {
+         "letter": "C",
+         "text": "Score de Glasgow"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Score de Glasgow",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L’examen neurologique du traumatisé crânien apprécie la conscience par le score de Glasgow. Les scores de Silverman (détresse respiratoire du nouveau-né) et d’Apgar (vitalité à la naissance) concernent le nouveau-né.\n\nSource : NEUROCHIRURGIE L3, Traumatismes crâniens – II. Signes (score de Glasgow)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__1",
+       "num": "6",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Lors d’un AVP (accident de la voie publique), M. Zada, commerçant, est transféré à l’hôpital le plus proche ; le médecin traitant fait le constat suivant : des scalps et un hématome au niveau frontal, M. Zada est inconscient. Après une radio, le cliché montre une embarrure.",
+       "text": "Le score de Glasgow se réfère à ces trois paramètres suivants : lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La réponse oculaire (ouverture des yeux)"
+        },
+        {
+         "letter": "B",
+         "text": "La douleur abdominale"
+        },
+        {
+         "letter": "C",
+         "text": "La réponse verbale"
+        },
+        {
+         "letter": "D",
+         "text": "La réponse motrice"
+        },
+        {
+         "letter": "E",
+         "text": "Les céphalées"
+        },
+        {
+         "letter": "F",
+         "text": "Les vomissements"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. La réponse oculaire (ouverture des yeux) ; C. La réponse verbale ; D. La réponse motrice",
+       "answerLetters": [
+        "A",
+        "C",
+        "D"
+       ],
+       "explanation": "Le Glasgow cote l’ouverture des yeux (sur 4), la réponse verbale (sur 5) et la réponse motrice (sur 6). Douleur abdominale, céphalées et vomissements ne font pas partie du score.\n\nSource : NEUROCHIRURGIE L3, score de Glasgow (diapos 17 à 21)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__2",
+       "num": "7",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Lors d’un AVP (accident de la voie publique), M. Zada, commerçant, est transféré à l’hôpital le plus proche ; le médecin traitant fait le constat suivant : des scalps et un hématome au niveau frontal, M. Zada est inconscient. Après une radio, le cliché montre une embarrure.",
+       "text": "Vu le constat du médecin traitant, choisir le chiffre vraisemblable correspondant au score de Glasgow concernant M. Zada :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Score=5"
+        },
+        {
+         "letter": "B",
+         "text": "Score=10"
+        },
+        {
+         "letter": "C",
+         "text": "Score=14"
+        },
+        {
+         "letter": "D",
+         "text": "Score=12"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Score=5",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "M. Zada est inconscient : son score se situe dans la zone du traumatisme grave (Glasgow 3 à 8). Seul 5 entre dans cet intervalle ; 10 et 12 correspondent à un traumatisme modéré (9 à 12), 14 à un traumatisme bénin (13 à 15).\n\nSource : NEUROCHIRURGIE L3, niveaux de gravité (diapo 23)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__3",
+       "num": "8",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Lors d’un AVP (accident de la voie publique), M. Zada, commerçant, est transféré à l’hôpital le plus proche ; le médecin traitant fait le constat suivant : des scalps et un hématome au niveau frontal, M. Zada est inconscient. Après une radio, le cliché montre une embarrure.",
+       "text": "Les deux signes physiques suivants de M. Zada attestent d’un traumatisme crânien : lesquels",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L’hématome frontal"
+        },
+        {
+         "letter": "B",
+         "text": "Les scalps"
+        },
+        {
+         "letter": "C",
+         "text": "Les vomissements"
+        },
+        {
+         "letter": "D",
+         "text": "La sialorrhée"
+        },
+        {
+         "letter": "E",
+         "text": "Les douleurs lombaires"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. L’hématome frontal ; B. Les scalps",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "L’examen du crâne recherche plaie, ecchymose et hématome ; le scalp est une plaie à lambeau du cuir chevelu. Ce sont les signes physiques constatés chez M. Zada. Les vomissements sont un signe fonctionnel, la sialorrhée et les lombalgies sont sans rapport.\n\nSource : NEUROCHIRURGIE L3, signes physiques (diapo 16) ; Cours de chirurgie traumatique et digestif (L2), lésions du cuir chevelu (diapo 107)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__4",
+       "num": "9",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Lors d’un AVP (accident de la voie publique), M. Zada, commerçant, est transféré à l’hôpital le plus proche ; le médecin traitant fait le constat suivant : des scalps et un hématome au niveau frontal, M. Zada est inconscient. Après une radio, le cliché montre une embarrure.",
+       "text": "Le traitement de l’embarrure de M. Zada sera fait par : donner la bonne réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Orthopédie"
+        },
+        {
+         "letter": "B",
+         "text": "Ostéosynthèse"
+        },
+        {
+         "letter": "C",
+         "text": "Traitement médical"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Ostéosynthèse",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L’embarrure se traite chirurgicalement : le fragment enfoncé doit être remonté à son niveau initial puis suturé, toujours sous couverture antibiotique. Le traitement médical seul ne concerne que les contusions simples ; l’orthopédie (réduction externe, plâtre) ne s’applique pas à la voûte crânienne. Remarque : Le cours parle de « remonter l’embarrure et suturer » (geste chirurgical) sans employer le mot « ostéosynthèse ».\n\nSource : NEUROCHIRURGIE L3, IV. Traitement (diapo 38) ; Cours de chirurgie traumatique et digestif (L2), diapo 116",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__5",
+       "num": "10",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Lors d’un AVP (accident de la voie publique), M. Zada, commerçant, est transféré à l’hôpital le plus proche ; le médecin traitant fait le constat suivant : des scalps et un hématome au niveau frontal, M. Zada est inconscient. Après une radio, le cliché montre une embarrure.",
+       "text": "L’embarrure se définit comme étant :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Décollement d’un lambeau de cuir chevelu d’origine traumatique"
+        },
+        {
+         "letter": "B",
+         "text": "Une plaie béante du cuir chevelu"
+        },
+        {
+         "letter": "C",
+         "text": "Un décollement d’un fragment de l’os crânien avec enfoncement dans la voûte crânienne suite à un traumatisme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Un décollement d’un fragment de l’os crânien avec enfoncement dans la voûte crânienne suite à un traumatisme",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L’embarrure est une fracture de la voûte avec enfoncement d’un fragment osseux vers l’intérieur du crâne. Le décollement d’un lambeau de cuir chevelu correspond au scalp (A) ; la plaie béante (B) est une lésion des parties molles, sans atteinte osseuse.\n\nSource : Cours de chirurgie traumatique et digestif (L2), lésions osseuses de la voûte : « fracture simple ou avec embarrure » (diapo 108) ; scalp = plaie à lambeau (diapo 107)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__6",
+       "num": "11",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique : Lors d’un AVP (accident de la voie publique), M. Zada, commerçant, est transféré à l’hôpital le plus proche ; le médecin traitant fait le constat suivant : des scalps et un hématome au niveau frontal, M. Zada est inconscient. Après une radio, le cliché montre une embarrure.",
+       "text": "S’appuyant sur les dires du médecin traitant, évaluer ce traumatisme crânien :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Un traumatisme bénin"
+        },
+        {
+         "letter": "B",
+         "text": "Un traumatisme grave"
+        },
+        {
+         "letter": "C",
+         "text": "Un traumatisme modéré"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Un traumatisme grave",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Un patient inconscient avec embarrure a un Glasgow ≤ 8 : c’est un traumatisme crânien grave (Glasgow 3 à 8), qui relève de la réanimation.\n\nSource : Neurochirurgie (livret), p. 6 (traumatisme crânien grave) ; NEUROCHIRURGIE L3, diapo 23",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__7",
+       "num": "12",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces signes suivants indiquer deux concernant une fracture du fémur :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L’infection"
+        },
+        {
+         "letter": "B",
+         "text": "L’impotence fonctionnelle du membre"
+        },
+        {
+         "letter": "C",
+         "text": "L’ankylose"
+        },
+        {
+         "letter": "D",
+         "text": "La déformation du membre"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. L’impotence fonctionnelle du membre ; D. La déformation du membre",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Dans la fracture de la diaphyse fémorale : douleur violente, impotence fonctionnelle absolue, et à l’inspection une déformation évidente (raccourcissement, crosse, rotation externe). L’infection et l’ankylose sont des complications, pas des signes de la fracture.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Fractures de la diaphyse du fémur – II. Étude clinique",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__8",
+       "num": "13",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces organes suivants indiquer deux qui sont des organes pleins :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La vessie"
+        },
+        {
+         "letter": "B",
+         "text": "Le foie"
+        },
+        {
+         "letter": "C",
+         "text": "La rate"
+        },
+        {
+         "letter": "D",
+         "text": "Le colon"
+        },
+        {
+         "letter": "E",
+         "text": "L’intestin grêle"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Le foie ; C. La rate",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Les viscères pleins sont le foie, la rate, les reins et le pancréas (leur rupture donne une hémorragie interne). Vessie, côlon et intestin grêle sont des viscères creux.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Contusions abdominales – anatomie pathologique (diapos 183-184)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__9",
+       "num": "14",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces éléments suivants indiquer celui sur lequel est fixé l’appendice :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le caecum"
+        },
+        {
+         "letter": "B",
+         "text": "L’iléon"
+        },
+        {
+         "letter": "C",
+         "text": "Le sigmoïde"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Le caecum",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L’appendice est un petit organe de 8 à 10 cm attaché au cæcum, juste au-dessous de la valvule iléo-cæcale.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Appendicite aiguë – II. Épidémiologie (diapo 210)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__10",
+       "num": "15",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquer le geste d’urgence à faire en cas de rétention aiguë des urines :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Donner les antibiotiques"
+        },
+        {
+         "letter": "B",
+         "text": "Donner les antiinflammatoires"
+        },
+        {
+         "letter": "C",
+         "text": "Poser une sonde vésicale"
+        },
+        {
+         "letter": "D",
+         "text": "Donner de l’eau à boire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Poser une sonde vésicale",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le drainage vésical est une urgence : sondage urétral (ou ponction sus-pubienne), avec asepsie rigoureuse. Faire boire aggraverait la distension ; antibiotiques et anti-inflammatoires ne vident pas la vessie.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Rétention urinaire – IV. Traitement (diapo 307)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__11",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Donner deux complications immédiates lors d’une fracture ouverte :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rupture vasculaire"
+        },
+        {
+         "letter": "B",
+         "text": "Pseudarthrose"
+        },
+        {
+         "letter": "C",
+         "text": "Rupture nerveuse"
+        },
+        {
+         "letter": "D",
+         "text": "Cal-vicieux"
+        },
+        {
+         "letter": "E",
+         "text": "Douleur"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Rupture vasculaire ; C. Rupture nerveuse",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Les complications immédiates des fractures sont le choc, les lésions cutanées, des parties molles, vasculaires et nerveuses. Pseudarthrose et cal vicieux sont des complications secondaires/tardives ; la douleur est un signe, pas une complication.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Généralités sur les fractures – VIII. Complications",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__12",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’efficacité du traitement du cancer réside dans :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La précocité du diagnostic"
+        },
+        {
+         "letter": "B",
+         "text": "L’administration d’antibiotique massive"
+        },
+        {
+         "letter": "C",
+         "text": "L’administration d’anti douleur"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La précocité du diagnostic",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le pronostic des cancers dépend de la précocité du diagnostic : seul un diagnostic précoce permet un traitement chirurgical efficace ; les chances de guérison dépendent de la précocité du traitement. Antibiotiques et antalgiques ne traitent pas le cancer.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Cancer de l’estomac (généralités, pronostic) ; Cancer du rein (interventions infirmières)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__13",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’épiphyse inférieure d’un os long est aussi appelée :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Diaphyse"
+        },
+        {
+         "letter": "B",
+         "text": "Métaphyse"
+        },
+        {
+         "letter": "C",
+         "text": "Epiphyse distale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Epiphyse distale",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Un os long comprend une diaphyse (corps) et deux épiphyses (extrémités) reliées par les métaphyses. L’épiphyse inférieure, la plus éloignée de la racine du membre, est l’épiphyse distale ; la supérieure est l’épiphyse proximale. (explication hors cours du projet)\n\nSource : aucune source trouvée dans les cours du projet",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__14",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour qu’il y ait une hernie abdominale il faut :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Un abdomen volumineux"
+        },
+        {
+         "letter": "B",
+         "text": "Un mégacôlon"
+        },
+        {
+         "letter": "C",
+         "text": "Un point de faiblesse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Un point de faiblesse",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La hernie est l’extériorisation d’un viscère à travers un point de faiblesse anatomique de la paroi abdominale ; le traitement vise d’ailleurs à « supprimer le point de faiblesse ».\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Hernies – introduction et V. Traitement (p. 98 et 108)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__15",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’ankylose est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une élongation du ligament"
+        },
+        {
+         "letter": "B",
+         "text": "Une raideur de l’articulation"
+        },
+        {
+         "letter": "C",
+         "text": "Une rupture du tendon"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Une raideur de l’articulation",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L’ankylose est une raideur articulaire, séquelle tardive possible des fractures. L’élongation ligamentaire correspond à une entorse bénigne.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Généralités sur les fractures – complications tardives : « raideur articulaire (ankylose) »",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__16",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquer deux buts du pansement parmi ceux-ci :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "But de désinfection"
+        },
+        {
+         "letter": "B",
+         "text": "But de protection"
+        },
+        {
+         "letter": "C",
+         "text": "But de rinçage"
+        },
+        {
+         "letter": "D",
+         "text": "But de torsion"
+        },
+        {
+         "letter": "E",
+         "text": "But d’ouverture"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. But de désinfection ; B. But de protection",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "Devant toute plaie, la chronologie des soins est : découvrir, inspecter, désinfecter avec un antiseptique, assécher, appliquer le produit puis recouvrir. Le pansement sert donc à désinfecter et à protéger la plaie.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Plaies – VI. Conduite à tenir devant une plaie",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__17",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le petit bassin est aussi appelé :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L’abdomen supérieur"
+        },
+        {
+         "letter": "B",
+         "text": "Le pelvis"
+        },
+        {
+         "letter": "C",
+         "text": "La ligne blanche"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Le pelvis",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L’abdomen comprend la cavité abdominale et le petit bassin ou pelvis.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Hernies – rappel anatomique (p. 99)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__18",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le mal de pott est une maladie qui touche : une réponse juste",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le cerveau"
+        },
+        {
+         "letter": "B",
+         "text": "Les méninges"
+        },
+        {
+         "letter": "C",
+         "text": "La colonne vertébrale"
+        },
+        {
+         "letter": "D",
+         "text": "Les os iliaques"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. La colonne vertébrale",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le mal de Pott est la tuberculose disco-vertébrale : il touche la colonne vertébrale (vertèbres et disques).\n\nSource : Cours de chirurgie traumatique et digestif (L2), Mal de Pott – définition (diapo 170)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__19",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En cas d’échec de la pose de la sonde vésicale en urgence dans une rétention aiguë des urines l’on recourt à :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Un traitement médical"
+        },
+        {
+         "letter": "B",
+         "text": "Un traitement par voie orale"
+        },
+        {
+         "letter": "C",
+         "text": "Une ponction sus-pubienne"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Une ponction sus-pubienne",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Si le sondage vésical est impossible, il faut pratiquer une ponction sus-pubienne en respectant une asepsie rigoureuse.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Rétention urinaire (diapo 307) et Rétrécissement de l’urètre – conduite à tenir (diapo 317)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__20",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour le remplissage vasculaire (par les solutés) d’un brûlé grave l’on utilise :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La formule de ferry"
+        },
+        {
+         "letter": "B",
+         "text": "La règle de Baxter"
+        },
+        {
+         "letter": "C",
+         "text": "La formule de Gorgina"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. La règle de Baxter",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Pour le remplissage vasculaire du brûlé, la règle la plus utilisée est celle de Baxter : J1 = poids (kg) × 4 × SCB ; J2 = moitié de J1.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Brûlures 2 – 5.3 Réanimation hydroélectrolytique",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__21",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Toutes ces causes aboutissent à une occlusion mécanique, sauf une, laquelle ? :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Corps étrangers"
+        },
+        {
+         "letter": "B",
+         "text": "Torsion d’une anse (segment) intestinale sur elle-même"
+        },
+        {
+         "letter": "C",
+         "text": "Dérèglement du système nerveux intestinal"
+        },
+        {
+         "letter": "D",
+         "text": "Invagination intestinale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Dérèglement du système nerveux intestinal",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le dérèglement du système nerveux intestinal (paralysie ou spasme) définit l’occlusion fonctionnelle. Les corps étrangers (obturation), le volvulus et l’invagination (strangulation) sont des causes mécaniques.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Occlusions intestinales aiguës – étiologies (p. 121-122)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__22",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les hernies suivantes, indiquer les deux qui sont des hernies de l’aine",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La hernie ventrale latérale"
+        },
+        {
+         "letter": "B",
+         "text": "La hernie inguinale"
+        },
+        {
+         "letter": "C",
+         "text": "La hernie crurale (fémorale)"
+        },
+        {
+         "letter": "D",
+         "text": "La hernie de la ligne blanche"
+        },
+        {
+         "letter": "E",
+         "text": "La hernie ombilicale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. La hernie inguinale ; C. La hernie crurale (fémorale)",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Les hernies inguinales et crurales constituent les hernies de l’aine. Les hernies ombilicale, de la ligne blanche et ventrale latérale sont des hernies de la paroi antérieure ou latérale.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Hernies – introduction (p. 98)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__23",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les actes suivants, indiquer les deux possibles à effectuer en urgence, chez un patient qui souffre de rétention aiguë des urines",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L’adénomectomie"
+        },
+        {
+         "letter": "B",
+         "text": "La ponction sus-pubienne"
+        },
+        {
+         "letter": "C",
+         "text": "Le sondage urinaire"
+        },
+        {
+         "letter": "D",
+         "text": "La cystectomie"
+        },
+        {
+         "letter": "E",
+         "text": "La pose d’une vessie de glace"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. La ponction sus-pubienne ; C. Le sondage urinaire",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Le drainage vésical d’urgence se fait par sondage urétral ou par ponction sus-pubienne. L’adénomectomie traite la cause (adénome) à distance ; la cystectomie et la vessie de glace ne sont pas indiquées.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Rétention urinaire – IV. Traitement (diapo 307)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__24",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une des contre-indications de la pose de la sonde urinaire est la suivante :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L’infection"
+        },
+        {
+         "letter": "B",
+         "text": "La stérilité"
+        },
+        {
+         "letter": "C",
+         "text": "L’éjaculation précoce"
+        },
+        {
+         "letter": "D",
+         "text": "Le cancer du rectum"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. L’infection",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Une infection urinaire ou urétrale aiguë (urétrite, prostatite) contre-indique le sondage, qui risque de disséminer les germes ; le cours insiste sur l’asepsie rigoureuse de tout geste urinaire. Stérilité, éjaculation précoce et cancer du rectum ne gênent pas le sondage. (explication partiellement hors cours du projet)\n\nSource : Cours de chirurgie traumatique et digestif (L2), Rétention urinaire (« respecter rigoureusement les règles d’asepsie ») ; Fractures du rachis – fonction urinaire",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__25",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le mal de pott affecte (touche) ces deux (02) parties du corps :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les vertèbres"
+        },
+        {
+         "letter": "B",
+         "text": "Les bronches"
+        },
+        {
+         "letter": "C",
+         "text": "Les disques intervertébraux"
+        },
+        {
+         "letter": "D",
+         "text": "La trachée"
+        },
+        {
+         "letter": "E",
+         "text": "Le cerveau"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Les vertèbres ; C. Les disques intervertébraux",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Le mal de Pott est une lésion qui aboutit à la destruction simultanée des disques intervertébraux et des vertèbres.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Mal de Pott – définition et anatomie pathologique (diapos 170-171)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__26",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un malade souffrant de douleur abdominale localisée dans la fosse iliaque droite de survenue brutale. Il peut s’agir de : une seule réponse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hernie de la ligne blanche"
+        },
+        {
+         "letter": "B",
+         "text": "Appendicite aigue"
+        },
+        {
+         "letter": "C",
+         "text": "Douleur néphrétique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Appendicite aigue",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L’appendicite est la cause la plus courante d’inflammation aiguë du cadran inférieur droit ; son diagnostic positif repose sur la douleur de la fosse iliaque droite.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Appendicite aiguë (diapos 210 et 216)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__27",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Déterminer deux diagnostics différentiels de l’appendicite aigue :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hépatite"
+        },
+        {
+         "letter": "B",
+         "text": "Pancréatite aigue"
+        },
+        {
+         "letter": "C",
+         "text": "GEU (grosse extra utérine)"
+        },
+        {
+         "letter": "D",
+         "text": "Salpingite"
+        },
+        {
+         "letter": "E",
+         "text": "Rectorragie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. GEU (grosse extra utérine) ; D. Salpingite",
+       "answerLetters": [
+        "C",
+        "D"
+       ],
+       "explanation": "Chez la femme, le cours cite parmi les diagnostics différentiels la salpingite droite et la grossesse extra-utérine droite (rupture de grossesse tubaire). Hépatite, pancréatite et rectorragie ne sont pas citées.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Appendicite aiguë – VIII. Diagnostic différentiel (p. 116-117)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__28",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans quel cadran de l’abdomen est situé le foie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L’épigastre"
+        },
+        {
+         "letter": "B",
+         "text": "L’hypogastre"
+        },
+        {
+         "letter": "C",
+         "text": "L’hypochondre droit"
+        },
+        {
+         "letter": "D",
+         "text": "La fosse iliaque"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. L’hypochondre droit",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Dans la division clinique de l’abdomen en 9 régions, l’hypochondre droit contient le foie ; l’épigastre contient surtout l’estomac, l’hypogastre la vessie et les organes génitaux.\n\nSource : Appareil digestif L1 2023, 4.3 Division clinique de l’abdomen",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__29",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les membres supérieurs appartiennent au :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Squelette principal"
+        },
+        {
+         "letter": "B",
+         "text": "Squelette appendiculaire"
+        },
+        {
+         "letter": "C",
+         "text": "Squelette axial"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Squelette appendiculaire",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le squelette se divise en squelette axial (tête et tronc) et squelette appendiculaire (les membres supérieurs et inférieurs).\n\nSource : Anatomie – Ostéologie complet, définition du squelette et chap. II",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__30",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La prise en charge d’une fracture simple dans un EPHR se réalise par ces deux (02) actes :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Un pansement"
+        },
+        {
+         "letter": "B",
+         "text": "Une réduction"
+        },
+        {
+         "letter": "C",
+         "text": "Une contention (immobilisation)"
+        },
+        {
+         "letter": "D",
+         "text": "Une incision"
+        },
+        {
+         "letter": "E",
+         "text": "Une ouverture du foyer de fracture"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Une réduction ; C. Une contention (immobilisation)",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Le traitement orthopédique d’une fracture comporte la réduction (remettre les fragments en place) puis la contention (maintien jusqu’à la formation du cal). Incision et ouverture du foyer relèvent de l’ostéosynthèse chirurgicale.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Généralités sur les fractures – VI. Traitement",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__31",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Après la consolidation de la fracture il faut réaliser une :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rééducation fonctionnelle"
+        },
+        {
+         "letter": "B",
+         "text": "Assistance ventilatoire"
+        },
+        {
+         "letter": "C",
+         "text": "Ponction du trait de fracture"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Rééducation fonctionnelle",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dès consolidation de la fracture, il faut commencer la rééducation.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Généralités sur les fractures – 6.1 Traitement orthopédique",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__32",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une des contre-indications de la pose d’une sonde urinaire est la suivante :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le vertige"
+        },
+        {
+         "letter": "B",
+         "text": "La gonococcie"
+        },
+        {
+         "letter": "C",
+         "text": "Les vomissements"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. La gonococcie",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L’urétrite gonococcique (blennorragie) est une infection de l’urètre : sonder risque de propager l’infection et de léser un urètre inflammatoire ; elle est d’ailleurs la première cause de rétrécissement urétral. Vertige et vomissements ne contre-indiquent pas le sondage. (explication partiellement hors cours du projet)\n\nSource : Cours de chirurgie traumatique et digestif (L2), Rétrécissement de l’urètre – étiologie (diapo 313)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__33",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le choc septique est aussi appelé :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Choc hypovolémique"
+        },
+        {
+         "letter": "B",
+         "text": "Choc microbien (bactérien)"
+        },
+        {
+         "letter": "C",
+         "text": "Choc traumatique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Choc microbien (bactérien)",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours décrit le « choc bactérien ou choc septique », dû aux septicémies (germes Gram négatif, toxines bactériennes).\n\nSource : Cours de chirurgie traumatique et digestif (L2), Chocs traumatiques – II. Étiologies 2-4 (diapo 123)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__34",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le rein fait partie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Du bas appareil urinaire"
+        },
+        {
+         "letter": "B",
+         "text": "Du milieu de l’appareil urinaire"
+        },
+        {
+         "letter": "C",
+         "text": "Du haut appareil urinaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Du haut appareil urinaire",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le haut appareil urinaire comprend les reins et leurs voies excrétrices (cavités, uretères) ; le bas appareil comprend la vessie et l’urètre. Le cours parle du retentissement de la rétention « sur le haut appareil (distension des cavités, insuffisance rénale) ».\n\nSource : Cours de chirurgie traumatique et digestif (L2), Rétention chronique d’urines – physiopathologie (diapo 303)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__35",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’un des diagnostics différentiels de l’appendicite est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Douleur dans l’hypochondre gauche"
+        },
+        {
+         "letter": "B",
+         "text": "Une infection de l’ovaire droit"
+        },
+        {
+         "letter": "C",
+         "text": "Une douleur épigastrique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Une infection de l’ovaire droit",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Chez la femme, une annexite droite (infection de l’ovaire/trompe droite), un pyo-ovaire droit ou une torsion de kyste ovarien droit sont des diagnostics différentiels, car la douleur siège aussi en fosse iliaque droite.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Appendicite – diagnostic différentiel chez la femme (diapo 217) ; Prise en charge infirmière des pathologies chirurgicales L2 2025, p. 117",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__36",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’hydrocèle est un épanchement liquidien :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Dans le scrotum"
+        },
+        {
+         "letter": "B",
+         "text": "Dans le canal inguinal"
+        },
+        {
+         "letter": "C",
+         "text": "Dans l’utérus"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Dans le scrotum",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L’hydrocèle est un épanchement liquidien séreux entre les deux feuillets de la vaginale, membrane qui entoure le testicule dans la bourse (scrotum).\n\nSource : Cours de chirurgie traumatique et digestif (L2), Hydrocèle – définition (diapo 321)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__37",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La hernie non compliquée est aussi appelée :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hernie étranglée"
+        },
+        {
+         "letter": "B",
+         "text": "Hernie non étranglée"
+        },
+        {
+         "letter": "C",
+         "text": "Hernie douloureuse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Hernie non étranglée",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La principale complication de la hernie est l’étranglement ; une hernie non compliquée est donc non étranglée (indolore, réductible, impulsive à la toux).\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Hernies – IV. Diagnostic (p. 106-107)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__38",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La hernie étranglée est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Irréductible"
+        },
+        {
+         "letter": "B",
+         "text": "Réductible"
+        },
+        {
+         "letter": "C",
+         "text": "Dégonflable"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Irréductible",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans la hernie étranglée, la tuméfaction est dure, tendue, douloureuse, irréductible, non impulsive et non expansive à la toux. Remarque : Dans le sujet, les options sont lettrées A, B puis D (pas de C).\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Hernies – 4.2 Hernie compliquée (p. 108)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__39",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": "Questions à choix multiple",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’appendice peut occuper aussi cette position :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Sus hépatique"
+        },
+        {
+         "letter": "B",
+         "text": "Sus splénique"
+        },
+        {
+         "letter": "C",
+         "text": "Latérocaecale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Latérocaecale",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L’appendice, fixé au cæcum, peut occuper plusieurs positions autour de celui-ci (latéro-cæcale, rétro-cæcale, pelvienne, méso-cœliaque, sous-hépatique). Il ne peut pas se trouver au-dessus du foie ni au-dessus de la rate. Remarque : Le cours cite les positions rétro-cæcale, méso-cœliaque, pelvienne et sous-hépatique ; la position « latéro-cæcale » n’y est pas nommée telle quelle.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Appendicite – formes topographiques (p. 116)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__40",
+       "num": "45",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’anorexie, les vomissements alimentaires et la constipation sont des signes annonciateurs ou prodromes de l’appendicite aigue",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. Les prodromes de l’appendicite sont l’anorexie, les nausées, les vomissements (surtout chez l’enfant) ; la constipation est plus fréquente que la diarrhée.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Appendicite – V. Manifestations cliniques a) Prodromes (diapo 213)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__41",
+       "num": "46",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le volvulus intestinal et l’invagination intestinale sont des causes mécaniques de l’occlusion intestinale aigue",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. Volvulus (torsion d’une anse) et invagination (télescopage) réalisent une strangulation, mécanisme des occlusions mécaniques.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Occlusions – 1.1 Occlusions mécaniques (p. 122)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__42",
+       "num": "47",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La hernie ombilicale est un épanchement liquidien dans l’ombilic",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux. Une hernie est l’extériorisation d’un viscère (intestin, épiploon) à travers un point de faiblesse de la paroi, ici l’ombilic ; ce n’est pas un épanchement liquidien (définition qui évoque l’hydrocèle).\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Hernies – définition (p. 98)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__43",
+       "num": "48",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’adénome de la prostate est une affection bénigne qui se manifeste par une hypertrophie de la prostate",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. L’adénome de la prostate est une tumeur bénigne qui se traduit par une hyperplasie et une hypertrophie de la glande prostatique.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Adénome de la prostate – définition (diapo 286)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__44",
+       "num": "49",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Plus le score de Glasgow est élevé plus l’état du malade est grabataire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le score de Glasgow va de 3 (aucune réponse) à 15 (conscience normale) : 3 à 8 = traumatisme grave, 13 à 15 = traumatisme bénin. Un score élevé traduit donc un meilleur état de conscience.\n\nSource : NEUROCHIRURGIE L3, diapos 17 à 23",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__45",
+       "num": "50",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le défaut de sécrétion de testostérone est l’une des causes de la cryptorchidie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. La descente du testicule est commandée par les hormones mâles (testostérone) ; la cryptorchidie est due à un défaut de sécrétion de ces hormones ou à un obstacle anatomique.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Anomalies de la descente du testicule (diapo 318)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__46",
+       "num": "51",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les occlusions intestinales fonctionnelles ont pour synonymes les occlusions mécaniques",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux. Les occlusions fonctionnelles (dérèglement nerveux : paralysie, spasme) s’opposent aux occlusions mécaniques (obstacle organique : obturation, strangulation).\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Occlusions – étiologies (p. 121-122)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__47",
+       "num": "52",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les vomissements fécaloïdes évoquent une occlusion haute",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux. Les vomissements sont d’abord alimentaires puis bilieux et ne deviennent fécaloïdes qu’après un certain temps d’évolution ; dans l’occlusion haute (grêle) les vomissements sont précoces, abondants et bilieux.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Occlusions – signes fonctionnels et diagnostic du siège (p. 123-125)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__48",
+       "num": "53",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La fracture ouverte véritable est la fracture ouverte de dedans en dehors",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux. Le cours distingue la fracture ouverte de dedans en dehors (peau lésée par un fragment osseux) et la fracture ouverte véritable, ouverte de dehors en dedans (le traumatisme lèse la peau puis l’os).\n\nSource : Pathologie chirurgicale – Sémiologie L1, Généralités sur les fractures – 5.2 Fracture ouverte",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__49",
+       "num": "54",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lors de la surveillance d’un traumatisé, l’accélération du pouls et une hypotension artérielle atteste d’un état de choc",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. Tachycardie, pouls accéléré voire imprenable et chute tensionnelle sont des signes d’état de choc ; chez le fracturé du fémur, « pâleur, accélération du pouls, baisse de tension » traduisent le choc.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Chocs traumatiques – symptomatologie (diapos 124-125)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__50",
+       "num": "55",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La radiographie est par excellence le diagnostic positif d’une fracture diaphysaire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. La radiographie seule permet de confirmer le diagnostic de fracture et d’en préciser le type et le déplacement ; pour le fémur, deux clichés face et profil sont indispensables.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Généralités sur les fractures – IV. Examens complémentaires",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__51",
+       "num": "56",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’étranglement herniaire peut occasionner une occlusion intestinale aigue",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. L’étranglement herniaire s’accompagne de vomissements et d’arrêt des matières et des gaz (signes d’occlusion haute si le grêle est étranglé) ; la hernie étranglée est une cause d’occlusion recherchée à l’examen.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Hernies – 4.2 (p. 107-108) ; Occlusions – examen (p. 124)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__52",
+       "num": "57",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le globe vésical évoque une rétention aigue des urines",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. Dans la rétention aiguë, on trouve un globe vésical : masse hypogastrique pouvant remonter jusqu’à l’ombilic, douloureuse à la palpation.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Rétention aiguë d’urines – signes physiques (diapo 302)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__53",
+       "num": "58",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le choc opératoire fait partie des choc traumatiques",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. « Le choc opératoire est une variété de choc traumatique. »\n\nSource : Cours de chirurgie traumatique et digestif (L2), Chocs traumatiques – II. Étiologies 2-1 (diapo 122)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__54",
+       "num": "59",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le choc hypovolémique chez un traumatisé de la voie publique évoque une hémorragie abondante",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. L’hémorragie (hémopéritoine, hémothorax, gros hématomes) est la première cause de choc hypovolémique chez le traumatisé.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Chocs traumatiques – 2-2 Choc hypovolémique (diapo 122)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__55",
+       "num": "60",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un anthrax présente les signes cardinaux de l’inflammation",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. L’anthrax se présente comme une plaque indurée, rouge, chaude et douloureuse, puis un placard rouge-violacé, saillant, très douloureux : on retrouve les signes de l’inflammation (rougeur, chaleur, douleur, tuméfaction).\n\nSource : Pathologie chirurgicale – Sémiologie L1, Anthrax – signes cliniques",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__56",
+       "num": "61",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un anthrax est un ensemble de furoncles",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. L’anthrax est une agglomération de furoncles reliés entre eux par une suppuration du derme.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Anthrax – définition",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__57",
+       "num": "62",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un abcès froid présente la rougeur, la tuméfaction, la douleur, chaleur",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux. L’abcès froid est une collection purulente chronique caractérisée par sa formation lente et l’absence des signes cardinaux de l’inflammation (ces signes définissent l’abcès chaud).\n\nSource : Pathologie chirurgicale – Sémiologie L1, Abcès froid – définition",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__58",
+       "num": "63",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La polydactylie est aussi appelée la syndactylie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux. La polydactylie est une augmentation du nombre des doigts ; la syndactylie est l’union de deux ou plusieurs doigts (doigts palmés).\n\nSource : Pathologie chirurgicale – Sémiologie L1, Malformations congénitales des membres",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j3-ide__59",
+       "num": "64",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": "Vrai ou faux",
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La toux chronique est l’une des causes de la hernie inguinale",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai. La toux chronique est un facteur herniogène (elle augmente la pression intra-abdominale), comme le travail de force, la constipation chronique ou la dysurie.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Hernies – III. Facteurs favorisants (p. 106)",
+       "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
+       "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

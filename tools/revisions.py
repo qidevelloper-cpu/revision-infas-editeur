@@ -46,10 +46,10 @@ def main():
         R = json.loads(raw)
         if R.get('cours') != cours:
             sys.exit('ARRÊT : %s — champ « cours » différent du nom du fichier' % f)
-        o = R.get('origine') or {}
-        chemin = os.path.join(ORI, 'revisions-' + cours, o.get('fichier', ''))
-        if not o.get('fichier') or not os.path.isfile(chemin) or sha(open(chemin, 'rb').read()) != o.get('sha256'):
-            sys.exit('ARRÊT : original absent ou modifié : ' + chemin)
+        for o in [R.get('origine') or {}] + list(R.get('origines') or []):   # « origines » : autres fichiers d'origine du même cours
+            chemin = os.path.join(ORI, 'revisions-' + cours, o.get('fichier', ''))
+            if not o.get('fichier') or not os.path.isfile(chemin) or sha(open(chemin, 'rb').read()) != o.get('sha256'):
+                sys.exit('ARRÊT : original absent ou modifié : ' + chemin)
         n = sum(len(s['q']) for s in R['sujets'])
         if not n or any(not s.get('t') or not s['q'] for s in R['sujets']):
             sys.exit('ARRÊT : %s — sujet sans titre ou sans question' % f)
