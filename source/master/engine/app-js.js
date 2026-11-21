@@ -1992,7 +1992,7 @@ const _riAppNav0=riAppNav;riAppNav=function(i){if(KEEP&&KEEP.el&&KEEP.el.classLi
 /* fermer l'appli ne la vide pas si elle est gardée */
 const _closeApp0=closeApp;closeApp=function(){const f=$('#appFrame');if(f&&KEEP&&f===KEEP.el)return;if(KEEP&&KEEP.el)KEEP.el.classList.remove('on');return _closeApp0.apply(this,arguments)};
 /* préparation en arrière-plan : Correction nationale dès le démarrage (bonne connexion), puis à chaque changement de réglage */
-(function(){const run=()=>{try{if(VIEW!=='appview'&&S.onb&&fastNet())KEEP_IDS.forEach(keepPrepare)}catch(e){}};if('requestIdleCallback'in window)requestIdleCallback(()=>setTimeout(run,2500));else setTimeout(run,4000);setInterval(()=>{if(VIEW!=='appview'&&KEEP&&KEEP.sig!==keepSig(KEEP.mid))run()},5000)})();
+(function(){const run=()=>{try{if(VIEW!=='appview'&&S.onb&&fastNet())KEEP_IDS.forEach(keepPrepare)}catch(e){}};if('requestIdleCallback'in window)requestIdleCallback(()=>setTimeout(run,2500));else setTimeout(run,4000);setInterval(()=>{if(VIEW!=='appview'&&KEEP&&KEEP.sig!==keepSig(KEEP.mid))run();else if(!KEEP&&VIEW==='home'&&S.onb&&!document.hidden){try{KEEP_IDS.forEach(keepPrepare)}catch(e){}}},5000)})();   /* pas encore préparée (ouverte trop tôt, économiseur de données…) : on la prépare depuis l'accueil */
 
 /* ---------- 43. ÉDITION PARTOUT : actions des fiches (quiz, résumés, flashcards, appli…) une par une ; n'importe quel élément ou texte ---------- */
 function actKey(p){const m=p.match(/(?:go\('(\w+)'|openMat\('(\w+)'|openDE\('(\w+)')/);return m?(m[1]||('mat:'+(m[2]||m[3]))):''}

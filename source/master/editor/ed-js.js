@@ -675,7 +675,7 @@ async function buildLight(log,reuse,prev,msg){msg=(msg||'').trim();
  await put('index.html',index.replace('@@REL@@',JSON.stringify(Object.assign({v:rel.v,hist:rel.hist},rel.auto?{auto:rel.auto}:{})).replace(/</g,'\\u003c')));
  await put('catalogue.json',JSON.stringify(riCatalogue()));
  await put('version.json',JSON.stringify(rel,null,1));
- const pre=[ver('data.js'),ver('engine.js')].concat(xf);
+ const pre=[ver('data.js'),ver('engine.js')].concat(xf,Object.values(appf).filter(u=>/^apps\/xmvkq4zed[.-]/.test(u)));   /* Correction nationale : téléchargée en arrière-plan avec la mise à jour (plus d'attente à la 1re ouverture) */
  await put('sw.js',"const FILES=new Set("+JSON.stringify(files)+");\nconst PRE="+JSON.stringify(pre)+";\nconst REL='"+rel.v+"';\nconst OBL="+((window.__RI_OBLIG&&!window.__RI_AUTO)?1:0)+";\n"+SW_BODY);
  await put('.nojekyll','');
  stPublicationVerifier(F);
