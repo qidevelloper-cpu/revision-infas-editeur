@@ -568,7 +568,8 @@
        "explanation": "Faux : c'est l'inverse. Le score de Glasgow va de 3 à 15 ; plus il est bas, plus le traumatisme est grave (3 à 8 : grave ; 9 à 12 : modéré ; 13 à 15 : bénin). Un score élevé traduit un patient conscient.\n\nSource : NEUROCHIRURGIE L3, Traumatismes crâniens, diapos 17-23",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "j-preparation-de__prepa-chir-j1-ide__18",

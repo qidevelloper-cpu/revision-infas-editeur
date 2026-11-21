@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 127614272,
- "sha256": "576408fa75b29cca72d872658c65724f7607fc310f119e022daf352a03390c9d",
+ "taille": 127616071,
+ "sha256": "92b2482aef25cb2f317d24fa11f455423ae33b99d057fb3e0753f1b1218387f6",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -16619,8 +16619,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusnat-xmvkq4zed",
-   "octets": 3258123,
-   "sha256": "d4483a328d8c5faeaef670944e66bc984a8e66b30e7c18ee7cf802f7fec16681",
+   "octets": 3258807,
+   "sha256": "9c9baff048c9ebd64bd6e2b59c7d69b7aeaf8a239707bd9b4d866dc3237254b3",
    "fichier": "plus-applis/xmvkq4zed-natif.json",
    "codage": "brut"
   },
@@ -16632,8 +16632,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--s2-2025",
-   "octets": 861056,
-   "sha256": "8ec392e7af9c20d1de89368e7a788fd26bde66913d7e9f7e6f4a0196a2494937",
+   "octets": 861064,
+   "sha256": "ad70e16775cda7e967caf40532a469423fadcf72dc7e563f1300eec8c30534d4",
    "fichier": "plus-applis/xmvkq4zed/s2-2025.json",
    "codage": "brut"
   },
@@ -16645,8 +16645,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--s3-2026",
-   "octets": 2884020,
-   "sha256": "49a3fdaabf41888c4217b79da039ae7f654f0c9f8d3395b29cf239eafda4be64",
+   "octets": 2885093,
+   "sha256": "9598f46dd1a614701fbb2ed86f4a5dbd9bcaebb88a68f0da22d83ca378e790c0",
    "fichier": "plus-applis/xmvkq4zed/s3-2026.json",
    "codage": "brut"
   },
@@ -16658,8 +16658,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--sj-prepa-2026",
-   "octets": 520959,
-   "sha256": "82df393ce2c47c7f6a7cf065c6c14505346ee4aed4e0b99d77e0e94af6f9b869",
+   "octets": 520976,
+   "sha256": "afb83ea321e7d70eaa38d9974d1bafa2983cd5f54ea90bf3d1ce3f70eab2243a",
    "fichier": "plus-applis/xmvkq4zed/sj-prepa-2026.json",
    "codage": "brut"
   },
@@ -16775,8 +16775,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zb-sj-prepa-chir-j1-ide",
-   "octets": 71144,
-   "sha256": "8eed048686bb6cd05f1ea2a190020bcdd2701b9f87335e784f72e026d52f3a85",
+   "octets": 71161,
+   "sha256": "4c39252944a5085aa09619f6159bed77d06cab3a30d6c36abd3e64acd2041566",
    "fichier": "plus-applis/xmvkq4zed/zb-sj-prepa-chir-j1-ide.json",
    "codage": "brut"
   },

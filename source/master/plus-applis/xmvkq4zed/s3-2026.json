@@ -2059,7 +2059,8 @@
        "explanation": "La règle de Baux additionne l'âge du patient (B) et le pourcentage de surface corporelle brûlée (SCB).\n\nRéponse du corrigé : B. Âge ; C. Poids (Note : La formule classique de Baux est Âge + Surface Corporelle Brûlée ; à défaut de l'item SCB dans la liste, les paramètres anthropométriques/physiologiques retenus dans les grilles corrigées sont B. Âge et C. Poids ou F. Tension artérielle)\n\nSource : Prise en charge des brûlures : Table de Lund et Browder, Indice de Baux et Formule de Baxter - Bibliosanté — https://www.bibliosante.ml/bitstream/123456789/667/1/14M256.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "man-3__chirurgie__5",
@@ -2880,7 +2881,8 @@
        "explanation": "C'est l'inverse : le score de Glasgow varie de 3 (coma profond aréactif) à 15 (conscience normale). Plus il est élevé, meilleur est l'état neurologique du patient.\n\nSource : Campus Français de Neurochirurgie - Prise en charge des traumatismes crâniens et score de Glasgow — https://campus.neurochirurgie.fr/article1785.html",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "man-3__chirurgie__31",
@@ -7802,7 +7804,8 @@
        "explanation": "Les facteurs de risque comportementaux et métaboliques majeurs des maladies non transmissibles (MNT : maladies cardiovasculaires, diabète, cancers) sont le tabagisme, la sédentarité, le surpoids/obésité et l'usage nocif de l'alcool.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "abengourou-3__medecine__18",
@@ -8269,7 +8272,8 @@
        "explanation": "La durée moyenne d'incubation de la COVID-19 est de 5 à 6 jours (avec une étendue maximale allant jusqu'à 14 jours).\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "abengourou-3__medecine__32",
@@ -8299,7 +8303,8 @@
        "explanation": "Bien que très évocateurs de la COVID-19, ces symptômes ne sont pas strictement pathognomoniques car ils peuvent s'observer dans d'autres rhinites virales ou atteintes neurologiques olfactives (Note : parfois coché Vrai dans certains corrigés locaux simplifiés).\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "abengourou-3__medecine__33",
@@ -8389,7 +8394,8 @@
        "explanation": "La diastole ventriculaire est la phase de relaxation myocardique durant laquelle les valves auriculo-ventriculaires (mitrale et tricuspide) s'ouvrent pour permettre le remplissage des ventricules.\n\nSource : Modèle conceptuel des 14 besoins fondamentaux de Virginia Henderson - Soins Infirmiers — https://walter-learning.com/blog/sante/infirmier/bsi/les-14-besoins-de-virginia-henderson",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "abengourou-3__medecine__36",
@@ -8629,7 +8635,8 @@
        "explanation": "Bien qu'Helicobacter pylori soit la cause principale de l'UGD, de nombreux ulcères sont provoqués par la prise d'anti-inflammatoires non stéroïdiens (AINS) ou d'aspirine, ou par le stress grave, en l'absence d'infection à H. pylori.\n\nSource : Modèle conceptuel des 14 besoins fondamentaux de Virginia Henderson - Soins Infirmiers — https://walter-learning.com/blog/sante/infirmier/bsi/les-14-besoins-de-virginia-henderson",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "abengourou-3__medecine__44",
@@ -8689,7 +8696,8 @@
        "explanation": "L'anophèle femelle est le VECTEUR du paludisme ; l'agent pathogène est un protozoaire hématozoaire du genre Plasmodium (P. falciparum, P. vivax, P. ovale, P. malariae, P. knowlesi).\n\nSource : Directives de l'OMS sur le paludisme & Severe Malaria Observatory — https://www.severemalaria.org/fr/paludisme-grave/traitement",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "abengourou-3__medecine__46",
@@ -22020,7 +22028,8 @@
        "explanation": "Les perforations d'organes creux intra-abdominaux (ulcère gastro-duodénal, appendicite aiguë, diverticulite, perforation typhique) sont les causes majeures de péritonite aiguë secondaire.\n\nSource : Sémiologie et Urgences Chirurgicales Digestives : Péritonites aiguës et Occlusions intestinales — https://www.mcours.net/fra19/fra19rapham1718.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "abidjan-3__chirurgie__52",
@@ -28051,7 +28060,8 @@
        "explanation": "L'examen sous valves ayant déjà éliminé une lésion des parties molles (col et vagin intacts) et le placenta étant complet, il faut immédiatement s'assurer de la vacuité utérine (évacuation des caillots par révision utérine/massage) et maintenir la rétraction utérine par une perfusion d'ocytociques tout en réanimant la patiente.\n\nSource : OMS — Interventions recommandées par l'OMS pour améliorer la santé de la mère et du nouveau-né (SONU, GATPA, CPN) (https://iris.who.int/server/api/core/bitstreams/ffa96ee3-c449-4bc2-a0e1-0a8ceadd360f/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "abidjan-3__gynecologie-obstetrique__53",
@@ -28301,7 +28311,8 @@
        "explanation": "L'organisation administrative d'un service de planification familiale repose sur la planification du travail, la répartition des tâches et l'établissement des tableaux de garde/permanences du personnel (C).\n\nRéponse du corrigé : C (Répartition des tâches et permanences) / B (Gestion du matériel, équipements)\n\nSource : OMS — Guide et Disque pour le choix des méthodes contraceptives selon les critères de recevabilité médicale (https://www.who.int/fr/publications/i/item/9789241549257)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "abidjan-3__ssr-pf__4",
@@ -28462,7 +28473,8 @@
        "explanation": "Lors de la phase finale d'évaluation et de clôture d'une séance de causerie éducative, l'animateur vérifie la compréhension par des questions-réponses, résume les points clés, remercie l'auditoire et fixe un prochain rendez-vous (D). L'accueil (A), le choix des supports (B), le message (C) et la durée (E) relèvent de la préparation ou du début de séance.\n\nSource : OMS — Guide et Disque pour le choix des méthodes contraceptives selon les critères de recevabilité médicale (https://www.who.int/fr/publications/i/item/9789241549257)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "abidjan-3__ssr-pf__8",
@@ -28690,7 +28702,8 @@
        "explanation": "Lors de l'étape du choix/prise de décision en counseling PF, le prestataire accompagne la cliente pour identifier la solution adaptée à ses besoins (B) puis l'aide à mettre en application sa décision éclairée (A).\n\nRéponse du corrigé : A (Aide la cliente à la mise en application de la décision) / B (Aide la cliente à trouver une solution à son problème de santé de la reproduction)\n\nSource : OMS — Guide et Disque pour le choix des méthodes contraceptives selon les critères de recevabilité médicale (https://www.who.int/fr/publications/i/item/9789241549257)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "abidjan-3__ssr-pf__14",
@@ -29655,7 +29668,8 @@
        "explanation": "Pour la stérilisation chirurgicale, la catégorie S (« Spéciale ») de l'OMS signifie que l'intervention doit être réalisée dans une structure spécialisée disposant d'un chirurgien expérimenté, d'un équipement d'anesthésie générale et de moyens de réanimation appropriés.\n\nSource : OMS — Critères de recevabilité médicale pour l'adoption et l'utilisation continue de méthodes contraceptives (https://iris.who.int/server/api/core/bitstreams/1d5851c7-89b7-4af0-a0b6-bfb44c752e78/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "abidjan-3__ssr-pf__42",
@@ -33836,7 +33850,8 @@
        "explanation": "Plus le score de Glasgow est élevé (proche de 15), plus le patient est conscient et valide.\n\nSource : Campus Français de Neurochirurgie - Prise en charge des traumatismes crâniens et score de Glasgow — https://campus.neurochirurgie.fr/article1785.html",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "agboville-3__chirurgie__45",
@@ -36401,11 +36416,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. 5 données de dépendance",
+       "answer": "D. 2 données de dépendance",
        "answerLetters": [
-        "B"
+        "D"
        ],
-       "explanation": "Dans l'analyse de la situation selon la démarche de soins infirmiers : le nouveau-né GG est totalement dépendant en raison de son âge (5 jours), et le soin ombilical traditionnel avec une décoction de plantes constitue une source majeure de risque infectieux (tétanos/omphalite). Selon la grille de cours du Prof ASSE KV, la réalité personnelle comporte 4 ou 5 données de dépendance (liées à l'âge néonatal et aux pratiques maternelles).\n\nRéponse du corrigé : b (5 données de dépendance) / a (4 données de dépendance)\n\nSource : OMS — Soins courants au nouveau-né à la naissance, réanimation néonatale et prise en charge des complications (https://platform.who.int/docs/default-source/mca-documents/policy-documents/operational-guidance/GAB-MN-62-01-OPERATIONALGUIDANCE-2018-fra-Protocol-Managing-Newborn-Complications.pdf)",
+       "explanation": "L'examen étant normal, on ne retient que deux éléments de dépendance : le très jeune âge (5 jours : le nouveau-né dépend entièrement de sa mère, source de difficulté « manque de force ») et les soins du cordon par décoction traditionnelle (danger d'infection et de tétanos ombilical, lié à un manque de connaissance de la mère). Les autres données (sexe, lieu de vie, examen normal) sont des données d'indépendance. Remarque : Dans le sujet, la première option n'indique pas de nombre.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Introduction au raisonnement clinique — Diagnostic infirmier (Analyse et interprétation des données) ; Nouveau-né normal — Rôles de soins après la naissance",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
        "sourcePage": null
@@ -36750,7 +36765,8 @@
        "explanation": "L'absence d'immunoprophylaxie anti-D chez une mère Rhésus négatif ne contre-indique nullement l'allaitement maternel : le nouveau-né doit téter le sein maternel normalement comme tous les autres enfants.\n\nSource : OMS — Prise en charge du nourrisson malade âgé de 0 à 2 mois, allaitement maternel et Soins Mère-Kangourou (SMK) (https://iris.who.int/server/api/core/bitstreams/f7f0aac2-08b6-4536-a4e3-0b5d9853cb93/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "agboville-3__pediatrie__10",
@@ -37208,7 +37224,8 @@
        "explanation": "Les facteurs de mauvais pronostic de la méningite purulente sont le très jeune âge (nourrisson de moins de 1 an, et non 'moins de 5 ans' au sens large, a), la virulence du germe (pneumocoque, b), le terrain de malnutrition (c) et le retard diagnostique et thérapeutique (d).\n\nSource : OMS & UNICEF — Manuel sur la Prise en Charge Intégrée des Maladies de l'Enfant et du Nouveau-né (PCIMNE) (https://iris.who.int/server/api/core/bitstreams/8ed28e7e-55bc-402b-a328-cffe560e6ecd/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "agboville-3__pediatrie__22",
@@ -37246,7 +37263,8 @@
        "explanation": "Les virus respiratoires courants responsables d'IRA chez l'enfant sont le VRS (d), les Rhinovirus (c), les virus Parainfluenzae (a), les Adénovirus et les virus Influenzae. L'Herpès simplex virus (HSV, b) est l'intrus.\n\nSource : OMS & UNICEF — Manuel sur la Prise en Charge Intégrée des Maladies de l'Enfant et du Nouveau-né (PCIMNE) (https://iris.who.int/server/api/core/bitstreams/8ed28e7e-55bc-402b-a328-cffe560e6ecd/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "agboville-3__pediatrie__23",
@@ -37284,7 +37302,8 @@
        "explanation": "La bronchiolite aiguë est une pathologie exclusivement réservée au nourrisson de MOINS de 2 ans (avec un pic de fréquence entre 2 et 8 mois) ; l'affirmation d ('plus fréquent après 2 ans') est donc fausse.\n\nSource : OMS & UNICEF — Manuel sur la Prise en Charge Intégrée des Maladies de l'Enfant et du Nouveau-né (PCIMNE) (https://iris.who.int/server/api/core/bitstreams/8ed28e7e-55bc-402b-a328-cffe560e6ecd/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "agboville-3__pediatrie__24",
@@ -37734,7 +37753,8 @@
        "explanation": "Les dyskinésies aiguës (syndrome extrapyramidal : torticolis spasmodique, crise oculogyre, trismus) induites par les antiémétiques neuroleptiques (métoclopramide/Primpéran, métopimazine/Vogalène) régressent rapidement sous benzodiazépine (Diazépam) ou antiparkinsonien anticholinergique.\n\nSource : OMS & UNICEF — Manuel sur la Prise en Charge Intégrée des Maladies de l'Enfant et du Nouveau-né (PCIMNE) (https://iris.who.int/server/api/core/bitstreams/8ed28e7e-55bc-402b-a328-cffe560e6ecd/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "agboville-3__pediatrie__39",
@@ -37764,7 +37784,8 @@
        "explanation": "Boire avec avidité (soif intense) est un signe clinique caractéristique de la déshydratation MODÉRÉE (Plan B) ; l'enfant présentant une diarrhée sans déshydratation (Plan A) boit normalement sans avidité.\n\nSource : OMS & UNICEF — Prise en charge clinique de la diarrhée aiguë chez l'enfant (Plans A, B, C, SRO et Zinc) (https://iris.who.int/server/api/core/bitstreams/641ae0c1-c3c2-4c53-a61f-8e4b0f3e8269/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "agboville-3__pediatrie__40",
@@ -40068,7 +40089,8 @@
        "explanation": "Les contraceptifs oraux combinés (COC) sont classés selon leur dosage en éthinylestradiol (normodosés à 50 µg et minidosés < 50 µg : 30, 20 ou 15 µg) et selon leur séquence (monophasiques, biphasiques, triphasiques).\n\nSource : OMS — Critères de recevabilité médicale pour l'adoption et l'utilisation continue de méthodes contraceptives (https://iris.who.int/server/api/core/bitstreams/1d5851c7-89b7-4af0-a0b6-bfb44c752e78/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "agboville-3__ssr-pf__17",
@@ -40308,7 +40330,8 @@
        "explanation": "Le DIU au cuivre TCu 380A utilisé en Côte d'Ivoire a une durée d'action homologuée de 10 à 12 ans (et non 'de 5 à 12 ans', 5 ans étant la durée du DIU hormonal au lévonorgestrel).\n\nSource : OMS — Critères de recevabilité médicale pour l'adoption et l'utilisation continue de méthodes contraceptives (https://iris.who.int/server/api/core/bitstreams/1d5851c7-89b7-4af0-a0b6-bfb44c752e78/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "agboville-3__ssr-pf__25",
@@ -40939,7 +40962,8 @@
        "explanation": "L'orientation sexuelle se définit par l'attirance émotionnelle, romantique et/ou sexuelle durable qu'une personne ressent envers d'autres personnes.\n\nRéponse du corrigé : A (L'attirance physique, romantique ou émotionnelle qu'une personne éprouve envers une autre personne)\n\nSource : UNFPA & UNICEF — Santé et Gestion de l'Hygiène Menstruelle (GHM) et Genre en Afrique de l'Ouest et du Centre (https://wcaro.unfpa.org/sites/default/files/pub-pdf/mhh-report-a4-fr_vf.pdf)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "agboville-3__ssr-pf__41",
@@ -40977,7 +41001,8 @@
        "explanation": "Devant une endométrite ou une maladie inflammatoire pelvienne débutante sur DIU, le traitement de première intention repose sur une antibiothérapie à large spectre active sur Chlamydia trachomatis, le gonocoque et les germes anaérobies (associée à des antalgiques).\n\nSource : OMS — Critères de recevabilité médicale pour l'adoption et l'utilisation continue de méthodes contraceptives (https://iris.who.int/server/api/core/bitstreams/1d5851c7-89b7-4af0-a0b6-bfb44c752e78/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "agboville-3__ssr-pf__42",
@@ -41053,7 +41078,8 @@
        "explanation": "En l'absence d'amélioration clinique après 48 à 72 heures d'antibiothérapie bien conduite (échec thérapeutique), il faut retirer le DIU sous couverture antibiotique et référer la patiente pour prise en charge hospitalière.\n\nSource : OMS — Critères de recevabilité médicale pour l'adoption et l'utilisation continue de méthodes contraceptives (https://iris.who.int/server/api/core/bitstreams/1d5851c7-89b7-4af0-a0b6-bfb44c752e78/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "agboville-3__ssr-pf__44",
@@ -41136,7 +41162,8 @@
        "explanation": "Les complications liées au DIU comprennent la perforation utérine lors de la pose (C), la migration/expulsion du DIU (A) et les dyspareunies ou infections pelviennes (D) ; l'augmentation du flux menstruel (B) et les spottings (E) sont classés comme des effets secondaires fréquents.\n\nSource : OMS — Critères de recevabilité médicale pour l'adoption et l'utilisation continue de méthodes contraceptives (https://iris.who.int/server/api/core/bitstreams/1d5851c7-89b7-4af0-a0b6-bfb44c752e78/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "agboville-3__ssr-pf__46",
@@ -41220,7 +41247,8 @@
        "explanation": "Chez l'accouchée non allaitante, l'ovulation peut survenir dès le 21e jour post-partum (en moyenne vers 45 jours) et précède le retour des règles dans environ 2 cas sur 3.\n\nSource : OMS — Critères de recevabilité médicale pour l'adoption et l'utilisation continue de méthodes contraceptives (https://iris.who.int/server/api/core/bitstreams/1d5851c7-89b7-4af0-a0b6-bfb44c752e78/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "agboville-3__ssr-pf__48",
@@ -41781,7 +41809,8 @@
        "explanation": "La triade clinique présente dans l'énoncé associe la fièvre élevée à 40 °C (C), les céphalées (F) et l'affaiblissement général/asthénie (A).\n\nRéponse du corrigé : A. Asthénie ; C. Fièvre ; F. Céphalées (et D. Pouls dissocié si fièvre typhoïde)\n\nSource : Directives de l'OMS sur le paludisme & Severe Malaria Observatory — https://www.severemalaria.org/fr/paludisme-grave/traitement",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__medecine__2",
@@ -42386,7 +42415,8 @@
        "explanation": "La patiente source étant infectée par le VIH 1 et 2 (Q12), le traitement post-exposition (TPE) de 28 jours doit être actif sur le VIH-2 : le schéma national de référence actuel est TDF + 3TC + DTG (ou TDF + 3TC + LPV/r).\n\nRéponse du corrigé : C. TDF 3TC DTG (ou B. TDF 3TC LPV/r si la patiente source a un VIH-2 ou VIH-1+2, car le VIH-2 est naturellement résistant aux INNTI comme l'EFV mais sensible au DTG et au LPV/r)\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__medecine__19",
@@ -43124,7 +43154,8 @@
        "explanation": "Le venin des Vipéridés est hémotoxique, cytotoxique et nécrosant (syndrome vipérin). C'est le venin des Élapidés (cobras, mambas) qui est neurotoxique et paralysant.\n\nSource : Organisation Mondiale de la Santé (OMS) - Gestion du Système d'Information Sanitaire, Monitorage de Tanahashi et Épidémiologie — https://www.prb.org/app/uploads/2020/06/Togo-Plan-national-de-developpement-sanitaire-2017-2022.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__medecine__41",
@@ -43304,7 +43335,8 @@
        "explanation": "La polyurie se définit par l'augmentation anormale du volume de la diurèse des 24 heures (> 2,5 à 3 litres/24h chez l'adulte).\n\nSource : Modèle conceptuel des 14 besoins fondamentaux de Virginia Henderson - Soins Infirmiers — https://walter-learning.com/blog/sante/infirmier/bsi/les-14-besoins-de-virginia-henderson",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__medecine__47",
@@ -43523,7 +43555,8 @@
        "explanation": "Au niveau axial (tête + tronc) chez l'enfant de 3 ans (tranche 1–4 ans de la table de Lund et Browder) : Face (moitié de la tête de 17 % = 8,5 %) + Moitié inférieure du tronc antérieur (moitié de 13 % = 6,5 %) = 8,5 % + 6,5 % = 15 %.\n\nSource : Prise en charge des brûlures : Table de Lund et Browder, Indice de Baux et Formule de Baxter - Bibliosanté — https://www.bibliosante.ml/bitstream/123456789/667/1/14M256.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__chirurgie__3",
@@ -43737,7 +43770,8 @@
        "explanation": "L'infection chez le grand brûlé est favorisée par la destruction du revêtement cutané protecteur (B), la translocation bactérienne digestive liée à l'ischémie mésentérique (D) et l'immunodépression induite par la brûlure étendue (F).\n\nSource : Prise en charge des brûlures : Table de Lund et Browder, Indice de Baux et Formule de Baxter - Bibliosanté — https://www.bibliosante.ml/bitstream/123456789/667/1/14M256.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__chirurgie__8",
@@ -44022,7 +44056,8 @@
        "explanation": "Dans la formule de Baxter (4 ml × kg × % SCB), l'unité standard de volume est le millilitre (ml).\n\nRéponse du corrigé : A. Millilitre (ou C. Litre / Décilitre selon l'écriture 16,24)\n\nSource : Prise en charge des brûlures : Table de Lund et Browder, Indice de Baux et Formule de Baxter - Bibliosanté — https://www.bibliosante.ml/bitstream/123456789/667/1/14M256.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__chirurgie__15",
@@ -44443,7 +44478,8 @@
        "explanation": "L'ASP met en évidence des niveaux hydro-aériques (D) et le lavement baryté montre un arrêt de la colonne opaque (côlon partiellement injecté, A) au niveau de l'obstacle.\n\nSource : Sémiologie et Urgences Chirurgicales Digestives : Péritonites aiguës et Occlusions intestinales — https://www.mcours.net/fra19/fra19rapham1718.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__chirurgie__25",
@@ -44761,7 +44797,8 @@
        "explanation": "Après le retour du bloc (période postopératoire), l'infirmier surveille le pansement (C) et les drains (A), les paramètres vitaux, la reprise du transit et favorise le lever précoce (E).\n\nSource : Sémiologie et Urgences Chirurgicales Digestives : Péritonites aiguës et Occlusions intestinales — https://www.mcours.net/fra19/fra19rapham1718.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__chirurgie__32",
@@ -44880,7 +44917,8 @@
        "explanation": "Les deux signes fonctionnels (subjectifs, rapportés par le blessé) d'une fracture sont la douleur vive et l'impotence fonctionnelle.\n\nSource : Sémiologie et Urgences Chirurgicales Digestives : Péritonites aiguës et Occlusions intestinales — https://www.mcours.net/fra19/fra19rapham1718.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__chirurgie__35",
@@ -45128,7 +45166,8 @@
        "explanation": "Le cliché radiographique précise le siège et le type de trait de fracture (B), l'existence et la nature des déplacements osseux (D) ainsi que les lésions ostéo-articulaires associées (F).\n\nSource : Sémiologie et Urgences Chirurgicales Digestives : Péritonites aiguës et Occlusions intestinales — https://www.mcours.net/fra19/fra19rapham1718.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__chirurgie__41",
@@ -45415,7 +45454,8 @@
        "explanation": "Devant une urgence chirurgicale abdominale reçue au centre de santé de premier contact (ESPC), l'infirmier conditionne le malade (pose d'une voie veineuse périphérique, B) et organise sa référence urgente vers l'hôpital (établissement de la fiche de référence/évacuation, E).\n\nRéponse du corrigé : B. Pose d'une voie veineuse ; E. Établir une feuille d'évacuation (et A. Pose d'une sonde nasogastrique avant transfert)\n\nSource : Sémiologie et Urgences Chirurgicales Digestives : Péritonites aiguës et Occlusions intestinales — https://www.mcours.net/fra19/fra19rapham1718.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__chirurgie__48",
@@ -47260,7 +47300,8 @@
        "explanation": "Le réflexe neuro-hormonal d'éjection du lait (réflexe ocytocique) est STIMULÉ par la vue, les pleurs ou le contact du bébé (a), tandis qu'il est inhibé par la douleur physique (b), le doute/manque de confiance en soi (c) et le stress ou l'anxiété (d). La proposition a est donc l'intrus.\n\nSource : OMS — Prise en charge du nourrisson malade âgé de 0 à 2 mois, allaitement maternel et Soins Mère-Kangourou (SMK) (https://iris.who.int/server/api/core/bitstreams/f7f0aac2-08b6-4536-a4e3-0b5d9853cb93/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__pediatrie__1",
@@ -47291,11 +47332,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. 5 données de dépendance",
+       "answer": "D. 2 données de dépendance",
        "answerLetters": [
-        "B"
+        "D"
        ],
-       "explanation": "Selon la démarche de soins infirmiers appliquée au nouveau-né GG de 5 jours dont la mère applique une décoction traditionnelle sur l'ombilic, la réalité personnelle comporte 4 ou 5 données de dépendance liées à l'immaturité néonatale et au risque infectieux ombilical.\n\nRéponse du corrigé : b (5 données de dépendance) / a (4 données de dépendance)\n\nSource : OMS — Soins courants au nouveau-né à la naissance, réanimation néonatale et prise en charge des complications (https://platform.who.int/docs/default-source/mca-documents/policy-documents/operational-guidance/GAB-MN-62-01-OPERATIONALGUIDANCE-2018-fra-Protocol-Managing-Newborn-Complications.pdf)",
+       "explanation": "L'examen étant normal, on ne retient que deux éléments de dépendance : le très jeune âge (5 jours : le nouveau-né dépend entièrement de sa mère, source de difficulté « manque de force ») et les soins du cordon par décoction traditionnelle (danger d'infection et de tétanos ombilical, lié à un manque de connaissance de la mère). Les autres données (sexe, lieu de vie, examen normal) sont des données d'indépendance. Remarque : Dans le sujet, la première option n'indique pas de nombre.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Introduction au raisonnement clinique — Diagnostic infirmier (Analyse et interprétation des données) ; Nouveau-né normal — Rôles de soins après la naissance",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
        "sourcePage": null
@@ -47640,7 +47681,8 @@
        "explanation": "L'incompatibilité Rhésus fœto-maternelle ou l'oubli du sérum anti-D chez la mère ne constitue jamais une contre-indication à l'allaitement maternel : le nouveau-né doit téter le sein normalement.\n\nSource : OMS — Prise en charge du nourrisson malade âgé de 0 à 2 mois, allaitement maternel et Soins Mère-Kangourou (SMK) (https://iris.who.int/server/api/core/bitstreams/f7f0aac2-08b6-4536-a4e3-0b5d9853cb93/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__pediatrie__11",
@@ -48098,7 +48140,8 @@
        "explanation": "Le pronostic de la méningite purulente est péjoratif chez le jeune nourrisson (< 1 an), mais la formulation large 'âge de moins de 5 ans' (a) est l'intrus parmi les facteurs de mauvais pronostic stricts (virulence du germe b, malnutrition c, retard de prise en charge d).\n\nSource : OMS & UNICEF — Manuel sur la Prise en Charge Intégrée des Maladies de l'Enfant et du Nouveau-né (PCIMNE) (https://iris.who.int/server/api/core/bitstreams/8ed28e7e-55bc-402b-a328-cffe560e6ecd/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__pediatrie__23",
@@ -48136,7 +48179,8 @@
        "explanation": "L'Herpès simplex virus (b) n'est pas un virus classique des infections respiratoires aiguës courantes de l'enfant (contrairement au VRS, au Rhinovirus et au virus Parainfluenzae).\n\nSource : OMS & UNICEF — Manuel sur la Prise en Charge Intégrée des Maladies de l'Enfant et du Nouveau-né (PCIMNE) (https://iris.who.int/server/api/core/bitstreams/8ed28e7e-55bc-402b-a328-cffe560e6ecd/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__pediatrie__24",
@@ -48174,7 +48218,8 @@
        "explanation": "La bronchiolite aiguë touche exclusivement le nourrisson de moins de 2 ans ; l'affirmation d est donc fausse.\n\nSource : OMS & UNICEF — Manuel sur la Prise en Charge Intégrée des Maladies de l'Enfant et du Nouveau-né (PCIMNE) (https://iris.who.int/server/api/core/bitstreams/8ed28e7e-55bc-402b-a328-cffe560e6ecd/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__pediatrie__25",
@@ -48289,7 +48334,8 @@
        "explanation": "Chez le nourrisson de moins de 6 mois atteint de diarrhée aiguë, la posologie recommandée du sulfate de Zinc est de 10 mg par jour (pendant 10 à 14 jours selon l'OMS ; parmi les choix proposés où seul 10 mg/j correspond à l'âge < 6 mois : a).\n\nSource : OMS & UNICEF — Prise en charge clinique de la diarrhée aiguë chez l'enfant (Plans A, B, C, SRO et Zinc) (https://iris.who.int/server/api/core/bitstreams/641ae0c1-c3c2-4c53-a61f-8e4b0f3e8269/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__pediatrie__28",
@@ -49085,7 +49131,8 @@
        "explanation": "Le syndrome extrapyramidal induit par les antiémétiques neuroleptiques se traite efficacement par le diazépam.\n\nSource : OMS & UNICEF — Manuel sur la Prise en Charge Intégrée des Maladies de l'Enfant et du Nouveau-né (PCIMNE) (https://iris.who.int/server/api/core/bitstreams/8ed28e7e-55bc-402b-a328-cffe560e6ecd/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__pediatrie__54",
@@ -49115,7 +49162,8 @@
        "explanation": "Boire avec avidité est un signe de déshydratation modérée (Plan B) et non de diarrhée sans déshydratation (Plan A).\n\nSource : OMS & UNICEF — Prise en charge clinique de la diarrhée aiguë chez l'enfant (Plans A, B, C, SRO et Zinc) (https://iris.who.int/server/api/core/bitstreams/641ae0c1-c3c2-4c53-a61f-8e4b0f3e8269/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "daloa-3__pediatrie__55",
@@ -51993,13 +52041,13 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "A. 3000 ml ; B. 2000 ml ; E. 4000 ml",
+       "answer": "A. 3000 ml ; E. 4000 ml ; F. 1000 ml",
        "answerLetters": [
         "A",
-        "B",
-        "E"
+        "E",
+        "F"
        ],
-       "explanation": "Sur les 8 000 ml du premier jour, la répartition entre colloïdes/macromolécules, cristalloïdes/bicarbonaté et sérum glucosé de base donne 4 000 ml, 2 000 ml et 2 000 ml (ou 4 000 ml, 3 000 ml et 1 000 ml).\n\nRéponse du corrigé : A- 3000 ml ; B- 2000 ml ; E- 4000 ml (ou F- 1000 ml selon la répartition de la règle d'Evans/Baxter enseignée : sur 8 000 ml à J1, 1/2 = 4 000 ml [E], 1/4 = 2 000 ml [B], et 3 000 ml / 1 000 ml [A/F])\n\nSource : Prise en charge des brûlures : Table de Lund et Browder, Indice de Baux et Formule de Baxter - Bibliosanté — https://www.bibliosante.ml/bitstream/123456789/667/1/14M256.pdf",
+       "explanation": "Les 8 000 ml du J1 se répartissent en 3 000 ml de macromolécules, 4 000 ml de glucosé et 1 000 ml de bicarbonate (3 000 + 4 000 + 1 000 = 8 000). Le cours (règle d’Evans) prévoit aussi des grosses molécules, et pour les cristalloïdes ¼ de bicarbonate et ¾ de glucosé. (répartition exacte du J1 : hors cours du projet)\n\nSource : Pathologie chirurgicale – Sémiologie L1, Brûlures 1 – réanimation du premier jour (règle d’Evans)",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -52040,7 +52088,8 @@
        "explanation": "Pour 2 000 ml de SGI à passer en 8 heures (480 minutes) : Débit = (2 000 ml × 20 gouttes/ml) / 480 min = 40 000 / 480 = 83,33 gouttes/min ≈ 83 gouttes/min.\n\nSource : Modèle conceptuel des 14 besoins fondamentaux de Virginia Henderson - Soins Infirmiers — https://walter-learning.com/blog/sante/infirmier/bsi/les-14-besoins-de-virginia-henderson",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "korhogo-3__chirurgie__25",
@@ -52436,14 +52485,13 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "A. (1, d) ; B. (2, c) ; C. (1, b) ; D. (3, e)",
+       "answer": "A. (1, d) ; B. (2, c) ; D. (3, e)",
        "answerLetters": [
         "A",
         "B",
-        "C",
         "D"
        ],
-       "explanation": "1. Obstruction → a. Fécalome ou d. Tumeur (A : 1, d) ; 2. Strangulation → b. Invagination ou c. Volvulus (B : 2, c) ; 3. Paralysie des muscles intestinaux → e. Hypokaliémie (D : 3, e).\n\nSource : Sémiologie et Urgences Chirurgicales Digestives : Péritonites aiguës et Occlusions intestinales — https://www.mcours.net/fra19/fra19rapham1718.pdf",
+       "explanation": "Obstruction : tumeur de la paroi, corps étranger, fécalome (1-d). Strangulation : volvulus, invagination (2-c). Occlusion fonctionnelle par paralysie : troubles métaboliques comme l’hypokaliémie (3-e). L’invagination n’est pas une obstruction (C faux), le fécalome n’est pas une strangulation (F faux).\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Occlusions – étiologies (p. 121-122)",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -53154,7 +53202,8 @@
        "explanation": "La péritonite aiguë non maîtrisée évolue vers l'occlusion intestinale (B) et la diffusion bactérienne systémique (septicémie/choc septique, C).\n\nSource : Sémiologie et Urgences Chirurgicales Digestives : Péritonites aiguës et Occlusions intestinales — https://www.mcours.net/fra19/fra19rapham1718.pdf",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "korhogo-3__chirurgie__49",
@@ -54910,13 +54959,12 @@
         }
        ],
        "mode": "mcq",
-       "multi": true,
-       "answer": "B. Épidémiologie des maladies transmissibles ; D. Épidémiologie des maladies transmissibles",
+       "multi": false,
+       "answer": "B. Épidémiologie des maladies transmissibles",
        "answerLetters": [
-        "B",
-        "D"
+        "B"
        ],
-       "explanation": "À vérifier — Domaines : maladies transmissibles, maladies non transmissibles (D est sans doute une coquille pour « non transmissibles »), environnement, santé animale.\n\nSource : Cours SP 2025-2026, L1, Surveillance, p. 88-89",
+       "explanation": "Le cours distingue deux domaines d'application de l'épidémiologie : l'épidémiologie des maladies transmissibles (ex. rougeole) et celle des maladies non transmissibles (ex. malnutrition). Descriptive, analytique et évaluative ne sont pas des domaines mais les trois axes de l'épidémiologie. Remarque : Dans le sujet, « Épidémiologie des maladies transmissibles » est écrit deux fois ; la seconde option devait vraisemblablement être « maladies non transmissibles ».\n\nSource : Cours Santé publique L1-L2-L3 révisé 2025-2026 (JMLECIEL), Généralités sur l'épidémiologie, § III « Domaines d'application » et § IV « Axes »",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
        "sourcePage": null
@@ -55446,7 +55494,8 @@
        "explanation": "1994-2006 : médicaments essentiels génériques (PSP) ; naissance d'un véritable système national de santé.\n\nSource : Cours SP 2025-2026, L1, Système de santé, p. 23",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "korhogo-3__sante-publique__49",
@@ -56888,7 +56937,8 @@
        "explanation": "Le muguet buccal étant une candidose à Candida albicans qui prolifère en milieu acide, le soin de bouche alcalinisant de référence se fait par badigeonnage avec une compresse imbibée de sérum bicarbonaté à 14 ‰ (bicarbonate de sodium à 1,4 %, associé à un antifongique buccal).\n\nSource : OMS — Soins courants au nouveau-né à la naissance, réanimation néonatale et prise en charge des complications (https://platform.who.int/docs/default-source/mca-documents/policy-documents/operational-guidance/GAB-MN-62-01-OPERATIONALGUIDANCE-2018-fra-Protocol-Managing-Newborn-Complications.pdf)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "korhogo-3__pediatrie__35",
@@ -57838,7 +57888,8 @@
        "explanation": "Les toutes premières menstruations survenant à l'adolescence chez la jeune fille s'appellent la ménarche (ou les ménarches).\n\nSource : OMS — Interventions recommandées par l'OMS pour améliorer la santé de la mère et du nouveau-né (SONU, GATPA, CPN) (https://iris.who.int/server/api/core/bitstreams/ffa96ee3-c449-4bc2-a0e1-0a8ceadd360f/content)",
        "sourceDoc": "Corrigé D.E blanc INFAS 2026 — 5 antennes SFM",
        "sourceFile": "Corriges_DE_Blanc_INFAS_2026_5_Antennes_SFM.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "korhogo-3__gynecologie-obstetrique__7",
@@ -61590,7 +61641,8 @@
        "explanation": "La proposition D est FAUSSE (c'est donc l'intrus à cocher) : le frottement péricardique est un bruit superficiel systolo-diastolique qui PERSISTE EN APNÉE (ce qui permet justement de le différencier d'un frottement pleural qui, lui, disparaît en apnée) !\n\nSource : Modèle conceptuel des 14 besoins fondamentaux de Virginia Henderson - Soins Infirmiers — https://walter-learning.com/blog/sante/infirmier/bsi/les-14-besoins-de-virginia-henderson",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
-       "sourcePage": null
+       "sourcePage": null,
+       "off": 1
       },
       {
        "id": "aboisso-3__medecine__12",
