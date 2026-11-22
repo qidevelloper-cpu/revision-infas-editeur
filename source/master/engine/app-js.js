@@ -3979,8 +3979,17 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
  B('home.contact','Contacter l’administrateur (accueil)',()=>{const k=C();if(!k)return'';const c=k.c;
   return `<div class="card sf ri-contact" style="border:2px solid #25d366"><div style="font-size:17px;font-weight:800">${esc(c.titre||'📞 Contacter l’administrateur')}</div>${c.texte?`<div class="muted" style="margin:4px 0 8px;white-space:pre-line;overflow-wrap:anywhere">${esc(c.texte)}</div>`:''}
    ${k.M.map((x,i)=>`<button class="btn" style="display:block;width:100%;margin:6px 0 0;text-align:left;background:#25d366;color:#fff;border:0;font-weight:700" onclick="riContact(${i})">${esc(x.b)}</button>`).join('')}</div>`});
+ /* position réglée au tableau de bord : haut (défaut), bas, bas_bouton (en bas + petit bouton en haut qui y descend) */
+ const pos=()=>{const k=C();const p=k&&k.c.position;return p==='bas'||p==='bas_bouton'?p:'haut'};
+ B('home.contactbtn','Bouton vers « Contacter l’administrateur » (accueil)',()=>{const k=C();if(!k||pos()!=='bas_bouton')return'';
+  return `<button class="ri-annbtn ri-ctbtn" style="border-color:#25d366;color:#128C7E;margin:0 0 12px" onclick="riContactVoir()">${esc(k.c.titre||'📞 Contacter l’administrateur')} <span aria-hidden="true" style="margin-left:auto">⬇</span></button>`});
+ window.riContactVoir=function(){const el=document.querySelector('.ri-contact');if(!el)return;el.scrollIntoView({behavior:'smooth',block:'center'});el.classList.remove('ri-annflash');void el.offsetWidth;el.classList.add('ri-annflash')};
  const H=SCREENS.home&&SCREENS.home.blocks;if(H&&!H.includes('home.contact'))H.splice(Math.min(1,H.length),0,'home.contact');
- const _lo=layoutOf;layoutOf=function(sc){const L=_lo.apply(this,arguments);if(sc!=='home'||!Array.isArray(L)||L.some(b=>b.id==='home.contact'))return L;const X=L.slice();X.splice(Math.min(1,X.length),0,{id:'home.contact',inst:'home.contact'});return X};
+ const _lo=layoutOf;layoutOf=function(sc){let L=_lo.apply(this,arguments);if(sc!=='home'||!Array.isArray(L))return L;
+  if(!L.some(b=>b.id==='home.contact')){L=L.slice();L.splice(Math.min(1,L.length),0,{id:'home.contact',inst:'home.contact'})}
+  const p=pos();if(p==='haut')return L;
+  const X=L.filter(b=>b.id!=='home.contact'&&b.id!=='home.contactbtn'),ct=L.find(b=>b.id==='home.contact');
+  if(p==='bas_bouton')X.splice(Math.min(1,X.length),0,{id:'home.contactbtn',inst:'home.contactbtn'});X.push(ct);return X};
 })();
 /* ======================= DOCUMENT DE RÉVISION : une tuile de couleur par matière =======================
    L'accueil montre les matières en petites tuiles colorées (2 par ligne) ; un toucher ouvre les sujets de la matière en dessous. */
@@ -4058,9 +4067,9 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
   $('[data-ps="x"]',o).onclick=()=>o.remove();o.onclick=e=>{if(e.target===o)o.remove()}};
  /* bouton dans l'en-tête du sujet et à la fin du sujet */
  if(SCREENS&&SCREENS.fil&&typeof SCREENS.fil.hdr==='function'){const _h=SCREENS.fil.hdr;SCREENS.fil.hdr=function(){const h=_h.apply(this,arguments);if(!peut()||typeof h!=='string')return h;
-   return h.replace(/<\/header>\s*$/,`<button class="back ri-psj" onclick="riPartagerSujet()" aria-label="${esc(Tx('psj.h','📤 Partager ce sujet'))}">${Tx('psj.b','📤 Partager')}</button></header>`)}}
+   return h+`<div class="ri-psjw"><button class="ri-psj" onclick="riPartagerSujet()">${Tx('psj.b','📤 Partager le sujet')}</button></div>`}}
  if(typeof filBilanHTML==='function'){const _b=filBilanHTML;filBilanHTML=function(){const h=_b.apply(this,arguments);try{if(peut()&&FILS.fin)return h+`<div class="center" style="margin-top:10px"><button class="btn light" onclick="riPartagerSujet()">${T('psj.fin','📤 Partager ce sujet à tes amis')}</button></div>`}catch(e){}return h}}
- const st=document.createElement('style');st.textContent='.hdr.mini .ri-psj{margin-left:auto;flex:none;white-space:nowrap;padding:8px 11px;font-size:13px}';document.head.appendChild(st);
+ const st=document.createElement('style');st.textContent='.ri-psjw{padding:10px 16px 0}.ri-psj{display:block;width:100%;padding:12px;border:0;border-radius:14px;background:#25d366;color:#fff;font:inherit;font-size:16px;font-weight:800;cursor:pointer;box-shadow:0 4px 14px rgba(37,211,102,.45);animation:riPsj 2.4s ease-in-out 3}@keyframes riPsj{50%{transform:scale(1.03)}}';document.head.appendChild(st);
 
  /* ---------- ouverture d'un lien ?sujet= (gardé si l'appli se recharge, ex. premier accueil) ---------- */
  let P=null;try{const u=new URL(location.href);P=u.searchParams.get('sujet');if(P){u.searchParams.delete('sujet');history.replaceState(null,'',u.pathname+u.search+location.hash);sessionStorage.setItem('ri_liensuj',P)}else P=sessionStorage.getItem('ri_liensuj')}catch(e){}
