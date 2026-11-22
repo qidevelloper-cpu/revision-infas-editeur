@@ -2449,7 +2449,7 @@ const RIC={
     get('access_rules?select=cle,acces,quota_gratuit'),
     get('app_settings?select=cle,valeur&cle=in.(public.access,public.paiement)'),
     get('plans?select=id,nom,jours,prix_xof&order=jours.asc'),
-    get('announcements?select=id,titre,texte,cible,couleur,du,au')]);
+    get('announcements?select=*')]);
    const regles={};rules.forEach(r=>{regles[r.cle]=r.quota_gratuit==null?{acces:r.acces}:{acces:r.acces,quotaGratuit:r.quota_gratuit}});
    const sv=k=>{const x=sets.find(r=>r.cle===k);return(x&&x.valeur)||{}};const pa=sv('public.access'),pay=sv('public.paiement');
    const old=JSON.stringify(RIC.cfg.regles)+RIC.cfg.defaut+JSON.stringify(RIC.cfg.annonces)+JSON.stringify(RIC.cfg.questions||{})+JSON.stringify(RIC.cfg.promo||null)+JSON.stringify(RIC.cfg.offres||null)+JSON.stringify(RIC.cfg.contact||null);
@@ -2746,12 +2746,19 @@ ${auto?`    <div class="ri-envoi"><div>Tu paies <b>${fcfa(P.prix_xof)}</b> direc
     catch(e){m(/fetch|network|Load failed/i.test(e.message)?'Pas de connexion internet.':'Envoi impossible, réessaie.');$('#riPOk',o).disabled=false}}};
   draw()};
  /* ---------- décorations après chaque affichage ---------- */
- function annonces(){if(!S||!S.onb)return'';const vu=LS.get(RIC.VK,{}),t=today(),prem=RIC.isPremium(),niv=S.fil&&S.niv?filBase(S.fil)+'-'+S.niv:'';
+ function annonces(){if(!S||!S.onb)return[];const vu=LS.get(RIC.VK,{}),t=today(),prem=RIC.isPremium(),niv=S.fil&&S.niv?filBase(S.fil)+'-'+S.niv:'';
   const moi=(()=>{try{const tk=RIC.session&&RIC.session.access_token;return tk?String(JSON.parse(atob(tk.split('.')[1].replace(/-/g,'+').replace(/_/g,'/'))).sub||''):''}catch(e){return''}})(),dev=RIC.device();
   const vise=c=>String(c||'').split(',').map(x=>x.trim()).some(x=>x==='tous'||(x==='premium'&&prem)||(x==='gratuit'&&!prem)||x===niv||(x.startsWith('fil:')&&S.fil&&filBase(S.fil)===x.slice(4))||(x.startsWith('niv:')&&S.niv===x.slice(4))||(x.startsWith('app:')&&x.slice(4)===dev)||(x.startsWith('uid:')&&moi&&x.slice(4)===moi));
-  return(RIC.cfg.annonces||[]).filter(a=>!vu[a.id]&&a.du<=t&&a.au>=t&&vise(a.cible))
-   .map(a=>`<div class="ri-ann" style="background:${esc(/^#[0-9a-f]{3,8}$/i.test(a.couleur)?a.couleur:'#6C3BF5')}"><div><b>${esc(a.titre)}</b> — ${esc(a.texte)}</div><button aria-label="Masquer l’annonce" onclick="RIC.hideAnn('${jsq(a.id)}')">✕</button></div>`).join('')}
- RIC.hideAnn=id=>{const v=LS.get(RIC.VK,{});v[id]=1;LS.set(RIC.VK,v);$$('.ri-ann').forEach(x=>{if(x.innerHTML.includes(id))x.remove()});render()};
+  return(RIC.cfg.annonces||[]).filter(a=>!vu[a.id]&&a.du<=t&&a.au>=t&&vise(a.cible))}
+ /* position choisie au tableau de bord › Annonces : haut (défaut), bas, bas_bouton (en bas + petit bouton en haut qui y descend) */
+ const annPos=a=>['bas','bas_bouton'].includes(a&&a.position)?a.position:'haut';
+ const annCol=a=>esc(/^#[0-9a-f]{3,8}$/i.test(a.couleur)?a.couleur:'#6C3BF5');
+ const annHTML=a=>`<div class="ri-ann" data-ann="${esc(a.id)}" style="background:${annCol(a)}"><div><b>${esc(a.titre)}</b> — ${esc(a.texte)}</div><button aria-label="Masquer l’annonce" onclick="RIC.hideAnn('${jsq(a.id)}')">✕</button></div>`;
+ function annoncesHaut(){const L=annonces()||[];return L.filter(a=>annPos(a)==='haut').map(annHTML).join('')+
+   L.filter(a=>annPos(a)==='bas_bouton').map(a=>`<button class="ri-annbtn" data-ann="${esc(a.id)}" style="border-color:${annCol(a)};color:${annCol(a)}" onclick="RIC.voirAnn('${jsq(a.id)}')">📢 <b>${esc(a.titre)}</b> <span aria-hidden="true">⬇</span></button>`).join('')}
+ function annoncesBas(){return(annonces()||[]).filter(a=>annPos(a)!=='haut').map(annHTML).join('')}
+ RIC.voirAnn=id=>{const el=$$('.ri-anns-bas .ri-ann').find(x=>x.dataset.ann===String(id));if(!el)return;el.scrollIntoView({behavior:'smooth',block:'center'});el.classList.remove('ri-annflash');void el.offsetWidth;el.classList.add('ri-annflash')};
+ RIC.hideAnn=id=>{const v=LS.get(RIC.VK,{});v[id]=1;LS.set(RIC.VK,v);$$('[data-ann]').forEach(x=>{if(x.dataset.ann===String(id))x.remove()});$$('.ri-anns').forEach(x=>{if(!x.children.length)x.remove()});render()};
  function badge(t,cls){return `<span class="ri-b ${cls}">${t}</span>`}
  function decorate(){if(RIC.off())return;const app=$('#app');if(!app)return;
   if(VIEW==='home'){const hc=$('.hello',app);if(hc&&!$('.ri-acc',hc)){const col=($('.lv',hc)||{}).parentNode||hc;const d=document.createElement('div');d.className='ri-accw';d.innerHTML=chipCompte();col.appendChild(d)}}
@@ -2762,7 +2769,8 @@ ${auto?`    <div class="ri-envoi"><div>Tu paies <b>${fcfa(P.prix_xof)}</b> direc
     :`<span class="ri-plan g" onclick="RIC.compte()"><i>🌱</i><b>Version gratuite</b></span>${RIC.paieVisible()?`<span class="ri-up" onclick="RIC.session?RIC.payer():RIC.compte('creer')">Passer Premium ⭐</span>`:''}`;
    $$('.hello .nm, .ou-hi > b',app).forEach(nm=>{const x=nm.nextElementSibling;if(x&&x.classList.contains('ri-planw')){if(x.dataset.p!==String(prem)+fin){x.innerHTML=h;x.dataset.p=String(prem)+fin}}else{const d=document.createElement('div');d.className='ri-planw';d.dataset.p=String(prem)+fin;d.innerHTML=h;nm.insertAdjacentElement('afterend',d)}});
    $$('.hello',app).forEach(c=>c.classList.toggle('ri-prem',prem));$$('.ou-ava',app).forEach(a=>a.parentElement.classList.toggle('ri-prem',prem))}
-  if(VIEW==='home'){const m=$('#main',app);if(m&&!$('.ri-anns',m)){const h=annonces();if(h){const d=document.createElement('div');d.className='ri-anns';d.innerHTML=h;m.insertBefore(d,m.firstChild)}}}
+  if(VIEW==='home'){const m=$('#main',app);if(m){if(!$('.ri-anns-haut',m)){const h=annoncesHaut();if(h){const d=document.createElement('div');d.className='ri-anns ri-anns-haut';d.innerHTML=h;m.insertBefore(d,m.firstChild)}}
+   let b=$('.ri-anns-bas',m);if(!b){const h=annoncesBas();if(h){b=document.createElement('div');b.className='ri-anns ri-anns-bas';b.innerHTML=h;m.appendChild(b)}}else if(b!==m.lastElementChild)m.appendChild(b)}}
   $$('.suj[onclick^="startSujet"]').forEach(el=>{if(el.dataset.ri)return;el.dataset.ri=1;const m=String(el.getAttribute('onclick')).match(/startSujet\('(.*?)',(\d+)\)/);if(!m)return;const mid=m[1].replace(/\\'/g,"'"),k=+m[2]+1,key='matiere:'+mid+'/sujet:'+k;
    const tx=$('.tx b',el)||el;if(!RIC.can(key)){el.classList.add('ri-lock');tx.insertAdjacentHTML('beforeend',' '+badge('🔒 Premium','p'))}else if(matRule(mid)==='premium'&&!RIC.isPremium()&&RIC.effective(key)==='gratuit'){tx.insertAdjacentHTML('beforeend',' '+badge('🎁 Offert','f'))}});
   if(VIEW==='matiere'&&ctx&&ctx.id){const id=ctx.id;[['resumes','/resumes'],['appview','/appli'],['flashcfg','#flash']].forEach(([v,suf])=>{const b=$(`.act[onclick^="go('${v}'"]`,app);if(!b||b.dataset.ri)return;b.dataset.ri=1;const key=suf==='#flash'?'fonction:flashcards':'matiere:'+id+suf;if(!RIC.can(key)){b.classList.add('ri-lock');const t=$('b',b);if(t)t.insertAdjacentHTML('beforeend',' '+badge('🔒 Premium','p'))}})}
@@ -2778,7 +2786,9 @@ ${auto?`    <div class="ri-envoi"><div>Tu paies <b>${fcfa(P.prix_xof)}</b> direc
  .ri-b.p{background:#6C3BF5;color:#fff}.ri-b.f{background:#17B3A3;color:#fff}
  .ri-lock{opacity:.78}.ri-lock .bar{filter:grayscale(1)}
  .ri-lockx{background:color-mix(in srgb,#6C3BF5 10%,transparent);border-radius:10px;padding:8px 10px}
- .ri-anns{display:grid;gap:8px;margin:4px 0 12px}
+ .ri-anns{display:grid;gap:8px;margin:4px 0 12px}.ri-anns-bas{margin:16px 0 8px}
+ .ri-annbtn{display:flex;align-items:center;gap:6px;width:100%;background:var(--card,#fff);border:1.5px solid;border-radius:12px;padding:8px 12px;font:inherit;font-size:13.5px;text-align:left;cursor:pointer}.ri-annbtn b{flex:1;color:var(--ink,#1F1A3D)}
+ .ri-annflash{animation:riAnnF 1.4s ease}@keyframes riAnnF{0%,100%{box-shadow:0 0 0 0 rgba(108,59,245,0)}30%{box-shadow:0 0 0 5px rgba(108,59,245,.45)}}
  .ri-ann{display:flex;gap:10px;align-items:flex-start;color:#fff;border-radius:14px;padding:10px 12px;font-size:14px;line-height:1.4}
  .ri-ann>div{flex:1}.ri-ann button{background:rgba(255,255,255,.22);border:0;color:#fff;border-radius:9px;width:28px;height:28px;flex:none;cursor:pointer}
  .ri-accw{margin-top:8px}.ri-planw{margin:6px 0 4px;display:flex;flex-wrap:wrap;align-items:center;gap:6px;line-height:1}.ri-plan{display:inline-flex;align-items:center;gap:6px;border-radius:99px;padding:7px 14px;cursor:pointer;position:relative;overflow:hidden;font-size:14px}.ri-plan i{font-style:normal;font-size:17px}.ri-plan b{font-weight:900;letter-spacing:.6px}.ri-plan b,.ri-up{white-space:nowrap}.ri-up{font-weight:800;font-size:13px;padding:8px 12px;border-radius:99px;background:#6C3BF5;color:#fff;cursor:pointer;box-shadow:0 3px 10px rgba(108,59,245,.35)}.ri-plan.p{background:linear-gradient(135deg,#FFE48A 0%,#F7C948 35%,#E8A317 70%,#FFD86B 100%);color:#3D2400;border:2px solid #FFF3C4;box-shadow:0 0 0 2px #E8A317,0 4px 14px rgba(232,163,23,.55);animation:riGlow 2.4s ease-in-out infinite}.ri-plan.p::after{content:'';position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.75),transparent);transform:skewX(-20deg);animation:riShine 3s ease-in-out infinite}.ri-planf{font-size:12px;font-weight:700;opacity:.8}.ri-plan.g{background:#fff;color:#4B3A2A;border:2px dashed #C9B6FF;box-shadow:0 2px 8px rgba(108,59,245,.12)}.ri-prem .ava,.ri-prem .ou-ava{position:relative;box-shadow:0 0 0 3px #F7C948,0 0 16px rgba(247,201,72,.8)!important}.ri-prem .ava::before,.ri-prem .ou-ava::before{content:'👑';position:absolute;top:-14px;left:50%;transform:translateX(-50%) rotate(-8deg);font-size:20px;filter:drop-shadow(0 2px 2px rgba(0,0,0,.25))}.ri-prem.hello{background-image:linear-gradient(135deg,rgba(255,228,138,.35),rgba(255,255,255,0) 60%)}@keyframes riShine{0%,60%{left:-60%}100%{left:130%}}@keyframes riGlow{0%,100%{box-shadow:0 0 0 2px #E8A317,0 4px 14px rgba(232,163,23,.45)}50%{box-shadow:0 0 0 2px #E8A317,0 4px 22px rgba(232,163,23,.85)}}@media (prefers-reduced-motion:reduce){.ri-plan.p,.ri-plan.p::after{animation:none}}.ri-acc{border:0;border-radius:99px;padding:6px 12px;font:inherit;font-size:13px;font-weight:700;background:rgba(108,59,245,.12);color:#5B2BE0;cursor:pointer}.ri-acc.p{background:#6C3BF5;color:#fff}
@@ -4012,6 +4022,61 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
   if(!q){if(typeof toast==='function')toast(Tx('lienq.x','Cette question n’existe plus dans cette version de l’appli.'));return}
   try{if(RIC.track)RIC.track('lien_question',{qid:P})}catch(e){}
   startFil(q.m,[P],Tx('lienq.t','📌 Question partagée'),'chap')})()})();
+/* ======================= PARTAGER UN SUJET (élève → amis, WhatsApp) : lien …/?sujet=… =======================
+   Bouton « 📤 Partager » dans l'en-tête de chaque sujet ouvert (tous les cours, sujets J, applis gardées, examens…)
+   et à la fin du sujet. Le lien contient le cours, le titre et les questions du sujet (numéros groupés) ;
+   l'ami qui le touche arrive directement sur ce sujet, avec les règles d'accès habituelles (Gratuit / Premium). */
+(function(){
+ if(typeof startFil!=='function')return;
+ const b64=t=>btoa(unescape(encodeURIComponent(t))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
+ const unb64=t=>decodeURIComponent(escape(atob(String(t).replace(/-/g,'+').replace(/_/g,'/'))));
+ /* questions → [[préfixe, "12-40,45"], …] (identifiants « préfixe + numéro » groupés par plages) */
+ function coder(ids){const G=[];let cur=null;
+  ids.forEach(id=>{const m=String(id).match(/^(.*?)(\d+)$/),p=m?m[1]:String(id),n=m?+m[2]:null;
+   if(!cur||cur.p!==p||n==null||cur.n==null){cur={p,r:[],n:null};G.push(cur)}
+   if(n==null){cur.r.push('');cur.n=null;return}
+   const L=cur.r[cur.r.length-1];if(L&&cur.n!=null&&n===cur.n+1&&/^\d+(-\d+)?$/.test(L)){cur.r[cur.r.length-1]=L.split('-')[0]+'-'+n}else cur.r.push(String(n));cur.n=n});
+  return G.map(g=>[g.p,g.r.join(',')])}
+ function decoder(G){const out=[];(G||[]).forEach(([p,r])=>String(r).split(',').forEach(x=>{if(x===''){out.push(p);return}const [a,b]=x.split('-').map(Number);
+   if(!isFinite(a))return;const z=isFinite(b)&&b>=a&&b-a<2000?b:a;for(let i=a;i<=z;i++)out.push(p+i)}));return out}
+ function lienSujet(F){const base=location.origin+location.pathname;return base+'?sujet='+b64(JSON.stringify({m:F.mid,t:String(F.label||'').slice(0,140),i:coder(F.ids)}))}
+ window.riSujetLien=lienSujet;window.riSujetDecoder=t=>{const o=JSON.parse(unb64(t));return{m:o.m,t:o.t,ids:decoder(o.i)}};
+ const peut=()=>!!(FILS&&FILS.ids&&FILS.ids.length>1&&!(typeof EDITMODE!=='undefined'&&EDITMODE)&&!window.PORTAIL_EDITOR);
+ function texte(F){const m=MATI[F.mid]||{};return Tx('psj.msg','📚 Révision INFAS · je te partage un sujet à faire :\n{t}\n{c} · 📋 {n} questions\n👉 Touche ce lien pour le faire : {l}',
+   {t:String(F.label||''),c:(m.emo?m.emo+' ':'')+(m.short||m.title||''),n:F.ids.length,l:lienSujet(F)})}
+ window.riPartagerSujet=function(){if(!peut())return;const F=FILS,t=texte(F);let o=$('#ripsj');if(o)o.remove();o=document.createElement('div');o.id='ripsj';o.className='pmod';
+  o.innerHTML=`<div class="pbox" style="max-width:420px"><h3>${T('psj.h','📤 Partager ce sujet')}</h3><div class="muted small" style="margin:4px 0 10px">${T('psj.s','Tes amis qui touchent le lien arrivent directement sur ce sujet dans l’appli.')}</div>
+   <div class="small" style="background:var(--soft,#f4f2fb);border-radius:12px;padding:10px;white-space:pre-wrap;word-break:break-word;max-height:180px;overflow:auto">${esc(t)}</div>
+   <button class="btn coral" data-ps="wa" style="width:100%;margin-top:12px;background:#25d366;border-color:#25d366">${T('psj.wa','💬 Partager sur WhatsApp')}</button>
+   ${navigator.share?`<button class="btn light" data-ps="sh" style="width:100%;margin-top:8px">${T('psj.sh','📤 Autres applis')}</button>`:''}
+   <button class="btn light" data-ps="cp" style="width:100%;margin-top:8px">${T('psj.cp','📋 Copier le message')}</button>
+   <button class="btn light" data-ps="x" style="width:100%;margin-top:8px">${T('psj.x','Fermer')}</button></div>`;
+  document.body.appendChild(o);const trk=c=>{try{if(RIC&&RIC.track)RIC.track('sujet_partage',{mat:F.mid,n:F.ids.length,par:c})}catch(e){}};
+  $('[data-ps="wa"]',o).onclick=()=>{trk('wa');window.open('https://wa.me/?text='+encodeURIComponent(t),'_blank','noopener')};
+  const sh=$('[data-ps="sh"]',o);if(sh)sh.onclick=()=>{trk('share');navigator.share({title:String(F.label||'Révision INFAS'),text:t}).catch(()=>{})};
+  $('[data-ps="cp"]',o).onclick=async()=>{try{await navigator.clipboard.writeText(t);toast(Tx('psj.ok','Message copié : colle-le dans WhatsApp'));trk('copie')}catch(e){toast(Tx('psj.ko','Copie impossible'))}};
+  $('[data-ps="x"]',o).onclick=()=>o.remove();o.onclick=e=>{if(e.target===o)o.remove()}};
+ /* bouton dans l'en-tête du sujet et à la fin du sujet */
+ if(SCREENS&&SCREENS.fil&&typeof SCREENS.fil.hdr==='function'){const _h=SCREENS.fil.hdr;SCREENS.fil.hdr=function(){const h=_h.apply(this,arguments);if(!peut()||typeof h!=='string')return h;
+   return h.replace(/<\/header>\s*$/,`<button class="back ri-psj" onclick="riPartagerSujet()" aria-label="${esc(Tx('psj.h','📤 Partager ce sujet'))}">${Tx('psj.b','📤 Partager')}</button></header>`)}}
+ if(typeof filBilanHTML==='function'){const _b=filBilanHTML;filBilanHTML=function(){const h=_b.apply(this,arguments);try{if(peut()&&FILS.fin)return h+`<div class="center" style="margin-top:10px"><button class="btn light" onclick="riPartagerSujet()">${T('psj.fin','📤 Partager ce sujet à tes amis')}</button></div>`}catch(e){}return h}}
+ const st=document.createElement('style');st.textContent='.hdr.mini .ri-psj{margin-left:auto;flex:none;white-space:nowrap;padding:8px 11px;font-size:13px}';document.head.appendChild(st);
+
+ /* ---------- ouverture d'un lien ?sujet= (gardé si l'appli se recharge, ex. premier accueil) ---------- */
+ let P=null;try{const u=new URL(location.href);P=u.searchParams.get('sujet');if(P){u.searchParams.delete('sujet');history.replaceState(null,'',u.pathname+u.search+location.hash);sessionStorage.setItem('ri_liensuj',P)}else P=sessionStorage.getItem('ri_liensuj')}catch(e){}
+ if(!P||window.PORTAIL_EDITOR)return;let D=null;try{D=window.riSujetDecoder(P)}catch(e){try{sessionStorage.removeItem('ri_liensuj')}catch(x){}return}
+ let n=0;(function w(){if(++n>600)return;if(typeof EDITMODE!=='undefined'&&EDITMODE)return;
+  if(!window.PORTAIL_READY||typeof S==='undefined'||!S.onb||/[?&]compo=/.test(location.search)||document.getElementById('rinom')||document.getElementById('relNote')||document.getElementById('updBar')){setTimeout(w,500);return}
+  const mid=D.m;if(!w.ch&&typeof ensureX==='function'&&D.ids.some(id=>!QI[id])){w.ch=1;const L=[mid,'plus-'+mid,'plusnat-'+mid].filter(k=>typeof needX==='function'&&needX(k)).map(k=>ensureX(k));
+   if(L.length){Promise.all(L).catch(()=>{}).then(()=>setTimeout(w,400));return}}
+  try{sessionStorage.removeItem('ri_liensuj')}catch(e){}
+  const ids=D.ids.filter(id=>QI[id]);if(!ids.length||!MATI[mid]){toast(Tx('psj.nos','Ce sujet n’est plus dans cette version de l’appli.'));return}
+  try{if(RIC.track)RIC.track('lien_sujet',{mat:mid,n:ids.length})}catch(e){}
+  try{if(typeof FIL_APPLI!=='undefined'&&FIL_APPLI[MATI[mid].src]&&!RIC.off()&&!RIC.can('matiere:'+mid+'/appli')){RIC.paywall('matiere:'+mid+'/appli','Application complète · Premium');return}}catch(e){}
+  /* même sujet que dans la liste du cours : il s'ouvre comme d'habitude (progression du sujet) */
+  const set=new Set(ids),k=sujets(mid).findIndex(L=>L.length===ids.length&&L.every(id=>set.has(id)));
+  if(k>=0&&typeof startSujet==='function'){startSujet(mid,k);return}
+  startFil(mid,ids,D.t||Tx('psj.t','📤 Sujet partagé'),'prep')})()})();
 /* ======================= TEXTE MIS EN FORME (explications) · TITRES DES SUJETS (tableau de bord) =======================
    Le tableau de bord écrit [b]gras[/b] [i]italique[/i] [u]souligné[/u] [p]petit[/p] [g]grand[/g] [tg]très grand[/tg] :
    riX() échappe tout le texte puis remet seulement ces balises (aucun autre HTML possible).
