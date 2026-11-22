@@ -1,0 +1,2029 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzd-sj-prepa-chir-j6-ide",
+ "titre": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 55,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J6_Chirurgie_IDE_corrige_explique.pdf",
+   "sha256": "0babcddc4f6493f9fd068b3c0945ab28f8575b9f70c9978e1eece0483b35d2d5"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Chirurgie · Prépa D.E J6 (IDE)",
+     "slug": "prepa-chir-j6-ide",
+     "pages": "",
+     "count": 55,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Chirurgie",
+     "source": "J6_Chirurgie_IDE_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__0",
+       "num": "1",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "À quelle pathologie pensez-vous ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rétention urinaire chronique"
+        },
+        {
+         "letter": "B",
+         "text": "Adénome de la prostate"
+        },
+        {
+         "letter": "C",
+         "text": "Rétention urinaire aiguë"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Rétention urinaire aiguë",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La rétention aiguë (complète) se définit par l'impossibilité brutale et totale d'uriner : c'est exactement le tableau de M. ZAOULI (60 ans, à 3 h du matin). La rétention chronique est une impossibilité de vider totalement la vessie, d'installation progressive. L'adénome de la prostate est une cause possible, pas le diagnostic du tableau présenté.\n\nSource : licence 2 ide.pdf, Rétention urinaire, 1.1 Définition (p. 170) ; Cours de chirurgie traumatique et digestif.pptx, diapo 302",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__1",
+       "num": "2",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "Un signe physique parmi ceux énumérés ci-dessous vous conforte dans votre diagnostic ; lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Un globe vésical"
+        },
+        {
+         "letter": "B",
+         "text": "Besoin impérieux d'uriner"
+        },
+        {
+         "letter": "C",
+         "text": "Impossibilité d'uriner"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Un globe vésical",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les signes physiques de la rétention aiguë se trouvent au niveau du globe vésical : masse hypogastrique pouvant remonter jusqu'à l'ombilic, douloureuse à la palpation. Le besoin impérieux d'uriner et l'impossibilité d'uriner sont des signes fonctionnels (ressentis par le patient), pas des signes physiques.\n\nSource : licence 2 ide.pdf, Rétention urinaire, 1.2 Clinique (p. 170-171)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__2",
+       "num": "3",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "Un signe fonctionnel parmi ceux indiqués ci-dessous vous rassure pour le diagnostic posé, lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Globe vésical"
+        },
+        {
+         "letter": "B",
+         "text": "Douleur sous-pubienne plus ou moins intense à la palpation"
+        },
+        {
+         "letter": "C",
+         "text": "Impossibilité d'uriner"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Impossibilité d'uriner",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'impossibilité d'uriner est le premier signe fonctionnel de la rétention aiguë, avec la douleur sus-pubienne de plus en plus intense. Le globe vésical est un signe physique ; la douleur « à la palpation » est aussi un signe d'examen (physique).\n\nSource : licence 2 ide.pdf, Rétention urinaire, 1.2.1 Signes fonctionnels (p. 170)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__3",
+       "num": "4",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "Un geste d'urgence peut immédiatement soulager M. ZAOULI ; lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Sondage urétral d'urgence"
+        },
+        {
+         "letter": "B",
+         "text": "Administration d'un antalgique"
+        },
+        {
+         "letter": "C",
+         "text": "Intervention chirurgicale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Sondage urétral d'urgence",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le drainage vésical est une urgence ; la méthode citée en premier est le sondage urétral (ou, à défaut, la ponction sus-pubienne), dans le strict respect de l'asepsie. Il soulage immédiatement la distension. Un antalgique ne lève pas l'obstacle ; l'intervention chirurgicale relève du traitement étiologique, plus tard.\n\nSource : licence 2 ide.pdf, Rétention urinaire, 4. Traitement (p. 173-174)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__4",
+       "num": "5",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "La pose de la sonde urinaire se fait dans les cas suivants, sauf deux (02) ; lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rétention d'urines"
+        },
+        {
+         "letter": "B",
+         "text": "Hypertrophie bénigne de la prostate"
+        },
+        {
+         "letter": "C",
+         "text": "Incontinence urinaire"
+        },
+        {
+         "letter": "D",
+         "text": "Douleur sus-pubienne"
+        },
+        {
+         "letter": "E",
+         "text": "Infection urinaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "D. Douleur sus-pubienne ; E. Infection urinaire",
+       "answerLetters": [
+        "D",
+        "E"
+       ],
+       "explanation": "Le sondage est indiqué dans la rétention d'urines (dont celle due à l'hypertrophie bénigne de la prostate) et chez le patient incontinent (le cours de traumatologie prévoit une sonde avec grande précaution d'asepsie si le patient est incontinent). La douleur sus-pubienne n'est pas en soi une indication, et l'infection urinaire en est une contre-indication relative : le sondage expose justement au risque infectieux.\n\nSource : licence 2 ide.pdf, Rétention urinaire (p. 173) ; COURS PATHOLOGIE CHIRURGICALE .pdf, prévention des infections urinaires (p. 39) — en partie hors cours du projet",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__5",
+       "num": "6",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "Dans la surveillance du patient avant la pose de la sonde urinaire, il faut procéder :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "À une hygiène des mains du praticien ou de son aide"
+        },
+        {
+         "letter": "B",
+         "text": "À une préparation psychologique suivie de prévention d'escarres"
+        },
+        {
+         "letter": "C",
+         "text": "À une réfection de lit occupé après toilette générale"
+        },
+        {
+         "letter": "D",
+         "text": "À un bain et douche quotidien du praticien au besoin"
+        },
+        {
+         "letter": "E",
+         "text": "À une hygiène du méat, de la région génitale et rectale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. À une hygiène des mains du praticien ou de son aide ; E. À une hygiène du méat, de la région génitale et rectale",
+       "answerLetters": [
+        "A",
+        "E"
+       ],
+       "explanation": "Le cours impose de « respecter rigoureusement les règles d'asepsie » lors du drainage vésical : cela passe par l'hygiène des mains du soignant (ou de son aide) et la toilette du méat, de la région génitale et périnéale avant la pose. Les autres propositions (prévention d'escarres, réfection du lit, douche du praticien) ne font pas partie de la préparation immédiate du sondage.\n\nSource : licence 2 ide.pdf, Rétention urinaire, 4. Traitement (N.B. asepsie, p. 174) — détail des gestes : explication en partie hors cours du projet",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__6",
+       "num": "7",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "L'un des objectifs visés dans la démarche de soins infirmiers, en cas de rétention urinaire, est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le retour du mode d'élimination normal des urines"
+        },
+        {
+         "letter": "B",
+         "text": "La pose de la sonde urinaire"
+        },
+        {
+         "letter": "C",
+         "text": "La ponction sus-pubienne"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Le retour du mode d'élimination normal des urines",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les objectifs de la démarche de soins sont le retour du mode d'élimination normal des urines et le soulagement de la douleur et des malaises. La pose de sonde et la ponction sus-pubienne sont des interventions (moyens), pas des objectifs.\n\nSource : licence 2 ide.pdf, Rétention urinaire, 5.3 Objectifs (p. 175)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__7",
+       "num": "8",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "Parmi les organes suivants, relever les deux organes qui constituent les organes de l'appareil urinaire haut.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La vessie"
+        },
+        {
+         "letter": "B",
+         "text": "L'urètre"
+        },
+        {
+         "letter": "C",
+         "text": "Les reins"
+        },
+        {
+         "letter": "D",
+         "text": "Les uretères"
+        },
+        {
+         "letter": "E",
+         "text": "La prostate"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Les reins ; D. Les uretères",
+       "answerLetters": [
+        "C",
+        "D"
+       ],
+       "explanation": "Le haut appareil urinaire comprend les reins (qui sécrètent l'urine) et les uretères (qui la conduisent vers la vessie). Vessie et urètre forment le bas appareil ; la prostate est une glande génitale. Le cours parle du « retentissement sur le haut appareil (distension des cavités, insuffisance rénale) ».\n\nSource : ANATOMIE LIVRE 2023-2024 OK.pdf, Chap. VI Appareil urinaire (p. 85) ; licence 2 ide.pdf, Rétention chronique, 2.2 (p. 171) — la répartition haut/bas est en partie hors cours du projet",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__8",
+       "num": "9",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "Relever les deux organes de l'appareil digestif haut parmi les organes suivants :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'œsophage"
+        },
+        {
+         "letter": "B",
+         "text": "Le côlon"
+        },
+        {
+         "letter": "C",
+         "text": "La cavité buccale"
+        },
+        {
+         "letter": "D",
+         "text": "L'estomac"
+        },
+        {
+         "letter": "E",
+         "text": "L'intestin grêle"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. L'œsophage ; C. La cavité buccale",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Le tube digestif commence à la bouche et se termine à l'anus : cavité buccale, pharynx, œsophage, estomac, intestin grêle, côlon. La cavité buccale et l'œsophage en sont les premiers segments (partie haute, au-dessus du diaphragme). Le côlon et l'intestin grêle appartiennent au tube digestif bas. Remarque : Selon les auteurs, l'estomac est parfois rangé dans le « tube digestif haut » (endoscopie haute). Le sujet n'en retient que deux : cavité buccale et œsophage.\n\nSource : PDF APPAREIL DIGESTIF L1 SF IDE 2023.pdf, I. Anatomie du tube digestif ; ANATOMIE LIVRE 2023-2024 OK.pdf, Chap. IV (p. 64)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__9",
+       "num": "10",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "L'urine est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "un liquide jaune, clair, limpide"
+        },
+        {
+         "letter": "B",
+         "text": "un liquide jaune pâle, clair, trouble"
+        },
+        {
+         "letter": "C",
+         "text": "un liquide jaune pâle, clair, limpide"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. un liquide jaune pâle, clair, limpide",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'urine normale est habituellement de couleur jaune (pigment : l'urochrome) ; fraîchement émise, elle est claire et limpide. Une urine trouble évoque une anomalie (infection, dépôts).\n\nSource : ANATOMIE LIVRE 2023-2024 OK.pdf, Physiologie de l'appareil urinaire, caractéristiques physiques (p. 91) — « pâle, clair, limpide » : précision hors cours du projet",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__10",
+       "num": "11",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "Chez l'homme, l'urètre mesure environ :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "24 cm"
+        },
+        {
+         "letter": "B",
+         "text": "14 cm"
+        },
+        {
+         "letter": "C",
+         "text": "04 cm"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 14 cm",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Chez l'homme, l'urètre mesure en moyenne de 10 à 16 cm (canal excréteur de la vessie, jusqu'au méat du gland) ; 14 cm est dans cet intervalle. Chez la femme, il ne dépasse pas 3 à 4 cm. Remarque : Le cours de chirurgie (Rétrécissement de l'urètre) donne 10 à 12 cm ; le livre d'anatomie donne 10 à 16 cm. La réponse 14 cm correspond au livre d'anatomie.\n\nSource : ANATOMIE LIVRE 2023-2024 OK.pdf, Chap. VI, L'urètre (p. 89)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__11",
+       "num": "12",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "L'anurie se caractérise par :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une grande quantité d'urine"
+        },
+        {
+         "letter": "B",
+         "text": "Une absence d'urine"
+        },
+        {
+         "letter": "C",
+         "text": "Une petite quantité d'urine"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Une absence d'urine",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'anurie est l'absence (ou quasi-absence) d'émission d'urines par arrêt de leur production. Une petite quantité d'urine correspond à l'oligurie ; une grande quantité à la polyurie.\n\nSource : (explication hors cours du projet) — le cours de sémiologie emploie le terme « anurie » dans les complications des brûlures, sans le définir.",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__12",
+       "num": "13",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "La diurèse normale de 24 heures est de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "800 ml"
+        },
+        {
+         "letter": "B",
+         "text": "1500 ml"
+        },
+        {
+         "letter": "C",
+         "text": "1000 ml"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 1500 ml",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les reins filtrent environ 180 L par 24 h, mais 99 % sont réabsorbés : l'élimination urinaire est d'environ 1 ml/min, soit 1,5 L (1500 ml) par 24 h.\n\nSource : ANATOMIE LIVRE 2023-2024 OK.pdf, 3.1.1 Filtration glomérulaire et 3.1.2 Réabsorption tubulaire (p. 89)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__13",
+       "num": "14",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "La rétention urinaire chronique est dite rétention avec distension lorsque le volume du résidu post-mictionnel est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Supérieur à 300 ml"
+        },
+        {
+         "letter": "B",
+         "text": "Égal à 300 ml"
+        },
+        {
+         "letter": "C",
+         "text": "Inférieur à 300 ml"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Supérieur à 300 ml",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Si le résidu post-mictionnel est supérieur à 300 cc, on parle de rétention avec distension ; s'il est inférieur à 300 cc, de rétention sans distension.\n\nSource : licence 2 ide.pdf, Rétention chronique, 2.1 Définition (p. 171) ; Cours de chirurgie traumatique et digestif.pptx, diapo 303",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__14",
+       "num": "15",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "Parmi les signes suivants, relever le signe fonctionnel de la rétention chronique d'urine :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "De quelques gouttes d'urines"
+        },
+        {
+         "letter": "B",
+         "text": "Impossibilité d'uriner"
+        },
+        {
+         "letter": "C",
+         "text": "Besoin impérieux d'uriner permanent devenant douloureux et n'aboutissant au mieux qu'à l'émission"
+        },
+        {
+         "letter": "D",
+         "text": "Impossibilité de vider totalement la vessie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Impossibilité de vider totalement la vessie",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La rétention chronique se traduit par l'impossibilité de vider totalement la vessie (existence d'un résidu post-mictionnel). Les autres propositions (impossibilité totale d'uriner, besoin impérieux n'aboutissant qu'à quelques gouttes) décrivent la rétention aiguë. Remarque : Dans le cours, « impossibilité de vider totalement la vessie » est la définition ; les signes fonctionnels listés sont la pollakiurie et l'incontinence par regorgement (absents des options).\n\nSource : licence 2 ide.pdf, Rétention chronique, 2.1 et 2.3.1 (p. 171-172)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__15",
+       "num": "16",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "Relever parmi les examens biologiques suivants les trois qui peuvent être demandés à un patient porteur d'un adénome de la prostate.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "URÉE"
+        },
+        {
+         "letter": "B",
+         "text": "PSA"
+        },
+        {
+         "letter": "C",
+         "text": "NFS"
+        },
+        {
+         "letter": "D",
+         "text": "GE"
+        },
+        {
+         "letter": "E",
+         "text": "ECBU"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. URÉE ; B. PSA ; E. ECBU",
+       "answerLetters": [
+        "A",
+        "B",
+        "E"
+       ],
+       "explanation": "En cas d'adénome de la prostate, le cours demande : urée, créatinine (fonction rénale), ECBU (recherche d'infection) et dosage du PSA (évolution de la prostate). NFS et GE ne font pas partie de ce bilan spécifique (la NFS entre seulement dans le bilan préopératoire).\n\nSource : licence 2 ide.pdf, Adénome de la prostate, 3.3.1 Biologie (p. 163) ; Cours de chirurgie traumatique et digestif.pptx, diapo 290",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__16",
+       "num": "17",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 1 : Vous êtes infirmier au centre de santé rural de GROHOUNFLA. M. ZAOULI, planteur, 60 ans, vous arrive à 3 h 00 du matin pour impossibilité brutale et totale d'uriner.",
+       "text": "Parmi les signes suivants, relever les deux signes physiques de la rétention aiguë d'urine :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Douleur à la palpation augmentant le besoin d'uriner"
+        },
+        {
+         "letter": "B",
+         "text": "Globe vésical flaccide parfois énorme de 2 à 3 litres et indolore"
+        },
+        {
+         "letter": "C",
+         "text": "Impossibilité d'uriner"
+        },
+        {
+         "letter": "D",
+         "text": "Douleur sus-pubienne de plus en plus intense"
+        },
+        {
+         "letter": "E",
+         "text": "Masse hypogastrique pouvant remonter jusqu'à l'ombilic"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Douleur à la palpation augmentant le besoin d'uriner ; E. Masse hypogastrique pouvant remonter jusqu'à l'ombilic",
+       "answerLetters": [
+        "A",
+        "E"
+       ],
+       "explanation": "Signes physiques de la rétention aiguë (au niveau du globe vésical) : une masse hypogastrique pouvant remonter jusqu'à l'ombilic et une douleur à la palpation augmentant le besoin d'uriner. Le globe flaccide, indolore, de 2 à 3 L appartient à la rétention chronique ; l'impossibilité d'uriner et la douleur sus-pubienne sont des signes fonctionnels.\n\nSource : licence 2 ide.pdf, Rétention urinaire, 1.2.2 Signes physiques et 2.3.2 (p. 171-172)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__17",
+       "num": "18",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 2 : Vous recevez Mademoiselle Daména, âgée de 27 ans, pesant 90 kg, victime d'un accident avec collision de deux véhicules. L'examen est sans lésion corporelle externe ; on note une douleur abdominale, une tachypnée superficielle, une tension artérielle basse, une soif intense, des sueurs froides profuses et un bombement du cul-de-sac de Douglas au toucher rectal. Face à ces différents signes, le chirurgien pose le diagnostic de contusion abdominale.",
+       "text": "Quelle définition accordez-vous à la contusion abdominale ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Traumatisme de l'abdomen avec solution de continuité profonde"
+        },
+        {
+         "letter": "B",
+         "text": "Traumatisme de l'abdomen avec lésion costale"
+        },
+        {
+         "letter": "C",
+         "text": "Traumatisme de l'abdomen sans solution de continuité"
+        },
+        {
+         "letter": "D",
+         "text": "Traumatisme de l'abdomen avec mise en évidence des viscères"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Traumatisme de l'abdomen sans solution de continuité",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les contusions de l'abdomen sont des traumatismes de l'abdomen sans solution de continuité de la paroi abdominale : ce sont des traumatismes fermés. Une solution de continuité ou une éviscération définit une plaie de l'abdomen.\n\nSource : licence 2 ide.pdf, Contusions abdominales, Introduction (p. 89)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__18",
+       "num": "19",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 2 : Vous recevez Mademoiselle Daména, âgée de 27 ans, pesant 90 kg, victime d'un accident avec collision de deux véhicules. L'examen est sans lésion corporelle externe ; on note une douleur abdominale, une tachypnée superficielle, une tension artérielle basse, une soif intense, des sueurs froides profuses et un bombement du cul-de-sac de Douglas au toucher rectal. Face à ces différents signes, le chirurgien pose le diagnostic de contusion abdominale.",
+       "text": "Les signes observés chez dame Daména vous font évoquer quel tableau ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Tableau d'abdomen contus apparemment normal"
+        },
+        {
+         "letter": "B",
+         "text": "Tableau de péritonite par perforation d'organe creux"
+        },
+        {
+         "letter": "C",
+         "text": "Tableau d'hémopéritoine"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Tableau d'hémopéritoine",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Daména présente des signes de choc par hémorragie interne (tension basse, soif intense, sueurs froides, tachypnée superficielle) et des signes d'épanchement intrapéritonéal (bombement du Douglas) : c'est le tableau d'hémopéritoine. La péritonite par perforation donne surtout contracture (« ventre de bois »), vomissements et pneumopéritoine. Remarque : Dans le sujet, l'option s'affiche « Option 2Tableau d'hémopéritoine » (reste de saisie).\n\nSource : licence 2 ide.pdf, Contusions abdominales, II. Signes, 2.1 et 2.2 (p. 90-91)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__19",
+       "num": "20",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 2 : Vous recevez Mademoiselle Daména, âgée de 27 ans, pesant 90 kg, victime d'un accident avec collision de deux véhicules. L'examen est sans lésion corporelle externe ; on note une douleur abdominale, une tachypnée superficielle, une tension artérielle basse, une soif intense, des sueurs froides profuses et un bombement du cul-de-sac de Douglas au toucher rectal. Face à ces différents signes, le chirurgien pose le diagnostic de contusion abdominale.",
+       "text": "Quels sont les deux signes évocateurs d'un état de choc chez madame Daména ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une soif intense"
+        },
+        {
+         "letter": "B",
+         "text": "Un bombement du cul-de-sac de Douglas"
+        },
+        {
+         "letter": "C",
+         "text": "Des sueurs froides profuses"
+        },
+        {
+         "letter": "D",
+         "text": "Une douleur abdominale"
+        },
+        {
+         "letter": "E",
+         "text": "Une tachypnée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Une soif intense ; C. Des sueurs froides profuses",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Parmi les signes de choc hypovolémique, le cours cite la soif intense et les sueurs froides profuses (avec extrémités froides, pouls filant, TA basse). La tachypnée superficielle est classée dans les signes d'anémie aiguë ; le bombement du Douglas et la douleur abdominale traduisent l'épanchement et l'irritation péritonéale.\n\nSource : licence 2 ide.pdf, Contusions abdominales, 2.1 Tableau d'hémopéritoine (p. 91)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__20",
+       "num": "21",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 2 : Vous recevez Mademoiselle Daména, âgée de 27 ans, pesant 90 kg, victime d'un accident avec collision de deux véhicules. L'examen est sans lésion corporelle externe ; on note une douleur abdominale, une tachypnée superficielle, une tension artérielle basse, une soif intense, des sueurs froides profuses et un bombement du cul-de-sac de Douglas au toucher rectal. Face à ces différents signes, le chirurgien pose le diagnostic de contusion abdominale.",
+       "text": "Le chirurgien suspecte la rupture de viscères pleins, lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Duodénum"
+        },
+        {
+         "letter": "B",
+         "text": "Iléon"
+        },
+        {
+         "letter": "C",
+         "text": "Jéjunum"
+        },
+        {
+         "letter": "D",
+         "text": "Foie"
+        },
+        {
+         "letter": "E",
+         "text": "Rate"
+        },
+        {
+         "letter": "F",
+         "text": "Estomac"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "D. Foie ; E. Rate",
+       "answerLetters": [
+        "D",
+        "E"
+       ],
+       "explanation": "Les viscères pleins sont le foie, la rate, les reins (et le pancréas) ; leur lésion donne un hémopéritoine. Duodénum, iléon, jéjunum et estomac sont des organes creux dont la rupture donne une péritonite.\n\nSource : licence 2 ide.pdf, Contusions abdominales, 1.2 Conséquences anatomiques (p. 90) ; Cours de chirurgie traumatique et digestif.pptx, diapo 184",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__21",
+       "num": "22",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 2 : Vous recevez Mademoiselle Daména, âgée de 27 ans, pesant 90 kg, victime d'un accident avec collision de deux véhicules. L'examen est sans lésion corporelle externe ; on note une douleur abdominale, une tachypnée superficielle, une tension artérielle basse, une soif intense, des sueurs froides profuses et un bombement du cul-de-sac de Douglas au toucher rectal. Face à ces différents signes, le chirurgien pose le diagnostic de contusion abdominale.",
+       "text": "Quel signe présenté par Daména permet de confirmer l'épanchement liquidien intrapéritonéal ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une tachypnée superficielle"
+        },
+        {
+         "letter": "B",
+         "text": "Un bombement du cul-de-sac de Douglas au toucher rectal"
+        },
+        {
+         "letter": "C",
+         "text": "Une tension artérielle basse"
+        },
+        {
+         "letter": "D",
+         "text": "Une douleur abdominale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Un bombement du cul-de-sac de Douglas au toucher rectal",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les signes d'épanchement liquidien intrapéritonéal sont la matité déclive des flancs et le bombement du cul-de-sac de Douglas au toucher rectal. La TA basse et la tachypnée sont des signes de choc et d'anémie ; la douleur abdominale est non spécifique.\n\nSource : licence 2 ide.pdf, Contusions abdominales, 2.1 (p. 91)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__22",
+       "num": "23",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 2 : Vous recevez Mademoiselle Daména, âgée de 27 ans, pesant 90 kg, victime d'un accident avec collision de deux véhicules. L'examen est sans lésion corporelle externe ; on note une douleur abdominale, une tachypnée superficielle, une tension artérielle basse, une soif intense, des sueurs froides profuses et un bombement du cul-de-sac de Douglas au toucher rectal. Face à ces différents signes, le chirurgien pose le diagnostic de contusion abdominale.",
+       "text": "À l'examen physique de Daména, la palpation recherche les deux signes suivants. Lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Recherche des lésions cutanées"
+        },
+        {
+         "letter": "B",
+         "text": "Une matité déclive des flancs"
+        },
+        {
+         "letter": "C",
+         "text": "Un tympanisme diffus ou localisé"
+        },
+        {
+         "letter": "D",
+         "text": "Des points douloureux exquis"
+        },
+        {
+         "letter": "E",
+         "text": "Une défense localisée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "D. Des points douloureux exquis ; E. Une défense localisée",
+       "answerLetters": [
+        "D",
+        "E"
+       ],
+       "explanation": "À l'examen physique, la palpation recherche des points douloureux exquis, une défense localisée et une douleur provoquée. La recherche de lésions cutanées relève de l'inspection ; la matité déclive des flancs et le tympanisme relèvent de la percussion.\n\nSource : licence 2 ide.pdf, Contusions abdominales, Examen physique (p. 92)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__23",
+       "num": "24",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 2 : Vous recevez Mademoiselle Daména, âgée de 27 ans, pesant 90 kg, victime d'un accident avec collision de deux véhicules. L'examen est sans lésion corporelle externe ; on note une douleur abdominale, une tachypnée superficielle, une tension artérielle basse, une soif intense, des sueurs froides profuses et un bombement du cul-de-sac de Douglas au toucher rectal. Face à ces différents signes, le chirurgien pose le diagnostic de contusion abdominale.",
+       "text": "Le bilan biologique de Daména comporte les deux examens suivants :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Doppler pulsé"
+        },
+        {
+         "letter": "B",
+         "text": "Ionogramme sanguin"
+        },
+        {
+         "letter": "C",
+         "text": "Bilan de l'hémostase"
+        },
+        {
+         "letter": "D",
+         "text": "Acide urique"
+        },
+        {
+         "letter": "E",
+         "text": "Natrémie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Ionogramme sanguin ; C. Bilan de l'hémostase",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Les examens biologiques de la contusion abdominale sont la NFS, le bilan de l'hémostase, l'ionogramme sanguin (avec créatinémie, urémie) et l'amylasémie/lipasémie. Le Doppler pulsé est un examen d'imagerie ; l'acide urique n'est pas demandé. Remarque : La natrémie fait partie de l'ionogramme sanguin ; le sujet retient l'ionogramme complet.\n\nSource : licence 2 ide.pdf, Contusions abdominales, Examens biologiques (p. 92-93)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__24",
+       "num": "25",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Étude de cas N° 2 : Vous recevez Mademoiselle Daména, âgée de 27 ans, pesant 90 kg, victime d'un accident avec collision de deux véhicules. L'examen est sans lésion corporelle externe ; on note une douleur abdominale, une tachypnée superficielle, une tension artérielle basse, une soif intense, des sueurs froides profuses et un bombement du cul-de-sac de Douglas au toucher rectal. Face à ces différents signes, le chirurgien pose le diagnostic de contusion abdominale.",
+       "text": "La conduite à tenir dans le traitement de Daména a deux buts :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Mettre une sonde urinaire"
+        },
+        {
+         "letter": "B",
+         "text": "Mise en place d'une sonde naso-gastrique"
+        },
+        {
+         "letter": "C",
+         "text": "Réaliser l'hémostase de la région atteinte"
+        },
+        {
+         "letter": "D",
+         "text": "Compenser la perte sanguine"
+        },
+        {
+         "letter": "E",
+         "text": "Prendre une voie veineuse sûre de préférence au cathéter"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Réaliser l'hémostase de la région atteinte ; D. Compenser la perte sanguine",
+       "answerLetters": [
+        "C",
+        "D"
+       ],
+       "explanation": "En cas de lésions internes graves, la conduite à tenir a pour but de compenser la perte sanguine et de réaliser l'hémostase de la région atteinte (ou de réparer une perforation). Voie veineuse, sonde naso-gastrique et sonde urinaire sont des moyens de réanimation, pas des buts.\n\nSource : licence 2 ide.pdf, Contusions abdominales, III. Conduite à tenir, A.2 et B (p. 95-96) Brûlures",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une brûlure du 2e degré atteint :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'épiderme et une partie du derme"
+        },
+        {
+         "letter": "B",
+         "text": "Le muscle uniquement"
+        },
+        {
+         "letter": "C",
+         "text": "L'os"
+        },
+        {
+         "letter": "D",
+         "text": "Seulement l'épiderme"
+        },
+        {
+         "letter": "E",
+         "text": "L'épiderme, le derme et l'hypoderme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. L'épiderme et une partie du derme",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La brûlure du 2e degré détruit l'épiderme (superficiel : couche basale respectée) et peut atteindre le derme par endroits (profond). L'atteinte de toutes les couches (épiderme, derme, hypoderme) définit le 3e degré ; muscle et os correspondent aux 5e et 6e degrés (carbonisation).\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Brûlures, 3-1 Classification selon la profondeur (p. 83-84)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel signe est caractéristique d'une brûlure du 2e degré ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Peau intacte"
+        },
+        {
+         "letter": "B",
+         "text": "Escarre noire indolore"
+        },
+        {
+         "letter": "C",
+         "text": "Absence de rougeur"
+        },
+        {
+         "letter": "D",
+         "text": "Peau brûlée superficiellement"
+        },
+        {
+         "letter": "E",
+         "text": "Phlyctènes (cloques)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "E. Phlyctènes (cloques)",
+       "answerLetters": [
+        "E"
+       ],
+       "explanation": "Le 2e degré superficiel est caractérisé par la phlyctène : bulle translucide remplie de liquide clair ou rosé. L'escarre noire indolore est le signe du 3e degré ; la rougeur sans décollement correspond au 1er degré.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Brûlures, 5-2 Signes locaux (p. 90)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel élément est essentiel pour évaluer la gravité d'une brûlure ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La couleur des cheveux du patient"
+        },
+        {
+         "letter": "B",
+         "text": "La zone atteinte"
+        },
+        {
+         "letter": "C",
+         "text": "Le groupe sanguin"
+        },
+        {
+         "letter": "D",
+         "text": "La taille des mains"
+        },
+        {
+         "letter": "E",
+         "text": "La surface corporelle brûlée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "E. La surface corporelle brûlée",
+       "answerLetters": [
+        "E"
+       ],
+       "explanation": "Le premier facteur de gravité cité est la surface corporelle brûlée (évaluée par la règle des 9 de Wallace ou la table de Lund et Browder) ; viennent ensuite la profondeur, la localisation, les lésions et tares associées.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Brûlures, 3-3 Les brûlures graves (p. 85-86) et IV. Critères de gravité (p. 98)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une brûlure du 2e degré superficiel cicatrise généralement en :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Plus de 6 mois"
+        },
+        {
+         "letter": "B",
+         "text": "4 semaines"
+        },
+        {
+         "letter": "C",
+         "text": "10 à 21 jours"
+        },
+        {
+         "letter": "D",
+         "text": "Jamais spontanément"
+        },
+        {
+         "letter": "E",
+         "text": "1 à 3 jours"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Plus de 6 mois",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours indique que le 2e degré superficiel guérit spontanément, avec une cicatrice de bonne qualité.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Brûlures, 3-1 (p. 84), 5-2 (p. 90) et 4.4 (p. 99)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une brûlure du 2e degré étendue chez un enfant doit conduire à :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Badigeonner la plaie avec du mercurochrome"
+        },
+        {
+         "letter": "B",
+         "text": "Une exposition au soleil pour sécher la plaie"
+        },
+        {
+         "letter": "C",
+         "text": "Une simple surveillance à domicile dans tous les cas"
+        },
+        {
+         "letter": "D",
+         "text": "Une évaluation médicale rapide"
+        },
+        {
+         "letter": "E",
+         "text": "Aucun soin particulier"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Une évaluation médicale rapide",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Chez l'enfant, une brûlure est dite étendue dès 5 % de surface corporelle et grave au-delà de 10 % : une brûlure du 2e degré étendue justifie une évaluation médicale rapide (risque de choc hypovolémique). Mercurochrome, soleil ou simple surveillance à domicile sont inadaptés.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Brûlures, 3-2 et 3-3 (p. 85-86)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle complication est fréquente en cas de brûlure du 2e degré ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hypertension artérielle"
+        },
+        {
+         "letter": "B",
+         "text": "Myopie"
+        },
+        {
+         "letter": "C",
+         "text": "Otite"
+        },
+        {
+         "letter": "D",
+         "text": "Infection"
+        },
+        {
+         "letter": "E",
+         "text": "Fièvre"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Infection",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "L'infection est l'une des complications majeures des brûlures : dans la période secondaire (« maladie des brûlés »), les deux phénomènes les plus patents sont l'infection et la dénutrition. La fièvre est un signe de cette infection, pas une complication en soi.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Brûlures, 4-3 Période secondaire (p. 89) et 5-3 (p. 91)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Concernant les cloques, il faut :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les empêcher de rompre"
+        },
+        {
+         "letter": "B",
+         "text": "Les percer systématiquement"
+        },
+        {
+         "letter": "C",
+         "text": "Les arracher"
+        },
+        {
+         "letter": "D",
+         "text": "Les protéger autant que possible"
+        },
+        {
+         "letter": "E",
+         "text": "Les frotter avec de l'alcool"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Les protéger autant que possible",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La phlyctène est une protection naturelle de la surface brûlée : on ne la perce pas systématiquement, on ne l'arrache pas et on n'y met pas d'alcool ; on la protège (pansement propre) pour limiter le risque d'infection.\n\nSource : (explication en partie hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une brûlure du 2e degré profond peut :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Nécessiter une greffe cutanée"
+        },
+        {
+         "letter": "B",
+         "text": "Cicatriser seule"
+        },
+        {
+         "letter": "C",
+         "text": "Toucher uniquement l'épiderme"
+        },
+        {
+         "letter": "D",
+         "text": "Guérir en 24 heures"
+        },
+        {
+         "letter": "E",
+         "text": "Ne laisser aucune trace"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Nécessiter une greffe cutanée",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le 2e degré profond cicatrise lentement (15 à 45 jours) avec une cicatrice de mauvaise qualité ; le traitement local vise une cicatrisation rapide des lésions intermédiaires ou un tissu de granulation apte à la greffe, et le recouvrement se fait par greffes (autogreffes). Il ne touche pas seulement l'épiderme et laisse des traces.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Brûlures, 5-2 (p. 90) et traitement local (p. 95)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel est le premier geste recommandé après une brûlure thermique récente ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Appliquer du beurre"
+        },
+        {
+         "letter": "B",
+         "text": "Refroidir avec de l'eau tempérée"
+        },
+        {
+         "letter": "C",
+         "text": "Mettre de la glace directement sur la brûlure"
+        },
+        {
+         "letter": "D",
+         "text": "L'exposer au vent"
+        },
+        {
+         "letter": "E",
+         "text": "Percer les cloques"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Refroidir avec de l'eau tempérée",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Premier secours : refroidissement par l'eau à 15 °C pendant environ 15 minutes, puis retrait des vêtements imbibés et protection par des champs stériles ou draps propres. Beurre, glace directe, exposition au vent et percement des cloques sont à proscrire.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Brûlures, V. Conduite à tenir, 5.1 Premiers secours (p. 100)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La douleur dans une brûlure du 2e degré est généralement :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Très intense"
+        },
+        {
+         "letter": "B",
+         "text": "Absente"
+        },
+        {
+         "letter": "C",
+         "text": "Limitée aux brûlures profondes"
+        },
+        {
+         "letter": "D",
+         "text": "Faible"
+        },
+        {
+         "letter": "E",
+         "text": "Lancinante"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Très intense",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans le 2e degré superficiel, la douleur est très vive, lancinante, et devient atroce au contact ; les phlyctènes sont « très douloureuses ». C'est le 3e degré qui est insensible (anesthésie). Remarque : Le cours qualifie aussi la douleur de « lancinante » (option non cochée) ; « très intense » est le caractère retenu.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Brûlures, 5-2 (p. 90) et 4.4 (p. 99)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__35",
+       "num": "36",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En cas d'appendicite à la fosse iliaque gauche, on parle de situs inversus.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La localisation habituelle de l'appendice est la fosse iliaque droite. Le cours cite l'« appendicite à gauche » parmi les formes topographiques ; elle s'observe notamment en cas de situs inversus (inversion complète des viscères), d'où l'affirmation retenue. Remarque : Une appendicite à gauche peut aussi venir d'un cæcum mobile ou d'un appendice long ; le cours ne cite pas le terme « situs inversus ».\n\nSource : licence 2 ide.pdf, Appendicite, Formes topographiques (p. 116) — le lien avec le situs inversus est hors cours du projet",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__36",
+       "num": "37",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La contention dans la fracture des os de la jambe s'effectue avec un plâtre allant du 1/3 inférieur de la cuisse aux orteils.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : dans la fracture des deux os de la jambe, la contention se fait avec un grand plâtre allant du tiers MOYEN de la cuisse aux orteils, pour immobiliser les articulations suset sous-jacentes (pied à angle droit, genou en légère flexion).\n\nSource : licence 2 ide.pdf, Fractures des deux os de la jambe, 6.1 Traitement orthopédique (p. 56)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__37",
+       "num": "38",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le traitement de l'embarrure consiste à faire une trépanation.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : le traitement de l'embarrure consiste à remonter le fragment enfoncé à son niveau initial et à suturer, sous couverture antibiotique. La trépanation (trou de trépan) sert à évacuer un hématome extra- ou sous-dural.\n\nSource : NEUROCHIRURGIE L3.pptx, Traumatismes crâniens, IV. Traitement (diapos 35-38) ; Cours de chirurgie traumatique et digestif.pptx, diapos 116-118",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__38",
+       "num": "39",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le mécanisme de la fracture du carpe se présente comme une chute sur la paume de la main en hyperextension, et en légère adduction.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : le mécanisme de la fracture du carpe (scaphoïde) est une chute sur la paume de la main en hyperextension et en légère ABDUCTION, pas en adduction.\n\nSource : licence 2 ide.pdf, Fractures du poignet, II. Fracture du carpe, 6.5 Mécanisme (p. 41) ; Cours de chirurgie traumatique et digestif.pptx, diapo 61",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__39",
+       "num": "40",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La désinfection avec un antiseptique est le premier geste dans la chronologie de soins d'une plaie.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : la chronologie des soins devant une plaie est : découvrir la plaie, l'inspecter, la désinfecter avec un antiseptique, l'assécher, appliquer le produit indiqué, la recouvrir. La désinfection est donc la 3e étape, pas la première.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Plaies, VI. Conduite à tenir (p. 59)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__40",
+       "num": "41",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'anthrax est une glomération de furoncles.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours définit l'anthrax comme une agglomération de furoncles reliés entre eux par une suppuration du derme, survenant sur un organisme déficient (diabète surtout).\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Anthrax, I. Définition (p. 41) ; licence 2 ide.pdf, exercice Q28 (p. 218)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__41",
+       "num": "42",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'appréciation de la gravité d'une brûlure se fait uniquement en fonction de l'étendue de la surface corporelle brûlée.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : la gravité d'une brûlure ne dépend pas seulement de la surface brûlée ; il faut aussi tenir compte de la profondeur, de la localisation (face, mains, plis, périnée), des lésions associées, des tares, de l'âge et des circonstances (durée d'exposition, agent).\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Brûlures, 3-3 et IV. Critères de gravité (p. 85-86, 98-99)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__42",
+       "num": "43",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En cas de brûlure, les fuites plasmatiques sont aussi responsables de la formation des œdèmes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : la brûlure entraîne une fuite plasmatique massive et brutale (plasmorragie, surtout d'albumine vers le secteur interstitiel) liée aux troubles de la perméabilité capillaire ; c'est elle qui constitue les œdèmes, résorbés vers le 3e-4e jour.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Brûlures, II. Physiopathologie, 2.1-2.2 (p. 96) et 4-2 (p. 88)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__43",
+       "num": "44",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le scanner abdominal est inutile dans l'évaluation d'une contusion abdominale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : la tomodensitométrie (scanner) abdominale est un examen performant pour le diagnostic des hémopéritoines et des lésions viscérales et permet un bilan complet ; ses inconvénients sont le coût, la disponibilité et le déplacement du blessé.\n\nSource : licence 2 ide.pdf, Contusions abdominales, Examens d'imagerie (p. 93)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__44",
+       "num": "45",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'absence de douleur élimine une lésion thoracique grave.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : l'absence de douleur n'élimine pas une lésion grave. Même sans signe de souffrance cardio-respiratoire (simple contusion), le cours impose de surveiller le patient car des complications peuvent apparaître ; un blessé peut d'ailleurs être inconscient ou avoir d'autres lésions qui masquent la douleur.\n\nSource : licence 2 ide.pdf, Traumatisme du thorax, 2.2.1 (p. 10) — en partie hors cours du projet",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__45",
+       "num": "46",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'hémothorax correspond à une accumulation de sang dans la cavité thoracique.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours définit l'hémothorax comme un épanchement de sang dans la plèvre (cavité pleurale), qui comprime le poumon. La correction nationale retient « Faux » parce que l'énoncé parle de « cavité thoracique », terme trop large (la cavité thoracique contient aussi le médiastin, le péricarde…). Remarque : Dans le langage courant, l'hémothorax est souvent décrit comme du sang « dans le thorax » ; la réponse se joue sur la précision « plèvre » du cours.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Traumatisme du thorax, diapo 10",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__46",
+       "num": "47",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un volet thoracique améliore la mécanique respiratoire du patient.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : le volet costal (fragment de côtes isolé par deux traits de fracture, mobile) entraîne une respiration paradoxale : enfoncement à l'inspiration, expulsion à l'expiration, d'où hypoventilation et détresse respiratoire. Il aggrave la mécanique respiratoire.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Traumatisme du thorax, diapos 6-9",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__47",
+       "num": "48",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Tout traumatisme thoracique avec dyspnée nécessite une évaluation médicale urgente.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : la dyspnée est un signe de souffrance respiratoire (hémothorax, pneumothorax, volet, rupture trachéo-bronchique…). La conduite à tenir en urgence devant toute détresse respiratoire après un traumatisme du thorax comporte libération des voies aériennes, drainage des épanchements et rétablissement de la volémie.\n\nSource : licence 2 ide.pdf, Traumatisme du thorax, 2.2.2 et Conduite à tenir en urgence (p. 10-12)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__48",
+       "num": "49",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans le traumatisme du thorax, à l'auscultation l'on observe une matité.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : la matité se recherche à la PERCUSSION (elle évoque un hémothorax ; l'hypersonorité un pneumothorax). L'auscultation apprécie le murmure vésiculaire (diminué ou aboli) et les bruits du cœur.\n\nSource : licence 2 ide.pdf, Traumatisme du thorax, 2.1.3 Auscultation et 2.1.4 Percussion (p. 9)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__49",
+       "num": "50",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le pied bot varus équin n'atteint uniquement que les garçons.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le pied bot varus équin est le plus fréquent des pieds bots (9/10) ; il atteint SURTOUT les garçons et a souvent un caractère héréditaire et familial.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Pieds bots congénitaux, III. 3.1 Description (p. 81)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__50",
+       "num": "51",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le pied talus est un pied en hyperflexion, en dehors par rapport à l'axe du corps.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : le pied talus est un pied en hyperflexion DORSALE (pied « piolet » : flexion dorsale exagérée de l'avant-pied et du calcanéum). Le pied dévié en dehors par rapport à l'axe du corps est le pied bot valgus.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Pieds bots congénitaux, II. Variétés (p. 81)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__51",
+       "num": "52",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En cas de fracture crânienne, l'on observe évidemment une embarrure.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : l'embarrure (enfoncement d'un fragment osseux) n'est qu'un type de lésion possible ; une fracture du crâne peut être une simple fissure (fracture linéaire) sans enfoncement.\n\nSource : NEUROCHIRURGIE L3.pptx, Traumatismes crâniens — explication en partie hors cours du projet",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__52",
+       "num": "53",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'urètre est un conduit unilatéral qui transporte l'urine des reins vers la vessie.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Faux : le conduit bilatéral qui transporte l'urine des reins vers la vessie est l'URETÈRE. L'urètre est un conduit unique, canal excréteur de la vessie, qui conduit l'urine de la vessie vers l'extérieur (méat).\n\nSource : ANATOMIE LIVRE 2023-2024 OK.pdf, Chap. VI, L'urètre (p. 89) ; licence 2 ide.pdf, Rétrécissement de l'urètre, Généralités (p. 177)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__53",
+       "num": "54",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'une des complications locales dans l'anthrax est l'adéno-phlegmon.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : les complications locales de l'anthrax circonscrit sont la suppuration péri- ou sous-anthracoïde, la lymphangite réticulaire, l'adénite et l'adéno-phlegmon (les complications générales étant septicémie, métastase suppurée, anthrax diffus ou gangreneux).\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Anthrax, 4- Les complications (p. 43)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j6-ide__54",
+       "num": "55",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La crépitation neigeuse est un signe physique de la gangrène gazeuse.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Vrai : à la palpation, une sensation de crépitation neigeuse sous-cutanée traduit l'emphysème (gaz produits par les germes anaérobies) ; elle s'étend à la période d'extension.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE .pdf, Gangrène gazeuse, IV. Signes cliniques, 4.1 b et 4.2 (p. 48-49)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J6 (IDE)",
+       "sourceFile": "J6_Chirurgie_IDE_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

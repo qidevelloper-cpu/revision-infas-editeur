@@ -1,0 +1,2081 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzb-sj-prepa-sp-j6-idesfm",
+ "titre": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 56,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+   "sha256": "f389857d5e32063742b4cd3978325263eb6f82baf045f6c23f513787e3d0fe2c"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Santé publique · Prépa D.E J6 (IDE/SFM)",
+     "slug": "prepa-sp-j6-idesfm",
+     "pages": "",
+     "count": 56,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Santé publique",
+     "source": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__0",
+       "num": "1",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 1 — Vous décidez de mener une enquête sociodémographique et épidémiologique au sein du village Gbézou. Vous avez enregistré les informations suivantes : Population totale de la localité au 31/12/2019 : 8000 habitants. Population totale de la localité au 1er/01/2021 : 8400 habitants. Pendant l'année 2022, les données sanitaires suivantes ont été relevées dans le village : 85 naissances dont 23 mort-nés ; Nombre total de décès enregistrés dans la localité : 52 — 08 décès dont 03 du tétanos néonatal dans la tranche de 0 à 7 jours ; 06 décès dans la tranche de 8 à 27 jours ; 1 à 11 mois : 09 décès dont 02 dus aux IRA, 05 au paludisme et 02 à la rougeole ; 12 à 48 mois : 15 décès dont 03 dus à la rougeole, 05 aux IRA, et 07 au paludisme ; 3 décès dus au paludisme ; 11 décès maternels dont 02 liés aux morsures de serpent, 03 ont eu lieu au 43ème jour après l'accouchement et 5 au 48ème jour après l'accouchement. Le reste est survenu avant le 43ème jour après l'accouchement. A partir du texte ci-dessus, répondez aux questions (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quel est le taux d'accroissement annuel de la population de Gbézou ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 4,75%"
+        },
+        {
+         "letter": "B",
+         "text": "B- 5,00%"
+        },
+        {
+         "letter": "C",
+         "text": "C- 5,25%"
+        },
+        {
+         "letter": "D",
+         "text": "D- 6,00%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B- 5,00%",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "TAA = (population de fin – population de début) / population de début × 100. Entre le 31/12/2019 et le 01/01/2021 il s'écoule un an : (8400 – 8000) / 8000 × 100 = 5,00 %.\n\nSource : FORMULES SANTE PUBLIQUE HARMONISEES, §2 Démographie (taux d'accroissement annuel)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__1",
+       "num": "2",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 1 — Vous décidez de mener une enquête sociodémographique et épidémiologique au sein du village Gbézou. Vous avez enregistré les informations suivantes : Population totale de la localité au 31/12/2019 : 8000 habitants. Population totale de la localité au 1er/01/2021 : 8400 habitants. Pendant l'année 2022, les données sanitaires suivantes ont été relevées dans le village : 85 naissances dont 23 mort-nés ; Nombre total de décès enregistrés dans la localité : 52 — 08 décès dont 03 du tétanos néonatal dans la tranche de 0 à 7 jours ; 06 décès dans la tranche de 8 à 27 jours ; 1 à 11 mois : 09 décès dont 02 dus aux IRA, 05 au paludisme et 02 à la rougeole ; 12 à 48 mois : 15 décès dont 03 dus à la rougeole, 05 aux IRA, et 07 au paludisme ; 3 décès dus au paludisme ; 11 décès maternels dont 02 liés aux morsures de serpent, 03 ont eu lieu au 43ème jour après l'accouchement et 5 au 48ème jour après l'accouchement. Le reste est survenu avant le 43ème jour après l'accouchement. A partir du texte ci-dessus, répondez aux questions (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quelle est la population totale de Gbézou en 2021 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 8820 habitants"
+        },
+        {
+         "letter": "B",
+         "text": "B- 8800 habitants"
+        },
+        {
+         "letter": "C",
+         "text": "C- 17640 habitants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A- 8820 habitants",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Projection démographique Pt = P0 (1 + r)^t avec r = 0,05 : population fin 2021 = 8400 × 1,05 = 8820 habitants. 17640 = 2 × 8820 (erreur de calcul) ; 8800 ne correspond à aucune formule.\n\nSource : FORMULES SANTE PUBLIQUE HARMONISEES, §2 (projection démographique Pt = P0(1+r)^t)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__2",
+       "num": "3",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 1 — Vous décidez de mener une enquête sociodémographique et épidémiologique au sein du village Gbézou. Vous avez enregistré les informations suivantes : Population totale de la localité au 31/12/2019 : 8000 habitants. Population totale de la localité au 1er/01/2021 : 8400 habitants. Pendant l'année 2022, les données sanitaires suivantes ont été relevées dans le village : 85 naissances dont 23 mort-nés ; Nombre total de décès enregistrés dans la localité : 52 — 08 décès dont 03 du tétanos néonatal dans la tranche de 0 à 7 jours ; 06 décès dans la tranche de 8 à 27 jours ; 1 à 11 mois : 09 décès dont 02 dus aux IRA, 05 au paludisme et 02 à la rougeole ; 12 à 48 mois : 15 décès dont 03 dus à la rougeole, 05 aux IRA, et 07 au paludisme ; 3 décès dus au paludisme ; 11 décès maternels dont 02 liés aux morsures de serpent, 03 ont eu lieu au 43ème jour après l'accouchement et 5 au 48ème jour après l'accouchement. Le reste est survenu avant le 43ème jour après l'accouchement. A partir du texte ci-dessus, répondez aux questions (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quelle est la population totale de Gbézou en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 8820 habitants"
+        },
+        {
+         "letter": "B",
+         "text": "B- 9261 habitants"
+        },
+        {
+         "letter": "C",
+         "text": "C- 9725 habitants"
+        },
+        {
+         "letter": "D",
+         "text": "D- 18040 habitants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B- 9261 habitants",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Pop 2022 = 8820 × 1,05 = 9261 habitants (ou 8400 × 1,05²). 8820 est la population 2021 ; 9725 correspond à une année de plus.\n\nSource : FORMULES SANTE PUBLIQUE HARMONISEES, §2 (projection démographique)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__3",
+       "num": "4",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 1 — Vous décidez de mener une enquête sociodémographique et épidémiologique au sein du village Gbézou. Vous avez enregistré les informations suivantes : Population totale de la localité au 31/12/2019 : 8000 habitants. Population totale de la localité au 1er/01/2021 : 8400 habitants. Pendant l'année 2022, les données sanitaires suivantes ont été relevées dans le village : 85 naissances dont 23 mort-nés ; Nombre total de décès enregistrés dans la localité : 52 — 08 décès dont 03 du tétanos néonatal dans la tranche de 0 à 7 jours ; 06 décès dans la tranche de 8 à 27 jours ; 1 à 11 mois : 09 décès dont 02 dus aux IRA, 05 au paludisme et 02 à la rougeole ; 12 à 48 mois : 15 décès dont 03 dus à la rougeole, 05 aux IRA, et 07 au paludisme ; 3 décès dus au paludisme ; 11 décès maternels dont 02 liés aux morsures de serpent, 03 ont eu lieu au 43ème jour après l'accouchement et 5 au 48ème jour après l'accouchement. Le reste est survenu avant le 43ème jour après l'accouchement. A partir du texte ci-dessus, répondez aux questions (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quelle est la population moyenne de Gbézou en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 8600 habitants"
+        },
+        {
+         "letter": "B",
+         "text": "B- 9041 habitants"
+        },
+        {
+         "letter": "C",
+         "text": "C- 9812 habitants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B- 9041 habitants",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Population moyenne = (population de départ + population d'arrivée) / 2 = (8820 + 9261) / 2 = 9040,5 ≈ 9041 habitants.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 28 (population moyenne) ; FORMULES SANTE PUBLIQUE HARMONISEES, §2",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__4",
+       "num": "5",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 1 — Vous décidez de mener une enquête sociodémographique et épidémiologique au sein du village Gbézou. Vous avez enregistré les informations suivantes : Population totale de la localité au 31/12/2019 : 8000 habitants. Population totale de la localité au 1er/01/2021 : 8400 habitants. Pendant l'année 2022, les données sanitaires suivantes ont été relevées dans le village : 85 naissances dont 23 mort-nés ; Nombre total de décès enregistrés dans la localité : 52 — 08 décès dont 03 du tétanos néonatal dans la tranche de 0 à 7 jours ; 06 décès dans la tranche de 8 à 27 jours ; 1 à 11 mois : 09 décès dont 02 dus aux IRA, 05 au paludisme et 02 à la rougeole ; 12 à 48 mois : 15 décès dont 03 dus à la rougeole, 05 aux IRA, et 07 au paludisme ; 3 décès dus au paludisme ; 11 décès maternels dont 02 liés aux morsures de serpent, 03 ont eu lieu au 43ème jour après l'accouchement et 5 au 48ème jour après l'accouchement. Le reste est survenu avant le 43ème jour après l'accouchement. A partir du texte ci-dessus, répondez aux questions (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quel est le taux brut de natalité de Gbézou en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 0,48%"
+        },
+        {
+         "letter": "B",
+         "text": "B- 0,58%"
+        },
+        {
+         "letter": "C",
+         "text": "C- 0,68%"
+        },
+        {
+         "letter": "D",
+         "text": "D- 0,78%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C- 0,68%",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "TBN = naissances vivantes / population totale ou moyenne × 100. Naissances vivantes = 85 – 23 mort-nés = 62. Le texte donnant deux populations, on divise par la population moyenne : 62 / 9041 × 100 = 0,68 %. Remarque : 62 / 9041 = 0,686 % : la valeur retenue (0,68 %) est tronquée ; arrondie, elle donnerait 0,69 %.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 28 (taux brut de natalité, choix du dénominateur)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__5",
+       "num": "6",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 1 — Vous décidez de mener une enquête sociodémographique et épidémiologique au sein du village Gbézou. Vous avez enregistré les informations suivantes : Population totale de la localité au 31/12/2019 : 8000 habitants. Population totale de la localité au 1er/01/2021 : 8400 habitants. Pendant l'année 2022, les données sanitaires suivantes ont été relevées dans le village : 85 naissances dont 23 mort-nés ; Nombre total de décès enregistrés dans la localité : 52 — 08 décès dont 03 du tétanos néonatal dans la tranche de 0 à 7 jours ; 06 décès dans la tranche de 8 à 27 jours ; 1 à 11 mois : 09 décès dont 02 dus aux IRA, 05 au paludisme et 02 à la rougeole ; 12 à 48 mois : 15 décès dont 03 dus à la rougeole, 05 aux IRA, et 07 au paludisme ; 3 décès dus au paludisme ; 11 décès maternels dont 02 liés aux morsures de serpent, 03 ont eu lieu au 43ème jour après l'accouchement et 5 au 48ème jour après l'accouchement. Le reste est survenu avant le 43ème jour après l'accouchement. A partir du texte ci-dessus, répondez aux questions (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quel est le taux brut de mortalité de Gbézou en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 0,48%"
+        },
+        {
+         "letter": "B",
+         "text": "B- 0,57%"
+        },
+        {
+         "letter": "C",
+         "text": "C- 0,67%"
+        },
+        {
+         "letter": "D",
+         "text": "D- 0,78%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B- 0,57%",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "TBM = nombre total de décès (toutes causes) / population totale ou moyenne × 100 = 52 / 9041 × 100 = 0,57 %. Remarque : 52 / 9041 = 0,575 % : valeur tronquée à 0,57 %.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 32-33 (taux brut de mortalité)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__6",
+       "num": "7",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 1 — Vous décidez de mener une enquête sociodémographique et épidémiologique au sein du village Gbézou. Vous avez enregistré les informations suivantes : Population totale de la localité au 31/12/2019 : 8000 habitants. Population totale de la localité au 1er/01/2021 : 8400 habitants. Pendant l'année 2022, les données sanitaires suivantes ont été relevées dans le village : 85 naissances dont 23 mort-nés ; Nombre total de décès enregistrés dans la localité : 52 — 08 décès dont 03 du tétanos néonatal dans la tranche de 0 à 7 jours ; 06 décès dans la tranche de 8 à 27 jours ; 1 à 11 mois : 09 décès dont 02 dus aux IRA, 05 au paludisme et 02 à la rougeole ; 12 à 48 mois : 15 décès dont 03 dus à la rougeole, 05 aux IRA, et 07 au paludisme ; 3 décès dus au paludisme ; 11 décès maternels dont 02 liés aux morsures de serpent, 03 ont eu lieu au 43ème jour après l'accouchement et 5 au 48ème jour après l'accouchement. Le reste est survenu avant le 43ème jour après l'accouchement. A partir du texte ci-dessus, répondez aux questions (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quel est le taux de mortalité néonatale précoce de Gbézou en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 3,52%"
+        },
+        {
+         "letter": "B",
+         "text": "B- 4,83%"
+        },
+        {
+         "letter": "C",
+         "text": "C- 9,41%"
+        },
+        {
+         "letter": "D",
+         "text": "D- 12,90%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. D- 12,90%",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "TMNNP = décès d'enfants de 0 à moins de 8 jours / naissances vivantes × 100 = 8 / 62 × 100 = 12,90 %. Les 3 décès par tétanos néonatal font partie des 8 décès et ne s'ajoutent pas.\n\nSource : FORMULES SANTE PUBLIQUE HARMONISEES, §4 (mortalité néonatale précoce)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__7",
+       "num": "8",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 1 — Vous décidez de mener une enquête sociodémographique et épidémiologique au sein du village Gbézou. Vous avez enregistré les informations suivantes : Population totale de la localité au 31/12/2019 : 8000 habitants. Population totale de la localité au 1er/01/2021 : 8400 habitants. Pendant l'année 2022, les données sanitaires suivantes ont été relevées dans le village : 85 naissances dont 23 mort-nés ; Nombre total de décès enregistrés dans la localité : 52 — 08 décès dont 03 du tétanos néonatal dans la tranche de 0 à 7 jours ; 06 décès dans la tranche de 8 à 27 jours ; 1 à 11 mois : 09 décès dont 02 dus aux IRA, 05 au paludisme et 02 à la rougeole ; 12 à 48 mois : 15 décès dont 03 dus à la rougeole, 05 aux IRA, et 07 au paludisme ; 3 décès dus au paludisme ; 11 décès maternels dont 02 liés aux morsures de serpent, 03 ont eu lieu au 43ème jour après l'accouchement et 5 au 48ème jour après l'accouchement. Le reste est survenu avant le 43ème jour après l'accouchement. A partir du texte ci-dessus, répondez aux questions (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quel est le taux de mortalité néonatale tardive de Gbézou en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 7,05%"
+        },
+        {
+         "letter": "B",
+         "text": "B- 8,22%"
+        },
+        {
+         "letter": "C",
+         "text": "C- 9,67%"
+        },
+        {
+         "letter": "D",
+         "text": "D- 9,88%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C- 9,67%",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "TMNNT = décès d'enfants de 8 à moins de 28 jours / naissances vivantes × 100 = 6 / 62 × 100 = 9,67 %.\n\nSource : FORMULES SANTE PUBLIQUE HARMONISEES, §4 (mortalité néonatale tardive)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__8",
+       "num": "9",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 1 — Vous décidez de mener une enquête sociodémographique et épidémiologique au sein du village Gbézou. Vous avez enregistré les informations suivantes : Population totale de la localité au 31/12/2019 : 8000 habitants. Population totale de la localité au 1er/01/2021 : 8400 habitants. Pendant l'année 2022, les données sanitaires suivantes ont été relevées dans le village : 85 naissances dont 23 mort-nés ; Nombre total de décès enregistrés dans la localité : 52 — 08 décès dont 03 du tétanos néonatal dans la tranche de 0 à 7 jours ; 06 décès dans la tranche de 8 à 27 jours ; 1 à 11 mois : 09 décès dont 02 dus aux IRA, 05 au paludisme et 02 à la rougeole ; 12 à 48 mois : 15 décès dont 03 dus à la rougeole, 05 aux IRA, et 07 au paludisme ; 3 décès dus au paludisme ; 11 décès maternels dont 02 liés aux morsures de serpent, 03 ont eu lieu au 43ème jour après l'accouchement et 5 au 48ème jour après l'accouchement. Le reste est survenu avant le 43ème jour après l'accouchement. A partir du texte ci-dessus, répondez aux questions (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quel est le taux de mortalité post néonatale de Gbézou en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 14,51%"
+        },
+        {
+         "letter": "B",
+         "text": "B- 12,23%"
+        },
+        {
+         "letter": "C",
+         "text": "C- 10,58%"
+        },
+        {
+         "letter": "D",
+         "text": "D- 9,46%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A- 14,51%",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "TMPNN = décès d'enfants de 28 jours à 11 mois / naissances vivantes × 100 = 9 / 62 × 100 = 14,51 %.\n\nSource : FORMULES SANTE PUBLIQUE HARMONISEES, §4 (mortalité post-néonatale)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__9",
+       "num": "10",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 1 — Vous décidez de mener une enquête sociodémographique et épidémiologique au sein du village Gbézou. Vous avez enregistré les informations suivantes : Population totale de la localité au 31/12/2019 : 8000 habitants. Population totale de la localité au 1er/01/2021 : 8400 habitants. Pendant l'année 2022, les données sanitaires suivantes ont été relevées dans le village : 85 naissances dont 23 mort-nés ; Nombre total de décès enregistrés dans la localité : 52 — 08 décès dont 03 du tétanos néonatal dans la tranche de 0 à 7 jours ; 06 décès dans la tranche de 8 à 27 jours ; 1 à 11 mois : 09 décès dont 02 dus aux IRA, 05 au paludisme et 02 à la rougeole ; 12 à 48 mois : 15 décès dont 03 dus à la rougeole, 05 aux IRA, et 07 au paludisme ; 3 décès dus au paludisme ; 11 décès maternels dont 02 liés aux morsures de serpent, 03 ont eu lieu au 43ème jour après l'accouchement et 5 au 48ème jour après l'accouchement. Le reste est survenu avant le 43ème jour après l'accouchement. A partir du texte ci-dessus, répondez aux questions (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quel est le taux de mortalité néonatale de Gbézou en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 37,09%"
+        },
+        {
+         "letter": "B",
+         "text": "B- 27,05%"
+        },
+        {
+         "letter": "C",
+         "text": "C- 22,58%"
+        },
+        {
+         "letter": "D",
+         "text": "D- 16,47%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C- 22,58%",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "TMNN = décès de 0 à 28 jours / naissances vivantes × 100 = (8 + 6) / 62 × 100 = 22,58 %. 37,09 % est le taux de mortalité infantile.\n\nSource : FORMULES SANTE PUBLIQUE HARMONISEES, §4 (mortalité néonatale) ; DOCUMENT REVISE L2 2023-2024 validé, §3.2.10",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__10",
+       "num": "11",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 1 — Vous décidez de mener une enquête sociodémographique et épidémiologique au sein du village Gbézou. Vous avez enregistré les informations suivantes : Population totale de la localité au 31/12/2019 : 8000 habitants. Population totale de la localité au 1er/01/2021 : 8400 habitants. Pendant l'année 2022, les données sanitaires suivantes ont été relevées dans le village : 85 naissances dont 23 mort-nés ; Nombre total de décès enregistrés dans la localité : 52 — 08 décès dont 03 du tétanos néonatal dans la tranche de 0 à 7 jours ; 06 décès dans la tranche de 8 à 27 jours ; 1 à 11 mois : 09 décès dont 02 dus aux IRA, 05 au paludisme et 02 à la rougeole ; 12 à 48 mois : 15 décès dont 03 dus à la rougeole, 05 aux IRA, et 07 au paludisme ; 3 décès dus au paludisme ; 11 décès maternels dont 02 liés aux morsures de serpent, 03 ont eu lieu au 43ème jour après l'accouchement et 5 au 48ème jour après l'accouchement. Le reste est survenu avant le 43ème jour après l'accouchement. A partir du texte ci-dessus, répondez aux questions (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quel est le taux de mortalité infantile de Gbézou en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 37,09%"
+        },
+        {
+         "letter": "B",
+         "text": "B- 27,05%"
+        },
+        {
+         "letter": "C",
+         "text": "C- 41,93%"
+        },
+        {
+         "letter": "D",
+         "text": "D- 25,88%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A- 37,09%",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "TMI = décès d'enfants de moins d'un an / naissances vivantes. Décès < 1 an = 8 + 6 + 9 = 23 ; 23 / 62 = 37,09 %. Remarque : Le cours JMLECIEL et le document harmonisé multiplient le TMI par 1000 (370,9 ‰) ; le document L2 et les options du sujet utilisent × 100 : même résultat, unité différente.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 33-34 (TMI) ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), §3.2.7",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__11",
+       "num": "12",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 1 — Vous décidez de mener une enquête sociodémographique et épidémiologique au sein du village Gbézou. Vous avez enregistré les informations suivantes : Population totale de la localité au 31/12/2019 : 8000 habitants. Population totale de la localité au 1er/01/2021 : 8400 habitants. Pendant l'année 2022, les données sanitaires suivantes ont été relevées dans le village : 85 naissances dont 23 mort-nés ; Nombre total de décès enregistrés dans la localité : 52 — 08 décès dont 03 du tétanos néonatal dans la tranche de 0 à 7 jours ; 06 décès dans la tranche de 8 à 27 jours ; 1 à 11 mois : 09 décès dont 02 dus aux IRA, 05 au paludisme et 02 à la rougeole ; 12 à 48 mois : 15 décès dont 03 dus à la rougeole, 05 aux IRA, et 07 au paludisme ; 3 décès dus au paludisme ; 11 décès maternels dont 02 liés aux morsures de serpent, 03 ont eu lieu au 43ème jour après l'accouchement et 5 au 48ème jour après l'accouchement. Le reste est survenu avant le 43ème jour après l'accouchement. A partir du texte ci-dessus, répondez aux questions (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quel est le taux de mortalité juvénile de Gbézou en 2022 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 0,93%"
+        },
+        {
+         "letter": "B",
+         "text": "B- 0,88%"
+        },
+        {
+         "letter": "C",
+         "text": "C- 0,97%"
+        },
+        {
+         "letter": "D",
+         "text": "D- 0,86%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A- 0,93%",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "TMJ = décès d'enfants de 1 à 4 ans / total des enfants de 1 à 4 ans × 100. Les enfants de 1 à 4 ans représentent 17,32 % de la population totale : 9261 × 17,32 % ≈ 1604. Décès de 12 à 48 mois = 15 ; 15 / 1604 × 100 = 0,93 %. Remarque : Le calcul retenu utilise la population totale 2022 (9261). Avec la population moyenne (9041) on obtiendrait 0,96 %. Le cours JMLECIEL écrit le TMJ × 1000 (9,3 ‰).\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 34 (TMJ et rappel 17,32 %) ; FORMULES SANTE PUBLIQUE HARMONISEES, §1",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__12",
+       "num": "13",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 1 — Vous décidez de mener une enquête sociodémographique et épidémiologique au sein du village Gbézou. Vous avez enregistré les informations suivantes : Population totale de la localité au 31/12/2019 : 8000 habitants. Population totale de la localité au 1er/01/2021 : 8400 habitants. Pendant l'année 2022, les données sanitaires suivantes ont été relevées dans le village : 85 naissances dont 23 mort-nés ; Nombre total de décès enregistrés dans la localité : 52 — 08 décès dont 03 du tétanos néonatal dans la tranche de 0 à 7 jours ; 06 décès dans la tranche de 8 à 27 jours ; 1 à 11 mois : 09 décès dont 02 dus aux IRA, 05 au paludisme et 02 à la rougeole ; 12 à 48 mois : 15 décès dont 03 dus à la rougeole, 05 aux IRA, et 07 au paludisme ; 3 décès dus au paludisme ; 11 décès maternels dont 02 liés aux morsures de serpent, 03 ont eu lieu au 43ème jour après l'accouchement et 5 au 48ème jour après l'accouchement. Le reste est survenu avant le 43ème jour après l'accouchement. A partir du texte ci-dessus, répondez aux questions (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quel est le taux de mortalité maternelle ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 1612,90 décès maternel pour 100 000 naissances vivantes"
+        },
+        {
+         "letter": "B",
+         "text": "B- 8064,51 décès maternel pour 100 000 naissances vivantes"
+        },
+        {
+         "letter": "C",
+         "text": "C- 10756,34 décès maternel pour 100 000 naissances vivantes"
+        },
+        {
+         "letter": "D",
+         "text": "D- 17741,93 décès maternel pour 100 000 naissances vivantes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A- 1612,90 décès maternel pour 100 000 naissances vivantes",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un décès maternel survient pendant la grossesse, l'accouchement ou dans les 42 jours, ni accidentel ni fortuit. Sur 11 décès : 2 morsures de serpent (accidentels) et 3 + 5 survenus au-delà du 42e jour sont exclus ; reste 1 décès maternel. TMM = 1 / 62 × 100 000 = 1612,90. 17741,93 correspond aux 11 décès comptés à tort.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 34 (mortalité maternelle, TMM × 100 000)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__13",
+       "num": "14",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 2 — Vous êtes en service dans le centre de santé Djamanasso dont la population de l'aire sanitaire est estimée à 6500 habitants au 31 décembre 2024. Le taux d'utilisation du vaccin penta dans le centre est estimé à 98 % en 2024. Au terme des activités de l'année 2024, le taux de couverture annuel de vaccination du centre de santé chez les enfants de 0 à 23 mois a été estimé à 90 %. Les données du tableau ci-dessous ont été enregistrées pour ce centre de santé en 2024 (VERSION A) : VPO 0 = 135 ; VPO 3 = 130 ; Penta 1 = 132 ; Penta 3 = 130 ; RR 1 = 120 doses administrées. (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quel est le facteur de perte du penta pour le centre de santé de Djamanasso ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 1,02"
+        },
+        {
+         "letter": "B",
+         "text": "B- 1,11"
+        },
+        {
+         "letter": "C",
+         "text": "C- 1,05"
+        },
+        {
+         "letter": "D",
+         "text": "D- 1,17"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A- 1,02",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Taux de perte = 100 – taux d'utilisation = 100 – 98 = 2 %. FP = 100 / (100 – taux de perte) = 100 / 98 = 1,02. 1,11 est le facteur de perte standard du tableau national (perte de 10 %), non applicable ici puisque le TU est donné.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 45-46 (taux de perte, TU, facteur de perte) ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), §2.4",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__14",
+       "num": "15",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 2 — Vous êtes en service dans le centre de santé Djamanasso dont la population de l'aire sanitaire est estimée à 6500 habitants au 31 décembre 2024. Le taux d'utilisation du vaccin penta dans le centre est estimé à 98 % en 2024. Au terme des activités de l'année 2024, le taux de couverture annuel de vaccination du centre de santé chez les enfants de 0 à 23 mois a été estimé à 90 %. Les données du tableau ci-dessous ont été enregistrées pour ce centre de santé en 2024 (VERSION A) : VPO 0 = 135 ; VPO 3 = 130 ; Penta 1 = 132 ; Penta 3 = 130 ; RR 1 = 120 doses administrées. (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quel est l'effectif des enfants de 0 à 23 mois dans l'aire de santé de Djamanasso ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 227 enfants"
+        },
+        {
+         "letter": "B",
+         "text": "B- 408 enfants"
+        },
+        {
+         "letter": "C",
+         "text": "C- 444 enfants"
+        },
+        {
+         "letter": "D",
+         "text": "D- 456 enfants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C- 444 enfants",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les enfants de 0 à 23 mois représentent 6,82 % de la population totale : 6500 × 6,82 % = 443,3, soit 444 enfants (on arrondit à l'unité supérieure pour une population cible). Remarque : Le document L2 2023-2024 donne encore la cible de routine 0 à 11 mois (4 %) ; le cours révisé 2025-2026 retient 0 à 23 mois = 6,82 %.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Tableau n°1 populations cibles du PEV (0 à 23 mois = 6,82 %)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__15",
+       "num": "16",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 2 — Vous êtes en service dans le centre de santé Djamanasso dont la population de l'aire sanitaire est estimée à 6500 habitants au 31 décembre 2024. Le taux d'utilisation du vaccin penta dans le centre est estimé à 98 % en 2024. Au terme des activités de l'année 2024, le taux de couverture annuel de vaccination du centre de santé chez les enfants de 0 à 23 mois a été estimé à 90 %. Les données du tableau ci-dessous ont été enregistrées pour ce centre de santé en 2024 (VERSION A) : VPO 0 = 135 ; VPO 3 = 130 ; Penta 1 = 132 ; Penta 3 = 130 ; RR 1 = 120 doses administrées. (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quel est le besoin théorique en penta pour ce centre en 2024",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 1100 doses"
+        },
+        {
+         "letter": "B",
+         "text": "B- 1291 doses"
+        },
+        {
+         "letter": "C",
+         "text": "C- 1320 doses"
+        },
+        {
+         "letter": "D",
+         "text": "D- 1390 doses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B- 1291 doses",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Besoin annuel = population cible × objectif vaccinal × nombre de contacts × facteur de perte = 444 × 95 % × 3 × 1,02 = 1290,8 ≈ 1291 doses (penta : 3 contacts, objectif de routine 95 %).\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), §3.1.1.1 besoin théorique annuel, Tableau n°2 (objectif 95 %) et Tableau n°3 (penta = 3 contacts)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__16",
+       "num": "17",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 2 — Vous êtes en service dans le centre de santé Djamanasso dont la population de l'aire sanitaire est estimée à 6500 habitants au 31 décembre 2024. Le taux d'utilisation du vaccin penta dans le centre est estimé à 98 % en 2024. Au terme des activités de l'année 2024, le taux de couverture annuel de vaccination du centre de santé chez les enfants de 0 à 23 mois a été estimé à 90 %. Les données du tableau ci-dessous ont été enregistrées pour ce centre de santé en 2024 (VERSION A) : VPO 0 = 135 ; VPO 3 = 130 ; Penta 1 = 132 ; Penta 3 = 130 ; RR 1 = 120 doses administrées. (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quelle est la population cible des enfants pouvant bénéficier du vaccin VPO en campagne pendant l'année 2024 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 1400 enfants"
+        },
+        {
+         "letter": "B",
+         "text": "B- 1320 enfants"
+        },
+        {
+         "letter": "C",
+         "text": "C- 1300 enfants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C- 1300 enfants",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "En campagne (JNV de VPO), la cible est les enfants de 0 à 59 mois = 20 % de la population totale : 6500 × 20 % = 1300 enfants.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 43 Tableau n°1 ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Tableau n°1",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__17",
+       "num": "18",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 2 — Vous êtes en service dans le centre de santé Djamanasso dont la population de l'aire sanitaire est estimée à 6500 habitants au 31 décembre 2024. Le taux d'utilisation du vaccin penta dans le centre est estimé à 98 % en 2024. Au terme des activités de l'année 2024, le taux de couverture annuel de vaccination du centre de santé chez les enfants de 0 à 23 mois a été estimé à 90 %. Les données du tableau ci-dessous ont été enregistrées pour ce centre de santé en 2024 (VERSION A) : VPO 0 = 135 ; VPO 3 = 130 ; Penta 1 = 132 ; Penta 3 = 130 ; RR 1 = 120 doses administrées. (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Le taux d'abandon du penta pour le centre de santé de djamanasso ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 1,05%"
+        },
+        {
+         "letter": "B",
+         "text": "B- 1,75%"
+        },
+        {
+         "letter": "C",
+         "text": "C- 1,51%"
+        },
+        {
+         "letter": "D",
+         "text": "D- 2,24%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C- 1,51%",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "TA (Penta) = (Penta 1 – Penta 3) / Penta 1 × 100 = (132 – 130) / 132 × 100 = 1,51 %.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 54 §8.2 ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), §8.2 calcul des taux d'abandon",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__18",
+       "num": "19",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 2 — Vous êtes en service dans le centre de santé Djamanasso dont la population de l'aire sanitaire est estimée à 6500 habitants au 31 décembre 2024. Le taux d'utilisation du vaccin penta dans le centre est estimé à 98 % en 2024. Au terme des activités de l'année 2024, le taux de couverture annuel de vaccination du centre de santé chez les enfants de 0 à 23 mois a été estimé à 90 %. Les données du tableau ci-dessous ont été enregistrées pour ce centre de santé en 2024 (VERSION A) : VPO 0 = 135 ; VPO 3 = 130 ; Penta 1 = 132 ; Penta 3 = 130 ; RR 1 = 120 doses administrées. (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Le taux d'abandon global de la vaccination au centre de santé de djamanasso ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 7,25%"
+        },
+        {
+         "letter": "B",
+         "text": "B- 9,09%"
+        },
+        {
+         "letter": "C",
+         "text": "C- 12,03%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B- 9,09%",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Taux d'abandon global = (Penta 1 – RR 1) / Penta 1 × 100 = (132 – 120) / 132 × 100 = 9,09 %.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 54 §8.2 ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), §8.2",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__19",
+       "num": "20",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 2 — Vous êtes en service dans le centre de santé Djamanasso dont la population de l'aire sanitaire est estimée à 6500 habitants au 31 décembre 2024. Le taux d'utilisation du vaccin penta dans le centre est estimé à 98 % en 2024. Au terme des activités de l'année 2024, le taux de couverture annuel de vaccination du centre de santé chez les enfants de 0 à 23 mois a été estimé à 90 %. Les données du tableau ci-dessous ont été enregistrées pour ce centre de santé en 2024 (VERSION A) : VPO 0 = 135 ; VPO 3 = 130 ; Penta 1 = 132 ; Penta 3 = 130 ; RR 1 = 120 doses administrées. (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quel est le nombre des enfants de 0 à 23 mois ayant été complètement vacciné au CSR de Djamanasso en 2024 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 400 enfants"
+        },
+        {
+         "letter": "B",
+         "text": "B- 422 enfants"
+        },
+        {
+         "letter": "C",
+         "text": "C- 444 enfants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A- 400 enfants",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Taux de couverture = enfants ayant reçu toutes les doses requises / population cible × 100. Donc enfants complètement vaccinés = 444 × 90 % = 399,6 ≈ 400 enfants. 444 est la population cible totale.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), §9.2 taux de couverture vaccinale globale et §1.7 enfant complètement vacciné",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__20",
+       "num": "21",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ETUDE DE CAS 2 — Vous êtes en service dans le centre de santé Djamanasso dont la population de l'aire sanitaire est estimée à 6500 habitants au 31 décembre 2024. Le taux d'utilisation du vaccin penta dans le centre est estimé à 98 % en 2024. Au terme des activités de l'année 2024, le taux de couverture annuel de vaccination du centre de santé chez les enfants de 0 à 23 mois a été estimé à 90 %. Les données du tableau ci-dessous ont été enregistrées pour ce centre de santé en 2024 (VERSION A) : VPO 0 = 135 ; VPO 3 = 130 ; Penta 1 = 132 ; Penta 3 = 130 ; RR 1 = 120 doses administrées. (bonne réponse = 1 point, mauvaise réponse = 0 point).",
+       "text": "Quelle est la population cible des enfants de 9 mois à 14ans pouvant bénéficier du vaccin RR en campagne pendant l'année 2024 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 1300 enfants"
+        },
+        {
+         "letter": "B",
+         "text": "B- 2925 enfants"
+        },
+        {
+         "letter": "C",
+         "text": "C- 2325 enfants"
+        },
+        {
+         "letter": "D",
+         "text": "D- 1756 enfants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B- 2925 enfants",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Pour la campagne RR, la cible des 9 mois à 14 ans = 45 % de la population totale : 6500 × 45 % = 2925 enfants. 1300 correspond à la cible VPO (20 %).\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 43 Tableau n°1 ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Tableau n°1",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__21",
+       "num": "22",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La proportion d'échantillons de selles prélevés dans les 14 jours après le début de la paralysie doit être ≥ à 80%",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Indicateur de surveillance des PFA : la proportion d'échantillons de selles prélevés dans les 14 jours après le début de la paralysie doit être ≥ 80 % pour que la surveillance soit efficace.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), p. 60 §4.1.3 ; DOCUMENT REVISE L2 2023-2024 validé, p. 73 indicateurs de surveillance des PFA",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__22",
+       "num": "23",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'approche psychosociologique des besoins en vue du diagnostic communautaire permet de fournir les données quantitatives.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Selon R. Pineault, l'approche psychosociologique détermine les perceptions de la population et fournit des données qualitatives. C'est l'approche épidémiologique du besoin qui fournit les données quantitatives.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Diagnostic communautaire (L2), §IV approches 4.1 et 4.2",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__23",
+       "num": "24",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La confirmation du tétanos néonatale dépend d'une confirmation du laboratoire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La classification des cas de tétanos néonatal est purement clinique et ne dépend pas d'une confirmation du laboratoire (aucun prélèvement à faire devant un cas).\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 77 §4.6.1 ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), p. 65 §4.7",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__24",
+       "num": "25",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le volet préventif basé sur une assistance médicale visant à lutter contre les grandes endémies d'où la notion de grandes endémies, est un volet sur lequel la prestation des services était organisée pendant la période de 1960 à 1980.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "De 1960 à 1980, la prestation des services était organisée en deux volets : un volet curatif (gratuité des soins) et un volet préventif basé sur une assistance médicale de lutte contre les grandes endémies (pian, trypanosomiase, lèpre…).\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), Système national de santé, §6.2.1 ; COURS DE SANTE PUBLIQUE (document L1), §5.2.1",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__25",
+       "num": "26",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les soins dits essentiels lorsqu'ils portent sur les besoins prioritaires de « l'individu, des familles et des communautés",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les soins essentiels sont ceux qui répondent aux besoins fondamentaux de l'être humain. La formulation proposée ne correspond pas à la définition du cours.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), SSP §II caractéristiques ; COURS DE SANTE PUBLIQUE (document L1), SSP §III",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__26",
+       "num": "27",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La confirmation d'une épidémie de rougeole, c'est lorsque cinq (05) cas suspects ou plus sont notifiés en un mois au sein d'une population de 100 000 habitants vivants dans un district sanitaire ou une aire de santé.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Cinq cas suspects ou plus en un mois pour 100 000 habitants définissent la suspicion d'épidémie. La confirmation exige trois (03) cas confirmés ou plus en un mois avec lien épidémiologique.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 75 §4.4.2 définition de suspicion et de confirmation d'une épidémie",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__27",
+       "num": "28",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La règle des 3PS permet d'éviter les doses sacrifiées",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La règle « Premier à Périmer, Premier à Sortir » sert à ranger les vaccins pour utiliser d'abord ceux qui expirent le plus tôt (éviter la péremption). Les doses sacrifiées sont des doses administrées à des personnes hors cible : cela n'a rien à voir.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Gestion des vaccins (règle PPPS) et §1.5 dose sacrifiée",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__28",
+       "num": "29",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les trois niveaux d'application des soins de santé primaires ont été dégagés pour booster la mise en œuvre des stratégies des SSP freinée par des difficultés",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les trois niveaux d'application (périphérique, intermédiaire, central) ont été dégagés à Lusaka en 1985 pour assurer une bonne coordination des activités. C'est l'Initiative de Bamako (1987) qui visait à booster la mise en œuvre des SSP freinée par des difficultés.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), SSP §1.3 (1985 Lusaka, 1987 Bamako)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__29",
+       "num": "30",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le taux de PFA est dit non poliomyélitique lorsque le nombre de cas de PFA est ≤ 2 pour 100 000 enfants de moins de 15 ans",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours indique un taux de PFA non poliomyélitique ≥ 2 pour 100 000 enfants de moins de 15 ans (et non ≤ 2).\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), p. 60 §4.1.3 ; DOCUMENT REVISE L2 2023-2024 validé, p. 73",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__30",
+       "num": "31",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La plupart des facteurs ayant des répercussions sur la santé se situent en dehors de l'influence du secteur sanitaire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours le dit explicitement (principe « des politiques publiques saines ») : de nombreux facteurs ayant des répercussions sur la santé se situent en dehors de l'influence du secteur sanitaire ; la plupart des déterminants se situent dans des secteurs autres que la santé.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), SSP §4.3 et Épidémiologie §I (déterminants)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__31",
+       "num": "32",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les qualités d'une eau potable sont à la fois physiques et bactériologiques",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les qualités requises d'une eau potable sont à la fois physiques, chimiques et bactériologiques. L'affirmation oublie les qualités chimiques, donc elle est fausse.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), Approvisionnement en eau potable §1.4 ; COURS DE SANTE PUBLIQUE (document L1), §1.4",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les soins qui sont mis à la portée de tous, tant au plan géographique, social, financier que culturel sont dits :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Essentiels"
+        },
+        {
+         "letter": "B",
+         "text": "B- Intégrés"
+        },
+        {
+         "letter": "C",
+         "text": "C- Adaptés"
+        },
+        {
+         "letter": "D",
+         "text": "D- Accessibles"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. D- Accessibles",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Les soins accessibles sont mis à la portée de tous, sur les plans géographique, social, financier et culturel. Essentiels = besoins fondamentaux ; adaptés = conformes aux besoins et ressources ; intégrés = éléments du système national.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), SSP §II caractéristiques",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'un des principes de base des soins de santé primaire est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- La santé de la population"
+        },
+        {
+         "letter": "B",
+         "text": "B- La couverture universelle"
+        },
+        {
+         "letter": "C",
+         "text": "C- L'efficacité du programme"
+        },
+        {
+         "letter": "D",
+         "text": "D- La politique sanitaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B- La couverture universelle",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les quatre principes de base des SSP (OMS) sont : la couverture universelle, des services centrés sur la personne, des politiques publiques saines et le leadership.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), SSP §V principes de base",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les différents domaines de la surveillance épidémiologique sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Epidémiologie descriptive"
+        },
+        {
+         "letter": "B",
+         "text": "B- Epidémiologie des maladies transmissibles"
+        },
+        {
+         "letter": "C",
+         "text": "C- Epidémiologie analytique"
+        },
+        {
+         "letter": "D",
+         "text": "D- Epidémiologie des maladies transmissibles"
+        },
+        {
+         "letter": "E",
+         "text": "E- Epidémiologie évaluative"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. B- Epidémiologie des maladies transmissibles ; D. D- Epidémiologie des maladies transmissibles",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Il existe deux domaines d'application : l'épidémiologie des maladies transmissibles (ex. rougeole) et celle des maladies non transmissibles (ex. malnutrition). Descriptive, analytique et évaluative sont les axes, pas les domaines. Remarque : Dans le sujet, les options B et D sont écrites à l'identique ; D devait sans doute être « maladies non transmissibles ».\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), Épidémiologie §III domaines et §IV axes",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les différentes méthodes de correction des défauts physiques de l'eau, deux permettent de corriger la turbidité de l'eau. Lesquelles ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Javellisation"
+        },
+        {
+         "letter": "B",
+         "text": "B- Décantation"
+        },
+        {
+         "letter": "C",
+         "text": "C- Ionisation"
+        },
+        {
+         "letter": "D",
+         "text": "D- Sédimentation"
+        },
+        {
+         "letter": "E",
+         "text": "E- Ebullition"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. B- Décantation ; D. D- Sédimentation",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "L'eau trouble se corrige par la décantation, la filtration ou la sédimentation. Javellisation, ionisation et ébullition corrigent les défauts bactériologiques.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), §1.10.1 correction des défauts physiques",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces critères, identifiez ceux qui sont pris en compte dans le choix d'une source d'approvisionnement en eau potable.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Salubrité"
+        },
+        {
+         "letter": "B",
+         "text": "B- Profondeur"
+        },
+        {
+         "letter": "C",
+         "text": "C- Débit"
+        },
+        {
+         "letter": "D",
+         "text": "D- Coût"
+        },
+        {
+         "letter": "E",
+         "text": "E- Vitesse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. A- Salubrité ; C. C- Débit ; D. D- Coût",
+       "answerLetters": [
+        "A",
+        "C",
+        "D"
+       ],
+       "explanation": "Le choix d'une source tient compte de sa salubrité (eau indemne d'impureté), de sa régularité ou débit et de son coût. La profondeur concerne la construction du puits, pas le choix de la source.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), §1.5 critères de choix ; COURS DE SANTE PUBLIQUE (document L1), §1.5.1",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le système d'évacuation des excréta sans entrainement de matières fécales est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- La fosse d'aisance"
+        },
+        {
+         "letter": "B",
+         "text": "B- La latrine à fosse"
+        },
+        {
+         "letter": "C",
+         "text": "C- La fosse septique"
+        },
+        {
+         "letter": "D",
+         "text": "D- Le puits perdu"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B- La latrine à fosse",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le système sans entraînement le plus utilisé est le cabinet ou latrine à fosse. Fosse d'aisance et fosse septique sont des systèmes avec entraînement ; le puits perdu sert aux eaux usées.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), §3.2.4 systèmes d'évacuation des excréta",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces propositions suivantes deux ne sont pas les fonctions d'un système de santé. Lesquelles ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- La prestation de service ;"
+        },
+        {
+         "letter": "B",
+         "text": "B- Promtion de la santé"
+        },
+        {
+         "letter": "C",
+         "text": "C- La mobilisation des ressources ;"
+        },
+        {
+         "letter": "D",
+         "text": "D- Le financement ;"
+        },
+        {
+         "letter": "E",
+         "text": "E- Amélioration de l'état de santé"
+        },
+        {
+         "letter": "F",
+         "text": "F- La gouvernance."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. B- Promtion de la santé ; E. E- Amélioration de l'état de santé",
+       "answerLetters": [
+        "B",
+        "E"
+       ],
+       "explanation": "Un système de santé a quatre fonctions : prestation de service, mobilisation des ressources, financement et gouvernance. Promotion de la santé et amélioration de l'état de santé relèvent des objectifs, pas des fonctions.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), Système national de santé §III fonctions et §2.2 objectifs",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces formes d'accessibilité, deux sont dans le système de santé.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Accessibilité médicale"
+        },
+        {
+         "letter": "B",
+         "text": "B- Accessibilité financière"
+        },
+        {
+         "letter": "C",
+         "text": "C- Accessibilité géographique"
+        },
+        {
+         "letter": "D",
+         "text": "D- Accessibilité socio-culturelle"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. B- Accessibilité financière ; C. C- Accessibilité géographique",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Un système de santé doit être physiquement (géographiquement : structure à moins de 5 km) et financièrement accessible à tous.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), Système national de santé §5.2 ; COURS DE SANTE PUBLIQUE (document L1), §2.2",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__40",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces propositions suivantes, une n'est pas un avantage de l'étude du milieu :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Connaître les différents problèmes de santé du milieu"
+        },
+        {
+         "letter": "B",
+         "text": "B- Disposer des données fiables et récentes sur la population"
+        },
+        {
+         "letter": "C",
+         "text": "C- Regarder, centrer son intérêt sur des points précis du milieu"
+        },
+        {
+         "letter": "D",
+         "text": "D- Connaître les composantes de la communauté et son organisation sociale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C- Regarder, centrer son intérêt sur des points précis du milieu",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "« Regarder, centrer son intérêt sur des points précis du milieu » est une attitude d'observation que doit avoir l'agent de santé, pas un avantage. A, B et D figurent dans la liste des avantages de l'étude du milieu.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), Étude du milieu, introduction et §IV avantages",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__41",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les facteurs physiologiques favorisant la santé sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Absence de troubles métabolique"
+        },
+        {
+         "letter": "B",
+         "text": "B- L'aspect physique (poids ne correspondant pas à la taille, maigreur)."
+        },
+        {
+         "letter": "C",
+         "text": "C- L'eau polluée ou non potable ;"
+        },
+        {
+         "letter": "D",
+         "text": "D- Bonne aération"
+        },
+        {
+         "letter": "E",
+         "text": "E- Environnement affectif satisfaisant durant l'enfance."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. A- Absence de troubles métabolique ; D. D- Bonne aération",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "Facteurs physiologiques favorisant la santé : absence de troubles métaboliques et apport normal des éléments physiologiques (bonne aération). B favorise la maladie, C est un facteur de nuisance, E est un facteur psychologique.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), Étude du milieu §3.1.1",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__42",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces propositions suivantes, un est un acteur de la mobilisation communautaire ;",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Organisation de jeunesse"
+        },
+        {
+         "letter": "B",
+         "text": "B- Les gouvernements ;"
+        },
+        {
+         "letter": "C",
+         "text": "C- Les ministères ;"
+        },
+        {
+         "letter": "D",
+         "text": "D- Organisations internationales"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A- Organisation de jeunesse",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Acteurs de la mobilisation communautaire : organisations à base communautaire (organisation de jeunesse), leaders communautaires, relais communautaires. Gouvernements, ministères et organisations internationales sont des acteurs de la mobilisation sociale.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Mobilisation communautaire (L2) §V ; Mobilisation sociale §V",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__43",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'existence d'un goulot d'étranglement entre accessibilité géographique et l'utilisation des services signifie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- La population ne fréquente pas le service parce qu'elle n'accède pas"
+        },
+        {
+         "letter": "B",
+         "text": "B- La population a accès au service, mais ne le fréquente pas"
+        },
+        {
+         "letter": "C",
+         "text": "C- La population accède difficilement au service, mais le fréquente"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B- La population a accès au service, mais ne le fréquente pas",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Entre l'AG et l'US, la population a accès au service mais ne le fréquente pas (manque d'information, considérations socioculturelles). A correspond au goulot entre population cible / disponibilité des ressources et AG.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Monitorage, Tableau n°1 des goulots d'étranglement",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__44",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces éléments suivants, deux entrent dans l'élaboration d'une monographie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Les informations relatives à l'agriculture et à l'alimentation"
+        },
+        {
+         "letter": "B",
+         "text": "B- Les informations relatives à la politique"
+        },
+        {
+         "letter": "C",
+         "text": "C- Les informations relatives à la culture"
+        },
+        {
+         "letter": "D",
+         "text": "D- Les informations relatives à la faune"
+        },
+        {
+         "letter": "E",
+         "text": "E- Les informations relatives au marigots et cours d'eau."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. A- Les informations relatives à l'agriculture et à l'alimentation ; D. D- Les informations relatives à la faune",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "L'étude du milieu (monographie) recherche notamment les informations relatives à l'agriculture et à l'alimentation (cultures, aliments de base, interdits alimentaires), ce qui justifie A.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), Étude du milieu §V éléments (1 à 10) ; COURS DE SANTE PUBLIQUE (document L1), §V",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__45",
+       "num": "46",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La période 1960 à 1980, identifiez le volet des activités de la santé parmi les propositions suivantes",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Un volet orienté sur les soins curatifs avec pour caractéristique essentielle, la gratuité des soins."
+        },
+        {
+         "letter": "B",
+         "text": "B- Un volet orienté sur une émergence et une propagation des maladies fortement liées à la modernisation"
+        },
+        {
+         "letter": "C",
+         "text": "C- Un volet orienté sur la promotion de la santé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A- Un volet orienté sur les soins curatifs avec pour caractéristique essentielle, la gratuité des soins.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "De 1960 à 1980, un des deux volets de prestation était orienté sur les soins curatifs, caractérisé par la gratuité des soins. B décrit la période 1991-2006.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), §6.2.1 période 1960-1980",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__46",
+       "num": "47",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les actions de prophylaxie, indiquez celles pratiquées en période coloniale :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Le dépistage des cas de maladies"
+        },
+        {
+         "letter": "B",
+         "text": "B- Les consultations prénatales"
+        },
+        {
+         "letter": "C",
+         "text": "C- L'isolement des cas dépistés"
+        },
+        {
+         "letter": "D",
+         "text": "D- Les stratégies avancées"
+        },
+        {
+         "letter": "E",
+         "text": "E- Les journées nationales de vaccination"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. A- Le dépistage des cas de maladies ; C. C- L'isolement des cas dépistés",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "La prophylaxie des grandes endémies en période coloniale portait sur le dépistage des cas, les mesures préventives (vaccination, isolement), le traitement des cas dépistés et les stratégies fixes et mobiles.\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), §6.1.2 prestation des services (prophylaxie des grandes endémies)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__47",
+       "num": "48",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces propositions suivantes, deux sont celles ont marqué la période de 1994 à2006 :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Une recrudescence et une extension des grandes endémies tels que le pian, la lèpre, la tuberculose, la dracunculose, l'ulcère de Burili ;"
+        },
+        {
+         "letter": "B",
+         "text": "B- Le renforcement de la politique des médicaments essentiels génériques par le biais de la Pharmacie de la Santé Publique ;"
+        },
+        {
+         "letter": "C",
+         "text": "C- La naissance d'un véritable système de santé national et d'une politique de santé."
+        },
+        {
+         "letter": "D",
+         "text": "D- Le maintien en bonne santé la main d'œuvre destinée au développement économique qui était prioritaire."
+        },
+        {
+         "letter": "E",
+         "text": "E- Une émergence et une propagation des maladies fortement liées à la modernisation de nos sociétés, à la modification des modes de vie, à l'urbanisation et aux difficultés d'adaptation et d'insertion"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. A- Une recrudescence et une extension des grandes endémies tels que le pian, la lèpre, la tuberculose, la dracunculose, l'ulcère de Burili ; ; E. E- Une émergence et une propagation des maladies fortement liées à la modernisation de nos sociétés, à la modification des modes de vie, à l'urbanisation et aux difficultés d'adaptation et d'insertion",
+       "answerLetters": [
+        "A",
+        "E"
+       ],
+       "explanation": "A et E font partie des caractéristiques de la période 1991-2006 (environnement défavorable, recrudescence des grandes endémies, émergence des maladies liées à la modernisation). D est l'objectif du système colonial. Remarque : B et C sont des réformes de la sous-période 1994-1997, donc incluses dans l'intervalle 1994-2006 ; la correction ne retient que les caractéristiques générales de la période (A et E).\n\nSource : DOCUMENT SANTE PUBLIQUE L1 2021 (NORM), §6.2.3 période de 1991 à 2006",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__48",
+       "num": "49",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, identifiez l'avantage du diagnostic communautaire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Permet d'identifier les principaux problèmes de santé d'une communauté avec sa participation et ses ressources pour envisager les solutions et des actions ciblées sur les problèmes repérés ;"
+        },
+        {
+         "letter": "B",
+         "text": "B- Permet de Faire une analyse fine des ressources disponibles (matérielles et humaine) sur le plan quantitatif et qualitatif."
+        },
+        {
+         "letter": "C",
+         "text": "C- Permet de renforcer les activités effectuées en santé communautaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C- Permet de renforcer les activités effectuées en santé communautaire",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Parmi l'importance (avantages) du diagnostic communautaire : il sert de base aux actions sanitaires, oriente les efforts sur les besoins réels et permet de renforcer les activités en santé communautaire. A et B sont des buts.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Diagnostic communautaire §II buts et §III importance",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__49",
+       "num": "50",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, identifiez le but du diagnostic communautaire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Permet de servir de base à toutes les actions sanitaires ;"
+        },
+        {
+         "letter": "B",
+         "text": "B- Permet d'orienter les efforts sur les besoins réels de la population ;"
+        },
+        {
+         "letter": "C",
+         "text": "C- Permet d'initier un processus de collaboration entre les populations et les agents de santé."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C- Permet d'initier un processus de collaboration entre les populations et les agents de santé.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les buts du diagnostic communautaire : identifier les problèmes avec la communauté, analyser les ressources, et initier un processus de collaboration entre populations et agents de santé. A et B relèvent de l'importance.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Diagnostic communautaire §II buts et §III importance",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__50",
+       "num": "51",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'existence d'un goulot d'étranglement entre l'utilisation des services et la couverture adéquate signifie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- La population vient une fois recevoir un soin, mais ne revient plus pour terminer la série de soins souhaitée pour avoir l'effet escompté"
+        },
+        {
+         "letter": "B",
+         "text": "B- La population vient pour recevoir les soins mais n'y parvient pas"
+        },
+        {
+         "letter": "C",
+         "text": "C- La population bénéficie des soins en quantité sanas qualité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A- La population vient une fois recevoir un soin, mais ne revient plus pour terminer la série de soins souhaitée pour avoir l'effet escompté",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Entre l'US et la CA, la population vient une fois mais ne revient pas terminer la série de soins (mauvais accueil, RDV non expliqué, attente longue, MAPI). C décrit le goulot entre la CA et la couverture effective.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Monitorage, Tableau n°1 des goulots d'étranglement",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__51",
+       "num": "52",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les critères suivants, indiquez ceux qui permettent de sélectionner un problème de sante",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Population totale de la localité"
+        },
+        {
+         "letter": "B",
+         "text": "B- L'ampleur du problème"
+        },
+        {
+         "letter": "C",
+         "text": "C- La gravité du problème"
+        },
+        {
+         "letter": "D",
+         "text": "D- Le niveau d'instruction des populations"
+        },
+        {
+         "letter": "E",
+         "text": "E- La vulnérabilité du problème"
+        },
+        {
+         "letter": "F",
+         "text": "F- La durée des interventions"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. B- L'ampleur du problème ; C. C- La gravité du problème ; E. E- La vulnérabilité du problème",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "Critères de priorisation d'un problème de santé : l'ampleur (incidence, prévalence), la gravité (létalité, complications), la vulnérabilité, les impacts socio-économiques, la perception et les réponses préexistantes.\n\nSource : COURS DE SANTE PUBLIQUE (document L1), §6.1.2 critères de priorisation ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Diagnostic communautaire (critères de sélection)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__52",
+       "num": "53",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les items suivants, identifiez celui qui est une population bénéficiaire de la mobilisation sociale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- L'individu ;"
+        },
+        {
+         "letter": "B",
+         "text": "B- La communauté"
+        },
+        {
+         "letter": "C",
+         "text": "C- La société toute entière."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C- La société toute entière.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Populations bénéficiaires de la mobilisation sociale : personnes physiques, entités morales, société toute entière. L'individu et la communauté sont bénéficiaires de la mobilisation communautaire.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Mobilisation sociale §IV",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__53",
+       "num": "54",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les items suivants, identifiez celui qui est une population bénéficiaire de la mobilisation communautaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- La famille ;"
+        },
+        {
+         "letter": "B",
+         "text": "B- Les personnes physiques ;"
+        },
+        {
+         "letter": "C",
+         "text": "C- Les entités morales"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A- La famille ;",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Bénéficiaires de la mobilisation communautaire : l'individu, la famille, la communauté. Personnes physiques et entités morales relèvent de la mobilisation sociale.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Mobilisation communautaire §IV",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__54",
+       "num": "55",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi ces propositions suivantes, un est un acteur de la mobilisation sociale;",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Les partenaires de mise en œuvre (Organisation Non Gouvernementales) ;"
+        },
+        {
+         "letter": "B",
+         "text": "B- Président de l'association de développement"
+        },
+        {
+         "letter": "C",
+         "text": "C- Agent de Santé Communautaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A- Les partenaires de mise en œuvre (Organisation Non Gouvernementales) ;",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Acteurs de la mobilisation sociale : gouvernements, ministères, partenaires de mise en œuvre (ONG), organisations internationales. Le président d'association et l'ASC sont des acteurs de la mobilisation communautaire.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Mobilisation sociale §V et Mobilisation communautaire §V",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j6-idesfm__55",
+       "num": "56",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'existence d'un goulot d'étranglement entre la population cible et la disponibilité des ressources signifie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- Les ressources sont disponibles mais la population cible ne s'y intéresse pas."
+        },
+        {
+         "letter": "B",
+         "text": "B- Les ressources ne sont pas suffisantes pour satisfaire les besoins de la population cible."
+        },
+        {
+         "letter": "C",
+         "text": "C- L'effectif de la population cible est très petit par rapport aux ressource disponibles"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B- Les ressources ne sont pas suffisantes pour satisfaire les besoins de la population cible.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Entre la PC et la DR : la population cible est présente mais il y a manque ou insuffisance de ressources (médicaments, vaccins), par rupture, intervalle de commande trop long ou mauvaise estimation des besoins.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Monitorage, Tableau n°1 des goulots d'étranglement",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
+       "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 127616468,
- "sha256": "77b4704d499fac0b6f4858247ee28f9b0ebbcd0c5a957f6616bb9a49d42acfdb",
+ "taille": 128303593,
+ "sha256": "be538db2f4349b79b1a2cfc5ea1b38a1a7fd22b51e8713160f99bab5c20a9892",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -16606,8 +16606,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusapp",
-   "octets": 13854,
-   "sha256": "0e41a77df36b4570218fd7e8c1c83bc4afd04ac1785d044ac680b5ee484fc666",
+   "octets": 15768,
+   "sha256": "bbb19f3e9e55c0939c190404c6d9cb723b1a2748a597100af5467c851b6429f3",
    "fichier": "plus-applis/index.json",
    "codage": "brut"
   },
@@ -16619,8 +16619,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusnat-xmvkq4zed",
-   "octets": 3258807,
-   "sha256": "9c9baff048c9ebd64bd6e2b59c7d69b7aeaf8a239707bd9b4d866dc3237254b3",
+   "octets": 3477060,
+   "sha256": "d7b959779c8833500c6da7ab625aa31d7aa14808b13eececfc48d38fdbf013da",
    "fichier": "plus-applis/xmvkq4zed-natif.json",
    "codage": "brut"
   },
@@ -17077,6 +17077,84 @@
    "octets": 87431,
    "sha256": "d2b80ec394f51f96fa4b47aab082f2a673661aa579b19f21b2a0c445717ef71c",
    "fichier": "plus-applis/xmvkq4zed/zy-sj-prepa-ssrpf-j5-sfm.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zza-sj-prepa-med-j6-ide3\">",
+   "sha256": "b126cc8991f6c28a03d42b4341ed2edb995a663e7e9d2ea38ee9a17348693dc3"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zza-sj-prepa-med-j6-ide3",
+   "octets": 63013,
+   "sha256": "1bb5a0c69625c0e206e8ec7cd88e7966a1b0e7b0bef7539116be5431e9c23d48",
+   "fichier": "plus-applis/xmvkq4zed/zza-sj-prepa-med-j6-ide3.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzb-sj-prepa-sp-j6-idesfm\">",
+   "sha256": "cf66340e22c2596f42dcdf9b2c228ddf32af7ff2a87a1e10d7b7b7ddc06fefd5"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzb-sj-prepa-sp-j6-idesfm",
+   "octets": 100655,
+   "sha256": "af827e5d098b73f314c94d7b8bcab9b6827ff01bc94f819bf066e9da0b1ab4ee",
+   "fichier": "plus-applis/xmvkq4zed/zzb-sj-prepa-sp-j6-idesfm.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzc-sj-prepa-ped-j6-idesfm\">",
+   "sha256": "74b317c793135207a55d981fdeb24f5fc22c94894b08bca65279964eb12cf7a1"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzc-sj-prepa-ped-j6-idesfm",
+   "octets": 74117,
+   "sha256": "22b272883ee54b15e502bcceb053e20c48515937cb405d9ff3ff8fecd91e184f",
+   "fichier": "plus-applis/xmvkq4zed/zzc-sj-prepa-ped-j6-idesfm.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzd-sj-prepa-chir-j6-ide\">",
+   "sha256": "6168018d43ea35f7ca8bc1890aa37da433ac4d22a179ec07c67b378c7d5a81cf"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzd-sj-prepa-chir-j6-ide",
+   "octets": 84781,
+   "sha256": "7c5016b5229a930f691dd18da575e01f26a03cb3cb0f94a29bab2477275aa6cc",
+   "fichier": "plus-applis/xmvkq4zed/zzd-sj-prepa-chir-j6-ide.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zze-sj-prepa-gyneco-j6-sf3\">",
+   "sha256": "567a9b52b85aa2e26e5b04aa9cea8a1b85a67f61784c785e61f9ad98f84eea97"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zze-sj-prepa-gyneco-j6-sf3",
+   "octets": 77798,
+   "sha256": "bf7bec6e0dc99170ffdcca1cf6d8d07b71c798181a819d8f660148111b275447",
+   "fichier": "plus-applis/xmvkq4zed/zze-sj-prepa-gyneco-j6-sf3.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzf-sj-prepa-ssrpf-j6-sf3\">",
+   "sha256": "1a62f6e2daedd56b6447b01faece3e1b3afa8e708457e499a9bff2d605c192d0"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzf-sj-prepa-ssrpf-j6-sf3",
+   "octets": 66078,
+   "sha256": "48056e947dfbdf050931d1a5e17fe34d51323fe085550ba5fe720b44d94aeee4",
+   "fichier": "plus-applis/xmvkq4zed/zzf-sj-prepa-ssrpf-j6-sf3.json",
    "codage": "brut"
   },
   {

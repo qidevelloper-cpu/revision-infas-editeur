@@ -1,0 +1,1851 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzf-sj-prepa-ssrpf-j6-sf3",
+ "titre": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 55,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J6_SR-PF_SF3_corrige_explique.pdf",
+   "sha256": "1fe36b71749ce289562b17bac84992715ff08ec9934803e8e3ffdb92e27e9dd9"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J SSR / PF · Prépa D.E J6 (SF3)",
+     "slug": "prepa-ssrpf-j6-sf3",
+     "pages": "",
+     "count": 55,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "SSR / PF",
+     "source": "J6_SR-PF_SF3_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__0",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'orientation sexuelle désigne l'attirance physique, romantique ou émotionnelle",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'orientation sexuelle est le dernier élément de l'identité sexuelle : elle désigne le sexe par lequel on est attiré, d'un point de vue romantique (attirance physique, affective). L'affirmation est donc vraie.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Santé sexuelle et reproductive des adolescents, I. Définitions (p. 32)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__1",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les IST font partie des principaux problèmes liés à la sexualité des adolescents",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Parmi les problèmes de santé prioritaires des adolescents, le cours cite la santé sexuelle et reproductive avec les premiers rapports non protégés : IST/VIH, grossesses précoces.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), VIII. Problèmes de santé prioritaires (p. 29)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__2",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les rapports sexuels précoces sont sans conséquences pour les adolescents",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les rapports sexuels non protégés des adolescents ont des conséquences : IST non traitées (maladie inflammatoire pelvienne, GEU, stérilité), grossesse précoce (dystocies, fistules, avortement à risque, prématurité) et coûts sociaux (rejet, interruption de la scolarité). « Sans conséquences » est donc faux.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), IV. Conséquences des relations sexuelles non protégées (p. 34)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__3",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le mariage précoce peut favoriser l'abandon scolaire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les mariages et grossesses précoces font partie des obstacles qui touchent les filles tout au long de leur scolarité ; les filles sont davantage touchées par l'échec et l'abandon scolaire.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Disparités de genre, 2.5 Inégalités en matière d'éducation (p. 9)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__4",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le genre est un concept socialement construit",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le genre est le rapport social entre hommes et femmes : les caractéristiques ne sont pas naturelles mais engendrées par la société (conditionnement social), acquises par l'éducation et variables dans le temps et l'espace.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Concepts généraux de l'approche genre, 1.2 Genre (p. 7)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__5",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les préjugés peuvent conduire à des discriminations",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un préjugé est un jugement porté à l'avance, sans connaissance des faits ; quand il se traduit en actes, il conduit à traiter les personnes de façon inégale, c'est-à-dire à la discrimination. Le cours rappelle que les femmes sont victimes de nombreuses discriminations.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Santé genre et droits humains, 1.3 (p. 11) ; définition du préjugé (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__6",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La famille est une source de socialisation liée au genre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours explique que les disparités de genre résultent d'un conditionnement familial (préférence pour le garçon, inégalité des tâches, des soins, de l'accès à l'école…) : la famille transmet les normes de genre.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), 2.1 Disparités de genre dans les ménages (p. 8)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__7",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'accès aux ressources et leur contrôle sont des outils d'analyse du genre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "« L'accès et le contrôle des ressources et bénéfices » fait partie des sept principes de base du genre ; les inégalités d'accès et de contrôle des ressources sont un critère d'analyse des disparités.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Genre et développement, II. Sept principes (p. 16) ; 2.2 (p. 8)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__8",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'adolescence s'étend de 10 à 19 ans selon l'OMS",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Selon l'OMS, « est adolescent tout individu âgé de 10 à 19 ans » (jeunes gens : 15–24 ans ; jeunes : 10–24 ans).\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), L'adolescence, 1.2 Adolescence selon l'OMS (p. 22)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__9",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les garçons ont généralement moins de liberté que les filles dans l'espace public",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans la plupart des sociétés, ce sont les filles (et non les garçons) qui ont le moins de liberté de mouvement dans l'espace public, en raison des normes de genre et des questions de sécurité. L'affirmation est donc fausse.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__10",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les rites de passage des filles peuvent inclure des pratiques nuisibles",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Certains rites de passage imposés aux filles comportent des pratiques traditionnelles néfastes (mutilations génitales, mariage forcé…). Le cours prévoit d'ailleurs une CCC sur les pratiques traditionnelles néfastes.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Facteurs de risque (rite de passage, p. 33) ; cours de SR_PF 2023 L2, composantes de la SR",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__11",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La pauvreté est un obstacle à la promotion des droits des jeunes",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La pauvreté limite l'accès des jeunes à l'éducation et aux services de santé (coût élevé des services, obstacles économiques), ce qui freine la réalisation de leurs droits.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Obstacles à l'utilisation des services : coût élevé (p. 36) ; DOCUMENT SSR L2 SF 2021 REVU, obstacles à la PF",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__12",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les adolescents n'ont pas besoin d'informations fiables sur la SSR",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours souligne que les adolescents manquent d'informations sur les changements de l'adolescence et reçoivent des informations souvent incorrectes ; le prestataire doit être une source d'informations fiables. L'affirmation est fausse.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), VII. Accès des adolescents aux services de SSR (p. 35)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__13",
+       "num": "17",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les compétences psychosociales font partie des besoins des jeunes",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le prestataire doit accompagner les adolescents pour développer leurs compétences psychosociales (CPS) ; « Santé mentale/CPS » fait partie des composantes de la santé des adolescents et jeunes.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Composantes SAJ (p. 21) ; VII (p. 35)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__14",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La sexualité est un aspect fondamental de la vie humaine",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La sexualité est une composante de la santé globale et du bien-être ; elle influence les pensées, sentiments et relations des individus.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Définitions (p. 32) et exercice 2 (p. 101)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__15",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le droit est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Une sanction"
+        },
+        {
+         "letter": "B",
+         "text": "B. Une prérogative reconnue à un individu"
+        },
+        {
+         "letter": "C",
+         "text": "C. Une punition"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Une prérogative reconnue à un individu",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le droit est l'ensemble des règles qui organisent la vie en société ; c'est aussi l'ensemble des avantages reconnus à un individu pour lui permettre de bien vivre (une prérogative). Sanction et punition ne sont que des moyens de faire respecter la règle.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Santé genre et droits humains, 1.1 Droit (p. 11)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__16",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'équité vise :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. L'exclusion"
+        },
+        {
+         "letter": "B",
+         "text": "B. La justice entre femmes et hommes"
+        },
+        {
+         "letter": "C",
+         "text": "C. La domination"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. La justice entre femmes et hommes",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'équité du genre consiste à être juste à l'égard des hommes et des femmes ; elle conduit à l'égalité.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Définitions, Équité du genre (p. 31)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__17",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un pilier du GED est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Ségrégation"
+        },
+        {
+         "letter": "B",
+         "text": "B. Participation"
+        },
+        {
+         "letter": "C",
+         "text": "C. Exclusion"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Participation",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La participation fait partie des sept principes de base du GED (avec l'égalité, l'équité, le pouvoir, l'accès et le contrôle des ressources, les besoins pratiques et les intérêts stratégiques). Ségrégation et exclusion en sont le contraire.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Genre et développement, II. Sept principes (p. 16)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__18",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le genre influence",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Seulement l'éducation"
+        },
+        {
+         "letter": "B",
+         "text": "B. La santé et le bien-être"
+        },
+        {
+         "letter": "C",
+         "text": "C. Seulement la politique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. La santé et le bien-être",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le genre influence la santé : les femmes sont discriminées à chaque étape de leur vie en matière de santé (accès aux soins, vulnérabilité, nutrition, grossesses précoces). Il ne se limite pas à l'éducation ou à la politique.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), 2.6 Inégalités de genre en matière de santé (p. 9)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__19",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les déterminants liés au genre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. N'existent pas"
+        },
+        {
+         "letter": "B",
+         "text": "B. Concernent uniquement les hommes"
+        },
+        {
+         "letter": "C",
+         "text": "C. Influencent l'exposition aux risques de santé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. Influencent l'exposition aux risques de santé",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les déterminants sociaux structurels (dont le genre) influent sur la santé de l'adolescent et sur son exposition aux risques (ex. rôle passif des filles dans les relations sexuelles, exposition aux IST et grossesses non désirées). Ils concernent les deux sexes.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), SSRAJ, énoncés de résultats et facteurs de risque (p. 31-34)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__20",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une forme de violence est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Violence physique"
+        },
+        {
+         "letter": "B",
+         "text": "B. Amitié"
+        },
+        {
+         "letter": "C",
+         "text": "C. Coopération"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. Violence physique",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La violence physique est une forme de violence (avec les violences psychologiques, économiques, sexuelles). Amitié et coopération ne sont pas des violences.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), 2.1 Violences faites aux femmes (physique, psychologique, économique) (p. 8)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__21",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La violence sexuelle est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Consentie"
+        },
+        {
+         "letter": "B",
+         "text": "B. Sans consentement"
+        },
+        {
+         "letter": "C",
+         "text": "C. Thérapeutique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Sans consentement",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La violence sexuelle est tout acte sexuel imposé à une personne sans son consentement. Le cours définit le comportement sexuel comme les pratiques « auxquelles nous consentons » : en l'absence de consentement, il y a violence.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Identité sexuelle (p. 32) ; définition de la violence sexuelle (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__22",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le harcèlement sexuel correspond à",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Une récompense"
+        },
+        {
+         "letter": "B",
+         "text": "B. Des propos ou avances ou actes sexuels imposés à une personne sans son consentement."
+        },
+        {
+         "letter": "C",
+         "text": "C. Une consultation médicale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Des propos ou avances ou actes sexuels imposés à une personne sans son consentement.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le harcèlement sexuel correspond à des propos, avances ou actes à connotation sexuelle imposés à une personne sans son consentement.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__23",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le viol est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Un rapport sexuel consenti"
+        },
+        {
+         "letter": "B",
+         "text": "B. Un rapport sexuel forcé"
+        },
+        {
+         "letter": "C",
+         "text": "C. Un rapport sexuel désiré"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Un rapport sexuel forcé",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le viol est un rapport sexuel (pénétration) imposé par la force, la menace, la contrainte ou la surprise, donc sans consentement : un rapport sexuel forcé.\n\nSource : (explication hors cours du projet) ; voir DOCUMENT SSR L2 SF 2021 REVU, contraception d'urgence en cas de viol",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__24",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une conséquence de la VBG est la",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Croissance économique"
+        },
+        {
+         "letter": "B",
+         "text": "B. Dépression"
+        },
+        {
+         "letter": "C",
+         "text": "C. Promotion scolaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Dépression",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les VBG ont des conséquences physiques, sexuelles et psychologiques : la dépression en fait partie (le cours cite la dépression parmi les troubles de santé mentale liés au stress et aux traumatismes).\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), 7- Santé mentale (p. 29) ; conséquences des VBG (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__25",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les violences hospitalières peuvent être",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Agricoles"
+        },
+        {
+         "letter": "B",
+         "text": "B. Psycho-morales"
+        },
+        {
+         "letter": "C",
+         "text": "C. Climatiques"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Psycho-morales",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les violences hospitalières (en milieu de soins) peuvent être psycho-morales : propos humiliants, cris, indifférence, mauvaise attitude du soignant. Le cours de soins obstétricaux demande à la sage-femme d'éviter les violences hospitalières, car une mauvaise attitude entraîne méfiance et crispation de la parturiente. « Agricoles » et « climatiques » n'ont pas de sens ici.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, Admission de la parturiente en salle de travail, conclusion",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__26",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La GHM signifie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Gestion Hospitalière Moderne"
+        },
+        {
+         "letter": "B",
+         "text": "B. Gestion de l'Hygiène Menstruelle"
+        },
+        {
+         "letter": "C",
+         "text": "C. Groupe d'Hygiène Médicale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Gestion de l'Hygiène Menstruelle",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "GHM signifie Gestion de l'Hygiène Menstruelle : ensemble des moyens permettant aux filles et femmes de gérer leurs règles dans la dignité, l'hygiène et la sécurité.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__27",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une composante de la GHM est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Matériels de protection"
+        },
+        {
+         "letter": "B",
+         "text": "B. Vaccination obligatoire"
+        },
+        {
+         "letter": "C",
+         "text": "C. Isolement social"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. Matériels de protection",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les matériels de protection (serviettes, tissus propres…) sont une composante de la GHM, avec l'eau, le savon, les installations sanitaires, l'élimination des déchets et l'éducation.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__28",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une bonne pratique menstruelle est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Utiliser une serviette sale"
+        },
+        {
+         "letter": "B",
+         "text": "B. Se laver les mains à l'eau et au savon"
+        },
+        {
+         "letter": "C",
+         "text": "C. Réutiliser des tissus sales"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Se laver les mains à l'eau et au savon",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Se laver les mains à l'eau et au savon avant et après le changement de protection est une bonne pratique d'hygiène menstruelle ; les serviettes et tissus sales exposent aux infections.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__29",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une pratique à proscrire est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Changer régulièrement la protection"
+        },
+        {
+         "letter": "B",
+         "text": "B. Ne pas se laver les mains après le changement"
+        },
+        {
+         "letter": "C",
+         "text": "C. Utiliser de l'eau propre"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Ne pas se laver les mains après le changement",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Ne pas se laver les mains après le changement de protection est à proscrire (risque infectieux) ; changer régulièrement sa protection et utiliser de l'eau propre sont au contraire recommandés.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__30",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une installation nécessaire est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Salle sans eau"
+        },
+        {
+         "letter": "B",
+         "text": "B. Toilettes privées et sécurisées"
+        },
+        {
+         "letter": "C",
+         "text": "C. Dépotoir ouvert"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Toilettes privées et sécurisées",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Des toilettes privées et sécurisées (avec eau et point de lavage) sont nécessaires pour que les filles puissent se changer dans l'intimité. Le cours SR rappelle que l'absence de sanitaires dans les écoles est un obstacle à la scolarité des filles.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), 2.5 (p. 9) ; GHM (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__31",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une stratégie d'élimination des déchets menstruels est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Rejet dans la rue"
+        },
+        {
+         "letter": "B",
+         "text": "B. Incinération à haute température"
+        },
+        {
+         "letter": "C",
+         "text": "C. Déversement dans un cours d'eau"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Incinération à haute température",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les déchets menstruels doivent être éliminés de façon sûre, par exemple par incinération à haute température ; le rejet dans la rue ou dans un cours d'eau pollue l'environnement.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__32",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le terme \"survivant(e)\" désigne",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. L'auteur de la violence"
+        },
+        {
+         "letter": "B",
+         "text": "B. Une personne ayant subi une VBG"
+        },
+        {
+         "letter": "C",
+         "text": "C. Un témoin de violence"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Une personne ayant subi une VBG",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le terme « survivant(e) » désigne la personne qui a subi une violence basée sur le genre ; il est préféré à « victime » pour souligner sa capacité de résilience.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__33",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'exclusion sociale est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. L'intégration complète"
+        },
+        {
+         "letter": "B",
+         "text": "B. L'empêchement de participer pleinement à la vie sociale"
+        },
+        {
+         "letter": "C",
+         "text": "C. L'autonomisation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. L'empêchement de participer pleinement à la vie sociale",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'exclusion sociale est le fait d'être empêché de participer pleinement à la vie sociale (isolement, rejet). C'est le contraire de l'intégration et de l'autonomisation.\n\nSource : (explication hors cours du projet) ; voir aussi GYNECO L2 IDE VERSION 2025, fistule obstétricale (isolement social)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__34",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les hommes peuvent agir dans la GHM comme",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Spectateurs passifs uniquement"
+        },
+        {
+         "letter": "B",
+         "text": "B. Leaders communautaires et alliés"
+        },
+        {
+         "letter": "C",
+         "text": "C. Opposants permanents"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Leaders communautaires et alliés",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les hommes peuvent agir comme leaders communautaires et alliés de la GHM (pères, enseignants, chefs) : soutien financier, lutte contre les tabous, construction d'installations.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__35",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les tabous sur les règles peuvent provoquer",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. L'absentéisme scolaire"
+        },
+        {
+         "letter": "B",
+         "text": "B. La participation tout au long du processus de développement."
+        },
+        {
+         "letter": "C",
+         "text": "C. Le respect et l'égalité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. La participation tout au long du processus de développement.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les tabous et la honte autour des règles poussent souvent les filles à ne pas aller à l'école pendant leurs menstruations : ils peuvent provoquer l'absentéisme scolaire. L'option B, cochée, ne correspond pas à une conséquence d'un tabou.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__36",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La composante « connaissances et éducation » de la GHM vise à",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Eliminer les menstruations"
+        },
+        {
+         "letter": "B",
+         "text": "B. Comprendre les menstruations"
+        },
+        {
+         "letter": "C",
+         "text": "C. Limiter les activités scolaires"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. Eliminer les menstruations",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La composante « connaissances et éducation » de la GHM vise à faire comprendre les menstruations (phénomène physiologique) et à corriger les idées fausses ; le cours SR insiste sur l'information pour « comprendre comment le corps fonctionne ».\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), VI. Promotion de la SSR : fourniture d'informations (p. 34)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__37",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le devoir est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Un privilège"
+        },
+        {
+         "letter": "B",
+         "text": "B. Une récompense"
+        },
+        {
+         "letter": "C",
+         "text": "C. Une obligation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. Une obligation",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le devoir est une obligation (ce que l'on doit faire envers la société ou autrui). Le cours parle du « respect des droits et devoirs » pour l'égalité et l'équité.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), IV. Enjeux de citoyenneté (p. 17) ; définition (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__38",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lequel est un droit en SSR ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Droit à l'exclusion"
+        },
+        {
+         "letter": "B",
+         "text": "B. Droit à l'information"
+        },
+        {
+         "letter": "C",
+         "text": "C. Droit à la discrimination"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Droit à l'information",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La santé de la reproduction repose sur le droit des hommes et des femmes à être informés et à accéder à des méthodes de PF de leur choix. Exclusion et discrimination ne sont pas des droits.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Santé de la reproduction (p. 32) ; DOCUMENT SSR L2 SF 2021 REVU, avant-propos",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__39",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un besoin des adolescents est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Le décrochage scolaire"
+        },
+        {
+         "letter": "B",
+         "text": "B. Des informations fiables"
+        },
+        {
+         "letter": "C",
+         "text": "C. L'isolement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Des informations fiables",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les adolescents ont besoin d'informations fiables : ils reçoivent beaucoup d'informations incorrectes et le prestataire doit présenter des faits et répondre à leurs questions.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), VII (p. 35)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__40",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La sexualité comprend",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Uniquement les rapports sexuels"
+        },
+        {
+         "letter": "B",
+         "text": "B. L'identité de genre, l'intimité et la reproduction"
+        },
+        {
+         "letter": "C",
+         "text": "C. Seulement la reproduction"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. L'identité de genre, l'intimité et la reproduction",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La sexualité ne se limite pas aux rapports sexuels ni à la reproduction : l'identité sexuelle inclut le sexe biologique, l'identité de genre, le rôle de genre, l'orientation et le comportement sexuels ; elle incite aussi à rechercher l'intimité.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Définitions des termes liés à la sexualité (p. 31-32)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__41",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les problèmes liés à la sexualité figurent",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Vaccination"
+        },
+        {
+         "letter": "B",
+         "text": "B. Nutrition"
+        },
+        {
+         "letter": "C",
+         "text": "C. IST et VIH/SIDA"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. IST et VIH/SIDA",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les IST et le VIH/SIDA font partie des problèmes de santé liés à la sexualité des adolescents (rapports non protégés).\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), VIII. Problèmes prioritaires (p. 29)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__42",
+       "num": "46",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une conséquence des grossesses précoces est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Promotion scolaire"
+        },
+        {
+         "letter": "B",
+         "text": "B. Déperdition scolaire"
+        },
+        {
+         "letter": "C",
+         "text": "C. Augmentation des loisirs"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Déperdition scolaire",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La grossesse précoce entraîne l'interruption de la scolarité ou de l'activité (déperdition scolaire), le rejet par la famille et moins de chance de trouver un emploi.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), IV. 3/ Coûts sociaux de la grossesse pour la mère adolescente (p. 34)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__43",
+       "num": "47",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le sexe est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Biologique"
+        },
+        {
+         "letter": "B",
+         "text": "B. Culturel uniquement"
+        },
+        {
+         "letter": "C",
+         "text": "C. Politique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. Biologique",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le sexe est l'ensemble des attributs biologiques, physiologiques et héréditaires qui classent les individus en deux catégories ; il est déterminé à la naissance.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), 1.1 Sexe (p. 7)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__44",
+       "num": "48",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le genre est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Chromosomique"
+        },
+        {
+         "letter": "B",
+         "text": "B. Socialement construit"
+        },
+        {
+         "letter": "C",
+         "text": "C. Génétique uniquement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Socialement construit",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le genre est socialement construit : il résulte d'un conditionnement social, et non des chromosomes ou de la génétique.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), 1.2 Genre (p. 7)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__45",
+       "num": "49",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les rapports de genre concernent",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Les maladies infectieuses"
+        },
+        {
+         "letter": "B",
+         "text": "B. Les relations de pouvoir hommes-femmes"
+        },
+        {
+         "letter": "C",
+         "text": "C. Les revenus uniquement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Les relations de pouvoir hommes-femmes",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les rapports de genre sont les relations sociales entre hommes et femmes, notamment les relations de pouvoir (prise de décision, contrôle des ressources). Le « pouvoir » est un des principes de base du genre.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), 1.2 Genre (p. 7) et II. Sept principes (p. 16)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__46",
+       "num": "50",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un stéréotype est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Une idée ou un cliché"
+        },
+        {
+         "letter": "B",
+         "text": "B. Une loi"
+        },
+        {
+         "letter": "C",
+         "text": "C. Un règlement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A. Une idée ou un cliché",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un stéréotype est une idée toute faite, un cliché, une image simplifiée attribuée à un groupe (ex. « les filles sont faites pour la cuisine »).\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__47",
+       "num": "51",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un préjugé est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Un fait scientifique"
+        },
+        {
+         "letter": "B",
+         "text": "B. Un jugement formé à l'avance"
+        },
+        {
+         "letter": "C",
+         "text": "C. Une statistique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Un jugement formé à l'avance",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Un préjugé est un jugement formé à l'avance, avant toute connaissance réelle de la personne ou de la situation.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__48",
+       "num": "52",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La discrimination consiste à",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Favoriser l'égalité"
+        },
+        {
+         "letter": "B",
+         "text": "B. Respecter les droits"
+        },
+        {
+         "letter": "C",
+         "text": "C. Refuser l'égalité de traitement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C. Refuser l'égalité de traitement",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La discrimination consiste à refuser l'égalité de traitement à une personne en raison d'une caractéristique (sexe, statut…). Le cours la cite parmi les causes des inégalités entre hommes et femmes.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), 2.3 et 1.3 Droits de l'homme et genre (p. 8 et 11)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__49",
+       "num": "53",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une source des normes de genre est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Les vaccins"
+        },
+        {
+         "letter": "B",
+         "text": "B. La famille"
+        },
+        {
+         "letter": "C",
+         "text": "C. Le climat"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. La famille",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La famille est une source des normes de genre : les disparités de genre résultent d'un conditionnement familial (et communautaire).\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), 2.1 Disparités de genre dans les ménages (p. 8)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__50",
+       "num": "54",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le rôle de production est généralement",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Non rémunéré"
+        },
+        {
+         "letter": "B",
+         "text": "B. Visible et rémunéré"
+        },
+        {
+         "letter": "C",
+         "text": "C. Domestique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Visible et rémunéré",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le rôle de production correspond aux activités qui produisent des biens et services contre rémunération ; il est visible et reconnu. Le cours cite l'exemple des cultures de rente (rémunérées) confiées aux hommes, par opposition aux cultures vivrières non rémunérées.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), 2.2 Disparités de genre dans les communautés (p. 8)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__51",
+       "num": "55",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le rôle reproductif concerne",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Le commerce"
+        },
+        {
+         "letter": "B",
+         "text": "B. Grossesse et éducation des enfants"
+        },
+        {
+         "letter": "C",
+         "text": "C. La politique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Grossesse et éducation des enfants",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le rôle reproductif regroupe les tâches liées à la reproduction et à l'entretien de la famille : grossesse, soins et éducation des enfants, tâches domestiques.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__52",
+       "num": "56",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'empowerment signifie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Soumission"
+        },
+        {
+         "letter": "B",
+         "text": "B. Autonomisation"
+        },
+        {
+         "letter": "C",
+         "text": "C. Marginalisation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Autonomisation",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'empowerment signifie autonomisation : renforcer le pouvoir de décision et d'action des personnes (en particulier des femmes). Le GED est décrit comme une approche qui cherche à donner des pouvoirs aux femmes.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Exercice 2, item 6 (p. 100)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__53",
+       "num": "57",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "GED signifie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Genre et Décision"
+        },
+        {
+         "letter": "B",
+         "text": "B. Genre et Développement"
+        },
+        {
+         "letter": "C",
+         "text": "C. Gouvernance et Développement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Genre et Développement",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "GED = Genre Et Développement.\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Sigles et abréviations (p. 5)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j6-sf3__54",
+       "num": "58",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'égalité concerne",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A. Les privilèges"
+        },
+        {
+         "letter": "B",
+         "text": "B. Les droits et les chances"
+        },
+        {
+         "letter": "C",
+         "text": "C. Les traditions"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B. Les droits et les chances",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'égalité du genre signifie que les hommes et les femmes jouissent du même statut et bénéficient des mêmes opportunités (droits et chances).\n\nSource : COURS SR L2 2023 (SSR des adolescents et jeunes / Approche genre), Égalité du genre (p. 31) ; principe « égalité de chances » (p. 16)",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J6 (SF3)",
+       "sourceFile": "J6_SR-PF_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
