@@ -477,7 +477,7 @@ function riCasHTML(s,mid){s=String(s==null?'':s);if(s.indexOf('|')<0&&s.indexOf(
   txt.push(l);i++}
  flush();return out.join('')}
 (function(){const st=document.createElement('style');st.textContent='.ri-cast{white-space:pre-line}.ri-tabw{overflow-x:auto;margin:8px 0;-webkit-overflow-scrolling:touch}.ri-tab{border-collapse:collapse;width:100%;font-size:.92em;background:var(--card,#fff);color:var(--ink,#16231F)}.ri-tab th,.ri-tab td{border:1px solid #9aa8a3;padding:6px 8px;vertical-align:top;text-align:left}.ri-tab th{background:rgba(0,0,0,.06);font-weight:800;color:var(--ink,#16231F)}.qq .ri-tab{font-size:.78em;font-weight:600;line-height:1.35}.qq .ri-tab th{font-weight:800}.ri-casimg{margin:8px 0}.ri-casimg img{max-width:100%;height:auto;border-radius:8px;background:#fff;cursor:zoom-in}';(document.head||document.documentElement).appendChild(st)})();
-function qCard(q,body){return `<div class="card sf"><span class="qtype ${typeCls(q)}">${esc(typeLabel(q))}</span><span class="qch">${esc(chName(q.m,q.c))}</span>${q.s?`<div class="scen">${riCasHTML(q.s,q.m)}</div>`:''}<div class="qq">${riCasHTML(q.q,q.m)}</div>${body}</div>`}
+function qCard(q,body){return `<div class="card sf"><span class="qtype ${typeCls(q)}">${esc(typeLabel(q))}</span><span class="qch">${esc(chName(q.m,q.c))}</span>${q.s?`<div class="scen">${riCasHTML(q.s,q.m)}</div>`:''}${q._casRap||''}<div class="qq">${riCasHTML(q.q,q.m)}</div>${body}</div>`}
 B('quiz.main','Question',()=>{if(!QZ)return'';if(QZ.idx>=QZ.ids.length)return'';const q=curQ(),a=QZ.ans[q.id],L='ABCDEFGH';let body='';
  if(q.t==='qcm'){const P=permOf(q);body=P.map((oi,k)=>{let c='';if(a){if(oi===q.a)c='ok';else if(oi===a.sel)c='ko'}return `<button class="opt ${c}" ${a?'disabled':''} onclick="ansQ(${oi})"><span class="k">${L[k]}</span><span>${esc(q.o[oi])}</span></button>`}).join('')}
  else if(q.t==='vf'){body=`<div class="vfrow">${[[1,Tx('quiz.true','Vrai')],[0,Tx('quiz.false','Faux')]].map(([v,l])=>{let c='';if(a){if(v===q.v)c='ok';else if(v===a.sel)c='ko'}return `<button class="opt ${c}" ${a?'disabled':''} onclick="ansQ(${v})">${esc(l)}</button>`}).join('')}</div>`}
@@ -2089,6 +2089,17 @@ startSujet=function(mid,k){const L=sujets(mid)[k];if(!L)return;const lab=sujTitr
 startChap=function(mid,i){startFil(mid,(QBM[mid]||[]).filter(q=>q.c===i).map(q=>q.id),Tx('quiz.lbl.ch','Chapitre {k}',{k:i+1})+' · '+chName(mid,i),'ch')};
 function quitFil(){clearInterval(FILT);if(VSTACK.length)back();else if(FILS&&FILS.mid)go('matiere',{id:FILS.mid},false);else tab('home')}
 function filCorrect(q){const L='ABCDEFGH';if(q.t==='qcm'){if(isM(q))return q.am.map(i=>L[i]+'. '+(q.o||[])[i]).join(' ; ');return L[q.a]+'. '+((q.o||[])[q.a]||'')}return correctText(q)}
+/* RAPPEL REPLIABLE DU CAS CLINIQUE : la 1re question du cas montre l'énoncé en entier ; chaque question suivante du même cas
+   a une ligne repliée « 📋 Relire le cas clinique » que l'élève déplie (le cas ne s'ouvre jamais seul).
+   Même cas = même énoncé enregistré (q.s) que la question précédente ; ou question sans énoncé qui s'y rapporte
+   (« cette patiente », même nom… : riBlocsCas) et dont une question précédente du même groupe porte l'énoncé. Question isolée : rien. */
+let RI_CASB=null;const RI_CASOUV=new Set();   /* rappels dépliés par l'élève : restent dépliés quand la page se redessine (réponse) */
+function riCasOuv(id,o){if(o)RI_CASOUV.add(id);else RI_CASOUV.delete(id)}
+function riCasDe(q,i,meme){if(!q)return'';if(q.s)return meme?q.s:'';if(!FILS||!FILS.ids||typeof riBlocsCas!=='function')return'';
+ const k=FILS.ids.join(',');if(!RI_CASB||RI_CASB.k!==k){const m=new Map();riBlocsCas(FILS.ids).forEach(B=>{let sv='';B.forEach(id=>{const x=QI[id];if(x&&x.s)sv=x.s;else if(sv)m.set(id,sv)})});RI_CASB={k,m}}
+ return RI_CASB.m.get(q.id)||''}
+function riCasRappel(q,i,meme){const sv=riCasDe(q,i,meme);if(!sv)return'';
+ return `<details class="ri-casrap" ${RI_CASOUV.has(q.id)?'open':''} ontoggle="riCasOuv('${jsq(q.id)}',this.open)"><summary>📋 ${T('fil.casrap','Relire le cas clinique')}</summary><div class="scen">${riCasHTML(sv,q.m)}</div></details>`}
 function filCarte(q,i){const a=FILS.ans[q.id]||(FILS.expire?{ok:false,sel:-9,expire:1}:null),L='ABCDEFGH',jid=jsq(q.id),prev=QI[FILS.ids[i-1]],meme=!!(prev&&q.s&&prev.s===q.s);let body='';
  if(q.t==='qcm'){const multi=isM(q),s=FILS.ms[q.id]||[];
   body=(multi&&!a?`<div class="qmhint">${T('qm.hint','☑️ Plusieurs bonnes réponses : coche-les toutes.')}</div>`:'')+(q.o||[]).map((o,oi)=>{let c=multi?'mopt':'';
@@ -2099,10 +2110,10 @@ function filCarte(q,i){const a=FILS.ans[q.id]||(FILS.expire?{ok:false,sel:-9,exp
  else body=a?`<div class="fb neu"><b>${T('quiz.yours','Ta réponse :')}</b> ${esc(a.txt||'—')}</div>`:`<textarea class="tin" id="fo-${esc(q.id)}" rows="3" placeholder="${esc(Tx('quiz.open.ph','Écris ta réponse…'))}"></textarea><button class="btn" style="margin-top:10px" onclick="filOpen('${jid}')">${T('quiz.open.show','Voir la réponse')}</button>`;
  let fb='';if(a){fb=`<div class="fb ${a.pending?'neu':a.ok?'good':'bad'}"><div class="h">${a.expire?T('fil.exp','⏰ Pas répondu à temps'):a.pending?T('quiz.selfq','Avais-tu la bonne réponse ?'):a.ok?T('quiz.good','Bonne réponse ✅'):T('quiz.bad','Réponse incorrecte ❌')}</div><div class="pfr"><b>${T('quiz.answer','Réponse :')}</b> ${esc(filCorrect(q))}</div>${q.x?`<div class="ex">💡 ${riX(q.x)}</div>`:''}</div>${extrasHTML(q)}`;
   if(a.pending)fb+=`<div class="row2"><button class="btn" style="background:var(--green)" onclick="filSelf('${jid}',1)">${T('quiz.knew','✅ Je savais')}</button><button class="btn" style="background:var(--red)" onclick="filSelf('${jid}',0)">${T('quiz.didnt','❌ À revoir')}</button></div>`}
- const qc=meme?Object.assign({},q,{s:''}):q,qsrc=q.qi&&q.img!=null?imgSrc(q.img):'';
+ const rap=riCasRappel(q,i,meme),qc=meme||rap?Object.assign({},q,meme?{s:''}:{},{_casRap:rap}):q,qsrc=q.qi&&q.img!=null?imgSrc(q.img):'';
  if(qsrc)body=`<figure class="xfig qifig"><img src="${qsrc}" alt="" loading="lazy" onclick="zoomImg('${jsq(String(q.img))}','')"></figure>`+body;
  if(a&&qsrc)fb=fb.replace(extrasHTML(q),extrasHTML(q,1));
- return `<div class="filq" id="fq-${esc(q.id)}" style="margin-bottom:18px">${edOn()?`<div class="riedq">${qEdBtn(q.id)}</div>`:''}${qCard(qc,`${meme?`<div class="muted small">${T('fil.meme','↑ Même énoncé que la question précédente')}</div>`:''}<div class="muted small" style="margin:2px 0 6px">${T('fil.num','Question {i}/{n}',{i:i+1,n:FILS.ids.length})}</div>`+body)}${fb}</div>`}
+ return `<div class="filq" id="fq-${esc(q.id)}" style="margin-bottom:18px">${edOn()?`<div class="riedq">${qEdBtn(q.id)}</div>`:''}${qCard(qc,`<div class="muted small" style="margin:2px 0 6px">${T('fil.num','Question {i}/{n}',{i:i+1,n:FILS.ids.length})}</div>`+body)}${fb}</div>`}
 function filTopHTML(){const n=FILS.ids.length,r=Object.keys(FILS.ans).filter(id=>!FILS.ans[id].pending).length;return `<span>${T('fil.prog','{r}/{n} répondues · ✅ {ok}',{r,n,ok:FILS.ok})}</span>${FILS.end?`<span id="filTmr" class="timer">${FILS.expire?'⏰ 0:00':'⏱'}</span>`:''}<span>${esc(FILS.label||'')}</span>`}
 function filTermine(){const n=FILS.ids.length,r=Object.keys(FILS.ans).filter(id=>!FILS.ans[id].pending).length;return FILS.expire||r>=n}
 function filBilanHTML(){const n=FILS.ids.length,r=Object.keys(FILS.ans).filter(id=>!FILS.ans[id].pending).length;filFin();if(!filTermine())return `<div class="muted small center">${T('fil.reste','Encore {k} question(s) à faire dans ce sujet.',{k:n-r})}</div>`;
@@ -2792,6 +2803,7 @@ ${auto?`    <div class="ri-envoi"><div>Tu paies <b>${fcfa(P.prix_xof)}</b> direc
  .ri-b.p{background:#6C3BF5;color:#fff}.ri-b.f{background:#17B3A3;color:#fff}
  .ri-lock{opacity:.78}.ri-lock .bar{filter:grayscale(1)}
  .ri-lockx{background:color-mix(in srgb,#6C3BF5 10%,transparent);border-radius:10px;padding:8px 10px}
+ .ri-casrap{margin:0 0 8px;border:1.5px solid #fdba74;background:#fff7ed;border-radius:12px;padding:0 10px}.ri-casrap>summary{cursor:pointer;list-style:none;padding:9px 0;font-weight:800;font-size:14px;color:#c2410c}.ri-casrap>summary::-webkit-details-marker{display:none}.ri-casrap>summary::after{content:' ▸'}.ri-casrap[open]>summary::after{content:' ▾'}.ri-casrap .scen{margin:0 0 10px}
  .ri-anns{display:grid;gap:8px;margin:4px 0 12px}.ri-anns-bas{margin:16px 0 8px}
  .ri-annbtn{display:flex;align-items:center;gap:6px;width:100%;background:var(--card,#fff);border:1.5px solid;border-radius:12px;padding:8px 12px;font:inherit;font-size:13.5px;text-align:left;cursor:pointer}.ri-annbtn b{flex:1;color:var(--ink,#1F1A3D)}
  .ri-annflash{animation:riAnnF 1.4s ease}@keyframes riAnnF{0%,100%{box-shadow:0 0 0 0 rgba(108,59,245,0)}30%{box-shadow:0 0 0 5px rgba(108,59,245,.45)}}
