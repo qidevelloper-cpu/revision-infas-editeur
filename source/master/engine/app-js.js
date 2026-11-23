@@ -2143,6 +2143,12 @@ const _isBaseFil=isBase;isBase=function(m){if(_isBaseFil(m))return true;if(!S||!
  return Object.keys(m.chFil).some(i=>Array.isArray(m.chFil[i])&&m.chFil[i].includes(f))&&nivMin(m)<=nivIdx(S.niv)};
 const _visChFil=visCh;visCh=function(m){const v=_visChFil(m);if(!m||!m.chFil||!Object.keys(m.chFil).length||!S||!S.fil)return v;const f=filBase(S.fil);
  const out=v?new Set(v):new Set((m.ch||[]).map((c,i)=>i));(m.ch||[]).forEach((c,i)=>{if(!chFilOf(m,i).includes(f))out.delete(i)});return out.size===(m.ch||[]).length?null:out};
+/* TOUS LES COURS POUR TOUS (décision de Daniel, 23/11/2026) : la filière et la licence choisies à l'inscription ne cachent plus
+   aucun cours ni chapitre. Elles servent au suivi (tableau de bord) et à l'ordre : les cours de sa filière et de sa licence d'abord.
+   Les cours masqués au tableau de bord restent masqués, et les règles Gratuit / Premium ne changent pas. */
+const RI_TOUS_COURS=true;
+if(RI_TOUS_COURS){const aMoi=isBase;isBase=function(){return true};visCh=function(){return null};
+ myMats=function(){const L=MAT.filter(m=>!m.off),moi=m=>{try{return aMoi(m)}catch(e){return false}};return L.filter(moi).concat(L.filter(m=>!moi(m)))}}
 /* ---------- UNE SEULE APPLICATION : « cours complet » natif pour chaque matière, une seule progression ----------
    · « Voir le cours complet » (ancien « Voir l'application complète ») ouvre l'écran natif « cours » : même apparence,
      même progression et même gamification (XP, niveaux, ceintures, séries) que tout le portail. Les applis d'origine
