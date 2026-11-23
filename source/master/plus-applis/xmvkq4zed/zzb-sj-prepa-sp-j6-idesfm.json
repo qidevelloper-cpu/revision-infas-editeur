@@ -435,7 +435,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "TMI = décès d'enfants de moins d'un an / naissances vivantes. Décès < 1 an = 8 + 6 + 9 = 23 ; 23 / 62 = 37,09 %. Remarque : Le cours JMLECIEL et le document harmonisé multiplient le TMI par 1000 (370,9 ‰) ; le document L2 et les options du sujet utilisent × 100 : même résultat, unité différente.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 33-34 (TMI) ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), §3.2.7",
+       "explanation": "TMI = décès d'enfants de moins d'un an / naissances vivantes. Décès < 1 an = 8 + 6 + 9 = 23 ; 23 / 62 = 37,09 %. Remarque : Le cours et le document harmonisé multiplient le TMI par 1000 (370,9 ‰) ; le document L2 et les options du sujet utilisent × 100 : même résultat, unité différente.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 33-34 (TMI) ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, §3.2.7",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -473,7 +473,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "TMJ = décès d'enfants de 1 à 4 ans / total des enfants de 1 à 4 ans × 100. Les enfants de 1 à 4 ans représentent 17,32 % de la population totale : 9261 × 17,32 % ≈ 1604. Décès de 12 à 48 mois = 15 ; 15 / 1604 × 100 = 0,93 %. Remarque : Le calcul retenu utilise la population totale 2022 (9261). Avec la population moyenne (9041) on obtiendrait 0,96 %. Le cours JMLECIEL écrit le TMJ × 1000 (9,3 ‰).\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 34 (TMJ et rappel 17,32 %) ; FORMULES SANTE PUBLIQUE HARMONISEES, §1",
+       "explanation": "TMJ = décès d'enfants de 1 à 4 ans / total des enfants de 1 à 4 ans × 100. Les enfants de 1 à 4 ans représentent 17,32 % de la population totale : 9261 × 17,32 % ≈ 1604. Décès de 12 à 48 mois = 15 ; 15 / 1604 × 100 = 0,93 %. Remarque : Le calcul retenu utilise la population totale 2022 (9261). Avec la population moyenne (9041) on obtiendrait 0,96 %. Le cours écrit le TMJ × 1000 (9,3 ‰).\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 34 (TMJ et rappel 17,32 %) ; FORMULES SANTE PUBLIQUE HARMONISEES, §1",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -549,7 +549,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Taux de perte = 100 – taux d'utilisation = 100 – 98 = 2 %. FP = 100 / (100 – taux de perte) = 100 / 98 = 1,02. 1,11 est le facteur de perte standard du tableau national (perte de 10 %), non applicable ici puisque le TU est donné.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 45-46 (taux de perte, TU, facteur de perte) ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), §2.4",
+       "explanation": "Taux de perte = 100 – taux d'utilisation = 100 – 98 = 2 %. FP = 100 / (100 – taux de perte) = 100 / 98 = 1,02. 1,11 est le facteur de perte standard du tableau national (perte de 10 %), non applicable ici puisque le TU est donné.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 45-46 (taux de perte, TU, facteur de perte) ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, §2.4",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -587,7 +587,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Les enfants de 0 à 23 mois représentent 6,82 % de la population totale : 6500 × 6,82 % = 443,3, soit 444 enfants (on arrondit à l'unité supérieure pour une population cible). Remarque : Le document L2 2023-2024 donne encore la cible de routine 0 à 11 mois (4 %) ; le cours révisé 2025-2026 retient 0 à 23 mois = 6,82 %.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Tableau n°1 populations cibles du PEV (0 à 23 mois = 6,82 %)",
+       "explanation": "Les enfants de 0 à 23 mois représentent 6,82 % de la population totale : 6500 × 6,82 % = 443,3, soit 444 enfants (on arrondit à l'unité supérieure pour une population cible). Remarque : Le document L2 2023-2024 donne encore la cible de routine 0 à 11 mois (4 %) ; le cours révisé 2025-2026 retient 0 à 23 mois = 6,82 %.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, Tableau n°1 populations cibles du PEV (0 à 23 mois = 6,82 %)",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -625,7 +625,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Besoin annuel = population cible × objectif vaccinal × nombre de contacts × facteur de perte = 444 × 95 % × 3 × 1,02 = 1290,8 ≈ 1291 doses (penta : 3 contacts, objectif de routine 95 %).\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), §3.1.1.1 besoin théorique annuel, Tableau n°2 (objectif 95 %) et Tableau n°3 (penta = 3 contacts)",
+       "explanation": "Besoin annuel = population cible × objectif vaccinal × nombre de contacts × facteur de perte = 444 × 95 % × 3 × 1,02 = 1290,8 ≈ 1291 doses (penta : 3 contacts, objectif de routine 95 %).\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, §3.1.1.1 besoin théorique annuel, Tableau n°2 (objectif 95 %) et Tableau n°3 (penta = 3 contacts)",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -659,7 +659,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "En campagne (JNV de VPO), la cible est les enfants de 0 à 59 mois = 20 % de la population totale : 6500 × 20 % = 1300 enfants.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 43 Tableau n°1 ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Tableau n°1",
+       "explanation": "En campagne (JNV de VPO), la cible est les enfants de 0 à 59 mois = 20 % de la population totale : 6500 × 20 % = 1300 enfants.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 43 Tableau n°1 ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, Tableau n°1",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -697,7 +697,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "TA (Penta) = (Penta 1 – Penta 3) / Penta 1 × 100 = (132 – 130) / 132 × 100 = 1,51 %.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 54 §8.2 ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), §8.2 calcul des taux d'abandon",
+       "explanation": "TA (Penta) = (Penta 1 – Penta 3) / Penta 1 × 100 = (132 – 130) / 132 × 100 = 1,51 %.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 54 §8.2 ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, §8.2 calcul des taux d'abandon",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -731,7 +731,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Taux d'abandon global = (Penta 1 – RR 1) / Penta 1 × 100 = (132 – 120) / 132 × 100 = 9,09 %.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 54 §8.2 ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), §8.2",
+       "explanation": "Taux d'abandon global = (Penta 1 – RR 1) / Penta 1 × 100 = (132 – 120) / 132 × 100 = 9,09 %.\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 54 §8.2 ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, §8.2",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -765,7 +765,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Taux de couverture = enfants ayant reçu toutes les doses requises / population cible × 100. Donc enfants complètement vaccinés = 444 × 90 % = 399,6 ≈ 400 enfants. 444 est la population cible totale.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), §9.2 taux de couverture vaccinale globale et §1.7 enfant complètement vacciné",
+       "explanation": "Taux de couverture = enfants ayant reçu toutes les doses requises / population cible × 100. Donc enfants complètement vaccinés = 444 × 90 % = 399,6 ≈ 400 enfants. 444 est la population cible totale.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, §9.2 taux de couverture vaccinale globale et §1.7 enfant complètement vacciné",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -803,7 +803,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Pour la campagne RR, la cible des 9 mois à 14 ans = 45 % de la population totale : 6500 × 45 % = 2925 enfants. 1300 correspond à la cible VPO (20 %).\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 43 Tableau n°1 ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Tableau n°1",
+       "explanation": "Pour la campagne RR, la cible des 9 mois à 14 ans = 45 % de la population totale : 6500 × 45 % = 2925 enfants. 1300 correspond à la cible VPO (20 %).\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 43 Tableau n°1 ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, Tableau n°1",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -833,7 +833,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Indicateur de surveillance des PFA : la proportion d'échantillons de selles prélevés dans les 14 jours après le début de la paralysie doit être ≥ 80 % pour que la surveillance soit efficace.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), p. 60 §4.1.3 ; DOCUMENT REVISE L2 2023-2024 validé, p. 73 indicateurs de surveillance des PFA",
+       "explanation": "Indicateur de surveillance des PFA : la proportion d'échantillons de selles prélevés dans les 14 jours après le début de la paralysie doit être ≥ 80 % pour que la surveillance soit efficace.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, p. 60 §4.1.3 ; DOCUMENT REVISE L2 2023-2024 validé, p. 73 indicateurs de surveillance des PFA",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -863,7 +863,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Selon R. Pineault, l'approche psychosociologique détermine les perceptions de la population et fournit des données qualitatives. C'est l'approche épidémiologique du besoin qui fournit les données quantitatives.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Diagnostic communautaire (L2), §IV approches 4.1 et 4.2",
+       "explanation": "Selon R. Pineault, l'approche psychosociologique détermine les perceptions de la population et fournit des données qualitatives. C'est l'approche épidémiologique du besoin qui fournit les données quantitatives.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, Diagnostic communautaire (L2), §IV approches 4.1 et 4.2",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -893,7 +893,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "La classification des cas de tétanos néonatal est purement clinique et ne dépend pas d'une confirmation du laboratoire (aucun prélèvement à faire devant un cas).\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 77 §4.6.1 ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), p. 65 §4.7",
+       "explanation": "La classification des cas de tétanos néonatal est purement clinique et ne dépend pas d'une confirmation du laboratoire (aucun prélèvement à faire devant un cas).\n\nSource : DOCUMENT REVISE L2 2023-2024 validé, p. 77 §4.6.1 ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, p. 65 §4.7",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1013,7 +1013,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "La règle « Premier à Périmer, Premier à Sortir » sert à ranger les vaccins pour utiliser d'abord ceux qui expirent le plus tôt (éviter la péremption). Les doses sacrifiées sont des doses administrées à des personnes hors cible : cela n'a rien à voir.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Gestion des vaccins (règle PPPS) et §1.5 dose sacrifiée",
+       "explanation": "La règle « Premier à Périmer, Premier à Sortir » sert à ranger les vaccins pour utiliser d'abord ceux qui expirent le plus tôt (éviter la péremption). Les doses sacrifiées sont des doses administrées à des personnes hors cible : cela n'a rien à voir.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, Gestion des vaccins (règle PPPS) et §1.5 dose sacrifiée",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null,
@@ -1074,7 +1074,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le cours indique un taux de PFA non poliomyélitique ≥ 2 pour 100 000 enfants de moins de 15 ans (et non ≤ 2).\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), p. 60 §4.1.3 ; DOCUMENT REVISE L2 2023-2024 validé, p. 73",
+       "explanation": "Le cours indique un taux de PFA non poliomyélitique ≥ 2 pour 100 000 enfants de moins de 15 ans (et non ≤ 2).\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, p. 60 §4.1.3 ; DOCUMENT REVISE L2 2023-2024 validé, p. 73",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1583,7 +1583,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Acteurs de la mobilisation communautaire : organisations à base communautaire (organisation de jeunesse), leaders communautaires, relais communautaires. Gouvernements, ministères et organisations internationales sont des acteurs de la mobilisation sociale.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Mobilisation communautaire (L2) §V ; Mobilisation sociale §V",
+       "explanation": "Acteurs de la mobilisation communautaire : organisations à base communautaire (organisation de jeunesse), leaders communautaires, relais communautaires. Gouvernements, ministères et organisations internationales sont des acteurs de la mobilisation sociale.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, Mobilisation communautaire (L2) §V ; Mobilisation sociale §V",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1617,7 +1617,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Entre l'AG et l'US, la population a accès au service mais ne le fréquente pas (manque d'information, considérations socioculturelles). A correspond au goulot entre population cible / disponibilité des ressources et AG.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Monitorage, Tableau n°1 des goulots d'étranglement",
+       "explanation": "Entre l'AG et l'US, la population a accès au service mais ne le fréquente pas (manque d'information, considérations socioculturelles). A correspond au goulot entre population cible / disponibilité des ressources et AG.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, Monitorage, Tableau n°1 des goulots d'étranglement",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1816,7 +1816,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Parmi l'importance (avantages) du diagnostic communautaire : il sert de base aux actions sanitaires, oriente les efforts sur les besoins réels et permet de renforcer les activités en santé communautaire. A et B sont des buts.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Diagnostic communautaire §II buts et §III importance",
+       "explanation": "Parmi l'importance (avantages) du diagnostic communautaire : il sert de base aux actions sanitaires, oriente les efforts sur les besoins réels et permet de renforcer les activités en santé communautaire. A et B sont des buts.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, Diagnostic communautaire §II buts et §III importance",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1850,7 +1850,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Les buts du diagnostic communautaire : identifier les problèmes avec la communauté, analyser les ressources, et initier un processus de collaboration entre populations et agents de santé. A et B relèvent de l'importance.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Diagnostic communautaire §II buts et §III importance",
+       "explanation": "Les buts du diagnostic communautaire : identifier les problèmes avec la communauté, analyser les ressources, et initier un processus de collaboration entre populations et agents de santé. A et B relèvent de l'importance.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, Diagnostic communautaire §II buts et §III importance",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1884,7 +1884,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Entre l'US et la CA, la population vient une fois mais ne revient pas terminer la série de soins (mauvais accueil, RDV non expliqué, attente longue, MAPI). C décrit le goulot entre la CA et la couverture effective.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Monitorage, Tableau n°1 des goulots d'étranglement",
+       "explanation": "Entre l'US et la CA, la population vient une fois mais ne revient pas terminer la série de soins (mauvais accueil, RDV non expliqué, attente longue, MAPI). C décrit le goulot entre la CA et la couverture effective.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, Monitorage, Tableau n°1 des goulots d'étranglement",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1932,7 +1932,7 @@
         "C",
         "E"
        ],
-       "explanation": "Critères de priorisation d'un problème de santé : l'ampleur (incidence, prévalence), la gravité (létalité, complications), la vulnérabilité, les impacts socio-économiques, la perception et les réponses préexistantes.\n\nSource : COURS DE SANTE PUBLIQUE (document L1), §6.1.2 critères de priorisation ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Diagnostic communautaire (critères de sélection)",
+       "explanation": "Critères de priorisation d'un problème de santé : l'ampleur (incidence, prévalence), la gravité (létalité, complications), la vulnérabilité, les impacts socio-économiques, la perception et les réponses préexistantes.\n\nSource : COURS DE SANTE PUBLIQUE (document L1), §6.1.2 critères de priorisation ; COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, Diagnostic communautaire (critères de sélection)",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1966,7 +1966,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Populations bénéficiaires de la mobilisation sociale : personnes physiques, entités morales, société toute entière. L'individu et la communauté sont bénéficiaires de la mobilisation communautaire.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Mobilisation sociale §IV",
+       "explanation": "Populations bénéficiaires de la mobilisation sociale : personnes physiques, entités morales, société toute entière. L'individu et la communauté sont bénéficiaires de la mobilisation communautaire.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, Mobilisation sociale §IV",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -2000,7 +2000,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Bénéficiaires de la mobilisation communautaire : l'individu, la famille, la communauté. Personnes physiques et entités morales relèvent de la mobilisation sociale.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Mobilisation communautaire §IV",
+       "explanation": "Bénéficiaires de la mobilisation communautaire : l'individu, la famille, la communauté. Personnes physiques et entités morales relèvent de la mobilisation sociale.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, Mobilisation communautaire §IV",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -2034,7 +2034,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Acteurs de la mobilisation sociale : gouvernements, ministères, partenaires de mise en œuvre (ONG), organisations internationales. Le président d'association et l'ASC sont des acteurs de la mobilisation communautaire.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Mobilisation sociale §V et Mobilisation communautaire §V",
+       "explanation": "Acteurs de la mobilisation sociale : gouvernements, ministères, partenaires de mise en œuvre (ONG), organisations internationales. Le président d'association et l'ASC sont des acteurs de la mobilisation communautaire.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, Mobilisation sociale §V et Mobilisation communautaire §V",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -2068,7 +2068,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Entre la PC et la DR : la population cible est présente mais il y a manque ou insuffisance de ressources (médicaments, vaccins), par rupture, intervalle de commande trop long ou mauvaise estimation des besoins.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026 (JMLECIEL), Monitorage, Tableau n°1 des goulots d'étranglement",
+       "explanation": "Entre la PC et la DR : la population cible est présente mais il y a manque ou insuffisance de ressources (médicaments, vaccins), par rupture, intervalle de commande trop long ou mauvaise estimation des besoins.\n\nSource : COURS SANTÉ PUBLIQUE L1,L2,L3 RÉVISÉ 2025-2026, Monitorage, Tableau n°1 des goulots d'étranglement",
        "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J6 (IDE/SFM)",
        "sourceFile": "J6_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null

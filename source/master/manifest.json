@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 128314382,
- "sha256": "5a8d57712f33ae26594e43bd234094811ae5ac5000ac6f88c4286d3e19ca46f6",
+ "taille": 128313532,
+ "sha256": "24f44d5ddfb203df1b7ed56df2456a5b73b8b7fcf4ea6271cebad680ed2beedd",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -16619,8 +16619,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusnat-xmvkq4zed",
-   "octets": 3477060,
-   "sha256": "d7b959779c8833500c6da7ab625aa31d7aa14808b13eececfc48d38fdbf013da",
+   "octets": 3476635,
+   "sha256": "d348f2515c296ef4008889ec4681d4940aae41b31920a76a6db60826dd5899ff",
    "fichier": "plus-applis/xmvkq4zed-natif.json",
    "codage": "brut"
   },
@@ -16645,8 +16645,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--s3-2026",
-   "octets": 2885093,
-   "sha256": "9598f46dd1a614701fbb2ed86f4a5dbd9bcaebb88a68f0da22d83ca378e790c0",
+   "octets": 2885082,
+   "sha256": "02f3d5e1e3ca7fae67c062220918c8ba9b44981d97f739e7f87343ec30ba7774",
    "fichier": "plus-applis/xmvkq4zed/s3-2026.json",
    "codage": "brut"
   },
@@ -16879,8 +16879,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zj-sj-prepa-sp-j3-idesfm",
-   "octets": 101730,
-   "sha256": "440de8bac2c58d15daf1bf43b140cd7877d0074fd26a010a4cf13a097e0cc575",
+   "octets": 101598,
+   "sha256": "30559f8713bc6dfe0621b2a226c168c5ea58d9353f67172db12268d89120e8d2",
    "fichier": "plus-applis/xmvkq4zed/zj-sj-prepa-sp-j3-idesfm.json",
    "codage": "brut"
   },
@@ -17100,8 +17100,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zzb-sj-prepa-sp-j6-idesfm",
-   "octets": 100655,
-   "sha256": "af827e5d098b73f314c94d7b8bcab9b6827ff01bc94f819bf066e9da0b1ab4ee",
+   "octets": 100373,
+   "sha256": "1c12b531d44ab398c791ceb956d56b25d18aaa9bbf65fc9d082dcefe26938506",
    "fichier": "plus-applis/xmvkq4zed/zzb-sj-prepa-sp-j6-idesfm.json",
    "codage": "brut"
   },
