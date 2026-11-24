@@ -1,0 +1,38 @@
+{
+ "version": 1,
+ "ajoute": "2026-11-23",
+ "mat": {
+  "id": "xauxsrpf",
+  "title": "Santé de la reproduction / PF — Auxiliaires de santé",
+  "short": "SR / PF (Aux.)",
+  "emo": "🌸",
+  "col": "#9D174D",
+  "fil": [
+   "AUX"
+  ],
+  "niv": "L1",
+  "de": "non",
+  "vue": "sujets",
+  "accueil": true,
+  "ch": [
+   "ABIDJAN · Santé de la reproduction / PF",
+   "BOUAKÉ · Santé de la reproduction / PF",
+   "DALOA · Santé de la reproduction / PF",
+   "ABENGOUROU · Santé de la reproduction / PF",
+   "KORHOGO · Santé de la reproduction / PF",
+   "ABOISSO · Santé de la reproduction / PF"
+  ],
+  "sub": "Diplôme d’État blanc 2024-2025 · 6 sujets · 247 questions corrigées"
+ },
+ "groupes": [
+  {
+   "g": "aux"
+  }
+ ],
+ "filiere": "AUX",
+ "origine": {
+  "fichier": "aux-2024-2025/Annales_examens_blancs_Auxiliaires_de_sante_2024-2025.pdf",
+  "sha256": "b067df986712cc2ca665b581c6ecd5b23426044e08e8a29e4cca00b99aa8d1dd"
+ },
+ "questions": "ajouts/xauxsrpf-questions.json : 247 questions, un sujet par antenne"
+}

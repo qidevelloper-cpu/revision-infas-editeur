@@ -1,0 +1,36 @@
+{
+ "version": 1,
+ "ajoute": "2026-11-23",
+ "mat": {
+  "id": "xauxchir",
+  "title": "Soins infirmiers en chirurgie — Auxiliaires de santé",
+  "short": "Chirurgie (Aux.)",
+  "emo": "🔪",
+  "col": "#2C3E8F",
+  "fil": [
+   "AUX"
+  ],
+  "niv": "L1",
+  "de": "non",
+  "vue": "sujets",
+  "accueil": true,
+  "ch": [
+   "BOUAKÉ · Soins infirmiers en chirurgie",
+   "DALOA · Soins infirmiers en chirurgie",
+   "KORHOGO · Soins infirmiers en chirurgie",
+   "ABOISSO · Soins infirmiers en chirurgie"
+  ],
+  "sub": "Diplôme d’État blanc 2024-2025 · 4 sujets · 149 questions corrigées"
+ },
+ "groupes": [
+  {
+   "g": "aux"
+  }
+ ],
+ "filiere": "AUX",
+ "origine": {
+  "fichier": "aux-2024-2025/Annales_examens_blancs_Auxiliaires_de_sante_2024-2025.pdf",
+  "sha256": "b067df986712cc2ca665b581c6ecd5b23426044e08e8a29e4cca00b99aa8d1dd"
+ },
+ "questions": "ajouts/xauxchir-questions.json : 149 questions, un sujet par antenne"
+}

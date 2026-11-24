@@ -1,0 +1,38 @@
+{
+ "version": 1,
+ "ajoute": "2026-11-23",
+ "mat": {
+  "id": "xauxmed",
+  "title": "Soins infirmiers en médecine — Auxiliaires de santé",
+  "short": "Médecine (Aux.)",
+  "emo": "🩺",
+  "col": "#0E7490",
+  "fil": [
+   "AUX"
+  ],
+  "niv": "L1",
+  "de": "non",
+  "vue": "sujets",
+  "accueil": true,
+  "ch": [
+   "ABIDJAN · Soins infirmiers en médecine",
+   "BOUAKÉ · Soins infirmiers en médecine",
+   "DALOA · Soins infirmiers en médecine",
+   "ABENGOUROU · Soins infirmiers en médecine",
+   "KORHOGO · Soins infirmiers en médecine",
+   "ABOISSO · Soins infirmiers en médecine"
+  ],
+  "sub": "Diplôme d’État blanc 2024-2025 · 6 sujets · 245 questions corrigées"
+ },
+ "groupes": [
+  {
+   "g": "aux"
+  }
+ ],
+ "filiere": "AUX",
+ "origine": {
+  "fichier": "aux-2024-2025/Annales_examens_blancs_Auxiliaires_de_sante_2024-2025.pdf",
+  "sha256": "b067df986712cc2ca665b581c6ecd5b23426044e08e8a29e4cca00b99aa8d1dd"
+ },
+ "questions": "ajouts/xauxmed-questions.json : 245 questions, un sujet par antenne"
+}

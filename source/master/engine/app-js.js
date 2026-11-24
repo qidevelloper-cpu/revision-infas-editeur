@@ -381,7 +381,7 @@ B('home.mat','Matières par groupe',()=>{const mine=new Set(myMats().map(m=>m.id
  const open=S.gOpen||{};
  return `<div class="secT">${T('home.mat','Matières')}<span class="ln"></span></div>`+G.map((g,gi)=>`<details class="grp sf" style="--gc:${esc(g.col||'var(--coral)')}" data-g="${esc(g.id)}" ${open[g.id]===false?'':'open'}><summary><span class="ge">${esc(g.e||'📁')}</span><b>${esc(g.n)}</b><small>${g.subs.reduce((a,s)=>a+s.mats.length,0)} ${esc(Tx('grp.n','cours'))}</small></summary>${(()=>{const solo=g.subs.filter(s=>s.mats.length===1),multi=g.subs.filter(s=>s.mats.length>1);
   return (solo.length?grid('g.'+g.id,solo.map(s=>{const t=matTile(MATI[s.mats[0]]);if(s.n&&nrm(s.n)!==nrm(MATI[s.mats[0]].short))t.n=esc(s.n)+' · '+t.n;return t})):'')+multi.map(s=>`<div class="sgrp">${esc(s.n)}</div>${grid('g.'+g.id+'.'+s.id,s.mats.map(id=>matTile(MATI[id])))}`).join('')})()}</details>`).join('')
- +(otherMats().length?`<button class="btn light" style="margin-top:4px" onclick="CAHIER=S.extra.slice();go('autres')">${T('home.mat.add','➕ Autres cours (cahier des cours)')}</button>`:'')},{grid:1,after:r=>$$('details.grp',r).forEach(d=>d.addEventListener('toggle',()=>{S.gOpen=S.gOpen||{};S.gOpen[d.dataset.g]=d.open;save()}))});
+ +(otherMats().length?`<button class="btn light" style="margin-top:4px" onclick="CAHIER=S.extra.slice();go('autres')">${T('home.mat.add','➕ Autres cours (cahier des cours)')}</button>`:'')},{grid:1,after:r=>$$('details.grp',r).forEach(d=>d.addEventListener('toggle',()=>{const g=d.dataset.g,avant=!(S.gOpen&&S.gOpen[g]===false);if(avant===d.open)return;/* ouverture à l'affichage : rien n'est enregistré */S.gOpen=S.gOpen||{};S.gOpen[g]=d.open;save()}))});
 function openMat(id){S.lastMat=id;save();go('matiere',{id})}
 B('home.fav','Cours mis en favoris',()=>{const L=myMats().filter(m=>S.fav[m.id]);return `<div class="card sf"><h3>${T('home.fav','⭐ Liste des cours mis en favoris')}</h3>${L.length?L.map(m=>`<div class="li" onclick="openMat('${jsq(m.id)}')"><span class="em">${esc(m.emo)}</span><span class="tx"><b>${esc(m.title)}</b><small>${mStat(m.id).pct}% ${Tx('ui.mastered','maîtrisé')}</small></span><span class="go">›</span></div>`).join(''):`<div class="empty">${T('home.fav.empty','Touche ☆ dans une matière pour l’ajouter ici.')}</div>`}</div>`});
 B('home.diff','Notions difficiles à revoir',()=>{const L=myMats().map(m=>({m,n:diffIds(m.id).length})).filter(x=>x.n);const tot=L.reduce((a,x)=>a+x.n,0);
@@ -811,10 +811,10 @@ function musicHTML(ou){const L=musicList();if(!L.length)return EDITMODE?`<div cl
 B('home.music','Cours en musique',()=>musicHTML(0));BLK['home.music'].oneui=()=>musicHTML(1);
 
 /* ---------- 4. SERVICE CLIENT & COMMUNAUTÉ (liens saisis dans l'éditeur) ---------- */
-const COMMU=[['wa_chan','📢','Intégrer la chaîne WhatsApp','Nouveautés et annonces','#128C7E'],['wa_g1','💬','Intégrer le groupe WhatsApp','Entraide entre étudiants','#25D366'],['wa_g2','💬','Intégrer le 2e groupe WhatsApp','Entraide entre étudiants','#25D366'],['tg','✈️','Intégrer le groupe Telegram','Documents et discussions','#229ED9'],['admin','✉️','Écrire à l’administrateur de l’application','Poser une question, signaler un problème','#E8772E']];
+const COMMU=[['wa_chan','📢','Intégrer la chaîne WhatsApp','Nouveautés et annonces','#128C7E'],['wa_g1','💬','Intégrer le groupe WhatsApp','Entraide entre étudiants','#25D366'],['wa_g2','💬','Intégrer le 2e groupe WhatsApp','Entraide entre étudiants','#25D366'],['tg','✈️','Intégrer le groupe Telegram','Documents et discussions','#229ED9'],['wa_aux','🩹','Intégrer le groupe des auxiliaires','Entraide entre auxiliaires','#0E7490'],['admin','✉️','Écrire à l’administrateur de l’application','Poser une question, signaler un problème','#E8772E']];
 const linkOk=u=>/^(https:\/\/|mailto:|tel:)/i.test(u||'');
 function commuHTML(ou,big){const c=(E.content&&E.content.commu)||{};const H=big?T('cm.big','🤝 REJOINS LA COMMUNAUTÉ'):T('cm.h','🤝 Service client & communauté');
- const L=COMMU.filter(x=>x[0]!=='wa_g2'||linkOk(c.wa_g2));
+ const L=COMMU.filter(x=>(x[0]!=='wa_g2'&&x[0]!=='wa_aux')||linkOk(c[x[0]]));
  const soon=Tx('cm.soon','Bientôt disponible');
  const btns=L.map(([k,e,n,s,col])=>linkOk(c[k])?`<a class="cmb" href="${esc(c[k])}" ${/^https/i.test(c[k])?'target="_blank" rel="noopener"':''} style="--cc:${col}"><span class="ce">${e}</span><span class="ct"><b>${esc(c[k+'_n']||n)}</b><small>${esc(s)}</small></span><span class="go">›</span></a>`
   :`<button class="cmb cmsoon" style="--cc:${col}" onclick="toast('${jsq(soon+' ⏳')}')"><span class="ce">${e}</span><span class="ct"><b>${esc(n)}</b><small>⏳ ${esc(soon)}</small></span></button>`).join('');
@@ -1259,7 +1259,7 @@ try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_ca
   window.addEventListener('resize', placeFab);
   // bouton visible seulement quand l'écran du quiz est affiché
   const CFG = window.CALC_CONFIG || {};
-  const quizOn = () => {
+  const quizOn = () => { if (typeof S!=='undefined'&&S&&S.fil==='AUX') return false;   /* auxiliaires : pas de calculatrice */
     if (CFG.always) return true;
     const q = document.querySelector(CFG.quizSelector || '#screen-quiz');
     return !!(q && !q.classList.contains('hidden') && q.getClientRects().length);
@@ -1329,7 +1329,7 @@ try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_ca
   window.addEventListener('resize', () => { placeFab(); if (!ov.classList.contains('hidden')) placer() });
   const CH = /\bchirurgie\b/i, vu = el => !!(el && !el.classList.contains('hidden') && el.getClientRects().length);
   const chirQ = id => { try { const q = QI[id]; if (!q) return false; const m = (MAT || []).find(x => x.id === q.m) || {}; return CH.test((m.title || '') + ' ' + (m.short || '') + ' ' + ((m.ch && q.c >= 0 && m.ch[q.c]) || '')) } catch (e) { return false } };
-  const chirNow = () => { try {
+  const chirNow = () => { if (typeof S!=='undefined'&&S&&S.fil==='AUX') return false; try {   /* auxiliaires : pas de table de Lund-Browder */
     if (VIEW === 'appview') { const m = (MAT || []).find(x => x.id === ctx.id) || {}; if (CH.test((m.title || '') + ' ' + (m.short || '')) && !/correction|examens?\s+blancs?/i.test(m.title || '')) return true;
       const f = document.querySelector('#appKeep.on') || document.querySelector('#appFrame:not(.hide)'); const d = f && f.contentDocument; if (!d) return false;
       if (!vu(d.getElementById('screen-quiz'))) return false; const e = d.getElementById('q-eyebrow'); return !!(e && CH.test(e.textContent)) }
@@ -1831,7 +1831,7 @@ const _glossDraw0=glossDraw;glossDraw=function(){_glossDraw0.apply(this,argument
  if(mid&&!$('#glAdd'))o.insertAdjacentHTML('afterbegin',`<button class="btn coral" id="glAdd" onclick="riGlAdd('${jsq(mid)}')">＋ ${esc(Tx('ed.gadd2','Ajouter un terme'))}</button>`);
  if(mid)$$('.gli',o).forEach(el=>{if(el.querySelector('.riedbtn'))return;const t=el.querySelector('b').textContent;const b=document.createElement('button');b.className='riedbtn';b.textContent='✏️';b.onclick=()=>riGlEdit(mid,t);el.appendChild(b)})};
 /* compte à rebours avant le D.E (date réglée dans l'éditeur) */
-B('home.countdown','Compte à rebours D.E',()=>{const c=(E.content||{}).countdown||{};const ed=edOn();if(!c.d&&!ed)return'';
+B('home.countdown','Compte à rebours D.E',()=>{const ed=edOn(),aux=(typeof S!=='undefined'&&S&&S.fil==='AUX')&&!ed;const c=aux?((RIC.cfg&&RIC.cfg.countdownAux)||{}):((E.content||{}).countdown||{});if(!c.d&&(!ed||aux))return'';   /* auxiliaires : date du tableau de bord › Auxiliaires */
  if(!c.d)return `<div class="card sf cdwn"><b>⏳ ${esc(Tx('cd.none','Compte à rebours D.E'))}</b><button class="btn light" onclick="riCdEdit()">${esc(Tx('cd.set','Choisir la date de l’examen'))}</button></div>`;
  const d=new Date(c.d+'T08:00:00'),n=Math.ceil((d-Date.now())/864e5);const ds=d.toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'});
  return `<div class="card sf cdwn"><div class="cdn">${n>0?'J-'+n:n===0?Tx('cd.today','C’est aujourd’hui !'):'✅'}</div><div><b>${esc(c.t||Tx('cd.t','Avant le D.E'))}</b><small>📅 ${esc(ds)}</small></div>${ed?`<button class="riedbtn" onclick="riCdEdit()">✏️</button>`:''}</div>`});
@@ -2471,9 +2471,9 @@ const RIC={
    const sv=k=>{const x=sets.find(r=>r.cle===k);return(x&&x.valeur)||{}};const pa=sv('public.access'),pay=sv('public.paiement');
    const old=JSON.stringify(RIC.cfg.regles)+RIC.cfg.defaut+JSON.stringify(RIC.cfg.annonces)+JSON.stringify(RIC.cfg.questions||{})+JSON.stringify(RIC.cfg.promo||null)+JSON.stringify(RIC.cfg.offres||null)+JSON.stringify(RIC.cfg.contact||null);
    let google=false;try{const r=await fetch(RIC.url+'/auth/v1/settings',{headers:H(),cache:'no-store'});if(r.ok){const j=await r.json();google=!!(j.external&&j.external.google)}}catch(e){}
-   RIC.cfg={regles,defaut:pa.defaut==='premium'?'premium':'gratuit',version:pa.version||0,questions:(pa.questions&&typeof pa.questions==='object')?pa.questions:{},plusapp:(pa.plusapp&&typeof pa.plusapp==='object')?pa.plusapp:{},plans,annonces:ann,google,paiement:pay,promo:(pa.promo&&typeof pa.promo==='object')?pa.promo:null,fincorr:(pa.fincorr&&typeof pa.fincorr==='object')?pa.fincorr:{},nosig:(pa.nosig&&typeof pa.nosig==='object')?pa.nosig:{},offres:(pa.offres&&typeof pa.offres==='object')?pa.offres:null,contact:(pa.contact&&typeof pa.contact==='object')?pa.contact:null,t:Date.now()};
+   RIC.cfg={regles,defaut:pa.defaut==='premium'?'premium':'gratuit',version:pa.version||0,questions:(pa.questions&&typeof pa.questions==='object')?pa.questions:{},plusapp:(pa.plusapp&&typeof pa.plusapp==='object')?pa.plusapp:{},plans,annonces:ann,google,paiement:pay,promo:(pa.promo&&typeof pa.promo==='object')?pa.promo:null,fincorr:(pa.fincorr&&typeof pa.fincorr==='object')?pa.fincorr:{},nosig:(pa.nosig&&typeof pa.nosig==='object')?pa.nosig:{},offres:(pa.offres&&typeof pa.offres==='object')?pa.offres:null,contact:(pa.contact&&typeof pa.contact==='object')?pa.contact:null,countdownAux:(pa.countdownAux&&typeof pa.countdownAux==='object'&&/^\d{4}-\d\d-\d\d$/.test(pa.countdownAux.d||''))?pa.countdownAux:null,t:Date.now()};
    LS.set(RIC.CK,RIC.cfg);RIC.ready=true;
-   if(old!==JSON.stringify(regles)+RIC.cfg.defaut+JSON.stringify(ann)+JSON.stringify(RIC.cfg.questions)+JSON.stringify(RIC.cfg.promo||null)+JSON.stringify(RIC.cfg.offres||null)+JSON.stringify(RIC.cfg.contact||null)&&typeof render==='function'&&!EDITMODE&&!quiet)render();
+   if(old!==JSON.stringify(regles)+RIC.cfg.defaut+JSON.stringify(ann)+JSON.stringify(RIC.cfg.questions)+JSON.stringify(RIC.cfg.promo||null)+JSON.stringify(RIC.cfg.offres||null)+JSON.stringify(RIC.cfg.contact||null)+JSON.stringify(RIC.cfg.countdownAux||null)&&typeof render==='function'&&!EDITMODE&&!quiet)render();
   }catch(e){console.warn('RI cloud : règles non mises à jour',e)}
   RIC.busy=false;flush()}
  RIC.refresh=refresh;
@@ -4412,5 +4412,88 @@ const RI_IMG_MASQUEES={xmvkq5cba:["xxmvkq5cba_0", "xxmvkq5cba_1", "xxmvkq5cba_2"
   const S=new Set(ids);t=t.replace(/"imgs":\[([^\]]*)\]/g,(x,L)=>{if(!L)return x;const it=L.split(',');const k=it.filter(s=>!S.has(s.trim().replace(/^"|"$/g,'')));return k.length===it.length?x:'"imgs":['+k.join(',')+']'});
   return t};
  const _un=unesc;unesc=function(t){return _un.call(this,libre()?t:riMasqueApp(t))};
+})();
+/* ======================= FILIÈRE « AUXILIAIRE DE SANTÉ » CLOISONNÉE (décision de Daniel, 23/11/2026) =======================
+   · nouvelle filière AUX, choisie à l'inscription comme IDE / Sage-femme ;
+   · un élève AUX ne voit QUE les cours marqués fil:['AUX'] ; un élève des autres filières ne les voit jamais
+     (les cours de l'autre groupe sont retirés des listes, des sujets, des quiz, de la recherche et des questions) ;
+   · une fois inscrit, l'élève ne peut pas passer seul d'un groupe à l'autre (IDE / SF / IADE ↔ AUX) ;
+   · « deux filières » : l'éditeur (Studio) et les comptes autorisés au tableau de bord voient tout.
+     Autorisation : app_settings « public.access » → deuxFilieres = liste d'empreintes SHA-256 des e-mails (minuscules),
+     jamais les e-mails en clair. Ces comptes peuvent aussi changer librement de filière pour voir l'appli comme l'élève. */
+(function(){
+ const AUX='AUX',LK='ri_deux_fil';
+ try{if(typeof DATA0!=='undefined'&&Array.isArray(DATA0.filieres)&&!DATA0.filieres.some(f=>f.id===AUX))DATA0.filieres.push({id:AUX,n:'Auxiliaire de santé',e:'🩹'})}catch(e){}
+ const estAuxMat=m=>!!(m&&Array.isArray(m.fil)&&m.fil.includes(AUX));
+ const groupeFil=f=>f===AUX?'aux':(f?'std':'');
+ let DEUX=false;try{DEUX=localStorage.getItem(LK)==='1'}catch(e){}
+ function deux(){try{if(typeof EDITMODE!=='undefined'&&EDITMODE)return true;if(/[?&]lecture=1\b/.test(location.search))return true;if(typeof RO!=='undefined'&&RO===false)return true}catch(e){}return DEUX}
+ window.riFiliere={AUX,estAuxMat,deux:()=>deux(),groupe:()=>groupeFil(S&&S.fil)};
+ /* cloisonnement : après chaque calcul du contenu */
+ const _ac=applyContent;applyContent=function(){const r=_ac.apply(this,arguments);try{cloison()}catch(e){console.warn('RI filière',e)}return r};
+ function cloison(){
+  /* les sujets auxiliaires ne sont pas des cours : jamais dans « Matières » (sauf dans l'éditeur) ; leurs questions restent pour les sujets */
+  if(!(typeof EDITMODE!=='undefined'&&EDITMODE))MAT.forEach(m=>{if(estAuxMat(m)){m.off=true;m.auxSuj=1}});
+  if(deux()||!S)return;const aux=S.fil===AUX,K=new Set();
+  MAT.forEach(m=>{const cache=aux?!estAuxMat(m):estAuxMat(m);if(!cache)return;m.off=true;m.cloison=1;K.add(m.id);QBM[m.id]=[]});
+  if(!K.size)return;
+  Object.keys(QI).forEach(id=>{const q=QI[id];if(K.has(q&&q.m)||K.has(String(id).split('.')[0]))delete QI[id]});
+  /* fenêtre « Nouvelle version » : pas d'annonce des cours de l'autre groupe */
+  try{const R=window.__REL;if(R&&Array.isArray(R.hist))R.hist.forEach(h=>{if(Array.isArray(h.notes))h.notes=h.notes.filter(n=>!(n&&n.m&&K.has(n.m)))})}catch(e){}}
+ /* rubrique d'accueil des cours auxiliaires */
+ const _gr=groups;groups=function(){let G=_gr.apply(this,arguments);const ids=MAT.filter(m=>estAuxMat(m)&&!m.cloison&&!m.off).map(m=>m.id);
+  /* les cours de l'autre groupe disparaissent des rubriques ; rubriques vides retirées */
+  const D=deux();G.forEach(g=>{g.subs.forEach(s=>{s.mats=s.mats.filter(id=>!ids.includes(id)&&!(MATI[id]&&(MATI[id].cloison||MATI[id].auxSuj)))});if(!D)g.subs=g.subs.filter(s=>s.mats.length)});
+  if(!D)G=G.filter(g=>g.subs.length);else G=G.filter(g=>g.id!=='_autres'||g.subs.some(s=>s.mats.length));
+  if(ids.length){let g=G.find(x=>x.id==='aux');if(!g){g={id:'aux',n:Tx('aux.grp','AUXILIAIRES DE SANTÉ'),e:'🩹',col:'#0E7490',subs:[]};if(D)G.push(g);else G.unshift(g)}   /* Studio (deux filières) : à la fin, les autres rubriques gardent leur place */
+   g.subs=[{id:'aux-annales',n:Tx('aux.sub','Diplôme d’État blanc 2024-2025'),mats:ids}]}
+  return G};
+ /* changement de filière : pas de passage seul d'un groupe à l'autre */
+ const _pf=pickFil;pickFil=function(f){
+  /* 23/11/2026 : l'élève peut changer de filière (IDE / SF ↔ Auxiliaire) ; le contenu suit toujours sa filière (cloisonnement) */
+  const r=_pf.apply(this,arguments);try{recalc()}catch(e){}return r};
+ window.pickFil=pickFil;
+ /* comptes « deux filières » (tableau de bord / SQL : public.access → deuxFilieres) */
+ async function sha(t){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(t));return[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
+ async function verifier(){try{if(typeof RIC==='undefined'||!RIC.url||!navigator.onLine)return;const em=String((RIC.session&&RIC.session.email)||'').trim().toLowerCase();
+   let ok=false;if(em){const r=await fetch(RIC.url+'/rest/v1/app_settings?select=valeur&cle=eq.public.access',{headers:{apikey:RIC.key},cache:'no-store'});if(!r.ok)return;
+    const j=await r.json();const L=((j[0]&&j[0].valeur&&j[0].valeur.deuxFilieres)||[]).map(x=>String(x).toLowerCase());ok=L.includes(await sha(em))}
+   if(ok!==DEUX){DEUX=ok;try{ok?localStorage.setItem(LK,'1'):localStorage.removeItem(LK)}catch(e){}try{recalc();render()}catch(e){}}}catch(e){}}
+ window.riFiliere.verifier=verifier;
+ setTimeout(verifier,2500);document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')verifier()});
+
+ /* ---------- ACCUEIL DE L'ÉLÈVE AUXILIAIRE : les sujets d'examen blanc rangés par matière, puis par ville ---------- */
+ const estAux=()=>!!(S&&S.fil===AUX)&&!(typeof EDITMODE!=='undefined'&&EDITMODE);
+ const auxMats=()=>MAT.filter(m=>estAuxMat(m)&&(QBM[m.id]||[]).length);
+ const COUL=['#0F6B5C','#C2410C','#2C3E8F','#9D174D','#8A6A3D','#0E7490','#4D7C0F','#6D28D9'];
+ const villes=m=>(m.ch||[]).map((c,i)=>({i,nom:String(c).split(' · ')[0],n:(QBM[m.id]||[]).filter(q=>q.c===i).length})).filter(v=>v.n);
+ function types(mid,i){const L=(QBM[mid]||[]).filter(q=>q.c===i);const vf=L.filter(q=>q.t==='vf').length,qc=L.length-vf;return[vf?vf+' QCD':'',qc?qc+' QCM':''].filter(Boolean).join(' · ')}
+ function carte(o){return `<button class="auxc" style="--auxc:${esc(o.col)}" onclick="${o.click}"><span class="auxpill">${esc(o.titre)}</span><span class="auxd">${esc(o.desc)}</span><span class="auxfig" aria-hidden="true">${esc(o.emo)}</span></button>`}
+ function cartesMatieres(){const L=auxMats();if(!L.length)return `<div class="empty">${T('de.none2','Bientôt disponibles.')}</div>`;
+  return `<div class="auxst">${L.map((m,k)=>{const V=villes(m);return carte({col:m.col||COUL[k%COUL.length],titre:String(m.title||'').split(' — ')[0],desc:Tx('aux.mdesc','{v} villes · {n} questions corrigées',{v:V.length,n:(QBM[m.id]||[]).length}),emo:m.emo||'📝',click:`go('auxsuj',{id:'${jsq(m.id)}'})`})}).join('')}</div>`}
+ function cartesVilles(mid){const m=MATI[mid];if(!m)return'';const V=villes(m),k0=Math.max(0,COUL.indexOf(m.col));
+  return `<div class="auxst">${V.map((v,k)=>carte({col:COUL[(k0+k)%COUL.length],titre:v.nom,desc:Tx('aux.vdesc','{n} questions · {t}',{n:v.n,t:types(mid,v.i)}),emo:'📍',click:`riAuxSujet('${jsq(mid)}',${v.i})`})).join('')}</div>`}
+ window.riAuxSujet=function(mid,i){const m=MATI[mid];if(!m)return;const ids=(QBM[mid]||[]).filter(q=>q.c===i).map(q=>q.id);
+  if(RIC&&RIC.can&&!RIC.can('matiere:'+mid+'/sujet:'+(i+1))){try{RIC.paywall('matiere:'+mid+'/sujet:'+(i+1),'Sujet Premium')}catch(e){}return}
+  startFil(mid,ids,String(m.ch[i]||'').replace(' · ',' · '))};
+ SCREENS.auxsuj={n:'Sujets auxiliaires (villes)',ctx:1,hdr:()=>{const m=matOf(ctx.id);return miniHeader(T('aux.small','📝 Sujets d’examen blanc'),esc(String(m.title||'').split(' — ')[0]))},blocks:['auxsuj.main']};
+ B('auxsuj.main','Sujets d’une matière auxiliaire, par ville',()=>`<div class="muted small" style="margin:2px 2px 12px">${T('aux.choisir','Choisis la ville : le sujet s’affiche en entier, dans l’ordre du document, avec la correction.')}</div>`+cartesVilles(ctx.id));
+ const remplace=(id,f)=>{const b=BLK[id];if(!b)return;const h=b.html,o=b.oneui;b.html=function(){return estAux()?f():h.apply(this,arguments)};if(o)b.oneui=function(){return estAux()?f():o.apply(this,arguments)}};
+ const deAux=()=>`<div class="card sf dec"><h3>${T('de.h','🎓 Sujets préparation D.E')}</h3><div class="muted small">${T('de.sub','Sujets d’examen blanc et d’examen, pour t’entraîner dans les conditions du D.E.')}</div>
+  <div class="lbl3">${T('de.ex','🏛️ Sujets d’examen (D.E)')}</div>${cartesMatieres()}</div>`;
+ const bientot=()=>`<div class="secT">${T('home.mat','Matières')}<span class="ln"></span></div><div class="card sf auxsoon"><div class="auxsoonh">🩹 ${T('aux.grp','AUXILIAIRES DE SANTÉ')}</div><div class="empty">${T('aux.soon','Bientôt disponible.')}</div></div>`;
+ remplace('home.de',deAux);
+ ['home.sujexam','home.sujets','home.formules','matieres.more'].forEach(id=>remplace(id,()=>''));
+ remplace('home.mat',bientot);remplace('matieres.list',()=>bientot().replace(/^<div class="secT">[\s\S]*?<\/div>/,''));
+ const st=document.createElement('style');st.textContent=`
+ .auxst{display:flex;flex-direction:column;margin-top:10px}
+ .auxc{position:relative;display:block;width:100%;text-align:left;border:0;font:inherit;color:#fff;background:var(--auxc);border-radius:22px;padding:16px 18px 34px;min-height:118px;overflow:hidden;cursor:pointer;margin-top:-26px;box-shadow:0 -6px 14px rgba(0,0,0,.13);border-top:2px solid color-mix(in srgb,var(--auxc) 70%,#fff)}
+ .auxc:first-child{margin-top:0}.auxc:last-child{padding-bottom:18px}
+ .auxc:active{filter:brightness(1.06)}
+ .auxpill{display:inline-block;background:color-mix(in srgb,var(--auxc) 62%,#fff);color:#fff;font-weight:800;font-size:17px;line-height:1.2;padding:6px 14px;border-radius:13px;max-width:62%}
+ .auxd{display:block;margin-top:10px;font-size:13.5px;line-height:1.35;opacity:.95;max-width:60%}
+ .auxfig{position:absolute;right:14px;top:14px;width:96px;height:96px;display:flex;align-items:center;justify-content:center;font-size:50px;background:color-mix(in srgb,var(--auxc) 55%,#fff);border-radius:46% 54% 40% 60%/58% 42% 58% 42%;transform:rotate(-8deg)}
+ .auxsoon{text-align:center}.auxsoonh{font-weight:800;font-size:17px;color:var(--h2,#17594C);letter-spacing:.3px}`;
+ document.head.appendChild(st);
 })();
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();

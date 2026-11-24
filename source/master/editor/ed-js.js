@@ -361,7 +361,7 @@ CBIND.lic=box=>{box.innerHTML=`<div class="ed-note">Les cours de chaque licence.
  $$('[data-lf]',box).forEach(x=>x.onchange=()=>{const id=x.dataset.lf;putMat(id,{fil:$$(`[data-lf="${id}"]`,box).filter(c=>c.checked).map(c=>c.value)})})};
 let CHSEL=new Set();
 /* filières de base (sans les filières « équivaut à ») et écriture des filières d'un chapitre ; tout coché = celles du cours (réglage retiré) */
-function FILB(){return DATA.filieres.filter(f=>!f.like)}
+function FILB(){return DATA.filieres.filter(f=>!f.like&&f.id!=='AUX')}   /* filières d'un sujet : IDE / SF ; le contenu auxiliaire est séparé (cours AUX) */
 function chFilPut(m,idx,L,label){const cf=Object.assign({},m.chFil||{}),base=(m.fil||[]).slice().sort().join(',');idx.forEach(i=>{const v=FILB().map(f=>f.id).filter(f=>L.includes(f));if(!v.length||v.slice().sort().join(',')===base)delete cf[i];else cf[i]=v});
  E.content.mat=E.content.mat||{};E.content.mat[m.id]=Object.assign(E.content.mat[m.id]||{},{chFil:cf});commit(label);recalc();render()}
 CBIND.chl=box=>{if(!CT.m||!MATI[CT.m])CT.m=(ctx&&ctx.id&&MATI[ctx.id])?ctx.id:MAT[0].id;const m=MATI[CT.m];const L=m.ch||[];
@@ -845,7 +845,7 @@ function ouModal(o,done,title,isBlock){const cur=clone(o||{});const base=isBlock
  modal(html(),bind)}
 
 /* ---------- liens de la communauté (WhatsApp, Telegram) ---------- */
-CBIND.commu=box=>{const c=E.content.commu||{};const F=[['admin','✉️ Écrire à l’administrateur (lien WhatsApp wa.me ou e-mail)','https://wa.me/225XXXXXXXXXX  ou  mailto:ton@email.com'],['wa_chan','📢 Lien de la chaîne WhatsApp','https://whatsapp.com/channel/…'],['wa_g1','💬 Lien du groupe WhatsApp','https://chat.whatsapp.com/…'],['wa_g2','💬 Lien d’un 2e groupe WhatsApp (facultatif)','https://chat.whatsapp.com/…'],['tg','✈️ Lien du groupe Telegram','https://t.me/…']];
+CBIND.commu=box=>{const c=E.content.commu||{};const F=[['admin','✉️ Écrire à l’administrateur (lien WhatsApp wa.me ou e-mail)','https://wa.me/225XXXXXXXXXX  ou  mailto:ton@email.com'],['wa_chan','📢 Lien de la chaîne WhatsApp','https://whatsapp.com/channel/…'],['wa_g1','💬 Lien du groupe WhatsApp','https://chat.whatsapp.com/…'],['wa_g2','💬 Lien d’un 2e groupe WhatsApp (facultatif)','https://chat.whatsapp.com/…'],['tg','✈️ Lien du groupe Telegram','https://t.me/…'],['wa_aux','🩹 Lien du groupe des auxiliaires (facultatif)','https://chat.whatsapp.com/…']];
  box.innerHTML=`<div class="ed-note">Ces liens s’affichent, cliquables, tout en bas de l’accueil (« REJOINS LA COMMUNAUTÉ ») et dans le Profil. Un lien vide n’apparaît pas. Pour t’écrire sur WhatsApp : https://wa.me/ suivi de ton numéro avec l’indicatif, sans espace ni + (ex. https://wa.me/2250700000000).</div>`
  +F.map(([k,l,ph])=>`<div class="ed-h">${l}</div><input class="ed-in" data-ck="${k}" value="${esc(c[k]||'')}" placeholder="${ph}" autocapitalize="off" spellcheck="false"><input class="ed-in" data-ck="${k}_n" value="${esc(c[k+'_n']||'')}" placeholder="Nom affiché (facultatif)">`).join('')
  +`<div class="ed-h">Message (facultatif)</div><input class="ed-in" data-ck="note" value="${esc(c.note||'')}" placeholder="Ex. : Une question ? Écris-nous, on répond vite !">`;

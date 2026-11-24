@@ -1,0 +1,38 @@
+{
+ "version": 1,
+ "ajoute": "2026-11-23",
+ "mat": {
+  "id": "xauxsp",
+  "title": "Santé publique — Auxiliaires de santé",
+  "short": "Santé publique (Aux.)",
+  "emo": "🏘️",
+  "col": "#4D7C0F",
+  "fil": [
+   "AUX"
+  ],
+  "niv": "L1",
+  "de": "non",
+  "vue": "sujets",
+  "accueil": true,
+  "ch": [
+   "ABIDJAN · Santé publique",
+   "BOUAKÉ · Santé publique",
+   "DALOA · Santé publique",
+   "ABENGOUROU · Santé publique",
+   "KORHOGO · Santé publique",
+   "ABOISSO · Santé publique"
+  ],
+  "sub": "Diplôme d’État blanc 2024-2025 · 6 sujets · 277 questions corrigées"
+ },
+ "groupes": [
+  {
+   "g": "aux"
+  }
+ ],
+ "filiere": "AUX",
+ "origine": {
+  "fichier": "aux-2024-2025/Annales_examens_blancs_Auxiliaires_de_sante_2024-2025.pdf",
+  "sha256": "b067df986712cc2ca665b581c6ecd5b23426044e08e8a29e4cca00b99aa8d1dd"
+ },
+ "questions": "ajouts/xauxsp-questions.json : 277 questions, un sujet par antenne"
+}
