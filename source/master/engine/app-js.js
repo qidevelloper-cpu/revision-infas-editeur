@@ -3339,6 +3339,7 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
   if(!d||!d.ok){LS.set(PK,'');
    if(d&&d.raison==='terminee')message(T('cp.fin.h','⏰ Composition terminée'),(d.titre?'<b>'+esc(d.titre)+'</b><br>':'')+T('cp.fin','Cette composition est close : il n’est plus possible de composer.'));
    else message(T('cp.inv.h','🔗 Lien invalide'),T('cp.inv','Cette composition n’existe pas. Vérifie le lien reçu.'));return}
+  if(/^xaux/i.test(d.mid||'')&&!(S&&S.fil==='AUX')){LS.set(PK,'');message(T('cp.aux.h','🩹 Composition des auxiliaires'),T('cp.aux','Cette composition est réservée aux élèves inscrits « Auxiliaire de santé ». Choisis cette filière dans ton profil pour la faire.'));return}
   const m=MATI[d.mid];if(!m){message(T('cp.nos.h','📝 Sujet introuvable'),T('cp.nos','Le sujet de cette composition n’est plus dans l’appli.'));return}
   try{const p=typeof plusPret==='function'&&plusPret(d.mid);if(p)await p}catch(e){}
   const L=sujets(d.mid);let k=-1;
@@ -4490,7 +4491,7 @@ const RI_IMG_MASQUEES={xmvkq5cba:["xxmvkq5cba_0", "xxmvkq5cba_1", "xxmvkq5cba_2"
  .auxc{position:relative;display:block;width:100%;text-align:left;border:0;font:inherit;color:#fff;background:var(--auxc);border-radius:22px;padding:16px 18px 34px;min-height:118px;overflow:hidden;cursor:pointer;margin-top:-26px;box-shadow:0 -6px 14px rgba(0,0,0,.13);border-top:2px solid color-mix(in srgb,var(--auxc) 70%,#fff)}
  .auxc:first-child{margin-top:0}.auxc:last-child{padding-bottom:18px}
  .auxc:active{filter:brightness(1.06)}
- .auxpill{display:inline-block;background:color-mix(in srgb,var(--auxc) 62%,#fff);color:#fff;font-weight:800;font-size:17px;line-height:1.2;padding:6px 14px;border-radius:13px;max-width:62%}
+ .auxpill{display:inline-block;background:color-mix(in srgb,var(--auxc) 62%,#fff);color:#fff;font-weight:900;font-size:18.5px;line-height:1.2;padding:7px 14px;border-radius:13px;max-width:64%;text-transform:uppercase;letter-spacing:.4px;text-shadow:0 1px 2px rgba(0,0,0,.28)}   /* noms des matières en majuscules, bien visibles */
  .auxd{display:block;margin-top:10px;font-size:13.5px;line-height:1.35;opacity:.95;max-width:60%}
  .auxfig{position:absolute;right:14px;top:14px;width:96px;height:96px;display:flex;align-items:center;justify-content:center;font-size:50px;background:color-mix(in srgb,var(--auxc) 55%,#fff);border-radius:46% 54% 40% 60%/58% 42% 58% 42%;transform:rotate(-8deg)}
  .auxsoon{text-align:center}.auxsoonh{font-weight:800;font-size:17px;color:var(--h2,#17594C);letter-spacing:.3px}`;
