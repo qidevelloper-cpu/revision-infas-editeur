@@ -4497,4 +4497,34 @@ const RI_IMG_MASQUEES={xmvkq5cba:["xxmvkq5cba_0", "xxmvkq5cba_1", "xxmvkq5cba_2"
  .auxsoon{text-align:center}.auxsoonh{font-weight:800;font-size:17px;color:var(--h2,#17594C);letter-spacing:.3px}`;
  document.head.appendChild(st);
 })();
+
+/* ---------- CORRECTION NATIONALE : DEUX ENTRÉES (EXAMENS BLANCS / LES J) ; « identique(s) » EN ROUGE ----------
+   · accueil, « Sujets d'examen (D.E) » : la carte Correction nationale ouvre l'appli sur les Examens blancs seulement ;
+     une carte « LES J · CORRECTION NATIONALE » juste dessous ouvre la même appli sur la Préparation D.E (J) seulement ;
+   · ouverte autrement (recherche, « Aller à ce sujet »…), l'appli montre tout, comme avant ;
+   · le mot « identique(s) » des noms de sujets (« J2, J5 et J10 identiques ») est écrit en rouge, dans le portail et dans l'appli. */
+const CN_ID='xmvkq4zed';
+function cnEstJ(q){const m=MATI[CN_ID];return !!(m&&m.ch&&/^J DE PRÉPARATION/i.test(String(m.ch[q.c]||'')))}
+function cnStat(j){const Q=(QBM[CN_ID]||[]).filter(q=>cnEstJ(q)===j);let ok=0;Q.forEach(q=>{const s=S.qs[q.id];if(s&&s.l)ok++});return{n:Q.length,pct:Q.length?Math.round(ok/Q.length*100):0}}
+function openDEVue(id,vue){window.__riVueNext=vue;window.__riVueGen=(window.__riVueGen||0)+1;openDE(id)}
+{const _goVue=go;go=function(v,c){if(v==='appview'){window.__riVue=window.__riVueNext||'';window.__riVueNext=null}return _goVue.apply(this,arguments)}}
+function cnCartes(h){if(!MATI[CN_ID])return h;const m=MATI[CN_ID],re=new RegExp('<div class="li" onclick="openDE\\(\''+CN_ID+'\'\\)">([\\s\\S]*?)<span class="go">›</span></div>');
+ return String(h).replace(re,(tout,corps)=>{const eb=cnStat(false),j=cnStat(true);if(!j.n)return tout;const q=esc(Tx('de.q','questions'));
+  const a=`<div class="li" onclick="openDEVue('${CN_ID}','eb')">`+corps.replace(/<small>[\s\S]*?<\/small>/,`<small>${eb.pct} % · ${eb.n} ${q}</small>`)+'<span class="go">›</span></div>';
+  const b=`<div class="li ri-cnj" onclick="openDEVue('${CN_ID}','j')"><span class="em">🎯</span><span class="tx"><b>${T('de.cnj','LES J · CORRECTION NATIONALE')}</b><small>${j.pct} % · ${j.n} ${q}</small></span><span class="go">›</span></div>`;
+  return a+b})}
+['html','oneui'].forEach(k=>{const f=BLK['home.de']&&BLK['home.de'][k];if(!f)return;BLK['home.de'][k]=function(){return cnCartes(f.apply(this,arguments))}});
+function riRougeIdentique(){var RX=/\bidentiques?\b/i;function fait(n){for(var e=n.parentNode;e;e=e.parentNode){if(e.nodeType!==1)continue;if(e.classList&&e.classList.contains('ri-ident'))return 1;var t=e.tagName;if(t==='SCRIPT'||t==='STYLE'||t==='TEXTAREA'||t==='INPUT'||e.isContentEditable)return 1}return 0}
+ function passe(root){if(!root||!document.createTreeWalker)return;var w=document.createTreeWalker(root,4),L=[],n;while((n=w.nextNode()))if(RX.test(n.nodeValue)&&!fait(n))L.push(n);
+  L.forEach(function(n){var f=document.createDocumentFragment(),s=n.nodeValue,m,r=/\bidentiques?\b/gi,i=0;while((m=r.exec(s))){f.appendChild(document.createTextNode(s.slice(i,m.index)));var sp=document.createElement('span');sp.className='ri-ident';sp.style.color='#D62828';sp.style.fontWeight='800';sp.textContent=m[0];f.appendChild(sp);i=m.index+m[0].length}f.appendChild(document.createTextNode(s.slice(i)));n.parentNode.replaceChild(f,n)})}
+ var t=0;function plus(){clearTimeout(t);t=setTimeout(function(){passe(document.body)},120)}
+ if(document.body){passe(document.body);new MutationObserver(plus).observe(document.body,{childList:true,subtree:true,characterData:true})}}
+document.addEventListener('DOMContentLoaded',riRougeIdentique);
+function cnVuePatch(){var P=window.parent,vu=null,gen=-1;
+ var st=document.createElement('style');st.textContent='body.ri-vue-eb .lq-sec.j,body.ri-vue-j .lq-sec:not(.j){display:none!important}body.ri-vue-eb #cfg-mode,body.ri-vue-j #cfg-mode{display:none!important}';(document.head||document.documentElement).appendChild(st);
+ function ap(){var v=(P&&P.__riVue)||'',g=(P&&P.__riVueGen)||0;if(!document.body)return;if(v===vu&&g===gen)return;var neuf=g!==gen&&v;vu=v;gen=g;
+  document.body.classList.toggle('ri-vue-eb',v==='eb');document.body.classList.toggle('ri-vue-j',v==='j');
+  if(neuf&&typeof goHome==='function'){try{var h=document.getElementById('screen-home');if(!h||h.classList.contains('hidden'))goHome()}catch(e){}}}
+ ap();setInterval(ap,300)}
+{const _appExtraV=appExtra;appExtra=function(m,src){const r=_appExtraV(m,src);if(/id="antennes-list"/.test(src)&&/function renderConfig/.test(src))r.js+='<script>document.addEventListener("DOMContentLoaded",function(){setTimeout(function(){('+cnVuePatch.toString()+')();('+riRougeIdentique.toString()+')()},0)})<'+'/script>';return r}}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
