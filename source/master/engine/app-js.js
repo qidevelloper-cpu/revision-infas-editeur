@@ -3126,6 +3126,24 @@ function sujPrefixe(mid){const m=MATI[mid];return(m&&m.sujPrefixe)||SUJ_PREFIXE[
   return `<div class="card sf resume" onclick="reprendreFil('${jsq(d.k)}')"><div class="ic">▶</div><div style="flex:1"><b>${T('rp.home','Reprendre : {label} · {i}/{n}',{label:esc(matOf(x.mid).short+' · '+x.label),i:compte(x).i,n:compte(x).n})}</b></div></div>`};
   if(B0.oneui){const _o=B0.oneui;B0.oneui=function(){const d=!curOk()&&dernier();if(!d||typeof ouPill!=='function')return _o.apply(this,arguments);const x=d.x,n=typeof dueAll==='function'?dueAll():0;
    return `<div class="ou-pills">${ouPill('▶',T('oui.resume','Reprendre'),esc(matOf(x.mid).short)+' · '+compte(x).i+'/'+compte(x).n,`reprendreFil('${jsq(d.k)}')`,1)}${ouPill('🗂️',T('oui.flash','Flashcards'),T('oui.flash.s','{n} à revoir',{n}),ouFlashAct(),n>0)}</div>`}}}
+ /* accueil : « ▶ Reprendre » = liste compacte de TOUS les sujets commencés et pas terminés (S.encours, 12 au plus),
+    du plus récent (en haut) au plus ancien (en bas) ; 3 visibles, « Voir les N autres ▾ » déplie la suite.
+    Le quiz rapide en cours (S.cur) reste en tête de liste. Un sujet terminé ou recommencé disparaît (garder()). */
+ const quand=t=>{if(!t)return'';const d=Date.now()-t,H=36e5,J=864e5;if(d<H)return Tx('rp.min','il y a {n} min',{n:Math.max(1,Math.round(d/6e4))});if(d<J)return new Date(t).toDateString()===new Date().toDateString()?Tx('rp.auj','aujourd’hui'):Tx('rp.hier','hier');if(d<2*J)return Tx('rp.hier','hier');return Tx('rp.jours','il y a {n} jours',{n:Math.round(d/J)})};
+ const nomCourt=l=>String(l||'').replace(/^J DE PRÉPARATION AU D\.E\s*—\s*/i,'');
+ function liste(){const E2=S.encours||{};return Object.keys(E2).filter(k=>E2[k]&&E2[k].ids&&E2[k].ids.length&&MATI[E2[k].mid]&&compte(E2[k]).n).sort((a,b)=>(E2[b].t||0)-(E2[a].t||0)).map(k=>({k,x:E2[k]}))}
+ function ligne(titre,i,n,t,act,first){const p=n?Math.round(i/n*100):0;
+  return `<div class="ri-rp-l" onclick="${act}" style="display:flex;align-items:center;gap:10px;padding:7px 0;${first?'':'border-top:1px solid var(--line)'};cursor:pointer">
+   <span style="background:var(--coral);color:#fff;border-radius:9px;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-size:13px;flex:none">▶</span>
+   <span style="flex:1;min-width:0"><span style="display:flex;gap:8px;align-items:baseline"><b style="flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px">${esc(titre)}</b><small style="font-weight:700;white-space:nowrap">${i}/${n}</small></span>
+   <span style="display:flex;align-items:center;gap:8px;margin-top:4px"><span style="flex:1;height:4px;background:var(--line);border-radius:3px;overflow:hidden"><span style="display:block;height:100%;width:${p}%;background:var(--coral)"></span></span>${t?`<small class="muted" style="white-space:nowrap;font-size:11.5px">${esc(t)}</small>`:''}</span></span></div>`}
+ window.riRpPlus=function(el){const c=el.closest('.ri-rp');if(!c)return;c.querySelectorAll('.ri-rp-cache').forEach(e=>e.style.display='flex');el.remove()};
+ const B1=BLK['home.resume'];if(B1){const _h1=B1.html;B1.html=function(){const L=liste();if(!L.length)return _h1.apply(this,arguments);
+  const R=[];if(curOk()){const c=S.cur;R.push(ligne(matOf(c.mid).short,c.idx,c.ids.length,'','resumeQuiz()',1))}
+  L.forEach(d=>{const C=compte(d.x);R.push(ligne(nomCourt(d.x.label),C.i,C.n,quand(d.x.t),`reprendreFil('${jsq(d.k)}')`,!R.length))});
+  const vis=R.slice(0,3).join('')+R.slice(3).map(h=>h.replace('class="ri-rp-l"','class="ri-rp-l ri-rp-cache" data-c="1"').replace('style="display:flex;','style="display:none;')).join('');
+  const nb=R.length;
+  return `<div class="card sf ri-rp" style="padding:12px 14px"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:2px"><b style="font-size:15.5px">▶ ${T('rp.titre','Reprendre')}</b><small class="muted">${T('rp.nb','{n} sujets en cours',{n:nb})}</small></div>${vis}${nb>3?`<div onclick="riRpPlus(this)" style="text-align:center;padding-top:6px;border-top:1px solid var(--line);font-weight:700;font-size:13px;color:var(--h1);cursor:pointer">${T('rp.plus','Voir les {n} autres ▾',{n:nb-3})}</div>`:''}</div>`}}
 })();
 
 /* ======================= SUJETS AJOUTÉS AUX APPLIS COMPLÈTES : LEURS SÉANCES S'OUVRENT AUSSI DANS LE PORTAIL =======================
