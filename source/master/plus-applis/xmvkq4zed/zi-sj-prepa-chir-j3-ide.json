@@ -844,7 +844,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Le dérèglement du système nerveux intestinal (paralysie ou spasme) définit l’occlusion fonctionnelle. Les corps étrangers (obturation), le volvulus et l’invagination (strangulation) sont des causes mécaniques.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Occlusions intestinales aiguës – étiologies (p. 121-122)",
+       "explanation": "Torsion (volvulus), corps étrangers et invagination sont des causes mécaniques. Le dérèglement du système nerveux intestinal définit l'occlusion fonctionnelle.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Occlusions intestinales aiguës, II. Étiologies",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1539,7 +1539,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. Les prodromes de l’appendicite sont l’anorexie, les nausées, les vomissements (surtout chez l’enfant) ; la constipation est plus fréquente que la diarrhée.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Appendicite – V. Manifestations cliniques a) Prodromes (diapo 213)",
+       "explanation": "Les prodromes de l'appendicite sont l'anorexie, les nausées et les vomissements (surtout chez l'enfant). La constipation est plus fréquente que la diarrhée.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Appendicite aiguë, V. Manifestations cliniques (a. Prodromes)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1655,15 +1655,14 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. Vrai",
+       "answer": "B. Faux",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "Le score de Glasgow va de 3 (aucune réponse) à 15 (conscience normale) : 3 à 8 = traumatisme grave, 13 à 15 = traumatisme bénin. Un score élevé traduit donc un meilleur état de conscience.\n\nSource : NEUROCHIRURGIE L3, diapos 17 à 23",
+       "explanation": "Un Glasgow élevé traduit un bon état neurologique (13–15 = bénin) ; un Glasgow bas (3–8) traduit un traumatisme grave.\n\nSource : NEUROCHIRURGIE L3.pptx, niveaux de gravité",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-chir-j3-ide__45",

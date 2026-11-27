@@ -1,0 +1,36 @@
+{
+ "version": 1,
+ "ajoute": "2026-11-27",
+ "mat": {
+  "id": "xauxjhyg",
+  "title": "Hygiène hospitalière — Préparation D.E (J) · Auxiliaires",
+  "short": "Hygiène hospitalière J (Aux.)",
+  "emo": "🧼",
+  "col": "#4D7C0F",
+  "fil": [
+   "AUX"
+  ],
+  "niv": "L1",
+  "de": "non",
+  "vue": "sujets",
+  "accueil": true,
+  "auxJ": 1,
+  "ch": [
+   "J4 · Hygiène hospitalière",
+   "J6 · Hygiène hospitalière"
+  ],
+  "sub": "Préparation D.E (J) · 2 sujets · 49 questions corrigées",
+  "ordre": 4
+ },
+ "groupes": [
+  {
+   "g": "aux"
+  }
+ ],
+ "filiere": "AUX",
+ "origine": {
+  "fichier": "aux-j-2026/Corrige_Hygiene_hospitaliere_AS2_J4-J6.pdf",
+  "sha256": "2791a9986af58a281b38493c87fc626c5cd980291f2da86285961b8344379b25"
+ },
+ "questions": "ajouts/xauxjhyg-questions.json : 49 questions, un sujet par J"
+}

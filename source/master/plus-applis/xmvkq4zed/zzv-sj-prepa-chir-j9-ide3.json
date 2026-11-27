@@ -1,0 +1,2160 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzv-sj-prepa-chir-j9-ide3",
+ "titre": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 58,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J9_Chirurgie_IDE3_corrige_explique.pdf",
+   "sha256": "d6136fd47e375a3255ad8af1663e2dace9ae115e73869e2e440c10876dc9ebb8"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Chirurgie · Prépa D.E J9 (IDE3)",
+     "slug": "prepa-chir-j9-ide3",
+     "pages": "",
+     "count": 58,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Chirurgie",
+     "source": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le Glasgow est inférieur ou égal à 9 dans le traumatisme crânien grave",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le TC grave correspond à un Glasgow de 3 à 8, c'est-à-dire INFÉRIEUR à 9. Un Glasgow égal à 9 correspond déjà au TC modéré (9 à 12). « Inférieur ou égal à 9 » est donc faux.\n\nSource : Neurochorurgie.pdf, Traumatismes crâniens, niveaux de gravité",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le déficit moteur représente un critère d'appel au réanimateur en cas de traumatisme modéré",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours cite le déficit moteur parmi les critères d'appel au réanimateur dans le paragraphe du traumatisme crânien GRAVE (avec plaies crânio-cérébrales, convulsions, PCI associée à une lésion à risque hémorragique). Remarque : Les traumatismes modérés relèvent eux aussi de la réanimation selon le cours ; la nuance porte sur la liste des « critères d'appel », rattachée au TC grave.\n\nSource : Neurochorurgie.pdf, Traumatismes crâniens (TC grave, critères d'appel au réanimateur)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans l'ostéosynthèse à foyer fermé, les plaques sont mises à distance de la fracture.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans l'ostéosynthèse à foyer fermé, le matériel est mis en place par voie percutanée, à distance de la fracture, sans exposer le foyer. Remarque : Le cours cite pour le foyer fermé des vis, broches ou clous centromédullaires ; il ne parle pas de plaques.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Fractures de l'humérus, V. Traitement (méthodes chirurgicales)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La prostate est un organe masculin ou une petite glande génitale située sous la vessie et qui entoure la partie initiale de l'urètre.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours le dit presque mot pour mot : « La prostate est un organe ou petite glande génitale, masculin. Elle est située sous la vessie et entoure la partie initiale de l'urètre. »\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Adénome de la prostate, II. Physiopathologie",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le craquement est signe physique du traumatisme du bassin",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le craquement est un signe FONCTIONNEL du traumatisme du bassin (ressenti par le blessé), avec la douleur vive et l'impotence. Les signes physiques sont les déformations, hématomes, ecchymoses et les points douloureux.\n\nSource : Traumatologie Complet-2.pdf, Traumatismes du bassin, 2.1 Signes fonctionnels et 2.2 Signes physiques",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le signe de la sonnette est la palpation qui déclenche souvent une douleur en regard des massifs articulaires postérieurs",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La pression déclenche souvent une douleur en regard des massifs articulaires postérieurs : c'est le signe de la sonnette.\n\nSource : Neurochorurgie.pdf, Sciatalgies / hernie discale, signes physiques",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La commotion cérébrale est un épanchement sanguin intracrânien",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La commotion cérébrale est « une altération fonctionnelle sans lésions matérielles du tissu de l'encéphale ». L'épanchement de sang intracrânien correspond aux hématomes et aux hémorragies.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Traumatismes crâniens, IV-C Lésions cérébro-méningées",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'articulation de la hanche joue à la fois un rôle statique et un rôle dynamique",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La hanche est une énarthrose solide et mobile.\n\nSource : ARTHROLOGIE COMPLET.pdf, Articulation de la hanche (généralités et physiologie) ; ANATOMIE LIVRE 2023-2024 OK.pdf",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'irrigation vésicale bien conduite dans l'adénomectomie prévient les infections et les rétentions urinaires post opératoires",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Après adénomectomie, l'irrigation (lavage) vésicale continue empêche la formation de caillots qui boucheraient la sonde (rétention) ; elle accompagne la prévention de l'infection.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Adénome de la prostate, interventions infirmières (24 premières heures)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La science qui étudie seulement les fractures du crâne est la neurochirurgie.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La neurochirurgie traite toutes les lésions chirurgicales du système nerveux (crâne, encéphale, rachis, moelle, hernie discale…), pas seulement les fractures du crâne.\n\nSource : Neurochorurgie.pdf (sommaire : traumatismes crâniens, fractures du rachis, hernie discale, mal de Pott)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La glande à sécrétion amphicrine est le pancréas",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le pancréas est une glande mixte (amphicrine) : sécrétion externe (suc pancréatique par les acini) et sécrétion interne (insuline et glucagon par les îlots de Langerhans).\n\nSource : PDF HISTOLOGIE 2024.pdf, glandes mixtes ou amphicrines ; PDF GLANDE ENDOCRINE.pdf, pancréas",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'un des signes physiques de la gangrène gazeuse est la crépitation neigeuse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "À la palpation, une sensation de crépitation neigeuse sous-cutanée traduit l'emphysème (gaz dans les tissus).\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Gangrène gazeuse, 4.1 Signes physiques (palpation)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'apparition du syndrome de wolkmann est uniquement liée à une défaillance de la surveillance infirmière.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le syndrome de Volkmann résulte d'une double faute thérapeutique : plâtre trop serré ET absence de surveillance des doigts. Il complique aussi certaines fractures elles-mêmes (coude, avant-bras de l'enfant).\n\nSource : Traumatologie Complet-2.pdf, Fracture de Pouteau-Colles, 1.5.2 Complications secondaires ; Syndrome de Wolkmann",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'intervalle libre a une durée plus courte dans l'hématome extradural que dans l'hématome intradural",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'hématome intradural « se distingue de l'hématome extradural par la grande durée de l'intervalle libre ». L'intervalle libre est donc plus court dans l'extradural.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Traumatismes crâniens, VI-2 Hématome intradural",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La respiration paradoxale s'observe uniquement dans le volet costal",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La respiration paradoxale est la conséquence typique du volet costal ; d'autres atteintes de la paroi thoracique peuvent aussi en donner. (explication hors cours du projet) pour le mot « uniquement ».\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Traumatisme du thorax (volet costal)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__15",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En cas de subluxation, les deux (02) surfaces articulaires sont en rupture permanente.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans la subluxation, un contact partiel persiste entre les surfaces articulaires (luxation incomplète). La perte de contact permanente et complète définit la luxation complète.\n\nSource : Traumatologie Complet-2.pdf, Généralités sur les luxations ; Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf) (« s'il reste un contact partiel, il s'agit d'une subluxation »)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__16",
+       "num": "17",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La néphrectomie est un examen radiologique du rein",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La néphrectomie est l'ablation chirurgicale du rein (le cours parle de néphrectomie élargie dans le cancer du rein). Ce n'est pas un examen radiologique.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Cancer du rein, IV. Traitement",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__17",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le myosis et la mydriase sont des effets similaires du système neurovégétatif sur l'œil",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Ces effets sont opposés : le sympathique dilate la pupille (mydriase), le parasympathique la contracte (myosis).\n\nSource : SYSTÈME NERVEUX COMPLET.pdf, actions du sympathique et du parasympathique ; ANATOMIE LIVRE 2023-2024 OK.pdf, tableau des actions du système végétatif",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__18",
+       "num": "19",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la recherche de la hanche luxée chez le nourrisson, le signe de NELATON est « positif » lorsque les deux cuisses sont fléchies et que les genoux sont au même niveau.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans la luxation congénitale de la hanche, le signe de Nélaton est positif quand, les deux cuisses fléchies, les genoux NE sont PAS au même niveau.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Malformations congénitales des membres, 3.5 Hanche luxée",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__19",
+       "num": "20",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La température, le pouls et la TA font partie des éléments de la surveillance dans la phlébothrombose.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Au 2e jour post-opératoire, on surveille les constantes (TA, FR, pouls, température) et on pense à une phlébothrombose.\n\nSource : Traumatologie Complet-2.pdf, 8.2.4.2.2 Surveillance des constantes II. QCM / QRU",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les éléments de surveillance du post-opératoire immédiat ci-dessous, deux appartiennent à la fonction neurologique. Lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Audition"
+        },
+        {
+         "letter": "B",
+         "text": "Chaleur"
+        },
+        {
+         "letter": "C",
+         "text": "Cyanose"
+        },
+        {
+         "letter": "D",
+         "text": "Déglutition"
+        },
+        {
+         "letter": "E",
+         "text": "Pression artérielle"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Audition ; D. Déglutition",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "Pour l'état de conscience, le cours prévoit de vérifier les réponses aux excitations auditives (appeler le patient) et la déglutition.\n\nSource : Traumatologie Complet-2.pdf, 8.2.4.1.2 Surveiller l'état de conscience",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La pression artérielle fait partie de la surveillance",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Digestive"
+        },
+        {
+         "letter": "B",
+         "text": "Neurologique"
+        },
+        {
+         "letter": "C",
+         "text": "Hémodynamique"
+        },
+        {
+         "letter": "D",
+         "text": "Ostéoarticulaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Hémodynamique",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La pression artérielle fait partie de la surveillance hémodynamique (circulatoire), comme le pouls.\n\nSource : Traumatologie Complet-2.pdf, 8.2.4.1.1 Surveiller les fonctions vitales (dépister un choc)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les éléments ci-dessous relèvent de la surveillance infirmière d'un plâtre, sauf deux. Lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Durée du plâtre"
+        },
+        {
+         "letter": "B",
+         "text": "Douleurs sous plâtre"
+        },
+        {
+         "letter": "C",
+         "text": "Extrémités cyanosées"
+        },
+        {
+         "letter": "D",
+         "text": "Ablation du plâtre"
+        },
+        {
+         "letter": "E",
+         "text": "Dysesthésie"
+        },
+        {
+         "letter": "F",
+         "text": "Extrémités froides"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Durée du plâtre ; D. Ablation du plâtre",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "La surveillance du plâtre porte sur les signes de compression : douleurs, cyanose, froideur, troubles de la sensibilité (dysesthésie). La durée du plâtre et son ablation ne sont pas des éléments de surveillance.\n\nSource : Traumatologie Complet-2.pdf, Rôle de l'infirmier dans la surveillance du plâtre (7.1) ; Fracture de Pouteau-Colles (1.4)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le centre respiratoire principal est situé dans le",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Cervelet"
+        },
+        {
+         "letter": "B",
+         "text": "Bulbe rachidien"
+        },
+        {
+         "letter": "C",
+         "text": "Thalamus"
+        },
+        {
+         "letter": "D",
+         "text": "Hypophyse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Bulbe rachidien",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "« Les centres nerveux respiratoires principaux sont situés dans le bulbe. »\n\nSource : PDF APPAREIL RESPIRATOIRE 2023 SF IDE.pdf, mécanique respiratoire (centres respiratoires)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La fracture de Pouteau-Colles est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une fracture de l'épiphyse supérieure du fémur"
+        },
+        {
+         "letter": "B",
+         "text": "Une fracture de l'épiphyse supérieure du radius"
+        },
+        {
+         "letter": "C",
+         "text": "Une fracture de l'épiphyse inférieure du radius"
+        },
+        {
+         "letter": "D",
+         "text": "Une fracture de l'épiphyse inférieure du fémur"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Une fracture de l'épiphyse inférieure du radius",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La fracture de Pouteau-Colles est une fracture de l'extrémité inférieure (distale) du radius.\n\nSource : Traumatologie Complet-2.pdf, Fractures du poignet, I. Fracture de Pouteau-Colles",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les déplacements des fractures ci-dessous, la forme comminutive correspond à",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une fragmentation multiple de l'os"
+        },
+        {
+         "letter": "B",
+         "text": "Une Rotation des fragments de l'os"
+        },
+        {
+         "letter": "C",
+         "text": "Un chevauchement des fragments de l'os"
+        },
+        {
+         "letter": "D",
+         "text": "Une angulation des fragments de l'os"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Une fragmentation multiple de l'os",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Si le choc est très violent, l'os se fracture en plusieurs endroits : fracture comminutive. Rotation, chevauchement et angulation sont des déplacements.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Généralités sur les fractures, 4.1 et 4.2",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la surveillance post-opératoire trois (3) des éléments ci-dessous recherchent un choc hémodynamique. Lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Téguments (Coloration)"
+        },
+        {
+         "letter": "B",
+         "text": "Déglutition"
+        },
+        {
+         "letter": "C",
+         "text": "Pouls"
+        },
+        {
+         "letter": "D",
+         "text": "Douleur"
+        },
+        {
+         "letter": "E",
+         "text": "Conscience"
+        },
+        {
+         "letter": "F",
+         "text": "Faciès"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Pouls ; E. Conscience ; F. Faciès",
+       "answerLetters": [
+        "C",
+        "E",
+        "F"
+       ],
+       "explanation": "Pour dépister un choc post-opératoire, on surveille notamment le pouls, le faciès et l'état de conscience. Remarque : Le cours cite aussi la coloration et la chaleur de la peau parmi les éléments qui dépistent un choc.\n\nSource : Traumatologie Complet-2.pdf, 8.2.4.1.1 Surveiller les fonctions vitales ; Chocs traumatiques (premiers signes d'une insuffisance circulatoire)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la surveillance du post-opératoire immédiat, trois apprécient la fonction neurologique. Lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Coloration"
+        },
+        {
+         "letter": "B",
+         "text": "Conscience"
+        },
+        {
+         "letter": "C",
+         "text": "Faciès"
+        },
+        {
+         "letter": "D",
+         "text": "Déglutition"
+        },
+        {
+         "letter": "E",
+         "text": "Pression artérielle"
+        },
+        {
+         "letter": "F",
+         "text": "Audition"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Conscience ; D. Déglutition ; F. Audition",
+       "answerLetters": [
+        "B",
+        "D",
+        "F"
+       ],
+       "explanation": "Surveillance de la fonction neurologique : état de conscience, déglutition et réponse aux stimulations auditives (audition).\n\nSource : Traumatologie Complet-2.pdf, 8.2.4.1.2 Surveiller l'état de conscience",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une perte totale de la sensibilité est appelée",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hypoesthésie"
+        },
+        {
+         "letter": "B",
+         "text": "Anesthésie"
+        },
+        {
+         "letter": "C",
+         "text": "Myosis"
+        },
+        {
+         "letter": "D",
+         "text": "Paresthésie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Anesthésie",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La perte totale de la sensibilité est l'anesthésie. L'hypoesthésie en est une diminution ; la paresthésie est une sensation anormale.\n\nSource : Neurochorurgie.pdf, Fracture du rachis (examen sensitif : hypoesthésie, anesthésie)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'une des étiologies de l'occlusion intestinale d'origine fonctionnelles est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'invagination"
+        },
+        {
+         "letter": "B",
+         "text": "La tumeur mésentérique"
+        },
+        {
+         "letter": "C",
+         "text": "La tumeur intestinale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. La tumeur mésentérique",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Parmi les causes des troubles moteurs de l'occlusion fonctionnelle, le cours cite la proximité d'un foyer purulent, d'un hématome rétropéritonéal ou d'une tumeur mésentérique. L'invagination et la tumeur intestinale sont des causes mécaniques.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Occlusions intestinales aiguës, 1.2 Occlusions fonctionnelles",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la surveillance postopératoire immédiate d'un opéré de péritonite, un des soins ci-dessous est à exécuter par l'infirmier. Lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Prévenir les nausées et vomissements par des antiémétiques"
+        },
+        {
+         "letter": "B",
+         "text": "Restaurer les pertes hydriques et caloriques par voie veineuse"
+        },
+        {
+         "letter": "C",
+         "text": "Rassurer le client et exécuter la prémédication prescrite"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Restaurer les pertes hydriques et caloriques par voie veineuse",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Après l'opération d'une péritonite : « Restaurer les pertes d'eau, d'électrolytes, de calories, par voie veineuse jusqu'au rétablissement du transit. » Rassurer et faire la prémédication sont des soins préopératoires.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Péritonites, VIII. Interventions infirmières",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le diagnostic présomptif d'une tuméfaction indolente, du scrotum de taille moyenne avec une épreuve de la lampe torche positive, est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La hernie inguino-scrotale"
+        },
+        {
+         "letter": "B",
+         "text": "La tumeur du scrotum"
+        },
+        {
+         "letter": "C",
+         "text": "L'hydrocèle vaginale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. L'hydrocèle vaginale",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Tuméfaction indolente, transparente à la transillumination (lampe torche) : c'est l'hydrocèle vaginale.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Hydrocèle, IV. Clinique (4-3)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le gargouillement perçu à la réduction d'une hernie suspecte un encastrement:",
+       "options": [
+        {
+         "letter": "A",
+         "text": "De l'épiploon"
+        },
+        {
+         "letter": "B",
+         "text": "De l'intestin"
+        },
+        {
+         "letter": "C",
+         "text": "De fécalome"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. De l'intestin",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "« Un gargouillement à la réduction indique la présence d'intestin dans le sac herniaire. » La sonorité ou la matité orientent vers l'épiploon.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Hernies, IV. Manifestations cliniques",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La crise appendiculaire a pour diagnostic différentiel deux (2) des pathologies ci-dessous",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Grossesse extra-utérine"
+        },
+        {
+         "letter": "B",
+         "text": "Hydrocèle vaginale"
+        },
+        {
+         "letter": "C",
+         "text": "Torsion testiculaire"
+        },
+        {
+         "letter": "D",
+         "text": "Hernie étranglée"
+        },
+        {
+         "letter": "E",
+         "text": "Rate paludéenne"
+        },
+        {
+         "letter": "F",
+         "text": "Disjonction symphysaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Grossesse extra-utérine ; D. Hernie étranglée",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "Le diagnostic différentiel de l'appendicite comprend notamment la grossesse extra-utérine (rupture d'une grossesse tubaire) et la hernie étranglée.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Appendicite aiguë, VIII. Diagnostic différentiel ; Cours de chirurgie traumatique et digestif.pptx, VIII",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les éléments ci-après de la surveillance du post-opératoire immédiat recherchent un choc hémodynamique, sauf deux. Lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Coloration de la peau"
+        },
+        {
+         "letter": "B",
+         "text": "Douleur"
+        },
+        {
+         "letter": "C",
+         "text": "Faciès"
+        },
+        {
+         "letter": "D",
+         "text": "Pression artérielle"
+        },
+        {
+         "letter": "E",
+         "text": "Conscience"
+        },
+        {
+         "letter": "F",
+         "text": "Pouls"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Coloration de la peau ; B. Douleur",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "La douleur et la coloration de la peau ne figurent pas, selon la correction nationale, parmi les éléments qui recherchent un choc.\n\nSource : Traumatologie Complet-2.pdf, 8.2.4.1.1 Surveiller les fonctions vitales",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les éléments de la surveillance infirmière ci-dessous relèvent de l'état végétatif du patient : Lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Mouvement respiratoire"
+        },
+        {
+         "letter": "B",
+         "text": "Réponse verbale"
+        },
+        {
+         "letter": "C",
+         "text": "Mouvement orienté"
+        },
+        {
+         "letter": "D",
+         "text": "Rythme cardiaque"
+        },
+        {
+         "letter": "E",
+         "text": "Diurèse horaire"
+        },
+        {
+         "letter": "F",
+         "text": "Degré de douleur"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Mouvement respiratoire ; D. Rythme cardiaque",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "L'état végétatif se surveille par le pouls, la tension artérielle, le rythme cardiaque et respiratoire. Réponse verbale et mouvement orienté relèvent de l'état neurologique.\n\nSource : Neurochorurgie.pdf, Traumatismes crâniens, 4.5 Soins post-opératoires III. CAS CLINIQUE",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__36",
+       "num": "37",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne",
+       "text": "Deux (02) points douloureux sont recherchés à la palpation douce du bassin de ce patient ; lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Iléon"
+        },
+        {
+         "letter": "B",
+         "text": "Périnée"
+        },
+        {
+         "letter": "C",
+         "text": "Pubis"
+        },
+        {
+         "letter": "D",
+         "text": "Crête iliaque"
+        },
+        {
+         "letter": "E",
+         "text": "Vertèbre lombaire 5"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Pubis ; D. Crête iliaque",
+       "answerLetters": [
+        "C",
+        "D"
+       ],
+       "explanation": "À la palpation douce du bassin, on recherche des points douloureux dans la région pubis – crête iliaque et au niveau de l'articulation sacro-iliaque.\n\nSource : Traumatologie Complet-2.pdf, Traumatismes du bassin, 2.2.2 Palpation",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__37",
+       "num": "38",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne",
+       "text": "Les membres de l'équipe médicale des sapeurs-pompiers ont eu à observer deux (02) gestes dans la prise en charge de M. KOLA afin d'éviter d'aggraver son pronostic vital ; lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Transport du blessé allongé sur le siège"
+        },
+        {
+         "letter": "B",
+         "text": "Ramassage du blessé en bloc rigide"
+        },
+        {
+         "letter": "C",
+         "text": "Transport du blessé le plus rapidement possible"
+        },
+        {
+         "letter": "D",
+         "text": "Transport du blessé sur un plan dur en décubitus dorsal ou latéral"
+        },
+        {
+         "letter": "E",
+         "text": "Ramassage du blessé en décubitus ventral"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Ramassage du blessé en bloc rigide ; D. Transport du blessé sur un plan dur en décubitus dorsal ou latéral",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Pour ne pas aggraver le pronostic, le blessé est relevé et transporté en monobloc, axe tête-cou-tronc en rectitude, sur un plan dur en décubitus dorsal (ou latéral de sécurité).\n\nSource : Traumatologie Complet-2.pdf, Conduite à tenir auprès d'un traumatisé des voies publiques, II. Gestes salvateurs ; Neurochorurgie.pdf (déplacement en monobloc)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__38",
+       "num": "39",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne",
+       "text": "Deux (02) autres gestes sont à proscrire sur les lieux de l'accident dans la prise en charge de ce blessé ; lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La précipitation"
+        },
+        {
+         "letter": "B",
+         "text": "L'usage du brancard"
+        },
+        {
+         "letter": "C",
+         "text": "Le dégagement du blessé en traction axiale"
+        },
+        {
+         "letter": "D",
+         "text": "L'installation du blessé bouche en position déclive"
+        },
+        {
+         "letter": "E",
+         "text": "L'empoigne sous les aisselles"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. La précipitation ; E. L'empoigne sous les aisselles",
+       "answerLetters": [
+        "A",
+        "E"
+       ],
+       "explanation": "Gestes à proscrire : la précipitation et l'empoigne sous les aisselles. Le brancard et la traction axiale sont au contraire des gestes salvateurs.\n\nSource : Traumatologie Complet-2.pdf, Conduite à tenir auprès d'un traumatisé des voies publiques, I. Gestes à proscrire",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__39",
+       "num": "40",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne",
+       "text": "KOLA fait un choc traumatique malgré les moyens médicaux déployés après son admission dans le service des urgences chirurgicales. Indiquer une autre variété de choc traumatique parmi les propositions ci-dessous :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "40. Indiquer une autre variété de choc traumatique parmi les propositions ci-dessous :"
+        },
+        {
+         "letter": "B",
+         "text": "A. Choc cardiogénique"
+        },
+        {
+         "letter": "C",
+         "text": "B. Choc hypovolémique"
+        },
+        {
+         "letter": "D",
+         "text": "C. Choc opératoire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. C. Choc opératoire",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "« Choc opératoire est une variété de choc traumatique. » Les chocs cardiogénique et hypovolémique ont d'autres causes. Remarque : Dans le sujet, le premier bouton reprend le texte de la question (« 40. Indiquer… ») ; ce n'est pas une vraie proposition. Remarque : Dans le sujet, le premier bouton reprend le texte de la question (« 40. Indiquer… ») ; ce n'est pas une vraie proposition.\n\nSource : Traumatologie Complet-2.pdf, Chocs traumatiques, II. Étiologies",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__40",
+       "num": "41",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne",
+       "text": "L'état de choc est : (cocher la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une incapacité de l'appareil circulatoire à assurer le flux sanguin et donc l'apport d'oxygène nécessaire aux tissus de l'organisme"
+        },
+        {
+         "letter": "B",
+         "text": "La soudaine inefficacité de la pompe cardiaque qui entraine une chute brutale du débit cardiaque"
+        },
+        {
+         "letter": "C",
+         "text": "Un syndrome général de plus ou moins grande gravité observée après toute agression de l'organisme quelle que soit sa nature."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Une incapacité de l'appareil circulatoire à assurer le flux sanguin et donc l'apport d'oxygène nécessaire aux tissus de l'organisme",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "« L'état de choc, ou insuffisance circulatoire, peut se définir comme une incapacité de l'appareil circulatoire à assurer le flux sanguin et donc l'apport d'oxygène nécessaire aux tissus. » B définit le choc cardiogénique, C le choc au sens général.\n\nSource : Traumatologie Complet-2.pdf, Chocs traumatiques, I. Définition",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__41",
+       "num": "42",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne",
+       "text": "Enoncer deux (02) premiers signes d'une insuffisance circulatoire dans la surveillance de ce blessé choqué :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hématome"
+        },
+        {
+         "letter": "B",
+         "text": "Hémarthrose"
+        },
+        {
+         "letter": "C",
+         "text": "Fréquence cardiaque"
+        },
+        {
+         "letter": "D",
+         "text": "Tuméfaction"
+        },
+        {
+         "letter": "E",
+         "text": "Etat de conscience"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Fréquence cardiaque ; E. Etat de conscience",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "Premiers signes d'insuffisance circulatoire : température, fréquence cardiaque, pression artérielle, coloration cutanée, diurèse, état de conscience, état respiratoire.\n\nSource : Traumatologie Complet-2.pdf, Chocs traumatiques, V. Surveillance d'un patient choqué",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__42",
+       "num": "43",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne",
+       "text": "Enumérer trois (03) besoins fondamentaux prioritaires chez M. KOLA polytraumatisé étant dans le coma parmi les propositions ci-dessous indiquées",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Besoin de manger et boire"
+        },
+        {
+         "letter": "B",
+         "text": "Besoin d'être propre, soigné et protéger ses téguments"
+        },
+        {
+         "letter": "C",
+         "text": "Besoin de respirer"
+        },
+        {
+         "letter": "D",
+         "text": "Besoin d'éliminer les déchets biologiques"
+        },
+        {
+         "letter": "E",
+         "text": "Besoin d'éviter les dangers"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Besoin d'être propre, soigné et protéger ses téguments ; C. Besoin de respirer ; E. Besoin d'éviter les dangers",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "Chez un polytraumatisé comateux, les besoins prioritaires sont de respirer, d'éviter les dangers (sécurité) et d'être propre et de protéger ses téguments (escarres). Manger, boire et éliminer sont assurés par sondes et perfusions. (explication hors cours du projet)\n\nSource : —",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__43",
+       "num": "44",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne",
+       "text": "Quel est le diagnostic infirmier en rapport avec la fonction locomotrice parmi ceux énumérés ci-dessous ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Difficulté due au polytraumatisme reliée à l'altération du système locomoteur."
+        },
+        {
+         "letter": "B",
+         "text": "Incapacité due à son polytraumatisme l'empêchant se mobiliser"
+        },
+        {
+         "letter": "C",
+         "text": "Impossibilité due à l'altération du système locomoteur reliée à son polytraumatisme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Impossibilité due à l'altération du système locomoteur reliée à son polytraumatisme",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le diagnostic infirmier relie un problème (impossibilité de se mobiliser) à sa cause (altération du système locomoteur) liée au polytraumatisme. (explication hors cours du projet)\n\nSource : —",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__44",
+       "num": "45",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne\n\nCas clinique — Par rapport à la fracture du 1/3 moyen de la diaphyse du fémur avec grande ouverture, M. KOLA présente à la NFS un taux d'hémoglobine (TxHb) à 5g/dl de sang et le chirurgien décide de faire monter ce taux à 10g/dl avant l'intervention chirurgicale.",
+       "text": "Vous disposez les dérivés érythrocytaires à votre niveau. Indiquer la quantité de sang nécessaire à la transfusion de M. KOLA.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "750 ml"
+        },
+        {
+         "letter": "B",
+         "text": "1500 ml"
+        },
+        {
+         "letter": "C",
+         "text": "1000 ml"
+        },
+        {
+         "letter": "D",
+         "text": "500 ml"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 750 ml",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Δ Hb = 10 − 5 = 5 g/dl, poids 50 kg. Culot globulaire = 5 × 50 × 3 = 750 ml. (explication hors cours du projet)\n\nSource : —",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__45",
+       "num": "46",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne\n\nCas clinique — Par rapport à la fracture du 1/3 moyen de la diaphyse du fémur avec grande ouverture, M. KOLA présente à la NFS un taux d'hémoglobine (TxHb) à 5g/dl de sang et le chirurgien décide de faire monter ce taux à 10g/dl avant l'intervention chirurgicale.",
+       "text": "Le débit de cette transfusion, si tout le sang doit passer en 4h et demi est de",
+       "options": [
+        {
+         "letter": "A",
+         "text": "41 gttes/mn"
+        },
+        {
+         "letter": "B",
+         "text": "42 gttes/mn"
+        },
+        {
+         "letter": "C",
+         "text": "41,66 gttes/mn"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 42 gttes/mn",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "750 ml × 15 gouttes / 270 min (4 h 30) = 41,66 gouttes/min, arrondi à 42 gouttes/min. (explication hors cours du projet) Remarque : On ne règle pas un débit en fraction de goutte : la correction nationale retient l'arrondi (42), pas la valeur exacte (41,66).\n\nSource : —",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__46",
+       "num": "47",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne\n\nCas clinique — Par rapport à la fracture du 1/3 moyen de la diaphyse du fémur avec grande ouverture, M. KOLA présente à la NFS un taux d'hémoglobine (TxHb) à 5g/dl de sang et le chirurgien décide de faire monter ce taux à 10g/dl avant l'intervention chirurgicale.",
+       "text": "La fracture du crâne a occasionné un dysfonctionnement cérébral (commotion cérébrale) chez M. KOLA. Relever les deux (02) éléments de l'ouverture des yeux consécutifs à l'examen neurologique de ce blessé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Adaptée, orientée à la douleur 5"
+        },
+        {
+         "letter": "B",
+         "text": "Spontanée 4"
+        },
+        {
+         "letter": "C",
+         "text": "Volontaire sur commande 6"
+        },
+        {
+         "letter": "D",
+         "text": "Appropriée 5"
+        },
+        {
+         "letter": "E",
+         "text": "A la douleur 2"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Spontanée 4 ; E. A la douleur 2",
+       "answerLetters": [
+        "B",
+        "E"
+       ],
+       "explanation": "Ouverture des yeux : spontanée = 4, à l'appel = 3, à la douleur = 2, nulle = 1. « Adaptée/orientée à la douleur 5 » et « volontaire 6 » sont des cotations motrices ; « appropriée 5 » est verbale.\n\nSource : NEUROCHIRURGIE L3.pptx, score de Glasgow",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__47",
+       "num": "48",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne\n\nCas clinique — Par rapport à la fracture du 1/3 moyen de la diaphyse du fémur avec grande ouverture, M. KOLA présente à la NFS un taux d'hémoglobine (TxHb) à 5g/dl de sang et le chirurgien décide de faire monter ce taux à 10g/dl avant l'intervention chirurgicale.",
+       "text": "On parle de traumatisme crânien grave lorsque le Glasgow est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "≤ 9"
+        },
+        {
+         "letter": "B",
+         "text": "= 9"
+        },
+        {
+         "letter": "C",
+         "text": "< 9"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. < 9",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Traumatisme crânien grave : Glasgow inférieur à 9 (3 à 8) après correction des fonctions vitales.\n\nSource : Neurochorurgie.pdf, Traumatismes crâniens, niveaux de gravité",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__48",
+       "num": "49",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne\n\nCas clinique — Par rapport à la fracture du 1/3 moyen de la diaphyse du fémur avec grande ouverture, M. KOLA présente à la NFS un taux d'hémoglobine (TxHb) à 5g/dl de sang et le chirurgien décide de faire monter ce taux à 10g/dl avant l'intervention chirurgicale.",
+       "text": "Dans le traumatisme crânien sans perte de connaissance initiale (PCI) ni amnésie, sans signe neurologique, avec CGS 15, sans facteur de risque, il : (cocher la bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Faut d'emblée faire un scanner et une surveillance neurologique"
+        },
+        {
+         "letter": "B",
+         "text": "Ne faut pas faire d'exploitation ni de surveillance neurologique"
+        },
+        {
+         "letter": "C",
+         "text": "Faut faire une surveillance neurologique de 24h et un scanner à la 6ème heure et faire la sortie du patient si scanner normal"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Ne faut pas faire d'exploitation ni de surveillance neurologique",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Groupe 1 : TC sans PCI ni amnésie, sans signe neurologique, GCS 15, sans facteur de risque → pas d'exploration ni de surveillance. La proposition C correspond au groupe 2.\n\nSource : NEUROCHIRURGIE L3.pptx, Conduite à tenir, groupes 1 et 2",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__49",
+       "num": "50",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne\n\nCas clinique — Par rapport à la fracture du 1/3 moyen de la diaphyse du fémur avec grande ouverture, M. KOLA présente à la NFS un taux d'hémoglobine (TxHb) à 5g/dl de sang et le chirurgien décide de faire monter ce taux à 10g/dl avant l'intervention chirurgicale.",
+       "text": "Le stade de coma selon GLASGOW de M. KOLA polytraumatisé de la voie publique qui ouvre à la douleur, émet des mots inappropriés et fait une flexion du membre supérieur à la douleur de façon anormale est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Coma stade I"
+        },
+        {
+         "letter": "B",
+         "text": "Coma stade II"
+        },
+        {
+         "letter": "C",
+         "text": "Coma stade III"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Coma stade I",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Yeux à la douleur = 2 ; mots inappropriés = 3 ; flexion anormale = 3 ; Glasgow = 8 (TC grave). (explication hors cours du projet) pour la correspondance avec les stades du coma. Remarque : Le cours ne donne pas de correspondance entre le Glasgow et les « stades » I, II ou III du coma.\n\nSource : NEUROCHIRURGIE L3.pptx, score de Glasgow",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__50",
+       "num": "51",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne\n\nCas clinique — Par rapport à la fracture du 1/3 moyen de la diaphyse du fémur avec grande ouverture, M. KOLA présente à la NFS un taux d'hémoglobine (TxHb) à 5g/dl de sang et le chirurgien décide de faire monter ce taux à 10g/dl avant l'intervention chirurgicale.",
+       "text": "Quel est l'ordre normal des gestes à poser avant la pose d'une poche de sang ? 1. Envoyer l'AS à la recherche du sang 2. Vérifier la concordance de la poche de sang avec le sang prescrit 3. S'assurer que le malade n'a pas besoin urgent 4. Faire le test de compatibilité au lit du malade",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A (1, 2, 3, 4)"
+        },
+        {
+         "letter": "B",
+         "text": "B (3, 1, 2, 4)"
+        },
+        {
+         "letter": "C",
+         "text": "C (2, 1, 3, 4)"
+        },
+        {
+         "letter": "D",
+         "text": "D (1, 3, 2, 4)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C (2, 1, 3, 4)",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Ordre retenu : vérifier la concordance de la poche avec le sang prescrit, envoyer l'AS chercher le sang, s'assurer que le malade n'a pas de besoin urgent, puis faire le test de compatibilité au lit. (explication hors cours du projet)\n\nSource : —",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__51",
+       "num": "52",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne\n\nCas clinique — Par rapport à la fracture du 1/3 moyen de la diaphyse du fémur avec grande ouverture, M. KOLA présente à la NFS un taux d'hémoglobine (TxHb) à 5g/dl de sang et le chirurgien décide de faire monter ce taux à 10g/dl avant l'intervention chirurgicale.",
+       "text": "Lors de la pose de la transfusion sanguine, vous vous êtes piqué(e) avec l'aiguille non souillée par le sang. Que faites-vous à la suite de cette blessure ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Informer le major et arrêter le soin"
+        },
+        {
+         "letter": "B",
+         "text": "Faire saigner la plaie"
+        },
+        {
+         "letter": "C",
+         "text": "Nettoyer la plaie avec une solution antiseptique et continuer le soin"
+        },
+        {
+         "letter": "D",
+         "text": "Faire le test de VIH"
+        },
+        {
+         "letter": "E",
+         "text": "Ne pas faire une déclaration d'AES chez le médecin référent."
+        },
+        {
+         "letter": "F",
+         "text": "Demander à l'AS de vous suppléer dans le soin."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Nettoyer la plaie avec une solution antiseptique et continuer le soin ; E. Ne pas faire une déclaration d'AES chez le médecin référent.",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "Avec une aiguille non souillée par le sang, la correction nationale retient : nettoyer la plaie à l'antiseptique, continuer le soin, sans déclaration d'AES. (explication hors cours du projet) Remarque : En dehors du cours : les protocoles AES recommandent en général de déclarer tout accident d'exposition ; la réponse E est à confirmer avec l'enseignant.\n\nSource : —",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__52",
+       "num": "53",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne\n\nCas clinique — Par rapport à la fracture du 1/3 moyen de la diaphyse du fémur avec grande ouverture, M. KOLA présente à la NFS un taux d'hémoglobine (TxHb) à 5g/dl de sang et le chirurgien décide de faire monter ce taux à 10g/dl avant l'intervention chirurgicale.",
+       "text": "Parmi les interventions infirmières énumérées ci-dessous, indiquer trois (03) qui relèvent des soins préopératoires :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Prévention thrombo-embolique"
+        },
+        {
+         "letter": "B",
+         "text": "Groupage sanguin + Rh"
+        },
+        {
+         "letter": "C",
+         "text": "Préparation psychologique"
+        },
+        {
+         "letter": "D",
+         "text": "Apport nutritionnel par la réanimation"
+        },
+        {
+         "letter": "E",
+         "text": "Surveillance et contrôle des drainages"
+        },
+        {
+         "letter": "F",
+         "text": "Vérification de la diète alimentaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Groupage sanguin + Rh ; C. Préparation psychologique ; F. Vérification de la diète alimentaire",
+       "answerLetters": [
+        "B",
+        "C",
+        "F"
+       ],
+       "explanation": "Soins préopératoires : prélèvements (groupe sanguin + Rh), préparation psychologique, vérifier que le malade est à jeun. Prévention thrombo-embolique, apport nutritionnel par la réanimation et surveillance des drains concernent surtout le post-opératoire.\n\nSource : Traumatologie Complet-2.pdf, Fractures de l'humérus, 6.2.1 Suivi préopératoire et 6.2.2 Suivi postopératoire",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__53",
+       "num": "54",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne\n\nCas clinique — Par rapport à la fracture du 1/3 moyen de la diaphyse du fémur avec grande ouverture, M. KOLA présente à la NFS un taux d'hémoglobine (TxHb) à 5g/dl de sang et le chirurgien décide de faire monter ce taux à 10g/dl avant l'intervention chirurgicale.",
+       "text": "Deux (02) complications sont immédiates parmi les complications suivantes des fractures du fémur ; lesquelles ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Accidents de décubitus"
+        },
+        {
+         "letter": "B",
+         "text": "Choc traumatique et hémorragique"
+        },
+        {
+         "letter": "C",
+         "text": "Phlébite et embolie"
+        },
+        {
+         "letter": "D",
+         "text": "Lésions vasculo-nerveuses"
+        },
+        {
+         "letter": "E",
+         "text": "Atrophie musculaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Choc traumatique et hémorragique ; D. Lésions vasculo-nerveuses",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Complications immédiates de la fracture du fémur : ouverture du foyer, choc traumatique et hémorragique, lésions vasculo-nerveuses. Phlébite et accidents de décubitus sont secondaires ; atrophie musculaire tardive.\n\nSource : Traumatologie Complet-2.pdf, Fractures de la diaphyse du fémur, V. Complications",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__54",
+       "num": "55",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne\n\nCas clinique — Par rapport à la fracture du 1/3 moyen de la diaphyse du fémur avec grande ouverture, M. KOLA présente à la NFS un taux d'hémoglobine (TxHb) à 5g/dl de sang et le chirurgien décide de faire monter ce taux à 10g/dl avant l'intervention chirurgicale.",
+       "text": "La fracture du bassin a occasionné un globe vésical chez le patient, accompagné de douleurs et d'une urétrorragie. Ce patient présente probablement :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une rupture de l'urètre membraneux"
+        },
+        {
+         "letter": "B",
+         "text": "Une rupture extra péritonéale de la vessie"
+        },
+        {
+         "letter": "C",
+         "text": "Une rupture intra péritonéale de la vessie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Une rupture de l'urètre membraneux",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Lésion de l'urètre : rétention d'urine avec globe vésical et impossibilité d'uriner ; l'urétrorragie la confirme. La rupture de la vessie donne au contraire une absence de globe et une hématurie.\n\nSource : Traumatologie Complet-2.pdf, Traumatismes du bassin, 2.4.2.2 Complications immédiates ; Cours de chirurgie traumatique et digestif.pptx, complications urinaires (rupture de l'urètre membraneux)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__55",
+       "num": "56",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne\n\nCas clinique — Par rapport à la fracture du 1/3 moyen de la diaphyse du fémur avec grande ouverture, M. KOLA présente à la NFS un taux d'hémoglobine (TxHb) à 5g/dl de sang et le chirurgien décide de faire monter ce taux à 10g/dl avant l'intervention chirurgicale.",
+       "text": "Relever deux (02) conséquences de la complication immédiate d'une fracture ouverte parmi les éléments ci-dessous cités :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Infection"
+        },
+        {
+         "letter": "B",
+         "text": "Hémorragie"
+        },
+        {
+         "letter": "C",
+         "text": "Inflammatoire"
+        },
+        {
+         "letter": "D",
+         "text": "Anémie"
+        },
+        {
+         "letter": "E",
+         "text": "Septicémie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "D. Anémie ; E. Septicémie",
+       "answerLetters": [
+        "D",
+        "E"
+       ],
+       "explanation": "La complication immédiate de la fracture ouverte est l'ouverture du foyer avec hémorragie : elle entraîne anémie et risque infectieux généralisé (septicémie).\n\nSource : Traumatologie Complet-2.pdf, 8.1.2 Fractures ouvertes ; Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Septicémie (porte d'entrée cutanée)",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__56",
+       "num": "57",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne\n\nCas clinique — Par rapport à la fracture du 1/3 moyen de la diaphyse du fémur avec grande ouverture, M. KOLA présente à la NFS un taux d'hémoglobine (TxHb) à 5g/dl de sang et le chirurgien décide de faire monter ce taux à 10g/dl avant l'intervention chirurgicale.",
+       "text": "Dans la réalisation du pansement du patient KOLA opéré de sa fracture ouverte du fémur, vous constatez un lâchage des fils de suture très localisé, une plaie rouge œdématiée, un suintement de pus. De ces protocoles basés sur les gestes suivants, lequel convient ? 1. Information du chirurgien 2. Nettoyage de la plaie 3. Application d'antiseptique 4. Prélèvement de pus 5. Fermeture du pansement 6. Attente des prescriptions du chirurgien",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A (1, 2, 3, 4)"
+        },
+        {
+         "letter": "B",
+         "text": "B (2, 3, 5, 1)"
+        },
+        {
+         "letter": "C",
+         "text": "C (2, 3, 4, 5, 6)"
+        },
+        {
+         "letter": "D",
+         "text": "D (4, 2, 3, 5, 1)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. D (4, 2, 3, 5, 1)",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Devant une plaie infectée (pus, lâchage des fils) : prélever le pus pour l'antibiogramme avant tout antiseptique, nettoyer, appliquer l'antiseptique, fermer le pansement, puis informer le chirurgien. (explication hors cours du projet)\n\nSource : —",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-chir-j9-ide3__57",
+       "num": "58",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Vous êtes chargé de l'encadrement clinique des étudiants stagiaires de l'INFAS toutes promotions confondues. Au cours de votre garde de 24h, vous recevez en votre qualité de responsable des soins infirmiers du service des urgences chirurgicales du CHU où vous exercez M. KOLA 42 ans, 50kg polytraumatisé de la voie publique dans un état critique, évacué par les secours médicalisés des Sapeurs-pompiers qui étaient sur les lieux de l'accident pour les premiers soins. Avec le chirurgien, vous procédez à l'examen clinique de la victime, suivi d'une série d'examens radiologiques révélant : – Une fracture du bassin – Une fracture du 1/3 moyen de la dialyse du fémur avec grande ouverture – Une fracture du crâne\n\nCas clinique — Par rapport à la fracture du 1/3 moyen de la diaphyse du fémur avec grande ouverture, M. KOLA présente à la NFS un taux d'hémoglobine (TxHb) à 5g/dl de sang et le chirurgien décide de faire monter ce taux à 10g/dl avant l'intervention chirurgicale.",
+       "text": "Le bandage en huit (8) de chiffre est un traitement orthopédique utilisé en cas de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Luxation de l'épaule"
+        },
+        {
+         "letter": "B",
+         "text": "Fracture des côtes"
+        },
+        {
+         "letter": "C",
+         "text": "Fracture de clavicule"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Fracture de clavicule",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le bandage en huit de chiffre (branches croisées dans le dos) est la contention orthopédique de la fracture de la clavicule.\n\nSource : Traumatologie Complet-2.pdf, Fractures de la clavicule, 6.1 Méthode orthopédique",
+       "sourceDoc": "Préparation D.E (J) · Chirurgie · Prépa D.E J9 (IDE3)",
+       "sourceFile": "J9_Chirurgie_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

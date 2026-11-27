@@ -21,7 +21,7 @@
    "existe": true,
    "sujets": [
     {
-     "name": "J Chirurgie · Prépa D.E J4 (IDE)",
+     "name": "J Chirurgie · Prépa D.E J4 (IDE) · J4 et J10 identiques",
      "slug": "prepa-chir-j4-ide",
      "pages": "",
      "count": 57,
@@ -55,7 +55,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. Groupe 3 de Master : TC avec Glasgow < 15, signe neurologique, aggravation ou plaie pénétrante → scanner d’emblée et surveillance neurologique.\n\nSource : Neurochirurgie (livret), p. 7 (Groupe 3) ; NEUROCHIRURGIE L3, diapo 30",
+       "explanation": "Le cours classe dans le groupe 3 le TC avec GCS < 15, signe neurologique, aggravation ou plaie pénétrante. Conduite : scanner d'emblée et surveillance neurologique.\n\nSource : NEUROCHIRURGIE L3.pptx, Traumatismes crâniens, III. Conduite à tenir, groupe 3 ; Neurochorurgie.pdf",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -85,7 +85,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Ouverture spontanée des yeux = 4 ; retrait du membre à la douleur = 4 ; réponse verbale appropriée/orientée = 5. Total : 4 + 4 + 5 = 13.\n\nSource : NEUROCHIRURGIE L3, score de Glasgow (diapos 17 à 21)",
+       "explanation": "Ouverture spontanée des yeux = 4 ; retrait du membre à la piqûre = 4 ; réponse appropriée = 5. Total : 4 + 4 + 5 = 13.\n\nSource : NEUROCHIRURGIE L3.pptx, score de Glasgow (ouverture des yeux, réponse motrice, réponse verbale)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -115,7 +115,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. Phrase du cours : « On parle de traumatisme crânien grave lorsque le Glasgow est inférieur à 9 après correction des fonctions vitales » (Glasgow 3 à 8).\n\nSource : Neurochirurgie (livret), p. 6",
+       "explanation": "Le cours le dit mot pour mot : « On parle de traumatisme crânien grave lorsque le Glasgow est inférieur à 9 après correction des fonctions vitales » (Glasgow de 3 à 8).\n\nSource : Neurochorurgie.pdf, Traumatismes crâniens, niveaux de gravité",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -145,7 +145,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux. La hernie crurale s’observe surtout chez la femme adulte, la hernie ombilicale de l’adulte aussi ; toutes peuvent s’étrangler.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Hernies – autres sites (diapo 205)",
+       "explanation": "La hernie touche aussi la femme. La hernie crurale survient le plus souvent chez la femme de 30 à 60 ans. Son étranglement est plus fréquent que celui de la hernie inguinale.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Hernies, II. Variétés topographiques (hernie crurale)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -175,7 +175,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. Le signe de Lasègue est recherché sur le patient couché : l’élévation progressive du membre inférieur, genou tendu, étire les racines comprimées et réveille la douleur sciatique, ce qui arrête le mouvement. Il traduit le conflit disco-radiculaire. (description du signe partiellement hors cours du projet)\n\nSource : Neurochirurgie (livret), Sciatalgies / hernie discale (p. 24 et suivantes)",
+       "explanation": "La manœuvre de Lasègue consiste à élever progressivement le membre inférieur, genou étendu. À partir d'un certain angle, la douleur se réveille et déclenche une réaction de défense.\n\nSource : Neurochorurgie.pdf, Sciatalgies / hernie discale, II. Signes physiques",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -205,7 +205,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux. L’abcès chaud est dû à des germes pyogènes (staphylocoque, streptocoque…). Le bacille de Koch est le germe de l’abcès froid.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Abcès chaud – étiologies ; Abcès froid – étiologies",
+       "explanation": "L'abcès chaud est une collection purulente aiguë due à un germe pyogène (staphylocoque, streptocoque…). Le bacille de Koch donne l'abcès froid, collection d'allure chronique.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Abcès chaud (étiologies) et Abcès froid",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -235,7 +235,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. Dans la luxation antéro-interne, l’inspection de face montre l’aplatissement du moignon de l’épaule et la déformation en coup de hache externe au tiers supérieur du bras : c’est le signe de l’épaulette.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Luxation de l’épaule (p. 17-24) ; Traumatologie complet (chirurgie traumatologique et orthopédique), luxation antéro-interne – inspection",
+       "explanation": "Dans la luxation antéro-interne, l'inspection de face montre le signe de l'épaulette, l'aplatissement du moignon de l'épaule et la déformation en coup de hache externe au tiers supérieur du bras. Remarque : Pour le cours, le signe de l'épaulette correspond précisément à la saillie de l'acromion ; l'aplatissement du moignon et le coup de hache l'accompagnent.\n\nSource : Traumatologie Complet-2.pdf, Luxation de l'épaule, 3.2.3.1 Inspection",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -265,7 +265,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. « La fracture de Pouteau-Colles est la fracture de la partie distale du radius ou fracture classique juxta-articulaire. »\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Fractures de l’avant-bras – 3.5.1.1 Définition",
+       "explanation": "Le cours la définit comme « la fracture de la partie distale du radius ou fracture classique juxta-articulaire ».\n\nSource : Traumatologie Complet-2.pdf, Fractures des deux os de l'avant-bras, 3.5.1.1 Fracture de Pouteau-Colles",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -295,7 +295,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. La réduction chirurgicale se fait sous anesthésie générale à foyer ouvert, puis la fracture est fixée par un implant (broche, vis, plaque, clou) : c’est l’ostéosynthèse.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Fractures de la clavicule – méthode chirurgicale (diapo 24) ; Humérus – méthodes chirurgicales (diapo 44)",
+       "explanation": "L'ostéosynthèse est la fixation chirurgicale de la fracture par un implant. Dans le cours, la réduction chirurgicale à foyer ouvert et les réductions sous ostéosynthèse se font sous anesthésie générale.\n\nSource : Traumatologie Complet-2.pdf, Fractures de l'humérus (5.1.1 réduction sous AG) ; Fractures de la clavicule (6.2 méthode chirurgicale)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -325,7 +325,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux. Dans la hernie étranglée, la tuméfaction est dure, tendue, douloureuse, irréductible mais NON impulsive et NON expansive à la toux.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Hernies – 4.2 Hernie compliquée (p. 108)",
+       "explanation": "Dans l'étranglement, la tuméfaction est dure, tendue, douloureuse, irréductible, mais NON impulsive et NON expansive à la toux. L'impulsion à la toux caractérise la hernie non compliquée.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Hernies, 4.2 Hernie compliquée (étranglement)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -355,7 +355,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux. La dénivellation en marche d’escalier avec douleur exquise à la palpation douce est le signe de la fracture de la clavicule.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Fractures de la clavicule – 3.2.2 Palpation",
+       "explanation": "La dénivellation en marche d'escalier avec douleur exquise à la palpation douce est décrite pour la fracture de la clavicule, pas de l'humérus.\n\nSource : Traumatologie Complet-2.pdf, Fractures de la clavicule, 3.2.2 Palpation",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -385,7 +385,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux. La percussion/l’écrasement correspond au choc direct. Le choc indirect est dû à la décélération brutale (collision, chute) qui étire, rompt ou arrache les moyens de fixité des viscères.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Contusions abdominales – 1.1 Mécanismes (p. 89-90)",
+       "explanation": "La percussion ou l'écrasement d'un organe correspond au choc DIRECT. Le choc indirect est dû à la décélération brutale (collision, chute d'un lieu élevé) et entraîne étirement, rupture ou arrachement.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Contusions abdominales, 1.1 Mécanismes",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -415,7 +415,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. Le contrôle ultime pré-transfusionnel au lit du malade (vérification de l’identité et test de compatibilité ABO avec le sang du receveur et de la poche) est la dernière barrière contre l’accident ABO, réalisée juste avant de brancher la poche. (explication hors cours du projet)\n\nSource : aucune source trouvée dans les cours du projet",
+       "explanation": "Le contrôle ultime au lit du malade (test de compatibilité) se fait juste avant de brancher la poche. C'est le dernier contrôle de sécurité de la transfusion. (explication hors cours du projet)\n\nSource : —",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -445,7 +445,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux. Le signe du psoas est la douleur à la flexion forcée de la cuisse droite. La douleur en fosse iliaque droite provoquée par la palpation à gauche correspond au signe de Rovsing.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Appendicite – douleur provoquée (diapo 214) ; Prise en charge infirmière des pathologies chirurgicales L2 2025, formes cliniques (Rovsing, p. 115)",
+       "explanation": "Le signe du psoas est la douleur à la flexion forcée de la cuisse. La palpation du flanc gauche provoquant une douleur à droite correspond au signe de Rovsing.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Appendicite aiguë, douleur provoquée (signe du psoas)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -475,7 +475,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux. Devant une fracture ouverte : pas de manœuvres ni de mobilisations intempestives, surtout ne pas chercher à réduire ; nettoyer, faire un pansement stérile, immobiliser et transporter.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Intervention infirmière – 8.1.2 Fractures ouvertes",
+       "explanation": "Devant une fracture ouverte : pas de manœuvres intempestives et « surtout ne pas chercher à réduire une fracture ouverte ». On nettoie, on fait un pansement stérile et on immobilise.\n\nSource : Traumatologie Complet-2.pdf, 8.1.2 Fractures ouvertes (rôle de l'IDE sur les lieux)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -505,7 +505,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. Compression antéro-postérieure : lors d’un impact antérieur, un ou deux hémi-bassins s’ouvrent en rotation externe (la compression latérale donne une rotation interne).\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Traumatismes du bassin – 1.2.1 Mécanisme (p. 71)",
+       "explanation": "Lors d'un choc antéro-postérieur (impact antérieur), un ou les deux hémi-bassins s'ouvrent en rotation externe. Le choc latéral donne au contraire une rotation interne.\n\nSource : Traumatologie Complet-2.pdf, Traumatismes du bassin, 1.2.1.2 Compressions antéro-postérieures",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -535,7 +535,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. Fracture ouverte : le foyer de fracture communique avec l’extérieur par une plaie même minime des parties molles.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Généralités sur les fractures – 5.2",
+       "explanation": "La fracture ouverte est une fracture dont le foyer communique avec l'extérieur par une plaie même minime des parties molles.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Généralités sur les fractures, 5.2 Fracture ouverte",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -565,7 +565,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. Dans le mal de Pott, le bacille de Koch arrive le plus souvent par voie sanguine à partir du complexe ganglio-pulmonaire (foyer de primo-infection), à la faveur d’une bacillémie.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Mal de Pott – II. Étiologie (diapo 170)",
+       "explanation": "La primo-infection tuberculeuse se fait par voie aérienne au niveau du poumon. Elle peut se disséminer par voie sanguine vers d'autres organes, dont le rachis (mal de Pott).\n\nSource : Neurochorurgie.pdf, Mal de Pott, 1.3 Physiopathologie",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -595,7 +595,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. « Dans la majorité des cas il s’agit d’un conflit disco-radiculaire » ; la hernie discale est la cause de 80 % des sciatiques.\n\nSource : Neurochirurgie (livret), Sciatalgies / hernie discale – introduction (p. 24) II. QCM (Questions à choix multiple)",
+       "explanation": "La sciatalgie est un symptôme : « Dans la majorité des cas, il s'agit d'un conflit disco-radiculaire ». La hernie discale en est la cause dans 90 % des cas.\n\nSource : Neurochorurgie.pdf, Sciatalgies / hernie discale, introduction et étiologies II. QCM (Questions à choix multiple)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -787,7 +787,7 @@
         "D",
         "F"
        ],
-       "explanation": "Le diagnostic positif repose sur la douleur de la fosse iliaque droite, la douleur provoquée (Mac Burney…) avec défense, et biologiquement l’hyperleucocytose > 10 000/mm³. Hématurie et pollakiurie orientent vers l’appareil urinaire.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Appendicite – paracliniques et VIII. Diagnostic positif (p. 115-116)",
+       "explanation": "Le diagnostic positif repose sur la douleur de la fosse iliaque droite, la douleur provoquée et la défense ; la NFS montre une hyperleucocytose. Céphalées, hématurie et pollakiurie n'en font pas partie.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Appendicite aiguë, VIII. Diagnostic positif et 5.2.3 Biologie ; Cours de chirurgie traumatique et digestif.pptx",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -930,7 +930,7 @@
         "C",
         "E"
        ],
-       "explanation": "Le syndrome de Volkmann se signale par la douleur, l’œdème (main gonflée), la cyanose (main violacée), la froideur des extrémités et des troubles sensitifs. Sueurs froides, tachycardie et pouls filant sont des signes de choc.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Syndrome de Wolkmann – 5.2 Étude clinique ; 7.1 Surveillance du plâtre",
+       "explanation": "Le syndrome de Volkmann associe douleur, œdème, cyanose, troubles sensitifs (insensibilité) et abolition du pouls radial. Sueurs froides, tachycardie et pouls filant évoquent plutôt un état de choc.\n\nSource : Traumatologie Complet-2.pdf, Le syndrome de Wolkmann, 5.2 Étude clinique",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -968,7 +968,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Yeux : aucune ouverture = 1 ; verbal : incompréhensible = 2 ; moteur : extension (décérébration) = 2. Total = 5, donc entre 3 et 8 : traumatisme crânien grave.\n\nSource : NEUROCHIRURGIE L3, diapos 17 à 23",
+       "explanation": "Yeux : n'ouvre pas = 1. Verbal : sons incompréhensibles = 2. Moteur : extension = 2. Total 5, soit entre 3 et 8 : traumatisme crânien grave.\n\nSource : NEUROCHIRURGIE L3.pptx, score de Glasgow et niveaux de gravité",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1016,7 +1016,7 @@
         "E",
         "F"
        ],
-       "explanation": "Le matin de l’intervention : sondage vésical, prémédication selon prescription, prévenir le chirurgien en cas de fièvre, accompagner le blessé au bloc avec son dossier complet. La préparation psychologique et le bilan se font avant, l’anesthésique relève de l’anesthésiste.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), 8.2.2.6 Les actes le matin de l’intervention",
+       "explanation": "Le matin de l'intervention, le cours prévoit : sondage vésical, prémédication, prévenir le chirurgien en cas de fièvre, accompagner le blessé au bloc avec son dossier. Le bilan et la préparation psychologique se font avant ; l'anesthésie revient à l'anesthésiste.\n\nSource : Traumatologie Complet-2.pdf, 8.2.2.6 Les actes le matin de l'intervention",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1064,7 +1064,7 @@
         "C",
         "E"
        ],
-       "explanation": "Attitude de Desault : épaule abaissée, projetée en avant et rapprochée de la ligne médiane ; tête inclinée du côté atteint ; avant-bras demi-fléchi soutenu par la main opposée. L’abduction-rotation externe et l’aplatissement du moignon évoquent la luxation de l’épaule.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Fractures de la clavicule – 3.2.1 Inspection",
+       "explanation": "L'attitude de Desault (traumatisé du membre supérieur) : épaule abaissée, projetée en avant, rapprochée de la ligne médiane ; tête inclinée du côté atteint ; avant-bras demi-fléchi soutenu par la main opposée.\n\nSource : Traumatologie Complet-2.pdf, Fractures de la clavicule, 3.2.1 Inspection",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1112,7 +1112,7 @@
         "B",
         "E"
        ],
-       "explanation": "Chez le polytraumatisé, on redoute d’emblée le choc hémorragique, les lésions urinaires (rupture vésicale ou urétrale, notamment avec les fractures du bassin) et les lésions associées passées inaperçues (fractures, luxations). Nécrose, coxarthrose et ankylose sont des complications tardives.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Polytraumatisé et Traumatismes du bassin – complications immédiates",
+       "explanation": "Chez le polytraumatisé, les risques immédiats sont l'hémorragie (et le choc), les lésions associées (fractures) et les lésions viscérales, dont l'atteinte urinaire. Nécrose, coxarthrose et ankylose sont des complications tardives.\n\nSource : Traumatologie Complet-2.pdf, Polytraumatisé et Traumatismes du bassin (complications urinaires immédiates)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1160,7 +1160,7 @@
         "E",
         "F"
        ],
-       "explanation": "Sur les lieux : protéger (baliser), assurer la liberté des voies aériennes en position latérale de sécurité, immobiliser les fractures (attelle, gouttière). Le transport sur un engin personnel est à proscrire ; la prémédication relève du bloc.\n\nSource : Traumatologie complet (chirurgie traumatologique et orthopédique), Conduite à tenir auprès d’un traumatisé des voies publiques – gestes salvateurs (balisage : hors cours)",
+       "explanation": "Sur les lieux : protéger (baliser), installer en PLS sur un plan dur et immobiliser provisoirement les fractures. On ne transporte pas le blessé dans son propre véhicule. La perfusion et la prémédication ne sont pas des gestes de secouriste.\n\nSource : Traumatologie Complet-2.pdf, Conduite à tenir auprès d'un traumatisé des voies publiques (gestes salvateurs) ; 8.1 Soins sur les lieux",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1208,7 +1208,7 @@
         "E",
         "F"
        ],
-       "explanation": "Le drainage sert à évacuer une collection : épanchements pleuraux (pleurésie purulente, hémothorax), cavités infectées (abcès), et drainage de posture des sécrétions bronchiques (dilatation des bronches). L’appendicite se traite par appendicectomie. (explication partiellement hors cours du projet)\n\nSource : Cours de chirurgie traumatique et digestif (L2), Traumatisme du thorax – drainage des épanchements pleuraux (diapo 17) ; Prise en charge infirmière des pathologies chirurgicales L2 2025, drainage de posture (p. 50)",
+       "explanation": "Le drainage évacue une collection de pus ou de liquide : pleurésies purulentes, cavités infectées (abcès) et dilatation des bronches (drainage de posture). (explication hors cours du projet)\n\nSource : —",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1256,7 +1256,7 @@
         "E",
         "F"
        ],
-       "explanation": "L’apport de volume expose à la surcharge volémique, avec œdème aigu du poumon ; il est donc dangereux en cas d’HTA, d’insuffisance cardiaque ou d’OAP. L’anémie est au contraire une indication. (explication partiellement hors cours du projet)\n\nSource : Initiation à la réanimation L2 2025, complications du remplissage vasculaire (p. 42)",
+       "explanation": "Les surcharges circulatoires (HTA, insuffisance cardiaque, œdème aigu du poumon) contre-indiquent la transfusion ou imposent une grande prudence. L'anémie chronique est au contraire une indication. (explication hors cours du projet)\n\nSource : Exercices du Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf) (question 45 sur les contre-indications)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1304,7 +1304,7 @@
         "C",
         "F"
        ],
-       "explanation": "Surveillance des drains : vérifier leur vide/aspiration et leur bonne fixation, l’écoulement (quantité, couleur, aspect), ne jamais laisser un drain bouché ; en drainage aspiratif, maintenir le vide dans les flacons.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, surveillance des redons (p. 49-50) ; Cours de chirurgie traumatique et digestif (L2), Péritonites – soins des drains (diapo 244)",
+       "explanation": "Surveiller un drainage, c'est vérifier la perméabilité du drain, surveiller l'abondance de l'écoulement et contrôler la dépression d'aspiration (le vide des flacons de Redon).\n\nSource : Traumatologie Complet-2.pdf, 8.2.4.1.4 Surveiller les Redons ; Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Péritonites (maintenir le vide dans les flacons)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1352,7 +1352,7 @@
         "E",
         "F"
        ],
-       "explanation": "La préparation psychologique vise à réduire l’anxiété : rassurer le blessé souvent effrayé, dissiper ses craintes et lui fournir des informations sur la période péri-opératoire. Bilan, prévention de l’infection et prémédication relèvent de la préparation physique. Remarque : Le cours parle d’« informations sur la période péri-opératoire » plutôt que de « tous les détails de l’intervention ».\n\nSource : Cours de chirurgie traumatique et digestif (L2), Fémur – soins préopératoires (diapo 73) ; Appendicite – objectifs des soins (diapo 218)",
+       "explanation": "La préparation psychologique vise à gagner la confiance de l'opéré : le rassurer, dissiper ses craintes et l'informer sur l'intervention. Le bilan physique, la lutte contre l'infection et la prémédication relèvent d'autres préparations. Remarque : « Tous les détails de l'intervention » : le cours parle de rassurer et d'informer, sans préciser jusqu'à tous les détails.\n\nSource : Techniques de soins infirmiers spécialisés en chirurgie, L3 (TECHNIQUES DE SOINS INFIRMIERS SPECIALISÉS EN CHIRURGIE.pdf), L'intervention chirurgicale, III. Période pré-opératoire ; Traumatologie Complet-2.pdf, 8.2.2.2",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1448,7 +1448,7 @@
         "C",
         "E"
        ],
-       "explanation": "En post-opératoire : surveillance des constantes, administration du traitement prescrit, surveillance de la plaie opératoire et des drains. Évaluation, préparation psychologique et préparation du champ sont des soins pré-opératoires.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Cancer de l’œsophage – soins post-opératoires (diapo 254)",
+       "explanation": "En salle d'hospitalisation, l'opéré est surveillé : paramètres vitaux, traitement prescrit, plaie opératoire et drains. Bilan, préparation psychologique et champ opératoire se font avant l'intervention.\n\nSource : Traumatologie Complet-2.pdf, 6.2.2 Suivi postopératoire",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1495,7 +1495,7 @@
         "C",
         "E"
        ],
-       "explanation": "« Le traitement des occlusions intestinales aiguës comporte une double action : la correction des déséquilibres humoraux et la suppression de l’obstacle. »\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Occlusions – VI. Traitement (p. 126)",
+       "explanation": "« Le traitement des occlusions comporte une double action : la correction des déséquilibres humoraux et la suppression de l'obstacle. »\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Occlusions intestinales aiguës, VI. Traitement",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1543,7 +1543,7 @@
         "C",
         "E"
        ],
-       "explanation": "Gestes d’urgence avant l’intervention : prélever le sang pour bilan et groupage, mettre en place une sonde gastrique (éviter vomissements et syndrome de Mendelson) et une sonde urinaire (diurèse horaire).\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Occlusions – gestes d’urgence (p. 126) ; Contusions abdominales – moyens médicaux (p. 95-96)",
+       "explanation": "Avant le bloc : bilan sanguin (groupage, NFS), sonde naso-gastrique (mettre l'estomac au repos, éviter le syndrome de Mendelson) et sonde urinaire.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Contusions abdominales, IX. Conduite à tenir (moyens médicaux) ; Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Occlusions (gestes d'urgence)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1586,7 +1586,7 @@
         "C",
         "E"
        ],
-       "explanation": "L’étranglement provoque arrêt des matières et des gaz et vomissements (occlusion), puis ischémie, sphacèle et perforation du viscère hernié (péritonite).\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Hernies – 4.2 Étranglement herniaire (p. 107-108)",
+       "explanation": "L'étranglement entraîne ischémie, sphacèle puis perforation du viscère hernié : occlusion (grêle ou côlon) et péritonite.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Hernies, 4.2 Hernie compliquée ; Cours de chirurgie traumatique et digestif.pptx, Hernies (péritonite herniaire)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1624,7 +1624,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Choc direct : percussion déterminant éclatement, dilacération ou écrasement ; les viscères creux s’écrasent entre la saillie du rachis et la ceinture pelvienne. L’accélération/décélération correspond au choc indirect.\n\nSource : Prise en charge infirmière des pathologies chirurgicales L2 2025, Contusions – mécanismes (p. 89) ; Cours de chirurgie traumatique et digestif (L2), diapo 182",
+       "explanation": "Dans le choc direct, les viscères creux s'écrasent entre la saillie du rachis et la ceinture pelvienne. Le cours parle de « percussion » et d'écrasement contre les vertèbres.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Contusions abdominales, III. Mécanisme ; Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), 1.1 Mécanismes",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1672,7 +1672,7 @@
         "C",
         "E"
        ],
-       "explanation": "Le TC entraîne un dysfonctionnement cérébral : perte de connaissance, céphalée (douleur), amnésie post-traumatique, coma. Plaie, ecchymose et hématome sont des signes physiques (examen du crâne).\n\nSource : NEUROCHIRURGIE L3, introduction (diapo 4) et signes physiques (diapo 16) ; Neurochirurgie (livret), p. 54 (amnésie = signe fonctionnel)",
+       "explanation": "Signes fonctionnels du TC : perte de connaissance initiale, douleur, amnésie, coma d'emblée. Plaie, ecchymose et hématome sont des signes physiques (examen du crâne).\n\nSource : Neurochorurgie.pdf, Traumatismes crâniens, 2.1 Signes fonctionnels et 2.2 Signes physiques",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1745,7 +1745,7 @@
         "B",
         "C"
        ],
-       "explanation": "Paraplégie = paralysie des deux membres inférieurs ; tétraplégie = paralysie des quatre membres (atteinte cervicale). La monoplégie est la paralysie d’un seul membre ; la parésie est une paralysie incomplète (diminution de la force), pas un mouvement normal.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Fractures du rachis – symptômes neurologiques (diapo 152)",
+       "explanation": "Paraplégie = paralysie des deux membres inférieurs ; tétraplégie = paralysie des quatre membres. La monoplégie est la paralysie d'un seul membre. La parésie est une présence de mouvement d'intensité diminuée.\n\nSource : Neurochorurgie.pdf, Fracture du rachis, 2.2 Signes physiques (examen de la motricité)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1884,7 +1884,7 @@
         "B",
         "D"
        ],
-       "explanation": "La réponse verbale se cote : appropriée/orientée, confuse, incohérente, incompréhensible, aucune. « Spontanée » appartient à l’ouverture des yeux, « flexion anormale » à la réponse motrice.\n\nSource : NEUROCHIRURGIE L3, diapos 17 à 21 Étude de cas",
+       "explanation": "Meilleure réponse verbale : appropriée, confuse, incohérente, incompréhensible, aucune. « Spontanée » appartient à l'ouverture des yeux ; « flexion anormale » appartient à la réponse motrice.\n\nSource : NEUROCHIRURGIE L3.pptx, score de Glasgow III. ÉTUDE DE CAS",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1922,7 +1922,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Baxter : J1 = poids × 4 × SCB ; J2 = moitié de J1. Total 2 jours = 1,5 × J1 = 12 000 ml, donc J1 = 8 000 ml (vérification : 57 × 4 × 35 = 7 980 ≈ 8 000 ml).\n\nSource : Pathologie chirurgicale – Sémiologie L1, Brûlures 2 – 5.3 Réanimation hydroélectrolytique (règle de Baxter)",
+       "explanation": "Règle de Baxter J1 : poids × 4 × % SCB = 57 × 4 × 35 = 7 980 ml, soit environ 8 000 ml.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Brûlures 2, 5.3 Réanimation hydroélectrolytique (règle de Baxter)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1960,7 +1960,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "J2 = ½ de J1 = 8 000 / 2 = 4 000 ml (et 8 000 + 4 000 = 12 000 ml, comme dans l’énoncé).\n\nSource : Pathologie chirurgicale – Sémiologie L1, Brûlures 2 – règle de Baxter",
+       "explanation": "Baxter J2 = la moitié de J1 : 8 000 / 2 = 4 000 ml. Contrôle : 8 000 + 4 000 = 12 000 ml, la quantité donnée dans le cas.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Brûlures 2, 5.3 (J2 = ½ QJ1)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1998,7 +1998,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le poids se déduit de Baxter : J1 = 8 000 ml = P × 4 × 35, d’où P = 8 000 / 140 ≈ 57 kg. Remarque : Le poids n’est pas écrit dans l’énoncé (57 y est l’âge) : il se calcule à partir des 12 000 ml prescrits.\n\nSource : Pathologie chirurgicale – Sémiologie L1, Brûlures 2 – règle de Baxter",
+       "explanation": "12 000 ml sur deux jours = 1,5 × (poids × 4 × 35), soit poids × 210. Poids = 12 000 / 210 ≈ 57 kg (l'âge du patient est aussi 57 ans).\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Brûlures 2, 5.3 (règle de Baxter)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -2132,7 +2132,7 @@
         "A",
         "F"
        ],
-       "explanation": "Gain voulu : 10 − 5 = 5 g/dl. Formules usuelles : culot globulaire = 3 × poids × ΔHb = 3 × 57 × 5 = 855 ml ; sang total = 6 × poids × ΔHb = 6 × 57 × 5 = 1 710 ml. (explication hors cours du projet)\n\nSource : aucune source trouvée dans les cours du projet",
+       "explanation": "Remonter l'Hb de 5 à 10 g/dl (Δ = 5) chez 57 kg. Culot globulaire : 5 × 57 × 3 = 855 ml. Sang total : 5 × 57 × 6 = 1 710 ml. (explication hors cours du projet)\n\nSource : —",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -2179,7 +2179,7 @@
         "A",
         "C"
        ],
-       "explanation": "Durée : 2 h 30 = 150 min ; transfuseur ≈ 15 gouttes/ml. Sang total : 1 710 × 15 / 150 = 171 gouttes/min ; culot : 855 × 15 / 150 ≈ 85 gouttes/min. (explication hors cours du projet)\n\nSource : aucune source trouvée dans les cours du projet",
+       "explanation": "Débit = volume × 15 gouttes / 150 min (2 h 30). Culot : 855 × 15 / 150 ≈ 85 gouttes/min. Sang total : 1 710 × 15 / 150 = 171 gouttes/min. (explication hors cours du projet)\n\nSource : —",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -2301,7 +2301,7 @@
         "C",
         "E"
        ],
-       "explanation": "L’adénome de la prostate comprime l’urètre : dysurie (premier symptôme), pollakiurie nocturne/diurne, et rétention d’urine (aiguë ou chronique) ; l’adénome est la première cause de rétention. Remarque : la capture s’arrête au début d’une dernière question (en-tête « Incorrect » visible, énoncé et options absents). Elle n’a pas pu être transcrite.\n\nSource : Cours de chirurgie traumatique et digestif (L2), Adénome de la prostate – clinique (diapo 288) ; Rétention urinaire – étiologies (diapo 306)",
+       "explanation": "L'adénome de la prostate se manifeste par la dysurie (premier symptôme), la pollakiurie et la rétention d'urine (globe vésical).\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Adénome de la prostate, 3.1 Signes fonctionnels ; Rétention urinaire",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Chirurgie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null

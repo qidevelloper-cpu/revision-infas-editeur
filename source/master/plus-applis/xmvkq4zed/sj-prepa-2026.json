@@ -3999,7 +3999,7 @@
      ]
     },
     {
-     "name": "J Chirurgie · Prépa D.E du 10 octobre 2026",
+     "name": "J Chirurgie · Prépa D.E du 10 octobre 2026 · identique au J8",
      "slug": "prepa-chir-2026-10-10",
      "pages": "",
      "count": 60,
@@ -4033,7 +4033,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Les prodromes de l'appendicite sont l'anorexie, les nausées et les vomissements (surtout chez l'enfant). La constipation est plus fréquente que la diarrhée.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Appendicite aiguë, V. Manifestations cliniques (a. Prodromes)",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4063,7 +4063,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "« La septicémie à perfringens succède à un avortement provoqué (le perfringens étant un hôte insignifiant du vagin). »\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Septicémie, III. Principales étiologies",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4093,7 +4093,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "L'invagination intestinale (retournement du tube intestinal sur lui-même par télescopage) est une occlusion mécanique par strangulation. Remarque : Cette affirmation figure deux fois dans le sujet (questions 3 et 5), avec la même réponse. Remarque : Cette affirmation figure deux fois dans le sujet (questions 3 et 5), avec la même réponse.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Occlusions intestinales aiguës, 1.1 Occlusions mécaniques",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4123,7 +4123,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "L'épanchement liquidien dans les bourses autour du testicule est l'hydrocèle (entre les deux feuillets de la vaginale). La hernie inguinale est l'issue d'un viscère par le canal inguinal.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Hydrocèle (définition) ; Hernies, 2.1.1 Hernie inguinale",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4153,7 +4153,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "L'appendicite atteint les deux sexes ; elle est rare avant 3 ans ; le pic de fréquence se situe entre 10 et 30 ans. Remarque : Le cours écrit « entre 10 et 30 ans » ; « 10 et 3 ans » dans le sujet est sans doute une faute de frappe.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Appendicite aiguë, I. Intérêt épidémiologique",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4183,7 +4183,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Les amphiarthroses sont des articulations semi-mobiles (très peu mobiles), comme les disques intervertébraux ou la symphyse pubienne. Les articulations immobiles sont les synarthroses.\n\nSource : ARTHROLOGIE COMPLET.pdf, Classification des articulations selon leur mobilité",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4213,7 +4213,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Les occlusions inflammatoires (mixtes) surviennent au cours des péritonites et des affections septiques de voisinage : « mécanismes fonctionnels et mécaniques se conjuguent le plus souvent ».\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Occlusions intestinales aiguës, 1.3 Occlusions inflammatoires (ou mixtes)",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4243,7 +4243,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Le cours distingue trois catégories : panaris superficiels (péri-unguéal, sous-unguéal…), panaris du tissu cellulaire sous-cutané et panaris profonds. Le panaris du tissu sous-cutané n'est donc pas classé parmi les superficiels.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Panaris, III. Différents panaris",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4273,7 +4273,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "L'adénome de la prostate est une tumeur BÉNIGNE (hyperplasie et hypertrophie de la glande).\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Adénome de la prostate, I. Définition",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4363,7 +4363,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Abcès froid NON fistulisé : exérèse totale au-delà des tissus sains (ou ponction évacuatrice en zone non déclive). L'incision large avec effondrement et destruction de la paroi à la curette concerne l'abcès froid FISTULISÉ.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Abcès froid, IV. Clinique (4-1 et 4-2)",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4393,7 +4393,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Le spina-bifida occulta est un simple défaut de soudure des arcs vertébraux postérieurs (souvent L5, 30 % des gens) qui « ne prête pas à conséquence » : on ne traite que s'il existe des troubles neurologiques graves.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Spina bifida, 2.1 Le spina-bifida occulta",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4423,7 +4423,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Les occlusions fonctionnelles relèvent du dérèglement du système nerveux intestinal (paralysie ou spasmes).\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Occlusions intestinales aiguës, 1.2 Occlusions fonctionnelles",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4453,11 +4453,10 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Un Glasgow élevé traduit un bon état neurologique (13–15 = bénin) ; un Glasgow bas (3–8) traduit un traumatisme grave.\n\nSource : NEUROCHIRURGIE L3.pptx, niveaux de gravité",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
-       "sourcePage": null,
-       "off": 1
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-chir-2026-10-10__15",
@@ -4484,7 +4483,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "« On appelle fracture la rupture de la continuité d'un os. »\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Généralités sur les fractures, I. Définition",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4514,7 +4513,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "La luxation antéro-interne est la « variété la plus fréquente des luxations de l'épaule lors d'un accident ».\n\nSource : Traumatologie Complet-2.pdf, Luxation de l'épaule, III. La luxation antéro-interne",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4544,7 +4543,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "La péritonite tuberculeuse (péritonite chronique) est prouvée par la présence du bacille de Koch dans les lésions péritonéales ou l'ascite.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Péritonites, 3. Péritonites chroniques",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4574,7 +4573,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "C'est l'inverse : le testicule cryptorchide « ne supporte pas la température de l'abdomen plus élevée que celle du scrotum ».\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Anomalies de la descente du testicule, III. Symptomatologie",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4604,7 +4603,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "La cryptorchidie (« testicule caché ») est une anomalie de la descente du testicule due à un défaut de sécrétion des hormones (testostérone) ou à un obstacle anatomique.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Anomalies de la descente du testicule, I et II II. QCM / QRU",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4643,7 +4642,7 @@
         "A",
         "B"
        ],
-       "explanation": "",
+       "explanation": "Le mal de Pott est une tuberculose disco-vertébrale : il détruit à la fois les disques intervertébraux et les vertèbres.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Mal de Pott, I. Définition",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4691,7 +4690,7 @@
         "D",
         "F"
        ],
-       "explanation": "",
+       "explanation": "Période terminale de la péritonite : vomissements incessants (bilieux, porracés puis fécaloïdes), hoquet, arrêt absolu des matières et des gaz : à la péritonite s'ajoute l'occlusion paralytique. La douleur à diffusion progressive appartient à la période initiale.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Péritonites, 1. Péritonite aiguë diffuse (période terminale)",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4729,7 +4728,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Le syndrome occlusif compte trois signes fonctionnels (douleurs, vomissements, arrêt des matières et des gaz) et UN signe physique : le météorisme abdominal.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Occlusions intestinales aiguës, III. Le syndrome occlusif",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4806,7 +4805,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Torsion (volvulus), corps étrangers et invagination sont des causes mécaniques. Le dérèglement du système nerveux intestinal définit l'occlusion fonctionnelle.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Occlusions intestinales aiguës, II. Étiologies",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4853,7 +4852,7 @@
         "A",
         "B"
        ],
-       "explanation": "",
+       "explanation": "À l'examen de la péritonite aiguë diffuse : immobilité diaphragmatique à l'inspection et contracture abdominale à la palpation.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Péritonites, 1. Péritonite aiguë diffuse (période initiale)",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4887,7 +4886,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "L'intervalle libre est le temps pendant lequel le blessé paraît s'améliorer après le traumatisme, avant que son état ne s'aggrave de nouveau.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Traumatismes crâniens, VI. Hématome extradural",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4935,7 +4934,7 @@
         "D",
         "F"
        ],
-       "explanation": "",
+       "explanation": "Atteinte du rachis cervical supérieur : vertiges, céphalées et troubles neurovégétatifs. Torticolis, troubles sphinctériens et paresthésies appartiennent à l'examen général du rachis.\n\nSource : Neurochorurgie.pdf, Fracture du rachis, 2.1 Signes fonctionnels",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -4969,7 +4968,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Sous traitement antituberculeux, « la guérison s'obtient au bout de 8 voire 12 mois ».\n\nSource : Neurochorurgie.pdf, Mal de Pott, 2.5 Évolution",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5007,7 +5006,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "« Hernies inguinales et crurales constituent les hernies de l'aine. » La hernie de la ligne blanche et la hernie de Spiegel ne sont pas des hernies de l'aine. Remarque : Dans le sujet, la question demande deux réponses mais n'accepte qu'un choix (bouton rond) ; une seule option est cochée. Remarque : Dans le sujet, la question demande deux réponses mais n'accepte qu'un choix (bouton rond) ; une seule option est cochée. Selon le cours, la hernie inguinale est aussi une hernie de l'aine.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Hernies, introduction",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5041,7 +5040,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Baxter sur 2 jours : J1 = P × 4 × 50 = 200 P ; J2 = 100 P ; total 300 P = 9 300 ml, donc P = 31 kg.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Brûlures 2, 5.3 (règle de Baxter, J2 = ½ J1)",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5089,7 +5088,7 @@
         "B",
         "D"
        ],
-       "explanation": "",
+       "explanation": "Le score de Glasgow apprécie l'ouverture des yeux, la meilleure réponse verbale et la meilleure réponse motrice.\n\nSource : NEUROCHIRURGIE L3.pptx, score de Glasgow",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5128,7 +5127,7 @@
         "B",
         "C"
        ],
-       "explanation": "",
+       "explanation": "Devant une rétention urinaire, le drainage vésical est une urgence : sondage urétral ou ponction sus-pubienne.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Rétention urinaire, IV. Traitement",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5167,7 +5166,7 @@
         "A",
         "C"
        ],
-       "explanation": "",
+       "explanation": "Le cours décrit trois formes anatomopathologiques : catarrhale, phlegmoneuse et gangréneuse. Plastron, abcès et péritonite appendiculaires sont des formes évolutives.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Appendicite aiguë, IV. Anatomie pathologique et VII. Formes évolutives",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5210,7 +5209,7 @@
         "A",
         "D"
        ],
-       "explanation": "",
+       "explanation": "Le lever précoce accélère la reprise du transit digestif et prévient la stase et l'obstruction bronchique. Il évite aussi les escarres et la maladie thrombo-embolique.\n\nSource : Techniques de soins infirmiers spécialisés en chirurgie, L3 (TECHNIQUES DE SOINS INFIRMIERS SPECIALISÉS EN CHIRURGIE.pdf), L'intervention chirurgicale, 4.2.1 Le lever précoce",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5248,7 +5247,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "",
+       "explanation": "Volume = débit × durée / 15 = 60 × 120 / 15 = 480 ml (1 ml de sang ≈ 15 gouttes). (explication hors cours du projet)\n\nSource : —",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5295,7 +5294,7 @@
         "A",
         "C"
        ],
-       "explanation": "",
+       "explanation": "L'ASP montre l'image hydro-aérique (niveaux liquides horizontaux surmontés d'une bulle). Leur aspect, leur nombre et leur siège permettent de situer l'obstacle. Silence, matité, ballonnement et gargouillement sont des signes d'examen clinique.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Occlusions intestinales aiguës, 1.4 Signes radiologiques",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5363,7 +5362,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "En urgence, il faut toujours immobiliser provisoirement la fracture. On ne réduit pas une fracture sur les lieux, surtout si elle est ouverte.\n\nSource : Traumatologie Complet-2.pdf, Fractures de la diaphyse du fémur, VI. Traitement ; 8.1 Soins sur les lieux",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5411,7 +5410,7 @@
         "C",
         "F"
        ],
-       "explanation": "",
+       "explanation": "L'immobilisation provisoire évite d'aggraver le choc et minimise le risque d'embolie graisseuse. Elle limite aussi les déplacements des fragments osseux, donc la douleur.\n\nSource : Traumatologie Complet-2.pdf, Fractures de la diaphyse du fémur, VI. Traitement (introduction)",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5445,7 +5444,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Le squelette appendiculaire comprend les membres (et leurs ceintures). Le fémur et les deux os de l'avant-bras en font partie. Le squelette axial comprend la tête et le tronc.\n\nSource : ANATOMIE OSTÉOLOGIE COMPLET.pdf, Définition du squelette humain ; Chap. II Squelette appendiculaire",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5492,7 +5491,7 @@
         "D",
         "E"
        ],
-       "explanation": "",
+       "explanation": "Complications immédiates de la fracture du fémur : ouverture du foyer de fracture, choc traumatique et hémorragique, lésions vasculo-nerveuses. Phlébite et retard de consolidation sont secondaires ; atrophie et raideur sont tardives.\n\nSource : Traumatologie Complet-2.pdf, Fractures de la diaphyse du fémur, V. Complications",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5531,7 +5530,7 @@
         "A",
         "C"
        ],
-       "explanation": "",
+       "explanation": "Dans la fracture ouverte, le risque majeur est l'infection, qui « peut conduire à l'amputation ».\n\nSource : Traumatologie Complet-2.pdf, 8.1.2 Fractures ouvertes",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5579,7 +5578,7 @@
         "E",
         "F"
        ],
-       "explanation": "",
+       "explanation": "Sur les lieux d'une fracture ouverte : pas de manœuvres intempestives, nettoyer la plaie aux antiseptiques, transporter rapidement mais sans précipitation vers un centre chirurgical.\n\nSource : Traumatologie Complet-2.pdf, 8.1.2 Fractures ouvertes",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5627,7 +5626,7 @@
         "D",
         "F"
        ],
-       "explanation": "",
+       "explanation": "Le traitement d'une fracture déplacée comporte la réduction, puis la contention (immobilisation jusqu'à la consolidation), puis la rééducation dès la consolidation.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Généralités sur les fractures, VI. Traitement (6.1 traitement orthopédique)",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5665,7 +5664,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "",
+       "explanation": "Pour une fracture des deux os de l'avant-bras, le plâtre brachio-palmaire immobilise du bras à la paume (coude et poignet). Minerve, botte et Delbet concernent le cou et le membre inférieur. (explication hors cours du projet)\n\nSource : —",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5713,7 +5712,7 @@
         "D",
         "F"
        ],
-       "explanation": "",
+       "explanation": "Sous plâtre, on surveille l'apparition d'un syndrome de Volkmann : main gonflée et violacée, douleurs sous plâtre, froideur des extrémités. Au moindre doute, fendre le plâtre.\n\nSource : Traumatologie Complet-2.pdf, Fractures des deux os de l'avant-bras, VII. Rôle de l'infirmier (7.1)",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5761,7 +5760,7 @@
         "D",
         "F"
        ],
-       "explanation": "",
+       "explanation": "Avant l'intervention : prélèvements pour le bilan préopératoire (et radiographies), préparation psychologique, prémédication destinée à calmer l'anxiété.\n\nSource : Traumatologie Complet-2.pdf, Fractures de l'humérus, 6.2.1 Suivi préopératoire",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5854,7 +5853,7 @@
         "C",
         "E"
        ],
-       "explanation": "",
+       "explanation": "Après l'intervention, l'infirmier surveille l'apparition d'un syndrome de Volkmann (plâtre) et assure le nursing (toilette, prévention des escarres).\n\nSource : Traumatologie Complet-2.pdf, Fractures des deux os de l'avant-bras, VII. Rôle de l'infirmier (7.1 et 7.3)",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5897,7 +5896,7 @@
         "A",
         "B"
        ],
-       "explanation": "",
+       "explanation": "Le sondage urinaire est indiqué dans la rétention d'urines (souvent par hypertrophie bénigne de la prostate) et dans l'incontinence. On ne sonde pas devant une infection urinaire (risque d'aggravation) ; une douleur sus-pubienne n'est pas en soi une indication. (explication hors cours du projet) en partie.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Rétention urinaire ; Traumatologie Complet-2.pdf, 8.2.4.1.9 (sonde si incontinence) IV. ÉTUDE DE CAS N°2",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5927,7 +5926,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Tuméfaction inguinale saillante, sensation d'étirement et de gêne, traitement orthopédique et chirurgie retardée : c'est une hernie simple (non compliquée). Une hernie étranglée serait une urgence chirurgicale.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Hernies, IV. Diagnostic (hernie non compliquée)",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -5961,7 +5960,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "La principale complication de la hernie est l'étranglement, qui la transforme en urgence chirurgicale.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Hernies, introduction et 4.2",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -6009,7 +6008,7 @@
         "E",
         "F"
        ],
-       "explanation": "",
+       "explanation": "Au centre rural, devant une hernie étranglée ancienne : accueillir, examiner pour confirmer, prendre les constantes, puis référer. On ne réduit pas une hernie étranglée (risque de réintégrer un intestin nécrosé).\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Hernies, 4.2 Hernie compliquée",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -6048,7 +6047,7 @@
         "A",
         "D"
        ],
-       "explanation": "",
+       "explanation": "A.S. : Δ Hb = 5, poids 60 kg. Culot = 5 × 60 × 3 = 900 ml. Débit = 900 × 15 / 210 min (3 h 30) ≈ 64 gouttes/min. (explication hors cours du projet)\n\nSource : —",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -6087,7 +6086,7 @@
         "B",
         "D"
        ],
-       "explanation": "",
+       "explanation": "E.L. : Δ Hb = 6, poids 65 kg. Culot = 6 × 65 × 3 = 1 170 ml. Débit = 1 170 × 15 / 210 ≈ 84 gouttes/min. (explication hors cours du projet)\n\nSource : —",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -6182,7 +6181,7 @@
         "B",
         "D"
        ],
-       "explanation": "",
+       "explanation": "Avant de transfuser : informer le patient et réaliser le contrôle ultime au lit du malade (test de compatibilité). (explication hors cours du projet)\n\nSource : —",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -6229,7 +6228,7 @@
         "B",
         "C"
        ],
-       "explanation": "",
+       "explanation": "Pendant la transfusion : surveiller les réactions du patient (agitation, plaintes) et son faciès (sueurs), pour dépister un accident transfusionnel. (explication hors cours du projet)\n\nSource : —",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null
@@ -6275,7 +6274,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Après la transfusion : assurer la traçabilité (et garder la poche vide le temps prescrit). (explication hors cours du projet)\n\nSource : —",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "chiru_s.pdf",
        "sourcePage": null

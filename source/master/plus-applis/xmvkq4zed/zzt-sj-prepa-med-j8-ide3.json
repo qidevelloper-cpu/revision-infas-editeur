@@ -1,0 +1,1832 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzt-sj-prepa-med-j8-ide3",
+ "titre": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 54,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J8_Medecine_IDE3_corrige_explique.pdf",
+   "sha256": "eba08dc4e7d44c6120dc7db9582e42538f4e9ec23d2069ee9f373b14f7e16604"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Médecine · Prépa D.E J8 (IDE3)",
+     "slug": "prepa-med-j8-ide3",
+     "pages": "",
+     "count": 54,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Médecine",
+     "source": "J8_Medecine_IDE3_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__0",
+       "num": "1",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 1 — Monsieur GUE Pascal est un patient diabétique âgé de 52 ans. Il présente les signes suivants : sueurs, tremblements, pâleur et troubles de la parole. Il est conscient et peut avaler. Après correction de l'épisode, un projet de soins infirmiers est envisagé.",
+       "text": "Les sueurs, tremblements, pâleur et troubles de la parole font partie des signes d'alerte de l'hypoglycémie.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Sueurs, tremblements, pâleur, troubles de la parole sont des signes adrénergiques et neuroglucopéniques d'alerte de l'hypoglycémie ; le recueil de révision cite sueurs, pâleur, tremblements, tachycardie.\n\nSource : Documents de révision L3 Médecine, Diabète, QCM 15",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__1",
+       "num": "2",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 1 — Monsieur GUE Pascal est un patient diabétique âgé de 52 ans. Il présente les signes suivants : sueurs, tremblements, pâleur et troubles de la parole. Il est conscient et peut avaler. Après correction de l'épisode, un projet de soins infirmiers est envisagé.",
+       "text": "Chez un adulte de 60 kg conscient, il faut 1 morceau de sucre, soit environ 5 grammes, pour le resucrage en cas d'hypoglycémie",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le resucrage d'un adulte conscient se fait avec environ 15 g de sucre (≈ 3 morceaux de 5 g), et non un seul morceau. Le recueil de révision conseille d'ailleurs d'avoir « au moins 3 sucres » à portée de main.\n\nSource : Documents de révision L3 Médecine, Diabète, QCM 16 (explication partiellement hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__2",
+       "num": "3",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 1 — Monsieur GUE Pascal est un patient diabétique âgé de 52 ans. Il présente les signes suivants : sueurs, tremblements, pâleur et troubles de la parole. Il est conscient et peut avaler. Après correction de l'épisode, un projet de soins infirmiers est envisagé.",
+       "text": "Après resucrage, la glycémie capillaire est contrôlée uniquement 24 heures plus tard.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Après resucrage, on recontrôle la glycémie capillaire environ 15 minutes plus tard, puis on surveille ; attendre 24 h serait dangereux.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__3",
+       "num": "4",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 1 — Monsieur GUE Pascal est un patient diabétique âgé de 52 ans. Il présente les signes suivants : sueurs, tremblements, pâleur et troubles de la parole. Il est conscient et peut avaler. Après correction de l'épisode, un projet de soins infirmiers est envisagé.",
+       "text": "Le diagnostic infirmier correspond à un jugement clinique sur les réactions du bénéficiaire de soins face à un problème de santé.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le diagnostic infirmier est un jugement clinique sur les réactions d'une personne à un problème de santé réel ou potentiel ; il relève du rôle propre de l'infirmier.\n\nSource : Documents de révision L3 Médecine, Soins infirmiers (diagnostic infirmier) (explication partiellement hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La présence d'une ligne dans la fenêtre C et d'une ligne, même faible, dans la fenêtre T rend le TDR positif.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Lecture du TDR : une ligne en C et une ligne en T, même faible, = test positif (paludisme à P. falciparum). Pas de ligne en C = test invalide.\n\nSource : Documents de révision L3 Médecine, Paludisme, QCM 11 à 14",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__5",
+       "num": "6",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Monsieur KOUASSI Jean, âgé de 32 ans, est admis aux urgences médicales de l'EPHR de Man pour une fièvre évoluant depuis trois jours, associée à des céphalées, des vomissements et une altération progressive de l'état général. À l'accueil, sa température est à 40 °C. Selon son accompagnant, il a présenté deux épisodes de convulsions généralisées avant son arrivée à l'hôpital. À l'examen, il est obnubilé et ne répond pas correctement aux questions. Le test de diagnostic rapide (TDR) du paludisme réalisé en urgence montre une ligne dans la fenêtre de contrôle C et une ligne faiblement colorée dans la fenêtre T. La microscopie (goutte épaisse/frottis sanguin) n'est pas disponible immédiatement.",
+       "text": "Les convulsions répétées et l'obnubilation sont-elles des signes de gravité du paludisme ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les convulsions multiples et les troubles de la conscience (obnubilation, coma) font partie des signes cliniques de gravité du paludisme.\n\nSource : Cours de maladies infectieuses et parasitaires, Paludisme, § 4-2-1 ; Cours de pathologies tropicales L1 (INFAS Daloa), § 4-2",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__6",
+       "num": "7",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Monsieur KOUASSI Jean, âgé de 32 ans, est admis aux urgences médicales de l'EPHR de Man pour une fièvre évoluant depuis trois jours, associée à des céphalées, des vomissements et une altération progressive de l'état général. À l'accueil, sa température est à 40 °C. Selon son accompagnant, il a présenté deux épisodes de convulsions généralisées avant son arrivée à l'hôpital. À l'examen, il est obnubilé et ne répond pas correctement aux questions. Le test de diagnostic rapide (TDR) du paludisme réalisé en urgence montre une ligne dans la fenêtre de contrôle C et une ligne faiblement colorée dans la fenêtre T. La microscopie (goutte épaisse/frottis sanguin) n'est pas disponible immédiatement.",
+       "text": "En l'absence de microscopie immédiatement disponible, il faut attendre la goutte épaisse avant de commencer la prise en charge d'un paludisme grave suspecté.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Devant des signes de gravité, on ne retarde pas le traitement : un TDR positif suffit pour débuter la prise en charge du paludisme grave ; au niveau périphérique on fait le TDR puis un traitement de pré-transfert.\n\nSource : Documents de révision L3 Médecine, Paludisme, QCM 3 et QCD 23 (« tout TDR positif doit faire l'objet d'un traitement »)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__7",
+       "num": "8",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Monsieur KOUASSI Jean, âgé de 32 ans, est admis aux urgences médicales de l'EPHR de Man pour une fièvre évoluant depuis trois jours, associée à des céphalées, des vomissements et une altération progressive de l'état général. À l'accueil, sa température est à 40 °C. Selon son accompagnant, il a présenté deux épisodes de convulsions généralisées avant son arrivée à l'hôpital. À l'examen, il est obnubilé et ne répond pas correctement aux questions. Le test de diagnostic rapide (TDR) du paludisme réalisé en urgence montre une ligne dans la fenêtre de contrôle C et une ligne faiblement colorée dans la fenêtre T. La microscopie (goutte épaisse/frottis sanguin) n'est pas disponible immédiatement.",
+       "text": "Au niveau hospitalier, l'évaluation initiale doit notamment rechercher une hypoglycémie et une atteinte rénale, en plus de l'évaluation clinique ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le bilan initial doit rechercher l'hypoglycémie et l'insuffisance rénale, qui font partie des critères biologiques de gravité.\n\nSource : Cours de maladies infectieuses et parasitaires, Paludisme, § 4-2-2",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__8",
+       "num": "9",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Monsieur KOUASSI Jean, âgé de 32 ans, est admis aux urgences médicales de l'EPHR de Man pour une fièvre évoluant depuis trois jours, associée à des céphalées, des vomissements et une altération progressive de l'état général. À l'accueil, sa température est à 40 °C. Selon son accompagnant, il a présenté deux épisodes de convulsions généralisées avant son arrivée à l'hôpital. À l'examen, il est obnubilé et ne répond pas correctement aux questions. Le test de diagnostic rapide (TDR) du paludisme réalisé en urgence montre une ligne dans la fenêtre de contrôle C et une ligne faiblement colorée dans la fenêtre T. La microscopie (goutte épaisse/frottis sanguin) n'est pas disponible immédiatement.",
+       "text": "Quelle classification est la plus appropriée au vu des éléments du cas ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Cas présumé de paludisme simple, car la microscopie manque"
+        },
+        {
+         "letter": "B",
+         "text": "Paludisme simple, car la fièvre est le symptôme principal"
+        },
+        {
+         "letter": "C",
+         "text": "Paludisme grave suspecté, avec TDR positif et signes neurologiques de gravité"
+        },
+        {
+         "letter": "D",
+         "text": "Absence de paludisme, car le résultat du TDR doit être confirmé par deux tests"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Paludisme grave suspecté, avec TDR positif et signes neurologiques de gravité",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Fièvre + TDR positif + convulsions répétées et obnubilation (signes neurologiques de gravité) = paludisme grave.\n\nSource : Cours de maladies infectieuses et parasitaires, Paludisme, § 4-2",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__9",
+       "num": "10",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Monsieur KOUASSI Jean, âgé de 32 ans, est admis aux urgences médicales de l'EPHR de Man pour une fièvre évoluant depuis trois jours, associée à des céphalées, des vomissements et une altération progressive de l'état général. À l'accueil, sa température est à 40 °C. Selon son accompagnant, il a présenté deux épisodes de convulsions généralisées avant son arrivée à l'hôpital. À l'examen, il est obnubilé et ne répond pas correctement aux questions. Le test de diagnostic rapide (TDR) du paludisme réalisé en urgence montre une ligne dans la fenêtre de contrôle C et une ligne faiblement colorée dans la fenêtre T. La microscopie (goutte épaisse/frottis sanguin) n'est pas disponible immédiatement.",
+       "text": "Quelle conduite initiale est la plus appropriée aux urgences de l'EPHR de Man ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Attendre la microscopie avant toute mesure thérapeutique, même si l'état neurologique est altéré"
+        },
+        {
+         "letter": "B",
+         "text": "Faire ressortir le patient après un antipyrétique et programmer une consultation"
+        },
+        {
+         "letter": "C",
+         "text": "Prescrire une CTA orale et attendre la disparition de la fièvre"
+        },
+        {
+         "letter": "D",
+         "text": "Hospitaliser, assurer la stabilisation et la surveillance, évaluer rapidement la glycémie et les fonctions d'organes, puis débuter sans retard le traitement adapté au paludisme grave"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Hospitaliser, assurer la stabilisation et la surveillance, évaluer rapidement la glycémie et les fonctions d'organes, puis débuter sans retard le traitement adapté au paludisme grave",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le paludisme grave est une urgence : hospitalisation, stabilisation, bilan (glycémie, fonctions d'organes) et traitement parentéral sans retard. Le traitement oral par CTA est réservé au paludisme simple.\n\nSource : Cours de maladies infectieuses et parasitaires, Paludisme, § 5-1-2",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__10",
+       "num": "11",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Monsieur KOUASSI Jean, âgé de 32 ans, est admis aux urgences médicales de l'EPHR de Man pour une fièvre évoluant depuis trois jours, associée à des céphalées, des vomissements et une altération progressive de l'état général. À l'accueil, sa température est à 40 °C. Selon son accompagnant, il a présenté deux épisodes de convulsions généralisées avant son arrivée à l'hôpital. À l'examen, il est obnubilé et ne répond pas correctement aux questions. Le test de diagnostic rapide (TDR) du paludisme réalisé en urgence montre une ligne dans la fenêtre de contrôle C et une ligne faiblement colorée dans la fenêtre T. La microscopie (goutte épaisse/frottis sanguin) n'est pas disponible immédiatement.",
+       "text": "Quelle dose d'artésunate injectable est indiquée chez l'adulte pour le traitement du paludisme grave ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "3 mg/kg par voie orale deux fois par jour pendant trois jours"
+        },
+        {
+         "letter": "B",
+         "text": "2,4 mg/kg à H0, H12 et H24 le premier jour, puis toutes les 24 heures de J2 à J7"
+        },
+        {
+         "letter": "C",
+         "text": "1,2 mg/kg à H0"
+        },
+        {
+         "letter": "D",
+         "text": "4 mg/kg en intramusculaire toutes les six heures pendant 24 heures"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 2,4 mg/kg à H0, H12 et H24 le premier jour, puis toutes les 24 heures de J2 à J7",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Artésunate injectable : 2,4 mg/kg en IV à H0, H12 et H24 le 1er jour, puis 2,4 mg/kg toutes les 24 h de J2 à J7.\n\nSource : Cours de maladies infectieuses et parasitaires, Paludisme, § 5-1-2",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__11",
+       "num": "12",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Monsieur KOUASSI Jean, âgé de 32 ans, est admis aux urgences médicales de l'EPHR de Man pour une fièvre évoluant depuis trois jours, associée à des céphalées, des vomissements et une altération progressive de l'état général. À l'accueil, sa température est à 40 °C. Selon son accompagnant, il a présenté deux épisodes de convulsions généralisées avant son arrivée à l'hôpital. À l'examen, il est obnubilé et ne répond pas correctement aux questions. Le test de diagnostic rapide (TDR) du paludisme réalisé en urgence montre une ligne dans la fenêtre de contrôle C et une ligne faiblement colorée dans la fenêtre T. La microscopie (goutte épaisse/frottis sanguin) n'est pas disponible immédiatement.",
+       "text": "Quel examen biologique est particulièrement important à réaliser rapidement devant ce tableau, en complément du test parasitologique ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Glycémie, afin de dépister notamment une hypoglycémie"
+        },
+        {
+         "letter": "B",
+         "text": "Sérologie palustre IgG comme examen de confirmation immédiate"
+        },
+        {
+         "letter": "C",
+         "text": "Groupe sanguin uniquement, sans autre bilan urgent"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Glycémie, afin de dépister notamment une hypoglycémie",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'hypoglycémie (< 0,40 g/l) est un critère biologique de gravité et une complication à corriger en urgence (sérum glucosé hypertonique).\n\nSource : Cours de maladies infectieuses et parasitaires, Paludisme, § 4-2-2 ; Cours de pathologies tropicales L1 (INFAS Daloa), § 7-4",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__12",
+       "num": "13",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Monsieur KOUASSI Jean, âgé de 32 ans, est admis aux urgences médicales de l'EPHR de Man pour une fièvre évoluant depuis trois jours, associée à des céphalées, des vomissements et une altération progressive de l'état général. À l'accueil, sa température est à 40 °C. Selon son accompagnant, il a présenté deux épisodes de convulsions généralisées avant son arrivée à l'hôpital. À l'examen, il est obnubilé et ne répond pas correctement aux questions. Le test de diagnostic rapide (TDR) du paludisme réalisé en urgence montre une ligne dans la fenêtre de contrôle C et une ligne faiblement colorée dans la fenêtre T. La microscopie (goutte épaisse/frottis sanguin) n'est pas disponible immédiatement.",
+       "text": "Si le TDR était négatif et que la suspicion clinique persistait, quelle démarche correspondrait aux recommandations ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Administrer systématiquement une CTA"
+        },
+        {
+         "letter": "B",
+         "text": "Écarter définitivement la suspicion du paludisme"
+        },
+        {
+         "letter": "C",
+         "text": "Rechercher une autre cause de fièvre et réaliser une GE/FS si le patient reste suspect ou si les symptômes persistent"
+        },
+        {
+         "letter": "D",
+         "text": "Utiliser un TDR HRP2 répété comme seul examen de suivi post-thérapeutique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Rechercher une autre cause de fièvre et réaliser une GE/FS si le patient reste suspect ou si les symptômes persistent",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "TDR négatif avec suspicion persistante : rechercher une autre cause de fièvre et faire la goutte épaisse/frottis, examen de référence. Le TDR HRP2 ne sert pas à évaluer le traitement (antigène persistant).\n\nSource : Documents de révision L3 Médecine, Paludisme, QCM 23 et QCD 17",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__13",
+       "num": "14",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel ensemble correspond aux mécanismes physiopathologiques de la crise d'asthme ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Obstruction vasculaire pulmonaire par thrombus"
+        },
+        {
+         "letter": "B",
+         "text": "Œdème bronchique, contraction musculaire lisse et hypersécrétion de mucus"
+        },
+        {
+         "letter": "C",
+         "text": "Fibrose pleurale, épanchement et matité"
+        },
+        {
+         "letter": "D",
+         "text": "Destruction alvéolaire isolée sans bronchospasme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Œdème bronchique, contraction musculaire lisse et hypersécrétion de mucus",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Mécanismes de l'asthme : œdème bronchique, contraction des muscles lisses bronchiques (bronchospasme) et hypersécrétion de mucus.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Asthme, § 3.2 Physiopathologie",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__14",
+       "num": "15",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel mécanisme contribue à l'hypoxémie lors d'une pneumonie ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'augmentation de la ventilation des zones atteintes"
+        },
+        {
+         "letter": "B",
+         "text": "Le mucus augmente la surface d'échange"
+        },
+        {
+         "letter": "C",
+         "text": "La plèvre absorbe tout l'oxygène"
+        },
+        {
+         "letter": "D",
+         "text": "L'exsudat alvéolaire gêne la ventilation et la diffusion des gaz"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. L'exsudat alvéolaire gêne la ventilation et la diffusion des gaz",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Dans la pneumonie, la réaction inflammatoire forme un exsudat dans les alvéoles ; certaines zones ne sont plus ventilées, d'où les troubles de la ventilation et de la diffusion et l'hypoxémie.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Pneumonie franche lobaire aiguë, physiopathologie",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__15",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle étape appartient à l'élaboration du projet de soins ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Recueil et analyse des données"
+        },
+        {
+         "letter": "B",
+         "text": "Absence de planification"
+        },
+        {
+         "letter": "C",
+         "text": "Suppression de la traçabilité"
+        },
+        {
+         "letter": "D",
+         "text": "Abandon de l'évaluation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Recueil et analyse des données",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le projet de soins commence par le recueil et l'analyse des données, puis diagnostic, objectifs, actions et évaluation.\n\nSource : Documents de révision L3 Médecine, Soins infirmiers, QCM 2 et 7",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lorsque les objectifs du projet de soins ne sont pas atteints, quelle est la conduite à tenir infirmière ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Réévaluer la situation sans rien modifier"
+        },
+        {
+         "letter": "B",
+         "text": "Réévaluer la situation et adapter les interventions"
+        },
+        {
+         "letter": "C",
+         "text": "Supprimer le diagnostic infirmier sans réévaluation"
+        },
+        {
+         "letter": "D",
+         "text": "Arrêter tous les soins"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Réévaluer la situation et adapter les interventions",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Si les objectifs ne sont pas atteints, on réévalue la situation et on réajuste les interventions (dernière étape de la démarche de soins).\n\nSource : Documents de révision L3 Médecine, Soins infirmiers, QCM 2 D (« évaluation des actions en vue des réajustements nécessaires »)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__17",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un diagnostic infirmier de risque est approprié lorsque :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le problème est déjà manifestement installé"
+        },
+        {
+         "letter": "B",
+         "text": "Des facteurs de risque existent sans manifestations du problème"
+        },
+        {
+         "letter": "C",
+         "text": "Le diagnostic médical est inconnu"
+        },
+        {
+         "letter": "D",
+         "text": "Seules des manifestations sont présentes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Des facteurs de risque existent sans manifestations du problème",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Un diagnostic infirmier de risque (problème potentiel) se pose quand des facteurs de risque existent sans que le problème soit encore manifeste.\n\nSource : Documents de révision L3 Médecine, Soins infirmiers, QCM 8 (problème potentiel, facteurs de risque)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle constitue une donnée d'indépendance chez un client hypertendu ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le client ne peut pas satisfaire seul ses besoins fondamentaux"
+        },
+        {
+         "letter": "B",
+         "text": "Le client connaît les signes cliniques"
+        },
+        {
+         "letter": "C",
+         "text": "Le client refuse toute information"
+        },
+        {
+         "letter": "D",
+         "text": "Le client ne respecte pas le régime hyposodé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Le client refuse toute information",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Une donnée d'indépendance est ce que la personne fait ou sait par elle-même (ex. : « le client connaît les signes cliniques »). Refuser toute information, ne pas respecter le régime ou ne pas pouvoir satisfaire seul ses besoins sont des données de dépendance.\n\nSource : (explication hors cours du projet : modèle de V. Henderson)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le pyrosis désigne :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une brûlure rétrosternale"
+        },
+        {
+         "letter": "B",
+         "text": "Une douleur à la déglutition"
+        },
+        {
+         "letter": "C",
+         "text": "Un vomissement de sang noirâtre"
+        },
+        {
+         "letter": "D",
+         "text": "Une difficulté à avaler les liquides"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Une brûlure rétrosternale",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le pyrosis est une brûlure épigastrique à irradiation rétrosternale ascendante ; c'est l'expression typique du reflux gastro-œsophagien.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Reflux gastro-œsophagien, § 3.2",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel délai de jeûne est indiqué avant une FOGD (fibroscopie œso-gastro-duodénale) ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "2 à 3 heures"
+        },
+        {
+         "letter": "B",
+         "text": "6 à 8 heures"
+        },
+        {
+         "letter": "C",
+         "text": "24 à 36 heures"
+        },
+        {
+         "letter": "D",
+         "text": "30 à 60 minutes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 6 à 8 heures",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Avant une FOGD, le patient doit être à jeun depuis au moins 6 heures (6 à 8 h) pour que l'estomac soit vide et éviter l'inhalation.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'ascite est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une accumulation de liquide dans la plèvre"
+        },
+        {
+         "letter": "B",
+         "text": "Une accumulation pathologique de liquide dans la cavité péritonéale"
+        },
+        {
+         "letter": "C",
+         "text": "Une dilatation des voies biliaires"
+        },
+        {
+         "letter": "D",
+         "text": "Une inflammation de la muqueuse gastrique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Une accumulation pathologique de liquide dans la cavité péritonéale",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'ascite est une accumulation (épanchement) de liquide dans la cavité péritonéale.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Cirrhose (ascite = épanchement de liquide dans le péritoine)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle voie de transmission caractérise principalement l'hépatite A ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Transmission périnatale, principalement"
+        },
+        {
+         "letter": "B",
+         "text": "Voie féco-orale, souvent l'eau contaminée"
+        },
+        {
+         "letter": "C",
+         "text": "Transmission par piqûre de moustique"
+        },
+        {
+         "letter": "D",
+         "text": "Voie sexuelle, exclusivement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Voie féco-orale, souvent l'eau contaminée",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'hépatite A se transmet par voie féco-orale (eau, aliments souillés, mains sales).\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Hépatites virales, Virus de l'hépatite A",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel objectif est associé au lavage de vessie ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Traiter les causes d'insuffisance rénale"
+        },
+        {
+         "letter": "B",
+         "text": "Augmenter directement la filtration glomérulaire"
+        },
+        {
+         "letter": "C",
+         "text": "Évacuer les copeaux ou caillots présents dans la vessie"
+        },
+        {
+         "letter": "D",
+         "text": "Mesurer la clairance de la créatinine"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Évacuer les copeaux ou caillots présents dans la vessie",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le lavage vésical (sur sonde à double courant) sert à évacuer les copeaux et caillots présents dans la vessie, par exemple après chirurgie prostatique ou en cas d'hématurie.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle des propositions suivantes est une cause post-rénale d'insuffisance rénale aiguë ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une exposition à un aminoside"
+        },
+        {
+         "letter": "B",
+         "text": "Une obstruction des voies urinaires par calcul"
+        },
+        {
+         "letter": "C",
+         "text": "Une hémorragie aiguë"
+        },
+        {
+         "letter": "D",
+         "text": "Un choc septique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Une obstruction des voies urinaires par calcul",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'IRA post-rénale (obstructive) est due à un obstacle sur les voies urinaires (calcul, adénome…). Hémorragie et choc septique = causes pré-rénales (fonctionnelles) ; aminoside = cause rénale (toxique).\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel élément figure dans le suivi d'un client sous PrEP ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Dépistage du VIH à un mois puis tous les trois mois"
+        },
+        {
+         "letter": "B",
+         "text": "Aucun dépistage du VIH après l'initiation"
+        },
+        {
+         "letter": "C",
+         "text": "Contrôle quotidien de la créatinine"
+        },
+        {
+         "letter": "D",
+         "text": "Arrêt des conseils d'observance après la première visite"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Dépistage du VIH à un mois puis tous les trois mois",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le suivi d'un client sous PrEP comprend un dépistage VIH régulier (à un mois puis tous les trois mois), le suivi de la fonction rénale (TDF) et le conseil d'observance.\n\nSource : Cours VIH Licence 2 (TARV), PrEP (protocole TDF + 3TC) (explication partiellement hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle est la période d'incubation de la dengue ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1 à 2 jours avant les signes et 7 jours après"
+        },
+        {
+         "letter": "B",
+         "text": "5 à 8 jours en moyenne"
+        },
+        {
+         "letter": "C",
+         "text": "7 à 15 jours"
+        },
+        {
+         "letter": "D",
+         "text": "De 0 à 14 jours, en moyenne 6 jours"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 5 à 8 jours en moyenne",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Pour la dengue classique, le cours indique une incubation silencieuse de 5 à 8 jours en moyenne. Remarque : Le même cours cite aussi « 4 à 7 jours » et « 2 à 7 jours » ; la proposition « 0 à 14 jours, moyenne 6 jours » correspond à la COVID-19.\n\nSource : Cours de maladies infectieuses et parasitaires, La dengue, § 3 Signes cliniques",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel signe est cité parmi les manifestations cliniques de la COVID-19 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Dysosmie"
+        },
+        {
+         "letter": "B",
+         "text": "Tache rosée lenticulaire"
+        },
+        {
+         "letter": "C",
+         "text": "Angine de Duguet"
+        },
+        {
+         "letter": "D",
+         "text": "Inflammation de l'orifice du canal de Sténon"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Dysosmie",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La dysosmie (perte d'odorat) et la dysgueusie font partie des signes d'invasion de la COVID-19. Taches rosées et angine de Duguet = fièvre typhoïde ; orifice du Sténon = oreillons.\n\nSource : Cours de maladies infectieuses et parasitaires, COVID-19, § Invasion",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Monsieur Konan reçoit une perfusion de 250 ml de SGI à 5 %. Quelle est la quantité de matière en grammes (g) de glucose que vous lui avez administrée ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "12,5 grammes"
+        },
+        {
+         "letter": "B",
+         "text": "125 grammes"
+        },
+        {
+         "letter": "C",
+         "text": "250 grammes"
+        },
+        {
+         "letter": "D",
+         "text": "15,5 grammes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 12,5 grammes",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "SGI 5 % = 5 g pour 100 ml → 250 ml contiennent 12,5 g de glucose.\n\nSource : Calcul de concentration",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le débit d'une perfusion en maintien est de 10 gouttes par minute en 2 heures. Indiquez le volume de soluté qui est passé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "120 ml"
+        },
+        {
+         "letter": "B",
+         "text": "150 ml"
+        },
+        {
+         "letter": "C",
+         "text": "75 ml"
+        },
+        {
+         "letter": "D",
+         "text": "60 ml"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 60 ml",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Volume = 10 gouttes/min × 120 min / 20 = 60 ml.\n\nSource : Calcul de débit (1 ml = 20 gouttes)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__30",
+       "num": "31",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'hypertension artérielle est définie par une pression artérielle systolique supérieure ou égale à 140 mmHg et/ou une pression artérielle diastolique supérieure ou égale à 90 mmHg constatée au cours d'au moins deux consultations différentes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "HTA = PAS ≥ 140 mmHg et/ou PAD ≥ 90 mmHg, mesurées à plusieurs reprises (au moins deux consultations).\n\nSource : Documents de révision L3 Médecine, Maladies cardiovasculaires, QCD 6 (seuil 140/90)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__31",
+       "num": "32",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le tabagisme, l'obésité, la sédentarité et le stress figurent parmi les facteurs de risque de l'hypertension artérielle secondaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Tabac, obésité, sédentarité, stress sont des facteurs de risque de l'HTA essentielle (primitive). L'HTA secondaire a une cause précise (rénale, endocrinienne, coarctation…). Remarque : Dans le sujet, l'énoncé se termine par le mot « Faux », qui donne la réponse.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__32",
+       "num": "33",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une pression artérielle doit être mesurée immédiatement après la prise de café ou de tabac afin d'obtenir une valeur représentative.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La pression artérielle se mesure au repos, après 5 à 10 min, à distance (environ 30 min) du café et du tabac, qui l'élèvent transitoirement.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__33",
+       "num": "34",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans l'insuffisance veineuse, les douleurs sont majorées par l'orthostatisme et la chaleur.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans l'insuffisance veineuse, les douleurs sont majorées par l'orthostatisme (position debout), la chaleur et les cycles menstruels.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Insuffisance veineuse, § 4 Signes fonctionnels",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__34",
+       "num": "35",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La pression artérielle systolique (PAS) correspond à la pression du sang quand le cœur se détend et reprend son volume, ce qui permet aux cavités cardiaques de se remplir.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La phrase décrit la diastole (relâchement et remplissage des cavités) : c'est la pression artérielle diastolique. La PAS correspond à la contraction (systole).\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__35",
+       "num": "36",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une veine est un vaisseau composé de deux couches.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours dit : « une veine est un vaisseau composé de trois couches » ; la couche interne porte les clapets valvulaires. « Deux couches » est donc faux.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Insuffisance veineuse, rappel anatomique",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__36",
+       "num": "37",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'altération des clapets valvulaires (de la veine) est à l'origine des insuffisances veineuses ou varices.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "« L'altération des clapets valvulaires est à l'origine des insuffisances veineuses ou varices. »\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Insuffisance veineuse, rappel anatomique",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__37",
+       "num": "38",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La prévention de la phlébite comprend notamment la mobilisation active, le lever précoce et les bas de contention.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La prévention de la phlébite repose sur le lever précoce, la mobilisation active des membres et la contention élastique (bas), ± anticoagulants préventifs.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Phlébite / insuffisance veineuse (contention pour stimuler le retour veineux)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__38",
+       "num": "39",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans l'insuffisance cardiaque gauche, la défaillance du ventricule gauche entraîne une augmentation de la perfusion rénale et une oligurie.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La défaillance du VG entraîne en aval une diminution (et non une augmentation) du débit de perfusion des tissus, notamment des reins, d'où l'oligurie.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Insuffisance cardiaque gauche, § 2 Physiopathologie",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__39",
+       "num": "40",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le patient atteint d'œdème aigu du poumon cardiogénique doit être installé en position demi-assise, les jambes pendantes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Installer le patient en position demi-assise, jambes pendantes : cela diminue le retour veineux et soulage la dyspnée.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Œdème aigu du poumon, conduite à tenir",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__40",
+       "num": "41",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le poumon gauche comporte trois lobes et le poumon droit deux lobes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le poumon droit a trois lobes (deux scissures) et le poumon gauche deux lobes (une scissure) : l'affirmation est inversée.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Rappel anatomique de l'appareil respiratoire",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__41",
+       "num": "42",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une fréquence respiratoire supérieure à 35 cycles/min et une saturation en oxygène inférieure à 90 % figurent parmi les signes de gravité de l'asthme.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Fréquence respiratoire > 30-35/min et SpO2 < 90 % font partie des signes de gravité d'une crise d'asthme (avec tachycardie > 120, difficulté à parler, cyanose). Remarque : Le cours cite le seuil de 30 cycles/min ; le sujet parle de 35.\n\nSource : Documents de révision L3 Médecine, Asthme, QCM 7 et 12 ; Cours de médecine IDE 2 (INFAS, actualisé 2020), signes de gravité respiratoires",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__42",
+       "num": "43",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La miliaire tuberculeuse correspond à une dissémination du germe dans l'organisme.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La miliaire tuberculeuse est la dissémination hématogène du bacille dans l'organisme, avec de multiples granulomes de la taille d'un grain de mil.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Tuberculose, miliaire",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__43",
+       "num": "44",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'aérosolthérapie permet de fluidifier les sécrétions bronchiques et de bronchodilater les voies respiratoires.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'aérosolthérapie humidifie et fluidifie les sécrétions et permet d'administrer des bronchodilatateurs (β2 mimétiques) dans les voies respiratoires.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Asthme (aérosols de β2 mimétiques) et soins respiratoires",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__44",
+       "num": "45",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans l'hémorragie méningée, la surveillance neurologique porte sur la conscience, la motricité et les pupilles.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans l'hémorragie méningée, la surveillance neurologique porte sur la conscience (Glasgow), les pupilles et la motricité (déficit), en plus des constantes.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__45",
+       "num": "46",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Virginia Henderson considère les 14 besoins fondamentaux comme hiérarchisés selon un ordre fixe de priorité.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Pour Virginia Henderson, les 14 besoins sont interdépendants et leur priorité varie selon la personne et la situation : il n'y a pas d'ordre fixe de priorité. Remarque : Dans le sujet, l'énoncé se termine par le mot « Faux », qui donne la réponse.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__46",
+       "num": "47",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La gastrite chronique est toujours symptomatique.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La gastrite est une définition histologique ; elle peut être longtemps asymptomatique (ex. gastrite chronique à H. pylori découverte à l'endoscopie).\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Ulcère gastro-duodénal et gastrite",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__47",
+       "num": "48",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le virus de l'hépatite B est transmis par voie sexuelle, périnatale et par contact avec du sang contaminé.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le VHB se transmet par voie sexuelle, par le sang (injections, matériel souillé) et de la mère à l'enfant (périnatale).\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Hépatites virales, VHB ; Documents de révision L3 Médecine, Hépatites QCM 4",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__48",
+       "num": "49",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les IST (infections sexuellement transmissibles) peuvent être d'origine bactérienne, parasitaire, mycosique ou virale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les agents des maladies infectieuses (et des IST) sont des bactéries, virus, parasites et champignons (mycoses).\n\nSource : Cours de maladies infectieuses et parasitaires, Généralités, § 1.2",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__49",
+       "num": "50",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La colique néphrétique correspond à un syndrome douloureux paroxystique lié à une distension brutale des voies urinaires.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La colique néphrétique est une douleur lombaire paroxystique due à la mise en tension brutale des voies urinaires en amont d'un obstacle (calcul le plus souvent).\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Lithiase urinaire – colique néphrétique",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__50",
+       "num": "51",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La prévention primaire des IST comprend notamment la réduction du nombre de partenaires et l'utilisation des préservatifs.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La prévention primaire des IST repose sur le changement de comportement : abstinence, fidélité, réduction du nombre de partenaires, préservatifs.\n\nSource : Documents de révision L3 Médecine, VIH/IST, QCD 28 et QCM 17",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__51",
+       "num": "52",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les inhibiteurs de fusion et d'entrée bloquent la production de l'ADN du VIH.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les inhibiteurs d'entrée et de fusion empêchent le virus de pénétrer dans la cellule (fixation à gp41). Ce sont les inhibiteurs de la reverse transcriptase qui bloquent la conversion de l'ARN viral en ADN.\n\nSource : Cours VIH Licence 2 (TARV), Mode d'action des ARV",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__52",
+       "num": "53",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la fièvre typhoïde, au premier septénaire, la fièvre est en plateau et s'accompagne d'une dissociation du pouls et de la température.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Au 1er septénaire, la fièvre est ascendante, en oscillations (« en escalier »). Le plateau avec dissociation pouls-température caractérise le 2e septénaire.\n\nSource : Cours de maladies infectieuses et parasitaires, Fièvre typhoïde, § 2.2 et 2.3",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j8-ide3__53",
+       "num": "54",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Schistosoma haematobium est l'agent pathogène de la bilharziose uro-génitale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "S. haematobium est l'agent de la bilharziose uro-génitale (hématurie terminale, cystite, complications génitales).\n\nSource : Cours de pathologies tropicales L1 (INFAS Daloa), Bilharzioses, § 2-3-1 et 5-4",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J8 (IDE3)",
+       "sourceFile": "J8_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

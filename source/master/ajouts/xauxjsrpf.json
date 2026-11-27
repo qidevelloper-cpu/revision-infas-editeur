@@ -1,0 +1,39 @@
+{
+ "version": 1,
+ "ajoute": "2026-11-27",
+ "mat": {
+  "id": "xauxjsrpf",
+  "title": "SSR / PF — Préparation D.E (J) · Auxiliaires",
+  "short": "SSR / PF J (Aux.)",
+  "emo": "🤰🏾",
+  "col": "#9D174D",
+  "fil": [
+   "AUX"
+  ],
+  "niv": "L1",
+  "de": "non",
+  "vue": "sujets",
+  "accueil": true,
+  "auxJ": 1,
+  "ch": [
+   "J1 · SSR / PF",
+   "J2 · SSR / PF",
+   "J4 · SSR / PF",
+   "J5 · SSR / PF",
+   "J6 · SSR / PF"
+  ],
+  "sub": "Préparation D.E (J) · 5 sujets · 165 questions corrigées",
+  "ordre": 2
+ },
+ "groupes": [
+  {
+   "g": "aux"
+  }
+ ],
+ "filiere": "AUX",
+ "origine": {
+  "fichier": "aux-j-2026/Corrige_SSR-PF_ASO3_J1-J2-J4-J5-J6.pdf",
+  "sha256": "3c74defdecc744e332b6db38ef881661a2e1b59568aff47691b3687c3dd5f900"
+ },
+ "questions": "ajouts/xauxjsrpf-questions.json : 165 questions, un sujet par J"
+}

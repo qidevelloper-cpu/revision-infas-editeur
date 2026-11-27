@@ -1,0 +1,2011 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzs-sj-prepa-med-j7-ide3",
+ "titre": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 55,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J7_Medecine_IDE3_corrige_explique.pdf",
+   "sha256": "f069fa4fa8155b745403186fd6d117e4af09fee1d55e080341592b827a1839f0"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Médecine · Prépa D.E J7 (IDE3)",
+     "slug": "prepa-med-j7-ide3",
+     "pages": "",
+     "count": 55,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Médecine",
+     "source": "J7_Medecine_IDE3_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le paludisme grave se définit comme étant un cas de paludisme avec des formes asexuées de Plasmodium falciparum et la présence d'un ou plusieurs signes cliniques ou biologiques",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "C'est mot pour mot la définition du cours : paludisme grave = formes asexuées de P. falciparum + au moins un signe clinique ou biologique de gravité (coma, convulsions répétées, anémie sévère, hypoglycémie…).\n\nSource : Cours de maladies infectieuses et parasitaires, Paludisme, § 4-2",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans le paludisme, la transmission directe du germe de la femme enceinte infectée à son enfant par voie transplacentaire ou par transfusion sanguine n'est pas le seul cas de contamination interhumaine",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours dit l'inverse : « il existe un seul cas de contamination interhumaine directe », la femme enceinte infectée qui contamine son enfant par voie transplacentaire ou par transfusion sanguine. L'affirmation « n'est pas le seul cas » est donc fausse.\n\nSource : Cours de maladies infectieuses et parasitaires, Paludisme, § 3 Contamination",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lorsque la femme enceinte est sous prophylaxie antianémique avec l'acide folique + fer, on suspendra le traitement antianémique et on le reprendra 15 j après la prise de SP",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Règle du TPI : si la femme enceinte est sous acide folique + fer, on suspend le traitement antianémique et on le reprend 15 jours après la prise de SP.\n\nSource : Cours de maladies infectieuses et parasitaires, Paludisme, § 5-2-1-1 ; Cours de pathologies tropicales L1 (INFAS Daloa), § 8-1",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "On appelle pied diabétique toute infection, ulcération ou destruction des tissus profonds du pied associée à une neuropathie et/ou une artériopathie périphérique des membres inférieurs chez le diabétique.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Définition classique du pied diabétique : toute infection, ulcération ou destruction des tissus profonds du pied, associée à une neuropathie et/ou une artériopathie des membres inférieurs chez le diabétique.\n\nSource : Définition générale ; le cours IDE 2 traite l'AOMI (facteurs : tabac, diabète) mais pas cette définition (explication partiellement hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Schistosoma mansoni est responsable d'une bilharziose urinaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "S. mansoni donne la bilharziose intestinale et hépatosplénique (selles glaireuses, gros foie, grosse rate). La bilharziose urinaire (hématurie terminale) est due à S. haematobium.\n\nSource : Cours de pathologies tropicales L1 (INFAS Daloa), Bilharzioses, § 2-3",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'amibiase est une maladie strictement humaine due à un protozoaire rhizopode appelé Entamoeba histolytica",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Entamoeba histolytica est un protozoaire ; le cours précise que l'homme est l'unique réservoir du parasite, d'où une maladie strictement humaine.\n\nSource : Cours de pathologies tropicales L1 (INFAS Daloa), Amibiase, § II",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans le tétanos, le trismus désigne une contracture des muscles masticateurs, bloquant l'ouverture de la bouche. Ce signe s'observe à partir de la phase d'état",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le trismus apparaît dès la phase d'invasion (environ 48 h) : c'est le signe de début. Il persiste ensuite à la phase d'état. Dire qu'il « s'observe à partir de la phase d'état » est donc faux.\n\nSource : Cours de maladies infectieuses et parasitaires, Tétanos, § 2.1",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la crise du tétanos, l'opisthotonos est décrit par le rachis fixé en hyperextension avec tête rejetée en arrière et une hyperlordose lombaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "À la phase d'état, « le rachis est fixé en hyperextension avec tête rejetée en arrière, hyperlordose lombaire (opisthotonos) ».\n\nSource : Cours de maladies infectieuses et parasitaires, Tétanos, § 2.1 phase d'état",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'infection à VIH a un profil épidémiologique qui touche plus les enfants",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'infection à VIH touche surtout les adultes jeunes sexuellement actifs (voie sexuelle = mode de transmission le plus courant) ; les enfants sont touchés surtout par transmission mère-enfant.\n\nSource : (explication hors cours du projet ; Documents de révision L3 Médecine, VIH, QCD 34 sur la voie sexuelle)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le terme « OEV » s'applique à tout âge allant de 9 à 21 ans",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "OEV = orphelins et enfants rendus vulnérables du fait du VIH ; la tranche d'âge retenue par les programmes est de 0 à 17 ans, et non 9 à 21 ans.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la bilharziose, chez l'homme, les œufs contenant des miracidiums sont éliminés dans l'eau par les excréments ou les urines",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les œufs sont rejetés avec les excrétas (urines ou selles) ; dans l'eau douce, ils éclosent et libèrent le miracidium, larve ciliée qui va infester le mollusque.\n\nSource : Cours de pathologies tropicales L1 (INFAS Daloa), Bilharzioses, § 1-3 et 4-2",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le soin du mal perforant plantaire consiste en un lavage chirurgical de la plaie jusqu'à l'os et à l'articulation",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le mal perforant plantaire impose un parage chirurgical de la plaie (excision des tissus nécrosés et de l'hyperkératose jusqu'en tissu sain, éventuellement jusqu'à l'os atteint), associé à la mise en décharge du pied.\n\nSource : (explication hors cours du projet ; le cours cite le mal perforant plantaire comme complication de la lèpre)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'envenimation neurotoxique est le fait du cobra non cracheur",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'envenimation neurotoxique (troubles sensoriels, ptosis, dysphagie, détresse respiratoire) est le fait des Elapidae (cobras non cracheurs, mambas). Le cobra cracheur, lui, provoque surtout une atteinte oculaire (kérato-conjonctivite).\n\nSource : Envenimations – Traitement (diaporama), diapo « Envenimation neurotoxique » ; Cours de pathologies tropicales L1 (INFAS Daloa), Morsures de serpents § VI",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les venins de serpents ont un double mécanisme d'action : l'immobilisation rapide de la proie et la digestion complète",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours dit : « double mécanisme d'action : l'immobilisation rapide de la proie et la prédigestion ». Le mot « digestion complète » rend la phrase fausse (elle figure telle quelle comme item « Faux » dans l'exercice du cours).\n\nSource : Envenimations – Traitement (diaporama), Composition des venins ; Cours de venimologie générale, Exercice 3",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la gradation des troubles neurologiques, le grade 2 est caractérisé par « détresse respiratoire, communication impossible »",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans le tableau de gradation, « détresse respiratoire, communication impossible » correspond au grade 4. Le grade 2 neurologique = sueurs et salive abondantes, vomissements, myosis.\n\nSource : Cours de venimologie générale, Tableau II p. 25",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__15",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'agent pathogène de la syphilis est le Treponema pallidum",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La syphilis vénérienne est due au tréponème pâle, Treponema pallidum.\n\nSource : Cours de pathologies tropicales L1 (INFAS Daloa), Tréponématoses – Syphilis, § I",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, indiquez celle qui correspond à la méthode de diagnostic biologique de la PCR : cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "a- Méthode mixte"
+        },
+        {
+         "letter": "B",
+         "text": "b- Méthode indirecte"
+        },
+        {
+         "letter": "C",
+         "text": "c- Méthode directe"
+        },
+        {
+         "letter": "D",
+         "text": "d- Dry Blood Spot (DBS)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. b- Méthode indirecte",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La PCR détecte le génome de l'agent (ADN/ARN) : c'est une méthode directe. Le cours la place parmi les examens de mise en évidence du germe (paludisme, typhoïde, choléra).\n\nSource : Cours de maladies infectieuses et parasitaires, Paludisme § 4-3 et Fièvre typhoïde § III",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__17",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la fièvre typhoïde, les symptômes résumés sous le vocable CIVET s'observent à la phase : cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A incubation"
+        },
+        {
+         "letter": "B",
+         "text": "B invasion"
+        },
+        {
+         "letter": "C",
+         "text": "C d'état"
+        },
+        {
+         "letter": "D",
+         "text": "D des complications"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B invasion",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "CIVET (Céphalées, Insomnie, Vertiges, Épistaxis, Température ascendante) résume la phase d'invasion, c'est-à-dire le 1er septénaire.\n\nSource : Cours de maladies infectieuses et parasitaires, Fièvre typhoïde, § 2.2",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La fièvre typhoïde évolue généralement en… : cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A Un septénaire"
+        },
+        {
+         "letter": "B",
+         "text": "B Deux septénaires"
+        },
+        {
+         "letter": "C",
+         "text": "C Trois septénaires"
+        },
+        {
+         "letter": "D",
+         "text": "D Quatre septénaires"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C Trois septénaires",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Évolution en trois septénaires : 1er = invasion, 2e = phase d'état, 3e = complications.\n\nSource : Cours de maladies infectieuses et parasitaires, Fièvre typhoïde, § 2.2 à 2.4",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la fièvre typhoïde, la diarrhée est caractérisée par : cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A des selles liquides, fétides, d'aspect jus de papaye"
+        },
+        {
+         "letter": "B",
+         "text": "B une diarrhée afécale, glaireuse et mucopurulente, parfois sanglante"
+        },
+        {
+         "letter": "C",
+         "text": "C des selles abondantes, aqueuses, afécales, en jet, avec un aspect riziforme"
+        },
+        {
+         "letter": "D",
+         "text": "D selles pâteuses ou liquides, non sanglantes, température normale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A des selles liquides, fétides, d'aspect jus de papaye",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Au 2e septénaire, la diarrhée typhique est faite de selles liquides, fétides, d'aspect jus de papaye. B = syndrome dysentérique, C = choléra (eau de riz).\n\nSource : Cours de maladies infectieuses et parasitaires, Fièvre typhoïde, § 2.3",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La splénomégalie palustre hyperactive se définit par : cochez l'intrus",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A Présence permanente d'une grosse rate sans fièvre et avec pancytopénie"
+        },
+        {
+         "letter": "B",
+         "text": "B Syndrome inflammatoire (accélération de la vitesse de sédimentation)"
+        },
+        {
+         "letter": "C",
+         "text": "C Sérologie du paludisme fortement positive mais parasitémie faible ou nulle"
+        },
+        {
+         "letter": "D",
+         "text": "D Une hépatomégalie associée à une hémoglobinurie macroscopique"
+        },
+        {
+         "letter": "E",
+         "text": "E Absence de signe d'hypertension portale, d'hémopathie ou de tumeur de la rate"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. D Une hépatomégalie associée à une hémoglobinurie macroscopique",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La SPH se définit par : grosse rate permanente sans fièvre avec pancytopénie, VS accélérée, sérologie fortement positive avec parasitémie faible ou nulle, absence d'HTP/hémopathie/tumeur. L'hépatomégalie avec hémoglobinurie macroscopique n'en fait pas partie (l'hémoglobinurie est un signe de paludisme grave).\n\nSource : Cours de maladies infectieuses et parasitaires, Paludisme, § 4-4",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lorsque l'ascaridiose est symptomatique, elle se déroule en 2 phases : lesquelles ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A La phase d'incubation"
+        },
+        {
+         "letter": "B",
+         "text": "B La phase d'invasion"
+        },
+        {
+         "letter": "C",
+         "text": "C La phase d'état"
+        },
+        {
+         "letter": "D",
+         "text": "D La phase de complications"
+        },
+        {
+         "letter": "E",
+         "text": "E La phase des séquelles"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. B La phase d'invasion ; C. C La phase d'état",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "L'ascaridiose symptomatique se manifeste d'abord par la migration larvaire (phase d'invasion : syndrome de Löffler pulmonaire), puis par la présence des vers adultes dans l'intestin (phase d'état : troubles digestifs).\n\nSource : Cours de pathologies tropicales L1 (INFAS Daloa), Ascaridiose, § 2 Manifestations cliniques",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les 4 principaux symptômes en rhumatologie sont : cochez les deux symptômes non fondamentaux",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A la douleur"
+        },
+        {
+         "letter": "B",
+         "text": "B la claudication"
+        },
+        {
+         "letter": "C",
+         "text": "C l'arthrose"
+        },
+        {
+         "letter": "D",
+         "text": "D l'instabilité"
+        },
+        {
+         "letter": "E",
+         "text": "E la scoliose"
+        },
+        {
+         "letter": "F",
+         "text": "F la raideur"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. C l'arthrose ; E. E la scoliose",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "Les quatre symptômes fondamentaux en rhumatologie sont la douleur, la raideur, la claudication (boiterie) et l'instabilité. L'arthrose est une maladie et la scoliose une déformation : ce ne sont pas des symptômes.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le syndrome dysentérique comprend les caractéristiques suivantes sauf une. Laquelle ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "B une diarrhée afécale, glaireuse et mucopurulente, parfois sanglante"
+        },
+        {
+         "letter": "B",
+         "text": "des douleurs abdominales violentes avec épreintes, ténesmes et faux besoins"
+        },
+        {
+         "letter": "C",
+         "text": "C Des vomissements incoercibles et fréquents"
+        },
+        {
+         "letter": "D",
+         "text": "D une altération de l'état général, de la fièvre"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C Des vomissements incoercibles et fréquents",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le syndrome dysentérique associe selles glairo-sanglantes afécales, douleurs avec épreintes et ténesmes, fièvre et altération de l'état général. Les vomissements incoercibles n'en sont pas une caractéristique. Remarque : L'option « des douleurs abdominales violentes… » n'a pas de lettre dans le sujet.\n\nSource : Cours de pathologies tropicales L1 (INFAS Daloa), Syndromes dysentériques et Amibiase",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La présence des glossines dans l'environnement dépend de quatre facteurs : cochez les deux intrus",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A la chaleur (température entre 25 et 30 °C)"
+        },
+        {
+         "letter": "B",
+         "text": "B l'humidité"
+        },
+        {
+         "letter": "C",
+         "text": "C la sècheresse"
+        },
+        {
+         "letter": "D",
+         "text": "D l'ombrage"
+        },
+        {
+         "letter": "E",
+         "text": "E la présence de cours d'eau (fleuve, rivière, marécage)"
+        },
+        {
+         "letter": "F",
+         "text": "F la présence de nourriture"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. C la sècheresse ; E. E la présence de cours d'eau (fleuve, rivière, marécage)",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "Les quatre facteurs de présence des glossines sont la chaleur (25-30 °C), l'humidité, l'ombrage et la présence de nourriture. La sècheresse et la présence de cours d'eau sont les intrus retenus. Remarque : Dans la question proche du recueil de révision, les intrus proposés sont « obscurité » et « sècheresse » ; les cours d'eau y sont cités comme habitat des glossines (QCM 9).\n\nSource : Documents de révision L3 Médecine, Trypanosomiase humaine africaine, QCM 10",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le stade primaire de la syphilis est caractérisé par : cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A plaques muqueuses buccales à la face interne des lèvres et des joues"
+        },
+        {
+         "letter": "B",
+         "text": "B lésions cutanées à type de syphilides papuleuses circinées, sèches ou psoriasiformes, siégeant dans les régions humides (creux axillaires)"
+        },
+        {
+         "letter": "C",
+         "text": "C il n'y a pas de chancre d'inoculation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C il n'y a pas de chancre d'inoculation",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le stade primaire est caractérisé par le chancre : ulcération génitale unique, superficielle, indolore, propre, à base indurée, avec adénopathie inguinale. A et B relèvent de la syphilis secondaire.\n\nSource : Cours de pathologies tropicales L1 (INFAS Daloa), Syphilis, § 2-1 et 2-2",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Non traitée, la lèpre indéterminée évolue différemment selon la résistance du sujet vers : cochez les deux bonnes propositions",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A La lèpre « tuberculoïde » contagieuse"
+        },
+        {
+         "letter": "B",
+         "text": "B La lèpre « lépromateuse » contagieuse"
+        },
+        {
+         "letter": "C",
+         "text": "C La lèpre « tuberculoïde » non contagieuse"
+        },
+        {
+         "letter": "D",
+         "text": "D La lèpre « lépromateuse » non contagieuse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. B La lèpre « lépromateuse » contagieuse ; C. C La lèpre « tuberculoïde » non contagieuse",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Selon la résistance du sujet : forte résistance → lèpre tuberculoïde (peu de bacilles, non contagieuse) ; faible résistance → lèpre lépromateuse (multibacillaire, contagieuse).\n\nSource : Cours de pathologies tropicales L1 (INFAS Daloa), La lèpre, § 3-2 et 3-3",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le pouvoir pathogène des germes des agents infectieux dépend de plusieurs facteurs qui sont : cochez les deux propositions fausses",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A La virulence"
+        },
+        {
+         "letter": "B",
+         "text": "B La toxicité"
+        },
+        {
+         "letter": "C",
+         "text": "C Le pouvoir anticorps"
+        },
+        {
+         "letter": "D",
+         "text": "D La sécrétion d'enzyme"
+        },
+        {
+         "letter": "E",
+         "text": "E La phagocytose"
+        },
+        {
+         "letter": "F",
+         "text": "F Le pouvoir antigénique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. C Le pouvoir anticorps ; E. E La phagocytose",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "Les quatre facteurs du pouvoir pathogène sont : virulence, toxicité, sécrétion d'enzyme, pouvoir antigénique. « Pouvoir anticorps » et « phagocytose » (mécanisme de défense de l'hôte) sont faux.\n\nSource : Cours de maladies infectieuses et parasitaires, Généralités, § 2.2",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La toilette quotidienne des pieds diabétiques se fait avec de l'eau à : cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A 34° - 36 °C bain froid"
+        },
+        {
+         "letter": "B",
+         "text": "B 36° - 37 °C bain normal"
+        },
+        {
+         "letter": "C",
+         "text": "C 39° - 45 °C au bain-marie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B 36° - 37 °C bain normal",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La toilette quotidienne des pieds du diabétique se fait à l'eau tiède (environ 37 °C, vérifiée au thermomètre ou au coude) car la neuropathie supprime la sensation de brûlure ; l'eau trop chaude expose aux brûlures.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les deux grands facteurs favorisant l'apparition du pied diabétique sont constitués par l'atteinte des : cochez les deux bonnes propositions",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A artères"
+        },
+        {
+         "letter": "B",
+         "text": "B tissus mous"
+        },
+        {
+         "letter": "C",
+         "text": "C nerfs"
+        },
+        {
+         "letter": "D",
+         "text": "D veines"
+        },
+        {
+         "letter": "E",
+         "text": "E vaisseaux lymphatiques"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. A artères ; C. C nerfs",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Les deux grands mécanismes du pied diabétique sont la neuropathie (atteinte des nerfs) et l'artériopathie (atteinte des artères) ; l'infection vient compliquer.\n\nSource : Cohérent avec la Q4 ; Cours de médecine IDE 2 (INFAS, actualisé 2020), AOMI (facteurs de risque : diabète) (explication partiellement hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'envenimation causée par une vipère peut entraîner : cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "hypersalivation"
+        },
+        {
+         "letter": "B",
+         "text": "phlyctène"
+        },
+        {
+         "letter": "C",
+         "text": "acouphène"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. phlyctène",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les vipères donnent un syndrome vipérin : œdème, saignements, ecchymoses, phlyctènes (grade 3 hémorragique). Hypersalivation et acouphènes évoquent plutôt une envenimation neurotoxique (élapidés).\n\nSource : Cours de venimologie générale, Tableau II ; Envenimations – Traitement (diaporama), diapo « Phlyctènes »",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En cas de morsure de serpent, il est conseillé : cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Poser un garrot"
+        },
+        {
+         "letter": "B",
+         "text": "Inciser la plaie"
+        },
+        {
+         "letter": "C",
+         "text": "allonger la victime, la mettre au repos"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. allonger la victime, la mettre au repos",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Rôle infirmier : allonger le sujet mordu et le laisser au repos. Le garrot est déconseillé et l'incision est à proscrire.\n\nSource : Cours de pathologies tropicales L1 (INFAS Daloa), Morsures de serpents, § 5-2",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un élément de la gradation des troubles hémorragiques est : cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "détresse respiratoire"
+        },
+        {
+         "letter": "B",
+         "text": "purpura"
+        },
+        {
+         "letter": "C",
+         "text": "anesthésie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. purpura",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Gradation des troubles hémorragiques : grade 3 = ecchymoses, hématomes, purpura, phlyctènes. La détresse respiratoire et l'anesthésie appartiennent à la gradation neurologique.\n\nSource : Envenimations – Traitement (diaporama), Gradation des troubles hémorragiques ; Cours de venimologie générale, Tableau II III- ÉTUDE DE CAS 1 (Q34 à Q37) — L'élève G.G.D, 16 ans, au cours des vacances scolaires, a une aventure sexuelle avec une jeune fille. Le motif de sa consultation dans votre centre est une brûlure mictionnelle accompagnée d'une dysurie et d'une plaie au niveau du pénis.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelles sont les complications possibles encourues par cet élève si sa prise en charge n'est pas faite ? (deux réponses sont bonnes)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "imperméabilité tubaire"
+        },
+        {
+         "letter": "B",
+         "text": "orchi-épididymite"
+        },
+        {
+         "letter": "C",
+         "text": "cancer précoce des organes atteints"
+        },
+        {
+         "letter": "D",
+         "text": "rétrécissement de l'urètre"
+        },
+        {
+         "letter": "E",
+         "text": "accouchement prématuré de la partenaire infectée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. orchi-épididymite ; D. rétrécissement de l'urètre",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Chez l'homme, une IST (urétrite) non traitée se complique localement d'orchi-épididymite et de rétrécissement (sténose) de l'urètre. L'imperméabilité tubaire et l'accouchement prématuré concernent la femme.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelles sont les étapes de la bonne prise en charge ? Comme pour tout motif de consultation médicale, elle nécessite 7 étapes : Enregistrement des cas/notification (1) ; Notification au(x) partenaire(s) (2) ; Entretien/conseil (counseling) (3) ; Traitement (4) ; Diagnostic syndromique (5) ; Examen physique (6) ; Accueil et interrogatoire (7). Quel est l'ordre correct ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "(1) ; (2) ; (3) ; (4) ; (5) ; (6) ; (7)"
+        },
+        {
+         "letter": "B",
+         "text": "(1) ; (2) ; (4) ; (5) ; (6) ; (7) ; (3)"
+        },
+        {
+         "letter": "C",
+         "text": "(1) ; (2) ; (5) ; (6) ; (7) ; (3) ; (4)"
+        },
+        {
+         "letter": "D",
+         "text": "(1) ; (2) ; (6) ; (7) ; (3) ; (4) ; (5)"
+        },
+        {
+         "letter": "E",
+         "text": "(7) ; (6) ; (5) ; (4) ; (3) ; (2) ; (1)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "E. (7) ; (6) ; (5) ; (4) ; (3) ; (2) ; (1)",
+       "answerLetters": [
+        "E"
+       ],
+       "explanation": "L'ordre logique d'une prise en charge est : accueil et interrogatoire (7) → examen physique (6) → diagnostic syndromique (5) → traitement (4) → counseling (3) → notification au(x) partenaire(s) (2) → enregistrement/notification (1).\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les diagnostics syndromiques ci-dessous, lesquels peuvent s'appliquer dans le cas de G.G.D ? (deux réponses bonnes)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Syndrome d'écoulement urétral et/ou anorectal masculin"
+        },
+        {
+         "letter": "B",
+         "text": "Syndrome d'écoulement vaginal et/ou anorectal chez la femme"
+        },
+        {
+         "letter": "C",
+         "text": "Syndrome de douleurs testiculaires"
+        },
+        {
+         "letter": "D",
+         "text": "Syndrome d'ulcérations génitales et/ou bubon"
+        },
+        {
+         "letter": "E",
+         "text": "Syndrome de douleurs abdominales basses chez la femme"
+        },
+        {
+         "letter": "F",
+         "text": "Syndrome de végétations vénériennes ou condylomes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Syndrome d'écoulement urétral et/ou anorectal masculin ; D. Syndrome d'ulcérations génitales et/ou bubon",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "Brûlure mictionnelle + dysurie = écoulement urétral masculin ; plaie du pénis = ulcération génitale. Les autres syndromes concernent la femme ou ne correspondent pas au tableau.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, indiquez les deux qui ne peuvent constituer des conseils à donner à Monsieur G.G.D",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Conseiller à ses partenaires sexuels de voir un professionnel de la santé pour une bonne prise en charge"
+        },
+        {
+         "letter": "B",
+         "text": "Ne pas utiliser les mêmes ustensiles de cuisine"
+        },
+        {
+         "letter": "C",
+         "text": "Utiliser dorénavant la double protection"
+        },
+        {
+         "letter": "D",
+         "text": "Faire un dépistage sérologique du VIH et une prise en charge ARV si possible"
+        },
+        {
+         "letter": "E",
+         "text": "S'auto-stigmatiser"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Ne pas utiliser les mêmes ustensiles de cuisine ; E. S'auto-stigmatiser",
+       "answerLetters": [
+        "B",
+        "E"
+       ],
+       "explanation": "Les conseils pertinents : informer les partenaires, double protection, dépistage VIH. « Ne pas partager les ustensiles de cuisine » n'a pas de sens (pas de transmission par les objets du repas) et « s'auto-stigmatiser » est à combattre.\n\nSource : Cours VIH Licence 2 (TARV), chapitre 6 Santé positive, dignité et prévention ; Documents de révision L3 Médecine, VIH QCD 21 (double protection)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__37",
+       "num": "38",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Vous êtes de garde à l'EPHD de Toulépleu ; vous recevez avec le médecin Sieur T.R, vendeur et consommateur de noix de cola, avec des signes cliniques dominés par une douleur : circonstances d'apparition : douleur à l'effort qui cède en quelques minutes à l'arrêt de l'effort ; siège rétrosternal ; irradiations typiquement vers la mâchoire inférieure et le bras gauche ; type : constriction, en étau ; durée brève, entre 1 et 3 minutes ; la douleur cesse à l'arrêt de l'effort. Constantes : T° 36,8 °C – Poids 62 kg, IMC estimé à 28 – Pouls 88/min – FR 31 cycles/min – TA 172/101 mmHg (même valeur après plus de trois reprises). Antécédents de tabagisme notoire avec consommation habituelle de noix de cola, haleine fétide et dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence qui fait cesser la crise. Une sonde urinaire est placée. Le lendemain on note une diurèse à 555 cc.",
+       "text": "Le diagnostic de Sieur T.R retenu par le médecin est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A Infarctus du myocarde"
+        },
+        {
+         "letter": "B",
+         "text": "B Crise d'OAP"
+        },
+        {
+         "letter": "C",
+         "text": "C AVC"
+        },
+        {
+         "letter": "D",
+         "text": "D Angine de poitrine"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. D Angine de poitrine",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Douleur rétrosternale constrictive à l'effort, irradiant à la mâchoire et au bras gauche, brève (1-3 min), cédant à l'arrêt de l'effort et à la trinitrine : c'est l'angine de poitrine (angor d'effort). Remarque : Dans le sujet, l'option est écrite « Agine de poitrine ».\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Angine de poitrine, § 5",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__38",
+       "num": "39",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Vous êtes de garde à l'EPHD de Toulépleu ; vous recevez avec le médecin Sieur T.R, vendeur et consommateur de noix de cola, avec des signes cliniques dominés par une douleur : circonstances d'apparition : douleur à l'effort qui cède en quelques minutes à l'arrêt de l'effort ; siège rétrosternal ; irradiations typiquement vers la mâchoire inférieure et le bras gauche ; type : constriction, en étau ; durée brève, entre 1 et 3 minutes ; la douleur cesse à l'arrêt de l'effort. Constantes : T° 36,8 °C – Poids 62 kg, IMC estimé à 28 – Pouls 88/min – FR 31 cycles/min – TA 172/101 mmHg (même valeur après plus de trois reprises). Antécédents de tabagisme notoire avec consommation habituelle de noix de cola, haleine fétide et dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence qui fait cesser la crise. Une sonde urinaire est placée. Le lendemain on note une diurèse à 555 cc.",
+       "text": "Le médecin vous demande de rappeler une définition correcte de cette pathologie : cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A un syndrome douloureux thoracique en rapport avec l'obstruction complète de la lumière d'une ou plusieurs artères coronaires entraînant un déficit en oxygène et une nécrose du myocarde"
+        },
+        {
+         "letter": "B",
+         "text": "B inondation brutale des alvéoles pulmonaires et du tissu pulmonaire interstitiel par transsudation de plasma provenant d'une augmentation de la pression capillaire pulmonaire"
+        },
+        {
+         "letter": "C",
+         "text": "C un syndrome douloureux thoracique en rapport avec une diminution du débit sanguin coronaire entraînant une hypoxie du myocarde liée à un déséquilibre entre les apports et les besoins en oxygène"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C un syndrome douloureux thoracique en rapport avec une diminution du débit sanguin coronaire entraînant une hypoxie du myocarde liée à un déséquilibre entre les apports et les besoins en oxygène",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Définition du cours : « syndrome douloureux thoracique en rapport avec une diminution du débit sanguin coronaire entraînant un besoin en oxygène du myocarde ». A décrit l'infarctus (obstruction complète, nécrose), B l'OAP.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Angine de poitrine, § 1",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__39",
+       "num": "40",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Vous êtes de garde à l'EPHD de Toulépleu ; vous recevez avec le médecin Sieur T.R, vendeur et consommateur de noix de cola, avec des signes cliniques dominés par une douleur : circonstances d'apparition : douleur à l'effort qui cède en quelques minutes à l'arrêt de l'effort ; siège rétrosternal ; irradiations typiquement vers la mâchoire inférieure et le bras gauche ; type : constriction, en étau ; durée brève, entre 1 et 3 minutes ; la douleur cesse à l'arrêt de l'effort. Constantes : T° 36,8 °C – Poids 62 kg, IMC estimé à 28 – Pouls 88/min – FR 31 cycles/min – TA 172/101 mmHg (même valeur après plus de trois reprises). Antécédents de tabagisme notoire avec consommation habituelle de noix de cola, haleine fétide et dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence qui fait cesser la crise. Une sonde urinaire est placée. Le lendemain on note une diurèse à 555 cc.",
+       "text": "Les facteurs de risque majeurs de cette affection sont : cochez le facteur qui représente 95 % de risque",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A Tabagisme"
+        },
+        {
+         "letter": "B",
+         "text": "B HTA"
+        },
+        {
+         "letter": "C",
+         "text": "C athérosclérose"
+        },
+        {
+         "letter": "D",
+         "text": "D Diabète"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C athérosclérose",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La cause de l'angor est la plaque d'athérome coronaire qui réduit l'apport d'O2 au myocarde ; l'athérosclérose est donc en cause dans la quasi-totalité des cas. Tabac, HTA, diabète sont des facteurs de risque de cette athérosclérose. Remarque : Le chiffre de 95 % ne figure pas dans le cours.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Angine de poitrine, § 2 et 4",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__40",
+       "num": "41",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Vous êtes de garde à l'EPHD de Toulépleu ; vous recevez avec le médecin Sieur T.R, vendeur et consommateur de noix de cola, avec des signes cliniques dominés par une douleur : circonstances d'apparition : douleur à l'effort qui cède en quelques minutes à l'arrêt de l'effort ; siège rétrosternal ; irradiations typiquement vers la mâchoire inférieure et le bras gauche ; type : constriction, en étau ; durée brève, entre 1 et 3 minutes ; la douleur cesse à l'arrêt de l'effort. Constantes : T° 36,8 °C – Poids 62 kg, IMC estimé à 28 – Pouls 88/min – FR 31 cycles/min – TA 172/101 mmHg (même valeur après plus de trois reprises). Antécédents de tabagisme notoire avec consommation habituelle de noix de cola, haleine fétide et dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence qui fait cesser la crise. Une sonde urinaire est placée. Le lendemain on note une diurèse à 555 cc.",
+       "text": "Dans votre rôle d'IDE, vous surveillerez le traitement hygiéno-diététique basé sur : cochez l'intrus",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A Régime hyposodé"
+        },
+        {
+         "letter": "B",
+         "text": "B Régime hypolipidique"
+        },
+        {
+         "letter": "C",
+         "text": "C Sevrage de la consommation d'alcool et du tabac"
+        },
+        {
+         "letter": "D",
+         "text": "D Repos et sédentarité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. D Repos et sédentarité",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le traitement hygiéno-diététique associe régime hyposodé, régime hypolipidique et arrêt alcool/tabac. La sédentarité est un facteur de risque : « repos et sédentarité » est l'intrus.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Angine de poitrine, § 4 (facteurs de risque : sédentarité)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__41",
+       "num": "42",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Vous êtes de garde à l'EPHD de Toulépleu ; vous recevez avec le médecin Sieur T.R, vendeur et consommateur de noix de cola, avec des signes cliniques dominés par une douleur : circonstances d'apparition : douleur à l'effort qui cède en quelques minutes à l'arrêt de l'effort ; siège rétrosternal ; irradiations typiquement vers la mâchoire inférieure et le bras gauche ; type : constriction, en étau ; durée brève, entre 1 et 3 minutes ; la douleur cesse à l'arrêt de l'effort. Constantes : T° 36,8 °C – Poids 62 kg, IMC estimé à 28 – Pouls 88/min – FR 31 cycles/min – TA 172/101 mmHg (même valeur après plus de trois reprises). Antécédents de tabagisme notoire avec consommation habituelle de noix de cola, haleine fétide et dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence qui fait cesser la crise. Une sonde urinaire est placée. Le lendemain on note une diurèse à 555 cc.",
+       "text": "Vos initiatives d'éducation thérapeutique seront basées sur : cochez l'intrus",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A Expliquer les effets secondaires probables des médicaments"
+        },
+        {
+         "letter": "B",
+         "text": "B Expliquer l'importance du suivi des règles hygiéno-diététiques"
+        },
+        {
+         "letter": "C",
+         "text": "C Expliquer au patient que le traitement est à vie"
+        },
+        {
+         "letter": "D",
+         "text": "D Expliquer au patient les effets néfastes de ses habitudes de vie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. D Expliquer au patient les effets néfastes de ses habitudes de vie",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "L'éducation thérapeutique d'un coronarien porte sur les effets des médicaments, le suivi des règles hygiéno-diététiques, le caractère à vie du traitement et les effets néfastes de ses habitudes (tabac, cola). Remarque : Les quatre propositions paraissent toutes relever de l'éducation thérapeutique ; l'option D vise justement le tabac et la cola du patient. La correction nationale de la Prépa DE (les J) retient D comme intrus.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__42",
+       "num": "43",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Vous êtes de garde à l'EPHD de Toulépleu ; vous recevez avec le médecin Sieur T.R, vendeur et consommateur de noix de cola, avec des signes cliniques dominés par une douleur : circonstances d'apparition : douleur à l'effort qui cède en quelques minutes à l'arrêt de l'effort ; siège rétrosternal ; irradiations typiquement vers la mâchoire inférieure et le bras gauche ; type : constriction, en étau ; durée brève, entre 1 et 3 minutes ; la douleur cesse à l'arrêt de l'effort. Constantes : T° 36,8 °C – Poids 62 kg, IMC estimé à 28 – Pouls 88/min – FR 31 cycles/min – TA 172/101 mmHg (même valeur après plus de trois reprises). Antécédents de tabagisme notoire avec consommation habituelle de noix de cola, haleine fétide et dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence qui fait cesser la crise. Une sonde urinaire est placée. Le lendemain on note une diurèse à 555 cc.",
+       "text": "Il vous est demandé de calculer la taille de votre patient qui est : cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A 148 cm"
+        },
+        {
+         "letter": "B",
+         "text": "B 146 cm"
+        },
+        {
+         "letter": "C",
+         "text": "C 144 cm"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A 148 cm",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Taille² = poids / IMC = 62 / 28 = 2,214 → taille = √2,214 ≈ 1,488 m, soit 148 cm.\n\nSource : Calcul (IMC = poids / taille²)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__43",
+       "num": "44",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Vous êtes de garde à l'EPHD de Toulépleu ; vous recevez avec le médecin Sieur T.R, vendeur et consommateur de noix de cola, avec des signes cliniques dominés par une douleur : circonstances d'apparition : douleur à l'effort qui cède en quelques minutes à l'arrêt de l'effort ; siège rétrosternal ; irradiations typiquement vers la mâchoire inférieure et le bras gauche ; type : constriction, en étau ; durée brève, entre 1 et 3 minutes ; la douleur cesse à l'arrêt de l'effort. Constantes : T° 36,8 °C – Poids 62 kg, IMC estimé à 28 – Pouls 88/min – FR 31 cycles/min – TA 172/101 mmHg (même valeur après plus de trois reprises). Antécédents de tabagisme notoire avec consommation habituelle de noix de cola, haleine fétide et dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence qui fait cesser la crise. Une sonde urinaire est placée. Le lendemain on note une diurèse à 555 cc.",
+       "text": "L'IMC suggère que le patient : cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A est dénutri"
+        },
+        {
+         "letter": "B",
+         "text": "B a un poids normal"
+        },
+        {
+         "letter": "C",
+         "text": "C est en surpoids"
+        },
+        {
+         "letter": "D",
+         "text": "D est obèse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C est en surpoids",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "IMC = 28 : entre 25 et 29,9 → surpoids (obésité à partir de 30).\n\nSource : (explication hors cours du projet : classification OMS de l'IMC)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__44",
+       "num": "45",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Vous êtes de garde à l'EPHD de Toulépleu ; vous recevez avec le médecin Sieur T.R, vendeur et consommateur de noix de cola, avec des signes cliniques dominés par une douleur : circonstances d'apparition : douleur à l'effort qui cède en quelques minutes à l'arrêt de l'effort ; siège rétrosternal ; irradiations typiquement vers la mâchoire inférieure et le bras gauche ; type : constriction, en étau ; durée brève, entre 1 et 3 minutes ; la douleur cesse à l'arrêt de l'effort. Constantes : T° 36,8 °C – Poids 62 kg, IMC estimé à 28 – Pouls 88/min – FR 31 cycles/min – TA 172/101 mmHg (même valeur après plus de trois reprises). Antécédents de tabagisme notoire avec consommation habituelle de noix de cola, haleine fétide et dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence qui fait cesser la crise. Une sonde urinaire est placée. Le lendemain on note une diurèse à 555 cc.",
+       "text": "La diurèse du patient indique une : cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A anurie"
+        },
+        {
+         "letter": "B",
+         "text": "B oligurie"
+        },
+        {
+         "letter": "C",
+         "text": "C polyurie"
+        },
+        {
+         "letter": "D",
+         "text": "D pollakiurie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B oligurie",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "555 ml/24 h est une diurèse basse ; la correction nationale de la Prépa DE (les J) retient l'oligurie. Remarque : Le seuil habituel de l'oligurie est < 500 ml/24 h (le cours, au paludisme grave, cite < 400 ml) ; 555 ml est juste au-dessus.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__45",
+       "num": "46",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Vous êtes de garde à l'EPHD de Toulépleu ; vous recevez avec le médecin Sieur T.R, vendeur et consommateur de noix de cola, avec des signes cliniques dominés par une douleur : circonstances d'apparition : douleur à l'effort qui cède en quelques minutes à l'arrêt de l'effort ; siège rétrosternal ; irradiations typiquement vers la mâchoire inférieure et le bras gauche ; type : constriction, en étau ; durée brève, entre 1 et 3 minutes ; la douleur cesse à l'arrêt de l'effort. Constantes : T° 36,8 °C – Poids 62 kg, IMC estimé à 28 – Pouls 88/min – FR 31 cycles/min – TA 172/101 mmHg (même valeur après plus de trois reprises). Antécédents de tabagisme notoire avec consommation habituelle de noix de cola, haleine fétide et dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence qui fait cesser la crise. Une sonde urinaire est placée. Le lendemain on note une diurèse à 555 cc.",
+       "text": "Tenant compte de la symptomatologie de Sieur T.R, vous essayez de formuler un diagnostic infirmier en lien avec un besoin prioritaire non satisfait selon Virginia Henderson. Pour l'accompagnement d'un patient en phase terminale de vie, le médecin a prescrit une perfusion de 1 litre de Ringer lactate en 24 h. Calculer le débit de la perfusion et choisir la réponse exacte parmi les propositions suivantes :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 14 gouttes/min"
+        },
+        {
+         "letter": "B",
+         "text": "B- 13 gouttes/min"
+        },
+        {
+         "letter": "C",
+         "text": "C- 12 gouttes/min"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A- 14 gouttes/min",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Débit (gouttes/min) = volume (ml) × 20 / temps (min) = 1 000 × 20 / 1 440 = 13,9 ≈ 14 gouttes/min.\n\nSource : Calcul de débit (1 ml = 20 gouttes de soluté)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__46",
+       "num": "47",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Vous êtes de garde à l'EPHD de Toulépleu ; vous recevez avec le médecin Sieur T.R, vendeur et consommateur de noix de cola, avec des signes cliniques dominés par une douleur : circonstances d'apparition : douleur à l'effort qui cède en quelques minutes à l'arrêt de l'effort ; siège rétrosternal ; irradiations typiquement vers la mâchoire inférieure et le bras gauche ; type : constriction, en étau ; durée brève, entre 1 et 3 minutes ; la douleur cesse à l'arrêt de l'effort. Constantes : T° 36,8 °C – Poids 62 kg, IMC estimé à 28 – Pouls 88/min – FR 31 cycles/min – TA 172/101 mmHg (même valeur après plus de trois reprises). Antécédents de tabagisme notoire avec consommation habituelle de noix de cola, haleine fétide et dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence qui fait cesser la crise. Une sonde urinaire est placée. Le lendemain on note une diurèse à 555 cc.",
+       "text": "Le débit de cette perfusion en maintien est de 20 gouttes par minute en 8 h. Indiquez le volume de soluté passé dans ce temps. Cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 280 ml"
+        },
+        {
+         "letter": "B",
+         "text": "B- 380 ml"
+        },
+        {
+         "letter": "C",
+         "text": "C- 480 ml"
+        },
+        {
+         "letter": "D",
+         "text": "D- 580 ml"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C- 480 ml",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Volume = débit × temps / 20 = 20 gouttes/min × 480 min / 20 = 480 ml.\n\nSource : Calcul de débit (1 ml = 20 gouttes)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__47",
+       "num": "48",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE 2 — Vous êtes de garde à l'EPHD de Toulépleu ; vous recevez avec le médecin Sieur T.R, vendeur et consommateur de noix de cola, avec des signes cliniques dominés par une douleur : circonstances d'apparition : douleur à l'effort qui cède en quelques minutes à l'arrêt de l'effort ; siège rétrosternal ; irradiations typiquement vers la mâchoire inférieure et le bras gauche ; type : constriction, en étau ; durée brève, entre 1 et 3 minutes ; la douleur cesse à l'arrêt de l'effort. Constantes : T° 36,8 °C – Poids 62 kg, IMC estimé à 28 – Pouls 88/min – FR 31 cycles/min – TA 172/101 mmHg (même valeur après plus de trois reprises). Antécédents de tabagisme notoire avec consommation habituelle de noix de cola, haleine fétide et dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence qui fait cesser la crise. Une sonde urinaire est placée. Le lendemain on note une diurèse à 555 cc.",
+       "text": "Dans le processus d'installation de l'ascite chez votre patient, on peut observer certains mécanismes physiologiques : épanchement, transsudation, exsudat. Identifiez ces termes en les associant à leurs définitions : 1- Épanchement ; 2- Transsudat ; 3Exsudat. a) suintement d'un liquide séro-fibrineux à travers une muqueuse enflammée ; b) suintement d'un liquide au niveau d'une surface non enflammée et obéissant seulement à des lois mécaniques, résultant d'un déséquilibre entre pression hydrostatique et pression oncotique ; c) présence de liquide ou de gaz dans une partie du corps qui n'en renferme pas. Cochez la bonne combinaison :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "(1-a) (2-b) (3-c)"
+        },
+        {
+         "letter": "B",
+         "text": "(1-a) (2-b) (3-c)"
+        },
+        {
+         "letter": "C",
+         "text": "(1-c) (2-a) (3-b)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. (1-c) (2-a) (3-b)",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Épanchement = présence de liquide ou de gaz dans une cavité qui n'en contient pas (c). Exsudat = liquide séro-fibrineux suintant d'une surface enflammée (a). Transsudat = liquide passé à travers une surface non enflammée par simple déséquilibre des pressions hydrostatique/oncotique (b). La bonne combinaison est 1-c, 2-b, 3-a. Remarque : Les options A et B sont identiques dans le sujet.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Pneumonie (formation d'exsudat) et Cirrhose (ascite = transsudat)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__48",
+       "num": "49",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Vous devez injecter chez un patient de 58 kg, hémorragique, 5 mg/kg d'héparine. Vous disposez d'un flacon de 10 ml contenant 5 000 UI d'héparine. Quelle est la quantité en ml d'héparine injectez-vous, sachant que 1 mg d'héparine = 100 UI ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 2,90 ml"
+        },
+        {
+         "letter": "B",
+         "text": "B- 5,80 ml"
+        },
+        {
+         "letter": "C",
+         "text": "C- 11,60 ml"
+        },
+        {
+         "letter": "D",
+         "text": "D- 12,70 ml"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. C- 11,60 ml",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Dose = 58 kg × 5 mg/kg = 290 mg = 29 000 UI ; flacon = 5 000 UI / 10 ml = 500 UI/ml → 29 000 / 500 = 58 ml.\n\nSource : Calcul de dose (1 mg = 100 UI)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__49",
+       "num": "50",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En plaçant une perfusion de 500 ml de SG 10 % au malade, quelle est la quantité de matière en grammes (g) de glucose administrée au total au patient à l'issue de la perfusion ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 75 g"
+        },
+        {
+         "letter": "B",
+         "text": "B- 50 g"
+        },
+        {
+         "letter": "C",
+         "text": "D- 25 g"
+        },
+        {
+         "letter": "D",
+         "text": "E- 12,5 g"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B- 50 g",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "SG 10 % = 10 g de glucose pour 100 ml → 500 ml contiennent 50 g. Remarque : Dans le sujet, les options sautent de B à D (pas d'option C).\n\nSource : Calcul de concentration",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__50",
+       "num": "51",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour soulager les crises du patient, le médecin prescrit 35 mg de Risordan® en comprimé. Vous disposez de comprimés de 20 mg. Déterminer la quantité de comprimés à préparer afin de satisfaire la prescription",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A- 1 cp"
+        },
+        {
+         "letter": "B",
+         "text": "B- 1 cp + ½ cp"
+        },
+        {
+         "letter": "C",
+         "text": "C- 1 cp + 2/3 cp"
+        },
+        {
+         "letter": "D",
+         "text": "D- 1 cp + 3/4 cp"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. D- 1 cp + 3/4 cp",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "35 mg / 20 mg = 1,75 comprimé = 1 cp + 3/4 cp.\n\nSource : Calcul de dose Voici un extrait du Serment de Florence Nightingale (FN), fondement du serment dit par les infirmières et infirmiers dans de nombreux pays : « … Je m'abstiendrai de toute pratique délictueuse ou malfaisante. Je ne prendrai ou n'administrerai volontairement aucun remède dangereux. J'aiderai de mon mieux le médecin dans son travail, et je me dévouerai au bien-être de ceux qui sont laissés à ma garde. »",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__51",
+       "num": "52",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la relation d'aide, le Serment de FN laisse entrevoir que : cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A La profession infirmière est subalterne de celle du médecin"
+        },
+        {
+         "letter": "B",
+         "text": "B La profession infirmière est collaboratrice de celle du médecin"
+        },
+        {
+         "letter": "C",
+         "text": "C La profession infirmière est indépendante de celle du médecin"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B La profession infirmière est collaboratrice de celle du médecin",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "« J'aiderai de mon mieux le médecin dans son travail » : le serment présente l'infirmière comme collaboratrice du médecin, ni subalterne ni indépendante.\n\nSource : (explication hors cours du projet ; extrait du serment cité dans le sujet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__52",
+       "num": "53",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le dévouement de l'infirmière au bien-être de ceux qui sont laissés à sa garde engage l'infirmière à une obligation de : cochez la bonne proposition",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A résultat"
+        },
+        {
+         "letter": "B",
+         "text": "B moyen"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B moyen",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le soignant s'engage à mettre en œuvre tous les moyens pour le bien-être du patient, sans pouvoir garantir la guérison : c'est une obligation de moyens.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__53",
+       "num": "54",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le dévouement de l'infirmière au bien-être de ceux qui sont laissés à sa garde invite l'infirmière à :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A un accueil et une prise en charge intéressés du patient"
+        },
+        {
+         "letter": "B",
+         "text": "B un accueil et une prise en charge désintéressés du patient"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. B un accueil et une prise en charge désintéressés du patient",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le dévouement implique un accueil et une prise en charge désintéressés : soigner sans attendre de contrepartie personnelle.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j7-ide3__54",
+       "num": "55",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, une correspond à la formulation correcte d'un diagnostic infirmier de l'affection du patient :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "A Syndrome douloureux thoracique relié à une perturbation du débit sanguin coronaire"
+        },
+        {
+         "letter": "B",
+         "text": "B Perturbation du débit sanguin coronaire reliée au syndrome douloureux thoracique"
+        },
+        {
+         "letter": "C",
+         "text": "C Aucune des deux propositions n'est correcte"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. A Syndrome douloureux thoracique relié à une perturbation du débit sanguin coronaire",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un diagnostic infirmier s'énonce « problème (manifestation) relié à sa cause » : ici, le syndrome douloureux thoracique est relié à la perturbation du débit sanguin coronaire.\n\nSource : Documents de révision L3 Médecine, Soins infirmiers (énoncé du diagnostic infirmier : problème + étiologie) (explication partiellement hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J7 (IDE3)",
+       "sourceFile": "J7_Medecine_IDE3_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

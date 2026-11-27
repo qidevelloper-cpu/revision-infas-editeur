@@ -1348,11 +1348,11 @@ try{if(!localStorage.getItem('infas_calc_fab_v1'))localStorage.setItem('infas_ca
 })();
 
 /* ---------- 12. APPLICATIONS COMPLÈTES : choix de l'interface + grade Révision INFAS à la place des badges ---------- */
-function appUiOf(mid){return(S.appUi&&S.appUi[mid])||'ri'}
+function appUiOf(mid){return'ri'}   /* interface « Originale » retirée le 27/11/2026 : toujours Révision INFAS */
 function setAppUi(mid,v){S.appUi=S.appUi||{};S.appUi[mid]=v;save();render()}
 const _appViewHTML0=appViewHTML;appViewHTML=function(){const h=_appViewHTML0.apply(this,arguments),id=ctx.id,u=appUiOf(id);
  const tg=`<div class="apptg"><span>${esc(Tx('apt.l','🎨 Interface'))}</span><button class="${u==='ri'?'on':''}" onclick="setAppUi('${jsq(id)}','ri')">${esc(Tx('apt.ri','Révision INFAS'))}</button><button class="${u==='orig'?'on':''}" onclick="setAppUi('${jsq(id)}','orig')">${esc(Tx('apt.o','Originale'))}</button></div>`;
- return h.replace('<div class="loading"',tg+'<div class="loading"')};
+ return h};   /* bouton « 🎨 Interface : Révision INFAS / Originale » retiré (27/11/2026) */
 function rgbOf(c){try{return hx(c).join(',')}catch(e){return'0,0,0'}}
 function riGradeMini(){const k=rankNow();return `<div style="display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:20px;background:var(--card-flat,#fff);border:1px solid var(--card-border,rgba(0,0,0,.1));color:var(--ink,#16231F);font-family:Outfit,system-ui,sans-serif">${beltSvg(k.R.c,64)}<div style="flex:1;min-width:0"><div style="font-size:12px;font-weight:700;opacity:.75">🥋 ${esc(Tx('apt.g','Mon grade Révision INFAS'))}</div><div style="font-weight:900;font-size:17px;line-height:1.2">${esc(rankName(k.R))}</div><div style="height:8px;border-radius:4px;background:rgba(0,0,0,.12);margin-top:8px;overflow:hidden"><div style="height:100%;width:${Math.round(k.pct)}%;background:${esc(palette().acc)}"></div></div><div style="font-size:12px;opacity:.8;margin-top:4px">${esc(Tx('apt.gs','Commun à tous tes cours · maîtrise {p} %',{p:Math.round(k.M.r*100)}))}</div></div></div>`}
 function appExtra(m,src){const ri=appUiOf(m.id)==='ri';let css='',js='';const t=palette(),cs=getComputedStyle(document.documentElement);const v=n=>cs.getPropertyValue(n).trim();
@@ -3776,8 +3776,18 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
  const _ac=applyContent;applyContent=function(){const r=_ac.apply(this,arguments);try{appliquer()}catch(e){}return r};
  async function charger(force){try{
   if(typeof RIC==='undefined'||!RIC.url||!RIC.key||!navigator.onLine||(typeof EDITMODE!=='undefined'&&EDITMODE)||(!LECTURE&&RIC.off&&RIC.off()))return;const t=Date.now();if(!force&&t-derC<10*60e3)return;derC=t;
-  const r=await fetch(RIC.url+'/rest/v1/rpc/corrections_actives',{method:'POST',headers:{apikey:RIC.key,'Content-Type':'application/json'},body:'{}'});if(!r.ok)return;
-  const L=await r.json();if(!Array.isArray(L))return;const avant=JSON.stringify(lireC()||[]);CORR=L;try{localStorage.setItem(CK,JSON.stringify(L))}catch(e){}
+  /* seulement ce qui a changé depuis la dernière liste (corrections_depuis, supabase/outils/3_corrections_delta.sql) ;
+     liste complète si aucune liste gardée, si elle a plus de 7 jours, si le nombre ne correspond pas, ou si la fonction manque */
+  const H={apikey:RIC.key,'Content-Type':'application/json'},cur=lireC();let meta=null;try{meta=JSON.parse(localStorage.getItem(CK+'_t')||'null')}catch(e){}
+  const dep=p=>fetch(RIC.url+'/rest/v1/rpc/corrections_depuis',{method:'POST',headers:H,body:JSON.stringify({p_t:p})}).catch(()=>({ok:false}));   /* erreur réseau ou fonction absente : liste complète comme avant */
+  let L=null,nt=null;const neuf=!Array.isArray(cur)||!meta||!meta.t||t-(meta.at||0)>7*864e5;
+  let r=await dep(neuf?null:meta.t);
+  if(r.ok){let j=await r.json();
+   if(j&&Array.isArray(j.a)&&!neuf){const M=new Map(cur.map(x=>[x.qid,x]));(j.r||[]).forEach(q=>M.delete(q));j.a.forEach(x=>M.set(x.qid,x));L=[...M.values()].sort((a,b)=>a.id-b.id);
+    if(L.length!==j.n){L=null;r=await dep(null);j=r.ok?await r.json():null;if(j&&Array.isArray(j.a)){L=j.a;nt={t:j.t,at:t}}}else nt={t:j.t,at:meta.at}}
+   else if(j&&Array.isArray(j.a)){L=j.a;nt={t:j.t,at:t}}}
+  if(!L){r=await fetch(RIC.url+'/rest/v1/rpc/corrections_actives',{method:'POST',headers:H,body:'{}'});if(!r.ok)return;L=await r.json();if(!Array.isArray(L))return;nt=null}
+  const avant=JSON.stringify(cur||[]);CORR=L;try{localStorage.setItem(CK,JSON.stringify(L));if(nt)localStorage.setItem(CK+'_t',JSON.stringify(nt));else localStorage.removeItem(CK+'_t')}catch(e){}
   if(JSON.stringify(L)!==avant){try{applyContent();render()}catch(e){}}}catch(e){}}
  window.riChargerCorrections=charger;
  try{appliquer()}catch(e){}
@@ -4465,7 +4475,8 @@ const RI_IMG_MASQUEES={xmvkq5cba:["xxmvkq5cba_0", "xxmvkq5cba_1", "xxmvkq5cba_2"
   const D=deux();G.forEach(g=>{g.subs.forEach(s=>{s.mats=s.mats.filter(id=>!ids.includes(id)&&!(MATI[id]&&(MATI[id].cloison||MATI[id].auxSuj)))});if(!D)g.subs=g.subs.filter(s=>s.mats.length)});
   if(!D)G=G.filter(g=>g.subs.length);else G=G.filter(g=>g.id!=='_autres'||g.subs.some(s=>s.mats.length));
   if(ids.length){let g=G.find(x=>x.id==='aux');if(!g){g={id:'aux',n:Tx('aux.grp','AUXILIAIRES DE SANTÉ'),e:'🩹',col:'#0E7490',subs:[]};if(D)G.push(g);else G.unshift(g)}   /* Studio (deux filières) : à la fin, les autres rubriques gardent leur place */
-   g.subs=[{id:'aux-annales',n:Tx('aux.sub','Diplôme d’État blanc 2024-2025'),mats:ids}]}
+   const jj=ids.filter(id=>MATI[id]&&MATI[id].auxJ),an=ids.filter(id=>!jj.includes(id));
+   g.subs=[{id:'aux-annales',n:Tx('aux.sub','Diplôme d’État blanc 2024-2025'),mats:an}].concat(jj.length?[{id:'aux-j',n:Tx('aux.jsub','Préparation D.E (J)'),mats:jj}]:[])}
   return G};
  /* changement de filière : pas de passage seul d'un groupe à l'autre */
  const _pf=pickFil;pickFil=function(f){
@@ -4483,23 +4494,24 @@ const RI_IMG_MASQUEES={xmvkq5cba:["xxmvkq5cba_0", "xxmvkq5cba_1", "xxmvkq5cba_2"
 
  /* ---------- ACCUEIL DE L'ÉLÈVE AUXILIAIRE : les sujets d'examen blanc rangés par matière, puis par ville ---------- */
  const estAux=()=>!!(S&&S.fil===AUX)&&!(typeof EDITMODE!=='undefined'&&EDITMODE);
- const auxMats=()=>MAT.filter(m=>estAuxMat(m)&&(QBM[m.id]||[]).length);
+ const auxMats=(j)=>MAT.filter(m=>estAuxMat(m)&&(QBM[m.id]||[]).length&&!!m.auxJ===!!j).sort((a,b)=>(a.ordre||99)-(b.ordre||99));
  const COUL=['#0F6B5C','#C2410C','#2C3E8F','#9D174D','#8A6A3D','#0E7490','#4D7C0F','#6D28D9'];
  const villes=m=>(m.ch||[]).map((c,i)=>({i,nom:String(c).split(' · ')[0],n:(QBM[m.id]||[]).filter(q=>q.c===i).length})).filter(v=>v.n);
  function types(mid,i){const L=(QBM[mid]||[]).filter(q=>q.c===i);const vf=L.filter(q=>q.t==='vf').length,qc=L.length-vf;return[vf?vf+' QCD':'',qc?qc+' QCM':''].filter(Boolean).join(' · ')}
  function carte(o){return `<button class="auxc" style="--auxc:${esc(o.col)}" onclick="${o.click}"><span class="auxpill">${esc(o.titre)}</span><span class="auxd">${esc(o.desc)}</span><span class="auxfig" aria-hidden="true">${esc(o.emo)}</span></button>`}
- function cartesMatieres(){const L=auxMats();if(!L.length)return `<div class="empty">${T('de.none2','Bientôt disponibles.')}</div>`;
-  return `<div class="auxst">${L.map((m,k)=>{const V=villes(m);return carte({col:m.col||COUL[k%COUL.length],titre:String(m.title||'').split(' — ')[0],desc:Tx('aux.mdesc','{v} villes · {n} questions corrigées',{v:V.length,n:(QBM[m.id]||[]).length}),emo:m.emo||'📝',click:`go('auxsuj',{id:'${jsq(m.id)}'})`})}).join('')}</div>`}
+ function cartesMatieres(j){const L=auxMats(j);if(!L.length)return j?'':`<div class="empty">${T('de.none2','Bientôt disponibles.')}</div>`;
+  return `<div class="auxst">${L.map((m,k)=>{const V=villes(m);return carte({col:m.col||COUL[k%COUL.length],titre:String(m.title||'').split(' — ')[0],desc:j?Tx('aux.jdesc','{v} sujets J ({l}) · {n} questions corrigées',{v:V.length,l:V.map(v=>v.nom).join(', '),n:(QBM[m.id]||[]).length}):Tx('aux.mdesc','{v} villes · {n} questions corrigées',{v:V.length,n:(QBM[m.id]||[]).length}),emo:m.emo||'📝',click:`go('auxsuj',{id:'${jsq(m.id)}'})`})}).join('')}</div>`}
+ const partieJ=()=>{const h=cartesMatieres(1);return h?`<div class="auxjt">${T('aux.jtitre','🎯 PRÉPARATION D.E (LES J)')}</div>${h}`:''};
  function cartesVilles(mid){const m=MATI[mid];if(!m)return'';const V=villes(m),k0=Math.max(0,COUL.indexOf(m.col));
-  return `<div class="auxst">${V.map((v,k)=>carte({col:COUL[(k0+k)%COUL.length],titre:v.nom,desc:Tx('aux.vdesc','{n} questions · {t}',{n:v.n,t:types(mid,v.i)}),emo:'📍',click:`riAuxSujet('${jsq(mid)}',${v.i})`})).join('')}</div>`}
+  return `<div class="auxst">${V.map((v,k)=>carte({col:COUL[(k0+k)%COUL.length],titre:v.nom,desc:Tx('aux.vdesc','{n} questions · {t}',{n:v.n,t:types(mid,v.i)}),emo:m.auxJ?'🎯':'📍',click:`riAuxSujet('${jsq(mid)}',${v.i})`})).join('')}</div>`}
  window.riAuxSujet=function(mid,i){const m=MATI[mid];if(!m)return;const ids=(QBM[mid]||[]).filter(q=>q.c===i).map(q=>q.id);
   if(RIC&&RIC.can&&!RIC.can('matiere:'+mid+'/sujet:'+(i+1))){try{RIC.paywall('matiere:'+mid+'/sujet:'+(i+1),'Sujet Premium')}catch(e){}return}
   startFil(mid,ids,String(m.ch[i]||'').replace(' · ',' · '))};
- SCREENS.auxsuj={n:'Sujets auxiliaires (villes)',ctx:1,hdr:()=>{const m=matOf(ctx.id);return miniHeader(T('aux.small','📝 Sujets d’examen blanc'),esc(String(m.title||'').split(' — ')[0]))},blocks:['auxsuj.main']};
- B('auxsuj.main','Sujets d’une matière auxiliaire, par ville',()=>`<div class="muted small" style="margin:2px 2px 12px">${T('aux.choisir','Choisis la ville : le sujet s’affiche en entier, dans l’ordre du document, avec la correction.')}</div>`+cartesVilles(ctx.id));
+ SCREENS.auxsuj={n:'Sujets auxiliaires (villes)',ctx:1,hdr:()=>{const m=matOf(ctx.id);return miniHeader(m.auxJ?T('aux.jsmall','🎯 Préparation D.E (J)'):T('aux.small','📝 Sujets d’examen blanc'),esc(String(m.title||'').split(' — ')[0]))},blocks:['auxsuj.main']};
+ B('auxsuj.main','Sujets d’une matière auxiliaire, par ville',()=>`<div class="muted small" style="margin:2px 2px 12px">${(MATI[ctx.id]||{}).auxJ?T('aux.jchoisir','Choisis le sujet J : il s’affiche en entier, dans l’ordre du document, avec la correction.'):T('aux.choisir','Choisis la ville : le sujet s’affiche en entier, dans l’ordre du document, avec la correction.')}</div>`+cartesVilles(ctx.id));
  const remplace=(id,f)=>{const b=BLK[id];if(!b)return;const h=b.html,o=b.oneui;b.html=function(){return estAux()?f():h.apply(this,arguments)};if(o)b.oneui=function(){return estAux()?f():o.apply(this,arguments)}};
  const deAux=()=>`<div class="card sf dec"><h3>${T('de.h','🎓 Sujets préparation D.E')}</h3><div class="muted small">${T('de.sub','Sujets d’examen blanc et d’examen, pour t’entraîner dans les conditions du D.E.')}</div>
-  <div class="lbl3">${T('de.ex','🏛️ Sujets d’examen (D.E)')}</div>${cartesMatieres()}</div>`;
+  <div class="lbl3">${T('de.ex','🏛️ Sujets d’examen (D.E)')}</div>${cartesMatieres(0)}${partieJ()}</div>`;
  const bientot=()=>`<div class="secT">${T('home.mat','Matières')}<span class="ln"></span></div><div class="card sf auxsoon"><div class="auxsoonh">🩹 ${T('aux.grp','AUXILIAIRES DE SANTÉ')}</div><div class="empty">${T('aux.soon','Bientôt disponible.')}</div></div>`;
  remplace('home.de',deAux);
  ['home.sujexam','home.sujets','home.formules','matieres.more'].forEach(id=>remplace(id,()=>''));
@@ -4512,6 +4524,7 @@ const RI_IMG_MASQUEES={xmvkq5cba:["xxmvkq5cba_0", "xxmvkq5cba_1", "xxmvkq5cba_2"
  .auxpill{display:inline-block;background:color-mix(in srgb,var(--auxc) 62%,#fff);color:#fff;font-weight:900;font-size:18.5px;line-height:1.2;padding:7px 14px;border-radius:13px;max-width:64%;text-transform:uppercase;letter-spacing:.4px;text-shadow:0 1px 2px rgba(0,0,0,.28)}   /* noms des matières en majuscules, bien visibles */
  .auxd{display:block;margin-top:10px;font-size:13.5px;line-height:1.35;opacity:.95;max-width:60%}
  .auxfig{position:absolute;right:14px;top:14px;width:96px;height:96px;display:flex;align-items:center;justify-content:center;font-size:50px;background:color-mix(in srgb,var(--auxc) 55%,#fff);border-radius:46% 54% 40% 60%/58% 42% 58% 42%;transform:rotate(-8deg)}
+ .auxjt{margin:26px 2px 4px;font-weight:900;font-size:26px;line-height:1.15;letter-spacing:.4px;color:var(--h2,#17594C)}   /* titre « PRÉPARATION D.E (LES J) » bien grand */
  .auxsoon{text-align:center}.auxsoonh{font-weight:800;font-size:17px;color:var(--h2,#17594C);letter-spacing:.3px}`;
  document.head.appendChild(st);
 })();

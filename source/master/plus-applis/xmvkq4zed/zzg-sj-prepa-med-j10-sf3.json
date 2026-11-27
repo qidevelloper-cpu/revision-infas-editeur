@@ -21,7 +21,7 @@
    "existe": true,
    "sujets": [
     {
-     "name": "J Médecine · Prépa D.E J10 (SF3)",
+     "name": "J Médecine · Prépa D.E J10 (SF3) · J6 et J10 identiques",
      "slug": "prepa-med-j10-sf3",
      "pages": "",
      "count": 56,
@@ -74,11 +74,10 @@
         "E",
         "F"
        ],
-       "explanation": "L’hémoculture est l’examen de certitude (positive dans plus de 90 % des cas au 1er septénaire) ; la coproculture confirme en période de diarrhée et dépiste le portage chronique ; le sérodiagnostic de Widal et Félix recherche les anticorps anti-O et anti-H. La myéloculture (culture de la moelle) est une autre culture du germe. La NFS-VS n’est qu’un examen d’orientation (leuconeutropénie) et albumine/sucre n’a pas d’intérêt ici. Remarque : la myéloculture n’est pas citée dans les cours du projet (connaissance générale) ; elle est retenue par la correction nationale.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde – III. Biologie ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Fièvre typhoïde – V. La biologie.",
+       "explanation": "Le diagnostic biologique de certitude de la fièvre typhoïde repose sur l'isolement de Salmonella typhi ou paratyphi par hémoculture (positive dans plus de 90 % des cas au 1er septénaire), coproculture (utile en période diarrhéique et pour dépister le portage chronique) et myéloculture, complétés par le sérodiagnostic de Widal et Félix (recherche des agglutinines anti-O et anti-H). La NFS-VS n'est qu'un examen d'orientation (leuconeutropénie) et le bilan albumine/sucre est sans rapport.\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf, chapitre Fièvre typhoïde (II. Étude clinique et III. Biologie).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-med-j10-sf3__1",
@@ -124,7 +123,7 @@
         "E",
         "F"
        ],
-       "explanation": "Les complications du 3e septénaire font la gravité de la maladie : hémorragies digestives (mélaena, rectorragie), perforation intestinale responsable d’une péritonite, collapsus cardio-vasculaire (choc). La mort est une issue et non une complication ; l’amaigrissement est un signe banal.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde – 2.4 Les complications ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Fièvre typhoïde – IV.",
+       "explanation": "Au 3e septénaire, la gravité de la fièvre typhoïde tient à ses complications : digestives (hémorragies digestives à type de méléna ou rectorragies, perforation intestinale entraînant une péritonite) et infectieuses/cardiovasculaires (collapsus cardiovasculaire, choc septique). L'amaigrissement est un signe général non spécifique et la mort est une issue fatale plutôt qu'une complication clinique.\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf, chapitre Fièvre typhoïde (2.4 Les complications).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -173,7 +172,7 @@
         "D",
         "F"
        ],
-       "explanation": "Les signes d’alerte annoncent le passage à la dengue sévère (hémorragique ou avec choc) : douleurs abdominales intenses, vomissements persistants, saignements des muqueuses (gencives, nez), léthargie ou agitation. La raideur méningée et la céphalée en casque évoquent une méningite.\n\nSource : Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Dengue – complications (douleurs abdominales, hémorragies, choc) ; liste OMS des signes d’alerte (explication partiellement hors cours du projet).",
+       "explanation": "Selon la classification OMS de la dengue, les signes d'alerte annonçant une évolution vers une forme grave et imposant l'hospitalisation comprennent les douleurs ou sensibilités abdominales intenses, les vomissements persistants, les saignements muqueux (gingivorragies, épistaxis) et les troubles de la vigilance à type de léthargie ou d'agitation. La raideur méningée et la céphalée en casque orientent vers un syndrome méningé.\n\nSource : livre-epillytrop2022.pdf, chapitre Dengue (Tableau 4 : Classification de la dengue selon sa gravité, OMS 2009).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -212,7 +211,7 @@
         "A",
         "C"
        ],
-       "explanation": "La prévention repose sur la lutte antivectorielle : destruction et élimination des gîtes larvaires (pneus, boîtes de conserve) et protection contre les piqûres (moustiquaires imprégnées, répulsifs, vêtements longs). L’hygiène corporelle ne joue aucun rôle et il n’existe pas de vaccination systématique selon le cours.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), La Dengue – V. Prise en charge et VI. Prévention.",
+       "explanation": "La prévention de la dengue repose essentiellement sur la lutte antivectorielle : l'assainissement du milieu par la destruction et l'élimination des gîtes larvaires autour des habitations (pneus, boîtes de conserve, récipients d'eau stagnante) et la protection contre les piqûres de moustiques Aedes (moustiquaires imprégnées, répulsifs, vêtements couvrants). L'hygiène corporelle est inefficace contre les vecteurs et il n'y a pas de vaccination systématique de routine.\n\nSource : COURS PATHOLOGIES TROPICALES REVISE L1 - 2018_010052.pdf, chapitre Dengue (V. Prise en charge et VI. Prévention de la maladie).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -250,7 +249,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "La fièvre typhoïde est une maladie du péril fécal (« maladie des mains sales ») : transmission directe par les mains souillées et indirecte par l’eau et les aliments souillés, donc féco-orale.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde – Mode de contamination.",
+       "explanation": "La fièvre typhoïde est une maladie infectieuse contagieuse liée au péril fécal (« maladie des mains sales »), dont la transmission s'effectue par voie féco-orale, directement par les mains souillées ou indirectement par l'ingestion d'eau ou d'aliments contaminés par les selles d'un malade ou d'un porteur sain.\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf et COURS DE MALADIES INFETUEUSES-1.pdf, chapitre Fièvre typhoïde (I. Généralités et II. Transmission).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -288,7 +287,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L’agent de la coqueluche est le bacille de Bordet-Gengou, coccobacille Gram négatif appelé Bordetella pertussis. Haemophilus influenzae et le pneumocoque sont des germes de surinfection.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Coqueluche – II. Étiopathologie ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Coqueluche.",
+       "explanation": "La coqueluche est une toxi-infection respiratoire contagieuse et immunisante causée par le bacille de Bordet et Gengou, Bordetella pertussis. Streptococcus pneumoniae, Haemophilus influenzae et Neisseria meningitidis sont responsables notamment de méningites purulentes ou de surinfections bronchopulmonaires.\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf, chapitre Coqueluche (I. Définition et II. Étiopathologie) ; Explication partiellement hors cours du projet (dénomination exacte du bacille).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -326,7 +325,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "La prise en charge est symptomatique (paracétamol, hydratation, SRO). L’aspirine est formellement contre-indiquée, de même que les AINS, à cause du risque hémorragique.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), La Dengue – V. Prise en charge des cas.",
+       "explanation": "Dans la dengue, l'aspirine (acide acétylsalicylique) ainsi que les AINS sont formellement contre-indiqués en raison du risque majeur d'aggravation des hémorragies (effet antiagrégant plaquettaire sur une thrombopénie) et de syndrome de Reye. Le traitement symptomatique fait appel au paracétamol contre la fièvre et les douleurs, ainsi qu'aux sels de réhydratation orale (SRO).\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf, chapitre Dengue (VI. Traitement) ; livre-epillytrop2022.pdf, chapitre Dengue (5.6.1 Traitement symptomatique).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -370,7 +369,7 @@
         "C",
         "E"
        ],
-       "explanation": "La fièvre typhoïde est favorisée par le péril fécal : eau de boisson souillée, mains sales (mauvaise hygiène des mains) et assainissement insuffisant (latrines, assainissement du milieu). La rhinorrhée n’a aucun rôle. Remarque : les aliments crus souillés interviennent aussi (le cours conseille de laver les fruits et légumes consommés crus), mais la question n’attend que trois réponses.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde – Mode de contamination, facteurs favorisants et prophylaxie collective.",
+       "explanation": "La fièvre typhoïde étant une maladie du péril fécal, sa diffusion est directement favorisée par le défaut d'approvisionnement en eau potable (consommation d'eau souillée), le manque d'hygiène individuelle (mauvaise hygiène des mains) et l'insuffisance de l'assainissement du milieu (absence de latrines, gestion défectueuse des excreta). La rhinorrhée initiale est un distracteur sans rapport.\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf et COURS PATHOLOGIES TROPICALES REVISE L1 - 2018_010052.pdf, chapitre Fièvre typhoïde (I.2 Épidémiologie et Prophylaxie).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -419,7 +418,7 @@
         "D",
         "F"
        ],
-       "explanation": "Chez le nourrisson la coqueluche est grave : apnées syncopales avec arrêt cardio-respiratoire, broncho-pneumopathie de surinfection, complications neurologiques liées à la toxine et à l’anoxie (convulsions, encéphalite/encéphalopathie). La raideur de la nuque n’en fait pas partie. Remarque : les vomissements abondants sont cités dans la forme du nourrisson (cause de dénutrition), mais comme signe et non comme complication retenue.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Coqueluche – 3.2 Forme du nourrisson et IV. Complications.",
+       "explanation": "Chez le nourrisson, la coqueluche revêt une forme grave marquée par des apnées syncopales (avec risque d'arrêt cardiorespiratoire), des complications respiratoires de surinfection (bronchopneumonie/pneumonie) et des complications neurologiques liées à la toxine et à l'anoxie cérébrale (convulsions, encéphalite/encéphalopathie). Les vomissements sont liés aux quintes et ne sont pas permanents.\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf, chapitre Coqueluche (3.2 La forme du nourrisson et III. Les autres complications).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -468,7 +467,7 @@
         "D",
         "F"
        ],
-       "explanation": "La définition du cas suspect de dengue associe une fièvre et au moins deux manifestations parmi : maux de tête, douleur rétro-orbitaire, myalgies, arthralgies, rougeurs, hémorragies. La position en chien de fusil et la raideur de la nuque évoquent une méningite.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), La Dengue – III. Définition standardisée des cas ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Dengue fébrile.",
+       "explanation": "La dengue classique débute brutalement par une fièvre élevée accompagnée d'un syndrome algique intense associant céphalées, douleurs rétro-orbitaires caractéristiques et myalgies/arthralgies diffuses (« fièvre casse-os »). La position en chien de fusil et la raideur de la nuque appartiennent au syndrome méningé.\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf, chapitre Dengue (IV. Clinique : Dengue fébrile).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -517,7 +516,7 @@
         "E",
         "F"
        ],
-       "explanation": "La surveillance vise à dépister la fièvre, le choc (pression artérielle, pouls), l’hypovolémie (diurèse) et les hémorragies. La pesée hebdomadaire et la surveillance des selles ne sont pas prioritaires dans la dengue.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), La Dengue – formes hémorragiques et avec syndrome de choc (explication partiellement hors cours du projet).",
+       "explanation": "La surveillance infirmière d'un patient atteint de dengue vise à dépister précocement le syndrome de fuite plasmatique, le choc et les complications hémorragiques : contrôle régulier de la température (chute thermique brutale), de la pression artérielle (pincement de la différentielle ou hypotension), de la diurèse (hydratation et perfusion rénale) et recherche active de tout saignement cutanéomuqueux.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020.pdf (Surveillance des paramètres vitaux) et livreepillytrop2022.pdf, chapitre Dengue (Figure 5).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -555,7 +554,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Au 2e septénaire, la diarrhée est faite de selles liquides, fétides, d’aspect « jus de papaye » (ou melon). B décrit le syndrome dysentérique, C la diarrhée du choléra (riziforme).\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde – 2.3 Phase d’état ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Choléra – Phase d’état.",
+       "explanation": "À la phase d'état (2e septénaire) de la fièvre typhoïde, la diarrhée fait partie des 5 signes cardinaux : les selles sont typiquement liquides, fétides, ocre, d'aspect « jus de melon » ou « jus de papaye ». Les selles afécales glairo-sanglantes correspondent au syndrome dysentérique (B) et les selles riziformes au choléra (C).\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf, chapitre Fièvre typhoïde (2.3 Phase d'état ou 2e septénaire).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -598,7 +597,7 @@
         "B",
         "D"
        ],
-       "explanation": "L’ascaridiose symptomatique évolue en deux phases : une phase d’invasion (migration larvaire, syndrome de Löffler pulmonaire : toux, fièvre, dyspnée asthmatiforme) puis une phase d’état dominée par les troubles digestifs (douleurs, nausées, diarrhée ou constipation).\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), L’ascaridiose – Manifestations cliniques (la notion de « deux phases » est une connaissance générale).",
+       "explanation": "L'ascaridiose symptomatique évolue en deux phases cliniques successives liées au cycle du parasite : la phase d'invasion (migration larvaire viscérale et pulmonaire réalisant le syndrome de Löffler) et la phase d'état (installation des vers adultes Ascaris lumbricoides dans l'intestin grêle, responsable de troubles digestifs).\n\nSource : livre-epillytrop2022.pdf, chapitre Passage pulmonaire fugace et Parasitoses intestinales ; COURS PATHOLOGIES TROPICALES REVISE L1 - 2018_010052.pdf, chapitre L'ascaridiose.",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -684,7 +683,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Le syndrome dysentérique associe : douleurs abdominales violentes avec épreintes, ténesmes et faux besoins ; selles afécales, glaireuses, mucopurulentes, parfois sanglantes ; altération de l’état général et fièvre. Les vomissements incoercibles ne font pas partie de sa définition. Remarque : dans la shigellose, le même cours cite des vomissements avec pertes hydro-électrolytiques, mais pas comme élément du syndrome dysentérique lui-même.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Les syndromes dysentériques ; Amibiase intestinale – forme aiguë.",
+       "explanation": "Le syndrome dysentérique associe classiquement des douleurs abdominales intenses à type d'épreintes, de ténesmes et de faux besoins, une diarrhée afécale glaireuse, mucopurulente ou sanglante, ainsi qu'une fièvre et une altération de l'état général (dans les formes invasives bactériennes). Les vomissements incoercibles et fréquents n'en font pas partie (ils évoquent plutôt une gastro-entérite aiguë ou un tableau toxinique/occlusif).\n\nSource : livre-epillytrop2022.pdf, chapitre Diarrhées infectieuses (5.1 Syndrome dysentérique) et COURS PATHOLOGIES TROPICALES REVISE L1 - 2018_010052.pdf (2-2-2 Période d'état).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -731,7 +730,7 @@
         "C",
         "E"
        ],
-       "explanation": "Le pouvoir pathogène dépend de quatre facteurs : la virulence, la toxicité, la sécrétion d’enzymes et le pouvoir antigénique. Le « pouvoir anticorps » n’existe pas et la phagocytose est un moyen de défense de l’hôte (la virulence est justement la capacité à y résister).\n\nSource : Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Généralités – 3.2 Pouvoir pathogène ; Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Généralités sur les maladies infectieuses.",
+       "explanation": "Le pouvoir pathogène d'un agent infectieux dépend de sa virulence (capacité de multiplication et d'invasion), de sa toxicité (production de toxines), de la sécrétion d'enzymes et de son pouvoir antigénique. À l'inverse, le pouvoir anticorps (immunité humorale) et la phagocytose (immunité cellulaire innée) sont des mécanismes de défense de l'organisme hôte et non des facteurs de pathogénicité du germe.\n\nSource : DOCUMENTS DE REVISION L3 Médecine.pdf (QCM n° 43 sur les pouvoirs pathogènes des germes) ; Explication partiellement hors cours du projet.",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -765,7 +764,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le pied diabétique est souvent insensible (neuropathie) : l’eau trop chaude expose à des brûlures non ressenties. La toilette quotidienne se fait à l’eau tiède (environ 36–37 °C, vérifiée au coude ou au thermomètre), puis séchage soigneux entre les orteils. (explication hors cours du projet)",
+       "explanation": "Chez le patient diabétique, l'eau de toilette quotidienne des pieds doit être tiède, à la température du corps (36 à 37 °C, bain normal) et contrôlée avec le coude ou un thermomètre de bain afin d'éviter les brûlures thermiques indolores favorisées par la neuropathie périphérique (hypoesthésie). Explication hors cours du projet.",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -808,7 +807,7 @@
         "A",
         "C"
        ],
-       "explanation": "Les deux grands facteurs du pied diabétique sont la neuropathie (atteinte des nerfs : perte de sensibilité, plaies non ressenties) et l’artériopathie (atteinte des artères : ischémie, mauvaise cicatrisation). Les veines et les lymphatiques ne sont pas en cause.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), AOMI (le diabète est un facteur de risque) ; définition du pied diabétique (question 26) – explication partiellement hors cours du projet.",
+       "explanation": "Le pied diabétique résulte principalement de la combinaison d'une atteinte des nerfs périphériques (neuropathie diabétique entraînant perte de sensibilité, déformations et hyperappui) et d'une atteinte des artères des membres inférieurs (artériopathie oblitérante responsable d'ischémie et de retard de cicatrisation).\n\nSource : livre-epillytrop2022.pdf, chapitre Infections spécifiques du diabète (3.3.1 Le pied diabétique) et COURS MEDECINE IDE 2 INFAS ACTUALISE 2020.pdf (IV- L'artériopathie oblitérante des membres inférieurs).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -857,7 +856,7 @@
         "D",
         "E"
        ],
-       "explanation": "Le syndrome cobraïque (élapidés : Naja, Dendroaspis) est neurotoxique : paresthésies et fasciculations, signes muscariniques (hypersialorrhée, sueurs, larmoiement, myosis), ptosis palpébral caractéristique, atteinte des nerfs crâniens (vue, ouïe, déglutition anormales, dysphagie). Épistaxis, hématurie, hémoptysie et hématémèse relèvent du syndrome vipérin (troubles de la coagulation).\n\nSource : Cours de venimologie générale (Dr Allali / Dr Akaffou), II.4.1 Troubles neurotoxiques et Tableau II (gradation) ; Envenimations – Traitement (diaporama), Envenimation neurotoxique.",
+       "explanation": "L'envenimation neurotoxique par les Élapidés (cobras) se manifeste par des paresthésies locales et fasciculations, un syndrome muscarinique (hypersialorrhée, sueurs, vomissements, myosis), une atteinte des nerfs crâniens (trismus, troubles de la déglutition et de la phonation) et un ptosis palpébral bilatéral symétrique pathognomonique. Les épistaxis, hématuries, hémoptysies et hématémèses caractérisent le syndrome hémorragique des Vipéridés. Remarque : Dans Cours_de_Venimologie_Generale.pdf (Tableau II et Traitement symptomatique), le syndrome muscarinique correspond au grade neurologique 2, précédant le syndrome cobraïque proprement dit (ptosis, atteinte des nerfs crâniens) classé au grade neurologique 3.\n\nSource : Cours_de_Venimologie_Generale.pdf, chapitre Troubles neurotoxiques et Tableau II.",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -895,7 +894,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le test du garrot (ou du tourniquet) recherche une fragilité capillaire : le brassard est gonflé 5 minutes entre les pressions systolique et diastolique, puis on compte les pétéchies (positif si plus de 20 pétéchies sur 6,25 cm²). Il ne confirme pas seul le diagnostic et ne remplace pas la numération plaquettaire.\n\nSource : Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Dengue fébrile hémorragique – test du tourniquet.",
+       "explanation": "Le test du garrot (ou test du lacet / tourniquet) consiste à maintenir un brassard tensionnel gonflé entre la pression systolique et diastolique pendant 5 minutes pour rechercher une fragilité capillaire (positif s'il apparaît au moins 20 pétéchies par pouce² / 6,25 cm²). C'est un signe d'orientation non spécifique qui ne confirme pas à lui seul la dengue et ne remplace pas la numération plaquettaire.\n\nSource : livre-epillytrop2022.pdf, chapitre Dengue (Figure 3 : Test du lacet) et COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf (IV. Clinique).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -925,7 +924,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La fièvre jaune associe, à la phase jaune, un ictère franc et une atteinte hépato-rénale avec hémorragies. Devant un ictère important avec atteinte hépatique en zone d’endémie, elle doit donc être recherchée (maladie à notification immédiate).\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), La fièvre jaune – III. Données cliniques ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Fièvre jaune – phase jaune.",
+       "explanation": "En zone d'endémie tropicale, devant tout tableau fébrile associé à un ictère franc et une atteinte hépatique (souvent accompagnés d'albuminurie massive et de manifestations hémorragiques à la phase jaune), la fièvre jaune doit impérativement être évoquée et éliminée en raison de sa gravité et de l'obligation de notification urgente aux autorités sanitaires.\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf, chapitre Fièvre jaune (III. Manifestations cliniques : la phase jaune).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -955,7 +954,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "La correction nationale retient « Faux » : en dehors de la piqûre de l’anophèle femelle, la transmission directe d’homme à homme ne se fait que par voie transplacentaire (mère-enfant) ou par transfusion (paludisme d’inoculation). Ce sont les seuls cas de contamination interhumaine.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Paludisme – définition et 5-3 Paludisme d’inoculation (paludisme transfusionnel) ; Documents de révision L3 Médecine, Paludisme (transmission placentaire).",
+       "explanation": "En dehors de la transmission vectorielle habituelle assurée par la piqûre de l'anophèle femelle, la transmission directe interhumaine du Plasmodium (sans passage par le moustique vecteur) se limite exclusivement à la voie transplacentaire (paludisme congénital de la mère infectée à son enfant) et à la voie transfusionnelle (ou accident d'exposition au sang). Explication hors cours du projet.",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -985,7 +984,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Chez la femme enceinte sous prophylaxie antianémique (acide folique + fer), on suspend ce traitement lors de la prise de SP et on le reprend 15 jours après la prise de SP.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Paludisme – VIII. Traitement préventif (TPI), NB.",
+       "explanation": "Conformément au protocole national de prévention du paludisme chez la femme enceinte, lors de l'administration du traitement préventif intermittent (TPI) par Sulfadoxine-Pyriméthamine (SP), la supplémentation en acide folique et fer doit être suspendue et reprise 15 jours après la prise de SP, car l'acide folique à forte dose antagonise l'action antifolique de la pyriméthamine.\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf, chapitre Paludisme (5-2-1-1 Chimioprophylaxie chez la femme enceinte).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1015,7 +1014,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Au 1er septénaire de la fièvre typhoïde, la température monte progressivement (fièvre à oscillations ascendantes, « en échelle ») pour atteindre 39 à 40 °C en fin de septénaire, avant le plateau du 2e septénaire. Remarque : l’énoncé est tronqué dans le sujet (seule la fin « …pour atteindre 39 à 40 °C à la fin du premier septénaire » est visible).\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde – 2.2 Phase d’invasion (CIVET) et 2.3 Fièvre en plateau.",
+       "explanation": "À la phase d'invasion (1er septénaire) de la fièvre typhoïde, la température s'élève progressivement par oscillations ascendantes (de 0,5 à 1 °C par jour) pour atteindre 39 à 40 °C en plateau à la fin du premier septénaire.\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf, chapitre Fièvre typhoïde (2.2 Phase d'invasion ou 1er septénaire).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1045,7 +1044,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "À la phase d’état, la diarrhée « jus de melon ou de papaye » est typique, mais elle est inconstante et peut être remplacée par une constipation.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde – 2.3 Phase d’état ; Documents de révision L3 Médecine, QCD Fièvre typhoïde n° 18 (constipation) – nuance de connaissance générale.",
+       "explanation": "Bien que la diarrhée liquide et fétide d'aspect « jus de melon » ou « jus de papaye » soit classique au deuxième septénaire (phase d'état) de la fièvre typhoïde, elle peut être absente ou remplacée par une constipation opiniâtre (notamment chez l'adulte ou le sujet âgé).\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf, chapitre Fièvre typhoïde (2.3 Phase d'état) et DOCUMENTS DE REVISION L3 Médecine.pdf (Chapitre 2, QCD n° 18).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1075,7 +1074,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "C’est la définition du pied diabétique : infection, ulcération ou destruction des tissus profonds du pied, associée à une neuropathie et/ou à une artériopathie périphérique des membres inférieurs chez le diabétique. (explication hors cours du projet)",
+       "explanation": "Cette formulation reprend exactement la définition consensuelle internationale (OMS / IWGDF) du pied diabétique, qui associe une lésion tissulaire du pied (infection, ulcération, destruction profonde) à une neuropathie diabétique et/ou une artériopathie oblitérante des membres inférieurs.\n\nSource : livre-epillytrop2022.pdf, chapitre Infections spécifiques du diabète (3.3.1 Le pied diabétique).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1105,7 +1104,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Schistosoma mansoni donne une bilharziose intestinale et hépatosplénique. La bilharziose urinaire est due à Schistosoma haematobium (hématurie terminale).\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Les bilharzioses – 2-3 Phase d’état.",
+       "explanation": "Schistosoma mansoni est responsable de la bilharziose intestinale et hépatosplénique (œufs éliminés dans les selles), tandis que la bilharziose génito-urinaire (caractérisée par une hématurie terminale et des œufs éliminés dans les urines) est due à Schistosoma haematobium.\n\nSource : COURS PATHOLOGIES TROPICALES REVISE L1 - 2018_010052.pdf, chapitre Les bilharzioses (2-31 et 2-3-2) et livre-epillytrop2022.pdf (Figure 2).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1135,7 +1134,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L’amibiase est une protozoonose due à Entamoeba histolytica ; l’homme en est l’unique réservoir (maladie strictement humaine). L’amibe est un protozoaire rhizopode (se déplaçant par pseudopodes).\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), L’amibiase – I. Généralités et II. Épidémiologie.",
+       "explanation": "L'amibiase (ou amoebose) est une parasitose strictement humaine liée au péril fécal, due à un protozoaire rhizopode hématophage de l'espèce Entamoeba histolytica (forme histolytica pathogène), responsable de la dysenterie amibienne et de l'abcès amibien du foie.\n\nSource : livre-epillytrop2022.pdf, chapitre Amoebose (2. Physiopathologie) ; Explication partiellement hors cours du projet (taxonomie rhizopode).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1165,7 +1164,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le trismus (contracture des masticateurs bloquant l’ouverture de la bouche) est le signe de l’invasion : il apparaît dès cette phase (environ 48 h) et persiste à la phase d’état. Dire qu’il apparaît « à partir de la phase d’état » est donc faux.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Tétanos – II. Étude clinique (invasion) ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Tétanos.",
+       "explanation": "Le trismus est bien une contracture douloureuse et permanente des muscles masséters (masticateurs) bloquant l'ouverture de la bouche, mais il apparaît dès la phase d'invasion (c'est le signe prémonitoire et révélateur du tétanos), avant la généralisation des contractures à la phase d'état.\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf, chapitre Tétanos (Phase d'invasion et Phase d'état) et DOCUMENTS DE REVISION L3 Médecine.pdf (Chapitre 15, QCD n° 8).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1195,7 +1194,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "À la phase d’état, la contracture généralisée fixe le rachis en hyperextension, tête rejetée en arrière, avec hyperlordose lombaire : c’est l’opisthotonos.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Tétanos – Phase d’état ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Tétanos.",
+       "explanation": "À la phase d'état du tétanos, la contracture généralisée prédomine sur les muscles extenseurs du tronc et réalise l'attitude caractéristique en opisthotonos : rachis fixé en hyperextension (arc de cercle), tête rejetée en arrière et hyperlordose lombaire marquée.\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf, chapitre Tétanos (La contracture généralisée).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1225,7 +1224,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L’infection à VIH touche surtout les adultes jeunes sexuellement actifs (15–49 ans), car la voie sexuelle est le mode de transmission le plus courant. Les enfants sont surtout atteints par transmission mère-enfant.\n\nSource : Documents de révision L3 Médecine, VIH/SIDA QCD n° 34 (voie sexuelle) – explication partiellement hors cours du projet.",
+       "explanation": "L'épidémie d'infection à VIH touche majoritairement les adultes et les jeunes sexuellement actifs (notamment les jeunes femmes de 15 à 24 ans et les populations clés en Afrique subsaharienne), la transmission étant avant tout sexuelle ; les enfants représentent une part minoritaire des personnes vivant avec le VIH, principalement contaminés par transmission mère-enfant.\n\nSource : livre-epillytrop2022.pdf, chapitre VIH/SIDA (Épidémiologie et 9.4.1 PTME).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1255,7 +1254,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le terme OEV (orphelins et enfants rendus vulnérables) concerne les enfants de 0 à 17 ans (moins de 18 ans), pas une tranche « 9 à 21 ans ». (explication hors cours du projet)",
+       "explanation": "Dans le cadre de la lutte contre le VIH/SIDA, l'acronyme OEV désigne les « Orphelins et Enfants Vulnérables » (enfants ayant perdu un ou deux parents du fait du VIH/SIDA ou rendus vulnérables par l'infection) et s'applique aux enfants âgés de 0 à 18 ans (moins de 18 ans), et non de 9 à 21 ans. Explication hors cours du projet.",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1285,7 +1284,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L’homme infesté rejette les œufs avec ses selles (S. mansoni) ou ses urines (S. haematobium). Dans l’eau douce, les œufs éclosent et libèrent le miracidium, larve ciliée qui gagne le mollusque hôte intermédiaire.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Les bilharzioses – Mode de contamination et Diagnostic (œufs dans les excrétas).",
+       "explanation": "Chez l'homme (hôte définitif), les œufs de schistosomes renfermant un embryon cilié (miracidium) sont éliminés dans le milieu extérieur par les selles (S. mansoni, S. japonicum, S. intercalatum) ou par les urines (S. haematobium) ; au contact de l'eau douce, ils éclosent et libèrent le miracidium qui infeste le mollusque hôte intermédiaire.\n\nSource : livre-epillytrop2022.pdf, chapitre Bilharzioses (Figure 2 : Cycle parasitaire des principales bilharzioses).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1315,11 +1314,10 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le mal perforant plantaire est un ulcère profond du pied (diabète, lèpre). Son soin repose sur la mise en décharge et un parage (lavage, débridement) de la plaie jusqu’aux tissus sains, y compris en profondeur vers l’os et l’articulation, souvent chirurgical. (explication hors cours du projet ; le mal perforant plantaire est cité comme complication de la lèpre dans le cours Pathologies tropicales)",
+       "explanation": "Le mal perforant plantaire impose un parage chirurgical de la plaie (excision des tissus nécrosés et de l'hyperkératose jusqu'en tissu sain, éventuellement jusqu'à l'os atteint), associé à la mise en décharge du pied.\n\nSource : (explication hors cours du projet ; le cours cite le mal perforant plantaire comme complication de la lèpre)",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-med-j10-sf3__34",
@@ -1346,7 +1344,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L’envenimation neurotoxique (cobraïque) est due aux élapidés : Naja (cobras) et Dendroaspis (mambas). Le venin des cobras non cracheurs (ex. Naja melanoleuca) est surtout fait de neurotoxines ; celui du cobra cracheur (Naja nigricollis) provoque plutôt une nécrose.\n\nSource : Cours de venimologie générale (Dr Allali / Dr Akaffou), Tableau I (envenimation cobraïque) et II.4.1 ; Exercice 1, V-1.",
+       "explanation": "Les cobras non cracheurs (famille des Elapidae, genre Naja, tels que Naja melanoleuca ou Naja haje) possèdent un venin riche en neurotoxines post-synaptiques responsables du syndrome cobraïque (envenimation neurotoxique pouvant entraîner une paralysie respiratoire), contrairement aux cobras cracheurs dont le venin est principalement cytotoxique et nécrosant.\n\nSource : Cours_de_Venimologie_Generale.pdf, chapitre Troubles neurotoxiques ; Explication partiellement hors cours du projet (distinction cracheur / non cracheur).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1376,7 +1374,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Les venins de serpents ont un double mécanisme d’action : l’immobilisation rapide de la proie et la prédigestion (et non la digestion complète).\n\nSource : Envenimations – Traitement (diaporama), Composition des venins (1) ; Cours de venimologie générale (Dr Allali / Dr Akaffou), Exercice 3, question 1.",
+       "explanation": "Le venin de serpent a pour fonction physiologique l'immobilisation rapide de la proie (par action neurotoxique ou hémotoxique/cardiotoxique) et la prédigestion (digestion partielle des tissus par des enzymes protéolytiques), mais il n'assure pas à lui seul la digestion complète de la proie.\n\nSource : Cours_de_Venimologie_Generale.pdf, Exercice 3 – Répondre par VRAI ou FAUX (item 1).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1406,7 +1404,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Dans la gradation, les troubles neurologiques de grade 2 sont : sueurs et salive abondantes, vomissements, myosis. « Détresse respiratoire, communication impossible » correspond au grade 4.\n\nSource : Cours de venimologie générale (Dr Allali / Dr Akaffou), Tableau II – Évaluation clinique de la gravité d’une envenimation.",
+       "explanation": "Selon l'échelle de gradation clinique de la Société Africaine de Venimologie, le grade 2 des troubles neurologiques correspond au syndrome muscarinique (sueur et salive abondantes, vomissements, myosis), tandis que la « détresse respiratoire, communication impossible » caractérise le grade 4 (stade ultime avant l'asphyxie).\n\nSource : Cours_de_Venimologie_Generale.pdf, Tableau II : Évaluation clinique de la gravité d'une envenimation et Exercice 3 (item 7).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1436,7 +1434,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L’agent de la syphilis est Treponema pallidum (tréponème pâle). Treponema pertenue est l’agent du pian.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Les tréponématoses – Syphilis vénérienne (définition) et Le pian (définition).",
+       "explanation": "L'agent pathogène de la syphilis vénérienne est un spirochète appelé Treponema pallidum (sous-espèce pallidum). Treponema pertenue (T. pallidum ssp. pertenue) est l'agent responsable du pian, une tréponématose endémique non vénérienne.\n\nSource : COURS PATHOLOGIES TROPICALES REVISE L1 - 2018_010052.pdf, chapitre La syphilis vénérienne (I. Définition) et livre-epillytrop2022.pdf, chapitre Tréponématoses. ÉTUDES DE CAS",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1479,7 +1477,7 @@
         "B",
         "D"
        ],
-       "explanation": "Chez l’homme, une urétrite (gonocoque, chlamydia) non traitée peut se compliquer d’orchi-épididymite et, à distance, de rétrécissement de l’urètre. L’imperméabilité tubaire concerne la femme ; l’accouchement prématuré concerne la partenaire et non Adompo. (explication partiellement hors cours du projet ; approche syndromique des IST)",
+       "explanation": "Chez l'homme, une urétrite infectieuse non ou mal traitée expose à des complications locorégionales ascendantes : l'orchi-épididymite aiguë (avec risque ultérieur d'azoospermie/stérilité) et le rétrécissement (sténose) cicatriciel de l'urètre. L'imperméabilité tubaire (A) et l'accouchement prématuré (E) concernent la femme et non directement Adompo.\n\nSource : livre-epillytrop2022.pdf, chapitre IST / Urétrites ; Explication partiellement hors cours du projet.",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1521,7 +1519,7 @@
        "answerLetters": [
         "E"
        ],
-       "explanation": "La prise en charge suit l’ordre : accueil et interrogatoire (7), examen physique (6), diagnostic syndromique (5), traitement (4), entretien/conseil (3), notification au(x) partenaire(s) (2), enregistrement des cas (1), soit 7-6-5-4-3-2-1.\n\nSource : Documents de révision L3 Médecine, VIH/SIDA QCD n° 19 (approches de prise en charge des IST) – ordre des étapes : explication partiellement hors cours du projet.",
+       "explanation": "L'approche syndromique des IST suit une chronologie clinique rigoureuse en 7 étapes : (7) accueil et interrogatoire, (6) examen physique et génital, (5) diagnostic syndromique à l'aide des ordinogrammes, (4) prescription du traitement probabiliste immédiat, (3) entretien/conseil (prévention, préservatifs, dépistage VIH/syphilis), (2) notification et traitement des partenaires, et (1) enregistrement/notification du cas.\n\nSource : livre-epillytrop2022.pdf, chapitre IST (1.4 Approche syndromique).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1568,7 +1566,7 @@
         "A",
         "D"
        ],
-       "explanation": "Les brûlures mictionnelles avec dysurie chez l’homme relèvent du syndrome d’écoulement urétral ; la plaie du pénis relève du syndrome d’ulcération génitale (± bubon). Les syndromes « chez la femme » ne s’appliquent pas à Adompo. (explication partiellement hors cours du projet ; approche syndromique des IST)",
+       "explanation": "Adompo présente à la fois des brûlures mictionnelles avec dysurie (orientant vers une urétrite, prise en charge dans l'algorithme du syndrome d'écoulement urétral et/ou anorectal masculin) et une plaie au niveau du pénis (relevant du syndrome d'ulcérations génitales et/ou bubon). Les autres syndromes concernent soit la femme (B, E), soit des signes absents chez le patient (C, F).\n\nSource : livre-epillytrop2022.pdf, chapitre IST (1.4 Approche syndromique, Écoulement urétral et Ulcérations génitales).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1644,7 +1642,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Les mesures hygiéno-diététiques corrigent les facteurs de risque : réduction du sel, réduction des graisses, arrêt du tabac et de l’alcool, pratique du sport. La sédentarité est un facteur de risque : « repos et sédentarité » est donc l’intrus.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Angine de poitrine – 4. Facteurs de risque et 9.4 Traitement préventif.",
+       "explanation": "Chez ce patient présentant un angor d'effort, une HTA (172/101 mmHg), un surpoids et un tabagisme, la sédentarité est un facteur de risque cardiovasculaire à combattre par une activité physique régulière et adaptée (et non à encourager). Les mesures recommandées associent régime hyposodé, régime hypolipidique et sevrage du tabac, de l'alcool et des excitants (noix de cola).\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020.pdf, chapitre HTA (7. Traitement : Mesures hygiéno-diététiques) et chapitre L'angine de poitrine (4. Facteurs de risque).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1716,7 +1714,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "IMC = poids / taille², donc taille = √(poids / IMC) = √(62 / 28) = √2,214 ≈ 1,488 m, soit 148 cm.\n\nSource : calcul à partir des données du cas.",
+       "explanation": "À partir de la formule de l'indice de masse corporelle IMC = Poids (kg) / Taille (m)2, on obtient Taille = √(62 / 28) = √(2,214) ≈ 1,488 m, soit environ 148 cm. Explication hors cours du projet (calcul anthropométrique).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1754,7 +1752,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Un IMC de 28 kg/m² se situe entre 25 et 29,9 : c’est un surpoids (obésité à partir de 30).\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020) (surpoids comme facteur de risque) ; classification OMS de l’IMC (explication partiellement hors cours du projet).",
+       "explanation": "Selon la classification nutritionnelle de l'OMS chez l'adulte, un IMC compris entre 25,0 et 29,9 kg/m2 correspond au surpoids (la dénutrition étant < 18,5 kg/m2, le poids normal entre 18,5 et 24,9 kg/m2, et l'obésité ≥ 30 kg/m2). Avec un IMC de 28 kg/m2, le patient est donc en surpoids. Explication hors cours du projet (classification OMS de l'IMC).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1827,7 +1825,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Débit (gouttes/min) = volume (mL) × 20 / durée (min) = 1000 × 20 / 1440 = 13,9 ≈ 14 gouttes/min.\n\nSource : calcul de débit de perfusion (1 mL = 20 gouttes pour un perfuseur standard).",
+       "explanation": "Avec un perfuseur standard (1 mL = 20 gouttes), le volume total est de 1 000 mL × 20 = 20 000 gouttes à perfuser sur 24 h × 60 min = 1 440 minutes. Le débit est donc 20 000 / 1 440 ≈ 13,89 gouttes/min, soit par excès 14 gouttes/min. Explication hors cours du projet (calcul de débit de perfusion).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1861,7 +1859,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "20 gouttes/min = 1 mL/min (1 mL = 20 gouttes). En 8 h = 480 min, le volume passé est de 480 mL.\n\nSource : calcul de débit de perfusion.",
+       "explanation": "Sur une durée de 8 heures (8 × 60 = 480 minutes), le nombre total de gouttes écoulées est de 20 gouttes/min × 480 min = 9 600 gouttes. Sachant que 20 gouttes = 1 mL, le volume administré est de 9 600 / 20 = 480 mL. Explication hors cours du projet (calcul de débit de perfusion).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1899,7 +1897,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Dose = 3 mg/kg × 58 kg = 174 mg. Avec 1 mL = 50 mg : volume = 174 / 50 = 3,48 mL.\n\nSource : calcul de dose à partir des données de l’énoncé.",
+       "explanation": "La dose totale d'héparine à administrer est de 3 mg/kg × 58 kg = 174 mg. La concentration de la solution étant de 50 mg/mL, le volume à prélever et injecter est de 174 mg / 50 mg/mL = 3,48 mL. Explication hors cours du projet (calcul de dose).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1937,7 +1935,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Un soluté glucosé à 10 % contient 10 g de glucose pour 100 mL, donc 500 mL apportent 50 g.\n\nSource : calcul de concentration.",
+       "explanation": "Un soluté de sérum glucosé à 10 % contient 10 g de glucose pour 100 mL de solution. Pour un flacon de 500 mL, la masse totale de glucose perfusée est donc de (500 × 10) / 100 = 50 g. Explication hors cours du projet (calcul de dose).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -2005,7 +2003,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L’infirmière est tenue à une obligation de moyens : elle doit mettre en œuvre tous les soins conformes aux règles de l’art, mais ne peut garantir la guérison (ce qui serait une obligation de résultat). (explication hors cours du projet)",
+       "explanation": "Sur le plan juridique et déontologique, le professionnel infirmier n'est pas tenu de garantir la guérison (obligation de résultat), mais il est soumis à une obligation de moyens : il doit mettre en œuvre tous les soins attentifs, consciencieux, diligents et conformes aux données acquises de la science pour le bien-être du patient. Explication hors cours du projet (législation et déontologie infirmière).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -2039,7 +2037,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Un diagnostic infirmier se formule « problème relié à (cause/étiologie) ». Le problème est le syndrome douloureux thoracique ; la cause est la perturbation du débit sanguin coronaire, comme dans la définition de l’angine de poitrine.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Angine de poitrine – 1. Définition ; Documents de révision L3 Médecine, Soins infirmiers (énoncé du diagnostic infirmier : problème + étiologie).",
+       "explanation": "Un diagnostic infirmier s'énonce selon la structure « Problème (réaction humaine) + relié à + Étiologie (facteur favorisant ou physiopathologique) ». Chez M. Wèssèbian, la manifestation clinique (problème) est le syndrome douloureux thoracique et sa cause est la diminution/perturbation du débit sanguin coronaire, d'où la formulation exacte de la première proposition.\n\nSource : COURS MEDECINE IDE 2 INFAS ACTUALISE 2020.pdf, chapitre L'angine de poitrine (1. Définition) et COURS DE SEMIOLOGIE MEDICALE ET PATHOLOGIES RESPIRATOIRES.pdf (Modèle de formulation du diagnostic infirmier).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -2083,7 +2081,7 @@
         "B",
         "D"
        ],
-       "explanation": "En urgence, l’infirmier protège et sécurise : isolement du malade sous moustiquaire imprégnée (éviter de nouvelles piqûres et la transmission), transmission écrite et orale de toute aggravation, alerte immédiate du médecin en cas de choc ou de saignement important. L’élimination des gîtes larvaires est une mesure collective et l’éducation n’est pas un acte immédiat.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Dengue et Fièvre jaune (isolement sous moustiquaires imprégnées, lutte antivectorielle) – explication partiellement hors cours du projet.",
+       "explanation": "En matière de prévention et de sécurité immédiate au lit du malade atteint de dengue en phase virémique, l'infirmier doit isoler le patient sous moustiquaire imprégnée (pour éviter qu'il ne contamine d'autres moustiques Aedes), assurer une transmission écrite et orale rigoureuse de toute aggravation et alerter immédiatement le médecin devant tout signe de choc ou d'hémorragie grave. L'élimination des gîtes larvaires (assainissement collectif) et l'éducation familiale relèvent de mesures environnementales ou différées.\n\nSource : livre-epillytrop2022.pdf, chapitre Dengue (Figure 5 : Critères d'hospitalisation et surveillance de la dengue).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -2131,7 +2129,7 @@
         "C",
         "E"
        ],
-       "explanation": "La dengue se distingue par les douleurs rétro-orbitaires, le test du garrot positif et la thrombopénie importante (pétéchies). L’ictère, l’atteinte hépatique prédominante et l’hyperbilirubinémie orientent vers la fièvre jaune (phase jaune hépato-rénale).\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), La Dengue et La fièvre jaune ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Dengue fébrile hémorragique (absence d’ictère, thrombocytopénie).",
+       "explanation": "Contrairement à la fièvre jaune qui se caractérise par une atteinte hépatique prédominante avec ictère franc, hyperbilirubinémie importante et syndrome hémorragique ictérique (B, D, F), la dengue évolue sans ictère et se distingue par la fréquence des douleurs rétro-orbitaires, un test du garrot positif (fragilité capillaire) et une thrombopénie importante.\n\nSource : COURS DE MALADIES INFECTIEUSES ET PARASITAIRES.pdf, chapitres Fièvre jaune (III. Manifestations cliniques) et Dengue (IV. Clinique : absence d'ictère, douleurs rétro-orbitaires, test du tourniquet, thrombocytopénie). Bilan récapitulatif du corrigé Nombre total de questions : 56 questions (Q1 à Q56). Répartition des explications : 40 issues des cours du projet (dont 5 partiellement hors cours) et 16 hors cours du projet. Questions signalées ⚠ : Question 14 (inversion entre la raideur et la scoliose parmi les éléments n'étant pas des symptômes fondamentaux en rhumatologie), Question 34 (indication systématique du lavage chirurgical jusqu'à l'os et l'articulation dans le mal perforant plantaire) et Question 44 (caractère à vie / au long cours du traitement médicamenteux de l'angor). Questions ayant une simple « Remarque » : Question 19 (distinction de grade neurologique entre syndrome muscarinique et syndrome cobraïque) et Question 47 (seuil chiffré de l'oligurie < 500 mL/24 h dans le cours contre < 600 mL/24 h dans le sujet).",
        "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
        "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
        "sourcePage": null

@@ -1,0 +1,1712 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzu-sj-prepa-med-j9-idesfm",
+ "titre": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 49,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+   "sha256": "3be3f44293a1050566934462ec0ef192757b5dc283cfd03ed3cc2d585a095ef9"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Médecine · Prépa D.E J9 (IDE-SF-M)",
+     "slug": "prepa-med-j9-idesfm",
+     "pages": "",
+     "count": 49,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Médecine",
+     "source": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__0",
+       "num": "1",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Tous ces composants font partie des organes annexes de l'appareil digestif sauf deux, lesquels :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les glandes salivaires"
+        },
+        {
+         "letter": "B",
+         "text": "La vésicule biliaire"
+        },
+        {
+         "letter": "C",
+         "text": "Le foie"
+        },
+        {
+         "letter": "D",
+         "text": "L'estomac"
+        },
+        {
+         "letter": "E",
+         "text": "Le pancréas"
+        },
+        {
+         "letter": "F",
+         "text": "L'œsophage"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "F. L'œsophage",
+       "answerLetters": [
+        "F"
+       ],
+       "explanation": "Les glandes annexes du tube digestif sont les glandes salivaires, le foie (avec la vésicule biliaire) et le pancréas. L'œsophage et l'estomac appartiennent au tube digestif lui-même. Remarque : L'énoncé demande deux réponses, mais la question est à choix unique et seule « L'œsophage » est validée. L'estomac fait lui aussi partie du tube digestif (et non des annexes).\n\nSource : (explication hors cours du projet : anatomie)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__1",
+       "num": "2",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans l'angiocholite aiguë, deux signes cliniques sont exacts",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Constipation"
+        },
+        {
+         "letter": "B",
+         "text": "Douleur"
+        },
+        {
+         "letter": "C",
+         "text": "Fièvre élevée"
+        },
+        {
+         "letter": "D",
+         "text": "Diarrhée rare"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Douleur ; C. Fièvre élevée",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "L'angiocholite aiguë (obstruction de la voie biliaire principale, souvent par lithiase) associe une triade qui s'installe en 24 à 72 h : douleur de l'hypochondre droit, fièvre élevée avec frissons, puis ictère.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Lithiase biliaire – Angiocholite aiguë",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__2",
+       "num": "3",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'occlusion intestinale présente deux mécanismes",
+       "options": [
+        {
+         "letter": "A",
+         "text": "b. Hémorragie"
+        },
+        {
+         "letter": "B",
+         "text": "d. Occlusion fonctionnelle"
+        },
+        {
+         "letter": "C",
+         "text": "a. Occlusion organique"
+        },
+        {
+         "letter": "D",
+         "text": "c. Douleur biliaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. d. Occlusion fonctionnelle ; C. a. Occlusion organique",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "On distingue l'occlusion organique (obstacle mécanique : bride, volvulus, tumeur, étranglement) et l'occlusion fonctionnelle (paralysie intestinale sans obstacle : iléus réflexe).\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__3",
+       "num": "4",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les complications de l'ulcère gastro-duodénal sont les suivantes sauf une, laquelle ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "c. Hémorragie digestive"
+        },
+        {
+         "letter": "B",
+         "text": "Perforation digestive"
+        },
+        {
+         "letter": "C",
+         "text": "d. Sténose duodénale"
+        },
+        {
+         "letter": "D",
+         "text": "a. La cancérisation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. a. La cancérisation",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le cours cite quatre complications de l'UGD : hémorragie digestive (la plus fréquente), perforation, sténose et transformation cancéreuse (risque faible, ulcère gastrique seulement).\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Ulcère gastro-duodénal, § IV Complications",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__4",
+       "num": "5",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel diagnostic évoquer devant le tableau clinique suivant : rejet brutal et massif d'une grande quantité de pus ou de liquide clair à la faveur d'un effort de toux ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Expectoration"
+        },
+        {
+         "letter": "B",
+         "text": "Vomique"
+        },
+        {
+         "letter": "C",
+         "text": "Hémoptysie"
+        },
+        {
+         "letter": "D",
+         "text": "Toux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Vomique",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La vomique est le rejet brutal, par la bouche, au cours d'un effort de toux, d'une grande quantité de pus ou de liquide (ouverture d'un abcès ou d'un kyste dans les bronches). Hémoptysie = sang ; expectoration = crachat banal.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Tuberculose et suppurations pulmonaires (vomique)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__5",
+       "num": "6",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les complications suivantes de l'UGD, il existe un intrus : lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hémorragie"
+        },
+        {
+         "letter": "B",
+         "text": "Ostéoporose"
+        },
+        {
+         "letter": "C",
+         "text": "Perforation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Ostéoporose",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Hémorragie et perforation sont des complications de l'UGD ; l'ostéoporose n'en est pas une.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Ulcère gastro-duodénal, § IV Complications",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__6",
+       "num": "7",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'appareil digestif est composé de deux grandes parties, lesquelles :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les glandes annexes du digestif"
+        },
+        {
+         "letter": "B",
+         "text": "La bouche"
+        },
+        {
+         "letter": "C",
+         "text": "Le tube digestif"
+        },
+        {
+         "letter": "D",
+         "text": "Les glandes salivaires"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Les glandes annexes du digestif ; C. Le tube digestif",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "L'appareil digestif comprend le tube digestif (bouche → anus) et les glandes annexes (salivaires, foie, pancréas). La bouche et les glandes salivaires sont des éléments de ces deux parties.\n\nSource : (explication hors cours du projet : anatomie)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__7",
+       "num": "8",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le côlon fait partie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Du tube digestif"
+        },
+        {
+         "letter": "B",
+         "text": "De la partie haute du tube digestif"
+        },
+        {
+         "letter": "C",
+         "text": "De la partie basse du tube digestif"
+        },
+        {
+         "letter": "D",
+         "text": "Des annexes de l'appareil digestif"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Du tube digestif ; C. De la partie basse du tube digestif",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Le côlon (gros intestin) fait partie du tube digestif, dans sa partie basse (après l'intestin grêle). Ce n'est pas une glande annexe.\n\nSource : (explication hors cours du projet : anatomie)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__8",
+       "num": "9",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les complications de la néphropathie gravidique sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "c. Épilepsie"
+        },
+        {
+         "letter": "B",
+         "text": "a. La mort fœtale in utero"
+        },
+        {
+         "letter": "C",
+         "text": "b. L'hématome rétroplacentaire"
+        },
+        {
+         "letter": "D",
+         "text": "Éclampsie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. a. La mort fœtale in utero ; D. Éclampsie",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "La néphropathie gravidique vraie (toxémie) peut se compliquer d'éclampsie (accidents convulsifs) et de mort fœtale. Remarque : L'hématome rétroplacentaire est aussi une complication classique de la pré-éclampsie (cours de gynéco-obstétrique), mais il n'est pas retenu dans la correction nationale de la Prépa DE (les J).\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Néphropathie gravidique vraie",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__9",
+       "num": "10",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les ulcères gastro-duodénaux, le(s) siège(s) de la sténose est (sont) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le duodénum"
+        },
+        {
+         "letter": "B",
+         "text": "c. Le pylore"
+        },
+        {
+         "letter": "C",
+         "text": "b. Le cardia"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Le duodénum ; B. c. Le pylore",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "La sténose ulcéreuse complique les ulcères bulbaires (duodénaux) et pré-pyloriques : duodénum et pylore.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Ulcère gastro-duodénal, § IV-3 Sténose ulcéreuse",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__10",
+       "num": "11",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'examen complémentaire essentiel dans le diagnostic des gastrites est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "c. Fibroscopie"
+        },
+        {
+         "letter": "B",
+         "text": "a. Tubage gastrique"
+        },
+        {
+         "letter": "C",
+         "text": "b. Radiologie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. c. Fibroscopie",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La fibroscopie (endoscopie œso-gastro-duodénale avec biopsies) est l'examen de référence pour le diagnostic des gastrites (la gastrite est une définition histologique).\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Ulcère gastro-duodénal et gastrite ; Documents de révision L3 Médecine, Appareil digestif QCM 6",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__11",
+       "num": "12",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ponction d'ascite est l'évacuation des épanchements contenus en abondance dans :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "c. La cavité péritonéale"
+        },
+        {
+         "letter": "B",
+         "text": "a. La cavité pleurale"
+        },
+        {
+         "letter": "C",
+         "text": "b. La cavité pancréatique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. c. La cavité péritonéale",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La ponction d'ascite (paracentèse) évacue le liquide accumulé dans la cavité péritonéale.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Soins infirmiers dans la ponction d'ascite",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__12",
+       "num": "13",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ponction d'ascite se fait dans :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La fosse iliaque droite"
+        },
+        {
+         "letter": "B",
+         "text": "L'hypochondre droit"
+        },
+        {
+         "letter": "C",
+         "text": "d. L'hypochondre gauche"
+        },
+        {
+         "letter": "D",
+         "text": "c. La fosse iliaque gauche"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. c. La fosse iliaque gauche",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "« La ponction se fait dans la fosse iliaque gauche pour éviter une blessure du foie ou du cœur. » Remarque : Dans le sujet, l'énoncé commence par « a. La cavité péritonéale », reste de la question précédente.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Ponction d'ascite, § V Technique",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__13",
+       "num": "14",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La cirrhose est une pathologie du :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Cœur"
+        },
+        {
+         "letter": "B",
+         "text": "Rate"
+        },
+        {
+         "letter": "C",
+         "text": "Foie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Foie",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La cirrhose est une maladie chronique du foie (principale cause d'insuffisance hépatique chronique).\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Les cirrhoses",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__14",
+       "num": "15",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Choisir les deux bonnes réponses : l'hypophyse est formée de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "lobe antérieur"
+        },
+        {
+         "letter": "B",
+         "text": "lobe supérieur"
+        },
+        {
+         "letter": "C",
+         "text": "lobe postérieur"
+        },
+        {
+         "letter": "D",
+         "text": "lobe en amont"
+        },
+        {
+         "letter": "E",
+         "text": "lobe inférieur"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. lobe antérieur ; C. lobe postérieur",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "L'hypophyse comprend un lobe antérieur (antéhypophyse, glandulaire) et un lobe postérieur (posthypophyse, nerveuse).\n\nSource : (explication hors cours du projet : anatomie)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__15",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les complications de l'ulcère gastroduodénal sont les suivantes",
+       "options": [
+        {
+         "letter": "A",
+         "text": "hémorragie digestive"
+        },
+        {
+         "letter": "B",
+         "text": "perforation gastrique"
+        },
+        {
+         "letter": "C",
+         "text": "rétention aiguë d'urine"
+        },
+        {
+         "letter": "D",
+         "text": "sténose"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. hémorragie digestive ; B. perforation gastrique ; D. sténose",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "Complications de l'UGD : hémorragie digestive, perforation, sténose (et transformation cancéreuse). La rétention aiguë d'urine n'en fait pas partie.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Ulcère gastro-duodénal, § IV Complications",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Reliez les complications aux pathologies correspondantes. Complications : aDermite… ; b- Embolie pulmonaire ; c- Dermatose. Maladies : 1- Thrombose veineuse profonde des membres inférieurs ; 2- Varices des membres inférieurs ; 3- Œdème aigu des poumons.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "(b-3)"
+        },
+        {
+         "letter": "B",
+         "text": "(b-1)"
+        },
+        {
+         "letter": "C",
+         "text": "(b-2)"
+        },
+        {
+         "letter": "D",
+         "text": "(a-1)"
+        },
+        {
+         "letter": "E",
+         "text": "(a-2)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. (b-1) ; E. (a-2)",
+       "answerLetters": [
+        "B",
+        "E"
+       ],
+       "explanation": "L'embolie pulmonaire est la complication immédiate de la thrombose veineuse profonde (b-1) ; la dermite (ocre) est une complication cutanée des varices des membres inférieurs (a-2).\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Phlébite (« embolie pulmonaire dans 80 % des cas ») (explication partiellement hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__17",
+       "num": "18",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Cas pratique : Vous êtes en service au CSU d'Aniassué et vous recevez Mlle Motiky, âgée de 32 ans, caissière dans une banque, pour céphalées, fièvre, vertiges, diarrhée, anorexie, insomnie depuis deux jours. À l'examen vous notez : T° 40 °C, pouls 70 puls/min, TA 120/70 mmHg, poids 90 kg, taille 1,70 m.",
+       "text": "Quelle est votre hypothèse diagnostique ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Paludisme"
+        },
+        {
+         "letter": "B",
+         "text": "Fièvre typhoïde"
+        },
+        {
+         "letter": "C",
+         "text": "Méningite"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Fièvre typhoïde",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Fièvre à 40 °C avec pouls à 70 (dissociation pouls-température), céphalées, insomnie, vertiges, diarrhée : tableau de fièvre typhoïde.\n\nSource : Cours de maladies infectieuses et parasitaires, Fièvre typhoïde, § 2.2 et 2.3",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__18",
+       "num": "19",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Cas pratique : Vous êtes en service au CSU d'Aniassué et vous recevez Mlle Motiky, âgée de 32 ans, caissière dans une banque, pour céphalées, fièvre, vertiges, diarrhée, anorexie, insomnie depuis deux jours. À l'examen vous notez : T° 40 °C, pouls 70 puls/min, TA 120/70 mmHg, poids 90 kg, taille 1,70 m.",
+       "text": "Cochez parmi les éléments ci-dessous les trois qui justifient votre hypothèse diagnostique",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Céphalées"
+        },
+        {
+         "letter": "B",
+         "text": "Diarrhée"
+        },
+        {
+         "letter": "C",
+         "text": "Pouls 70 puls/min"
+        },
+        {
+         "letter": "D",
+         "text": "T° 40 °C"
+        },
+        {
+         "letter": "E",
+         "text": "Vomissement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Céphalées ; C. Pouls 70 puls/min ; D. T° 40 °C",
+       "answerLetters": [
+        "A",
+        "C",
+        "D"
+       ],
+       "explanation": "Céphalées (CIVET), fièvre à 40 °C et pouls à 70/min (dissociation pouls-température) orientent vers la typhoïde. Diarrhée et vomissements sont moins spécifiques.\n\nSource : Cours de maladies infectieuses et parasitaires, Fièvre typhoïde, § 2.2 et 2.3",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__19",
+       "num": "20",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Cas pratique : Vous êtes en service au CSU d'Aniassué et vous recevez Mlle Motiky, âgée de 32 ans, caissière dans une banque, pour céphalées, fièvre, vertiges, diarrhée, anorexie, insomnie depuis deux jours. À l'examen vous notez : T° 40 °C, pouls 70 puls/min, TA 120/70 mmHg, poids 90 kg, taille 1,70 m.",
+       "text": "Quel est le germe responsable de cette maladie ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Méningocoque"
+        },
+        {
+         "letter": "B",
+         "text": "Salmonelle"
+        },
+        {
+         "letter": "C",
+         "text": "Plasmodium"
+        },
+        {
+         "letter": "D",
+         "text": "Staphylocoque"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Salmonelle",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La fièvre typhoïde est due à Salmonella typhi (et paratyphi A, B, C).\n\nSource : Cours de maladies infectieuses et parasitaires, Fièvre typhoïde, § 2a",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__20",
+       "num": "21",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Cas pratique : Vous êtes en service au CSU d'Aniassué et vous recevez Mlle Motiky, âgée de 32 ans, caissière dans une banque, pour céphalées, fièvre, vertiges, diarrhée, anorexie, insomnie depuis deux jours. À l'examen vous notez : T° 40 °C, pouls 70 puls/min, TA 120/70 mmHg, poids 90 kg, taille 1,70 m.",
+       "text": "Quel est l'examen biologique qui peut aider à poser le diagnostic ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "PL"
+        },
+        {
+         "letter": "B",
+         "text": "Goutte épaisse"
+        },
+        {
+         "letter": "C",
+         "text": "Coproculture"
+        },
+        {
+         "letter": "D",
+         "text": "NFS"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Coproculture",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La coproculture permet le diagnostic en période de diarrhée (mise en évidence de la salmonelle dans les selles). Remarque : L'examen de certitude cité par le cours est l'hémoculture (positive dans les 2 premières semaines), mais elle ne figure pas parmi les propositions. Par ailleurs, vous constatez qu'elle tousse ; à l'interrogatoire, elle affirme que cette toux évolue depuis un (01) mois avec une anorexie et une asthénie. La radiographie pulmonaire montre des cavitations, l'examen de crachat est positif au BK, la sérologie VIH est négative.\n\nSource : Cours de maladies infectieuses et parasitaires, Fièvre typhoïde, § III Biologie",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__21",
+       "num": "22",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Cas pratique : Vous êtes en service au CSU d'Aniassué et vous recevez Mlle Motiky, âgée de 32 ans, caissière dans une banque, pour céphalées, fièvre, vertiges, diarrhée, anorexie, insomnie depuis deux jours. À l'examen vous notez : T° 40 °C, pouls 70 puls/min, TA 120/70 mmHg, poids 90 kg, taille 1,70 m.",
+       "text": "De quelle autre pathologie souffre Mlle Motiky ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Tuberculose osseuse"
+        },
+        {
+         "letter": "B",
+         "text": "Miliaire tuberculeuse"
+        },
+        {
+         "letter": "C",
+         "text": "Tuberculose pulmonaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Tuberculose pulmonaire",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Toux depuis un mois, anorexie, asthénie, cavitations radiologiques et crachats BK positifs : tuberculose pulmonaire.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Tuberculose (localisation principale : le poumon)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__22",
+       "num": "23",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Cas pratique : Vous êtes en service au CSU d'Aniassué et vous recevez Mlle Motiky, âgée de 32 ans, caissière dans une banque, pour céphalées, fièvre, vertiges, diarrhée, anorexie, insomnie depuis deux jours. À l'examen vous notez : T° 40 °C, pouls 70 puls/min, TA 120/70 mmHg, poids 90 kg, taille 1,70 m.",
+       "text": "Quel est le protocole adapté à cette maladie ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Rifampicine, Isoniazide, Éthambutol, Pyrazinamide pendant 2 mois et Rifampicine et Isoniazide pendant 4 mois"
+        },
+        {
+         "letter": "B",
+         "text": "Rifampicine, Isoniazide, Éthambutol, Pyrazinamide pendant 4 mois et Rifampicine et Isoniazide pendant 2 mois"
+        },
+        {
+         "letter": "C",
+         "text": "Rifampicine, Isoniazide, Éthambutol, Pyrazinamide pendant 3 mois et Rifampicine et Isoniazide pendant 3 mois"
+        },
+        {
+         "letter": "D",
+         "text": "Rifampicine, Isoniazide, Éthambutol, Pyrazinamide pendant 4 mois et Rifampicine et Isoniazide pendant 4 mois"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Rifampicine, Isoniazide, Éthambutol, Pyrazinamide pendant 2 mois et Rifampicine et Isoniazide pendant 4 mois",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le traitement antituberculeux associe 4 antibiotiques (RHZE) pendant 2 mois, puis 2 (RH) pendant 4 mois.\n\nSource : Documents de révision L3 Médecine, Tuberculose, QCD 22",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__23",
+       "num": "24",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Cas pratique : Vous êtes en service au CSU d'Aniassué et vous recevez Mlle Motiky, âgée de 32 ans, caissière dans une banque, pour céphalées, fièvre, vertiges, diarrhée, anorexie, insomnie depuis deux jours. À l'examen vous notez : T° 40 °C, pouls 70 puls/min, TA 120/70 mmHg, poids 90 kg, taille 1,70 m.",
+       "text": "L'indice de masse corporelle de Mlle Motiky est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "30,14"
+        },
+        {
+         "letter": "B",
+         "text": "28,14"
+        },
+        {
+         "letter": "C",
+         "text": "20,14"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 30,14",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "IMC = poids / taille² = 90 / (1,70 × 1,70) = 90 / 2,89 = 31,14.\n\nSource : Calcul de l'IMC",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__24",
+       "num": "25",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Cas pratique : Vous êtes en service au CSU d'Aniassué et vous recevez Mlle Motiky, âgée de 32 ans, caissière dans une banque, pour céphalées, fièvre, vertiges, diarrhée, anorexie, insomnie depuis deux jours. À l'examen vous notez : T° 40 °C, pouls 70 puls/min, TA 120/70 mmHg, poids 90 kg, taille 1,70 m.",
+       "text": "Mlle Motiky est-elle :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Obèse"
+        },
+        {
+         "letter": "B",
+         "text": "Corpulente"
+        },
+        {
+         "letter": "C",
+         "text": "Maigre"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Obèse",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un IMC ≥ 30 correspond à une obésité (classification OMS).\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__25",
+       "num": "26",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Cas pratique : Vous êtes en service au CSU d'Aniassué et vous recevez Mlle Motiky, âgée de 32 ans, caissière dans une banque, pour céphalées, fièvre, vertiges, diarrhée, anorexie, insomnie depuis deux jours. À l'examen vous notez : T° 40 °C, pouls 70 puls/min, TA 120/70 mmHg, poids 90 kg, taille 1,70 m.",
+       "text": "La NFS demandée montre un taux d'hémoglobine à 6 g/dl. Le médecin vous demande de lui faire une transfusion de sang de 420 cc en 3 h 30 min. Quel doit être le débit de cette transfusion ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "30 gouttes/min"
+        },
+        {
+         "letter": "B",
+         "text": "29 gouttes/min"
+        },
+        {
+         "letter": "C",
+         "text": "31 gouttes/min"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 30 gouttes/min",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Débit = 420 ml × 15 gouttes / 210 min = 30 gouttes/min (pour le sang, 1 ml = 15 gouttes).\n\nSource : Documents de révision L3 Médecine, Transfusion sanguine, QCM 8 et 19 (1 ml de sang = 15 gouttes)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__26",
+       "num": "27",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un diabète peut être dû à une prédisposition génétique et à des facteurs environnementaux comme l'alimentation",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le diabète résulte d'une prédisposition génétique associée à des facteurs d'environnement (alimentation, sédentarité, obésité).\n\nSource : Documents de révision L3 Médecine, Diabète (facteurs de risque des maladies non transmissibles)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__27",
+       "num": "28",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'hypophyse est contrôlée principalement par l'hypothalamus",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'hypothalamus contrôle l'hypophyse par des hormones de libération (axe hypothalamo-hypophysaire).\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__28",
+       "num": "29",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les coronaropathies sont aussi appelées cardiopathies ischémiques",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les coronaropathies (angor, infarctus) sont des cardiopathies ischémiques : insuffisance d'apport en oxygène au myocarde par atteinte des artères coronaires.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Insuffisance coronaire : angor, IDM",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__29",
+       "num": "30",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans l'angine de poitrine, lorsque la douleur persiste en l'absence d'activité physique, on parle d'angor d'effort",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Une douleur survenant en l'absence d'activité physique correspond à l'angor de repos (angor instable) ; l'angor d'effort survient à l'effort et cède à son arrêt.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Angine de poitrine, § 5.1",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__30",
+       "num": "31",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La douleur de l'angor est de siège thoracique antérieur et rétrosternal",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours décrit la douleur de l'angor comme thoracique antérieure, médiane, rétrosternale en barre.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Angine de poitrine, § 5.2",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__31",
+       "num": "32",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le test diagnostique de l'angor est la trinitrine en sublingual",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "« La douleur cesse après une prise par voie sublinguale de trinitrine en 1 à 2 minutes : c'est un test diagnostique à la trinitrine. »\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Angine de poitrine, § 5.6",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__32",
+       "num": "33",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la démarche de soins, l'analyse consiste en la classification des données en données d'indépendance et données indépendantes",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'analyse consiste à classer les données en données d'indépendance et données de dépendance (et non « données indépendantes »).\n\nSource : Documents de révision L3 Médecine, Soins infirmiers, QCD 1",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__33",
+       "num": "34",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le rôle de l'infirmier dans l'hépatite virale repose sur l'accueil, les soins, la surveillance du malade, la prophylaxie et la préinscription",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours dit : « le rôle de l'infirmier dans l'hépatite virale repose sur l'accueil, les soins, la surveillance du malade, la prophylaxie et la prévention » ; « préinscription » est faux.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Rôle de l'infirmier dans les hépatites virales",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__34",
+       "num": "35",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les virus des hépatites B et C sont les causes les plus fréquentes d'hépatite aiguë",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les causes les plus fréquentes d'hépatite aiguë sont les infections virales et les médicaments ; les virus B et C sont cités comme causes les plus fréquentes d'hépatite chronique.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Hépatites, § I-A Causes",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__35",
+       "num": "36",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La néphropathie gravidique vraie apparaît dans n'importe quelle grossesse ; par contre, la néphropathie gravidique ajoutée ne survient que chez la femme primipare et guérit sans séquelle",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "C'est la néphropathie gravidique vraie qui survient électivement chez la primipare, au 3e trimestre, et guérit sans séquelles. L'énoncé inverse les deux formes.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Néphropathie gravidique vraie",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__36",
+       "num": "37",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La lithiase urinaire est une complication de la lithiase biliaire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La lithiase urinaire (voies urinaires) et la lithiase biliaire (voies biliaires) sont deux affections distinctes ; l'une n'est pas une complication de l'autre.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__37",
+       "num": "38",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ponction d'ascite est un acte qui comporte beaucoup d'accidents qu'il faut éviter en surveillant le malade pendant et après la ponction",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "« La ponction d'ascite est un acte qui comporte beaucoup d'accidents qu'il faut éviter en surveillant le malade pendant et après la ponction. »\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Ponction d'ascite, § VII Accidents",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__38",
+       "num": "39",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le syndrome œdémato-ascitique est l'accident évolutif le plus fréquent de la cirrhose",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "« Le syndrome œdémato-ascitique est l'accident évolutif le plus fréquent de la cirrhose. »\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Les cirrhoses",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__39",
+       "num": "40",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le collapsus cardio-vasculaire est l'un des accidents de la ponction d'ascite.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Une décompression trop brusque peut entraîner un collapsus cardiovasculaire, cité parmi les accidents de la ponction d'ascite.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Ponction d'ascite, § IV et VII",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__40",
+       "num": "41",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'insuffisance rénale chronique (IRC) ou insuffisance rénale terminale est une détérioration progressive et réversible de la fonction rénale",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'IRC est une détérioration progressive et irréversible de la fonction rénale ; « réversible » rend l'énoncé faux. Remarque : Dans le sujet, il est écrit « déformation rénale » (pour « fonction rénale »).\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Insuffisance rénale chronique, § I",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__41",
+       "num": "42",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La lithiase urinaire se définit comme la formation de calculs ou précipitation, dans les cavités excrétrices rénales, urétérales ou vésicale, de différents composés organiques",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La lithiase urinaire est la formation de calculs (précipitation de composés) dans les cavités excrétrices : rein, uretère, vessie.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), La lithiase urinaire (explication partiellement hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__42",
+       "num": "43",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le reflux gastro-œsophagien est la remontée des aliments dans le tube digestif",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours définit le RGO comme la « remontée de liquide gastrique acide dans l'œsophage ». Remarque : La formulation du sujet (« remontée des aliments dans le tube digestif ») est imprécise par rapport à la définition du cours.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Reflux gastro-œsophagien, § 3.2",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__43",
+       "num": "44",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'ulcère gastroduodénal (UGD) se définit comme une perte de substance de la paroi gastrique ou duodénale atteignant en profondeur la musculeuse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "« L'UGD se définit comme une perte de substance de la paroi gastrique ou duodénale atteignant en profondeur la musculeuse. »\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Ulcère gastro-duodénal, § I",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__44",
+       "num": "45",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le signe capital dans l'ulcère gastro-duodénal est le vomissement",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le signe capital de l'ulcère est la douleur épigastrique (crampe, faim douloureuse, rythmée par les repas, calmée par l'alimentation), pas le vomissement.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Ulcère gastro-duodénal, § III Syndrome ulcéreux typique",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__45",
+       "num": "46",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La maladie ulcéreuse gastroduodénale est liée à l'infection à Helicobacter pylori.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le cours cite la « maladie ulcéreuse gastroduodénale liée à l'infection à Helicobacter pylori » parmi les causes principales.\n\nSource : Cours de médecine IDE 2 (INFAS, actualisé 2020), Ulcère gastro-duodénal, § II",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__46",
+       "num": "47",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le foie intervient dans la régulation de la glycémie.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le foie régule la glycémie : il stocke le glucose sous forme de glycogène (glycogénogenèse) et le libère à jeun (glycogénolyse, néoglucogenèse).\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__47",
+       "num": "48",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La graisse est la principale source d'énergie cellulaire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La principale source d'énergie cellulaire est le glucose ; les graisses sont surtout une réserve d'énergie.\n\nSource : (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j9-idesfm__48",
+       "num": "49",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le problème de dépendance et la source de difficulté sont les deux composantes du diagnostic infirmier",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le diagnostic infirmier comporte le problème de dépendance et sa source de difficulté (cause) ; c'est sur la source de difficulté que l'on fonde les interventions. Remarque : La 50e question est coupée dans la capture (dernière page : seul le badge de points apparaît, sans énoncé ni options). Elle n'a pas pu être corrigée.\n\nSource : Documents de révision L3 Médecine, Soins infirmiers, QCD 4 et 5",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J9_Medecine_IDE-SF-M_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

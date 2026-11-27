@@ -1,0 +1,39 @@
+{
+ "version": 1,
+ "ajoute": "2026-11-27",
+ "mat": {
+  "id": "xauxjmc",
+  "title": "Médecine-Chirurgie — Préparation D.E (J) · Auxiliaires",
+  "short": "Médecine-Chirurgie J (Aux.)",
+  "emo": "🩺",
+  "col": "#2C3E8F",
+  "fil": [
+   "AUX"
+  ],
+  "niv": "L1",
+  "de": "non",
+  "vue": "sujets",
+  "accueil": true,
+  "auxJ": 1,
+  "ch": [
+   "J2 · Médecine-Chirurgie",
+   "J3 · Médecine-Chirurgie",
+   "J4 · Médecine-Chirurgie",
+   "J5 · Médecine-Chirurgie",
+   "J6 · Médecine-Chirurgie"
+  ],
+  "sub": "Préparation D.E (J) · 5 sujets · 127 questions corrigées",
+  "ordre": 3
+ },
+ "groupes": [
+  {
+   "g": "aux"
+  }
+ ],
+ "filiere": "AUX",
+ "origine": {
+  "fichier": "aux-j-2026/Corrige_Medecine_Chirurgie_AS2_J2-J6.pdf",
+  "sha256": "a5bbd4455c386c565ce25d388a2840e7fec53c54022cdd09a77f902b7539095a"
+ },
+ "questions": "ajouts/xauxjmc-questions.json : 127 questions, un sujet par J"
+}

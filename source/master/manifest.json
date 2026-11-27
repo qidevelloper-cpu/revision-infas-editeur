@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 130283040,
- "sha256": "238f9f80e1945b42287d5fa914e6718644158cba6281d099b7e7edc1cb8286b8",
+ "taille": 130892927,
+ "sha256": "eacbb38df2f012b135f344fe0547d119c8e28555f8df165435e882f07763c451",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -70,8 +70,8 @@
   {
    "type": "bloc",
    "id": "app-js",
-   "octets": 885244,
-   "sha256": "ab73cad99cdb65a9e9f81029ea0d7f868d0caae356c41161d2292c7074ca27dc",
+   "octets": 887466,
+   "sha256": "037716f39e9ec7c25700bdf46d41fdf1d204f542cb59215a351d2827db6ae18e",
    "fichier": "engine/app-js.js",
    "codage": "brut"
   },
@@ -16509,261 +16509,14 @@
   },
   {
    "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxchir\">",
-   "sha256": "5ee2659b3266c801db15f41f96f7a9ee53b7dff0ad90c55caaaaaa5cede68637"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-ajout-xauxchir",
-   "octets": 923,
-   "sha256": "0db30c187aec5e08c76a2e2c0e018fc45cc846ae6507a8c814d937e06aa9f08c",
-   "fichier": "ajouts/xauxchir.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxchir\">",
-   "sha256": "26a0c2b1c3ce6fdcf29078890a63d2a8ba2f24a227267ffb2e13db433d3a2fbf"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-xauxchir",
-   "octets": 52151,
-   "sha256": "a11e6d945bfd3e3fdb63d17b9a8bf3cde10a83ada7b93ec7d90160359ec59f55",
-   "fichier": "ajouts/xauxchir-questions.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxgyn\">",
-   "sha256": "d5db89620d5aea780d027a9539f734a7722b779cfa6f5d1f82ffb9704f433126"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-ajout-xauxgyn",
-   "octets": 963,
-   "sha256": "3582265fe7db616940a708898f9e3347c0e451e441cdf314830cf9364fd17db8",
-   "fichier": "ajouts/xauxgyn.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxgyn\">",
-   "sha256": "742102c07c7f1fcedecc8ba72dfcccda7d6fbaee3da65ab8a564152299ede31d"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-xauxgyn",
-   "octets": 98501,
-   "sha256": "e8b54b6ef30800c1f7725c537044cd5bc54e2f90af4d6ea7b15283a9f77cc0f7",
-   "fichier": "ajouts/xauxgyn-questions.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxmed\">",
-   "sha256": "140e70f6e39aad19be98126f90dc892b7af8d054ecd21ecc9f6d596b27e7658f"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-ajout-xauxmed",
-   "octets": 1018,
-   "sha256": "78d2a0e7566d88e3c7e11ec0caca476a230dbe62b8f034b2d32b03093cbd86df",
-   "fichier": "ajouts/xauxmed.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxmed\">",
-   "sha256": "2899de59763fc58be022f3c14e104dcbfdb7faffc612442c83fdb4255637b9bb"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-xauxmed",
-   "octets": 87300,
-   "sha256": "e1a80bf6b1a8d7e600f08d7b8686e9a3217668a82d16cc7c6db2c89810f94f82",
-   "fichier": "ajouts/xauxmed-questions.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxped\">",
-   "sha256": "c28933c4503e8fefefc3db8c9f82adb10fd24cb0b6096aebebfa8d858feca0fd"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-ajout-xauxped",
-   "octets": 890,
-   "sha256": "746f97f05af0406f091207002372ab0549249bee9f124043262ecb7f48b39cb7",
-   "fichier": "ajouts/xauxped.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxped\">",
-   "sha256": "bb717a03d44697f2792e9cf94b2cab31206088788c326ac081aadf815f6c219c"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-xauxped",
-   "octets": 87754,
-   "sha256": "8abda5d335d2e6b09670895565d2ef5e297864626bddff4945b9cda1bb348045",
-   "fichier": "ajouts/xauxped-questions.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxsp\">",
-   "sha256": "b3123240c1e221be847f1c1d849cb9966b15f4f18f669f9570a0c2ccdf4ff85f"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-ajout-xauxsp",
-   "octets": 927,
-   "sha256": "ae515d70da7cabd683fb7d37600e7f8ec6f1c310f3b248e6e2be958652c45110",
-   "fichier": "ajouts/xauxsp.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxsp\">",
-   "sha256": "536ec5f2e01d8429f2c025d2ebb3823339a41c0b55f90d565dfe6bc72c3efe03"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-xauxsp",
-   "octets": 96823,
-   "sha256": "170df62db2b4020f4a1faffcfdca2c71b5b8a45c1faa31c99eea2eb7395b557f",
-   "fichier": "ajouts/xauxsp-questions.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxsrpf\">",
-   "sha256": "c0d7483f865cca6f745e124d749898f2c471608a35baa3fb0223abeab3a693a8"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-ajout-xauxsrpf",
-   "octets": 1025,
-   "sha256": "14ca4bd7ab25410100729c06fa76b7619036e0d3e8e142a903e20145db38aa09",
-   "fichier": "ajouts/xauxsrpf.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxsrpf\">",
-   "sha256": "d58e7c902f13d1b7337e237219d516c0c1788879c1640f5b1162125aceda6550"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-xauxsrpf",
-   "octets": 88654,
-   "sha256": "85bb765fc6e6acc6410f34b7d189eb5e2c74be5d62131b573b2bf90cf9652024",
-   "fichier": "ajouts/xauxsrpf-questions.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xmedann\">",
-   "sha256": "d3c7b757c782547fc31a0152daac482c80237d8ee6c816467ca03a19ae324065"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-ajout-xmedann",
-   "octets": 1892,
-   "sha256": "05192fcadcbc8f3ba11ad481345b27da665b97323fff0c9885ac6b5f89049951",
-   "fichier": "ajouts/xmedann.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xmedann\">",
-   "sha256": "295088a25eeb12438b4a0b75e85a2cf7521b25c1fcd1a40865d605547b1b3edf"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-xmedann",
-   "octets": 336141,
-   "sha256": "ee60ae238074ef8e6752109df86158e9c1de8c50c1f3ab310482fe2d9e7506ca",
-   "fichier": "ajouts/xmedann-questions.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xpedexo\">",
-   "sha256": "22dd9c5880858fd0eeb09693eb88ee38e03ac3bab33301a05c980f06bb1ef32d"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-ajout-xpedexo",
-   "octets": 39744,
-   "sha256": "e2063481572ff26b1cdddcf7358cf0e0e440858ccf9a496882523571f1557c3f",
-   "fichier": "ajouts/xpedexo.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xpedexo\">",
-   "sha256": "efb408d1cb9542fd0f18832131a72e3aae370af74e1d7503c7847c10168f60ce"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-xpedexo",
-   "octets": 616017,
-   "sha256": "2709dffbd61d531a42817a26e611f224e892c91544030aecd7818d92f12f0def",
-   "fichier": "ajouts/xpedexo-questions.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xpedexo\">",
-   "sha256": "e6dc775d99547eea813203ded327c1216b1918cfcfbcf2b3f6d8ef0a28be7c4b"
-  },
-  {
-   "type": "bloc",
-   "id": "app-src-xpedexo",
-   "octets": 417960,
-   "sha256": "05ee2352cdc577c250301dc3afa284ca55247e228a78e73108693b61bd4c464a",
-   "fichier": "ajouts/xpedexo.html",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xresped\">",
-   "sha256": "55080933268fbd4577f82f1a3d8d3c4adf2df6f009ee4e2f3df6ee980b6651a2"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-ajout-xresped",
-   "octets": 1368,
-   "sha256": "8c7afbf30a086d4cecd11d3359eecb23afe31ee50ede05829bd49ebdf07490a2",
-   "fichier": "ajouts/xresped.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
-   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xresped\">",
-   "sha256": "6e218ee7f1c895b51e1cac1dd006e08d397731e9a399417fc579bd3e388d540e"
-  },
-  {
-   "type": "bloc",
-   "id": "app-xdata-xresped",
-   "octets": 2417099,
-   "sha256": "2cf58e7644698db27fa8a5927338b791bc5e48d4452416f461fff21dcf9b26e6",
-   "fichier": "ajouts/xresped-questions.json",
-   "codage": "brut"
-  },
-  {
-   "type": "html",
    "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-plusapp\">",
    "sha256": "20ebafba12117a4425763ce7ccec7b3173528f4830c4a922ae931b080795a7ff"
   },
   {
    "type": "bloc",
    "id": "app-xdata-plusapp",
-   "octets": 19997,
-   "sha256": "c957d60376ffbb1631e2cd1a1111f5c4b244783f1e39b5948aea1da22e14d349",
+   "octets": 21337,
+   "sha256": "a9edf484eabf7814ddce08a20a7586c69d4217481d82f73099d5affbba784e1a",
    "fichier": "plus-applis/index.json",
    "codage": "brut"
   },
@@ -16775,8 +16528,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusnat-xmvkq4zed",
-   "octets": 3927421,
-   "sha256": "a93107190ceee22a5a4a4e8278d5032ac47d1347af1da51ead56b15155b565d8",
+   "octets": 4076439,
+   "sha256": "f69d73396fa7458447f537e3f3fd49f235c974b9f44c60dc707e0cab42f4f519",
    "fichier": "plus-applis/xmvkq4zed-natif.json",
    "codage": "brut"
   },
@@ -16801,8 +16554,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--s3-2026",
-   "octets": 2884535,
-   "sha256": "361e2785fb2314dd3955afdaefd4304e33f53f932320d2015a25b24640c04e4a",
+   "octets": 2864906,
+   "sha256": "4f75aad3412d4a2c829018ee0d2ce3509c1f690c87b4ad48e926e6be74ec0826",
    "fichier": "plus-applis/xmvkq4zed/s3-2026.json",
    "codage": "brut"
   },
@@ -16814,8 +16567,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--sj-prepa-2026",
-   "octets": 543295,
-   "sha256": "a49ad67c3e98e6ccbd7f4a06e6e2a8870db43c79c5a7a730b2edfaa27a8a1187",
+   "octets": 558874,
+   "sha256": "5b87e0721a633e2021048b4663cc3b60806628006d444a1c198f80a049193884",
    "fichier": "plus-applis/xmvkq4zed/sj-prepa-2026.json",
    "codage": "brut"
   },
@@ -16827,8 +16580,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--t-s3-2026-bouake",
-   "octets": 300750,
-   "sha256": "129b55376349f04137454db1b35f0258ca8d1fe7b905c17fe437913dcfa4c604",
+   "octets": 300810,
+   "sha256": "6ef5032aeec1adc5181009c1ad5870aab65a4cec1cd092eca4f95df359ae388e",
    "fichier": "plus-applis/xmvkq4zed/t-s3-2026-bouake.json",
    "codage": "brut"
   },
@@ -16866,8 +16619,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--w-sj-prepa-med-j2-ide3",
-   "octets": 86706,
-   "sha256": "54d508e1b831f4eea4549efe08b6924c8e1a94cb63d18b936fbfe2f754f9697d",
+   "octets": 86620,
+   "sha256": "97016aa7fda7459147b2f833f8dd17dad273e44c9792ae5466ec4349f9a6eed3",
    "fichier": "plus-applis/xmvkq4zed/w-sj-prepa-med-j2-ide3.json",
    "codage": "brut"
   },
@@ -16931,8 +16684,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zb-sj-prepa-chir-j1-ide",
-   "octets": 71161,
-   "sha256": "4c39252944a5085aa09619f6159bed77d06cab3a30d6c36abd3e64acd2041566",
+   "octets": 67594,
+   "sha256": "516f267b029bd32556f5713df68b50f39828c9d99a7b7a06c7a29e80cb086857",
    "fichier": "plus-applis/xmvkq4zed/zb-sj-prepa-chir-j1-ide.json",
    "codage": "brut"
   },
@@ -17022,8 +16775,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zi-sj-prepa-chir-j3-ide",
-   "octets": 80223,
-   "sha256": "49310e855f42daf10100fc71b13f706831077072dd4f638afc42bb9304fa73e4",
+   "octets": 80090,
+   "sha256": "37bf19623940f580b23622ee38d55e538c639aa7ed38a158b2fa271a9d1eb813",
    "fichier": "plus-applis/xmvkq4zed/zi-sj-prepa-chir-j3-ide.json",
    "codage": "brut"
   },
@@ -17074,8 +16827,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zm-sj-prepa-chir-j4-ide",
-   "octets": 99076,
-   "sha256": "5fede1ec4d41f7b358ffbe4e9520364056d6783c2edc573b53d43c8cf115d102",
+   "octets": 97774,
+   "sha256": "02309fca41c5bc4ed49008d3c115ab3ffef6cbe162e42bc41d44ec75e205ef81",
    "fichier": "plus-applis/xmvkq4zed/zm-sj-prepa-chir-j4-ide.json",
    "codage": "brut"
   },
@@ -17282,8 +17035,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zzd-sj-prepa-chir-j6-ide",
-   "octets": 84781,
-   "sha256": "7c5016b5229a930f691dd18da575e01f26a03cb3cb0f94a29bab2477275aa6cc",
+   "octets": 84658,
+   "sha256": "b750a4fddc09fc9987412312e979e79cb593368c451df592dc802e303b860ffb",
    "fichier": "plus-applis/xmvkq4zed/zzd-sj-prepa-chir-j6-ide.json",
    "codage": "brut"
   },
@@ -17321,8 +17074,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zzg-sj-prepa-med-j10-sf3",
-   "octets": 89679,
-   "sha256": "d512f3f40991002ab7ab1067f5c5822524373ef18b39477041392f4383930d01",
+   "octets": 94891,
+   "sha256": "9ef405409d8432b7999eb26a7a2424cb9c6fdf0727e5e813fa5a8144e7dd4df5",
    "fichier": "plus-applis/xmvkq4zed/zzg-sj-prepa-med-j10-sf3.json",
    "codage": "brut"
   },
@@ -17467,6 +17220,409 @@
    "octets": 69128,
    "sha256": "d6df06c285073a03f0faf2bcbd6fdeb57647c39173896a7c3b3ea829f7504c65",
    "fichier": "plus-applis/xmvkq4zed/zzr-sj-prepa-gyneco-j10-sf3.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzs-sj-prepa-med-j7-ide3\">",
+   "sha256": "3db92aad46f11d7ec7d8aa29dc390fbc936ba0ed5191b4380e96583aac9386ab"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzs-sj-prepa-med-j7-ide3",
+   "octets": 87071,
+   "sha256": "ad2706afc91c7a2466e950c1a616da8c88a175a0ed4f465fa5d6077f1e2eb69e",
+   "fichier": "plus-applis/xmvkq4zed/zzs-sj-prepa-med-j7-ide3.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzt-sj-prepa-med-j8-ide3\">",
+   "sha256": "2b8f34eee98ebfdaa265533c7e367bcb25d51a5274638fb40edd2a667273a42e"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzt-sj-prepa-med-j8-ide3",
+   "octets": 74194,
+   "sha256": "dbbf12d3e259744d647adfe43e59b2bb306e008eea9ad1cf79471db691937a95",
+   "fichier": "plus-applis/xmvkq4zed/zzt-sj-prepa-med-j8-ide3.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzu-sj-prepa-med-j9-idesfm\">",
+   "sha256": "8845ae44277e86c6fd7d369e9029a2f064566be2c685280be546741d4f9b0e88"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzu-sj-prepa-med-j9-idesfm",
+   "octets": 62631,
+   "sha256": "2d94059e69010f04139e788639732a45269ad42b23c2937f5fe9ead1aacf0518",
+   "fichier": "plus-applis/xmvkq4zed/zzu-sj-prepa-med-j9-idesfm.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzv-sj-prepa-chir-j9-ide3\">",
+   "sha256": "8806a4516705affce9cfe97ef807f914b47c6c0c0f103f8a74f2fb6a510e5ad7"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzv-sj-prepa-chir-j9-ide3",
+   "octets": 99693,
+   "sha256": "8298290f1d0e17d2d70eb7b1f573525488656c041ebb593209754e1d8dde908a",
+   "fichier": "plus-applis/xmvkq4zed/zzv-sj-prepa-chir-j9-ide3.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxchir\">",
+   "sha256": "5ee2659b3266c801db15f41f96f7a9ee53b7dff0ad90c55caaaaaa5cede68637"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-ajout-xauxchir",
+   "octets": 923,
+   "sha256": "0db30c187aec5e08c76a2e2c0e018fc45cc846ae6507a8c814d937e06aa9f08c",
+   "fichier": "ajouts/xauxchir.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxchir\">",
+   "sha256": "26a0c2b1c3ce6fdcf29078890a63d2a8ba2f24a227267ffb2e13db433d3a2fbf"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-xauxchir",
+   "octets": 52151,
+   "sha256": "a11e6d945bfd3e3fdb63d17b9a8bf3cde10a83ada7b93ec7d90160359ec59f55",
+   "fichier": "ajouts/xauxchir-questions.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxgyn\">",
+   "sha256": "d5db89620d5aea780d027a9539f734a7722b779cfa6f5d1f82ffb9704f433126"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-ajout-xauxgyn",
+   "octets": 963,
+   "sha256": "3582265fe7db616940a708898f9e3347c0e451e441cdf314830cf9364fd17db8",
+   "fichier": "ajouts/xauxgyn.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxgyn\">",
+   "sha256": "742102c07c7f1fcedecc8ba72dfcccda7d6fbaee3da65ab8a564152299ede31d"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-xauxgyn",
+   "octets": 98501,
+   "sha256": "e8b54b6ef30800c1f7725c537044cd5bc54e2f90af4d6ea7b15283a9f77cc0f7",
+   "fichier": "ajouts/xauxgyn-questions.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxjhyg\">",
+   "sha256": "7d0faf9e9003f45287fdb99ca71fc17f791d6344d0506cd84c711a0f3fd20977"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-ajout-xauxjhyg",
+   "octets": 816,
+   "sha256": "de207e0675d86bcac96e7e1e1e0a06ceed3b95b37f11109654d7de7854eff9f8",
+   "fichier": "ajouts/xauxjhyg.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxjhyg\">",
+   "sha256": "537706f4060758af1cb586ef6edf5ba98111378d4310b04f50c159571a105eaf"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-xauxjhyg",
+   "octets": 14657,
+   "sha256": "f52e7267aef34f0193c1700cb3db9930c9032e6041e0f6c006996cf4830632ae",
+   "fichier": "ajouts/xauxjhyg-questions.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxjmc\">",
+   "sha256": "965d36ead272924158013f35d4cc75deaffd8b4c4c23e98bb7573073264e30b0"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-ajout-xauxjmc",
+   "octets": 898,
+   "sha256": "3b38857c919f8a9d1f1150f4c82c304b45dc8335c76d9a27c868bc50eeb7686e",
+   "fichier": "ajouts/xauxjmc.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxjmc\">",
+   "sha256": "d104be821c7a89bf0bb507a154b0534c6c79ef9cd50a53715d6c17332495882e"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-xauxjmc",
+   "octets": 38132,
+   "sha256": "98d13359ad61f8b30322a2e288be735dc29dadf7a2528061585b0644fe3fbd68",
+   "fichier": "ajouts/xauxjmc-questions.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxjsp\">",
+   "sha256": "126981ee5439e388b249b076b5c118c10257f950471ca7ff66a4939ef8978d1e"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-ajout-xauxjsp",
+   "octets": 853,
+   "sha256": "7d8a263f59ac70df45564b30e7f407babf6402edd15d05331bdc0d9eca3f606a",
+   "fichier": "ajouts/xauxjsp.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxjsp\">",
+   "sha256": "b2b369ae06980bb649372bf61d5222c54fb3234f6643823be5b7a72da3b0cc4f"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-xauxjsp",
+   "octets": 40259,
+   "sha256": "b1c736285739b26dfd639bf6095523485800218055e86a533bba225a1f0b4c1f",
+   "fichier": "ajouts/xauxjsp-questions.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxjsrpf\">",
+   "sha256": "6a6c423858d82bf1e53ba34355eb38322442758540097f2cc87d5af754f4d72e"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-ajout-xauxjsrpf",
+   "octets": 827,
+   "sha256": "c7ed22cb0a92b879fc6402b80e4c112aff7a2761d390dfda10fb9c4358e9bd27",
+   "fichier": "ajouts/xauxjsrpf.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxjsrpf\">",
+   "sha256": "33e624e31870be1ae0257a46743329a5f7163938b0bb32bddc00ef3ac663adff"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-xauxjsrpf",
+   "octets": 40420,
+   "sha256": "f927aaea7c7969fa28e6a7c1dd8398001a257c415e1dbe62020899ed2d26d8d3",
+   "fichier": "ajouts/xauxjsrpf-questions.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxmed\">",
+   "sha256": "140e70f6e39aad19be98126f90dc892b7af8d054ecd21ecc9f6d596b27e7658f"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-ajout-xauxmed",
+   "octets": 1018,
+   "sha256": "78d2a0e7566d88e3c7e11ec0caca476a230dbe62b8f034b2d32b03093cbd86df",
+   "fichier": "ajouts/xauxmed.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxmed\">",
+   "sha256": "2899de59763fc58be022f3c14e104dcbfdb7faffc612442c83fdb4255637b9bb"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-xauxmed",
+   "octets": 87300,
+   "sha256": "e1a80bf6b1a8d7e600f08d7b8686e9a3217668a82d16cc7c6db2c89810f94f82",
+   "fichier": "ajouts/xauxmed-questions.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxped\">",
+   "sha256": "c28933c4503e8fefefc3db8c9f82adb10fd24cb0b6096aebebfa8d858feca0fd"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-ajout-xauxped",
+   "octets": 890,
+   "sha256": "746f97f05af0406f091207002372ab0549249bee9f124043262ecb7f48b39cb7",
+   "fichier": "ajouts/xauxped.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxped\">",
+   "sha256": "bb717a03d44697f2792e9cf94b2cab31206088788c326ac081aadf815f6c219c"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-xauxped",
+   "octets": 87754,
+   "sha256": "8abda5d335d2e6b09670895565d2ef5e297864626bddff4945b9cda1bb348045",
+   "fichier": "ajouts/xauxped-questions.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxsp\">",
+   "sha256": "b3123240c1e221be847f1c1d849cb9966b15f4f18f669f9570a0c2ccdf4ff85f"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-ajout-xauxsp",
+   "octets": 927,
+   "sha256": "ae515d70da7cabd683fb7d37600e7f8ec6f1c310f3b248e6e2be958652c45110",
+   "fichier": "ajouts/xauxsp.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxsp\">",
+   "sha256": "536ec5f2e01d8429f2c025d2ebb3823339a41c0b55f90d565dfe6bc72c3efe03"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-xauxsp",
+   "octets": 96823,
+   "sha256": "170df62db2b4020f4a1faffcfdca2c71b5b8a45c1faa31c99eea2eb7395b557f",
+   "fichier": "ajouts/xauxsp-questions.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xauxsrpf\">",
+   "sha256": "c0d7483f865cca6f745e124d749898f2c471608a35baa3fb0223abeab3a693a8"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-ajout-xauxsrpf",
+   "octets": 1025,
+   "sha256": "14ca4bd7ab25410100729c06fa76b7619036e0d3e8e142a903e20145db38aa09",
+   "fichier": "ajouts/xauxsrpf.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xauxsrpf\">",
+   "sha256": "d58e7c902f13d1b7337e237219d516c0c1788879c1640f5b1162125aceda6550"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-xauxsrpf",
+   "octets": 88654,
+   "sha256": "85bb765fc6e6acc6410f34b7d189eb5e2c74be5d62131b573b2bf90cf9652024",
+   "fichier": "ajouts/xauxsrpf-questions.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xmedann\">",
+   "sha256": "d3c7b757c782547fc31a0152daac482c80237d8ee6c816467ca03a19ae324065"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-ajout-xmedann",
+   "octets": 1892,
+   "sha256": "05192fcadcbc8f3ba11ad481345b27da665b97323fff0c9885ac6b5f89049951",
+   "fichier": "ajouts/xmedann.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xmedann\">",
+   "sha256": "295088a25eeb12438b4a0b75e85a2cf7521b25c1fcd1a40865d605547b1b3edf"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-xmedann",
+   "octets": 336141,
+   "sha256": "ee60ae238074ef8e6752109df86158e9c1de8c50c1f3ab310482fe2d9e7506ca",
+   "fichier": "ajouts/xmedann-questions.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xpedexo\">",
+   "sha256": "22dd9c5880858fd0eeb09693eb88ee38e03ac3bab33301a05c980f06bb1ef32d"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-ajout-xpedexo",
+   "octets": 39744,
+   "sha256": "e2063481572ff26b1cdddcf7358cf0e0e440858ccf9a496882523571f1557c3f",
+   "fichier": "ajouts/xpedexo.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xpedexo\">",
+   "sha256": "efb408d1cb9542fd0f18832131a72e3aae370af74e1d7503c7847c10168f60ce"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-xpedexo",
+   "octets": 616017,
+   "sha256": "2709dffbd61d531a42817a26e611f224e892c91544030aecd7818d92f12f0def",
+   "fichier": "ajouts/xpedexo-questions.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xpedexo\">",
+   "sha256": "e6dc775d99547eea813203ded327c1216b1918cfcfbcf2b3f6d8ef0a28be7c4b"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xpedexo",
+   "octets": 417960,
+   "sha256": "05ee2352cdc577c250301dc3afa284ca55247e228a78e73108693b61bd4c464a",
+   "fichier": "ajouts/xpedexo.html",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-ajout-xresped\">",
+   "sha256": "55080933268fbd4577f82f1a3d8d3c4adf2df6f009ee4e2f3df6ee980b6651a2"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-ajout-xresped",
+   "octets": 1368,
+   "sha256": "8c7afbf30a086d4cecd11d3359eecb23afe31ee50ede05829bd49ebdf07490a2",
+   "fichier": "ajouts/xresped.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-xdata-xresped\">",
+   "sha256": "6e218ee7f1c895b51e1cac1dd006e08d397731e9a399417fc579bd3e388d540e"
+  },
+  {
+   "type": "bloc",
+   "id": "app-xdata-xresped",
+   "octets": 2417099,
+   "sha256": "2cf58e7644698db27fa8a5927338b791bc5e48d4452416f461fff21dcf9b26e6",
+   "fichier": "ajouts/xresped-questions.json",
    "codage": "brut"
   },
   {

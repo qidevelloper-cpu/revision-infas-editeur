@@ -1,0 +1,38 @@
+{
+ "version": 1,
+ "ajoute": "2026-11-27",
+ "mat": {
+  "id": "xauxjsp",
+  "title": "Santé publique — Préparation D.E (J) · Auxiliaires",
+  "short": "Santé publique J (Aux.)",
+  "emo": "🏘️",
+  "col": "#0E7490",
+  "fil": [
+   "AUX"
+  ],
+  "niv": "L1",
+  "de": "non",
+  "vue": "sujets",
+  "accueil": true,
+  "auxJ": 1,
+  "ch": [
+   "J1 · Santé publique",
+   "J2 · Santé publique",
+   "J5 · Santé publique",
+   "J6 · Santé publique"
+  ],
+  "sub": "Préparation D.E (J) · 4 sujets · 167 questions corrigées",
+  "ordre": 1
+ },
+ "groupes": [
+  {
+   "g": "aux"
+  }
+ ],
+ "filiere": "AUX",
+ "origine": {
+  "fichier": "aux-j-2026/Corrige_Sante_publique_ASI3-ASO3_J1-J2-J5-J6.pdf",
+  "sha256": "9c0e4a46bc7952435b131b75069f374ff72163557aabb90654fbe2f21058be45"
+ },
+ "questions": "ajouts/xauxjsp-questions.json : 167 questions, un sujet par J"
+}

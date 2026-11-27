@@ -21,7 +21,7 @@
    "existe": true,
    "sujets": [
     {
-     "name": "J Chirurgie · Prépa D.E J1 (IDE)",
+     "name": "J Chirurgie · Prépa D.E J1 (IDE) · J1 et J7 identiques",
      "slug": "prepa-chir-j1-ide",
      "pages": "",
      "count": 49,
@@ -55,7 +55,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux. La hernie crurale (fémorale) « survient le plus souvent chez les femmes de 30 à 60 ans » et la hernie ombilicale de l'adulte s'observe surtout chez la femme. La hernie existe donc chez la femme, même si la hernie inguinale prédomine chez l'homme.\n\nSource : Cours de chirurgie traumatique et digestif, Hernies, diapo 205 ; licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Hernie crurale, p. 103",
+       "explanation": "La hernie existe chez la femme. La hernie crurale survient surtout chez la femme de 30 à 60 ans, et la hernie ombilicale de l'adulte s'observe surtout chez la femme.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Hernies, 2.2 Hernie crurale ; Cours de chirurgie traumatique et digestif.pptx, Hernies, VII",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -85,7 +85,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. La tête humérale sort de la glène : à l'inspection, le moignon de l'épaule est aplati avec un « coup de hache » externe (signe de l'épaulette) ; à la palpation, la cavité glénoïde est vide. L'épaulette est donc la traduction visible de la vacuité de la glène.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Luxation de l'épaule, III Étude clinique, p. 19",
+       "explanation": "Dans la luxation antéro-interne, la tête humérale quitte la glène. La palpation trouve la vacuité de la cavité glénoïde, et la saillie de l'acromion devient visible : c'est le signe de l'épaulette.\n\nSource : Traumatologie Complet-2.pdf, Luxation de l'épaule, 3.2.3 Signes physiques (inspection et palpation)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -115,7 +115,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux. Le syndrome de Wolkmann est une nécrose ischémique des muscles de l'avant-bras (longs fléchisseurs des doigts), surtout chez l'enfant après une fracture supracondylienne du coude ou de l'avant-bras : il siège au membre supérieur.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Fractures de l'avant-bras, syndrome de Wolkmann, p. 34 ; COURS PATHOLOGIE CHIRURGICALE (L2 2023), Fractures de l'humérus, p. 21",
+       "explanation": "Le syndrome de Volkmann frappe les muscles de l'avant-bras (longs fléchisseurs des doigts), surtout après les fractures du coude et de l'avant-bras chez l'enfant. Il ne siège pas aux membres inférieurs.\n\nSource : Traumatologie Complet-2.pdf, Fractures des deux os de l'avant-bras, V. Le syndrome de Wolkmann",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -145,7 +145,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. Une fracture pathologique survient sur un os déjà fragilisé (tumeur, métastase, ostéoporose, infection) : un traumatisme minime, voire un geste banal, suffit à la provoquer. (explication hors cours du projet)",
+       "explanation": "« Certaines fractures surviennent à la suite d'un traumatisme minime : on parle de fractures pathologiques. »\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Généralités sur les fractures, I. Définition",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -175,7 +175,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. Le volet costal est défini par deux traits de fracture sur une même côte qui isolent un fragment intermédiaire mobile : c'est une fracture étagée (double). Son instabilité entraîne la respiration paradoxale.\n\nSource : Cours de chirurgie traumatique et digestif, Traumatisme du thorax, diapo 6 ; licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Traumatisme du thorax, p. 10",
+       "explanation": "Le volet costal : deux traits de fracture sur une même côte isolent un fragment intermédiaire mobile. Deux traits délimitant un 3e fragment définissent la fracture à étage.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Traumatisme du thorax (volet costal) ; Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Généralités sur les fractures (fracture à étage)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -205,7 +205,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai selon la correction nationale. Le signe de Rovsing (douleur de la fosse iliaque droite déclenchée par la pression de la fosse iliaque gauche) est un signe classique d'appendicite aiguë. Remarque : Le cours cite le signe de Rovsing parmi les signes de l'appendicite, mais ne le qualifie pas de « pathognomonique ».\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Appendicite, Formes cliniques (Guinard, Rovsing, Blumberg), p. 115",
+       "explanation": "Le signe de Rovsing (douleur en fosse iliaque droite à la palpation du flanc gauche) oriente vers l'appendicite. Le cours le cite parmi les signes de l'appendicite. (explication hors cours du projet) pour le caractère « pathognomonique ». Remarque : Le cours cite le signe de Rovsing sans le qualifier de pathognomonique.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Appendicite aiguë, formes cliniques (Guinard, Rovsing, Blumberg)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -235,7 +235,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux. L'occlusion intestinale est un arrêt du transit dans un segment intestinal : l'occlusion haute siège sur l'intestin grêle (vomissements précoces), l'occlusion basse sur le côlon. L'œsophage ne fait pas partie de l'intestin.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, p. 125-126 ; Cours de chirurgie traumatique et digestif, diapos 229-230",
+       "explanation": "L'occlusion intestinale est un arrêt du transit dans un segment de l'intestin. L'occlusion haute siège sur le grêle, pas sur l'œsophage.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Occlusions intestinales aiguës (définition et diagnostic du siège)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -265,7 +265,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux. Dans l'étranglement herniaire, la tuméfaction est dure, tendue, douloureuse (maximum au collet), mais irréductible et non impulsive à la toux. « Réductible et impulsive » décrit la hernie simple, non compliquée.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Hernie étranglée, signes physiques, p. 108",
+       "explanation": "Dans l'étranglement, la tuméfaction est dure, tendue, douloureuse, IRréductible, non impulsive et non expansive à la toux.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Hernies, 4.2 Hernie compliquée (étranglement)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -295,7 +295,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. L'adénome de la prostate est une tumeur bénigne (hypertrophie) de la prostate du sujet âgé ; il ne donne pas de métastases. Sa gravité vient de ses complications (rétention d'urine), à distinguer du cancer de la prostate.\n\nSource : Cours de chirurgie traumatique et digestif, Adénome de la prostate, diapos 290-298",
+       "explanation": "« L'adénome de la prostate est une tumeur bénigne qui se traduit par une hyperplasie et une hypertrophie de la glande prostatique. »\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Adénome de la prostate, I. Définition",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -325,7 +325,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux. Le mal de Pott est la tuberculose disco-vertébrale, due au bacille de Koch (BK). Les ostéomyélites vertébrales à staphylocoques sont citées dans le cours comme diagnostic différentiel.\n\nSource : Cours de chirurgie traumatique et digestif, Mal de Pott, diapos 169-170",
+       "explanation": "Le mal de Pott est la tuberculose disco-vertébrale, due au bacille de Koch. Le staphylocoque donne les ostéomyélites vertébrales (diagnostic différentiel).\n\nSource : Neurochorurgie.pdf, Mal de Pott, introduction ; Cours de chirurgie traumatique et digestif.pptx, Mal de Pott (diagnostic différentiel)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -355,7 +355,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux. Le traitement associe toujours un volet médical (apport hydrique, antalgiques, antibiotiques). Le plastron appendiculaire est d'abord traité médicalement (« refroidissement » : antalgiques, vessie de glace, antibiotiques) avant l'appendicectomie. Remarque : Le Cours de chirurgie traumatique et digestif (diapo 215) écrit que « seule l'intervention chirurgicale d'urgence peut résoudre le problème du patient » : la chirurgie reste le traitement de base, mais elle n'est pas le seul traitement.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Appendicite, IX Traitement (indications), p. 117-118",
+       "explanation": "Le traitement est surtout chirurgical (appendicectomie). Le cours prévoit aussi un volet médical : apport hydrique, antalgiques, antibiotiques, et un traitement médical de « refroidissement » du plastron avant l'opération.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Appendicite aiguë, IX. Traitement (moyens médicaux, plastron)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -385,7 +385,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. L'examen de l'abdomen révèle une contracture abdominale à la palpation : c'est le signe physique majeur de la péritonite. À l'inverse, dans l'occlusion « il n'y a jamais de contracture ».\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Péritonites, période initiale, p. 130 ; Occlusions, p. 124",
+       "explanation": "Dans la péritonite par perforation, le maître signe est la contracture abdominale, qui peut aller jusqu'au « ventre de bois ».\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Péritonites (contracture à la palpation) et Contusions abdominales (2.2 Tableau de péritonite)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -415,7 +415,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. Le cours définit les occlusions fonctionnelles par le « dérèglement du système nerveux intestinal », sous forme de paralysie ou de spasme, sans obstacle organique.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Occlusions intestinales aiguës, 1.2 Occlusions fonctionnelles, p. 122",
+       "explanation": "Les occlusions fonctionnelles relèvent du dérèglement du système nerveux intestinal (paralysie ou spasmes).\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Occlusions intestinales aiguës, 1.2 Occlusions fonctionnelles",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -445,7 +445,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux. La femme a un urètre, court (environ 3 à 4 cm), qui va du col de la vessie au méat urinaire situé dans la vulve. C'est sa brièveté qui favorise les infections urinaires. (explication hors cours du projet)",
+       "explanation": "La femme a un urètre : court (3 à 4 cm) et droit, il s'ouvre dans la vulve entre le clitoris et l'orifice vaginal.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Rétrécissement de l'urètre, II. Anatomo-physiopathologie",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -475,7 +475,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux. Le cours décrit les brûlures par contact (solides chauds, liquides, gaz, flammes) et par rayonnement (rayons X, radiations atomiques), puis précise : « quel qu'en soit le type, les brûlures sont généralement graves ». Aucun type n'est plus grave par principe.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), Brûlures, II Étiologie, p. 83",
+       "explanation": "Le cours distingue brûlures par contact et brûlures par rayonnement et précise : « Quel qu'en soit le type, les brûlures sont généralement graves. » La gravité dépend de la surface, de la profondeur, de la localisation et du terrain, pas du seul mode de contact.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Brûlures 1, II. Étiologie et 3-3 Les brûlures graves",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -505,7 +505,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. Le drainage vésical en urgence se fait d'abord par sondage urétral ; la ponction sus-pubienne est le recours quand le sondage est impossible (obstacle urétral, rétrécissement, traumatisme de l'urètre).\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Rétention urinaire, 4 Traitement, p. 173-174",
+       "explanation": "Devant une rétention, « si le sondage vésical est impossible, il faut pratiquer une ponction sus-pubienne ».\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Rétrécissement de l'urètre, 7-3 Conduite à tenir ; Rétention urinaire (drainage vésical)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -535,7 +535,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. L'embarrure est une fracture du crâne avec enfoncement d'un fragment osseux vers l'intérieur de la boîte crânienne, qui peut comprimer ou léser le cerveau et nécessite souvent une intervention. (explication hors cours du projet)",
+       "explanation": "La fracture de la voûte peut être « simple ou avec embarrure » : un fragment osseux est enfoncé vers l'intérieur du crâne. Le traitement consiste à le remonter à son niveau initial.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Traumatismes crâniens, IV-B Lésions osseuses ; NEUROCHIRURGIE L3.pptx (embarrure)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -565,11 +565,10 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux : c'est l'inverse. Le score de Glasgow va de 3 à 15 ; plus il est bas, plus le traumatisme est grave (3 à 8 : grave ; 9 à 12 : modéré ; 13 à 15 : bénin). Un score élevé traduit un patient conscient.\n\nSource : NEUROCHIRURGIE L3, Traumatismes crâniens, diapos 17-23",
+       "explanation": "Un Glasgow élevé traduit un bon état neurologique (13–15 = bénin) ; un Glasgow bas (3–8) traduit un traumatisme grave.\n\nSource : NEUROCHIRURGIE L3.pptx, niveaux de gravité",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
-       "sourcePage": null,
-       "off": 1
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-chir-j1-ide__18",
@@ -596,7 +595,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. La dure-mère est l'enveloppe la plus externe du cerveau, collée à la face interne de l'os. L'hématome extradural (épidural) se collecte entre l'os du crâne et la dure-mère ; il se révèle typiquement après un intervalle libre.\n\nSource : NEUROCHIRURGIE L3, Traumatismes crâniens, anatomie (enveloppes : dure-mère la plus externe), diapo 12 ; Cours de chirurgie traumatique et digestif, diapo 112",
+       "explanation": "L'hématome extradural est une collection de sang entre la dure-mère et la face interne de l'os du crâne. (explication hors cours du projet) pour la définition exacte ; le cours décrit l'intervalle libre et les signes.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Traumatismes crâniens, VI. Hématome extradural ; ANATOMIE LIVRE 2023-2024 OK.pdf (dure-mère accolée à l'os)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -626,7 +625,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai. « L'équinisme est, avant tout, la flexion forcée du pied, abaissant la pointe et relevant le talon. » La pointe du pied est donc orientée vers le bas.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), Pieds bots congénitaux, III Pied bot varus équin, p. 81",
+       "explanation": "Dans le pied bot équin, l'équinisme est la flexion forcée du pied qui abaisse la pointe et relève le talon.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Pieds bots congénitaux, III. Le pied bot varus équin II. QCM / QRU",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -660,7 +659,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L'intervalle libre est le temps pendant lequel le blessé paraît s'améliorer (après la perte de connaissance initiale) avant que son état ne s'aggrave de nouveau : c'est l'élément essentiel du diagnostic d'hématome extradural. Ce n'est ni le délai de prise en charge, ni la durée des troubles de la conscience.\n\nSource : Cours de chirurgie traumatique et digestif, Traumatismes crâniens, diapos 110 et 112",
+       "explanation": "L'intervalle libre est le temps pendant lequel le blessé paraît s'améliorer après le traumatisme, avant que son état ne s'aggrave de nouveau.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Traumatismes crâniens, VI. Hématome extradural",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -708,7 +707,7 @@
         "D",
         "F"
        ],
-       "explanation": "Le cours décrit une douleur vive de l'avant-bras ou de la main, la cyanose et l'impotence des doigts (ischémie : doigts pâles et froids), des troubles sensitifs à la main (engourdissement, picotements) et l'abolition du pouls radial. Nausées, vomissements et hyperthermie ne font pas partie du tableau. Remarque : Le cours cite aussi l'œdème parmi les symptômes (sous plâtre, à l'avant-bras) ; l'option « œdème de la jambe » est fausse par sa localisation.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Syndrome de Wolkmann, p. 34-39",
+       "explanation": "Volkmann : douleur plus ou moins vive, œdème, cyanose, froideur des extrémités et troubles sensitifs (engourdissement, picotements). Nausées et hyperthermie n'en font pas partie. Remarque : Le cours cite aussi l'œdème parmi les signes du syndrome de Volkmann.\n\nSource : Traumatologie Complet-2.pdf, Syndrome de Wolkmann (5.2) et Rôle de l'infirmier dans la surveillance du plâtre (7.1)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -755,7 +754,7 @@
         "B",
         "F"
        ],
-       "explanation": "Causes du cours : stercolithe (fécalome), hyperplasie lymphoïde, corps étrangers, infection bacillaire de la flore intestinale, parasites intestinaux. La hernie discale (pathologie du rachis) et une alimentation pauvre en viande n'en font pas partie. Remarque : Les questions 23 et 27 sont identiques dans le sujet (options dans un ordre différent).\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Appendicite, III Pathogénie, p. 113 ; Cours de chirurgie traumatique et digestif, diapo 211",
+       "explanation": "Étiologies de l'appendicite : infection de la flore intestinale, parasites, corps étrangers, stercolithe (fécalome)… La hernie discale et une alimentation pauvre en viande n'en font pas partie.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Appendicite aiguë, III. Pathogénie ; Cours de chirurgie traumatique et digestif.pptx, III. Étiologies",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -798,7 +797,7 @@
         "B",
         "D"
        ],
-       "explanation": "Signes fonctionnels (rapportés par le blessé) : la douleur vive et l'impotence fonctionnelle. Déformation, mobilité anormale et crépitation osseuse sont des signes physiques recherchés à l'examen.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), Généralités sur les fractures, III Signes cliniques, p. 65 ; licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), fractures, signes fonctionnels",
+       "explanation": "Signes fonctionnels d'une fracture : douleur vive et impotence fonctionnelle. Crépitation, déformation et mobilité anormale se découvrent à l'examen : ce sont des signes physiques.\n\nSource : Traumatologie Complet-2.pdf, Fractures de l'humérus (4.1 signes fonctionnels) ; Fractures du fémur (2.1)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -845,7 +844,7 @@
         "C",
         "F"
        ],
-       "explanation": "Le cours prescrit : « pas de manœuvres ou de mobilisations intempestives » et « ne pas chercher à réduire une fracture ouverte ». Immobiliser le membre dans une gouttière est au contraire recommandé ; baliser le lieu protège le blessé.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Intervention infirmière dans les fractures des membres, 9.1 Soins sur les lieux de l'accident, p. 46-47",
+       "explanation": "Sur les lieux d'une fracture : pas de manœuvres ou de mobilisations intempestives et « surtout ne pas chercher à réduire une fracture ouverte ». Immobiliser et baliser sont au contraire recommandés.\n\nSource : Traumatologie Complet-2.pdf, 8.1 Soins sur les lieux de l'accident",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -893,7 +892,7 @@
         "C",
         "F"
        ],
-       "explanation": "Le cours sépare l'état neurologique (niveau de conscience, profondeur du coma) et l'état végétatif : pouls (fréquence cardiaque), tension artérielle, rythme respiratoire. La perméabilité des tuyaux concerne la surveillance des sondes.\n\nSource : NEUROCHIRURGIE L3, Traumatismes crâniens, soins postopératoires, diapos 51-52",
+       "explanation": "La surveillance de l'« état végétatif » porte sur le pouls, la tension artérielle, le rythme cardiaque et respiratoire. Conscience et profondeur du coma relèvent de l'état neurologique.\n\nSource : Neurochorurgie.pdf, Traumatismes crâniens, 4.5 Soins post-opératoires",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -940,7 +939,7 @@
         "B",
         "E"
        ],
-       "explanation": "Même question que la 23 : la hernie discale et l'alimentation pauvre en viande ne sont pas des causes d'appendicite. Corps étrangers, parasitoses, fécalome (stercolithe) et infections digestives le sont. Remarque : Les questions 23 et 27 sont identiques dans le sujet.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Appendicite, III Pathogénie, p. 113 ; Cours de chirurgie traumatique et digestif, diapo 211",
+       "explanation": "Même question que la n°23, avec les options dans un autre ordre : hernie discale et alimentation pauvre en viande ne sont pas des étiologies de l'appendicite. Remarque : Question en double dans le sujet (n°23 et n°27).\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Appendicite aiguë, III. Pathogénie",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -979,7 +978,7 @@
         "C",
         "D"
        ],
-       "explanation": "« Drainage vésical : c'est une urgence », par sondage urétral ou ponction sus-pubienne, avec une asepsie rigoureuse. L'adénomectomie est le traitement de la cause (adénome), à distance ; la cystectomie (ablation de la vessie) n'a pas sa place.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Rétention urinaire, 4 Traitement, p. 173-174 ; Cours de chirurgie traumatique et digestif, diapo 307",
+       "explanation": "Devant une rétention urinaire, le drainage vésical est une urgence : sondage urétral ou ponction sus-pubienne.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Rétention urinaire, IV. Traitement",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1013,7 +1012,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Glasgow 3 à 8 = traumatisme crânien grave ; 9 à 12 = modéré ; 13 à 15 = bénin ou léger.\n\nSource : NEUROCHIRURGIE L3, Traumatismes crâniens, diapo 23",
+       "explanation": "Traumatisme crânien grave : Glasgow de 3 à 8.\n\nSource : NEUROCHIRURGIE L3.pptx, niveaux de gravité",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1056,7 +1055,7 @@
         "B",
         "C"
        ],
-       "explanation": "Le cours prévoit, avant l'intervention, « le rasage soigneux de la totalité du cuir chevelu et sa détersion ». La mise en place d'une ou deux voies veineuses aux membres supérieurs permet la réanimation et les transfusions pendant l'opération. Remarque : La voie veineuse est un soin préopératoire général ; le cours de neurochirurgie ne la détaille pas pour ce cas (partie hors cours du projet).\n\nSource : NEUROCHIRURGIE L3, Traumatismes crâniens, traitement chirurgical, diapo 48",
+       "explanation": "Avant l'opération du TC : rasage soigneux de la totalité du cuir chevelu, et mise en place d'une ou deux voies veineuses aux membres supérieurs.\n\nSource : NEUROCHIRURGIE L3.pptx, Traumatismes crâniens, 4.3 Soins pré-opératoires et 4.4 Traitement chirurgical",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1095,7 +1094,7 @@
         "B",
         "C"
        ],
-       "explanation": "Signes physiques du globe vésical : une masse hypogastrique pouvant remonter jusqu'à l'ombilic et une douleur à la palpation augmentant le besoin d'uriner. Le besoin impérieux et l'impossibilité d'uriner sont des signes fonctionnels.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Rétention aiguë d'urines, 1.2.2 Signes physiques, p. 170-171",
+       "explanation": "Signes physiques du globe vésical : masse hypogastrique et douleur à la palpation augmentant le besoin d'uriner. L'impossibilité d'uriner et le besoin impérieux sont des signes fonctionnels.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Rétention urinaire, 1-2 Clinique",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1133,7 +1132,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "« Le germe le plus souvent incriminé est le bacille de Koch (BK), donc d'origine tuberculeuse. » Staphylocoque et streptocoque sont les germes de l'abcès chaud.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), Abcès froid, p. 33",
+       "explanation": "L'abcès froid est le plus souvent d'origine tuberculeuse (bacille de Koch).\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Abcès froid, II. Étiologies",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1176,7 +1175,7 @@
         "A",
         "E"
        ],
-       "explanation": "Avant de poser une poche de sang, on vérifie la compatibilité (contrôle ultime au lit du malade : identité, groupe sanguin du patient et de la poche) et on s'assure que le malade n'a pas de besoin urgent à satisfaire (uriner, par exemple), pour ne pas interrompre la transfusion. Régler le débit et vérifier l'écoulement se font pendant la transfusion. (explication hors cours du projet)",
+       "explanation": "Avant de poser la poche : faire le test de compatibilité (contrôle ultime) et s'assurer que le patient n'a pas un besoin urgent à satisfaire, car il restera longtemps perfusé. (explication hors cours du projet)\n\nSource : —",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1210,7 +1209,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le cours décrit : préparation de la peau (brossage, eau-savon = détersion), puis rasage large, puis désinfection (alcool, Bétadine). Ordre : Détersion / Rasage / Désinfection ; la désinfection vient toujours en dernier.\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Fractures, 9.2.2 Soins préopératoires (préparer le champ opératoire), p. 48",
+       "explanation": "Préparation du champ opératoire : savonnage large provoquant une détersion de la peau, puis rasage, puis désinfection (badigeonnage antiseptique).\n\nSource : Techniques de soins infirmiers spécialisés en chirurgie, L3 (TECHNIQUES DE SOINS INFIRMIERS SPECIALISÉS EN CHIRURGIE.pdf), L'intervention chirurgicale, 2. Préparation locale ; Traumatologie Complet-2.pdf, 8.2.2.5",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1293,7 +1292,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "« La rétention aiguë ou complète se traduit par l'impossibilité brutale et totale d'uriner ou d'émettre des urines. » L'impossibilité de vider totalement la vessie définit la rétention chronique (incomplète).\n\nSource : licence 2 ide (Prise en charge infirmière des pathologies chirurgicales L2), Rétention urinaire, 1.1 Définition, p. 170",
+       "explanation": "« La rétention aiguë ou complète se traduit par l'impossibilité brutale et totale d'uriner ou d'émettre des urines. » L'impossibilité de vider totalement la vessie définit la rétention chronique.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Rétention urinaire, 1-1 et 2-1 Définitions III. ÉTUDE DE CAS N°1",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1327,7 +1326,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Paralysie des quatre membres = tétraplégie. La paraplégie touche les deux membres inférieurs, la monoplégie un seul membre.\n\nSource : ARTHROLOGIE COMPLET, vocabulaire ; Cours de chirurgie traumatique et digestif, Fractures du rachis, diapo 152",
+       "explanation": "Les quatre membres sont paralysés : c'est une tétraplégie.\n\nSource : Neurochorurgie.pdf, Fracture du rachis (examen de la motricité)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1361,7 +1360,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le cours indique que les lésions de la moelle donnent « une tétraplégie pour le rachis cervical » et une paraplégie pour le rachis dorsolombaire. Les quatre membres étant paralysés, le segment atteint est cervical. (« Coxal » n'est pas un segment du rachis.)\n\nSource : Cours de chirurgie traumatique et digestif, Fractures du rachis, diapo 152",
+       "explanation": "Une atteinte médullaire du rachis cervical donne une tétraplégie.\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Fractures du rachis, IV-2 Symptômes neurologiques",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1409,7 +1408,7 @@
         "D",
         "E"
        ],
-       "explanation": "La chute a pu provoquer une fracture ou une luxation cervicale, avec atteinte de la moelle : compression (récupération possible si elle est levée vite) ou traumatisme médullaire (section, contusion). Traumatismes crânien, thoracique ou du bassin ne donnent pas une tétraplégie.\n\nSource : Cours de chirurgie traumatique et digestif, Fractures du rachis, III Anatomie pathologique, diapos 149-150",
+       "explanation": "Après une chute avec tétraplégie, on suspecte des lésions du rachis cervical : fracture ou luxation cervicale, avec atteinte de la moelle (traumatisme médullaire, compression médullaire).\n\nSource : Cours de chirurgie traumatique et digestif.pptx, Fractures du rachis, III. Anatomie pathologique (compression, section)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1455,7 +1454,7 @@
        "answerLetters": [
         "F"
        ],
-       "explanation": "La prévention des escarres repose sur les changements de position, des draps toujours secs et bien tirés (réfection du lit dès qu'il est souillé), des soins d'hygiène et du siège, et la protection de la peau. Utiliser des produits irritants sur la peau favorise au contraire les escarres. Remarque : La sonde nasogastrique et la sonde à demeure ne sont pas, à proprement parler, des mesures anti-escarres (elles servent l'alimentation et l'élimination) ; la correction nationale retient seulement les produits irritants.\n\nSource : Cours de chirurgie traumatique et digestif, Fractures du rachis, 8-3 Prévention des escarres, diapo 158",
+       "explanation": "La prévention des escarres : changement de position toutes les 2 heures, draps secs et tirés, soins d'hygiène, sonde à demeure contre les troubles urinaires. Les produits irritants sur la peau sont à proscrire.\n\nSource : Traumatologie Complet-2.pdf, 8.2.4.1.11 Prévenir les escarres ; Cours de chirurgie traumatique et digestif.pptx, Fractures du rachis (rôle de l'infirmier) IV. ÉTUDE DE CAS N°2",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1537,7 +1536,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Colonne adulte : tronc antérieur 13 % + une cuisse 9,5 % + organes génitaux externes 1 % = 23,5 %.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (4.2 Table de Lund et Browder, colonne adulte)",
+       "explanation": "Table de Lund et Browder (adulte) : tronc antérieur 13 % + une cuisse 9,5 % + organe génital externe 1 % = 23,5 %.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Brûlures 2, Table de Lund et Browder",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1606,7 +1605,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Selon le cours : somme < 50 → guérison infiniment probable ; entre 50 et 100 → une chance sur deux de guérison ; > 100 → mort quasi certaine. Avec 72,5 (ou 87,5), on est entre 50 et 100. Remarque : Le sujet écrit « M. Kouadio » alors que le cas parle de « Mme Kouakou ».\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (5-5 Pronostic)",
+       "explanation": "Somme âge + étendue entre 50 et 100 : le brûlé a une chance sur deux de guérir. C'est le cas avec 72,5 comme avec 87,5. Remarque : L'énoncé passe de « Mme Kouakou » à « M. Kouadio » : il s'agit bien de la même patiente.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Brûlures 1, 5-5 Pronostic",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1640,7 +1639,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Les circonstances de survenue regroupent le temps d'exposition (plus il est long, plus la brûlure est profonde), le type de produit et la position de la victime par rapport au foyer. La destruction de la membrane basale relève de la profondeur ; la brûlure des orifices naturels, de la localisation.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (IV Critères de gravité, 4.1 Circonstances de survenue)",
+       "explanation": "Les circonstances de survenue comptent parmi les critères de gravité, notamment le temps d'exposition : plus il est long, plus la brûlure est profonde.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Brûlures 2, IV. Critères de gravité (4.1 Circonstances de survenue)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1683,7 +1682,7 @@
         "C",
         "D"
        ],
-       "explanation": "Premiers secours : refroidissement par l'eau à 15 °C pendant environ 15 minutes, couvrir la victime de champs stériles ou de draps propres, puis couverture d'isolation thermique. Corriger les détresses vitales et évaluer la SCB relèvent du bilan lésionnel ; l'Acupan IV relève de l'analgésie.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (5.1 Premiers secours)",
+       "explanation": "Premiers secours : refroidir par de l'eau à 15 °C pendant environ 15 minutes, enlever les vêtements imbibés, couvrir avec des champs stériles ou des draps propres. Évaluer la surface et l'antalgie (Acupan) viennent ensuite (bilan, analgésie).\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Brûlures 2, V. Conduite à tenir (5.1 Premiers secours)",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1717,7 +1716,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Règle de Baxter : QJ1 = 4 mL × 65 kg × 23,5 = 6 110 mL.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (5.3 Réanimation hydroélectrolytique : J1 = Poids × 4 × SCB)",
+       "explanation": "Baxter J1 : poids × 4 × % SCB = 65 × 4 × 23,5 = 6 110 ml.\n\nSource : Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Brûlures 2, 5.3 Réanimation hydroélectrolytique",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null
@@ -1751,7 +1750,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "6 110 mL ÷ 500 mL = 12,2 flacons : 12 flacons ne suffisent pas (6 000 mL), il en faut 13.\n\nSource : COURS PATHOLOGIE CHIRURGICALE SEMIOLOGIE (L1 IDE-SF), chapitre Brûlures, p. 85-101 (5.3)",
+       "explanation": "6 110 / 500 = 12,2 flacons : il faut donc 13 flacons de 500 ml.\n\nSource : Calcul à partir de Pathologie chirurgicale – Sémiologie L1 (PATHOLOGIE CHIRUR-SEMIO L1), Brûlures 2, 5.3",
        "sourceDoc": "Préparation D.E (J) · J1 Chirurgie IDE",
        "sourceFile": "J1_CHIRURGIE_IDE_corrige_explique.pdf",
        "sourcePage": null

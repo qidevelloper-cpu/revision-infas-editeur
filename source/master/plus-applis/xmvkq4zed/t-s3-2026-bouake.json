@@ -2389,11 +2389,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. Vrai",
+       "answer": "B. Faux",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "Contrairement à la formulation « plus le score est élevé » (qui était fausse dans les autres sujets), ici l'énoncé dit bien « Plus le score de Glasgow est BAS » (proche de 3) : l'état neurologique du patient est effectivement très grave/comateux (grabataire) !\n\nSource : Campus Français de Neurochirurgie - Prise en charge des traumatismes crâniens et score de Glasgow — https://campus.neurochirurgie.fr/article1785.html",
+       "explanation": "Un Glasgow élevé traduit un bon état neurologique (13–15 = bénin) ; un Glasgow bas (3–8) traduit un traumatisme grave.\n\nSource : NEUROCHIRURGIE L3.pptx, niveaux de gravité",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -2539,11 +2539,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. Vrai",
+       "answer": "B. Faux",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "Question identique à Man Chirurgie Q24 : le traitement de référence est l'appendicectomie chirurgicale.\n\nSource : Sémiologie et Urgences Chirurgicales Digestives : Péritonites aiguës et Occlusions intestinales — https://www.mcours.net/fra19/fra19rapham1718.pdf",
+       "explanation": "Le traitement est surtout chirurgical (appendicectomie). Le cours prévoit aussi un volet médical : apport hydrique, antalgiques, antibiotiques, et un traitement médical de « refroidissement » du plastron avant l'opération.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Appendicite aiguë, IX. Traitement (moyens médicaux, plastron)",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -2573,7 +2573,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La contracture abdominale généralisée (« ventre de bois ») est le signe physique majeur de la péritonite aiguë.\n\nSource : Sémiologie et Urgences Chirurgicales Digestives : Péritonites aiguës et Occlusions intestinales — https://www.mcours.net/fra19/fra19rapham1718.pdf",
+       "explanation": "Dans la péritonite par perforation, le maître signe est la contracture abdominale, qui peut aller jusqu'au « ventre de bois ».\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Péritonites (contracture à la palpation) et Contusions abdominales (2.2 Tableau de péritonite)",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -2663,7 +2663,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Question identique à Man Chirurgie Q20 : les occlusions intestinales hautes siègent sur l'intestin grêle.\n\nSource : Sémiologie et Urgences Chirurgicales Digestives : Péritonites aiguës et Occlusions intestinales — https://www.mcours.net/fra19/fra19rapham1718.pdf",
+       "explanation": "L'occlusion intestinale est un arrêt du transit dans un segment de l'intestin. L'occlusion haute siège sur le grêle, pas sur l'œsophage.\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Occlusions intestinales aiguës (définition et diagnostic du siège)",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
@@ -2693,7 +2693,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Question identique à Man Chirurgie Q26.\n\nSource : Sémiologie et Urgences Chirurgicales Digestives : Péritonites aiguës et Occlusions intestinales — https://www.mcours.net/fra19/fra19rapham1718.pdf",
+       "explanation": "Les occlusions fonctionnelles relèvent du dérèglement du système nerveux intestinal (paralysie ou spasmes).\n\nSource : Cours L2 IDE « Prise en charge infirmière des pathologies chirurgicales » (licence 2 ide.pdf), Occlusions intestinales aiguës, 1.2 Occlusions fonctionnelles",
        "sourceDoc": "Corrigé intégral D.E blancs 2026 INFAS (8 antennes)",
        "sourceFile": "Corrige_Integral_DE_Blancs_2026_INFAS_8_Antennes.docx",
        "sourcePage": null
