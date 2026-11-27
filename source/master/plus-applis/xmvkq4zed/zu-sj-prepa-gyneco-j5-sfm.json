@@ -21,7 +21,7 @@
    "existe": true,
    "sujets": [
     {
-     "name": "J Gynéco-obstétrique · Prépa D.E J5 (SFM)",
+     "name": "J Gynéco-obstétrique · Prépa D.E J5 (SFM) · J5 et J8 identiques",
      "slug": "prepa-gyneco-j5-sfm",
      "pages": "",
      "count": 50,
@@ -55,7 +55,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Devant un placenta prævia avec hémorragie importante (abondante ou continue), la conduite est l'évacuation utérine par césarienne en urgence au centre de référence, après mise en condition de la patiente.\n\nSource : SONU L3 (2024-2025), « CAT devant un placenta prævia » et « CAT devant une hémorragie en fin de grossesse »",
+       "explanation": "Devant un placenta prævia responsable d'hémorragies abondantes mettant en jeu le pronostic vital maternel et/ou fœtal, l'extraction fœtale en urgence par césarienne (associée à la réanimation et à la transfusion sanguine) s'impose sans délai.\n\nSource : Cours de Gynéco-Obstétrique L3 — Métrorragies du 3e trimestre : conduite à tenir devant un placenta prævia.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -81,15 +81,14 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. Vrai",
+       "answer": "B. Faux",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ». Le cours définit la présentation du front comme une présentation céphalique avec une déflexion partielle (moyenne) de la tête ; la déflexion totale (maximale) correspond à la présentation de la face.\n\nSource : Cours Gynéco-Obstétrique 1re année INFAS, « Présentations fœtales »",
+       "explanation": "La présentation du front est une présentation céphalique intermédiaire en déflexion partielle (attitude indifférente) ; c'est la présentation de la face qui correspond à une déflexion totale (hyperextension) de la tête fœtale.\n\nSource : Cours de Gynéco-Obstétrique — Les présentations céphaliques défléchies (bregma, front, face).",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j5-sfm__2",
@@ -112,11 +111,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. Vrai",
+       "answer": "B. Faux",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ». La dessiccation (et le refroidissement) du cordon survient quand le cordon prolabé est exposé à l'air, ce qui comprime et lèse les vaisseaux. (explication hors cours du projet) Remarque : Dans ce même sujet (question 26), le degré où le cordon est extériorisé à la vulve est le degré III ; c'est à ce degré que la dessiccation est la plus marquée.",
+       "explanation": "Le refroidissement et la dessiccation de la gelée de Wharton (entraînant un spasme des vaisseaux ombilicaux) surviennent lorsque le cordon est exposé à l'air libre hors des voies génitales, c'est-à-dire dans la procidence du cordon du 3e degré (extériorisée à la vulve), et non au 2e degré (intravaginal).\n\nSource : Cours de Gynéco-Obstétrique — Physiopathologie et degrés de la procidence du cordon.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -142,15 +141,14 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. Faux",
+       "answer": "A. Vrai",
        "answerLetters": [
-        "B"
+        "A"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient « Faux ».\n\nSource : Gynécologie-Obstétrique L3, chap. 35 « L'épreuve du travail »",
+       "explanation": "L'épreuve du travail consiste à observer sous surveillance stricte en milieu chirurgical la confrontation céphalo-pelvienne lors d'une tentative d'accouchement par voie basse chez une parturiente présentant un bassin rétréci limite (avec présentation céphalique bien fléchie et fœtus de poids normal), afin d'éviter une césarienne prophylactique abusive.\n\nSource : Cours de Gynéco-Obstétrique L3 — L'épreuve du travail (définition et indications).",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j5-sfm__4",
@@ -177,7 +175,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L'autopalpation des seins est faite par la femme elle-même (une fois par mois chez toute femme de plus de 20 ans). L'examen par un personnel qualifié s'appelle la palpation par le médecin.\n\nSource : Gynéco L2 IDE version 2025, « Le cancer du sein », Dépistage",
+       "explanation": "Comme son nom l'indique, l'autopalpation mammaire est un geste d'autosurveillance pratiqué par la femme elle-même (chaque mois après les règles), tandis que la palpation mammaire clinique est réalisée par le professionnel de santé.\n\nSource : Cours de Gynéco-Obstétrique — Dépistage et prévention du cancer du sein.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -203,11 +201,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. Faux",
+       "answer": "A. Vrai",
        "answerLetters": [
-        "B"
+        "A"
        ],
-       "explanation": "La mammographie est le seul examen complémentaire de dépistage de masse du cancer du sein (femmes à risque, femmes de 50 à 69 ans). L'échographie mammaire est un examen de diagnostic, pas l'examen de prévention.\n\nSource : Gynéco L2 IDE version 2025, « Le cancer du sein », Dépistage et Examens complémentaires",
+       "explanation": "Chez la femme jeune (moins de 35-40 ans) dont les seins sont denses et riches en tissu glandulaire, l'échographie mammaire est l'examen d'imagerie de première intention recommandé, la mammographie étant moins performante avant la ménopause.\n\nSource : Cours de Gynéco-Obstétrique — Explorations sénologiques et cancer du sein.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -237,11 +235,10 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Être une femme est le principal facteur de risque du cancer du sein (environ 99 % des cas surviennent chez la femme), devant l'âge et les antécédents familiaux. (explication hors cours du projet) Remarque : La liste des facteurs de risque du cours (L2 IDE) ne cite pas le sexe.",
+       "explanation": "Le sexe féminin est le principal facteur de risque non modifiable du cancer du sein (près de 99 % des cancers du sein surviennent chez la femme, contre moins de 1 % chez l'homme), suivi de l'âge.\n\nSource : Cours de Gynéco-Obstétrique — Facteurs de risque du cancer du sein.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j5-sfm__7",
@@ -268,7 +265,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L'épaule négligée est l'aboutissement de toute présentation de l'épaule non prise en charge : membranes rompues, utérus rétracté, procidence d'un bras, fœtus le plus souvent mort pendant le travail.\n\nSource : Cours Gynéco-Obstétrique 1re année INFAS, « Présentations fœtales », Présentation de l'épaule négligée",
+       "explanation": "L'épaule négligée correspond à l'évolution dramatique d'une présentation transversale méconnue ou non prise en charge à temps : après rupture des membranes et rétraction de l'utérus sur le fœtus, l'épaule s'enclave dans l'excavation avec risque majeur de mort fœtale et de rupture utérine.\n\nSource : Cours de Gynéco-Obstétrique — Présentation de l'épaule négligée.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -298,7 +295,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Dans le siège complet, le fœtus est assis en tailleur : au toucher on perçoit les fesses et les pieds. Dans le siège décomplété (mode des fesses), on ne perçoit que les fesses.\n\nSource : SONU L3 (2024-2025), « Accouchement du siège » ; Cours de soins obstétricaux 2e année SF, « Présentation du siège »",
+       "explanation": "Dans la présentation du siège complet (fœtus assis en tailleur avec jambes fléchies sur les cuisses et cuisses fléchies sur le bassin), le toucher vaginal perçoit les fesses accompagnées d'un ou des deux pieds dans l'aire de dilatation cervicale.\n\nSource : Cours de Gynéco-Obstétrique L3 — Diagnostic clinique de la présentation du siège (p. 68).",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -328,7 +325,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L'accrochage des mentons survient quand J1 est en siège et J2 en présentation céphalique : la tête dernière de J1 s'accroche à la tête de J2 qui s'engage. Avec J1 céphalique et J2 en siège, il n'y a pas d'accrochage.\n\nSource : SONU L3 (2024-2025), « Accouchement gémellaire », Complications particulières",
+       "explanation": "L'accrochage des mentons (collision des pôles céphaliques au détroit supérieur) est une complication rare qui survient uniquement lorsque le premier jumeau (J1) est en présentation du siège et le second jumeau (J2) en présentation céphalique (et non l'inverse).\n\nSource : Cours de Gynéco-Obstétrique L3 — Dystocies de l'accouchement gémellaire (accrochage des mentons).",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -358,7 +355,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L'autopalpation se fait une fois par mois (de préférence après les règles), et non chaque trimestre.\n\nSource : Gynéco L2 IDE version 2025, « Le cancer du sein », Dépistage",
+       "explanation": "L'autopalpation mammaire doit être pratiquée par la femme chaque mois (et non chaque trimestre), idéalement quelques jours après la fin des règles (entre le 7e et le 10e jour du cycle) lorsque les seins sont souples et moins congestionnés.\n\nSource : Cours de Gynéco-Obstétrique — Prévention et dépistage du cancer du sein (autopalpation). CORRIGÉ EXPLIQUÉ — PRÉPA DE INFAS",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -388,7 +385,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Au toucher vaginal, le signe de Farabeuf est le plus couramment utilisé : la présentation est engagée si les deux doigts vaginaux ne peuvent pas passer entre la présentation et la concavité sacrée.\n\nSource : Gynécologie-Obstétrique L3, « Diagnostic de l'engagement » ; Cours Gynéco-Obstétrique 1re année INFAS, « Mécanisme de l'accouchement »",
+       "explanation": "La recherche du signe de Farabœuf au toucher vaginal (impossibilité d'introduire deux doigts vaginaux entre le pôle céphalique et la concavité sacrée sous S2) est la manœuvre clinique de référence utilisée pour affirmer l'engagement de la présentation du sommet.\n\nSource : Cours de Gynéco-Obstétrique — Diagnostic de l'engagement (signe de Farabœuf).",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -418,7 +415,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le cours demande de penser systématiquement à l'atonie utérine devant toute HPPI ; c'est la première cause (le « T » du Tonus dans les 4 T).\n\nSource : Gynécologie-Obstétrique L3, « CAT devant une hémorragie du post-partum »",
+       "explanation": "L'atonie (inertie) utérine représente environ 70 à 80 % des cas d'hémorragie du post-partum immédiat (HPPI), devant la rétention placentaire, les traumatismes de la filière génitale et les troubles de la coagulation.\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU — Étiologies des hémorragies du post-partum immédiat.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -448,7 +445,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le cancer du sein est un cancer en partie hormono-dépendant (et en partie lié à l'hérédité), d'où l'hormonothérapie si le cancer est RH+.\n\nSource : Gynéco L2 IDE version 2025, « Le cancer du sein », Introduction",
+       "explanation": "Le cancer du sein est un cancer fortement hormono-dépendant (sensible aux œstrogènes et à la progestérone dans la majorité des cas), ce qui explique le rôle des facteurs liés à l'imprégnation œstrogénique prolongée (puberté précoce, ménopause tardive, nulliparité) et l'intérêt de l'hormonothérapie.\n\nSource : Cours de Gynéco-Obstétrique — Physiopathologie et facteurs de risque du cancer du sein.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -478,7 +475,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Les grossesses dizygotes (bi-ovulaires) proviennent de deux ovules fécondés : elles sont toujours bichoriales biamniotiques et ne donnent jamais de siamois. Les siamois résultent d'une division très tardive d'un œuf unique (monozygote). (explication hors cours du projet)",
+       "explanation": "Ce phénomène concerne exclusivement les grossesses gémellaires monozygotes (univitellines, issues de la division d'un seul œuf fécondé) : lorsque cette division survient très tardivement (après le 13e jour post-fécondation), elle est incomplète et donne naissance à des jumeaux conjoints (siamois). Les grossesses dizygotes proviennent de deux œufs distincts sans division.\n\nSource : Cours de Gynéco-Obstétrique L3 — Embryologie des grossesses gémellaires monozygotes.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -508,7 +505,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Les dystocies dynamiques ont leur traitement propre (correction de l'hypo- ou de l'hypercinésie, antispasmodiques, ocytocine en centre équipé…). La césarienne n'est indiquée qu'en cas d'échec ou de complication, pas d'emblée en urgence.\n\nSource : Gynécologie-Obstétrique L3, « Dystocies »",
+       "explanation": "Les dystocies dynamiques (anomalies des contractions utérines : hypocinésie ou hypercinésie) relèvent d'abord d'un traitement médical obstétrical adapté (perfusion d'ocytocine en cas d'hypocinésie après vérification de l'absence de disproportion fœto-pelvienne, antispasmodiques/analgésie en cas d'hypercinésie) ; la césarienne n'est indiquée qu'en cas d'échec du traitement médical ou de souffrance fœtale associée.\n\nSource : Cours de Gynéco-Obstétrique — Les dystocies dynamiques.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -538,7 +535,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le fibrome (myome) utérin est une tumeur bénigne du muscle utérin, souvent associée à la grossesse.\n\nSource : Gynécologie-Obstétrique L3 et Gynéco L2 IDE version 2025, « Fibrome et grossesse »",
+       "explanation": "Le fibrome utérin (léiomyome ou myome utérin) est la tumeur bénigne la plus fréquente de l'appareil génital féminin, développée aux dépens des fibres musculaires lisses du myomètre et du tissu conjonctif.\n\nSource : Cours de Gynéco-Obstétrique L3 — Fibromes utérins et grossesse.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -568,7 +565,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Pendant la grossesse, le liquide amniotique provient surtout des urines fœtales ; la voie digestive (déglutition fœtale) sert à sa résorption, pas à sa sécrétion. (explication hors cours du projet)",
+       "explanation": "La production (sécrétion) du liquide amniotique est essentiellement fœtale mais se fait par voie urinaire (diurèse fœtale) et pulmonaire ; la voie digestive (déglutition fœtale) assure au contraire la résorption (élimination) du liquide amniotique.\n\nSource : Cours de Gynéco-Obstétrique — Formation et résorption du liquide amniotique.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -598,11 +595,10 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ». Les causes obstétricales directes de décès maternels du cours sont : hémorragies 21 %, avortements à risque 14 %, éclampsies 13 %, travail dystocique 8 %, infection 8 %.\n\nSource : Cours de soins obstétricaux 2e année SF, « Généralités sur les SONU » ; Cours Gynéco-Obstétrique 1re année INFAS, « Généralités sur les SONU »",
+       "explanation": "À l'échelle mondiale et en Afrique subsaharienne, les syndromes hypertensifs gravidiques (prééclampsie et éclampsie) constituent la deuxième cause directe de mortalité maternelle, juste derrière les hémorragies obstétricales graves.\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU — Épidémiologie de l'HTA et grossesse.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j5-sfm__19",
@@ -629,7 +625,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La phase folliculaire (du début des règles au 13e jour) est dominée par la sécrétion d'œstrogènes par le follicule en croissance ; la phase lutéale est oestro-progestative.\n\nSource : Cours Gynéco-Obstétrique 1re année INFAS, « Le cycle menstruel normal »",
+       "explanation": "Durant la première phase du cycle menstruel (phase folliculaire ou pré-ovulatoire), les follicules ovariens en croissance sous l'action de la FSH sécrètent principalement des œstrogènes (œstradiol) qui assurent la prolifération de l'endomètre, tandis que la progestérone prédomine en phase lutéale.\n\nSource : Cours de Gynéco-Obstétrique — Physiologie du cycle ovarien et endométrial.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -672,7 +668,7 @@
         "B",
         "E"
        ],
-       "explanation": "Premier retard (décision de consulter) : méconnaissance des signes de danger, lenteur de la prise de décision, faible pouvoir de décision de la femme. L'insuffisance de moyens de référence relève du 2e retard ; le retard d'exécution des soins et l'insuffisance de personnel relèvent du 3e retard.\n\nSource : Cours de soins obstétricaux 2e année SF, « Généralités sur les SONU », Les trois retards",
+       "explanation": "Dans le modèle des « trois retards » expliquant la mortalité maternelle, le premier retard (retard à la décision de recourir aux soins) est lié aux facteurs familiaux et communautaires, notamment la méconnaissance des signes de danger et le faible pouvoir décisionnel ou financier de la femme. L'insuffisance de moyens d'évacuation relève du 2e retard, et l'insuffisance de personnel ou le retard de soins du 3e retard.\n\nSource : Cours SONU L3 / Gynéco-Obstétrique — Mortalité maternelle et modèle des trois retards.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -710,7 +706,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Après une mort fœtale, la complication la plus redoutée est le trouble de la coagulation (fibrinogène < 1,5 g/l, risque d'afibrinogénémie avec hémorragie), surtout après plusieurs semaines de rétention.\n\nSource : Gynécologie-Obstétrique L3, chap. 20 « La mort fœtale », Complications",
+       "explanation": "En cas de rétention prolongée d'un fœtus mort in utero (au-delà de 2 à 4 semaines), la complication maternelle la plus redoutable est la survenue de troubles graves de l'hémostase par coagulation intravasculaire disséminée (CIVD) et fibrinolyse due au passage de thromboplastines ovulaires dans la circulation maternelle.\n\nSource : Cours de Gynéco-Obstétrique L3 — La mort fœtale in utero (MFIU).",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -748,7 +744,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Après épisiotomie : toilette vulvaire biquotidienne et après chaque émission d'urine ou de selles, périnée gardé sec, garniture changée souvent, et « ne pas faire de bain de siège ».\n\nSource : Gynéco L2 IDE version 2025, « Suites de couches », Soins en cas d'épisiotomie",
+       "explanation": "Après la réfection d'une épisiotomie, la cicatrice périnéale doit être maintenue propre et bien sèche (toilette vulvaire antiseptique suivie d'un séchage doux) ; les bains de siège sont proscrits car ils favorisent la macération, la désunion des fils et l'infection de la plaie.\n\nSource : Cours de Gynéco-Obstétrique L3 — L'épisiotomie et sa réfection (p. 67).",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -786,7 +782,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "La manœuvre de Mauriceau est indiquée en cas de rétention de la tête dernière dans l'excavation. Bracht sert au dégagement d'une tête déjà basse, Lovset au relèvement des bras ; Vermelin est l'attitude abstentionniste.\n\nSource : SONU L3 (2024-2025), « Accouchement du siège », Méthodes interventionnistes",
+       "explanation": "La manœuvre de Mauriceau est la manœuvre spécifique indiquée pour fléchir, orienter et extraire la tête dernière retenue dans l'excavation pelvienne lors de l'accouchement en présentation du siège.\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU — Manœuvres obstétricales dans l'accouchement du siège.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -824,7 +820,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "La présentation du front est hautement dystocique : son diamètre d'engagement (syncipito-mentonnier, 13,5 cm) ne peut pas franchir le détroit supérieur ; la césarienne est obligatoire.\n\nSource : Cours Gynéco-Obstétrique 1re année INFAS, « Présentations fœtales » ; Cours de soins obstétricaux 2e année SF, « Les différentes présentations »",
+       "explanation": "La présentation du front (présentation céphalique intermédiaire en déflexion partielle fixée) est la plus dystocique des présentations céphaliques car elle présente son plus grand diamètre (syncipito-mentonnier de 13,5 cm), rendant l'accouchement par voie basse impossible à terme et imposant la césarienne.\n\nSource : Cours de Gynéco-Obstétrique — Les présentations dystociques (présentation du front).",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -862,7 +858,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient le degré III pour un cordon extériorisé à la vulve (degrés croissants selon la descente du cordon : dans le vagin, puis à la vulve). (explication hors cours du projet)",
+       "explanation": "Dans la classification anatomo-clinique de la procidence du cordon : au degré I, le cordon est perçu dans l'aire de dilatation cervicale sans descendre dans le vagin ; au degré II, il descend dans le vagin sans atteindre la vulve ; au degré III, l'anse funiculaire s'extériorise hors de la vulve.\n\nSource : Cours de Gynéco-Obstétrique — La procidence du cordon ombilical.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -900,7 +896,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Une dilatation stationnaire peut s'observer pendant la phase de latence comme pendant la phase active du travail ; c'est un signe d'alerte (le cours la cite parmi les signes de pré-rupture utérine et d'échec de l'épreuve du travail). (explication partiellement hors cours du projet)\n\nSource : Gynéco L2 IDE version 2025, « Rupture utérine », Syndrome de pré-rupture ; Gynécologie-Obstétrique L3, « L'épreuve du travail »",
+       "explanation": "Une anomalie de progression de la dilatation cervicale (arrêt ou stagnation de la dilatation sur deux examens successifs) peut s'observer aussi bien durant la phase de latence (phase de latence prolongée) que durant la phase active du travail (dilatation stationnaire proprement dite).\n\nSource : Cours de Gynéco-Obstétrique / SONU — Surveillance du travail et anomalies de la dilatation.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -938,7 +934,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "À partir du 2e trimestre, la principale source du liquide amniotique est la diurèse (urines) du fœtus ; un oligoamnios peut ainsi révéler une anomalie rénale fœtale. (explication hors cours du projet)",
+       "explanation": "À partir de la deuxième moitié de la grossesse, le liquide amniotique est produit principalement par la diurèse fœtale (urines du fœtus) et les sécrétions broncho-pulmonaires fœtales, tandis que sa résorption est assurée par la déglutition fœtale.\n\nSource : Cours de Gynéco-Obstétrique — Physiologie des annexes fœtales (liquide amniotique).",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -976,7 +972,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le traitement de la GEU vise à arrêter l'hémorragie, retirer la grossesse ectopique et, chaque fois que possible, préserver la fertilité (traitement conservateur de la trompe). Augmenter les β-HCG ou faire migrer l'œuf est impossible. (explication hors cours du projet) Remarque : Le cours SONU L2 décrit la conduite à tenir (référence, traitement chirurgical) sans lister les objectifs du traitement.",
+       "explanation": "Outre le sauvetage maternel par suppression de la grossesse ectopique et contrôle de l'hémorragie, l'un des objectifs essentiels de la prise en charge (traitement médical par méthotrexate ou chirurgie conservatrice par salpingotomie) est de préserver autant que possible la fertilité ultérieure de la patiente.\n\nSource : Cours de Gynéco-Obstétrique — La grossesse extra-utérine (GEU).",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -1019,11 +1015,10 @@
         "B",
         "D"
        ],
-       "explanation": "La SFA est une urgence fœtale ; en périphérie, c'est un motif de transfert urgent vers un centre médico-chirurgical (l'accouchement n'est pas imminent à 3 cm). La correction nationale de la Prépa DE (les J) retient aussi le sérum glucosé hypertonique à 10 % comme mesure de réanimation in utero. Les ocytociques aggravent la souffrance fœtale. (explication partiellement hors cours du projet) Remarque : Le sérum glucosé à 10 % n'est pas cité dans le cours.\n\nSource : Gynéco L2 IDE version 2025, « La souffrance fœtale aiguë », Attitude thérapeutique",
+       "explanation": "Dans un centre de santé urbain (structure SONU-B dépourvue de bloc opératoire) devant une souffrance fœtale aiguë à 3 cm de dilatation, la conduite d'urgence associe les mesures de réanimation fœtale in utero (décubitus latéral gauche, arrêt des ocytociques, oxygénothérapie et perfusion de sérum glucosé hypertonique à 10 %) à l'évacuation sanitaire urgente vers un centre obstétrico-chirurgical (SONU-C) pour césarienne de sauvetage.\n\nSource : Cours SONU L3 / Gynéco-Obstétrique — Conduite à tenir devant une souffrance fœtale aiguë (SFA).",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j5-sfm__30",
@@ -1063,7 +1058,7 @@
         "A",
         "C"
        ],
-       "explanation": "Grossesse bi-ovulaire (dizygote) = faux jumeaux, issus de deux ovules et deux spermatozoïdes : toujours bichoriale biamniotique, fœtus de même sexe ou de sexes différents, jamais de siamois. (explication hors cours du projet)",
+       "explanation": "Les grossesses gémellaires biovulaires (dizygotes) résultent de la fécondation de deux ovules distincts par deux spermatozoïdes différents : ce sont donc de « faux jumeaux » (de même sexe ou de sexes différents) et chaque œuf développe son propre placenta et sa propre poche, les rendant toujours bichoriales biamniotiques.\n\nSource : Cours de Gynéco-Obstétrique L3 — Les grossesses gémellaires.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -1106,7 +1101,7 @@
         "B",
         "D"
        ],
-       "explanation": "Le cordon contient trois vaisseaux : deux artères et une veine (la veine est plus grosse). Il ne contient pas de nerf. Sa longueur normale est de 50 à 70 cm.\n\nSource : Cours de soins obstétricaux 2e année SF, « Examen du placenta », Examen du cordon",
+       "explanation": "Anatomiquement, le cordon ombilical est totalement dépourvu de nerfs (il est insensible) et renferme 3 vaisseaux entourés de la gelée de Wharton : deux artères ombilicales et une seule veine ombilicale (et non deux veines et une artère), pour une longueur moyenne de 50 à 60 cm.\n\nSource : Cours de Gynéco-Obstétrique — Étude du cordon ombilical.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -1144,7 +1139,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "Le syndrome transfuseur-transfusé est propre aux grossesses monochoriales (placenta unique partagé avec anastomoses vasculaires) ; il n'existe pas dans les grossesses bichoriales (bi-ovulaires). (explication hors cours du projet)",
+       "explanation": "Le syndrome transfuseur-transfusé (STT) est une complication spécifique des grossesses gémellaires monochoriales (placenta unique partagé par les deux fœtus, le plus souvent monochoriales biamniotiques), liée à un déséquilibre hémodynamique à travers des anastomoses vasculaires placentaires artério-veineuses profondes.\n\nSource : Cours de Gynéco-Obstétrique L3 — Complications des grossesses gémellaires.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -1182,7 +1177,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le poids du placenta représente environ 1/6 du poids de l'enfant. Le cordon s'insère sur la face fœtale ; les cotylédons sont sur la face maternelle.\n\nSource : Cours de soins obstétricaux 2e année SF, « Examen du placenta », Technique",
+       "explanation": "À terme, le placenta humain pèse environ 500 à 600 g, soit en moyenne 1/6 du poids du fœtus. C'est la face maternelle qui porte les cotylédons, le cordon s'insère sur la face fœtale, et le maintien hormonal du début de grossesse est assuré par le corps jaune gravidique avant le relais placentaire.\n\nSource : Cours de Gynéco-Obstétrique — Étude du placenta.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -1220,7 +1215,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Dans l'épaule négligée, le fœtus est le plus souvent mort ; on retrouve une présentation transversale, une procidence du bras et un risque d'infection ovulaire (membranes rompues).\n\nSource : Cours Gynéco-Obstétrique 1re année INFAS, « Présentations fœtales », Épaule négligée",
+       "explanation": "La présentation de l'épaule négligée est une urgence obstétricale dramatique survenant après rupture prolongée des membranes et rétraction utérine autour du fœtus enclavé (avec procidence du bras et infection ovulaire quasi constante) : en raison de la compression funiculaire et de l'hypertonie utérine, le fœtus est le plus souvent déjà mort in utero.\n\nSource : Cours de Gynéco-Obstétrique — La présentation transversale (épaule négligée).",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -1258,7 +1253,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Diamètres d'engagement : sommet = sous-occipito-bregmatique (9,5 cm), bregma = occipito-frontal (12 cm), front = syncipito-mentonnier (13,5 cm), face = sous-mento-bregmatique (9,5 cm).\n\nSource : Cours Gynéco-Obstétrique 1re année INFAS, « Présentations fœtales »",
+       "explanation": "Dans la présentation céphalique légèrement défléchie du bregma (grande fontanelle au centre), la tête présente au détroit supérieur son diamètre occipito-frontal mesurant 11,5 à 12 cm (contre 9,5 cm sousoccipito-bregmatique pour le sommet, 13,5 cm syncipito-mentonnier pour le front et 9,5 cm sous-mentobregmatique pour la face).\n\nSource : Cours de Gynéco-Obstétrique — Diamètres d'engagement des présentations céphaliques.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -1296,7 +1291,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "Mme X est hypertendue connue (HTA chronique) et présente une protéinurie ++ : c'est une pré-éclampsie surajoutée (HTA chronique + protéinurie significative). Les céphalées et le flou visuel sont des signes de sévérité.\n\nSource : SONU Licence 2 SFM (2025-2026), « HTA et grossesse », Types d'HTA",
+       "explanation": "Chez une gestante présentant une hypertension artérielle chronique connue avant la grossesse (ou avant 20 SA), l'apparition après 20 SA (ici à 33 SA) d'une protéinurie significative et de signes fonctionnels de gravité (céphalées en casque, flou visuel) définit une pré-éclampsie surajoutée.\n\nSource : Cours de Gynéco-Obstétrique L3 — Syndromes vasculo-rénaux : classification de l'HTA pendant la grossesse.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -1377,7 +1372,7 @@
         "A",
         "C"
        ],
-       "explanation": "Devant une patiente qui convulse : mobiliser d'urgence l'équipe (appeler à l'aide) et la mettre en position latérale de sécurité pour éviter l'inhalation. On n'introduit rien de force dans la bouche (seulement canule de Guédel ou compresses pour éviter la morsure), on ne l'attache pas.\n\nSource : Cours de soins obstétricaux 2e année SF, « HTA / éclampsie », Prise en charge d'une patiente en état convulsif",
+       "explanation": "Devant une crise d'éclampsie en cours, les premiers gestes d'urgence visent à protéger la patiente et mobiliser l'équipe : appeler immédiatement à l'aide et installer la patiente en position latérale de sécurité (PLS) gauche pour éviter l'inhalation et la compression aorto-cave. Il ne faut ni l'attacher ni introduire d'objet dans sa bouche, et le sulfate de magnésium est préféré au diazépam (Valium).\n\nSource : Cours SONU L3 — Conduite à tenir devant une crise d'éclampsie.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -1415,7 +1410,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Le sulfate de magnésium est l'anticonvulsivant de première intention (le diazépam est l'alternative).\n\nSource : Cours de soins obstétricaux 2e année SF, « Recommandations pour l'utilisation du sulfate de magnésium » ; ECLAMPSIE (diaporama du projet)",
+       "explanation": "Le sulfate de magnésium (MgSO4) est l'anticonvulsivant de référence recommandé en première intention par l'OMS et les protocoles SONU pour arrêter les convulsions et prévenir la récidive des crises d'éclampsie.\n\nSource : Cours SONU L3 / Gynéco-Obstétrique — Protocole au sulfate de magnésium.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -1453,7 +1448,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Dose de charge : 4 g de sulfate de magnésium à 20 % en IV lente, puis 5 g en IM profonde dans chaque fesse, soit 10 g au total en IM (avec 1 ml de lidocaïne à 2 %). Remarque : La dose de charge totale (IV + IM) est de 14 g ; la question porte sur la seule partie IM (10 g).\n\nSource : Cours de soins obstétricaux 2e année SF, « Recommandations pour l'utilisation du sulfate de magnésium », Dose de charge",
+       "explanation": "Selon le protocole standard de Pritchard enseigné dans les modules SONU, la dose de charge totale de 14 g de sulfate de magnésium associe 4 g en intraveineuse lente (en 5-15 min) et 10 g par voie intramusculaire profonde (soit 5 g dans chaque fesse avec 1 ml de lidocaïne à 2 %).\n\nSource : Cours SONU L3 — Schéma d'administration du sulfate de magnésium (protocole de Pritchard).",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -1491,12 +1486,12 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "C. La fréquence respiratoire ; D. L'état de conscience",
+       "answer": "C. La fréquence respiratoire ; E. La tension artérielle",
        "answerLetters": [
         "C",
-        "D"
+        "E"
        ],
-       "explanation": "Sous sulfate de magnésium, avant chaque dose, on vérifie la fréquence respiratoire (≥ 16/min), les réflexes rotuliens et la diurèse (≥ 30 ml/h) ; l'état de conscience fait partie des éléments de surveillance de l'HTA. Risque principal : dépression respiratoire.\n\nSource : Cours de soins obstétricaux 2e année SF, « Recommandations pour l'utilisation du sulfate de magnésium » ; SONU Licence 2 SFM (2025-2026), « Éléments de surveillance »",
+       "explanation": "La surveillance immédiate d'une patiente éclamptique sous sulfate de magnésium repose prioritairement sur le contrôle de la tension artérielle (risque d' poussée hypertensive et d'AVC) et de la fréquence respiratoire (qui doit rester ≥ 16 cycles/min pour dépister précocement un surdosage en magnésium, complétée par la diurèse et les réflexes ostéo-tendineux).\n\nSource : Cours SONU L3 — Surveillance d'une patiente sous sulfate de magnésium.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -1611,7 +1606,7 @@
         "A",
         "D"
        ],
-       "explanation": "Les premiers gestes de réanimation sont la désobstruction des voies aériennes (aspiration bouche puis nez) puis la ventilation. Le massage cardiaque, l'adrénaline et l'intubation ne viennent qu'ensuite, si nécessaire.\n\nSource : Cours Gynéco-Obstétrique 1re année INFAS, « Soins au nouveau-né », Désobstruction ; Cours de soins obstétricaux 2e année SF, « Surveillance du nouveau-né »",
+       "explanation": "Devant un nouveau-né présentant une dépression respiratoire modérée (Apgar 5-6), les gestes prioritaires de réanimation néonatale de base consistent à sécher et réchauffer l'enfant, assurer la désobstruction des voies aériennes supérieures puis débuter la ventilation externe au ballon et au masque.\n\nSource : Cours SONU / Pédiatrie — Algorithme de réanimation du nouveau-né.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -1649,7 +1644,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Dyspnée (orthopnée : elle demande à surélever la tête), toux avec crachats mousseux ou sanglants chez une pré-éclamptique : c'est un œdème aigu du poumon, complication maternelle de l'HTA.\n\nSource : SONU Licence 2 SFM (2025-2026), « HTA et grossesse », Complications maternelles (OAP)",
+       "explanation": "L'apparition brutale d'une dyspnée avec orthopnée (besoin d'être assise), toux et expectoration mousseuse rosée ou striée de sang (crachats hémoptoïques) chez une patiente éclamptique en post-opératoire est typique d'un œdème aigu du poumon (OAP), complication classique de la pré-éclampsie/éclampsie et des remplissages vasculaires excessifs.\n\nSource : Cours de Gynéco-Obstétrique L3 — Complications maternelles de la pré-éclampsie et de l'éclampsie (OAP).",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -1683,11 +1678,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "C. La mise en place d'une sonde urinaire",
+       "answer": "B. La surveillance de la tension artérielle, de la fréquence respiratoire et du pouls régulièrement",
        "answerLetters": [
-        "C"
+        "B"
        ],
-       "explanation": "La sonde urinaire à demeure fait partie de la mise en condition de l'éclamptique : elle permet de surveiller la diurèse heure par heure et d'adapter les apports liquidiens, ce qui aide à prévenir la surcharge responsable de l'OAP. (explication partiellement hors cours du projet)\n\nSource : Cours de soins obstétricaux 2e année SF, « Prise en charge d'une patiente en état convulsif » ; SONU Licence 2 SFM (2025-2026), « Éléments de surveillance »",
+       "explanation": "La surveillance étroite et régulière des constantes vitales (tension artérielle, fréquence respiratoire, pouls et bilan hydrique) permet de détecter précocement les poussées hypertensives et la surcharge pulmonaire afin d'adapter les apports liquidiens et prévenir l'OAP.\n\nSource : Cours SONU L3 — Surveillance clinique de la pré-éclampsie sévère et de l'éclampsie.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null
@@ -1763,7 +1758,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "La voie veineuse n'est plus perméable : la priorité est de reprendre un abord veineux (2 voies de gros calibre) pour le remplissage et les utérotoniques, avant les autres gestes.\n\nSource : SONU L3 (2024-2025), « Prise en charge du choc » ; Cours de soins obstétricaux 2e année SF, « CAT devant une HPP » (prendre une bonne voie veineuse)",
+       "explanation": "Devant un état de choc hémorragique (TA 08/06 cmHg, pouls 112 bpm) avec une voie veineuse obstruée (« non perméable »), le tout premier geste d'urgence vitale consiste à rétablir/perméabiliser immédiatement l'abord veineux afin de démarrer le remplissage vasculaire et l'administration des utérotoniques. L'utérus est déjà vide (post-césarienne), et le ballonnet ou l'hystérectomie n'interviennent qu'en cas d'échec du traitement médical de première ligne.\n\nSource : Cours SONU L3 — Prise en charge d'urgence de l'hémorragie du post-partum.",
        "sourceDoc": "Prépa D.E — J5 Gynéco-obstétrique SFM (corrigé expliqué)",
        "sourceFile": "J5_Gyneco_SFM_Corrige_explique.pdf",
        "sourcePage": null

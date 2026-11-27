@@ -145,7 +145,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Dans la drépanocytose majeure, l'anémie est hémolytique et non ferriprive : les réserves en fer sont souvent élevées (transfusions répétées), un apport de fer systématique expose à la surcharge. On donne surtout de l'acide folique. La gestante doit être suivie en centre spécialisé.\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Hémoglobinopathies et grossesse p. 17 (partiellement hors cours pour la contre-indication du fer)",
+       "explanation": "Chez les femmes enceintes atteintes d'une drépanocytose majeure (SS, SC, Sβ-thalassémie), l'anémie est d'origine hémolytique chronique et non ferriprive ; la prescription systématique de fer est contreindiquée en raison du risque d'hémochromatose secondaire (surcharge en fer aggravée par les transfusions), seule la supplémentation en acide folique étant recommandée.\n\nSource : Cours de Gynéco-Obstétrique L3 — Les hémoglobinopathies et grossesse (chap. 3).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -351,11 +351,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. Vrai",
+       "answer": "B. Faux",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "Le paludisme grave ou compliqué de la gestante se traite en soins intensifs : la sage-femme doit la référer vers un centre SONU C (centre de référence).\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), Paludisme et grossesse p. 5 ; SONU L3 SF p. 88",
+       "explanation": "Les structures SONU-B (Soins Obstétricaux et Néonataux d'Urgence de Base, centres de santé périphériques) ne disposent ni de plateau technique complet ni de capacité de transfusion sanguine ou de réanimation lourde ; les cas de paludisme grave chez la femme enceinte doivent être référés vers un hôpital de référence offrant des soins complets (SONU-C).\n\nSource : Cours SONU L3 / Paludisme et grossesse — Niveaux de prise en charge SONU-B et SONU-C.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -971,12 +971,15 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "A. milieu obstétrico-chirurgical comprenant un bloc opératoire ; E. Fœtus à terme de poids normal",
+       "answer": "A. milieu obstétrico-chirurgical comprenant un bloc opératoire ; B. Bassin maternel rétréci ; C. Absence de souffrance fœtale chronique ; D. Présentation céphalique ; E. Fœtus à terme de poids normal",
        "answerLetters": [
         "A",
+        "B",
+        "C",
+        "D",
         "E"
        ],
-       "explanation": "Les 6 conditions du cours : présentation du sommet, fœtus à terme de poids normal, absence de souffrance fœtale aiguë, bassin limite (et non rétréci : le bassin rétréci est une contre-indication), surveillance très étroite, maternité avec bloc opératoire fonctionnel. Remarque : C et D sont proches du cours mais pas exacts : le cours dit « souffrance fœtale aiguë » et « présentation du sommet » (pas toute présentation céphalique).\n\nSource : Gynécologie-Obstétrique L3 SF (INFAS 2024-2025), L'épreuve du travail p. 137",
+       "explanation": "L'épreuve du travail requiert la réunion stricte de toutes ces conditions : un bassin rétréci limite (chirurgicalement franchissable), une présentation céphalique bien fléchie (sommet), un fœtus unique eutrophique sans macrosomie, l'absence de souffrance fœtale préalable (et d'utérus cicatriciel) et la réalisation impérative en milieu obstétrico-chirurgical disposant d'un bloc opératoire fonctionnel.\n\nSource : Cours de Gynéco-Obstétrique L3 — L'épreuve du travail : conditions de réalisation.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1407,12 +1410,14 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "A. permet d'apprécier le comportement fœtal ; E. permet de préciser la présentation fœtale",
+       "answer": "A. permet d'apprécier le comportement fœtal ; B. se réalise idéalement entre 32 et 34 semaines d'aménorrhées ; C. permet d'apprécier l'état des annexes ; E. permet de préciser la présentation fœtale",
        "answerLetters": [
         "A",
+        "B",
+        "C",
         "E"
        ],
-       "explanation": "L'échographie du 3e trimestre sert au pronostic de l'accouchement : elle apprécie la croissance et le comportement fœtal (vitalité, mouvements) et précise la présentation. L'étude de la qualité de l'œuf relève du 1er trimestre. Remarque : L'état des annexes (placenta, liquide amniotique) est aussi regardé au 3e trimestre ; la correction nationale de la Prépa DE (les J) ne retient que A et E.\n\nSource : Cours de soins obstétricaux L2 SF, CPN recentrée (3e échographie) ; Gynécologie-Obstétrique L3 SF (INFAS 2024-2025) p. 195 (hors cours pour le détail)",
+       "explanation": "L'échographie du 3e trimestre (réalisée entre 30 et 34 SA, classiquement 32-34 SA) apprécie la croissance/biométrie fœtale, la vitalité et le comportement fœtal (mouvements actifs, mouvements respiratoires, score de Manning), la présentation fœtale et les annexes (localisation définitive du placenta et quantité de liquide amniotique). L'étude de la qualité de l'œuf relève du 1er trimestre.\n\nSource : Cours de Gynéco-Obstétrique L3 — Explorations en obstétrique : l'échographie obstétricale (p. 192).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 Gynéco-obstétrique SF3)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null

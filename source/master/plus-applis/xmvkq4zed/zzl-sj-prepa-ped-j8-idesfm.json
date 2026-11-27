@@ -1,0 +1,1741 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzl-sj-prepa-ped-j8-idesfm",
+ "titre": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 49,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+   "sha256": "c1e8c2d8402d3b954a7c6fc159ceb6b02b83cb88c53adce6ddd9268aa4b95034"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+     "slug": "prepa-ped-j8-idesfm",
+     "pages": "",
+     "count": 49,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Pédiatrie",
+     "source": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__0",
+       "num": "1",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'échographie réalisée au 2e trimestre de la grossesse recherche, au plan médical :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une malformation fœtale"
+        },
+        {
+         "letter": "B",
+         "text": "Le sexe de l'enfant"
+        },
+        {
+         "letter": "C",
+         "text": "Le risque de trisomie"
+        },
+        {
+         "letter": "D",
+         "text": "La confirmation de la grossesse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Une malformation fœtale",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'échographie du 2e trimestre (vers 22 SA) est l'échographie morphologique : elle recherche les malformations fœtales. Le risque de trisomie (clarté nucale) relève du 1er trimestre. (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__1",
+       "num": "2",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au cours du bilan prénatal, dame G.G. avait une glycémie à jeun de 1,4 g/L et n'a pas été suivie en milieu spécialisé. Son nouveau-né a un poids de naissance de 4250 g. Dans les 48 premières heures de vie, le nouveau-né de dame G.G. court le risque de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hypocalcémie"
+        },
+        {
+         "letter": "B",
+         "text": "Hypoglycémie"
+        },
+        {
+         "letter": "C",
+         "text": "Hypercalcémie"
+        },
+        {
+         "letter": "D",
+         "text": "Hyperglycémie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Hypoglycémie",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Une glycémie à jeun de 1,4 g/L non suivie et un poids > 4000 g font évoquer un nouveau-né de mère diabétique. L'hyperinsulinisme fœtal persiste après la section du cordon : le risque principal est l'hypoglycémie. Remarque : dans le sujet, l'énoncé nomme la mère « dame G.G. » puis « dame T.S. » ; il s'agit de la même patiente.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Nouveau-né de mère diabétique », Physiopathologie – Après la naissance ; Problèmes",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__2",
+       "num": "3",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le débit d'oxygène prescrit par le médecin chez le nouveau-né de 33 semaines d'aménorrhée en détresse respiratoire est compris entre :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "0,5 et 1 litre/min"
+        },
+        {
+         "letter": "B",
+         "text": "1 et 2 litres/min"
+        },
+        {
+         "letter": "C",
+         "text": "2 et 3 litres/min"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 0,5 et 1 litre/min",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Chez le prématuré, l'oxygène se donne à 0,5 l/min (1 l/min chez le nouveau-né à terme), soit entre 0,5 et 1 l/min, en surveillant la saturation. Remarque : le cours du Dr Asse propose 1 à 2 l/min aux lunettes ; la correction suit le module de néonatologie. Remarque : dans le sujet, cette question ne compte que 3 options (A, B, C).\n\nSource : Module de néonatologie (Néonatalogie), Chapitre III « Réanimation en salle de naissance », Ventilation en pression positive",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__3",
+       "num": "4",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "T.P., né à terme, 60 minutes de vie, respiration rapide. À l'examen, je retrouve que T.P. a le thorax immobile lors de la respiration, un tirage intense et sus-sternal, un geignement audible à distance, un entonnoir xiphoïdien modéré, un battement des ailes du nez intense. Je conclus que T.P. a un score de Silverman à :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "6"
+        },
+        {
+         "letter": "B",
+         "text": "7"
+        },
+        {
+         "letter": "C",
+         "text": "8"
+        },
+        {
+         "letter": "D",
+         "text": "9"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 8",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Score de Silverman : thorax immobile = 1 ; tirage intense = 2 ; geignement audible à distance = 2 ; entonnoir xiphoïdien modéré = 1 ; battement des ailes du nez intense = 2. Total = 8 (détresse respiratoire sévère).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Détresse respiratoire du nouveau-né », Tableau du score de Silverman",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__4",
+       "num": "5",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions de prévention suivantes, une seule favorise la prévention du spina bifida. Cochez cette proposition.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Acide folique à la gestante au 1er trimestre"
+        },
+        {
+         "letter": "B",
+         "text": "Acide folique à la gestante au 2e trimestre"
+        },
+        {
+         "letter": "C",
+         "text": "Fer à la gestante au 2e trimestre"
+        },
+        {
+         "letter": "D",
+         "text": "Fer à la gestante au 1er trimestre"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Acide folique à la gestante au 1er trimestre",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le spina bifida est un défaut de fermeture du tube neural lié au manque d'acide folique au moment de la conception et de l'embryogenèse : la prévention repose sur l'acide folique avant et au début de la grossesse (1er trimestre). Le fer prévient l'anémie.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre XVIII « Malformations diagnostiquées à la naissance », Spina bifida",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__5",
+       "num": "6",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Devant la crevasse de la mère allaitante, je prescris :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Conseils d'hygiène + antiparasitaire + antalgique"
+        },
+        {
+         "letter": "B",
+         "text": "Conseils d'hygiène + antibiotique + corticoïde local"
+        },
+        {
+         "letter": "C",
+         "text": "Conseils d'hygiène + antiprurigineux + anti-inflammatoire"
+        },
+        {
+         "letter": "D",
+         "text": "Conseils d'hygiène + antiseptique + antalgique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Conseils d'hygiène + antiseptique + antalgique",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Devant des crevasses, on prescrit à la mère un antiseptique local et un antalgique, avec des conseils d'hygiène et de bonne position au sein.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Allaitement maternel », Problèmes et solutions (tableau)",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__6",
+       "num": "7",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le paludisme est grave si mon enfant a :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une fièvre à 40 °C"
+        },
+        {
+         "letter": "B",
+         "text": "Vomi plus de deux fois en une journée"
+        },
+        {
+         "letter": "C",
+         "text": "Convulsé plus de deux fois en une journée"
+        },
+        {
+         "letter": "D",
+         "text": "Émis des urines claires abondantes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Convulsé plus de deux fois en une journée",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les convulsions à répétition sont un critère clinique de gravité du paludisme. Une fièvre à 40 °C seule ou deux vomissements ne suffisent pas à classer le paludisme grave.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Paludisme de l'enfant », Paludisme grave – Manifestations cliniques de gravité",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__7",
+       "num": "8",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les deux principaux germes de l'infection postnatale du nouveau-né sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Pneumocoque + méningocoque"
+        },
+        {
+         "letter": "B",
+         "text": "Haemophilus influenzae + staphylocoque"
+        },
+        {
+         "letter": "C",
+         "text": "Shigella + Escherichia coli"
+        },
+        {
+         "letter": "D",
+         "text": "Vibrion cholérique + salmonelle"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Haemophilus influenzae + staphylocoque",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'infection postnatale (tardive) est transmise par les mains et le matériel souillés ; le staphylocoque est un germe majeur. Les autres couples proposés sont des germes de diarrhée ou de méningite de l'enfant plus grand. Remarque : le module cite comme germes postnatals les staphylocoques et les bacilles Gram négatif (Klebsiella, Pseudomonas, entérobactéries) ; Haemophilus influenzae n'y figure pas (explication partiellement hors cours du projet).\n\nSource : Module de néonatologie (Néonatalogie), Chapitre XII « Infections néonatales », Germes – Infections post-natales",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__8",
+       "num": "9",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Vous êtes dans un hôpital de référence et vous recevez un grand enfant qui a un paludisme grave. Le traitement antipaludique de 1re intention est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Artésunate 2,4 mg/kg"
+        },
+        {
+         "letter": "B",
+         "text": "Artéméther 3,2 mg/kg"
+        },
+        {
+         "letter": "C",
+         "text": "Sels de quinine 8 mg/kg"
+        },
+        {
+         "letter": "D",
+         "text": "Luméfantrine 24 mg/kg"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Artésunate 2,4 mg/kg",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'artésunate injectable est actuellement la molécule recommandée en 1re intention pour le paludisme grave : 2,4 mg/kg à H0, H12, H24 puis toutes les 24 heures. La quinine et l'artéméther sont des alternatives.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Paludisme de l'enfant », Intérêt – Thérapeutique ; Rôle de soins curatifs",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__9",
+       "num": "10",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour apprécier le risque de trisomie, le radiologue mesure à l'échographie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La longueur de l'humérus"
+        },
+        {
+         "letter": "B",
+         "text": "Le diamètre bipariétal"
+        },
+        {
+         "letter": "C",
+         "text": "La clarté au niveau de la nuque"
+        },
+        {
+         "letter": "D",
+         "text": "La circonférence du crâne"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. La clarté au niveau de la nuque",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le risque de trisomie 21 s'apprécie à l'échographie par la mesure de la clarté nucale (épaisseur de la nuque) au 1er trimestre. (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__10",
+       "num": "11",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les propositions suivantes sont des signes retrouvés au cours du paludisme grave de l'enfant sauf un. Cochez ce signe.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Ictère franc"
+        },
+        {
+         "letter": "B",
+         "text": "Anémie sévère"
+        },
+        {
+         "letter": "C",
+         "text": "Urines rouge porto"
+        },
+        {
+         "letter": "D",
+         "text": "Selles glairo-sanglantes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Selles glairo-sanglantes",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Ictère franc, anémie sévère et urines rouge porto (hémoglobinurie) sont des signes du paludisme grave. Les selles glairo-sanglantes évoquent une dysenterie (shigellose), pas le paludisme.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Paludisme de l'enfant », Paludisme grave – Manifestations cliniques de gravité",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__11",
+       "num": "12",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'infection bactérienne tardive du nouveau-né survient entre :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "J0 et J2 de vie"
+        },
+        {
+         "letter": "B",
+         "text": "J8 et J28 de vie"
+        },
+        {
+         "letter": "C",
+         "text": "J3 et J7 de vie"
+        },
+        {
+         "letter": "D",
+         "text": "J2 et J3 de vie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. J8 et J28 de vie",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'infection tardive (postnatale) survient après le 7e jour, jusqu'à la fin de la période néonatale (J8-J28).\n\nSource : Module de néonatologie (Néonatalogie), Chapitre XII « Infections néonatales », Définition",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__12",
+       "num": "13",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les examens suivants sont ceux prescrits en routine par l'agent de santé pour surveiller la grossesse sauf un. Cochez cet examen.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Groupe sanguin ABO/Rhésus"
+        },
+        {
+         "letter": "B",
+         "text": "Hémogramme"
+        },
+        {
+         "letter": "C",
+         "text": "Sérologie hépatite B"
+        },
+        {
+         "letter": "D",
+         "text": "Sérologie rubéole"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Sérologie hépatite B",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le bilan prénatal recommandé comprend groupe sanguin-rhésus, hémogramme/Emmel, sérologies syphilis et VIH, glycémie ; les sérologies toxoplasmose et rubéole sont aussi demandées. La correction nationale considère la sérologie hépatite B comme non systématique. Remarque : le module de néonatologie classe l'AgHBs et la sérologie rubéole ensemble parmi les « examens souhaités ».\n\nSource : Module de néonatologie (Néonatalogie), Chapitre IV « Soins essentiels aux nouveau-nés », Soins maternels",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__13",
+       "num": "14",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les propositions suivantes sont des facteurs vitamine K1-dépendants impliqués dans la maladie hémorragique du nouveau-né, sauf un. Cochez ce facteur.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Facteur VII"
+        },
+        {
+         "letter": "B",
+         "text": "Facteur X"
+        },
+        {
+         "letter": "C",
+         "text": "Facteur IV"
+        },
+        {
+         "letter": "D",
+         "text": "Facteur IX"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Facteur IV",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les facteurs de la coagulation vitamine K-dépendants sont les facteurs II, VII, IX et X (explorés par le temps de Quick). Le facteur IV (calcium) n'en fait pas partie.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Maladie hémorragique du nouveau-né », Laboratoire – Temps de Quick",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__14",
+       "num": "15",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'espèce de Plasmodium la plus fréquemment responsable de paludisme grave en Côte d'Ivoire est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Plasmodium ovale"
+        },
+        {
+         "letter": "B",
+         "text": "Plasmodium malariae"
+        },
+        {
+         "letter": "C",
+         "text": "Plasmodium falciparum"
+        },
+        {
+         "letter": "D",
+         "text": "Plasmodium vivax"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Plasmodium falciparum",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "En Côte d'Ivoire, Plasmodium falciparum est retrouvé dans près de 98 % des cas et c'est la seule espèce responsable des formes graves.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Paludisme de l'enfant », Définition",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__15",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les propositions suivantes sont des causes de prématurité induite, sauf une. Cochez cette cause.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Accès palustre simple"
+        },
+        {
+         "letter": "B",
+         "text": "Souffrance fœtale"
+        },
+        {
+         "letter": "C",
+         "text": "Éclampsie sévère"
+        },
+        {
+         "letter": "D",
+         "text": "Placenta prævia"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Accès palustre simple",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La prématurité induite résulte d'une décision médicale pour sauver la mère ou le fœtus : souffrance fœtale, toxémie/éclampsie, placenta prævia hémorragique, RCIU… Un accès palustre simple se traite et ne justifie pas un accouchement provoqué.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Nouveau-né prématuré », Causes induites ou provoquées ; Module de néonatologie (Néonatalogie), Chapitre VIII",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "À l'examen, vous retrouvez que B.B.L. est irritable, ses yeux sont très enfoncés, les larmes sont absentes lors des pleurs, il est incapable de boire, sa bouche est très sèche et le pli cutané s'efface lentement. Vous concluez chez B.B.L. à :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Signes évidents de déshydratation"
+        },
+        {
+         "letter": "B",
+         "text": "Signes modérés de déshydratation"
+        },
+        {
+         "letter": "C",
+         "text": "Signes légers de déshydratation"
+        },
+        {
+         "letter": "D",
+         "text": "Signes sévères de déshydratation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Signes sévères de déshydratation",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Incapable de boire, yeux très enfoncés, bouche très sèche, larmes absentes, pli qui s'efface lentement : au moins deux signes de la colonne « sévère » sont présents, donc signes sévères de déshydratation (plan C).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Diagnostic de gravité (tableau)",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__17",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "P.J., âgé de 5 mois, présente une diarrhée depuis 4 jours avec absence de signes de déshydratation. La dose de zinc comprimé à administrer à P.J. est de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "5 mg par voie orale pendant 10 jours"
+        },
+        {
+         "letter": "B",
+         "text": "10 mg par voie orale pendant 10 jours"
+        },
+        {
+         "letter": "C",
+         "text": "20 mg par voie orale pendant 10 jours"
+        },
+        {
+         "letter": "D",
+         "text": "25 mg par voie orale pendant 10 jours"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 10 mg par voie orale pendant 10 jours",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Avant 6 mois : ½ comprimé de zinc à 20 mg, soit 10 mg par jour par voie orale, pendant 10 à 14 jours.\n\nSource : Livret de tableaux PCIMNE 0-5 ans, « Plan A », Donner du zinc",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "J.K., enfant de 3 ans pesant 15 kg, présente des signes évidents de déshydratation. Pour le réhydrater, je lui administre durant 4 heures du SRO à la quantité de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1125 mL"
+        },
+        {
+         "letter": "B",
+         "text": "750 mL"
+        },
+        {
+         "letter": "C",
+         "text": "450 mL"
+        },
+        {
+         "letter": "D",
+         "text": "1050 mL"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 1125 mL",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Signes évidents de déshydratation : plan B, 75 ml/kg de SRO en 4 heures. 75 × 15 kg = 1125 ml.\n\nSource : Livret de tableaux PCIMNE 0-5 ans, « Plan B », quantité de SRO (poids × 75)",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nouveau-né L.M. est né à 03 h 25 min. Je lui administre en intramusculaire de la vitamine K1 entre :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "03 h 25 et 03 h 55"
+        },
+        {
+         "letter": "B",
+         "text": "03 h 56 et 04 h 25"
+        },
+        {
+         "letter": "C",
+         "text": "04 h 26 et 04 h 55"
+        },
+        {
+         "letter": "D",
+         "text": "04 h 56 et 05 h 25"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 04 h 26 et 04 h 55",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La vitamine K1 s'administre entre la 60e et la 90e minute de vie, après l'heure de contact peau à peau et la première tétée. Né à 03 h 25 : entre 04 h 25 et 04 h 55.\n\nSource : Cours de santé infantile L1 IDE-SFM, « Soins essentiels aux nouveau-nés », Technique de soins – 60-90 minutes de vie",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La fièvre désigne l'élévation de la température corporelle prise par voie rectale, le matin à distance des repas, supérieure à :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "37,5 °C"
+        },
+        {
+         "letter": "B",
+         "text": "38 °C"
+        },
+        {
+         "letter": "C",
+         "text": "38,5 °C"
+        },
+        {
+         "letter": "D",
+         "text": "37,8 °C"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 37,5 °C",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La fièvre est définie par une température rectale supérieure à 37,5 °C le matin (38 °C le soir).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Fièvre de l'enfant », Définition",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nouveau-né G.K. est né par césarienne. G.K. présente immédiatement après la naissance une détresse respiratoire. La principale cause de la détresse respiratoire de G.K. est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Trouble de résorption du liquide pulmonaire"
+        },
+        {
+         "letter": "B",
+         "text": "Maladie des membranes hyalines"
+        },
+        {
+         "letter": "C",
+         "text": "Inhalation du liquide amniotique"
+        },
+        {
+         "letter": "D",
+         "text": "Infection bactérienne néonatale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Trouble de résorption du liquide pulmonaire",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Après une césarienne (surtout sans travail), le liquide pulmonaire n'est pas chassé par la compression thoracique : retard de résorption du liquide pulmonaire (tachypnée transitoire). La maladie des membranes hyalines concerne surtout le prématuré. Remarque : dans le sujet, l'option A est coupée sur deux lignes (« Trouble de résorption du liquide » / « pulmonaire ») ; elle a été réunie.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre II « Adaptation à la vie extra-utérine », Elimination du liquide pulmonaire ; Chapitre V, Tachypnée transitoire",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__22",
+       "num": "23",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Nouveau-né GG, 3 jours de vie, vit à Krindjabo. La mère est très inquiète car le sexe de l'enfant est ambigu et il respire difficilement. Le médecin pense à une hyperplasie congénitale des surrénales.",
+       "text": "L'analyse des données révèle dans l'identification :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "4 données d'indépendance"
+        },
+        {
+         "letter": "B",
+         "text": "3 données d'indépendance"
+        },
+        {
+         "letter": "C",
+         "text": "2 données d'indépendance"
+        },
+        {
+         "letter": "D",
+         "text": "1 donnée d'indépendance"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 3 données d'indépendance",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les données d'identification (nom, âge, lieu d'habitation, sexe) sont habituellement des données d'indépendance. Ici, GG, 3 jours et Krindjabo sont des données d'indépendance (3) ; le sexe ambigu est une donnée de dépendance.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diagnostic infirmier », Collecte des données – Identification",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__23",
+       "num": "24",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Nouveau-né GG, 3 jours de vie, vit à Krindjabo. La mère est très inquiète car le sexe de l'enfant est ambigu et il respire difficilement. Le médecin pense à une hyperplasie congénitale des surrénales.",
+       "text": "Le principal agent infectieux de la diarrhée aiguë du nourrisson est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Bactérien"
+        },
+        {
+         "letter": "B",
+         "text": "Parasitaire"
+        },
+        {
+         "letter": "C",
+         "text": "Viral"
+        },
+        {
+         "letter": "D",
+         "text": "Mycosique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Viral",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les causes infectieuses de diarrhée aiguë sont dominées par les virus (rotavirus surtout). Bactéries, parasites et champignons sont moins fréquents.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Etiologie",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__24",
+       "num": "25",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Nouveau-né GG, 3 jours de vie, vit à Krindjabo. La mère est très inquiète car le sexe de l'enfant est ambigu et il respire difficilement. Le médecin pense à une hyperplasie congénitale des surrénales.",
+       "text": "L'analyse des données révèle dans l'identification :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "4 données de dépendance"
+        },
+        {
+         "letter": "B",
+         "text": "3 données de dépendance"
+        },
+        {
+         "letter": "C",
+         "text": "2 données de dépendance"
+        },
+        {
+         "letter": "D",
+         "text": "1 donnée de dépendance"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 1 donnée de dépendance",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Dans l'identification, la seule donnée de dépendance est le sexe ambigu (donnée anormale) ; les autres éléments d'identification sont des données d'indépendance.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diagnostic infirmier », Analyse et interprétation des données",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__25",
+       "num": "26",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Nouveau-né GG, 3 jours de vie, vit à Krindjabo. La mère est très inquiète car le sexe de l'enfant est ambigu et il respire difficilement. Le médecin pense à une hyperplasie congénitale des surrénales.",
+       "text": "L'analyse des données révèle :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "2 données d'indépendance + 3 données de dépendance"
+        },
+        {
+         "letter": "B",
+         "text": "4 données d'indépendance + 4 données de dépendance"
+        },
+        {
+         "letter": "C",
+         "text": "3 données d'indépendance + 6 données de dépendance"
+        },
+        {
+         "letter": "D",
+         "text": "3 données d'indépendance + 5 données de dépendance"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 3 données d'indépendance + 5 données de dépendance",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Indépendance : nom, âge, lieu d'habitation (3). Dépendance : sexe ambigu, respiration difficile, inquiétude de la mère, diagnostic d'hyperplasie congénitale des surrénales… La correction nationale retient 3 données d'indépendance et 5 de dépendance, cohérent avec les deux questions précédentes. Remarque : le détail des 5 données de dépendance n'est pas donné dans le cours.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diagnostic infirmier », Analyse et interprétation des données",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "À 5 minutes de vie, le nouveau-né T.P. avait une cyanose des extrémités, une fréquence cardiaque à 110 battements par minute, un cri vigoureux, une flexion des extrémités et une respiration régulière synchrone. Le score d'APGAR de T.P. est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "7"
+        },
+        {
+         "letter": "B",
+         "text": "6"
+        },
+        {
+         "letter": "C",
+         "text": "8"
+        },
+        {
+         "letter": "D",
+         "text": "9"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 8",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Score d'APGAR : cyanose des extrémités = 1 ; FC 110 (> 100) = 2 ; cri vigoureux = 2 ; flexion des extrémités = 1 ; respiration régulière = 2. Total = 8.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Souffrance cérébrale du nouveau-né », Tableau du score d'Apgar",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les propositions suivantes sont des signes retrouvés au cours d'un marasme chez l'enfant, sauf une. Cochez cette proposition.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Diarrhée"
+        },
+        {
+         "letter": "B",
+         "text": "Regard vif"
+        },
+        {
+         "letter": "C",
+         "text": "Anorexie"
+        },
+        {
+         "letter": "D",
+         "text": "Alopécie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Anorexie",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Dans le marasme, l'appétit est conservé : l'enfant est affamé. Diarrhée (de la faim), regard vif et alopécie font partie du tableau ; l'anorexie est l'intrus (elle caractérise plutôt le kwashiorkor).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Malnutrition de l'enfant », Formes cliniques – Marasme",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les propositions suivantes sont les composantes de la méthode soins mère-kangourou sauf une. Cochez cette proposition.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Suivi pour rechercher les signes de danger"
+        },
+        {
+         "letter": "B",
+         "text": "Contact peau à peau pour réchauffer"
+        },
+        {
+         "letter": "C",
+         "text": "Nutrition (allaitement) pour éviter l'hypoglycémie"
+        },
+        {
+         "letter": "D",
+         "text": "Vaccination pour prévenir les infections"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Vaccination pour prévenir les infections",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La méthode kangourou comprend le contact peau à peau, l'allaitement (nutrition) et le suivi. La vaccination fait partie des soins habituels du nouveau-né, pas des composantes de la méthode. Remarque : dans le sujet, l'option C est coupée sur deux lignes ; elle a été réunie.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre XVII « La méthode des soins mère kangourou », Définition",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__29",
+       "num": "30",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "G.D. a une température à 40 °C. À l'examen, G.D. est somnolent, avec un cri plaintif et un faciès pâle. Je conclus que G.D. ne tolère pas sa fièvre.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Somnolence, cri plaintif et faciès pâle (teint grisâtre) sont des signes de mauvaise tolérance de la fièvre.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Fièvre de l'enfant », Examen physique – Signes de mauvaise tolérance",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__30",
+       "num": "31",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Chez le nouveau-né prématuré, les petites lèvres, au niveau de la vulve, sont saillantes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Chez la fille prématurée, les petites lèvres sont saillantes (non recouvertes par les grandes lèvres), signe d'immaturité.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Nouveau-né prématuré », Informations à rechercher à l'examen physique",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__31",
+       "num": "32",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La maladie des membranes hyalines chez le nouveau-né prématuré est la conséquence de son immaturité pulmonaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La maladie des membranes hyalines est due à l'immaturité pulmonaire du prématuré (défaut de production du surfactant).\n\nSource : Module de néonatologie (Néonatalogie), Chapitre VIII « Prématurité », Maladie des membranes hyalines",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__32",
+       "num": "33",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour la prévention de la carence en fer chez le fœtus, je prescris à la gestante, durant toute la grossesse, du fer.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le fer et l'acide folique sont donnés à la gestante durant toute la grossesse (dès la 1re CPN jusqu'à l'accouchement) pour prévenir l'anémie.\n\nSource : Les 12 pratiques familiales essentielles (PFE), PFE n° 11 – Prévention de l'anémie ; L'essentiel en pédiatrie tropicale (Dr Asse), « Nouveau-né hypotrophe », Rôles de soins préventifs",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__33",
+       "num": "34",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La solution sucrée à 10 % administrée à l'enfant malnutri est composée de 1 carreau de sucre et 50 mL d'eau potable.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un carreau de sucre pèse environ 5 g ; 5 g dans 50 ml donnent une solution à 10 % (10 g pour 100 ml), utilisée pour prévenir l'hypoglycémie de l'enfant malnutri. (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__34",
+       "num": "35",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "K.K., nourrisson de 13 mois pesant 9 kg, présente des signes sévères de déshydratation. Pour le réhydrater, je lui administre durant la première demi-heure du Ringer lactate à la quantité de 270 mL.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Signes sévères chez un enfant de plus de 12 mois : plan C, 30 ml/kg de Ringer lactate en 30 minutes puis 70 ml/kg en 2 h 30. 30 × 9 kg = 270 ml dans la première demi-heure.\n\nSource : Livret de tableaux PCIMNE 0-5 ans, « Plan C : traiter rapidement la déshydratation sévère »",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__35",
+       "num": "36",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nouveau-né de dame P.L. est né à terme avec un poids de 1600 g. Pour la prévention de la maladie hémorragique du nouveau-né, j'administre en intramusculaire, avant la sortie de la maternité, 1 mg de vitamine K1.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale retient 1 mg de vitamine K1 en IM. Le module de néonatologie prévoit 1 mg si le poids est ≥ 1500 g et 0,5 mg en dessous. Remarque : le cours de santé infantile prévoit 0,5 mg si le poids est < 2500 g, et le cours du Dr Asse 5 mg ; les doses diffèrent selon les cours.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre XV « Les anémies néonatales », Traitement préventif – A la naissance",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__36",
+       "num": "37",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le prématuré a des plis plantaires supérieurs aux 2/3 antérieurs.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Chez le prématuré, les stries plantaires sont absentes ou limitées à la partie antérieure ; des plis couvrant plus des 2/3 de la plante sont un signe de maturité. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Photothèque « Nouveau-né prématuré à J0 » (stries plantaires absentes)",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__37",
+       "num": "38",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le marasme survient le plus souvent chez l'enfant entre 18 et 36 mois.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le marasme survient plutôt entre 6 et 12 mois ; c'est le kwashiorkor qui survient entre 18 et 36 mois (sevrage). Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Malnutrition de l'enfant », Facteurs étiologiques – Âge",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__38",
+       "num": "39",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La dose de vitamine K1 administrée au nouveau-né prématuré pour traiter la maladie hémorragique est de 10 mg en une injection intraveineuse pendant 4 jours.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Devant un nouveau-né qui saigne, l'agent de santé injecte 10 mg de vitamine K1 en IV ou en IM pendant 3 à 4 jours.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Maladie hémorragique du nouveau-né », Rôles de soins curatifs",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__39",
+       "num": "40",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nouveau-né prématuré a une coloration rose.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale retient « Faux ».\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Nouveau-né prématuré », Informations à rechercher à l'examen physique",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__40",
+       "num": "41",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Nourrisson CB, sexe féminin, 3 ans, vit à Aboisso. Elle a une fièvre, tousse et est très enrhumée. Le médecin pense à une rhinopharyngite.",
+       "text": "Le problème infirmier de CB est une perturbation des échanges gazeux.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La rhinopharyngite est une infection respiratoire haute (nez et gorge) : le problème est l'obstruction nasale (dégagement inefficace des voies aériennes), pas une perturbation des échanges gazeux, qui concerne les alvéoles.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Rhinopharyngite de l'enfant », Définition ; Glossaire du diagnostic infirmier",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__41",
+       "num": "42",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique — Nourrisson CB, sexe féminin, 3 ans, vit à Aboisso. Elle a une fièvre, tousse et est très enrhumée. Le médecin pense à une rhinopharyngite.",
+       "text": "Pour la prise en charge du nourrisson CB ci-dessus, je collabore avec le médecin pour lui réaliser une radiographie du thorax.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La correction nationale retient « Vrai ».\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Rhinopharyngite de l'enfant », Diagnostic positif",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__42",
+       "num": "43",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La vomique correspond à une expectoration brutale par la bouche de pus ou de sérosité provenant des voies respiratoires.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La vomique est l'expectoration brutale par la bouche de pus ou de sérosité venant des voies respiratoires ; il ne faut pas la confondre avec le vomissement.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Vomissements de l'enfant », Diagnostic différentiel",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__43",
+       "num": "44",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "QQ présente un paludisme avec vomissements. Je lui administre un antiémétique pour ses vomissements. Le syndrome extrapyramidal grave qui survient chez l'enfant après administration de l'antiémétique se traite avec le diazépam.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le syndrome extrapyramidal est un effet secondaire des antiémétiques (métoclopramide…) ; pour le traiter, on administre du diazépam 0,5 mg/kg en perfusion lente dans du sérum glucosé.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Vomissements de l'enfant », Rôles curatifs – Antiémétisants",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__44",
+       "num": "45",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lors de la diarrhée aiguë, le nourrisson âgé de 5 mois reçoit, en plus de la réhydratation et de l'alimentation, un comprimé de zinc dosé à 20 mg par jour pendant 10 jours.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "À 5 mois (moins de 6 mois), la dose de zinc est ½ comprimé de 20 mg, soit 10 mg par jour. 20 mg/j correspond aux enfants de 6 mois et plus. Faux.\n\nSource : Livret de tableaux PCIMNE 0-5 ans, « Plan A », Donner du zinc",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__45",
+       "num": "46",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nourrisson souffrant d'une diarrhée avec signes évidents de déshydratation est traité pendant les 4 premières heures au centre de santé, puis le relais est fait à domicile.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Plan B : réhydratation par SRO au centre de santé pendant 4 heures, puis réévaluation ; si les signes ont disparu, on passe au plan A (traitement à domicile).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Réhydratation – Plan B",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__46",
+       "num": "47",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour une transfusion de 195 mL de culot globulaire en 4 heures, j'administre la transfusion à un débit de 12 gouttes/minute.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Formule du cours : débit (gouttes/min) = quantité (ml) ÷ (4 × durée en heures) = 195 ÷ (4 × 4) ≈ 12 gouttes/min.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Anémie aiguë de l'enfant », Rôle de soins curatifs – 3e situation (calcul du débit)",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__47",
+       "num": "48",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'apport journalier de lait thérapeutique F75 durant la réhabilitation nutritionnelle, chez l'enfant T.G. pesant 7 kg, est de 500 mL.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'apport de F75 est de 130 ml/kg/jour : pour 7 kg, 130 × 7 = 910 ml par jour, réparti en 6 à 8 repas. 500 ml est insuffisant. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Malnutrition de l'enfant », Réhabilitation nutritionnelle – Laits thérapeutiques F75 et F100",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j8-idesfm__48",
+       "num": "49",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "B.T. est un nourrisson de 18 mois, admis pour difficulté respiratoire sifflante. Le médecin conclut au diagnostic de bronchiolite. Il s'agit d'une infection respiratoire aiguë basse d'origine bactérienne.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La bronchiolite est une IRA basse d'origine virale (VRS) ; le traitement antibiotique n'est pas justifié en première intention. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Infections respiratoires aiguës de l'enfant », Bronchiolite CORRIGÉ EXPLIQUÉ — PRÉPA DE INFAS",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

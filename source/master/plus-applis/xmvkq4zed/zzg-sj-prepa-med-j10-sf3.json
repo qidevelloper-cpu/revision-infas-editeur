@@ -1,0 +1,2144 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzg-sj-prepa-med-j10-sf3",
+ "titre": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 56,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J10_Medecine_SF3_corrige_explique.pdf",
+   "sha256": "8907cbe2f3b0c08c567f1d2854ba037e890e14c5eade90376bf735c60885556f"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Médecine · Prépa D.E J10 (SF3)",
+     "slug": "prepa-med-j10-sf3",
+     "pages": "",
+     "count": 56,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Médecine",
+     "source": "J10_Medecine_SF3_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__0",
+       "num": "1",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quels sont les quatre examens complémentaires nécessaires au diagnostic médical de la fièvre typhoïde parmi les suivants ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hémoculture"
+        },
+        {
+         "letter": "B",
+         "text": "NFS-VS"
+        },
+        {
+         "letter": "C",
+         "text": "Coproculture"
+        },
+        {
+         "letter": "D",
+         "text": "Albumine/Sucre"
+        },
+        {
+         "letter": "E",
+         "text": "Myéloculture"
+        },
+        {
+         "letter": "F",
+         "text": "Sérologie de Widal et Félix"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Hémoculture ; C. Coproculture ; E. Myéloculture ; F. Sérologie de Widal et Félix",
+       "answerLetters": [
+        "A",
+        "C",
+        "E",
+        "F"
+       ],
+       "explanation": "L’hémoculture est l’examen de certitude (positive dans plus de 90 % des cas au 1er septénaire) ; la coproculture confirme en période de diarrhée et dépiste le portage chronique ; le sérodiagnostic de Widal et Félix recherche les anticorps anti-O et anti-H. La myéloculture (culture de la moelle) est une autre culture du germe. La NFS-VS n’est qu’un examen d’orientation (leuconeutropénie) et albumine/sucre n’a pas d’intérêt ici. Remarque : la myéloculture n’est pas citée dans les cours du projet (connaissance générale) ; elle est retenue par la correction nationale.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde – III. Biologie ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Fièvre typhoïde – V. La biologie.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__1",
+       "num": "2",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Relevez quatre complications possibles de la fièvre typhoïde parmi les suivantes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hémorragie digestive"
+        },
+        {
+         "letter": "B",
+         "text": "Amaigrissement"
+        },
+        {
+         "letter": "C",
+         "text": "Perforation intestinale"
+        },
+        {
+         "letter": "D",
+         "text": "Mort"
+        },
+        {
+         "letter": "E",
+         "text": "Péritonite"
+        },
+        {
+         "letter": "F",
+         "text": "Choc septique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Hémorragie digestive ; C. Perforation intestinale ; E. Péritonite ; F. Choc septique",
+       "answerLetters": [
+        "A",
+        "C",
+        "E",
+        "F"
+       ],
+       "explanation": "Les complications du 3e septénaire font la gravité de la maladie : hémorragies digestives (mélaena, rectorragie), perforation intestinale responsable d’une péritonite, collapsus cardio-vasculaire (choc). La mort est une issue et non une complication ; l’amaigrissement est un signe banal.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde – 2.4 Les complications ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Fièvre typhoïde – IV.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__2",
+       "num": "3",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quels sont les quatre signes d'alerte d'une dengue sévère parmi les suivants ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Douleurs abdominales intenses"
+        },
+        {
+         "letter": "B",
+         "text": "Vomissements persistants"
+        },
+        {
+         "letter": "C",
+         "text": "Raideur méningée"
+        },
+        {
+         "letter": "D",
+         "text": "Saignements muqueux"
+        },
+        {
+         "letter": "E",
+         "text": "Céphalée en casque"
+        },
+        {
+         "letter": "F",
+         "text": "Léthargie ou agitation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Douleurs abdominales intenses ; B. Vomissements persistants ; D. Saignements muqueux ; F. Léthargie ou agitation",
+       "answerLetters": [
+        "A",
+        "B",
+        "D",
+        "F"
+       ],
+       "explanation": "Les signes d’alerte annoncent le passage à la dengue sévère (hémorragique ou avec choc) : douleurs abdominales intenses, vomissements persistants, saignements des muqueuses (gencives, nez), léthargie ou agitation. La raideur méningée et la céphalée en casque évoquent une méningite.\n\nSource : Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Dengue – complications (douleurs abdominales, hémorragies, choc) ; liste OMS des signes d’alerte (explication partiellement hors cours du projet).",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__3",
+       "num": "4",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Retrouvez deux mesures de prévention communautaire de la dengue parmi les propositions suivantes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Destruction des gîtes larvaires"
+        },
+        {
+         "letter": "B",
+         "text": "Hygiène corporelle"
+        },
+        {
+         "letter": "C",
+         "text": "Protection contre les piqûres de moustiques"
+        },
+        {
+         "letter": "D",
+         "text": "Vaccination systématique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Destruction des gîtes larvaires ; C. Protection contre les piqûres de moustiques",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "La prévention repose sur la lutte antivectorielle : destruction et élimination des gîtes larvaires (pneus, boîtes de conserve) et protection contre les piqûres (moustiquaires imprégnées, répulsifs, vêtements longs). L’hygiène corporelle ne joue aucun rôle et il n’existe pas de vaccination systématique selon le cours.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), La Dengue – V. Prise en charge et VI. Prévention.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__4",
+       "num": "5",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel est le principal mode de transmission de la fièvre typhoïde ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Voie respiratoire"
+        },
+        {
+         "letter": "B",
+         "text": "Voie sexuelle"
+        },
+        {
+         "letter": "C",
+         "text": "Voie féco-orale"
+        },
+        {
+         "letter": "D",
+         "text": "Piqûre de moustique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Voie féco-orale",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La fièvre typhoïde est une maladie du péril fécal (« maladie des mains sales ») : transmission directe par les mains souillées et indirecte par l’eau et les aliments souillés, donc féco-orale.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde – Mode de contamination.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__5",
+       "num": "6",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel est l'agent causal de la coqueluche ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Streptococcus pneumoniae"
+        },
+        {
+         "letter": "B",
+         "text": "Bordetella pertussis"
+        },
+        {
+         "letter": "C",
+         "text": "Haemophilus influenzae"
+        },
+        {
+         "letter": "D",
+         "text": "Neisseria meningitidis"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Bordetella pertussis",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L’agent de la coqueluche est le bacille de Bordet-Gengou, coccobacille Gram négatif appelé Bordetella pertussis. Haemophilus influenzae et le pneumocoque sont des germes de surinfection.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Coqueluche – II. Étiopathologie ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Coqueluche.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__6",
+       "num": "7",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lequel de ces médicaments est contre-indiqué dans le traitement médical de la dengue ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Paracétamol"
+        },
+        {
+         "letter": "B",
+         "text": "SRO"
+        },
+        {
+         "letter": "C",
+         "text": "Aspirine"
+        },
+        {
+         "letter": "D",
+         "text": "Antibiotique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Aspirine",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La prise en charge est symptomatique (paracétamol, hydratation, SRO). L’aspirine est formellement contre-indiquée, de même que les AINS, à cause du risque hémorragique.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), La Dengue – V. Prise en charge des cas.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__7",
+       "num": "8",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Relevez trois facteurs favorisant la transmission de la fièvre typhoïde parmi les suivants.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Consommation d'eau souillée"
+        },
+        {
+         "letter": "B",
+         "text": "Rhinorrhée initiale"
+        },
+        {
+         "letter": "C",
+         "text": "Mauvaise hygiène des mains"
+        },
+        {
+         "letter": "D",
+         "text": "Consommation d'aliment non cuit"
+        },
+        {
+         "letter": "E",
+         "text": "Assainissement insuffisant"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Consommation d'eau souillée ; C. Mauvaise hygiène des mains ; E. Assainissement insuffisant",
+       "answerLetters": [
+        "A",
+        "C",
+        "E"
+       ],
+       "explanation": "La fièvre typhoïde est favorisée par le péril fécal : eau de boisson souillée, mains sales (mauvaise hygiène des mains) et assainissement insuffisant (latrines, assainissement du milieu). La rhinorrhée n’a aucun rôle. Remarque : les aliments crus souillés interviennent aussi (le cours conseille de laver les fruits et légumes consommés crus), mais la question n’attend que trois réponses.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde – Mode de contamination, facteurs favorisants et prophylaxie collective.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__8",
+       "num": "9",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Indiquez quatre complications possibles de la coqueluche chez le nourrisson.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Apnée"
+        },
+        {
+         "letter": "B",
+         "text": "Vomissements permanents"
+        },
+        {
+         "letter": "C",
+         "text": "Pneumonie"
+        },
+        {
+         "letter": "D",
+         "text": "Convulsions"
+        },
+        {
+         "letter": "E",
+         "text": "Raideur de la nuque"
+        },
+        {
+         "letter": "F",
+         "text": "Encéphalopathie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Apnée ; C. Pneumonie ; D. Convulsions ; F. Encéphalopathie",
+       "answerLetters": [
+        "A",
+        "C",
+        "D",
+        "F"
+       ],
+       "explanation": "Chez le nourrisson la coqueluche est grave : apnées syncopales avec arrêt cardio-respiratoire, broncho-pneumopathie de surinfection, complications neurologiques liées à la toxine et à l’anoxie (convulsions, encéphalite/encéphalopathie). La raideur de la nuque n’en fait pas partie. Remarque : les vomissements abondants sont cités dans la forme du nourrisson (cause de dénutrition), mais comme signe et non comme complication retenue.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Coqueluche – 3.2 Forme du nourrisson et IV. Complications.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__9",
+       "num": "10",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Relevez quatre signes cliniques évocateurs de la dengue.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Fièvre élevée"
+        },
+        {
+         "letter": "B",
+         "text": "Position en chien de fusil"
+        },
+        {
+         "letter": "C",
+         "text": "Céphalées"
+        },
+        {
+         "letter": "D",
+         "text": "Douleurs rétro-orbitaires"
+        },
+        {
+         "letter": "E",
+         "text": "Raideur de la nuque"
+        },
+        {
+         "letter": "F",
+         "text": "Myalgies/arthralgies"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Fièvre élevée ; C. Céphalées ; D. Douleurs rétro-orbitaires ; F. Myalgies/arthralgies",
+       "answerLetters": [
+        "A",
+        "C",
+        "D",
+        "F"
+       ],
+       "explanation": "La définition du cas suspect de dengue associe une fièvre et au moins deux manifestations parmi : maux de tête, douleur rétro-orbitaire, myalgies, arthralgies, rougeurs, hémorragies. La position en chien de fusil et la raideur de la nuque évoquent une méningite.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), La Dengue – III. Définition standardisée des cas ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Dengue fébrile.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__10",
+       "num": "11",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Relevez quatre actions infirmières de surveillance chez un patient atteint de dengue.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Surveillance de la température"
+        },
+        {
+         "letter": "B",
+         "text": "Surveillance du poids par pesée hebdomadaire"
+        },
+        {
+         "letter": "C",
+         "text": "Surveillance de la pression artérielle"
+        },
+        {
+         "letter": "D",
+         "text": "Surveillance des selles"
+        },
+        {
+         "letter": "E",
+         "text": "Surveillance de la diurèse"
+        },
+        {
+         "letter": "F",
+         "text": "Surveillance des saignements"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Surveillance de la température ; C. Surveillance de la pression artérielle ; E. Surveillance de la diurèse ; F. Surveillance des saignements",
+       "answerLetters": [
+        "A",
+        "C",
+        "E",
+        "F"
+       ],
+       "explanation": "La surveillance vise à dépister la fièvre, le choc (pression artérielle, pouls), l’hypovolémie (diurèse) et les hémorragies. La pesée hebdomadaire et la surveillance des selles ne sont pas prioritaires dans la dengue.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), La Dengue – formes hémorragiques et avec syndrome de choc (explication partiellement hors cours du projet).",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__11",
+       "num": "12",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "À la phase d'état (deuxième septénaire) de la fièvre typhoïde, quelle est la caractéristique des selles diarrhéiques ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Liquides, fétides, avec un aspect de jus de papaye ou de melon"
+        },
+        {
+         "letter": "B",
+         "text": "Afécales, glaireuses et mucopurulentes, parfois sanguinolentes"
+        },
+        {
+         "letter": "C",
+         "text": "Abondantes, aqueuses, fécales, en jet, avec un aspect riziforme"
+        },
+        {
+         "letter": "D",
+         "text": "Pâteuses ou liquides, non sanglantes, température normale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Liquides, fétides, avec un aspect de jus de papaye ou de melon",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Au 2e septénaire, la diarrhée est faite de selles liquides, fétides, d’aspect « jus de papaye » (ou melon). B décrit le syndrome dysentérique, C la diarrhée du choléra (riziforme).\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde – 2.3 Phase d’état ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Choléra – Phase d’état.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__12",
+       "num": "13",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelles sont les deux phases de déroulement de l'ascaridiose symptomatique ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La phase d'incubation"
+        },
+        {
+         "letter": "B",
+         "text": "La phase d'invasion"
+        },
+        {
+         "letter": "C",
+         "text": "La phase de complications"
+        },
+        {
+         "letter": "D",
+         "text": "La phase d'état"
+        },
+        {
+         "letter": "E",
+         "text": "La phase des séquelles"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. La phase d'invasion ; D. La phase d'état",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "L’ascaridiose symptomatique évolue en deux phases : une phase d’invasion (migration larvaire, syndrome de Löffler pulmonaire : toux, fièvre, dyspnée asthmatiforme) puis une phase d’état dominée par les troubles digestifs (douleurs, nausées, diarrhée ou constipation).\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), L’ascaridiose – Manifestations cliniques (la notion de « deux phases » est une connaissance générale).",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__13",
+       "num": "14",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La symptomatologie en rhumatologie comporte quatre symptômes principaux. Cochez les deux éléments qui ne sont pas des symptômes fondamentaux.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La douleur"
+        },
+        {
+         "letter": "B",
+         "text": "La claudication"
+        },
+        {
+         "letter": "C",
+         "text": "L'arthrose"
+        },
+        {
+         "letter": "D",
+         "text": "L'instabilité"
+        },
+        {
+         "letter": "E",
+         "text": "La scoliose"
+        },
+        {
+         "letter": "F",
+         "text": "La raideur"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. L'arthrose ; F. La raideur",
+       "answerLetters": [
+        "C",
+        "F"
+       ],
+       "explanation": "Les signes fondamentaux en rhumatologie sont des symptômes (douleur, instabilité, claudication…). L’arthrose est une maladie et non un symptôme, ce qui explique qu’elle soit à cocher. La correction nationale retient aussi « la raideur » comme non fondamentale. (explication hors cours du projet) Remarque : aucun cours du projet ne traite cette liste. En connaissance générale, la raideur est souvent comptée parmi les symptômes fondamentaux, et la scoliose (une déformation) aurait plutôt été attendue comme intrus. Coche reprise sans changement ; à faire confirmer.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__14",
+       "num": "15",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le syndrome dysentérique comprend les caractéristiques suivantes, sauf une. Laquelle ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Des douleurs abdominales violentes avec épreintes, ténesmes et faux besoins"
+        },
+        {
+         "letter": "B",
+         "text": "Une diarrhée afécale, glaireuse et mucopurulente, parfois sanglante"
+        },
+        {
+         "letter": "C",
+         "text": "Des vomissements incoercibles et fréquents"
+        },
+        {
+         "letter": "D",
+         "text": "Une altération de l'état général, de la fièvre"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Des vomissements incoercibles et fréquents",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le syndrome dysentérique associe : douleurs abdominales violentes avec épreintes, ténesmes et faux besoins ; selles afécales, glaireuses, mucopurulentes, parfois sanglantes ; altération de l’état général et fièvre. Les vomissements incoercibles ne font pas partie de sa définition. Remarque : dans la shigellose, le même cours cite des vomissements avec pertes hydro-électrolytiques, mais pas comme élément du syndrome dysentérique lui-même.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Les syndromes dysentériques ; Amibiase intestinale – forme aiguë.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__15",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les facteurs dont dépend le pouvoir pathogène des agents infectieux, relevez les deux propositions fausses.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La virulence"
+        },
+        {
+         "letter": "B",
+         "text": "La toxicité"
+        },
+        {
+         "letter": "C",
+         "text": "Le pouvoir anticorps"
+        },
+        {
+         "letter": "D",
+         "text": "La sécrétion d'enzymes"
+        },
+        {
+         "letter": "E",
+         "text": "La phagocytose"
+        },
+        {
+         "letter": "F",
+         "text": "Le pouvoir antigénique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Le pouvoir anticorps ; E. La phagocytose",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "Le pouvoir pathogène dépend de quatre facteurs : la virulence, la toxicité, la sécrétion d’enzymes et le pouvoir antigénique. Le « pouvoir anticorps » n’existe pas et la phagocytose est un moyen de défense de l’hôte (la virulence est justement la capacité à y résister).\n\nSource : Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Généralités – 3.2 Pouvoir pathogène ; Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Généralités sur les maladies infectieuses.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "À quelle température doit être l'eau utilisée pour la toilette quotidienne des pieds diabétiques ? Cochez une réponse.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "34 à 36 °C (bain froid)"
+        },
+        {
+         "letter": "B",
+         "text": "36 à 37 °C (bain normal)"
+        },
+        {
+         "letter": "C",
+         "text": "39 à 45 °C (bain-marie)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 36 à 37 °C (bain normal)",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le pied diabétique est souvent insensible (neuropathie) : l’eau trop chaude expose à des brûlures non ressenties. La toilette quotidienne se fait à l’eau tiède (environ 36–37 °C, vérifiée au coude ou au thermomètre), puis séchage soigneux entre les orteils. (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__17",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les deux grands facteurs favorisant l'apparition du pied diabétique sont constitués par l'atteinte de quelles structures ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Artères"
+        },
+        {
+         "letter": "B",
+         "text": "Tissus mous"
+        },
+        {
+         "letter": "C",
+         "text": "Nerfs"
+        },
+        {
+         "letter": "D",
+         "text": "Veines"
+        },
+        {
+         "letter": "E",
+         "text": "Vaisseaux lymphatiques"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Artères ; C. Nerfs",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Les deux grands facteurs du pied diabétique sont la neuropathie (atteinte des nerfs : perte de sensibilité, plaies non ressenties) et l’artériopathie (atteinte des artères : ischémie, mauvaise cicatrisation). Les veines et les lymphatiques ne sont pas en cause.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), AOMI (le diabète est un facteur de risque) ; définition du pied diabétique (question 26) – explication partiellement hors cours du projet.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le syndrome cobraïque apparaît entre 30 minutes et une heure après la morsure. Relevez quatre manifestations parmi les suivantes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Des paresthésies et fasciculations"
+        },
+        {
+         "letter": "B",
+         "text": "Un syndrome muscarinique"
+        },
+        {
+         "letter": "C",
+         "text": "Des épistaxis, une hématurie"
+        },
+        {
+         "letter": "D",
+         "text": "Un ptosis pathognomonique"
+        },
+        {
+         "letter": "E",
+         "text": "Atteinte des nerfs crâniens"
+        },
+        {
+         "letter": "F",
+         "text": "Une hémoptysie, une hématémèse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Des paresthésies et fasciculations ; B. Un syndrome muscarinique ; D. Un ptosis pathognomonique ; E. Atteinte des nerfs crâniens",
+       "answerLetters": [
+        "A",
+        "B",
+        "D",
+        "E"
+       ],
+       "explanation": "Le syndrome cobraïque (élapidés : Naja, Dendroaspis) est neurotoxique : paresthésies et fasciculations, signes muscariniques (hypersialorrhée, sueurs, larmoiement, myosis), ptosis palpébral caractéristique, atteinte des nerfs crâniens (vue, ouïe, déglutition anormales, dysphagie). Épistaxis, hématurie, hémoptysie et hématémèse relèvent du syndrome vipérin (troubles de la coagulation).\n\nSource : Cours de venimologie générale (Dr Allali / Dr Akaffou), II.4.1 Troubles neurotoxiques et Tableau II (gradation) ; Envenimations – Traitement (diaporama), Envenimation neurotoxique.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Concernant le test du garrot dans la dengue, quelle affirmation est correcte ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Il permet de confirmer à lui seul le diagnostic de dengue"
+        },
+        {
+         "letter": "B",
+         "text": "Il recherche une fragilité capillaire"
+        },
+        {
+         "letter": "C",
+         "text": "Il est toujours négatif dans la dengue sévère"
+        },
+        {
+         "letter": "D",
+         "text": "Il remplace la numération plaquettaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Il recherche une fragilité capillaire",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le test du garrot (ou du tourniquet) recherche une fragilité capillaire : le brassard est gonflé 5 minutes entre les pressions systolique et diastolique, puis on compte les pétéchies (positif si plus de 20 pétéchies sur 6,25 cm²). Il ne confirme pas seul le diagnostic et ne remplace pas la numération plaquettaire.\n\nSource : Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Dengue fébrile hémorragique – test du tourniquet.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__20",
+       "num": "21",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Devant un ictère important et une atteinte hépatique, une fièvre jaune doit impérativement être éliminée.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La fièvre jaune associe, à la phase jaune, un ictère franc et une atteinte hépato-rénale avec hémorragies. Devant un ictère important avec atteinte hépatique en zone d’endémie, elle doit donc être recherchée (maladie à notification immédiate).\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), La fièvre jaune – III. Données cliniques ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Fièvre jaune – phase jaune.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__21",
+       "num": "22",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans le paludisme, la transmission directe du germe de la femme enceinte infectée à son enfant par voie transplacentaire ou par transfusion sanguine n'est pas le seul cas de contamination interhumaine.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale retient « Faux » : en dehors de la piqûre de l’anophèle femelle, la transmission directe d’homme à homme ne se fait que par voie transplacentaire (mère-enfant) ou par transfusion (paludisme d’inoculation). Ce sont les seuls cas de contamination interhumaine.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Paludisme – définition et 5-3 Paludisme d’inoculation (paludisme transfusionnel) ; Documents de révision L3 Médecine, Paludisme (transmission placentaire).",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__22",
+       "num": "23",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lorsque la femme enceinte est sous prophylaxie antianémique par acide folique et fer, on suspendra le traitement antianémique et on le reprendra 15 jours après la prise de SP.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Chez la femme enceinte sous prophylaxie antianémique (acide folique + fer), on suspend ce traitement lors de la prise de SP et on le reprend 15 jours après la prise de SP.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Paludisme – VIII. Traitement préventif (TPI), NB.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__23",
+       "num": "24",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "[…] pour atteindre 39 à 40 °C à la fin du premier septénaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Au 1er septénaire de la fièvre typhoïde, la température monte progressivement (fièvre à oscillations ascendantes, « en échelle ») pour atteindre 39 à 40 °C en fin de septénaire, avant le plateau du 2e septénaire. Remarque : l’énoncé est tronqué dans le sujet (seule la fin « …pour atteindre 39 à 40 °C à la fin du premier septénaire » est visible).\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde – 2.2 Phase d’invasion (CIVET) et 2.3 Fièvre en plateau.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__24",
+       "num": "25",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "À la phase d'état, la diarrhée fétide, classiquement dite « jus de melon ou de papaye », peut être remplacée par une constipation.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "À la phase d’état, la diarrhée « jus de melon ou de papaye » est typique, mais elle est inconstante et peut être remplacée par une constipation.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Fièvre typhoïde – 2.3 Phase d’état ; Documents de révision L3 Médecine, QCD Fièvre typhoïde n° 18 (constipation) – nuance de connaissance générale.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__25",
+       "num": "26",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "On appelle pied diabétique toute infection, ulcération ou destruction des tissus profonds du pied associée à une neuropathie et/ou à une artériopathie périphérique des membres inférieurs chez le diabétique.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "C’est la définition du pied diabétique : infection, ulcération ou destruction des tissus profonds du pied, associée à une neuropathie et/ou à une artériopathie périphérique des membres inférieurs chez le diabétique. (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__26",
+       "num": "27",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Schistosoma mansoni est responsable d'une bilharziose urinaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Schistosoma mansoni donne une bilharziose intestinale et hépatosplénique. La bilharziose urinaire est due à Schistosoma haematobium (hématurie terminale).\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Les bilharzioses – 2-3 Phase d’état.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__27",
+       "num": "28",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'amibiase est une maladie strictement humaine due à un protozoaire rhizopode appelé Entamoeba histolytica.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L’amibiase est une protozoonose due à Entamoeba histolytica ; l’homme en est l’unique réservoir (maladie strictement humaine). L’amibe est un protozoaire rhizopode (se déplaçant par pseudopodes).\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), L’amibiase – I. Généralités et II. Épidémiologie.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__28",
+       "num": "29",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans le tétanos, le trismus désigne une contracture des muscles masticateurs bloquant l'ouverture de la bouche. Ce signe s'observe à partir de la phase d'état.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le trismus (contracture des masticateurs bloquant l’ouverture de la bouche) est le signe de l’invasion : il apparaît dès cette phase (environ 48 h) et persiste à la phase d’état. Dire qu’il apparaît « à partir de la phase d’état » est donc faux.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Tétanos – II. Étude clinique (invasion) ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Tétanos.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__29",
+       "num": "30",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la crise du tétanos, l'opisthotonos est décrit par le rachis fixé en hyperextension, avec la tête rejetée en arrière et une hyperlordose lombaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "À la phase d’état, la contracture généralisée fixe le rachis en hyperextension, tête rejetée en arrière, avec hyperlordose lombaire : c’est l’opisthotonos.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Tétanos – Phase d’état ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Tétanos.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__30",
+       "num": "31",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'infection à VIH a un profil épidémiologique qui touche davantage les enfants.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L’infection à VIH touche surtout les adultes jeunes sexuellement actifs (15–49 ans), car la voie sexuelle est le mode de transmission le plus courant. Les enfants sont surtout atteints par transmission mère-enfant.\n\nSource : Documents de révision L3 Médecine, VIH/SIDA QCD n° 34 (voie sexuelle) – explication partiellement hors cours du projet.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__31",
+       "num": "32",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le terme « OEV » s'applique à tout âge allant de 9 à 21 ans.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le terme OEV (orphelins et enfants rendus vulnérables) concerne les enfants de 0 à 17 ans (moins de 18 ans), pas une tranche « 9 à 21 ans ». (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__32",
+       "num": "33",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la bilharziose, chez l'homme, les œufs contenant des miracidiums sont éliminés dans l'eau par les excréments ou les urines.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L’homme infesté rejette les œufs avec ses selles (S. mansoni) ou ses urines (S. haematobium). Dans l’eau douce, les œufs éclosent et libèrent le miracidium, larve ciliée qui gagne le mollusque hôte intermédiaire.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Les bilharzioses – Mode de contamination et Diagnostic (œufs dans les excrétas).",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__33",
+       "num": "34",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le soin du mal perforant plantaire consiste en un lavage chirurgical de la plaie jusqu'à l'os et à l'articulation.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le mal perforant plantaire est un ulcère profond du pied (diabète, lèpre). Son soin repose sur la mise en décharge et un parage (lavage, débridement) de la plaie jusqu’aux tissus sains, y compris en profondeur vers l’os et l’articulation, souvent chirurgical. (explication hors cours du projet ; le mal perforant plantaire est cité comme complication de la lèpre dans le cours Pathologies tropicales)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__34",
+       "num": "35",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'envenimation neurotoxique est le fait du cobra non cracheur.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L’envenimation neurotoxique (cobraïque) est due aux élapidés : Naja (cobras) et Dendroaspis (mambas). Le venin des cobras non cracheurs (ex. Naja melanoleuca) est surtout fait de neurotoxines ; celui du cobra cracheur (Naja nigricollis) provoque plutôt une nécrose.\n\nSource : Cours de venimologie générale (Dr Allali / Dr Akaffou), Tableau I (envenimation cobraïque) et II.4.1 ; Exercice 1, V-1.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__35",
+       "num": "36",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les venins de serpents ont un double mécanisme d'action : l'immobilisation rapide de la proie et la digestion complète.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les venins de serpents ont un double mécanisme d’action : l’immobilisation rapide de la proie et la prédigestion (et non la digestion complète).\n\nSource : Envenimations – Traitement (diaporama), Composition des venins (1) ; Cours de venimologie générale (Dr Allali / Dr Akaffou), Exercice 3, question 1.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__36",
+       "num": "37",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la gradation des troubles neurologiques, le grade 2 est caractérisé par une « détresse respiratoire, communication impossible ».",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans la gradation, les troubles neurologiques de grade 2 sont : sueurs et salive abondantes, vomissements, myosis. « Détresse respiratoire, communication impossible » correspond au grade 4.\n\nSource : Cours de venimologie générale (Dr Allali / Dr Akaffou), Tableau II – Évaluation clinique de la gravité d’une envenimation.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__37",
+       "num": "38",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L’agent pathogène de la syphilis est le tréponêma pertem.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L’agent de la syphilis est Treponema pallidum (tréponème pâle). Treponema pertenue est l’agent du pian.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Les tréponématoses – Syphilis vénérienne (définition) et Le pian (définition).",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__38",
+       "num": "39",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 L’élève Adompo, âgé de 16 ans, a une aventure sexuelle avec une jeune fille pendant les vacances scolaires. Il consulte dans votre centre pour des brûlures mictionnelles accompagnées d’une dysurie et d’une plaie au niveau du pénis.",
+       "text": "Quelles sont les complications possibles encourues par Adompo si sa prise en charge n'est pas assurée ? Deux réponses sont attendues.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Imperméabilité tubaire"
+        },
+        {
+         "letter": "B",
+         "text": "Orchi-épididymite"
+        },
+        {
+         "letter": "C",
+         "text": "Cancer précoce des organes atteints"
+        },
+        {
+         "letter": "D",
+         "text": "Rétrécissement de l'urètre"
+        },
+        {
+         "letter": "E",
+         "text": "Accouchement prématuré de la partenaire infectée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Orchi-épididymite ; D. Rétrécissement de l'urètre",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Chez l’homme, une urétrite (gonocoque, chlamydia) non traitée peut se compliquer d’orchi-épididymite et, à distance, de rétrécissement de l’urètre. L’imperméabilité tubaire concerne la femme ; l’accouchement prématuré concerne la partenaire et non Adompo. (explication partiellement hors cours du projet ; approche syndromique des IST)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__39",
+       "num": "40",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 L’élève Adompo, âgé de 16 ans, a une aventure sexuelle avec une jeune fille pendant les vacances scolaires. Il consulte dans votre centre pour des brûlures mictionnelles accompagnées d’une dysurie et d’une plaie au niveau du pénis.",
+       "text": "Quelles sont les étapes d'une bonne prise en charge ? À partir des sept étapes ci-dessous, cochez l'ordre correct. (1) Enregistrement des cas/notification ; (2) Notification au(x) partenaire(s) ; (3) Entretien/conseil (counseling) ; (4) Traitement ; (5) Diagnostic syndromique ; (6) Examen physique ; (7) Accueil et interrogatoire",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1-2-3-4-5-6-7"
+        },
+        {
+         "letter": "B",
+         "text": "1-2-4-5-6-7-3"
+        },
+        {
+         "letter": "C",
+         "text": "1-2-5-6-7-3-4"
+        },
+        {
+         "letter": "D",
+         "text": "1-2-6-7-3-4-5"
+        },
+        {
+         "letter": "E",
+         "text": "7-6-5-4-3-2-1"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "E. 7-6-5-4-3-2-1",
+       "answerLetters": [
+        "E"
+       ],
+       "explanation": "La prise en charge suit l’ordre : accueil et interrogatoire (7), examen physique (6), diagnostic syndromique (5), traitement (4), entretien/conseil (3), notification au(x) partenaire(s) (2), enregistrement des cas (1), soit 7-6-5-4-3-2-1.\n\nSource : Documents de révision L3 Médecine, VIH/SIDA QCD n° 19 (approches de prise en charge des IST) – ordre des étapes : explication partiellement hors cours du projet.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__40",
+       "num": "41",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 1 L’élève Adompo, âgé de 16 ans, a une aventure sexuelle avec une jeune fille pendant les vacances scolaires. Il consulte dans votre centre pour des brûlures mictionnelles accompagnées d’une dysurie et d’une plaie au niveau du pénis.",
+       "text": "Parmi les diagnostics syndromiques suivants, lesquels peuvent s'appliquer au cas d'Adompo ? Deux réponses sont attendues.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Syndromes d'écoulement urétral et/ou anorectal masculin"
+        },
+        {
+         "letter": "B",
+         "text": "Syndromes d'écoulement vaginal et/ou anorectal chez la femme"
+        },
+        {
+         "letter": "C",
+         "text": "Syndromes de douleurs testiculaires"
+        },
+        {
+         "letter": "D",
+         "text": "Syndromes d'ulcérations génitales et/ou bubon"
+        },
+        {
+         "letter": "E",
+         "text": "Syndromes de douleurs abdominales basses chez la femme"
+        },
+        {
+         "letter": "F",
+         "text": "Syndromes de végétations vénériennes ou condylome"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Syndromes d'écoulement urétral et/ou anorectal masculin ; D. Syndromes d'ulcérations génitales et/ou bubon",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "Les brûlures mictionnelles avec dysurie chez l’homme relèvent du syndrome d’écoulement urétral ; la plaie du pénis relève du syndrome d’ulcération génitale (± bubon). Les syndromes « chez la femme » ne s’appliquent pas à Adompo. (explication partiellement hors cours du projet ; approche syndromique des IST)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__41",
+       "num": "42",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 Vous êtes de garde à l’EPHD d’Agboville. Vous recevez, avec le médecin, M. Wèssèbian, vendeur et consommateur de noix de cola. Il présente une douleur rétrosternale apparaissant à l’effort et cédant en quelques minutes à l’arrêt de l’effort. Cette douleur irradie typiquement vers la mâchoire inférieure et le bras gauche ; elle est constrictive, en étau, et dure entre 1 et 3 minutes. Constantes : température 36,8 °C ; poids 62 kg ; IMC estimé à 28 kg/m² ; pouls 88 pulsations/min ; fréquence respiratoire 31 cycles/min ; pression artérielle 172/101 mmHg (même valeur après plus de trois prises). L’entretien révèle des antécédents de tabagisme notoire et une consommation habituelle de noix de cola, occasionnant une haleine fétide et des dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence, qui fait cesser la crise. Une sonde urinaire est posée. Le lendemain, la diurèse est de 555 mL.",
+       "text": "Quel est le diagnostic de M. Wèssèbian retenu par le médecin ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Infarctus du myocarde"
+        },
+        {
+         "letter": "B",
+         "text": "Angine de poitrine"
+        },
+        {
+         "letter": "C",
+         "text": "Crise d'OAP"
+        },
+        {
+         "letter": "D",
+         "text": "AVC"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Angine de poitrine",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Douleur rétrosternale constrictive « en étau », déclenchée par l’effort, cédant à l’arrêt de l’effort et à la trinitrine en 1 à 2 minutes, irradiant vers la mâchoire et le bras gauche : c’est l’angine de poitrine (angor d’effort). Dans l’infarctus, la douleur persiste malgré l’arrêt de l’effort et les dérivés nitrés.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), A. L’angine de poitrine (définition, diagnostic clinique) et B. Syndrome coronarien aigu.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__42",
+       "num": "43",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 Vous êtes de garde à l’EPHD d’Agboville. Vous recevez, avec le médecin, M. Wèssèbian, vendeur et consommateur de noix de cola. Il présente une douleur rétrosternale apparaissant à l’effort et cédant en quelques minutes à l’arrêt de l’effort. Cette douleur irradie typiquement vers la mâchoire inférieure et le bras gauche ; elle est constrictive, en étau, et dure entre 1 et 3 minutes. Constantes : température 36,8 °C ; poids 62 kg ; IMC estimé à 28 kg/m² ; pouls 88 pulsations/min ; fréquence respiratoire 31 cycles/min ; pression artérielle 172/101 mmHg (même valeur après plus de trois prises). L’entretien révèle des antécédents de tabagisme notoire et une consommation habituelle de noix de cola, occasionnant une haleine fétide et des dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence, qui fait cesser la crise. Une sonde urinaire est posée. Le lendemain, la diurèse est de 555 mL.",
+       "text": "Parmi les mesures du traitement hygiénodiététique suivantes, retrouvez l'intrus.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Régime hyposodé"
+        },
+        {
+         "letter": "B",
+         "text": "Repos et sédentarité"
+        },
+        {
+         "letter": "C",
+         "text": "Régime hypolipidique"
+        },
+        {
+         "letter": "D",
+         "text": "Sevrage de la consommation d'alcool et du tabac"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Repos et sédentarité",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les mesures hygiéno-diététiques corrigent les facteurs de risque : réduction du sel, réduction des graisses, arrêt du tabac et de l’alcool, pratique du sport. La sédentarité est un facteur de risque : « repos et sédentarité » est donc l’intrus.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Angine de poitrine – 4. Facteurs de risque et 9.4 Traitement préventif.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__43",
+       "num": "44",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 Vous êtes de garde à l’EPHD d’Agboville. Vous recevez, avec le médecin, M. Wèssèbian, vendeur et consommateur de noix de cola. Il présente une douleur rétrosternale apparaissant à l’effort et cédant en quelques minutes à l’arrêt de l’effort. Cette douleur irradie typiquement vers la mâchoire inférieure et le bras gauche ; elle est constrictive, en étau, et dure entre 1 et 3 minutes. Constantes : température 36,8 °C ; poids 62 kg ; IMC estimé à 28 kg/m² ; pouls 88 pulsations/min ; fréquence respiratoire 31 cycles/min ; pression artérielle 172/101 mmHg (même valeur après plus de trois prises). L’entretien révèle des antécédents de tabagisme notoire et une consommation habituelle de noix de cola, occasionnant une haleine fétide et des dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence, qui fait cesser la crise. Une sonde urinaire est posée. Le lendemain, la diurèse est de 555 mL.",
+       "text": "Sur quoi porteront vos initiatives d'éducation thérapeutique ? Cochez l'intrus.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Expliquer les effets secondaires probables des médicaments"
+        },
+        {
+         "letter": "B",
+         "text": "Expliquer l'importance du suivi des règles hygiéno-diététiques"
+        },
+        {
+         "letter": "C",
+         "text": "Expliquer au patient que le traitement est à vie"
+        },
+        {
+         "letter": "D",
+         "text": "Expliquer au patient les effets néfastes de ses habitudes de vie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Expliquer au patient que le traitement est à vie",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L’éducation thérapeutique porte sur les effets secondaires des médicaments, le respect des règles hygiéno-diététiques et l’abandon des habitudes néfastes (tabac, cola, sel). La correction nationale retient comme intrus « expliquer que le traitement est à vie ». (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__44",
+       "num": "45",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 Vous êtes de garde à l’EPHD d’Agboville. Vous recevez, avec le médecin, M. Wèssèbian, vendeur et consommateur de noix de cola. Il présente une douleur rétrosternale apparaissant à l’effort et cédant en quelques minutes à l’arrêt de l’effort. Cette douleur irradie typiquement vers la mâchoire inférieure et le bras gauche ; elle est constrictive, en étau, et dure entre 1 et 3 minutes. Constantes : température 36,8 °C ; poids 62 kg ; IMC estimé à 28 kg/m² ; pouls 88 pulsations/min ; fréquence respiratoire 31 cycles/min ; pression artérielle 172/101 mmHg (même valeur après plus de trois prises). L’entretien révèle des antécédents de tabagisme notoire et une consommation habituelle de noix de cola, occasionnant une haleine fétide et des dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence, qui fait cesser la crise. Une sonde urinaire est posée. Le lendemain, la diurèse est de 555 mL.",
+       "text": "Quelle est la taille du patient parmi les valeurs suivantes ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "148 cm"
+        },
+        {
+         "letter": "B",
+         "text": "146 cm"
+        },
+        {
+         "letter": "C",
+         "text": "144 cm"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 148 cm",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "IMC = poids / taille², donc taille = √(poids / IMC) = √(62 / 28) = √2,214 ≈ 1,488 m, soit 148 cm.\n\nSource : calcul à partir des données du cas.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__45",
+       "num": "46",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 Vous êtes de garde à l’EPHD d’Agboville. Vous recevez, avec le médecin, M. Wèssèbian, vendeur et consommateur de noix de cola. Il présente une douleur rétrosternale apparaissant à l’effort et cédant en quelques minutes à l’arrêt de l’effort. Cette douleur irradie typiquement vers la mâchoire inférieure et le bras gauche ; elle est constrictive, en étau, et dure entre 1 et 3 minutes. Constantes : température 36,8 °C ; poids 62 kg ; IMC estimé à 28 kg/m² ; pouls 88 pulsations/min ; fréquence respiratoire 31 cycles/min ; pression artérielle 172/101 mmHg (même valeur après plus de trois prises). L’entretien révèle des antécédents de tabagisme notoire et une consommation habituelle de noix de cola, occasionnant une haleine fétide et des dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence, qui fait cesser la crise. Une sonde urinaire est posée. Le lendemain, la diurèse est de 555 mL.",
+       "text": "Au regard de l'IMC, quelle est la classification nutritionnelle du patient ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Dénutrition"
+        },
+        {
+         "letter": "B",
+         "text": "Poids normal"
+        },
+        {
+         "letter": "C",
+         "text": "Surpoids"
+        },
+        {
+         "letter": "D",
+         "text": "Obésité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Surpoids",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Un IMC de 28 kg/m² se situe entre 25 et 29,9 : c’est un surpoids (obésité à partir de 30).\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020) (surpoids comme facteur de risque) ; classification OMS de l’IMC (explication partiellement hors cours du projet).",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__46",
+       "num": "47",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "Cas clinique 2 Vous êtes de garde à l’EPHD d’Agboville. Vous recevez, avec le médecin, M. Wèssèbian, vendeur et consommateur de noix de cola. Il présente une douleur rétrosternale apparaissant à l’effort et cédant en quelques minutes à l’arrêt de l’effort. Cette douleur irradie typiquement vers la mâchoire inférieure et le bras gauche ; elle est constrictive, en étau, et dure entre 1 et 3 minutes. Constantes : température 36,8 °C ; poids 62 kg ; IMC estimé à 28 kg/m² ; pouls 88 pulsations/min ; fréquence respiratoire 31 cycles/min ; pression artérielle 172/101 mmHg (même valeur après plus de trois prises). L’entretien révèle des antécédents de tabagisme notoire et une consommation habituelle de noix de cola, occasionnant une haleine fétide et des dents ardoisées. Le médecin prescrit une dose de trinitrine en urgence, qui fait cesser la crise. Une sonde urinaire est posée. Le lendemain, la diurèse est de 555 mL.",
+       "text": "Que traduit la diurèse du patient ? Cochez une réponse.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Anurie"
+        },
+        {
+         "letter": "B",
+         "text": "Oligurie"
+        },
+        {
+         "letter": "C",
+         "text": "Polyurie"
+        },
+        {
+         "letter": "D",
+         "text": "Pollakiurie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Oligurie",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Une diurèse basse traduit une oligurie (diminution du volume des urines), contrairement à l’anurie (quasi absence d’urines), à la polyurie (urines abondantes) et à la pollakiurie (mictions fréquentes). Remarque : selon le seuil du cours (oligurie < 500 mL/24 h), une diurèse de 555 mL n’est pas strictement une oligurie ; l’oligurie reste toutefois la seule proposition cohérente parmi les quatre.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Insuffisance rénale aiguë – physiopathologie (oligurie < 500 mL/24 h ; anurie ≈ 50 mL).",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__47",
+       "num": "48",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour accompagner un patient en phase terminale de vie, le médecin prescrit une perfusion de 1 litre de Ringer lactate en 24 heures. Calculez le débit de la perfusion et cochez la réponse exacte.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "14 gouttes/min"
+        },
+        {
+         "letter": "B",
+         "text": "13 gouttes/min"
+        },
+        {
+         "letter": "C",
+         "text": "12 gouttes/min"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 14 gouttes/min",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Débit (gouttes/min) = volume (mL) × 20 / durée (min) = 1000 × 20 / 1440 = 13,9 ≈ 14 gouttes/min.\n\nSource : calcul de débit de perfusion (1 mL = 20 gouttes pour un perfuseur standard).",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__48",
+       "num": "49",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une perfusion est maintenue à 20 gouttes par minute pendant 8 heures. Quel volume de soluté est passé pendant ce temps ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "B. 380 mL"
+        },
+        {
+         "letter": "B",
+         "text": "C. 480 mL"
+        },
+        {
+         "letter": "C",
+         "text": "D. 580 mL"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. C. 480 mL",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "20 gouttes/min = 1 mL/min (1 mL = 20 gouttes). En 8 h = 480 min, le volume passé est de 480 mL.\n\nSource : calcul de débit de perfusion.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__49",
+       "num": "50",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lors d'une intervention de chirurgie cardiaque, vous devez injecter 3 mg/kg d'héparine à un patient de 58 kg. Vous disposez d'un flacon de 5 mL contenant 25 000 UI (1 mL = 50 mg = 5 000 UI). Quel volume d'héparine devez-vous injecter ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "2,90 mL"
+        },
+        {
+         "letter": "B",
+         "text": "5,80 mL"
+        },
+        {
+         "letter": "C",
+         "text": "3,48 mL"
+        },
+        {
+         "letter": "D",
+         "text": "12,70 mL"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 3,48 mL",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Dose = 3 mg/kg × 58 kg = 174 mg. Avec 1 mL = 50 mg : volume = 174 / 50 = 3,48 mL.\n\nSource : calcul de dose à partir des données de l’énoncé.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__50",
+       "num": "51",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Vous administrez une perfusion de 500 mL de sérum glucosé à 10 %. Quelle masse de glucose, en grammes, le patient reçoit-il à l'issue de la perfusion ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "75 g"
+        },
+        {
+         "letter": "B",
+         "text": "50 g"
+        },
+        {
+         "letter": "C",
+         "text": "25 g"
+        },
+        {
+         "letter": "D",
+         "text": "12,5 g"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 50 g",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Un soluté glucosé à 10 % contient 10 g de glucose pour 100 mL, donc 500 mL apportent 50 g.\n\nSource : calcul de concentration.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__51",
+       "num": "52",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour soulager les crises du patient, le médecin prescrit 35 mg de Risordan® en comprimés. Vous disposez de comprimés dosés à 20 mg. Quelle quantité de comprimés devez-vous préparer ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1 comprimé"
+        },
+        {
+         "letter": "B",
+         "text": "1 comprimé + ½ comprimé"
+        },
+        {
+         "letter": "C",
+         "text": "1 comprimé + ⅔ de comprimé"
+        },
+        {
+         "letter": "D",
+         "text": "1 comprimé + ¾ de comprimé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 1 comprimé + ¾ de comprimé",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "35 mg / 20 mg par comprimé = 1,75 comprimé, soit 1 comprimé + ¾ de comprimé.\n\nSource : calcul de dose à partir des données de l’énoncé.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__52",
+       "num": "53",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le dévouement de l'infirmière au bien-être des personnes confiées à sa garde l'engage à une obligation de quelle nature ? Cochez une réponse.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Résultat"
+        },
+        {
+         "letter": "B",
+         "text": "Moyens"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Moyens",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L’infirmière est tenue à une obligation de moyens : elle doit mettre en œuvre tous les soins conformes aux règles de l’art, mais ne peut garantir la guérison (ce qui serait une obligation de résultat). (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__53",
+       "num": "54",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle proposition correspond à la formulation correcte d'un diagnostic infirmier pour l'affection de M. Wèssèbian ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Syndrome douloureux thoracique relié à une perturbation du débit sanguin coronaire"
+        },
+        {
+         "letter": "B",
+         "text": "Perturbation du débit sanguin coronaire reliée au syndrome douloureux thoracique"
+        },
+        {
+         "letter": "C",
+         "text": "Aucune des deux propositions n'est correcte"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Syndrome douloureux thoracique relié à une perturbation du débit sanguin coronaire",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Un diagnostic infirmier se formule « problème relié à (cause/étiologie) ». Le problème est le syndrome douloureux thoracique ; la cause est la perturbation du débit sanguin coronaire, comme dans la définition de l’angine de poitrine.\n\nSource : Cours Médecine IDE 2 INFAS (actualisé 2020), Angine de poitrine – 1. Définition ; Documents de révision L3 Médecine, Soins infirmiers (énoncé du diagnostic infirmier : problème + étiologie).",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__54",
+       "num": "55",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Chez un patient atteint de dengue, relevez trois actes de la conduite infirmière immédiate en matière de prévention et de sécurité.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Isolement sous moustiquaire imprégnée"
+        },
+        {
+         "letter": "B",
+         "text": "Transmission écrite et orale de toute aggravation"
+        },
+        {
+         "letter": "C",
+         "text": "Élimination des gîtes larvaires autour du service"
+        },
+        {
+         "letter": "D",
+         "text": "Alerte immédiate du médecin en cas de choc ou de saignement important"
+        },
+        {
+         "letter": "E",
+         "text": "Éducation du patient et de la famille"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Isolement sous moustiquaire imprégnée ; B. Transmission écrite et orale de toute aggravation ; D. Alerte immédiate du médecin en cas de choc ou de saignement important",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "En urgence, l’infirmier protège et sécurise : isolement du malade sous moustiquaire imprégnée (éviter de nouvelles piqûres et la transmission), transmission écrite et orale de toute aggravation, alerte immédiate du médecin en cas de choc ou de saignement important. L’élimination des gîtes larvaires est une mesure collective et l’éducation n’est pas un acte immédiat.\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), Dengue et Fièvre jaune (isolement sous moustiquaires imprégnées, lutte antivectorielle) – explication partiellement hors cours du projet.",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-med-j10-sf3__55",
+       "num": "56",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les éléments suivants permettant de distinguer la dengue de la fièvre jaune, relevez uniquement ceux observés dans la dengue.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Douleurs rétro-orbitaires"
+        },
+        {
+         "letter": "B",
+         "text": "Syndrome hémorragique avec ictère"
+        },
+        {
+         "letter": "C",
+         "text": "Test du garrot positif"
+        },
+        {
+         "letter": "D",
+         "text": "Atteinte hépatique prédominante"
+        },
+        {
+         "letter": "E",
+         "text": "Thrombopénie importante"
+        },
+        {
+         "letter": "F",
+         "text": "Hyperbilirubinémie importante"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Douleurs rétro-orbitaires ; C. Test du garrot positif ; E. Thrombopénie importante",
+       "answerLetters": [
+        "A",
+        "C",
+        "E"
+       ],
+       "explanation": "La dengue se distingue par les douleurs rétro-orbitaires, le test du garrot positif et la thrombopénie importante (pétéchies). L’ictère, l’atteinte hépatique prédominante et l’hyperbilirubinémie orientent vers la fièvre jaune (phase jaune hépato-rénale).\n\nSource : Cours Pathologies tropicales L1 (INFAS Daloa 2017-2018), La Dengue et La fièvre jaune ; Cours de maladies infectieuses – Soins infirmiers en maladies infectieuses, Dengue fébrile hémorragique (absence d’ictère, thrombocytopénie).",
+       "sourceDoc": "Préparation D.E (J) · Médecine · Prépa D.E J10 (SF3)",
+       "sourceFile": "J10_Medecine_SF3_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

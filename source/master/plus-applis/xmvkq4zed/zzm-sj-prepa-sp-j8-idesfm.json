@@ -1,0 +1,1628 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzm-sj-prepa-sp-j8-idesfm",
+ "titre": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 45,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+   "sha256": "c1e8c2d8402d3b954a7c6fc159ceb6b02b83cb88c53adce6ddd9268aa4b95034"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Santé publique · Prépa D.E J8 (IDE-SFM)",
+     "slug": "prepa-sp-j8-idesfm",
+     "pages": "",
+     "count": 45,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Santé publique",
+     "source": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__0",
+       "num": "1",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les ressources n'ont pas été disponibles chaque jour. Quel pourcentage de disponibilité faut-il retenir ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "88%"
+        },
+        {
+         "letter": "B",
+         "text": "90%"
+        },
+        {
+         "letter": "C",
+         "text": "60%"
+        },
+        {
+         "letter": "D",
+         "text": "100%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 88%",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La disponibilité des ressources (DR) rapporte le nombre de jours où les ressources indispensables étaient effectivement disponibles (162 jours) à la durée totale du semestre (183 jours) : DR = 162 183 × 100 = 88,52 %, arrondi par défaut à 88 %.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 6 (Monitorage des services de santé).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__1",
+       "num": "2",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les 600 personnes ciblées, 480 peuvent facilement rejoindre le service. Quelle accessibilité géographique cela représente-t-il ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "60%"
+        },
+        {
+         "letter": "B",
+         "text": "35%"
+        },
+        {
+         "letter": "C",
+         "text": "80%"
+        },
+        {
+         "letter": "D",
+         "text": "90%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 80%",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'accessibilité géographique (AG) rapporte la fraction de la population cible résidant dans le rayon d'accès facile au centre (480 personnes) à la population cible totale du monitorage (600 personnes) : AG = 480 600 × 100 = 80 %.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Monitorage (section 4.3) ; Formules de Santé Publique — Document harmonisé, chap. 6.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__2",
+       "num": "3",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le service a accueilli au moins une fois 360 personnes cibles. Quel taux d'utilisation l'équipe doit-elle inscrire dans sa synthèse ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "60%"
+        },
+        {
+         "letter": "B",
+         "text": "75%"
+        },
+        {
+         "letter": "C",
+         "text": "35%"
+        },
+        {
+         "letter": "D",
+         "text": "30%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 60%",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'utilisation des services (US) mesure le pourcentage de la population cible (600 personnes) ayant eu au moins un contact avec le service (360 personnes) : US = 360 600 × 100 = 60 %.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Monitorage ; Formules de Santé Publique — Document harmonisé, chap. 6.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__3",
+       "num": "4",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Toutes les prestations requises ont été reçues par 210 personnes. À combien s'établit la couverture adéquate ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "58%"
+        },
+        {
+         "letter": "B",
+         "text": "30%"
+        },
+        {
+         "letter": "C",
+         "text": "60%"
+        },
+        {
+         "letter": "D",
+         "text": "35%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 35%",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La couverture adéquate (CA) correspond au pourcentage de la population cible (600 personnes) ayant reçu la série complète des prestations selon la fréquence et l'intensité requises (210 personnes) : CA = 210 600 × 100 = 35 %.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Monitorage (section 4.5) ; Formules de Santé Publique — Document harmonisé, chap. 6.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__4",
+       "num": "5",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour 180 personnes, les prestations sont complètes et leur qualité respecte les normes. Quelle couverture effective obtient-on ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "35%"
+        },
+        {
+         "letter": "B",
+         "text": "30%"
+        },
+        {
+         "letter": "C",
+         "text": "50%"
+        },
+        {
+         "letter": "D",
+         "text": "85%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 30%",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La couverture effective (CE) mesure la proportion de la population cible (600 personnes) ayant bénéficié de prestations complètes et conformes aux normes de qualité (180 personnes) : CE = 180 × 100 = 30 %. 600\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 6 (Monitorage des services de santé).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__5",
+       "num": "6",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'équipe compare les niveaux de couverture successifs. Entre quels déterminants la baisse en points de pourcentage est-elle la plus marquée ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Disponibilité et accessibilité"
+        },
+        {
+         "letter": "B",
+         "text": "Accessibilité et utilisation"
+        },
+        {
+         "letter": "C",
+         "text": "Utilisation et couverture adéquate"
+        },
+        {
+         "letter": "D",
+         "text": "Couverture adéquate et couverture effective"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Utilisation et couverture adéquate",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "En comparant les baisses successives sur la courbe de monitorage : DR → AG = 88 % − 80 % = 8 points ; AG → US = 80 % − 60 % = 20 points ; US → CA = 60 % − 35 % = 25 points ; CA → CE = 35 % − 30 % = 5 points. Le goulot d'étranglement majeur se situe donc entre l'utilisation et la couverture adéquate (25 points).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Monitorage (Tableau d'analyse des goulots d'étranglement).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__6",
+       "num": "7",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les rendez-vous sont mal expliqués et les rappels inexistants. Quelle mesure agit directement sur cette difficulté ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Expliquer les rendez-vous et organiser les rappels"
+        },
+        {
+         "letter": "B",
+         "text": "Augmenter la population cible sur les fiches"
+        },
+        {
+         "letter": "C",
+         "text": "Supprimer les prestations de suivi"
+        },
+        {
+         "letter": "D",
+         "text": "Réduire les exigences de qualité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Expliquer les rendez-vous et organiser les rappels",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "D'après la matrice des stratégies correctrices du monitorage, un goulot d'étranglement entre l'utilisation et la couverture adéquate (abandons en cours de série) lié à une mauvaise communication sur les échéances se corrige directement en mentionnant et expliquant clairement les dates de rendezvous et en organisant la recherche des perdus de vue/rappels.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Monitorage (Tableau d'analyse des goulots d'étranglement — Entre l'US et la CA).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__7",
+       "num": "8",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les mesures correctives sont choisies. Quelle étape permet maintenant d'organiser leur application ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Clore le dossier sans calendrier"
+        },
+        {
+         "letter": "B",
+         "text": "Effacer les indicateurs faibles"
+        },
+        {
+         "letter": "C",
+         "text": "Modifier rétroactivement les données"
+        },
+        {
+         "letter": "D",
+         "text": "Planifier la mise en œuvre des mesures retenues"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Planifier la mise en œuvre des mesures retenues",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Une fois les goulots d'étranglement identifiés et les stratégies correctrices retenues lors de la séance de monitorage, l'étape finale consiste à planifier opérationnellement la mise en œuvre de ces mesures (activités, responsables, échéancier, ressources) pour le semestre suivant.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Monitorage des services de santé. II. ÉTUDE DE CAS 2 — BUDGÉTISATION DES RESSOURCES D'UN ESPC (QUESTIONS 9 À 15) Énoncé de l'étude de cas 2 : Le comité de gestion se réunit pour préparer le budget du prochain semestre. Pour le semestre écoulé, les recettes brutes s'élèvent à 2 400 000 FCFA. Après les dépenses totales du centre (FAS-IP-SPS), le reliquat constitue le coût des actes de santé et de la vente des carnets. Les recettes de vente de médicaments essentiels (RVME) sont de 750 000 FCFA ; un versement supplémentaire déclaré de 70 000 FCFA n'a aucun reçu. Les dépenses obligatoires retenues totalisent 1 500 000 FCFA ; À la veille du monitorage, la somme à la banque, est de 2 450 000 FCFA non compris les agios et y compris les intérêts et comprend l'intégralité de la SAB déposée sur ce compte. Aucun autre mouvement n'est à prendre en compte.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__8",
+       "num": "9",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le responsable prépare le versement du Fonds d'action sociale. Quel montant doit-il retenir ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "360 000 FCFA"
+        },
+        {
+         "letter": "B",
+         "text": "480 000 FCFA"
+        },
+        {
+         "letter": "C",
+         "text": "240 000 FCFA"
+        },
+        {
+         "letter": "D",
+         "text": "132 000 FCFA"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 240 000 FCFA",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Selon la clé de répartition réglementaire des recettes brutes issues des actes de santé et carnets (2 400 000 FCFA), le Fonds d'Action Sociale (FAS) représente 10 % des recettes brutes, soit : 2 400 000 × 10 % = 240 000 FCFA.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Budgétisation des ressources propres d'un ESPC ; Formules de Santé Publique — Document harmonisé, chap. 7.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__9",
+       "num": "10",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Avant de partager l'intéressement entre les bénéficiaires, quel montant total faut-il calculer ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "360 000 FCFA"
+        },
+        {
+         "letter": "B",
+         "text": "180 000 FCFA"
+        },
+        {
+         "letter": "C",
+         "text": "240 000 FCFA"
+        },
+        {
+         "letter": "D",
+         "text": "480 000 FCFA"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 360 000 FCFA",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'enveloppe globale de l'intéressement du personnel (IP) correspond à 15 % des recettes brutes (2 400 000 FCFA) avant sa répartition entre les différents ayants droit, soit : 2 400 000 × 15 % = 360 000 FCFA.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Budgétisation des ressources propres d'un ESPC ; Formules de Santé Publique — Document harmonisé, chap. 7.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__10",
+       "num": "11",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les trois prélèvements ont été effectués. Quelle somme reste au titre des recettes nettes du coût des actes de santé ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1 080 000 FCFA"
+        },
+        {
+         "letter": "B",
+         "text": "2 160 000 FCFA"
+        },
+        {
+         "letter": "C",
+         "text": "1 920 000 FCFA"
+        },
+        {
+         "letter": "D",
+         "text": "1 320 000 FCFA"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 1 320 000 FCFA",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Les trois prélèvements obligatoires sur les recettes brutes (2 400 000 FCFA) totalisent 45 % : FAS (10 % = 240 000) + Intéressement du Personnel (15 % = 360 000) + Soutien à la Promotion de la Santé / SPS (20 % = 480 000) = 1 080 000 FCFA. Les recettes nettes (55 %) s'élèvent donc à : 2 400 000 − 1 080 000 = 1 320 000 FCFA.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Budgétisation des ressources propres d'un ESPC ; Formules de Santé Publique — Document harmonisé, chap. 7.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__11",
+       "num": "12",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le versement de 70 000 FCFA reste sans justificatif. Quelle somme à budgétiser peut néanmoins être retenue ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "2 070 000 FCFA"
+        },
+        {
+         "letter": "B",
+         "text": "2 000 000 FCFA"
+        },
+        {
+         "letter": "C",
+         "text": "1 320 000 FCFA"
+        },
+        {
+         "letter": "D",
+         "text": "2 450 000 FCFA"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 2 070 000 FCFA",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La Somme à Budgétiser (SAB) additionne les recettes nettes du coût des actes de santé (1 320 000 FCFA) et les recettes de vente des médicaments essentiels (RVME = 750 000 FCFA), soit : 1 320 000 + 750 000 = 2 070 000 FCFA (le versement non justifié par un reçu de 70 000 FCFA n'étant pas comptabilisé dans les RVME).\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 7 (Gestion financière du centre de santé).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__12",
+       "num": "13",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les dépenses obligatoires sont couvertes. Quelle enveloppe reste disponible pour le fonctionnement local ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "500 000 FCFA"
+        },
+        {
+         "letter": "B",
+         "text": "950 000 FCFA"
+        },
+        {
+         "letter": "C",
+         "text": "570 000 FCFA"
+        },
+        {
+         "letter": "D",
+         "text": "1 500 000 FCFA"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 570 000 FCFA",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Selon la formule du cours, les dépenses de fonctionnement local (DFL) correspondent à la différence entre la Somme à Budgétiser (2 070 000 FCFA) et les Dépenses Obligatoires (1 500 000 FCFA) : DFL = 2 070 000 − 1 500 000 = 570 000 FCFA.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Budgétisation des ressources propres d'un ESPC ; Formules de Santé Publique — Document harmonisé, chap. 7.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__13",
+       "num": "14",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le solde bancaire comprend déjà les recettes du semestre. Quel fonds de réserve obtienton après leur déduction ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "2 450 000 FCFA"
+        },
+        {
+         "letter": "B",
+         "text": "950 000 FCFA"
+        },
+        {
+         "letter": "C",
+         "text": "450 000 FCFA"
+        },
+        {
+         "letter": "D",
+         "text": "380 000 FCFA"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 380 000 FCFA",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le Fonds de Réserve (FR) s'obtient en soustrayant la Somme à Budgétiser (2 070 000 FCFA) du solde bancaire disponible (2 450 000 FCFA) : FR = 2 450 000 − 2 070 000 = 380 000 FCFA.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 7 (Gestion financière du centre de santé).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__14",
+       "num": "15",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une réparation du bâtiment est envisagée. Selon le cours, quel montant maximal peut lui être consacré sur l'enveloppe de fonctionnement local ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "25 000 FCFA"
+        },
+        {
+         "letter": "B",
+         "text": "100 000 FCFA"
+        },
+        {
+         "letter": "C",
+         "text": "150 000 FCFA"
+        },
+        {
+         "letter": "D",
+         "text": "50 000 FCFA"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 50 000 FCFA",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Selon les dispositions réglementaires régissant la gestion financière des ESPC en Côte d'Ivoire, le montant maximal autorisé pour une opération d'entretien ou de réparation du bâtiment sans autorisation hiérarchique préalable est plafonné à 50 000 FCFA.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Budgétisation des ressources propres d'un ESPC (L3). III. ÉTUDE DE CAS 3 — ÉPIDÉMIOLOGIE (QUESTIONS 16 À 23) Énoncé de l'étude de cas 3 : Les registres sont réunis pour dresser le bilan sanitaire annuel de la localité de Zagoué. Celle-ci compte 18 000 habitants au 1er janvier et 18 600 au 31 décembre de l'année 2025. Elle enregistre 549 naissances vivantes et 183 décès toutes causes confondues. Le solde migratoire est positif de 234 personnes. Le paludisme compte 366 nouveaux cas au cours de l'année ; aucun cas ancien n'était présent au début de l'année. Parmi ces 366 cas, 11 décès sont enregistrés. On dénombre 22 décès d'enfants de moins d'un an et 2 décès maternels répondant à la définition de la mortalité maternelle. Les femmes en âge de reproduction sont au nombre de 3 660.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__15",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Deux effectifs de population sont connus, l'un au début de l'année, l'autre à la fin. Quel dénominateur faut-il retenir pour les indicateurs généraux demandés ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "18 000"
+        },
+        {
+         "letter": "B",
+         "text": "18 600"
+        },
+        {
+         "letter": "C",
+         "text": "18 300"
+        },
+        {
+         "letter": "D",
+         "text": "36 600"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 18 300",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Lorsque les effectifs de début d'année (P1 = 18 000) et de fin d'année (P2 = 18 600) sont connus, le dénominateur de référence pour le calcul des taux annuels est la population moyenne de l'année : Pmoy = 18 000 +2 18 600 = 18 300 habitants.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 2 (Population moyenne).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le bilan fait état de 549 naissances vivantes. Quel taux brut de natalité, exprimé en pourcentage, en découle ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "3%"
+        },
+        {
+         "letter": "B",
+         "text": "30%"
+        },
+        {
+         "letter": "C",
+         "text": "2%"
+        },
+        {
+         "letter": "D",
+         "text": "0,30%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 3%",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le taux brut de natalité (TBN) rapporte le nombre de naissances vivantes de l'année (549) à la population moyenne (18 300 habitants) : TBN = 18549 300 × 100 = 3 % (soit 30 ‰).\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 2 (Démographie, natalité et fécondité).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__17",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Sans tenir compte des migrations, de combien de personnes la population s'est-elle accrue naturellement ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "600 personnes"
+        },
+        {
+         "letter": "B",
+         "text": "234 personnes"
+        },
+        {
+         "letter": "C",
+         "text": "732 personnes"
+        },
+        {
+         "letter": "D",
+         "text": "366 personnes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 366 personnes",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "L'accroissement naturel de la population correspond à la différence entre les naissances vivantes (549) et les décès toutes causes confondues (183) : Accroissement naturel = 549 − 183 = 366 personnes (on vérifie bien que 366 + 234 de solde migratoire = 600 personnes d'accroissement total).\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 2 (Démographie, natalité et fécondité).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le paludisme a touché 366 nouveaux malades pendant l'année. Quelle incidence annuelle obtient-on en pourcentage ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "3%"
+        },
+        {
+         "letter": "B",
+         "text": "2%"
+        },
+        {
+         "letter": "C",
+         "text": "20%"
+        },
+        {
+         "letter": "D",
+         "text": "0,20%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 2%",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le taux d'incidence annuelle rapporte le nombre de nouveaux cas apparus pendant l'année (366 cas) à la population moyenne exposée (18 300 habitants) : Incidence = 18366 300 × 100 = 2 %.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 3 (Morbidité, incidence, prévalence).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Onze personnes sont décédées parmi les cas de paludisme enregistrés. Quelle est la létalité de cette maladie ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "0,06%"
+        },
+        {
+         "letter": "B",
+         "text": "6,01%"
+        },
+        {
+         "letter": "C",
+         "text": "3,01%"
+        },
+        {
+         "letter": "D",
+         "text": "2%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 3,01%",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le taux de létalité rapporte le nombre de décès dus au paludisme (11 décès) au nombre 11 × 100 = 3,01 %. total de cas enregistrés de paludisme (366 cas) : Létalité = 366\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 3 (Morbidité et mortalité).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Vingt-deux enfants sont décédés avant leur premier anniversaire. Quel taux de mortalité infantile faut-il retenir pour 1 000 naissances vivantes ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "40,07 ‰"
+        },
+        {
+         "letter": "B",
+         "text": "4,01‰"
+        },
+        {
+         "letter": "C",
+         "text": "1,20%"
+        },
+        {
+         "letter": "D",
+         "text": "120,22 ‰"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 40,07 ‰",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le taux de mortalité infantile (TMI) rapporte les décès d'enfants de moins d'un an (0 à 11 22 × 1 000 = mois = 22 décès) au total des naissances vivantes de l'année (549) pour 1 000 : TMI = 549 40,07 ‰.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 4 (Mortalité maternelle, infantile et néonatale).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Deux décès maternels répondent à la définition du cours. Quel ratio de mortalité maternelle, obtient-on pour 100 000 naissances vivantes ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "36,43 pour 100000 naissances vivantes"
+        },
+        {
+         "letter": "B",
+         "text": "109,29 pour 100000 naissances vivantes"
+        },
+        {
+         "letter": "C",
+         "text": "3 642,99 pour 100000 naissances vivantes"
+        },
+        {
+         "letter": "D",
+         "text": "364,30 pour 100000 naissances vivantes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 364,30 pour 100000 naissances vivantes",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le ratio de mortalité maternelle (RMM) rapporte le nombre de décès maternels (2) au 2 × 100 000 = 364,30 pour 100 000 nombre de naissances vivantes (549) pour 100 000 : RMM = 549 naissances vivantes.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 4 (Mortalité maternelle, infantile et néonatale).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La localité compte 3 660 femmes en âge de reproduction Quel taux général de fécondité obtient-on en pourcentage ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "3%"
+        },
+        {
+         "letter": "B",
+         "text": "15%"
+        },
+        {
+         "letter": "C",
+         "text": "6,67%"
+        },
+        {
+         "letter": "D",
+         "text": "1,50%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 15%",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le taux global de fécondité générale (TGFG) rapporte le nombre de naissances vivantes (549) à l'effectif des femmes en âge de reproduction (15 à 49 ans = 3 660 femmes) : TGFG = 3549 660 × 100 = 15 %.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 2 (Démographie, natalité et fécondité). IV. ÉTUDE DE CAS 4 — GESTION DE VACCIN (QUESTIONS 24 À 30) Énoncé de l'étude de cas 4 : Le centre de vaccination du centre de santé rural de Zagoué doit estimer ses besoins pour l'antigène penta. La population cible annuelle est de 960 enfants, l'objectif vaccinal de 100 %, le nombre de contacts de 3 doses par enfant et le taux de perte retenu de 20 %. La période à approvisionner est d'un mois. L'inventaire confirme 75 doses utilisables en stock. Pour le mois précédent, 400 doses ont été sorties et 320 administrées. Dans une cohorte distincte dont le suivi est terminé, 240 enfants ont reçu la première dose de penta et 192 la troisième dose du même antigène.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour anticiper une perte de 20% des doses, quel facteur de perte faut-il appliquer ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "0,20"
+        },
+        {
+         "letter": "B",
+         "text": "1,25"
+        },
+        {
+         "letter": "C",
+         "text": "1,20"
+        },
+        {
+         "letter": "D",
+         "text": "5 100"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 1,25",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Avec un taux de perte (TP) de 20 %, le facteur de perte (FP) vaut : FP = 100100 − 20 = 80 = 1,25.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le centre prépare un mois d'activité. Quel est son besoin théorique en doses ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "240 doses"
+        },
+        {
+         "letter": "B",
+         "text": "360 doses"
+        },
+        {
+         "letter": "C",
+         "text": "300 doses"
+        },
+        {
+         "letter": "D",
+         "text": "3 600 doses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 300 doses",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La cible mensuelle est de 960 12 = 80 enfants/mois. Avec 3 doses par enfant, un objectif vaccinal de 100 % et un facteur de perte de 1,25, le besoin théorique mensuel (BT) est : BT = 80 × 3 × 1,00 × 1,25 = 300 doses.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Il faut constituer une marge de sécurité. Combien de doses correspondent aux 25% prévus ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "75 doses"
+        },
+        {
+         "letter": "B",
+         "text": "30 doses"
+        },
+        {
+         "letter": "C",
+         "text": "60 doses"
+        },
+        {
+         "letter": "D",
+         "text": "120 doses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 75 doses",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le stock de sécurité (SS) étant fixé à 25 % du besoin théorique mensuel (300 doses), on obtient : SS = 300 × 25 % = 75 doses.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Avant de déduire les doses déjà disponibles, à combien s'élève le besoin réel mensuel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "225 doses"
+        },
+        {
+         "letter": "B",
+         "text": "300 doses"
+        },
+        {
+         "letter": "C",
+         "text": "450 doses"
+        },
+        {
+         "letter": "D",
+         "text": "375 doses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 375 doses",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le besoin réel mensuel (BR) correspond à la somme du besoin théorique (300 doses) et du stock de sécurité (75 doses) : BR = 300 + 75 = 375 doses.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'inventaire confirme la présence de 75 doses utilisables. Quelle quantité faut-il finalement commander ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "375 doses"
+        },
+        {
+         "letter": "B",
+         "text": "300 doses"
+        },
+        {
+         "letter": "C",
+         "text": "225 doses"
+        },
+        {
+         "letter": "D",
+         "text": "450 doses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 300 doses",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "En déduisant du besoin réel (375 doses) les 75 doses utilisables déjà présentes en stock, la quantité nette à commander (QC) est : QC = 375 − 75 = 300 doses.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Sur les 400 doses sorties le mois précédent, 320 ont été administrées. Quel taux d'utilisation cela représente-t-il ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "20%"
+        },
+        {
+         "letter": "B",
+         "text": "125%"
+        },
+        {
+         "letter": "C",
+         "text": "80%"
+        },
+        {
+         "letter": "D",
+         "text": "25%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 80%",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le taux d'utilisation (TU) rapporte les doses administrées (320) aux doses sorties du stock (400) : TU = 320 400 × 100 = 80 %.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la cohorte dont le suivi est terminé, 240 enfants ont reçu la première dose et 192 la troisième. Quel taux d'abandon sépare ces deux contacts ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "20%"
+        },
+        {
+         "letter": "B",
+         "text": "25%"
+        },
+        {
+         "letter": "C",
+         "text": "80%"
+        },
+        {
+         "letter": "D",
+         "text": "48%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 20%",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le taux d'abandon spécifique (Penta 1 – Penta 3) mesure la proportion d'enfants ayant − 192 × 100 = 48 × commencé la série (240) qui ne l'ont pas achevée (192) : Taux d'abandon = 240240 240 100 = 20 %.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables). V. QUESTIONS À CHOIX DOUBLE (QCD)",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__30",
+       "num": "31",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'étude du milieu prend en compte les habitants, leur environnement, les problèmes rencontrés et les moyens disponibles pour les résoudre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Selon la définition officielle de l'UNICEF (1992) reprise dans le cours, l'étude du milieu est « la connaissance des hommes et de l'environnement dans lequel ils vivent, des moyens et des problèmes qui existent dans ce milieu ».\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Étude du milieu (section II : Définition), p. 55.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__31",
+       "num": "32",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Selon le cours, une équipe qui se déplace vers une localité située à 12 km du centre de santé intervient en stratégie fixe",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La stratégie fixe s'exerce au sein même du centre de santé pour les populations résidant dans un rayon de 0 à 5 km ; le déplacement d'une équipe vers une localité située entre 5 et 15 km (ici 12 km) correspond à la stratégie avancée.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Étude du milieu (p. 55) et PEV (p. 28).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__32",
+       "num": "33",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'accessibilité des soins de santé primaires concerne aussi les dimensions sociales, financière et culturelle.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'accessibilité des Soins de Santé Primaires ne se limite pas à la proximité géographique (rayon de 5 km) : elle englobe également l'accessibilité financière (coût supportable), sociale (équité sans discrimination) et culturelle (respect des valeurs et coutumes).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Soins de Santé Primaires (SSP), p. 91.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__33",
+       "num": "34",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La communication pour le changement social et comportemental agit sur les connaissances, mais laisse les normes et les croyances hors de son champ",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "À la différence de l'IEC classique centrée uniquement sur le savoir individuel, la Communication pour le Changement Social et Comportemental (CCSC) agit à la fois sur les déterminants individuels (connaissances, attitudes, perceptions) et sur les facteurs collectifs (normes sociales, valeurs et croyances communautaires).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. IEC / CCSC, p. 98.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__34",
+       "num": "35",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour défendre une mesure favorable à la santé, le plaidoyer peut s'appuyer sur des données probantes afin de convaincre les décideurs",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le plaidoyer repose sur la présentation d'arguments factuels et de données épidémiologiques ou économiques probantes afin de sensibiliser les décideurs politiques et leaders d'opinion et d'obtenir leur engagement en faveur de la santé.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Plaidoyer, p. 104.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__35",
+       "num": "36",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La mobilisation sociale bénéficie exclusivement aux personnes physiques",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La mobilisation sociale implique et profite aussi bien aux individus et familles qu'aux collectivités entières, aux institutions, aux organisations communautaires et à l'ensemble du système de santé et de développement.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Mobilisation sociale et communautaire (L2, p. 8).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__36",
+       "num": "37",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la mobilisation communautaire, la communauté définit ses propres besoins et participe aux décisions selon une démarche allant du bas vers le haut",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Selon les principes fondamentaux de la mobilisation communautaire, la communauté identifie ses propres besoins et objectifs, et la planification ainsi que la prise de décision s'effectuent du bas vers le haut (« bottom-up ») et non du haut vers le bas.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Mobilisation communautaire (section III : Principes fondamentaux, L2, p. 8).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__37",
+       "num": "38",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un bon animateur doit monopoliser la parole pour conduire le groupe vers les objectifs fixés",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "En technique d'animation de groupe, le facilitateur doit au contraire éviter de monopoliser la parole : il veille à répartir équitablement le temps d'expression, favorise les échanges entre tous les participants et synthétise les idées du groupe.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Technique d'animation de groupe, p. 107.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__38",
+       "num": "39",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'approche psychosociologique du diagnostic communautaire explore les perceptions de la population et fournit des données qualitatives.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'approche psychosociologique du diagnostic communautaire s'intéresse aux représentations, croyances et perceptions des habitants sur leurs problèmes de santé et génère principalement des données qualitatives recueillies par entretiens ou discussions de groupe.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Diagnostic communautaire (L2, p. 43).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__39",
+       "num": "40",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour préparer un diagnostic communautaire, il convient de soumettre aux représentants de la communauté un projet déjà entièrement élaboré sans eux",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le diagnostic communautaire est une démarche participative dans laquelle les représentants de la communauté sont associés dès la phase préparatoire à l'identification des problèmes et à l'élaboration des actions, afin d'éviter d'imposer des projets extérieurs inadaptés.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Diagnostic communautaire (L2, p. 43) et Mobilisation communautaire (L2, p. 8).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__40",
+       "num": "41",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La contre-référence permet au patient de revenir dans sa structure de santé d'origine pour poursuivre son traitement",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La contre-référence est le mécanisme par lequel la structure de recours (hôpital de référence) renvoie le patient vers son ESPC d'origine muni d'une fiche de contre-référence précisant le diagnostic posé, les soins réalisés et les consignes de suivi thérapeutique.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation de la référence / contreréférence (L3, p. 20).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__41",
+       "num": "42",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le comité de gestion a pour vocation de réserver aux seuls agents de santé la conduite du fonctionnement du centre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le COGES a précisément pour vocation opposée d'associer les représentants élus de la communauté villageoise à la prise de décision et à la gestion financière et matérielle du centre de santé aux côtés du personnel soignant.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (Conclusion, L3, p. 22).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__42",
+       "num": "43",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une information résulte de données transformées et replacées dans un contexte utile à la décision",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'information sanitaire est obtenue après compilation, traitement, analyse et interprétation des données brutes, en leur donnant un sens utile pour guider la planification et la prise de décision sanitaire.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion de l'information sanitaire (L3).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__43",
+       "num": "44",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La participation communautaire commence seulement lorsque les priorités et les objectifs ont déjà été fixés par les professionnels",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Une véritable participation communautaire s'engage dès le diagnostic initial, la définition des priorités et la fixation des objectifs avec la communauté, et non uniquement au stade de l'exécution de décisions déjà arrêtées unilatéralement par les professionnels.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Introduction à la santé publique (p. 7) et Mobilisation communautaire (L2, p. 8).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j8-idesfm__44",
+       "num": "45",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans une supervision participative, le superviseur associe ses collaborateurs à la planification et encourage leurs initiatives",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La supervision participative (ou démocratique) implique activement les agents supervisés dans l'identification des difficultés, la planification des solutions et la prise d'initiatives constructives pour améliorer la qualité des soins.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Supervision, p. 48 ; Document révisé L2 2023-2024 validé, p. 48.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J8 (IDE-SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

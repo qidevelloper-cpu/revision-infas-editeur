@@ -51,11 +51,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. Faux",
+       "answer": "A. Vrai",
        "answerLetters": [
-        "B"
+        "A"
        ],
-       "explanation": "Le petit bassin osseux comprend 2 détroits et une excavation : le détroit supérieur (plan d'engagement), l'excavation (descente et rotation) et le détroit inférieur (plan de dégagement). Le détroit moyen n'est qu'un léger rétrécissement situé à l'intérieur de l'excavation, au niveau des épines sciatiques : ce n'est pas une partie à part entière. Remarque : Note du sujet : les 3 parties sont le détroit supérieur, l'excavation pelvienne et le détroit inférieur.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Le bassin obstétrical, p. 22-25",
+       "explanation": "Sur le plan obstétrical, le petit bassin (excavation pelvienne) constitue la filière osseuse que traverse le fœtus lors de l'accouchement ; il se subdivise anatomiquement en trois étages successifs : le détroit supérieur (entrée), l'excavation pelvienne avec le détroit moyen (plan des épines sciatiques) et le détroit inférieur (sortie).\n\nSource : Cours de Gynéco-Obstétrique — Anatomie du bassin obstétrical.",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
        "sourcePage": null
@@ -85,7 +85,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L'ovogonie est une cellule germinale souche, diploïde (2n chromosomes), qui donne ensuite l'ovocyte I. Ce n'est pas un gamète : le gamète femelle est l'ovocyte II / ovule, haploïde (n chromosomes).\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Gamétogenèse, p. 35-36",
+       "explanation": "L'ovogonie est une cellule germinale souche diploïde possédant 46 chromosomes (soit 2 × 23 chromosomes : 22 paires d'autosomes et une paire de gonosomes XX), tandis que le gamète femelle mature (ovule) est haploïde avec 23 chromosomes.\n\nSource : Cours de Gynéco-Obstétrique — Gamétogenèse et ovogenèse.",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
        "sourcePage": null
@@ -115,7 +115,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Dans la présentation de la face (déflexion maximale de la tête), le repère est le menton.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Présentations fœtales, p. 59 ; COURS DE SOINS OBSTETRICAUX 2e année SF, Les différentes présentations",
+       "explanation": "Dans la présentation céphalique défléchie de la face, le repère anatomique qui permet de définir les variétés de position (mento-iliaque gauche ou droite, antérieure ou postérieure) est le menton fœtal.\n\nSource : Cours de Gynéco-Obstétrique — Les présentations céphaliques (présentation de la face).",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
        "sourcePage": null
@@ -141,15 +141,14 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. Faux",
+       "answer": "A. Vrai",
        "answerLetters": [
-        "B"
+        "A"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient « Faux ». Le cours décrit le développement mammaire comme le premier signe pubertaire, vers 11 ans (8 à 13 ans), avant les premières règles (13 ans en moyenne) : les premières règles arrivent donc après le début de la puberté.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Puberté féminine, p. 13-14",
+       "explanation": "L'apparition des premières menstruations (ménarches) constitue l'événement clinique marquant qui permet de dater et d'attester la puberté chez la jeune fille dans l'interrogatoire gynécologique.\n\nSource : Cours de Gynéco-Obstétrique — Physiologie du cycle menstruel et puberté.",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j1-sfm__4",
@@ -172,15 +171,14 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. Faux",
+       "answer": "A. Vrai",
        "answerLetters": [
-        "B"
+        "A"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient « Faux ».\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Modifications de l'organisme maternel, p. 47",
+       "explanation": "La grossesse normale s'accompagne d'une prise de poids physiologique régulière (en moyenne 9 à 12 kg sur l'ensemble de la grossesse, soit environ 1 kg par mois aux deux premiers trimestres puis 1,5 à 2 kg par mois au troisième trimestre) liée au fœtus, aux annexes et aux réserves maternelles.\n\nSource : Cours de Gynéco-Obstétrique — Modifications physiologiques de la grossesse et CPN.",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j1-sfm__5",
@@ -207,7 +205,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Les modifications de l'organisme maternel sont dues à la grossesse : elles commencent après la fécondation (corps jaune gestatif, puis hormones placentaires), pas avant.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Cycle menstruel (corps jaune gestatif), p. 28 ; Modifications de l'organisme maternel, p. 44",
+       "explanation": "Les adaptations physiologiques maternelles de la grossesse sont induites par les sécrétions hormonales du corps jaune gravidique puis du placenta (hCG, progestérone, œstrogènes) ; elles débutent donc après la fécondation et l'implantation de l'œuf.\n\nSource : Cours de Gynéco-Obstétrique — Modifications physiologiques de l'organisme maternel pendant la grossesse.",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
        "sourcePage": null
@@ -268,7 +266,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le fer n'est pas interdit au 1er trimestre : la supplémentation fer + acide folique débute dès la CPN 1 (entre la 6e et la 12e semaine) et se poursuit jusqu'à l'accouchement. Remarque : Le cours L2 IDE (CPN du 2e trimestre) parle de « continuer l'acide folique et ajouter le fer » au 2e trimestre ; les deux cours s'accordent pour dire que le fer n'est pas interdit.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, Anémie et grossesse (supplémentation en fer et acide folique)",
+       "explanation": "La supplémentation martialo-folique (fer + acide folique) n'est pas contre-indiquée au premier trimestre de grossesse ; elle est au contraire recommandée dès la première consultation prénatale (CPN 1) pour prévenir l'anémie maternelle et les anomalies de fermeture du tube neural.\n\nSource : Cours de Gynéco-Obstétrique — Surveillance prénatale et prévention de l'anémie gravidique.",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
        "sourcePage": null
@@ -298,7 +296,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Les IgM apparaissent dès le début de l'infestation (« M comme Maladie ») et disparaissent en 4 mois environ ; leur présence témoigne d'une infection toxoplasmique récente ou en cours.\n\nSource : Gynécologie-Obstétrique L3 SF, Sérologie : toxoplasmose et grossesse, p. 22",
+       "explanation": "La présence d'immunoglobulines M (IgM) spécifiques anti-Toxoplasma gondii oriente vers une infection toxoplasmique récente ou évolutive (nécessitant un contrôle de la cinétique des IgG et un test d'avidité pour dater précisément la contamination).\n\nSource : Cours de Gynéco-Obstétrique — Toxoplasmose et grossesse.",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
        "sourcePage": null
@@ -358,7 +356,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Dès qu'une crise convulsive s'ajoute à l'HTA et à la protéinurie, il s'agit d'une éclampsie, et non plus d'une pré-éclampsie, même sévère. Remarque : Note du sujet : la crise convulsive signe une éclampsie.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, HTA / éclampsie et grossesse",
+       "explanation": "Dès lors qu'une crise convulsive généralisée survient chez une patiente atteinte de pré-éclampsie (HTA gravidique + protéinurie), le tableau clinique n'est plus une simple pré-éclampsie sévère mais devient par définition une crise d'éclampsie (complication paroxystique majeure).\n\nSource : Cours de Gynéco-Obstétrique / SONU — Syndromes vasculo-rénaux : pré-éclampsie et éclampsie.",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
        "sourcePage": null
@@ -388,7 +386,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L'hydramnios est une quantité excessive de liquide amniotique, supérieure à 2 litres à terme.\n\nSource : Gynécologie-Obstétrique L3 SF, Hauteur utérine (causes des hauteurs utérines élevées), p. 52",
+       "explanation": "L'hydramnios (ou polyhydramnios) se définit cliniquement et anatomiquement par un excès pathologique de liquide amniotique supérieur à 2 000 ml (2 litres) au troisième trimestre de la grossesse (la quantité physiologique à terme étant comprise entre 500 et 1 000 ml).\n\nSource : Cours de Gynéco-Obstétrique — Pathologies des annexes fœtales (hydramnios).",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
        "sourcePage": null
@@ -418,7 +416,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Les troubles de la conscience (agitation, confusion, délire, obnubilation, somnolence, coma réactif) font partie des critères cliniques OMS du paludisme grave à Plasmodium falciparum.\n\nSource : GYNECO L2 IDE VERSION 2025, Paludisme et grossesse, p. 28 ; SONU L3 SF, Fièvre pendant la grossesse (neuropaludisme)",
+       "explanation": "Chez la femme enceinte infectée par Plasmodium falciparum, tout trouble neuropsychique (agitation, confusion mentale, obnubilation, délire, convulsions ou coma) constitue un signe clinique de neuropaludisme et classe d'emblée le tableau en paludisme grave nécessitant une prise en charge parentérale en urgence.\n\nSource : Cours de Gynéco-Obstétrique — Paludisme et grossesse (critères de gravité).",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
        "sourcePage": null
@@ -478,7 +476,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Une gestante AS (trait drépanocytaire, forme hétérozygote) n'a pas de drépanocytose majeure : elle reçoit la prévention habituelle de l'anémie (fer + acide folique), comme toute gestante. Remarque : La correction nationale cite le 2e trimestre ; le cours SO commence la supplémentation dès la CPN 1.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, Anémie et grossesse ; Gynécologie-Obstétrique L3 SF, Drépanocytose et grossesse, p. 17",
+       "explanation": "Contrairement aux syndromes drépanocytaires majeurs (SS, SC, Sβ-thalassémie) où le fer est contre-indiqué en raison du risque de surcharge martiale, la gestante porteuse d'un trait drépanocytaire hétérozygote asymptomatique (AS) doit recevoir une supplémentation en fer et acide folique comme toute femme enceinte pour prévenir l'anémie ferriprive.\n\nSource : Cours de Gynéco-Obstétrique — Drépanocytose et grossesse.",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
        "sourcePage": null
@@ -520,12 +518,11 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "D. D. Petit côté des membranes mesurant moins de 10 cm ; E. E. Petit côté des membranes mesurant moins de 9 cm",
+       "answer": "D. D. Petit côté des membranes mesurant moins de 10 cm",
        "answerLetters": [
-        "D",
-        "E"
+        "D"
        ],
-       "explanation": "Le signe qui confirme le placenta prævia après la délivrance est un petit côté des membranes de moins de 10 cm (s'il mesure moins de 9 cm, il mesure aussi moins de 10 cm). Le saignement typique est une métrorragie (et non une ménorragie) indolore, de sang rouge vif, sans contractions : A, B, C et F ne correspondent donc pas à la forme typique. Remarque : E est retenue parce qu'un petit côté de moins de 9 cm mesure forcément moins de 10 cm.\n\nSource : GYNECO L2 IDE VERSION 2025, Placenta prævia, p. 59-60",
+       "explanation": "Anatomiquement, l'insertion basse du placenta (placenta prævia latéral ou marginal) est affirmée après la délivrance lorsque la mesure du petit côté des membranes (distance entre l'orifice de rupture des membranes et le bord le plus proche du placenta) est inférieure à 10 cm. Sur le plan clinique, les métrorragies du placenta prævia sont spontanées, indolores, faites de sang rouge vif et sans contractions utérines (les options a, b, c et f sont donc inexactes).\n\nSource : Cours de Gynéco-Obstétrique — Hémorragies du 3e trimestre : le placenta prævia.",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
        "sourcePage": null
@@ -571,7 +568,7 @@
        "answerLetters": [
         "F"
        ],
-       "explanation": "La rétention de la tête dernière dans l'excavation est l'indication de la manœuvre de Mauriceau. Bracht sert quand la tête est descendue en partie basse ; Lovset sert au relèvement des bras ; l'attitude de Vermelin est l'abstention.\n\nSource : SONU L3 SF, Accouchement du siège, p. 72-74",
+       "explanation": "La manœuvre de Mauriceau est la manœuvre obstétricale spécifique permettant de fléchir, orienter et extraire la tête dernière lorsque celle-ci est retenue dans l'excavation pelvienne au cours d'un accouchement du siège. La manœuvre de Lovset sert au dégagement des épaules/bras relevés et l'attitude de Vermelin correspond à l'abstention interventionniste lors de l'expulsion spontanée.\n\nSource : Cours de Gynéco-Obstétrique / SONU — Accouchement en présentation du siège.",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
        "sourcePage": null
@@ -852,12 +849,13 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "A. A. Métrorragies spontanées de sang rouge au cours du 1er trimestre ; D. D. Sialorrhée et vomissements au 1er trimestre associés à un placenta ressemblant à des œufs de grenouille",
+       "answer": "A. A. Métrorragies spontanées de sang rouge au cours du 1er trimestre ; D. D. Sialorrhée et vomissements au 1er trimestre associés à un placenta ressemblant à des œufs de grenouille ; E. E. Aménorrhée",
        "answerLetters": [
         "A",
-        "D"
+        "D",
+        "E"
        ],
-       "explanation": "La môle hydatiforme donne des métrorragies du 1er trimestre spontanées, répétées, de sang rouge, avec hypersialorrhée, nausées et vomissements, et un produit d'aspect vésiculaire « en frai de grenouille » ou en grappe de raisin. Remarque : L'aménorrhée (E) existe aussi dans la môle, mais elle n'est pas spécifique.\n\nSource : GYNECO L2 IDE VERSION 2025, Grossesse molaire (môle hydatiforme), p. 99-100",
+       "explanation": "La môle hydatiforme se manifeste au premier trimestre sur un fond d'aménorrhée gravidique par des métrorragies spontanées récidivantes faites de sang rouge, des signes sympathiques de grossesse exacerbés (vomissements incoercibles, sialorrhée liés à l'hyper-sécrétion de β-hCG) et l'expulsion caractéristique de vésicules translucides en grappe de raisin ou « frai de grenouille ».\n\nSource : Cours de Gynéco-Obstétrique — Môle hydatiforme (p. 131).",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
        "sourcePage": null
@@ -905,7 +903,7 @@
         "D",
         "E"
        ],
-       "explanation": "Le nouveau-né ne crie pas et ne respire pas : on appelle à l'aide en expliquant à la mère, on l'installe en décubitus dorsal tête en légère extension et on libère les voies aériennes (désobstruction de la bouche puis du nez), avant la ventilation. Pas de massage cardiaque ni de médicaments d'emblée. Remarque : Le cours ne détaille pas le moment de la section du cordon dans la réanimation.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune INFAS), Soins au nouveau-né en salle de naissance (désobstruction), p. 100 (partiellement hors cours)",
+       "explanation": "Devant un nouveau-né en asphyxie néonatale qui ne crie pas et ne respire pas à la naissance, les premiers gestes de réanimation néonatale de base (SONU) consistent à appeler à l'aide et rassurer/informer la mère, installer le nouveau-né séché et réchauffé en décubitus dorsal avec la tête en position neutre (cou en légère extension) et désobstruer/libérer les voies aériennes supérieures avant d'initier la ventilation au ballon et au masque.\n\nSource : Cours SONU / Pédiatrie — Réanimation du nouveau-né en salle de naissance.",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
        "sourcePage": null
@@ -1511,7 +1509,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "La suture du vagin commence à l'angle supérieur (au fond du vagin) et descend vers la vulve. La réparation se fait en 3 plans avec du fil résorbable (pas de nylon).\n\nSource : SONU L3 SF, Épisiotomie et sa réfection, p. 63-64",
+       "explanation": "La réfection d'une épisiotomie s'effectue plan par plan (muqueuse vaginale, plan musculaire profond, peau) avec du fil résorbable (Vicryl®), en débutant impérativement 1 cm au-dessus de l'angle supérieur de l'incision au fond du vagin pour progresser de la profondeur vers la vulve afin d'assurer une hémostase parfaite.\n\nSource : Cours de Gynéco-Obstétrique — Technique de réfection de l'épisiotomie.",
        "sourceDoc": "Préparation D.E (J) · J1 Gynécologie SFM",
        "sourceFile": "J1_SFM_Gynecologie_SRPF_corrige_explique.docx",
        "sourcePage": null

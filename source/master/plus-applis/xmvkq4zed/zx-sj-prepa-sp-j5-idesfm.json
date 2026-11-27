@@ -21,7 +21,7 @@
    "existe": true,
    "sujets": [
     {
-     "name": "J Santé publique · Prépa D.E J5 (IDE/SFM)",
+     "name": "J Santé publique · Prépa D.E J5 (IDE/SFM) · J2, J5 et J10 identiques",
      "slug": "prepa-sp-j5-idesfm",
      "pages": "",
      "count": 58,
@@ -55,7 +55,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le COGES compte 10 à 20 représentants des communautés villageoises de l'aire sanitaire. En dehors de l'infirmier, de la sage-femme ou du travailleur social, les autres membres viennent de la communauté. Il n'est donc pas composé uniquement d'agents de santé.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », III",
+       "explanation": "Le Comité de Gestion (COGES) est un organe mixte associant les représentants de la communauté (membres communautaires) et les agents de santé (le responsable de la gestion administrative et technique étant un prestataire de soins).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -85,7 +85,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Les règles de gestion des formations sanitaires rurales sont fixées par le décret n° 93-218 du 03 février 1993. Son article 3 prévoit un comité de 10 à 20 personnes.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », I et III",
+       "explanation": "En Côte d'Ivoire, le décret n° 93-218 du 03 février 1993 régit l'organisation et le fonctionnement des comités de gestion des formations sanitaires rurales (COGES) et fixe leur composition entre 10 et 20 membres issus de la communauté et du personnel de santé.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -115,7 +115,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Selon l'article 3 du décret, les membres sont désignés pour trois ans, renouvelables. « Cinq ans » et « non renouvelables » sont donc tous deux faux.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », IV",
+       "explanation": "Selon les textes réglementaires régissant le COGES en Côte d'Ivoire, les membres communautaires sont désignés pour un mandat de 3 ans renouvelables, et non de cinq ans non renouvelables.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -145,7 +145,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Les agents de santé communautaire (ASC) et les accoucheuses traditionnelles (AT) font partie d'office du COGES, à cause de leur rôle de relais communautaire.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », III (Nota Bene)",
+       "explanation": "Les Agents de Santé Communautaires (ASC) et les Accoucheuses Traditionnelles (AT) sont des acteurs communautaires de première ligne qui siègent de droit parmi les membres du COGES afin d'assurer le lien entre le centre de santé et les villages.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -175,7 +175,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "La participation aux activités du COGES est du bénévolat.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », III (Nota Bene)",
+       "explanation": "Les fonctions exercées par les membres communautaires au sein du COGES sont bénévoles et gratuites (non salariées), même si une motivation ponctuelle peut être prévue sur la réserve supplémentaire éventuelle selon les textes.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -205,7 +205,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Premier critère pour être membre : résider en permanence dans un village desservi par le centre de santé. Il faut aussi être de bonne moralité et avoir une activité génératrice de revenu.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », V",
+       "explanation": "Pour représenter valablement les usagers et défendre les intérêts sanitaires de la population locale, tout membre communautaire du COGES doit obligatoirement résider dans l'un des villages de l'aire sanitaire desservie par l'ESPC.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -235,7 +235,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Dans la gestion financière, le COGES « élabore le budget semestriel ». Ce budget est fait tous les six mois, en même temps que le monitorage.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 6.1.1 ; Cours Santé publique L3 (DOC-20260911-WA0542), « Budgétisation des ressources propres d'un ESPC », III",
+       "explanation": "Le responsable de la gestion administrative et technique élabore, en accord avec le comité de gestion (COGES), le budget semestriel du centre de santé à partir des ressources propres après le monitorage.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Budgétisation des ressources propres d'un ESPC et COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -265,7 +265,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le COGES a un rôle dans la gestion des ressources humaines. Il veille à la présence du personnel de santé et de soutien, à la qualité de la communication entre consultants et personnel, et au savoir-être du personnel.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 6.1.2",
+       "explanation": "Le COGES participe à la gestion des ressources humaines d'appui de l'ESPC : il peut recruter et rémunérer du personnel journalier (gardien, agent d'hygiène/manœuvre, caissier) sur le budget de fonctionnement local et contribue au choix des ASC.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -295,7 +295,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Dans la gestion du matériel, des médicaments et du local, le COGES veille à la disponibilité des médicaments essentiels et des vaccins.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 6.1.3",
+       "explanation": "Dans le cadre de l'Initiative de Bamako, l'une des attributions majeures du COGES est d'assurer le renouvellement permanent du stock de médicaments essentiels génériques (MEG) et de soutenir l'approvisionnement et le maintien de la chaîne du froid pour les vaccins.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -325,7 +325,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "En dehors du centre, le COGES doit promouvoir l'acceptabilité des services offerts à la population. Il fait aussi connaître les activités du centre et promeut la participation financière.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 6.2",
+       "explanation": "En tant qu'interface entre l'équipe soignante et les habitants, le COGES sensibilise les communautés sur l'importance de fréquenter le centre de santé dans le respect des valeurs socioculturelles locales, favorisant ainsi l'acceptabilité et l'utilisation des services.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Monitorage (Analyse des goulots d'étranglement) et COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -355,7 +355,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le livret de caisse fait partie des outils du responsable de la gestion financière. Il y note les recettes et les dépenses du centre.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 7.2 et 8.2",
+       "explanation": "Le responsable de la gestion financière (trésorier du bureau du COGES) reçoit les versements effectués par le responsable administratif et technique, assure la tenue régulière du livret de caisse et du cahier de banque, et cosigne les retraits bancaires.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -385,7 +385,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Parmi les fonctions du président : coordonner les activités du COGES. Il ouvre aussi le compte, convoque les réunions et donne son accord pour les retraits.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 8.1",
+       "explanation": "Le président du COGES (issu de la communauté) dirige et coordonne les activités du comité, préside les réunions et assemblées générales, représente le COGES auprès des autorités et cosigne les actes financiers avec le trésorier.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -415,7 +415,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le COGES a trois sources de revenus : les actes de santé, la vente de certains documents (carnets, cartes) et les dons et legs.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 9.1",
+       "explanation": "Outre les recettes issues du recouvrement des coûts (vente des médicaments essentiels, coût des actes de santé, vente des carnets) et les subventions éventuelles, les dons et legs font partie intégrante des ressources financières du COGES.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -445,7 +445,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Selon l'article 7 du décret 93-218, les dépenses du COGES comprennent la consommation d'eau et d'électricité. Elles comprennent aussi les salaires du personnel non pris en charge par l'État, l'entretien et les fournitures.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 9.2",
+       "explanation": "Les charges courantes d'eau, d'électricité, de pétrole/gaz pour le réfrigérateur et d'entretien des locaux figurent parmi les dépenses de fonctionnement local prises en charge sur le budget du COGES.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Budgétisation des ressources propres d'un ESPC et COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -475,7 +475,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le cours définit l'indicateur comme une variable quantitative ou qualitative simple qui mesure un aspect d'une intervention en santé, d'un programme ou d'un projet.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », I.1.1",
+       "explanation": "Un indicateur sanitaire est une variable quantitative ou qualitative (taux, ratio, proportion, indice) permettant de mesurer objectivement l'état de santé d'une population ou le degré d'exécution et d'atteinte des objectifs d'une intervention.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion de l'information sanitaire (L3) et Suivi-évaluation (p. 56).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -505,7 +505,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "La donnée est la matière première (l'input) que l'on transforme. L'information est le résultat de cette transformation : la donnée placée dans un contexte significatif et utile. Une donnée n'est donc pas encore une information interprétée.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », I.1.2 et I.1.3",
+       "explanation": "Les données sont des faits bruts, des chiffres ou des observations recueillis avant tout traitement ; ce n'est qu'après leur compilation, leur analyse et leur interprétation dans un contexte donné qu'elles deviennent une information sanitaire utile à la décision.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion de l'information sanitaire (L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -535,7 +535,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L'information est le résultat de la transformation des données en faits utiles pour les décideurs (traitement, analyse et interprétation).\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », I.1.3 et II",
+       "explanation": "L'information sanitaire résulte de la transformation des données brutes par la compilation, le traitement, l'analyse et l'interprétation, afin de fournir une signification utile à la planification et à la prise de décision.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion de l'information sanitaire (L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -565,7 +565,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La collecte consiste à enregistrer toutes les données sanitaires dans les registres d'activités, puis à les reporter dans les fiches de rapport mensuel ou annuel.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », II.2.1",
+       "explanation": "Au niveau des établissements sanitaires de premier contact (ESPC), la collecte constitue la première étape du circuit de l'information sanitaire et consiste à consigner systématiquement les actes et événements dans les registres puis sur les supports de rapportage.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion de l'information sanitaire (section 3.1.1, L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -595,7 +595,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le rapport mensuel de l'ESPC (rapport A) est transmis au CSE du district sanitaire au plus tard le 5 du mois suivant. Pour l'hôpital général, c'est le 10, et pour le CHR, le 15.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », II.2.3 (tableau) et IV",
+       "explanation": "Conformément aux normes du Système d'Information Sanitaire en Côte d'Ivoire, les ESPC doivent acheminer leur rapport mensuel d'activités au Centre de Surveillance Épidémiologique (CSE) du district sanitaire au plus tard le 5 du mois suivant (et au plus tard le 10 pour les hôpitaux de référence).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion de l'information sanitaire (sections 2.3.1 et 3.1.1, L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -625,7 +625,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "TC = (rapports d'activités reçus par le responsable du CSE / rapports attendus) × 100. Le délai ne compte pas ; c'est le taux de promptitude qui en tient compte.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », II.2.3.2 ; Formules Santé publique harmonisées, chap. 8",
+       "explanation": "Le taux de complétude évalue l'exhaustivité de la transmission des rapports en divisant le nombre total de rapports effectivement reçus par le nombre total de rapports attendus sur une période donnée (multiplié par 100), indépendamment du délai de réception.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion de l'information sanitaire (L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -655,7 +655,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La rétro-information est le retour de l'information produite vers les structures des niveaux primaire et secondaire qui ont produit les données.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », II.2.8",
+       "explanation": "La rétro-information (feed-back) est la transmission descendante des résultats d'analyse, des synthèses et des recommandations des niveaux supérieurs (central, régional, district) vers les structures périphériques productrices des données afin d'améliorer la qualité des prestations.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion de l'information sanitaire (L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -685,7 +685,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Une catastrophe est un événement naturel ou causé par l'homme, aux effets négatifs importants, qui dépasse la capacité de réaction de la collectivité touchée. Une situation d'urgence, elle, reste gérable par la société.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion des catastrophes naturelles / épidémies », I.1.2 et III",
+       "explanation": "Selon l'OMS, une catastrophe est un événement soudain ou progressif qui provoque des perturbations graves du fonctionnement d'une société et entraîne des pertes humaines, matérielles ou environnementales dépassant les capacités propres de réaction de la communauté touchée.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des catastrophes (L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -715,7 +715,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le risque est la probabilité de pertes après un événement défavorable, « vu le danger et la vulnérabilité ». Il dépend donc des deux.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion des catastrophes naturelles / épidémies », I.1.5",
+       "explanation": "En gestion des catastrophes, le risque est directement fonction de la rencontre entre un aléa (danger) et la vulnérabilité d'une population ou d'une infrastructure exposée (Risque = Danger × Vulnérabilité).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des catastrophes (L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -745,7 +745,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le cours cite parmi les catastrophes naturelles les cyclones, les tremblements de terre et le tsunami.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion des catastrophes naturelles / épidémies », IV",
+       "explanation": "Les catastrophes se classent en catastrophes naturelles (séismes ou tremblements de terre, inondations, cyclones, sécheresses) et en catastrophes d'origine humaine ou technologique (accidents industriels, guerres, incendies).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des catastrophes (L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -775,7 +775,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le rôle principal de l'infirmier ou de la sage-femme est de donner l'alerte au directeur départemental de la santé le plus vite possible, pour que les secours soient organisés. Il apporte aussi un soutien psychologique à la communauté.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion des catastrophes naturelles / épidémies », VI",
+       "explanation": "Lors de la survenue d'une catastrophe, l'infirmier ou la sage-femme en poste à l'ESPC a pour premiers réflexes de donner immédiatement l'alerte aux autorités sanitaires et administratives compétentes, d'évaluer rapidement la situation et d'organiser les premiers secours et le triage des victimes.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des catastrophes (L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -805,7 +805,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La supervision vise l'amélioration de la compétence, de la qualité de service et du rendement du personnel en activité. Son but est d'améliorer en continu la performance du personnel.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « La supervision », II et III (tableau)",
+       "explanation": "La supervision est un processus formatif d'encadrement continu qui vise à renforcer les compétences techniques et organisationnelles des agents de santé, à résoudre les problèmes rencontrés sur le terrain et à améliorer la qualité et le rendement des prestations.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Supervision, p. 48 ; Document révisé L2 2023-2024 validé, p. 48.",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -835,7 +835,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Dans le tableau qui compare la supervision aux autres fonctions, son moment est « annoncé et périodique ». L'inspection, elle, peut se faire à l'improviste.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « La supervision », III (tableau)",
+       "explanation": "Contrairement à l'inspection (qui est souvent inopinée et punitive), la supervision formative est planifiée selon un calendrier périodique et annoncée à l'avance aux agents supervisés afin de préparer les outils et favoriser un climat de confiance.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Supervision, p. 48 ; Document révisé L2 2023-2024 validé, p. 48. II. QUESTIONS À CHOIX UNIQUE / MULTIPLE",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -873,7 +873,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le COGES est créé pour associer la communauté, comme membres actifs, à la gestion et au fonctionnement du centre de santé. Il ne sanctionne pas le personnel et ne remplace pas l'État.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », II",
+       "explanation": "Créé dans le cadre de la mise en œuvre de l'Initiative de Bamako, le COGES a pour finalité d'impliquer activement la communauté dans la gestion administrative, financière et matérielle de son établissement sanitaire de premier contact afin d'en assurer la pérennité et l'accessibilité.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -911,7 +911,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Article 3 du décret 93-218 : les membres sont désignés pour trois ans, renouvelables.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », IV",
+       "explanation": "Conformément aux dispositions réglementaires régissant les comités de gestion en Côte d'Ivoire, la durée du mandat des membres du COGES est fixée à 3 ans renouvelables.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -949,7 +949,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le bureau compte trois membres : le président (membre communautaire), le responsable de la gestion financière (membre communautaire) et le responsable de la gestion administrative et technique (infirmier, sage-femme ou travailleur social).\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », III",
+       "explanation": "Le bureau exécutif du COGES est structuré autour de trois postes clés : le Président (représentant communautaire), le Responsable de la gestion financière (trésorier communautaire) et le Responsable de la gestion administrative et technique (l'infirmier ou la sage-femme chef de poste).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -987,7 +987,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le responsable de la gestion financière recueille chaque jour les sommes collectées et les enregistre dans le livret de caisse. Il les verse ensuite à la banque. Les consultations et la vaccination relèvent des agents de santé.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Composition et fonctionnement du COGES d'un ESPC », 8.2",
+       "explanation": "Le responsable de la gestion financière reçoit les fonds collectés par le responsable administratif et technique, tient le livret de caisse et le cahier de banque, enregistre les recettes et dépenses et cosigne les opérations bancaires (les actes médicaux et la vaccination relevant du personnel soignant).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1025,7 +1025,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "L'indicateur est une variable, quantitative ou qualitative, qui mesure un aspect d'une intervention, d'un programme ou d'un projet. Une donnée brute n'est que la matière première.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », I.1.1",
+       "explanation": "Un indicateur est une variable mesurable (quantitative ou qualitative) construite à partir des données traitées pour apprécier une situation sanitaire ou évaluer un aspect précis (intrants, processus, extrants, résultats) d'une intervention.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion de l'information sanitaire (L3) et Suivi-évaluation (p. 56).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1063,7 +1063,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L'information est la donnée « placée dans un contexte significatif et utile pour l'utilisateur final ». Une donnée non traitée n'est pas encore une information. Le registre et la fiche sont des outils de collecte.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », I.1.3",
+       "explanation": "Contrairement à la donnée brute inscrite dans un registre ou une fiche, l'information sanitaire est une donnée validée, analysée, interprétée et replacée dans son contexte épidémiologique ou organisationnel afin d'orienter l'action et la décision.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion de l'information sanitaire (L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1101,7 +1101,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Les étapes sont, dans l'ordre : collecte, compilation, transmission, traitement, analyse et interprétation, utilisation, diffusion, rétro-information. La collecte vient en premier.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », II",
+       "explanation": "Le circuit de production de l'information sanitaire suit un enchaînement chronologique débutant par la collecte des données à la source (registres, fiches), suivie de la compilation/transmission, du traitement/analyse, de l'interprétation et enfin de la diffusion/rétro-information.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion de l'information sanitaire (L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1139,7 +1139,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "TP = (rapports mensuels reçus dans le délai requis / rapports attendus) × 100.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », II.2.3.1 ; Formules Santé publique harmonisées, chap. 8",
+       "explanation": "Le taux de promptitude mesure la ponctualité de la transmission des rapports : il se calcule en divisant le nombre de rapports reçus au plus tard à la date limite réglementaire (le 5 du mois suivant pour un ESPC) par le nombre total de rapports attendus, multiplié par 100.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion de l'information sanitaire (section 2.3.1, L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1177,7 +1177,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "La rétro-information est le retour de l'information produite vers les structures productrices des données. C'est un mouvement descendant, pas une transmission ascendante.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », II.2.8",
+       "explanation": "La rétro-information constitue la boucle descendante du système d'information sanitaire par laquelle les niveaux supérieurs (district, région, niveau central) renvoient les analyses, comparaisons et recommandations aux formations sanitaires qui ont produit les données.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion de l'information sanitaire (L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1215,7 +1215,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Selon l'OMS, le SIS fournit des renseignements et informations sanitaires pour surveiller l'état et les services de santé, et pour améliorer les décisions de gestion à tous les niveaux.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », I.1.5",
+       "explanation": "Selon l'OMS, la finalité du Système d'Information Sanitaire (SIS) est de produire, analyser et diffuser des renseignements fiables et opportuns sur l'état de santé des populations et le fonctionnement des services afin d'éclairer la prise de décision à tous les niveaux de la pyramide sanitaire.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion de l'information sanitaire (L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1253,7 +1253,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Au niveau central, la gestion des données sanitaires est assurée par la Direction de l'Information Sanitaire. L'ESPC et le district relèvent du niveau périphérique. Remarque : Le cours écrit « DIS » (Direction de l'Information Sanitaire) ; le sujet écrit « DIIS ».\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion de l'information sanitaire », III.3.4 et IV",
+       "explanation": "Au sommet de la pyramide du système d'information sanitaire en Côte d'Ivoire, la coordination nationale, la centralisation et le traitement des données sanitaires sont assurés par la Direction de l'Informatique et de l'Information Sanitaire (DIIS).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion de l'information sanitaire (L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1291,7 +1291,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Une catastrophe a des effets négatifs importants et dépasse la capacité de réaction de la collectivité touchée. Une situation d'urgence, elle, reste gérable.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Gestion des catastrophes naturelles / épidémies », I.1.2 et III",
+       "explanation": "Une catastrophe se distingue d'un simple accident ou d'une urgence courante par l'ampleur de ses conséquences humaines et matérielles qui submergent les capacités locales de réponse et nécessitent le déclenchement d'un plan d'urgence et une aide extérieure.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des catastrophes (L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1329,7 +1329,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Le style autocratique convient aux urgences, qui exigent une décision sans délai, et aux situations de blocage. Le style démocratique ou participatif s'applique à toutes les situations sauf l'urgence et le blocage.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « La supervision », IV.4.1.3 et 4.2.3",
+       "explanation": "En situation d'urgence (catastrophe, épidémie aiguë, geste mettant en jeu le pronostic vital), le superviseur doit adopter un style autocratique (directif) permettant de prendre des décisions rapides, fermes et immédiatement exécutées sans perte de temps.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Supervision, p. 48 ; Document révisé L2 2023-2024 validé, p. 48.",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1367,7 +1367,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Méthode directe : observer l'agent pendant qu'il exécute une tâche. La méthode indirecte, elle, passe par l'interrogatoire des usagers ou l'analyse des supports de données.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « La supervision », VI.6.1",
+       "explanation": "La méthode directe consiste pour le superviseur à observer directement l'agent de santé pendant qu'il exécute une tâche (consultation, vaccination, soins) à l'aide d'une grille d'observation, sans l'interrompre sauf si un geste met en danger la vie du patient.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Supervision (section 6.1.1), p. 48.",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1405,7 +1405,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Les outils du superviseur sont : le classeur du superviseur, le classeur de la formation sanitaire, le cahier à problèmes, la fiche de synthèse et la fiche de supervision ou d'observation.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « La supervision », VIII",
+       "explanation": "Pour mener objectivement sa visite, le superviseur utilise des outils spécifiques tels que la fiche (ou grille) d'observation, la liste de contrôle (check-list), le guide d'entretien et le cahier de supervision (les registres et carnets étant les outils quotidiens du prestataire).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Supervision, p. 48 ; Document révisé L2 2023-2024 validé, p. 48.",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1443,7 +1443,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Dans le style démocratique ou participatif, le superviseur fait participer ses collaborateurs à la planification et encourage leurs initiatives. Il ne convient pas aux urgences.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « La supervision », IV.4.2",
+       "explanation": "Le style démocratique (ou participatif) favorise le dialogue, l'écoute mutuelle, l'association des collaborateurs à la recherche de solutions et l'encouragement de leurs initiatives personnelles dans l'exécution des activités.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Supervision, p. 48 ; Document révisé L2 2023-2024 validé, p. 48. III. CAS CLINIQUE 1 — MONITORAGE ET GESTION FINANCIÈRE DU CSR DE GNIMPLEU Énoncé du cas clinique 1 : L'équipe du Centre de Santé Rural de Gnimpleu réalise le monitorage des consultation curatives (CSC) sur un semestre. La population totale annuelle est de 8 000 habitants, dont 6 400 résidents dans le rayon de 10 km. Au cours du semestre, 2 400 personnes distinctes ont eu au moins un contact curatif avec l'ESPC ; parmi ces consultants, 1 800 ont reçu un traitement et payé le prix correct ; parmi ces 1 800, 1 500 ont en outre été traités selon les directives nationales avec des médicaments bien conservés et non périmés. Un dossier individuel révèle un traitement facturé correctement mais délivré avec un médicament périmé. À la veille du monitorage, le solde bancaire est de 1 000 000 F CFA, dont 600 000 F CFA correspondent à des recettes du semestre monitoré déjà déposées ; le solde intègre les intérêts et agios pertinents. Les RVME justifiées par reçus sont de 400 000 F CFA et les RCAS de 600 000 F CFA. Les DO retenues dans le plan d'affectation sont de 700 000 F CFA. Les montants bancaires et les recettes sont fournis selon les conventions du support, sans supposer que la SAB et le FR représentent une même masse financière.",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1481,7 +1481,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "AG = population vivant dans le rayon d'accès / population cible × 100 = 6 400 / 8 000 × 100 = 80 %. Sur le semestre, on obtient le même résultat : 3 200 / 4 000 = 80 %. Remarque : Le cours retient un rayon de 5 km (OMS), mais le tableau des goulots cite 10 km pour les CSC. Le sujet donne directement les résidents à moins de 10 km.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Monitorage et évaluation de la couverture des activités », IV.4.3 ; Formules Santé publique harmonisées, chap. 6",
+       "explanation": "L'accessibilité géographique rapporte la population résidant dans la zone d'accessibilité (6 400 habitants dans le rayon de 10 km) à la population totale de l'aire sanitaire (8 000 habitants) : AG = 6 400 × 100 = 80 %. 8 000\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Monitorage (section 4.3) ; Formules de Santé Publique — Document harmonisé, chap. 6.",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1519,7 +1519,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La population cible du monitorage se calcule sur la période couverte. Pour 6 mois, on divise la population annuelle par 2 : 8 000 / 2 = 4 000 personnes.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Monitorage et évaluation de la couverture des activités », IV.4.1",
+       "explanation": "Pour le monitorage des consultations curatives (CSC) portant sur toute la population, la population cible annuelle est de 8 000 habitants ; sur un semestre (6 mois), la population cible semestrielle correspond à la moitié de la cible annuelle, soit 8 000 2 = 4 000 personnes.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 6 (Monitorage des services de santé).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1557,7 +1557,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "US = personnes ayant utilisé le service au moins une fois / PC du monitorage × 100 = 2 400 / 4 000 × 100 = 60 %.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Monitorage et évaluation de la couverture des activités », IV.4.4 ; Formules Santé publique harmonisées, chap. 6",
+       "explanation": "L'utilisation des services (US) mesure la proportion de la population cible semestrielle (4 000 personnes) ayant eu au moins un contact curatif avec le centre (2 400 personnes) : US = 24 400 000 × 100 = 60 %.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Monitorage ; Formules de Santé Publique — Document harmonisé, chap. 6.",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1595,7 +1595,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La CA compte ceux qui ont reçu la prestation en quantité requise (traitement reçu et payé) : 1 800 / 4 000 × 100 = 45 %.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Monitorage et évaluation de la couverture des activités », IV.4.5 ; Formules Santé publique harmonisées, chap. 6",
+       "explanation": "La couverture adéquate (CA) rapporte le nombre de personnes ayant reçu le traitement complet au tarif réglementaire (1 800 personnes) à la population cible semestrielle (4 000 personnes) : CA = 14 800 000 × 100 = 45 %.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Monitorage (section 4.5) ; Formules de Santé Publique — Document harmonisé, chap. 6.",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1633,7 +1633,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La CE compte ceux qui ont reçu la prestation avec la qualité requise (directives nationales, médicaments non périmés) : 1 500 / 4 000 × 100 = 37,5 %. Le cours garde la partie entière sans arrondir, d'où 37 %. Le dossier avec un médicament périmé est exclu de la CE.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Monitorage et évaluation de la couverture des activités », IV.4.2 et 4.6",
+       "explanation": "La couverture effective (CE) rapporte le nombre de personnes ayant reçu des soins complets et conformes aux normes de qualité (1 500 personnes) à la population cible semestrielle (4 000 personnes) : 14 500 000 × 100 = 37,5 %, arrondi par défaut à 37 %.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 6 (Monitorage des services de santé).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1671,7 +1671,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "FR = somme à la banque à la veille du monitorage − recettes du semestre déjà déposées = 1 000 000 − 600 000 = 400 000 F CFA. Les intérêts et agios sont déjà compris dans le solde : rien à ajouter.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Budgétisation des ressources propres d'un ESPC », V.5.1 ; Formules Santé publique harmonisées, chap. 7",
+       "explanation": "Le Fonds de Réserve (FR) correspond à la part du solde bancaire (1 000 000 F CFA) disponible en dehors des recettes du semestre monitoré déjà versées sur le compte (600 000 F CFA) : FR = 1 000 000 − 600 000 = 400 000 F CFA.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 7 (Gestion financière du centre de santé).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1709,11 +1709,10 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le cours définit la SAB comme le total des recettes des six mois du monitorage. Le sujet indique 600 000 F CFA de recettes du semestre, ce qui correspond à la valeur retenue.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Budgétisation des ressources propres d'un ESPC », V.5.2 ; Formules Santé publique harmonisées, chap. 7",
+       "explanation": "Selon les données du cas clinique, la Somme à Budgétiser (SAB) correspondant aux recettes du semestre monitoré disponibles pour la budgétisation s'élève directement à 600 000 F CFA.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 7 (Gestion financière du centre de santé).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-sp-j5-idesfm__50",
@@ -1748,7 +1747,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "DFL = SAB − DO. Avec SAB = RVME + RCAS = 1 000 000 F CFA et DO = 700 000 F CFA, on obtient DFL = 300 000 F CFA. Remarque : Ce calcul utilise SAB = 1 000 000 F CFA, et non les 600 000 F CFA retenus à la question 54.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Budgétisation des ressources propres d'un ESPC », V.5.4 ; Formules Santé publique harmonisées, chap. 7",
+       "explanation": "D'après la formule du cours, les dépenses de fonctionnement local (DFL) sont égales à la différence entre la somme totale disponible (1 000 000 F CFA) et les dépenses obligatoires retenues (700 000 F CFA), soit 1 000 000 − 700 000 = 300 000 F CFA.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Budgétisation des ressources propres d'un ESPC ; Formules de Santé Publique — Document harmonisé, chap. 7.",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1786,7 +1785,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Les frais de réparation de l'immeuble ne doivent pas dépasser 10 % des DFL : 10 % × 300 000 = 30 000 F CFA.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Budgétisation des ressources propres d'un ESPC », V.5.4 ; Formules Santé publique harmonisées, chap. 7 (Im = 10 % × DFL)",
+       "explanation": "Selon la clé de répartition budgétaire du cours sur le COGES, le plafond autorisé pour les petites réparations et l'entretien de l'immeuble sur l'enveloppe de fonctionnement local (300 000 F CFA, soit 10 %) est fixé à 30 000 F CFA.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Budgétisation des ressources propres d'un ESPC (L3).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1824,7 +1823,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Les imprévus (frais bancaires, carburant d'urgence) ne doivent pas dépasser 5 % des DFL : 5 % × 300 000 = 15 000 F CFA.\n\nSource : Cours Santé publique L3 (DOC-20260911-WA0542), « Budgétisation des ressources propres d'un ESPC », V.5.4 ; Formules Santé publique harmonisées, chap. 7 (Imp = 5 % × DFL)",
+       "explanation": "Conformément aux règles de budgétisation des ressources propres d'un ESPC, la ligne budgétaire consacrée aux dépenses imprévues est plafonnée à 5 % de l'enveloppe de fonctionnement local (5 % × 300 000 F CFA), soit 15 000 F CFA.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Budgétisation des ressources propres d'un ESPC (L3). IV. CAS CLINIQUE 2 — GESTION DES VACCINS AU CSR DE ZRANWOPLEU Énoncé du cas clinique 2 : Dans le Centre de Santé de Zranwopleu, Monsieur KONAN, l'infirmier Chef de poste a fait sortir 200 doses de Penta durant le mois et 180 doses ont été administrées. Pour le mois suivant, le besoin théorique (BT) est de 400 doses ; le stock de sécurité pour les vaccins est de 25 % du BT et le stock utilisable déjà disponible est de 120 doses. Toutes les quantités sont exprimées en doses.",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1862,7 +1861,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "TU = doses administrées / doses sorties × 100 = 180 / 200 × 100 = 90 %.\n\nSource : Document révisé L2 2023-2024, « Gestion des vaccins et consommables » ; Formules Santé publique harmonisées, chap. 5",
+       "explanation": "Le taux d'utilisation (TU) rapporte le nombre de doses administrées (180) au nombre total de doses sorties du stock (200) : TU = 180 200 × 100 = 90 %.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -1976,7 +1975,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "SS = 25 % × BT = 0,25 × 400 = 100 doses. BR = BT + SS = 400 + 100 = 500 doses.\n\nSource : Document révisé L2 2023-2024, « Gestion des vaccins et consommables » ; Formules Santé publique harmonisées, chap. 5",
+       "explanation": "Le stock de sécurité (SS) étant égal à 25 % du besoin théorique (0,25 × 400 = 100 doses), le besoin réel (BR) correspond à la somme du besoin théorique et du stock de sécurité : BR = 400 + 100 = 500 doses.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null
@@ -2014,7 +2013,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "QC = BR − QS = 500 − 120 = 380 doses.\n\nSource : Document révisé L2 2023-2024, « Gestion des vaccins et consommables » ; Formules Santé publique harmonisées, chap. 5",
+       "explanation": "La quantité à commander (QC) s'obtient en retranchant le stock utilisable déjà disponible (120 doses) du besoin réel (500 doses) : QC = 500 − 120 = 380 doses.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
        "sourceDoc": "Prépa D.E — J5 Santé publique IDE/SFM (corrigé expliqué)",
        "sourceFile": "J5_SANTE_PUBLIQUE_IDE-SFM_corrige_explique.pdf",
        "sourcePage": null

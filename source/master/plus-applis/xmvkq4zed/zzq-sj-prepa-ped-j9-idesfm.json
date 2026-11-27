@@ -1,0 +1,2056 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzq-sj-prepa-ped-j9-idesfm",
+ "titre": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 57,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+   "sha256": "c1e8c2d8402d3b954a7c6fc159ceb6b02b83cb88c53adce6ddd9268aa4b95034"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+     "slug": "prepa-ped-j9-idesfm",
+     "pages": "",
+     "count": 57,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Pédiatrie",
+     "source": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le paludisme est une maladie virale due à des hématozoaires du genre Plasmodium.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le paludisme est une maladie PARASITAIRE (et non virale) due à un hématozoaire du genre Plasmodium, transmis par l'anophèle femelle. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Paludisme de l'enfant », Définition",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le vecteur de la maladie est Plasmodium falciparum.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le vecteur est l'anophèle femelle (moustique) ; Plasmodium falciparum est le parasite (agent pathogène). Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Paludisme de l'enfant », Définition ; Les 12 pratiques familiales essentielles (PFE), PFE n° 8",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Plasmodium falciparum est l'espèce responsable des formes graves du paludisme.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Parmi les espèces de Plasmodium, seul P. falciparum est responsable des formes graves du paludisme.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Paludisme de l'enfant », Définition",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le cycle exo-érythrocytaire se fait au niveau des globules rouges.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cycle exo-érythrocytaire (hépatique) se déroule dans le foie ; c'est le cycle érythrocytaire qui se fait dans les globules rouges. Faux. (explication hors cours du projet)",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En salle de naissance, pour décider de la réanimation d'un nouveau-né, le principal élément à évaluer est sa respiration.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale retient « Faux » : la conduite de la réanimation se base sur l'évaluation globale de la vitalité (score d'Apgar : respiration, fréquence cardiaque, tonus, coloration…).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Réanimation du nouveau-né en salle de naissance », Conduite de la réanimation",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La souffrance néonatale est un facteur favorisant des crises convulsives.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale retient « Faux ».\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Convulsions de l'enfant », Facteurs favorisants",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Vous faites une injection de paracétamol en cas d'hyperthermie chez l'enfant de moins de 5 ans. Est-ce un soin propre à l'agent de santé ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le paracétamol injectable est prescrit par le médecin : son injection est un soin délégué (exécuté sur instruction du médecin), pas un soin propre. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Plan de soins », Interventions – soins délégués / soins propres",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La maladie des membranes hyalines (déficit en surfactant) est une cause fréquente de détresse respiratoire chez le nouveau-né à terme.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La maladie des membranes hyalines (déficit en surfactant) est une maladie du prématuré ; chez le nouveau-né à terme, elle ne se voit guère qu'en cas de mère diabétique ou de césarienne avant terme. Faux.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre V « Détresse respiratoire néonatale », Maladie des membranes hyalines",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lors de la réanimation du nouveau-né en salle d'accouchement, l'aspiration débute par l'aspiration des fosses nasales avant l'aspiration de la cavité buccale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "On aspire d'abord la bouche, puis le nez : aspirer le nez en premier peut provoquer un réflexe d'inspiration et l'inhalation du liquide présent dans la bouche. Faux.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre III « Réanimation en salle de naissance », Désobstruction des VAS",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La bradypnée chez le nouveau-né à terme est marquée par une fréquence respiratoire supérieure à 60 cycles par minute.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Une fréquence respiratoire supérieure à 60 cycles/min est une polypnée (tachypnée) ; la bradypnée est une FR inférieure à 40 cycles/min. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Nouveau-né prématuré », Problèmes ; Module de néonatologie (Néonatalogie), Chapitre V, Signes cliniques",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Vous recevez lors de votre garde un nourrisson de 8 mois présentant une température de 38,5 °C. Vous installez le nourrisson sur la table d'examen, vous le déshabillez et vous aérez la salle d'examen. Ces gestes que vous faites sont-ils des soins délégués ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Installer, déshabiller l'enfant et aérer la pièce sont des moyens physiques que l'agent de santé réalise de sa propre initiative : ce sont des soins propres, pas des soins délégués. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Plan de soins », Interventions ; « Fièvre de l'enfant », Moyens physiques",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ration alimentaire de l'enfant, c'est le nombre de bols de lait donnés à l'enfant par jour.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La ration alimentaire est la QUANTITÉ d'aliments donnée à l'enfant et répartie au cours de la journée, pas le nombre de bols. Faux.\n\nSource : Cours de santé infantile L1 IDE-SFM, Diététique – « La ration alimentaire du nouveau-né et du nourrisson »",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ration alimentaire peut être obtenue seulement en tenant compte de l'âge de l'enfant.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La ration peut être calculée selon l'âge OU selon le poids (règle d'Appert). Faux.\n\nSource : Cours de santé infantile L1 IDE-SFM, « La ration alimentaire du nouveau-né et du nourrisson »",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ration alimentaire d'un enfant de J0 à J2 est de 30 ml pour 6 repas.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "De J0 à J2, la ration est de 30 ml par repas, 6 repas par jour.\n\nSource : Cours de santé infantile L1 IDE-SFM, « Ration selon l'âge » (tableau)",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'allaitement est contraignant ; cependant, le lait maternel est disponible.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le lait maternel est toujours disponible, prêt à être consommé et à bonne température, même si l'allaitement demande du temps à la mère.\n\nSource : Les 12 pratiques familiales essentielles (PFE), PFE n° 2 – Avantages pour la famille",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__15",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un enfant de 6 kg a une ration alimentaire de 850 g.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Règle d'Appert : ration journalière = poids (g) ÷ 10 + 250. Pour 6000 g : 600 + 250 = 850 g (ml) par jour.\n\nSource : Cours de santé infantile L1 IDE-SFM, « Calcul selon le poids : selon la règle d'Appert »",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__16",
+       "num": "17",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La règle d'Appert est utilisée pour obtenir la ration alimentaire d'un enfant dont on ne connaît pas l'âge.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La règle d'Appert calcule la ration à partir du poids ; elle est donc utile quand l'âge n'est pas connu. Remarque : le cours présente surtout Appert comme la méthode qui « répond mieux aux besoins de l'enfant », pas seulement pour l'âge inconnu.\n\nSource : Cours de santé infantile L1 IDE-SFM, « Calcul selon le poids : selon la règle d'Appert »",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__17",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pendant l'examen du nouveau-né, il faut rechercher les réflexes archaïques, au nombre de 7.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cours de santé infantile retient 5 réflexes archaïques (succion-déglutition, grasping, points cardinaux, Moro, redressement-marche automatique), pas 7. Faux. Remarque : le module de néonatologie en décrit davantage (allongement croisé, Landau, enjambement…).\n\nSource : Cours de santé infantile L1 IDE-SFM, « Examen du nouveau-né en salle de naissance », Réflexes archaïques",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__18",
+       "num": "19",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les soins ombilicaux à la chlorhexidine sont ceux recommandés en Côte d'Ivoire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "En Côte d'Ivoire, l'antiseptique retenu pour les soins du cordon est la chlorhexidine (gel).\n\nSource : Cours de santé infantile L1 IDE-SFM, « Soins ombilicaux », Introduction",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__19",
+       "num": "20",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les soins ombilicaux à la chlorhexidine, il n'est pas nécessaire de faire un pansement.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Avec la chlorhexidine gel, on applique le produit sur le cordon (pointe, moignon, base) une fois par jour, et le cordon reste à l'air : le matériel ne comprend pas de compresse de pansement. (explication partiellement hors cours du projet)\n\nSource : Cours de santé infantile L1 IDE-SFM, « Soins ombilicaux », Matériel et Technique de soins",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__20",
+       "num": "21",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'examen du nouveau-né en salle de naissance permet de déceler et corriger les anomalies susceptibles d'entraver ou d'influencer son développement harmonieux.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'examen du nouveau-né est l'ensemble des gestes destinés à déceler (et prendre en charge) les anomalies susceptibles d'influencer son développement harmonieux.\n\nSource : Cours de santé infantile L1 IDE-SFM, « Examen du nouveau-né en salle de naissance », Définition",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les facteurs favorisant les intoxications aiguës chez l'enfant sont les suivants sauf un, lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Bas niveau socio-économique"
+        },
+        {
+         "letter": "B",
+         "text": "Ignorance des parents"
+        },
+        {
+         "letter": "C",
+         "text": "Âge > 7 ans"
+        },
+        {
+         "letter": "D",
+         "text": "Manque de surveillance de l'enfant"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Âge > 7 ans",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les intoxications surviennent surtout avant 5 ans (1-5 ans), favorisées par l'ignorance, le manque de surveillance et le bas niveau socio-économique. L'âge supérieur à 7 ans n'est pas un facteur favorisant.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Intoxications de l'enfant », Facteurs favorisants",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les problèmes posés par l'intoxication chez l'enfant sont (cochez les bonnes réponses) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La détresse respiratoire"
+        },
+        {
+         "letter": "B",
+         "text": "La fièvre"
+        },
+        {
+         "letter": "C",
+         "text": "Les convulsions"
+        },
+        {
+         "letter": "D",
+         "text": "L'anémie aiguë"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. La détresse respiratoire ; C. Les convulsions",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Les principaux problèmes d'une intoxication sont les convulsions, la détresse respiratoire, l'insuffisance hépatique et rénale, la perforation digestive.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Intoxications de l'enfant », Problèmes",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les facteurs ci-dessous sont des facteurs environnementaux de l'asthme sauf un, lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Exposition aux allergènes"
+        },
+        {
+         "letter": "B",
+         "text": "Asthme chez les parents"
+        },
+        {
+         "letter": "C",
+         "text": "Tabagisme passif"
+        },
+        {
+         "letter": "D",
+         "text": "Occidentalisation du mode de vie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Asthme chez les parents",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'asthme chez les parents est un facteur intrinsèque (génétique, atopie familiale) ; allergènes, tabagisme passif et mode de vie sont des facteurs extrinsèques (environnementaux).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Asthme de l'enfant », Facteurs étiologiques",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les mécanismes en jeu au cours de l'asthme sont les suivants (cochez les bonnes réponses) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'obstruction"
+        },
+        {
+         "letter": "B",
+         "text": "La saturation"
+        },
+        {
+         "letter": "C",
+         "text": "L'inflammation"
+        },
+        {
+         "letter": "D",
+         "text": "La vasoconstriction"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. L'obstruction ; C. L'inflammation",
+       "answerLetters": [
+        "A",
+        "C"
+       ],
+       "explanation": "Au cours de l'asthme, trois anomalies sont combinées : l'obstruction (bronchoconstriction), l'inflammation de la paroi bronchique et l'hypersécrétion bronchique.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Asthme de l'enfant », Pathogénie",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les complications à long terme de l'asthme sont (cochez la ou les bonnes réponses) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le retard scolaire"
+        },
+        {
+         "letter": "B",
+         "text": "La pneumonie"
+        },
+        {
+         "letter": "C",
+         "text": "L'insuffisance respiratoire"
+        },
+        {
+         "letter": "D",
+         "text": "La tuberculose"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. L'insuffisance respiratoire",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La correction nationale retient l'insuffisance respiratoire chronique. Remarque : l'énoncé dit « cochez la ou les bonnes réponses », mais le sujet propose des ronds (une seule réponse).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Asthme de l'enfant », Problèmes et devenir",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les facteurs de risque de la maladie hémorragique du nouveau-né sont les suivants sauf 2, lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Hépatite aiguë"
+        },
+        {
+         "letter": "B",
+         "text": "Hypotrophie"
+        },
+        {
+         "letter": "C",
+         "text": "Certains médicaments"
+        },
+        {
+         "letter": "D",
+         "text": "Asphyxie périnatale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Hépatite aiguë ; B. Hypotrophie",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "La correction nationale retient « hépatite aiguë » et « hypotrophie » comme non-facteurs.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Maladie hémorragique du nouveau-né », Facteurs étiologiques",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Cocher parmi ces signes ceux en rapport avec un nouveau-né post-terme :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Crâne dur"
+        },
+        {
+         "letter": "B",
+         "text": "Petit poids de naissance"
+        },
+        {
+         "letter": "C",
+         "text": "Ongles longs"
+        },
+        {
+         "letter": "D",
+         "text": "Teint rouge vif"
+        },
+        {
+         "letter": "E",
+         "text": "Peau desquamante"
+        },
+        {
+         "letter": "F",
+         "text": "Présence de lanugo"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Crâne dur ; B. Petit poids de naissance ; C. Ongles longs ; E. Peau desquamante",
+       "answerLetters": [
+        "A",
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "Le post-terme avec signes de post-maturité a un poids souvent diminué, une peau fripée qui desquame, des ongles longs et cassants (teintés de méconium) et des os du crâne durs. Le lanugo et le teint rouge vif sont des signes du prématuré. (explication partiellement hors cours du projet) Remarque : le crâne dur n'est pas cité dans le cours (connaissance générale).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Nouveau-né post terme », Diagnostic positif – En résumé",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les situations à risque de détresse respiratoire chez le nouveau-né sont les suivantes sauf une, laquelle ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Souffrance cérébrale"
+        },
+        {
+         "letter": "B",
+         "text": "Nouveau-né de mère asthmatique"
+        },
+        {
+         "letter": "C",
+         "text": "Prématurité"
+        },
+        {
+         "letter": "D",
+         "text": "Malformation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Nouveau-né de mère asthmatique",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les situations à risque de détresse respiratoire sont liées au fœtus (prématurité, malformation, souffrance cérébrale, hypotrophie, mère diabétique…) ou à la mère/l'accouchement. L'asthme maternel n'est pas cité.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Détresse respiratoire du nouveau-né », Situations à risque",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au cours de la réanimation d'un nouveau-né en salle de naissance, il y a des gestes à proscrire, lesquels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Aspirer la cavité buccale"
+        },
+        {
+         "letter": "B",
+         "text": "Couper le cordon ombilical"
+        },
+        {
+         "letter": "C",
+         "text": "Taper sur les fesses du bébé"
+        },
+        {
+         "letter": "D",
+         "text": "Pincer le mamelon"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Taper sur les fesses du bébé ; D. Pincer le mamelon",
+       "answerLetters": [
+        "C",
+        "D"
+       ],
+       "explanation": "Les gestes brutaux sont à proscrire : tape vigoureuse sur les fesses, friction forte de la peau, pincer le mamelon. Aspirer la bouche et couper le cordon sont des gestes normaux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Réanimation du nouveau-né en salle de naissance », Gestes dangereux à proscrire",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les facteurs ci-dessous, quels sont ceux qui favorisent la survenue d'une otite moyenne aiguë chez l'enfant ? Cochez la bonne réponse.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La rougeole"
+        },
+        {
+         "letter": "B",
+         "text": "La saison des pluies"
+        },
+        {
+         "letter": "C",
+         "text": "La malnutrition"
+        },
+        {
+         "letter": "D",
+         "text": "Les rhinites"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Les rhinites",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La correction nationale retient les rhinites (la rhinopharyngite se complique souvent d'otite).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Otite de l'enfant », Facteurs favorisants liés à l'enfant",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les signes cliniques suivants sont ceux de l'otite moyenne aiguë de l'enfant sauf un, lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les ganglions"
+        },
+        {
+         "letter": "B",
+         "text": "L'otorrhée"
+        },
+        {
+         "letter": "C",
+         "text": "La fièvre"
+        },
+        {
+         "letter": "D",
+         "text": "La rhinite"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. La rhinite",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Les signes de l'OMA sont fièvre, pleurs incessants, otalgie, troubles digestifs et otorrhée. La rhinite n'est pas un signe de l'otite elle-même (elle peut l'accompagner ou la précéder). Remarque : les ganglions cervicaux sont plutôt un signe de rhinopharyngite que d'otite.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Otite de l'enfant », Circonstances de découverte ; « Infections respiratoires aiguës », Otites moyennes aiguës",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les symptômes de la rhinopharyngite aiguë sont (cochez les réponses justes) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La toux"
+        },
+        {
+         "letter": "B",
+         "text": "Les céphalées"
+        },
+        {
+         "letter": "C",
+         "text": "La rhinorrhée"
+        },
+        {
+         "letter": "D",
+         "text": "La fièvre"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Les céphalées ; C. La rhinorrhée ; D. La fièvre",
+       "answerLetters": [
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "La rhinopharyngite donne fièvre, rhinorrhée (claire ou purulente), obstruction nasale et douleur de gorge. La toux doit faire craindre une atteinte des voies respiratoires basses. Remarque : les céphalées ne sont pas citées dans le cours.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Rhinopharyngite de l'enfant », Arguments anamnestiques",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nouveau-né hypotrophe est un nouveau-né (entourez la bonne réponse) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "dont le poids est inférieur à l'âge"
+        },
+        {
+         "letter": "B",
+         "text": "de petit poids de naissance"
+        },
+        {
+         "letter": "C",
+         "text": "né à terme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. dont le poids est inférieur à l'âge",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le nouveau-né hypotrophe est né à terme mais avec un poids de naissance inférieur à la normale pour son âge gestationnel (< 2500 g). « Petit poids de naissance » s'applique aussi au prématuré et n'est donc pas spécifique.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Nouveau-né hypotrophe », Définition",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Ces signes sont en rapport avec l'hypotrophe sauf un, lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Membres grêles"
+        },
+        {
+         "letter": "B",
+         "text": "Retard pondéral"
+        },
+        {
+         "letter": "C",
+         "text": "Peau fripée"
+        },
+        {
+         "letter": "D",
+         "text": "Somnolence"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Somnolence",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "L'hypotrophe a une peau fripée, des membres grêles, une maigreur, un regard vif et un retard pondéral. La somnolence n'en fait pas partie (regard vif, enfant éveillé).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Nouveau-né hypotrophe », Informations à rechercher à l'examen physique",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le post-terme est un nouveau-né (entourez les réponses fausses) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "né après 36 SA + 6 j"
+        },
+        {
+         "letter": "B",
+         "text": "né après 42 SA"
+        },
+        {
+         "letter": "C",
+         "text": "de petit poids de naissance"
+        },
+        {
+         "letter": "D",
+         "text": "dont le poids est insuffisant par rapport à l'âge"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. né après 42 SA",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La correction nationale retient « né après 42 SA ».\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Nouveau-né post terme », Définition",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Vous recevez le nourrisson TD âgé de 14 mois. Lors de l'évaluation de son état nutritionnel, vous trouvez que TD a une malnutrition aiguë sévère. Son Z-score poids/taille est donc de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "0 < Z-score < −1"
+        },
+        {
+         "letter": "B",
+         "text": "−1 < Z-score < −2"
+        },
+        {
+         "letter": "C",
+         "text": "Z-score < −3"
+        },
+        {
+         "letter": "D",
+         "text": "−2 < Z-score < −3"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Z-score < −3",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La malnutrition aiguë sévère correspond à un Z-score poids/taille inférieur à −3 (modérée : entre −3 et −2).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Malnutrition de l'enfant », Classification de la malnutrition aiguë sévère",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un nourrisson de 13 mois qui a une malnutrition aiguë sévère compliquée d'œdème et d'infection pulmonaire sera (cochez la réponse exacte) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Pris en charge avec des aliments thérapeutiques prêts à l'emploi (ATPE) en ambulatoire (en communauté)"
+        },
+        {
+         "letter": "B",
+         "text": "Pris en charge avec du lait F75, du lait F100 et des ATPE en milieu hospitalier"
+        },
+        {
+         "letter": "C",
+         "text": "Pris en charge avec des ATPE uniquement et en milieu hospitalier"
+        },
+        {
+         "letter": "D",
+         "text": "Pris en charge avec du lait F75, du lait F100 et des ATPE en ambulatoire (en communauté)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Pris en charge avec du lait F75, du lait F100 et des ATPE en milieu hospitalier",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Une malnutrition aiguë sévère avec complications (œdèmes, infection respiratoire…) est prise en charge en unité de nutrition thérapeutique (hôpital) avec F75, puis F100, puis ATPE.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Malnutrition de l'enfant », Classification de la malnutrition aiguë sévère (tableau) ; Réhabilitation nutritionnelle",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La rhinopharyngite est fréquente chez le nourrisson. Le germe le plus rencontré dans cette affection est (choisissez la réponse exacte) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Parasite"
+        },
+        {
+         "letter": "B",
+         "text": "Bactérie"
+        },
+        {
+         "letter": "C",
+         "text": "Champignon"
+        },
+        {
+         "letter": "D",
+         "text": "Virus"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Virus",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Les germes de la rhinopharyngite sont surtout des virus (rhinovirus, VRS, para-influenzae…) ; les bactéries interviennent en cas de surinfection.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Rhinopharyngite de l'enfant », Germes",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lors de la prise en charge d'un nourrisson présentant une staphylococcie pleuropulmonaire, vous injectez des antibiotiques. Quel est le type de soin que vous exécutez dans ce cas ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Soins de collaboration"
+        },
+        {
+         "letter": "B",
+         "text": "Soins délégués"
+        },
+        {
+         "letter": "C",
+         "text": "Soins propres"
+        },
+        {
+         "letter": "D",
+         "text": "Soins préventifs"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Soins délégués",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'injection d'antibiotiques prescrits par le médecin est un soin délégué (exécuté sur instruction du médecin).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Plan de soins », Interventions – soins délégués",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__40",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'anémie du nouveau-né peut être due à des prélèvements itératifs. Cette pratique est un facteur favorisant lié à (choisissez la réponse correcte) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "la mère"
+        },
+        {
+         "letter": "B",
+         "text": "l'enfant"
+        },
+        {
+         "letter": "C",
+         "text": "l'agent de santé"
+        },
+        {
+         "letter": "D",
+         "text": "la communauté"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. l'agent de santé",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les prélèvements sanguins répétés (itératifs) sont une cause d'anémie du nouveau-né liée aux soins : c'est un facteur lié à l'agent de santé ; le cours recommande de limiter les prélèvements.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Anémie aiguë de l'enfant », Principales causes ; Module de néonatologie (Néonatalogie), Chapitre VIII, Anémie du prématuré",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__41",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Devant une anémie chez l'enfant, vous prélevez du sang pour des examens de laboratoire. Quel est le type de soin que vous avez exécuté ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Soins préventifs"
+        },
+        {
+         "letter": "B",
+         "text": "Soins de collaboration"
+        },
+        {
+         "letter": "C",
+         "text": "Soins délégués"
+        },
+        {
+         "letter": "D",
+         "text": "Soins propres"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Soins délégués",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Faire un prélèvement sanguin pour les examens prescrits est cité comme exemple de soin délégué.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Plan de soins », Interventions – soins délégués",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__42",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour la prévention de la maladie hémorragique du nouveau-né, vous lui injectez un médicament. Identifiez le médicament dans la liste ci-dessous.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vitamine C"
+        },
+        {
+         "letter": "B",
+         "text": "Vitamine D"
+        },
+        {
+         "letter": "C",
+         "text": "Vitamine K"
+        },
+        {
+         "letter": "D",
+         "text": "Vitamine ADEC"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Vitamine K",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La maladie hémorragique est due à une carence en vitamine K1 ; sa prévention repose sur l'injection systématique de vitamine K1 à la naissance.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Maladie hémorragique du nouveau-né », Intérêt",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__43",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Vous êtes en salle de naissance. Madame KS, âgée de 28 ans, vient d'accoucher de son premier enfant à 39 SA. KS n'a reçu que 2 doses de vaccin antitétanique : la première à 20 SA et la 2e à 38 SA. Que faites-vous au nouveau-né pour la prévention du tétanos néonatal ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vous injectez un vaccin antitétanique au nouveau-né"
+        },
+        {
+         "letter": "B",
+         "text": "Vous injectez du sérum antitétanique"
+        },
+        {
+         "letter": "C",
+         "text": "Vous ne faites rien car le nouveau-né est déjà protégé"
+        },
+        {
+         "letter": "D",
+         "text": "Vous injectez un antibiotique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Vous injectez du sérum antitétanique",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La 2e dose de VAT faite à 38 SA, une semaine avant l'accouchement, n'a pas eu le temps de protéger le nouveau-né (il faut au moins 2 semaines). Le nouveau-né n'est pas protégé : on lui injecte du sérum antitétanique (immunité immédiate). (explication partiellement hors cours du projet)\n\nSource : Les 12 pratiques familiales essentielles (PFE), PFE n° 6 – Calendrier vaccinal de la femme en âge de reproduction",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__44",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Ces différents items permettent d'apprécier le score d'APGAR sauf un, lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "R : Respiration (mouvements respiratoires)"
+        },
+        {
+         "letter": "B",
+         "text": "A : Aréflexie"
+        },
+        {
+         "letter": "C",
+         "text": "A : Aspect, couleur de la peau"
+        },
+        {
+         "letter": "D",
+         "text": "G : Grimace, qualité du cri"
+        },
+        {
+         "letter": "E",
+         "text": "P : Pouls (fréquence cardiaque)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. A : Aréflexie",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "APGAR = Aspect (couleur), Pouls (FC), Grimace (réactivité), Activité (tonus), Respiration. « Aréflexie » n'est pas un item. Remarque : dans le sujet, l'option « Aspect, couleur de la peau » n'a pas de lettre ; « A : » a été ajouté pour la lisibilité.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Souffrance cérébrale du nouveau-né », Tableau du score d'Apgar",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__45",
+       "num": "46",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'objectif de la PCIMNE est de contribuer à la réduction de la morbidité et de la mortalité des enfants de moins de 5 ans en s'appuyant sur 3 composantes :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Composante n° 3 : Promotion des pratiques familiales essentielles dans les familles et communautés"
+        },
+        {
+         "letter": "B",
+         "text": "Composante n° 1 : Renforcement du système de santé"
+        },
+        {
+         "letter": "C",
+         "text": "Composante n° 2 : Amélioration des compétences des agents de santé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Composante n° 3 : Promotion des pratiques familiales essentielles dans les familles et communautés",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Composantes de la PCIMNE : n° 1 amélioration des compétences des agents de santé ; n° 2 renforcement du système de santé ; n° 3 promotion des pratiques familiales essentielles. Seule la composante n° 3 est correctement numérotée dans les propositions. Remarque : la question 46 et la question 47 sont la même question dans le sujet, avec les options dans un autre ordre.\n\nSource : Cours PCIMNE 2026, diapositive « Objectif (1/7) »",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__46",
+       "num": "47",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'objectif de la PCIMNE est de contribuer à la réduction de la morbidité et de la mortalité des enfants de moins de 5 ans en s'appuyant sur 3 composantes. Choisir la bonne réponse :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Composante n° 2 : Amélioration des compétences des agents de santé"
+        },
+        {
+         "letter": "B",
+         "text": "Composante n° 3 : Promotion des pratiques familiales essentielles dans les familles et communautés"
+        },
+        {
+         "letter": "C",
+         "text": "Composante n° 1 : Renforcement du système de santé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Composante n° 3 : Promotion des pratiques familiales essentielles dans les familles et communautés",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Même question : seule « Composante n° 3 : promotion des pratiques familiales essentielles » est juste ; les deux autres ont des numéros inversés.\n\nSource : Cours PCIMNE 2026, diapositive « Objectif (1/7) »",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__47",
+       "num": "48",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les principes de la PCIMNE ci-dessous, choisir la bonne réponse :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Utilisation des signes spéciaux pour la classification de la maladie"
+        },
+        {
+         "letter": "B",
+         "text": "Conseiller la mère"
+        },
+        {
+         "letter": "C",
+         "text": "Organiser le quand revenir"
+        },
+        {
+         "letter": "D",
+         "text": "Approche rationnelle pour classer la maladie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Conseiller la mère",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Principes de la PCIMNE : approche syndromique et systématique, signes spécifiques pour classer, approche rationnelle pour le TRAITEMENT, conseiller la mère, organiser la continuité des soins. « Conseiller la mère » est la seule proposition formulée comme dans le cours.\n\nSource : Cours PCIMNE 2026, diapositive « Principes »",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__48",
+       "num": "49",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les signes suivants, un seul fait partie de l'infection bactérienne néonatale grave. Lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Stridor"
+        },
+        {
+         "letter": "B",
+         "text": "Ombilic rouge"
+        },
+        {
+         "letter": "C",
+         "text": "Incapable de s'alimenter"
+        },
+        {
+         "letter": "D",
+         "text": "Hypothermie modérée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Incapable de s'alimenter",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'incapacité à s'alimenter fait partie des signes d'infection bactérienne grave du nouveau-né. Une hypothermie modérée et un ombilic rouge (non étendu) relèvent d'autres classifications ; le stridor concerne l'enfant plus grand.\n\nSource : Livret de tableaux PCIMNE 0-5 ans, Tableau du nouveau-né « Infection bactérienne grave »",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__49",
+       "num": "50",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nouveau-né est bien tenu par la mère lors de la tétée lorsque (choisir la mauvaise réponse) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le nouveau-né fait face au sein, son nez en face du mamelon"
+        },
+        {
+         "letter": "B",
+         "text": "La tête et le corps du nouveau-né sont dans le même axe"
+        },
+        {
+         "letter": "C",
+         "text": "La mère doit soutenir seulement le corps et les épaules du nouveau-né"
+        },
+        {
+         "letter": "D",
+         "text": "Le corps du nouveau-né doit être proche du corps de la mère"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. La mère doit soutenir seulement le corps et les épaules du nouveau-né",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Bonne position : tête et corps droits dans le même axe, visage face au sein et nez face au mamelon, corps proche de la mère, et TOUT le corps soutenu par la mère (s'il s'agit d'un nouveau-né). Soutenir seulement le corps et les épaules est la mauvaise réponse.\n\nSource : Les 12 pratiques familiales essentielles (PFE), PFE n° 2 – Bonne position de l'enfant au sein",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__50",
+       "num": "51",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les principales causes de mortalité dans la PCIMNE sont (choisir la mauvaise réponse) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La malnutrition"
+        },
+        {
+         "letter": "B",
+         "text": "Le tétanos néonatal"
+        },
+        {
+         "letter": "C",
+         "text": "La rougeole"
+        },
+        {
+         "letter": "D",
+         "text": "Le paludisme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Le tétanos néonatal",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les 7 principales causes de mortalité visées par la PCIMNE sont : affections néonatales graves, paludisme, IRA, diarrhée, rougeole, malnutrition, VIH/sida. Le tétanos néonatal n'est pas cité en tant que tel.\n\nSource : Cours PCIMNE 2026, diapositive « Stratégie (3/3) »",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__51",
+       "num": "52",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le lait maternel est un aliment complet (choisir la mauvaise réponse) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Il rend intelligent"
+        },
+        {
+         "letter": "B",
+         "text": "Il est facile à digérer"
+        },
+        {
+         "letter": "C",
+         "text": "Il protège contre les affections"
+        },
+        {
+         "letter": "D",
+         "text": "Il contient des éléments nutritifs idéaux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Il protège contre les affections",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "La correction nationale retient « Il protège contre les affections » comme mauvaise réponse.\n\nSource : Les 12 pratiques familiales essentielles (PFE), PFE n° 2 – Avantages pour le bébé",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__52",
+       "num": "53",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les réponses ci-dessous, une seule est un avantage pour la mère de l'allaitement maternel exclusif, lequel ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Moins de dépenses en frais médicaux"
+        },
+        {
+         "letter": "B",
+         "text": "C'est un aliment complet"
+        },
+        {
+         "letter": "C",
+         "text": "Réduit le risque de cancer de l'utérus"
+        },
+        {
+         "letter": "D",
+         "text": "Relation affective entre la mère et le bébé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Relation affective entre la mère et le bébé",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Pour la mère, l'allaitement crée une relation intime et affective avec le bébé (et réduit le risque de cancer des ovaires et du SEIN, pas de l'utérus). « Moins de dépenses médicales » est un avantage pour le père, « aliment complet » un avantage pour le bébé.\n\nSource : Les 12 pratiques familiales essentielles (PFE), PFE n° 2 – Avantages de l'AME pour la mère",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__53",
+       "num": "54",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Ce schéma représente les stries plantaires d'un nouveau-né. Choisir les bonnes réponses :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Nouveau-né à terme eutrophe"
+        },
+        {
+         "letter": "B",
+         "text": "Nouveau-né à terme hypotrophe"
+        },
+        {
+         "letter": "C",
+         "text": "Nouveau-né prématuré hypotrophe"
+        },
+        {
+         "letter": "D",
+         "text": "Nouveau-né prématuré"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Nouveau-né à terme eutrophe",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Sur le schéma, les stries plantaires couvrent toute la plante du pied : c'est un critère de maturité du nouveau-né à terme. Chez le prématuré, les stries sont absentes ou limitées à l'avant du pied. (explication partiellement hors cours du projet)\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Photothèque « Nouveau-né à terme » / « Nouveau-né prématuré à J0 » (stries plantaires)",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__54",
+       "num": "55",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au cours d'une séance de CCC pendant la grossesse, vous citez les facteurs favorisant la prématurité aux parturientes. L'une de ces propositions est fausse, laquelle ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Fatigue liée au travail professionnel ou familial"
+        },
+        {
+         "letter": "B",
+         "text": "Multiparité"
+        },
+        {
+         "letter": "C",
+         "text": "Âge > 18 ans et < 35 ans"
+        },
+        {
+         "letter": "D",
+         "text": "Tabagisme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Âge > 18 ans et < 35 ans",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Le jeune âge (< 18 ans) et l'âge avancé (> 35 ans) sont des facteurs favorisants de prématurité ; un âge entre 18 et 35 ans n'en est pas un. Fatigue, multiparité et tabac sont des facteurs favorisants.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre VIII « Prématurité », Facteurs individuels et psycho-sociaux",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__55",
+       "num": "56",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour la sécurité d'un accouchement prématuré, il faut (choisir la ou les bonnes réponses) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une personne"
+        },
+        {
+         "letter": "B",
+         "text": "Une bonne chaîne de froid"
+        },
+        {
+         "letter": "C",
+         "text": "Asepsie rigoureuse"
+        },
+        {
+         "letter": "D",
+         "text": "Aspiration douce si nécessaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Asepsie rigoureuse ; D. Aspiration douce si nécessaire",
+       "answerLetters": [
+        "C",
+        "D"
+       ],
+       "explanation": "L'accouchement prématuré exige une asepsie rigoureuse (risque infectieux élevé) et une aspiration douce si nécessaire. Il faut au moins deux personnes formées, et c'est la chaîne du CHAUD (et non du froid) qui doit être assurée.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre VIII « Prématurité », Prise en charge – En salle de naissance ; Chapitre XIX, Chaîne du chaud",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ped-j9-idesfm__56",
+       "num": "57",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Concernant l'hypotrophie (ou RCIU) harmonieuse, choisir les réponses fausses :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La cause est tardive"
+        },
+        {
+         "letter": "B",
+         "text": "Le poids, la taille et le périmètre crânien sont toujours diminués"
+        },
+        {
+         "letter": "C",
+         "text": "Seuls le poids et la taille sont diminués"
+        },
+        {
+         "letter": "D",
+         "text": "La peau est fripée"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Seuls le poids et la taille sont diminués",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Dans l'hypotrophie harmonieuse, poids, taille ET périmètre crânien sont diminués ; « seuls le poids et la taille sont diminués » décrit la forme dysharmonieuse : c'est donc une réponse fausse. Remarque : la capture s'arrête au bas de cette question ; une 5e option éventuelle n'est pas visible dans le sujet. CORRIGÉ EXPLIQUÉ — PRÉPA DE INFAS\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Nouveau-né hypotrophe », Introduction (hypotrophe harmonieux / dysharmonieux)",
+       "sourceDoc": "Préparation D.E (J) · Pédiatrie · Prépa D.E J9 (IDE-SF-M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -201,11 +201,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. Vrai",
+       "answer": "B. Faux",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "Ouvrir un flacon multidose pour vacciner un petit nombre d'enfants fait perdre les doses restantes : ce sont des doses « sacrifiées » pour ne pas manquer d'occasion de vacciner.\n\nSource : (explication hors cours du projet)",
+       "explanation": "On distingue deux types de pertes : les pertes inévitables (doses restantes dans un flacon multidose ouvert et jetées en fin de séance pour permettre la vaccination même d'un seul enfant) et les pertes évitables ou gaspillage (péremption, rupture de la chaîne du froid, casse de flacons).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des vaccins et consommables (L2, p. 29). II. QUESTIONS À CHOIX UNIQUE ET À CHOIX MULTIPLE",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J4 Santé publique)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null

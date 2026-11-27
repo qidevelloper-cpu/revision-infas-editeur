@@ -63,7 +63,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "Le lait maternisé se reconstitue à 1 mesurette rase pour 30 ml d'eau : 210 / 30 = 7 mesurettes.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Laits secs en poudre maternisés »",
+       "explanation": "Les laits en poudre maternisés se reconstituent à raison d'une mesurette rase (5 g) pour 30 ml d'eau. Pour un bol de 210 ml : 210 ÷ 30 = 7 mesurettes rases. Les autres nombres donneraient un lait trop dilué.\n\nSource : Cours de santé infantile L1 IDE-SFM, Diététique – « Les laits secs en poudre pour la diététique infantile »",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -178,7 +178,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Signes sévères, donc plan C. Avant 12 mois : 30 ml/kg en 1 heure, puis 70 ml/kg en 5 heures. 70 × 11 kg = 770 ml de Ringer lactate.\n\nSource : Livret de tableaux PCIMNE 0-5 ans (2021), « Plan C : traiter rapidement la déshydratation sévère »",
+       "explanation": "Signes sévères de déshydratation : plan C, 100 ml/kg de Ringer lactate. Chez le nourrisson de moins de 12 mois : 30 ml/kg en 1 heure puis 70 ml/kg en 5 heures. 70 × 11 kg = 770 ml.\n\nSource : Livret de tableaux PCIMNE 0-5 ans, « Plan C : traiter rapidement la déshydratation sévère »",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -216,7 +216,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "3420 g correspond à 90 % du poids de naissance : 3420 / 0,9 = 3800 g. La perte d'environ 10 % les premiers jours est physiologique.\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Repères de gain de poids » (pour la perte physiologique) ; calcul simple",
+       "explanation": "Après une perte de 10 %, le poids actuel représente 90 % du poids de naissance : 3420 ÷ 0,9 = 3800 g. Le cours rappelle que le nouveau-né perd environ le dixième de son poids les premiers jours (perte physiologique).\n\nSource : Cours de santé infantile L1 IDE-SFM, « Mensurations », Repères normaux de croissance somatique – Repères de gain de poids",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -483,7 +483,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Signes du kwashiorkor : anorexie et refus de manger, enfant grognon (apathique), bouffissure du visage, œdèmes, ulcérations et desquamations. Le marasme garde au contraire un appétit conservé.\n\nSource : Pédiatrie Licence 2.pdf, « Malnutrition – diagnostic kwashiorkor / marasme »",
+       "explanation": "Dans le kwashiorkor, l'enfant est hostile, pleurnichard, indifférent et grognon, avec anorexie et refus de jouer. Réclamer à manger et garder l'appétit sont des signes du marasme.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Malnutrition de l'enfant », Diagnostic positif – Kwashiorkor",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -521,7 +521,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L'infection néonatale bactérienne est dite précoce entre J0 et J7, et tardive entre J8 et J28.\n\nSource : Néonatalogie.pdf, « Infections néonatales bactériennes – définition » ; Pédiatrie Licence 2.pdf",
+       "explanation": "L'infection bactérienne précoce (materno-fœtale) survient avant le 7e jour de vie (J0-J7) ; l'infection tardive (postnatale) survient après le 7e jour, jusqu'à J28.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Infections bactériennes du nouveau-né », Introduction – Définition",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -559,7 +559,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Signes de bonne tolérance de la fièvre : faciès vultueux, cri vigoureux, téguments chauds, TRC immédiat < 3 s, conscience normale. Les extrémités froides, le teint gris ou la pâleur et le geignement traduisent une mauvaise tolérance.\n\nSource : Pédiatrie Licence 2.pdf, « Fièvre de l'enfant – apprécier la tolérance »",
+       "explanation": "Un temps de recoloration cutanée inférieur à 3 secondes est normal et témoigne d'une bonne tolérance. Extrémités froides, teint grisâtre et gémissements/cri plaintif sont des signes de mauvaise tolérance de la fièvre.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Fièvre de l'enfant », Diagnostic étiologique – Examen physique",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -597,7 +597,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le poids de naissance est doublé à 3 mois (au sein), triplé à 12 mois et multiplié par 4 à 2 ans (24 mois).\n\nSource : Cours de Santé infantile L1 IDE-SFM, « Repères de gain de poids » ; Cours de Pédiatrie 2 / pédiatrie cours.pdf, tableau des étapes de la croissance",
+       "explanation": "Le poids de naissance est doublé vers 3 mois (enfant au sein), triplé à 12 mois et multiplié par 4 à l'âge de 2 ans (24 mois).\n\nSource : Cours de santé infantile L1 IDE-SFM, « Mensurations », Repères de gain de poids",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -635,7 +635,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "Selon l'OMS : allaitement exclusif de 0 à 6 mois, puis à 6 mois introduction des aliments de complément (début du sevrage), avec poursuite de l'allaitement jusqu'à 24 mois. Remarque : Le cours parle de « sevrage définitif » à 24 mois ; 6 mois correspond au début de la diversification.\n\nSource : Pédiatrie Licence 2.pdf, « Modalités de l'alimentation (OMS) » ; Cours de Santé infantile L1 IDE-SFM, recommandations générales",
+       "explanation": "L'OMS recommande l'allaitement exclusif jusqu'à 6 mois, puis l'introduction des aliments de complément à partir de 6 mois : c'est le début du sevrage, qui doit être progressif. Remarque : le cours précise que le sevrage complet se fait à 2 ans ; 6 mois correspond au début de la diversification.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Allaitement maternel », Modalités recommandées",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -673,7 +673,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Vers 3 mois, l'enfant tient sa tête dans l'axe, ses réflexes archaïques disparaissent, il a un sourire-réponse et suit du regard. La peur de l'étranger apparaît vers 9 mois et la position assise seule vers 6-9 mois.\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Étapes du DPM » ; Pediatrie.pdf, « Évolution du tonus » ; suivi du regard : (explication hors cours du projet)",
+       "explanation": "À 3 mois, le nourrisson tient sa tête dans l'axe, sourit et suit du regard (dirige son regard des deux côtés). La peur de l'étranger apparaît vers 8-9 mois et la station assise seule vers 6-8 mois ; les réflexes archaïques disparaissent vers le 3e mois.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Annexes « Normes physiologiques de l'enfant », Principales étapes du développement psychomoteur",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -711,7 +711,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "L'échographie du 1er trimestre fait partie du bilan prénatal recommandé. Elle confirme la grossesse évolutive (activité cardiaque) et précise le terme. La recherche des malformations relève surtout de l'échographie du 2e trimestre, et le retard de croissance de celle du 3e.\n\nSource : Pédiatrie Licence 2.pdf, « Bilan prénatal » ; objectifs de chaque échographie : (explication hors cours du projet)",
+       "explanation": "L'échographie du 1er trimestre sert à confirmer la grossesse, la dater et vérifier l'activité cardiaque de l'embryon ; la recherche des malformations se fait surtout au 2e trimestre et le RCIU au 3e trimestre. (explication hors cours du projet)",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -749,7 +749,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Selon le degré thermique : fièvre modérée de 37,5 à 38,5 °C, fièvre élevée de 38,5 à 40 °C, hyperthermie au-dessus de 40 °C.\n\nSource : Pédiatrie Licence 2.pdf, « Classification de la fièvre »",
+       "explanation": "La fièvre est une température supérieure à 37,5 °C le matin ; on la classe selon le degré. Entre 38,5 et 40 °C, la fièvre est élevée ; au-delà de 40 °C on parle d'hyperthermie majeure.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Fièvre de l'enfant », Définition et Diagnostic positif",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -787,7 +787,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Les critères biologiques du paludisme grave sont : hypoglycémie ≤ 2,2 mmol/l, acidose, anémie sévère (Hb ≤ 5 g/dl), hyperlactatémie, hyperparasitémie et insuffisance rénale.\n\nSource : Pédiatrie Licence 2.pdf, « Paludisme grave – critères biologiques »",
+       "explanation": "L'hypoglycémie fait partie des critères biologiques de gravité du paludisme définis par l'OMS (avec l'acidose, l'anémie sévère, l'hyperparasitémie, l'insuffisance rénale…). L'hypocalcémie et l'hyperleucocytose n'en font pas partie.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Paludisme de l'enfant », Paludisme grave – Manifestations biologiques",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -825,7 +825,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "La diarrhée aiguë est l'émission d'au moins 3 selles molles ou liquides par 24 heures, évoluant depuis moins de 14 jours.\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Diarrhée aiguë – définition » ; Les 12 pratiques familiales essentielles (PFE)",
+       "explanation": "La diarrhée aiguë se définit par l'émission d'au moins 3 selles molles ou liquides par 24 heures depuis moins de 14 jours.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Définition ; Les 12 pratiques familiales essentielles (PFE), PFE n° 9",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -863,7 +863,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "Shigella donne une diarrhée dysentériforme (destruction des villosités) : selles glaireuses, avec du pus et du sang.\n\nSource : Pediatrie.pdf, « Au cours de la diarrhée » (diarrhées dysentériformes : shigellose…)",
+       "explanation": "Shigella agit par mécanisme invasif : il détruit l'entérocyte et donne des selles glairo-sanglantes (dysenterie).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Pathogénie – Mécanisme invasif",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -901,7 +901,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "Les causes de la diarrhée aiguë du nourrisson sont variées, mais dominées par le Rotavirus.\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, ED « Diarrhée aiguë et déshydratation – intérêt du cours »",
+       "explanation": "Les causes infectieuses de diarrhée aiguë sont dominées par les virus, et parmi eux par le rotavirus.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Etiologie – Causes infectieuses digestives",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -939,7 +939,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Les soins mère kangourou maintiennent la température, aident à l'allaitement et à la prise de poids, et renforcent le lien et la confiance de la mère. Ils allègent plutôt la charge du personnel (la mère devient la principale dispensatrice de soins).\n\nSource : Néonatalogie.pdf, « Méthode des soins mère kangourou – avantages »",
+       "explanation": "La méthode kangourou favorise l'équilibre thermique, la prise de poids et l'allaitement, et renforce la confiance de la mère. Elle n'augmente pas la charge de travail : la mère devient la principale dispensatrice de soins.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre XVII « La méthode des soins mère kangourou », Avantages des SMK",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -977,7 +977,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Composantes des SMK : contact peau à peau, allaitement exclusif au sein, suivi (sortie et suivi jusqu'à au moins 2500 g). « Aider bébé à respirer » relève de la réanimation néonatale.\n\nSource : Néonatalogie.pdf, « SMK – définition »",
+       "explanation": "La méthode kangourou repose sur le contact peau à peau, l'allaitement maternel exclusif et le suivi du bébé. « Aider bébé à respirer » relève de la réanimation, pas des composantes de la méthode.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre XVII « La méthode des soins mère kangourou », Définition",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1015,7 +1015,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Pour l'oxygène par masque ou lunettes, le cours indique un débit de 0,5 L/min chez le prématuré et 1 L/min chez le nouveau-né à terme, donc entre 0,5 et 1 L/min.\n\nSource : Néonatalogie.pdf, « Réanimation – oxygénothérapie »",
+       "explanation": "Si la saturation reste basse après la réanimation, on donne l'oxygène à 0,5 l/min chez le prématuré et 1 l/min chez le nouveau-né à terme, soit entre 0,5 et 1 l/min. Remarque : le cours du Dr Asse indique 1 à 2 l/min aux lunettes en milieu spécialisé ; la correction suit le module de néonatologie.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre III « Réanimation en salle de naissance », Ventilation en pression positive",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1053,7 +1053,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La bronchiolite (1 mois-2 ans) a pour étiologie à craindre le virus respiratoire syncytial (VRS).\n\nSource : Pédiatrie Licence 2.pdf, « Principales IRA basses – bronchiolite »",
+       "explanation": "La bronchiolite du nourrisson est une infection virale dont le principal germe est le virus respiratoire syncytial (VRS).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Infections respiratoires aiguës de l'enfant », Principales formes étiologiques des IRA basses – Bronchiolite",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1121,7 +1121,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux : le sérum anti-D est injecté à la mère RHÉSUS NÉGATIF qui accouche d'un enfant RHÉSUS POSITIF (dans les 48-72 h), pour éviter l'allo-immunisation.\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Soins du nouveau-né normal – soins délégués » ; Pédiatrie Licence 2.pdf, ictère ; Néonatalogie.pdf",
+       "explanation": "Le sérum anti-D est donné à la mère Rhésus NÉGATIF qui accouche d'un bébé Rhésus POSITIF, dans les 72 heures. Une mère Rhésus positif ne risque pas d'allo-immunisation anti-D : Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Ictère du nouveau-né », Rôles préventifs",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1151,7 +1151,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai : à 3 mois, l'enfant tient la tête dans l'axe.\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Étapes du DPM » ; Pediatrie.pdf",
+       "explanation": "À 3 mois, le nourrisson tient droit la tête dans l'axe.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Annexes, « Principales étapes du développement psychomoteur » (3 mois)",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1181,7 +1181,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai : à 9 mois, l'enfant marche à 4 pattes, a la pince pouce-index, a peur de l'étranger et fait « bravo » et « au revoir ».\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Étapes du DPM »",
+       "explanation": "Vers 9 mois, le nourrisson imite les gestes : il fait « bravo » et « au revoir », pointe du doigt et a la pince pouce-index. (explication partiellement hors cours du projet)\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Annexes, « Principales étapes du développement psychomoteur »",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1207,11 +1207,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. Faux",
+       "answer": "A. Vrai",
        "answerLetters": [
-        "B"
+        "A"
        ],
-       "explanation": "Faux : l'échographie du 1er trimestre (clarté nucale) évalue un RISQUE de trisomie, mais ne permet pas d'en être sûr. Seul le caryotype fœtal confirme le diagnostic.\n\nSource : (explication hors cours du projet)",
+       "explanation": "La correction nationale retient « Vrai » : l'échographie du 1er trimestre mesure la clarté nucale, qui sert au dépistage de la trisomie 21. (explication hors cours du projet) Remarque : la clarté nucale estime un risque ; le diagnostic de certitude de la trisomie nécessite un caryotype.",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1241,7 +1241,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux : le macrosome a un poids de naissance ≥ 4000 g.\n\nSource : Pédiatrie Licence 2.pdf, « Nouveau-né de mère diabétique – mensurations »",
+       "explanation": "Le nouveau-né normal pèse entre 2500 et 4000 g ; le macrosome a un poids supérieur à 4000 g. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Nouveau-né normal », Diagnostic positif ; « Nouveau-né de mère diabétique », Informations du dossier obstétrical",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1271,7 +1271,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai : la maladie des membranes hyalines est « la maladie du prématuré essentiellement » et sa première cause de détresse respiratoire.\n\nSource : Néonatalogie.pdf, « V.5.1 Maladie des membranes hyalines » ; Pédiatrie Licence 2.pdf",
+       "explanation": "La maladie des membranes hyalines est due à un déficit en surfactant lié à l'immaturité pulmonaire ; c'est la principale cause de détresse respiratoire du prématuré.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre VIII « Prématurité », Complications respiratoires – Maladie des membranes hyalines",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1301,7 +1301,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai : un nouveau-né avec signes de danger relève d'un transfert d'urgence vers l'hôpital de référence (néonatologie) après les premiers soins.\n\nSource : Livret de tableaux PCIMNE 0-5 ans (2021), bande rose ; Pediatrie.pdf, « Surveillance du prématuré »",
+       "explanation": "Le prématuré qui présente une détresse respiratoire ou un signe de danger est une urgence : il faut le référer immédiatement en milieu spécialisé (néonatologie).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Nouveau-né prématuré », Rôles de soins curatifs – 2e possibilité",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1331,7 +1331,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai : l'ictère touche 30 à 40 % des nouveau-nés à terme et 100 % des prématurés.\n\nSource : Pédiatrie Licence 2.pdf, « Ictère du nouveau-né – fréquence »",
+       "explanation": "L'ictère néonatal est fréquent : il touche tous les prématurés et une grande partie des nouveau-nés à terme (environ 30 à 40 % ; le chiffre n'est pas lisible dans le texte du cours). (explication partiellement hors cours du projet)\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Ictère du nouveau-né », Intérêt",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1357,15 +1357,14 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. Faux",
+       "answer": "A. Vrai",
        "answerLetters": [
-        "B"
+        "A"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient « Faux ».\n\nSource : Pédiatrie Licence 2.pdf, « Paludisme – rôles de soins IDE, hôpital de référence »",
+       "explanation": "L'artésunate injectable est le traitement de 1re intention du paludisme grave : 2,4 mg/kg à H0, H12, H24 puis toutes les 24 heures, jusqu'à 9 doses maximum (7 jours). Remarque : le cours parle d'un « maximum » de 9 doses ; le relais oral est possible dès que l'enfant peut avaler.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Paludisme de l'enfant », Rôle de soins curatifs – 3e situation",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-ped-j1-idesfm__37",
@@ -1392,7 +1391,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai : l'infection materno-fœtale est due principalement au streptocoque B, puis à E. coli et Listeria.\n\nSource : Néonatalogie.pdf, « Germes » ; Pédiatrie Licence 2.pdf",
+       "explanation": "Le streptocoque du groupe B est le principal germe de l'infection bactérienne précoce (materno-fœtale), devant E. coli.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Infections bactériennes du nouveau-né », Germes ; Module de néonatologie (Néonatalogie), Chapitre XII",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1422,7 +1421,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai : vers 9 mois, l'enfant a peur de l'étranger.\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Étapes du DPM »",
+       "explanation": "Vers 8-9 mois apparaît l'angoisse (la peur) de l'étranger : le nourrisson manifeste de la peur devant un visage non familier.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Anorexie du nourrisson », Pathogénie de l'anorexie ; Annexes – développement psychomoteur",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1452,7 +1451,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai : la déshydratation fait partie des principaux problèmes de la malnutrition (50 à 80 % de mortalité), avec l'hypoglycémie et l'infection.\n\nSource : Pédiatrie Licence 2.pdf, « Malnutrition – problèmes »",
+       "explanation": "Les principales complications de la malnutrition sévère sont l'hypoglycémie, la déshydratation (troubles digestifs) et les infections.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Malnutrition de l'enfant », Problèmes et devenir",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1482,7 +1481,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux : en première intention, on donne amoxicilline (ou ampicilline) + gentamicine (aminoside) en pré-transfert. Néonatalogie.pdf propose ampicilline + céfotaxime + gentamicine. La ceftriaxone n'est pas le premier choix.\n\nSource : Livret de tableaux PCIMNE 0-5 ans (2021), « Donner la dose d'antibiotiques pré-transfert » ; Néonatalogie.pdf",
+       "explanation": "Pour l'infection précoce, les germes (streptocoque B, E. coli) sont sensibles à l'amoxicilline : le traitement probabiliste associe amoxicilline (ou ampicilline) + aminoside. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Infections bactériennes du nouveau-né », Germes et Rôles curatifs ; Module de néonatologie (Néonatalogie), Chapitre XII, Traitement",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1508,11 +1507,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. Vrai",
+       "answer": "B. Faux",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "Vrai : les soins septiques de l'agent de santé font partie des facteurs favorisants de l'infection néonatale. Remarque : Le cours rattache surtout les « gestes septiques » à l'infection TARDIVE (post-natale) ; l'infection précoce passe par voie hématogène ou par voie basse.\n\nSource : Pédiatrie Licence 2.pdf, « Infection néonatale – facteurs favorisants (agent de santé) »",
+       "explanation": "L'infection précoce se contamine à partir de la mère (voie hématogène ou basse, réservoir vagino-urinaire). La contamination par les mains sales et les objets souillés par le personnel caractérise l'infection tardive. Faux. Remarque : le cours demande aussi de réaliser l'accouchement avec asepsie pour prévenir l'infection.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Infections bactériennes du nouveau-né », Mode de contamination",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1542,7 +1541,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux : la goutte épaisse et le frottis se font AU LABORATOIRE ; au lit du malade, on réalise le test de diagnostic rapide (TDR).\n\nSource : Pédiatrie Licence 2.pdf, « Paludisme – confirmation du diagnostic »",
+       "explanation": "Au centre de santé, le paludisme simple se confirme au lit du malade par le test de diagnostic rapide (TDR). La goutte épaisse et le frottis sont des examens de laboratoire, pas des tests réalisés au lit. Faux. (explication partiellement hors cours du projet)\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Paludisme de l'enfant », Examen para clinique",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1572,7 +1571,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux : le TRC normal est inférieur à 3 secondes ; au-delà, c'est un signe de gravité ou de mauvaise tolérance.\n\nSource : Pédiatrie Licence 2.pdf, « Fièvre – tolérance » ; Néonatalogie.pdf, « Signes de gravité »",
+       "explanation": "Le temps de recoloration cutanée normal est inférieur à 3 secondes ; un TRC > 3 secondes est pathologique. Faux.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre IV « Examen clinique du nouveau-né », Evaluation des constantes",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1602,7 +1601,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai : en cas de signes évidents (déshydratation modérée), l'enfant est agité et boit avec avidité. Il devient incapable de boire seulement en cas de déshydratation sévère.\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, tableau I « Signes de déshydratation »",
+       "explanation": "Dans la déshydratation modérée (signes évidents), l'enfant est assoiffé et boit avec avidité ; c'est dans la forme sévère qu'il boit à peine ou est incapable de boire.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Diagnostic de gravité (tableau)",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1628,15 +1627,14 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. Vrai",
+       "answer": "B. Faux",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ».\n\nSource : Cours de Pédiatrie 2 / pédiatrie cours.pdf, « Examiner le nouveau-né – coloration rose » ; Cours de Santé infantile L1 IDE-SFM, « Appréciation du nouveau-né »",
+       "explanation": "Le nouveau-né normal a une coloration rose. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Nouveau-né normal », Informations à rechercher à l'examen physique",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-ped-j1-idesfm__46",
@@ -1663,7 +1661,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux : le bilan prénatal recommandé comprend glycémie, NFS, groupe ABO/Rhésus, électrophorèse de l'hémoglobine, sérologies (toxoplasmose, rubéole, syphilis, VIH) et 3 échographies. L'urée et la créatinine n'y figurent pas.\n\nSource : Pédiatrie Licence 2.pdf, « Bilan prénatal » ; Cours de Pédiatrie 2 / pédiatrie cours.pdf",
+       "explanation": "Le bilan prénatal comprend groupe sanguin-rhésus, test d'Emmel ou électrophorèse de l'hémoglobine, VDRL/TPHA, glycémie, sérologie VIH (et ECBU, hépatite B, toxoplasmose, rubéole souhaités). L'urée et la créatinine n'en font pas partie. Faux.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre IV « Soins essentiels aux nouveau-nés », Soins maternels",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1693,7 +1691,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux : les enfants nourris au sein ont souvent des selles molles, ce qui n'est pas une diarrhée.\n\nSource : Les 12 pratiques familiales essentielles (PFE), « La diarrhée – attention » ; Cours de Pédiatrie 2 / pédiatrie cours.pdf",
+       "explanation": "Le nourrisson au sein émet normalement des selles molles fréquentes (jusqu'à 6 à 7 par jour) : ce sont de « fausses diarrhées ». 3 à 4 selles molles ne sont pas une diarrhée. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Diagnostic différentiel ; Les 12 pratiques familiales essentielles (PFE), PFE n° 9",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1723,7 +1721,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai : le plan A, à domicile (SRO après chaque selle, zinc, alimentation), traite la diarrhée sans signes de déshydratation.\n\nSource : Pediatrie.pdf, « Plan A »",
+       "explanation": "Le plan A (traitement à domicile) s'applique quand il n'y a pas de signes de déshydratation.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Réhydratation",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1753,7 +1751,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux : de 0 à 6 mois, le zinc se donne à ½ comprimé par jour (10 mg) ; 1 comprimé (20 mg) à partir de 6 mois, pendant 10 à 14 jours.\n\nSource : Pediatrie.pdf, « Plan A – 2e règle »",
+       "explanation": "Avant 6 mois, le zinc se donne à ½ comprimé de 20 mg, soit 10 mg par jour pendant 10 à 14 jours ; 20 mg/j (1 comprimé) est la dose à partir de 6 mois. Faux.\n\nSource : Livret de tableaux PCIMNE 0-5 ans, « Plan A », Donner du zinc",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1783,7 +1781,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai : en cas de signes évidents de déshydratation (plan B), on donne 75 ml/kg de SRO pendant les 4 premières heures au centre de santé, puis on réévalue.\n\nSource : Pediatrie.pdf, « Plan B » ; Livret de tableaux PCIMNE 0-5 ans (2021)",
+       "explanation": "Signes évidents de déshydratation : plan B, réhydratation par SRO au centre de santé pendant 4 heures, puis réévaluation.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Réhydratation – Plan B",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1813,7 +1811,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Vrai : pendant la diarrhée, l'intestin garde une bonne partie de sa capacité d'absorption. C'est la raison de la règle « continuer l'alimentation » des plans A et B.\n\nSource : Règle « continuer l'alimentation » : Pediatrie.pdf, Livret de tableaux PCIMNE 0-5 ans (2021) ; pourcentage : (explication hors cours du projet)",
+       "explanation": "Pendant la diarrhée aiguë, l'intestin garde 50 à 70 % de sa capacité d'absorption ; c'est pourquoi il faut continuer d'alimenter l'enfant pour éviter la malnutrition.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Pathogénie – Conséquences",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null
@@ -1843,11 +1841,10 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ». Un prématuré proche du terme (36 SA), stable et sans signes de danger, peut être suivi au centre de santé, par exemple en soins mère kangourou. Remarque : Néonatalogie.pdf demande de référer tout bébé de moins de 2000 g vers une structure avec SMK.\n\nSource : Néonatalogie.pdf, « Critères d'éligibilité aux SMK » ; Livret de tableaux PCIMNE 0-5 ans (2021)",
+       "explanation": "Le prématuré apparemment sain (sans détresse respiratoire, teint rose) est pris en charge au centre de santé de 1er contact sans référence : mensurations, soins, vitamine K1, mise au sein, BCG, quand revenir.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Nouveau-né prématuré », Rôles de soins curatifs – 1re situation",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-ped-j1-idesfm__53",
@@ -1874,7 +1871,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Faux : le diagnostic de l'avitaminose K repose sur le temps de Quick (TP-TCK) et le dosage des facteurs II, VII, IX, X. Le groupe ABO/Rhésus sert surtout en vue d'une transfusion, pas au diagnostic.\n\nSource : Pédiatrie Licence 2.pdf, « Maladie hémorragique – collaborer à la réalisation du bilan »",
+       "explanation": "L'examen clé pour confirmer la carence en vitamine K1 est le temps de Quick, qui est allongé. Le groupe sanguin sert à la transfusion, pas au diagnostic. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Maladie hémorragique du nouveau-né », Informations à rechercher au laboratoire CORRIGÉ EXPLIQUÉ — PRÉPA DE INFAS",
        "sourceDoc": "Préparation D.E (J) · J1 Pédiatrie IDE-SFM",
        "sourceFile": "J1_PEDIATRIE_IDE-SFM_corrige_explique.docx",
        "sourcePage": null

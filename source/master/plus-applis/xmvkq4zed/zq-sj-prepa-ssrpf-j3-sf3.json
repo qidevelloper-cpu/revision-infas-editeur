@@ -1871,7 +1871,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Avortement septique (et infection puerpérale) = catégorie 4 pour le DIU : la méthode ne doit pas être utilisée.\n\nSource : Document SSR L2 SF (cours SR/PF/gestion logistique, INFAS), chapitre « DIU » (critères de recevabilité)",
+       "explanation": "Selon les critères d'éligibilité médicale de l'OMS, l'insertion immédiate d'un DIU après un avortement septique est classée en catégorie 4 (contre-indication absolue — risque inacceptable pour la santé) en raison du danger d'aggravation de l'infection pelvienne et de septicémie.\n\nSource : Cours SSR-PF — Critères d'éligibilité médicale de l'OMS (DIU et soins après avortement).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J3 SSR/PF SF3)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null

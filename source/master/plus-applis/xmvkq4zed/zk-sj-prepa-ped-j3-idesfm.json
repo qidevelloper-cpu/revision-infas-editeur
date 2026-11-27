@@ -21,7 +21,7 @@
    "existe": true,
    "sujets": [
     {
-     "name": "J Pédiatrie · Prépa D.E J3 (IDE/SFM)",
+     "name": "J Pédiatrie · Prépa D.E J3 (IDE/SFM) · J3 et J10 identiques",
      "slug": "prepa-ped-j3-idesfm",
      "pages": "",
      "count": 55,
@@ -101,7 +101,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "L'échographie du 1er trimestre (11-13 SA) confirme la grossesse évolutive, la date, l'activité cardiaque et le nombre d'embryons, et mesure la clarté nucale (risque de trisomie 21). La recherche systématique des malformations est le but de l'échographie morphologique du 2e trimestre (vers 22 SA). (explication hors cours du projet) Remarque : Certaines grosses malformations peuvent déjà être vues au 1er trimestre, mais ce n'est pas l'objectif principal de cet examen.\n\nSource : Explication hors cours du projet (aucun chapitre sur l'échographie obstétricale dans les cours de pédiatrie)",
+       "explanation": "L'échographie du 1er trimestre confirme la grossesse, apprécie l'activité cardiaque de l'embryon et estime le risque de trisomie (clarté nucale). La recherche des malformations est l'objectif de l'échographie du 2e trimestre : c'est l'intrus. (explication hors cours du projet)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -139,7 +139,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Dans le kwashiorkor, l'enfant est hostile, pleurnichard et grognon ; il a une bouffissure du visage, des œdèmes, des ulcérations et desquamations (aspect de grand brûlé). Les cheveux sont altérés (secs, fins, cassants puis roux) mais l'alopécie fait partie des signes du marasme.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Malnutrition de l'enfant — Diagnostic positif (Kwashiorkor ; Formes cliniques : Marasme)",
+       "explanation": "Le kwashiorkor associe enfant grognon, bouffissure du visage et œdèmes, ulcérations/desquamations et cheveux secs, fins, cassants puis roux (décolorés). L'alopécie avec cheveux normaux non décolorés est un signe du marasme.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Malnutrition de l'enfant », Kwashiorkor et Marasme",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -177,11 +177,10 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Le lait est sécrété par les cellules glandulaires qui tapissent les alvéoles (acini) du sein : ce sont des cellules épithéliales sécrétoires (stimulées par la prolactine). Les cellules myoépithéliales entourent les alvéoles et se contractent sous l'effet de l'ocytocine : elles assurent l'éjection du lait, pas sa production. Remarque : Le terme « épithéliales » ne figure pas mot à mot dans les cours (ils parlent de cellules glandulaires des alvéoles) ; la précision sur les cellules myoépithéliales est hors cours.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Allaitement maternel — Physiologie de la lactation (Anatomie du sein ; Production du lait) ; Cours de santé infantile L1 IDE-SFM, Allaitement — Anatomie du sein",
+       "explanation": "Le lait est produit par les cellules épithéliales sécrétrices des alvéoles (acini) sous l'effet de la prolactine ; les cellules myoépithéliales se contractent sous l'effet de l'ocytocine pour éjecter le lait. (explication partiellement hors cours du projet)\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Allaitement maternel », Physiologie de la lactation",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-ped-j3-idesfm__4",
@@ -216,7 +215,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Avec la formule (4P + 7) / (P + 90), pour P = 12 kg : (48 + 7) / 102 ≈ 0,54 m², soit environ 0,5 m². Cela concorde avec les repères du cours : 0,2 m² à la naissance, 0,4 m² à 9 mois, 0,6 m² à 3 ans. Remarque : La formule de calcul est hors cours ; le cours donne seulement les repères 0,2 / 0,4 / 0,6 m².\n\nSource : Cours de santé infantile L1 IDE-SFM, Mensurations — Tableau récapitulatif des repères normaux de la croissance (colonne SC)",
+       "explanation": "Pour un enfant de 12 kg, la surface corporelle est d'environ 0,5 m² (formule (4 × P + 7) ÷ (P + 90) = 55 ÷ 102 ≈ 0,54 m²). (explication hors cours du projet)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -292,11 +291,10 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "Devant une fièvre aiguë mal tolérée, on demande la goutte épaisse/frottis, la NFS, la glycémie, la radiographie pulmonaire, l'analyse du LCR (signes neurologiques) et l'ECBU (signes urinaires), avec l'hémoculture si on suspecte une infection bactérienne. Le sérodiagnostic de Widal et Félix est réservé à la fièvre prolongée (recherche de fièvre typhoïde). Remarque : L'hémoculture n'est pas citée mot à mot dans la liste « fièvre mal tolérée » du cours.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Fièvre de l'enfant — Diagnostic étiologique (Prescription d'examens : fièvre mal tolérée / fièvre prolongée)",
+       "explanation": "En cas de fièvre aiguë mal tolérée, on demande goutte épaisse/frottis, NFS, glycémie, radiographie pulmonaire, analyse du LCR et ECBU (hémoculture selon le contexte). Le sérodiagnostic de Widal et Félix est réservé à la fièvre prolongée (fièvre typhoïde).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Fièvre de l'enfant », Prescription d'examens (fièvre mal tolérée / fièvre prolongée)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-ped-j3-idesfm__7",
@@ -331,11 +329,10 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Les signes de mauvaise tolérance de la fièvre sont : pâleur, cyanose péribuccale, cri plaintif, extrémités froides, marbrures, teint grisâtre, temps de recoloration cutanée allongé et altération de la conscience. Un visage rouge et chaud (faciès vultueux) traduit une fièvre bien tolérée. Remarque : « Faciès vultueux » n'est pas écrit mot à mot dans le cours ; il s'oppose aux signes de mauvaise tolérance cités.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Fièvre de l'enfant — Diagnostic étiologique (Examen physique : signes de mauvaise tolérance)",
+       "explanation": "L'enfant qui tolère sa fièvre a un faciès vultueux (rouge) et des téguments chauds, érythrosiques. Conscience altérée, marbrures et teint grisâtre sont des signes de mauvaise tolérance.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Fièvre de l'enfant », Examen physique – Signes de mauvaise tolérance",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-ped-j3-idesfm__8",
@@ -485,7 +482,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Les shigelles agissent par mécanisme invasif : elles détruisent l'entérocyte et donnent des selles glaireuses ou glairo-sanglantes (dysenterie). Le vibrion cholérique agit par mécanisme toxinique (selles liquides abondantes) et le rotavirus donne surtout des selles liquides. Remarque : Le cours cite aussi l'Escherichia coli entéro-invasif parmi les germes invasifs ; les shigelles restent le germe typique de la diarrhée glaireuse.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Diarrhée aiguë et déshydratation — Étiopathogénie (Étiologie ; Pathogénie : mécanisme invasif)",
+       "explanation": "Une diarrhée glaireuse (glairo-sanglante) chez un enfant de 3 ans évoque une dysenterie à Shigella (mécanisme invasif). E. coli et le vibrion donnent surtout des diarrhées liquides ; le rotavirus touche surtout le nourrisson.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Etiologie et Pathogénie",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -523,7 +520,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Des signes évidents de déshydratation relèvent du plan B : 75 ml/kg de SRO en 4 heures au centre de santé. Pour 8 kg : 8 × 75 = 600 ml.\n\nSource : Livret de tableaux PCIMNE 0-5 ans, Plan B : traiter les signes évidents de déshydratation ; L'essentiel en pédiatrie tropicale (Dr Asse), Diarrhée aiguë et déshydratation — Rôles curatifs (Plan B)",
+       "explanation": "Signes évidents de déshydratation : plan B, 75 ml/kg de SRO en 4 heures. 75 × 8 kg = 600 ml.\n\nSource : Livret de tableaux PCIMNE 0-5 ans, « Plan B » (poids × 75)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -561,7 +558,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "La diarrhée aiguë dure depuis moins de 14 jours ; au-delà de 14 jours, on parle de diarrhée persistante.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Diarrhée aiguë et déshydratation — Introduction (Définition et limite du thème)",
+       "explanation": "La diarrhée aiguë est l'émission d'au moins 3 selles liquides par 24 heures depuis moins de 14 jours.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Définition",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -599,7 +596,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Pas de déshydratation : plan A ; signes évidents : plan B ; signes sévères : plan C (réhydratation par voie veineuse au Ringer lactate, à l'hôpital).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Diarrhée aiguë et déshydratation — Diagnostic de gravité (Tableau n°1 : classification)",
+       "explanation": "Pas de signes : plan A ; signes évidents : plan B ; signes sévères : plan C (perfusion de Ringer lactate à l'hôpital). Il n'existe pas de plan D.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Diagnostic de gravité (tableau)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -637,7 +634,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "À 4 ans, l'enfant s'habille seul sauf les lacets des chaussures et commence à raconter des histoires. À 3 ans, il a encore besoin d'aide pour les boutons ; il lace ses chaussures à partir de 6 ans.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Annexes — Normes physiologiques de l'enfant (Tableau II : principales étapes du développement psychomoteur)",
+       "explanation": "Vers 4 ans, l'enfant s'habille seul sauf les lacets de ses chaussures, connaît l'usage des objets familiers et raconte de petites histoires ; il lace ses chaussures vers 5-6 ans.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Annexes, « Principales étapes du développement psychomoteur » (4 ans)",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -675,7 +672,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Au début du marasme, la croissance stagne et l'enfant est affamé, il porte ses doigts à la bouche, crie ou pleure sans cesse. La fonte graisseuse et musculaire, le retard pondéral < 60 % du poids idéal et l'alopécie sont des signes de la phase d'état.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Malnutrition de l'enfant — Formes cliniques (Marasme : signes cliniques)",
+       "explanation": "Au début du marasme, la croissance stagne, l'enfant est affamé, porte ses doigts à la bouche et pleure sans cesse. La fonte graisseuse, le retard pondéral < 60 % et l'alopécie apparaissent à la phase d'état.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Malnutrition de l'enfant », Formes cliniques – Marasme",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -713,7 +710,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "Pincer le mamelon pour faire crier le bébé est un geste de brutalité à proscrire : il favorise l'inhalation du liquide amniotique et le stress peut provoquer un ulcère avec hémorragie digestive. Essuyer, vérifier la respiration et mettre un bonnet (contrôle de la température) font partie de la bonne pratique.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Réanimation du nouveau-né en salle de naissance — Gestes dangereux à proscrire",
+       "explanation": "Essuyer, vérifier la respiration et mettre un bonnet sont de bonnes pratiques (contrôle de la température et de la respiration). Pincer le mamelon est un geste brutal à proscrire.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Réanimation du nouveau-né en salle de naissance », Gestes dangereux à proscrire",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -751,7 +748,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Après une forme neurologique, environ 10 % des enfants guéris gardent des séquelles : surdité (ou hypoacousie), aphasie, paralysie, troubles du tonus, difficultés scolaires. La myosite (atteinte du muscle) n'est pas une séquelle neurologique du paludisme.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Paludisme de l'enfant — Problèmes et devenir (Devenir)",
+       "explanation": "Les séquelles du paludisme grave neurologique sont la surdité, l'aphasie, la paralysie, les troubles du tonus et les difficultés scolaires. La myosite n'en fait pas partie.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Paludisme de l'enfant », Problèmes et devenir",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -789,7 +786,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "Parmi les espèces de Plasmodium, seul Plasmodium falciparum est responsable des formes graves ; il représente près de 98 % des cas en Côte d'Ivoire.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Paludisme de l'enfant — Introduction (Définition)",
+       "explanation": "Seul Plasmodium falciparum est responsable des formes graves de paludisme.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Paludisme de l'enfant », Définition",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -944,7 +941,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Laver les fosses nasales au sérum physiologique (désobstruction rhinopharyngée, DRP) est un geste que l'agent de santé fait et enseigne à la mère sans prescription : c'est un rôle propre. Administrer un antipyrétique est un soin délégué ; accompagner en ORL relève de la collaboration. Remarque : Les conseils d'hygiène relèvent aussi du rôle propre (rôle préventif) ; la question n'accepte qu'une seule réponse.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Rhinopharyngite de l'enfant — Rôles curatifs ; Introduction au raisonnement clinique — Plan de soins (Interventions)",
+       "explanation": "Montrer à la mère la désobstruction rhinopharyngée (lavage du nez au sérum physiologique) est un soin propre de l'agent de santé. Administrer un antipyrétique prescrit est un soin délégué ; accompagner en ORL relève de la collaboration.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Rhinopharyngite de l'enfant », Rôles curatifs ; « Plan de soins », Interventions",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1059,7 +1056,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Plan A : jusqu'à 2 ans, 50 à 100 ml de SRO après chaque selle liquide (½ à 1 louche) ; à partir de 2 ans, 100 à 200 ml.\n\nSource : Livret de tableaux PCIMNE 0-5 ans, Plan A : traiter la diarrhée à domicile (Montrer à la mère quelle quantité de liquide donner)",
+       "explanation": "Plan A : jusqu'à 2 ans, donner 50 à 100 ml de SRO après chaque selle liquide (100 à 200 ml à partir de 2 ans).\n\nSource : Livret de tableaux PCIMNE 0-5 ans, « Plan A : traiter la diarrhée à domicile »",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1097,7 +1094,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Le Vogalène (métopimazine) est un antiémétique : c'est un médicament, donc un soin délégué sur prescription. Nettoyer, aider à alimenter et surveiller l'enfant sont des soins propres.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Vomissements de l'enfant — Rôles de soins (Rôles curatifs : antiémétisants)",
+       "explanation": "Nettoyer, aider à alimenter et surveiller l'enfant sont des soins propres. Administrer du Vogalène (antiémétique sur prescription) est un soin délégué : c'est l'intrus.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Vomissements de l'enfant », Rôles curatifs ; « Plan de soins », Interventions",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1166,7 +1163,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le voyageur non immun qui arrive dans une zone de forte endémicité fait partie des facteurs favorisants du paludisme : il n'a pas de prémunition.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Paludisme de l'enfant — Étiopathogénie (Facteurs favorisants)",
+       "explanation": "L'enfant expatrié non immun arrivant en zone d'endémie n'a pas de prémunition : il est à risque de paludisme (et de forme grave).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Paludisme de l'enfant », Facteurs favorisants",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1196,7 +1193,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La zone de conduction (nez, trachée, bronches) amène l'air jusqu'aux alvéoles. Si elle est encombrée, moins d'air arrive aux alvéoles : la ventilation alvéolaire baisse et les échanges gazeux sont perturbés (hypoxie). (explication hors cours du projet) Remarque : Les échanges gazeux eux-mêmes se font dans la zone respiratoire (alvéoles) ; ils sont perturbés de façon indirecte.\n\nSource : Explication hors cours du projet",
+       "explanation": "Un encombrement des voies aériennes empêche l'air d'atteindre les alvéoles : il retentit sur les échanges gazeux. Le glossaire précise que la perturbation des échanges gazeux peut découler d'un dégagement inefficace des voies respiratoires.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Glossaire du diagnostic infirmier, « Perturbation des échanges gazeux »",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1226,7 +1223,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le paracétamol se donne à 60 mg/kg/j en 4 prises, soit 15 mg/kg toutes les 6 heures.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Fièvre de l'enfant — Rôles curatifs (Normalisation de la température : moyens médicamenteux)",
+       "explanation": "Paracétamol : 60 mg/kg/jour répartis en 4 prises, soit 15 mg/kg toutes les 6 heures.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Fièvre de l'enfant », Moyens médicamenteux",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1256,7 +1253,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L'anorexie du nourrisson est un trouble du comportement (refus de s'alimenter) d'origine relationnelle ; le diagnostic n'est retenu qu'après avoir éliminé toutes les causes organiques et les erreurs diététiques.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Anorexie du nourrisson — Introduction (Définition)",
+       "explanation": "L'anorexie du nourrisson est un trouble du comportement alimentaire retenu seulement après avoir éliminé les causes organiques ; elle est liée à un conflit mère-enfant. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Anorexie du nourrisson », Définition",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1286,7 +1283,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Parmi les facteurs favorisants de l'anémie liés à l'environnement, le cours cite l'alimentation par les substituts du lait maternel et les erreurs diététiques de la diversification et du sevrage. Le lait maternel contient du fer mieux absorbé. Remarque : Le texte du cours est partiellement illisible à cet endroit (OCR).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Anémie aiguë de l'enfant — Étiopathogénie (Facteurs favorisants liés à l'environnement)",
+       "explanation": "Les erreurs diététiques (mauvaise conduite de la diversification et du sevrage) et les substituts du lait maternel favorisent l'anémie de l'enfant.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Anémie aiguë de l'enfant », Facteurs favorisants liés à l'environnement",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1346,7 +1343,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le nourrisson nourri au sein émet normalement plusieurs selles molles par jour (jusqu'à 6 à 7) : ce sont de fausses diarrhées à ne pas confondre avec une diarrhée aiguë.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Diarrhée aiguë et déshydratation — Diagnostic différentiel",
+       "explanation": "Même question que la n° 36 : 3 à 4 selles par jour chez un nourrisson allaité ne sont pas une diarrhée. Faux. Remarque : cette question est la même que la question 36 du sujet ; la réponse est identique (Faux).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Diagnostic différentiel",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1376,7 +1373,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Fièvre aiguë : moins d'une semaine ; fièvre prolongée : plus d'une semaine et moins d'un mois ; au-delà d'un mois : fièvre au long cours ou chronique.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Fièvre de l'enfant — Introduction (Définition)",
+       "explanation": "Une fièvre qui dure plus d'une semaine et moins d'un mois est une fièvre prolongée ; au-delà d'un mois, elle est chronique.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Fièvre de l'enfant », Définition",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1406,7 +1403,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "La 7e règle de l'IHAB est de laisser l'enfant avec sa mère 24 heures sur 24 (cohabitation), et non 10 heures par jour.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Allaitement maternel — Politique de l'allaitement (Dix règles de l'IHAB)",
+       "explanation": "La 7e règle de l'IHAB est de laisser l'enfant avec sa mère 24 heures sur 24, pas 10 heures par jour. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Allaitement maternel », Dix règles de l'Initiative Hôpitaux Amis des Bébés",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1436,7 +1433,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le bilan prénatal recommandé comprend le groupe sanguin rhésus, le test d'Emmel et l'électrophorèse de l'hémoglobine (dépistage de la drépanocytose), le VDRL/TPHA, la glycémie et la sérologie VIH.\n\nSource : Néonatologie (module de formation), Soins essentiels aux nouveau-nés — Soins maternels (Pendant la grossesse) ; Cours de santé infantile L1 IDE-SFM, Carnet de santé mère-enfant — Antécédents de la mère",
+       "explanation": "L'électrophorèse de l'hémoglobine (ou test d'Emmel) fait partie des examens recommandés du bilan prénatal.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre IV « Soins essentiels aux nouveau-nés », Soins maternels",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1466,7 +1463,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Même réponse qu'à la question précédente identique : chez le nourrisson au sein, plusieurs selles molles par jour sont normales (fausse diarrhée). Remarque : Cette question figure deux fois dans le sujet.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Diarrhée aiguë et déshydratation — Diagnostic différentiel",
+       "explanation": "Même question que la n° 36 : 3 à 4 selles par jour chez un nourrisson allaité ne sont pas une diarrhée. Faux. Remarque : cette question est la même que la question 36 du sujet ; la réponse est identique (Faux).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Diagnostic différentiel",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1496,7 +1493,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Ce sont les critères d'une bonne prise du sein (bouche grande ouverte, menton contre le sein, lèvre inférieure éversée, aréole plus visible en haut). Les critères de bon positionnement sont différents : dos du bébé sur l'avant-bras de la mère, nuque sur le pli du coude, ventre contre ventre, bouche face au mamelon.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Allaitement maternel — Aide et conseils à l'allaitement (Aide à l'allaitement)",
+       "explanation": "La lèvre inférieure éversée et l'aréole peu visible en haut sont des critères d'une bonne PRISE du sein, pas du positionnement. Le positionnement concerne le dos sur l'avant-bras, la nuque dans le pli du coude, le ventre contre celui de la mère. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Allaitement maternel », Aide à l'allaitement",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1526,7 +1523,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le surfactant est une substance lipido-protidique produite par les pneumocytes de type II (et non I), à partir de 22 SA, en quantité suffisante vers 36 SA. Son déficit cause la maladie des membranes hyalines.\n\nSource : Néonatologie (module de formation), Adaptation à la vie extra-utérine — Adaptation respiratoire (Sécrétion du surfactant)",
+       "explanation": "Le surfactant est sécrété par les pneumocytes de type II (et non de type I). Faux.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre II « Adaptation à la vie extra-utérine », Sécrétion du surfactant",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1556,7 +1553,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L'entérocolite ulcéro-nécrosante fait partie des complications digestives de la prématurité ; elle est favorisée par le faible âge gestationnel et le retard de croissance intra-utérin.\n\nSource : Néonatologie (module de formation), Prématurité — Complications immédiates (Complications digestives : ECUN)",
+       "explanation": "L'entérocolite ulcéro-nécrosante est une complication digestive de la prématurité (facteur de risque : faible âge gestationnel).\n\nSource : Module de néonatologie (Néonatalogie), Chapitre VIII « Prématurité », Complications digestives",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1586,7 +1583,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le cours cite parmi les facteurs de déclin de l'allaitement : la promotion des laits infantiles, l'activité professionnelle, le manque de soutien psychologique de la mère allaitante, les préoccupations esthétiques et le retard de la montée laiteuse.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Allaitement maternel — Politique de l'allaitement (Facteurs de déclin)",
+       "explanation": "Le manque de soutien psychologique de la mère allaitante est cité parmi les facteurs de déclin de l'allaitement.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Allaitement maternel », Politique de l'allaitement – Facteurs de déclin",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1616,7 +1613,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Les moyens physiques (dévêtir l'enfant, le faire boire, l'envelopper partiellement dans un linge mouillé, bain tiède) sont mis en œuvre par l'agent de santé sans prescription : ce sont des soins propres.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Fièvre de l'enfant — Rôles curatifs (Normalisation de la température : moyens physiques)",
+       "explanation": "L'enveloppement partiel avec un linge mouillé est un moyen physique de lutte contre la fièvre que l'agent de santé (et la mère) applique sans prescription : c'est un soin propre.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Fièvre de l'enfant », Moyens physiques ; Les 12 pratiques familiales essentielles (PFE), PFE n° 9",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1646,7 +1643,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L'état de mal convulsif est une crise qui dure plus de 30 minutes ou une succession de crises pendant plus de 30 minutes sans reprise de conscience entre les crises.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Convulsions de l'enfant — Introduction (Définition et limite du thème)",
+       "explanation": "L'état de mal convulsif est une crise de plus de 30 minutes ou une succession de crises pendant plus de 30 minutes sans reprise de conscience entre les crises.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Convulsions de l'enfant », Définition",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1706,7 +1703,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Il s'agit d'un paludisme simple sans signe de danger : le traitement est une combinaison à base d'artémisinine par voie orale (artésunate + amodiaquine). L'artéméther ou l'artésunate injectables sont réservés au paludisme grave. Remarque : Deux vomissements ne correspondent pas au signe de danger « vomit tout ».\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Paludisme de l'enfant — Rôles du soignant (Rôle de soins curatifs : 1re et 3e situations)",
+       "explanation": "Fièvre et 2 vomissements sans signe de danger (il ne vomit pas tout) : paludisme simple, traité par voie orale (artésunate + amodiaquine). L'artéméther injectable est réservé au paludisme grave. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Paludisme de l'enfant », Rôle de soins curatifs – 1re situation",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1736,7 +1733,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Parmi les facteurs favorisants liés à l'environnement, le cours cite les conflits entre le père et la mère ; les vomissements psychogènes figurent parmi les causes de vomissements habituels.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Vomissements de l'enfant — Facteurs favorisants liés à l'environnement ; Diagnostic (Tableau n° II : causes des vomissements habituels)",
+       "explanation": "Le conflit entre les parents, le stress et le manque d'affection favorisent les vomissements, notamment psychogènes.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Vomissements de l'enfant », Facteurs favorisants liés à l'environnement",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1766,7 +1763,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Un temps de recoloration cutanée allongé (supérieur à 3 secondes) est un signe de mauvaise tolérance de la fièvre (mauvaise perfusion).\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Fièvre de l'enfant — Diagnostic étiologique (Examen physique : signes de mauvaise tolérance)",
+       "explanation": "Un temps de recoloration cutanée allongé (> 3 secondes) est un signe de MAUVAISE tolérance de la fièvre. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Fièvre de l'enfant », Signes de mauvaise tolérance",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1796,7 +1793,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Une peau chaude et rouge traduit une bonne vasodilatation périphérique : la fièvre est bien tolérée. À l'inverse, pâleur, marbrures, extrémités froides et teint grisâtre sont des signes de mauvaise tolérance. Remarque : Les signes de bonne tolérance ne sont pas listés mot à mot dans le cours ; ils s'opposent aux signes de mauvaise tolérance.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Fièvre de l'enfant — Diagnostic étiologique (Examen physique : signes de mauvaise tolérance)",
+       "explanation": "Des téguments chauds et érythrosiques (faciès vultueux) témoignent d'une bonne tolérance de la fièvre, contrairement à la pâleur, aux marbrures ou au teint grisâtre.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Fièvre de l'enfant », Examen physique",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1888,7 +1885,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Les méningites purulentes sont dues dans plus des deux tiers des cas au pneumocoque, à Haemophilus influenzae type b et au méningocoque.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Méningites bactériennes de l'enfant — Épidémiologie (Germes et résistance)",
+       "explanation": "Les trois principaux germes des méningites purulentes sont le pneumocoque, Haemophilus influenzae type b et le méningocoque.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Méningites bactériennes de l'enfant », Germes",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1918,7 +1915,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le tubage gastrique à la recherche du BK (tuberculose) fait partie des examens de la fièvre prolongée ou chronique, pas de la fièvre aiguë.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), Fièvre de l'enfant — Diagnostic étiologique (Prescription d'examens : fièvre prolongée ou chronique) J4 Médecine · Chirurgie · Santé publique · Pédiatrie — 211 questions",
+       "explanation": "Le tubage gastrique à la recherche du BK fait partie du bilan d'une fièvre PROLONGÉE ou chronique (primo-infection tuberculeuse), pas d'une fièvre aiguë. Faux.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Fièvre de l'enfant », Prescription d'examens – Fièvre prolongée ou chronique",
        "sourceDoc": "Révision J1 à J4 IDE/SFM — corrigé expliqué (J3 Pédiatrie)",
        "sourceFile": "REVISION_J1_a_J4_IDE_SFM_Corrige_explique.docx",
        "sourcePage": null

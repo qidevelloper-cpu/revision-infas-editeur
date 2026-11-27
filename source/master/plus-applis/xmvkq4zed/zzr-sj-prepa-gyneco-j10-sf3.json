@@ -1,0 +1,1561 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzr-sj-prepa-gyneco-j10-sf3",
+ "titre": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 38,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+   "sha256": "c1e8c2d8402d3b954a7c6fc159ceb6b02b83cb88c53adce6ddd9268aa4b95034"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+     "slug": "prepa-gyneco-j10-sf3",
+     "pages": "",
+     "count": 38,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Gynéco-obstétrique",
+     "source": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au cours de l'accouchement de siège, il ne faut pas toucher au fœtus tant que les pointes des omoplates ne sont pas apparues",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Lors de l'expulsion en présentation du siège, l'abstention de toute traction intempestive (ne pas toucher au fœtus jusqu'à l'apparition des pointes des omoplates à la vulve) est indispensable pour prévenir le relèvement des bras et la déflexion de la tête dernière au détroit supérieur.\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU L3 — Accouchement en présentation du siège.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La cause infectieuse la plus fréquente de stérilité chez la femme est l'endométrite",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La première cause infectieuse d'infertilité féminine est la salpingite (infection génitale haute atteignant les trompes de Fallope, notamment à Chlamydia trachomatis et gonocoque), responsable d'obturation tubaire et d'adhérences pelviennes, et non l'endométrite.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 44 & 45 : Salpingites aiguës et infertilité conjugale.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'hystérosalpingographie et l'hystéroscopie sont 2 examens complémentaires qui sont interdits en cas de suspicion de salpingite.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Selon le cours sur les explorations fonctionnelles en gynécologie (p. 186) et les salpingites aiguës (chap. 44), toute manœuvre endo-utérine et tout examen opacifiant ou endoscopique de la cavité utérine (hystérosalpingographie, hystéroscopie) sont formellement contre-indiqués en cas d'infection génitale haute suspectée ou évolutive en raison du risque de flambée infectieuse et de pelvipéritonite.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 44 & 46 : Contre-indications de l'hystérosalpingographie (p. 186).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'excès de toilette intime est un facteur favorisant des leucorrhées pathologiques.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les toilettes intimes excessives ou irritantes (douches vaginales, antiseptiques répétés) détruisent la flore vaginale physiologique protectrice (bacilles de Döderlein) et déséquilibrent le pH acide du vagin, favorisant le développement des mycoses (Candida albicans) et vaginoses responsables de leucorrhées pathologiques.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 43 : Les infections génitales basses.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans le post-partum, le sérum anti-D dans l'iso-immunisation rhésus se fait impérativement dans les 48 heures après l'accouchement",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Chez une accouchée Rhésus négatif non immunisée donnant naissance à un nouveau-né Rhésus positif, l'injection d'immunoglobulines anti-D (sérum anti-D) doit être administrée dans les 72 heures suivant l'accouchement (et non impérativement dans les 48 heures).\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 4 : Allo-immunisation dans le système Rhésus au cours de la grossesse.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les cloisons vaginales longitudinales gênent l'évolution de la grossesse et l'accouchement",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Contrairement aux cloisons vaginales transversales (diaphragmes vaginaux) qui constituent un obstacle prævia à l'expulsion, les cloisons vaginales longitudinales sont souples, n'entravent pas le déroulement de la grossesse et sont généralement refoulées latéralement ou sectionnées sans difficulté lors de l'accouchement par voie basse.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 38 : Les malformations génitales féminines (p. 142).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au cours de la grossesse, ce sont les gestantes ayant une sérologie de la toxoplasmose positive qui font l'objet d'une surveillance particulière",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Ce sont au contraire les gestantes séronégatives (sérologie négative, donc non immunisées) qui font l'objet d'une surveillance sérologique mensuelle obligatoire jusqu'à l'accouchement et de mesures hygiénodiététiques de prévention afin de dépister une séroconversion per-gravidique.\n\nSource : Cours de Gynéco-Obstétrique L3 / Soins obstétricaux L2 — Chap. 5 : Sérologie toxoplasmose et grossesse (p. 11).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le dépistage du diabète gestationnel se fait chez les gestantes ayant un antécédent de gros fœtus et de malformation fœtale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le dépistage ciblé du diabète gestationnel (HGPO à 75 g de glucose entre 24 et 28 SA) est indiqué chez les gestantes présentant des facteurs de risque obstétricaux ou personnels, notamment un antécédent de macrosomie fœtale (gros fœtus ≥ 4 000 g), de malformation congénitale, de mort fœtale in utero inexpliquée, d'obésité ou d'antécédents familiaux de diabète.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 9 : Diabète et grossesse.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la lymphangite du sein, l'allaitement doit être interrompu.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La lymphangite aiguë du sein est une inflammation superficielle sans infection du lait maternel (signe de Budin négatif) ; il ne faut pas interrompre l'allaitement mais au contraire poursuivre les tétées fréquentes pour assurer un bon drainage mammaire et éviter l'évolution vers l'abcès du sein.\n\nSource : Cours SONU L3 / Gynéco-Obstétrique L3 — Affections mammaires des suites de couches (p. 101).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les risques de malformations chez l'embryon et le fœtus surviennent uniquement en cas de primo-infection de la rubéole au cours de la grossesse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Bien que le risque malformatif (rubéole congénitale : atteintes oculaires, auditives, cardiaques) soit majeur lors d'une primo-infection maternelle au 1er trimestre, des cas exceptionnels de transmission fœtale et d'atteintes malformatives ont également été décrits lors d'une réinfection rubéoleuse précoce en début de grossesse.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 5 : Rubéole et grossesse.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__10",
+       "num": "11",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle ou lesquelles des assertions concernant la rubéole au cours de la grossesse est ou sont juste(s) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Elle peut se compliquer d'avortements spontanés"
+        },
+        {
+         "letter": "B",
+         "text": "L'une de ses mesures prophylactiques est la vaccination des fillettes en âge scolaire immunisées."
+        },
+        {
+         "letter": "C",
+         "text": "Les risques surviennent uniquement en cas de primo-infection de la rubéole au cours de la grossesse."
+        },
+        {
+         "letter": "D",
+         "text": "Les anticorps M apparaissent en cas de réinfection."
+        },
+        {
+         "letter": "E",
+         "text": "Il faut nécessairement réaliser la sérologie au cours du 1er trimestre de grossesse."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Elle peut se compliquer d'avortements spontanés ; E. Il faut nécessairement réaliser la sérologie au cours du 1er trimestre de grossesse.",
+       "answerLetters": [
+        "A",
+        "E"
+       ],
+       "explanation": "La rubéole contractée en début de grossesse peut entraîner des avortements spontanés, des malformations congénitales ou une mort fœtale, et le dépistage sérologique fait partie des examens obligatoires du 1er trimestre. La vaccination concerne les jeunes filles non immunisées, et les IgM sont spécifiques d'une primo-infection (absentes lors d'une réinfection).\n\nSource : Cours de Gynéco-Obstétrique L3 / Soins obstétricaux L2 — Sérologies prénatales : rubéole (p. 11).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__11",
+       "num": "12",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle ou lesquelles des assertions concernant la présentation de siège est ou sont juste(s) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La prématurité est une étiologie"
+        },
+        {
+         "letter": "B",
+         "text": "Le repère de la présentation du siège est le coccyx du fœtus"
+        },
+        {
+         "letter": "C",
+         "text": "En cas de siège complet le segment inférieur est bien formé et épais"
+        },
+        {
+         "letter": "D",
+         "text": "À dilatation complète du col mettre en place une perfusion d'ocytocine 5 UI dans 500 ml de sérum glucosé isotonique"
+        },
+        {
+         "letter": "E",
+         "text": "Le foyer maximal des bruits du cœur fœtal est entendu au-dessous et en dehors de l'ombilic."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. La prématurité est une étiologie ; B. Le repère de la présentation du siège est le coccyx du fœtus ; D. À dilatation complète du col mettre en place une perfusion d'ocytocine 5 UI dans 500 ml de sérum glucosé isotonique",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "La prématurité (absence de culbute physiologique du 7e mois) est une étiologie classique du siège, son repère anatomique est le sacrum/coccyx du fœtus, et à dilatation complète une perfusion d'ocytocine (5 UI dans 500 ml de SGI) est recommandée pour soutenir les contractions lors de l'expulsion. Le foyer des BDCF s'entend au-dessus de l'ombilic et le segment inférieur est mal amplié dans le siège complet.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 22 & 23 : Présentation et accouchement du siège.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__12",
+       "num": "13",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les indications de l'amnioscopie sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La prééclampsie"
+        },
+        {
+         "letter": "B",
+         "text": "Le diagnostic de fissuration des membranes"
+        },
+        {
+         "letter": "C",
+         "text": "Les leucorrhées pathologiques"
+        },
+        {
+         "letter": "D",
+         "text": "Le dépassement de terme"
+        },
+        {
+         "letter": "E",
+         "text": "Les Métrorragies"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. La prééclampsie ; D. Le dépassement de terme",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "L'amnioscopie (observation endoscopique transcervicale de la couleur et de l'abondance du liquide amniotique à travers les membranes intactes en fin de grossesse) est indiquée dans la surveillance des grossesses à haut risque fœtal telles que le dépassement de terme et la pré-éclampsie (ou le diabète/RCIU) pour dépister une souffrance fœtale (liquide teinté ou méconial). Les métrorragies, la rupture des membranes et les infections vaginales en sont des contre-indications.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 46 : Les explorations fonctionnelles en gynécologie-obstétrique.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__13",
+       "num": "14",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les complications des hépatites virales sur la grossesse et sur l'accouchement sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le coma"
+        },
+        {
+         "letter": "B",
+         "text": "L'hémorragie de la délivrance"
+        },
+        {
+         "letter": "C",
+         "text": "Les hépatites virales congénitales"
+        },
+        {
+         "letter": "D",
+         "text": "Les troubles respiratoires"
+        },
+        {
+         "letter": "E",
+         "text": "L'accouchement prématuré"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. L'hémorragie de la délivrance ; C. Les hépatites virales congénitales ; E. L'accouchement prématuré",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "Au cours de la grossesse, les hépatites virales exposent à un risque accru d'accouchement prématuré (lié à la fièvre et à l'atteinte hépatique), d'hémorragie de la délivrance (due à l'insuffisance hépatocellulaire avec baisse des facteurs de coagulation et du TP) et de transmission mère-enfant (hépatites virales congénitales/néonatales).\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 6 : Infections virales (hépatites) et grossesse.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__14",
+       "num": "15",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ou les causes fréquente(s) d'anémie au cours de la grossesse est ou sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La grossesse molaire"
+        },
+        {
+         "letter": "B",
+         "text": "La menace d'accouchement prématuré"
+        },
+        {
+         "letter": "C",
+         "text": "Le placenta prævia"
+        },
+        {
+         "letter": "D",
+         "text": "Le paludisme"
+        },
+        {
+         "letter": "E",
+         "text": "La toxoplasmose"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Le paludisme",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "En zone d'endémie tropicale, à côté de la carence martiale et folique, le paludisme (par hémolyse parasitaire des hématies et hypersplénisme) constitue l'une des causes les plus fréquentes d'anémie gravidique sévère.\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU L3 — Anémie et paludisme au cours de la grossesse (p. 2 & 27).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__15",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle ou lesquelles de ces assertions concernant les salpingites aiguës est ou sont juste(s)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Elles se manifestent par une fièvre"
+        },
+        {
+         "letter": "B",
+         "text": "Les manœuvres endo-utérines en sont un facteur de risque"
+        },
+        {
+         "letter": "C",
+         "text": "Elles surviennent en majorité chez les patientes de plus de 25 ans"
+        },
+        {
+         "letter": "D",
+         "text": "Elles se manifestent par des Leucorrhées louches purulentes"
+        },
+        {
+         "letter": "E",
+         "text": "Le traitement repose sur une monoantibiothérapie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Elles se manifestent par une fièvre ; B. Les manœuvres endo-utérines en sont un facteur de risque ; D. Elles se manifestent par des Leucorrhées louches purulentes",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "Les salpingites aiguës associent une douleur pelvienne, de la fièvre (38-39 °C) et des leucorrhées louches ou purulentes ; elles sont favorisées par les IST (touchant surtout les femmes jeunes de moins de 25 ans) et les manœuvres endo-utérines (pose de DIU, curetage, HSG). Leur traitement repose sur une poly-antibiothérapie à large spectre et non une monothérapie.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 44 : Les infections génitales hautes (salpingites aiguës).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les complications des traumatismes au cours de la grossesse sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le placenta prævia"
+        },
+        {
+         "letter": "B",
+         "text": "L'hématome rétroplacentaire"
+        },
+        {
+         "letter": "C",
+         "text": "La rupture prématurée des membranes"
+        },
+        {
+         "letter": "D",
+         "text": "La rupture utérine"
+        },
+        {
+         "letter": "E",
+         "text": "L'accouchement prématuré"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. L'hématome rétroplacentaire ; C. La rupture prématurée des membranes ; D. La rupture utérine ; E. L'accouchement prématuré",
+       "answerLetters": [
+        "B",
+        "C",
+        "D",
+        "E"
+       ],
+       "explanation": "Un traumatisme abdominal ou général (accident de la voie publique, chute, coups) chez la femme enceinte peut déclencher un décollement prématuré du placenta (hématome rétroplacentaire), une rupture utérine (notamment sur utérus gravide volumineux ou cicatriciel), une rupture prématurée des membranes et un accouchement prématuré. Le placenta prævia est une anomalie d'implantation et non une complication traumatique.\n\nSource : Cours de Gynéco-Obstétrique L3 — Traumatismes et grossesse / Complications obstétricales.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__17",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle ou lesquelles des assertions concernant la consultation post-natale est ou sont juste(s)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'examen au spéculum et le toucher vaginal ne sont pas systématiques pendant la 2e CPON"
+        },
+        {
+         "letter": "B",
+         "text": "Dans la nouvelle conception de consultation post natale, l'accouchée normale, doit bénéficier de trois CPON dans les 6 semaines après l'accouchement."
+        },
+        {
+         "letter": "C",
+         "text": "La 3ème visite post-natale de l'accouchée se fait pendant la 6ème semaine après l'accouchement"
+        },
+        {
+         "letter": "D",
+         "text": "Il faut examiner la mère et son enfant"
+        },
+        {
+         "letter": "E",
+         "text": "Il faut conseiller la rééducation abdominale qui doit commencer avant la rééducation périnéale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Dans la nouvelle conception de consultation post natale, l'accouchée normale, doit bénéficier de trois CPON dans les 6 semaines après l'accouchement. ; C. La 3ème visite post-natale de l'accouchée se fait pendant la 6ème semaine après l'accouchement ; D. Il faut examiner la mère et son enfant",
+       "answerLetters": [
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "Selon le nouveau protocole national de suivi post-natal (chap. 39, p. 149-154), l'accouchée normale bénéficie de trois CPoN (à la 1re semaine, à la 3e semaine et à la 6ème semaine) portant systématiquement sur l'examen clinique de la mère et du nouveau-né (avec examen au spéculum et TV lors de la 2e/3e CPoN). La rééducation périnéale doit toujours précéder la rééducation abdominale.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 39 : Les consultations post-natales (CPoN) (p. 149-154).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La cystite aiguë se manifeste par les signes suivants :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La douleur lombaire"
+        },
+        {
+         "letter": "B",
+         "text": "La brûlure urétrale basse"
+        },
+        {
+         "letter": "C",
+         "text": "La pollakiurie"
+        },
+        {
+         "letter": "D",
+         "text": "La fièvre"
+        },
+        {
+         "letter": "E",
+         "text": "Les mictions impérieuses"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. La brûlure urétrale basse ; C. La pollakiurie ; E. Les mictions impérieuses",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "Conformément au cours sur les infections urinaires et grossesse (p. 113), la cystite aiguë est une infection urinaire basse apyrétique associant pollakiurie, brûlures urétrales basses (mictionnelles) et mictions impérieuses, sans fièvre ni douleur lombaire (qui caractérisent la pyélonéphrite aiguë).\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 27 : Les infections urinaires et grossesse (p. 113).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le ou les examen(s) complémentaire(s) ci-dessous ne fait ou font pas partie du bilan de base du couple infertile :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le spermogramme"
+        },
+        {
+         "letter": "B",
+         "text": "Le Test post coïtal de Hühner"
+        },
+        {
+         "letter": "C",
+         "text": "Le dosage plasmatique de l'œstradiol"
+        },
+        {
+         "letter": "D",
+         "text": "La cœlioscopie"
+        },
+        {
+         "letter": "E",
+         "text": "L'hystérosalpingographie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. La cœlioscopie",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le bilan d'exploration de première intention (bilan de base) d'un couple infertile comprend le spermogramme/spermocytogramme chez l'homme, le test post-coïtal de Hühner, les dosages hormonaux plasmatiques (FSH, LH, œstradiol, AMH, progestérone) et l'hystérosalpingographie chez la femme ; la cœlioscopie diagnostique est un examen invasif de seconde intention réservé aux anomalies tubaires ou pelviennes suspectées.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 45 & 46 : Infertilité conjugale et explorations fonctionnelles (p. 186).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les conséquences de l'allo-immunisation sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le décès fœtal"
+        },
+        {
+         "letter": "B",
+         "text": "La macrosomie fœtale"
+        },
+        {
+         "letter": "C",
+         "text": "L'hypertrophie du rein"
+        },
+        {
+         "letter": "D",
+         "text": "L'hyperbilirubinémie"
+        },
+        {
+         "letter": "E",
+         "text": "L'anémie fœtale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Le décès fœtal ; D. L'hyperbilirubinémie ; E. L'anémie fœtale",
+       "answerLetters": [
+        "A",
+        "D",
+        "E"
+       ],
+       "explanation": "Dans l'allo-immunisation fœto-maternelle Rhésus, les anticorps maternels anti-D traversent le placenta et détruisent les hématies fœtales (maladie hémolytique), entraînant une anémie fœtale (pouvant évoluer vers l'anasarque fœto-placentaire et le décès fœtal in utero) ainsi qu'une hyperbilirubinémie responsable d'un ictère néonatal précoce et sévère (ictère nucléaire).\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 4 : Allo-immunisation dans le système Rhésus au cours de la grossesse.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Après avoir réalisé la GATPA, certains gestes s'imposent. À savoir :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Faire immédiatement une révision utérine"
+        },
+        {
+         "letter": "B",
+         "text": "Examiner soigneusement le nouveau-né"
+        },
+        {
+         "letter": "C",
+         "text": "Procéder à la réfection des déchirures cervicales, vaginales ou de l'épisiotomie."
+        },
+        {
+         "letter": "D",
+         "text": "Assurer une surveillance stricte dans le post-partum du globe utérin"
+        },
+        {
+         "letter": "E",
+         "text": "Examiner le placenta et les membranes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Procéder à la réfection des déchirures cervicales, vaginales ou de l'épisiotomie. ; D. Assurer une surveillance stricte dans le post-partum du globe utérin ; E. Examiner le placenta et les membranes",
+       "answerLetters": [
+        "C",
+        "D",
+        "E"
+       ],
+       "explanation": "Immédiatement après l'expulsion du placenta obtenue par la GATPA, la sage-femme doit examiner minutieusement le placenta et les membranes pour vérifier leur intégrité, vérifier la filière génitale et procéder à la réfection des déchirures ou de l'épisiotomie, et assurer une surveillance stricte du globe utérin de sécurité (ainsi que des constantes et saignements). La révision utérine n'est jamais systématique si le placenta est complet.\n\nSource : Cours de Gynéco-Obstétrique L3 / Soins obstétricaux L2 — Chap. 13 & 15 : La GATPA et la délivrance (p. 50, 73-78).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ménopause peut s'accompagner des signes suivants :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Amaigrissement"
+        },
+        {
+         "letter": "B",
+         "text": "Dyspareunie"
+        },
+        {
+         "letter": "C",
+         "text": "Bouffées de chaleur"
+        },
+        {
+         "letter": "D",
+         "text": "Métrorragies"
+        },
+        {
+         "letter": "E",
+         "text": "Atrophie vulvaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Dyspareunie ; C. Bouffées de chaleur ; E. Atrophie vulvaire",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "La carence œstrogénique de la ménopause confirmée entraîne des troubles climatériques vasomoteurs (bouffées de chaleur, sueurs nocturnes) et des signes d'atrophie urogénitale (sécheresse vaginale, atrophie vulvaire et dyspareunie). Toute métrorragie survenant après la ménopause est pathologique et doit faire rechercher un cancer de l'endomètre.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 40 : La ménopause.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ou les complications du paludisme sur la grossesse est ou sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le neuropaludisme"
+        },
+        {
+         "letter": "B",
+         "text": "L'accouchement prématuré"
+        },
+        {
+         "letter": "C",
+         "text": "Le mort-né"
+        },
+        {
+         "letter": "D",
+         "text": "L'anémie sévère"
+        },
+        {
+         "letter": "E",
+         "text": "L'hypotrophie fœtale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. L'accouchement prématuré ; C. Le mort-né ; E. L'hypotrophie fœtale",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "Le cours distingue les complications du paludisme sur la grossesse (avortement spontané, accouchement prématuré, mort-né, naissance d'un enfant de petit poids / hypotrophie fœtale, paludisme congénital) des complications maternelles de la grossesse sur le paludisme (accès graves dont neuropaludisme, anémie grave et décès maternel).\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 1 : Paludisme et grossesse (III-1, p. 2).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle ou lesquelles des assertions concernant la COVID-19 au cours de la grossesse est ou sont juste(s) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Il faut séparer le couple mère-enfant lorsque le pronostic vital de la mère et de l'enfant sont bien engagés"
+        },
+        {
+         "letter": "B",
+         "text": "Il y a un risque de malformation fœtale"
+        },
+        {
+         "letter": "C",
+         "text": "L'allaitement est contre-indiqué"
+        },
+        {
+         "letter": "D",
+         "text": "Il y a un risque élevé de transmission verticale prénatale"
+        },
+        {
+         "letter": "E",
+         "text": "Elle peut se compliquer de prééclampsie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Il faut séparer le couple mère-enfant lorsque le pronostic vital de la mère et de l'enfant sont bien engagés ; E. Elle peut se compliquer de prééclampsie",
+       "answerLetters": [
+        "A",
+        "E"
+       ],
+       "explanation": "Au cours de la grossesse, la COVID-19 peut se compliquer de syndromes hypertensifs/prééclampsie, et la séparation mère-nouveau-né n'est envisagée que lorsque l'état clinique grave de la mère ou de l'enfant l'impose (hospitalisation en réanimation). L'allaitement maternel n'est pas contre-indiqué (sous mesures barrières), et il n'existe ni tératogénicité ni transmission verticale prénatale élevée.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 6 : Infection au COVID-19 et grossesse.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La mort in utero peut se compliquer de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les troubles de la coagulation"
+        },
+        {
+         "letter": "B",
+         "text": "La chorio-amniotite"
+        },
+        {
+         "letter": "C",
+         "text": "Les troubles psychologiques"
+        },
+        {
+         "letter": "D",
+         "text": "La présentation dystocique"
+        },
+        {
+         "letter": "E",
+         "text": "La rupture utérine"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Les troubles de la coagulation ; B. La chorio-amniotite ; C. Les troubles psychologiques",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "La mort fœtale in utero (MFIU) expose la mère à trois ordres de complications majeures : des troubles de la coagulation (CIVD / fibrinolyse par libération de thromboplastines ovulaires en cas de rétention prolongée), des complications infectieuses graves (chorio-amniotite, endométrite, septicémie surtout si les membranes sont rompues) et un important retentissement psychologique (deuil périnatal, dépression).\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 29 : La mort fœtale (mort in utero).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les composantes principales des soins après avortement sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le renforcement des forces de la communauté par le biais de la sensibilisation et la mobilisation communautaires"
+        },
+        {
+         "letter": "B",
+         "text": "L'évaluation rapide du choc et le diagnostic continu des signes de complication"
+        },
+        {
+         "letter": "C",
+         "text": "Le counseling et la prestation de planification familiale, l'évaluation et le traitement des IST et le counseling et/ou référence pour les tests et les services volontaires de VIH"
+        },
+        {
+         "letter": "D",
+         "text": "La préparation au traitement et soins tels que nécessaires"
+        },
+        {
+         "letter": "E",
+         "text": "Le traitement d'urgence pour les complications de l'avortement spontané et de l'avortement provoqué"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Le renforcement des forces de la communauté par le biais de la sensibilisation et la mobilisation communautaires ; C. Le counseling et la prestation de planification familiale, l'évaluation et le traitement des IST et le counseling et/ou référence pour les tests et les services volontaires de VIH ; E. Le traitement d'urgence pour les complications de l'avortement spontané et de l'avortement provoqué",
+       "answerLetters": [
+        "A",
+        "C",
+        "E"
+       ],
+       "explanation": "Selon le modèle des Soins Après Avortement (SAA) enseigné en L3 (chap. 42, p. 170), les composantes principales regroupent : le traitement d'urgence de l'avortement incomplet et de ses complications, le counseling et les services de planification familiale intégrés aux soins IST/VIH, ainsi que le partenariat et la mobilisation communautaire. Les propositions B et D sont des étapes opératoires de la prise en charge clinique.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 42 : Les soins après avortement (SAA) (p. 170).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Concernant le traitement préventif du paludisme au cours de la grossesse :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Si la femme enceinte est allergique à la Sulfadoxine-Pyriméthamine, la prévention du paludisme se fera par l'artéméther"
+        },
+        {
+         "letter": "B",
+         "text": "L'usage de moustiquaire imprégnée d'insecticide à longue durée d'action et rapide MILDA doit débuter après 16 semaines de grossesse"
+        },
+        {
+         "letter": "C",
+         "text": "Chez la femme enceinte séropositive au VIH sous prophylaxie au Cotrimoxazole il n'est pas recommandé d'administrer, encore, la Sulfadoxine-Pyriméthamine en traitement préventif intermittent"
+        },
+        {
+         "letter": "D",
+         "text": "La chimioprophylaxie est obligatoire chez toutes les femmes"
+        },
+        {
+         "letter": "E",
+         "text": "L'administration de la Sulfadoxine-Pyriméthamine est conseillée au premier trimestre de la grossesse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Chez la femme enceinte séropositive au VIH sous prophylaxie au Cotrimoxazole il n'est pas recommandé d'administrer, encore, la Sulfadoxine-Pyriméthamine en traitement préventif intermittent",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Chez la femme enceinte infectée par le VIH recevant déjà une prophylaxie quotidienne au cotrimoxazole (sulfaméthoxazole-triméthoprime), l'administration concomitante de Sulfadoxine-Pyriméthamine (SP) est formellement contre-indiquée en raison du risque cumulatif de toxicité sévère aux sulfamides (syndrome de Stevens-Johnson, aplasie médullaire). La MILDA s'utilise dès le 1er trimestre, et la SP est interdite au 1er trimestre.\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU L3 — Paludisme et VIH au cours de la grossesse (p. 2 & 9).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le ou les facteur(s) favorisant l'endométrite est ou sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les touchers vaginaux aseptiques"
+        },
+        {
+         "letter": "B",
+         "text": "La Rupture Prématurée des Membranes supérieure à 12 heures"
+        },
+        {
+         "letter": "C",
+         "text": "Le transfert précoce des parturientes"
+        },
+        {
+         "letter": "D",
+         "text": "L'hémorragie de la délivrance"
+        },
+        {
+         "letter": "E",
+         "text": "Le travail d'accouchement prolongé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. La Rupture Prématurée des Membranes supérieure à 12 heures ; D. L'hémorragie de la délivrance ; E. Le travail d'accouchement prolongé",
+       "answerLetters": [
+        "B",
+        "D",
+        "E"
+       ],
+       "explanation": "L'endométrite puerpérale est favorisée par l'ouverture prolongée de l'œuf (RPM > 12 heures), le travail prolongé et l'hémorragie de la délivrance (qui affaiblit l'organisme et implique souvent une révision utérine), tandis que des touchers vaginaux aseptiques et un transfert précoce préviennent l'infection.\n\nSource : Cours SONU L3 / Gynéco-Obstétrique L3 — Suites de couches pathologiques : endométrite (p. 98).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les contre-indications de la ventouse obstétricale sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La prématurité"
+        },
+        {
+         "letter": "B",
+         "text": "la cardiopathie maternelle"
+        },
+        {
+         "letter": "C",
+         "text": "Les présentations céphaliques"
+        },
+        {
+         "letter": "D",
+         "text": "la Malformation fœtale"
+        },
+        {
+         "letter": "E",
+         "text": "La disproportion céphalo-pelvienne"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. La prématurité ; D. la Malformation fœtale ; E. La disproportion céphalo-pelvienne",
+       "answerLetters": [
+        "A",
+        "D",
+        "E"
+       ],
+       "explanation": "La pose de la ventouse obstétricale est contre-indiquée en cas de prématurité (< 34-36 SA, fragilité vasculaire cérébrale et risque d'hémorragie intraventriculaire), de malformation fœtale céphalique ou d'anomalie de l'hémostase fœtale, et de disproportion céphalo-pelvienne (présentation non engagée). La cardiopathie maternelle est au contraire une indication d'extraction instrumentale pour abréger les efforts expulsifs.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 21 : Les extractions instrumentales (ventouse obstétricale, p. 82).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En cas de malformations utérines, la grossesse et l'accouchement peuvent se compliquer de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La rétention placentaire"
+        },
+        {
+         "letter": "B",
+         "text": "La présentation du siège"
+        },
+        {
+         "letter": "C",
+         "text": "L'endométrite du post-partum"
+        },
+        {
+         "letter": "D",
+         "text": "L'accouchement prématuré"
+        },
+        {
+         "letter": "E",
+         "text": "L'hématome rétroplacentaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. La rétention placentaire ; B. La présentation du siège ; C. L'endométrite du post-partum ; D. L'accouchement prématuré",
+       "answerLetters": [
+        "A",
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "Les malformations utérines congénitales (utérus cloisonné, bicorne, unicorne) réduisent et déforment la cavité utérine, exposant aux avortements à répétition, à l'accouchement prématuré, aux présentations dystociques dont la présentation du siège, ainsi qu'aux anomalies de la délivrance avec rétention placentaire (favorisant secondairement l'endométrite du post-partum).\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 38 : Les malformations génitales féminines (p. 142).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quels sont les facteurs qui favorisent l'anémie ferriprive au cours de la grossesse :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les infections urinaires"
+        },
+        {
+         "letter": "B",
+         "text": "Les grossesses monofœtales"
+        },
+        {
+         "letter": "C",
+         "text": "La multigestité"
+        },
+        {
+         "letter": "D",
+         "text": "Les grossesses rapprochées"
+        },
+        {
+         "letter": "E",
+         "text": "Les vomissements"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Les infections urinaires ; C. La multigestité ; D. Les grossesses rapprochées ; E. Les vomissements",
+       "answerLetters": [
+        "A",
+        "C",
+        "D",
+        "E"
+       ],
+       "explanation": "L'anémie ferriprive gravidique est favorisée par l'épuisement des réserves maternelles en fer lié à la multigestité et aux grossesses rapprochées, par la réduction des apports due aux vomissements gravidiques, ainsi que par les infections chroniques ou récidivantes telles que les infections urinaires et le paludisme.\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU L3 — Anémie chez la femme enceinte (p. 2 & 27).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle ou lesquelles des assertions concernant les hématomes vulvovaginaux est ou sont juste(s) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Ils sont secondaires à un accouchement atraumatique"
+        },
+        {
+         "letter": "B",
+         "text": "L'infection est une complication"
+        },
+        {
+         "letter": "C",
+         "text": "La multiparité peut être une cause"
+        },
+        {
+         "letter": "D",
+         "text": "Ils se manifestent par une douleur"
+        },
+        {
+         "letter": "E",
+         "text": "Ils se manifestent par une sensation de ténesme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. L'infection est une complication ; D. Ils se manifestent par une douleur ; E. Ils se manifestent par une sensation de ténesme",
+       "answerLetters": [
+        "B",
+        "D",
+        "E"
+       ],
+       "explanation": "Les hématomes péri-génitaux (thrombus vulvo-vaginaux) résultent de la rupture vasculaire sousmuqueuse lors d'un accouchement traumatique ou instrumental (souvent chez la primipare) ; ils se révèlent dans les heures suivant l'accouchement par une douleur périnéale intense et croissante associée à une sensation de pesanteur rectale ou de ténesme, et peuvent se compliquer d'hémorragie grave et d'infection (abcédation).\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 20 : Les hématomes péri-génitaux (thrombus génitaux).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__33",
+       "num": "34",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE (1ère partie — Q34 à Q35) : Vous recevez ce jour à la maternité de Nimbo, Mme XY, 19 ans G4P1 avec 1 enfant vivant bien portant, 2 antécédents d'avortements provoqués, 1 antécédent d'avortement spontané. Elle a un antécédent de myomectomie, de mutilation génitale féminine. Elle est diabétique et hypertendue chronique. Elle consulte ce jour pour une fièvre à 38°4C évoluant depuis 4 jours sur une grossesse de 31 semaines d'aménorrhée.",
+       "text": "Citer 3 pathologies fréquentes que vous pouvez évoquer devant cette fièvre chez Mme XY",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Kyste ovarien en torsion"
+        },
+        {
+         "letter": "B",
+         "text": "Fièvre typhoïde"
+        },
+        {
+         "letter": "C",
+         "text": "Pyélonéphrite aiguë"
+        },
+        {
+         "letter": "D",
+         "text": "Cystite aiguë"
+        },
+        {
+         "letter": "E",
+         "text": "Paludisme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Fièvre typhoïde ; C. Pyélonéphrite aiguë ; E. Paludisme",
+       "answerLetters": [
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "Devant une fièvre élevée (38,4 °C) chez une femme enceinte en zone tropicale, les trois étiologies infectieuses fréquentes à évoquer en priorité sont le paludisme, la pyélonéphrite aiguë (favorisée par la grossesse et le diabète, contrairement à la cystite qui est apyrétique) et la fièvre typhoïde.\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU L3 — Chap. 28 : CAT devant une fièvre pendant la grossesse (p. 87).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__34",
+       "num": "35",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE (1ère partie — Q34 à Q35) : Vous recevez ce jour à la maternité de Nimbo, Mme XY, 19 ans G4P1 avec 1 enfant vivant bien portant, 2 antécédents d'avortements provoqués, 1 antécédent d'avortement spontané. Elle a un antécédent de myomectomie, de mutilation génitale féminine. Elle est diabétique et hypertendue chronique. Elle consulte ce jour pour une fièvre à 38°4C évoluant depuis 4 jours sur une grossesse de 31 semaines d'aménorrhée.",
+       "text": "Quels sont les examens paracliniques de première intention que vous pouvez demander devant cette fièvre",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Échographie obstétricale"
+        },
+        {
+         "letter": "B",
+         "text": "Sérodiagnostic de Widal et Félix"
+        },
+        {
+         "letter": "C",
+         "text": "Examen cytobactériologique des urines"
+        },
+        {
+         "letter": "D",
+         "text": "Goutte épaisse"
+        },
+        {
+         "letter": "E",
+         "text": "Hémogramme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Examen cytobactériologique des urines ; D. Goutte épaisse ; E. Hémogramme",
+       "answerLetters": [
+        "C",
+        "D",
+        "E"
+       ],
+       "explanation": "Le bilan paraclinique de première intention devant une fièvre au cours de la grossesse comprend la goutte épaisse (et frottis sanguin / TDR pour le paludisme), l'examen cytobactériologique des urines (ECBU) (pour l'infection urinaire haute) et l'hémogramme (NFS) (pour évaluer le taux d'hémoglobine et les leucocytes).\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU L3 — CAT devant une fièvre en cas de grossesse (p. 87).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__35",
+       "num": "36",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE (1ère partie — Q34 à Q35) : Vous recevez ce jour à la maternité de Nimbo, Mme XY, 19 ans G4P1 avec 1 enfant vivant bien portant, 2 antécédents d'avortements provoqués, 1 antécédent d'avortement spontané. Elle a un antécédent de myomectomie, de mutilation génitale féminine. Elle est diabétique et hypertendue chronique. Elle consulte ce jour pour une fièvre à 38°4C évoluant depuis 4 jours sur une grossesse de 31 semaines d'aménorrhée.\n\nCAS CLINIQUE (2ème partie — Q36 à Q38) : À l'interrogatoire, Mme XY se plaint également de céphalées, nausées, myalgies, frisson intense avec sensation de froid, peau brûlante mais sèche avec sueur abondante avec une alternance de mieux-être et de reprise des signes toutes les 48 heures. L'examen physique de Mme XY est sans particularités.",
+       "text": "Quelle est l'étiologie la plus probable de cette fièvre devant ces signes fonctionnels",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Fibrome utérin en nécrobiose"
+        },
+        {
+         "letter": "B",
+         "text": "Fièvre typhoïde"
+        },
+        {
+         "letter": "C",
+         "text": "Pyélonéphrite aiguë"
+        },
+        {
+         "letter": "D",
+         "text": "Cystite aiguë"
+        },
+        {
+         "letter": "E",
+         "text": "Paludisme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "E. Paludisme",
+       "answerLetters": [
+        "E"
+       ],
+       "explanation": "L'évolution par accès fébriles intermittents avec la triade classique « frissons – chaleur – sueurs » se répétant toutes les 48 heures (fièvre tierce), accompagnée d'un syndrome algique (céphalées, myalgies) et digestif (nausées) sans signe de gravité, signe un accès palustre simple à Plasmodium falciparum.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 1 : Paludisme et grossesse (p. 2).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__36",
+       "num": "37",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE (1ère partie — Q34 à Q35) : Vous recevez ce jour à la maternité de Nimbo, Mme XY, 19 ans G4P1 avec 1 enfant vivant bien portant, 2 antécédents d'avortements provoqués, 1 antécédent d'avortement spontané. Elle a un antécédent de myomectomie, de mutilation génitale féminine. Elle est diabétique et hypertendue chronique. Elle consulte ce jour pour une fièvre à 38°4C évoluant depuis 4 jours sur une grossesse de 31 semaines d'aménorrhée.\n\nCAS CLINIQUE (2ème partie — Q36 à Q38) : À l'interrogatoire, Mme XY se plaint également de céphalées, nausées, myalgies, frisson intense avec sensation de froid, peau brûlante mais sèche avec sueur abondante avec une alternance de mieux-être et de reprise des signes toutes les 48 heures. L'examen physique de Mme XY est sans particularités.",
+       "text": "Quelles sont les complications que vous redoutez chez Mme XY aujourd'hui",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Avortement spontané"
+        },
+        {
+         "letter": "B",
+         "text": "Souffrance fœtale aiguë"
+        },
+        {
+         "letter": "C",
+         "text": "Pyonéphrose"
+        },
+        {
+         "letter": "D",
+         "text": "Accouchement prématuré"
+        },
+        {
+         "letter": "E",
+         "text": "Neuropaludisme"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Souffrance fœtale aiguë ; D. Accouchement prématuré ; E. Neuropaludisme",
+       "answerLetters": [
+        "B",
+        "D",
+        "E"
+       ],
+       "explanation": "À 31 semaines d'aménorrhée (3e trimestre, au-delà du seuil de 28 SA définissant l'avortement), la fièvre et l'infection palustre font redouter l'accouchement prématuré (par déclenchement de contractions utérines fébriles), la souffrance fœtale aiguë (par hypoxie et hyperthermie) ainsi que l'évolution maternelle vers le paludisme grave (neuropaludisme).\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU L3 — Complications du paludisme au 3e trimestre de grossesse (p. 2 & 87).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j10-sf3__37",
+       "num": "38",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "CAS CLINIQUE (1ère partie — Q34 à Q35) : Vous recevez ce jour à la maternité de Nimbo, Mme XY, 19 ans G4P1 avec 1 enfant vivant bien portant, 2 antécédents d'avortements provoqués, 1 antécédent d'avortement spontané. Elle a un antécédent de myomectomie, de mutilation génitale féminine. Elle est diabétique et hypertendue chronique. Elle consulte ce jour pour une fièvre à 38°4C évoluant depuis 4 jours sur une grossesse de 31 semaines d'aménorrhée.\n\nCAS CLINIQUE (2ème partie — Q36 à Q38) : À l'interrogatoire, Mme XY se plaint également de céphalées, nausées, myalgies, frisson intense avec sensation de froid, peau brûlante mais sèche avec sueur abondante avec une alternance de mieux-être et de reprise des signes toutes les 48 heures. L'examen physique de Mme XY est sans particularités.",
+       "text": "Quelle est votre conduite à tenir chez Mme XY",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Administration de quinine par voie orale"
+        },
+        {
+         "letter": "B",
+         "text": "Administration de Paracétamol"
+        },
+        {
+         "letter": "C",
+         "text": "Antibiothérapie"
+        },
+        {
+         "letter": "D",
+         "text": "Administration d'artésunate injectable"
+        },
+        {
+         "letter": "E",
+         "text": "Tocolyse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Administration de Paracétamol ; D. Administration d'artésunate injectable",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Face à un paludisme évoluant depuis 4 jours chez une gestante à haut risque (31 SA, diabétique et hypertendue chronique), la prise en charge associe le traitement antipaludique curatif de référence par artésunate injectable (suivi du relais oral par CTA) et un antipyrétique par paracétamol (1 g toutes les 6-8 h) pour faire chuter rapidement la fièvre et prévenir les contractions utérines et la souffrance fœtale.\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU L3 — Traitement curatif du paludisme chez la femme enceinte (p. 2 & 87). CORRIGÉ EXPLIQUÉ — PRÉPA DE INFAS",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J10 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

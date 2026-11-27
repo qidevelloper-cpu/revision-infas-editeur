@@ -1696,7 +1696,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "Plan C : traitement de la déshydratation sévère, à l'hôpital, par perfusion (Ringer lactate…) ou SRO par sonde. Plan A : pas de déshydratation, à domicile ; plan B : signes évidents, SRO 75 ml/kg en 4 h. Il n'y a pas de plan D.\n\nSource : Pediatrie.pdf, « Plans de traitement A, B, C » ; Cours de Pédiatrie 2 / pédiatrie cours.pdf, tableau I",
+       "explanation": "Pas de signes : plan A ; signes évidents : plan B ; signes sévères : plan C (perfusion de Ringer lactate à l'hôpital). Il n'existe pas de plan D.\n\nSource : L'essentiel en pédiatrie tropicale (Dr Asse), « Diarrhée aiguë et déshydratation de l'enfant », Diagnostic de gravité (tableau)",
        "sourceDoc": "Prépa D.E — J2 Pédiatrie IDE-SFM (corrigé expliqué)",
        "sourceFile": "J2_PEDIATRIE_IDE-SFM_J2_corrige_explique.pdf",
        "sourcePage": null

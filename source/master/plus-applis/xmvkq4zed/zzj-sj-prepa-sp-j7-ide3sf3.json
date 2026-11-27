@@ -1,0 +1,2097 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzj-sj-prepa-sp-j7-ide3sf3",
+ "titre": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 57,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+   "sha256": "c1e8c2d8402d3b954a7c6fc159ceb6b02b83cb88c53adce6ddd9268aa4b95034"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Santé publique · Prépa D.E J7 (IDE3/SF3)",
+     "slug": "prepa-sp-j7-ide3sf3",
+     "pages": "",
+     "count": 57,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Santé publique",
+     "source": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'approche psychosociologique des besoins en vue du diagnostic communautaire permet de déterminer les perceptions de la population relatives aux problèmes de santé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans la démarche de diagnostic communautaire, l'approche psychosociale (ou psychosociologique) vise à recueillir les informations relatives aux perceptions, attitudes et représentations de la communauté vis-à-vis de ses propres problèmes de santé.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Diagnostic communautaire (section 5.2.3) ; Document révisé L2 2023-2024 validé, p. 43.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La pastille de contrôle du vaccin (PCV) indique directement la date de péremption du vaccin",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La PCV est un indicateur thermosensible qui mesure l'exposition cumulée du flacon à la chaleur grâce au changement de couleur du carré central, mais elle n'indique pas directement la date de péremption (qui figure sur l'étiquette du flacon).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des vaccins et consommables / Chaîne de froid (L2, p. 29).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La communication interpersonnelle est un processus par lequel un individu établit une relation avec une ou plusieurs personnes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La communication interpersonnelle (CIP) correspond à un échange direct (verbal et non verbal) par lequel un émetteur établit une relation interactive avec un ou plusieurs interlocuteurs afin de partager un message et susciter un changement de comportement.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. IEC / CCSC et Communication interpersonnelle, p. 98.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le goût de l'eau figure parmi les critères de choix d'une source d'approvisionnement en eau potable",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le choix d'une source d'approvisionnement en eau potable repose sur la qualité physicochimique et bactériologique (potabilité), la quantité disponible (débit suffisant), la permanence de la ressource et l'accessibilité géographique pour les populations, et non sur le goût.\n\nSource : Cours de Santé Publique-1, chap. Hygiène et assainissement — Approvisionnement en eau potable, p. 81 ; Cours Santé Publique L1, L2, L3 révisé 2025-2026, p. 64.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans une démarche de santé communautaire participative, les décisions concernant les actions communautaires sont prises avec la communauté",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Selon l'OMS, la santé communautaire est le processus par lequel les membres d'une collectivité réfléchissent ensemble sur leurs problèmes de santé, définissent leurs besoins prioritaires et participent activement à la prise de décision, à la mise en œuvre et à l'évaluation des actions.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Introduction à la santé publique, p. 7 ; Cours de Santé Publique-1, section 1.4, p. 8.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans une approche épidémiologique, l'objectif principal est uniquement la guérison individuelle du malade",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La guérison individuelle du malade est l'objectif de l'approche clinique. L'approche épidémiologique s'intéresse à la maladie en tant que phénomène de masse dans la population afin d'en assurer le contrôle, l'élimination, l'éradication ou la maîtrise.\n\nSource : Cours de Santé Publique-1, chap. Généralités sur l'épidémiologie (section V : Approche épidémiologique et approche clinique).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'objectif de la santé pour tous avant l'an 2000 a été défini par l'Assemblée mondiale de la Santé en 1977.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'année 1977 est marquée par la résolution de l'Assemblée mondiale de la Santé (AMS) lançant le mouvement « Santé pour tous d'ici l'an 2000 » face aux inégalités constatées dans l'offre de soins, mouvement concrétisé en 1978 par la Conférence d'Alma-Ata.\n\nSource : Cours de Santé Publique-1, chap. Introduction à la santé publique (section 3.4.2), p. 12.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les soins sont acceptables lorsque leur administration tient compte des caractéristiques socioculturelles des communautés",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Selon la définition d'Alma-Ata, les Soins de Santé Primaires doivent être « socialement acceptables », c'est-à-dire respectueux des valeurs, des coutumes, des croyances et des caractéristiques socioculturelles des communautés bénéficiaires.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Soins de Santé Primaires, p. 7 et p. 91 ; Cours de Santé Publique-1, section 1.5, p. 8.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La supervision permet de déceler chez l'agent supervisé des insuffisances et d'apporter les corrections qui s'imposent",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La supervision formative est un processus d'accompagnement continu qui permet au superviseur d'identifier les insuffisances techniques ou organisationnelles de l'agent supervisé et d'y apporter immédiatement les corrections nécessaires.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Supervision, p. 48 ; Document révisé L2 2023-2024 validé, p. 48.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour un enfant ayant abandonné la vaccination pendant une longue période, il est recommandé de reprendre son calendrier dans sa totalité",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "En vaccination de routine (PEV), il existe un intervalle minimal (4 semaines) entre deux doses d'un même antigène multidose, mais aucun intervalle maximal : en cas d'interruption prolongée, on ne recommence jamais la série à zéro, on administre la dose suivante prévue au calendrier.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Programme Élargi de Vaccination (PEV), p. 28.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'approche ENGAGE-TB consiste à mobiliser un vaste ensemble d'acteurs à participer à la lutte contre la tuberculose.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'approche ENGAGE-TB promue par l'OMS vise à intégrer les activités communautaires de lutte contre la tuberculose aux autres services de santé communautaire en mobilisant les ONG, les associations locales et un large éventail d'acteurs communautaires.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Programme National de Lutte contre la Tuberculose (PNLT), p. 45.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La probabilité pour une personne de développer une maladie pendant une période donnée correspond à la définition d'un déterminant de santé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La probabilité pour un individu indemne de développer une maladie au cours d'une période donnée correspond à la définition du risque (mesuré par l'incidence cumulée). Les déterminants de la santé sont les facteurs biologiques, comportementaux, sociaux et environnementaux qui influencent l'état de santé.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Généralités sur l'épidémiologie, p. 82.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La règle PEPU contribue à réduire les pertes de vaccins dues à leur péremption",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La règle PEPU (Premier Expiré, Premier Utilisé) impose de sortir et d'utiliser en priorité les lots de vaccins dont la date de péremption est la plus proche (ou dont la PCV a amorcé un virage), ce qui limite les pertes par péremption en stock.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des vaccins et consommables (L2, p. 29).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les effets du bruit sur la santé peuvent aboutir à des lésions organiques de l'appareil auditif",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'exposition à des nuisances sonores intenses ou prolongées provoque non seulement des troubles extra-auditifs (stress, troubles du sommeil), mais également des atteintes auditives pouvant aboutir à des lésions organiques irréversibles de l'oreille interne (hypoacousie, surdité).\n\nSource : Cours de Santé Publique-1, chap. Hygiène et assainissement — Lutte contre les nuisances sonores, p. 81 ; Cours Santé Publique L1, L2, L3 révisé 2025-2026, p. 64.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une MAPI est une manifestation indésirable qui survient avant une vaccination et qui n'est pas nécessairement liée à l'utilisation du vaccin.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Une MAPI (Manifestation Adverse Post-Immunisation) est tout incident médical fâcheux qui survient après (post-immunisation) l'administration d'un vaccin, et non avant, sans qu'il existe nécessairement un lien de causalité avéré avec le vaccin.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Programme Élargi de Vaccination (PEV), p. 28 ; Cours de Santé Publique-1, p. 2.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__15",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un système de santé efficace est toujours efficient",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'efficacité mesure le degré d'atteinte des objectifs fixés, tandis que l'efficience rapporte les résultats obtenus aux moyens financiers, humains et matériels engagés : un système peut atteindre ses objectifs (efficace) tout en gaspillant des ressources (donc sans être efficient).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Suivi et évaluation des programmes, p. 56.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__16",
+       "num": "17",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les soins intégrés doivent être techniquement applicables et socialement acceptables, et conformes aux besoins de santé des populations et aux ressources du milieu",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Selon la Déclaration d'Alma-Ata (1978), ces caractéristiques (soins essentiels, scientifiquement valables, socialement acceptables, adaptés aux besoins de la communauté et à un coût supportable par le pays) définissent les Soins de Santé Primaires (SSP), et non spécifiquement les « soins intégrés ».\n\nSource : Cours de Santé Publique-1, chap. Introduction à la santé publique (section 1.5 : Soins de santé primaires), p. 8 ; Cours Santé Publique L1, L2, L3 révisé 2025-2026, p. 7.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__17",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Influencer le changement politique est un but du plaidoyer",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le plaidoyer est une démarche stratégique fondée sur des données probantes visant à sensibiliser et persuader les décideurs publics et leaders d'opinion afin d'obtenir un soutien institutionnel, mobiliser des ressources ou influencer un changement de politique sanitaire.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Plaidoyer, p. 104. II. ÉTUDE DE CAS N° 1 — CSR D'AKAKRO Énoncé du cas : Vous exercez au CSR d'Akakro, dans la région du Moronou. Le tableau présente les villages situés autour du centre et leurs populations au 31 décembre 2023. Le taux d'accroissement annuel est de 2 %. En 2024, les doses de Penta sorties du stock puis administrées sont : Penta 1 (1 250 ; 1 200), Penta 2 (1 170 ; 1 120) et Penta 3 (1 130 ; 1 080) ; 1 043 enfants ont été complètement vaccinés. Pour le semestre étudié, 451 enfants ont reçu au moins une dose et 430 toutes les doses requises selon le calendrier ; le score de qualité de la chaîne du froid est de 96 %. Le solde bancaire est de 1 500 000 F CFA, y compris les agios et non compris les intérêts, dont les montants sont respectivement de 50 500 F CFA et de 30 000 F CFA. La somme à budgétiser est de 800 000 F CFA, dont 150 000 F CFA de dépenses obligatoires. Une campagne de RR est prévue pour 2 700 enfants, avec un besoin théorique de 3 200 doses conditionnées en flacons de 20 doses. Le stock utilisable comprend 150 seringues d'injection et 10 seringues de dilution. Les boîtes de sécurité disponibles ont une capacité de 100 seringues chacune. Village Distance (km) Population (31/12/2023) Akakro 0 7 000 Bokro 12 3 500 N'Dakro 18 1 800 Koffikro 8 4 500 Yapokro 22 1 200 Assékro 4 5 000",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Combien de seringues d'injection faut-il commander pour la campagne de RR ? (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "3 147 seringues"
+        },
+        {
+         "letter": "B",
+         "text": "3 297 seringues"
+        },
+        {
+         "letter": "C",
+         "text": "2 997 seringues"
+        },
+        {
+         "letter": "D",
+         "text": "2 847 seringues"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 2 997 seringues",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Avec une cible de 2 700 enfants (1 dose par enfant) et un facteur de perte des seringues autobloquantes (SAB) de 1,11 (taux de perte de 10 %), le besoin théorique en seringues d'injection s'élève à : 2 700 × 1,11 = 2 997 seringues. Remarque : 2 997 correspond au besoin théorique en SAB ; en ajoutant 10 % de stock de sécurité (3 297) puis en déduisant le stock utilisable de 150 seringues, la commande nette serait de 3 147 seringues.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__19",
+       "num": "20",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour déterminer le solde bancaire, les agios sont déduits et les intérêts sont ajoutés au solde annoncé.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "En gestion financière d'un centre de santé (COGES), le solde bancaire réel disponible s'obtient en retranchant les frais bancaires (agios) du solde annoncé et en y ajoutant les intérêts créditeurs générés par le compte.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 7 (Gestion financière du centre de santé).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle est la couverture vaccinale annuelle des enfants de 0 à 23 mois dans la surface de desserte? (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "75,00%"
+        },
+        {
+         "letter": "B",
+         "text": "74,98%"
+        },
+        {
+         "letter": "C",
+         "text": "77,64%"
+        },
+        {
+         "letter": "D",
+         "text": "86,92%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 74,98%",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La surface de desserte (≤ 15 km) regroupe Akakro (7 000), Assékro (5 000), Koffikro (4 500) et Bokro (3 500), soit 20 000 hab. en 2023 et 20 000 × 1,02 = 20 400 hab. en 2024. La cible des enfants de 0 à 23 mois (6,82 %) est de 20 400 × 0,0682 = 1 391 enfants, d'où une couverture vaccinale de 11 043 391 × 100 = 74,98 %.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Étude du milieu, p. 55 ; Formules de Santé Publique — Document harmonisé, chap. 1 et 5.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel est le taux d'abandon de Penta en 2024 ? (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "10,00%"
+        },
+        {
+         "letter": "B",
+         "text": "11,11%"
+        },
+        {
+         "letter": "C",
+         "text": "90,00%"
+        },
+        {
+         "letter": "D",
+         "text": "9,60%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 10,00%",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le taux d'abandon spécifique du Penta compare le nombre de doses administrées de Penta − 1 080 × 100 = 120 × 100 = 10,00 %. 1 (1 200) à celui de Penta 3 (1 080) : Taux d'abandon = 1 2001 200 1 200\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables) ; Cahier d'exercices Formules de Santé Publique, chap. 5.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Combien de boîtes de sécurité faut-il prévoir pour la campagne de RR ? (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "34 boîtes"
+        },
+        {
+         "letter": "B",
+         "text": "35 boîtes"
+        },
+        {
+         "letter": "C",
+         "text": "32 boîtes"
+        },
+        {
+         "letter": "D",
+         "text": "33 boîtes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 34 boîtes",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le nombre de boîtes de sécurité (capacité unitaire de 100 seringues) correspond à l'ensemble des seringues à éliminer (seringues d'injection et seringues de dilution, soit environ 3 147 + 166 313 = 33,13, arrondi par excès à 34 boîtes. = 3 313 seringues) divisé par 100, soit 3100\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Combien de seringues de dilution faut-il commander pour la campagne de RR ? (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "166 seringues"
+        },
+        {
+         "letter": "B",
+         "text": "150 seringues"
+        },
+        {
+         "letter": "C",
+         "text": "160 seringues"
+        },
+        {
+         "letter": "D",
+         "text": "176 seringues 200 doses = 160 flacons, soit 160 seringues de dilution. En"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 166 seringues",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le besoin théorique est de 203 doses/flacon ajoutant un stock de sécurité de 10 % (16 seringues), le besoin réel est de 176 seringues ; après déduction du stock utilisable (10 seringues), il faut commander 176 − 10 = 166 seringues.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle est la couverture effective de la vaccination pour le semestre étudié ? (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "96,00%"
+        },
+        {
+         "letter": "B",
+         "text": "59,31%"
+        },
+        {
+         "letter": "C",
+         "text": "64,80%"
+        },
+        {
+         "letter": "D",
+         "text": "61,78%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 59,31%",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La cible semestrielle des enfants de 0 à 23 mois dans la surface de desserte est de 1 391,28 ≈ 696 enfants. La couverture adéquate vaut 430 × 100 = 61,78 %. En multipliant par le score 2 696 de qualité de la chaîne du froid (96 %), la couverture effective est de 61,7816 % × 0,96 = 59,31 %.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 6 (Monitorage).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__25",
+       "num": "26",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le village de N'Dakro relève de la stratégie avancée organisée par le CSR.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans l'organisation du PEV, la stratégie fixe couvre le rayon de 0 à 5 km, la stratégie avancée couvre les villages situés entre 5 et 15 km, et la stratégie mobile concerne les localités situées à plus de 15 km. N'Dakro étant à 18 km (> 15 km), il relève de la stratégie mobile (zone de silence) et non de la stratégie avancée.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. PEV (p. 28) et chap. Étude du milieu (p. 55).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quels sont, respectivement, les effectifs annuels des enfants de 0 à 23 mois relevant des stratégies fixe et avancée en 2024 ? (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "835 ; 417 enfants"
+        },
+        {
+         "letter": "B",
+         "text": "973 ; 418 enfants"
+        },
+        {
+         "letter": "C",
+         "text": "1 200 ; 800 enfants"
+        },
+        {
+         "letter": "D",
+         "text": "835 ; 557 enfants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 835 ; 557 enfants",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "En stratégie fixe (≤ 5 km : Akakro 7 000 + Assékro 5 000 = 12 000), la population 2024 est 12 000 × 1,02 = 12 240 hab., soit 12 240 × 6,82 % = 835 enfants. En stratégie avancée (5–15 km : Koffikro 4 500 + Bokro 3 500 = 8 000), la population 2024 est 8 000 × 1,02 = 8 160 hab., soit 8 160 × 6,82 % = 557 enfants.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Étude du milieu, p. 55 ; Formules de Santé Publique — Document harmonisé, chap. 1.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__27",
+       "num": "28",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le nombre total de doses de Penta perdues pendant l'année est de 150 doses.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les doses perdues correspondent à la différence entre les doses sorties du stock et les doses administrées : (1 250 − 1 200) + (1 170 − 1 120) + (1 130 − 1 080) = 50 + 50 + 50 = 150 doses.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quels sont, respectivement, le solde après mouvements bancaires, le fonds de réserve et les dépenses de fonctionnement local ? (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1 580 500 ; 780 500 ; 650 000 F CFA"
+        },
+        {
+         "letter": "B",
+         "text": "1 520 500 ; 720 500 ; 650 000 F CFA"
+        },
+        {
+         "letter": "C",
+         "text": "1 479 500 ; 679 500 ; 150 000 F CFA"
+        },
+        {
+         "letter": "D",
+         "text": "1 479 500 ; 679 500 ; 650 000 F CFA"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 1 479 500 ; 679 500 ; 650 000 F CFA",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Solde après mouvements bancaires = 1 500 000 − 50 500 + 30 000 = 1 479 500 F CFA ; fonds de réserve = 1 479 500 − 800 000 = 679 500 F CFA ; dépenses de fonctionnement local = 800 000 − 150 000 = 650 000 F CFA.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 7 (Gestion financière du centre de santé).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Comment estimer le nombre de femmes enceintes de l'aire sanitaire en 2024 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1020 femmes enceintes"
+        },
+        {
+         "letter": "B",
+         "text": "1173 femmes enceintes"
+        },
+        {
+         "letter": "C",
+         "text": "1204 femmes enceintes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 1173 femmes enceintes",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La population totale de l'aire sanitaire au 31/12/2023 est de 23 000 hab., soit 23 000 × 1,02 = 23 460 hab. en 2024. Le nombre de femmes enceintes (grossesses attendues) représente 5 % de la population totale : 23 460 × 5 % = 1 173 femmes enceintes.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Étude du milieu, p. 55 ; Formules de Santé Publique — Document harmonisé, chap. 1. III. QUESTIONS À CHOIX MULTIPLES ET À CHOIX UNIQUE",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les vaccins suivants, deux sont sensibles à la congélation. Lesquels ? (2 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "VPO"
+        },
+        {
+         "letter": "B",
+         "text": "Td"
+        },
+        {
+         "letter": "C",
+         "text": "VPI"
+        },
+        {
+         "letter": "D",
+         "text": "VAA"
+        },
+        {
+         "letter": "E",
+         "text": "RR"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Td ; C. VPI",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Les vaccins contenant des anatoxines ou des antigènes inactivés/adsorbés tels que le Td et le VPI sont sensibles à la congélation (perte irréversible d'efficacité), contrairement aux vaccins vivants atténués (VPO, VAA, RR) qui tolèrent la congélation.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des vaccins et consommables / Chaîne de froid (L2, p. 29).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'ensemble de critères utilisés pour déterminer si une personne est atteinte d'une maladie particulière est : (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La définition de cas"
+        },
+        {
+         "letter": "B",
+         "text": "La définition de cas épidémiologique"
+        },
+        {
+         "letter": "C",
+         "text": "La définition de cas pathologique"
+        },
+        {
+         "letter": "D",
+         "text": "La définition de cas clinique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La définition de cas",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "En surveillance épidémiologique, la définition de cas désigne l'ensemble des critères standardisés (cliniques, biologiques et épidémiologiques) utilisés pour identifier et classer de façon uniforme les personnes atteintes d'une maladie donnée.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Surveillance épidémiologique, p. 85.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quels sont les trois critères utilisés pour hiérarchiser les problèmes de santé identifiés dans une communauté ? (3 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La vulnérabilité du problème"
+        },
+        {
+         "letter": "B",
+         "text": "La gravité du problème"
+        },
+        {
+         "letter": "C",
+         "text": "L'ampleur du problème"
+        },
+        {
+         "letter": "D",
+         "text": "La durée des interventions."
+        },
+        {
+         "letter": "E",
+         "text": "Le niveau d'instruction des populations"
+        },
+        {
+         "letter": "F",
+         "text": "La population totale de la localité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. La vulnérabilité du problème ; B. La gravité du problème ; C. L'ampleur du problème",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "La priorisation (hiérarchisation) des problèmes de santé repose sur trois critères fondamentaux : l'ampleur (fréquence, incidence, prévalence), la gravité (létalité, complications, séquelles) et la vulnérabilité (existence de moyens techniques et financiers efficaces pour agir sur le problème).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Démarche de santé publique (p. 6) et Diagnostic communautaire (L2, p. 43).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les éléments suivants, indiquez ceux qui sont inclus dans l'investissement (3 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Achat de mobylettes"
+        },
+        {
+         "letter": "B",
+         "text": "Entretien des courant des locaux"
+        },
+        {
+         "letter": "C",
+         "text": "Salaire du personnel journalier"
+        },
+        {
+         "letter": "D",
+         "text": "Achat de réfrigérateur"
+        },
+        {
+         "letter": "E",
+         "text": "Construction d'un hangar pour la vaccination"
+        },
+        {
+         "letter": "F",
+         "text": "Achat de fournitures et administratives"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Achat de mobylettes ; D. Achat de réfrigérateur ; E. Construction d'un hangar pour la vaccination",
+       "answerLetters": [
+        "A",
+        "D",
+        "E"
+       ],
+       "explanation": "Les dépenses d'investissement correspondent à l'acquisition de biens durables, d'équipements lourds et d'infrastructures (moyens roulants comme les mobylettes, équipements de chaîne du froid comme le réfrigérateur, construction d'un hangar), alors que les salaires, l'entretien courant et les fournitures relèvent du fonctionnement.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation et fonctionnement du COGES (L3, p. 22).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Identifiez parmi ces maladies hydriques celles qui sont bactériennes : (3 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Poliomyélite"
+        },
+        {
+         "letter": "B",
+         "text": "Dysenterie bacillaire"
+        },
+        {
+         "letter": "C",
+         "text": "Dysenterie amibienne"
+        },
+        {
+         "letter": "D",
+         "text": "Fièvre typhoïde"
+        },
+        {
+         "letter": "E",
+         "text": "Choléra"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Dysenterie bacillaire ; D. Fièvre typhoïde ; E. Choléra",
+       "answerLetters": [
+        "B",
+        "D",
+        "E"
+       ],
+       "explanation": "Parmi les maladies d'origine hydrique, la dysenterie bacillaire (Shigella), la fièvre typhoïde (Salmonella typhi) et le choléra (Vibrio cholerae) sont d'origine bactérienne, alors que la poliomyélite est virale et la dysenterie amibienne est parasitaire.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Hygiène et assainissement, p. 64 ; Cours de Santé Publique-1, p. 81.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelles sont les deux phases du processus d'évacuation des ordures ménagères ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'élimination"
+        },
+        {
+         "letter": "B",
+         "text": "L'incinération"
+        },
+        {
+         "letter": "C",
+         "text": "Le stockage"
+        },
+        {
+         "letter": "D",
+         "text": "Le compostage"
+        },
+        {
+         "letter": "E",
+         "text": "Le traitement"
+        },
+        {
+         "letter": "F",
+         "text": "Le ramassage"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Le stockage ; F. Le ramassage",
+       "answerLetters": [
+        "C",
+        "F"
+       ],
+       "explanation": "Le processus d'évacuation des ordures ménagères débute par deux phases essentielles de collecte : le stockage (conservation hygiénique des déchets dans des récipients fermés au niveau des ménages) et le ramassage (enlèvement et transport vers le site de traitement ou d'élimination).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Hygiène et assainissement, p. 64 ; Cours de Santé Publique-1, p. 81.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans le monitorage des services, que traduit un goulot d'étranglement entre l'accessibilité géographique et l'utilisation ? (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La population a accès au service, mais ne le fréquente pas"
+        },
+        {
+         "letter": "B",
+         "text": "La population accède difficilement au service, mais le fréquente"
+        },
+        {
+         "letter": "C",
+         "text": "La population ne fréquente pas le service parcequ'elle n'y accède pas"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La population a accès au service, mais ne le fréquente pas",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Sur le graphique de monitorage (courbe de Tanahashi), un écart important entre l'accessibilité géographique et l'utilisation signifie que le service est physiquement proche et accessible, mais que la population ne le fréquente pas (problème d'accueil, d'information, de coût ou d'acceptabilité culturelle).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Suivi et évaluation / Monitorage, p. 56 ; Formules de Santé Publique — Document harmonisé, chap. 6.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le but de l'Initiative de Bamako est: (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Séparer les activités de prestation et de gestion"
+        },
+        {
+         "letter": "B",
+         "text": "Renforcer la mise en œuvre des soins de santé primaires"
+        },
+        {
+         "letter": "C",
+         "text": "Réduire la morbidité et la mortalité maternelles et infantiles"
+        },
+        {
+         "letter": "D",
+         "text": "Assurer une bonne coordination des activités"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Renforcer la mise en œuvre des soins de santé primaires",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Adoptée en 1987 à Bamako face aux difficultés rencontrées après Alma-Ata, l'Initiative de Bamako a pour but de relancer et de renforcer la mise en œuvre des Soins de Santé Primaires (SSP) par la participation communautaire à la gestion (COGES) et le recouvrement des coûts des médicaments essentiels.\n\nSource : Cours de Santé Publique-1, chap. Introduction à la santé publique (section 3.4.3), p. 12 ; Cours Santé Publique L1, L2, L3 révisé 2025-2026, p. 91.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Identifier la deuxième composante du suivi et évaluation: (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Intrants"
+        },
+        {
+         "letter": "B",
+         "text": "Processus"
+        },
+        {
+         "letter": "C",
+         "text": "Extrants"
+        },
+        {
+         "letter": "D",
+         "text": "Impact"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Processus",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans le cadre logique du suivi et de l'évaluation d'un programme de santé, les composantes s'enchaînent dans l'ordre suivant : 1. Intrants (ressources), 2. Processus (activités mises en œuvre), 3. Extrants (produits immédiats), 4. Effets et 5. Impact.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Suivi et évaluation de programme et projet de santé, p. 56.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les éléments suivants, indiquez les facteurs externes pouvant influencer le changement social de comportement: (2 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les attitudes"
+        },
+        {
+         "letter": "B",
+         "text": "La culture"
+        },
+        {
+         "letter": "C",
+         "text": "La perception"
+        },
+        {
+         "letter": "D",
+         "text": "Les connaissances"
+        },
+        {
+         "letter": "E",
+         "text": "Le milieu social"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. La culture ; E. Le milieu social",
+       "answerLetters": [
+        "B",
+        "E"
+       ],
+       "explanation": "En communication pour le changement social et de comportement (CCSC), on distingue les déterminants internes propres à l'individu (connaissances, attitudes, perceptions) des facteurs externes liés à son environnement communautaire, notamment la culture et le milieu social.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. IEC / CCSC, p. 98.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__40",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, indiquez celle qui correspond à l'objectif principal de la CMU (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "assurer un accès équitable aux soins de santé pour tous les ivoiriens"
+        },
+        {
+         "letter": "B",
+         "text": "obliger tous les ivoiriens à participer au financement des activités de soins"
+        },
+        {
+         "letter": "C",
+         "text": "Eviter aux pauvres de bénéficier gratuitement des soins de santé des services publics"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. assurer un accès équitable aux soins de santé pour tous les ivoiriens",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La Couverture Maladie Universelle (CMU) instaurée en Côte d'Ivoire a pour objectif principal de garantir à l'ensemble de la population un accès équitable à des soins de santé de qualité en réduisant la barrière financière au moment du recours aux soins.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Système national de santé et politique nationale de santé, p. 15 ; Cours de Santé Publique-1, section 8.2.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__41",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Selon les règles de sécurité, quelles mesures favorisent la protection des riverains autour d'une décharge commune ? (2 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Entourer la décharge d'une clôture"
+        },
+        {
+         "letter": "B",
+         "text": "Éloigner la décharge des habitations"
+        },
+        {
+         "letter": "C",
+         "text": "Installer la décharge dans une zone inondable"
+        },
+        {
+         "letter": "D",
+         "text": "Déverser les déchets dans un cours d'eau"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Entourer la décharge d'une clôture ; B. Éloigner la décharge des habitations",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "Pour prévenir les nuisances, la prolifération des vecteurs et la contamination des eaux et des populations riveraines, une décharge commune doit être éloignée des habitations (et de tout cours d'eau ou zone inondable) et entourée d'une clôture interdisant l'accès libre.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Hygiène et assainissement, p. 64 ; Cours de Santé Publique-1, p. 81.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__42",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les attitudes à développer par le personnel de santé pour mener une bonne étude du milieu sont : (2 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "l'observation"
+        },
+        {
+         "letter": "B",
+         "text": "la méfiance"
+        },
+        {
+         "letter": "C",
+         "text": "l'ethnocentrisme"
+        },
+        {
+         "letter": "D",
+         "text": "le dialogue"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. l'observation ; D. le dialogue",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "Pour réussir l'étude du milieu et s'intégrer harmonieusement dans la communauté, l'agent de santé doit privilégier l'observation attentive des réalités locales et le dialogue ouvert avec la population, tout en évitant l'ethnocentrisme et la méfiance.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Étude du milieu, p. 55 ; Cours de Santé Publique-1, p. 29.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__43",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les maladies suivantes, indiquez celles dont la prévention se fait avec le Penta. (4 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La rubéole"
+        },
+        {
+         "letter": "B",
+         "text": "La fièvre jaune"
+        },
+        {
+         "letter": "C",
+         "text": "La méningite à Haemophilus influenzae de type B ;"
+        },
+        {
+         "letter": "D",
+         "text": "La coqueluche"
+        },
+        {
+         "letter": "E",
+         "text": "L'hépatite B"
+        },
+        {
+         "letter": "F",
+         "text": "Le tétanos"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. La méningite à Haemophilus influenzae de type B ; ; D. La coqueluche ; E. L'hépatite B ; F. Le tétanos",
+       "answerLetters": [
+        "C",
+        "D",
+        "E",
+        "F"
+       ],
+       "explanation": "Le vaccin pentavalent (DTC-HepB-Hib) protège contre cinq pathologies : la diphtérie, le tétanos, la coqueluche, l'hépatite B et les infections invasives (dont la méningite) à Haemophilus influenzae de type b (la rubéole et la fièvre jaune étant respectivement prévenues par le RR et le VAA).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Programme Élargi de Vaccination (PEV), p. 28 ; Cours de Santé Publique-1, p. 2.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__44",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Après l'analyse de la situation sanitaire, quelle est l'étape suivante de la démarche de santé publique ? (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Définir des priorités"
+        },
+        {
+         "letter": "B",
+         "text": "Formuler du problème avec la détermination de la population cible ;"
+        },
+        {
+         "letter": "C",
+         "text": "Identifier des ressources"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Définir des priorités",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La démarche de santé publique suit un ordre chronologique précis : 1. Analyse de la situation et identification des problèmes de santé ; 2. Définition des priorités ; 3. Formulation du problème et détermination de la population cible ; 4. Formulation des objectifs, etc.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Introduction à la santé publique (section VII : Étapes de la démarche de santé publique), p. 6.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__45",
+       "num": "46",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le traitement DOTS vise à : (2 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Réduire la mortalité de la tuberculose de 95% entre 2015 et 2035"
+        },
+        {
+         "letter": "B",
+         "text": "Traiter le plus grand nombre de tuberculeux à moindre coût"
+        },
+        {
+         "letter": "C",
+         "text": "Réduire l'incidence de 90% entre 2015 et 2035"
+        },
+        {
+         "letter": "D",
+         "text": "Réduire l'incidence de 95% entre 2015 et 2035"
+        },
+        {
+         "letter": "E",
+         "text": "Réduire la mortalité de la tuberculose de 90% entre 2015 et 2035"
+        },
+        {
+         "letter": "F",
+         "text": "Éviter le développement des bactéries multirésistantes dû à des traitements anarchiques"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Traiter le plus grand nombre de tuberculeux à moindre coût ; F. Éviter le développement des bactéries multirésistantes dû à des traitements anarchiques",
+       "answerLetters": [
+        "B",
+        "F"
+       ],
+       "explanation": "La stratégie DOTS (Directly Observed Treatment, Short-course — traitement de brève durée sous surveillance directe) vise à traiter efficacement le plus grand nombre de malades à moindre coût et à garantir l'observance thérapeutique afin d'éviter l'apparition de bacilles multirésistants liée aux traitements anarchiques.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Programme National de Lutte contre la Tuberculose (PNLT), p. 45.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__46",
+       "num": "47",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En Côte d'Ivoire, le gouvernement a adopté la stratégie des soins de santé primaires en: (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1994"
+        },
+        {
+         "letter": "B",
+         "text": "1993"
+        },
+        {
+         "letter": "C",
+         "text": "1991"
+        },
+        {
+         "letter": "D",
+         "text": "1981"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 1991",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "En Côte d'Ivoire, le gouvernement a officiellement adopté et lancé la stratégie des Soins de Santé Primaires (SSP) en 1991, avant sa mise en œuvre opérationnelle pilote à Bouaflé en 1993.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Soins de Santé Primaires (SSP), p. 91.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__47",
+       "num": "48",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans le processus de classification épidémiologique, quel est l'ordre allant du niveau initial de suspicion à la confirmation ? 1. Cas confirmé ; 2. Cas probable ; 3. Cas suspect. (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "2, 3, 1"
+        },
+        {
+         "letter": "B",
+         "text": "1, 2, 3"
+        },
+        {
+         "letter": "C",
+         "text": "3, 2, 1"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "",
+       "answerLetters": [],
+       "explanation": "Dans la surveillance épidémiologique, la classification progressive d'un patient part du niveau initial de suspicion clinique (3. Cas suspect), passe par l'existence d'un lien épidémiologique fort (2. Cas probable) et aboutit à la validation biologique au laboratoire (1. Cas confirmé), soit l'ordre 3, 2, 1 (option C). Remarque : Cette question portait la mention « Sera évalué(e) » sans coche verte dans le sujet.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Surveillance épidémiologique, p. 85.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__48",
+       "num": "49",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le domaine d'intervention de la santé qui permet aux individus de maîtriser les déterminants est: (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La protection de la santé"
+        },
+        {
+         "letter": "B",
+         "text": "La prévention de la santé"
+        },
+        {
+         "letter": "C",
+         "text": "La promotion de la santé"
+        },
+        {
+         "letter": "D",
+         "text": "La restauration de la santé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. La promotion de la santé",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Selon l'OMS (Charte d'Ottawa, 1986), la promotion de la santé est le processus qui confère aux individus et aux collectivités les moyens d'exercer un meilleur contrôle (maîtrise) sur les déterminants de leur santé afin de l'améliorer.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Introduction à la santé publique, p. 6 ; Cours de Santé Publique-1, section 1.11, p. 9.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__49",
+       "num": "50",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, identifiez les deux attitudes de l'émetteur qui constituent des obstacles à la communication. (2 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le non-respect de l'interlocuteur"
+        },
+        {
+         "letter": "B",
+         "text": "La disponibilité à écouter"
+        },
+        {
+         "letter": "C",
+         "text": "L'utilisation d'un langage clair"
+        },
+        {
+         "letter": "D",
+         "text": "La vérification de la compréhension du message"
+        },
+        {
+         "letter": "E",
+         "text": "Une attitude méprisante"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Le non-respect de l'interlocuteur ; E. Une attitude méprisante",
+       "answerLetters": [
+        "A",
+        "E"
+       ],
+       "explanation": "En communication interpersonnelle, le non-respect de l'interlocuteur et une attitude méprisante (ou jugeante) provoquent un blocage psychologique et rompent la relation de confiance, alors que l'écoute active, la clarté du langage et la rétroaction facilitent la communication.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. IEC / CCSC et Communication interpersonnelle, p. 98.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__50",
+       "num": "51",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La mobilisation sociale permet de participer à: (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La réalisation des soins curatifs et préventifs"
+        },
+        {
+         "letter": "B",
+         "text": "La réalisation d'un objectif de développement"
+        },
+        {
+         "letter": "C",
+         "text": "L'aménagement des villes et des communautés"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. La réalisation d'un objectif de développement",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La mobilisation sociale est un processus d'alliance et de participation active de l'ensemble des forces vives d'une société (autorités, société civile, communautés) en vue de la réalisation d'un objectif commun de développement et de progrès sanitaire.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Mobilisation sociale et communautaire (L2, p. 8).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__51",
+       "num": "52",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Avant le transfert d'un patient vers une structure de référence, quelles sont les quatre actions appropriées pour le prestataire d'un ESPC ? (4 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Informer le patient et ses accompagnants de la nécessité de la référence"
+        },
+        {
+         "letter": "B",
+         "text": "Prévenir le service receveur en cas de référence urgente"
+        },
+        {
+         "letter": "C",
+         "text": "Consigner la date de référence dans le registre de consultation"
+        },
+        {
+         "letter": "D",
+         "text": "Expliquer aux accompagnants qu'une contre-référence est déjà établie"
+        },
+        {
+         "letter": "E",
+         "text": "Inscrire à l'avance l'heure de la contre-référence"
+        },
+        {
+         "letter": "F",
+         "text": "Remplir la fiche de référence en précisant le degré d'urgence"
+        },
+        {
+         "letter": "G",
+         "text": "G. Remettre une fiche de contre-référence vierge à la place de la fiche de référence"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Informer le patient et ses accompagnants de la nécessité de la référence ; B. Prévenir le service receveur en cas de référence urgente ; C. Consigner la date de référence dans le registre de consultation ; F. Remplir la fiche de référence en précisant le degré d'urgence",
+       "answerLetters": [
+        "A",
+        "B",
+        "C",
+        "F"
+       ],
+       "explanation": "Avant tout transfert vers l'échelon supérieur, le prestataire de l'ESPC doit : informer le patient et ses accompagnants, remplir la fiche de référence en indiquant le degré d'urgence, prévenir la structure receveuse en cas d'urgence et consigner la référence dans le registre (la contre-référence étant renseignée uniquement par la structure receveuse après les soins).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Organisation de la référence / contreréférence (L3, p. 20).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__52",
+       "num": "53",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Selon la classification des composantes essentielles des SSP, lesquelles sont classées comme préventives ? (3 bonnes réponses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Protection maternelle et infantile, y compris santé de la reproduction et planification familiale"
+        },
+        {
+         "letter": "B",
+         "text": "Prévention et lutte contre les endémies locales"
+        },
+        {
+         "letter": "C",
+         "text": "Promotion de bonnes conditions alimentaires et nutritionnelles"
+        },
+        {
+         "letter": "D",
+         "text": "Approvisionnement suffisant en eau saine et mesures d'assainissement de base"
+        },
+        {
+         "letter": "E",
+         "text": "Vaccination contre les principales maladies infectieuses"
+        },
+        {
+         "letter": "F",
+         "text": "Traitement des maladies et lésions courantes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Protection maternelle et infantile, y compris santé de la reproduction et planification familiale ; B. Prévention et lutte contre les endémies locales ; E. Vaccination contre les principales maladies infectieuses",
+       "answerLetters": [
+        "A",
+        "B",
+        "E"
+       ],
+       "explanation": "Parmi les 8 composantes essentielles des SSP, le volet préventif regroupe la PMI / planification familiale, la prévention et la lutte contre les endémies locales et la vaccination contre les principales maladies infectieuses (l'alimentation et l'eau/assainissement relèvent du volet promotionnel, et le traitement des maladies courantes du volet curatif).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Soins de Santé Primaires (SSP), p. 91.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__53",
+       "num": "54",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la méthode de calcul, quel est l'ordre logique des étapes pour déterminer une commande de vaccins ? 1. Stock de sécurité ; 2. Besoin réel ; 3. Besoin théorique ; 4. Quantité à commander ; 5. Quantité en stock. (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "(4, 5, 2, 1, 3)"
+        },
+        {
+         "letter": "B",
+         "text": "(3, 1, 2, 5, 4)"
+        },
+        {
+         "letter": "C",
+         "text": "(5, 3, 4, 2, 1)"
+        },
+        {
+         "letter": "D",
+         "text": "(1, 2, 3, 4, 5)"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. (3, 1, 2, 5, 4)",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le calcul d'une commande de vaccins suit l'ordre logique suivant : 1) calculer le besoin théorique (3) ; 2) calculer le stock de sécurité (1) ; 3) additionner les deux pour obtenir le besoin réel (2) ; 4) relever la quantité en stock disponible (5) ; 5) soustraire le stock disponible du besoin réel pour déterminer la quantité à commander (4), soit (3, 1, 2, 5, 4).\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables). IV. ÉTUDE DE CAS N° 2 — CSR DE LOLOBO Énoncé du cas : Vous êtes en service au CSR de LOLOBO dont l'aire sanitaire compte 20 000 habitants au 1er janvier 2024, avec un taux d'accroissement annuel constant de 2 %. En 2024, les données enregistrées sont : 5 000 cas de paludisme ; 60 diabétiques dont un tiers diagnostiqué avant 2024 ; 5 000 cas d'infections respiratoires aiguës ; 50 décès liés au paludisme ; 40 décès liés aux infections respiratoires aiguës ; 5 décès des suites du diabète.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__54",
+       "num": "55",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel est le taux de létalité du paludisme dans l'aire sanitaire ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "0,8%"
+        },
+        {
+         "letter": "B",
+         "text": "1%"
+        },
+        {
+         "letter": "C",
+         "text": "8,33%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 1%",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le taux de létalité rapporte le nombre de décès imputables à une maladie au nombre total de cas enregistrés de cette même maladie : Taux de létalité = 5 50 000 × 100 = 1 %.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 3 (Morbidité, incidence, prévalence et mortalité générale).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__55",
+       "num": "56",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel est le taux d'incidence du diabète dans l'aire sanitaire en 2024 ? (1 bonne réponse)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "0,19%"
+        },
+        {
+         "letter": "B",
+         "text": "0,20%"
+        },
+        {
+         "letter": "C",
+         "text": "0,10%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 0,19%",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Sur 60 diabétiques, un tiers (20) a été diagnostiqué avant 2024 ; les nouveaux cas en 2024 sont donc 60 − 20 = 40 cas. Avec une population moyenne de 20 000 +2 20 400 = 20 200 hab., le taux d'incidence est 2040200 × 100 = 0,198 % (arrondi par défaut à 0,19 %).\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 2 et 3.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j7-ide3sf3__56",
+       "num": "57",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle est la population totale de l'aire sanitaire du CSR de Lolobo au 31 décembre 2024 ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "20 400"
+        },
+        {
+         "letter": "B",
+         "text": "20 200"
+        },
+        {
+         "letter": "C",
+         "text": "20 100"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 20 400",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "À partir d'une population initiale de 20 000 habitants au 1er janvier 2024 et d'un taux d'accroissement annuel de 2 %, la population au 31 décembre 2024 s'élève à : P2024 = 20 000 × (1 + 0,02) = 20 400 habitants (20 200 correspondant à la population moyenne).\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 2 (Démographie, natalité et fécondité).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J7 (IDE3/SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

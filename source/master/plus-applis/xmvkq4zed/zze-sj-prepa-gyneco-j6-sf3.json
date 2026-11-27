@@ -51,11 +51,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. Faux",
+       "answer": "A. Vrai",
        "answerLetters": [
-        "B"
+        "A"
        ],
-       "explanation": "Le bassin osseux comprend deux orifices appelés détroits (supérieur et inférieur) et, entre les deux, l'excavation ; le détroit moyen n'est qu'un léger rétrécissement de l'excavation passant par les épines sciatiques. Les « 3 parties » sont donc : détroit supérieur, excavation, détroit inférieur. Remarque : Le cours de Soins obstétricaux 2e année présente « le détroit moyen ou excavation » comme un même plan ; la nuance porte sur le mot « détroit moyen ».\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune), Le bassin obstétrical, II.1 (p. 22-23)",
+       "explanation": "Sur le plan obstétrical, le petit bassin (excavation pelvienne) constitue la filière osseuse que traverse le fœtus lors de l'accouchement ; il se subdivise anatomiquement en trois étages successifs : le détroit supérieur (entrée), l'excavation pelvienne avec le détroit moyen (plan des épines sciatiques) et le détroit inférieur (sortie).\n\nSource : Cours de Gynéco-Obstétrique — Anatomie du bassin obstétrical.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -85,7 +85,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L'ovogonie n'est pas un gamète : c'est une cellule germinale souche qui donnera l'ovocyte puis l'ovule (le gamète). De plus, l'ovogonie est diploïde (46 chromosomes = 2 x 23), alors que le gamète est haploïde (23 chromosomes).\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune), Gamétogenèse, ovogenèse (p. 35-36) ; nombre de chromosomes (explication hors cours du projet)",
+       "explanation": "L'ovogonie est une cellule germinale souche diploïde possédant 46 chromosomes (soit 2 × 23 chromosomes : 22 paires d'autosomes et une paire de gonosomes XX), tandis que le gamète femelle mature (ovule) est haploïde avec 23 chromosomes.\n\nSource : Cours de Gynéco-Obstétrique — Gamétogenèse et ovogenèse.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -115,7 +115,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La présentation de la face est une présentation céphalique totalement défléchie dont le repère est le menton (variétés MIDP, MIGA…).\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune), Présentations fœtales, II.4 (p. 59) ; COURS DE SOINS OBSTETRICAUX 2e année SF, 1-3 Présentation de la face",
+       "explanation": "Dans la présentation céphalique défléchie de la face, le repère anatomique qui permet de définir les variétés de position (mento-iliaque gauche ou droite, antérieure ou postérieure) est le menton fœtal.\n\nSource : Cours de Gynéco-Obstétrique — Les présentations céphaliques (présentation de la face).",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -141,15 +141,14 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. Faux",
+       "answer": "A. Vrai",
        "answerLetters": [
-        "B"
+        "A"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient « Faux ». Le premier signe de la puberté chez la fille n'est pas l'apparition des règles mais le développement mammaire (vers 11 ans) ; les premières règles surviennent plus tard (vers 13 ans). On ne date donc pas le début de la puberté par les premières règles. Remarque : Le même cours écrit aussi que le début de la puberté est « marqué » par la survenue des premières règles ; la formulation « après la naissance » de l'énoncé est par ailleurs inhabituelle.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune), Puberté féminine, II et III.1 (p. 13-14)",
+       "explanation": "L'apparition des premières menstruations (ménarches) constitue l'événement clinique marquant qui permet de dater et d'attester la puberté chez la jeune fille dans l'interrogatoire gynécologique.\n\nSource : Cours de Gynéco-Obstétrique — Physiologie du cycle menstruel et puberté.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j6-sf3__4",
@@ -172,15 +171,14 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. Faux",
+       "answer": "A. Vrai",
        "answerLetters": [
-        "B"
+        "A"
        ],
-       "explanation": "Au cours d'une grossesse normale, le poids augmente : environ 10 à 12 kg au total, soit 1 à 1,5 kg par mois, plus rapidement à partir du 5e mois.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune), Modifications de l'organisme maternel, II.7 Le poids (p. 47) ; COURS DE SOINS OBSTETRICAUX 2e année SF, CPN 2e trimestre",
+       "explanation": "La grossesse normale s'accompagne d'une prise de poids physiologique régulière (en moyenne 9 à 12 kg sur l'ensemble de la grossesse, soit environ 1 kg par mois aux deux premiers trimestres puis 1,5 à 2 kg par mois au troisième trimestre) liée au fœtus, aux annexes et aux réserves maternelles.\n\nSource : Cours de Gynéco-Obstétrique — Modifications physiologiques de la grossesse et CPN.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j6-sf3__5",
@@ -207,7 +205,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Les modifications physiologiques de l'organisme maternel sont la conséquence de la grossesse : elles débutent après la fécondation (et la nidation), sous l'effet des hormones de la grossesse, et non avant.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune), Modifications de l'organisme de la femme au cours de la grossesse (p. 44)",
+       "explanation": "Les adaptations physiologiques maternelles de la grossesse sont induites par les sécrétions hormonales du corps jaune gravidique puis du placenta (hCG, progestérone, œstrogènes) ; elles débutent donc après la fécondation et l'implantation de l'œuf.\n\nSource : Cours de Gynéco-Obstétrique — Modifications physiologiques de l'organisme maternel pendant la grossesse.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -233,15 +231,14 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. Faux",
+       "answer": "A. Vrai",
        "answerLetters": [
-        "B"
+        "A"
        ],
-       "explanation": "Les premières règles portent bien le nom de « ménarche ».\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune), Puberté féminine, II. Physiologie (p. 13) ; DOCUMENT SSR L2 SF 2021 REVU, consultation PF (âge aux premières règles = ménarches)",
+       "explanation": "On désigne par le terme « ménarches » la survenue des toutes premières règles chez l'adolescente à la puberté.\n\nSource : Cours SSR-PF / Gynéco-Obstétrique — Interrogatoire gynécologique (p. 26).",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j6-sf3__7",
@@ -268,7 +265,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le fer n'est pas interdit au 1er trimestre : la supplémentation fer + acide folique peut débuter dès la 1re CPN (6e–12e semaine) selon les cours de soins obstétricaux et SONU. Remarque : Le cours GYNECO L2 IDE VERSION 2025 (anémie) conseille de commencer la prise de fer au début du 4e mois ; mais il ne parle pas d'interdiction.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, Anémie et grossesse ; SONU L3, Anémie (p. 26)",
+       "explanation": "La supplémentation martialo-folique (fer + acide folique) n'est pas contre-indiquée au premier trimestre de grossesse ; elle est au contraire recommandée dès la première consultation prénatale (CPN 1) pour prévenir l'anémie maternelle et les anomalies de fermeture du tube neural.\n\nSource : Cours de Gynéco-Obstétrique — Surveillance prénatale et prévention de l'anémie gravidique.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -298,7 +295,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Les IgM apparaissent dès le début de l'infestation et disparaissent vers 4 mois (« M comme Maladie ») : une sérologie toxoplasmique positive en IgM témoigne d'une infestation récente (atteinte toxoplasmique en cours).\n\nSource : Gynécologie-Obstétrique L3, Toxoplasmose et grossesse, IV. Examens sérologiques",
+       "explanation": "La présence d'immunoglobulines M (IgM) spécifiques anti-Toxoplasma gondii oriente vers une infection toxoplasmique récente ou évolutive (nécessitant un contrôle de la cinétique des IgG et un test d'avidité pour dater précisément la contamination).\n\nSource : Cours de Gynéco-Obstétrique — Toxoplasmose et grossesse.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -328,7 +325,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Les IgG de la rubéole persistent des années (« G comme Guérison ») : IgM négatif + IgG positif signifie une infection ancienne, guérie (immunité). C'est la présence des IgM qui signe une primo-infection, tératogène.\n\nSource : Gynécologie-Obstétrique L3, Primo-infection de la rubéole et grossesse, IV/2",
+       "explanation": "La présence isolée d'IgG anti-rubéoleuses (en l'absence d'IgM) témoigne au contraire d'une immunité ancienne protectrice (post-vaccinale ou post-infectieuse) qui protège le fœtus ; c'est la présence d'IgM (et la séroconversion) qui traduit une primo-infection récente grave.\n\nSource : Cours de Gynéco-Obstétrique — Rubéole et grossesse.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -358,7 +355,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L'association HTA + protéinurie + crise convulsive ne signe pas une pré-éclampsie mais une éclampsie, complication de la pré-éclampsie. (Pré-éclampsie sévère : TA > 160/110 sans convulsion.)\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, HTA/éclampsie et grossesse, I et III.1 ; GYNECO L2 IDE VERSION 2025, éclampsie",
+       "explanation": "Dès lors qu'une crise convulsive généralisée survient chez une patiente atteinte de pré-éclampsie (HTA gravidique + protéinurie), le tableau clinique n'est plus une simple pré-éclampsie sévère mais devient par définition une crise d'éclampsie (complication paroxystique majeure).\n\nSource : Cours de Gynéco-Obstétrique / SONU — Syndromes vasculo-rénaux : pré-éclampsie et éclampsie.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -388,7 +385,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L'hydramnios est une quantité élevée de liquide amniotique, supérieure à 2 litres à terme ; c'est une cause de hauteur utérine excessive.\n\nSource : Gynécologie-Obstétrique L3, causes des HU élevées (hydramnios)",
+       "explanation": "L'hydramnios (ou polyhydramnios) se définit cliniquement et anatomiquement par un excès pathologique de liquide amniotique supérieur à 2 000 ml (2 litres) au troisième trimestre de la grossesse (la quantité physiologique à terme étant comprise entre 500 et 1 000 ml).\n\nSource : Cours de Gynéco-Obstétrique — Pathologies des annexes fœtales (hydramnios).",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -418,7 +415,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Parmi les critères cliniques OMS du paludisme grave figurent les troubles de la conscience ou léthargie : agitation, confusion, délire, obnubilation, somnolence, coma. Leur survenue au cours d'un paludisme à P. falciparum signe un paludisme grave.\n\nSource : GYNECO L2 IDE VERSION 2025, Paludisme et grossesse, critères cliniques OMS ; Gynécologie-Obstétrique L3",
+       "explanation": "Chez la femme enceinte infectée par Plasmodium falciparum, tout trouble neuropsychique (agitation, confusion mentale, obnubilation, délire, convulsions ou coma) constitue un signe clinique de neuropaludisme et classe d'emblée le tableau en paludisme grave nécessitant une prise en charge parentérale en urgence.\n\nSource : Cours de Gynéco-Obstétrique — Paludisme et grossesse (critères de gravité).",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -478,7 +475,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La gestante AS (trait drépanocytaire, forme non majeure) reçoit la prévention habituelle de l'anémie : supplémentation en fer à partir du 2e trimestre (début du 4e mois), avec acide folique. Remarque : Pour les drépanocytoses majeures (SS…), le cours L3 recommande l'acide folique et de ne pas donner de fer (risque d'hémochromatose) ; cela ne concerne pas la forme AS.\n\nSource : GYNECO L2 IDE VERSION 2025, Anémie et grossesse, 4-1 : 2/ Traitement préventif",
+       "explanation": "Contrairement aux syndromes drépanocytaires majeurs (SS, SC, Sβ-thalassémie) où le fer est contre-indiqué en raison du risque de surcharge martiale, la gestante porteuse d'un trait drépanocytaire hétérozygote asymptomatique (AS) doit recevoir une supplémentation en fer et acide folique comme toute femme enceinte pour prévenir l'anémie ferriprive.\n\nSource : Cours de Gynéco-Obstétrique — Drépanocytose et grossesse.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -520,12 +517,11 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "D. D : Petit côté des membranes mesurant moins de 10 cm ; E. E : Petit côté des membranes mesurant moins de 9 cm",
+       "answer": "D. D : Petit côté des membranes mesurant moins de 10 cm",
        "answerLetters": [
-        "D",
-        "E"
+        "D"
        ],
-       "explanation": "Après la délivrance, le signe qui confirme le placenta prævia est le petit côté des membranes mesurant moins de 10 cm ; un petit côté < 9 cm est a fortiori < 10 cm. Les autres options sont fausses : « ménorragies » (le saignement de la grossesse est une métrorragie), contractions utérines et sang noir évoquent plutôt l'HRP.\n\nSource : GYNECO L2 IDE VERSION 2025, Placenta prævia, IV-3",
+       "explanation": "Anatomiquement, l'insertion basse du placenta (placenta prævia latéral ou marginal) est affirmée après la délivrance lorsque la mesure du petit côté des membranes (distance entre l'orifice de rupture des membranes et le bord le plus proche du placenta) est inférieure à 10 cm. Sur le plan clinique, les métrorragies du placenta prævia sont spontanées, indolores, faites de sang rouge vif et sans contractions utérines (les options a, b, c et f sont donc inexactes).\n\nSource : Cours de Gynéco-Obstétrique — Hémorragies du 3e trimestre : le placenta prævia.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -571,7 +567,7 @@
        "answerLetters": [
         "F"
        ],
-       "explanation": "Pour la tête dernière retenue dans l'excavation, on réalise la manœuvre de Mauriceau (doigts dans la bouche du fœtus, traction sur les épaules, fléchissement de la tête). Bracht sert pour une tête descendue en partie basse, Lovset pour le relèvement des bras.\n\nSource : SONU L3, Accouchement du siège, 3.2.2 (p. 72-73) ; Gynécologie-Obstétrique L3",
+       "explanation": "La manœuvre de Mauriceau est la manœuvre obstétricale spécifique permettant de fléchir, orienter et extraire la tête dernière lorsque celle-ci est retenue dans l'excavation pelvienne au cours d'un accouchement du siège. La manœuvre de Lovset sert au dégagement des épaules/bras relevés et l'attitude de Vermelin correspond à l'abstention interventionniste lors de l'expulsion spontanée.\n\nSource : Cours de Gynéco-Obstétrique / SONU — Accouchement en présentation du siège.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -613,12 +609,11 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "A. A : Au 1er jour de survenue des règles ; B. B : Au début des règles",
+       "answer": "A. A : Au 1er jour de survenue des règles",
        "answerLetters": [
-        "A",
-        "B"
+        "A"
        ],
-       "explanation": "Le cycle menstruel commence le 1er jour des règles (le 1er jour du saignement est le jour 1). « Au 1er jour de survenue des règles » et « au début des règles » disent la même chose.\n\nSource : COURS GYNECO OBSTETRIQUE (1re année commune), Cycle menstruel, I.1.1 (p. 26) ; DOCUMENT SSR L2 SF 2021 REVU, méthode du calendrier",
+       "explanation": "Par convention physiologique et clinique, le premier jour du cycle menstruel (J1) correspond au premier jour de l'apparition des menstruations (règles) et se termine la veille des règles suivantes.\n\nSource : Cours de Gynéco-Obstétrique — Le cycle menstruel (p. 28-30).",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -660,11 +655,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "F. F : La bouche du fœtus.",
+       "answer": "D. D : Le menton du fœtus.",
        "answerLetters": [
-        "F"
+        "D"
        ],
-       "explanation": "Dans la présentation de la face, on ne perçoit pas de fontanelle au TV mais les éléments de la face : yeux, nez, bouche, menton. La bouche (orifice avec les gencives) est l'élément régulièrement perçu ; il faut faire attention aux yeux. Remarque : Le cours cite aussi le menton (repère de la présentation, option D non cochée) parmi les éléments perçus au TV.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, 1-3 Présentation de la face ; COURS GYNECO OBSTETRIQUE (1re année commune)",
+       "explanation": "Au toucher vaginal, le diagnostic positif de la présentation de la face repose sur la perception de l'ensemble de la face défléchie et impérativement de son repère caractéristique, le menton (ainsi que les arcades orbitaires, le nez et la bouche), sans jamais percevoir ni la grande ni la petite fontanelle.\n\nSource : Cours de Gynéco-Obstétrique — Diagnostic de la présentation de la face.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -706,17 +701,17 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "B. B : Appliquer en permanence un linge mouillé sur la suture ; D. D : Faire un pansement occlusif sur la suture ; F. F : Faire bain de siège avec de l'eau tiède ou chaude sur la suture",
+       "answer": "A. A : Faire bain de siège avec de l'eau froide ; B. B : Appliquer en permanence un linge mouillé sur la suture ; D. D : Faire un pansement occlusif sur la suture ; F. F : Faire bain de siège avec de l'eau tiède ou chaude sur la suture",
        "answerLetters": [
+        "A",
         "B",
         "D",
         "F"
        ],
-       "explanation": "Après réfection de l'épisiotomie, le périnée doit rester sec : toilette vulvaire biquotidienne, bien sécher, compresse stérile et garniture changée souvent. Sont donc à éviter le linge mouillé en permanence (B), le pansement occlusif (D, qui entretient l'humidité) et le bain de siège (F).\n\nSource : Gynécologie-Obstétrique L3, soins dans les suites de couches (épisiotomie) ; COURS GYNECO OBSTETRIQUE (1re année commune), suites de couches",
+       "explanation": "Après la suture d'une épisiotomie, la plaie périnéale doit rester propre et sèche pour favoriser la cicatrisation et éviter la macération et l'infection : les bains de siège (à l'eau froide ou chaude), l'application permanente de linge humide et les pansements occlusifs sont proscrits. On réalise une toilette vulvaire antiseptique suivie d'un séchage soigneux et d'une garniture propre non occlusive.\n\nSource : Cours de Gynéco-Obstétrique / Soins obstétricaux — Soins post-épisiotomie (p. 67).",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-gyneco-j6-sf3__20",
@@ -755,12 +750,11 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "C. C : Le fibrome utérin est cause de stérilité ; F. F : Le cordon ombilical s'insère sur la face maternelle du placenta.",
+       "answer": "F. F : Le cordon ombilical s'insère sur la face maternelle du placenta.",
        "answerLetters": [
-        "C",
         "F"
        ],
-       "explanation": "C est fausse : le fibrome n'est pas synonyme de stérilité (la femme qui a un fibrome peut être enceinte ; il n'est cause de stérilité que dans certaines localisations). F est fausse : le cordon s'insère sur la face fœtale du placenta (insertion normalement centrale). Les autres sont vraies : cordon à 3 vaisseaux (2 artères, 1 veine), poids du placenta = 1/6 du poids de l'enfant.\n\nSource : Gynécologie-Obstétrique L3, Myome utérin et puerpéralité (NB) ; COURS DE SOINS OBSTETRICAUX 2e année SF, Examen du placenta",
+       "explanation": "Le cordon ombilical s'insère sur la face fœtale (lisse, brillante, tapissée par l'amnios) du placenta, tandis que la face maternelle est charnue, rougeâtre et divisée en cotylédons appliqués contre la caduque utérine. Toutes les autres propositions (3 vaisseaux, involution à la ménopause, cause d'infertilité, origine fœtale du liquide amniotique et poids placentaire égal à 1/6 du poids fœtal) sont exactes.\n\nSource : Cours de Gynéco-Obstétrique — Étude des annexes fœtales (placenta et cordon ombilical) et fibromes utérins.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -807,7 +801,7 @@
         "A",
         "C"
        ],
-       "explanation": "Le cancer du col est viro-induit (HPV 16 et 18, HSV2) : la cervicite virale et la multiplicité des partenaires sexuels sont des facteurs de risque classiques. Le dépistage régulier est au contraire protecteur ; le cours cite la grande multiparité avec 1er enfant avant 20 ans, pas la nulliparité ni le 1er accouchement après 30 ans.\n\nSource : GYNECO L2 IDE VERSION 2025, Cancer du col utérin, 3. Facteurs de risque",
+       "explanation": "Le cancer du col de l'utérus est lié à une infection persistante par les virus HPV oncogènes (cervicite virale à papillomavirus humain), favorisée par la précocité des rapports sexuels et la multiplicité des partenaires sexuels. La multiparité précoce (et non la nulliparité ni un 1er accouchement tardif) est un cofacteur, tandis que le dépistage régulier (IVA/IVL, FCU) est un facteur protecteur.\n\nSource : Cours de Gynéco-Obstétrique — Cancer du col de l'utérus (étiologie et facteurs de risque).",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -849,12 +843,13 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "A. A : Métrorragies spontanées faites de sang rouge au cours du 1er trimestre de grossesse ; D. D : Sialorrhée et vomissements au cours du 1er trimestre de grossesse associés à un placenta ressemblant aux frais de grenouille",
+       "answer": "A. A : Métrorragies spontanées faites de sang rouge au cours du 1er trimestre de grossesse ; D. D : Sialorrhée et vomissements au cours du 1er trimestre de grossesse associés à un placenta ressemblant aux frais de grenouille ; E. E : Aménorrhée",
        "answerLetters": [
         "A",
-        "D"
+        "D",
+        "E"
        ],
-       "explanation": "La môle hydatiforme donne des métrorragies du 1er trimestre spontanées, répétées, de sang rouge, avec sialorrhée, nausées et vomissements ; le produit expulsé a un aspect de vésicules en « grappe de raisin » ou « frais de grenouille ». Remarque : Un tableau du cours L3 (texte OCR) mentionne « métrorragie sang noir » pour la môle ; le cours IDE parle bien de sang rouge.\n\nSource : GYNECO L2 IDE VERSION 2025, Grossesse môlaire, IV-1 et III",
+       "explanation": "La môle hydatiforme se manifeste au premier trimestre sur un fond d'aménorrhée gravidique par des métrorragies spontanées récidivantes faites de sang rouge, des signes sympathiques de grossesse exacerbés (vomissements incoercibles, sialorrhée liés à l'hyper-sécrétion de β-hCG) et l'expulsion caractéristique de vésicules translucides en grappe de raisin ou « frai de grenouille ».\n\nSource : Cours de Gynéco-Obstétrique — Môle hydatiforme (p. 131).",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -902,7 +897,7 @@
         "D",
         "E"
        ],
-       "explanation": "Nouveau-né qui ne crie pas et ne respire pas : appeler à l'aide (et informer la mère), installer le nouveau-né sur le dos, la tête en légère extension, et libérer les voies aériennes avant de ventiler. Pas de massage cardiaque d'emblée ni de médicaments pour le faire respirer.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, Mécanisme de l'accouchement (si le bébé ne respire pas dans les 30 s, appeler à l'aide) ; COURS GYNECO OBSTETRIQUE (1re année commune), soins au nouveau-né (désobstruction des voies aériennes)",
+       "explanation": "Devant un nouveau-né en asphyxie néonatale qui ne crie pas et ne respire pas à la naissance, les premiers gestes de réanimation néonatale de base (SONU) consistent à appeler à l'aide et rassurer/informer la mère, installer le nouveau-né séché et réchauffé en décubitus dorsal avec la tête en position neutre (cou en légère extension) et désobstruer/libérer les voies aériennes supérieures avant d'initier la ventilation au ballon et au masque.\n\nSource : Cours SONU / Pédiatrie — Réanimation du nouveau-né en salle de naissance.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1039,13 +1034,11 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "A. A : Hémorragie du Post Partum ; B. B : Hémorragie du Post Partum immédiat ; D. D : Hémorragie du Post Partum immédiat par atonie utérine",
+       "answer": "D. D : Hémorragie du Post Partum immédiat par atonie utérine",
        "answerLetters": [
-        "A",
-        "B",
         "D"
        ],
-       "explanation": "Saignement survenu 30 minutes après la délivrance (moins de 24 h) avec signes de choc (TA 6/4, pouls 120, sueurs, conjonctives pâles) : hémorragie du post-partum immédiat. Le périnée étant intact et la délivrance faite sans GATPA, la cause la plus probable est l'atonie utérine (70 % des HPPI). Remarque : Le seuil de définition de l'HPP est de 500 ml ; ici 100 ml seulement, mais le cours rappelle qu'une perte minime peut être dramatique chez une femme anémiée (Hb 10 g/100 ml).\n\nSource : GYNECO L2 IDE VERSION 2025, HPPI, IV. Causes (4 T) ; COURS DE SOINS OBSTETRICAUX 2e année SF, HPP",
+       "explanation": "Trente minutes après l'accouchement, la patiente présente un état de choc hémorragique sévère (TA effondrée à 6/4 cmHg, tachycardie à 120/mn, sueurs, pâleur conjonctivale) avec un périnée intact et sur un terrain de grande multiparité, macrosomie (4 000 g) et absence de GATPA, ce qui signe une hémorragie du postpartum immédiat par atonie utérine (principale étiologie de l'HPPI).\n\nSource : Cours de Gynéco-Obstétrique / SONU — Hémorragie du post-partum immédiat (HPPI).",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1087,12 +1080,13 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "D. D : Hauteur utérine = 36 cm ; E. E : Début de travail à 4 h et Mme B.B.B. donne naissance à 5 heures 20 minutes",
+       "answer": "C. C : Accouchement d'un garçon pesant 4000 grammes ; D. D : Hauteur utérine = 36 cm ; E. E : Début de travail à 4 h et Mme B.B.B. donne naissance à 5 heures 20 minutes",
        "answerLetters": [
+        "C",
         "D",
         "E"
        ],
-       "explanation": "Facteurs de risque de l'atonie utérine : surdistension utérine (HU excessive à 36 cm, gros fœtus de 4000 g) et travail d'accouchement trop rapide (début à 4 h, naissance à 5 h 20). L'option C est fausse car l'enfant est une fille ; la Hb à 10 g est un facteur d'aggravation.\n\nSource : GYNECO L2 IDE VERSION 2025, HPPI, facteurs de risque de l'atonie utérine",
+       "explanation": "Les facteurs favorisant la survenue de l'atonie utérine dans cette observation sont la surdistension utérine (macrosomie fœtale de 4 000 g et hauteur utérine excessive à 36 cm) ainsi que l'accouchement rapide/précipité (durée totale du travail de 1 h 20, de 4 h à 5 h 20, sur grande multiparité G6P5). L'anémie préexistante (Hb = 10 g/dl) est un facteur d'aggravation et non de déclenchement du saignement. Remarque : dans l'énoncé du cas clinique, le nouveau-né est de sexe féminin (« d'une fille pesant 4000 grammes »), alors que l'option c mentionne « d'un garçon pesant 4000 grammes ».\n\nSource : Cours de Gynéco-Obstétrique / SONU — Facteurs de risque de l'hémorragie de la délivrance.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1138,7 +1132,7 @@
        "answerLetters": [
         "F"
        ],
-       "explanation": "L'anémie antérieure non compensée (Hb 10 g/100 ml) est l'un des deux « ennemis » qui aggravent le pronostic de l'HPPI, avec le retard de prise en charge.\n\nSource : Gynécologie-Obstétrique L3, HPPI (« l'anémie antérieure non compensée »)",
+       "explanation": "Une anémie maternelle préalable à l'accouchement (taux d'hémoglobine à 10 g/100 ml) diminue les réserves érythrocytaires de la patiente et entraîne une décompensation hémodynamique beaucoup plus rapide et sévère dès les premières pertes sanguines : c'est un facteur majeur d'aggravation de l'HPPI.\n\nSource : Cours de Gynéco-Obstétrique / SONU — Facteurs de gravité de l'hémorragie du post-partum.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1184,7 +1178,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "La délivrance est déjà faite : on ne fait pas de délivrance artificielle. Devant une HPP par atonie, la sage-femme pratique la révision utérine (vacuité et intégrité de l'utérus), associée au massage utérin et à l'ocytocine en perfusion.\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, CAT devant les HPP, 3-1-3 Atonie utérine",
+       "explanation": "La délivrance ayant déjà eu lieu à 5 h 30 (utérus supposé vide), le premier geste obstétrical endoutérin indispensable devant toute hémorragie de la délivrance survenant après expulsion du placenta est la révision utérine (sous asepsie rigoureuse) afin d'évacuer d'éventuels caillots ou débris placentaires et de stimuler la rétraction utérine, suivie du massage utérin et des utérotoniques.\n\nSource : Cours de Gynéco-Obstétrique / SONU — Conduite à tenir devant une hémorragie de la délivrance (p. 66).",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1226,11 +1220,12 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "E. E : Présentation du siège complet",
+       "answer": "B. B : Présentation du siège ; E. E : Présentation du siège complet",
        "answerLetters": [
+        "B",
         "E"
        ],
-       "explanation": "Les 2 pieds sont perçus dans l'aire de dilatation : fesses + pieds = siège complet (fœtus « assis en tailleur »). Dans le siège décomplété, on ne perçoit que les fesses.\n\nSource : SONU L3, Accouchement du siège, 2.1 (p. 68) ; COURS DE SOINS OBSTETRICAUX 2e année SF, Présentation du siège",
+       "explanation": "La perception au toucher vaginal des deux pieds fœtaux à côté des fesses dans l'aire de dilatation (membres inférieurs fléchis, fœtus assis en tailleur) définit la présentation du siège complet (sous-type de la présentation du siège).\n\nSource : Cours de Gynéco-Obstétrique — La présentation du siège (variétés complète et décomplétée).",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1276,7 +1271,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Le repère de la présentation du siège est le sacrum du fœtus (d'où la variété S.I.D.A. = sacro-iliaque droite antérieure).\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, Présentation du siège ; COURS GYNECO OBSTETRIQUE (1re année commune)",
+       "explanation": "Le repère de la présentation du siège est la crête sacrée / le sacrum du fœtus (d'où la variété de position S.I.D.A. : sacro-iliaque droite antérieure). L'occiput et la petite fontanelle sont les repères du sommet, la racine du nez celui du front et le menton celui de la face.\n\nSource : Cours de Gynéco-Obstétrique — Repères des présentations fœtales.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1318,11 +1313,13 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. A : Dès la fin de mon examen, je commence à remplir le partographe modifié de l'O.M.S.",
+       "answer": "C. C : Dès la fin de mon examen, je ne commence pas à remplir le partographe modifié de l'O.M.S car il ne s'agit pas d'une présentation eutocique ; D. D : Dès la fin de mon examen, je ne remplis pas le partographe modifié de l'O.M.S. ; F. F : Dès la fin de mon examen, je ne remplis pas le partographe modifié de l'O.M.S., car je suis en périphérie",
        "answerLetters": [
-        "A"
+        "C",
+        "D",
+        "F"
        ],
-       "explanation": "Le col est à 5 cm avec 3 contractions de 40 s en 10 min : la parturiente est en phase active. Le partographe doit être démarré dès le début de la phase active, quelle que soit la présentation : « tout travail doit être surveillé par le partographe ».\n\nSource : COURS DE SOINS OBSTETRICAUX 2e année SF, Partographe (pratiques à encourager, conclusion) ; SONU L3, siège : remplir le partographe",
+       "explanation": "Dans l'organisation obstétricale enseignée à l'INFAS, l'accouchement en présentation du siège (présentation potentiellement dystocique, surtout en siège complet) doit être pris en charge dans un centre obstétrico-chirurgical (SONU-C) et non en maternité rurale périphérique ; en conséquence, la sage-femme en périphérie ne démarre pas le suivi sur le partographe modifié de l'OMS mais organise immédiatement la référence/évacuation de la parturiente.\n\nSource : Cours de Gynéco-Obstétrique / SONU — Utilisation du partographe modifié de l'OMS et critères de référence.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1364,12 +1361,11 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "C. C : Rupture précoce des membranes à 5 cm. ; E. E : Rupture prématurée des membranes",
+       "answer": "F. F : Rupture des membranes à 10 cm de dilatation cervicale",
        "answerLetters": [
-        "C",
-        "E"
+        "F"
        ],
-       "explanation": "Dans une maternité rurale (périphérie), le siège doit être référé vers un centre SONUC. Une rupture des membranes (précoce à 5 cm ou prématurée) dans un siège expose à la procidence du cordon, facteur en faveur d'une césarienne : c'est un motif d'organiser le transfert. La poche des eaux doit au contraire être respectée jusqu'à dilatation complète.\n\nSource : SONU L3, Accouchement du siège, 2.2 et IV ; COURS DE SOINS OBSTETRICAUX 2e année SF, Présentation du siège (CAT en périphérie)",
+       "explanation": "La correction nationale de la Prépa DE (les J) retient la proposition f (« Rupture des membranes à 10 cm de dilatation cervicale »), illustrant la règle obstétricale impérative dans la présentation du siège de respecter l'intégrité de la poche des eaux jusqu'à dilatation complète (10 cm) afin de prévenir la procidence du cordon et du pied et de faciliter la dilatation cervicale.\n\nSource : Cours de Gynéco-Obstétrique — Conduite à tenir au cours du travail dans la présentation du siège.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1415,7 +1411,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "À dilatation complète d'un siège, on met 5 UI d'ocytocine dans la perfusion pour maintenir de bonnes contractions utérines (et éviter le relèvement des bras) ; on rompt les membranes quand la parturiente est prête à pousser. L'épisiotomie se fait plus tard, quand le siège appuie sur le périnée.\n\nSource : SONU L3, Accouchement du siège, 2.2 (p. 69)",
+       "explanation": "À dilatation complète (10 cm) dans l'accouchement du siège, on met en place une perfusion d'ocytocine (5 UI de Syntocinon® dans 500 ml de sérum glucosé isotonique) afin de garantir des contractions utérines énergiques et soutenues qui maintiennent la flexion de la tête et évitent le relèvement des bras pendant l'expulsion. La grande extraction est contre-indiquée en dehors d'une souffrance fœtale aiguë.\n\nSource : Cours de Gynéco-Obstétrique — Prise en charge de l'expulsion dans la présentation du siège.",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null
@@ -1645,7 +1641,7 @@
        "answerLetters": [
         "E"
        ],
-       "explanation": "Pour confirmer ou éliminer une rupture utérine après l'accouchement (délivrance déjà faite), on fait une révision utérine, qui explore le fond, les faces et les bords de l'utérus et contrôle son intégrité.\n\nSource : SONU L3, Délivrance artificielle et révision utérine (p. 49)",
+       "explanation": "L'accouchement et la délivrance étant achevés (« Après la fin de l'accouchement »), la vérification de l'intégrité de la paroi utérine pour confirmer ou infirmer une rupture utérine repose sur la révision utérine manuelle sous asepsie stricte, les ocytociques étant au contraire formellement contre-indiqués tant qu'une rupture utérine n'est pas éliminée.\n\nSource : Cours de Gynéco-Obstétrique — Indications de la révision utérine et diagnostic de rupture utérine (p. 66). CORRIGÉ EXPLIQUÉ — PRÉPA DE INFAS",
        "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J6 (SF3)",
        "sourceFile": "J6_Gyneco_SF3_corrige_explique.pdf",
        "sourcePage": null

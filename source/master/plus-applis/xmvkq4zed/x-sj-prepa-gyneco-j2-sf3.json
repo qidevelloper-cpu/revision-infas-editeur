@@ -1933,7 +1933,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Les siamois proviennent d'une division tardive d'un œuf unique, donc de jumeaux monozygotes (vrais jumeaux). Les jumeaux bizygotes proviennent de deux ovules distincts et ne peuvent pas être siamois.\n\nSource : (explication hors cours du projet)",
+       "explanation": "Ce phénomène concerne exclusivement les grossesses gémellaires monozygotes (univitellines, issues de la division d'un seul œuf fécondé) : lorsque cette division survient très tardivement (après le 13e jour post-fécondation), elle est incomplète et donne naissance à des jumeaux conjoints (siamois). Les grossesses dizygotes proviennent de deux œufs distincts sans division.\n\nSource : Cours de Gynéco-Obstétrique L3 — Embryologie des grossesses gémellaires monozygotes.",
        "sourceDoc": "Prépa D.E — J2 Gynéco-obstétrique SF3 (corrigé expliqué)",
        "sourceFile": "J2_GYNECO_SF3_J2_corrige_explique.pdf",
        "sourcePage": null

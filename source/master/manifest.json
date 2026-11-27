@@ -1,8 +1,8 @@
 {
  "format": 1,
  "source": "version de travail (dérivée de la référence 62caed85)",
- "taille": 128844337,
- "sha256": "b57b588e17af38bc14ce362a0b4a4cef4629e09d5a12cb8e0cfc8b864786956c",
+ "taille": 130275195,
+ "sha256": "38bd30cb112b810637ea32970f934e8f1ad1e25b03c8fc97172337ae90810f6e",
  "statistiques": {
   "blocs": 1160,
   "images_binaires": 1118,
@@ -16762,8 +16762,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusapp",
-   "octets": 15768,
-   "sha256": "bbb19f3e9e55c0939c190404c6d9cb723b1a2748a597100af5467c851b6429f3",
+   "octets": 19997,
+   "sha256": "c957d60376ffbb1631e2cd1a1111f5c4b244783f1e39b5948aea1da22e14d349",
    "fichier": "plus-applis/index.json",
    "codage": "brut"
   },
@@ -16775,8 +16775,8 @@
   {
    "type": "bloc",
    "id": "app-xdata-plusnat-xmvkq4zed",
-   "octets": 3476635,
-   "sha256": "d348f2515c296ef4008889ec4681d4940aae41b31920a76a6db60826dd5899ff",
+   "octets": 3927421,
+   "sha256": "a93107190ceee22a5a4a4e8278d5032ac47d1347af1da51ead56b15155b565d8",
    "fichier": "plus-applis/xmvkq4zed-natif.json",
    "codage": "brut"
   },
@@ -16788,8 +16788,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--s2-2025",
-   "octets": 861064,
-   "sha256": "ad70e16775cda7e967caf40532a469423fadcf72dc7e563f1300eec8c30534d4",
+   "octets": 898648,
+   "sha256": "43eebab34f209f8e1dfb4b7d92e21e21d68f8db1ab0bebb81de2465940360def",
    "fichier": "plus-applis/xmvkq4zed/s2-2025.json",
    "codage": "brut"
   },
@@ -16801,8 +16801,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--s3-2026",
-   "octets": 2885082,
-   "sha256": "02f3d5e1e3ca7fae67c062220918c8ba9b44981d97f739e7f87343ec30ba7774",
+   "octets": 2884535,
+   "sha256": "361e2785fb2314dd3955afdaefd4304e33f53f932320d2015a25b24640c04e4a",
    "fichier": "plus-applis/xmvkq4zed/s3-2026.json",
    "codage": "brut"
   },
@@ -16814,8 +16814,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--sj-prepa-2026",
-   "octets": 520976,
-   "sha256": "afb83ea321e7d70eaa38d9974d1bafa2983cd5f54ea90bf3d1ce3f70eab2243a",
+   "octets": 543295,
+   "sha256": "a49ad67c3e98e6ccbd7f4a06e6e2a8870db43c79c5a7a730b2edfaa27a8a1187",
    "fichier": "plus-applis/xmvkq4zed/sj-prepa-2026.json",
    "codage": "brut"
   },
@@ -16827,8 +16827,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--t-s3-2026-bouake",
-   "octets": 299597,
-   "sha256": "5d344faf8fcce1be11f1c0e78e1855a0a1afc2169f24c39409e5b76d9089a2da",
+   "octets": 300750,
+   "sha256": "129b55376349f04137454db1b35f0258ca8d1fe7b905c17fe437913dcfa4c604",
    "fichier": "plus-applis/xmvkq4zed/t-s3-2026-bouake.json",
    "codage": "brut"
   },
@@ -16879,8 +16879,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--x-sj-prepa-gyneco-j2-sf3",
-   "octets": 81082,
-   "sha256": "5db44573a889da97aaf58984e97a9afecc8bf11e62ab5fa58e22c9aa6ca8f5c2",
+   "octets": 81321,
+   "sha256": "30340b75c5b1a0bedb9b0a1be741bcae8d137d2de4297687b3f24e51db71b5a0",
    "fichier": "plus-applis/xmvkq4zed/x-sj-prepa-gyneco-j2-sf3.json",
    "codage": "brut"
   },
@@ -16892,8 +16892,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--y-sj-prepa-ped-j2-idesfm",
-   "octets": 82444,
-   "sha256": "aac4d95ac331b63a75816de37ecca391a54ff7ed3e7094258f92aa8143c25a81",
+   "octets": 82385,
+   "sha256": "3eaf89b30afcb803c532411e453bcc636b643649bf26898ec415721006fef653",
    "fichier": "plus-applis/xmvkq4zed/y-sj-prepa-ped-j2-idesfm.json",
    "codage": "brut"
   },
@@ -16918,8 +16918,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--za-sj-prepa-sp-j2-idesfm",
-   "octets": 85493,
-   "sha256": "8e7723baaa3019b91dd3ddb54661076135af12713ca85960785612cbb7011525",
+   "octets": 92114,
+   "sha256": "c14dece0795e7345ca1c9dfa452f8d37b1813c27bf52ab51d2fa1f06acc98f35",
    "fichier": "plus-applis/xmvkq4zed/za-sj-prepa-sp-j2-idesfm.json",
    "codage": "brut"
   },
@@ -16944,8 +16944,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zc-sj-prepa-gyneco-j1-sfm",
-   "octets": 74442,
-   "sha256": "c9fc064c46bdd1e02688607d7cff3b45f6bee4fbd9456e70badf88613934ad8b",
+   "octets": 75238,
+   "sha256": "4664be8386ee78b75588febaefc1c211fa6e0b992f1aa2dd966b3256ccdabe2c",
    "fichier": "plus-applis/xmvkq4zed/zc-sj-prepa-gyneco-j1-sfm.json",
    "codage": "brut"
   },
@@ -16957,8 +16957,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zd-sj-prepa-ssrpf-j1-sfm",
-   "octets": 61553,
-   "sha256": "1352a64346791107fc397b7ff9020d661c4c3a3ce78f93f34fb3bc8f0feadd71",
+   "octets": 61576,
+   "sha256": "88857304a4706756a21d8c95515e180bb5cf37913c65b28d782790ba8bb2f01f",
    "fichier": "plus-applis/xmvkq4zed/zd-sj-prepa-ssrpf-j1-sfm.json",
    "codage": "brut"
   },
@@ -16970,8 +16970,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--ze-sj-prepa-sp-j1-idesfm",
-   "octets": 85387,
-   "sha256": "8963d0e9186c7c693adfa3cf248374d5ac5e9d7d8ad4067777401b9856c5cb26",
+   "octets": 85558,
+   "sha256": "1e210d3e4dbf1203544f292f540543852f2893cef60c0aae6dcbffc4ccec9f3d",
    "fichier": "plus-applis/xmvkq4zed/ze-sj-prepa-sp-j1-idesfm.json",
    "codage": "brut"
   },
@@ -16983,8 +16983,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zf-sj-prepa-ped-j1-idesfm",
-   "octets": 68047,
-   "sha256": "fefc82ae6eb2f1fe00ae3e4a3119658bb3451dbc7b5245646067ea96d4dbe606",
+   "octets": 70599,
+   "sha256": "a8c1fc11661a34da602b6813e8b3cd1deb66605b402b231556a2f761326f11fa",
    "fichier": "plus-applis/xmvkq4zed/zf-sj-prepa-ped-j1-idesfm.json",
    "codage": "brut"
   },
@@ -17048,8 +17048,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zk-sj-prepa-ped-j3-idesfm",
-   "octets": 77916,
-   "sha256": "9858245a839296d07cb80b888113c58cb3354b1fdd6347574b5ee9e01150d6d9",
+   "octets": 73359,
+   "sha256": "8aa7001d040b2d3f1d4c4fdcd24a5aaa1f01cda43ed6e32fb78a37e3b4d8c213",
    "fichier": "plus-applis/xmvkq4zed/zk-sj-prepa-ped-j3-idesfm.json",
    "codage": "brut"
   },
@@ -17087,8 +17087,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zn-sj-prepa-sp-j4-idesfm",
-   "octets": 62397,
-   "sha256": "cc7868b3ed5699a9d85f5ffef1547caa7f8aed7e4f1226de78325dd977ae30aa",
+   "octets": 62636,
+   "sha256": "8bdb474b4deb6d3279c7dda464f52785c0dd021a9e9e715a0b55efdbf5a48a18",
    "fichier": "plus-applis/xmvkq4zed/zn-sj-prepa-sp-j4-idesfm.json",
    "codage": "brut"
   },
@@ -17113,8 +17113,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zp-sj-prepa-gyneco-j3-sf3",
-   "octets": 64354,
-   "sha256": "68fb1b27a4b8fe05e06f6221b7f3f09f7e0b9d62a43a1bb635204e64dfd3d94c",
+   "octets": 64782,
+   "sha256": "88f6a1c13ac3bafb1e84536aa227798f7c70aa41954685db6a72bf066e36f525",
    "fichier": "plus-applis/xmvkq4zed/zp-sj-prepa-gyneco-j3-sf3.json",
    "codage": "brut"
   },
@@ -17126,8 +17126,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zq-sj-prepa-ssrpf-j3-sf3",
-   "octets": 86072,
-   "sha256": "ae6e5362f518d42a6caadb157b574a869b8153b774b97ddd4f45e6c1e479592e",
+   "octets": 86235,
+   "sha256": "d019252743627ce082ab59c4ac9b58aceb9940f968daea733031f0ecff4d780b",
    "fichier": "plus-applis/xmvkq4zed/zq-sj-prepa-ssrpf-j3-sf3.json",
    "codage": "brut"
   },
@@ -17139,8 +17139,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zr-sj-prepa-gyneco-j4-sf3",
-   "octets": 86798,
-   "sha256": "91982d575a0e710155991909ebc7f88c1eda0ed4db35cdb796e570fcc35e26e1",
+   "octets": 86884,
+   "sha256": "4c0c1bdd4f228cb48fae2207ab35c1d7d42c76207d390046db8f6b0a451a95cb",
    "fichier": "plus-applis/xmvkq4zed/zr-sj-prepa-gyneco-j4-sf3.json",
    "codage": "brut"
   },
@@ -17152,8 +17152,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zs-sj-prepa-ssrpf-j4-sfm",
-   "octets": 74779,
-   "sha256": "ac6b1790604fc608155ded39770686127aa65ae6b3417b5f1e923fb3a8efdf7f",
+   "octets": 77558,
+   "sha256": "7e6f7324233d7be88d802584994fcfc944c91dbc81fe579f832a15756d450a67",
    "fichier": "plus-applis/xmvkq4zed/zs-sj-prepa-ssrpf-j4-sfm.json",
    "codage": "brut"
   },
@@ -17178,8 +17178,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zu-sj-prepa-gyneco-j5-sfm",
-   "octets": 74814,
-   "sha256": "7154e958b5f9d8ee1fec6f43210a8e8b25b8c64822d2ecfe2360423b28f44abf",
+   "octets": 78725,
+   "sha256": "5d11f3db272e05ddd87b466616a260bc60d46918d91c32aac50713aff0d3a3dc",
    "fichier": "plus-applis/xmvkq4zed/zu-sj-prepa-gyneco-j5-sfm.json",
    "codage": "brut"
   },
@@ -17191,8 +17191,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zv-sj-prepa-med-j5-ide3",
-   "octets": 62201,
-   "sha256": "85ccfe701fd35ef40cc7671c302f3941f1ebe72bf51f20a69222e618c5cfcab4",
+   "octets": 62224,
+   "sha256": "cbdc4c1b7c95736ebb10243b1df27b0cb37adcbebe79fd0976cb9a566d447762",
    "fichier": "plus-applis/xmvkq4zed/zv-sj-prepa-med-j5-ide3.json",
    "codage": "brut"
   },
@@ -17217,8 +17217,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zx-sj-prepa-sp-j5-idesfm",
-   "octets": 86657,
-   "sha256": "4cf8123df085a658d2b3bbfc4ecc27fd17065287451ab48199a9f9bc0f3c56cb",
+   "octets": 92502,
+   "sha256": "86609dbfe7e60f980b3671b8da75a812dc6f36ecee744c8e0723e93d13f747da",
    "fichier": "plus-applis/xmvkq4zed/zx-sj-prepa-sp-j5-idesfm.json",
    "codage": "brut"
   },
@@ -17230,8 +17230,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zy-sj-prepa-ssrpf-j5-sfm",
-   "octets": 87431,
-   "sha256": "d2b80ec394f51f96fa4b47aab082f2a673661aa579b19f21b2a0c445717ef71c",
+   "octets": 87495,
+   "sha256": "da1332e3c535991448514c6d10d4ced8ba561f4a25ea14bc0665434068381ac1",
    "fichier": "plus-applis/xmvkq4zed/zy-sj-prepa-ssrpf-j5-sfm.json",
    "codage": "brut"
   },
@@ -17243,8 +17243,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zza-sj-prepa-med-j6-ide3",
-   "octets": 63013,
-   "sha256": "1bb5a0c69625c0e206e8ec7cd88e7966a1b0e7b0bef7539116be5431e9c23d48",
+   "octets": 63036,
+   "sha256": "2f9d015ea68a26334b4db6919c59893c848515c98fd4a0c1be92dc8cbe3b77d7",
    "fichier": "plus-applis/xmvkq4zed/zza-sj-prepa-med-j6-ide3.json",
    "codage": "brut"
   },
@@ -17269,8 +17269,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zzc-sj-prepa-ped-j6-idesfm",
-   "octets": 74117,
-   "sha256": "22b272883ee54b15e502bcceb053e20c48515937cb405d9ff3ff8fecd91e184f",
+   "octets": 73227,
+   "sha256": "261903ef345cb9a540eeee9b313c2fd16dadb5c09349b7cf4c43ee5019959db0",
    "fichier": "plus-applis/xmvkq4zed/zzc-sj-prepa-ped-j6-idesfm.json",
    "codage": "brut"
   },
@@ -17295,8 +17295,8 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zze-sj-prepa-gyneco-j6-sf3",
-   "octets": 77798,
-   "sha256": "bf7bec6e0dc99170ffdcca1cf6d8d07b71c798181a819d8f660148111b275447",
+   "octets": 79305,
+   "sha256": "1c07719fe2b69c6e4c3fbcfec3425c2a9670c1a946dbfbbba667db0e41f02cec",
    "fichier": "plus-applis/xmvkq4zed/zze-sj-prepa-gyneco-j6-sf3.json",
    "codage": "brut"
   },
@@ -17308,9 +17308,165 @@
   {
    "type": "bloc",
    "id": "app-src-xmvkq4zed--zzf-sj-prepa-ssrpf-j6-sf3",
-   "octets": 66078,
-   "sha256": "48056e947dfbdf050931d1a5e17fe34d51323fe085550ba5fe720b44d94aeee4",
+   "octets": 66101,
+   "sha256": "a2f244a4746cace9cf8d669c029f90e49163d20e7ad925271b32003fe88f8e4b",
    "fichier": "plus-applis/xmvkq4zed/zzf-sj-prepa-ssrpf-j6-sf3.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzg-sj-prepa-med-j10-sf3\">",
+   "sha256": "93899a3a5c14a51543019da5782775acf6da1cf7f6e06715606044df85d145c1"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzg-sj-prepa-med-j10-sf3",
+   "octets": 89679,
+   "sha256": "d512f3f40991002ab7ab1067f5c5822524373ef18b39477041392f4383930d01",
+   "fichier": "plus-applis/xmvkq4zed/zzg-sj-prepa-med-j10-sf3.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzh-sj-prepa-gyneco-j7-sfm\">",
+   "sha256": "42d4eaaf4f4db809b3cad254fc3abaf981172801b10362d534419ad425de78c3"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzh-sj-prepa-gyneco-j7-sfm",
+   "octets": 80121,
+   "sha256": "cd42c2875f920c78fb433e3ae6f2e3b678d05958a5f8f5bc22abf7fa43c1557a",
+   "fichier": "plus-applis/xmvkq4zed/zzh-sj-prepa-gyneco-j7-sfm.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzi-sj-prepa-ssrpf-j7-sf3\">",
+   "sha256": "842019eb63aa20572c8dd01015cc32946b432d3d5fd0cf86d60faf16d7392528"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzi-sj-prepa-ssrpf-j7-sf3",
+   "octets": 75903,
+   "sha256": "38a87cdcd9d9c9578e40f9c3251eaf33a4c24f9ad3f84440cf6633773c17f0a3",
+   "fichier": "plus-applis/xmvkq4zed/zzi-sj-prepa-ssrpf-j7-sf3.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzj-sj-prepa-sp-j7-ide3sf3\">",
+   "sha256": "8dc71d193083402f7a8ecbd86294ca1099eafcbfccb320992304e6b30ba09e2c"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzj-sj-prepa-sp-j7-ide3sf3",
+   "octets": 86502,
+   "sha256": "1b1de7d692ba15554ab064ee13aee8bdaab922bd54b6536951c07b76f14df1ce",
+   "fichier": "plus-applis/xmvkq4zed/zzj-sj-prepa-sp-j7-ide3sf3.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzk-sj-prepa-ped-j7-sf3\">",
+   "sha256": "c82431b131e9d39c12c6424f2024dd7f355cb3d8c862db0a8dedff729de482c4"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzk-sj-prepa-ped-j7-sf3",
+   "octets": 70230,
+   "sha256": "1ac9032bb32bd68288816dab7a96f630fde47ef9f953c0126bf20582474265ac",
+   "fichier": "plus-applis/xmvkq4zed/zzk-sj-prepa-ped-j7-sf3.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzl-sj-prepa-ped-j8-idesfm\">",
+   "sha256": "02cbe6b8bac48161b886a1c2164771a9155a18fc553541405895fe0bb6fca890"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzl-sj-prepa-ped-j8-idesfm",
+   "octets": 67375,
+   "sha256": "fbf0d753a194b52917c95c1bf02ade1dee5a9e2ea4d48fefdf7c83e5f27a5819",
+   "fichier": "plus-applis/xmvkq4zed/zzl-sj-prepa-ped-j8-idesfm.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzm-sj-prepa-sp-j8-idesfm\">",
+   "sha256": "6ea4e28cc2f549c2ea29bdb6578c0b0c50453e95cee51531bd019497c7008b0a"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzm-sj-prepa-sp-j8-idesfm",
+   "octets": 63547,
+   "sha256": "446fba18f11be624b4ad93461edc14258017bff66dfcb2412375d9300b41f8a3",
+   "fichier": "plus-applis/xmvkq4zed/zzm-sj-prepa-sp-j8-idesfm.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzn-sj-prepa-gyneco-j9-sf3\">",
+   "sha256": "32f8eb9923fd77b582c888c795cfed1bdd45b8f9b7e31b85f7c77a0ac8f9f2f6"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzn-sj-prepa-gyneco-j9-sf3",
+   "octets": 62264,
+   "sha256": "6819afb17b89127ea93c4b88ac73b743b7d53229cee4a81dc51d4b0c95c25845",
+   "fichier": "plus-applis/xmvkq4zed/zzn-sj-prepa-gyneco-j9-sf3.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzo-sj-prepa-ssrpf-j9-sfm\">",
+   "sha256": "16f2e0105064153b4cffcbeb6fb7b166d32b70580aefc5565b72ca698e3aef9f"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzo-sj-prepa-ssrpf-j9-sfm",
+   "octets": 78126,
+   "sha256": "3af673d4841132c6045237dbd96966463359f1fbe682310bc806d4af76879cb9",
+   "fichier": "plus-applis/xmvkq4zed/zzo-sj-prepa-ssrpf-j9-sfm.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzp-sj-prepa-sp-j9-idesfm\">",
+   "sha256": "3da994d843e58f2969b1d3acf6963ce942ee71b6b9d633c88f0defbffa31d698"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzp-sj-prepa-sp-j9-idesfm",
+   "octets": 75110,
+   "sha256": "1efa6b4b2b221d387eeecb0ab2a392502f01d89ed014a0fa14dc48f53d5697ab",
+   "fichier": "plus-applis/xmvkq4zed/zzp-sj-prepa-sp-j9-idesfm.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzq-sj-prepa-ped-j9-idesfm\">",
+   "sha256": "fb7857365f02999ec2a959f2a5323bc35734a86c5682ca2ff0a4b8f24e3cdb29"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzq-sj-prepa-ped-j9-idesfm",
+   "octets": 76326,
+   "sha256": "63648858ffc1f8026acd2f39ca22d1cdf9dd797f690d255e924b6652f6a13c28",
+   "fichier": "plus-applis/xmvkq4zed/zzq-sj-prepa-ped-j9-idesfm.json",
+   "codage": "brut"
+  },
+  {
+   "type": "html",
+   "texte": "</script>\n<script type=\"text/plain\" id=\"app-src-xmvkq4zed--zzr-sj-prepa-gyneco-j10-sf3\">",
+   "sha256": "76e35b1cd8f91e2f6452f9574e5bb73f40fcf3a9cf20d62e441701bee3a5f6fe"
+  },
+  {
+   "type": "bloc",
+   "id": "app-src-xmvkq4zed--zzr-sj-prepa-gyneco-j10-sf3",
+   "octets": 69128,
+   "sha256": "d6df06c285073a03f0faf2bcbd6fdeb57647c39173896a7c3b3ea829f7504c65",
+   "fichier": "plus-applis/xmvkq4zed/zzr-sj-prepa-gyneco-j10-sf3.json",
    "codage": "brut"
   },
   {

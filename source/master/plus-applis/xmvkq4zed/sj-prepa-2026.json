@@ -10051,7 +10051,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "",
+       "explanation": "La manœuvre de Mauriceau est la manœuvre spécifique indiquée pour fléchir, orienter et extraire la tête dernière retenue dans l'excavation pelvienne lors de l'accouchement en présentation du siège.\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU — Manœuvres obstétricales dans l'accouchement du siège.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "Gyneco_e.pdf",
        "sourcePage": null
@@ -10405,11 +10405,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. Vrai",
+       "answer": "B. Faux",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "",
+       "explanation": "On distingue deux types de pertes : les pertes inévitables (doses restantes dans un flacon multidose ouvert et jetées en fin de séance pour permettre la vaccination même d'un seul enfant) et les pertes évitables ou gaspillage (péremption, rupture de la chaîne du froid, casse de flacons).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des vaccins et consommables (L2, p. 29). II. QUESTIONS À CHOIX UNIQUE ET À CHOIX MULTIPLE",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SP_a.pdf",
        "sourcePage": null
@@ -12033,7 +12033,7 @@
      ]
     },
     {
-     "name": "J SSR / PF · Prépa D.E du 10 octobre 2026",
+     "name": "J SSR / PF · Prépa D.E du 10 octobre 2026 · identique au J8",
      "slug": "prepa-ssrpf-2026-10-10",
      "pages": "",
      "count": 57,
@@ -12067,7 +12067,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "La contraception chirurgicale volontaire (CCV : ligature des trompes ou vasectomie) ne protège pas contre les IST/VIH ; pour prévenir les IST, il faut utiliser une méthode de barrière mécanique (préservatif masculin ou féminin), car les barrières chimiques (spermicides) n'offrent pas de protection efficace contre les IST/VIH.\n\nSource : Cours SSR-PF — Contraception chirurgicale volontaire et méthodes de barrière.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12097,7 +12097,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Le planning des congés et de permanence du personnel dans un centre de santé/PF doit être affiché et partagé en toute transparence avec l'équipe afin d'assurer la continuité des soins et la bonne organisation du service.\n\nSource : Cours de Management / Organisation des services de santé en SR-PF.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12127,7 +12127,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Le carnet de commande sert à exprimer les besoins et commander les produits contraceptifs auprès du dépôt répartiteur ; l'inventaire physique et le suivi des mouvements de stock s'effectuent à l'aide de la fiche de stock (ou fiche d'inventaire).\n\nSource : Cours SSR-PF — Gestion logistique des produits contraceptifs.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12187,7 +12187,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "La transmission délibérée d'une infection sexuellement transmissible grave comme le VIH/sida porte atteinte à l'intégrité physique et sanitaire du partenaire et est reconnue comme une violence basée sur le genre (violence sexuelle et physique).\n\nSource : Cours SSR-PF — Violences Basées sur le Genre (VBG).",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12213,11 +12213,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. Faux",
+       "answer": "A. Vrai",
        "answerLetters": [
-        "B"
+        "A"
        ],
-       "explanation": "",
+       "explanation": "Après une vasectomie (stérilisation masculine), la stérilité n'est pas immédiate en raison de la présence de spermatozoïdes résiduels dans les voies séminales ; un spermogramme de contrôle (examen de l'éjaculat) est réalisé après 3 mois (ou environ 20 éjaculations) pour confirmer l'azoospermie.\n\nSource : Cours SSR-PF — Contraception chirurgicale volontaire : la vasectomie.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12247,7 +12247,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Dans le protocole d'insertion du DIU du post-partum (DIUPP), lorsque la cliente a bénéficié d'un counseling et choisi le DIU pendant la consultation prénatale (CPN), le prestataire doit obligatoirement reconfirmer son consentement éclairé avant la pose afin de vérifier qu'elle n'a pas changé d'avis.\n\nSource : Cours SSR-PF — Planification familiale du post-partum (DIU post-placentaire).",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12277,7 +12277,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Au contraire, après l'insertion post-placentaire du DIU (dans les 10 minutes suivant la délivrance), le massage utérin est recommandé afin de favoriser la rétraction utérine, prévenir l'hémorragie du post-partum et réduire le risque d'expulsion spontanée du stérilet.\n\nSource : Cours SSR-PF — Technique d'insertion du DIU post-placentaire.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12337,7 +12337,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Pour le Depo-Provera (AMPR, injection tous les 3 mois / 13 semaines), l'OMS accorde une fenêtre de tolérance (retard autorisé) allant jusqu'à 4 semaines (28 jours) après la date prévue de réinjection sans nécessiter de méthode d'appoint ; un retard de 8 jours (du 10 au 18 septembre) permet donc l'injection immédiate.\n\nSource : Cours SSR-PF — Gestion des retards d'injection des contraceptifs progestatifs (AMPR).",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12367,7 +12367,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Dans une plaquette de COC de 28 comprimés, les 7 derniers comprimés de couleur marron sont des comprimés inactifs (placebo contenant du fumarate ferreux) destinés à éviter l'oubli de reprise entre deux plaquettes ; ne pas les prendre n'altère pas la protection contraceptive à condition d'entamer la nouvelle plaquette exactement après les 7 jours d'arrêt.\n\nSource : Cours SSR-PF — Contraceptifs oraux combinés (présentation à 28 comprimés).",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12397,7 +12397,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Lorsque l'implant contraceptif est posé dans les 7 premiers jours suivant le début des menstruations (J1 à J7 du cycle), son effet contraceptif est immédiat ; aucune méthode d'appoint n'est requise (la méthode d'appoint pendant 7 jours n'est nécessaire que si l'insertion a lieu après le 7e jour du cycle).\n\nSource : Cours SSR-PF — Moment d'insertion des implants contraceptifs.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12427,7 +12427,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Le timbre (patch) contraceptif transdermique est conçu pour adhérer fermement à la peau lors des activités quotidiennes et aquatiques (douche, bain, natation, exercice physique) ; la natation ne constitue donc pas une contre-indication.\n\nSource : Cours SSR-PF — Le patch contraceptif transdermique.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12457,7 +12457,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "En gestion logistique des produits de santé de la reproduction, l'évaluation du niveau de stock consiste à calculer le nombre de mois de stock disponible (MSD = stock disponible utilisable divisé par la consommation moyenne mensuelle) afin de prévenir les ruptures et les surstocks.\n\nSource : Cours SSR-PF — Gestion logistique et évaluation des stocks en SR.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12487,7 +12487,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Dans le système de contrôle d'inventaire maximum-minimum, le calcul des niveaux de stock (stock de sécurité, point de commande, stock minimum et stock maximum) prend en compte la consommation moyenne mensuelle (CMM), la période de revue et le délai de livraison ou temps d'attente entre la commande et la réception.\n\nSource : Cours SSR-PF — Système de contrôle d'inventaire maximum-minimum.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12517,7 +12517,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Les méthodes d'auto-observation (MAO) basées sur la connaissance de la fécondité prennent en compte l'ensemble de la fenêtre fertile autour de l'ovulation, intégrant la durée de survie des spermatozoïdes dans les voies génitales féminines (jusqu'à 5 jours avant l'ovulation) et la durée de survie de l'ovule (24 heures après l'ovulation), ainsi que l'observation combinée de la glaire cervicale, de la température basale et/ou de la durée des cycles.\n\nSource : Cours SSR-PF — Méthodes d'auto-observation (MAO).",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12547,7 +12547,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Parmi les méthodes de barrière, seuls les préservatifs masculin et féminin offrent une protection efficace contre les IST et le VIH/sida ; le diaphragme, la cape cervicale et les spermicides ne protègent pas efficacement contre l'infection à VIH.\n\nSource : Cours SSR-PF — Méthodes de barrière.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12577,7 +12577,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Selon les critères d'éligibilité médicale de l'OMS, l'insertion immédiate d'un DIU après un avortement septique est classée en catégorie 4 (contre-indication absolue — risque inacceptable pour la santé) en raison du danger d'aggravation de l'infection pelvienne et de septicémie.\n\nSource : Cours SSR-PF — Critères d'éligibilité médicale de l'OMS (DIU et soins après avortement).",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12607,7 +12607,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Les critères d'éligibilité médicale de l'OMS ont pour but de déterminer l'innocuité d'une méthode contraceptive chez une personne présentant une condition médicale ou caractéristique particulière (catégories 1 à 4), et non de classer les méthodes selon leur mécanisme d'action.\n\nSource : Cours SSR-PF — Critères d'éligibilité médicale de l'OMS.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12637,7 +12637,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "La promotion et le soutien de l'allaitement maternel précoce et exclusif font partie intégrante des soins essentiels et du volet santé du nouveau-né et de l'enfant en santé de la reproduction.\n\nSource : Cours SSR-PF — Composantes de la santé de la reproduction. DEUXIÈME PARTIE : QCM (Questions à Choix Multiple)",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12671,7 +12671,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "L'insertion du DIU dans le post-partum immédiat peut se faire dans les 10 minutes suivant la délivrance (post-placentaire) ou jusqu'à 48 heures après l'accouchement (donc à 24 heures) ; entre 48 heures et 4 semaines (2 semaines et 72 heures), l'insertion est contre-indiquée en raison du risque accru d'expulsion et de perforation.\n\nSource : Cours SSR-PF — Délais d'insertion du DIU du post-partum (DIUPP).",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12705,7 +12705,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "",
+       "explanation": "Le 1er volet de la fiche de référence et contre-référence est rempli par le prestataire de soins du centre périphérique qui décide de l'évacuation ou de l'orientation de la cliente vers le niveau supérieur.\n\nSource : Cours de Soins Obstétricaux L2 — Système de référence et contre-référence (p. 113).",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12739,7 +12739,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Pour les méthodes basées sur la connaissance de la fécondité (MBCF) et la stérilisation chirurgicale, l'OMS utilise la classification A-P-D-R (Accepter, Prudence, Différer, Référer) : la catégorie « Différer » (D) signifie qu'il faut reporter l'utilisation de la méthode jusqu'à ce que la condition ou pathologie soit évaluée et corrigée (en offrant une méthode temporaire en attente).\n\nSource : Cours SSR-PF — Classification OMS pour les MBCF et la CCV.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12773,7 +12773,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Dans le cours de généralités sur la SR/PF, le taux de mortalité infantile (tout comme le ratio de mortalité maternelle et la mortalité néonatale) est classé parmi les indicateurs sanitaires reflétant le niveau de santé d'une population.\n\nSource : Cours SSR-PF — Généralités et indicateurs en Santé de la Reproduction.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12803,11 +12803,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. A. Indisponibilité du personnel soignant",
+       "answer": "B. B. Mauvais traitement",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "",
+       "explanation": "Les violences en milieu de soins (violences obstétricales et hospitalières) se manifestent par les mauvais traitements infligés aux usagers (manque de respect, brutalité verbale ou physique, négligence, atteinte à la dignité). L'option C relève des violences domestiques/familiales.\n\nSource : Cours SSR-PF — Violences Basées sur le Genre (violences institutionnelles et hospitalières).",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12837,11 +12837,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "C. C. Le prestataire doit couper les fils avant l'insertion du DIU post partum. +",
+       "answer": "B. B. Les fils descendent en général spontanément et traversent le col de l'utérus pendant l'involution utérine",
        "answerLetters": [
-        "C"
+        "B"
        ],
-       "explanation": "",
+       "explanation": "Lors de l'insertion du DIU dans le post-partum immédiat, les fils ne sont pas visibles à l'orifice externe du col en raison de la grande hauteur de l'utérus gravide (il ne faut jamais les couper avant la pose) ; ils descendent spontanément dans le vagin au fur et à mesure de l'involution utérine et seront recoupés à 3-4 cm lors de la visite de contrôle à 6 semaines.\n\nSource : Cours SSR-PF — Suivi et évolution des fils du DIU post-partum.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12871,11 +12871,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. A. Expliquer le moment de reprise des rapports sexuels",
+       "answer": "C. C. Reprendre les activités normales progressivement",
        "answerLetters": [
-        "A"
+        "C"
        ],
-       "explanation": "",
+       "explanation": "Après une contraception chirurgicale volontaire (ligature des trompes ou vasectomie), une instruction commune de soins post-opératoires consiste à conseiller au bénéficiaire de se reposer durant 2 à 3 jours puis de reprendre progressivement ses activités quotidiennes habituelles (en évitant les efforts physiques intenses pendant une semaine).\n\nSource : Cours SSR-PF — Soins et conseils post-opératoires en CCV.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12905,11 +12905,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "C. C. 18ème jour du cycle menstruel",
+       "answer": "B. B. À tout moment",
        "answerLetters": [
-        "C"
+        "B"
        ],
-       "explanation": "",
+       "explanation": "Un DIU au cuivre peut être inséré à tout moment du cycle menstruel (et notamment pendant les menstruations, période particulièrement favorable car le col est légèrement entrouvert et l'absence de grossesse est certaine), dès lors que le prestataire a la certitude raisonnable que la cliente n'est pas enceinte.\n\nSource : Cours SSR-PF — Moment d'insertion du DIU d'intervalle.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12943,7 +12943,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "",
+       "explanation": "Chez une nouvelle utilisatrice qui n'est pas en période menstruelle (par exemple en aménorrhée), la pilule progestative (COP) peut être débutée à n'importe quel jour (« Quick Start ») dès qu'il est raisonnablement certain qu'elle n'est pas enceinte, en associant une abstinence ou un préservatif pendant les 48 premières heures.\n\nSource : Cours SSR-PF — Initiation des contraceptifs oraux progestatifs (COP).",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -12973,11 +12973,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. B. Revoir la cliente aux prochaines règles",
+       "answer": "C. C. Demander une échographie",
        "answerLetters": [
-        "B"
+        "C"
        ],
-       "explanation": "",
+       "explanation": "Si les fils du DIU sont introuvables à l'examen au spéculum (après avoir éliminé une grossesse et exploré doucement l'endocol), l'examen de référence à demander est une échographie pelvienne afin de vérifier si le DIU est toujours en place dans la cavité utérine (fils remontés), s'il a été expulsé ou s'il a migré.\n\nSource : Cours SSR-PF — Gestion des fils absents ou non visibles sous DIU.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13011,7 +13011,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "L'implant sous-cutané (méthode réversible de très longue durée et de très haute efficacité) est particulièrement indiqué chez une femme qui souhaite une contraception durable ou envisage une stérilisation sans être encore décidée (Norda). Les saignements vaginaux inexpliqués (catégorie 3) et les affections hépatiques aiguës sévères (catégorie 3/4) contre-indiquent la pose.\n\nSource : Cours SSR-PF — Indications et contre-indications des implants contraceptifs.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13045,7 +13045,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Si un patch contraceptif s'est partiellement ou totalement décollé depuis moins de 24 heures (48 heures selon les recommandations OMS actualisées), il faut tenter de le recoller immédiatement s'il adhère encore, ou appliquer aussitôt un nouveau patch sans changer le jour habituel de renouvellement ni nécessiter de contraception d'urgence.\n\nSource : Cours SSR-PF — Conduite à tenir en cas de décollement du patch contraceptif.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13079,7 +13079,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Chez la femme pratiquant l'allaitement exclusif (MAMA), les contraceptifs oraux combinés (COC) sont contre-indiqués durant les 6 premiers mois du post-partum (catégorie 4 avant 6 semaines, catégorie 3 entre 6 semaines et 6 mois) car les œstrogènes diminuent la lactation ; elle pourra débuter les COC à 6 mois révolus après son accouchement du 15 avril, soit à partir du 15 octobre.\n\nSource : Cours SSR-PF — Critères d'éligibilité médicale des COC pendant l'allaitement.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13117,7 +13117,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "La quantification et l'estimation précise des besoins en produits contraceptifs visent à garantir la disponibilité permanente des méthodes auprès des clients en évitant à la fois les ruptures de stock et les surstocks (sources de péremption et de gaspillage).\n\nSource : Cours SSR-PF — Gestion logistique : quantification et estimation des besoins.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13151,7 +13151,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Le rangement et la distribution des produits pharmaceutiques et contraceptifs obéissent aux règles FEFO (Premier expiré, premier sorti) et FIFO (Premier entré, premier sorti : PEPS) afin de distribuer en priorité les lots les plus anciens ou proches de la péremption.\n\nSource : Cours SSR-PF — Bonnes pratiques de stockage des produits de SR.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13185,7 +13185,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Selon le modèle classique de communication pour le changement de comportement (IEC/CCC), l'individu passe successivement par 5 étapes : l'Information (connaissance), l'Approbation (attitude favorable), la Décision (intention d'agir), l'Action (pratique effective) et la Promotion (plaidoyer auprès des pairs).\n\nSource : Cours SSR-PF — IEC/CCC et étapes du changement de comportement.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13228,7 +13228,7 @@
         "B",
         "C"
        ],
-       "explanation": "",
+       "explanation": "En droit et législation appliqués à la santé de la reproduction, à côté des sources écrites et traditionnelles usuelles (Constitution, loi, règlements, coutumes), la jurisprudence (ensemble des décisions rendues par les tribunaux) et la doctrine (travaux et analyses des juristes) constituent les sources indirectes ou interprétatives les moins connues du grand public.\n\nSource : Cours SSR-PF — Cadre juridique, droits en SR et sources du droit.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13296,7 +13296,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Pour éviter que le préservatif ne glisse ou que du sperme ne s'écoule dans le vagin lors de la détumescence, l'utilisateur doit retirer le pénis immédiatement après l'éjaculation, avant la fin de l'érection, tout en maintenant fermement l'anneau du préservatif à la base de la verge.\n\nSource : Cours SSR-PF — Règles d'utilisation du préservatif masculin.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13330,7 +13330,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "L'efficacité contraceptive de la MAMA exige impérativement trois conditions réunies : 1) aménorrhée du post-partum (absence de retour de couches), 2) allaitement maternel exclusif ou quasi exclusif à la demande jour et nuit (l'allaitement mixte fait chuter la prolactine et annule l'efficacité), et 3) nourrisson âgé de moins de 6 mois.\n\nSource : Cours SSR-PF — Les trois conditions d'efficacité de la MAMA.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13364,7 +13364,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "En cas d'expulsion accidentelle de l'anneau vaginal contraceptif (depuis moins de 3 heures), la cliente doit simplement le rincer à l'eau froide ou tiède (jamais d'eau chaude ni de savon agressif) et le réinsérer immédiatement dans le vagin afin de maintenir la diffusion hormonale continue.\n\nSource : Cours SSR-PF — Utilisation et incidents de l'anneau vaginal combiné.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13407,7 +13407,7 @@
         "C",
         "D"
        ],
-       "explanation": "",
+       "explanation": "Contrairement à la pose d'intervalle (qui utilise un spéculum, un hystéromètre et le tube inséreur), l'insertion du DIU du post-partum immédiat utilise des valves vaginales larges (pour exposer le col volumineux du post-partum) et une longue pince de Kelly courbe (pince placentaire) permettant de déposer le DIU directement au fond utérin sans utiliser d'hystéromètre.\n\nSource : Cours SSR-PF — Matériel et technique d'insertion du DIU post-partum (DIUPP).",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13441,7 +13441,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "La prévention des infections lors de la pose d'un DIU (en post-partum comme en intervalle) repose sur l'application rigoureuse de la technique aseptique « sans toucher » (no-touch technique), évitant tout contact du DIU stérile avec les parois vaginales ou la peau avant son dépôt dans la cavité utérine. L'antibiothérapie systématique n'est pas recommandée.\n\nSource : Cours SSR-PF — Prévention des infections et technique « sans toucher » pour le DIU.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13479,7 +13479,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "Les contraceptifs oraux progestatifs seuls (COP microdosés) ont une fenêtre d'oubli stricte de 3 heures : au-delà de 3 heures de retard, la glaire cervicale redevient perméable aux spermatozoïdes. La cliente doit prendre le comprimé oublié dès que possible, poursuivre la plaquette et utiliser une méthode barrière (ou s'abstenir) pendant les 48 heures suivantes.\n\nSource : Cours SSR-PF — Conduite à tenir devant un retard de prise des COP.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13513,7 +13513,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Dans le protocole de suivi d'une cliente porteuse d'implant sous-cutané, la première visite de contrôle a lieu précocement (entre 3 et 7 jours / 1re semaine) pour vérifier la cicatrisation du site d'insertion, et la deuxième visite de contrôle s'effectue à 3 mois après la pose pour évaluer la tolérance et les éventuels effets secondaires (troubles du cycle).\n\nSource : Cours SSR-PF — Calendrier de suivi des utilisatrices d'implants.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13547,7 +13547,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Selon la règle de calcul d'Ogino-Knaus : le début de la période fertile se calcule en retranchant 18 jours au cycle le plus court (26 − 18 = 8e jour), et la fin de la période fertile en retranchant 11 jours au cycle le plus long (28 − 11 = 17e jour). Le couple doit donc pratiquer l'abstinence périodique du 8e au 17e jour du cycle.\n\nSource : Cours SSR-PF — Méthode du calendrier (Ogino-Knaus).",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13615,7 +13615,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "",
+       "explanation": "Parmi les méthodes réversibles de longue durée, l'Implanon NXT agit pendant 3 ans, le Jadelle pendant 5 ans, tandis que le dispositif intra-utérin au cuivre TCu 380A offre une protection contraceptive discrète de très longue durée (10 à 12 ans).\n\nSource : Cours SSR-PF — Méthodes contraceptives de longue durée (DIU TCu 380A et implants).",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13658,7 +13658,7 @@
         "A",
         "C"
        ],
-       "explanation": "",
+       "explanation": "Le DIU au cuivre TCu 380A exerce une action locale non hormonale : les ions cuivre libérés altèrent la mobilité et le pouvoir fécondant des spermatozoïdes (action spermicide) et provoquent une réaction inflammatoire aseptique modifiant l'endomètre qui devient impropre à la nidation. Il ne bloque pas l'ovulation ni l'axe hypothalamo-hypophysaire.\n\nSource : Cours SSR-PF — Mécanisme d'action du DIU au cuivre.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13701,7 +13701,7 @@
         "C",
         "D"
        ],
-       "explanation": "",
+       "explanation": "La correction nationale de la Prépa DE (les J) retient l'aménorrhée et l'augmentation du flux menstruel (hyperménorrhée / ménorragies) comme deux troubles menstruels pouvant être observés chez les utilisatrices de DIU (au cuivre pour l'augmentation des règles, hormonal pour l'aménorrhée). Le caractère discret est un avantage et non un effet secondaire.\n\nSource : Cours SSR-PF — Effets secondaires des dispositifs intra-utérins.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13744,7 +13744,7 @@
         "C",
         "D"
        ],
-       "explanation": "",
+       "explanation": "L'insertion et le retrait d'un dispositif intra-utérin sont des actes médicaux et obstétricaux nécessitant une formation spécifique ; ils sont habilités à être pratiqués par un médecin ou une sagefemme/maïeuticien (ainsi que les infirmiers diplômés d'État formés selon les normes nationales).\n\nSource : Cours SSR-PF — Normes et procédures en PF : prestataires habilités pour le DIU.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13808,7 +13808,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "La durée de son cycle menstruel (30 jours) s'inscrit exactement dans l'intervalle requis de 26 à 32 jours qui garantit l'efficacité du Collier du Cycle (12 perles blanches fertiles du 8e au 19e jour).\n\nSource : Cours SSR-PF — Méthode des Jours Fixes : conditions d'utilisation.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13842,7 +13842,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "",
+       "explanation": "Connaissant avec certitude la date du premier jour de ses dernières règles (15 septembre, soit J1 sur la perle rouge), la cliente reçue le 20 septembre (6e jour du cycle) peut débuter la méthode immédiatement ce jour même en plaçant l'anneau noir sur la 5e perle marron correspondant au 6e jour du cycle.\n\nSource : Cours SSR-PF — Initiation de la Méthode des Jours Fixes.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13885,7 +13885,7 @@
         "A",
         "B"
        ],
-       "explanation": "",
+       "explanation": "L'utilisatrice du Collier du Cycle doit déplacer chaque matin l'anneau en caoutchouc noir d'une perle dans le sens de la flèche et surveiller que la durée de ses cycles reste toujours comprise entre 26 et 32 jours (si deux cycles ou plus en un an sortent de cet intervalle, il faut changer de méthode). Après les perles blanches (perles marron suivantes), les rapports non protégés sont possibles sans risque de grossesse.\n\nSource : Cours SSR-PF — Instructions d'utilisation du Collier du Cycle (MJF).",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13928,7 +13928,7 @@
         "A",
         "B"
        ],
-       "explanation": "",
+       "explanation": "Sur le Collier du Cycle, les perles blanches (jours 8 à 19) représentent les jours fertiles durant lesquels une grossesse est possible (nécessitant l'abstinence ou le préservatif), tandis que la perle rouge (1er jour des règles) et les perles marron (jours 2 à 7 et 20 à 32) représentent les jours infertiles autorisant les rapports non protégés.\n\nSource : Cours SSR-PF — Counseling sur la Méthode des Jours Fixes.",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -13962,7 +13962,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "",
+       "explanation": "Le Collier du Cycle comporte 1 perle rouge (J1) + 6 perles marron (J2 à J7), suivies des perles blanches à partir de J8 (1re perle blanche = J8, 2e = J9, 3e = J10, 4e = J11, 5e perle blanche = J12). Avec le 1er jour des règles le 15 septembre (J1), le 12e jour du cycle correspond au 15 + 11 = 26 septembre.\n\nSource : Cours SSR-PF — Lecture et comptage du Collier du Cycle (MJF).",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "SSR_pfe.pdf",
        "sourcePage": null
@@ -14214,7 +14214,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "La maladie des membranes hyalines (déficit en surfactant) est une maladie du prématuré ; chez le nouveau-né à terme, elle ne se voit guère qu'en cas de mère diabétique ou de césarienne avant terme. Faux.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre V « Détresse respiratoire néonatale », Maladie des membranes hyalines",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "ped_a.pdf",
        "sourcePage": null
@@ -14244,7 +14244,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "",
+       "explanation": "On aspire d'abord la bouche, puis le nez : aspirer le nez en premier peut provoquer un réflexe d'inspiration et l'inhalation du liquide présent dans la bouche. Faux.\n\nSource : Module de néonatologie (Néonatalogie), Chapitre III « Réanimation en salle de naissance », Désobstruction des VAS",
        "sourceDoc": "Prépa D.E (Microsoft Forms, corrigé du formulaire)",
        "sourceFile": "ped_a.pdf",
        "sourcePage": null

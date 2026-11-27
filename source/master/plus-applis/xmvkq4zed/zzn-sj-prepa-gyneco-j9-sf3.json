@@ -1,0 +1,1492 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzn-sj-prepa-gyneco-j9-sf3",
+ "titre": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 40,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+   "sha256": "c1e8c2d8402d3b954a7c6fc159ceb6b02b83cb88c53adce6ddd9268aa4b95034"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+     "slug": "prepa-gyneco-j9-sf3",
+     "pages": "",
+     "count": 40,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Gynéco-obstétrique",
+     "source": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__0",
+       "num": "1",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lequel (s) de ces gestes ne fait (font) pas partie des objectifs de la consultation au premier trimestre de la grossesse ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Dépister les pathologies pouvant compliquer la grossesse"
+        },
+        {
+         "letter": "B",
+         "text": "Déclarer la grossesse"
+        },
+        {
+         "letter": "C",
+         "text": "Calculer le terme de la grossesse"
+        },
+        {
+         "letter": "D",
+         "text": "Étudier la morphologie fœtale"
+        },
+        {
+         "letter": "E",
+         "text": "Établir le pronostic de l'accouchement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "D. Étudier la morphologie fœtale ; E. Établir le pronostic de l'accouchement",
+       "answerLetters": [
+        "D",
+        "E"
+       ],
+       "explanation": "Au premier trimestre, la CPN vise à confirmer et déclarer la grossesse, déterminer l'âge gestationnel et la date probable d'accouchement, et dépister les facteurs de risque ou pathologies maternelles ; l'étude morphologique détaillée du fœtus s'effectue au 2e trimestre (20-22 SA) et le pronostic de l'accouchement s'établit au 3e trimestre (CPN du 9e mois).\n\nSource : Cours de Gynéco-Obstétrique L3 — Surveillance prénatale (CPN) et explorations en obstétrique (p. 192).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__1",
+       "num": "2",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les examens paracliniques suivants doivent être obligatoirement prescrits aux gestantes pendant toutes les périodes de la grossesse :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La sérologie de la syphilis"
+        },
+        {
+         "letter": "B",
+         "text": "La sérologie de la toxoplasmose"
+        },
+        {
+         "letter": "C",
+         "text": "La sérologie de la rubéole"
+        },
+        {
+         "letter": "D",
+         "text": "L'électrophorèse de l'hémoglobine"
+        },
+        {
+         "letter": "E",
+         "text": "Le taux d'hémoglobine"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "E. Le taux d'hémoglobine",
+       "answerLetters": [
+        "E"
+       ],
+       "explanation": "Parmi les examens du bilan prénatal, le taux d'hémoglobine (ou NFS) est contrôlé régulièrement à chaque trimestre pour dépister l'anémie gravidique ; les sérologies de la rubéole et de la syphilis sont demandées au 1er trimestre, et l'électrophorèse de l'hémoglobine une seule fois si inconnue.\n\nSource : Cours de Gynéco-Obstétrique — Bilan prénatal courant et priorités d'examens.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__2",
+       "num": "3",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La première dose de l'association sulfadoxine-pyriméthamine peut être administrée à la gestante :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Dès la 16ème semaine d'aménorrhée"
+        },
+        {
+         "letter": "B",
+         "text": "Avant la 16ème semaine de grossesse"
+        },
+        {
+         "letter": "C",
+         "text": "Uniquement si la patiente sent les mouvements actifs du fœtus"
+        },
+        {
+         "letter": "D",
+         "text": "Aux alentours du 5ème mois de la grossesse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Dès la 16ème semaine d'aménorrhée",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Selon les directives nationales de prévention du paludisme chez la femme enceinte, le Traitement Préventif Intermittent (TPI) à la Sulfadoxine-Pyriméthamine (SP) est formellement contre-indiqué au 1er trimestre et débute dès le début du 2e trimestre, à partir de la 16ème semaine d'aménorrhée (ou dès l'apparition des mouvements actifs fœtaux), puis est renouvelé chaque mois jusqu'à l'accouchement.\n\nSource : Cours de Gynéco-Obstétrique — Paludisme et grossesse (TPI à la SP).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__3",
+       "num": "4",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lesquels des paramètres suivants constituent-ils des éléments d'un bon pronostic d'accouchement par voie basse au terme de la grossesse ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Un segment inférieur de l'utérus bien amplié"
+        },
+        {
+         "letter": "B",
+         "text": "Une hauteur utérine égale à 33 centimètres"
+        },
+        {
+         "letter": "C",
+         "text": "De bonnes contractions utérines"
+        },
+        {
+         "letter": "D",
+         "text": "Le promontoire du bassin osseux maternel perçu à bout de doigt"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Un segment inférieur de l'utérus bien amplié ; B. Une hauteur utérine égale à 33 centimètres ; C. De bonnes contractions utérines",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "À terme, un segment inférieur souple et bien amplié, une hauteur utérine normale (32-34 cm, témoignant d'un fœtus eutrophique sans macrosomie ni hydramnios) et une bonne dynamique utérine sont des éléments favorables à l'accouchement par voie basse ; en revanche, un promontoire accessible au toucher vaginal signe un bassin rétréci (mauvais pronostic).\n\nSource : Cours de Gynéco-Obstétrique — Pronostic de l'accouchement en fin de grossesse (p. 8).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__4",
+       "num": "5",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La carence en acide folique au cours de la grossesse peut entraîner les anomalies fœtales suivantes :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'anencéphalie"
+        },
+        {
+         "letter": "B",
+         "text": "Les réponses a, b, c et d"
+        },
+        {
+         "letter": "C",
+         "text": "Le bec de lièvre"
+        },
+        {
+         "letter": "D",
+         "text": "Une malformation cardiaque"
+        },
+        {
+         "letter": "E",
+         "text": "Le spina bifida"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Les réponses a, b, c et d",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La carence périconceptionnelle et au 1er trimestre en acide folique (vitamine B9) est responsable d'anomalies de fermeture du tube neural (spina bifida, anencéphalie) ainsi que d'un risque accru de fentes labiopalatines (bec de lièvre) et de cardiopathies congénitales, d'où l'intérêt de regrouper toutes ces propositions.\n\nSource : Cours de Gynéco-Obstétrique — Supplémentation en fer et acide folique au cours de la grossesse.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__5",
+       "num": "6",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lesquels des signes suivants annoncent-ils une rupture imminente de l'utérus au cours du travail d'accouchement ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La présence de métrorragies"
+        },
+        {
+         "letter": "B",
+         "text": "Une tension douloureuse des ligaments ronds"
+        },
+        {
+         "letter": "C",
+         "text": "Une dilatation stationnaire du col utérin"
+        },
+        {
+         "letter": "D",
+         "text": "Une déformation de l'utérus en sablier"
+        },
+        {
+         "letter": "E",
+         "text": "Une ascension de l'anneau de Bandl-Frommel"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Une tension douloureuse des ligaments ronds ; D. Une déformation de l'utérus en sablier ; E. Une ascension de l'anneau de Bandl-Frommel",
+       "answerLetters": [
+        "B",
+        "D",
+        "E"
+       ],
+       "explanation": "Le syndrome de pré-rupture utérine (syndrome de Bandl-Frommel) associe une hypercinésie/hypertonie douloureuse, une tension douloureuse des ligaments ronds (perçus comme deux cordes tendues), l'ascension progressive de l'anneau de rétraction de Bandl vers l'ombilic et la déformation caractéristique de l'utérus en sablier (ou en brioche). Les métrorragies apparaissent une fois la rupture constituée.\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU — La rupture utérine : phase de pré-rupture.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__6",
+       "num": "7",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le traitement en deuxième intention de l'hémorragie de la délivrance par atonie utérine consiste :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "En l'introduction intra-rectale de 5 comprimés de misoprostol"
+        },
+        {
+         "letter": "B",
+         "text": "En l'injection intraveineuse de syntocinon"
+        },
+        {
+         "letter": "C",
+         "text": "En la pose du ballonnet intra-utérin"
+        },
+        {
+         "letter": "D",
+         "text": "Au massage continu de l'utérus"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. En l'introduction intra-rectale de 5 comprimés de misoprostol",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "En cas d'échec du traitement utérotonique de première intention (perfusion et bolus IV d'ocytocine / Syntocinon® associés au massage utérin continu), les protocoles SONU recommandent en deuxième intention l'administration de prostaglandines, notamment 800 à 1 000 µg (4 à 5 comprimés de 200 µg) de misoprostol (Cytotec®) par voie intra-rectale, avant le tamponnement intra-utérin par ballonnet.\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU — Conduite à tenir devant une hémorragie du post-partum par atonie utérine.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__7",
+       "num": "8",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les signes suivants permettent d'évoquer le diagnostic de môle hydatiforme :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une évolution inévitable vers un avortement complet"
+        },
+        {
+         "letter": "B",
+         "text": "Des métrorragies faites de sang rouge"
+        },
+        {
+         "letter": "C",
+         "text": "Un taux très élevé de béta-hCG"
+        },
+        {
+         "letter": "D",
+         "text": "Des vomissements plus importants"
+        },
+        {
+         "letter": "E",
+         "text": "Une taille utérine en rapport avec l'âge de la grossesse"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Des métrorragies faites de sang rouge ; C. Un taux très élevé de béta-hCG ; D. Des vomissements plus importants",
+       "answerLetters": [
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "La grossesse môlaire (môle hydatiforme) se manifeste au 1er trimestre par des métrorragies récidivantes d'abondance variable (sang rouge ou noirâtre), une exacerbation des signes sympathiques de grossesse (vomissements incoercibles, sialorrhée), un utérus anormalement volumineux (« en accordéon », plus gros que l'âge gestationnel) et une élévation massive des β-hCG plasmatiques.\n\nSource : Cours de Gynéco-Obstétrique L3 — Maladies trophoblastiques gestationnelles (môle hydatiforme).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__8",
+       "num": "9",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lesquel(s) de ces facteurs constitue(nt)-il(s) un (des) risque(s) pour le cancer du sein ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les anomalies du cycle menstruel"
+        },
+        {
+         "letter": "B",
+         "text": "La multiparité"
+        },
+        {
+         "letter": "C",
+         "text": "La ménopause tardive"
+        },
+        {
+         "letter": "D",
+         "text": "Une première grossesse avant l'âge de 21 ans"
+        },
+        {
+         "letter": "E",
+         "text": "L'obésité"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. La ménopause tardive ; E. L'obésité",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "Les facteurs de risque du cancer du sein liés à une hyperœstrogénie prolongée comprennent la puberté précoce, la ménopause tardive (après 55 ans), la nulliparité ou une première grossesse tardive (après 30-35 ans) et l'obésité (production périphérique d'œstrogènes dans le tissu adipeux après la ménopause) ; la multiparité précoce est au contraire protectrice.\n\nSource : Cours de Gynéco-Obstétrique — Facteurs de risque du cancer du sein.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__9",
+       "num": "10",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La complication la plus fréquente du fibrome utérin au cours de la grossesse est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La suppuration du fibrome utérin"
+        },
+        {
+         "letter": "B",
+         "text": "La nécrobiose aseptique"
+        },
+        {
+         "letter": "C",
+         "text": "La nécrobiose septique"
+        },
+        {
+         "letter": "D",
+         "text": "Les méno-métrorragies"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. La nécrobiose aseptique",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Sous l'effet de l'imprégnation hormonale gravidique, le fibrome augmente rapidement de volume ; sa vascularisation devenant insuffisante par rapport à sa croissance, il subit une ischémie aiguë appelée nécrobiose aseptique (douleur pelvienne vive localisée, fièvre modérée à 38 °C, utérus douloureux à la palpation), qui constitue sa complication la plus fréquente pendant la grossesse.\n\nSource : Cours de Gynéco-Obstétrique L3 — Fibrome utérin et grossesse (chap. 10).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'anémie est définie au premier trimestre de la grossesse par un taux d'hémoglobine inférieur à 11 g/dl.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Selon les critères de l'OMS, l'anémie chez la femme enceinte est définie par un taux d'hémoglobine inférieur à 11 g/dl aux 1er et 3e trimestres (et inférieur à 10,5 g/dl au 2e trimestre en raison de l'hémodilution physiologique maximale).\n\nSource : Cours de Gynéco-Obstétrique L3 — Anémie et grossesse.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'hypertension artérielle est considérée comme sévère si la tension artérielle systolique est supérieure ou égale à 55 mmHg.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Au cours de la grossesse, l'hypertension artérielle est définie comme sévère lorsque la tension artérielle systolique (TAS) est supérieure ou égale à 160 mmHg (16 cmHg) et/ou la tension artérielle diastolique (TAD) supérieure ou égale à 110 mmHg (11 cmHg), et non 55 mmHg.\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU — Syndromes vasculo-rénaux : critères de gravité de l'HTA.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La prévention de la pré-éclampsie se fait par la prescription de l'acide acétylsalicylique (Aspirine) à partir de la 6ème semaine d'aménorrhée.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Chez les patientes à haut risque (antécédent de pré-éclampsie sévère précoce), la prévention par l'aspirine à faible dose (75 à 100 mg/jour) est instaurée à la fin du 1er trimestre / début du 2e trimestre, classiquement entre la 12ème et la 16ème semaine d'aménorrhée (avant 20 SA, phase d'invasion trophoblastique), et non dès 6 SA.\n\nSource : Cours de Gynéco-Obstétrique L3 — Prévention de la pré-éclampsie.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En cas de pré-éclampsie sévère, le médicament recommandé pour la prévention de la crise d'éclampsie est le diazépam (Valium).",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le médicament de référence recommandé en première intention pour prévenir et traiter les crises d'éclampsie chez une patiente atteinte de pré-éclampsie sévère est le sulfate de magnésium (MgSO4), beaucoup plus efficace et moins dépresseur respiratoire pour la mère et le nouveau-né que le diazépam (Valium®).\n\nSource : Cours SONU L3 / Gynéco-Obstétrique — Prise en charge de la pré-éclampsie sévère.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le cancer du col de l'utérus est considéré comme une maladie sexuellement transmissible dont le principal germe en cause est l'herpès virus simplex.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le principal agent responsable du cancer du col de l'utérus (dans plus de 95 à 99 % des cas) est le papillomavirus humain (HPV) à haut risque oncogène (notamment HPV 16 et 18), et non le virus de l'herpès simplex (HSV).\n\nSource : Cours de Gynéco-Obstétrique — Étiologie du cancer du col de l'utérus.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__15",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Des métrorragies faites de sang noirâtre, accompagnées d'une contracture de l'utérus et une disparition des bruits du cœur fœtal sont des signes classiques de l'hématome rétro-placentaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La triade symptomatique classique de l'hématome rétro-placentaire (HRP / décollement prématuré d'un placenta normalement inséré) associe une douleur abdominale brutale « en coup de poignard » avec hypertonie/contracture utérine (« utérus de bois »), des métrorragies peu abondantes de sang noirâtre incoagulable et une souffrance fœtale aiguë évoluant rapidement vers la disparition des BDCF.\n\nSource : Cours de Gynéco-Obstétrique L3 — Hémorragies du 3e trimestre : l'hématome rétro-placentaire (HRP).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__16",
+       "num": "17",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les ménorragies sont des règles excessives en abondance et en durée.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les ménorragies désignent des saignements menstruels survenant à intervalles réguliers (à la date prévue des règles) mais anormalement abondants (> 80 ml) et/ou prolongés (> 7 jours), contrairement aux métrorragies qui surviennent en dehors des règles.\n\nSource : Cours de Gynéco-Obstétrique — Sémiologie des troubles du cycle menstruel.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__17",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La principale cause des dysménorrhées secondaires est l'endométriose.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Alors que les dysménorrhées primaires de l'adolescente sont fonctionnelles (liées aux prostaglandines), les dysménorrhées secondaires apparaissant plus tardivement chez la femme adulte sont dues dans la majorité des cas à l'endométriose (ou à l'adénomyose).\n\nSource : Cours de Gynéco-Obstétrique — Les dysménorrhées : étiologies.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__18",
+       "num": "19",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le cancer du sein est un cancer dépendant de la production de la progestérone.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le cancer du sein est classiquement défini comme un cancer œstrogéno-dépendant (lié principalement à une hyperœstrogénie relative ou prolongée stimulant la prolifération mammaire), et non uniquement dépendant de la production de progestérone.\n\nSource : Cours de Gynéco-Obstétrique — Facteurs hormonaux du cancer du sein.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__19",
+       "num": "20",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le principal facteur de risque de la grossesse extra-utérine est l'infection de la trompe utérine.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les infections génitales hautes (salpingites aiguës ou chroniques, notamment à Chlamydia trachomatis et gonocoque) entraînent des lésions de l'épithélium cilié et des sténoses tubaires qui constituent le premier facteur de risque d'implantation ectopique de l'œuf (GEU).\n\nSource : Cours de Gynéco-Obstétrique — Grossesse extra-utérine (GEU) et salpingites aiguës (chap. 44).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__20",
+       "num": "21",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le fer ne doit pas être prescrit chez les gestantes qui ont une drépanocytose majeure.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Chez les femmes enceintes atteintes d'une drépanocytose majeure (SS, SC, Sβ-thalassémie), l'anémie est d'origine hémolytique chronique et non ferriprive ; la prescription systématique de fer est contreindiquée en raison du risque d'hémochromatose secondaire (surcharge en fer aggravée par les transfusions), seule la supplémentation en acide folique étant recommandée.\n\nSource : Cours de Gynéco-Obstétrique L3 — Les hémoglobinopathies et grossesse (chap. 3).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__21",
+       "num": "22",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au cours de la grossesse, le dépistage de l'allo-immunisation rhésus se fait par le test de Coombs direct.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Chez la femme enceinte Rhésus négatif, le dépistage et la surveillance des agglutinines irrégulières anti-D dans le sérum maternel s'effectuent par le test de Coombs indirect (RAI : recherche d'agglutinines irrégulières) ; le test de Coombs direct se pratique chez le nouveau-né à la naissance sur le sang du cordon.\n\nSource : Cours de Gynéco-Obstétrique L3 — Allo-immunisation dans le système Rhésus au cours de la grossesse (chap. 4).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__22",
+       "num": "23",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au cours de l'accouchement de siège, il ne faut pas toucher au fœtus tant que les pointes des omoplates ne sont pas apparues.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Lors de l'expulsion en présentation du siège, l'abstention de toute traction intempestive (respect de l'expulsion spontanée jusqu'à l'apparition des pointes des omoplates à la vulve) est une règle d'or afin d'éviter le relèvement des bras et la déflexion de la tête dernière dans le détroit supérieur.\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU — Conduite de l'accouchement du siège.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__23",
+       "num": "24",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'excès de toilette intime est un facteur favorisant des leucorrhées pathologiques.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les douches vaginales et l'hygiène intime excessive ou agressive détruisent la flore vaginale protectrice (bacilles de Döderlein / lactobacilles) et modifient le pH vaginal, favorisant la prolifération de germes pathogènes (Candida albicans, Gardnerella vaginalis) responsables de leucorrhées pathologiques.\n\nSource : Cours de Gynéco-Obstétrique L3 — Les infections génitales basses (chap. 43).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__24",
+       "num": "25",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lors de l'administration de la Sulfadoxine-Pyriméthamine chez la femme enceinte sous prophylaxie anti-anémique avec l'acide folique, il est recommandé dès la prise de la SulfadoxinePyriméthamine de suspendre durant 14 jours le traitement anti-anémique par l'acide folique si la dose de l'acide folique atteint ou dépasse 5 mg/jour et le reprendre au 15ème jour.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Des doses élevées d'acide folique (≥ 5 mg/jour) interfèrent par antagonisme métabolique avec l'action antifolique de la pyriméthamine contenue dans la SP, réduisant son efficacité antipaludique ; il convient donc de suspendre l'acide folique à forte dose pendant 14 jours après la prise de SP et de le reprendre au 15e jour (les doses faibles de 0,4 mg n'imposent pas d'arrêt).\n\nSource : Cours de Gynéco-Obstétrique — Chimioprophylaxie antipaludique (TPI-SP) et supplémentation martiale.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__25",
+       "num": "26",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Il existe une forme hémorragique de l'endométrite.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans les suites de couches, à côté de la forme classique suppurée (fièvre, lochies fétides purulentes, utérus gros et mou douloureux), il existe une forme clinique dite hémorragique de l'endométrite du post-partum responsable de métrorragies persistantes (hémorragie du post-partum tardif).\n\nSource : Cours de Gynéco-Obstétrique L3 — Cat de la sage-femme en cas d'endométrite (suites de couches pathologiques).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__26",
+       "num": "27",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la lymphangite du sein, l'allaitement doit être interrompu.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La lymphangite aiguë du sein (placard inflammatoire rouge, chaud et douloureux du sein avec fièvre élevée mais sans pus dans le lait) est une inflammation superficielle des vaisseaux lymphatiques qui n'infecte pas le lait ; l'allaitement maternel doit être poursuivi (et intensifié pour bien drainer le sein) afin d'éviter l'évolution vers l'abcès du sein.\n\nSource : Cours de Gynéco-Obstétrique L3 — Affections mammaires des suites de couches.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__27",
+       "num": "28",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Il est interdit au cours de la grossesse d'injecter de l'ocytocine en intraveineuse directe.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Tant que le fœtus est in utero (pendant la grossesse et le travail avant l'expulsion), l'injection d'ocytocine en bolus intraveineux direct est formellement proscrite car elle déclenche une hypertonie utérine brutale entraînant une souffrance fœtale aiguë et un risque majeur de rupture utérine ; elle s'administre exclusivement en perfusion diluée à débit contrôlé.\n\nSource : Cours de Gynéco-Obstétrique L3 / SONU — Surveillance d'une perfusion d'ocytocine.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__28",
+       "num": "29",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le traitement de l'anémie ferriprive si le taux d'hémoglobine est supérieur ou égal à 8 g/dl repose sur l'administration de fer sous forme ferreuse à raison de 100 mg de fer élément / jour en 2 ou 3 prises.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans le traitement curatif d'une anémie ferriprive modérée pendant la grossesse (taux d'hémoglobine compris entre 8 et 11 g/dl, bien tolérée), la posologie recommandée est de 100 à 120 mg de fer élément par jour par voie orale (sels ferreux) répartis en 2 ou 3 prises pendant au moins 3 mois.\n\nSource : Cours de Gynéco-Obstétrique L3 — Traitement de l'anémie ferriprive au cours de la grossesse.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__29",
+       "num": "30",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les cas de paludisme grave doivent être pris en charge au sein d'une formation sanitaire SONU-B.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les structures SONU-B (Soins Obstétricaux et Néonataux d'Urgence de Base, centres de santé périphériques) ne disposent ni de plateau technique complet ni de capacité de transfusion sanguine ou de réanimation lourde ; les cas de paludisme grave chez la femme enceinte doivent être référés vers un hôpital de référence offrant des soins complets (SONU-C).\n\nSource : Cours SONU L3 / Paludisme et grossesse — Niveaux de prise en charge SONU-B et SONU-C.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ou les complications obstétricales de la COVID-19 est ou sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "malformation fœtale"
+        },
+        {
+         "letter": "B",
+         "text": "hydramnios"
+        },
+        {
+         "letter": "C",
+         "text": "souffrance fœtale"
+        },
+        {
+         "letter": "D",
+         "text": "pré-éclampsie"
+        },
+        {
+         "letter": "E",
+         "text": "accouchement prématuré"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. souffrance fœtale ; D. pré-éclampsie ; E. accouchement prématuré",
+       "answerLetters": [
+        "C",
+        "D",
+        "E"
+       ],
+       "explanation": "L'infection au SARS-CoV-2 (COVID-19) chez la femme enceinte augmente significativement le risque de complications obstétricales et périnatales, notamment l'accouchement prématuré (spontané ou induit), les syndromes hypertensifs à type de pré-éclampsie et la souffrance fœtale (par hypoxie maternelle et atteinte vasculaire placentaire), sans effet tératogène démontré.\n\nSource : Cours de Gynéco-Obstétrique L3 — Infection au COVID-19 et grossesse (chap. 6).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ou les conditions de réalisation de l'épreuve du travail est ou sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Bassin maternel rétréci"
+        },
+        {
+         "letter": "B",
+         "text": "Présentation céphalique"
+        },
+        {
+         "letter": "C",
+         "text": "Milieu obstétrico-chirurgical comprenant un bloc opératoire"
+        },
+        {
+         "letter": "D",
+         "text": "Fœtus à terme de poids normal"
+        },
+        {
+         "letter": "E",
+         "text": "Absence de souffrance fœtale chronique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Bassin maternel rétréci ; B. Présentation céphalique ; C. Milieu obstétrico-chirurgical comprenant un bloc opératoire ; D. Fœtus à terme de poids normal ; E. Absence de souffrance fœtale chronique",
+       "answerLetters": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+       ],
+       "explanation": "L'épreuve du travail requiert la réunion stricte de toutes ces conditions : un bassin rétréci limite (chirurgicalement franchissable), une présentation céphalique bien fléchie (sommet), un fœtus unique eutrophique sans macrosomie, l'absence de souffrance fœtale préalable (et d'utérus cicatriciel) et la réalisation impérative en milieu obstétrico-chirurgical disposant d'un bloc opératoire fonctionnel.\n\nSource : Cours de Gynéco-Obstétrique L3 — L'épreuve du travail : conditions de réalisation.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La ou les complications de l'anémie ferriprive sur l'évolution de la grossesse est ou sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "infection urinaire"
+        },
+        {
+         "letter": "B",
+         "text": "retard de croissance intra-utérin"
+        },
+        {
+         "letter": "C",
+         "text": "endométrite"
+        },
+        {
+         "letter": "D",
+         "text": "accouchement prématuré"
+        },
+        {
+         "letter": "E",
+         "text": "hydramnios"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. infection urinaire ; B. retard de croissance intra-utérin ; C. endométrite ; D. accouchement prématuré",
+       "answerLetters": [
+        "A",
+        "B",
+        "C",
+        "D"
+       ],
+       "explanation": "L'anémie ferriprive maternelle diminue les défenses immunitaires (favorisant les infections urinaires gravidiques et l'endométrite du post-partum) et altère l'oxygénation fœto-placentaire, exposant au retard de croissance intra-utérin (RCIU / hypotrophie) et à l'accouchement prématuré. Elle n'entraîne pas d'hydramnios.\n\nSource : Cours de Gynéco-Obstétrique L3 — Retentissement et complications de l'anémie au cours de la grossesse.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les drépanocytoses majeures sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "AC"
+        },
+        {
+         "letter": "B",
+         "text": "SAFA2"
+        },
+        {
+         "letter": "C",
+         "text": "AS"
+        },
+        {
+         "letter": "D",
+         "text": "SC"
+        },
+        {
+         "letter": "E",
+         "text": "SFA2"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "D. SC ; E. SFA2",
+       "answerLetters": [
+        "D",
+        "E"
+       ],
+       "explanation": "Les syndromes drépanocytaires majeurs regroupent l'homozygotie SS, l'hétérozygotie composite SC et les Sβ-thalassémies (notées SFA2 à l'électrophorèse de l'hémoglobine en cas de Sβ+-thalassémie, ou SF en cas de Sβ0-thalassémie). Les formes AS et AC sont des traits hétérozygotes mineurs asymptomatiques.\n\nSource : Cours de Gynéco-Obstétrique L3 — Classification des hémoglobinopathies et drépanocytoses majeures (chap. 3).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le ou les facteur(s) favorisant l'endométrite est ou sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La Rupture Prématurée des Membranes supérieure à 12 heures"
+        },
+        {
+         "letter": "B",
+         "text": "L'hémorragie de la délivrance"
+        },
+        {
+         "letter": "C",
+         "text": "Le transfert précoce des parturientes"
+        },
+        {
+         "letter": "D",
+         "text": "Les touchers vaginaux aseptiques"
+        },
+        {
+         "letter": "E",
+         "text": "Le travail d'accouchement prolongé"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. La Rupture Prématurée des Membranes supérieure à 12 heures ; B. L'hémorragie de la délivrance ; E. Le travail d'accouchement prolongé",
+       "answerLetters": [
+        "A",
+        "B",
+        "E"
+       ],
+       "explanation": "L'endométrite du post-partum est une infection ascendante de l'endomètre favorisée par l'ouverture prolongée de l'œuf (rupture prématurée ou précoce des membranes > 12 heures), le travail prolongé, les manœuvres endo-utérines et l'hémorragie de la délivrance (qui diminue les défenses locales et nécessite souvent une révision utérine).\n\nSource : Cours de Gynéco-Obstétrique L3 — Facteurs favorisants de l'endométrite du post-partum.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La cystite aiguë se manifeste par les signes suivants :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les mictions impérieuses"
+        },
+        {
+         "letter": "B",
+         "text": "La brûlure urétrale basse"
+        },
+        {
+         "letter": "C",
+         "text": "La pollakiurie"
+        },
+        {
+         "letter": "D",
+         "text": "La douleur lombaire"
+        },
+        {
+         "letter": "E",
+         "text": "La fièvre"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Les mictions impérieuses ; B. La brûlure urétrale basse ; C. La pollakiurie",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "La cystite aiguë est une infection urinaire basse caractérisée par la triade fonctionnelle urinaire apyrétique : pollakiurie, brûlures mictionnelles (urétrales basses) et impériosités mictionnelles (mictions impérieuses), sans fièvre ni douleur lombaire (qui signent au contraire une pyélonéphrite aiguë).\n\nSource : Cours de Gynéco-Obstétrique L3 — Les infections urinaires et grossesse (p. 113).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle ou lesquelles des assertions concernant la rubéole au cours de la grossesse est ou sont juste(s) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Il faut nécessairement réaliser la sérologie au cours du 1er trimestre de grossesse."
+        },
+        {
+         "letter": "B",
+         "text": "Elle peut se compliquer d'avortements spontanés"
+        },
+        {
+         "letter": "C",
+         "text": "L'une de ses mesures prophylactiques est la vaccination des fillettes en âge scolaire immunisées."
+        },
+        {
+         "letter": "D",
+         "text": "Les anticorps M apparaissent en cas de réinfection."
+        },
+        {
+         "letter": "E",
+         "text": "Les risques surviennent uniquement en cas de primo-infection de la rubéole au cours de la grossesse."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Il faut nécessairement réaliser la sérologie au cours du 1er trimestre de grossesse. ; B. Elle peut se compliquer d'avortements spontanés",
+       "answerLetters": [
+        "A",
+        "B"
+       ],
+       "explanation": "La sérologie de la rubéole est un examen obligatoire du 1er trimestre de grossesse (Priorité 6 du bilan prénatal) ; la rubéole gravidique peut entraîner des avortements spontanés, une mort fœtale ou des malformations congénitales (syndrome de Gregg). La vaccination cible les fillettes non immunisées, les IgM signent une primo-infection (absentes lors d'une réinfection), et un faible risque existe exceptionnellement lors d'une réinfection précoce.\n\nSource : Cours de Gynéco-Obstétrique L3 — Sérologies et grossesse : la rubéole (chap. 5).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au troisième trimestre de grossesse, l'échographie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "permet d'apprécier le comportement fœtal"
+        },
+        {
+         "letter": "B",
+         "text": "permet de préciser la présentation fœtale"
+        },
+        {
+         "letter": "C",
+         "text": "se réalise idéalement entre 32 et 34 semaines d'aménorrhées"
+        },
+        {
+         "letter": "D",
+         "text": "permet l'étude de la qualité de l'œuf"
+        },
+        {
+         "letter": "E",
+         "text": "permet d'apprécier l'état des annexes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. permet d'apprécier le comportement fœtal ; B. permet de préciser la présentation fœtale ; C. se réalise idéalement entre 32 et 34 semaines d'aménorrhées ; E. permet d'apprécier l'état des annexes",
+       "answerLetters": [
+        "A",
+        "B",
+        "C",
+        "E"
+       ],
+       "explanation": "L'échographie du 3e trimestre (réalisée entre 30 et 34 SA, classiquement 32-34 SA) apprécie la croissance/biométrie fœtale, la vitalité et le comportement fœtal (mouvements actifs, mouvements respiratoires, score de Manning), la présentation fœtale et les annexes (localisation définitive du placenta et quantité de liquide amniotique). L'étude de la qualité de l'œuf relève du 1er trimestre.\n\nSource : Cours de Gynéco-Obstétrique L3 — Explorations en obstétrique : l'échographie obstétricale (p. 192).",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Laquelle ou lesquelles des assertions concernant la présentation de siège est ou sont juste(s) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le repère de la présentation du siège est le coccyx du fœtus."
+        },
+        {
+         "letter": "B",
+         "text": "La prématurité est une étiologie"
+        },
+        {
+         "letter": "C",
+         "text": "En cas de siège complet le segment inférieur est bien formé et épais."
+        },
+        {
+         "letter": "D",
+         "text": "À dilatation complète du col mettre en place une perfusion de syntocinon* 5 UI dans 500 ml de sérum glucosé isotonique"
+        },
+        {
+         "letter": "E",
+         "text": "Le foyer maximal des bruits du cœur fœtal est entendu au-dessous et en dehors de l'ombilic"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Le repère de la présentation du siège est le coccyx du fœtus. ; B. La prématurité est une étiologie ; D. À dilatation complète du col mettre en place une perfusion de syntocinon* 5 UI dans 500 ml de sérum glucosé isotonique",
+       "answerLetters": [
+        "A",
+        "B",
+        "D"
+       ],
+       "explanation": "Dans la présentation du siège, le repère fœtal est le sacrum/coccyx, la prématurité est une étiologie fréquente (culbute physiologique non achevée), et à dilatation complète une perfusion d'ocytocine (5 UI dans 500 ml de SGI) est installée pour renforcer les contractions lors de l'expulsion. Le foyer des BDCF s'entend au-dessus de l'ombilic, et le segment inférieur est mal amplié dans le siège complet.\n\nSource : Cours de Gynéco-Obstétrique L3 — La présentation du siège.",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-gyneco-j9-sf3__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les indications de l'hystérosalpingographie sont : (3 RÉPONSES JUSTES)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "bilan d'infertilité"
+        },
+        {
+         "letter": "B",
+         "text": "recherche de malformations utérines"
+        },
+        {
+         "letter": "C",
+         "text": "bilan de ménométrorragies"
+        },
+        {
+         "letter": "D",
+         "text": "recherche d'anomalies de l'ovaire"
+        },
+        {
+         "letter": "E",
+         "text": "recherche d'étiologies de douleurs pelviennes chroniques"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. bilan d'infertilité ; B. recherche de malformations utérines ; C. bilan de ménométrorragies",
+       "answerLetters": [
+        "A",
+        "B",
+        "C"
+       ],
+       "explanation": "Selon le cours sur les explorations fonctionnelles en gynécologie (p. 190), l'hystérosalpingographie (HSG) explore la cavité utérine et la perméabilité tubaire et a pour principales indications : l'étude de la perméabilité des trompes dans le bilan d'infertilité, la recherche de malformations utérines (après avortements à répétition) et la recherche de la cause d'un saignement d'origine utérine (bilan de ménométrorragies). Elle ne permet pas d'explorer les ovaires.\n\nSource : Cours de Gynéco-Obstétrique L3 — Les explorations fonctionnelles en gynécologie : l'hystérosalpingographie (p. 190). CORRIGÉ EXPLIQUÉ — PRÉPA DE INFAS",
+       "sourceDoc": "Préparation D.E (J) · Gynéco-obstétrique · Prépa D.E J9 (SF3)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

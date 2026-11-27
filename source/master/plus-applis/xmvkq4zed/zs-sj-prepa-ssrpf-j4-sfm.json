@@ -21,7 +21,7 @@
    "existe": true,
    "sujets": [
     {
-     "name": "J SSR / PF · Prépa D.E J4 (SFM)",
+     "name": "J SSR / PF · Prépa D.E J4 (SFM) · J4 et J10 identiques",
      "slug": "prepa-ssrpf-j4-sfm",
      "pages": "",
      "count": 55,
@@ -55,7 +55,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Allaitement au sein à moins de 6 semaines du post-partum : les contraceptifs hormonaux combinés sont en catégorie 4 (risque inacceptable), pas 3. La catégorie 3 concerne l'allaitement entre 6 semaines et 6 mois.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (critères d'éligibilité) et « Groupes particuliers – post-partum »",
+       "explanation": "Chez la femme allaitante à moins de 6 semaines (42 jours) du post-partum (ici 18 jours), les contraceptifs œstro-progestatifs combinés (COC) sont classés en catégorie 4 (contre-indication absolue) selon les critères d'éligibilité médicale de l'OMS, et non en catégorie 3, car les œstrogènes altèrent la sécrétion lactée.\n\nSource : Cours SR/PF L2 — Chap. 4 & 12 : Critères médicaux d'éligibilité de l'OMS des CHC.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -85,7 +85,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Les pilules de 4e génération contiennent comme progestatif de la drospirénone, de la chlormadinone, du diénogest ou du nomégestrol.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (classification)",
+       "explanation": "Les contraceptifs oraux combinés de quatrième génération associent un œstrogène à des progestatifs de synthèse récents tels que le diénogest, la drospirénone, le nomégestrol ou la chlormadinone.\n\nSource : Cours SR/PF L2 — Chap. 12 : Contraceptifs hormonaux combinés (CHC).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -115,7 +115,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Les COC sont classés en générations selon le type de progestatif : noréthistérone (1re), lévonorgestrel/norgestrel (2e), désogestrel/gestodène/norgestimate (3e), drospirénone… (4e).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (classification)",
+       "explanation": "Les différentes générations (1re, 2e, 3e et 4e générations) des contraceptifs hormonaux combinés sont définies en fonction de la molécule progestative (progestérone de synthèse) associée à l'éthinylestradiol ou à l'estradiol.\n\nSource : Cours SR/PF L2 — Chap. 12 : Contraceptifs hormonaux combinés (CHC).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -145,7 +145,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Méthodes de barrière : mécaniques (préservatifs masculin et féminin, cape cervicale, diaphragme) et chimiques (spermicides).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Généralités sur la contraception » et « Méthodes de barrière »",
+       "explanation": "Les méthodes contraceptives de barrière bloquent physiquement ou chimiquement l'ascension des spermatozoïdes vers l'utérus ; elles comprennent les barrières mécaniques (préservatifs masculin et féminin, diaphragme, cape cervicale) et les barrières chimiques (spermicides).\n\nSource : Cours SR/PF L2 — Chap. 11 : Méthodes de barrière (p. 40).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -175,7 +175,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "C'est la position décrite dans le cours : la cliente est couchée, le bras du côté examiné replié sous ou sur la tête, ce qui étale le sein sur le gril costal.\n\nSource : Cours de SR/PF L2 (INFAS 2023), Consultation en PF (examen des seins)",
+       "explanation": "Lors de l'examen clinique des seins en consultation de planification familiale, la palpation s'effectue chez la cliente allongée sur le dos (décubitus dorsal) avec le bras du côté examiné replié sur/sous la tête afin d'étaler uniformément la glande mammaire sur le gril costal.\n\nSource : Cours SR/PF L2 — Chap. 7 : Consultation en planification familiale (examen des seins).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -205,7 +205,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient « Vrai ». Le cours indique que les contraceptifs progestatifs, dont l'implant, sont efficaces dès les 24 premières heures quand ils sont posés au bon moment du cycle. Remarque : Le cours précise que si l'implant est posé plus de 7 jours après le début des règles, il faut une méthode d'appoint ou l'abstinence pendant 7 jours. L'énoncé est ambigu.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux progestatifs » (avantages et moment d'insertion)",
+       "explanation": "Lorsque l'implant contraceptif sous-cutané est posé dans les conditions requises (dans les 7 premiers jours du cycle menstruel ou en relais direct d'une contraception hormonale active), son efficacité contraceptive est immédiate, sans nécessité d'attendre 24 heures avant d'avoir des rapports sexuels.\n\nSource : Cours SR/PF L2 — Chap. 13 : Contraceptifs hormonaux progestatifs (implants).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -235,11 +235,10 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Définition du cours : le counseling est un « entretien conseil », un tête-à-tête… La correction nationale de la Prépa DE (les J) retient « Faux » parce que l'énoncé dit seulement « un entretien ».\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Counseling en PF » (définition)",
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « F » car cette formulation générale omet les spécificités du counseling en planification familiale (communication interpersonnelle interactive entre un prestataire qualifié et un client pour l'aider à prendre une décision libre et éclairée en matière de contraception ou de santé reproductive).\n\nSource : Cours SR/PF L2 — Chap. 6 : Counseling en planification familiale (p. 21).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-ssrpf-j4-sfm__7",
@@ -266,7 +265,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le cours dit « …pour trouver une solution à un problème de santé de la reproduction », et non de santé sexuelle.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Consultation en PF » (définition)",
+       "explanation": "Selon le cours SR/PF (chap. 7, p. 25), cette définition s'applique au processus relationnel d'aide (« trouver une solution à un problème de santé de la reproduction » / counseling), alors que la consultation de PF englobe également l'anamnèse complète, l'examen général, physique et gynécologique ainsi que l'application des critères médicaux d'éligibilité.\n\nSource : Cours SR/PF L2 — Chap. 7 : Consultation en planification familiale (p. 25).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -296,7 +295,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Avortement septique = catégorie 4 pour le DIU (contre-indiqué). La sage-femme doit référer pour traiter l'infection et proposer une autre méthode.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « DIU » (critères de recevabilité) et « Groupes particuliers – post-abortum »",
+       "explanation": "L'avortement septique constitue une contre-indication absolue (catégorie 4 de l'OMS) à la pose immédiate d'un DIU en raison du risque d'aggravation de l'infection utérine et pelvienne ; la sage-femme doit référer la cliente pour prise en charge médicale de l'infection avant d'envisager ultérieurement la pose du DIU après guérison complète.\n\nSource : Cours SR/PF L2 — Chap. 14 & 17 : DIU et contraception du post-abortum.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -326,7 +325,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le sein est divisé en 4 quadrants passant par le mamelon ; on palpe méthodiquement d'un quadrant à l'autre, mains à plat, puis le mamelon et les aires ganglionnaires.\n\nSource : Cours de SR/PF L2 (INFAS 2023), Consultation en PF (examen des seins) ; Clinique obstétricale L3 (fiche 3 : examen des seins)",
+       "explanation": "L'inspection et la palpation des deux seins doivent se pratiquer avec méthode, quadrant par quadrant (supéro-externe, inféro-externe, inféro-interne, supéro-interne), complétées par la recherche d'un écoulement mamelonnaire et la palpation des aires ganglionnaires axillaires et sus-claviculaires.\n\nSource : Cours SR/PF L2 — Chap. 7 : Examen clinique des seins en consultation de PF.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -356,7 +355,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Dans le tableau du cours, les antécédents gynécologiques et obstétricaux font partie des antécédents personnels. Les « autres antécédents » sont les antécédents familiaux, collatéraux et les ATCD et options en PF.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Consultation en PF » (tableau des antécédents)",
+       "explanation": "Dans la fiche individuelle de consultation en PF, les antécédents gynécologiques, obstétricaux et familiaux constituent des rubriques majeures et distinctes de l'anamnèse ; les « autres antécédents » regroupent le mode de vie (tabac, alcool), les allergies et les traitements en cours.\n\nSource : Cours SR/PF L2 — Chap. 7 & Annexe 3 : Fiche individuelle de consultation en PF.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -386,7 +385,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Devant une infection après la pose d'un DIU, on fait une évaluation clinique (signes vitaux, examen abdominal et pelvien) et des examens de laboratoire, puis on traite par antibiotiques. L'échographie est réservée à la recherche du DIU (fils introuvables, perforation, expulsion).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « DIU du post-partum » (gestion de l'infection et des problèmes de fils)",
+       "explanation": "Devant une infection génitale haute survenant après la pose d'un DIU, la conduite repose sur le diagnostic clinique, les prélèvements bactériologiques et l'antibiothérapie (avec retrait du DIU si absence d'amélioration sous 48-72 h) ; l'échographie pelvienne est indiquée lorsque les fils du DIU sont introuvables au spéculum ou en cas de suspicion de grossesse sur DIU.\n\nSource : Cours SR/PF L2 — Chap. 14 : Dispositif intra-utérin (DIU) et gestion des complications (p. 85).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -416,7 +415,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Quand les oublis surviennent pendant la dernière semaine de comprimés actifs, on finit les comprimés actifs et on enchaîne directement sur une nouvelle plaquette, sans faire la semaine d'arrêt (on jette les comprimés inactifs d'une plaquette de 28). Remarque : Le cours (COC) indique, en cas d'oubli de 2 pilules ou plus, de prendre 2 pilules par jour jusqu'à rattrapage et d'utiliser une méthode d'appoint pendant 7 jours.\n\nSource : (explication hors cours du projet ; le cours décrit seulement la prise de 2 comprimés par jour et la méthode d'appoint)",
+       "explanation": "En cas d'oubli de 2 comprimés actifs ou plus au cours de la 3e semaine (jours 15 à 21) d'une plaquette de COC, la patiente doit prendre immédiatement le dernier comprimé oublié, achever les comprimés actifs restants de la plaquette en cours puis enchaîner directement une nouvelle plaquette sans observer la pause habituelle de 7 jours (ou en jetant les comprimés inactifs).\n\nSource : Cours SR/PF L2 — Chap. 12 : Gestion des oublis de contraceptifs oraux combinés.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -446,7 +445,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le risque d'infection génitale haute chez les utilisatrices du DIU est inférieur à 1 % ; il est surtout lié à l'insertion (20 premiers jours) et à une IST préexistante, puis il devient comparable à celui des non-utilisatrices.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « DIU du post-partum » (complications)",
+       "explanation": "Le stérilet (DIU) en soi ne crée pas d'infection pelvienne : le faible risque infectieux observé dans les 20 premiers jours suivant la pose provient uniquement de l'introduction ascendante de germes cervicaux préexistants (IST non dépistée) ou d'une faute d'asepsie lors de l'insertion.\n\nSource : Cours SR/PF L2 — Chap. 14 : Dispositif intra-utérin (DIU) : rumeurs et prévention des infections.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -476,7 +475,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Avant la pose, l'examen au spéculum et le toucher vaginal vérifient l'absence de contre-indication (infection, cervicite, cancer du col…). Un col sain permet la pose.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « DIU » (étape 1 de la pose)",
+       "explanation": "L'examen au spéculum avant l'insertion d'un DIU permet de vérifier que le col utérin est sain (absence de cervicite purulente, d'ulcération ou de lésion suspecte de cancer du col) ; un col sain autorise la pose du DIU après vérification de l'absence de grossesse.\n\nSource : Cours SR/PF L2 — Chap. 14 : Examen gynécologique et insertion du DIU.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -506,7 +505,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le 1er volet est rempli par le prestataire qui réfère ; le 2e volet est rempli par le médecin qui reçoit la cliente.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Organisation et gestion d'un centre de PF » (fiche de référence)",
+       "explanation": "Le premier volet (bulletin de référence) est rempli par l'agent de santé périphérique (sage-femme, maïeuticien ou infirmier) qui adresse la cliente vers le centre de référence ; le médecin du centre d'accueil remplit le volet de contre-référence après la prise en charge.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 31 : Organisation de la référence et contre-référence (p. 125). SUJET 2 : QCM (Questions à Choix Multiple)",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -544,7 +543,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Une approche transformatrice de genre cherche à changer les normes et les tabous qui entourent les règles, en impliquant toute la communauté scolaire (filles, garçons, enseignants, parents). Les autres propositions renforcent les tabous ou les inégalités.\n\nSource : (explication hors cours du projet)",
+       "explanation": "L'approche transformatrice de genre appliquée à la gestion de l'hygiène menstruelle (GHM) en milieu scolaire vise à briser les normes et tabous socioculturels autour des menstruations en sensibilisant et en impliquant tous les acteurs de l'école (filles, garçons, enseignants et personnel éducatif).\n\nSource : Cours SR/PF L2 — Chap. 17 : Santé sexuelle et reproductive des adolescents et approche genre.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -578,11 +577,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "D. Les droits du client",
+       "answer": "C. Le consentement exprimé",
        "answerLetters": [
-        "D"
+        "C"
        ],
-       "explanation": "Principes au niveau du client : droit au caractère privé et confidentiel, liberté de choisir la méthode, liberté de s'exprimer, consentement éclairé, droits du client, renforcement de ses capacités. Seule l'option d reprend exactement le cours ; les autres sont déformées.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Counseling en PF » (principes de base)",
+       "explanation": "Le principe fondamental du counseling du côté du client réside dans son autonomie décisionnelle et son consentement librement et clairement exprimé après avoir compris les informations reçues.\n\nSource : Cours SR/PF L2 — Chap. 6 : Counseling en planification familiale (p. 21).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -620,7 +619,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "L'implant est une méthode réversible : la fécondité revient rapidement après le retrait. C'est l'injectable (DMPA) qui retarde le retour de la fécondité de plusieurs mois.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux progestatifs » (avantages et limites)",
+       "explanation": "Après le retrait d'un implant sous-cutané (Implanon NXT à l'étonogestrel ou Jadelle au lévonorgestrel), l'élimination de l'hormone est rapide et le retour à la fertilité est immédiat (sans délai de latence, contrairement aux injectables progestatifs).\n\nSource : Cours SR/PF L2 — Chap. 13 : Contraceptifs hormonaux progestatifs (implants).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -658,7 +657,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Principes au niveau du prestataire : la maîtrise du sujet, le fait de tirer les leçons du passé mais aussi demeurer positif, constructif, optimiste, l'éducation par l'exemple. Les options a, b et d mélangent les mots.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Counseling en PF » (principes de base)",
+       "explanation": "Chez le prestataire, l'attitude professionnelle de base en counseling consiste à adopter une écoute active, bienveillante et respectueuse, en demeurant positif et constructif sans jamais juger ni imposer un choix au client.\n\nSource : Cours SR/PF L2 — Chap. 6 : Principes et qualités du conseiller en PF.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -696,7 +695,7 @@
        "answerLetters": [
         "D"
        ],
-       "explanation": "La contraception d'urgence est d'autant plus efficace qu'elle est prise tôt après le rapport non protégé. Elle ne doit pas être utilisée de façon répétée à la place d'une méthode régulière et n'interrompt pas une grossesse déjà implantée. Remarque : Dans le sujet, l'option c est notée « d} » (coquille).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Groupes particuliers – contraception d'urgence »",
+       "explanation": "L'efficacité de la contraception d'urgence hormonale (pilules contraceptives d'urgence) décroît avec le temps écoulé depuis le rapport sexuel non protégé : elle doit donc être prise le plus précocement possible (idéalement dans les 24 premières heures et jusqu'à 72-120 heures). Elle n'est pas abortive et ne doit pas se substituer à une contraception régulière.\n\nSource : Cours SR/PF L2 — Chap. 17 : Contraception d'urgence et contraception des adolescents.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -730,7 +729,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Counseling initial : fait à la réception du client, on décrit toutes les méthodes et on l'aide à choisir. Le counseling spécifique porte sur la méthode choisie ; le counseling de suivi, sur les visites suivantes.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Counseling en PF » (phases)",
+       "explanation": "Le counseling initial (ou général) consiste à présenter brièvement l'ensemble des méthodes contraceptives disponibles afin d'aider la cliente à faire un choix éclairé, avant de passer au counseling spécifique portant uniquement sur la méthode retenue.\n\nSource : Cours SR/PF L2 — Chap. 6 : Les trois phases du counseling en PF (p. 21).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -764,12 +763,12 @@
        ],
        "mode": "mcq",
        "multi": true,
-       "answer": "B. Choix de méthode ; D. Explication",
+       "answer": "B. Choix de méthode ; C. Renseignements",
        "answerLetters": [
         "B",
-        "D"
+        "C"
        ],
-       "explanation": "Dans BERCER, « C » (Choix de la méthode) est suivi de « E » (Explications). Les renseignements (R) précèdent le choix ; le rendez-vous (R) suit les explications.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Counseling en PF » (étapes BERCER)",
+       "explanation": "Dans la démarche en 6 étapes du counseling selon l'acronyme BERCER (Bienvenue, Entretien, Renseignements, Choix de la méthode, Explication, Rendez-vous), l'étape « Renseignements » précède immédiatement l'étape « Choix de la méthode ».\n\nSource : Cours SR/PF L2 — Chap. 6 : Les étapes du counseling (approche BERCER).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -807,11 +806,10 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Femme de 35 ans ou plus qui fume 15 cigarettes ou plus par jour : risque cardiovasculaire inacceptable avec un œstroprogestatif, la méthode ne doit pas être utilisée. On propose une méthode sans œstrogène.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (critères d'éligibilité, mode de vie)",
+       "explanation": "Selon les critères d'éligibilité médicale de l'OMS (et l'annexe 3 du cours SR/PF), l'association d'un âge ≥ 35 ans (39 ans) et d'un tabagisme important (≥ 15 cigarettes/jour, ici 18 cigarettes/jour) classe les contraceptifs œstro-progestatifs combinés en catégorie 4 (contre-indication absolue) en raison du risque thromboembolique et cardiovasculaire majeur.\n\nSource : Cours SR/PF L2 — Chap. 4 & Annexe 3 : Critères d'éligibilité médicale de l'OMS (CHC).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-ssrpf-j4-sfm__24",
@@ -838,15 +836,14 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. Ne pas s'assurer que la cliente est enceinte",
+       "answer": "C. Identifier les indications médicales",
        "answerLetters": [
-        "A"
+        "C"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient l'option a. Le but du cours est « s'assurer que la cliente n'est pas enceinte » ; l'option c déforme « identifier les contre-indications médicales ».\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Consultation en PF » (buts)",
+       "explanation": "La consultation de planification familiale a pour objectif principal d'évaluer l'éligibilité clinique de la cliente afin d'identifier les indications et contre-indications médicales aux différentes méthodes contraceptives (tout en s'assurant de l'absence de grossesse).\n\nSource : Cours SR/PF L2 — Chap. 7 : Buts de la consultation d'une cliente en PF (p. 25).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-ssrpf-j4-sfm__25",
@@ -881,7 +878,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le cours présente 4 CHC : contraceptifs oraux combinés (COC), patch combiné, anneau intravaginal combiné et injectables combinés (CIC).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (définitions)",
+       "explanation": "Les contraceptifs hormonaux combinés (CHC) se répartissent en 04 groupes selon leur voie d'administration : les contraceptifs oraux combinés (COC), les contraceptifs injectables combinés (CIC), le patch contraceptif transdermique et l'anneau vaginal combiné.\n\nSource : Cours SR/PF L2 — Chap. 12 : Contraceptifs hormonaux combinés (CHC) (p. 47).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -915,7 +912,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Un injectable à deux hormones est un contraceptif injectable combiné (CIC) : réinjection toutes les 4 semaines. Huit semaines = Noristérat ; douze semaines = Depo-Provera/Sayana Press.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (calendrier de suivi des CIC)",
+       "explanation": "Un contraceptif injectable contenant deux hormones (œstrogène + progestatif) est un contraceptif injectable combiné (CIC), qui s'administre tous les mois : le prochain rendez-vous est donc fixé à quatre semaines (contrairement au Noristérat à 8 semaines et au Depo-Provera à 12 semaines).\n\nSource : Cours SR/PF L2 — Chap. 12 : Les contraceptifs injectables combinés (CIC).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -945,11 +942,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "B. Niveau d'éducation",
+       "answer": "C. Fonction",
        "answerLetters": [
-        "B"
+        "C"
        ],
-       "explanation": "Identité du client : nom et prénoms, âge, niveau d'éducation, profession/occupation, domicile, situation matrimoniale et socio-économique. L'âge se note en années.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Consultation en PF » (interrogatoire)",
+       "explanation": "Dans l'observation clinique de planification familiale, la rubrique « Identité » recense le nom, les prénoms, l'âge (en années), la profession/fonction, le domicile et la situation matrimoniale du client.\n\nSource : Cours SR/PF L2 — Chap. 7 : Les étapes de la consultation en planification familiale.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -987,7 +984,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Les migraines avec aura sont en catégorie 4 pour tous les CHC (COC, CIC, patch, anneau), quel que soit l'âge, à cause du risque d'AVC.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (critères d'éligibilité)",
+       "explanation": "La présence de migraines avec aura (signes neurologiques focaux précédant la céphalée) constitue, à tout âge, une contre-indication absolue (Catégorie 4 de l'OMS) aux contraceptifs hormonaux combinés (CHC) en raison du risque élevé d'accident vasculaire cérébral ischémique.\n\nSource : Cours SR/PF L2 — Chap. 4 & 12 : Critères médicaux d'éligibilité de l'OMS (CHC).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1021,7 +1018,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Chez les adolescents, le préservatif (masculin ou féminin) est la méthode la plus recommandée (+++) car il protège aussi contre les IST/VIH. La MAMA concerne le post-partum ; la CCV est définitive.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Groupes particuliers – contraception des adolescents »",
+       "explanation": "Chez l'adolescent(e) sexuellement actif(ve), particulièrement exposé(e) au risque d'IST/VIH et de grossesses précoces, le préservatif (condom) est la méthode de choix recommandée car il assure la double protection. La stérilisation chirurgicale n'est pas adaptée et la MAMA ne concerne que la femme allaitante en post-partum.\n\nSource : Cours SR/PF L2 — Chap. 17 : La contraception des adolescents (p. 125).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1051,15 +1048,14 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. La date",
+       "answer": "B. Le nom et la signature",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "Le 1er volet de la fiche porte notamment la date, le nom de la cliente, le n° de fiche, la méthode utilisée, le problème rencontré, le nom et la signature du prestataire. On n'y note pas de « conduite à tenir infirmière ».\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Organisation et gestion d'un centre de PF » (fiche de référence et contre-référence)",
+       "explanation": "La fiche de référence et contre-référence doit obligatoirement porter le nom, les prénoms, la qualité et la signature du prestataire ayant effectué la référence ou la contre-référence afin de valider le document médical.\n\nSource : Cours de Gynéco-Obstétrique L3 — Chap. 31 : Fiche de référence et contre-référence (p. 125).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-ssrpf-j4-sfm__31",
@@ -1094,7 +1090,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Le cours : si l'on oublie une pilule active, il faut la prendre dès qu'on s'en rappelle, même si cela fait 2 pilules le même jour, puis continuer la plaquette.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (instructions COC)",
+       "explanation": "Face à un oubli de plus de 12 heures (ici 36 heures) au 3e jour de la plaquette, le premier geste consiste à prendre immédiatement le comprimé oublié dès la constatation de l'oubli (en plus du comprimé du jour à l'heure habituelle).\n\nSource : Cours SR/PF L2 — Chap. 12 : Conduite à tenir devant un oubli de COC.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1124,7 +1120,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Oui : après avoir pris la pilule oubliée, elle continue la plaquette à raison d'une pilule par jour.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (instructions COC)",
+       "explanation": "Après avoir pris le comprimé oublié, la cliente doit poursuivre normalement la prise d'un comprimé par jour jusqu'à la fin de sa plaquette.\n\nSource : Cours SR/PF L2 — Chap. 12 : Conduite à tenir devant un oubli de COC.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1154,11 +1150,10 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient « Oui » : l'oubli concerne la 1re semaine de la plaquette (après la semaine d'arrêt) et il y a eu un rapport non protégé peu avant.\n\nSource : (explication hors cours du projet)",
+       "explanation": "Comme l'oubli (> 12 heures) a lieu durant la 1re semaine de la plaquette (J3) et qu'un rapport sexuel non protégé est survenu dans les 5 jours précédant l'oubli (48 heures avant), il existe un risque de fécondation justifiant la prise d'une contraception d'urgence.\n\nSource : Cours SR/PF L2 — Chap. 12 & 17 : Oubli de pilule en 1re semaine et contraception d'urgence.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-ssrpf-j4-sfm__34",
@@ -1185,11 +1180,10 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient « Oui » : utiliser une méthode d'appoint (préservatif) pendant 7 jours, le temps que la pilule soit de nouveau efficace.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (instructions COC)",
+       "explanation": "La suppression ovarienne étant fragilisée par cet oubli de 36 heures en début de cycle, la cliente doit impérativement utiliser une méthode barrière (préservatif) ou observer l'abstinence pendant les 7 jours qui suivent la reprise régulière des comprimés.\n\nSource : Cours SR/PF L2 — Chap. 12 : Oubli de pilule combinée et méthode d'appoint.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-ssrpf-j4-sfm__35",
@@ -1220,7 +1214,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Les spottings sont fréquents et passagers pendant les 3 premiers mois ; s'ils persistent au-delà, il faut examiner la cliente (prise des pilules, autres causes gynécologiques) avant de décider.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (instructions de suivi et calendrier de suivi COC)",
+       "explanation": "Les petits saignements intermenstruels (spottings) sont fréquents et bénins au cours des 3 premiers cycles d'utilisation d'un COC (on rassure) ; au-delà de trois cycles, leur persistance impose d'examiner la cliente (interrogatoire sur l'observance et examen gynécologique/au spéculum) pour éliminer une cause organique ou infectieuse.\n\nSource : Cours SR/PF L2 — Chap. 12 : Gestion des effets secondaires des COC (saignements irréguliers).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1254,7 +1248,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Une anomalie à l'examen gynécologique dépasse le cadre de la consultation de PF : on réfère la cliente vers le médecin, avec la fiche de référence.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Organisation et gestion d'un centre de PF » (fiche de référence) et arbres décisionnels des effets secondaires",
+       "explanation": "Conformément aux algorithmes décisionnels du suivi en planification familiale (Annexe du cours SR/PF), la mise en évidence d'une anomalie à l'examen gynécologique (lésion cervicale, masse annexielle ou utérine, saignement inexpliqué) impose de référer la cliente vers un médecin spécialiste.\n\nSource : Cours SR/PF L2 — Algorithme de suivi clinique en planification familiale.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1288,7 +1282,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Des signes de grossesse sous pilule imposent d'abord d'examiner la cliente (examen gynécologique, test de grossesse) pour confirmer ou éliminer une grossesse.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (signes avertisseurs) et arbres décisionnels",
+       "explanation": "Lorsqu'une utilisatrice de pilule présente des signes cliniques évoquant une grossesse (nausées, vomissements, tension mammaire, retard de règles), il faut l'examiner et pratiquer un test de grossesse pour confirmer ou infirmer le diagnostic.\n\nSource : Cours SR/PF L2 — Chap. 12 : Suivi des utilisatrices de contraceptifs oraux combinés.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1322,7 +1316,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "Le Stédiril est un COC normo-dosé : 50 µg d'éthinylestradiol (EE).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (classification selon le dosage)",
+       "explanation": "Le Stédiril® est un contraceptif oral combiné normodosé contenant 50 microgrammes (0,05 mg) d'éthinylestradiol (EE) associés à 0,5 mg de norgestrel.\n\nSource : Cours SR/PF L2 — Chap. 12 : Classification et dosages des COC.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1390,7 +1384,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Oui : la dernière pilule active a été prise hier, la protection de la pilule est encore assurée au moment de la pose.\n\nSource : (explication hors cours du projet)",
+       "explanation": "L'insertion immédiate en relais d'un comprimé actif pris la veille évite toute rupture de couverture hormonale ; la patiente est donc protégée sans interruption.\n\nSource : Cours SR/PF L2 — Chap. 13 : Relais contraceptif vers l'implant sous-cutané.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1420,7 +1414,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Oui : le changement de méthode peut se faire immédiatement, on est certain qu'elle n'est pas enceinte.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux progestatifs » (« à n'importe quel moment si le prestataire est certain que la cliente n'est pas enceinte »)",
+       "explanation": "L'absence de grossesse étant raisonnablement établie grâce à la prise régulière de la pilule active jusqu'à la veille, le prestataire doit insérer l'implant dès cette consultation.\n\nSource : Cours SR/PF L2 — Chap. 13 : Moment d'insertion des implants contraceptifs.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1454,7 +1448,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Un seul oubli, puis poursuite de la méthode : la protection est maintenue (le cours prévoit de prendre la pilule dès qu'on s'en rappelle et de continuer). Remarque : Dans le sujet, les options b et c portent deux fois leur lettre.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » (instructions COC)",
+       "explanation": "Selon les normes de gestion des oublis de COC enseignées en SR/PF, l'oubli isolé d'une seule pilule combinée suivi de la reprise et de la poursuite normale de la plaquette n'annule pas l'efficacité contraceptive : la cliente demeure protégée.\n\nSource : Cours SR/PF L2 — Chap. 12 : Gestion d'un oubli isolé de COC.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1484,11 +1478,10 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "La correction nationale de la Prépa DE (les J) retient « Anormal » : Mme HI est déjà protégée par sa pilule, l'exigence du préservatif dans son couple n'a pas de justification contraceptive.\n\nSource : (explication hors cours du projet)",
+       "explanation": "La correction nationale de la Prépa DE (les J) retient « Anormal » car, dans ce cas clinique où la cliente utilise correctement sa pilule combinée (un seul oubli isolé) sans facteur de risque d'IST mentionné, une méthode d'appoint par préservatif n'est pas médicalement requise pour l'efficacité contraceptive.\n\nSource : Cours SR/PF L2 — Chap. 12 : Suivi sous contraceptifs oraux combinés.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
-       "sourcePage": null,
-       "off": true
+       "sourcePage": null
       },
       {
        "id": "j-preparation-de__prepa-ssrpf-j4-sfm__44",
@@ -1519,7 +1512,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "Les migraines contre-indiquent ou déconseillent les œstroprogestatifs (catégorie 3 ou 4), alors qu'elles sont en catégorie 2 pour les contraceptifs progestatifs. Passer à un injectable progestatif est donc normal.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux combinés » et « Contraceptifs hormonaux progestatifs » (critères d'éligibilité)",
+       "explanation": "Les migraines contre-indiquent les contraceptifs contenant des œstrogènes (risque vasculaire cérébral), tandis que les contraceptifs injectables progestatifs seuls (CIP) sont autorisés chez la femme migraineuse ; ce changement de méthode est donc parfaitement normal.\n\nSource : Cours SR/PF L2 — Chap. 4 & 13 : Critères d'éligibilité médicale des CIP (migraines).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1557,7 +1550,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Une rougeur au point d'injection traduit un défaut d'asepsie : la prévention des infections (PI) n'a été que partielle. Le cours demande de respecter la PI pour les injectables et les implants. Remarque : « Option 2 » est un choix vide laissé dans le sujet.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux progestatifs » (limites : respecter la PI)",
+       "explanation": "Une réaction locale bénigne au point d'injection (rougeur) relève d'un simple counseling rassurant et ne nécessite pas d'abandonner la méthode ni de revenir vers des comprimés contre-indiqués par ses migraines ; cela traduit une prise en charge/information (PI) partielle. Remarque : une option vide résiduelle (« Option 2 ») apparaît dans le sujet.\n\nSource : Cours SR/PF L2 — Chap. 13 : Gestion des effets secondaires des contraceptifs injectables.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1591,7 +1584,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Après la pilule (refusée à cause des migraines) et l'injectable (réaction au point d'injection), le DIU au cuivre est une méthode non hormonale, de longue durée, sans risque lié aux migraines. La MAMA ne concerne que le post-partum ; la CCV est définitive.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « DIU » (avantages)",
+       "explanation": "Le dispositif intra-utérin (DIU) au cuivre constitue une méthode contraceptive réversible de longue durée dépourvue d'hormones (parfaitement compatible avec ses antécédents de migraines), alors que la MAMA ne s'applique qu'en post-partum avec allaitement exclusif.\n\nSource : Cours SR/PF L2 — Chap. 14 : Indications du dispositif intra-utérin (DIU).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1629,7 +1622,7 @@
        "answerLetters": [
         "B"
        ],
-       "explanation": "La confidentialité est la règle avec l'adolescent ; elle ne peut être levée qu'en cas de danger grave et immédiat pour le mineur (sévices, violences, risque vital).\n\nSource : (explication hors cours du projet ; le cours insiste sur la confidentialité avec les adolescents)",
+       "explanation": "Les adolescents ont droit au respect strict de la confidentialité en consultation de santé sexuelle et reproductive ; la dérogation au secret médical n'est justifiée qu'en cas de danger immédiat et grave pour la sécurité ou l'intégrité physique ou psychologique du mineur (violences, maltraitance, abus sexuels, risque vital).\n\nSource : Cours SR/PF L2 — Chap. 17 : Santé sexuelle et reproductive des adolescents (confidentialité).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1659,11 +1652,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "A. Le carnet de commande",
+       "answer": "B. Les fiches",
        "answerLetters": [
-        "A"
+        "B"
        ],
-       "explanation": "Le carnet de commande figure dans la liste des outils de travail en PF ; il sert à commander les contraceptifs et le matériel. Remarque : Le cours cite aussi des fiches (fiche individuelle, fiche de référence, fiche de rapport) et la carte de rendez-vous ; les options b et c sont trop vagues.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Organisation et gestion d'un centre de PF » (outils de travail)",
+       "explanation": "Les fiches (fiches individuelles de consultation, fiches de suivi, fiches techniques) représentent l'outil clinique de base du prestataire lors de la consultation et du suivi en planification familiale, tandis que le carnet de commande est un outil de gestion logistique.\n\nSource : Cours SR/PF L2 — Chap. 7 & 18 : Outils de consultation et gestion d'un centre de PF.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1697,11 +1690,11 @@
        ],
        "mode": "mcq",
        "multi": false,
-       "answer": "C. Mélangée",
+       "answer": "A. Trouble",
        "answerLetters": [
-        "C"
+        "A"
        ],
-       "explanation": "Tableau des changements de la glaire : après l'ovulation, elle est diminuée, fine et de couleur « mélangée ». Elle est claire (blanc d'œuf) à l'ovulation et trouble après les règles et avant les règles.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Méthodes d'auto-observation » (méthode de Billings)",
+       "explanation": "Dans la méthode de l'ovulation de Billings, la glaire cervicale est claire, abondante, filante et glissante en période pré-ovulatoire et ovulatoire sous l'effet des œstrogènes ; après l'ovulation, sous l'influence de la progestérone, elle devient rare, épaisse, collante et trouble.\n\nSource : Cours SR/PF L2 — Chap. 8 : Méthodes d'auto-observation (méthode de Billings) (p. 28).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1744,7 +1737,7 @@
         "B",
         "E"
        ],
-       "explanation": "Sayana Press s'injecte en sous-cutané ; les CIC s'injectent en intramusculaire. Ce sont deux contraceptifs injectables, la différence porte donc sur la voie d'injection.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux progestatifs » (tableau des injectables) et « CHC »",
+       "explanation": "Les contraceptifs injectables combinés (CIC) s'administrent par voie intramusculaire (IM), tandis que le Sayana Press (acétate de médroxyprogestérone retard en dispositif Uniject) s'administre par voie souscutanée (SC) ; ces deux voies d'administration distinctes permettent de les différencier.\n\nSource : Cours SR/PF L2 — Chap. 12 & 13 : Contraceptifs injectables (CIC et Sayana Press).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1778,7 +1771,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Les femmes qui ont ou n'ont pas eu d'enfants sont en catégorie 1 pour l'implant. Une femme ménopausée n'a plus besoin de contraception : l'implant n'a pas d'indication chez elle.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux progestatifs » (critères d'éligibilité)",
+       "explanation": "L'implant sous-cutané est utilisable sans restriction (catégorie 1) chez la nullipare comme chez la paucipare ; chez la femme ménopausée, l'arrêt définitif de la fonction ovarienne rend toute contraception inutile et non indiquée.\n\nSource : Cours SR/PF L2 — Chap. 13 : Indications et contre-indications des implants.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1816,7 +1809,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "Le DIU hormonal au lévonorgestrel agit sur l'endomètre : il diminue les règles et peut entraîner une aménorrhée, effet attendu et sans gravité.\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « DIU » (DIU hormonal) et « CHP » (aménorrhée)",
+       "explanation": "L'absence totale de règles (aménorrhée) est un effet secondaire fréquent, bénin et attendu du système intra-utérin au lévonorgestrel (SIU-LNG), dû à la mise au repos et à l'atrophie réversible de l'endomètre sous l'action locale du progestatif.\n\nSource : Cours SR/PF L2 — Chap. 13 & 14 : Effets secondaires des progestatifs et du SIU au lévonorgestrel.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1850,7 +1843,7 @@
        "answerLetters": [
         "A"
        ],
-       "explanation": "L'aménorrhée sous progestatif n'est pas grave et ne nécessite pas de traitement : on rassure la cliente (en s'assurant qu'il n'y a pas de grossesse si un doute existe).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Contraceptifs hormonaux progestatifs » (instructions : « rassurer la cliente que l'aménorrhée n'est pas grave »)",
+       "explanation": "Après avoir écarté une grossesse par l'interrogatoire et l'examen clinique, le prestataire doit rassurer la patiente en lui expliquant que l'aménorrhée sous DIU hormonal est sans danger pour sa santé ni sa fertilité future, et ne nécessite pas le retrait du dispositif.\n\nSource : Cours SR/PF L2 — Conduite à tenir devant une aménorrhée sous contraceptif progestatif.",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null
@@ -1884,7 +1877,7 @@
        "answerLetters": [
         "C"
        ],
-       "explanation": "« Encourage le client à poser des questions » figure tel quel dans la liste des qualités d'un bon conseiller. Remarque : Les options a et b sont des versions raccourcies d'autres qualités du cours (« comprend les avantages et les limitations… », « comprend les facteurs culturels et émotionnels… »).\n\nSource : Document SSR L2 SF (cours SR/PF, INFAS), chapitre « Counseling en PF » (qualités d'un bon conseiller)",
+       "explanation": "Les propositions a et b relèvent des connaissances techniques du prestataire, tandis qu'encourager le client à poser des questions traduit une qualité morale et relationnelle (ouverture, empathie, respect du client) indispensable au bon counseling.\n\nSource : Cours SR/PF L2 — Chap. 6 : Qualités morales nécessaires pour un bon counseling (p. 21).",
        "sourceDoc": "Révision J1 à J4 SF/M — corrigé expliqué (J4 SSR/PF SFM)",
        "sourceFile": "REVISION_J1_a_J4_SFM_Corrige_explique.docx",
        "sourcePage": null

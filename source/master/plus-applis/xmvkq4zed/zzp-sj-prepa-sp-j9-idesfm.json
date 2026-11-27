@@ -1,0 +1,1894 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzp-sj-prepa-sp-j9-idesfm",
+ "titre": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 51,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+   "sha256": "c1e8c2d8402d3b954a7c6fc159ceb6b02b83cb88c53adce6ddd9268aa4b95034"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J Santé publique · Prépa D.E J9 (IDE/SF/M)",
+     "slug": "prepa-sp-j9-idesfm",
+     "pages": "",
+     "count": 51,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "Santé publique",
+     "source": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Selon Winslow (1920), la santé publique est l'art de prévenir les maladies, améliorer la vie et prolonger la santé et la vitalité de la population",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La définition classique de Charles-Edward Winslow (1920), reprise par l'OMS (1952), définit la santé publique comme la science et l'art de prévenir les maladies, de prolonger la vie et d'améliorer la santé et la vitalité mentale et physique des individus par des efforts collectifs organisés.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Introduction à la santé publique, p. 5 ; Cours de Santé Publique-1, section 1.2, p. 7.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La santé communautaire vise la promotion de la santé.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La santé communautaire repose sur l'engagement actif et la responsabilisation des membres d'une collectivité pour identifier leurs besoins et agir sur leurs déterminants afin d'améliorer et de promouvoir leur état de santé.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Introduction à la santé publique, p. 7 ; Cours de Santé Publique-1, section 1.4, p. 8.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__2",
+       "num": "3",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'assainissement est l'ensemble des moyens collectifs visant à préserver la santé et la propreté corporelle",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'assainissement regroupe l'ensemble des techniques et mesures collectives visant à maîtriser les facteurs de l'environnement physique (évacuation des excréta, eaux usées, déchets solides, lutte antivectorielle) susceptibles de nuire à la santé, alors que la propreté corporelle relève de l'hygiène individuelle.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Hygiène et assainissement, p. 64 ; Cours de Santé Publique-1, p. 81.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une eau potable minéralisée est riche en ions chlore et sulfate",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Selon les critères physico-chimiques de potabilité, une eau potable ne doit contenir qu'une quantité modérée de sels minéraux et ne doit pas être excessivement riche en chlorures, sulfates, nitrates ou métaux lourds qui la rendraient impropre à la consommation.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Hygiène et assainissement — Qualités chimiques d'une eau potable, p. 64.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les pollutions collectives proviennent des déchets des usines, les eaux de lavage, de refroidissement et de graissage",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les pollutions collectives ou industrielles résultent des rejets massifs provenant des établissements industriels et manufacturiers, notamment les déchets d'usines ainsi que les eaux usées de lavage, de refroidissement et de graissage.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Hygiène et assainissement — Gestion des eaux usées et pollutions, p. 64.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La conférence internationale sur les soins de santé primaires s'est tenue du 6 au 12 septembre 1978 à Montréal",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La Conférence internationale sur les Soins de Santé Primaires s'est bien tenue du 6 au 12 septembre 1978, mais à Alma-Ata (au Kazakhstan, ex-URSS) et non à Montréal.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Soins de Santé Primaires (SSP), p. 91 ; Cours de Santé Publique-1, p. 12.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En épidémiologie, l'ensemble des actions mises en œuvre pour résoudre un problème ou modifier une situation non satisfaisante est la riposte",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "En surveillance épidémiologique, la riposte désigne l'ensemble des interventions coordonnées (prise en charge des cas, vaccination réactive, assainissement, sensibilisation) déclenchées dès le franchissement du seuil d'action pour enrayer une épidémie.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Surveillance épidémiologique (section 1.10), p. 85.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un agent de santé communautaire peut utiliser la communication de masse pour mener son activité de sensibilisation dans le village",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La communication de masse utilise les grands médias (radio nationale, télévision, presse écrite, affichage national) pour toucher un vaste public anonyme ; au niveau d'un village, l'agent de santé communautaire privilégie la communication interpersonnelle (visites à domicile, causeries éducatives) et les canaux traditionnels de proximité.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. IEC / CCSC, p. 98.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La mobilisation communautaire met l'accent sur la participation des populations ellesmêmes à la définition et à la recherche des solutions à leurs propres besoins.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Selon les principes fondamentaux de la mobilisation communautaire, la communauté identifie elle-même ses besoins prioritaires, participe à la recherche de solutions et conduit la planification selon une démarche ascendante (« du bas vers le haut »).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Mobilisation communautaire (sections I et III, L2, p. 8).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lorsque dans une communication, une personne s'adresse à une catégorie d'individus bien définis, l'on parle de communication de masse",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Lorsqu'un animateur s'adresse directement à un groupe restreint et homogène d'individus bien définis (par exemple lors d'une causerie éducative avec des femmes enceintes), il s'agit d'une communication de groupe (ou interpersonnelle de groupe), et non d'une communication de masse.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. IEC / CCSC, p. 98.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une injection est dite sécurisée lorsqu'elle est sans risque pour la mère ou l'enfant, l'agent de santé et la communauté",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Selon l'OMS, la sécurité des injections repose sur trois piliers indissociables : une injection ne doit nuire ni au bénéficiaire (mère ou enfant), ni au prestataire (agent de santé), ni à la communauté (élimination sécurisée des déchets dans les boîtes de sécurité).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Programme Élargi de Vaccination (PEV) / Sécurité des injections, p. 28.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le maintien de la chaine du froid est important dans le cadre des activités de vaccination pour deux raisons fondamentales.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le maintien de la chaîne du froid est indispensable pour deux raisons majeures : préserver le pouvoir immunogène (efficacité) des vaccins thermosensibles de leur fabrication jusqu'à leur administration, et éviter les pertes financières liées à la destruction des vaccins altérés.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des vaccins et consommables / Chaîne de froid (L2, p. 29).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La température convenable pour la conservation de vaccins se situe entre +2°c et +8°c",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Au niveau des formations sanitaires périphériques (ESPC), tous les vaccins du PEV doivent être conservés en permanence dans le réfrigérateur à une température strictement comprise entre +2 °C et +8 °C.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des vaccins et consommables / Chaîne de froid (L2, p. 29).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les doses de vaccin perdues pour que la vaccination ait lieu sont considérées comme des doses gaspillées",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "On distingue deux types de pertes : les pertes inévitables (doses restantes dans un flacon multidose ouvert et jetées en fin de séance pour permettre la vaccination même d'un seul enfant) et les pertes évitables ou gaspillage (péremption, rupture de la chaîne du froid, casse de flacons).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des vaccins et consommables (L2, p. 29). II. QUESTIONS À CHOIX UNIQUE ET À CHOIX MULTIPLE",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__14",
+       "num": "15",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un groupe d'individus vivant ensemble dans des conditions spécifiques d'organisation et de cohésion sociales, s'appelle :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "B. Une cible."
+        },
+        {
+         "letter": "B",
+         "text": "D. Une population"
+        },
+        {
+         "letter": "C",
+         "text": "Une communauté."
+        },
+        {
+         "letter": "D",
+         "text": "A. Une association."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Une communauté.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Selon l'OMS, une communauté est définie comme un groupe d'individus vivant ensemble dans un espace géographique donné, partageant des valeurs, des intérêts communs et soumis à des règles d'organisation et de cohésion sociales.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Introduction à la santé publique, p. 7 ; Cours de Santé Publique-1, section 1.4, p. 8.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__15",
+       "num": "16",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les Soins de santé primaires sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Des soins essentiels, fondés sur des méthodes et une technologie pratique"
+        },
+        {
+         "letter": "B",
+         "text": "Des soins essentiels, fondés sur des méthodes et une technologie abordable."
+        },
+        {
+         "letter": "C",
+         "text": "Des soins essentiels, fondés sur des méthodes et une technologie acceptable."
+        },
+        {
+         "letter": "D",
+         "text": "Des soins essentiels, fondés sur des méthodes et une technologie accessible."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Des soins essentiels, fondés sur des méthodes et une technologie acceptable.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Selon la Déclaration d'Alma-Ata (1978), les Soins de Santé Primaires sont des soins de santé essentiels fondés sur des méthodes et des techniques pratiques, scientifiquement valables et socialement acceptables, rendus universellement accessibles à tous.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Soins de Santé Primaires (SSP), p. 91 ; Cours de Santé Publique-1, section 1.5, p. 8.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__16",
+       "num": "17",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'ensemble d'orientations, de choix stratégiques et de décisions prises par les pouvoirs d'un pays pour maintenir et/ou améliorer l'état de santé d'une population s'appelle :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le programme de santé."
+        },
+        {
+         "letter": "B",
+         "text": "Le système de santé."
+        },
+        {
+         "letter": "C",
+         "text": "L'action de santé publique."
+        },
+        {
+         "letter": "D",
+         "text": "La politique de santé publique."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. La politique de santé publique.",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "La politique de santé publique correspond textuellement à l'ensemble des orientations, des choix stratégiques et des décisions arrêtés par les pouvoirs publics d'un pays pour maintenir et améliorer l'état de santé de sa population.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Introduction à la santé publique, p. 6.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__17",
+       "num": "18",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "En tenant compte des différents types de prévention, la vaccination peut être considérée comme:",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une prévention primaire."
+        },
+        {
+         "letter": "B",
+         "text": "Une prévention tertiaire."
+        },
+        {
+         "letter": "C",
+         "text": "Une prévention secondaire."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Une prévention primaire.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La prévention primaire regroupe l'ensemble des mesures visant à réduire l'incidence d'une maladie en agissant sur les facteurs de risque et en renforçant la résistance des individus sains avant l'apparition de tout trouble, dont la vaccination est l'exemple type.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Introduction à la santé publique (section 1.2.1), p. 6.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__18",
+       "num": "19",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les dates ci-dessous, identifier celle qui correspond à l'avènement de la promotion de la santé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1977"
+        },
+        {
+         "letter": "B",
+         "text": "1978"
+        },
+        {
+         "letter": "C",
+         "text": "1986"
+        },
+        {
+         "letter": "D",
+         "text": "1980"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 1986",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'avènement officiel de la promotion de la santé date de 1986 avec l'adoption de la Charte d'Ottawa lors de la première Conférence internationale pour la promotion de la santé (1977 étant l'objectif Santé pour tous et 1978 Alma-Ata).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Introduction à la santé publique, p. 6 ; Cours de Santé Publique-1, p. 9.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__19",
+       "num": "20",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les trois niveaux de perception des besoins de santé sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le niveau des besoins financiers."
+        },
+        {
+         "letter": "B",
+         "text": "Le niveau des besoins latents."
+        },
+        {
+         "letter": "C",
+         "text": "Le niveau des besoins exogènes."
+        },
+        {
+         "letter": "D",
+         "text": "Le niveau des besoins ressentis."
+        },
+        {
+         "letter": "E",
+         "text": "Le niveau des besoins exprimés."
+        },
+        {
+         "letter": "F",
+         "text": "Le niveau des besoins prioritaires."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Le niveau des besoins latents. ; D. Le niveau des besoins ressentis. ; E. Le niveau des besoins exprimés.",
+       "answerLetters": [
+        "B",
+        "D",
+        "E"
+       ],
+       "explanation": "Dans le diagnostic communautaire, l'analyse de la perception des besoins de santé distingue trois niveaux : les besoins ressentis (perçus par la population), les besoins exprimés (traduits en demandes de soins ou revendications) et les besoins latents (non perçus par la population mais identifiés par les professionnels).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Diagnostic communautaire (L2, p. 43).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__20",
+       "num": "21",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La construction et l'utilisation des latrines est un moyen de lutte contre le péril fécal.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La construction et l'utilisation effective de latrines hygiéniques constituent la mesure fondamentale d'évacuation des excréta permettant de rompre la transmission oro-fécale des agents pathogènes et de lutter contre le péril fécal.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Hygiène et assainissement — Évacuation des excréta, p. 64.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les attitudes à développer par le personnel de santé pour faire une bonne étude du milieu sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "L'exploitation des informations."
+        },
+        {
+         "letter": "B",
+         "text": "L'observation du milieu de vie"
+        },
+        {
+         "letter": "C",
+         "text": "L'orientation des interventions"
+        },
+        {
+         "letter": "D",
+         "text": "L'établissement des priorités."
+        },
+        {
+         "letter": "E",
+         "text": "Le dialogue avec les habitants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. L'observation du milieu de vie ; E. Le dialogue avec les habitants",
+       "answerLetters": [
+        "B",
+        "E"
+       ],
+       "explanation": "Selon l'introduction du cours sur l'étude du milieu, les deux attitudes fondamentales à adopter par l'agent de santé sur le terrain sont l'observation attentive du milieu de vie et le dialogue avec les habitants (les autres propositions étant des étapes méthodologiques).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Étude du milieu (Introduction), p. 55.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les facteurs du milieu pouvant agir sur la santé sont regroupés en :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "B. Trois grands groupes."
+        },
+        {
+         "letter": "B",
+         "text": "A. Deux grands groupes."
+        },
+        {
+         "letter": "C",
+         "text": "Quatre grands groupes."
+        },
+        {
+         "letter": "D",
+         "text": "Cinq grands groupes."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. B. Trois grands groupes.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans le cours d'étude du milieu (d'après Alonde), les facteurs du milieu pouvant agir positivement ou négativement sur la santé sont classés en trois grands groupes : les facteurs biologiques (physiologiques et psychologiques), les facteurs physiques et les facteurs socio-économiques et culturels.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Étude du milieu (Objectif spécifique 2 et section III), p. 55.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le système de santé Ivoirien repose sur",
+       "options": [
+        {
+         "letter": "A",
+         "text": "C. Cinq piliers"
+        },
+        {
+         "letter": "B",
+         "text": "Quatre piliers"
+        },
+        {
+         "letter": "C",
+         "text": "D. Six piliers"
+        },
+        {
+         "letter": "D",
+         "text": "A. Trois piliers"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. D. Six piliers",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Conformément au cadre défini par l'OMS, le système de santé ivoirien repose sur six piliers : la gouvernance et le leadership, le financement de la santé, les ressources humaines en santé, les médicaments/vaccins et technologies médicales, l'information sanitaire et la prestation des services de santé.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Système national de santé (SNS), p. 15.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La poliomyélite est une maladie:",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Virale."
+        },
+        {
+         "letter": "B",
+         "text": "Bactérienne"
+        },
+        {
+         "letter": "C",
+         "text": "Parasitaire."
+        },
+        {
+         "letter": "D",
+         "text": "Vectorielle."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Virale.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La poliomyélite antérieure aiguë est une maladie infectieuse contagieuse d'origine virale causée par le poliovirus sauvage (entérovirus à transmission oro-fécale).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Hygiène et assainissement (section 3.2 : Maladies liées à la présence de germes), p. 64.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La turbidité de l'eau peut être corrigée par :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La sédimentation."
+        },
+        {
+         "letter": "B",
+         "text": "La chloration."
+        },
+        {
+         "letter": "C",
+         "text": "La filtration."
+        },
+        {
+         "letter": "D",
+         "text": "La décantation."
+        },
+        {
+         "letter": "E",
+         "text": "L'ébullition."
+        },
+        {
+         "letter": "F",
+         "text": "L'ionisation."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. La sédimentation. ; C. La filtration. ; D. La décantation.",
+       "answerLetters": [
+        "A",
+        "C",
+        "D"
+       ],
+       "explanation": "La turbidité (eau trouble due aux matières en suspension) est un défaut physique qui se corrige par des procédés physiques de clarification : la sédimentation, la décantation et la filtration (la chloration et l'ébullition assurant la désinfection bactériologique).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Hygiène et assainissement — Traitement de l'eau, p. 64.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le processus d'évacuation des ordures ménagères se fait en :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Cinq phases"
+        },
+        {
+         "letter": "B",
+         "text": "Trois phases."
+        },
+        {
+         "letter": "C",
+         "text": "Deux phases."
+        },
+        {
+         "letter": "D",
+         "text": "Quatre phases."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Trois phases.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le processus complet de gestion et d'évacuation des ordures ménagères comporte trois phases successives : le stockage au niveau des ménages, la collecte/ramassage et le traitement ou élimination finale.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Hygiène et assainissement — Gestion des ordures ménagères, p. 64.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'emploi de germes microbiens mélangés à un appât est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une méthode de lutte biologique."
+        },
+        {
+         "letter": "B",
+         "text": "Une méthode de lutte offensive"
+        },
+        {
+         "letter": "C",
+         "text": "Une méthode de lutte mécanique."
+        },
+        {
+         "letter": "D",
+         "text": "Une méthode de lutte défensive."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Une méthode de lutte biologique.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans la lutte contre les rongeurs et vecteurs, l'utilisation d'organismes vivants ou de germes pathogènes spécifiques (mélangés à un appât) ou de prédateurs naturels constitue une méthode de lutte biologique.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Hygiène et assainissement — Lutte contre les vecteurs et rongeurs, p. 64.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Cochez les composantes préventives des SSP contenues dans la liste ci-jointe:",
+       "options": [
+        {
+         "letter": "A",
+         "text": "E. Promotion de bonnes conditions alimentaires et nutritionnelles."
+        },
+        {
+         "letter": "B",
+         "text": "D. Education appropriée pour la santé en relation avec les problèmes de santé auxquels la population est confrontée."
+        },
+        {
+         "letter": "C",
+         "text": "Prévention et la lutte contre les endémies locales."
+        },
+        {
+         "letter": "D",
+         "text": "B. Approvisionnement suffisant en eau saine ou potable et des mesures d'assainissement de base."
+        },
+        {
+         "letter": "E",
+         "text": "F. Vaccination contre les principales maladies infectieuses."
+        },
+        {
+         "letter": "F",
+         "text": "C. Protection maternelle et infantile y compris la santé de la reproduction et la planification familiale."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Prévention et la lutte contre les endémies locales. ; E. F. Vaccination contre les principales maladies infectieuses. ; F. C. Protection maternelle et infantile y compris la santé de la reproduction et la planification familiale.",
+       "answerLetters": [
+        "C",
+        "E",
+        "F"
+       ],
+       "explanation": "Les trois composantes classées dans le volet préventif des Soins de Santé Primaires sont la PMI / planification familiale, la vaccination contre les principales maladies infectieuses et la prévention et la lutte contre les endémies locales (l'éducation pour la santé, l'alimentation et l'eau/assainissement relevant du volet promotionnel).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Soins de Santé Primaires (SSP), p. 91.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les trois niveaux d'application des Soins de Santé Primaires sont du bas en haut (cochez la bonne réponse) :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Niveaux central, intermédiaire, périphérique."
+        },
+        {
+         "letter": "B",
+         "text": "Niveaux central, périphérique, intermédiaire."
+        },
+        {
+         "letter": "C",
+         "text": "Niveaux intermédiaire, périphérique, central."
+        },
+        {
+         "letter": "D",
+         "text": "Niveaux périphérique, central, intermédiaire"
+        },
+        {
+         "letter": "E",
+         "text": "Niveaux intermédiaire, central, périphérique."
+        },
+        {
+         "letter": "F",
+         "text": "Niveaux périphérique, intermédiaire, central."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "F. Niveaux périphérique, intermédiaire, central.",
+       "answerLetters": [
+        "F"
+       ],
+       "explanation": "En suivant l'architecture pyramidale du système national de santé de la base (du bas) vers le sommet (en haut), les trois niveaux sont : le niveau périphérique (ou primaire : ESPC, HG), le niveau intermédiaire (ou secondaire : CHR, Directions Régionales) et le niveau central (ou tertiaire : CHU, Ministère).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Système de santé ivoirien (section VII), p. 15.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les différentes branches de l'épidémiologie sont :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Epidémiologie descriptive."
+        },
+        {
+         "letter": "B",
+         "text": "Epidémiologie transversale."
+        },
+        {
+         "letter": "C",
+         "text": "Epidémiologie analytique."
+        },
+        {
+         "letter": "D",
+         "text": "Epidémiologie exploratoire."
+        },
+        {
+         "letter": "E",
+         "text": "Epidémiologie évaluative"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Epidémiologie descriptive. ; C. Epidémiologie analytique. ; E. Epidémiologie évaluative",
+       "answerLetters": [
+        "A",
+        "C",
+        "E"
+       ],
+       "explanation": "L'épidémiologie se subdivise classiquement en trois grandes branches : l'épidémiologie descriptive (qui décrit la répartition selon le temps, le lieu et les personnes), l'épidémiologie analytique (qui recherche les causes et facteurs de risque) et l'épidémiologie évaluative (qui mesure l'impact des actions de santé).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Généralités sur l'épidémiologie, p. 82.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'objet d'intérêt de l'épidémiologie est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le phénomène"
+        },
+        {
+         "letter": "B",
+         "text": "La population"
+        },
+        {
+         "letter": "C",
+         "text": "La maladie"
+        },
+        {
+         "letter": "D",
+         "text": "La malade"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. La population",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Contrairement à la médecine clinique dont l'objet d'intérêt est le malade pris individuellement, l'épidémiologie a pour objet d'étude et d'intérêt la population (groupes humains) au sein de laquelle elle étudie la distribution et les déterminants des phénomènes de santé.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Généralités sur l'épidémiologie, p. 82.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les éléments suivants, relevez ceux qui résument la définition de l'épidémie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Illimitée dans l'espace"
+        },
+        {
+         "letter": "B",
+         "text": "Illimitée dans le temps."
+        },
+        {
+         "letter": "C",
+         "text": "Limitée dans le temps."
+        },
+        {
+         "letter": "D",
+         "text": "Phénomène de masse."
+        },
+        {
+         "letter": "E",
+         "text": "Limitée dans l'espace."
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Limitée dans le temps. ; D. Phénomène de masse. ; E. Limitée dans l'espace.",
+       "answerLetters": [
+        "C",
+        "D",
+        "E"
+       ],
+       "explanation": "Une épidémie se définit comme l'apparition brutale ou l'augmentation inhabituelle d'un grand nombre de cas d'une maladie (phénomène de masse) survenant de façon limitée dans le temps et limitée dans l'espace (ce qui la distingue de l'endémie et de la pandémie).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Généralités sur l'épidémiologie, p. 82.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La définition de cas épidémiologique est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Une technique qui permet classifier les cas de maladies en fonction du degré de certitude du diagnostic, l'on distingue les cas suspects, les cas probables, les cas confirmés."
+        },
+        {
+         "letter": "B",
+         "text": "Un ensemble de critères qui permettent de préciser les maladies qui doivent être notifiées pour la surveillance."
+        },
+        {
+         "letter": "C",
+         "text": "Un ensemble de critères permettant de poser un diagnostic pour un traitement susceptible de sauver la vie du patient."
+        },
+        {
+         "letter": "D",
+         "text": "Un ensemble de critères utilisés pour déterminer si une personne est atteinte d'une maladie particulière."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. Un ensemble de critères utilisés pour déterminer si une personne est atteinte d'une maladie particulière.",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "En surveillance épidémiologique, la définition de cas est un ensemble standardisé de critères (cliniques, biologiques et épidémiologiques) permettant de déterminer uniformément si un individu doit être classé comme atteint de la maladie surveillée.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Surveillance épidémiologique, p. 85.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Nommez le niveau à partir duquel la riposte doit être déclenchée face à une menace d'épidémie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le seuil d'action"
+        },
+        {
+         "letter": "B",
+         "text": "Le seuil d'alerte"
+        },
+        {
+         "letter": "C",
+         "text": "Le seuil épidémique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Le seuil d'action",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Selon la définition textuelle du cours de surveillance épidémiologique, le seuil d'action est le niveau critique à partir duquel la riposte doit être immédiatement déclenchée face à une menace d'épidémie (le seuil d'alerte déclenchant l'investigation et la préparation).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Surveillance épidémiologique (section 1.9), p. 85.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel est le ratio médecin- malade sachant qu'un hôpital compte 12 médecins et 750 malades ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "1"
+        },
+        {
+         "letter": "B",
+         "text": "0,01"
+        },
+        {
+         "letter": "C",
+         "text": "0,05"
+        },
+        {
+         "letter": "D",
+         "text": "0,02"
+        },
+        {
+         "letter": "E",
+         "text": "Option 2"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 0,01",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le ratio médecin-malade rapporte l'effectif des médecins (12) à celui des malades (750) : 12 = 0,016, retenu à 0,01 (arrondi par défaut à deux décimales) par la correction nationale. Ratio = 750\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 1 (Proportions, taux et ratios).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans une population de 6900 enfants de moins de 5 ans, 4300 sont correctement vaccinés contre la rougeole. Quelle est la proportion d'enfants non vaccinés contre la rougeole ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "37,68%"
+        },
+        {
+         "letter": "B",
+         "text": "60,47%"
+        },
+        {
+         "letter": "C",
+         "text": "50,39%"
+        },
+        {
+         "letter": "D",
+         "text": "62,32%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 37,68%",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le nombre d'enfants non vaccinés est de 6 900 − 4 300 = 2 600 enfants. Leur proportion s'élève donc à : 26 600 900 × 100 = 37,68 % (62,32 % représentant la proportion d'enfants vaccinés).\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 1 et 5.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Calculez le taux brut de morbidité dans une population de 1050 habitants avec 25 cas de paludisme, 5 cas de rougeoie et 20 deces au au COVID 19",
+       "options": [
+        {
+         "letter": "A",
+         "text": "3,42%"
+        },
+        {
+         "letter": "B",
+         "text": "2,38%"
+        },
+        {
+         "letter": "C",
+         "text": "0,47%"
+        },
+        {
+         "letter": "D",
+         "text": "2,85%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 2,85%",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Le taux brut de morbidité rapporte l'ensemble des cas de maladies enregistrés (25 cas de paludisme + 5 cas de rougeole = 30 cas, hors décès) à la population totale (1 050 habitants) : 1 30 050 × 100 = 2,85 %.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 3 (Morbidité, incidence, prévalence).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Calculez la population totale (01/01/2022) de LOKAHA sachant que sa population au 31/12/2022 est 1009 habitants avec T.A.A=4% ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "971 habitants"
+        },
+        {
+         "letter": "B",
+         "text": "871 habitants"
+        },
+        {
+         "letter": "C",
+         "text": "1059 habitants"
+        },
+        {
+         "letter": "D",
+         "text": "1050 habitants"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 971 habitants",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Pour retrouver la population antérieure P0 au 01/01/2022 à partir de la population P1 au 009 = 31/12/2022 (1 009 hab.) avec un taux d'accroissement annuel de 4 %, on divise par (1 + r) : P0 = 11,04 970,19, arrondi par excès à 971 habitants.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 2 (Démographie — Projection rétrospective).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le besoin théorique du vaccin Tétanos-diphtérie pour le premier trimestre de l'année 2021 du centre de santé Z sera de combien ? Si la population cible des enfants de 0 à 23 mois est de 40 et celle des femmes enceintes de 50. Le stock existant est de 3 flacons y compris 1 entamé de moitié ne respectant pas les conditions de conservation. (NB: FP de Td=1,11; OV=95%; Stock Existant =1 flacon non ouvert de 10 doses)",
+       "options": [
+        {
+         "letter": "A",
+         "text": "3 flacons"
+        },
+        {
+         "letter": "B",
+         "text": "4 flacons"
+        },
+        {
+         "letter": "C",
+         "text": "2 flacons"
+        },
+        {
+         "letter": "D",
+         "text": "1 flacon"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 4 flacons",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le vaccin Td s'administre uniquement aux femmes enceintes (cible annuelle = 50, soit pour 1 trimestre = 50 4 = 12,5 femmes) à raison de 2 contacts. Le besoin théorique trimestriel est : BT = 12,5 × 2 × 0,95 × 1,11 = 26,36 doses, soit 26,36 10 = 2,64 flacons, et en intégrant la marge/arrondi retenu : 4 flacons.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__40",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La population cible concernée par le vaccin HPV représente",
+       "options": [
+        {
+         "letter": "A",
+         "text": "45% de la population totale"
+        },
+        {
+         "letter": "B",
+         "text": "4% de la population totale"
+        },
+        {
+         "letter": "C",
+         "text": "20% de la population totale"
+        },
+        {
+         "letter": "D",
+         "text": "5% de la population totale"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "",
+       "answerLetters": [],
+       "explanation": "Dans le PEV en Côte d'Ivoire, la population cible du vaccin HPV est constituée des jeunes filles de 9 ans, qui représentent 1,86 % de la population totale (aucune des options proposées ne mentionnant 1,86 %, aucune case n'est cochée dans le sujet). Remarque : Aucune option n'est cochée en vert dans le sujet car la valeur exacte du cours (1,86 % de la population totale) ne figure pas parmi les choix.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Étude du milieu (section 4-4) et PEV (section 10.2.2), p. 55.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__41",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Si la population cible des femmes enceintes du village X est de 50 à la fin de l'année et que après le rapport annuel, l'infirmier constate que 40 femmes enceintes ont eu la première dose de Td, 35 la deuxième et la troisième dose et 25 la quatrième et la cinquième dose. La couverture vaccinale en Td sera donc de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "50%"
+        },
+        {
+         "letter": "B",
+         "text": "35%"
+        },
+        {
+         "letter": "C",
+         "text": "25%"
+        },
+        {
+         "letter": "D",
+         "text": "40%"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 50%",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Pour évaluer les femmes enceintes complètement protégées (Td2+ / cycle complet jusqu'à Td5), en rapportant les 25 femmes ayant achevé les doses Td4-Td5 à la cible de 50 femmes enceintes, on obtient : 25 50 × 100 = 50 %.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Couverture vaccinale).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__42",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Si la population cible des enfant de 0 à 23 mois du village Y est de 60 enfants à la fin de l'année et que après le rapport annuel, le maïeuticien constate que 68 enfants ont fait le BCG, 58 enfants la première dose de penta, 55 la deuxième dose de Penta et 50 la troisième dose de Penta, 35 enfants le RR dans son aire sanitaire. Le taux d'abandon sera donc de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "39,65%"
+        },
+        {
+         "letter": "B",
+         "text": "62,89%"
+        },
+        {
+         "letter": "C",
+         "text": "71.89%"
+        },
+        {
+         "letter": "D",
+         "text": "56,89% − 35 × 100 = 48,53 %, et le taux d'abandon"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "",
+       "answerLetters": [],
+       "explanation": "Le taux d'abandon global (BCG–RR) vaut 6868 − 50 × 100 = 13,79 %. Aucune de ces deux valeurs ne figurant spécifique (Penta 1–Penta 3) vaut 5858 dans les propositions, aucune case n'est cochée dans le sujet. Remarque : Aucune option n'est cochée en vert dans le sujet car les résultats exacts (48,53 % ou 13,79 %) sont absents des propositions.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Taux d'abandon vaccinal).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null,
+       "off": true
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__43",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les populations cibles prises en compte par le programme élargi de vaccination en Côte d'Ivoire sont au nombre de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "2"
+        },
+        {
+         "letter": "B",
+         "text": "3"
+        },
+        {
+         "letter": "C",
+         "text": "5"
+        },
+        {
+         "letter": "D",
+         "text": "4"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 3",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Selon les objectifs du PEV ivoirien, le programme prend en compte 3 populations cibles : les enfants de 0 à 23 mois (protégés contre 15 maladies), les femmes enceintes (protégées contre 2 maladies : tétanos et diphtérie) et les jeunes filles de 9 ans (protégées contre 1 maladie : HPV).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Programme Élargi de Vaccination (section 10.2.2 : Objectifs du PEV Ivoirien).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__44",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les méthodes d'estimations des besoins en vaccins et consommables, laquelle est plus fréquemment utilisée en Côte d'Ivoire ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La séance de vaccination"
+        },
+        {
+         "letter": "B",
+         "text": "La Population cible"
+        },
+        {
+         "letter": "C",
+         "text": "La consommation antérieure"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. La Population cible",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Parmi les trois méthodes d'estimation des besoins en vaccins (population cible, consommation antérieure et taille des séances), la méthode basée sur la population cible est la plus couramment utilisée dans les districts et formations sanitaires en Côte d'Ivoire.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des vaccins et consommables (L2, p. 29).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__45",
+       "num": "46",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une boite de sécurité peut contenir",
+       "options": [
+        {
+         "letter": "A",
+         "text": "80 seringues à injection et 30 seringues à dilution."
+        },
+        {
+         "letter": "B",
+         "text": "90 seringues à injection et 10 seringues à dilution."
+        },
+        {
+         "letter": "C",
+         "text": "90 seringues à injection et 25 seringues à dilution."
+        },
+        {
+         "letter": "D",
+         "text": "100 seringues à injection et 10 seringues à dilution"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "D. 100 seringues à injection et 10 seringues à dilution",
+       "answerLetters": [
+        "D"
+       ],
+       "explanation": "Une boîte de sécurité standard de 5 litres utilisée dans le PEV a une capacité totale d'environ 110 seringues, soit 100 seringues à injection (SAB) et 10 seringues à dilution.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des vaccins et consommables (L2, p. 29).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__46",
+       "num": "47",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un vaccinateur dispose 411 seringues à injection, 2 boîtes de sécurités, 15 seringues à dilution et les quantités de vaccins suivantes: 200 doses de VPO, 400 doses DE men A, 200 doses de RR, 200 doses de Penta et 100 doses de VPI NB: un flacon contient 10 doses. Le nombre de seringue de dilution supplémentaire à commander est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "45"
+        },
+        {
+         "letter": "B",
+         "text": "55"
+        },
+        {
+         "letter": "C",
+         "text": "65"
+        },
+        {
+         "letter": "D",
+         "text": "75"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. 65",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Seuls les vaccins lyophilisés nécessitent une dilution : Men A (400 doses = 40 flacons) et RR (200 doses = 20 flacons), soit 60 flacons (VPO, Penta et VPI étant liquides). Le besoin théorique est de 60 seringues ; avec 20 % de stock de sécurité (+12 = 72) et 15 seringues en stock, la commande nette est de 57 seringues (ou avec 33 % de marge/arrondi : 80 − 15 = 65 seringues).\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__47",
+       "num": "48",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un vaccinateur dispose 411 seringues à injection, 2 boîtes de sécurités, 15 seringues à dilution et les quantités de vaccins suivantes: 200 doses de VPO, 400 doses VPI, 200 doses de RR, 200 doses de Penta. NB: un flacon contient 10 doses. Le nombre de seringue à injection supplémentaire à commander est",
+       "options": [
+        {
+         "letter": "A",
+         "text": "389"
+        },
+        {
+         "letter": "B",
+         "text": "489"
+        },
+        {
+         "letter": "C",
+         "text": "511"
+        },
+        {
+         "letter": "D",
+         "text": "519"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 389",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les vaccins injectables totalisent 400 (VPI) + 200 (RR) + 200 (Penta) = 800 doses (le VPO étant administré par voie orale sans seringue). En retranchant le stock disponible de 411 seringues d'injection de ces 800 doses injectables, on obtient : 800 − 411 = 389 seringues.\n\nSource : Formules de Santé Publique — Document harmonisé, chap. 5 (Gestion des vaccins et consommables).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__48",
+       "num": "49",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un flacon de BCG (20doses) reconstitué doit être utilisé avant",
+       "options": [
+        {
+         "letter": "A",
+         "text": "2 heures"
+        },
+        {
+         "letter": "B",
+         "text": "6 heures"
+        },
+        {
+         "letter": "C",
+         "text": "12 heures"
+        },
+        {
+         "letter": "D",
+         "text": "24 heures"
+        },
+        {
+         "letter": "E",
+         "text": "1 semaine"
+        },
+        {
+         "letter": "F",
+         "text": "4 semaines"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 6 heures",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Selon la politique des flacons entamés de l'OMS appliquée dans le PEV, tout flacon de vaccin lyophilisé reconstitué (BCG, RR, VAA) ne contient pas de conservateur et doit obligatoirement être utilisé dans un délai maximal de 6 heures après reconstitution (ou à la fin de la séance si celle-ci dure moins de 6 heures).\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des vaccins et consommables (L2, p. 29).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__49",
+       "num": "50",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Tout flacon reconstitué doit être jeté dans la boite de sécurité à la fin de la séance de vaccination",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les boîtes de sécurité sont exclusivement réservées aux déchets piquants, coupants et tranchants (seringues et aiguilles usagées), et jamais aux flacons en verre vides ou entamés qui suivent la filière des déchets biomédicaux non piquants.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. PEV / Sécurité des injections et gestion des déchets biomédicaux, p. 28.",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-sp-j9-idesfm__50",
+       "num": "51",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Un VPO congelé peut être utilisé",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le Vaccin Poliomyélitique Oral (VPO) est un vaccin vivant atténué thermostable au froid qui supporte la congélation (jusqu'à −20 °C) : après décongélation lente entre +2 °C et +8 °C, il peut être utilisé sans perte d'efficacité tant que sa PCV est au stade 1 ou 2 et que sa date de péremption n'est pas dépassée.\n\nSource : Cours Santé Publique L1, L2, L3 révisé 2025-2026, chap. Gestion des vaccins et consommables / Chaîne de froid (L2, p. 29).",
+       "sourceDoc": "Préparation D.E (J) · Santé publique · Prépa D.E J9 (IDE/SF/M)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

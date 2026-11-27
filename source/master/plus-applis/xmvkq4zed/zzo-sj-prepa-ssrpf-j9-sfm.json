@@ -1,0 +1,1890 @@
+{
+ "app": "xmvkq4zed",
+ "id": "zzo-sj-prepa-ssrpf-j9-sfm",
+ "titre": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+ "session": "J",
+ "annee": 2026,
+ "nq": 55,
+ "nsuj": 1,
+ "origines": [
+  {
+   "fichier": "prepa-de-2026/J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+   "sha256": "c1e8c2d8402d3b954a7c6fc159ceb6b02b83cb88c53adce6ddd9268aa4b95034"
+  }
+ ],
+ "antennes": [
+  {
+   "name": "J DE PRÉPARATION AU D.E",
+   "slug": "j-preparation-de",
+   "session": "J",
+   "annee": 2026,
+   "existe": true,
+   "sujets": [
+    {
+     "name": "J SSR / PF · Prépa D.E J9 (SFM)",
+     "slug": "prepa-ssrpf-j9-sfm",
+     "pages": "",
+     "count": 55,
+     "session": "J",
+     "annee": 2026,
+     "matiere": "SSR / PF",
+     "source": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+     "questions": [
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__0",
+       "num": "1",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Au cours de l'évaluation EADS, le prestataire doit commencer la discussion par les questions les moins embarrassantes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Dans l'évaluation psychosociale de l'adolescent selon l'outil EADS (Environnement, Activités, Drogues/Dépression, Sexualité), le prestataire commence toujours par les domaines les moins sensibles (environnement familial, études, loisirs) avant d'aborder les sujets intimes (sexualité, consommation de substances) afin de mettre l'adolescent en confiance.\n\nSource : Cours SSR-PF — Santé de la reproduction des adolescents et jeunes (SRAJ) : grille EADS.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__1",
+       "num": "2",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le droit à la confidentialité est exclusivement réservé aux adultes.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Tout usager des services de santé de la reproduction et de planification familiale, y compris les adolescents et les jeunes, bénéficie pleinement du droit à la confidentialité et au secret professionnel (sauf danger grave et imminent pour le mineur).\n\nSource : Cours SSR-PF — Droits des clients en planification familiale et SRAJ.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__2",
+       "num": "3",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le terme « sexe » est utilisé seulement chez les humains.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "VARI"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le « sexe » désigne les caractéristiques biologiques, anatomiques et physiologiques qui différencient les mâles et les femelles chez l'ensemble des êtres vivants (humains, animaux, végétaux), contrairement au « genre » qui est une construction sociale propre à l'être humain.\n\nSource : Cours SSR-PF — Concepts de base : différence entre sexe et genre.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__3",
+       "num": "4",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le rôle de reproduction est généralement réservé aux hommes dans la communauté.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans l'analyse de genre, le rôle reproductif (grossesse, accouchement, allaitement, soins aux enfants et travaux domestiques) est socialement et biologiquement assumé principalement par les femmes, tandis que les hommes sont traditionnellement cantonnés au rôle productif.\n\nSource : Cours SSR-PF — Approche Genre et rôles sociaux (productif, reproductif, communautaire).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__4",
+       "num": "5",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les familles, les femmes sont les premières à se lever et les dernières à se coucher.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Ce constat illustre la surcharge de travail quotidienne des femmes liée au cumul des tâches domestiques, reproductives et productives dans l'analyse de l'emploi du temps selon le genre.\n\nSource : Cours SSR-PF — Analyse de genre : profil d'activités et charge de travail.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__5",
+       "num": "6",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le but de la réception est de s'assurer uniquement de la quantité des produits reçus.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Lors de la réception des produits de santé de la reproduction, le contrôle porte à la fois sur la quantité livrée (conforme au bon de livraison/commande) et sur la qualité des produits (intégrité des emballages, numéros de lot, dates de péremption, conditions de conservation).\n\nSource : Cours SSR-PF — Gestion logistique : procédure de réception des produits.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__6",
+       "num": "7",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le but de la réception est de s'assurer uniquement de la quantité des produits reçus.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La réception exige une double vérification quantitative et qualitative (état physique des boîtes, dates d'expiration et conformité avec le bordereau de livraison). Remarque : question en double avec la question 6 dans le sujet.\n\nSource : Cours SSR-PF — Gestion logistique : procédure de réception des produits.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__7",
+       "num": "8",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le stock disponible et utilisable est le stock qui s'obtient après inventaire.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le stock disponible et utilisable (SDU) correspond à la quantité réelle de produits sains, non périmés et non avariés physiquement présents dans le magasin ou la pharmacie, telle que constatée lors de l'inventaire physique.\n\nSource : Cours SSR-PF — Gestion logistique : inventaire et stock disponible utilisable (SDU).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__8",
+       "num": "9",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'hystéromètre est indispensable dans la pose de DIU d'intervalle.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Avant la pose d'un DIU d'intervalle, l'hystérométrie (mesure de la profondeur et de la direction de la cavité utérine à l'aide d'un hystéromètre gradué) est une étape indispensable pour vérifier la perméabilité du canal cervical, éliminer une cavité trop petite (< 6 cm) et régler le curseur du tube inséreur.\n\nSource : Cours SSR-PF — Technique d'insertion du DIU d'intervalle.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__9",
+       "num": "10",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Le DIU au cuivre peut être utilisé comme contraceptif d'urgence.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le DIU au cuivre (TCu 380A) est la méthode de contraception d'urgence la plus efficace (taux de succès > 99 %) lorsqu'il est inséré dans les 5 jours (120 heures) suivant un rapport sexuel non protégé, tout en assurant ensuite une contraception régulière de longue durée.\n\nSource : Cours SSR-PF — Contraception d'urgence (DIU au cuivre).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__10",
+       "num": "11",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Si on planifie l'insertion du DIU post-placentaire après un accouchement par voie basse, la GATPA doit être proscrite.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "La Gestion Active de la Troisième Phase de l'Accouchement (GATPA : injection d'ocytocine, traction contrôlée du cordon et massage utérin) doit être pratiquée systématiquement chez toutes les accouchées, y compris en cas d'insertion d'un DIU post-placentaire, car elle prévient l'hémorragie du postpartum sans empêcher la pose du DIU.\n\nSource : Cours SSR-PF — Insertion du DIU post-placentaire (DIUPP) et GATPA.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__11",
+       "num": "12",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'un des signes avertisseurs en cas de ligature des trompes est la survenue des symptômes de grossesse.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Bien que la ligature des trompes soit une méthode très efficace, un rare échec expose à un risque élevé de grossesse extra-utérine (GEU) ; la survenue de signes sympathiques de grossesse, d'un retard de règles ou de douleurs pelviennes constitue donc un signe d'alerte imposant une consultation immédiate.\n\nSource : Cours SSR-PF — Contraception chirurgicale volontaire (signes avertisseurs).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__12",
+       "num": "13",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Après l'insertion post-placentaire du DIU, le prestataire ne doit pas ajuster les fils.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Lors de l'insertion post-placentaire du DIU, l'utérus est très volumineux et les fils restent haut situés dans la cavité utérine ou le canal cervical ; il ne faut ni tirer dessus ni tenter de les couper/ajuster immédiatement, car ils descendront spontanément lors de l'involution utérine.\n\nSource : Cours SSR-PF — Technique d'insertion du DIU post-placentaire.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__13",
+       "num": "14",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les hormones contenues dans l'anneau contraceptif sont absorbées par l'épithélium vaginal.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Placé dans le vagin, l'anneau vaginal combiné libère en continu de faibles doses d'éthinylestradiol et d'étonogestrel qui sont directement absorbées à travers la muqueuse (épithélium) vaginale pour passer dans la circulation sanguine générale.\n\nSource : Cours SSR-PF — L'anneau vaginal contraceptif combiné.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__14",
+       "num": "15",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'anneau vaginal protège contre le cancer du col de l'utérus.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les contraceptifs hormonaux combinés (dont l'anneau vaginal) réduisent le risque de cancer de l'endomètre et de l'ovaire, mais ne protègent ni contre les infections à HPV ni contre le cancer du col de l'utérus.\n\nSource : Cours SSR-PF — Avantages non contraceptifs et limites de l'anneau vaginal.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__15",
+       "num": "16",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les CHP contiennent une faible quantité d'œstrogène.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les contraceptifs hormonaux progestatifs seuls (CHP : pilules progestatives, injectables progestatifs, implants, SIU-LNG) ne contiennent exclusivement qu'un progestatif de synthèse et sont totalement dépourvus d'œstrogènes.\n\nSource : Cours SSR-PF — Classification des contraceptifs hormonaux (CHC vs CHP).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__16",
+       "num": "17",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'implant doit toujours être posé sur le bras gauche.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "L'implant sous-cutané s'insère à la face interne du bras non dominant de la cliente (le bras gauche chez une droitière, mais le bras droit chez une gauchère) afin de minimiser la gêne fonctionnelle après la pose.\n\nSource : Cours SSR-PF — Technique d'insertion des implants sous-cutanés.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__17",
+       "num": "18",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "L'utilisation répétée de spermicides peut provoquer des ruptures de la muqueuse vaginale.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "L'usage fréquent et répété de spermicides (notamment à base de nonoxynol-9) peut irriter et provoquer des microlésions ou ruptures de l'épithélium vaginal, ce qui augmente paradoxalement le risque de transmission du VIH chez les femmes exposées.\n\nSource : Cours SSR-PF — Effets secondaires et précautions d'emploi des spermicides.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__18",
+       "num": "19",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La santé de la reproduction ne prend en compte que les femmes séropositives au VIH/sida.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Faux",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Selon la définition de la CIPD (Le Caire, 1994), la santé de la reproduction concerne le bien-être physique, mental et social de tous les individus (femmes, hommes, adolescents, personnes âgées) tout au long de leur vie, quel que soit leur statut sérologique.\n\nSource : Cours SSR-PF — Définition et cibles de la Santé de la Reproduction.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__19",
+       "num": "20",
+       "type": "QCD",
+       "typeLabel": "QCD",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "La Sulfadoxine-Pyriméthamine est un produit de la SR.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vrai"
+        },
+        {
+         "letter": "B",
+         "text": "Faux"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vrai",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "La Sulfadoxine-Pyriméthamine (SP), utilisée dans le Traitement Préventif Intermittent (TPI) du paludisme chez la femme enceinte lors des consultations prénatales (volet maternité à moindre risque), fait partie de la liste des médicaments et produits traceurs de la Santé de la Reproduction.\n\nSource : Cours SSR-PF — Composantes de la SR et gestion logistique des produits de SR.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__20",
+       "num": "21",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "À l'adolescence des changements physiques et sociaux surviennent, cochez parmi les propositions celles qui sont du domaine social.",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Pilosité"
+        },
+        {
+         "letter": "B",
+         "text": "Nouvelles règles d'habillement"
+        },
+        {
+         "letter": "C",
+         "text": "Rites de passage à l'âge adulte"
+        },
+        {
+         "letter": "D",
+         "text": "Accélération de la croissance"
+        },
+        {
+         "letter": "E",
+         "text": "Développement des seins"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Nouvelles règles d'habillement ; C. Rites de passage à l'âge adulte",
+       "answerLetters": [
+        "B",
+        "C"
+       ],
+       "explanation": "Les nouvelles exigences vestimentaires et les rites initiatiques ou culturels de passage à l'âge adulte relèvent des transformations sociales et culturelles de l'adolescence, tandis que la pilosité, la poussée de croissance staturale et le développement mammaire sont des transformations biologiques et physiques de la puberté.\n\nSource : Cours SSR-PF — Modifications physiques, psychologiques et sociales à l'adolescence.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__21",
+       "num": "22",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quel est le processus d'adoption d'un nouveau comportement ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Information, approbation, décision, action, promotion"
+        },
+        {
+         "letter": "B",
+         "text": "Information, décision, approbation, action, promotion"
+        },
+        {
+         "letter": "C",
+         "text": "Approbation, décision, action, information, promotion"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Information, approbation, décision, action, promotion",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le processus d'adoption d'un comportement favorable à la santé suit 5 étapes chronologiques : l'Information (connaissance), l'Approbation (adhésion morale), la Décision (intention), l'Action (mise en pratique) et la Promotion (diffusion autour de soi).\n\nSource : Cours SSR-PF — Communication pour le Changement de Comportement (CCC).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__22",
+       "num": "23",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les éléments suivants, relevez celle qui est une cause de violence hospitalière ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Indisponibilité du personnel soignant"
+        },
+        {
+         "letter": "B",
+         "text": "Mauvais traitement"
+        },
+        {
+         "letter": "C",
+         "text": "Inégalité dans la distribution des postes"
+        },
+        {
+         "letter": "D",
+         "text": "Inégalité dans les prises des décisions familiales"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Mauvais traitement",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les violences hospitalières et obstétricales s'expriment directement par les mauvais traitements infligés aux patients (brutalité verbale ou physique, humiliation, manque de respect de l'intimité et soins sans consentement).\n\nSource : Cours SSR-PF — Violences Basées sur le Genre (violences institutionnelles).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__23",
+       "num": "24",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quelle est la bonne séquence des étapes dans la chaîne logistique pharmaceutique ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Commande - Réception - Stockage - Distribution"
+        },
+        {
+         "letter": "B",
+         "text": "Stockage - Commande - Réception - Distribution"
+        },
+        {
+         "letter": "C",
+         "text": "Réception - Stockage - Commande - Distribution"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Commande - Réception - Stockage - Distribution",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Au niveau d'une structure sanitaire, le cycle opérationnel d'approvisionnement suit l'ordre logique suivant : estimation des besoins et Commande, Réception et contrôle des produits livrés, Stockage dans de bonnes conditions, puis Distribution/dispensation aux clients.\n\nSource : Cours SSR-PF — Cycle de la chaîne logistique des produits de SR.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__24",
+       "num": "25",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "À quoi sert le stock de sécurité dans une pharmacie de santé de la reproduction ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Réduire les coûts de stockage"
+        },
+        {
+         "letter": "B",
+         "text": "Prévenir les ruptures de stock"
+        },
+        {
+         "letter": "C",
+         "text": "Éviter les surstockages"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Prévenir les ruptures de stock",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le stock de sécurité (ou stock tampon) est une réserve minimale maintenue en permanence pour faire face aux retards imprévus de livraison ou à une hausse soudaine de la consommation, afin d'éviter toute rupture de stock.\n\nSource : Cours SSR-PF — Niveaux de stock en gestion logistique.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__25",
+       "num": "26",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les clientes ci-dessous, quelle est celle qui peut recevoir le DIU ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Zransseu est au 28ème jour du cycle menstruel"
+        },
+        {
+         "letter": "B",
+         "text": "Gnonhebla est au 18ème jour du cycle menstruel"
+        },
+        {
+         "letter": "C",
+         "text": "Guela est à la veille des menstrues"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Guela est à la veille des menstrues",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Selon la correction nationale de la Prépa DE (les J), Guela étant à la veille de ses menstrues (hors période ovulatoire et sans retard de règles évocateur de grossesse, ou dans le cadre des 12 premiers/derniers jours selon l'approche classique), elle peut recevoir le DIU.\n\nSource : Cours SSR-PF — Critères d'insertion du DIU d'intervalle.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__26",
+       "num": "27",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Mariane a reçu le DIU le 12 septembre le jour de son accouchement, à partir de quelle date elle pourra faire vérifier la descente des fils du DIU au CSU ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Quatorze semaines après l'insertion"
+        },
+        {
+         "letter": "B",
+         "text": "Six semaines après l'insertion"
+        },
+        {
+         "letter": "C",
+         "text": "Douze semaines après l'insertion"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Six semaines après l'insertion",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Après une insertion du DIU dans le post-partum immédiat, la visite de contrôle systématique est programmée à 6 semaines après l'accouchement (coïncidant avec la consultation post-natale) afin de vérifier la descente des fils au spéculum et de les recouper à la bonne longueur.\n\nSource : Cours SSR-PF — Calendrier de suivi du DIU post-partum (DIUPP).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__27",
+       "num": "28",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lequel des énoncés suivants est indispensable à chaque visite de suivi d'une cliente sous DIU ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vérifier sa compréhension sur le DIU et lui demander si elle a des questions."
+        },
+        {
+         "letter": "B",
+         "text": "Dire à la cliente pour combien de temps elle devrait garder son DIU."
+        },
+        {
+         "letter": "C",
+         "text": "Effectuer un examen gynécologique pour comparer les fils ou une partie du DIU extériorisée."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Vérifier sa compréhension sur le DIU et lui demander si elle a des questions.",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Lors de toute visite de suivi sous DIU, l'étape systématique et indispensable consiste à s'enquérir de la satisfaction de la cliente, vérifier sa bonne compréhension de la méthode et répondre à ses questions ou préoccupations ; l'examen pelvien au spéculum n'est pas systématique à chaque visite en l'absence de symptômes.\n\nSource : Cours SSR-PF — Visites de suivi des utilisatrices de DIU.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__28",
+       "num": "29",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lequel des énoncés suivants décrit la catégorie prudence dans la stérilisation masculine ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Attendre que l'état pathologique soit évalué"
+        },
+        {
+         "letter": "B",
+         "text": "Il n'y a aucune raison d'accepter la méthode"
+        },
+        {
+         "letter": "C",
+         "text": "Offrir avec beaucoup de précautions"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Offrir avec beaucoup de précautions",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Dans la classification OMS pour la stérilisation chirurgicale (A-P-D-R), la catégorie « Prudence » (P) signifie que l'intervention peut être pratiquée dans un établissement de routine, mais en prenant des précautions et préparations supplémentaires adaptées à l'état du patient (ex. hydrocèle, varicocèle, diabète). « Attendre que l'état soit évalué » correspond à la catégorie « Différer ».\n\nSource : Cours SSR-PF — Critères d'éligibilité médicale pour la vasectomie.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__29",
+       "num": "30",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans la contraception d'urgence, quelle est la période d'administration de Ovrette ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Dans les 120 heures après les rapports sexuels"
+        },
+        {
+         "letter": "B",
+         "text": "Dans les 72 heures après les rapports sexuels"
+        },
+        {
+         "letter": "C",
+         "text": "Dans les 48 heures après les rapports sexuels"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Dans les 72 heures après les rapports sexuels",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les pilules progestatives utilisées en contraception d'urgence (lévonorgestrel ou norgestrel tel que l'Ovrette® selon le protocole de rattrapage) doivent être administrées le plus tôt possible et au plus tard dans les 72 heures (3 jours) suivant le rapport sexuel non protégé.\n\nSource : Cours SSR-PF — Protocoles de contraception d'urgence hormonale.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__30",
+       "num": "31",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les contraceptifs suivants, quel est celui que le prestataire doit proscrire après un avortement septique ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Ovrette"
+        },
+        {
+         "letter": "B",
+         "text": "DIU"
+        },
+        {
+         "letter": "C",
+         "text": "Jadelle"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. DIU",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Après un avortement septique (compliqué d'infection pelvienne), l'insertion immédiate d'un DIU est formellement proscrite (catégorie 4 de l'OMS), alors que les contraceptifs progestatifs (Ovrette, implant Jadelle) peuvent être initiés sans risque.\n\nSource : Cours SSR-PF — Contraception dans les soins après avortement (SAA).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__31",
+       "num": "32",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Gnohela sous COC doit prendre un BARBITURIQUE ; pourquoi doit-elle prendre une méthode d'appoint ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Effet contraceptif diminué des COC avec la prise du barbiturique"
+        },
+        {
+         "letter": "B",
+         "text": "Effet contraceptif des COC augmenté avec la prise du barbiturique"
+        },
+        {
+         "letter": "C",
+         "text": "Effet du barbiturique diminué avec la prise des COC"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Effet contraceptif diminué des COC avec la prise du barbiturique",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les barbituriques (comme le phénobarbital, ainsi que la rifampicine et certains anticonvulsivants) sont de puissants inducteurs enzymatiques hépatiques qui accélèrent le métabolisme et l'élimination des hormones des COC, diminuant ainsi leur efficacité contraceptive et imposant une méthode d'appoint (préservatif).\n\nSource : Cours SSR-PF — Interactions médicamenteuses des contraceptifs oraux combinés.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__32",
+       "num": "33",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lorsque l'utilisatrice des COP prend le comprimé du jour avec plus de 3 heures de retard, que doit-elle faire ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Continuer la plaquette sans prendre de dispositions particulières."
+        },
+        {
+         "letter": "B",
+         "text": "Arrêter la prise des pilules et attendre les règles pour entamer une autre plaquette."
+        },
+        {
+         "letter": "C",
+         "text": "Utiliser une méthode d'appoint si elle a des rapports sexuels dans les 48 heures."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Utiliser une méthode d'appoint si elle a des rapports sexuels dans les 48 heures.",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Pour les pilules progestatives seules (COP), un retard supérieur à 3 heures annule temporairement l'imperméabilité de la glaire cervicale : la cliente doit prendre immédiatement le comprimé oublié, continuer la plaquette et utiliser une méthode d'appoint (ou s'abstenir) pendant les 48 heures suivantes.\n\nSource : Cours SSR-PF — Gestion de l'oubli des contraceptifs oraux progestatifs (COP).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__33",
+       "num": "34",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Une cliente sous contraceptif oral progestatif qui a des spottings doit :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Revenir au centre de PF"
+        },
+        {
+         "letter": "B",
+         "text": "Arrêter la prise des comprimés"
+        },
+        {
+         "letter": "C",
+         "text": "Changer de méthode contraceptive"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Revenir au centre de PF",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Bien que les saignements irréguliers (spottings) soient fréquents et bénins sous contraceptifs progestatifs seuls, la cliente ne doit pas arrêter brutalement ses pilules d'elle-même ; elle doit revenir au centre de PF pour être rassurée, examinée (éliminer une grossesse ou une infection) et bénéficier d'une prise en charge adaptée.\n\nSource : Cours SSR-PF — Gestion des effets secondaires des contraceptifs progestatifs.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__34",
+       "num": "35",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Quels sont les gestes à proscrire lors de l'utilisation du condom ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Utiliser un nouveau condom à chaque rapport sexuel"
+        },
+        {
+         "letter": "B",
+         "text": "Enfiler le condom sur le pénis en érection"
+        },
+        {
+         "letter": "C",
+         "text": "Ouvrir le sachet de préservatif avec une paire de ciseaux"
+        },
+        {
+         "letter": "D",
+         "text": "Lubrifier avec de la vaseline"
+        },
+        {
+         "letter": "E",
+         "text": "Vérifier la date de péremption"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Ouvrir le sachet de préservatif avec une paire de ciseaux ; D. Lubrifier avec de la vaseline",
+       "answerLetters": [
+        "C",
+        "D"
+       ],
+       "explanation": "Il est formellement proscrit d'ouvrir l'emballage avec des ciseaux, les dents ou un objet tranchant (risque de déchirer le latex) et d'utiliser des lubrifiants à base d'huile comme la vaseline (qui altèrent et fragilisent le latex, favorisant la rupture du préservatif).\n\nSource : Cours SSR-PF — Précautions d'emploi du préservatif masculin.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__35",
+       "num": "36",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les indicateurs suivants décrivent le dynamisme de la population, quel est celui qui prend en compte le taux de mortalité infantile ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Indicateur socio-économique"
+        },
+        {
+         "letter": "B",
+         "text": "Indicateur sanitaire"
+        },
+        {
+         "letter": "C",
+         "text": "Indicateur démographique"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Indicateur sanitaire",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le taux de mortalité infantile est classé parmi les indicateurs sanitaires permettant d'apprécier l'état de santé de la mère et de l'enfant ainsi que la qualité de l'offre de soins.\n\nSource : Cours SSR-PF — Indicateurs de santé de la reproduction.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__36",
+       "num": "37",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, quels sont les obstacles économiques de la PF ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le coût des services de PF"
+        },
+        {
+         "letter": "B",
+         "text": "Les mariages précoces"
+        },
+        {
+         "letter": "C",
+         "text": "L'effet de mode"
+        },
+        {
+         "letter": "D",
+         "text": "Le manque de moyens financiers."
+        },
+        {
+         "letter": "E",
+         "text": "Les coutumes"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Le coût des services de PF ; D. Le manque de moyens financiers.",
+       "answerLetters": [
+        "A",
+        "D"
+       ],
+       "explanation": "Parmi les obstacles à l'utilisation des services de planification familiale, le coût des prestations/produits (et du transport) ainsi que le manque de moyens financiers (pauvreté des ménages) relèvent des obstacles économiques, tandis que les mariages précoces et les coutumes sont des obstacles socioculturels.\n\nSource : Cours SSR-PF — Obstacles à l'utilisation des services de planification familiale.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__37",
+       "num": "38",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Les critères médicaux d'éligibilité permettent de :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Classer les méthodes en fonction de leur mode d'action"
+        },
+        {
+         "letter": "B",
+         "text": "D'améliorer la qualité et l'utilisation des méthodes et services de PF."
+        },
+        {
+         "letter": "C",
+         "text": "Prendre en charge les effets secondaires de la méthode"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. D'améliorer la qualité et l'utilisation des méthodes et services de PF.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Les critères de recevabilité médicale établis par l'OMS visent à lever les barrières médicales injustifiées et à garantir la sécurité des clientes, améliorant ainsi l'accès, la qualité et l'utilisation des services de planification familiale.\n\nSource : Cours SSR-PF — Objectifs des critères d'éligibilité médicale de l'OMS.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__38",
+       "num": "39",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Dans les catégories pour la stérilisation féminine et les catégories pour les méthodes basées sur la connaissance de la fécondité, la catégorie accepter signifie :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Les avantages l'emportent généralement sur les risques"
+        },
+        {
+         "letter": "B",
+         "text": "Offrir la méthode avec beaucoup de précautions"
+        },
+        {
+         "letter": "C",
+         "text": "Aucune raison médicale de refuser la méthode"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Aucune raison médicale de refuser la méthode",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Dans la grille A-P-D-R (Accepter, Prudence, Différer, Référer) propre à la stérilisation chirurgicale et aux méthodes basées sur la connaissance de la fécondité, la catégorie « Accepter » (A) signifie qu'il n'existe aucune raison médicale de refuser la méthode au client dans un cadre de soins habituel.\n\nSource : Cours SSR-PF — Classification OMS (A-P-D-R) pour la CCV et les MBCF.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__39",
+       "num": "40",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Parmi les propositions suivantes, quelle est celle qui va à l'encontre d'un choix libre et éclairé du client ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "La non disponibilité de la gamme des méthodes contraceptives"
+        },
+        {
+         "letter": "B",
+         "text": "Le respect de tout client"
+        },
+        {
+         "letter": "C",
+         "text": "Absence de matériel d'IEC/CCC"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. La non disponibilité de la gamme des méthodes contraceptives",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le choix libre et éclairé exige que le client puisse choisir volontairement parmi un éventail complet de méthodes contraceptives disponibles ; la rupture ou l'indisponibilité de la gamme des méthodes restreint directement cette liberté de choix.\n\nSource : Cours SSR-PF — Droits du client et choix libre et éclairé.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__40",
+       "num": "41",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Lesquelles des questions suivantes sont des questions ouvertes ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Vous rappelez-vous de ce qu'il faut faire si vous avez oublié une pilule ?"
+        },
+        {
+         "letter": "B",
+         "text": "Que pensez-vous de l'utilisation de la pilule ?"
+        },
+        {
+         "letter": "C",
+         "text": "Réalisez-vous que la stérilisation féminine est permanente ?"
+        },
+        {
+         "letter": "D",
+         "text": "Que ressentiriez-vous de ne pas avoir d'autres enfants ?"
+        },
+        {
+         "letter": "E",
+         "text": "Avez-vous entendu parler du DIU ?"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "B. Que pensez-vous de l'utilisation de la pilule ? ; D. Que ressentiriez-vous de ne pas avoir d'autres enfants ?",
+       "answerLetters": [
+        "B",
+        "D"
+       ],
+       "explanation": "Une question ouverte invite le client à s'exprimer librement sur ses opinions, sentiments ou expériences (« Que pensez-vous... ? », « Que ressentiriez-vous... ? »), contrairement aux questions fermées auxquelles on répond simplement par « oui » ou par « non ».\n\nSource : Cours SSR-PF — Techniques de communication et d'entretien en counseling.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__41",
+       "num": "42",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Pour la plupart des clients, la meilleure méthode de PF est :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Celle que le prestataire de santé pense être la meilleure pour un client particulier"
+        },
+        {
+         "letter": "B",
+         "text": "Celle que le client choisit après avoir pris connaissance de toutes les méthodes disponibles."
+        },
+        {
+         "letter": "C",
+         "text": "Celle qui est la plus efficace"
+        },
+        {
+         "letter": "D",
+         "text": "Celle qui convient le mieux au prestataire."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Celle que le client choisit après avoir pris connaissance de toutes les méthodes disponibles.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Selon le principe fondamental du counseling en planification familiale, la meilleure méthode contraceptive est celle que le client (ou le couple) choisit librement de manière éclairée après avoir reçu des informations complètes sur toutes les méthodes éligibles, car elle garantit la meilleure observance et continuité d'utilisation.\n\nSource : Cours SSR-PF — Principes fondamentaux du counseling en PF.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__42",
+       "num": "43",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Mme Zou qui utilise la méthode des jours fixes a vu ses menstrues le 12 juin ; à quelle date l'anneau noir était sur la 9ème perle blanche ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Le 24 juin"
+        },
+        {
+         "letter": "B",
+         "text": "Le 19 juin"
+        },
+        {
+         "letter": "C",
+         "text": "Le 27 juin"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Le 27 juin",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Sur le Collier du Cycle, les 7 premières perles (1 perle rouge + 6 perles marron) correspondent aux jours 1 à 7 du cycle, et les perles blanches débutent au 8e jour (1re perle blanche = J8). La 9e perle blanche correspond donc au 8 + 8 = 16e jour du cycle. Avec J1 le 12 juin, le 16e jour correspond au 12 + 15 = 27 juin.\n\nSource : Cours SSR-PF — Utilisation et calcul sur le Collier du Cycle (MJF).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__43",
+       "num": "44",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Mme GUEL a pu identifier son cycle court qui a une durée de 28 jours et son cycle long 30 jours. Quelle est la durée de sa période fertile ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "10 jours"
+        },
+        {
+         "letter": "B",
+         "text": "12 jours"
+        },
+        {
+         "letter": "C",
+         "text": "14 jours"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. 10 jours",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "D'après la méthode du calendrier d'Ogino-Knaus : début de la période fertile = cycle court − 18 = 28 − 18 = 10e jour ; fin de la période fertile = cycle long − 11 = 30 − 11 = 19e jour. Du 10e au 19e jour inclus, la durée de la période fertile est de (19 − 10) + 1 = 10 jours.\n\nSource : Cours SSR-PF — Calcul de la période fertile selon Ogino-Knaus.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__44",
+       "num": "45",
+       "type": "QCM",
+       "typeLabel": "QCM",
+       "partieTitle": null,
+       "caseTitle": null,
+       "caseData": null,
+       "text": "Mme Zébré utilisatrice de la méthode de la température basale du corps, elle doit savoir que la période non fertile part :",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Du 5ème jour après la montée thermique jusqu'aux prochaines règles."
+        },
+        {
+         "letter": "B",
+         "text": "Du 4ème jour après la montée thermique jusqu'aux prochaines règles."
+        },
+        {
+         "letter": "C",
+         "text": "Du 6ème jour après la montée thermique jusqu'aux prochaines règles."
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Du 4ème jour après la montée thermique jusqu'aux prochaines règles.",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Dans la méthode des températures basales du corps, l'ovulation est confirmée après 3 jours consécutifs de plateau thermique élevé (+0,2 à +0,5 °C par rapport aux 6 températures basses précédentes) ; la phase post-ovulatoire non fertile débute donc le soir du 3e jour ou au 4ème jour de température haute jusqu'aux prochaines règles.\n\nSource : Cours SSR-PF — Méthode de la température basale du corps (TBC).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__45",
+       "num": "46",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 : Mlle Necemon étudiante à l'INFAS est sous COC ; en allant en stage dans la ville où réside son mari a oublié de prendre sa plaquette de pilules. Cependant elle se rappelle qu'elle avait entamé les comprimés de couleur marron.",
+       "text": "Est-ce qu'elle peut contracter une grossesse si le jour de son arrivée elle a des rapports sexuels ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "NON"
+        },
+        {
+         "letter": "B",
+         "text": "OUI"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. NON",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les 7 comprimés de couleur marron d'une plaquette de 28 comprimés sont des comprimés inactifs (placebo contenant du fer) correspondant à la période d'arrêt entre deux plaquettes : tant que la patiente a pris régulièrement les 21 comprimés actifs précédents et entame la plaquette suivante à la date prévue, elle reste protégée pendant toute la semaine des comprimés marron.\n\nSource : Cours SSR-PF — Utilisation des plaquettes de COC à 28 comprimés.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__46",
+       "num": "47",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 : Mlle Necemon étudiante à l'INFAS est sous COC ; en allant en stage dans la ville où réside son mari a oublié de prendre sa plaquette de pilules. Cependant elle se rappelle qu'elle avait entamé les comprimés de couleur marron.",
+       "text": "Quelle doit être sa conduite à tenir ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Utiliser une méthode de barrière mécanique"
+        },
+        {
+         "letter": "B",
+         "text": "Prendre une pilule du lendemain"
+        },
+        {
+         "letter": "C",
+         "text": "Pas de dispositions particulières"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Pas de dispositions particulières",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "L'oubli des comprimés inactifs (de couleur marron) n'ayant aucune incidence sur l'efficacité contraceptive, aucune mesure particulière ni contraception d'urgence n'est requise durant cette semaine, à condition de débuter une nouvelle plaquette dès la fin des 7 jours.\n\nSource : Cours SSR-PF — Conduite à tenir en cas d'oubli des comprimés placebos (marron).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__47",
+       "num": "48",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 : Mlle Necemon étudiante à l'INFAS est sous COC ; en allant en stage dans la ville où réside son mari a oublié de prendre sa plaquette de pilules. Cependant elle se rappelle qu'elle avait entamé les comprimés de couleur marron.",
+       "text": "Quel est le mode d'action des pilules de Mlle Necemon ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Bloque l'ovulation, épaissit la glaire cervicale, rend l'endomètre impropre à la nidation"
+        },
+        {
+         "letter": "B",
+         "text": "Bloque l'ovulation, tue les spermatozoïdes, rend l'endomètre impropre à la nidation"
+        },
+        {
+         "letter": "C",
+         "text": "Bloque partiellement l'ovulation, tue les spermatozoïdes, rend l'endomètre impropre à la nidation"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. Bloque l'ovulation, épaissit la glaire cervicale, rend l'endomètre impropre à la nidation",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Les contraceptifs oraux combinés (COC) agissent à trois niveaux complémentaires : ils bloquent l'ovulation (action antigonadotrope centrale inhibant le pic de LH), épaississent la glaire cervicale (empêchant l'ascension des spermatozoïdes) et atrophient l'endomètre (le rendant impropre à la nidation). Ils n'ont pas d'action spermicide directe.\n\nSource : Cours SSR-PF — Mécanisme d'action des contraceptifs oraux combinés.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__48",
+       "num": "49",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 : Mlle Necemon étudiante à l'INFAS est sous COC ; en allant en stage dans la ville où réside son mari a oublié de prendre sa plaquette de pilules. Cependant elle se rappelle qu'elle avait entamé les comprimés de couleur marron.",
+       "text": "À quel moment Mlle Necemon doit débuter une nouvelle plaquette de pilules ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "À la fin des menstrues"
+        },
+        {
+         "letter": "B",
+         "text": "Dès la survenue des menstrues"
+        },
+        {
+         "letter": "C",
+         "text": "Le lendemain de la prise du dernier comprimé marron"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Le lendemain de la prise du dernier comprimé marron",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Avec une présentation de 28 comprimés, les plaquettes s'enchaînent sans aucun jour d'interruption : la nouvelle plaquette doit impérativement être débutée le lendemain du 7e comprimé marron (c'est-à-dire au 8e jour après le dernier comprimé actif), que les saignements de privation soient terminés ou non.\n\nSource : Cours SSR-PF — Enchaînement des plaquettes de COC (28 comprimés).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__49",
+       "num": "50",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°1 : Mlle Necemon étudiante à l'INFAS est sous COC ; en allant en stage dans la ville où réside son mari a oublié de prendre sa plaquette de pilules. Cependant elle se rappelle qu'elle avait entamé les comprimés de couleur marron.",
+       "text": "En plus du COC, quelle méthode Mlle Necemon peut prendre pour éviter de contracter une IST",
+       "options": [
+        {
+         "letter": "A",
+         "text": "DIU"
+        },
+        {
+         "letter": "B",
+         "text": "Fémidon"
+        },
+        {
+         "letter": "C",
+         "text": "Implant"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. Fémidon",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Pour assurer la double protection (prévention des grossesses par les COC + protection contre les IST/VIH), elle doit associer une méthode barrière mécanique telle que le préservatif masculin ou le préservatif féminin (Fémidon®). Le DIU et l'implant ne protègent pas contre les IST.\n\nSource : Cours SSR-PF — La double protection (préservatif féminin / Fémidon).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__50",
+       "num": "51",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 : Mme Droh est une jeune femme de 22 ans avec 4 enfants. Elle voudrait une méthode de très longue durée, réversible qui lui sera administrée après la délivrance.",
+       "text": "À quelle méthode pensez-vous ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "DIU au cuivre"
+        },
+        {
+         "letter": "B",
+         "text": "Ligature des trompes"
+        },
+        {
+         "letter": "C",
+         "text": "MAMA"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "A. DIU au cuivre",
+       "answerLetters": [
+        "A"
+       ],
+       "explanation": "Le dispositif intra-utérin (DIU) au cuivre TCu 380A est la seule méthode contraceptive réversible de très longue durée pouvant être insérée immédiatement après la délivrance (la ligature des trompes est définitive/irréversible, et la MAMA n'est valable que 6 mois).\n\nSource : Cours SSR-PF — Planification familiale du post-partum immédiat.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__51",
+       "num": "52",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 : Mme Droh est une jeune femme de 22 ans avec 4 enfants. Elle voudrait une méthode de très longue durée, réversible qui lui sera administrée après la délivrance.",
+       "text": "Quelle est la durée d'action du contraceptif ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "6 mois"
+        },
+        {
+         "letter": "B",
+         "text": "12 ans"
+        },
+        {
+         "letter": "C",
+         "text": "À vie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "B. 12 ans",
+       "answerLetters": [
+        "B"
+       ],
+       "explanation": "Le dispositif intra-utérin au cuivre TCu 380A assure une protection contraceptive efficace pendant une durée maximale de 10 à 12 ans (retenue à 12 ans dans les normes actualisées de PF).\n\nSource : Cours SSR-PF — Caractéristiques et durée d'efficacité du DIU TCu 380A.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__52",
+       "num": "53",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 : Mme Droh est une jeune femme de 22 ans avec 4 enfants. Elle voudrait une méthode de très longue durée, réversible qui lui sera administrée après la délivrance.",
+       "text": "Après l'accouchement normal, à quels moments le prestataire pourra lui administrer la méthode ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Dans les 10 minutes qui suivent l'accouchement"
+        },
+        {
+         "letter": "B",
+         "text": "De 48 heures à 4 semaines"
+        },
+        {
+         "letter": "C",
+         "text": "Un an après l'accouchement"
+        },
+        {
+         "letter": "D",
+         "text": "6 semaines après l'accouchement"
+        },
+        {
+         "letter": "E",
+         "text": "Dans les 48 heures qui suivent l'accouchement"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "A. Dans les 10 minutes qui suivent l'accouchement ; E. Dans les 48 heures qui suivent l'accouchement",
+       "answerLetters": [
+        "A",
+        "E"
+       ],
+       "explanation": "Dans les suites immédiates d'un accouchement par voie basse, le DIU peut être inséré soit dans les 10 minutes suivant l'expulsion du placenta (insertion post-placentaire), soit dans les 48 heures suivant l'accouchement (insertion post-partum immédiate) ; entre 48 heures et 4 semaines, la pose est contre-indiquée.\n\nSource : Cours SSR-PF — Créneaux d'insertion du DIU dans le post-partum.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__53",
+       "num": "54",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 : Mme Droh est une jeune femme de 22 ans avec 4 enfants. Elle voudrait une méthode de très longue durée, réversible qui lui sera administrée après la délivrance.",
+       "text": "Comment appelle-t-on ces deux types d'insertion ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Insertion per césarienne"
+        },
+        {
+         "letter": "B",
+         "text": "Insertion d'intervalle"
+        },
+        {
+         "letter": "C",
+         "text": "Insertion post-partum immédiate"
+        },
+        {
+         "letter": "D",
+         "text": "Insertion per césarienne"
+        },
+        {
+         "letter": "E",
+         "text": "Insertion post-placentaire"
+        }
+       ],
+       "mode": "mcq",
+       "multi": true,
+       "answer": "C. Insertion post-partum immédiate ; E. Insertion post-placentaire",
+       "answerLetters": [
+        "C",
+        "E"
+       ],
+       "explanation": "L'insertion effectuée dans les 10 minutes suivant la délivrance s'appelle l'insertion postplacentaire, et celle effectuée après ces 10 minutes jusqu'à 48 heures après l'accouchement s'appelle l'insertion post-partum immédiate.\n\nSource : Cours SSR-PF — Terminologie des insertions du DIU du post-partum.",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      },
+      {
+       "id": "j-preparation-de__prepa-ssrpf-j9-sfm__54",
+       "num": "55",
+       "type": "CAS_CLINIQUE",
+       "typeLabel": "Étude de cas / Cas clinique",
+       "partieTitle": "Cas clinique",
+       "caseTitle": "Cas clinique",
+       "caseData": "ÉTUDE DE CAS N°2 : Mme Droh est une jeune femme de 22 ans avec 4 enfants. Elle voudrait une méthode de très longue durée, réversible qui lui sera administrée après la délivrance.",
+       "text": "Après l'évaluation la condition suivante ne permet pas d'insérer le DIU à Mme Droh ; quelle est celle-ci ?",
+       "options": [
+        {
+         "letter": "A",
+         "text": "Accouchement gémellaire"
+        },
+        {
+         "letter": "B",
+         "text": "Rupture artificielle des membranes de moins de quatre heures."
+        },
+        {
+         "letter": "C",
+         "text": "Hémorragie du post-partum non maîtrisée"
+        },
+        {
+         "letter": "D",
+         "text": "Épisiotomie"
+        }
+       ],
+       "mode": "mcq",
+       "multi": false,
+       "answer": "C. Hémorragie du post-partum non maîtrisée",
+       "answerLetters": [
+        "C"
+       ],
+       "explanation": "Les contre-indications spécifiques à la pose immédiate d'un DIU dans le post-partum sont l'infection ovulaire/chorioamniotite (rupture des membranes > 18 heures), la fièvre puerpérale et l'hémorragie du post-partum non maîtrisée (qui impose d'abord l'hémostase et la réanimation). L'accouchement gémellaire, une rupture des membranes de moins de 4 heures et une épisiotomie réparée n'empêchent pas la pose.\n\nSource : Cours SSR-PF — Contre-indications du DIU post-partum (DIUPP).",
+       "sourceDoc": "Préparation D.E (J) · SSR / PF · Prépa D.E J9 (SFM)",
+       "sourceFile": "J1_a_J10_SFM_IDE_fusionne_corrige_explique.pdf",
+       "sourcePage": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
