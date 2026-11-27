@@ -3786,7 +3786,11 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
   if(typeof RIC==='undefined'||!RIC.url||!RIC.key||!navigator.onLine||(typeof EDITMODE!=='undefined'&&EDITMODE)||(!LECTURE&&RIC.off&&RIC.off()))return;const t=Date.now();if(!force&&t-derC<10*60e3)return;derC=t;
   /* seulement ce qui a changé depuis la dernière liste (corrections_depuis, supabase/outils/3_corrections_delta.sql) ;
      liste complète si aucune liste gardée, si elle a plus de 7 jours, si le nombre ne correspond pas, ou si la fonction manque */
-  const H={apikey:RIC.key,'Content-Type':'application/json'},cur=lireC();let meta=null;try{meta=JSON.parse(localStorage.getItem(CK+'_t')||'null')}catch(e){}
+  const H={apikey:RIC.key,'Content-Type':'application/json'};let cur=lireC(),meta=null;try{meta=JSON.parse(localStorage.getItem(CK+'_t')||'null')}catch(e){}
+  /* socle livré avec l'appli (corrections.json, tools/corrections_socle.py) : pas de liste complète depuis Supabase (données Supabase),
+     seulement les corrections publiées ou annulées depuis sa date */
+  if(!Array.isArray(cur)||!meta||!meta.t||t-(meta.at||0)>7*864e5){try{const rs=await fetch('corrections.json');if(rs.ok){const so=await rs.json();
+   if(so&&so.t&&Array.isArray(so.a)&&so.a.length===so.n){cur=so.a;meta={t:so.t,at:t,socle:1}}}}catch(e){}}
   const dep=p=>fetch(RIC.url+'/rest/v1/rpc/corrections_depuis',{method:'POST',headers:H,body:JSON.stringify({p_t:p})}).catch(()=>({ok:false}));   /* erreur réseau ou fonction absente : liste complète comme avant */
   let L=null,nt=null;const neuf=!Array.isArray(cur)||!meta||!meta.t||t-(meta.at||0)>7*864e5;
   let r=await dep(neuf?null:meta.t);
@@ -3794,8 +3798,12 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
    if(j&&Array.isArray(j.a)&&!neuf){const M=new Map(cur.map(x=>[x.qid,x]));(j.r||[]).forEach(q=>M.delete(q));j.a.forEach(x=>M.set(x.qid,x));L=[...M.values()].sort((a,b)=>a.id-b.id);
     if(L.length!==j.n){L=null;r=await dep(null);j=r.ok?await r.json():null;if(j&&Array.isArray(j.a)){L=j.a;nt={t:j.t,at:t}}}else nt={t:j.t,at:meta.at}}
    else if(j&&Array.isArray(j.a)){L=j.a;nt={t:j.t,at:t}}}
-  if(!L){r=await fetch(RIC.url+'/rest/v1/rpc/corrections_actives',{method:'POST',headers:H,body:'{}'});if(!r.ok)return;L=await r.json();if(!Array.isArray(L))return;nt=null}
-  const avant=JSON.stringify(cur||[]);CORR=L;try{localStorage.setItem(CK,JSON.stringify(L));if(nt)localStorage.setItem(CK+'_t',JSON.stringify(nt));else localStorage.removeItem(CK+'_t')}catch(e){}
+  if(!L){r=await fetch(RIC.url+'/rest/v1/rpc/corrections_actives',{method:'POST',headers:H,body:'{}'}).catch(()=>({ok:false}));
+   if(r.ok){L=await r.json().catch(()=>null);if(!Array.isArray(L))L=null;nt=null}
+   /* Supabase injoignable ou bloqué : le socle seul (les corrections publiées jusqu'à la dernière version de l'appli) */
+   if(!L&&meta&&meta.socle&&Array.isArray(cur)){L=cur;nt={t:meta.t,at:0,socle:1}}
+   if(!L)return}
+  const avant=JSON.stringify(lireC()||[]);CORR=L;try{localStorage.setItem(CK,JSON.stringify(L));if(nt)localStorage.setItem(CK+'_t',JSON.stringify(nt));else localStorage.removeItem(CK+'_t')}catch(e){}
   if(JSON.stringify(L)!==avant){try{applyContent();render()}catch(e){}}}catch(e){}}
  window.riChargerCorrections=charger;
  try{appliquer()}catch(e){}
