@@ -2510,6 +2510,14 @@ const RIC={
  /* ---------- statistiques anonymes ---------- */
  function track(nom,props){if(RIC.off())return;try{const q=LS.get(RIC.QK,[]);q.push({nom,appareil:device(),props:Object.assign({fil:S&&S.fil||'',niv:S&&S.niv||''},S&&String(S.name||'').trim()?{nom:String(S.name).trim().slice(0,60)}:{},props||{}),created_at:new Date().toISOString()});LS.set(RIC.QK,q.slice(-300));flush()}catch(e){}}
  RIC.track=track;
+ /* arrivée depuis le site vitrine revisioninfas.org (liens …?src=vitrine&via=…) : un événement « arrivee_vitrine », puis l'adresse est nettoyée */
+ (function(){try{const u=new URL(location.href);if(u.searchParams.get('src')!=='vitrine')return;
+  const via=String(u.searchParams.get('via')||'').slice(0,30);let j='';const P=u.searchParams.get('sujet');
+  if(P){try{j=String(JSON.parse(decodeURIComponent(escape(atob(P.replace(/-/g,'+').replace(/_/g,'/'))))).t||'').slice(0,140)}catch(e){}}
+  u.searchParams.delete('src');u.searchParams.delete('via');history.replaceState(null,'',u.pathname+u.search+location.hash);
+  let n=0;   /* nouveau = téléphone qui n'a pas encore fait l'accueil de l'appli */
+  (function w(){if(++n>120)return;if(!window.PORTAIL_READY||typeof S==='undefined'){setTimeout(w,250);return}
+   track('arrivee_vitrine',{via,j,nouveau:S&&S.onb?0:1})})()}catch(e){}})();
  let flushing=false;
  async function flush(){if(flushing||!navigator.onLine)return;const q=LS.get(RIC.QK,[]);if(!q.length)return;flushing=true;
   try{await post('events',q.slice(0,100).map(e=>Object.assign({user_id:null},e)));LS.set(RIC.QK,LS.get(RIC.QK,[]).slice(Math.min(100,q.length)))}
@@ -2963,7 +2971,7 @@ function sujPrefixe(mid){const m=MATI[mid];return(m&&m.sujPrefixe)||SUJ_PREFIXE[
  const _titre=sujTitre;sujTitre=function(mid,k){const p=sujPrefixe(mid);if(p&&!vueSuj(MATI[mid]))return p+' '+(k+1);return _titre.apply(this,arguments)};
  const _liste=BLK['sujets.list'].html;BLK['sujets.list'].html=function(){let h=_liste.apply(this,arguments);const p=ctx&&ctx.id&&sujPrefixe(ctx.id);if(p&&(S.sujMode||'suj')==='suj')h=h.replace(/Sujet (\d+) · /g,(x,n)=>esc(p)+' '+n+' · ');return h};
  const _st=startSujet;startSujet=function(mid,k){const a=arguments,L=sujets(mid)[k];if(!L)return;
-  if(!sujPrefixe(mid)&&!(MATI[mid]&&MATI[mid].accueil))return _st.apply(this,a);   /* choix ordre / aléatoire : Prépa D.E et cours de la rubrique « DOCUMENT DE REVISION INFAS » */
+  if(window.__riLienSuj||(!sujPrefixe(mid)&&!(MATI[mid]&&MATI[mid].accueil)))return _st.apply(this,a);   /* lien direct ?sujet= : le quiz s'ouvre tout de suite, sans la fenêtre ordre / aléatoire */   /* choix ordre / aléatoire : Prépa D.E et cours de la rubrique « DOCUMENT DE REVISION INFAS » */
   if(typeof RIC!=='undefined'&&RIC.can&&!RIC.off()&&!RIC.can('matiere:'+mid+'/sujet:'+(k+1)))return _st.apply(this,a);
   let o=$('#riordre');if(o)o.remove();o=document.createElement('div');o.id='riordre';o.className='pmod';const pref=S.ordre==='alea'?'alea':'ordre';
   o.innerHTML=`<div class="pbox"><h3>📝 ${esc(sujTitre(mid,k))}</h3><div class="muted small">${((typeof RIC!=='undefined'&&RIC.libres&&RIC.libres(mid,k))||L).length} ${esc(Tx('or.q','questions'))}${S.timed?' · '+esc(Tx('or.timed','mode chronométré')):''}</div>
@@ -4126,12 +4134,15 @@ function riOuvrirResume(id){const m=MATI[id];if(!m)return;const key='matiere:'+i
   const mid=D.m;if(!w.ch&&typeof ensureX==='function'&&D.ids.some(id=>!QI[id])){w.ch=1;const L=[mid,'plus-'+mid,'plusnat-'+mid].filter(k=>typeof needX==='function'&&needX(k)).map(k=>ensureX(k));
    if(L.length){Promise.all(L).catch(()=>{}).then(()=>setTimeout(w,400));return}}
   try{sessionStorage.removeItem('ri_liensuj')}catch(e){}
+  /* sujet de l'autre groupe (auxiliaires ↔ IDE / SF / IADE) : caché pour cet élève → le dire clairement */
+  if(MATI[mid]&&MATI[mid].cloison){const aux=window.riFiliere&&riFiliere.estAuxMat(MATI[mid]);
+   toast(aux?Tx('psj.aux','🔒 Ce J est réservé aux auxiliaires de santé. Ton profil est « {f} ».',{f:S.fil||'—'}):Tx('psj.std','🔒 Ce J est réservé aux infirmiers et sages-femmes. Ton profil est « Auxiliaire de santé ».'),6000);return}
   const ids=D.ids.filter(id=>QI[id]);if(!ids.length||!MATI[mid]){toast(Tx('psj.nos','Ce sujet n’est plus dans cette version de l’appli.'));return}
   try{if(RIC.track)RIC.track('lien_sujet',{mat:mid,n:ids.length})}catch(e){}
   try{if(typeof FIL_APPLI!=='undefined'&&FIL_APPLI[MATI[mid].src]&&!RIC.off()&&!RIC.can('matiere:'+mid+'/appli')){RIC.paywall('matiere:'+mid+'/appli','Application complète · Premium');return}}catch(e){}
   /* même sujet que dans la liste du cours : il s'ouvre comme d'habitude (progression du sujet) */
   const set=new Set(ids),k=sujets(mid).findIndex(L=>L.length===ids.length&&L.every(id=>set.has(id)));
-  if(k>=0&&typeof startSujet==='function'){startSujet(mid,k);return}
+  if(k>=0&&typeof startSujet==='function'){window.__riLienSuj=1;try{startSujet(mid,k)}finally{window.__riLienSuj=0}return}
   startFil(mid,ids,D.t||Tx('psj.t','📤 Sujet partagé'),'prep')})()})();
 /* ======================= TEXTE MIS EN FORME (explications) · TITRES DES SUJETS (tableau de bord) =======================
    Le tableau de bord écrit [b]gras[/b] [i]italique[/i] [u]souligné[/u] [p]petit[/p] [g]grand[/g] [tg]très grand[/tg] :
